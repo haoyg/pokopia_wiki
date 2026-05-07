@@ -5,7 +5,7 @@ pages_build_output_dir = "out"
 [[d1_databases]]
 binding = "DB"
 database_name = "pokopia-db"
-database_id = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+database_id = "b2a8c21c-efbd-42af-ae65-76d6b9ce6fe9"
 
 [[r2_buckets]]
 binding = "MEDIA"
