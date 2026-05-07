@@ -1,44 +1,31 @@
-'use client'
+import { Metadata } from 'next'
+import newsData from '@/data/news.json'
 
-import { useEffect, useState } from 'react'
-
-interface NewsItem {
-  id: string
-  title: string
-  slug: string
-  category: string
-  excerpt: string
-  content: string
-  published_at: number
+interface Props {
+  params: Promise<{ slug: string }>
 }
 
-export default function NewsDetailPage({
-  params,
-}: {
-  params: Promise<{ slug: string }>
-}) {
-  const [news, setNews] = useState<NewsItem | null>(null)
-  const [loading, setLoading] = useState(true)
-  const [slug, setSlug] = useState<string>('')
+export async function generateStaticParams() {
+  return newsData.map((news) => ({
+    slug: news.slug,
+  }))
+}
 
-  useEffect(() => {
-    params.then((p) => setSlug(p.slug))
-  }, [params])
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { slug } = await params
+  const news = newsData.find((n) => n.slug === slug)
+  return {
+    title: news ? `${news.title} | Pokopia Portal` : 'News Not Found',
+  }
+}
 
-  useEffect(() => {
-    if (!slug) return
-    fetch(`/api/news/${slug}`)
-      .then((res) => res.json())
-      .then((data) => {
-        setNews(data)
-        if (data.title) document.title = `${data.title} | Pokopia Portal`
-        setLoading(false)
-      })
-      .catch(() => setLoading(false))
-  }, [slug])
+export default async function NewsDetailPage({ params }: Props) {
+  const { slug } = await params
+  const news = newsData.find((n) => n.slug === slug)
 
-  if (loading) return <p>Loading...</p>
-  if (!news) return <p>News not found</p>
+  if (!news) {
+    return <p>News not found</p>
+  }
 
   const date = new Date(news.published_at * 1000).toLocaleDateString()
 

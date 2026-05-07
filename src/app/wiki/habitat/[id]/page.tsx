@@ -1,74 +1,39 @@
-'use client'
+import { Metadata } from 'next'
+import habitatsData from '@/data/habitats.json'
+import pokemonData from '@/data/pokemon.json'
+import guidesData from '@/data/guides.json'
 
-import { useEffect, useState } from 'react'
-
-interface Habitat {
-  id: string
-  name: string
-  unlock_condition: string
-  spawn_list: string
-  weather: string
-  difficulty: string
-  resource_bonus: string
-}
-
-interface RelatedPokemon {
-  id: string
-  name: string
-  type: string
-}
-
-interface RelatedGuide {
-  id: string
-  title: string
-  slug: string
-}
-
-export default function HabitatDetailPage({
-  params,
-}: {
+interface Props {
   params: Promise<{ id: string }>
-}) {
-  const [habitat, setHabitat] = useState<Habitat | null>(null)
-  const [relatedPokemon, setRelatedPokemon] = useState<RelatedPokemon[]>([])
-  const [relatedGuides, setRelatedGuides] = useState<RelatedGuide[]>([])
-  const [loading, setLoading] = useState(true)
-  const [id, setId] = useState<string>('')
+}
 
-  useEffect(() => {
-    params.then((p) => setId(p.id))
-  }, [params])
+export async function generateStaticParams() {
+  return habitatsData.map((habitat) => ({
+    id: habitat.id,
+  }))
+}
 
-  useEffect(() => {
-    if (!id) return
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { id } = await params
+  const habitat = habitatsData.find((h) => h.id === id)
+  return {
+    title: habitat ? `${habitat.name} | Pokopia Portal` : 'Habitat Not Found',
+  }
+}
 
-    Promise.all([
-      fetch(`/api/habitats/${id}`),
-      fetch('/api/pokemon'),
-      fetch('/api/guides'),
-    ])
-      .then(([habRes, pokeRes, guideRes]) =>
-        Promise.all([habRes.json(), pokeRes.json(), guideRes.json()])
-      )
-      .then(([habData, pokeData, guideData]) => {
-        setHabitat(habData)
-        if (habData.name) document.title = `${habData.name} | Pokopia Portal`
-        // Filter pokemon that spawn in this habitat
-        const spawns = (habData.spawn_list || '').split(',')
-        const related = pokeData.filter((p: any) => spawns.includes(p.id))
-        setRelatedPokemon(related.slice(0, 4))
-        // Filter guides that mention this habitat
-        const guides = guideData.filter((g: any) =>
-          g.related_habitats?.includes(id)
-        )
-        setRelatedGuides(guides.slice(0, 3))
-        setLoading(false)
-      })
-      .catch(() => setLoading(false))
-  }, [id])
+export default async function HabitatDetailPage({ params }: Props) {
+  const { id } = await params
+  const habitat = habitatsData.find((h) => h.id === id)
 
-  if (loading) return <p>Loading...</p>
-  if (!habitat) return <p>Habitat not found</p>
+  if (!habitat) {
+    return <p>Habitat not found</p>
+  }
+
+  const spawns = (habitat.spawn_list || '').split(',')
+  const relatedPokemon = pokemonData.filter((p) => spawns.includes(p.id)).slice(0, 4)
+  const relatedGuides = guidesData.filter((g) =>
+    g.related_habitats?.includes(id)
+  ).slice(0, 3)
 
   return (
     <main style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>

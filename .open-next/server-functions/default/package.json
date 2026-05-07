@@ -1,0 +1,26 @@
+{
+  "name": "pokopia-portal",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "build:cf": "npm run build && npx @opennextjs/cloudflare build",
+    "deploy": "npm run build:cf && npx wrangler pages deploy .open-next/worker --project-name=pokopia-portal",
+    "preview": "npm run build:cf && npx wrangler pages dev .open-next/worker --port 8787"
+  },
+  "dependencies": {
+    "next": "^15.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@cloudflare/next-on-pages": "^1.0.0",
+    "@opennextjs/cloudflare": "^1.19.7",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.0.0",
+    "wrangler": "^4.0.0"
+  }
+}

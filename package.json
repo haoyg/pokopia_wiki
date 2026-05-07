@@ -5,10 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
     "deploy": "npm run build && npx wrangler pages deploy out",
-    "deploy:workers": "npx wrangler deploy"
+    "preview": "npm run dev"
   },
   "dependencies": {
     "next": "^15.0.0",
@@ -16,7 +14,6 @@
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
-    "@cloudflare/next-on-pages": "^1.0.0",
     "@types/node": "^22.0.0",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",

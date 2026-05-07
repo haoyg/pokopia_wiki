@@ -1,71 +1,37 @@
-'use client'
+import { Metadata } from 'next'
+import pokemonData from '@/data/pokemon.json'
+import guidesData from '@/data/guides.json'
 
-import { useEffect, useState } from 'react'
-
-interface Pokemon {
-  id: string
-  name: string
-  type: string
-  rarity: string
-  habitat: string
-  favorite_food: string
-  spawn_time: string
-  weather: string
-  specialty: string
-  skills: string
-  drops: string
-  description: string
-}
-
-interface RelatedGuide {
-  id: string
-  title: string
-  slug: string
-  category: string
-}
-
-export default function PokemonDetailPage({
-  params,
-}: {
+interface Props {
   params: Promise<{ id: string }>
-}) {
-  const [pokemon, setPokemon] = useState<Pokemon | null>(null)
-  const [relatedGuides, setRelatedGuides] = useState<RelatedGuide[]>([])
-  const [loading, setLoading] = useState(true)
-  const [id, setId] = useState<string>('')
+}
 
-  useEffect(() => {
-    params.then((p) => setId(p.id))
-  }, [params])
+export async function generateStaticParams() {
+  return pokemonData.map((pokemon) => ({
+    id: pokemon.id,
+  }))
+}
 
-  useEffect(() => {
-    if (!id) return
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { id } = await params
+  const pokemon = pokemonData.find((p) => p.id === id)
+  return {
+    title: pokemon ? `${pokemon.name} | Pokopia Portal` : 'Pokémon Not Found',
+    description: pokemon?.description,
+  }
+}
 
-    Promise.all([
-      fetch(`/api/pokemon/${id}`),
-      fetch('/api/guides'),
-    ])
-      .then(([pokemonRes, guidesRes]) =>
-        Promise.all([pokemonRes.json(), guidesRes.json()])
-      )
-      .then(([pokemonData, guidesData]) => {
-        setPokemon(pokemonData)
-        // Update document title
-        if (pokemonData.name) {
-          document.title = `${pokemonData.name} | Pokopia Portal`
-        }
-        // Filter guides that mention this pokemon
-        const related = guidesData.filter((g: any) =>
-          g.related_pokemon?.includes(id)
-        )
-        setRelatedGuides(related.slice(0, 3))
-        setLoading(false)
-      })
-      .catch(() => setLoading(false))
-  }, [id])
+export default async function PokemonDetailPage({ params }: Props) {
+  const { id } = await params
+  const pokemon = pokemonData.find((p) => p.id === id)
 
-  if (loading) return <p>Loading...</p>
-  if (!pokemon) return <p>Pokémon not found</p>
+  if (!pokemon) {
+    return <p>Pokémon not found</p>
+  }
+
+  const relatedGuides = guidesData.filter((g) =>
+    g.related_pokemon?.includes(id)
+  ).slice(0, 3)
 
   return (
     <main>

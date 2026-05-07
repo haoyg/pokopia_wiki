@@ -6,7 +6,8 @@
       "Bash(npx wrangler *)",
       "Bash(npm run *)",
       "Bash(rm src/app/news/\\\\[slug\\\\]/route.ts src/app/guides/\\\\[slug\\\\]/route.ts)",
-      "Bash(mkdir -p src/app/api/news/\\\\[slug\\\\] src/app/api/guides/\\\\[slug\\\\])"
+      "Bash(mkdir -p src/app/api/news/\\\\[slug\\\\] src/app/api/guides/\\\\[slug\\\\])",
+      "Bash(npx opennextjs-cloudflare *)"
     ]
   }
 }

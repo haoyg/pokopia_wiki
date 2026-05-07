@@ -1,69 +1,40 @@
-'use client'
+import { Metadata } from 'next'
+import guidesData from '@/data/guides.json'
+import habitatsData from '@/data/habitats.json'
+import pokemonData from '@/data/pokemon.json'
 
-import { useEffect, useState } from 'react'
-
-interface Guide {
-  id: string
-  title: string
-  slug: string
-  category: string
-  seo_keyword: string
-  content: string
-  related_pokemon: string
-  related_items: string
-  related_habitats: string
-}
-
-interface RelatedItem {
-  id: string
-  name: string
-  type?: string
-}
-
-export default function GuideDetailPage({
-  params,
-}: {
+interface Props {
   params: Promise<{ slug: string }>
-}) {
-  const [guide, setGuide] = useState<Guide | null>(null)
-  const [relatedPokemon, setRelatedPokemon] = useState<RelatedItem[]>([])
-  const [relatedHabitats, setRelatedHabitats] = useState<RelatedItem[]>([])
-  const [loading, setLoading] = useState(true)
-  const [slug, setSlug] = useState<string>('')
+}
 
-  useEffect(() => {
-    params.then((p) => setSlug(p.slug))
-  }, [params])
+export async function generateStaticParams() {
+  return guidesData.map((guide) => ({
+    slug: guide.slug,
+  }))
+}
 
-  useEffect(() => {
-    if (!slug) return
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { slug } = await params
+  const guide = guidesData.find((g) => g.slug === slug)
+  return {
+    title: guide ? `${guide.title} | Pokopia Portal` : 'Guide Not Found',
+    description: guide?.seo_keyword,
+  }
+}
 
-    Promise.all([
-      fetch(`/api/guides/${slug}`),
-      fetch('/api/pokemon'),
-      fetch('/api/habitats'),
-    ])
-      .then(([guideRes, pokeRes, habRes]) =>
-        Promise.all([guideRes.json(), pokeRes.json(), habRes.json()])
-      )
-      .then(([guideData, pokeData, habData]) => {
-        setGuide(guideData)
-        if (guideData.title) document.title = `${guideData.title} | Pokopia Portal`
-        // Related Pokemon
-        const pokeIds = (guideData.related_pokemon || '').split(',').filter(Boolean)
-        const relatedPoke = pokeData.filter((p: any) => pokeIds.includes(p.id))
-        setRelatedPokemon(relatedPoke)
-        // Related Habitats
-        const habIds = (guideData.related_habitats || '').split(',').filter(Boolean)
-        const relatedHab = habData.filter((h: any) => habIds.includes(h.id))
-        setRelatedHabitats(relatedHab)
-        setLoading(false)
-      })
-      .catch(() => setLoading(false))
-  }, [slug])
+export default async function GuideDetailPage({ params }: Props) {
+  const { slug } = await params
+  const guide = guidesData.find((g) => g.slug === slug)
 
-  if (loading) return <p>Loading...</p>
-  if (!guide) return <p>Guide not found</p>
+  if (!guide) {
+    return <p>Guide not found</p>
+  }
+
+  const pokeIds = (guide.related_pokemon || '').split(',').filter(Boolean)
+  const relatedPokemon = pokemonData.filter((p) => pokeIds.includes(p.id))
+
+  const habIds = (guide.related_habitats || '').split(',').filter(Boolean)
+  const relatedHabitats = habitatsData.filter((h) => habIds.includes(h.id))
 
   return (
     <main style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>

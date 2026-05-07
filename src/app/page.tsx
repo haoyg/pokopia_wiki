@@ -25,6 +25,29 @@ interface PokemonItem {
   rarity: string
 }
 
+const typeEmoji: Record<string, string> = {
+  'Fire': '🔥', 'Water': '💧', 'Grass': '🌿', 'Electric': '⚡',
+  'Ice': '❄️', 'Ghost': '👻', 'Dark': '🌑', 'Dragon': '🐉',
+  'Steel': '⚙️', 'Rock': '🪨', 'Ground': '🌍', 'Flying': '🕊️',
+  'Normal': '⚪', 'Poison': '☠️', 'Fairy': '✨', 'Crystal': '💎',
+}
+
+const categoryEmoji: Record<string, string> = {
+  'update': '🆕', 'patch': '🔧', 'event': '🎉', 'announcement': '📢',
+  'tier': '🏆', 'guides': '📖', 'farming': '🌾', 'team': '⚔️',
+}
+
+const rarityEmoji: Record<string, string> = {
+  'common': '⚪', 'uncommon': '🟢', 'rare': '🔵', 'legendary': '🟡',
+}
+
+function getTypeEmoji(type: string) {
+  for (const [key, emoji] of Object.entries(typeEmoji)) {
+    if (type.toLowerCase().includes(key.toLowerCase())) return emoji
+  }
+  return '⚡'
+}
+
 export default function Home() {
   const [news, setNews] = useState<NewsItem[]>([])
   const [guides, setGuides] = useState<GuideItem[]>([])
@@ -35,9 +58,9 @@ export default function Home() {
     async function fetchData() {
       try {
         const [newsRes, guidesRes, pokemonRes] = await Promise.all([
-          fetch('/api/news'),
-          fetch('/api/guides'),
-          fetch('/api/pokemon'),
+          fetch('/data/news.json'),
+          fetch('/data/guides.json'),
+          fetch('/data/pokemon.json'),
         ])
         const [newsData, guidesData, pokemonData] = await Promise.all([
           newsRes.json(),
@@ -80,12 +103,12 @@ export default function Home() {
         <p>Loading...</p>
       ) : (
         <>
-          <section className="latest-news">
-            <h2>Latest News</h2>
+          <section style={{ padding: '2rem', maxWidth: '1200px', margin: '0 auto' }}>
+            <h2 style={{ marginBottom: '1.5rem' }}>📰 Latest News</h2>
             <div className="news-grid">
               {news.map((item) => (
                 <a key={item.id} href={`/news/${item.slug}`} className="card">
-                  <span className={`badge ${item.category}`}>{item.category}</span>
+                  <span className={`badge ${item.category}`}>{categoryEmoji[item.category]} {item.category}</span>
                   <h3>{item.title}</h3>
                   <p>{item.excerpt}</p>
                 </a>
@@ -93,26 +116,29 @@ export default function Home() {
             </div>
           </section>
 
-          <section className="trending-guides">
-            <h2>Trending Guides</h2>
+          <section style={{ padding: '2rem', maxWidth: '1200px', margin: '0 auto' }}>
+            <h2 style={{ marginBottom: '1.5rem' }}>📖 Trending Guides</h2>
             <div className="guides-grid">
               {guides.map((item) => (
                 <a key={item.id} href={`/guides/${item.slug}`} className="card">
-                  <span className="badge">{item.category}</span>
+                  <span className="badge">{categoryEmoji[item.category] || '📖'} {item.category}</span>
                   <h3>{item.title}</h3>
                 </a>
               ))}
             </div>
           </section>
 
-          <section className="popular-pokemon">
-            <h2>Popular Pokémon</h2>
+          <section style={{ padding: '2rem', maxWidth: '1200px', margin: '0 auto' }}>
+            <h2 style={{ marginBottom: '1.5rem' }}>⚡ Popular Pokémon</h2>
             <div className="pokemon-grid">
               {pokemon.map((p) => (
                 <a key={p.id} href={`/wiki/pokemon/${p.id}`} className="card">
-                  <h3>{p.name}</h3>
-                  <p>{p.type}</p>
-                  <span className={`rarity ${p.rarity}`}>{p.rarity}</span>
+                  <div style={{ fontSize: '2.5rem', textAlign: 'center' }}>{getTypeEmoji(p.type)}</div>
+                  <h3 style={{ textAlign: 'center', marginTop: '0.5rem' }}>{p.name}</h3>
+                  <p style={{ textAlign: 'center', color: '#666', fontSize: '0.875rem' }}>{p.type}</p>
+                  <div style={{ textAlign: 'center', marginTop: '0.5rem' }}>
+                    <span className={`rarity ${p.rarity}`}>{rarityEmoji[p.rarity]}</span>
+                  </div>
                 </a>
               ))}
             </div>

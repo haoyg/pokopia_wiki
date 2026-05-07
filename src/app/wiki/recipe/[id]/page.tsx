@@ -1,38 +1,43 @@
-'use client'
+import { Metadata } from 'next'
+import recipesData from '@/data/recipes.json'
 
-import { useEffect, useState } from 'react'
-
-export default function RecipeDetailPage({
-  params,
-}: {
+interface Props {
   params: Promise<{ id: string }>
-}) {
-  const [recipe, setRecipe] = useState<any>(null)
-  const [loading, setLoading] = useState(true)
-  const [id, setId] = useState<string>('')
+}
 
-  useEffect(() => {
-    params.then((p) => setId(p.id))
-  }, [params])
+export async function generateStaticParams() {
+  return recipesData.map((recipe) => ({
+    id: recipe.id,
+  }))
+}
 
-  useEffect(() => {
-    if (!id) return
-    fetch(`/api/recipes/${id}`)
-      .then((res) => res.json())
-      .then((data) => {
-        setRecipe(data)
-        setLoading(false)
-      })
-      .catch(() => setLoading(false))
-  }, [id])
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { id } = await params
+  const recipe = recipesData.find((r) => r.id === id)
+  return {
+    title: recipe ? `${recipe.name} | Pokopia Portal` : 'Recipe Not Found',
+  }
+}
 
-  if (loading) return <p>Loading...</p>
-  if (!recipe) return <p>Recipe not found</p>
+export default async function RecipeDetailPage({ params }: Props) {
+  const { id } = await params
+  const recipe = recipesData.find((r) => r.id === id)
+
+  if (!recipe) {
+    return <p>Recipe not found</p>
+  }
 
   return (
     <main style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
+      <header>
+        <nav>
+          <a href="/">Home</a>
+          <a href="/wiki/recipe">Recipes</a>
+        </nav>
+      </header>
+
       <h1>{recipe.name}</h1>
-      <p>Rarity: {recipe.rarity}</p>
+      <span className={`rarity ${recipe.rarity}`}>{recipe.rarity}</span>
 
       <div style={{ marginTop: '2rem' }}>
         <h4>Ingredients</h4>
