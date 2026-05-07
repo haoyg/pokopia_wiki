@@ -64,6 +64,8 @@ export default function Home() {
           <a href="/news">News</a>
           <a href="/guides">Guides</a>
           <a href="/wiki/pokemon">Pokémon</a>
+          <a href="/wiki/habitat">Habitats</a>
+          <a href="/wiki/recipe">Recipes</a>
           <a href="/features">Features</a>
           <a href="/tools">Tools</a>
         </nav>
