@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 import pokemonData from '@/data/pokemon.json'
 import guidesData from '@/data/guides.json'
+import newsData from '@/data/news.json'
 
 interface Props {
   params: Promise<{ id: string }>
@@ -32,6 +33,7 @@ export default async function PokemonDetailPage({ params }: Props) {
   const relatedGuides = guidesData.filter((g) =>
     g.related_pokemon?.includes(id)
   ).slice(0, 3)
+  const recentNews = newsData.slice(0, 3)
 
   return (
     <main>
@@ -99,8 +101,14 @@ export default async function PokemonDetailPage({ params }: Props) {
           <p style={{ color: '#666' }}>No related guides yet.</p>
         )}
 
-        <h3 style={{ marginTop: '2rem' }}>Related News</h3>
-        <p style={{ color: '#666' }}>Check back for latest news.</p>
+        <h3 style={{ marginTop: '2rem' }}>Latest News</h3>
+        <ul style={{ marginTop: '1rem', paddingLeft: '1.5rem' }}>
+          {recentNews.map((n) => (
+            <li key={n.id} style={{ marginBottom: '0.5rem' }}>
+              <a href={`/news/${n.slug}`}>{n.title}</a>
+            </li>
+          ))}
+        </ul>
       </aside>
     </main>
   )

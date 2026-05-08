@@ -1,0 +1,46 @@
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#e94560"/>
+      <stop offset="100%" style="stop-color:#0f3460"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Decorative circles -->
+  <circle cx="100" cy="100" r="200" fill="#e94560" opacity="0.1"/>
+  <circle cx="1100" cy="530" r="250" fill="#0f3460" opacity="0.3"/>
+
+  <!-- Accent bar -->
+  <rect x="60" y="200" width="8" height="200" fill="url(#accent)"/>
+
+  <!-- Title -->
+  <text x="100" y="280" font-family="system-ui, -apple-system, sans-serif" font-size="72" font-weight="bold" fill="#ffffff">
+    POKOPIA
+  </text>
+  <text x="100" y="360" font-family="system-ui, -apple-system, sans-serif" font-size="36" fill="#e94560">
+    PORTAL
+  </text>
+
+  <!-- Subtitle -->
+  <text x="100" y="440" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#888888">
+    Guides • Pokemon Database • Habitat Maps • Recipes
+  </text>
+
+  <!-- Bottom decoration -->
+  <rect x="0" y="600" width="1200" height="30" fill="url(#accent)" opacity="0.5"/>
+
+  <!-- Pokeball icon -->
+  <g transform="translate(950, 150)">
+    <circle cx="100" cy="100" r="90" fill="#e94560"/>
+    <rect x="10" y="90" width="180" height="20" fill="#1a1a2e"/>
+    <circle cx="100" cy="100" r="90" fill="none" stroke="#1a1a2e" stroke-width="8"/>
+    <circle cx="100" cy="100" r="30" fill="#ffffff" stroke="#1a1a2e" stroke-width="8"/>
+  </g>
+</svg>

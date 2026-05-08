@@ -1,5 +1,6 @@
 import { Metadata } from 'next'
 import newsData from '@/data/news.json'
+import guidesData from '@/data/guides.json'
 import { ArticleJsonLd } from '@/components/seo/JsonLd'
 
 interface Props {
@@ -44,6 +45,8 @@ export default async function NewsDetailPage({ params }: Props) {
   }
 
   const date = new Date(news.published_at * 1000).toLocaleDateString()
+  const relatedNews = newsData.filter((n) => n.id !== news.id).slice(0, 3)
+  const relatedGuides = guidesData.slice(0, 3)
 
   return (
     <>
@@ -69,6 +72,26 @@ export default async function NewsDetailPage({ params }: Props) {
           <p style={{ marginTop: '1rem' }}>{news.excerpt}</p>
           <div style={{ marginTop: '2rem', lineHeight: '1.8' }}>{news.content}</div>
         </article>
+
+        <aside style={{ marginTop: '3rem', borderTop: '1px solid #ddd', paddingTop: '2rem' }}>
+          <h3>More News</h3>
+          <ul style={{ marginTop: '1rem', paddingLeft: '1.5rem' }}>
+            {relatedNews.map((n) => (
+              <li key={n.id} style={{ marginBottom: '0.5rem' }}>
+                <a href={`/news/${n.slug}`}>{n.title}</a>
+              </li>
+            ))}
+          </ul>
+
+          <h3 style={{ marginTop: '2rem' }}>Related Guides</h3>
+          <ul style={{ marginTop: '1rem', paddingLeft: '1.5rem' }}>
+            {relatedGuides.map((g) => (
+              <li key={g.id} style={{ marginBottom: '0.5rem' }}>
+                <a href={`/guides/${g.slug}`}>{g.title}</a>
+              </li>
+            ))}
+          </ul>
+        </aside>
       </main>
     </>
   )
