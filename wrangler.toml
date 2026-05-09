@@ -13,4 +13,4 @@ bucket_name = "pokopia-media"
 
 [[kv_namespaces]]
 binding = "CACHE"
-id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+id = "c4e7c61352e8417b93014b3da10291f7"

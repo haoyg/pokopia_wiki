@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     description: 'Guides, Pokemon database, habitat maps, recipes, and community builds for Pokopia.',
     images: [
       {
-        url: '/og-image.png',
+        url: '/og-image.svg',
         width: 1200,
         height: 630,
         alt: 'Pokopia Portal',
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Pokopia Portal',
     description: 'Your ultimate Pokopia wiki - guides, Pokemon database, and more.',
-    images: ['/og-image.png'],
+    images: ['/og-image.svg'],
   },
   robots: {
     index: true,
