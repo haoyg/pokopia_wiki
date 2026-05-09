@@ -32,7 +32,7 @@ export default async function HabitatDetailPage({ params }: Props) {
   const spawns = (habitat.spawn_list || '').split(',')
   const relatedPokemon = pokemonData.filter((p) => spawns.includes(p.id)).slice(0, 4)
   const relatedGuides = guidesData.filter((g) =>
-    g.related_habitats?.includes(id)
+    (g.related_habitats || '').split(',').includes(id)
   ).slice(0, 3)
 
   return (

@@ -18,7 +18,7 @@ export interface Habitat {
   id: string
   name: string
   unlock_condition: string
-  spawn_list: string[]
+  spawn_list: string   // CSV string, e.g. "pkm001,pkm002"
   recommended_build: string
   weather: string
   difficulty: 'easy' | 'medium' | 'hard'
@@ -42,9 +42,9 @@ export interface Guide {
   category: string
   seo_keyword: string
   content: string
-  related_pokemon: string[]
-  related_items: string[]
-  related_habitats: string[]
+  related_pokemon: string   // CSV string, e.g. "pkm001,pkm002"
+  related_items: string     // CSV string
+  related_habitats: string  // CSV string
 }
 
 export interface News {

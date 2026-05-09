@@ -31,7 +31,7 @@ export default async function PokemonDetailPage({ params }: Props) {
   }
 
   const relatedGuides = guidesData.filter((g) =>
-    g.related_pokemon?.includes(id)
+    (g.related_pokemon || '').split(',').includes(id)
   ).slice(0, 3)
   const recentNews = newsData.slice(0, 3)
 

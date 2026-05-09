@@ -30,7 +30,7 @@ export default async function RecipeDetailPage({ params }: Props) {
   }
 
   const relatedGuides = guidesData.filter((g) =>
-    g.related_items?.includes(id)
+    (g.related_items || '').split(',').includes(id)
   ).slice(0, 3)
 
   return (
