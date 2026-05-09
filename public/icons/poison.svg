@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="poison-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ab47bc"/>
+      <stop offset="100%" stop-color="#7b1fa2"/>
+    </linearGradient>
+  </defs>
+  <circle cx="50" cy="50" r="45" fill="url(#poison-grad)"/>
+  <circle cx="40" cy="40" r="10" fill="#e1bee7"/>
+  <circle cx="60" cy="40" r="10" fill="#e1bee7"/>
+  <circle cx="40" cy="40" r="5" fill="#4a148c"/>
+  <circle cx="60" cy="40" r="5" fill="#4a148c"/>
+  <path d="M35 60 Q50 55 65 60" stroke="#e1bee7" stroke-width="4" fill="none"/>
+  <path d="M40 65 L45 75 M50 63 L50 73 M55 65 L60 75" stroke="#e1bee7" stroke-width="2"/>
+</svg>

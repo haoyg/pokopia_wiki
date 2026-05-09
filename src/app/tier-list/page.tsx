@@ -1,12 +1,15 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
+import Image from 'next/image'
 import pokemonData from '@/data/pokemon.json'
 
-const typeEmoji: Record<string, string> = {
-  'Fire': '🔥', 'Water': '💧', 'Grass': '🌿', 'Electric': '⚡',
-  'Ice': '❄️', 'Ghost': '👻', 'Dark': '🌑', 'Dragon': '🐉',
-  'Steel': '⚙️', 'Rock': '🪨', 'Ground': '🌍', 'Flying': '🕊️',
-  'Normal': '⚪', 'Poison': '☠️', 'Fairy': '✨', 'Crystal': '💎',
+const typeIcons: Record<string, string> = {
+  'Fire': '/icons/fire.svg', 'Water': '/icons/water.svg', 'Grass': '/icons/grass.svg',
+  'Electric': '/icons/electric.svg', 'Ice': '/icons/ice.svg', 'Ghost': '/icons/ghost.svg',
+  'Dark': '/icons/dark.svg', 'Dragon': '/icons/dragon.svg', 'Steel': '/icons/steel.svg',
+  'Rock': '/icons/rock.svg', 'Ground': '/icons/ground.svg', 'Flying': '/icons/flying.svg',
+  'Normal': '/icons/normal.svg', 'Poison': '/icons/poison.svg', 'Fairy': '/icons/fairy.svg',
+  'Crystal': '/icons/crystal.svg',
 }
 
 const rarityOrder: Record<string, number> = {
@@ -25,15 +28,11 @@ const specialtyOrder: Record<string, number> = {
   Defender: 5,
 }
 
-function getTypeEmoji(type: string): string {
-  for (const [key, emoji] of Object.entries(typeEmoji)) {
-    if (type.toLowerCase().includes(key.toLowerCase())) return emoji
+function getTypeIcon(type: string): string {
+  for (const key of Object.keys(typeIcons)) {
+    if (type.toLowerCase().includes(key.toLowerCase())) return typeIcons[key]
   }
-  return '⚡'
-}
-
-function getMainType(type: string): string {
-  return type.split('/')[0]
+  return typeIcons['Normal']
 }
 
 // Tier ranking logic
@@ -138,7 +137,7 @@ export default function TierListPage() {
               >
                 {index + 1}
               </div>
-              <div style={{ fontSize: '2rem' }}>{getTypeEmoji(pokemon.type)}</div>
+              <div style={{ fontSize: '2rem' }}><Image src={getTypeIcon(pokemon.type)} alt={pokemon.type} width={32} height={32} /></div>
               <div style={{ flex: 1 }}>
                 <div style={{ fontWeight: 700, fontSize: '1rem' }}>{pokemon.name}</div>
                 <div style={{ fontSize: '0.75rem', color: '#666' }}>
@@ -183,7 +182,7 @@ export default function TierListPage() {
                     color: 'inherit',
                   }}
                 >
-                  <span style={{ fontSize: '1.25rem' }}>{getTypeEmoji(p.type)}</span>
+                  <span style={{ fontSize: '1.25rem' }}><Image src={getTypeIcon(p.type)} alt={p.type} width={24} height={24} /></span>
                   <span style={{ fontWeight: 600, fontSize: '0.875rem' }}>{p.name}</span>
                 </Link>
               ))}
@@ -215,7 +214,7 @@ export default function TierListPage() {
                     color: 'inherit',
                   }}
                 >
-                  <span style={{ fontSize: '1.25rem' }}>{getTypeEmoji(p.type)}</span>
+                  <span style={{ fontSize: '1.25rem' }}><Image src={getTypeIcon(p.type)} alt={p.type} width={24} height={24} /></span>
                   <span style={{ fontWeight: 600, fontSize: '0.875rem' }}>{p.name}</span>
                 </Link>
               ))}
@@ -247,7 +246,7 @@ export default function TierListPage() {
                     color: 'inherit',
                   }}
                 >
-                  <span style={{ fontSize: '1.25rem' }}>{getTypeEmoji(p.type)}</span>
+                  <span style={{ fontSize: '1.25rem' }}><Image src={getTypeIcon(p.type)} alt={p.type} width={24} height={24} /></span>
                   <span style={{ fontWeight: 600, fontSize: '0.875rem' }}>{p.name}</span>
                 </Link>
               ))}
@@ -279,7 +278,7 @@ export default function TierListPage() {
                     color: 'inherit',
                   }}
                 >
-                  <span style={{ fontSize: '1.25rem' }}>{getTypeEmoji(p.type)}</span>
+                  <span style={{ fontSize: '1.25rem' }}><Image src={getTypeIcon(p.type)} alt={p.type} width={24} height={24} /></span>
                   <span style={{ fontWeight: 600, fontSize: '0.875rem' }}>{p.name}</span>
                 </Link>
               ))}
@@ -322,7 +321,7 @@ export default function TierListPage() {
                         fontSize: '0.8rem',
                       }}
                     >
-                      <span>{getTypeEmoji(p.type)}</span>
+                      <span><Image src={getTypeIcon(p.type)} alt={p.type} width={24} height={24} /></span>
                       <span style={{ fontWeight: 600 }}>{p.name}</span>
                     </Link>
                   ))}

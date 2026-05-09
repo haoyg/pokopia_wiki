@@ -1,14 +1,24 @@
 import { Metadata } from 'next'
+import Image from 'next/image'
 import habitatsData from '@/data/habitats.json'
+
+const weatherIconMap: Record<string, string> = {
+  'Sunny': '/icons/habitat-forest.svg', 'Rain': '/icons/habitat-lake.svg',
+  'Snow': '/icons/habitat-frost.svg', 'Cloudy': '/icons/habitat-plains.svg',
+  'Windy': '/icons/habitat-plains.svg', 'Thunderstorm': '/icons/habitat-volcanic.svg',
+  'Foggy': '/icons/habitat-shadow.svg', 'Clear': '/icons/habitat-forest.svg',
+  'Stormy': '/icons/habitat-shadow.svg',
+}
 
 const difficultyEmoji: Record<string, string> = {
   'easy': '🟢', 'medium': '🟡', 'hard': '🔴',
 }
 
-const weatherEmoji: Record<string, string> = {
-  'Sunny': '☀️', 'Rain': '🌧️', 'Snow': '❄️', 'Cloudy': '☁️',
-  'Windy': '💨', 'Thunderstorm': '⛈️', 'Foggy': '🌫️', 'Clear': '✨',
-  'Stormy': '🌪️',
+function getWeatherIcon(weather: string): string {
+  for (const key of Object.keys(weatherIconMap)) {
+    if (weather.toLowerCase().includes(key.toLowerCase())) return weatherIconMap[key]
+  }
+  return '/icons/habitat-forest.svg'
 }
 
 export const metadata: Metadata = {
@@ -30,8 +40,14 @@ export default function HabitatPage() {
       <div className="pokemon-grid" style={{ marginTop: '2rem' }}>
         {habitatsData.map((h) => (
           <a key={h.id} href={`/wiki/habitat/${h.id}`} className="card">
-            <div style={{ fontSize: '2.5rem', textAlign: 'center' }}>
-              {weatherEmoji[h.weather] || '🏠'}
+            <div style={{ width: '100%', height: '80px', position: 'relative', marginBottom: '0.5rem' }}>
+              <Image
+                src={getWeatherIcon(h.weather)}
+                alt={h.name}
+                fill
+                style={{ objectFit: 'contain' }}
+                sizes="(max-width: 768px) 100px, 200px"
+              />
             </div>
             <h3 style={{ textAlign: 'center', marginTop: '0.5rem' }}>{h.name}</h3>
             <p style={{ textAlign: 'center', color: '#666', fontSize: '0.875rem' }}>{h.unlock_condition}</p>

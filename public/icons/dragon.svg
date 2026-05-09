@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="dragon-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7b1fa2"/>
+      <stop offset="100%" stop-color="#4a148c"/>
+    </linearGradient>
+  </defs>
+  <circle cx="50" cy="50" r="45" fill="url(#dragon-grad)"/>
+  <path d="M30 50 L50 20 L70 50 L50 40 Z" fill="#e1bee7"/>
+  <path d="M30 50 L50 80 L70 50 L50 60 Z" fill="#ce93d8"/>
+  <circle cx="50" cy="50" r="10" fill="#fff"/>
+</svg>
