@@ -1,29 +1,6 @@
-'use client'
-
-import { useEffect, useState } from 'react'
-
-interface NewsItem {
-  id: string
-  title: string
-  slug: string
-  excerpt: string
-  category: string
-  published_at: number
-}
-
-interface GuideItem {
-  id: string
-  title: string
-  slug: string
-  category: string
-}
-
-interface PokemonItem {
-  id: string
-  name: string
-  type: string
-  rarity: string
-}
+import newsData from '@/data/news.json'
+import guidesData from '@/data/guides.json'
+import pokemonData from '@/data/pokemon.json'
 
 const typeEmoji: Record<string, string> = {
   'Fire': '🔥', 'Water': '💧', 'Grass': '🌿', 'Electric': '⚡',
@@ -49,35 +26,9 @@ function getTypeEmoji(type: string) {
 }
 
 export default function Home() {
-  const [news, setNews] = useState<NewsItem[]>([])
-  const [guides, setGuides] = useState<GuideItem[]>([])
-  const [pokemon, setPokemon] = useState<PokemonItem[]>([])
-  const [loading, setLoading] = useState(true)
-
-  useEffect(() => {
-    async function fetchData() {
-      try {
-        const [newsRes, guidesRes, pokemonRes] = await Promise.all([
-          fetch('/data/news.json'),
-          fetch('/data/guides.json'),
-          fetch('/data/pokemon.json'),
-        ])
-        const [newsData, guidesData, pokemonData] = await Promise.all([
-          newsRes.json(),
-          guidesRes.json(),
-          pokemonRes.json(),
-        ])
-        setNews(newsData.slice(0, 4))
-        setGuides(guidesData.slice(0, 4))
-        setPokemon(pokemonData.slice(0, 8))
-      } catch (error) {
-        console.error('Failed to fetch data:', error)
-      } finally {
-        setLoading(false)
-      }
-    }
-    fetchData()
-  }, [])
+  const news = newsData.slice(0, 4)
+  const guides = guidesData.slice(0, 4)
+  const pokemon = pokemonData.slice(0, 8)
 
   return (
     <main>
@@ -99,52 +50,46 @@ export default function Home() {
         <p>Your ultimate guide to the Pokopia world</p>
       </section>
 
-      {loading ? (
-        <p>Loading...</p>
-      ) : (
-        <>
-          <section style={{ padding: '2rem', maxWidth: '1200px', margin: '0 auto' }}>
-            <h2 style={{ marginBottom: '1.5rem' }}>📰 Latest News</h2>
-            <div className="news-grid">
-              {news.map((item) => (
-                <a key={item.id} href={`/news/${item.slug}`} className="card">
-                  <span className={`badge ${item.category}`}>{categoryEmoji[item.category]} {item.category}</span>
-                  <h3>{item.title}</h3>
-                  <p>{item.excerpt}</p>
-                </a>
-              ))}
-            </div>
-          </section>
+      <section style={{ padding: '2rem', maxWidth: '1200px', margin: '0 auto' }}>
+        <h2 style={{ marginBottom: '1.5rem' }}>📰 Latest News</h2>
+        <div className="news-grid">
+          {news.map((item) => (
+            <a key={item.id} href={`/news/${item.slug}`} className="card">
+              <span className={`badge ${item.category}`}>{categoryEmoji[item.category]} {item.category}</span>
+              <h3>{item.title}</h3>
+              <p>{item.excerpt}</p>
+            </a>
+          ))}
+        </div>
+      </section>
 
-          <section style={{ padding: '2rem', maxWidth: '1200px', margin: '0 auto' }}>
-            <h2 style={{ marginBottom: '1.5rem' }}>📖 Trending Guides</h2>
-            <div className="guides-grid">
-              {guides.map((item) => (
-                <a key={item.id} href={`/guides/${item.slug}`} className="card">
-                  <span className="badge">{categoryEmoji[item.category] || '📖'} {item.category}</span>
-                  <h3>{item.title}</h3>
-                </a>
-              ))}
-            </div>
-          </section>
+      <section style={{ padding: '2rem', maxWidth: '1200px', margin: '0 auto' }}>
+        <h2 style={{ marginBottom: '1.5rem' }}>📖 Trending Guides</h2>
+        <div className="guides-grid">
+          {guides.map((item) => (
+            <a key={item.id} href={`/guides/${item.slug}`} className="card">
+              <span className="badge">{categoryEmoji[item.category] || '📖'} {item.category}</span>
+              <h3>{item.title}</h3>
+            </a>
+          ))}
+        </div>
+      </section>
 
-          <section style={{ padding: '2rem', maxWidth: '1200px', margin: '0 auto' }}>
-            <h2 style={{ marginBottom: '1.5rem' }}>⚡ Popular Pokémon</h2>
-            <div className="pokemon-grid">
-              {pokemon.map((p) => (
-                <a key={p.id} href={`/wiki/pokemon/${p.id}`} className="card">
-                  <div style={{ fontSize: '2.5rem', textAlign: 'center' }}>{getTypeEmoji(p.type)}</div>
-                  <h3 style={{ textAlign: 'center', marginTop: '0.5rem' }}>{p.name}</h3>
-                  <p style={{ textAlign: 'center', color: '#666', fontSize: '0.875rem' }}>{p.type}</p>
-                  <div style={{ textAlign: 'center', marginTop: '0.5rem' }}>
-                    <span className={`rarity ${p.rarity}`}>{rarityEmoji[p.rarity]}</span>
-                  </div>
-                </a>
-              ))}
-            </div>
-          </section>
-        </>
-      )}
+      <section style={{ padding: '2rem', maxWidth: '1200px', margin: '0 auto' }}>
+        <h2 style={{ marginBottom: '1.5rem' }}>⚡ Popular Pokémon</h2>
+        <div className="pokemon-grid">
+          {pokemon.map((p) => (
+            <a key={p.id} href={`/wiki/pokemon/${p.id}`} className="card">
+              <div style={{ fontSize: '2.5rem', textAlign: 'center' }}>{getTypeEmoji(p.type)}</div>
+              <h3 style={{ textAlign: 'center', marginTop: '0.5rem' }}>{p.name}</h3>
+              <p style={{ textAlign: 'center', color: '#666', fontSize: '0.875rem' }}>{p.type}</p>
+              <div style={{ textAlign: 'center', marginTop: '0.5rem' }}>
+                <span className={`rarity ${p.rarity}`}>{rarityEmoji[p.rarity]}</span>
+              </div>
+            </a>
+          ))}
+        </div>
+      </section>
 
       <footer>
         <p>&copy; 2026 Pokopia Portal</p>
