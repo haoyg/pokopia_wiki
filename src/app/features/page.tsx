@@ -1,3 +1,4 @@
+import { Metadata } from 'next'
 import Link from 'next/link'
 import guidesData from '@/data/guides.json'
 
@@ -45,6 +46,16 @@ const featuredTopics = [
     emoji: '🏰',
   },
 ]
+
+export const metadata: Metadata = {
+  title: 'Features & Deep Dives | Pokopia Portal',
+  description: 'In-depth analysis, interviews, and editorial content about Pokopia. Meta analysis, community spotlights, and more.',
+  openGraph: {
+    title: 'Features | Pokopia Portal',
+    description: 'In-depth analysis, interviews, and editorial content about Pokopia.',
+    images: ['/og-image.svg'],
+  },
+}
 
 export default function FeaturesPage() {
   return (

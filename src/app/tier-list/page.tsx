@@ -1,3 +1,4 @@
+import { Metadata } from 'next'
 import Link from 'next/link'
 import pokemonData from '@/data/pokemon.json'
 
@@ -73,6 +74,16 @@ const byRole = ['Tank', 'Attacker', 'Assassin', 'Speedster', 'Support', 'Defende
 
 const roleEmoji: Record<string, string> = {
   Tank: '🛡️', Attacker: '⚔️', Assassin: '🗡️', Speedster: '⚡', Support: '💚', Defender: '🛡️',
+}
+
+export const metadata: Metadata = {
+  title: 'Tier List & Meta Rankings | Pokopia Portal',
+  description: 'View the definitive Pokopia tier list. Rankings based on rarity, role, and competitive performance.',
+  openGraph: {
+    title: 'Tier List | Pokopia Portal',
+    description: 'View the definitive Pokopia tier list. Rankings based on rarity and competitive performance.',
+    images: ['/og-image.svg'],
+  },
 }
 
 export default function TierListPage() {

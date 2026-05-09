@@ -1,7 +1,18 @@
+import { Metadata } from 'next'
 import newsData from '@/data/news.json'
 
 const categoryEmoji: Record<string, string> = {
   'update': '🆕', 'patch': '🔧', 'event': '🎉', 'announcement': '📢',
+}
+
+export const metadata: Metadata = {
+  title: 'Latest News & Updates | Pokopia Portal',
+  description: 'Stay updated with the latest Pokopia news, patch notes, events, and announcements.',
+  openGraph: {
+    title: 'News & Updates | Pokopia Portal',
+    description: 'Stay updated with the latest Pokopia news, patch notes, events, and announcements.',
+    images: ['/og-image.svg'],
+  },
 }
 
 export default function NewsPage() {

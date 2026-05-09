@@ -1,7 +1,18 @@
+import { Metadata } from 'next'
 import guidesData from '@/data/guides.json'
 
 const categoryEmoji: Record<string, string> = {
   'tier': '🏆', 'guides': '📖', 'farming': '🌾', 'team': '⚔️',
+}
+
+export const metadata: Metadata = {
+  title: 'Game Guides & Tutorials | Pokopia Portal',
+  description: 'Master Pokopia with our comprehensive game guides. Tier lists, farming tips, team builds, and strategy guides for all players.',
+  openGraph: {
+    title: 'Game Guides | Pokopia Portal',
+    description: 'Master Pokopia with our comprehensive game guides. Tier lists, farming tips, team builds, and strategy guides.',
+    images: ['/og-image.svg'],
+  },
 }
 
 export default function GuidesPage() {

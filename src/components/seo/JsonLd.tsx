@@ -18,14 +18,12 @@ export function WebsiteJsonLd() {
     name: 'Pokopia Portal',
     url: 'https://pokopia.wiki',
     description: 'Your ultimate Pokopia wiki - guides, Pokemon database, habitat maps, recipes, and community builds.',
-    potentialAction: {
-      '@type': 'SearchAction',
-      target: {
-        '@type': 'EntryPoint',
-        urlTemplate: 'https://pokopia.wiki/search?q={search_term_string}',
-      },
-      'query-input': 'required name=search_term_string',
-    },
+    // Note: searchAction disabled - /search page not implemented
+    // potentialAction: {
+    //   '@type': 'SearchAction',
+    //   target: { '@type': 'EntryPoint', urlTemplate: 'https://pokopia.wiki/search?q={search_term_string}' },
+    //   'query-input': 'required name=search_term_string',
+    // },
     publisher: {
       '@type': 'Organization',
       name: 'Pokopia Portal',

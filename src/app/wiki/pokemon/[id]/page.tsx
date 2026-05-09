@@ -19,6 +19,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: pokemon ? `${pokemon.name} | Pokopia Portal` : 'Pokémon Not Found',
     description: pokemon?.description,
+    openGraph: {
+      title: pokemon ? `${pokemon.name} - Pokopia Portal` : 'Pokémon Not Found',
+      description: pokemon?.description,
+      images: ['/og-image.svg'],
+    },
   }
 }
 

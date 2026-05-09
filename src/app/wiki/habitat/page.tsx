@@ -1,3 +1,4 @@
+import { Metadata } from 'next'
 import habitatsData from '@/data/habitats.json'
 
 const difficultyEmoji: Record<string, string> = {
@@ -8,6 +9,16 @@ const weatherEmoji: Record<string, string> = {
   'Sunny': '☀️', 'Rain': '🌧️', 'Snow': '❄️', 'Cloudy': '☁️',
   'Windy': '💨', 'Thunderstorm': '⛈️', 'Foggy': '🌫️', 'Clear': '✨',
   'Stormy': '🌪️',
+}
+
+export const metadata: Metadata = {
+  title: 'Habitat Maps & Locations | Pokopia Portal',
+  description: 'Explore all habitats in Pokopia. Find unlock conditions, difficulty ratings, resource bonuses, and recommended builds.',
+  openGraph: {
+    title: 'Habitats | Pokopia Portal',
+    description: 'Explore all habitats in Pokopia. Find unlock conditions, difficulty ratings, and resource bonuses.',
+    images: ['/og-image.svg'],
+  },
 }
 
 export default function HabitatPage() {

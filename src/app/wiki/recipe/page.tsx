@@ -1,3 +1,4 @@
+import { Metadata } from 'next'
 import recipesData from '@/data/recipes.json'
 
 const rarityEmoji: Record<string, string> = {
@@ -12,6 +13,16 @@ function getBuffEmoji(buff: string) {
   if (lower.includes('spawn') || lower.includes('rare')) return '🎯'
   if (lower.includes('HP') || lower.includes('restore')) return '❤️'
   return '✨'
+}
+
+export const metadata: Metadata = {
+  title: 'Recipe Cookbook & Buffs | Pokopia Portal',
+  description: 'Discover all recipes in Pokopia. Learn ingredient combinations, buff effects, durations, and best use cases.',
+  openGraph: {
+    title: 'Recipes | Pokopia Portal',
+    description: 'Discover all recipes in Pokopia. Learn ingredient combinations and buff effects.',
+    images: ['/og-image.svg'],
+  },
 }
 
 export default function RecipePage() {

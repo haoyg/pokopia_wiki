@@ -18,6 +18,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: recipe ? `${recipe.name} | Pokopia Portal` : 'Recipe Not Found',
     description: recipe ? `${recipe.name} - ${recipe.buff}` : undefined,
+    openGraph: {
+      title: recipe ? `${recipe.name} - Pokopia Portal` : 'Recipe Not Found',
+      description: recipe?.buff,
+      images: ['/og-image.svg'],
+    },
   }
 }
 

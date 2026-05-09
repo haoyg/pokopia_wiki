@@ -18,6 +18,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const habitat = habitatsData.find((h) => h.id === id)
   return {
     title: habitat ? `${habitat.name} | Pokopia Portal` : 'Habitat Not Found',
+    description: `${habitat?.name} - ${habitat?.unlock_condition}. ${habitat?.resource_bonus}`,
+    openGraph: {
+      title: habitat ? `${habitat.name} - Pokopia Portal` : 'Habitat Not Found',
+      description: `${habitat?.name} - ${habitat?.unlock_condition}. ${habitat?.resource_bonus}`,
+      images: ['/og-image.svg'],
+    },
   }
 }
 

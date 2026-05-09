@@ -1,3 +1,4 @@
+import { Metadata } from 'next'
 import pokemonData from '@/data/pokemon.json'
 
 const typeEmoji: Record<string, string> = {
@@ -16,6 +17,16 @@ function getTypeEmoji(type: string) {
     if (type.toLowerCase().includes(key.toLowerCase())) return emoji
   }
   return '⚡'
+}
+
+export const metadata: Metadata = {
+  title: 'Pokémon Database | Pokopia Portal',
+  description: 'Browse all Pokémon in Pokopia. View stats, abilities, habitats, drops, and best builds for every creature.',
+  openGraph: {
+    title: 'Pokémon Database | Pokopia Portal',
+    description: 'Browse all Pokémon in Pokopia. View stats, abilities, habitats, drops, and best builds.',
+    images: ['/og-image.svg'],
+  },
 }
 
 export default function PokemonPage() {
