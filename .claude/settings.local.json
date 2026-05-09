@@ -9,7 +9,10 @@
       "Bash(mkdir -p src/app/api/news/\\\\[slug\\\\] src/app/api/guides/\\\\[slug\\\\])",
       "Bash(npx opennextjs-cloudflare *)",
       "Bash(npx next *)",
-      "Bash(npm list *)"
+      "Bash(npm list *)",
+      "Read(//Users/gavin/.wrangler/config/**)",
+      "Read(//Users/gavin/.cloudflare/**)",
+      "Bash(env)"
     ]
   }
 }

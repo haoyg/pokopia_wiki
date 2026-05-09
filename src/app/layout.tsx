@@ -70,6 +70,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <WebsiteJsonLd />
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3274781156049995" crossOrigin="anonymous" />
       </head>
       <body>{children}</body>
     </html>
