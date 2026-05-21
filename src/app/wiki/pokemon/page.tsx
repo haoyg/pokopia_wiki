@@ -51,8 +51,8 @@ export default function PokemonPage() {
           <a key={p.id} href={`/wiki/pokemon/${p.id}`} className="card">
             <div style={{ width: '100%', height: '80px', position: 'relative', marginBottom: '0.5rem' }}>
               <Image
-                src={getTypeIcon(p.type)}
-                alt={p.type}
+                src={p.image_url || getTypeIcon(p.type)}
+                alt={p.image_alt || p.type}
                 fill
                 style={{ objectFit: 'contain' }}
                 sizes="(max-width: 768px) 100px, 200px"

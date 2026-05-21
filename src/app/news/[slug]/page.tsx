@@ -1,4 +1,5 @@
 import { Metadata } from 'next'
+import Image from 'next/image'
 import newsData from '@/data/news.json'
 import guidesData from '@/data/guides.json'
 import { ArticleJsonLd } from '@/components/seo/JsonLd'
@@ -24,6 +25,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     openGraph: {
       title: news.title,
       description: news.excerpt,
+      images: [news.image_url],
       type: 'article',
       publishedTime: new Date(news.published_at * 1000).toISOString(),
       authors: ['Pokopia Portal'],
@@ -62,6 +64,9 @@ export default async function NewsDetailPage({ params }: Props) {
           <span className={`badge ${news.category}`}>{news.category}</span>
           <h1 style={{ marginTop: '1rem' }}>{news.title}</h1>
           <p style={{ color: '#666', marginTop: '0.5rem' }}>{date}</p>
+          <div className="article-cover">
+            <Image src={news.image_url} alt={news.image_alt} fill sizes="(max-width: 768px) 100vw, 800px" priority />
+          </div>
           <p style={{ marginTop: '1rem' }}>{news.excerpt}</p>
           <div style={{ marginTop: '2rem', lineHeight: '1.8' }}>{news.content}</div>
         </article>

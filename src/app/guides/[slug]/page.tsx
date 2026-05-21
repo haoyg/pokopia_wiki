@@ -1,4 +1,5 @@
 import { Metadata } from 'next'
+import Image from 'next/image'
 import guidesData from '@/data/guides.json'
 import habitatsData from '@/data/habitats.json'
 import pokemonData from '@/data/pokemon.json'
@@ -25,6 +26,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     openGraph: {
       title: guide.title,
       description: guide.seo_keyword,
+      images: [guide.image_url],
       type: 'article',
     },
   }
@@ -58,6 +60,9 @@ export default async function GuideDetailPage({ params }: Props) {
           <span className={`badge ${guide.category}`}>{guide.category}</span>
           <h1 style={{ marginTop: '1rem' }}>{guide.title}</h1>
           <p style={{ color: '#666', marginTop: '0.5rem' }}>{guide.seo_keyword}</p>
+          <div className="article-cover">
+            <Image src={guide.image_url} alt={guide.image_alt} fill sizes="(max-width: 768px) 100vw, 800px" priority />
+          </div>
           <div style={{ marginTop: '2rem', lineHeight: '1.8' }}>{guide.content}</div>
         </article>
 

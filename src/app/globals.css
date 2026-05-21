@@ -366,6 +366,74 @@ section h2 {
   text-transform: uppercase;
 }
 
+.card-cover {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  margin-bottom: var(--space-4);
+  overflow: hidden;
+  border-radius: var(--radius-md);
+  background:
+    linear-gradient(135deg, rgba(15, 52, 96, 0.08), rgba(233, 69, 96, 0.12)),
+    var(--color-bg-alt);
+}
+
+.card-cover img {
+  padding: var(--space-4);
+  object-fit: contain;
+}
+
+.pokemon-cover {
+  aspect-ratio: 1 / 1;
+  max-height: 120px;
+}
+
+.article-cover {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 100%;
+  aspect-ratio: 16 / 7;
+  margin: var(--space-6) 0;
+  overflow: hidden;
+  border-radius: var(--radius-md);
+  background:
+    linear-gradient(135deg, rgba(15, 52, 96, 0.1), rgba(233, 69, 96, 0.16)),
+    var(--color-bg-alt);
+}
+
+.article-cover img {
+  padding: var(--space-8);
+  object-fit: contain;
+}
+
+.pokemon-detail-hero {
+  display: grid;
+  grid-template-columns: 180px minmax(0, 1fr);
+  gap: var(--space-6);
+  align-items: center;
+  margin-bottom: var(--space-6);
+}
+
+.pokemon-portrait {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 180px;
+  aspect-ratio: 1 / 1;
+  border-radius: var(--radius-md);
+  background:
+    linear-gradient(135deg, rgba(15, 52, 96, 0.08), rgba(233, 69, 96, 0.12)),
+    var(--color-bg-alt);
+}
+
+.pokemon-portrait img {
+  padding: var(--space-6);
+  object-fit: contain;
+}
+
 /* ============================================
    Badges
    ============================================ */
@@ -692,5 +760,13 @@ aside ul li {
 
   .page-hero h1 {
     font-size: var(--font-size-3xl);
+  }
+
+  .pokemon-detail-hero {
+    grid-template-columns: 1fr;
+  }
+
+  .pokemon-portrait {
+    width: 140px;
   }
 }

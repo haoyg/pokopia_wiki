@@ -1,4 +1,5 @@
 import { Metadata } from 'next'
+import Image from 'next/image'
 import guidesData from '@/data/guides.json'
 
 const categoryLabels: Record<string, string> = {
@@ -29,6 +30,9 @@ export default function GuidesPage() {
       <div className="guides-grid">
         {guidesData.map((guide) => (
           <a key={guide.id} href={`/guides/${guide.slug}`} className="card">
+            <div className="card-cover">
+              <Image src={guide.image_url} alt={guide.image_alt} fill sizes="(max-width: 768px) 100vw, 300px" />
+            </div>
             <span className="badge">{categoryLabels[guide.category] || guide.category}</span>
             <h3>{guide.title}</h3>
             <p>{guide.seo_keyword}</p>

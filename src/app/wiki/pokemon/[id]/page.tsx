@@ -1,4 +1,5 @@
-﻿import { Metadata } from 'next'
+import { Metadata } from 'next'
+import Image from 'next/image'
 import pokemonData from '@/data/pokemon.json'
 import guidesData from '@/data/guides.json'
 import newsData from '@/data/news.json'
@@ -22,7 +23,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     openGraph: {
       title: pokemon ? `${pokemon.name} - Pokopia Portal` : 'Pokemon Not Found',
       description: pokemon?.description,
-      images: ['/og-image.svg'],
+      images: [pokemon?.image_url || '/og-image.svg'],
     },
   }
 }
@@ -43,9 +44,16 @@ export default async function PokemonDetailPage({ params }: Props) {
   return (
     <main>
       <article style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
-        <h1>{pokemon.name}</h1>
-        <p>{pokemon.type}</p>
-        <span className={`rarity ${pokemon.rarity}`}>{pokemon.rarity}</span>
+        <div className="pokemon-detail-hero">
+          <div className="pokemon-portrait">
+            <Image src={pokemon.image_url} alt={pokemon.image_alt} fill sizes="180px" priority />
+          </div>
+          <div>
+            <h1>{pokemon.name}</h1>
+            <p>{pokemon.type}</p>
+            <span className={`rarity ${pokemon.rarity}`}>{pokemon.rarity}</span>
+          </div>
+        </div>
 
         <div style={{ marginTop: '2rem' }}>
           <h3>Description</h3>

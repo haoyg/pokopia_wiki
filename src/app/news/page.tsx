@@ -1,4 +1,5 @@
 import { Metadata } from 'next'
+import Image from 'next/image'
 import newsData from '@/data/news.json'
 
 const categoryLabels: Record<string, string> = {
@@ -29,6 +30,9 @@ export default function NewsPage() {
       <div className="news-grid">
         {newsData.map((item) => (
           <a key={item.id} href={`/news/${item.slug}`} className="card">
+            <div className="card-cover">
+              <Image src={item.image_url} alt={item.image_alt} fill sizes="(max-width: 768px) 100vw, 300px" />
+            </div>
             <span className={`badge ${item.category}`}>{categoryLabels[item.category] || item.category}</span>
             <h3>{item.title}</h3>
             <p>{item.excerpt}</p>

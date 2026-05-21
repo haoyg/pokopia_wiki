@@ -12,6 +12,7 @@ export interface Pokemon {
   drops: string[]
   description: string
   image_url?: string
+  image_alt?: string
 }
 
 export interface Habitat {
@@ -42,6 +43,8 @@ export interface Guide {
   category: string
   seo_keyword: string
   content: string
+  image_url?: string
+  image_alt?: string
   related_pokemon: string   // CSV string, e.g. "pkm001,pkm002"
   related_items: string     // CSV string
   related_habitats: string  // CSV string
@@ -54,6 +57,8 @@ export interface News {
   category: 'update' | 'patch' | 'event' | 'announcement'
   excerpt: string
   content: string
+  image_url?: string
+  image_alt?: string
   published_at: string
 }
 
