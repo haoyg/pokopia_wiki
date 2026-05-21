@@ -58,14 +58,7 @@ export default async function NewsDetailPage({ params }: Props) {
         type="NewsArticle"
       />
       <main style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
-        <header>
-          <nav>
-            <a href="/">Home</a>
-            <a href="/news">News</a>
-          </nav>
-        </header>
-
-        <article style={{ marginTop: '2rem' }}>
+        <article>
           <span className={`badge ${news.category}`}>{news.category}</span>
           <h1 style={{ marginTop: '1rem' }}>{news.title}</h1>
           <p style={{ color: '#666', marginTop: '0.5rem' }}>{date}</p>

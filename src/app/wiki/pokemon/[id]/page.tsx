@@ -1,4 +1,4 @@
-import { Metadata } from 'next'
+﻿import { Metadata } from 'next'
 import pokemonData from '@/data/pokemon.json'
 import guidesData from '@/data/guides.json'
 import newsData from '@/data/news.json'
@@ -17,10 +17,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { id } = await params
   const pokemon = pokemonData.find((p) => p.id === id)
   return {
-    title: pokemon ? `${pokemon.name} | Pokopia Portal` : 'Pokémon Not Found',
+    title: pokemon ? `${pokemon.name} | Pokopia Portal` : 'Pokemon Not Found',
     description: pokemon?.description,
     openGraph: {
-      title: pokemon ? `${pokemon.name} - Pokopia Portal` : 'Pokémon Not Found',
+      title: pokemon ? `${pokemon.name} - Pokopia Portal` : 'Pokemon Not Found',
       description: pokemon?.description,
       images: ['/og-image.svg'],
     },
@@ -32,7 +32,7 @@ export default async function PokemonDetailPage({ params }: Props) {
   const pokemon = pokemonData.find((p) => p.id === id)
 
   if (!pokemon) {
-    return <p>Pokémon not found</p>
+    return <p>Pokemon not found</p>
   }
 
   const relatedGuides = guidesData.filter((g) =>
@@ -42,13 +42,6 @@ export default async function PokemonDetailPage({ params }: Props) {
 
   return (
     <main>
-      <header>
-        <nav>
-          <a href="/">Home</a>
-          <a href="/wiki/pokemon">Pokémon</a>
-        </nav>
-      </header>
-
       <article style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
         <h1>{pokemon.name}</h1>
         <p>{pokemon.type}</p>

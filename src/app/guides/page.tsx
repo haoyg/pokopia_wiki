@@ -1,8 +1,11 @@
 import { Metadata } from 'next'
 import guidesData from '@/data/guides.json'
 
-const categoryEmoji: Record<string, string> = {
-  'tier': '🏆', 'guides': '📖', 'farming': '🌾', 'team': '⚔️',
+const categoryLabels: Record<string, string> = {
+  tier: 'Tier',
+  guides: 'Guide',
+  farming: 'Farming',
+  team: 'Team',
 }
 
 export const metadata: Metadata = {
@@ -17,14 +20,16 @@ export const metadata: Metadata = {
 
 export default function GuidesPage() {
   return (
-    <main style={{ padding: '2rem', maxWidth: '1200px', margin: '0 auto' }}>
-      <h1>📖 Guides</h1>
-      <p>Game guides and tutorials</p>
+    <main className="page-shell">
+      <section className="page-hero">
+        <h1>Guides</h1>
+        <p>Game guides and tutorials</p>
+      </section>
 
-      <div className="guides-grid" style={{ marginTop: '2rem' }}>
+      <div className="guides-grid">
         {guidesData.map((guide) => (
           <a key={guide.id} href={`/guides/${guide.slug}`} className="card">
-            <span className="badge">{categoryEmoji[guide.category] || '📖'} {guide.category}</span>
+            <span className="badge">{categoryLabels[guide.category] || guide.category}</span>
             <h3>{guide.title}</h3>
             <p>{guide.seo_keyword}</p>
           </a>

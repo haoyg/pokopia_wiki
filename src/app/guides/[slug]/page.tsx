@@ -54,14 +54,7 @@ export default async function GuideDetailPage({ params }: Props) {
         type="Article"
       />
       <main style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
-        <header>
-          <nav>
-            <a href="/">Home</a>
-            <a href="/guides">Guides</a>
-          </nav>
-        </header>
-
-        <article style={{ marginTop: '2rem' }}>
+        <article>
           <span className={`badge ${guide.category}`}>{guide.category}</span>
           <h1 style={{ marginTop: '1rem' }}>{guide.title}</h1>
           <p style={{ color: '#666', marginTop: '0.5rem' }}>{guide.seo_keyword}</p>
@@ -69,7 +62,7 @@ export default async function GuideDetailPage({ params }: Props) {
         </article>
 
         <aside style={{ marginTop: '3rem', padding: '1rem', background: '#f5f5f5', borderRadius: '8px' }}>
-          <h3>Related Pokémon</h3>
+          <h3>Related Pokemon</h3>
           {relatedPokemon.length > 0 ? (
             <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginTop: '0.5rem' }}>
               {relatedPokemon.map((p) => (
@@ -79,7 +72,7 @@ export default async function GuideDetailPage({ params }: Props) {
               ))}
             </div>
           ) : (
-            <p style={{ color: '#666' }}>No related Pokémon.</p>
+            <p style={{ color: '#666' }}>No related Pokemon.</p>
           )}
 
           <h3 style={{ marginTop: '1.5rem' }}>Related Habitats</h3>

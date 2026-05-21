@@ -43,13 +43,6 @@ export default async function HabitatDetailPage({ params }: Props) {
 
   return (
     <main style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
-      <header>
-        <nav>
-          <a href="/">Home</a>
-          <a href="/wiki/habitat">Habitats</a>
-        </nav>
-      </header>
-
       <h1>{habitat.name}</h1>
       <p>{habitat.unlock_condition}</p>
 
@@ -73,7 +66,7 @@ export default async function HabitatDetailPage({ params }: Props) {
       </div>
 
       <aside style={{ marginTop: '3rem', borderTop: '1px solid #ddd', paddingTop: '2rem' }}>
-        <h3>Pokémon in this Habitat</h3>
+        <h3>Pokemon in this Habitat</h3>
         {relatedPokemon.length > 0 ? (
           <div className="pokemon-grid" style={{ marginTop: '1rem' }}>
             {relatedPokemon.map((p) => (
@@ -84,7 +77,7 @@ export default async function HabitatDetailPage({ params }: Props) {
             ))}
           </div>
         ) : (
-          <p style={{ color: '#666' }}>No Pokémon data yet.</p>
+          <p style={{ color: '#666' }}>No Pokemon data yet.</p>
         )}
 
         <h3 style={{ marginTop: '2rem' }}>Related Guides</h3>

@@ -12,26 +12,28 @@ export const metadata: Metadata = {
 
 export default function ToolsPage() {
   return (
-    <main style={{ maxWidth: '800px', margin: '0 auto', padding: '2rem' }}>
-      <h1 style={{ fontSize: '2rem', fontWeight: 800 }}>🛠️ Tools</h1>
-      <p style={{ color: '#666', marginTop: '0.5rem' }}>Calculators and planners for Pokopia</p>
+    <main className="page-shell">
+      <section className="page-hero">
+        <h1>Tools</h1>
+        <p>Calculators and planners for Pokopia</p>
+      </section>
 
-      <div className="tools-grid" style={{ marginTop: '2rem' }}>
+      <div className="tools-grid">
         <a href="/tools/habitat-planner" className="card">
-          <h3>🏠 Habitat Planner</h3>
+          <h3>Habitat Planner</h3>
           <p>Plan your progression by level</p>
         </a>
         <a href="/tools/recipe-calculator" className="card">
-          <h3>🍳 Recipe Calculator</h3>
+          <h3>Recipe Calculator</h3>
           <p>Calculate buff effects</p>
         </a>
         <a href="/tools/team-builder" className="card">
-          <h3>⚔️ Team Builder</h3>
+          <h3>Team Builder</h3>
           <p>Build your ultimate team</p>
         </a>
         <a href="/tools/spawn-tracker" className="card">
-          <h3>🎰 Spawn Tracker</h3>
-          <p>Track spawn rates</p>
+          <h3>Spawn Tracker</h3>
+          <p>Track spawn conditions by habitat, weather, time, and rarity</p>
         </a>
       </div>
     </main>

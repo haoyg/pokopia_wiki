@@ -1,5 +1,5 @@
-[
-  {"id":"rec001","name":"Honey Cake","ingredients":"Honey x3, Flour x2, Egg x1","buff":"+20% attraction rate","effect_duration":"30 min","rarity":"uncommon","best_use":"Rare Pokémon farming"},
+﻿[
+  {"id":"rec001","name":"Honey Cake","ingredients":"Honey x3, Flour x2, Egg x1","buff":"+20% attraction rate","effect_duration":"30 min","rarity":"uncommon","best_use":"Rare Pokemon farming"},
   {"id":"rec002","name":"Fire Boost","ingredients":"Flame Fruit x5, Magma Stone x1","buff":"+30% Fire damage","effect_duration":"1 hour","rarity":"rare","best_use":"Boss battles"},
   {"id":"rec003","name":"Speed Potion","ingredients":"Windy Herb x4, Zap Berry x2","buff":"+25% movement speed","effect_duration":"45 min","rarity":"uncommon","best_use":"Speed runs"},
   {"id":"rec004","name":"Guardian Stew","ingredients":"Iron Root x3, Big Root x2, Mystery Meat x2","buff":"+40% defense","effect_duration":"2 hours","rarity":"rare","best_use":"Hard habitats"},

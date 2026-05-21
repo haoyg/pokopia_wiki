@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import './globals.css'
 import { WebsiteJsonLd } from '@/components/seo/JsonLd'
+import { Header } from '@/components/layout/Header'
+import { Footer } from '@/components/layout/Footer'
 
 const BASE_URL = 'https://pokopia.wiki'
 
@@ -72,7 +74,11 @@ export default function RootLayout({
         <WebsiteJsonLd />
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3274781156049995" crossOrigin="anonymous" />
       </head>
-      <body>{children}</body>
+      <body>
+        <Header />
+        {children}
+        <Footer />
+      </body>
     </html>
   )
 }

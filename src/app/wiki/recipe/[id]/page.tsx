@@ -40,13 +40,6 @@ export default async function RecipeDetailPage({ params }: Props) {
 
   return (
     <main style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
-      <header>
-        <nav>
-          <a href="/">Home</a>
-          <a href="/wiki/recipe">Recipes</a>
-        </nav>
-      </header>
-
       <h1>{recipe.name}</h1>
       <span className={`rarity ${recipe.rarity}`}>{recipe.rarity}</span>
 

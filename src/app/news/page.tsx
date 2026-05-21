@@ -1,8 +1,11 @@
 import { Metadata } from 'next'
 import newsData from '@/data/news.json'
 
-const categoryEmoji: Record<string, string> = {
-  'update': '🆕', 'patch': '🔧', 'event': '🎉', 'announcement': '📢',
+const categoryLabels: Record<string, string> = {
+  update: 'Update',
+  patch: 'Patch',
+  event: 'Event',
+  announcement: 'News',
 }
 
 export const metadata: Metadata = {
@@ -17,14 +20,16 @@ export const metadata: Metadata = {
 
 export default function NewsPage() {
   return (
-    <main style={{ padding: '2rem', maxWidth: '1200px', margin: '0 auto' }}>
-      <h1>📰 Latest News</h1>
-      <p>Updates, patch notes, and announcements</p>
+    <main className="page-shell">
+      <section className="page-hero">
+        <h1>Latest News</h1>
+        <p>Updates, patch notes, and announcements</p>
+      </section>
 
-      <div className="news-grid" style={{ marginTop: '2rem' }}>
+      <div className="news-grid">
         {newsData.map((item) => (
           <a key={item.id} href={`/news/${item.slug}`} className="card">
-            <span className={`badge ${item.category}`}>{categoryEmoji[item.category] || '📰'} {item.category}</span>
+            <span className={`badge ${item.category}`}>{categoryLabels[item.category] || item.category}</span>
             <h3>{item.title}</h3>
             <p>{item.excerpt}</p>
             <p style={{ color: '#999', fontSize: '0.75rem', marginTop: '0.5rem' }}>
