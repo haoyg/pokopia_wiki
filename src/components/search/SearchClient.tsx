@@ -2,12 +2,33 @@
 
 import Link from 'next/link'
 import { useSearchParams } from 'next/navigation'
-import { popularSearches, searchContent } from '@/lib/search'
+import { SearchResult, popularSearches, searchContent } from '@/lib/search'
+
+const typeOrder: SearchResult['type'][] = ['Official', 'News', 'Guide', 'Pokemon', 'Habitat', 'Recipe']
+
+const typeLabels: Record<SearchResult['type'], string> = {
+  Official: 'Official Info',
+  News: 'News',
+  Guide: 'Guides',
+  Pokemon: 'Pokemon',
+  Habitat: 'Habitats',
+  Recipe: 'Recipes',
+}
+
+function groupResults(results: SearchResult[]) {
+  return typeOrder
+    .map((type) => ({
+      type,
+      results: results.filter((result) => result.type === type),
+    }))
+    .filter((group) => group.results.length > 0)
+}
 
 export function SearchClient() {
   const searchParams = useSearchParams()
   const query = (searchParams.get('q') || '').trim()
   const results = searchContent(query)
+  const groupedResults = groupResults(results)
 
   return (
     <>
@@ -39,14 +60,29 @@ export function SearchClient() {
             {results.length} result{results.length === 1 ? '' : 's'} for "{query}"
           </h2>
           {results.length > 0 ? (
-            <div className="result-list">
-              {results.map((result) => (
-                <Link key={`${result.type}-${result.id}`} href={result.href} className="result-card">
-                  <span className="badge">{result.type}</span>
-                  <h3>{result.title}</h3>
-                  <p>{result.description}</p>
-                  <small>{result.meta}</small>
-                </Link>
+            <div className="search-results-grouped">
+              {groupedResults.map((group) => (
+                <div key={group.type} className="search-result-group">
+                  <div className="section-heading-row">
+                    <h3>{typeLabels[group.type]}</h3>
+                    <span>{group.results.length}</span>
+                  </div>
+                  <div className="result-list">
+                    {group.results.map((result) => (
+                      <Link key={`${result.type}-${result.id}`} href={result.href} className="result-card">
+                        <span className={`badge ${result.type.toLowerCase()}`}>{typeLabels[result.type]}</span>
+                        <h3>{result.title}</h3>
+                        <p>{result.description}</p>
+                        <div className="result-meta-row">
+                          <small>{result.meta}</small>
+                          {result.status && <small>{result.status}</small>}
+                          {result.updatedAt && <small>Updated {result.updatedAt}</small>}
+                        </div>
+                        {result.source && <small className="result-source">Source: {result.source}</small>}
+                      </Link>
+                    ))}
+                  </div>
+                </div>
               ))}
             </div>
           ) : (

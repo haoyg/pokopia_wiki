@@ -2,11 +2,15 @@ import searchIndex from '@/data/search-index.json'
 
 export type SearchResult = {
   id: string
-  type: 'News' | 'Guide' | 'Pokemon' | 'Habitat' | 'Recipe'
+  type: 'Official' | 'News' | 'Guide' | 'Pokemon' | 'Habitat' | 'Recipe'
   title: string
   href: string
   description: string
   meta: string
+  status?: string
+  source?: string | null
+  updatedAt?: string | null
+  priority?: number
   keywords: string
 }
 
@@ -31,7 +35,9 @@ function scoreResult(result: SearchResult, terms: string[]) {
     return score
   }, 0)
 
-  return matchedTerms.length === terms.length ? score + 8 : score
+  const weightedScore = score + Math.floor((result.priority || 0) / 20)
+
+  return matchedTerms.length === terms.length ? weightedScore + 8 : weightedScore
 }
 
 export function searchContent(query: string) {
@@ -46,7 +52,11 @@ export function searchContent(query: string) {
   return results
     .map((result) => ({ result, score: scoreResult(result, terms) }))
     .filter((item) => item.score > 0)
-    .sort((a, b) => b.score - a.score || a.result.title.localeCompare(b.result.title))
+    .sort((a, b) => {
+      const dateA = a.result.updatedAt ? new Date(a.result.updatedAt).getTime() : 0
+      const dateB = b.result.updatedAt ? new Date(b.result.updatedAt).getTime() : 0
+      return b.score - a.score || dateB - dateA || a.result.title.localeCompare(b.result.title)
+    })
     .map((item) => item.result)
 }
 

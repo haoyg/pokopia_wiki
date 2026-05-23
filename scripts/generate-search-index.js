@@ -24,6 +24,20 @@ function text(value, maxLength = 180) {
   return `${normalized.slice(0, maxLength - 1).trim()}…`
 }
 
+function dateOnly(value) {
+  if (!value) return null
+  const date = new Date(value)
+  if (Number.isNaN(date.getTime())) return null
+  return date.toISOString().slice(0, 10)
+}
+
+function unixDate(value) {
+  if (!value) return null
+  const date = new Date(value * 1000)
+  if (Number.isNaN(date.getTime())) return null
+  return date.toISOString().slice(0, 10)
+}
+
 const guides = readJson('src/data/guides.json')
 const habitats = readJson('src/data/habitats.json')
 const news = readJson('src/data/news.json')
@@ -41,6 +55,10 @@ const index = [
     href: `/news/${item.slug}`,
     description: text(item.excerpt),
     meta: item.verified_status || item.category,
+    status: item.verified_status || 'Source update',
+    source: item.source_label || null,
+    updatedAt: unixDate(item.published_at),
+    priority: 95,
     keywords: [
       item.title,
       item.category,
@@ -57,6 +75,10 @@ const index = [
     href: `/guides/${item.slug}`,
     description: text(item.answer || item.content),
     meta: item.category,
+    status: item.data_status || 'Editorial guide',
+    source: item.image_source || null,
+    updatedAt: dateOnly(item.updated_at || item.published_at),
+    priority: 85,
     keywords: [
       item.title,
       item.category,
@@ -73,6 +95,10 @@ const index = [
     href: `/official/${item.slug}`,
     description: text(item.summary),
     meta: item.category,
+    status: 'Official source roundup',
+    source: item.sources?.[0]?.label || null,
+    updatedAt: dateOnly(item.updated_at),
+    priority: 100,
     keywords: [
       item.title,
       item.category,
@@ -89,6 +115,10 @@ const index = [
     href: `/wiki/pokemon/${item.id}`,
     description: text(item.overview || item.description),
     meta: `${item.type} / ${item.rarity}`,
+    status: item.data_status || 'Editorial database entry',
+    source: item.image_source || null,
+    updatedAt: dateOnly(item.updated_at),
+    priority: 75,
     keywords: [
       item.name,
       item.type,
@@ -110,6 +140,10 @@ const index = [
     href: `/wiki/habitat/${item.id}`,
     description: text(item.overview || `${item.unlock_condition}. ${item.resource_bonus}`),
     meta: `${item.weather} / ${item.difficulty}`,
+    status: item.data_status || 'Editorial habitat reference',
+    source: item.image_source || null,
+    updatedAt: dateOnly(item.updated_at),
+    priority: 70,
     keywords: [
       item.name,
       item.unlock_condition,
@@ -128,6 +162,10 @@ const index = [
     href: `/wiki/recipe/${item.id}`,
     description: text(item.overview || item.buff),
     meta: `${item.rarity} / ${item.effect_duration}`,
+    status: item.data_status || 'Editorial recipe reference',
+    source: item.image_source || null,
+    updatedAt: dateOnly(item.updated_at),
+    priority: 65,
     keywords: [
       item.name,
       item.ingredients,
