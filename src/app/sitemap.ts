@@ -6,12 +6,14 @@ import guidesData from '@/data/guides.json'
 import pokemonData from '@/data/pokemon.json'
 import habitatsData from '@/data/habitats.json'
 import recipesData from '@/data/recipes.json'
+import officialData from '@/data/official.json'
 
 const BASE_URL = 'https://pokopia.wiki'
 
 const staticPages = [
   { url: '/', priority: '1.0', changefreq: 'daily' },
   { url: '/news', priority: '0.9', changefreq: 'hourly' },
+  { url: '/official', priority: '0.85', changefreq: 'weekly' },
   { url: '/guides', priority: '0.9', changefreq: 'weekly' },
   { url: '/wiki/pokemon', priority: '0.8', changefreq: 'weekly' },
   { url: '/wiki/habitat', priority: '0.8', changefreq: 'weekly' },
@@ -59,6 +61,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(guide.updated_at || guide.published_at || Date.now()),
       changeFrequency: 'monthly',
       priority: 0.7,
+    })
+  })
+
+  // Official info
+  officialData.forEach((page) => {
+    entries.push({
+      url: `${BASE_URL}/official/${page.slug}`,
+      lastModified: new Date(page.updated_at),
+      changeFrequency: 'monthly',
+      priority: 0.75,
     })
   })
 

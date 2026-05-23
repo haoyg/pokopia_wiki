@@ -29,6 +29,7 @@ const habitats = readJson('src/data/habitats.json')
 const news = readJson('src/data/news.json')
 const pokemon = readJson('src/data/pokemon.json')
 const recipes = readJson('src/data/recipes.json')
+const official = readJson('src/data/official.json')
 
 const habitatById = new Map(habitats.map((item) => [item.id, item]))
 
@@ -56,6 +57,22 @@ const index = [
       csv(item.related_pokemon).join(' '),
       csv(item.related_habitats).join(' '),
       csv(item.related_items).join(' '),
+    ].join(' '),
+  })),
+  ...official.map((item) => ({
+    id: item.id,
+    type: 'Official',
+    title: item.title,
+    href: `/official/${item.slug}`,
+    description: text(item.summary),
+    meta: item.category,
+    keywords: [
+      item.title,
+      item.category,
+      item.summary,
+      item.facts,
+      item.analysis,
+      item.sources?.map((source) => source.label).join(' '),
     ].join(' '),
   })),
   ...pokemon.map((item) => ({

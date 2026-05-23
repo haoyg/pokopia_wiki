@@ -1,0 +1,167 @@
+[
+  {
+    "id": "official001",
+    "title": "Pokémon Pokopia Release Date, Platform, Price, and Editions",
+    "slug": "release-date-platform-price",
+    "category": "Official Info",
+    "summary": "Pokémon Pokopia is available for Nintendo Switch 2, with the Nintendo Store listing March 5, 2026 as the release date. This page summarizes platform, file size, language, online, and early purchase bonus details from official sources.",
+    "updated_at": "2026-05-23",
+    "facts": [
+      "Nintendo lists Pokémon Pokopia as a Nintendo Switch 2 title.",
+      "The Nintendo Store release date is March 5, 2026.",
+      "The Nintendo Store lists the regular price as $69.99 in the United States.",
+      "The Nintendo Store lists the game file size as 6.2 GB.",
+      "Supported languages listed by Nintendo include Japanese, French, German, Italian, Spanish, Korean, Simplified Chinese, Traditional Chinese, and American English.",
+      "Nintendo lists TV mode, tabletop mode, and handheld mode support.",
+      "Nintendo lists online play and save data cloud support through Nintendo Switch Online.",
+      "The early purchase bonus is an in-game Ditto Rug, claimable through Mystery Gift by Sunday, January 31, 2027, according to Nintendo's product page."
+    ],
+    "analysis": [
+      "For SEO and user trust, treat this page as the base reference for release-date queries rather than repeating the same release details across every guide.",
+      "If regional price, edition, or bonus wording differs outside the United States, add region-specific notes instead of overwriting the US Nintendo Store details.",
+      "Because the official Pokémon site and Nintendo Store are current product pages, they should be treated as higher-priority sources than third-party summaries."
+    ],
+    "related_links": [
+      { "label": "Official gameplay overview", "href": "/official/gameplay-overview" },
+      { "label": "Multiplayer and GameShare", "href": "/official/multiplayer-gameshare-cloud-island" },
+      { "label": "Copyright and source policy", "href": "/copyright" }
+    ],
+    "sources": [
+      {
+        "label": "Nintendo Store - Pokémon Pokopia",
+        "url": "https://www.nintendo.com/us/store/products/pokemon-pokopia-switch-2/",
+        "note": "Release date, platform, file size, supported languages, play modes, bonus, and store details."
+      },
+      {
+        "label": "Official Pokémon Pokopia website",
+        "url": "https://pokopia.pokemon.com/en-us/",
+        "note": "Official product overview and rights-holder information."
+      }
+    ]
+  },
+  {
+    "id": "official002",
+    "title": "Pokémon Pokopia Official Gameplay Overview",
+    "slug": "gameplay-overview",
+    "category": "Official Info",
+    "summary": "A concise overview of confirmed Pokémon Pokopia gameplay based on official Nintendo and Pokémon pages: play as a human-like Ditto, rebuild a desolate world, learn Pokémon moves, craft, decorate, grow crops, and befriend Pokémon.",
+    "updated_at": "2026-05-23",
+    "facts": [
+      "The player character is a Ditto that has transformed to look like a human.",
+      "The core premise is rebuilding a desolate world into a Pokémon utopia.",
+      "Professor Tangrowth is described by Nintendo as a guide for the player and the Pokémon they meet.",
+      "Nintendo confirms Pokémon moves can change traversal and building options, including Bulbasaur's Leafage, Lapras's Surf, and Dragonite's Glide.",
+      "The official Pokémon site highlights crafting, building, gardening, and inviting Pokémon or friends to visit.",
+      "Nintendo describes activities such as gathering materials, crafting furniture, growing crops, cooking meals, rebuilding a town, taking photos, and customizing hairstyle and clothing.",
+      "Nintendo confirms a real-time day and night cycle and varying in-game weather.",
+      "The official Pokémon site states that screenshots and game footage are from a product in development and not final."
+    ],
+    "analysis": [
+      "This page should anchor broad informational keywords such as Pokémon Pokopia gameplay, Pokopia life sim, and Pokopia crafting.",
+      "Do not mix this confirmed overview with unverified wiki claims. Detailed habitat, recipe, and Pokémon database pages should link back here when they rely on official gameplay context.",
+      "The safest editorial interpretation is that Pokémon Pokopia is a relaxing life simulation and building game, not a traditional battle-first Pokémon RPG."
+    ],
+    "related_links": [
+      { "label": "Release date and platform", "href": "/official/release-date-platform-price" },
+      { "label": "Official beginner tips", "href": "/official/official-beginner-tips" },
+      { "label": "Habitat guide index", "href": "/wiki/habitat" }
+    ],
+    "sources": [
+      {
+        "label": "Official Pokémon Pokopia website",
+        "url": "https://pokopia.pokemon.com/en-us/",
+        "note": "Official game premise, build/create/discover sections, and development-footage notice."
+      },
+      {
+        "label": "Nintendo Store - Pokémon Pokopia",
+        "url": "https://www.nintendo.com/us/store/products/pokemon-pokopia-switch-2/",
+        "note": "Confirmed gameplay systems, character details, multiplayer, and product information."
+      },
+      {
+        "label": "Nintendo News - Pokémon Pokopia available now",
+        "url": "https://www.nintendo.com/us/whatsnew/shape-the-world-and-build-a-cozy-new-life-in-pokemon-pokopia-available-now/",
+        "note": "Official launch article summarizing exploration, crafting, Pokémon requests, real-time cycle, weather, and multiplayer."
+      }
+    ]
+  },
+  {
+    "id": "official003",
+    "title": "Pokémon Pokopia Multiplayer, GameShare, Palette Town, and Cloud Island",
+    "slug": "multiplayer-gameshare-cloud-island",
+    "category": "Official Info",
+    "summary": "Nintendo confirms several multiplayer options for Pokémon Pokopia, including local wireless, online play, GameShare, Palette Town co-building, Cloud Island, and Virtual Mode.",
+    "updated_at": "2026-05-23",
+    "facts": [
+      "Nintendo says Pokémon Pokopia supports online and local wireless ways to play with friends.",
+      "Nintendo's launch article says players can invite up to three other players to visit.",
+      "Nintendo says town visits start through the Pokémon Center PC's Link Play menu, which unlocks after roughly 30 minutes of play.",
+      "Visitors to a town are in Spectator Mode, so their actions are limited and they cannot freely alter the host's creations.",
+      "Palette Town is described as a large sandbox area where Spectator Mode can be turned off so players can build, craft, discover Pokémon, and make habitats together.",
+      "Nintendo says GameShare can let people without the game access a shared area, with Nintendo Switch 2 required to initiate the session.",
+      "Cloud Island is described as a persistent online area with its own Pokédex, rewards, and challenges.",
+      "Virtual Mode lets players share a Cloud Island online while preventing visitors from changing it."
+    ],
+    "analysis": [
+      "This page is useful because multiplayer rules are easy to misunderstand. It separates town visiting, Palette Town building, GameShare, Cloud Island, and Virtual Mode into distinct concepts.",
+      "When writing future multiplayer guides, avoid implying that every visitor can edit every town. Nintendo specifically describes Spectator Mode for normal town visits.",
+      "GameShare details depend on Nintendo Switch 2, GameChat, Nintendo Switch Online, and session limits, so link to Nintendo rather than paraphrasing all restrictions in every article."
+    ],
+    "related_links": [
+      { "label": "Official gameplay overview", "href": "/official/gameplay-overview" },
+      { "label": "Official beginner tips", "href": "/official/official-beginner-tips" },
+      { "label": "Community hub", "href": "/community" }
+    ],
+    "sources": [
+      {
+        "label": "Nintendo News - How multiplayer works",
+        "url": "https://www.nintendo.com/us/whatsnew/heres-how-multiplayer-works-in-pokemon-pokopia/",
+        "note": "Official multiplayer, GameShare, Palette Town, Cloud Island, and Virtual Mode explanation."
+      },
+      {
+        "label": "Nintendo Store - Pokémon Pokopia",
+        "url": "https://www.nintendo.com/us/store/products/pokemon-pokopia-switch-2/",
+        "note": "Product-page multiplayer, GameShare, online, and local details."
+      }
+    ]
+  },
+  {
+    "id": "official004",
+    "title": "Pokémon Pokopia Official Beginner Tips",
+    "slug": "official-beginner-tips",
+    "category": "Official Info",
+    "summary": "Nintendo's official tips emphasize playing at your own pace, checking Pokémon Center PC features, improving storage, talking to Pokémon, organizing materials, using the Pokédex and Habitat Dex, and powering up moves with food.",
+    "updated_at": "2026-05-23",
+    "facts": [
+      "Nintendo's official tips article frames Pokémon Pokopia as a game about doing what is fun at your own pace.",
+      "Nintendo recommends checking the Pokémon Center PC for daily challenges, PC shop items and recipes, and stamps that can be exchanged for Life Coins.",
+      "Nintendo recommends prioritizing bag upgrades such as Packing Tips and Handy Bag items, plus PP Up items when they appear.",
+      "Nintendo recommends talking to befriended Pokémon, especially when they seem to be thinking about something, because this can lead to requests.",
+      "Building a home for Ditto unlocks a quick way to travel back to a town through the main menu.",
+      "Nintendo recommends placing storage boxes near a workbench so materials in that box can be used while crafting.",
+      "Nintendo says the Pokédex and Habitat Dex have useful filters, including specialty filters, current-area Pokémon, and habitat-building focus.",
+      "Nintendo says food can power up Ditto's moves, with Leafage given as an example of a move that can create different plant effects depending on the surface."
+    ],
+    "analysis": [
+      "This page should replace generic beginner advice with verified official tips, then link out to deeper site guides for specific routes.",
+      "The strongest beginner content angle is inventory, requests, PC features, and movement/building efficiency, not only catching Pokémon.",
+      "Future guides should distinguish official tips from editorial route recommendations, especially when recommending specific farming loops or item priorities."
+    ],
+    "related_links": [
+      { "label": "Gameplay overview", "href": "/official/gameplay-overview" },
+      { "label": "Pokopia guides", "href": "/guides" },
+      { "label": "Recipe calculator", "href": "/tools/recipe-calculator" }
+    ],
+    "sources": [
+      {
+        "label": "Nintendo News - Helpful hints for Pokémon Pokopia",
+        "url": "https://www.nintendo.com/us/whatsnew/get-the-most-out-of-pokemon-pokopia-with-these-helpful-tips/",
+        "note": "Official beginner and non-beginner tips."
+      },
+      {
+        "label": "Nintendo Store - Pokémon Pokopia",
+        "url": "https://www.nintendo.com/us/store/products/pokemon-pokopia-switch-2/",
+        "note": "Official product context for PC, gameplay, multiplayer, and supported features."
+      }
+    ]
+  }
+]
