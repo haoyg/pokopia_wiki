@@ -40,8 +40,15 @@ const index = [
     title: item.title,
     href: `/news/${item.slug}`,
     description: text(item.excerpt),
-    meta: item.category,
-    keywords: [item.title, item.category, item.excerpt].join(' '),
+    meta: item.verified_status || item.category,
+    keywords: [
+      item.title,
+      item.category,
+      item.excerpt,
+      item.verified_status,
+      item.source_label,
+      item.source_type,
+    ].join(' '),
   })),
   ...guides.map((item) => ({
     id: item.id,

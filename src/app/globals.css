@@ -672,11 +672,15 @@ section h2::before {
   box-shadow: 0 2px 0 rgba(47, 76, 113, 0.08);
 }
 
-/* News/Patch/Event badges */
+/* News/source badges */
 .badge.update { background: var(--color-update-bg); color: var(--color-update); }
 .badge.patch { background: var(--color-patch-bg); color: var(--color-patch); }
 .badge.event { background: var(--color-event-bg); color: var(--color-event); }
 .badge.announcement { background: var(--color-announcement-bg); color: var(--color-announcement); }
+.badge.official { background: var(--color-update-bg); color: var(--color-update); }
+.badge.trailer { background: var(--color-announcement-bg); color: var(--color-announcement); }
+.badge.source-roundup { background: var(--color-guides-bg); color: var(--color-guides); }
+.badge.site-update { background: var(--color-patch-bg); color: var(--color-patch); }
 
 /* Tier list badges */
 .badge.tier { background: var(--color-tier-bg); color: var(--color-tier); }

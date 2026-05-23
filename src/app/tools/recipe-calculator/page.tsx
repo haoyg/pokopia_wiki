@@ -182,7 +182,7 @@ export default function RecipeCalculator() {
           Pro Tips
         </h3>
         <ul style={{ fontSize: '0.875rem', color: '#666', paddingLeft: '1.25rem', margin: 0 }}>
-          <li>Stack Lucky Charm with Double XP events for maximum efficiency</li>
+          <li>Use Lucky Charm only during planned farming windows where the full duration helps</li>
           <li>Fire Boost is essential for Volcanic Cave boss fights</li>
           <li>Guardian Stew + Steel Shell = maximum defense build</li>
         </ul>

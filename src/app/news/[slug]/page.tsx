@@ -4,6 +4,14 @@ import guidesData from '@/data/guides.json'
 import { ArticleJsonLd } from '@/components/seo/JsonLd'
 import { canonicalUrl } from '@/lib/site'
 import { CreditedImage } from '@/components/media/CreditedImage'
+import { DataStatus } from '@/components/content/DataStatus'
+
+const categoryLabels: Record<string, string> = {
+  official: 'Official',
+  trailer: 'Trailer',
+  'source-roundup': 'Source Roundup',
+  'site-update': 'Site Update',
+}
 
 interface Props {
   params: Promise<{ slug: string }>
@@ -21,7 +29,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!news) return { title: 'News Not Found' }
 
   return {
-    title: `${news.title} | Pokopia Portal`,
+    title: news.title,
     description: news.excerpt,
     openGraph: {
       title: news.title,
@@ -54,6 +62,8 @@ export default async function NewsDetailPage({ params }: Props) {
   const date = new Date(news.published_at * 1000).toLocaleDateString()
   const relatedNews = newsData.filter((n) => n.id !== news.id).slice(0, 3)
   const relatedGuides = guidesData.slice(0, 3)
+  const contentParagraphs = news.content.split('\n\n').filter(Boolean)
+  const isExternalSource = news.source_url?.startsWith('http')
 
   return (
     <>
@@ -66,12 +76,38 @@ export default async function NewsDetailPage({ params }: Props) {
       />
       <main style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
         <article>
-          <span className={`badge ${news.category}`}>{news.category}</span>
+          <span className={`badge ${news.category}`}>{categoryLabels[news.category] || news.category}</span>
           <h1 style={{ marginTop: '1rem' }}>{news.title}</h1>
           <p style={{ color: '#666', marginTop: '0.5rem' }}>{date}</p>
+          <DataStatus
+            status={news.verified_status}
+            note="This article is a source-based roundup or site update. It is not a patch note, live event announcement, or balance update unless the linked official source says so."
+            updatedAt={date}
+          />
+          {news.source_label && news.source_url && (
+            <aside className="data-status" aria-label="News source">
+              <div>
+                <span className="data-status-label">Primary Source</span>
+                <strong>{news.source_type || 'Source'}</strong>
+              </div>
+              <p>
+                <a
+                  href={news.source_url}
+                  rel={isExternalSource ? 'nofollow noopener noreferrer' : undefined}
+                  target={isExternalSource ? '_blank' : undefined}
+                >
+                  {news.source_label}
+                </a>
+              </p>
+            </aside>
+          )}
           <CreditedImage src={news.image_url} alt={news.image_alt} source={news.image_source} sourceUrl={news.image_source_url} className="article-cover" sizes="(max-width: 768px) 100vw, 800px" priority />
           <p style={{ marginTop: '1rem' }}>{news.excerpt}</p>
-          <div style={{ marginTop: '2rem', lineHeight: '1.8' }}>{news.content}</div>
+          <div style={{ marginTop: '2rem', lineHeight: '1.8' }}>
+            {contentParagraphs.map((paragraph) => (
+              <p key={paragraph} style={{ marginTop: '1rem' }}>{paragraph}</p>
+            ))}
+          </div>
         </article>
 
         <aside style={{ marginTop: '3rem', borderTop: '1px solid #ddd', paddingTop: '2rem' }}>

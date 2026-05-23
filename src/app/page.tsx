@@ -32,10 +32,10 @@ const typeLabels: Record<string, string> = {
 }
 
 const categoryLabels: Record<string, string> = {
-  update: 'Update',
-  patch: 'Patch',
-  event: 'Event',
-  announcement: 'News',
+  official: 'Official',
+  trailer: 'Trailer',
+  'source-roundup': 'Source Roundup',
+  'site-update': 'Site Update',
   tier: 'Tier',
   guides: 'Guide',
   farming: 'Farming',

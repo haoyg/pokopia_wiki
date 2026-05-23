@@ -1,119 +1,130 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { canonicalUrl } from '@/lib/site'
+import { DataStatus } from '@/components/content/DataStatus'
+import { OfficialContext } from '@/components/content/OfficialContext'
 
 export const metadata: Metadata = {
-  title: 'The State of Pokopia: Season 2 Meta Analysis | Pokopia Portal',
-  description: 'A deep dive into Pokopia Season 2 meta rankings, role distribution, weather trends, and team recommendations.',
+  title: 'Pokémon Pokopia Confirmed Systems Analysis',
+  description: 'Editorial analysis of officially confirmed Pokémon Pokopia systems, including Ditto, moves, crafting, food, multiplayer, and beginner routines.',
   alternates: {
     canonical: canonicalUrl('/features/meta-analysis'),
   },
   openGraph: {
-    title: 'The State of Pokopia: Season 2 Meta Analysis',
-    description: 'A deep dive into Pokopia Season 2 meta rankings, role distribution, weather trends, and team recommendations.',
+    title: 'Pokémon Pokopia Confirmed Systems Analysis',
+    description: 'A source-aware editorial explainer based on official Nintendo and Pokémon information.',
     images: ['/og-image.svg'],
     type: 'article',
   },
 }
 
 export default function MetaAnalysisPage() {
+  const reviewedAt = 'May 23, 2026'
+
   return (
-    <main style={{ maxWidth: '800px', margin: '0 auto', padding: '2rem 1rem' }}>
+    <main style={{ maxWidth: '820px', margin: '0 auto', padding: '2rem 1rem' }}>
       <header style={{ marginBottom: '2rem' }}>
         <Link href="/features" style={{ fontSize: '0.875rem', color: '#666' }}>
-          ← Back to Features
+          Back to Features
         </Link>
-        <div style={{ marginTop: '1rem', display: 'flex', gap: '0.5rem', alignItems: 'center' }}>
-          <span
-            style={{
-              fontSize: '0.7rem',
-              fontWeight: 700,
-              textTransform: 'uppercase',
-              padding: '0.25rem 0.5rem',
-              background: '#e3f2fd',
-              color: '#1565c0',
-              borderRadius: '4px',
-            }}
-          >
-            Deep Dive
-          </span>
-          <span style={{ fontSize: '0.875rem', color: '#999' }}>8 min read</span>
+        <div style={{ marginTop: '1rem' }}>
+          <span className="badge source-roundup">Editorial Explainer</span>
         </div>
         <h1 style={{ fontSize: '2.25rem', fontWeight: 800, marginTop: '1rem', lineHeight: 1.2 }}>
-          The State of Pokopia: Season 2 Meta Analysis
+          Pokémon Pokopia Confirmed Systems Analysis
         </h1>
-        <p style={{ fontSize: '1.125rem', color: '#666', marginTop: '1rem' }}>
-          After analyzing over 10,000 competitive matches and 50,000+ gameplay sessions, here's what the data tells us about the current meta.
+        <p style={{ fontSize: '1.125rem', color: '#666', marginTop: '1rem', lineHeight: 1.7 }}>
+          A source-aware analysis of what official Nintendo and Pokémon pages confirm about Pokémon Pokopia, and how those systems should shape editorial guides on this site.
         </p>
+        <DataStatus
+          status="Editorial analysis based on official sources"
+          note="This feature does not use competitive match data, player interviews, or unsourced rankings. It interprets confirmed information from official pages and links to the relevant source roundups."
+          updatedAt={reviewedAt}
+        />
+        <OfficialContext
+          title="Official Sources Behind This Analysis"
+          description="Read the official-source roundups before treating any strategy page as confirmed game data."
+          links={[
+            { href: '/official/gameplay-overview', label: 'Gameplay overview' },
+            { href: '/official/multiplayer-gameshare-cloud-island', label: 'Multiplayer' },
+            { href: '/official/official-beginner-tips', label: 'Official tips' },
+          ]}
+        />
       </header>
 
       <article style={{ lineHeight: 1.8, fontSize: '1.0625rem' }}>
         <h2>Executive Summary</h2>
         <p>
-          Season 2 has brought significant balance changes, but our data shows one undeniable truth: legendary Pokémon still dominate the meta. However, the gap between legendary and rare-tier Pokémon has narrowed by 15% compared to Season 1.
+          Official materials position Pokémon Pokopia as a cozy creation and life-simulation game. The confirmed loop is not built around competitive ladders or patch-driven rankings; it is built around a human-like Ditto, Pokémon moves, gathering materials, crafting, growing crops, building habitats, and inviting Pokémon or friends into created spaces.
         </p>
-
-        <h2>The Tier Rankings</h2>
-
-        <h3 style={{ fontSize: '1.25rem', fontWeight: 700, marginTop: '2rem' }}>🟡 S-Tier: The Legendaries</h3>
         <p>
-          Four legendary Pokémon currently hold S-tier status: <strong>Flamexor</strong>, <strong>Shadowclaw</strong>, <strong>Voltscale</strong>, and <strong>Primordion</strong>. These four Pokémon appear in 78% of top-100 competitive teams.
+          For Pokopia Portal, that means the safest content model is clear: official pages should document confirmed systems, while guides should be labeled as editorial route planning. Database pages can help readers plan, but they should not imply that every spawn, drop, or tier claim is official.
         </p>
 
-        <h3 style={{ fontSize: '1.25rem', fontWeight: 700, marginTop: '2rem' }}>🔵 A-Tier: The Powerhouse Rares</h3>
+        <h2>1. Ditto Is the Core Framing Device</h2>
         <p>
-          <strong>Crystion</strong>, <strong>Snorizard</strong>, <strong>Shados</strong>, and <strong>Bronzorm</strong> form the backbone of non-legendary teams. Their versatility makes them essential for players who haven't obtained legendaries.
+          Official sources describe the player character as a Ditto transformed to look like a human. This matters because the game is framed around learning from Pokémon and using those learned actions to reshape the world.
         </p>
-
-        <h3 style={{ fontSize: '1.25rem', fontWeight: 700, marginTop: '2rem' }}>🟢 B-Tier: The Specialists</h3>
         <p>
-          Pokémon like <strong>Mechabit</strong>, <strong>Zaprat</strong>, and <strong>Dewdrop</strong> excel in specific team compositions but struggle in general use.
+          Editorial guide implication: beginner content should focus on what Ditto can do, which systems unlock new options, and how players can organize tasks. It should not read like a traditional battle-first team optimization guide unless an official source supports that framing.
         </p>
 
-        <h2>Role Distribution</h2>
+        <h2>2. Moves Are Utility Systems, Not Just Combat Buttons</h2>
         <p>
-          The most successful teams in Season 2 follow a clear pattern: 1 Tank, 2 Attackers, 1 Speedster, 1 Support, and 1 Flex slot. Teams without a dedicated Tank have a 34% lower win rate in competitive play.
+          Nintendo examples such as Leafage, Surf, and Glide show that moves can affect exploration, traversal, or world-building. This changes how guide content should discuss moves.
         </p>
-
-        <h2>Weather & Environment</h2>
         <p>
-          Rain teams have surged in popularity with the buff to Water-type abilities. Thunderstorm weather now appears in 23% of high-level matches, making Voltscale an almost mandatory pick.
+          Editorial guide implication: when a page discusses a move, it should explain the practical job the move supports, such as crossing water, reaching areas, shaping terrain, or supporting habitat creation. Damage-only rankings are not the right default for confirmed Pokopia coverage.
         </p>
 
-        <h2>Recommendations</h2>
+        <h2>3. Food and Recipes Need Careful Wording</h2>
+        <p>
+          Nintendo's beginner tips mention food powering up Ditto's moves. That gives a confirmed basis for recipe-related guides, but it does not confirm every recipe, duration, or best-use claim on this site.
+        </p>
+        <p>
+          Editorial guide implication: recipe pages should be phrased as planning advice unless their exact effect is official or player-tested. Phrases such as "must use" or "best in the game" should be avoided unless there is real evidence.
+        </p>
+
+        <h2>4. Multiplayer Has Distinct Modes and Permissions</h2>
+        <p>
+          Nintendo separates town visits, Spectator Mode, Palette Town, GameShare, Cloud Island, and Virtual Mode. These are not interchangeable terms.
+        </p>
+        <p>
+          Editorial guide implication: community and build pages should specify which mode they are discussing. A normal town visit should not be described as unrestricted co-building if Nintendo describes Spectator Mode limits for that context.
+        </p>
+
+        <h2>5. The Best SEO Content Should Answer Practical System Questions</h2>
+        <p>
+          The strongest source-aligned topics are practical questions: what Pokémon Pokopia is, how building works, how food affects moves, what GameShare allows, what Cloud Island is, and how official beginner tips shape early play.
+        </p>
+        <p>
+          Editorial guide implication: the site should prioritize source-backed explainers and clearly marked planning guides over unsourced claims about meta rankings, top players, balance changes, or live events.
+        </p>
+
+        <h2>Recommended Content Standard</h2>
         <ul>
-          <li>If you're new, focus on <strong>Flamexor</strong> as your first legendary - it provides the best overall value</li>
-          <li>Invest in a balanced team before chasing specific counters</li>
-          <li>Support roles are undervalued - a good Support can swing fights</li>
-          <li>Watch for the upcoming patch notes - our data suggests nerfs to Shadowclaw are coming</li>
+          <li>Use official pages for confirmed release, platform, gameplay, multiplayer, and beginner information.</li>
+          <li>Label guide, Pokémon, habitat, and recipe advice as editorial unless it is directly sourced.</li>
+          <li>Avoid invented competitive statistics, player interviews, top guilds, patch predictions, and event claims.</li>
+          <li>When a page uses site database data, say so near the top through Content Status.</li>
+          <li>Prefer practical system explanations over authority claims that cannot be verified.</li>
         </ul>
-
-        <h2>Conclusion</h2>
-        <p>
-          The meta is healthier than ever. While legendaries remain powerful, the gap has closed enough that skilled players can compete with rare-tier Pokémon. The next patch could shift things significantly, so stay tuned for our weekly meta updates.
-        </p>
       </article>
 
       <aside style={{ marginTop: '3rem', padding: '1.5rem', background: '#f8f9fa', borderRadius: '12px' }}>
-        <h3 style={{ fontSize: '1rem', fontWeight: 700, marginBottom: '1rem' }}>Related Guides</h3>
+        <h3 style={{ fontSize: '1rem', fontWeight: 700, marginBottom: '1rem' }}>Related Source Pages</h3>
         <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
-          <Link href="/guides/top-10-powerful-pokemon" style={{ color: '#e94560', fontWeight: 600 }}>
-            → Top 10 Most Powerful Pokémon
+          <Link href="/official/gameplay-overview" style={{ color: '#e94560', fontWeight: 600 }}>
+            Official Gameplay Overview
           </Link>
-          <Link href="/guides/best-defense-team-pokopia" style={{ color: '#e94560', fontWeight: 600 }}>
-            → Best Defense Team Build
+          <Link href="/official/official-beginner-tips" style={{ color: '#e94560', fontWeight: 600 }}>
+            Official Beginner Tips
           </Link>
-          <Link href="/guides/legendary-locations-guide" style={{ color: '#e94560', fontWeight: 600 }}>
-            → Legendary Locations Guide
+          <Link href="/news/pokopia-portal-official-editorial-labels" style={{ color: '#e94560', fontWeight: 600 }}>
+            How We Label Official and Editorial Content
           </Link>
         </div>
       </aside>
-
-      <div style={{ marginTop: '2rem', paddingTop: '2rem', borderTop: '1px solid #e5e5e5' }}>
-        <p style={{ fontSize: '0.875rem', color: '#666' }}>
-          Written by the Pokopia Portal editorial team. Data sourced from 10,000+ competitive matches.
-        </p>
-      </div>
     </main>
   )
 }

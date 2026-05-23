@@ -121,14 +121,18 @@ export interface News {
   id: string
   title: string
   slug: string
-  category: 'update' | 'patch' | 'event' | 'announcement'
+  category: 'official' | 'trailer' | 'source-roundup' | 'site-update'
   excerpt: string
   content: string
   image_url?: string
   image_alt?: string
   image_source?: string
   image_source_url?: string
-  published_at: string
+  verified_status?: string
+  source_label?: string
+  source_url?: string
+  source_type?: string
+  published_at: number
 }
 
 export interface Build {
