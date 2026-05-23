@@ -26,6 +26,10 @@ const staticPages = [
   { url: '/builds', priority: '0.6', changefreq: 'weekly' },
   { url: '/tier-list', priority: '0.6', changefreq: 'weekly' },
   { url: '/community', priority: '0.5', changefreq: 'monthly' },
+  { url: '/about', priority: '0.4', changefreq: 'yearly' },
+  { url: '/contact', priority: '0.4', changefreq: 'yearly' },
+  { url: '/privacy-policy', priority: '0.3', changefreq: 'yearly' },
+  { url: '/terms', priority: '0.3', changefreq: 'yearly' },
 ]
 
 export default function sitemap(): MetadataRoute.Sitemap {

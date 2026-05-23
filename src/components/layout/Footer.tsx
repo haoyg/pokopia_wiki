@@ -10,6 +10,10 @@ export function Footer() {
           <Link href="/tools">Tools</Link>
           <Link href="/guides">Guides</Link>
           <Link href="/wiki/pokemon">Pokemon Database</Link>
+          <Link href="/about">About</Link>
+          <Link href="/contact">Contact</Link>
+          <Link href="/privacy-policy">Privacy Policy</Link>
+          <Link href="/terms">Terms</Link>
         </div>
       </div>
     </footer>
