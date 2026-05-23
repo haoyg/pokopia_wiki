@@ -1,10 +1,14 @@
 import { Suspense } from 'react'
 import { Metadata } from 'next'
 import { SearchClient } from '@/components/search/SearchClient'
+import { canonicalUrl } from '@/lib/site'
 
 export const metadata: Metadata = {
   title: 'Search | Pokopia Portal',
   description: 'Search Pokopia news, guides, Pokemon, habitats, recipes, and tools.',
+  alternates: {
+    canonical: canonicalUrl('/search'),
+  },
 }
 
 export default function SearchPage() {

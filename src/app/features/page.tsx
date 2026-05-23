@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
 import guidesData from '@/data/guides.json'
+import { canonicalUrl } from '@/lib/site'
 
 const featuredGuides = guidesData.filter((g) => ['tier', 'guides'].includes(g.category)).slice(0, 6)
 
@@ -54,6 +55,9 @@ export const metadata: Metadata = {
     title: 'Features | Pokopia Portal',
     description: 'In-depth analysis, interviews, and editorial content about Pokopia.',
     images: ['/og-image.svg'],
+  },
+  alternates: {
+    canonical: canonicalUrl('/features'),
   },
 }
 

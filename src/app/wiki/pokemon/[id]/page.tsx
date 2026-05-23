@@ -3,6 +3,7 @@ import Image from 'next/image'
 import pokemonData from '@/data/pokemon.json'
 import guidesData from '@/data/guides.json'
 import newsData from '@/data/news.json'
+import { canonicalUrl } from '@/lib/site'
 
 interface Props {
   params: Promise<{ id: string }>
@@ -25,6 +26,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: pokemon?.description,
       images: [pokemon?.image_url || '/og-image.svg'],
     },
+    alternates: pokemon ? {
+      canonical: canonicalUrl(`/wiki/pokemon/${pokemon.id}`),
+    } : undefined,
   }
 }
 

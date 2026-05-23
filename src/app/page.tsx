@@ -1,7 +1,15 @@
+import type { Metadata } from 'next'
 import Image from 'next/image'
 import newsData from '@/data/news.json'
 import guidesData from '@/data/guides.json'
 import pokemonData from '@/data/pokemon.json'
+import { canonicalUrl } from '@/lib/site'
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: canonicalUrl('/'),
+  },
+}
 
 const typeLabels: Record<string, string> = {
   Fire: 'Fire',

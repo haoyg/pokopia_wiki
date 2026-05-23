@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 import Image from 'next/image'
 import pokemonData from '@/data/pokemon.json'
+import { canonicalUrl } from '@/lib/site'
 
 const typeIcons: Record<string, string> = {
   Fire: '/icons/fire.svg',
@@ -35,6 +36,9 @@ export const metadata: Metadata = {
     title: 'Pokemon Database | Pokopia Portal',
     description: 'Browse all Pokemon in Pokopia. View stats, abilities, habitats, drops, and best builds.',
     images: ['/og-image.svg'],
+  },
+  alternates: {
+    canonical: canonicalUrl('/wiki/pokemon'),
   },
 }
 

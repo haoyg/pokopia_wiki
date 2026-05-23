@@ -1,4 +1,20 @@
+import type { Metadata } from 'next'
 import Link from 'next/link'
+import { canonicalUrl } from '@/lib/site'
+
+export const metadata: Metadata = {
+  title: 'The State of Pokopia: Season 2 Meta Analysis | Pokopia Portal',
+  description: 'A deep dive into Pokopia Season 2 meta rankings, role distribution, weather trends, and team recommendations.',
+  alternates: {
+    canonical: canonicalUrl('/features/meta-analysis'),
+  },
+  openGraph: {
+    title: 'The State of Pokopia: Season 2 Meta Analysis',
+    description: 'A deep dive into Pokopia Season 2 meta rankings, role distribution, weather trends, and team recommendations.',
+    images: ['/og-image.svg'],
+    type: 'article',
+  },
+}
 
 export default function MetaAnalysisPage() {
   return (

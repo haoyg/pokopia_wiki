@@ -3,8 +3,7 @@ import './globals.css'
 import { WebsiteJsonLd } from '@/components/seo/JsonLd'
 import { Header } from '@/components/layout/Header'
 import { Footer } from '@/components/layout/Footer'
-
-const BASE_URL = 'https://pokopia.wiki'
+import { BASE_URL } from '@/lib/site'
 
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
@@ -57,9 +56,6 @@ export const metadata: Metadata = {
       'max-image-preview': 'large',
       'max-snippet': -1,
     },
-  },
-  alternates: {
-    canonical: BASE_URL,
   },
 }
 

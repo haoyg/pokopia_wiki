@@ -1,4 +1,5 @@
 import { Metadata } from 'next'
+import { canonicalUrl } from '@/lib/site'
 
 export const metadata: Metadata = {
   title: 'Game Tools & Calculators | Pokopia Portal',
@@ -7,6 +8,9 @@ export const metadata: Metadata = {
     title: 'Tools | Pokopia Portal',
     description: 'Use Pokopia tools and calculators. Habitat planner, recipe calculator, team builder, and spawn tracker.',
     images: ['/og-image.svg'],
+  },
+  alternates: {
+    canonical: canonicalUrl('/tools'),
   },
 }
 

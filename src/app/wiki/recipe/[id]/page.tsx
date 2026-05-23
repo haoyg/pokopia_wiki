@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 import recipesData from '@/data/recipes.json'
 import guidesData from '@/data/guides.json'
+import { canonicalUrl } from '@/lib/site'
 
 interface Props {
   params: Promise<{ id: string }>
@@ -23,6 +24,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: recipe?.buff,
       images: ['/og-image.svg'],
     },
+    alternates: recipe ? {
+      canonical: canonicalUrl(`/wiki/recipe/${recipe.id}`),
+    } : undefined,
   }
 }
 

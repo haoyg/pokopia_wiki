@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 import Image from 'next/image'
 import guidesData from '@/data/guides.json'
+import { canonicalUrl } from '@/lib/site'
 
 const categoryLabels: Record<string, string> = {
   tier: 'Tier',
@@ -16,6 +17,9 @@ export const metadata: Metadata = {
     title: 'Game Guides | Pokopia Portal',
     description: 'Master Pokopia with our comprehensive game guides. Tier lists, farming tips, team builds, and strategy guides.',
     images: ['/og-image.svg'],
+  },
+  alternates: {
+    canonical: canonicalUrl('/guides'),
   },
 }
 

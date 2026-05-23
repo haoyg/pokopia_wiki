@@ -2,6 +2,7 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 import Image from 'next/image'
 import pokemonData from '@/data/pokemon.json'
+import { canonicalUrl } from '@/lib/site'
 
 const typeIcons: Record<string, string> = {
   'Fire': '/icons/fire.svg', 'Water': '/icons/water.svg', 'Grass': '/icons/grass.svg',
@@ -82,6 +83,9 @@ export const metadata: Metadata = {
     title: 'Tier List | Pokopia Portal',
     description: 'View the definitive Pokopia tier list. Rankings based on rarity and competitive performance.',
     images: ['/og-image.svg'],
+  },
+  alternates: {
+    canonical: canonicalUrl('/tier-list'),
   },
 }
 

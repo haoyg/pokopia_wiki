@@ -4,6 +4,7 @@ import guidesData from '@/data/guides.json'
 import habitatsData from '@/data/habitats.json'
 import pokemonData from '@/data/pokemon.json'
 import { ArticleJsonLd } from '@/components/seo/JsonLd'
+import { canonicalUrl } from '@/lib/site'
 
 interface Props {
   params: Promise<{ slug: string }>
@@ -28,6 +29,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: guide.seo_keyword,
       images: [guide.image_url],
       type: 'article',
+    },
+    alternates: {
+      canonical: canonicalUrl(`/guides/${guide.slug}`),
     },
   }
 }

@@ -1,5 +1,6 @@
 import { Metadata } from 'next'
 import recipesData from '@/data/recipes.json'
+import { canonicalUrl } from '@/lib/site'
 
 const rarityEmoji: Record<string, string> = {
   'common': '⚪', 'uncommon': '🟢', 'rare': '🔵', 'legendary': '🟡',
@@ -22,6 +23,9 @@ export const metadata: Metadata = {
     title: 'Recipes | Pokopia Portal',
     description: 'Discover all recipes in Pokopia. Learn ingredient combinations and buff effects.',
     images: ['/og-image.svg'],
+  },
+  alternates: {
+    canonical: canonicalUrl('/wiki/recipe'),
   },
 }
 

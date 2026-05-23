@@ -1,5 +1,6 @@
 import { Metadata } from 'next'
 import { SpawnTracker } from '@/components/tools/SpawnTracker'
+import { canonicalUrl } from '@/lib/site'
 
 export const metadata: Metadata = {
   title: 'Spawn Tracker | Pokopia Portal',
@@ -8,6 +9,9 @@ export const metadata: Metadata = {
     title: 'Spawn Tracker | Pokopia Portal',
     description: 'Track Pokemon spawn conditions by habitat, weather, time, rarity, food, and drops.',
     images: ['/og-image.svg'],
+  },
+  alternates: {
+    canonical: canonicalUrl('/tools/spawn-tracker'),
   },
 }
 

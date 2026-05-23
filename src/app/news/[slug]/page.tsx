@@ -3,6 +3,7 @@ import Image from 'next/image'
 import newsData from '@/data/news.json'
 import guidesData from '@/data/guides.json'
 import { ArticleJsonLd } from '@/components/seo/JsonLd'
+import { canonicalUrl } from '@/lib/site'
 
 interface Props {
   params: Promise<{ slug: string }>
@@ -34,6 +35,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       card: 'summary_large_image',
       title: news.title,
       description: news.excerpt,
+    },
+    alternates: {
+      canonical: canonicalUrl(`/news/${news.slug}`),
     },
   }
 }

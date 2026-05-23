@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 import Image from 'next/image'
 import habitatsData from '@/data/habitats.json'
+import { canonicalUrl } from '@/lib/site'
 
 const weatherIconMap: Record<string, string> = {
   'Sunny': '/icons/habitat-forest.svg', 'Rain': '/icons/habitat-lake.svg',
@@ -28,6 +29,9 @@ export const metadata: Metadata = {
     title: 'Habitats | Pokopia Portal',
     description: 'Explore all habitats in Pokopia. Find unlock conditions, difficulty ratings, and resource bonuses.',
     images: ['/og-image.svg'],
+  },
+  alternates: {
+    canonical: canonicalUrl('/wiki/habitat'),
   },
 }
 

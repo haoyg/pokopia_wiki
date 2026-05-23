@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 import Image from 'next/image'
 import newsData from '@/data/news.json'
+import { canonicalUrl } from '@/lib/site'
 
 const categoryLabels: Record<string, string> = {
   update: 'Update',
@@ -16,6 +17,9 @@ export const metadata: Metadata = {
     title: 'News & Updates | Pokopia Portal',
     description: 'Stay updated with the latest Pokopia news, patch notes, events, and announcements.',
     images: ['/og-image.svg'],
+  },
+  alternates: {
+    canonical: canonicalUrl('/news'),
   },
 }
 

@@ -2,6 +2,7 @@ import { Metadata } from 'next'
 import habitatsData from '@/data/habitats.json'
 import pokemonData from '@/data/pokemon.json'
 import guidesData from '@/data/guides.json'
+import { canonicalUrl } from '@/lib/site'
 
 interface Props {
   params: Promise<{ id: string }>
@@ -24,6 +25,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: `${habitat?.name} - ${habitat?.unlock_condition}. ${habitat?.resource_bonus}`,
       images: ['/og-image.svg'],
     },
+    alternates: habitat ? {
+      canonical: canonicalUrl(`/wiki/habitat/${habitat.id}`),
+    } : undefined,
   }
 }
 
