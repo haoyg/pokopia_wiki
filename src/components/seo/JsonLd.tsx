@@ -32,6 +32,8 @@ export function WebsiteJsonLd() {
       logo: {
         '@type': 'ImageObject',
         url: 'https://pokopia.wiki/logo.png',
+        width: 512,
+        height: 512,
       },
     },
   }
@@ -74,6 +76,8 @@ export function ArticleJsonLd({
       logo: {
         '@type': 'ImageObject',
         url: 'https://pokopia.wiki/logo.png',
+        width: 512,
+        height: 512,
       },
     },
     mainEntityOfPage: {
