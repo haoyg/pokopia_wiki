@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import recipesData from '@/data/recipes.json'
 import Link from 'next/link'
+import { DataStatus } from '@/components/content/DataStatus'
 
 const rarityOrder = ['common', 'uncommon', 'rare', 'legendary']
 
@@ -28,9 +29,15 @@ export default function RecipeCalculator() {
           Recipe Calculator
         </h1>
         <p style={{ color: '#666', marginTop: '0.5rem' }}>
-          Calculate recipe buffs and find the best recipes for your build
+          Compare current recipe database entries by rarity, ingredients, buff text, and editorial use notes.
         </p>
       </header>
+
+      <DataStatus
+        status="Database planning tool"
+        note="Recipe effects and best-use notes come from Pokopia Portal database entries. Use this as a planning aid and check official or tested sources before treating a recipe as confirmed."
+        updatedAt="2026-05-23"
+      />
 
       <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '2rem' }}>
         {/* Recipe List */}
@@ -182,9 +189,9 @@ export default function RecipeCalculator() {
           Pro Tips
         </h3>
         <ul style={{ fontSize: '0.875rem', color: '#666', paddingLeft: '1.25rem', margin: 0 }}>
-          <li>Use Lucky Charm only during planned farming windows where the full duration helps</li>
-          <li>Fire Boost is essential for Volcanic Cave boss fights</li>
-          <li>Guardian Stew + Steel Shell = maximum defense build</li>
+          <li>Use Lucky Charm only during planned farming windows where the full duration helps.</li>
+          <li>Match Fire Boost to routes where fire-type planning actually supports the objective.</li>
+          <li>Compare Guardian Stew and Steel Shell when a route needs more durability, then confirm details on the recipe pages.</li>
         </ul>
       </div>
     </main>

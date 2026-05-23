@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import pokemonData from '@/data/pokemon.json'
+import { DataStatus } from '@/components/content/DataStatus'
 
 const typeEmoji: Record<string, string> = {
   'Fire': '🔥', 'Water': '💧', 'Grass': '🌿', 'Electric': '⚡',
@@ -25,33 +26,33 @@ const roleEmoji: Record<string, string> = {
 
 const recommendedTeams = [
   {
-    name: 'Balanced Starter',
-    desc: 'Great for beginners - covers all bases',
+    name: 'Balanced Starter Draft',
+    desc: 'A simple role mix for early planning',
     members: ['Bulbin', 'Aquap', 'Pikafire'],
   },
   {
-    name: 'Fire-Type Rush',
-    desc: 'Aggressive fire damage team',
+    name: 'Fire Route Draft',
+    desc: 'A fire-focused group for comparing habitat and recipe pages',
     members: ['Pikafire', 'Charmuddy', 'Flamexor'],
   },
   {
-    name: 'Ghost Assassin',
-    desc: 'Stealth and burst damage',
+    name: 'Ghost Route Draft',
+    desc: 'A ghost-focused group for checking role coverage',
     members: ['Shados', 'Shadowclaw', 'Nightfall'],
   },
   {
-    name: 'Electric Speed',
-    desc: 'Fastest clear times',
+    name: 'Electric Utility Draft',
+    desc: 'A speed-leaning group for database comparison',
     members: ['Zaprat', 'Magnedex', 'Voltscale'],
   },
   {
-    name: 'Tank & Control',
-    desc: 'Unbreakable defense',
+    name: 'Durability Draft',
+    desc: 'A sturdy group for planning longer routes',
     members: ['Flamexor', 'Bulbin', 'Tidlet'],
   },
   {
-    name: 'Dragon Lords',
-    desc: 'Endgame dragon team',
+    name: 'Dragon Route Draft',
+    desc: 'A dragon-focused group for late-route comparison',
     members: ['Voltscale', 'Snorizard', 'Primordion'],
   },
 ]
@@ -85,9 +86,15 @@ export default function TeamBuilder() {
           ⚔️ Team Builder
         </h1>
         <p style={{ color: '#666', marginTop: '0.5rem' }}>
-          Build your ultimate team with up to 6 Pokémon
+          Draft up to 6 Pokemon from current database roles, then verify details on Pokemon and habitat pages.
         </p>
       </header>
+
+      <DataStatus
+        status="Database planning tool"
+        note="Suggested teams are editorial drafts built from site database roles. They are not official team rankings, competitive recommendations, or verified clear-speed results."
+        updatedAt="2026-05-23"
+      />
 
       <div style={{ display: 'grid', gridTemplateColumns: '1fr 350px', gap: '2rem', alignItems: 'start' }}>
         {/* Pokemon Selection */}
@@ -272,7 +279,7 @@ export default function TeamBuilder() {
             }}
           >
             <h2 style={{ fontSize: '1.125rem', fontWeight: 700, marginBottom: '1rem' }}>
-              📋 Recommended Teams
+              Planning Drafts
             </h2>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
               {recommendedTeams.map((team) => (
@@ -332,17 +339,17 @@ export default function TeamBuilder() {
             💡 Team Synergy Tips
           </h3>
           <ul style={{ fontSize: '0.875rem', color: '#666', paddingLeft: '1.25rem', margin: 0 }}>
-            {selected.length >= 4 && <li>Your team has good coverage - consider adding a Support for co-op content</li>}
+            {selected.length >= 4 && <li>Your draft has several roles covered; compare Support entries if the route needs utility.</li>}
             {selected.filter((n) => pokemonData.find((p) => p.name === n)?.specialty === 'Tank').length === 0 && (
-              <li>No Tank in team - consider adding Flamexor or Bulbin for durability</li>
+              <li>No Tank role selected; check durability-focused Pokemon if the habitat route is difficult.</li>
             )}
             {selected.filter((n) => pokemonData.find((p) => p.name === n)?.rarity === 'legendary').length === 0 && (
-              <li>No Legendary Pokémon - legendary pokémon significantly boost team power</li>
+              <li>No legendary entry selected; compare rarity, habitat access, and resource needs before adding one.</li>
             )}
             {!selected.some((n) => pokemonData.find((p) => p.name === n)?.type.includes('Ghost')) && (
-              <li>No Ghost-type - Ghost-types are essential for Shadow Marsh and hard content</li>
+              <li>No Ghost-type selected; check whether the target habitat actually needs Ghost-type planning.</li>
             )}
-            {selected.length >= 5 && <li>Team looks solid! Make sure to match weather and build to habitat conditions.</li>}
+            {selected.length >= 5 && <li>Before using this draft, match weather, recipes, and habitat conditions on the linked pages.</li>}
           </ul>
         </div>
       )}

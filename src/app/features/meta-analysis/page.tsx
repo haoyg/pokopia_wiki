@@ -98,7 +98,7 @@ export default function MetaAnalysisPage() {
           The strongest source-aligned topics are practical questions: what Pokémon Pokopia is, how building works, how food affects moves, what GameShare allows, what Cloud Island is, and how official beginner tips shape early play.
         </p>
         <p>
-          Editorial guide implication: the site should prioritize source-backed explainers and clearly marked planning guides over unsourced claims about meta rankings, top players, balance changes, or live events.
+          Editorial guide implication: the site should prioritize source-backed explainers and clearly marked planning guides over unsourced claims about rankings, player status, balance changes, or live events.
         </p>
 
         <h2>Recommended Content Standard</h2>

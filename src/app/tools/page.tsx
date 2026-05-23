@@ -3,10 +3,10 @@ import { canonicalUrl } from '@/lib/site'
 
 export const metadata: Metadata = {
   title: 'Game Tools & Calculators | Pokopia Portal',
-  description: 'Use Pokopia tools and calculators. Habitat planner, recipe calculator, team builder, and spawn tracker.',
+  description: 'Use Pokopia database tools for habitat planning, recipe lookup, team notes, and spawn filtering.',
   openGraph: {
     title: 'Tools | Pokopia Portal',
-    description: 'Use Pokopia tools and calculators. Habitat planner, recipe calculator, team builder, and spawn tracker.',
+    description: 'Use Pokopia database tools for habitat planning, recipe lookup, team notes, and spawn filtering.',
     images: ['/og-image.svg'],
   },
   alternates: {
@@ -19,21 +19,21 @@ export default function ToolsPage() {
     <main className="page-shell">
       <section className="page-hero">
         <h1>Tools</h1>
-        <p>Calculators and planners for Pokopia</p>
+        <p>Database tools for planning routes, recipes, Pokemon roles, and spawn filters.</p>
       </section>
 
       <div className="tools-grid">
         <a href="/tools/habitat-planner" className="card">
           <h3>Habitat Planner</h3>
-          <p>Plan your progression by level</p>
+          <p>Filter habitat database entries by level, difficulty, and weather.</p>
         </a>
         <a href="/tools/recipe-calculator" className="card">
           <h3>Recipe Calculator</h3>
-          <p>Calculate buff effects</p>
+          <p>Compare recipe ingredients, buffs, durations, and editorial use notes.</p>
         </a>
         <a href="/tools/team-builder" className="card">
           <h3>Team Builder</h3>
-          <p>Build your ultimate team</p>
+          <p>Draft a Pokemon group from current database roles and rarity fields.</p>
         </a>
         <a href="/tools/spawn-tracker" className="card">
           <h3>Spawn Tracker</h3>

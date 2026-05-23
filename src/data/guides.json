@@ -806,7 +806,7 @@
     "slug": "dragon-type-guide",
     "category": "guides",
     "seo_keyword": "dragon type pokopia",
-    "content": "If you are working on dragon type pokopia, this guide gives you the short answer first: Dragon teams are late-game investments. Voltscale gives electric pressure, while dragon-focused picks need recipe support to justify their slower setup. For most players, the practical route is to focus on Frost Peak and Thunder Arena, build around Voltscale and Snorizard, and spend Dragon's Fury only when the run objective is clear.\n\nThe route is strongest when you keep the goal narrow. Decide whether the run is for unlocking, farming, catching, or testing before entering Frost Peak and Thunder Arena. Mixed goals waste recipes and make results harder to judge.\n\nFor team planning, focus on Voltscale and Snorizard. Voltscale as the main dragon carry when available. A durable backup to protect setup turns. Dragon's Fury for burst windows and Speed Potion if the route has long travel.\n\nRoute execution matters more than raw stats. Farm Frost Peak or other linked habitats for supporting resources. Save Dragon's Fury for boss fights, legendary checks, or endgame routes.\n\nUse Dragon's Fury only when the run has a payoff. If a route still feels unstable, fix the lead Pokemon, backup role, or habitat timing before spending rare ingredients. The biggest traps are: Trying to build dragon teams before unlocking the habitats that support them. Using Dragon's Fury on short normal fights. Ignoring electric coverage on Voltscale.",
+    "content": "If you are working on dragon type pokopia, this guide gives you the short answer first: Dragon teams are late-game investments. Voltscale gives electric pressure, while dragon-focused picks need recipe support to justify their slower setup. For most players, the practical route is to focus on Frost Peak and Thunder Arena, build around Voltscale and Snorizard, and spend Dragon's Fury only when the run objective is clear.\n\nThe route is strongest when you keep the goal narrow. Decide whether the run is for unlocking, farming, catching, or testing before entering Frost Peak and Thunder Arena. Mixed goals waste recipes and make results harder to judge.\n\nFor team planning, focus on Voltscale and Snorizard. Voltscale as the main dragon carry when available. A durable backup to protect setup turns. Dragon's Fury for burst windows and Speed Potion if the route has long travel.\n\nRoute execution matters more than raw stats. Farm Frost Peak or other linked habitats for supporting resources. Save Dragon's Fury for long attempts, rare checks, or late-route planning.\n\nUse Dragon's Fury only when the run has a payoff. If a route still feels unstable, fix the lead Pokemon, backup role, or habitat timing before spending rare ingredients. The biggest traps are: Trying to build dragon teams before unlocking the habitats that support them. Using Dragon's Fury on short normal fights. Ignoring electric coverage on Voltscale.",
     "related_pokemon": "pkm015,pkm029",
     "related_items": "rec011",
     "related_habitats": "hab005,hab012",
@@ -819,7 +819,7 @@
       "Build the team around Voltscale and Snorizard. Put the safest or fastest Pokemon in the lead slot, then use the second and third slots to cover the route's biggest failure point.",
       "Use Thunder Arena to prepare for Voltscale and electric-dragon pressure.",
       "Farm Frost Peak or other linked habitats for supporting resources.",
-      "Save Dragon's Fury for boss fights, legendary checks, or endgame routes.",
+      "Save Dragon's Fury for long attempts, rare checks, or late-route planning.",
       "Use Dragon's Fury only when the route is already consistent enough to benefit from the buff. A failed scouting run should not consume your best recipe.",
       "After two or three runs, adjust one thing at a time: lead Pokemon, backup slot, recipe, or habitat timing. Changing everything at once makes the result hard to read.",
       "Finish by checking related pages and updating your next target. Good Pokopia progression is a chain of small route improvements, not one perfect run."
@@ -2110,19 +2110,19 @@
   },
   {
     "id": "guid030",
-    "title": "Ultimate Endgame Build Compilation",
+    "title": "Late-Game Team Planning Guide",
     "slug": "endgame-build-guide",
     "category": "tier",
     "seo_keyword": "endgame build pokopia",
-    "content": "Endgame teams should be flexible, not copied as one fixed lineup. Start with a carry that matches the target route, add one defensive anchor, then use the third slot for speed, sustain, or matchup coverage.\n\nFlamexor works well when Volcanic Cave or fire-steel pressure matters, Shadowclaw is built for ghost-heavy routes, Voltscale brings electric-dragon power, and Primordion gives late-game bulk. The recipe choice should change with the route: Lucky Charm for rare checks, Steel Shell for survival, Speed Potion for repeat loops, and Mega Restore for long attempts.\n\nIf a team fails, identify the failing room before replacing everything. Most endgame problems are caused by one missing role, not by the whole team being wrong.",
+    "content": "Late-game teams should be flexible, not copied as one fixed lineup. Start with a carry that matches the target route, add one defensive anchor, then use the third slot for speed, sustain, or matchup coverage.\n\nFlamexor works well when Volcanic Cave or fire-steel pressure matters, Shadowclaw is built for ghost-heavy routes, Voltscale brings electric-dragon power, and Primordion gives late-game bulk. The recipe choice should change with the route: Lucky Charm for rare checks, Steel Shell for survival, Speed Potion for repeat loops, and Mega Restore for long attempts.\n\nIf a team fails, identify the failing room before replacing everything. Most late-game planning problems are caused by one missing role, not by the whole team being wrong.",
     "related_pokemon": "pkm007,pkm030,pkm015,pkm050",
     "related_items": "rec005,rec012,rec003",
     "related_habitats": "hab001,hab006,hab012,hab018",
     "image_url": "https://www.gematsu.com/wp-content/uploads/2025/11/Pokemon-Pokopia_2025_11-13-25_003-320x180.jpg",
-    "image_alt": "Pokémon Pokopia gameplay screenshot for guide: Ultimate Endgame Build Compilation",
+    "image_alt": "Pokémon Pokopia gameplay screenshot for guide: Late-Game Team Planning Guide",
     "answer": "The best endgame build is not one fixed team. Use a legendary carry, one defensive anchor, one speed or utility slot, and recipes matched to the habitat. For most players, the practical route is to focus on Volcanic Cave, Shadow Marsh, Thunder Arena, and Dragon's Den, build around Flamexor, Shadowclaw, Voltscale, and Primordion, and spend Lucky Charm, Steel Shell, and Speed Potion only when the run objective is clear.",
     "steps": [
-      "Set one clear objective for Ultimate Endgame Build Compilation: unlock, farm, catch, or clear. Do not mix all four goals in the same run.",
+      "Set one clear objective for Late-Game Team Planning Guide: unlock, farm, catch, or clear. Do not mix all four goals in the same run.",
       "Check the linked habitat first: Volcanic Cave, Shadow Marsh, Thunder Arena, and Dragon's Den. Confirm unlock level, difficulty, weather, and whether the route is short enough for repeated attempts.",
       "Build the team around Flamexor, Shadowclaw, Voltscale, and Primordion. Put the safest or fastest Pokemon in the lead slot, then use the second and third slots to cover the route's biggest failure point.",
       "Choose the carry around the target habitat: Flamexor, Voltscale, Shadowclaw, or Dragon's Den options.",
@@ -2145,7 +2145,7 @@
       "Best for: players tuning late-game teams for hard habitats and legendary sessions."
     ],
     "common_mistakes": [
-      "Starting Ultimate Endgame Build Compilation without deciding whether the run is for unlocking, farming, catching, or testing.",
+      "Starting Late-Game Team Planning Guide without deciding whether the run is for unlocking, farming, catching, or testing.",
       "Ignoring the linked habitats (Volcanic Cave, Shadow Marsh, Thunder Arena, and Dragon's Den) and trying to solve the route with raw stats alone.",
       "Spending Lucky Charm, Steel Shell, and Speed Potion during a scouting run instead of a serious attempt.",
       "Copying one endgame team into every habitat.",
@@ -2155,7 +2155,7 @@
     ],
     "faqs": [
       {
-        "question": "What is the short answer for Ultimate Endgame Build Compilation?",
+        "question": "What is the short answer for Late-Game Team Planning Guide?",
         "answer": "The best endgame build is not one fixed team. Use a legendary carry, one defensive anchor, one speed or utility slot, and recipes matched to the habitat. For most players, the practical route is to focus on Volcanic Cave, Shadow Marsh, Thunder Arena, and Dragon's Den, build around Flamexor, Shadowclaw, Voltscale, and Primordion, and spend Lucky Charm, Steel Shell, and Speed Potion only when the run objective is clear."
       },
       {
@@ -2171,7 +2171,7 @@
         "answer": "Use Lucky Charm, Steel Shell, and Speed Potion after the route is learned, not before. Recipes are most valuable during rare checks, boss rooms, unlock attempts, or farming loops where you can use most of the buff duration."
       },
       {
-        "question": "What is the most common mistake in Ultimate Endgame Build Compilation?",
+        "question": "What is the most common mistake in Late-Game Team Planning Guide?",
         "answer": "The most common mistake is rushing into the target route without matching team role, habitat condition, and recipe timing. Fix the route first, then spend resources."
       }
     ],

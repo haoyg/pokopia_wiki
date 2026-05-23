@@ -3,6 +3,8 @@ import Link from 'next/link'
 import Image from 'next/image'
 import pokemonData from '@/data/pokemon.json'
 import { canonicalUrl } from '@/lib/site'
+import { DataStatus } from '@/components/content/DataStatus'
+import { OfficialContext } from '@/components/content/OfficialContext'
 
 const typeIcons: Record<string, string> = {
   'Fire': '/icons/fire.svg', 'Water': '/icons/water.svg', 'Grass': '/icons/grass.svg',
@@ -36,7 +38,7 @@ function getTypeIcon(type: string): string {
   return typeIcons['Normal']
 }
 
-// Tier ranking logic
+// Database sorting logic for the current editorial index.
 function getTierRank(pokemon: typeof pokemonData[0]): number {
   let score = 0
 
@@ -54,11 +56,9 @@ function getTierRank(pokemon: typeof pokemonData[0]): number {
   return score
 }
 
-// Sort by tier rank
 const sortedByTier = [...pokemonData].sort((a, b) => getTierRank(b) - getTierRank(a))
 
-// Top 10 overall
-const top10 = sortedByTier.slice(0, 10)
+const priorityPicks = sortedByTier.slice(0, 10)
 
 // By rarity
 const legendary = pokemonData.filter((p) => p.rarity === 'legendary')
@@ -77,11 +77,11 @@ const roleEmoji: Record<string, string> = {
 }
 
 export const metadata: Metadata = {
-  title: 'Tier List & Meta Rankings | Pokopia Portal',
-  description: 'View the definitive Pokopia tier list. Rankings based on rarity, role, and competitive performance.',
+  title: 'Pokemon Priority Index | Pokopia Portal',
+  description: 'Browse an editorial Pokemon priority index based on current site database fields such as rarity and role.',
   openGraph: {
-    title: 'Tier List | Pokopia Portal',
-    description: 'View the definitive Pokopia tier list. Rankings based on rarity and competitive performance.',
+    title: 'Pokemon Priority Index | Pokopia Portal',
+    description: 'Browse an editorial Pokemon priority index based on rarity and role data.',
     images: ['/og-image.svg'],
   },
   alternates: {
@@ -94,20 +94,36 @@ export default function TierListPage() {
     <main style={{ maxWidth: '1000px', margin: '0 auto', padding: '2rem 1rem' }}>
       <header style={{ marginBottom: '2rem' }}>
         <h1 style={{ fontSize: '2.5rem', fontWeight: 800 }}>
-          🏆 Tier List
+          Pokemon Priority Index
         </h1>
         <p style={{ color: '#666', marginTop: '0.5rem' }}>
-          Meta rankings based on rarity, role, and实战 performance
+          Editorial sorting based on the current Pokopia Portal database, not official competitive data.
         </p>
       </header>
 
-      {/* Top 10 Overall */}
+      <DataStatus
+        status="Editorial database index"
+        note="This page sorts Pokemon by current site fields such as rarity and specialty. It is not an official tier list, live ranking, numeric strength table, or verified results claim."
+        updatedAt="2026-05-23"
+      />
+
+      <OfficialContext
+        title="Check Confirmed Systems First"
+        description="Official sources explain the confirmed gameplay loop, moves, food, multiplayer, and beginner systems. This index is a planning aid built on site data."
+        links={[
+          { href: '/official/gameplay-overview', label: 'Gameplay overview' },
+          { href: '/official/official-beginner-tips', label: 'Beginner tips' },
+          { href: '/features/meta-analysis', label: 'Systems analysis' },
+        ]}
+      />
+
+      {/* Priority Picks */}
       <section style={{ marginBottom: '3rem' }}>
         <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1.5rem' }}>
-          ⭐ Top 10 Overall
+          Priority Picks from Current Database
         </h2>
         <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
-          {top10.map((pokemon, index) => (
+          {priorityPicks.map((pokemon, index) => (
             <Link
               key={pokemon.id}
               href={`/wiki/pokemon/${pokemon.id}`}
@@ -335,7 +351,7 @@ export default function TierListPage() {
         </div>
       </section>
 
-      {/* Tips */}
+      {/* Notes */}
       <div
         style={{
           padding: '1.5rem',
@@ -345,13 +361,13 @@ export default function TierListPage() {
         }}
       >
         <h3 style={{ fontSize: '1rem', fontWeight: 700, marginBottom: '0.5rem' }}>
-          Meta Analysis
+          How to Read This Page
         </h3>
         <ul style={{ fontSize: '0.875rem', color: '#666', paddingLeft: '1.25rem', margin: 0 }}>
-          <li><strong>Legendary Pokémon</strong> dominate the meta - Flamexor, Shadowclaw, Voltscale, Primordion</li>
-          <li><strong>Tank builds</strong> are best for solo content and boss fights</li>
-          <li><strong>Assassin + Speedster</strong> combo for fast clear speed</li>
-          <li><strong>Support roles</strong> essential for co-op content</li>
+          <li><strong>Rarity</strong> raises a Pokemon in this index because rare entries usually need more planning.</li>
+          <li><strong>Specialty</strong> is used as an editorial organizing field, not as proof of official strength.</li>
+          <li><strong>Role groups</strong> help readers jump to Pokemon pages and compare habitats, drops, and recipes.</li>
+          <li><strong>Future updates</strong> should replace this simple index only when official data or verified player testing supports a stronger ranking model.</li>
         </ul>
       </div>
 

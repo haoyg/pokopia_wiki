@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import habitatsData from '@/data/habitats.json'
 import Link from 'next/link'
+import { DataStatus } from '@/components/content/DataStatus'
 
 const difficultyOrder = { easy: 0, medium: 1, hard: 2 }
 
@@ -50,9 +51,15 @@ export default function HabitatPlanner() {
           Habitat Planner
         </h1>
         <p style={{ color: '#666', marginTop: '0.5rem' }}>
-          Plan your habitat progression based on your level and goals
+          Filter current habitat database entries by level, difficulty, weather, and resource goals.
         </p>
       </header>
+
+      <DataStatus
+        status="Database planning tool"
+        note="Unlock levels, resource bonuses, spawns, and recommended builds come from Pokopia Portal database entries. Treat this as route planning data, not an official live tracker."
+        updatedAt="2026-05-23"
+      />
 
       {/* Controls */}
       <div
@@ -318,10 +325,10 @@ export default function HabitatPlanner() {
           Planning Tips
         </h3>
         <ul style={{ fontSize: '0.875rem', color: '#666', paddingLeft: '1.25rem', margin: 0 }}>
-          <li>Start with Forest Valley and Training Grounds for easy XP farming</li>
-          <li>Unlock Windmill Plains at Lv.10 for Electric-type farming</li>
-          <li>Shadow Marsh (Lv.25) has the best legendary spawn rate</li>
-          <li>Dragon's Den (Lv.32) should be your endgame goal</li>
+          <li>Start with easier habitats when you need stable materials and short route checks.</li>
+          <li>Use the level filter to find the next unlock before planning a resource route.</li>
+          <li>Compare weather and resource bonuses before repeating a habitat for farming.</li>
+          <li>Open the habitat page before relying on a spawn or route recommendation.</li>
         </ul>
       </div>
     </main>
