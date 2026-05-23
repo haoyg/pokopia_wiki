@@ -9,8 +9,8 @@
     "related_pokemon": "pkm002,pkm004,pkm001",
     "related_items": "rec001",
     "related_habitats": "hab002,hab003,hab001",
-    "image_url": "/images/guides/best-starter-pokemon.svg",
-    "image_alt": "Best Starter Pokemon in Pokopia illustrated guide cover",
+    "image_url": "https://pokopia.pokemon.com/assets/en-us/pages/index/gallery-2_2.jpg",
+    "image_alt": "Official Pokémon Pokopia gameplay screenshot for guide: Best Starter Pokemon in Pokopia",
     "answer": "Best Starter Pokemon in Pokopia is mainly about learning when to use Bulbin, Aquap and Pikafire, where to focus your time in Forest Valley, Crystal Lake and Volcanic Cave, and which recipe support matters most. The short answer: start with Bulbin, prepare Honey Cake, then farm or clear Forest Valley until your team can handle the next difficulty jump. This route keeps the guide focused on best starter pokopia while giving new players a practical checklist instead of a loose tip.",
     "steps": [
       "Confirm the unlock or farming target for Forest Valley, then check whether the listed weather and spawn time match your current session.",
@@ -48,8 +48,8 @@
     ],
     "published_at": "2026-05-01",
     "updated_at": "2026-05-23",
-    "image_source": "",
-    "image_source_url": ""
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "guid002",
@@ -61,8 +61,8 @@
     "related_pokemon": "pkm001,pkm007",
     "related_items": "rec002",
     "related_habitats": "hab001",
-    "image_url": "/images/guides/how-to-unlock-volcanic-cave.svg",
-    "image_alt": "How to Unlock Volcanic Cave illustrated guide cover",
+    "image_url": "https://pokopia.pokemon.com/assets/en-us/pages/index/gallery-2_5.jpg",
+    "image_alt": "Official Pokémon Pokopia gameplay screenshot for guide: How to Unlock Volcanic Cave",
     "answer": "How to Unlock Volcanic Cave is mainly about learning when to use Pikafire and Flamexor, where to focus your time in Volcanic Cave, and which recipe support matters most. The short answer: start with Pikafire, prepare Fire Boost, then farm or clear Volcanic Cave until your team can handle the next difficulty jump. This route keeps the guide focused on volcanic cave unlock pokopia while giving new players a practical checklist instead of a loose tip.",
     "steps": [
       "Confirm the unlock or farming target for Volcanic Cave, then check whether the listed weather and spawn time match your current session.",
@@ -100,8 +100,8 @@
     ],
     "published_at": "2026-05-02",
     "updated_at": "2026-05-23",
-    "image_source": "",
-    "image_source_url": ""
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "guid003",
@@ -113,8 +113,8 @@
     "related_pokemon": "pkm009,pkm030,pkm029",
     "related_items": "rec005",
     "related_habitats": "hab006,hab005",
-    "image_url": "/images/guides/fast-farming-rare-pokemon.svg",
-    "image_alt": "Fast Farming Guide for Rare Pokemon illustrated guide cover",
+    "image_url": "https://pokopia.pokemon.com/assets/en-us/pages/index/gallery-2_6.jpg",
+    "image_alt": "Official Pokémon Pokopia gameplay screenshot for guide: Fast Farming Guide for Rare Pokemon",
     "answer": "Fast Farming Guide for Rare Pokemon is mainly about learning when to use Shados, Shadowclaw and Snorizard, where to focus your time in Shadow Marsh and Frost Peak, and which recipe support matters most. The short answer: start with Shados, prepare Lucky Charm, then farm or clear Shadow Marsh until your team can handle the next difficulty jump. This route keeps the guide focused on rare pokemon farming pokopia while giving new players a practical checklist instead of a loose tip.",
     "steps": [
       "Confirm the unlock or farming target for Shadow Marsh, then check whether the listed weather and spawn time match your current session.",
@@ -152,8 +152,8 @@
     ],
     "published_at": "2026-05-03",
     "updated_at": "2026-05-23",
-    "image_source": "",
-    "image_source_url": ""
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "guid004",
@@ -165,8 +165,8 @@
     "related_pokemon": "pkm001,pkm003,pkm007",
     "related_items": "rec002",
     "related_habitats": "hab001",
-    "image_url": "/images/guides/best-fire-type-team.svg",
-    "image_alt": "Best Fire-Type Team Build illustrated guide cover",
+    "image_url": "https://pokopia.pokemon.com/assets/en-us/pages/index/gallery-2_7.jpg",
+    "image_alt": "Official Pokémon Pokopia gameplay screenshot for guide: Best Fire-Type Team Build",
     "answer": "Best Fire-Type Team Build is mainly about learning when to use Pikafire, Charmuddy and Flamexor, where to focus your time in Volcanic Cave, and which recipe support matters most. The short answer: start with Pikafire, prepare Fire Boost, then farm or clear Volcanic Cave until your team can handle the next difficulty jump. This route keeps the guide focused on fire type team pokopia while giving new players a practical checklist instead of a loose tip.",
     "steps": [
       "Confirm the unlock or farming target for Volcanic Cave, then check whether the listed weather and spawn time match your current session.",
@@ -204,8 +204,8 @@
     ],
     "published_at": "2026-05-04",
     "updated_at": "2026-05-23",
-    "image_source": "",
-    "image_source_url": ""
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "guid005",
@@ -217,8 +217,8 @@
     "related_pokemon": "pkm009,pkm030",
     "related_items": "rec010",
     "related_habitats": "hab006",
-    "image_url": "/images/guides/shadow-marsh-guide.svg",
-    "image_alt": "Shadow Marsh Complete Guide illustrated guide cover",
+    "image_url": "https://pokopia.pokemon.com/assets/en-us/pages/index/gallery-2_8.jpg",
+    "image_alt": "Official Pokémon Pokopia gameplay screenshot for guide: Shadow Marsh Complete Guide",
     "answer": "Shadow Marsh Complete Guide is mainly about learning when to use Shados and Shadowclaw, where to focus your time in Shadow Marsh, and which recipe support matters most. The short answer: start with Shados, prepare Ghost Veil, then farm or clear Shadow Marsh until your team can handle the next difficulty jump. This route keeps the guide focused on shadow marsh pokopia while giving new players a practical checklist instead of a loose tip.",
     "steps": [
       "Confirm the unlock or farming target for Shadow Marsh, then check whether the listed weather and spawn time match your current session.",
@@ -256,8 +256,8 @@
     ],
     "published_at": "2026-05-05",
     "updated_at": "2026-05-23",
-    "image_source": "",
-    "image_source_url": ""
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "guid006",
@@ -269,8 +269,8 @@
     "related_pokemon": "pkm007,pkm030,pkm015",
     "related_items": "rec005",
     "related_habitats": "hab001,hab006",
-    "image_url": "/images/guides/how-to-get-legendary-pokemon.svg",
-    "image_alt": "How to Get Legendary Pokemon illustrated guide cover",
+    "image_url": "https://pokopia.pokemon.com/assets/en-us/pages/index/gallery-3_4.jpg",
+    "image_alt": "Official Pokémon Pokopia gameplay screenshot for guide: How to Get Legendary Pokemon",
     "answer": "How to Get Legendary Pokemon is mainly about learning when to use Flamexor, Shadowclaw and Voltscale, where to focus your time in Volcanic Cave and Shadow Marsh, and which recipe support matters most. The short answer: start with Flamexor, prepare Lucky Charm, then farm or clear Volcanic Cave until your team can handle the next difficulty jump. This route keeps the guide focused on legendary pokemon pokopia while giving new players a practical checklist instead of a loose tip.",
     "steps": [
       "Confirm the unlock or farming target for Volcanic Cave, then check whether the listed weather and spawn time match your current session.",
@@ -308,8 +308,8 @@
     ],
     "published_at": "2026-05-06",
     "updated_at": "2026-05-23",
-    "image_source": "",
-    "image_source_url": ""
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "guid007",
@@ -321,8 +321,8 @@
     "related_pokemon": "pkm001,pkm014,pkm005,pkm009",
     "related_items": "rec002,rec008,rec007,rec010",
     "related_habitats": "hab001,hab005,hab012,hab006",
-    "image_url": "/images/guides/best-habitat-type-pokopia.svg",
-    "image_alt": "Best Habitat for Each Pokemon Type illustrated guide cover",
+    "image_url": "https://pokopia.pokemon.com/assets/en-us/pages/index/gallery-3_6.jpg",
+    "image_alt": "Official Pokémon Pokopia gameplay screenshot for guide: Best Habitat for Each Pokemon Type",
     "answer": "Best Habitat for Each Pokemon Type is mainly about learning when to use Pikafire, Glacior, Zaprat and Shados, where to focus your time in Volcanic Cave, Frost Peak, Thunder Arena and Shadow Marsh, and which recipe support matters most. The short answer: start with Pikafire, prepare Fire Boost, then farm or clear Volcanic Cave until your team can handle the next difficulty jump. This route keeps the guide focused on pokemon type habitat pokopia while giving new players a practical checklist instead of a loose tip.",
     "steps": [
       "Confirm the unlock or farming target for Volcanic Cave, then check whether the listed weather and spawn time match your current session.",
@@ -360,8 +360,8 @@
     ],
     "published_at": "2026-05-07",
     "updated_at": "2026-05-23",
-    "image_source": "",
-    "image_source_url": ""
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "guid008",
@@ -373,8 +373,8 @@
     "related_pokemon": "pkm004,pkm002,pkm005",
     "related_items": "rec003",
     "related_habitats": "hab003,hab002,hab004",
-    "image_url": "/images/guides/speed-run-leveling-route.svg",
-    "image_alt": "Speed Run Route for Leveling illustrated guide cover",
+    "image_url": "https://pokopia.pokemon.com/assets/en-us/pages/index/gallery-3_7.jpg",
+    "image_alt": "Official Pokémon Pokopia gameplay screenshot for guide: Speed Run Route for Leveling",
     "answer": "Speed Run Route for Leveling is mainly about learning when to use Aquap, Bulbin and Zaprat, where to focus your time in Crystal Lake, Forest Valley and Windmill Plains, and which recipe support matters most. The short answer: start with Aquap, prepare Speed Potion, then farm or clear Crystal Lake until your team can handle the next difficulty jump. This route keeps the guide focused on fast leveling pokopia while giving new players a practical checklist instead of a loose tip.",
     "steps": [
       "Confirm the unlock or farming target for Crystal Lake, then check whether the listed weather and spawn time match your current session.",
@@ -412,8 +412,8 @@
     ],
     "published_at": "2026-05-08",
     "updated_at": "2026-05-23",
-    "image_source": "",
-    "image_source_url": ""
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "guid009",
@@ -425,8 +425,8 @@
     "related_pokemon": "pkm005,pkm015,pkm024",
     "related_items": "rec007",
     "related_habitats": "hab012",
-    "image_url": "/images/guides/thunder-arena-guide.svg",
-    "image_alt": "Thunder Arena Unlock and Strategy illustrated guide cover",
+    "image_url": "https://pokopia.pokemon.com/assets/en-us/pages/index/gallery-2_2.jpg",
+    "image_alt": "Official Pokémon Pokopia gameplay screenshot for guide: Thunder Arena Unlock and Strategy",
     "answer": "Thunder Arena Unlock and Strategy is mainly about learning when to use Zaprat, Voltscale and Magnedex, where to focus your time in Thunder Arena, and which recipe support matters most. The short answer: start with Zaprat, prepare Thunder Strike, then farm or clear Thunder Arena until your team can handle the next difficulty jump. This route keeps the guide focused on thunder arena pokopia while giving new players a practical checklist instead of a loose tip.",
     "steps": [
       "Confirm the unlock or farming target for Thunder Arena, then check whether the listed weather and spawn time match your current session.",
@@ -464,8 +464,8 @@
     ],
     "published_at": "2026-05-09",
     "updated_at": "2026-05-23",
-    "image_source": "",
-    "image_source_url": ""
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "guid010",
@@ -477,8 +477,8 @@
     "related_pokemon": "pkm008,pkm014,pkm029",
     "related_items": "rec008",
     "related_habitats": "hab005",
-    "image_url": "/images/guides/frost-peak-guide.svg",
-    "image_alt": "Frost Peak Exploration Guide illustrated guide cover",
+    "image_url": "https://pokopia.pokemon.com/assets/en-us/pages/index/gallery-2_5.jpg",
+    "image_alt": "Official Pokémon Pokopia gameplay screenshot for guide: Frost Peak Exploration Guide",
     "answer": "Frost Peak Exploration Guide is mainly about learning when to use Tidlet, Glacior and Snorizard, where to focus your time in Frost Peak, and which recipe support matters most. The short answer: start with Tidlet, prepare Ice Armor, then farm or clear Frost Peak until your team can handle the next difficulty jump. This route keeps the guide focused on frost peak pokopia while giving new players a practical checklist instead of a loose tip.",
     "steps": [
       "Confirm the unlock or farming target for Frost Peak, then check whether the listed weather and spawn time match your current session.",
@@ -516,8 +516,8 @@
     ],
     "published_at": "2026-05-10",
     "updated_at": "2026-05-23",
-    "image_source": "",
-    "image_source_url": ""
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "guid011",
@@ -529,8 +529,8 @@
     "related_pokemon": "pkm002,pkm008,pkm010",
     "related_items": "rec012",
     "related_habitats": "hab002,hab005,hab004",
-    "image_url": "/images/guides/best-defense-team-pokopia.svg",
-    "image_alt": "Best Defense Team Build illustrated guide cover",
+    "image_url": "https://pokopia.pokemon.com/assets/en-us/pages/index/gallery-2_6.jpg",
+    "image_alt": "Official Pokémon Pokopia gameplay screenshot for guide: Best Defense Team Build",
     "answer": "Best Defense Team Build is mainly about learning when to use Bulbin, Tidlet and Mechabit, where to focus your time in Forest Valley, Frost Peak and Windmill Plains, and which recipe support matters most. The short answer: start with Bulbin, prepare Steel Shell, then farm or clear Forest Valley until your team can handle the next difficulty jump. This route keeps the guide focused on defense team pokopia while giving new players a practical checklist instead of a loose tip.",
     "steps": [
       "Confirm the unlock or farming target for Forest Valley, then check whether the listed weather and spawn time match your current session.",
@@ -568,8 +568,8 @@
     ],
     "published_at": "2026-05-11",
     "updated_at": "2026-05-23",
-    "image_source": "",
-    "image_source_url": ""
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "guid012",
@@ -581,8 +581,8 @@
     "related_pokemon": "pkm015,pkm029",
     "related_items": "rec011",
     "related_habitats": "hab005,hab012",
-    "image_url": "/images/guides/dragon-type-guide.svg",
-    "image_alt": "Dragon-Type Mastery Guide illustrated guide cover",
+    "image_url": "https://pokopia.pokemon.com/assets/en-us/pages/index/gallery-2_7.jpg",
+    "image_alt": "Official Pokémon Pokopia gameplay screenshot for guide: Dragon-Type Mastery Guide",
     "answer": "Dragon-Type Mastery Guide is mainly about learning when to use Voltscale and Snorizard, where to focus your time in Frost Peak and Thunder Arena, and which recipe support matters most. The short answer: start with Voltscale, prepare Dragon's Fury, then farm or clear Frost Peak until your team can handle the next difficulty jump. This route keeps the guide focused on dragon type pokopia while giving new players a practical checklist instead of a loose tip.",
     "steps": [
       "Confirm the unlock or farming target for Frost Peak, then check whether the listed weather and spawn time match your current session.",
@@ -620,8 +620,8 @@
     ],
     "published_at": "2026-05-12",
     "updated_at": "2026-05-23",
-    "image_source": "",
-    "image_source_url": ""
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "guid013",
@@ -633,8 +633,8 @@
     "related_pokemon": "pkm001,pkm007",
     "related_items": "rec005,rec015,rec002",
     "related_habitats": "hab001",
-    "image_url": "/images/guides/complete-recipe-list.svg",
-    "image_alt": "Complete Recipe List and Effects illustrated guide cover",
+    "image_url": "https://pokopia.pokemon.com/assets/en-us/pages/index/gallery-2_8.jpg",
+    "image_alt": "Official Pokémon Pokopia gameplay screenshot for guide: Complete Recipe List and Effects",
     "answer": "Complete Recipe List and Effects is mainly about learning when to use Pikafire and Flamexor, where to focus your time in Volcanic Cave, and which recipe support matters most. The short answer: start with Pikafire, prepare Lucky Charm, then farm or clear Volcanic Cave until your team can handle the next difficulty jump. This route keeps the guide focused on recipes pokopia while giving new players a practical checklist instead of a loose tip.",
     "steps": [
       "Confirm the unlock or farming target for Volcanic Cave, then check whether the listed weather and spawn time match your current session.",
@@ -672,8 +672,8 @@
     ],
     "published_at": "2026-05-13",
     "updated_at": "2026-05-23",
-    "image_source": "",
-    "image_source_url": ""
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "guid014",
@@ -685,8 +685,8 @@
     "related_pokemon": "pkm016,pkm020,pkm025",
     "related_items": "rec013",
     "related_habitats": "hab008",
-    "image_url": "/images/guides/sky-isles-guide.svg",
-    "image_alt": "Sky Isles and Flying-Type Guide illustrated guide cover",
+    "image_url": "https://pokopia.pokemon.com/assets/en-us/pages/index/gallery-3_4.jpg",
+    "image_alt": "Official Pokémon Pokopia gameplay screenshot for guide: Sky Isles and Flying-Type Guide",
     "answer": "Sky Isles and Flying-Type Guide is mainly about learning when to use Breezel, Flamingo and Tropius, where to focus your time in Sky Isles, and which recipe support matters most. The short answer: start with Breezel, prepare Flying High, then farm or clear Sky Isles until your team can handle the next difficulty jump. This route keeps the guide focused on sky isles pokopia while giving new players a practical checklist instead of a loose tip.",
     "steps": [
       "Confirm the unlock or farming target for Sky Isles, then check whether the listed weather and spawn time match your current session.",
@@ -724,8 +724,8 @@
     ],
     "published_at": "2026-05-14",
     "updated_at": "2026-05-23",
-    "image_source": "",
-    "image_source_url": ""
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "guid015",
@@ -737,8 +737,8 @@
     "related_pokemon": "pkm018,pkm021",
     "related_items": "rec014",
     "related_habitats": "hab009",
-    "image_url": "/images/guides/muddy-river-guide.svg",
-    "image_alt": "Mudstone River Habitat Guide illustrated guide cover",
+    "image_url": "https://pokopia.pokemon.com/assets/en-us/pages/index/gallery-3_6.jpg",
+    "image_alt": "Official Pokémon Pokopia gameplay screenshot for guide: Mudstone River Habitat Guide",
     "answer": "Mudstone River Habitat Guide is mainly about learning when to use Mudkipz and Stealthfin, where to focus your time in Muddy River, and which recipe support matters most. The short answer: start with Mudkipz, prepare Muddy Swirl, then farm or clear Muddy River until your team can handle the next difficulty jump. This route keeps the guide focused on muddy river pokopia while giving new players a practical checklist instead of a loose tip.",
     "steps": [
       "Confirm the unlock or farming target for Muddy River, then check whether the listed weather and spawn time match your current session.",
@@ -776,8 +776,8 @@
     ],
     "published_at": "2026-05-15",
     "updated_at": "2026-05-23",
-    "image_source": "",
-    "image_source_url": ""
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "guid016",
@@ -789,8 +789,8 @@
     "related_pokemon": "pkm007,pkm030,pkm015",
     "related_items": "rec005",
     "related_habitats": "hab001,hab006,hab012",
-    "image_url": "/images/guides/top-10-powerful-pokemon.svg",
-    "image_alt": "Top 10 Most Powerful Pokemon illustrated guide cover",
+    "image_url": "https://pokopia.pokemon.com/assets/en-us/pages/index/gallery-3_7.jpg",
+    "image_alt": "Official Pokémon Pokopia gameplay screenshot for guide: Top 10 Most Powerful Pokemon",
     "answer": "Top 10 Most Powerful Pokemon is mainly about learning when to use Flamexor, Shadowclaw and Voltscale, where to focus your time in Volcanic Cave, Shadow Marsh and Thunder Arena, and which recipe support matters most. The short answer: start with Flamexor, prepare Lucky Charm, then farm or clear Volcanic Cave until your team can handle the next difficulty jump. This route keeps the guide focused on strongest pokemon pokopia while giving new players a practical checklist instead of a loose tip.",
     "steps": [
       "Confirm the unlock or farming target for Volcanic Cave, then check whether the listed weather and spawn time match your current session.",
@@ -828,8 +828,8 @@
     ],
     "published_at": "2026-05-16",
     "updated_at": "2026-05-23",
-    "image_source": "",
-    "image_source_url": ""
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "guid017",
@@ -841,8 +841,8 @@
     "related_pokemon": "pkm011,pkm012",
     "related_items": "rec012",
     "related_habitats": "hab007",
-    "image_url": "/images/guides/gemstone-canyon-guide.svg",
-    "image_alt": "Gemstone Canyon Mining Guide illustrated guide cover",
+    "image_url": "https://pokopia.pokemon.com/assets/en-us/pages/index/gallery-2_2.jpg",
+    "image_alt": "Official Pokémon Pokopia gameplay screenshot for guide: Gemstone Canyon Mining Guide",
     "answer": "Gemstone Canyon Mining Guide is mainly about learning when to use Rockler and Crystion, where to focus your time in Gemstone Canyon, and which recipe support matters most. The short answer: start with Rockler, prepare Steel Shell, then farm or clear Gemstone Canyon until your team can handle the next difficulty jump. This route keeps the guide focused on gemstone canyon pokopia while giving new players a practical checklist instead of a loose tip.",
     "steps": [
       "Confirm the unlock or farming target for Gemstone Canyon, then check whether the listed weather and spawn time match your current session.",
@@ -880,8 +880,8 @@
     ],
     "published_at": "2026-05-17",
     "updated_at": "2026-05-23",
-    "image_source": "",
-    "image_source_url": ""
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "guid018",
@@ -893,8 +893,8 @@
     "related_pokemon": "pkm004,pkm018,pkm021",
     "related_items": "rec006",
     "related_habitats": "hab003,hab009",
-    "image_url": "/images/guides/water-type-team-build.svg",
-    "image_alt": "Water-Type Team Compilation illustrated guide cover",
+    "image_url": "https://pokopia.pokemon.com/assets/en-us/pages/index/gallery-2_5.jpg",
+    "image_alt": "Official Pokémon Pokopia gameplay screenshot for guide: Water-Type Team Compilation",
     "answer": "Water-Type Team Compilation is mainly about learning when to use Aquap, Mudkipz and Stealthfin, where to focus your time in Crystal Lake and Muddy River, and which recipe support matters most. The short answer: start with Aquap, prepare Water Shield, then farm or clear Crystal Lake until your team can handle the next difficulty jump. This route keeps the guide focused on water team pokopia while giving new players a practical checklist instead of a loose tip.",
     "steps": [
       "Confirm the unlock or farming target for Crystal Lake, then check whether the listed weather and spawn time match your current session.",
@@ -932,8 +932,8 @@
     ],
     "published_at": "2026-05-18",
     "updated_at": "2026-05-23",
-    "image_source": "",
-    "image_source_url": ""
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "guid019",
@@ -945,8 +945,8 @@
     "related_pokemon": "pkm009,pkm030",
     "related_items": "rec010",
     "related_habitats": "hab006",
-    "image_url": "/images/guides/ghost-type-hunting.svg",
-    "image_alt": "Ghost-Type Hunting Secrets illustrated guide cover",
+    "image_url": "https://pokopia.pokemon.com/assets/en-us/pages/index/gallery-2_6.jpg",
+    "image_alt": "Official Pokémon Pokopia gameplay screenshot for guide: Ghost-Type Hunting Secrets",
     "answer": "Ghost-Type Hunting Secrets is mainly about learning when to use Shados and Shadowclaw, where to focus your time in Shadow Marsh, and which recipe support matters most. The short answer: start with Shados, prepare Ghost Veil, then farm or clear Shadow Marsh until your team can handle the next difficulty jump. This route keeps the guide focused on ghost type pokemon pokopia while giving new players a practical checklist instead of a loose tip.",
     "steps": [
       "Confirm the unlock or farming target for Shadow Marsh, then check whether the listed weather and spawn time match your current session.",
@@ -984,8 +984,8 @@
     ],
     "published_at": "2026-05-19",
     "updated_at": "2026-05-23",
-    "image_source": "",
-    "image_source_url": ""
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "guid020",
@@ -997,8 +997,8 @@
     "related_pokemon": "pkm005,pkm010,pkm015",
     "related_items": "rec003,rec007",
     "related_habitats": "hab004,hab012",
-    "image_url": "/images/guides/electric-speed-build.svg",
-    "image_alt": "Electric-Type Speed Demon Build illustrated guide cover",
+    "image_url": "https://pokopia.pokemon.com/assets/en-us/pages/index/gallery-2_7.jpg",
+    "image_alt": "Official Pokémon Pokopia gameplay screenshot for guide: Electric-Type Speed Demon Build",
     "answer": "Electric-Type Speed Demon Build is mainly about learning when to use Zaprat, Mechabit and Voltscale, where to focus your time in Windmill Plains and Thunder Arena, and which recipe support matters most. The short answer: start with Zaprat, prepare Speed Potion, then farm or clear Windmill Plains until your team can handle the next difficulty jump. This route keeps the guide focused on electric speed team pokopia while giving new players a practical checklist instead of a loose tip.",
     "steps": [
       "Confirm the unlock or farming target for Windmill Plains, then check whether the listed weather and spawn time match your current session.",
@@ -1036,8 +1036,8 @@
     ],
     "published_at": "2026-05-20",
     "updated_at": "2026-05-23",
-    "image_source": "",
-    "image_source_url": ""
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "guid021",
@@ -1049,8 +1049,8 @@
     "related_pokemon": "pkm015,pkm029,pkm050",
     "related_items": "rec011",
     "related_habitats": "hab018",
-    "image_url": "/images/guides/dragons-den-guide.svg",
-    "image_alt": "How to Unlock Dragon's Den illustrated guide cover",
+    "image_url": "https://pokopia.pokemon.com/assets/en-us/pages/index/gallery-2_8.jpg",
+    "image_alt": "Official Pokémon Pokopia gameplay screenshot for guide: How to Unlock Dragon's Den",
     "answer": "How to Unlock Dragon's Den is mainly about learning when to use Voltscale, Snorizard and Primordion, where to focus your time in Dragon's Den, and which recipe support matters most. The short answer: start with Voltscale, prepare Dragon's Fury, then farm or clear Dragon's Den until your team can handle the next difficulty jump. This route keeps the guide focused on dragons den pokopia while giving new players a practical checklist instead of a loose tip.",
     "steps": [
       "Confirm the unlock or farming target for Dragon's Den, then check whether the listed weather and spawn time match your current session.",
@@ -1088,8 +1088,8 @@
     ],
     "published_at": "2026-05-21",
     "updated_at": "2026-05-23",
-    "image_source": "",
-    "image_source_url": ""
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "guid022",
@@ -1101,8 +1101,8 @@
     "related_pokemon": "pkm002,pkm008,pkm017",
     "related_items": "rec009",
     "related_habitats": "hab020",
-    "image_url": "/images/guides/training-grounds-beginners.svg",
-    "image_alt": "Beginner's Guide to Training Grounds illustrated guide cover",
+    "image_url": "https://pokopia.pokemon.com/assets/en-us/pages/index/gallery-3_4.jpg",
+    "image_alt": "Official Pokémon Pokopia gameplay screenshot for guide: Beginner's Guide to Training Grounds",
     "answer": "Beginner's Guide to Training Grounds is mainly about learning when to use Bulbin, Tidlet and Thornvine, where to focus your time in Training Grounds, and which recipe support matters most. The short answer: start with Bulbin, prepare Grass Heal, then farm or clear Training Grounds until your team can handle the next difficulty jump. This route keeps the guide focused on training grounds pokopia while giving new players a practical checklist instead of a loose tip.",
     "steps": [
       "Confirm the unlock or farming target for Training Grounds, then check whether the listed weather and spawn time match your current session.",
@@ -1140,8 +1140,8 @@
     ],
     "published_at": "2026-05-22",
     "updated_at": "2026-05-23",
-    "image_source": "",
-    "image_source_url": ""
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "guid023",
@@ -1153,8 +1153,8 @@
     "related_pokemon": "pkm006,pkm041",
     "related_items": "rec010",
     "related_habitats": "hab017",
-    "image_url": "/images/guides/poison-type-team.svg",
-    "image_alt": "Poison-Type Team Analysis illustrated guide cover",
+    "image_url": "https://pokopia.pokemon.com/assets/en-us/pages/index/gallery-3_6.jpg",
+    "image_alt": "Official Pokémon Pokopia gameplay screenshot for guide: Poison-Type Team Analysis",
     "answer": "Poison-Type Team Analysis is mainly about learning when to use Leafon and Toxifin, where to focus your time in Nightmare Forest, and which recipe support matters most. The short answer: start with Leafon, prepare Ghost Veil, then farm or clear Nightmare Forest until your team can handle the next difficulty jump. This route keeps the guide focused on poison team pokopia while giving new players a practical checklist instead of a loose tip.",
     "steps": [
       "Confirm the unlock or farming target for Nightmare Forest, then check whether the listed weather and spawn time match your current session.",
@@ -1192,8 +1192,8 @@
     ],
     "published_at": "2026-05-22",
     "updated_at": "2026-05-23",
-    "image_source": "",
-    "image_source_url": ""
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "guid024",
@@ -1205,8 +1205,8 @@
     "related_pokemon": "pkm007,pkm015,pkm030,pkm050",
     "related_items": "rec005",
     "related_habitats": "hab001,hab004,hab006,hab009",
-    "image_url": "/images/guides/legendary-locations-guide.svg",
-    "image_alt": "All 4 Legendary Pokemon Locations illustrated guide cover",
+    "image_url": "https://pokopia.pokemon.com/assets/en-us/pages/index/gallery-3_7.jpg",
+    "image_alt": "Official Pokémon Pokopia gameplay screenshot for guide: All 4 Legendary Pokemon Locations",
     "answer": "All 4 Legendary Pokemon Locations is mainly about learning when to use Flamexor, Voltscale, Shadowclaw and Primordion, where to focus your time in Volcanic Cave, Windmill Plains, Shadow Marsh and Muddy River, and which recipe support matters most. The short answer: start with Flamexor, prepare Lucky Charm, then farm or clear Volcanic Cave until your team can handle the next difficulty jump. This route keeps the guide focused on legendary locations pokopia while giving new players a practical checklist instead of a loose tip.",
     "steps": [
       "Confirm the unlock or farming target for Volcanic Cave, then check whether the listed weather and spawn time match your current session.",
@@ -1244,8 +1244,8 @@
     ],
     "published_at": "2026-05-22",
     "updated_at": "2026-05-23",
-    "image_source": "",
-    "image_source_url": ""
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "guid025",
@@ -1257,8 +1257,8 @@
     "related_pokemon": "pkm012,pkm031",
     "related_items": "rec005",
     "related_habitats": "hab014",
-    "image_url": "/images/guides/crystal-cave-guide.svg",
-    "image_alt": "Crystal Cave Discovery Guide illustrated guide cover",
+    "image_url": "https://pokopia.pokemon.com/assets/en-us/pages/index/gallery-2_2.jpg",
+    "image_alt": "Official Pokémon Pokopia gameplay screenshot for guide: Crystal Cave Discovery Guide",
     "answer": "Crystal Cave Discovery Guide is mainly about learning when to use Crystion and Crystalwing, where to focus your time in Crystal Cave, and which recipe support matters most. The short answer: start with Crystion, prepare Lucky Charm, then farm or clear Crystal Cave until your team can handle the next difficulty jump. This route keeps the guide focused on crystal cave pokopia while giving new players a practical checklist instead of a loose tip.",
     "steps": [
       "Confirm the unlock or farming target for Crystal Cave, then check whether the listed weather and spawn time match your current session.",
@@ -1296,8 +1296,8 @@
     ],
     "published_at": "2026-05-22",
     "updated_at": "2026-05-23",
-    "image_source": "",
-    "image_source_url": ""
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "guid026",
@@ -1309,8 +1309,8 @@
     "related_pokemon": "pkm017,pkm023,pkm025",
     "related_items": "rec009",
     "related_habitats": "hab002",
-    "image_url": "/images/guides/best-grass-types.svg",
-    "image_alt": "Best Grass-Type Pick for Every Team illustrated guide cover",
+    "image_url": "https://pokopia.pokemon.com/assets/en-us/pages/index/gallery-2_5.jpg",
+    "image_alt": "Official Pokémon Pokopia gameplay screenshot for guide: Best Grass-Type Pick for Every Team",
     "answer": "Best Grass-Type Pick for Every Team is mainly about learning when to use Thornvine, Sunflora and Tropius, where to focus your time in Forest Valley, and which recipe support matters most. The short answer: start with Thornvine, prepare Grass Heal, then farm or clear Forest Valley until your team can handle the next difficulty jump. This route keeps the guide focused on best grass pokemon pokopia while giving new players a practical checklist instead of a loose tip.",
     "steps": [
       "Confirm the unlock or farming target for Forest Valley, then check whether the listed weather and spawn time match your current session.",
@@ -1348,8 +1348,8 @@
     ],
     "published_at": "2026-05-22",
     "updated_at": "2026-05-23",
-    "image_source": "",
-    "image_source_url": ""
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "guid027",
@@ -1361,8 +1361,8 @@
     "related_pokemon": "pkm010,pkm019,pkm037",
     "related_items": "rec012",
     "related_habitats": "hab016",
-    "image_url": "/images/guides/steel-type-build.svg",
-    "image_alt": "Steel-Type硬核Build攻略 illustrated guide cover",
+    "image_url": "https://pokopia.pokemon.com/assets/en-us/pages/index/gallery-2_6.jpg",
+    "image_alt": "Official Pokémon Pokopia gameplay screenshot for guide: Steel-Type硬核Build攻略",
     "answer": "Steel-Type硬核Build攻略 is mainly about learning when to use Mechabit, Bronzorm and Ironclaw, where to focus your time in Industrial Zone, and which recipe support matters most. The short answer: start with Mechabit, prepare Steel Shell, then farm or clear Industrial Zone until your team can handle the next difficulty jump. This route keeps the guide focused on steel type team pokopia while giving new players a practical checklist instead of a loose tip.",
     "steps": [
       "Confirm the unlock or farming target for Industrial Zone, then check whether the listed weather and spawn time match your current session.",
@@ -1400,8 +1400,8 @@
     ],
     "published_at": "2026-05-22",
     "updated_at": "2026-05-23",
-    "image_source": "",
-    "image_source_url": ""
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "guid028",
@@ -1413,8 +1413,8 @@
     "related_pokemon": "pkm012,pkm038,pkm048",
     "related_items": "rec005",
     "related_habitats": "hab019",
-    "image_url": "/images/guides/fairy-glen-exploration.svg",
-    "image_alt": "Fairy Glen Hidden Secrets illustrated guide cover",
+    "image_url": "https://pokopia.pokemon.com/assets/en-us/pages/index/gallery-2_7.jpg",
+    "image_alt": "Official Pokémon Pokopia gameplay screenshot for guide: Fairy Glen Hidden Secrets",
     "answer": "Fairy Glen Hidden Secrets is mainly about learning when to use Crystion, Mysticat and Magicalure, where to focus your time in Fairy Glen, and which recipe support matters most. The short answer: start with Crystion, prepare Lucky Charm, then farm or clear Fairy Glen until your team can handle the next difficulty jump. This route keeps the guide focused on fairy glen pokopia while giving new players a practical checklist instead of a loose tip.",
     "steps": [
       "Confirm the unlock or farming target for Fairy Glen, then check whether the listed weather and spawn time match your current session.",
@@ -1452,8 +1452,8 @@
     ],
     "published_at": "2026-05-22",
     "updated_at": "2026-05-23",
-    "image_source": "",
-    "image_source_url": ""
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "guid029",
@@ -1465,8 +1465,8 @@
     "related_pokemon": "pkm006,pkm022,pkm048",
     "related_items": "rec010",
     "related_habitats": "hab017",
-    "image_url": "/images/guides/nightmare-forest-guide.svg",
-    "image_alt": "Nightmare Forest Horror Stories illustrated guide cover",
+    "image_url": "https://pokopia.pokemon.com/assets/en-us/pages/index/gallery-2_8.jpg",
+    "image_alt": "Official Pokémon Pokopia gameplay screenshot for guide: Nightmare Forest Horror Stories",
     "answer": "Nightmare Forest Horror Stories is mainly about learning when to use Leafon, Frostbite and Magicalure, where to focus your time in Nightmare Forest, and which recipe support matters most. The short answer: start with Leafon, prepare Ghost Veil, then farm or clear Nightmare Forest until your team can handle the next difficulty jump. This route keeps the guide focused on nightmare forest pokopia while giving new players a practical checklist instead of a loose tip.",
     "steps": [
       "Confirm the unlock or farming target for Nightmare Forest, then check whether the listed weather and spawn time match your current session.",
@@ -1504,8 +1504,8 @@
     ],
     "published_at": "2026-05-22",
     "updated_at": "2026-05-23",
-    "image_source": "",
-    "image_source_url": ""
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "guid030",
@@ -1517,8 +1517,8 @@
     "related_pokemon": "pkm007,pkm030,pkm015,pkm050",
     "related_items": "rec005,rec012,rec003",
     "related_habitats": "hab001,hab006,hab012,hab018",
-    "image_url": "/images/guides/endgame-build-guide.svg",
-    "image_alt": "Ultimate Endgame Build Compilation illustrated guide cover",
+    "image_url": "https://pokopia.pokemon.com/assets/en-us/pages/index/gallery-3_4.jpg",
+    "image_alt": "Official Pokémon Pokopia gameplay screenshot for guide: Ultimate Endgame Build Compilation",
     "answer": "Ultimate Endgame Build Compilation is mainly about learning when to use Flamexor, Shadowclaw, Voltscale and Primordion, where to focus your time in Volcanic Cave, Shadow Marsh, Thunder Arena and Dragon's Den, and which recipe support matters most. The short answer: start with Flamexor, prepare Lucky Charm, then farm or clear Volcanic Cave until your team can handle the next difficulty jump. This route keeps the guide focused on endgame build pokopia while giving new players a practical checklist instead of a loose tip.",
     "steps": [
       "Confirm the unlock or farming target for Volcanic Cave, then check whether the listed weather and spawn time match your current session.",
@@ -1556,7 +1556,7 @@
     ],
     "published_at": "2026-05-22",
     "updated_at": "2026-05-23",
-    "image_source": "",
-    "image_source_url": ""
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   }
 ]

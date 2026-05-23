@@ -21,10 +21,16 @@ export function CreditedImage({
 }: CreditedImageProps) {
   if (!src || !source) return null
 
+  const isRemote = src.startsWith('http://') || src.startsWith('https://')
+
   return (
     <figure style={{ margin: 0 }}>
       <div className={className}>
-        <Image src={src} alt={alt || source} fill sizes={sizes} priority={priority} />
+        {isRemote ? (
+          <img src={src} alt={alt || source} loading={priority ? 'eager' : 'lazy'} />
+        ) : (
+          <Image src={src} alt={alt || source} fill sizes={sizes} priority={priority} />
+        )}
       </div>
       <figcaption style={{ color: '#777', fontSize: '0.75rem', lineHeight: 1.5, marginTop: '0.35rem' }}>
         图片来源：{sourceUrl ? <a href={sourceUrl} rel="nofollow noopener noreferrer" target="_blank">{source}</a> : source}

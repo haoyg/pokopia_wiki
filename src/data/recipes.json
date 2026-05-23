@@ -7,10 +7,10 @@
     "effect_duration": "30 min",
     "rarity": "uncommon",
     "best_use": "Rare Pokemon farming",
-    "image_url": "/images/recipes/rec001-honey-cake.svg",
-    "image_alt": "Honey Cake recipe illustration",
-    "image_source": "",
-    "image_source_url": ""
+    "image_url": "https://pokopia.pokemon.com/assets/en-us/pages/index/gallery-2_7.jpg",
+    "image_alt": "Official Pokémon Pokopia gameplay screenshot for recipe page: Honey Cake",
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "rec002",
@@ -20,10 +20,10 @@
     "effect_duration": "1 hour",
     "rarity": "rare",
     "best_use": "Boss battles",
-    "image_url": "/images/recipes/rec002-fire-boost.svg",
-    "image_alt": "Fire Boost recipe illustration",
-    "image_source": "",
-    "image_source_url": ""
+    "image_url": "https://pokopia.pokemon.com/assets/en-us/pages/index/gallery-2_8.jpg",
+    "image_alt": "Official Pokémon Pokopia gameplay screenshot for recipe page: Fire Boost",
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "rec003",
@@ -33,10 +33,10 @@
     "effect_duration": "45 min",
     "rarity": "uncommon",
     "best_use": "Speed runs",
-    "image_url": "/images/recipes/rec003-speed-potion.svg",
-    "image_alt": "Speed Potion recipe illustration",
-    "image_source": "",
-    "image_source_url": ""
+    "image_url": "https://pokopia.pokemon.com/assets/en-us/pages/index/gallery-2_2.jpg",
+    "image_alt": "Official Pokémon Pokopia gameplay screenshot for recipe page: Speed Potion",
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "rec004",
@@ -46,10 +46,10 @@
     "effect_duration": "2 hours",
     "rarity": "rare",
     "best_use": "Hard habitats",
-    "image_url": "/images/recipes/rec004-guardian-stew.svg",
-    "image_alt": "Guardian Stew recipe illustration",
-    "image_source": "",
-    "image_source_url": ""
+    "image_url": "https://pokopia.pokemon.com/assets/en-us/pages/index/gallery-2_6.jpg",
+    "image_alt": "Official Pokémon Pokopia gameplay screenshot for recipe page: Guardian Stew",
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "rec005",
@@ -59,10 +59,10 @@
     "effect_duration": "1 hour",
     "rarity": "legendary",
     "best_use": "Legendary hunting",
-    "image_url": "/images/recipes/rec005-lucky-charm.svg",
-    "image_alt": "Lucky Charm recipe illustration",
-    "image_source": "",
-    "image_source_url": ""
+    "image_url": "https://pokopia.pokemon.com/assets/en-us/pages/index/gallery-2_7.jpg",
+    "image_alt": "Official Pokémon Pokopia gameplay screenshot for recipe page: Lucky Charm",
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "rec006",
@@ -72,10 +72,10 @@
     "effect_duration": "1.5 hours",
     "rarity": "uncommon",
     "best_use": "Water habitats",
-    "image_url": "/images/recipes/rec006-water-shield.svg",
-    "image_alt": "Water Shield recipe illustration",
-    "image_source": "",
-    "image_source_url": ""
+    "image_url": "https://pokopia.pokemon.com/assets/en-us/pages/index/gallery-2_8.jpg",
+    "image_alt": "Official Pokémon Pokopia gameplay screenshot for recipe page: Water Shield",
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "rec007",
@@ -85,10 +85,10 @@
     "effect_duration": "45 min",
     "rarity": "rare",
     "best_use": "Electric battles",
-    "image_url": "/images/recipes/rec007-thunder-strike.svg",
-    "image_alt": "Thunder Strike recipe illustration",
-    "image_source": "",
-    "image_source_url": ""
+    "image_url": "https://pokopia.pokemon.com/assets/en-us/pages/index/gallery-2_2.jpg",
+    "image_alt": "Official Pokémon Pokopia gameplay screenshot for recipe page: Thunder Strike",
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "rec008",
@@ -98,10 +98,10 @@
     "effect_duration": "2 hours",
     "rarity": "rare",
     "best_use": "Frost Peak",
-    "image_url": "/images/recipes/rec008-ice-armor.svg",
-    "image_alt": "Ice Armor recipe illustration",
-    "image_source": "",
-    "image_source_url": ""
+    "image_url": "https://pokopia.pokemon.com/assets/en-us/pages/index/gallery-2_6.jpg",
+    "image_alt": "Official Pokémon Pokopia gameplay screenshot for recipe page: Ice Armor",
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "rec009",
@@ -111,10 +111,10 @@
     "effect_duration": "20 min",
     "rarity": "common",
     "best_use": "Daily farming",
-    "image_url": "/images/recipes/rec009-grass-heal.svg",
-    "image_alt": "Grass Heal recipe illustration",
-    "image_source": "",
-    "image_source_url": ""
+    "image_url": "https://pokopia.pokemon.com/assets/en-us/pages/index/gallery-2_7.jpg",
+    "image_alt": "Official Pokémon Pokopia gameplay screenshot for recipe page: Grass Heal",
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "rec010",
@@ -124,10 +124,10 @@
     "effect_duration": "1 hour",
     "rarity": "legendary",
     "best_use": "Shadow Marsh",
-    "image_url": "/images/recipes/rec010-ghost-veil.svg",
-    "image_alt": "Ghost Veil recipe illustration",
-    "image_source": "",
-    "image_source_url": ""
+    "image_url": "https://pokopia.pokemon.com/assets/en-us/pages/index/gallery-2_8.jpg",
+    "image_alt": "Official Pokémon Pokopia gameplay screenshot for recipe page: Ghost Veil",
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "rec011",
@@ -137,10 +137,10 @@
     "effect_duration": "90 min",
     "rarity": "rare",
     "best_use": "Boss fights",
-    "image_url": "/images/recipes/rec011-dragon-s-fury.svg",
-    "image_alt": "Dragon's Fury recipe illustration",
-    "image_source": "",
-    "image_source_url": ""
+    "image_url": "https://pokopia.pokemon.com/assets/en-us/pages/index/gallery-2_2.jpg",
+    "image_alt": "Official Pokémon Pokopia gameplay screenshot for recipe page: Dragon's Fury",
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "rec012",
@@ -150,10 +150,10 @@
     "effect_duration": "2 hours",
     "rarity": "rare",
     "best_use": "Tank builds",
-    "image_url": "/images/recipes/rec012-steel-shell.svg",
-    "image_alt": "Steel Shell recipe illustration",
-    "image_source": "",
-    "image_source_url": ""
+    "image_url": "https://pokopia.pokemon.com/assets/en-us/pages/index/gallery-2_6.jpg",
+    "image_alt": "Official Pokémon Pokopia gameplay screenshot for recipe page: Steel Shell",
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "rec013",
@@ -163,10 +163,10 @@
     "effect_duration": "1 hour",
     "rarity": "uncommon",
     "best_use": "Sky Isles",
-    "image_url": "/images/recipes/rec013-flying-high.svg",
-    "image_alt": "Flying High recipe illustration",
-    "image_source": "",
-    "image_source_url": ""
+    "image_url": "https://pokopia.pokemon.com/assets/en-us/pages/index/gallery-2_7.jpg",
+    "image_alt": "Official Pokémon Pokopia gameplay screenshot for recipe page: Flying High",
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "rec014",
@@ -176,10 +176,10 @@
     "effect_duration": "45 min",
     "rarity": "uncommon",
     "best_use": "Muddy River",
-    "image_url": "/images/recipes/rec014-muddy-swirl.svg",
-    "image_alt": "Muddy Swirl recipe illustration",
-    "image_source": "",
-    "image_source_url": ""
+    "image_url": "https://pokopia.pokemon.com/assets/en-us/pages/index/gallery-2_8.jpg",
+    "image_alt": "Official Pokémon Pokopia gameplay screenshot for recipe page: Muddy Swirl",
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "rec015",
@@ -189,9 +189,9 @@
     "effect_duration": "Instant",
     "rarity": "legendary",
     "best_use": "Emergency healing",
-    "image_url": "/images/recipes/rec015-mega-restore.svg",
-    "image_alt": "Mega Restore recipe illustration",
-    "image_source": "",
-    "image_source_url": ""
+    "image_url": "https://pokopia.pokemon.com/assets/en-us/pages/index/gallery-2_2.jpg",
+    "image_alt": "Official Pokémon Pokopia gameplay screenshot for recipe page: Mega Restore",
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   }
 ]

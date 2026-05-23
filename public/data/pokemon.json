@@ -12,10 +12,10 @@
     "skills": "Thunderbolt,Fire Blast,Quick Attack,Iron Tail",
     "drops": "Fire Stone,Thunder Stone",
     "description": "A fiery variant of Pikachu with flame-themed markings. Found near volcanic areas.",
-    "image_url": "/images/pokemon/pikafire.svg",
-    "image_alt": "Pikafire illustrated Pokemon portrait",
-    "image_source": "",
-    "image_source_url": ""
+    "image_url": "https://pokopia.pokemon.com/_astro/character-tangrowth.Cw-cmRqf_Z1Y5rC0.webp",
+    "image_alt": "Official Pokémon Pokopia character screenshot: Pikafire",
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "pkm002",
@@ -30,10 +30,10 @@
     "skills": "Vine Whip,Razor Leaf,Protect,Growl",
     "drops": "Leaf,Grass Fiber",
     "description": "A loyal grass-type starter. Easy to catch and great for beginners.",
-    "image_url": "/images/pokemon/bulbin.svg",
-    "image_alt": "Bulbin illustrated Pokemon portrait",
-    "image_source": "",
-    "image_source_url": ""
+    "image_url": "https://pokopia.pokemon.com/_astro/group-1.DugJP6N1_wDlCf.webp",
+    "image_alt": "Official Pokémon Pokopia character screenshot: Bulbin",
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "pkm003",
@@ -48,10 +48,10 @@
     "skills": "Ember,Fire Spin,Flamethrower,Fire Blast",
     "drops": "Fire Stone,Ash",
     "description": "A cuddly fire-type with fluffy fur. Evolves from Firdle.",
-    "image_url": "/images/pokemon/charmuddy.svg",
-    "image_alt": "Charmuddy illustrated Pokemon portrait",
-    "image_source": "",
-    "image_source_url": ""
+    "image_url": "https://pokopia.pokemon.com/_astro/group-2.DU_8rPlU_Z1uITcq.webp",
+    "image_alt": "Official Pokémon Pokopia character screenshot: Charmuddy",
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "pkm004",
@@ -66,10 +66,10 @@
     "skills": "Water Gun,Bubble,Aqua Jet,Rain Dance",
     "drops": "Water Stone,Pearl",
     "description": "A playful water creature. Found near rivers and lakes.",
-    "image_url": "/images/pokemon/aquap.svg",
-    "image_alt": "Aquap illustrated Pokemon portrait",
-    "image_source": "",
-    "image_source_url": ""
+    "image_url": "https://pokopia.pokemon.com/assets/en-us/pages/index/gallery-2_1.jpg",
+    "image_alt": "Official Pokémon Pokopia character screenshot: Aquap",
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "pkm005",
@@ -84,10 +84,10 @@
     "skills": "Spark,Quick Attack,Thunder Wave,Discharge",
     "drops": "Thunder Stone,Lightning Rod",
     "description": "An electric rat-like Pokemon. Extremely fast but fragile.",
-    "image_url": "/images/pokemon/zaprat.svg",
-    "image_alt": "Zaprat illustrated Pokemon portrait",
-    "image_source": "",
-    "image_source_url": ""
+    "image_url": "https://pokopia.pokemon.com/assets/en-us/pages/index/gallery-2_2.jpg",
+    "image_alt": "Official Pokémon Pokopia character screenshot: Zaprat",
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "pkm006",
@@ -102,10 +102,10 @@
     "skills": "Poison Powder,Sludge Bomb,Razor Leaf,Toxic",
     "drops": "Poison Stone,Leaf Stone",
     "description": "A rare grass-type with toxic abilities. Stealthy hunter.",
-    "image_url": "/images/pokemon/leafon.svg",
-    "image_alt": "Leafon illustrated Pokemon portrait",
-    "image_source": "",
-    "image_source_url": ""
+    "image_url": "https://pokopia.pokemon.com/_astro/character-tangrowth.Cw-cmRqf_Z1Y5rC0.webp",
+    "image_alt": "Official Pokémon Pokopia character screenshot: Leafon",
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "pkm007",
@@ -120,10 +120,10 @@
     "skills": "Flame Body,Iron Defense,Fire Blast,Stealth Rock",
     "drops": "Fire Stone,Metal Coat,Legendary Scale",
     "description": "The legendary flame beast. Nearly extinct in the wild.",
-    "image_url": "/images/pokemon/flamexor.svg",
-    "image_alt": "Flamexor illustrated Pokemon portrait",
-    "image_source": "",
-    "image_source_url": ""
+    "image_url": "https://pokopia.pokemon.com/_astro/group-1.DugJP6N1_wDlCf.webp",
+    "image_alt": "Official Pokémon Pokopia character screenshot: Flamexor",
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "pkm008",
@@ -138,10 +138,10 @@
     "skills": "Growl,Tackle,Play Nice,Swagger",
     "drops": "Fur,Cloth",
     "description": "A small cute creature. Found in snowy regions.",
-    "image_url": "/images/pokemon/tidlet.svg",
-    "image_alt": "Tidlet illustrated Pokemon portrait",
-    "image_source": "",
-    "image_source_url": ""
+    "image_url": "https://pokopia.pokemon.com/_astro/group-2.DU_8rPlU_Z1uITcq.webp",
+    "image_alt": "Official Pokémon Pokopia character screenshot: Tidlet",
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "pkm009",
@@ -156,10 +156,10 @@
     "skills": "Shadow Ball,Lick,Astonish,Night Shade",
     "drops": "Ghost Stone,Soul Dust",
     "description": "A ghostly shadow Pokemon. Appears only in dark places.",
-    "image_url": "/images/pokemon/shados.svg",
-    "image_alt": "Shados illustrated Pokemon portrait",
-    "image_source": "",
-    "image_source_url": ""
+    "image_url": "https://pokopia.pokemon.com/assets/en-us/pages/index/gallery-2_1.jpg",
+    "image_alt": "Official Pokémon Pokopia character screenshot: Shados",
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "pkm010",
@@ -174,10 +174,10 @@
     "skills": "Lock-On,Zap Cannon,Flash Cannon,Protect",
     "drops": "Metal Coat,Piston",
     "description": "A robotic electric Pokemon. Created by ancient engineers.",
-    "image_url": "/images/pokemon/mechabit.svg",
-    "image_alt": "Mechabit illustrated Pokemon portrait",
-    "image_source": "",
-    "image_source_url": ""
+    "image_url": "https://pokopia.pokemon.com/assets/en-us/pages/index/gallery-2_2.jpg",
+    "image_alt": "Official Pokémon Pokopia character screenshot: Mechabit",
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "pkm011",
@@ -192,10 +192,10 @@
     "skills": "Rock Throw,Earthquake,Protect,Stealth Rock",
     "drops": "Stone,Rock Fragment",
     "description": "A sturdy rock-type. Excellent for defense.",
-    "image_url": "/images/pokemon/rockler.svg",
-    "image_alt": "Rockler illustrated Pokemon portrait",
-    "image_source": "",
-    "image_source_url": ""
+    "image_url": "https://pokopia.pokemon.com/_astro/character-tangrowth.Cw-cmRqf_Z1Y5rC0.webp",
+    "image_alt": "Official Pokémon Pokopia character screenshot: Rockler",
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "pkm012",
@@ -210,10 +210,10 @@
     "skills": "Crystal Beam,Moonblast,Power Gem,Dazzling Gleam",
     "drops": "Crystal Shard,Diamond",
     "description": "A beautiful crystal creature. Very rare to find.",
-    "image_url": "/images/pokemon/crystion.svg",
-    "image_alt": "Crystion illustrated Pokemon portrait",
-    "image_source": "",
-    "image_source_url": ""
+    "image_url": "https://pokopia.pokemon.com/_astro/group-1.DugJP6N1_wDlCf.webp",
+    "image_alt": "Official Pokémon Pokopia character screenshot: Crystion",
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "pkm013",
@@ -228,10 +228,10 @@
     "skills": "Ember,Fire Punch,Flame Wheel,Fire Spin",
     "drops": "Fire Stone,Flame Ore",
     "description": "A small fire salamander. Popular among beginners.",
-    "image_url": "/images/pokemon/emberal.svg",
-    "image_alt": "Emberal illustrated Pokemon portrait",
-    "image_source": "",
-    "image_source_url": ""
+    "image_url": "https://pokopia.pokemon.com/_astro/group-2.DU_8rPlU_Z1uITcq.webp",
+    "image_alt": "Official Pokémon Pokopia character screenshot: Emberal",
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "pkm014",
@@ -246,10 +246,10 @@
     "skills": "Ice Beam,Blizzard,Aurora Veil,Hail",
     "drops": "Ice Stone,Frost Crystal",
     "description": "An ice penguin. At home in frozen environments.",
-    "image_url": "/images/pokemon/glacior.svg",
-    "image_alt": "Glacior illustrated Pokemon portrait",
-    "image_source": "",
-    "image_source_url": ""
+    "image_url": "https://pokopia.pokemon.com/assets/en-us/pages/index/gallery-2_1.jpg",
+    "image_alt": "Official Pokémon Pokopia character screenshot: Glacior",
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "pkm015",
@@ -264,10 +264,10 @@
     "skills": "Thunderbolt,Dragon Pulse,Wild Charge,Thunder Wave",
     "drops": "Thunder Stone,Dragon Scale",
     "description": "The legendary storm dragon. Said to control lightning.",
-    "image_url": "/images/pokemon/voltscale.svg",
-    "image_alt": "Voltscale illustrated Pokemon portrait",
-    "image_source": "",
-    "image_source_url": ""
+    "image_url": "https://pokopia.pokemon.com/assets/en-us/pages/index/gallery-2_2.jpg",
+    "image_alt": "Official Pokémon Pokopia character screenshot: Voltscale",
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "pkm016",
@@ -282,10 +282,10 @@
     "skills": "Peck,Wing Attack,Quick Attack,Aerial Ace",
     "drops": "Feather,Wind Essence",
     "description": "A gentle wind bird. Found in open plains.",
-    "image_url": "/images/pokemon/breezel.svg",
-    "image_alt": "Breezel illustrated Pokemon portrait",
-    "image_source": "",
-    "image_source_url": ""
+    "image_url": "https://pokopia.pokemon.com/_astro/character-tangrowth.Cw-cmRqf_Z1Y5rC0.webp",
+    "image_alt": "Official Pokémon Pokopia character screenshot: Breezel",
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "pkm017",
@@ -300,10 +300,10 @@
     "skills": "Bullet Seed,Power Whip,Leech Seed,Protect",
     "drops": "Leaf,Thorn",
     "description": "A thorny plant Pokemon. Great for defensive teams.",
-    "image_url": "/images/pokemon/thornvine.svg",
-    "image_alt": "Thornvine illustrated Pokemon portrait",
-    "image_source": "",
-    "image_source_url": ""
+    "image_url": "https://pokopia.pokemon.com/_astro/group-1.DugJP6N1_wDlCf.webp",
+    "image_alt": "Official Pokémon Pokopia character screenshot: Thornvine",
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "pkm018",
@@ -318,10 +318,10 @@
     "skills": "Water Gun,Mud Shot,Earthquake,Protect",
     "drops": "Mud Stone,Water Stone",
     "description": "A playful water dog. Loves playing in mud.",
-    "image_url": "/images/pokemon/mudkipz.svg",
-    "image_alt": "Mudkipz illustrated Pokemon portrait",
-    "image_source": "",
-    "image_source_url": ""
+    "image_url": "https://pokopia.pokemon.com/_astro/group-2.DU_8rPlU_Z1uITcq.webp",
+    "image_alt": "Official Pokémon Pokopia character screenshot: Mudkipz",
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "pkm019",
@@ -336,10 +336,10 @@
     "skills": "Psychic,Flash Cannon,Recover,Iron Defense",
     "drops": "Metal Coat,Bronze Medal",
     "description": "An ancient bronze statue that came to life.",
-    "image_url": "/images/pokemon/bronzorm.svg",
-    "image_alt": "Bronzorm illustrated Pokemon portrait",
-    "image_source": "",
-    "image_source_url": ""
+    "image_url": "https://pokopia.pokemon.com/assets/en-us/pages/index/gallery-2_1.jpg",
+    "image_alt": "Official Pokémon Pokopia character screenshot: Bronzorm",
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "pkm020",
@@ -354,10 +354,10 @@
     "skills": "Fire Spin,Hurricane,Flame Charge,Brave Bird",
     "drops": "Fire Stone,Feather",
     "description": "An elegant fire bird. Its dance mesmerizes opponents.",
-    "image_url": "/images/pokemon/flamingo.svg",
-    "image_alt": "Flamingo illustrated Pokemon portrait",
-    "image_source": "",
-    "image_source_url": ""
+    "image_url": "https://pokopia.pokemon.com/assets/en-us/pages/index/gallery-2_2.jpg",
+    "image_alt": "Official Pokémon Pokopia character screenshot: Flamingo",
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "pkm021",
@@ -372,10 +372,10 @@
     "skills": "Crunch,Aqua Jet,Knock Off,Ice Fang",
     "drops": "Deep Sea Tooth,Dark Gem",
     "description": "A mysterious deep-sea creature. Hunts at night.",
-    "image_url": "/images/pokemon/stealthfin.svg",
-    "image_alt": "Stealthfin illustrated Pokemon portrait",
-    "image_source": "",
-    "image_source_url": ""
+    "image_url": "https://pokopia.pokemon.com/_astro/character-tangrowth.Cw-cmRqf_Z1Y5rC0.webp",
+    "image_alt": "Official Pokémon Pokopia character screenshot: Stealthfin",
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "pkm022",
@@ -390,10 +390,10 @@
     "skills": "Ice Beam,Shadow Ball,Avalanche,Hypnosis",
     "drops": "Ghost Stone,Ice Crystal",
     "description": "A spirit of the frozen wastes. Beware its icy gaze.",
-    "image_url": "/images/pokemon/frostbite.svg",
-    "image_alt": "Frostbite illustrated Pokemon portrait",
-    "image_source": "",
-    "image_source_url": ""
+    "image_url": "https://pokopia.pokemon.com/_astro/group-1.DugJP6N1_wDlCf.webp",
+    "image_alt": "Official Pokémon Pokopia character screenshot: Frostbite",
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "pkm023",
@@ -408,10 +408,10 @@
     "skills": "Solar Beam,Fire Blast,Weather Ball,Sunny Day",
     "drops": "Sun Stone,Flame Ore",
     "description": "A flower that thrives in sunlight. Chaotic battle style.",
-    "image_url": "/images/pokemon/sunflora.svg",
-    "image_alt": "Sunflora illustrated Pokemon portrait",
-    "image_source": "",
-    "image_source_url": ""
+    "image_url": "https://pokopia.pokemon.com/_astro/group-2.DU_8rPlU_Z1uITcq.webp",
+    "image_alt": "Official Pokémon Pokopia character screenshot: Sunflora",
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "pkm024",
@@ -426,10 +426,10 @@
     "skills": "Magnet Bomb,Thunderbolt,Volt Switch,Protect",
     "drops": "Metal Coil,Magnet",
     "description": "A magnetic robot Pokemon. Attracts steel-types.",
-    "image_url": "/images/pokemon/magnedex.svg",
-    "image_alt": "Magnedex illustrated Pokemon portrait",
-    "image_source": "",
-    "image_source_url": ""
+    "image_url": "https://pokopia.pokemon.com/assets/en-us/pages/index/gallery-2_1.jpg",
+    "image_alt": "Official Pokémon Pokopia character screenshot: Magnedex",
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "pkm025",
@@ -444,10 +444,10 @@
     "skills": "Air Slash,Energy Ball,Roost,Synthesis",
     "drops": "Leaf,Dragon Scale",
     "description": "A tropical flying dinosaur. Produces delicious fruit.",
-    "image_url": "/images/pokemon/tropius.svg",
-    "image_alt": "Tropius illustrated Pokemon portrait",
-    "image_source": "",
-    "image_source_url": ""
+    "image_url": "https://pokopia.pokemon.com/assets/en-us/pages/index/gallery-2_2.jpg",
+    "image_alt": "Official Pokémon Pokopia character screenshot: Tropius",
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "pkm026",
@@ -462,10 +462,10 @@
     "skills": "Playful,Body Slam,Cotton Guard,Seismic Toss",
     "drops": "Fur,Cloth",
     "description": "A hyperactive creature. Always bouncing around.",
-    "image_url": "/images/pokemon/skittlish.svg",
-    "image_alt": "Skittlish illustrated Pokemon portrait",
-    "image_source": "",
-    "image_source_url": ""
+    "image_url": "https://pokopia.pokemon.com/_astro/character-tangrowth.Cw-cmRqf_Z1Y5rC0.webp",
+    "image_alt": "Official Pokémon Pokopia character screenshot: Skittlish",
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "pkm027",
@@ -480,10 +480,10 @@
     "skills": "Moonblast,Aqua Jet,Muddy Water,Charm",
     "drops": "Water Stone,Star Piece",
     "description": "A water droplet with fairy-like properties.",
-    "image_url": "/images/pokemon/dewdrop.svg",
-    "image_alt": "Dewdrop illustrated Pokemon portrait",
-    "image_source": "",
-    "image_source_url": ""
+    "image_url": "https://pokopia.pokemon.com/_astro/group-1.DugJP6N1_wDlCf.webp",
+    "image_alt": "Official Pokémon Pokopia character screenshot: Dewdrop",
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "pkm028",
@@ -498,10 +498,10 @@
     "skills": "Flamethrower,Fire Punch,Thunder Punch,Will-O-Wisp",
     "drops": "Fire Stone,Magma Core",
     "description": "A living flame. Can melt any material.",
-    "image_url": "/images/pokemon/magmar.svg",
-    "image_alt": "Magmar illustrated Pokemon portrait",
-    "image_source": "",
-    "image_source_url": ""
+    "image_url": "https://pokopia.pokemon.com/_astro/group-2.DU_8rPlU_Z1uITcq.webp",
+    "image_alt": "Official Pokémon Pokopia character screenshot: Magmar",
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "pkm029",
@@ -516,10 +516,10 @@
     "skills": "Draco Meteor,Icicle Spear,Dragon Dance,Extreme Speed",
     "drops": "Dragon Scale,Ice Stone",
     "description": "A rare dragon that lives in icy mountains.",
-    "image_url": "/images/pokemon/snorizard.svg",
-    "image_alt": "Snorizard illustrated Pokemon portrait",
-    "image_source": "",
-    "image_source_url": ""
+    "image_url": "https://pokopia.pokemon.com/assets/en-us/pages/index/gallery-2_1.jpg",
+    "image_alt": "Official Pokémon Pokopia character screenshot: Snorizard",
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "pkm030",
@@ -534,10 +534,10 @@
     "skills": "Shadow Claw,Phantom Strike,Crunch,Sucker Punch",
     "drops": "Shadow Stone,King's Rock",
     "description": "The legendary shadow beast. Master of darkness.",
-    "image_url": "/images/pokemon/shadowclaw.svg",
-    "image_alt": "Shadowclaw illustrated Pokemon portrait",
-    "image_source": "",
-    "image_source_url": ""
+    "image_url": "https://pokopia.pokemon.com/assets/en-us/pages/index/gallery-2_2.jpg",
+    "image_alt": "Official Pokémon Pokopia character screenshot: Shadowclaw",
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "pkm031",
@@ -552,10 +552,10 @@
     "skills": "Diamond Storm,Aerial Ace,Crystal Beam,Roost",
     "drops": "Crystal Shard,Feather",
     "description": "A majestic crystal bird. Its feathers shimmer like diamonds.",
-    "image_url": "/images/pokemon/crystalwing.svg",
-    "image_alt": "Crystalwing illustrated Pokemon portrait",
-    "image_source": "",
-    "image_source_url": ""
+    "image_url": "https://pokopia.pokemon.com/_astro/character-tangrowth.Cw-cmRqf_Z1Y5rC0.webp",
+    "image_alt": "Official Pokémon Pokopia character screenshot: Crystalwing",
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "pkm032",
@@ -570,10 +570,10 @@
     "skills": "Rock Blast,Bug Bite,Spikes,Protect",
     "drops": "Stone,Bug Shell",
     "description": "A hardy rock bug. Its back is covered in protective thorns.",
-    "image_url": "/images/pokemon/thornback.svg",
-    "image_alt": "Thornback illustrated Pokemon portrait",
-    "image_source": "",
-    "image_source_url": ""
+    "image_url": "https://pokopia.pokemon.com/_astro/group-1.DugJP6N1_wDlCf.webp",
+    "image_alt": "Official Pokémon Pokopia character screenshot: Thornback",
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "pkm033",
@@ -588,10 +588,10 @@
     "skills": "Fire Spin,Psybeam,Will-O-Wisp,Confuse Ray",
     "drops": "Fire Stone,Psy Crystal",
     "description": "A mystical fire fox. Its tails contains ancient flames.",
-    "image_url": "/images/pokemon/emberfox.svg",
-    "image_alt": "Emberfox illustrated Pokemon portrait",
-    "image_source": "",
-    "image_source_url": ""
+    "image_url": "https://pokopia.pokemon.com/_astro/group-2.DU_8rPlU_Z1uITcq.webp",
+    "image_alt": "Official Pokémon Pokopia character screenshot: Emberfox",
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "pkm034",
@@ -606,10 +606,10 @@
     "skills": "Water Gun,Rock Throw,Withdraw,Iron Defense",
     "drops": "Shell,Pearl",
     "description": "A water snail with a rock shell. Very defensive.",
-    "image_url": "/images/pokemon/aquashell.svg",
-    "image_alt": "Aquashell illustrated Pokemon portrait",
-    "image_source": "",
-    "image_source_url": ""
+    "image_url": "https://pokopia.pokemon.com/assets/en-us/pages/index/gallery-2_1.jpg",
+    "image_alt": "Official Pokémon Pokopia character screenshot: Aquashell",
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "pkm035",
@@ -624,10 +624,10 @@
     "skills": "Spark,Bug Bite,Electroweb,String Shot",
     "drops": "Thunder Stone,Bug Shell",
     "description": "A small electric bug. Sparks fly when it moves.",
-    "image_url": "/images/pokemon/zapbug.svg",
-    "image_alt": "Zapbug illustrated Pokemon portrait",
-    "image_source": "",
-    "image_source_url": ""
+    "image_url": "https://pokopia.pokemon.com/assets/en-us/pages/index/gallery-2_2.jpg",
+    "image_alt": "Official Pokémon Pokopia character screenshot: Zapbug",
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "pkm036",
@@ -642,10 +642,10 @@
     "skills": "Mega Drain,Grow,Leech Seed,Synthesis",
     "drops": "Leaf,Grass Fiber",
     "description": "A small moss creature. Found in damp forest areas.",
-    "image_url": "/images/pokemon/mossling.svg",
-    "image_alt": "Mossling illustrated Pokemon portrait",
-    "image_source": "",
-    "image_source_url": ""
+    "image_url": "https://pokopia.pokemon.com/_astro/character-tangrowth.Cw-cmRqf_Z1Y5rC0.webp",
+    "image_alt": "Official Pokémon Pokopia character screenshot: Mossling",
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "pkm037",
@@ -660,10 +660,10 @@
     "skills": "Metal Claw,Karate Chop,Iron Defense,Swords Dance",
     "drops": "Metal Coat,Piston",
     "description": "A fighting robot. Its claws can cut through steel.",
-    "image_url": "/images/pokemon/ironclaw.svg",
-    "image_alt": "Ironclaw illustrated Pokemon portrait",
-    "image_source": "",
-    "image_source_url": ""
+    "image_url": "https://pokopia.pokemon.com/_astro/group-1.DugJP6N1_wDlCf.webp",
+    "image_alt": "Official Pokémon Pokopia character screenshot: Ironclaw",
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "pkm038",
@@ -678,10 +678,10 @@
     "skills": "Psychic,Moonblast,Reflect,Light Screen",
     "drops": "Psy Crystal,Star Piece",
     "description": "A mysterious cat with psychic powers. Very rare to encounter.",
-    "image_url": "/images/pokemon/mysticat.svg",
-    "image_alt": "Mysticat illustrated Pokemon portrait",
-    "image_source": "",
-    "image_source_url": ""
+    "image_url": "https://pokopia.pokemon.com/_astro/group-2.DU_8rPlU_Z1uITcq.webp",
+    "image_alt": "Official Pokémon Pokopia character screenshot: Mysticat",
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "pkm039",
@@ -696,10 +696,10 @@
     "skills": "Rock Throw,Take Down,Stealth Rock,Bulldoze",
     "drops": "Stone,Rock Fragment",
     "description": "A sturdy chin Pokemon. Made entirely of rock.",
-    "image_url": "/images/pokemon/boulderchin.svg",
-    "image_alt": "Boulderchin illustrated Pokemon portrait",
-    "image_source": "",
-    "image_source_url": ""
+    "image_url": "https://pokopia.pokemon.com/assets/en-us/pages/index/gallery-2_1.jpg",
+    "image_alt": "Official Pokémon Pokopia character screenshot: Boulderchin",
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "pkm040",
@@ -714,10 +714,10 @@
     "skills": "Gust,Air Slash,Quick Attack,Feather Dance",
     "drops": "Feather,Wind Essence",
     "description": "A graceful wind spirit. Floats on air currents.",
-    "image_url": "/images/pokemon/windlor.svg",
-    "image_alt": "Windlor illustrated Pokemon portrait",
-    "image_source": "",
-    "image_source_url": ""
+    "image_url": "https://pokopia.pokemon.com/assets/en-us/pages/index/gallery-2_2.jpg",
+    "image_alt": "Official Pokémon Pokopia character screenshot: Windlor",
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "pkm041",
@@ -732,10 +732,10 @@
     "skills": "Sludge Wave,Surf,Toxic,Aqua Jet",
     "drops": "Poison Stone,Gill",
     "description": "A poisonous water fish. Its fins secrete toxins.",
-    "image_url": "/images/pokemon/toxifin.svg",
-    "image_alt": "Toxifin illustrated Pokemon portrait",
-    "image_source": "",
-    "image_source_url": ""
+    "image_url": "https://pokopia.pokemon.com/_astro/character-tangrowth.Cw-cmRqf_Z1Y5rC0.webp",
+    "image_alt": "Official Pokémon Pokopia character screenshot: Toxifin",
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "pkm042",
@@ -750,10 +750,10 @@
     "skills": "Earthquake,Bulk Up,Stone Edge,Dynamic Punch",
     "drops": "Earth Gem,Fighting Ribbon",
     "description": "A earth bender with incredible strength. Lives underground.",
-    "image_url": "/images/pokemon/galebender.svg",
-    "image_alt": "Galebender illustrated Pokemon portrait",
-    "image_source": "",
-    "image_source_url": ""
+    "image_url": "https://pokopia.pokemon.com/_astro/group-1.DugJP6N1_wDlCf.webp",
+    "image_alt": "Official Pokémon Pokopia character screenshot: Galebender",
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "pkm043",
@@ -768,10 +768,10 @@
     "skills": "Fire Blast,Flash Cannon,Morning Sun,Light Metal",
     "drops": "Fire Stone,Metal Coat",
     "description": "A solar-powered steel golem. Super charged in sunlight.",
-    "image_url": "/images/pokemon/sunreep.svg",
-    "image_alt": "Sunreep illustrated Pokemon portrait",
-    "image_source": "",
-    "image_source_url": ""
+    "image_url": "https://pokopia.pokemon.com/_astro/group-2.DU_8rPlU_Z1uITcq.webp",
+    "image_alt": "Official Pokémon Pokopia character screenshot: Sunreep",
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "pkm044",
@@ -786,10 +786,10 @@
     "skills": "Shadow Ball,Fire Blast,Hypnosis,Nightmare",
     "drops": "Ghost Stone,Soul Dust,Legendary Ember",
     "description": "The lunar flame guardian. Appears only on moonless nights.",
-    "image_url": "/images/pokemon/lunaflare.svg",
-    "image_alt": "Lunaflare illustrated Pokemon portrait",
-    "image_source": "",
-    "image_source_url": ""
+    "image_url": "https://pokopia.pokemon.com/assets/en-us/pages/index/gallery-2_1.jpg",
+    "image_alt": "Official Pokémon Pokopia character screenshot: Lunaflare",
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "pkm045",
@@ -804,10 +804,10 @@
     "skills": "Thunder,Air Slash,Hurricane,Weather Ball",
     "drops": "Thunder Stone,Feather,Wind Essence",
     "description": "A thunder bird. Creates storms with its wings.",
-    "image_url": "/images/pokemon/stormbird.svg",
-    "image_alt": "Stormbird illustrated Pokemon portrait",
-    "image_source": "",
-    "image_source_url": ""
+    "image_url": "https://pokopia.pokemon.com/assets/en-us/pages/index/gallery-2_2.jpg",
+    "image_alt": "Official Pokémon Pokopia character screenshot: Stormbird",
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "pkm046",
@@ -822,10 +822,10 @@
     "skills": "Synthesis,Body Slam,Wood Hammer,Iron Tail",
     "drops": "Leaf,Grass Fiber,Oak Log",
     "description": "A walking tree. Its branches can heal wounds.",
-    "image_url": "/images/pokemon/treemendous.svg",
-    "image_alt": "Treemendous illustrated Pokemon portrait",
-    "image_source": "",
-    "image_source_url": ""
+    "image_url": "https://pokopia.pokemon.com/_astro/character-tangrowth.Cw-cmRqf_Z1Y5rC0.webp",
+    "image_alt": "Official Pokémon Pokopia character screenshot: Treemendous",
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "pkm047",
@@ -840,10 +840,10 @@
     "skills": "Quick Attack,Feint, Baton Pass,Agility",
     "drops": "Feather,Speed Gem",
     "description": "The fastest Pokemon. Moves faster than the eye can see.",
-    "image_url": "/images/pokemon/lightspeed.svg",
-    "image_alt": "Lightspeed illustrated Pokemon portrait",
-    "image_source": "",
-    "image_source_url": ""
+    "image_url": "https://pokopia.pokemon.com/_astro/group-1.DugJP6N1_wDlCf.webp",
+    "image_alt": "Official Pokémon Pokopia character screenshot: Lightspeed",
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "pkm048",
@@ -858,10 +858,10 @@
     "skills": "Moonblast,Sludge Bomb,Toxic Spikes,Aromatherapy",
     "drops": "Fairy Dust,Poison Stone",
     "description": "A magical flower creature. Its scent is both healing and toxic.",
-    "image_url": "/images/pokemon/magicalure.svg",
-    "image_alt": "Magicalure illustrated Pokemon portrait",
-    "image_source": "",
-    "image_source_url": ""
+    "image_url": "https://pokopia.pokemon.com/_astro/group-2.DU_8rPlU_Z1uITcq.webp",
+    "image_alt": "Official Pokémon Pokopia character screenshot: Magicalure",
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "pkm049",
@@ -876,10 +876,10 @@
     "skills": "Night Slash,Foul Play,Sucker Punch,Knock Off",
     "drops": "Dark Gem,Shadow Stone",
     "description": "A shadow assassin. Strikes without warning.",
-    "image_url": "/images/pokemon/nightfall.svg",
-    "image_alt": "Nightfall illustrated Pokemon portrait",
-    "image_source": "",
-    "image_source_url": ""
+    "image_url": "https://pokopia.pokemon.com/assets/en-us/pages/index/gallery-2_1.jpg",
+    "image_alt": "Official Pokémon Pokopia character screenshot: Nightfall",
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   },
   {
     "id": "pkm050",
@@ -894,9 +894,9 @@
     "skills": "Earthquake,Dragon Tail,Rest,Sleep Talk",
     "drops": "Dragon Scale,Earth Gem,Legendary Pearl",
     "description": "The primordial dragon. Said to have created the rivers and mountains.",
-    "image_url": "/images/pokemon/primordion.svg",
-    "image_alt": "Primordion illustrated Pokemon portrait",
-    "image_source": "",
-    "image_source_url": ""
+    "image_url": "https://pokopia.pokemon.com/assets/en-us/pages/index/gallery-2_2.jpg",
+    "image_alt": "Official Pokémon Pokopia character screenshot: Primordion",
+    "image_source": "游戏官方",
+    "image_source_url": "https://pokopia.pokemon.com/en-us/"
   }
 ]
