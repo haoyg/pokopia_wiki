@@ -12,7 +12,7 @@
     "image_alt": "Pokémon Pokopia habitat screenshot: Volcanic Cave",
     "image_source": "Gematsu / 官方截图转载",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Volcanic Cave is a hard Pokopia habitat unlocked by: Reach Level 15. The area runs around Clear/Sunny weather and gives +50% Fire drops. This is a high-pressure route where scouting matters. Enter with a defined objective and avoid spending rare recipes before the path is stable. Key Pokemon to watch here include Pikafire, Charmuddy, Flamexor, Emberal, and Magmar, and more.",
+    "overview": "Volcanic Cave is a hard Pokopia habitat unlocked at Level 15. It runs around Clear/Sunny weather, rewards +50% Fire drops, and is the first major test for teams that rely too much on raw damage. Scout the cave before spending Fire Boost, then repeat the shortest loop that reaches Pikafire, Charmuddy, and Flamexor checks.",
     "unlock_steps": [
       "Meet the unlock condition: Reach Level 15.",
       "Check the expected weather before entering: Clear/Sunny.",
@@ -25,7 +25,7 @@
       "Best early targets in this habitat: Pikafire (Attacker) and Flamexor (Tank).",
       "Hard habitats need a plan for survival, recipe timing, and failed encounters. A strong attacker alone is usually not enough.",
       "If you are hunting Pikafire, Flamexor, and Sunreep, keep one durable backup slot instead of running only damage Pokemon.",
-      "Use related Pokemon pages to check food, drops, and spawn timing before spending resources."
+      "Before spending rare food or recipes, open the linked Pokemon pages and check food, drops, and spawn timing."
     ],
     "farming_route": [
       "Enter Volcanic Cave with one objective: unlock clear, resource farming, rare hunting, or team testing.",
@@ -90,7 +90,7 @@
     "image_alt": "Pokémon Pokopia habitat screenshot: Forest Valley",
     "image_source": "Gematsu / 官方截图转载",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Forest Valley is an easy Pokopia habitat unlocked by: Starting Habitat. The area runs around Cloudy/Foggy weather and gives +30% Leaf drops. This is a good route for early farming, testing new team members, and collecting resources without heavy recipe spending. Key Pokemon to watch here include Bulbin, Leafon, Thornvine, Sunflora, and Skittlish, and more.",
+    "overview": "Forest Valley is the starting habitat and one of the best places to build early consistency. Cloudy/Foggy weather supports grass routes, +30% Leaf drops help starter growth, and the spawn list gives new players useful defenders, supports, and farming targets without heavy recipe costs.",
     "unlock_steps": [
       "Meet the unlock condition: Starting Habitat.",
       "Check the expected weather before entering: Cloudy/Foggy.",
@@ -103,7 +103,7 @@
       "Best early targets in this habitat: Sunflora (Attacker), Bulbin (Defender), and Skittlish (Support).",
       "Use easy habitats to build consistency. Save rare buffs for catches, not for normal clears.",
       "If you are hunting Leafon and Magicalure, keep one durable backup slot instead of running only damage Pokemon.",
-      "Use related Pokemon pages to check food, drops, and spawn timing before spending resources."
+      "Before spending rare food or recipes, open the linked Pokemon pages and check food, drops, and spawn timing."
     ],
     "farming_route": [
       "Enter Forest Valley with one objective: unlock clear, resource farming, rare hunting, or team testing.",
@@ -180,7 +180,7 @@
       "Best early targets in this habitat: Aquashell (Defender) and Aquap (Support).",
       "Use easy habitats to build consistency. Save rare buffs for catches, not for normal clears.",
       "If you are hunting the highest-value spawn in the area, keep one durable backup slot instead of running only damage Pokemon.",
-      "Use related Pokemon pages to check food, drops, and spawn timing before spending resources."
+      "Before spending rare food or recipes, open the linked Pokemon pages and check food, drops, and spawn timing."
     ],
     "farming_route": [
       "Enter Crystal Lake with one objective: unlock clear, resource farming, rare hunting, or team testing.",
@@ -256,7 +256,7 @@
       "Best early targets in this habitat: Voltscale (Attacker), Mechabit (Defender), and Zaprat (Speedster).",
       "Bring one reliable lead and one backup that covers the route weakness. Medium habitats punish sloppy teams more than low levels alone.",
       "If you are hunting Voltscale, keep one durable backup slot instead of running only damage Pokemon.",
-      "Use related Pokemon pages to check food, drops, and spawn timing before spending resources."
+      "Before spending rare food or recipes, open the linked Pokemon pages and check food, drops, and spawn timing."
     ],
     "farming_route": [
       "Enter Windmill Plains with one objective: unlock clear, resource farming, rare hunting, or team testing.",
@@ -332,7 +332,7 @@
       "Best early targets in this habitat: Snorizard (Attacker), Tidlet (Support), and Frostbite (Assassin).",
       "Bring one reliable lead and one backup that covers the route weakness. Medium habitats punish sloppy teams more than low levels alone.",
       "If you are hunting Frostbite and Snorizard, keep one durable backup slot instead of running only damage Pokemon.",
-      "Use related Pokemon pages to check food, drops, and spawn timing before spending resources."
+      "Before spending rare food or recipes, open the linked Pokemon pages and check food, drops, and spawn timing."
     ],
     "farming_route": [
       "Enter Frost Peak with one objective: unlock clear, resource farming, rare hunting, or team testing.",
@@ -396,7 +396,7 @@
     "image_alt": "Pokémon Pokopia habitat screenshot: Shadow Marsh",
     "image_source": "Gematsu / 官方截图转载",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Shadow Marsh is a hard Pokopia habitat unlocked by: Reach Level 25. The area runs around Stormy/Night weather and gives +60% Ghost drops. This is a high-pressure route where scouting matters. Enter with a defined objective and avoid spending rare recipes before the path is stable. Key Pokemon to watch here include Shados, Shadowclaw, Lunaflare, and Nightfall.",
+    "overview": "Shadow Marsh opens at Level 25 and should be treated as a serious ghost-hunting route. Stormy/Night conditions and +60% Ghost drops make it valuable, but the area rewards scouting, careful resets, and saving Ghost Veil for the room that actually matters.",
     "unlock_steps": [
       "Meet the unlock condition: Reach Level 25.",
       "Check the expected weather before entering: Stormy/Night.",
@@ -409,7 +409,7 @@
       "Best early targets in this habitat: Lunaflare (Attacker) and Shados (Assassin).",
       "Hard habitats need a plan for survival, recipe timing, and failed encounters. A strong attacker alone is usually not enough.",
       "If you are hunting Shados, Shadowclaw, and Lunaflare, keep one durable backup slot instead of running only damage Pokemon.",
-      "Use related Pokemon pages to check food, drops, and spawn timing before spending resources."
+      "Before spending rare food or recipes, open the linked Pokemon pages and check food, drops, and spawn timing."
     ],
     "farming_route": [
       "Enter Shadow Marsh with one objective: unlock clear, resource farming, rare hunting, or team testing.",
@@ -487,7 +487,7 @@
       "Best early targets in this habitat: Crystion (Attacker) and Rockler (Defender).",
       "Bring one reliable lead and one backup that covers the route weakness. Medium habitats punish sloppy teams more than low levels alone.",
       "If you are hunting Crystion and Galebender, keep one durable backup slot instead of running only damage Pokemon.",
-      "Use related Pokemon pages to check food, drops, and spawn timing before spending resources."
+      "Before spending rare food or recipes, open the linked Pokemon pages and check food, drops, and spawn timing."
     ],
     "farming_route": [
       "Enter Gemstone Canyon with one objective: unlock clear, resource farming, rare hunting, or team testing.",
@@ -564,7 +564,7 @@
       "Best early targets in this habitat: Flamingo (Attacker), Tropius (Support), and Breezel (Speedster).",
       "Bring one reliable lead and one backup that covers the route weakness. Medium habitats punish sloppy teams more than low levels alone.",
       "If you are hunting Crystalwing, keep one durable backup slot instead of running only damage Pokemon.",
-      "Use related Pokemon pages to check food, drops, and spawn timing before spending resources."
+      "Before spending rare food or recipes, open the linked Pokemon pages and check food, drops, and spawn timing."
     ],
     "farming_route": [
       "Enter Sky Isles with one objective: unlock clear, resource farming, rare hunting, or team testing.",
@@ -640,7 +640,7 @@
       "Best early targets in this habitat: Mudkipz (Attacker), Primordion (Tank), and Stealthfin (Assassin).",
       "Use easy habitats to build consistency. Save rare buffs for catches, not for normal clears.",
       "If you are hunting Stealthfin and Primordion, keep one durable backup slot instead of running only damage Pokemon.",
-      "Use related Pokemon pages to check food, drops, and spawn timing before spending resources."
+      "Before spending rare food or recipes, open the linked Pokemon pages and check food, drops, and spawn timing."
     ],
     "farming_route": [
       "Enter Muddy River with one objective: unlock clear, resource farming, rare hunting, or team testing.",
@@ -717,7 +717,7 @@
       "Best early targets in this habitat: Ironclaw (Attacker) and Bronzorm (Support).",
       "Hard habitats need a plan for survival, recipe timing, and failed encounters. A strong attacker alone is usually not enough.",
       "If you are hunting Bronzorm and Mysticat, keep one durable backup slot instead of running only damage Pokemon.",
-      "Use related Pokemon pages to check food, drops, and spawn timing before spending resources."
+      "Before spending rare food or recipes, open the linked Pokemon pages and check food, drops, and spawn timing."
     ],
     "farming_route": [
       "Enter Ancient Ruins with one objective: unlock clear, resource farming, rare hunting, or team testing.",
@@ -794,7 +794,7 @@
       "Best early targets in this habitat: Sunflora (Attacker) and Aquap (Support).",
       "Use easy habitats to build consistency. Save rare buffs for catches, not for normal clears.",
       "If you are hunting the highest-value spawn in the area, keep one durable backup slot instead of running only damage Pokemon.",
-      "Use related Pokemon pages to check food, drops, and spawn timing before spending resources."
+      "Before spending rare food or recipes, open the linked Pokemon pages and check food, drops, and spawn timing."
     ],
     "farming_route": [
       "Enter Sunny Beach with one objective: unlock clear, resource farming, rare hunting, or team testing.",
@@ -857,7 +857,7 @@
     "image_alt": "Pokémon Pokopia habitat screenshot: Thunder Arena",
     "image_source": "Gematsu / 官方截图转载",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Thunder Arena is a hard Pokopia habitat unlocked by: Reach Level 22. The area runs around Thunderstorm weather and gives +55% Electric drops. This is a high-pressure route where scouting matters. Enter with a defined objective and avoid spending rare recipes before the path is stable. Key Pokemon to watch here include Zaprat, Voltscale, Magnedex, Zapbug, and Stormbird.",
+    "overview": "Thunder Arena unlocks at Level 22 and is the main electric pressure test. Thunderstorm weather and +55% Electric drops make it excellent for Zaprat, Voltscale, and electric-team farming, but the route is much safer when you bring one durable backup instead of pure speed.",
     "unlock_steps": [
       "Meet the unlock condition: Reach Level 22.",
       "Check the expected weather before entering: Thunderstorm.",
@@ -870,7 +870,7 @@
       "Best early targets in this habitat: Voltscale (Attacker), Magnedex (Defender), and Zaprat (Speedster).",
       "Hard habitats need a plan for survival, recipe timing, and failed encounters. A strong attacker alone is usually not enough.",
       "If you are hunting Voltscale, keep one durable backup slot instead of running only damage Pokemon.",
-      "Use related Pokemon pages to check food, drops, and spawn timing before spending resources."
+      "Before spending rare food or recipes, open the linked Pokemon pages and check food, drops, and spawn timing."
     ],
     "farming_route": [
       "Enter Thunder Arena with one objective: unlock clear, resource farming, rare hunting, or team testing.",
@@ -946,7 +946,7 @@
       "Best early targets in this habitat: Lunaflare (Attacker) and Shadowclaw (Assassin).",
       "Hard habitats need a plan for survival, recipe timing, and failed encounters. A strong attacker alone is usually not enough.",
       "If you are hunting Shadowclaw and Lunaflare, keep one durable backup slot instead of running only damage Pokemon.",
-      "Use related Pokemon pages to check food, drops, and spawn timing before spending resources."
+      "Before spending rare food or recipes, open the linked Pokemon pages and check food, drops, and spawn timing."
     ],
     "farming_route": [
       "Enter Dark Cavern with one objective: unlock clear, resource farming, rare hunting, or team testing.",
@@ -1023,7 +1023,7 @@
       "Best early targets in this habitat: Crystion (Attacker).",
       "Bring one reliable lead and one backup that covers the route weakness. Medium habitats punish sloppy teams more than low levels alone.",
       "If you are hunting Crystion and Crystalwing, keep one durable backup slot instead of running only damage Pokemon.",
-      "Use related Pokemon pages to check food, drops, and spawn timing before spending resources."
+      "Before spending rare food or recipes, open the linked Pokemon pages and check food, drops, and spawn timing."
     ],
     "farming_route": [
       "Enter Crystal Cave with one objective: unlock clear, resource farming, rare hunting, or team testing.",
@@ -1100,7 +1100,7 @@
       "Best early targets in this habitat: Bulbin (Defender) and Mossling (Support).",
       "Use easy habitats to build consistency. Save rare buffs for catches, not for normal clears.",
       "If you are hunting the highest-value spawn in the area, keep one durable backup slot instead of running only damage Pokemon.",
-      "Use related Pokemon pages to check food, drops, and spawn timing before spending resources."
+      "Before spending rare food or recipes, open the linked Pokemon pages and check food, drops, and spawn timing."
     ],
     "farming_route": [
       "Enter Meadow Garden with one objective: unlock clear, resource farming, rare hunting, or team testing.",
@@ -1176,7 +1176,7 @@
       "Best early targets in this habitat: Ironclaw (Attacker) and Mechabit (Defender).",
       "Bring one reliable lead and one backup that covers the route weakness. Medium habitats punish sloppy teams more than low levels alone.",
       "If you are hunting the highest-value spawn in the area, keep one durable backup slot instead of running only damage Pokemon.",
-      "Use related Pokemon pages to check food, drops, and spawn timing before spending resources."
+      "Before spending rare food or recipes, open the linked Pokemon pages and check food, drops, and spawn timing."
     ],
     "farming_route": [
       "Enter Industrial Zone with one objective: unlock clear, resource farming, rare hunting, or team testing.",
@@ -1252,7 +1252,7 @@
       "Best early targets in this habitat: Magicalure (Support) and Leafon (Assassin).",
       "Hard habitats need a plan for survival, recipe timing, and failed encounters. A strong attacker alone is usually not enough.",
       "If you are hunting Leafon, Frostbite, and Magicalure, keep one durable backup slot instead of running only damage Pokemon.",
-      "Use related Pokemon pages to check food, drops, and spawn timing before spending resources."
+      "Before spending rare food or recipes, open the linked Pokemon pages and check food, drops, and spawn timing."
     ],
     "farming_route": [
       "Enter Nightmare Forest with one objective: unlock clear, resource farming, rare hunting, or team testing.",
@@ -1317,7 +1317,7 @@
     "image_alt": "Pokémon Pokopia habitat screenshot: Dragon's Den",
     "image_source": "Gematsu / 官方截图转载",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Dragon's Den is a hard Pokopia habitat unlocked by: Reach Level 32. The area runs around Stormy weather and gives +50% Dragon drops. This is a high-pressure route where scouting matters. Enter with a defined objective and avoid spending rare recipes before the path is stable. Key Pokemon to watch here include Voltscale, Snorizard, and Primordion.",
+    "overview": "Dragon's Den is a late-game habitat unlocked at Level 32. Stormy weather, +50% Dragon drops, and targets like Voltscale, Snorizard, and Primordion make it worth farming only after your team has a clear carry, a defensive anchor, and a recipe plan.",
     "unlock_steps": [
       "Meet the unlock condition: Reach Level 32.",
       "Check the expected weather before entering: Stormy.",
@@ -1330,7 +1330,7 @@
       "Best early targets in this habitat: Voltscale (Attacker) and Primordion (Tank).",
       "Hard habitats need a plan for survival, recipe timing, and failed encounters. A strong attacker alone is usually not enough.",
       "If you are hunting Voltscale, Snorizard, and Primordion, keep one durable backup slot instead of running only damage Pokemon.",
-      "Use related Pokemon pages to check food, drops, and spawn timing before spending resources."
+      "Before spending rare food or recipes, open the linked Pokemon pages and check food, drops, and spawn timing."
     ],
     "farming_route": [
       "Enter Dragon's Den with one objective: unlock clear, resource farming, rare hunting, or team testing.",
@@ -1408,7 +1408,7 @@
       "Best early targets in this habitat: Crystion (Attacker) and Dewdrop (Support).",
       "Bring one reliable lead and one backup that covers the route weakness. Medium habitats punish sloppy teams more than low levels alone.",
       "If you are hunting Crystion, Mysticat, and Magicalure, keep one durable backup slot instead of running only damage Pokemon.",
-      "Use related Pokemon pages to check food, drops, and spawn timing before spending resources."
+      "Before spending rare food or recipes, open the linked Pokemon pages and check food, drops, and spawn timing."
     ],
     "farming_route": [
       "Enter Fairy Glen with one objective: unlock clear, resource farming, rare hunting, or team testing.",
@@ -1486,7 +1486,7 @@
       "Best early targets in this habitat: Bulbin (Defender) and Tidlet (Support).",
       "Use easy habitats to build consistency. Save rare buffs for catches, not for normal clears.",
       "If you are hunting the highest-value spawn in the area, keep one durable backup slot instead of running only damage Pokemon.",
-      "Use related Pokemon pages to check food, drops, and spawn timing before spending resources."
+      "Before spending rare food or recipes, open the linked Pokemon pages and check food, drops, and spawn timing."
     ],
     "farming_route": [
       "Enter Training Grounds with one objective: unlock clear, resource farming, rare hunting, or team testing.",

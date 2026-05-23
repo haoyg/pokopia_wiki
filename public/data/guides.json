@@ -5,7 +5,7 @@
     "slug": "best-starter-pokemon",
     "category": "tier",
     "seo_keyword": "best starter pokopia",
-    "content": "Best Starter Pokemon in Pokopia answers a specific player problem: Bulbin is the safest first pick, Aquap is the easiest comfort pick, and Pikafire is the fastest aggressive pick once you understand habitat matchups. For most players, the practical route is to focus on Forest Valley, Crystal Lake, and Volcanic Cave, build around Bulbin, Aquap, and Pikafire, and spend Honey Cake only when the run objective is clear.\n\nUse this as a ranking guide, but do not read the ranking as a fixed rule. The best pick changes when your habitat unlocks, recipe stock, and team roles change.\n\nStart by checking Forest Valley, Crystal Lake, and Volcanic Cave. These areas decide the route difficulty, spawn timing, and whether Bulbin, Aquap, and Pikafire can actually perform well. If the first linked habitat is still inconsistent, farm the easier related area before pushing the harder one.\n\nThe practical setup is built around Bulbin, Aquap, and Pikafire. Bulbin + Honey Cake for reliable early catches. Aquap as the first backup when you need water coverage or safer recovery windows. Pikafire for players who want faster clears and can handle fragile early fights.\n\nFor recipes, plan around Honey Cake. The best timing is usually after you know the route, because a buff used during scouting rarely gives full value. Watch out for these issues: Choosing only by rarity instead of the habitats you can actually farm. Ignoring food preference, which slows early captures more than most players expect. Trying to force Pikafire into every route before you have defensive backup.",
+    "content": "Choosing a starter in Pokopia is less about picking the flashiest name and more about choosing the route you want to play for the next few hours. Bulbin is the safest first pick because it keeps Forest Valley stable, Aquap is the comfort pick for Crystal Lake and slower farming, and Pikafire is the aggressive option for players who want faster clears and do not mind a rougher start.\n\nIf you are new, start with Bulbin and use Honey Cake only when you are actually trying to improve catches. If you already understand weather windows and type coverage, Aquap gives a smoother support path, while Pikafire can push into Volcanic Cave preparation earlier.\n\nDo not judge the starters only by damage. A good starter should help you farm food, survive early habitats, and unlock the next route without burning rare resources. Check Forest Valley, Crystal Lake, and Volcanic Cave before committing, then build your second slot around the matchup your starter cannot solve.",
     "related_pokemon": "pkm002,pkm004,pkm001",
     "related_items": "rec001",
     "related_habitats": "hab002,hab003,hab001",
@@ -31,7 +31,7 @@
       "Bulbin + Honey Cake for reliable early catches.",
       "Aquap as the first backup when you need water coverage or safer recovery windows.",
       "Pikafire for players who want faster clears and can handle fragile early fights.",
-      "Best player type: anyone searching for \"best starter pokopia\" who wants a practical route instead of a short summary."
+      "Best for: new players who want a stable first route before experimenting with faster starters."
     ],
     "common_mistakes": [
       "Starting Best Starter Pokemon in Pokopia without deciding whether the run is for unlocking, farming, catching, or testing.",
@@ -75,7 +75,7 @@
     "slug": "how-to-unlock-volcanic-cave",
     "category": "guides",
     "seo_keyword": "volcanic cave unlock pokopia",
-    "content": "How to Unlock Volcanic Cave is mainly about turning volcanic cave unlock pokopia from a vague search into a clear route plan. Unlock Volcanic Cave after Level 15, then enter with a fire-resistant plan instead of treating it like another early farming zone. For most players, the practical route is to focus on Volcanic Cave, build around Pikafire and Flamexor, and spend Fire Boost only when the run objective is clear.\n\nThe first decision is where to spend your time. For this topic, Volcanic Cave matters most because they control the unlock gate, resource loop, and rare-check value.\n\nYour team should begin with Pikafire and Flamexor, then adjust the backup slot around the part of the route that fails most often. Pikafire as the unlock lead because it matches the area theme and damage pattern. Aquap or another water option as a stabilizer if your fire team is underleveled. Fire Boost only for the boss attempt or rare spawn window, not for the first scouting run.\n\nA clean run usually follows this pattern: Reach Level 15 before forcing the unlock chain. Bring Pikafire or another fire-compatible lead to satisfy the trial requirement.\n\nFire Boost should be treated as a route tool, not a button to press immediately. Save it for boss rooms, rare checks, repeated loops, or the first serious clear after scouting. Common mistakes to avoid: Entering immediately at Level 15 with no recipe support. Using all damage picks and no safe backup. Farming Flamexor attempts before your route can clear normal encounters consistently.",
+    "content": "Volcanic Cave is the first hard habitat many players run into, and it punishes teams that arrive with damage but no plan. Unlock it after reaching Level 15, then treat the first visit as a scouting run instead of a farming session.\n\nPikafire is the cleanest lead for the unlock path, but a water backup such as Aquap makes the route much safer if your fire team is underleveled. Fire Boost should be saved for the boss attempt, the first serious clear, or a Flamexor farming window. Spending it while you are still learning the cave usually wastes the buff.\n\nOnce the normal encounters feel consistent, shorten the route around the rooms that matter. Volcanic Cave is worth repeating for fire drops and rare fire targets, but only after your team can clear the basic loop without relying on emergency recovery.",
     "related_pokemon": "pkm001,pkm007",
     "related_items": "rec002",
     "related_habitats": "hab001",
@@ -101,7 +101,7 @@
       "Pikafire as the unlock lead because it matches the area theme and damage pattern.",
       "Aquap or another water option as a stabilizer if your fire team is underleveled.",
       "Fire Boost only for the boss attempt or rare spawn window, not for the first scouting run.",
-      "Best player type: anyone searching for \"volcanic cave unlock pokopia\" who wants a practical route instead of a short summary."
+      "Best for: players preparing their first hard habitat unlock and fire-route farming plan."
     ],
     "common_mistakes": [
       "Starting How to Unlock Volcanic Cave without deciding whether the run is for unlocking, farming, catching, or testing.",
@@ -145,7 +145,7 @@
     "slug": "fast-farming-rare-pokemon",
     "category": "farming",
     "seo_keyword": "rare pokemon farming pokopia",
-    "content": "If you are working on rare pokemon farming pokopia, this guide gives you the short answer first: Fast rare farming is about short repeatable loops, not long clears. Use Lucky Charm only during routes where rare checks happen quickly. For most players, the practical route is to focus on Shadow Marsh and Frost Peak, build around Shados, Shadowclaw, and Snorizard, and spend Lucky Charm only when the run objective is clear.\n\nThe route is strongest when you keep the goal narrow. Decide whether the run is for unlocking, farming, catching, or testing before entering Shadow Marsh and Frost Peak. Mixed goals waste recipes and make results harder to judge.\n\nFor team planning, focus on Shados, Shadowclaw, and Snorizard. Shados routes for ghost-focused rare checks in Shadow Marsh. Glacior or Frost Peak loops when you need safer midgame rare farming. A fast lead plus one durable backup so failed encounters do not waste the full buff.\n\nRoute execution matters more than raw stats. Pick one habitat with a rare target and keep the loop short. Trigger the spawn check, clear only required encounters, then reset the route.\n\nUse Lucky Charm only when the run has a payoff. If a route still feels unstable, fix the lead Pokemon, backup role, or habitat timing before spending rare ingredients. The biggest traps are: Using Lucky Charm before learning the shortest route. Clearing the entire habitat when only one area can trigger the rare spawn. Switching targets too often and never collecting enough attempts on one route.",
+    "content": "Rare Pokemon farming is about attempts per hour, not how long you can stay inside one habitat. The best route is usually a short loop that reaches the rare check quickly, resets cleanly, and uses Lucky Charm only after the path is already consistent.\n\nShadow Marsh is strong for ghost-focused rare checks, while Frost Peak is safer for midgame players who still need a more forgiving route. Pick one target, learn the shortest path, and repeat it instead of bouncing between habitats.\n\nUse a fast lead if the route is safe, but keep one durable backup for failed openings. The most common mistake is using Lucky Charm before you know the reset path. Learn the loop first; then spend the buff when you can fit several meaningful attempts inside the duration.",
     "related_pokemon": "pkm009,pkm030,pkm029",
     "related_items": "rec005",
     "related_habitats": "hab006,hab005",
@@ -171,7 +171,7 @@
       "Shados routes for ghost-focused rare checks in Shadow Marsh.",
       "Glacior or Frost Peak loops when you need safer midgame rare farming.",
       "A fast lead plus one durable backup so failed encounters do not waste the full buff.",
-      "Best player type: anyone searching for \"rare pokemon farming pokopia\" who wants a practical route instead of a short summary."
+      "Best for: players who want more rare checks per hour without wasting Lucky Charm."
     ],
     "common_mistakes": [
       "Starting Fast Farming Guide for Rare Pokemon without deciding whether the run is for unlocking, farming, catching, or testing.",
@@ -215,7 +215,7 @@
     "slug": "best-fire-type-team",
     "category": "team",
     "seo_keyword": "fire type team pokopia",
-    "content": "Best Fire-Type Team Build answers a specific player problem: The best fire team uses Pikafire for tempo, Charmuddy for consistent fire damage, and Flamexor as the late-game finisher. For most players, the practical route is to focus on Volcanic Cave, build around Pikafire, Charmuddy, and Flamexor, and spend Fire Boost only when the run objective is clear.\n\nUse this as a team-building guide. A good team is built around roles first: lead, backup, damage window, and survival plan.\n\nStart by checking Volcanic Cave. These areas decide the route difficulty, spawn timing, and whether Pikafire, Charmuddy, and Flamexor can actually perform well. If the first linked habitat is still inconsistent, farm the easier related area before pushing the harder one.\n\nThe practical setup is built around Pikafire, Charmuddy, and Flamexor. Pikafire lead for speed and flexible damage. Charmuddy as the reliable fire specialist for repeat clears. Flamexor as the boss and legendary-route finisher.\n\nFor recipes, plan around Fire Boost. The best timing is usually after you know the route, because a buff used during scouting rarely gives full value. Watch out for these issues: Running three attackers with no defensive answer. Saving Flamexor for every fight instead of using it for the encounters that matter. Forgetting that Fire/Electric coverage is useful outside pure fire habitats.",
+    "content": "A strong fire team needs tempo, consistency, and a finisher. Pikafire gives the team speed and flexible Fire/Electric coverage, Charmuddy provides steady fire damage for repeat clears, and Flamexor becomes the late-game anchor once you can support it properly.\n\nFor Volcanic Cave, do not stack three fragile attackers and hope Fire Boost carries the run. Keep one slot focused on survival or matchup coverage, especially while farming Flamexor attempts. Fire Boost is best used when the route is already stable and the next room is worth the damage window.\n\nThe simple version: lead with Pikafire, use Charmuddy for reliable fire pressure, and bring Flamexor when the route demands bulk or boss control. If normal encounters are still messy, fix the backup slot before chasing a faster clear.",
     "related_pokemon": "pkm001,pkm003,pkm007",
     "related_items": "rec002",
     "related_habitats": "hab001",
@@ -242,7 +242,7 @@
       "Charmuddy as the reliable fire specialist for repeat clears.",
       "Flamexor as the boss and legendary-route finisher.",
       "Fire Boost for damage windows, Steel Shell if the route is punishing your front line.",
-      "Best player type: anyone searching for \"fire type team pokopia\" who wants a practical route instead of a short summary."
+      "Best for: players building a fire core for Volcanic Cave, boss rooms, and late-game farming."
     ],
     "common_mistakes": [
       "Starting Best Fire-Type Team Build without deciding whether the run is for unlocking, farming, catching, or testing.",
@@ -286,7 +286,7 @@
     "slug": "shadow-marsh-guide",
     "category": "guides",
     "seo_keyword": "shadow marsh pokopia",
-    "content": "Shadow Marsh Complete Guide is mainly about turning shadow marsh pokopia from a vague search into a clear route plan. Shadow Marsh should be treated as a controlled ghost hunt: enter after Level 25, bring Ghost Veil, and avoid long routes until you know the safe path. For most players, the practical route is to focus on Shadow Marsh, build around Shados and Shadowclaw, and spend Ghost Veil only when the run objective is clear.\n\nThe first decision is where to spend your time. For this topic, Shadow Marsh matters most because they control the unlock gate, resource loop, and rare-check value.\n\nYour team should begin with Shados and Shadowclaw, then adjust the backup slot around the part of the route that fails most often. Shados as the main ghost attacker. Nightfall or another dark/ghost option for pressure control. Ghost Veil for damage, Mega Restore if your team is still underleveled.\n\nA clean run usually follows this pattern: Unlock Shadow Marsh at Level 25 and scout the first route without spending rare buffs. Save Ghost Veil for rare checks, boss rooms, or routes where Shadowclaw can appear.\n\nGhost Veil should be treated as a route tool, not a button to press immediately. Save it for boss rooms, rare checks, repeated loops, or the first serious clear after scouting. Common mistakes to avoid: Entering during the wrong weather window and blaming the team. Using Ghost Veil on normal trash fights. Ignoring defensive picks because the habitat looks like a pure damage race.",
+    "content": "Shadow Marsh is not a place to wander through casually. It is a hard ghost route where time, weather, and safe resets matter. Enter after Level 25, scout the opening path without rare buffs, and save Ghost Veil for the room or spawn check that actually needs it.\n\nShados is the most practical ghost attacker for early attempts, while Shadowclaw is the high-value target that justifies serious farming. Nightfall or another dark/ghost backup helps stabilize bad openings. If your team is still underleveled, bring recovery rather than trying to burst every fight.\n\nThe safest plan is to learn one route, repeat it, and only expand deeper into the marsh after the normal loop is reliable. Most failed Shadow Marsh runs come from spending Ghost Veil too early or entering during a poor weather window.",
     "related_pokemon": "pkm009,pkm030",
     "related_items": "rec010",
     "related_habitats": "hab006",
@@ -312,7 +312,7 @@
       "Shados as the main ghost attacker.",
       "Nightfall or another dark/ghost option for pressure control.",
       "Ghost Veil for damage, Mega Restore if your team is still underleveled.",
-      "Best player type: anyone searching for \"shadow marsh pokopia\" who wants a practical route instead of a short summary."
+      "Best for: players entering Shadow Marsh and learning safe ghost-route farming."
     ],
     "common_mistakes": [
       "Starting Shadow Marsh Complete Guide without deciding whether the run is for unlocking, farming, catching, or testing.",
@@ -356,7 +356,7 @@
     "slug": "how-to-get-legendary-pokemon",
     "category": "guides",
     "seo_keyword": "legendary pokemon pokopia",
-    "content": "If you are working on legendary pokemon pokopia, this guide gives you the short answer first: Legendary Pokemon are best pursued with a dedicated route, a saved Lucky Charm, and a team built for retries rather than one lucky burst. For most players, the practical route is to focus on Volcanic Cave and Shadow Marsh, build around Flamexor, Shadowclaw, and Voltscale, and spend Lucky Charm only when the run objective is clear.\n\nThe route is strongest when you keep the goal narrow. Decide whether the run is for unlocking, farming, catching, or testing before entering Volcanic Cave and Shadow Marsh. Mixed goals waste recipes and make results harder to judge.\n\nFor team planning, focus on Flamexor, Shadowclaw, and Voltscale. Flamexor attempts in Volcanic Cave with Fire Boost support. Shadowclaw or Shados routes in Shadow Marsh with Ghost Veil. Voltscale routes with Thunder Strike and speed support.\n\nRoute execution matters more than raw stats. Choose one legendary target and learn its habitat route first. Prepare the matching damage recipe and Lucky Charm before the attempt window. Run several short attempts, record spawn conditions, then adjust only one variable at a time.\n\nUse Lucky Charm only when the run has a payoff. If a route still feels unstable, fix the lead Pokemon, backup role, or habitat timing before spending rare ingredients. The biggest traps are: Trying to hunt every legendary in one session. Using Lucky Charm before the route is consistent. Resetting too slowly and losing most of the buff duration to travel.",
+    "content": "Legendary hunting should be planned like a session, not treated as a lucky detour. Choose one target, learn its habitat route, prepare the matching recipe, and save Lucky Charm for the window where several attempts can fit inside the buff.\n\nFlamexor is tied to Volcanic Cave routes, Shadowclaw belongs around Shadow Marsh planning, and Voltscale needs electric preparation before the hunt feels efficient. Each legendary asks for a different support team, so avoid using one generic lineup everywhere.\n\nBefore using rare materials, make sure the normal encounters before the legendary check are already under control. If the route itself is still failing, Lucky Charm will only make an expensive failed run feel worse.",
     "related_pokemon": "pkm007,pkm030,pkm015",
     "related_items": "rec005",
     "related_habitats": "hab001,hab006",
@@ -382,7 +382,7 @@
       "Flamexor attempts in Volcanic Cave with Fire Boost support.",
       "Shadowclaw or Shados routes in Shadow Marsh with Ghost Veil.",
       "Voltscale routes with Thunder Strike and speed support.",
-      "Best player type: anyone searching for \"legendary pokemon pokopia\" who wants a practical route instead of a short summary."
+      "Best for: players planning serious legendary hunts instead of random low-odds attempts."
     ],
     "common_mistakes": [
       "Starting How to Get Legendary Pokemon without deciding whether the run is for unlocking, farming, catching, or testing.",
@@ -426,7 +426,7 @@
     "slug": "best-habitat-type-pokopia",
     "category": "guides",
     "seo_keyword": "pokemon type habitat pokopia",
-    "content": "Best Habitat for Each Pokemon Type answers a specific player problem: The best habitat is the one that matches your target type, weather condition, and resource goal at the same time. For most players, the practical route is to focus on Volcanic Cave, Frost Peak, Thunder Arena, and Shadow Marsh, build around Pikafire, Glacior, Zaprat, and Shados, and spend Fire Boost, Ice Armor, Thunder Strike, and Ghost Veil only when the run objective is clear.\n\nUse this as a route guide. The value comes from knowing when to enter, what to bring, and which part of the route is worth repeating.\n\nStart by checking Volcanic Cave, Frost Peak, Thunder Arena, and Shadow Marsh. These areas decide the route difficulty, spawn timing, and whether Pikafire, Glacior, Zaprat, and Shados can actually perform well. If the first linked habitat is still inconsistent, farm the easier related area before pushing the harder one.\n\nThe practical setup is built around Pikafire, Glacior, Zaprat, and Shados. Fire teams should rotate through Volcanic Cave with Fire Boost. Electric teams benefit from Windmill Plains first, then Thunder Arena. Ghost teams should delay Shadow Marsh until they have Ghost Veil and defensive backup.\n\nFor recipes, plan around Fire Boost, Ice Armor, Thunder Strike, and Ghost Veil. The best timing is usually after you know the route, because a buff used during scouting rarely gives full value. Watch out for these issues: Choosing the hardest habitat because it looks like the best reward. Ignoring weather requirements for the Pokemon you are targeting. Farming a habitat that drops resources your current build does not need.",
+    "content": "The best habitat for a Pokemon type is the one that matches three things at once: the type you are farming, the weather the target needs, and the resources your current build actually uses. Harder habitats are not automatically better if they slow your attempts.\n\nVolcanic Cave is the natural fire route, Frost Peak supports ice and water-ice picks, Thunder Arena is the electric pressure test, and Shadow Marsh is where ghost farming becomes serious. Use easier habitats first when you still need levels, food, or stable drops.\n\nA good habit is to check the target Pokemon page before entering. If the weather or spawn time does not match, swap to a different route for the session instead of forcing low-value attempts.",
     "related_pokemon": "pkm001,pkm014,pkm005,pkm009",
     "related_items": "rec002,rec008,rec007,rec010",
     "related_habitats": "hab001,hab005,hab012,hab006",
@@ -453,7 +453,7 @@
       "Fire teams should rotate through Volcanic Cave with Fire Boost.",
       "Electric teams benefit from Windmill Plains first, then Thunder Arena.",
       "Ghost teams should delay Shadow Marsh until they have Ghost Veil and defensive backup.",
-      "Best player type: anyone searching for \"pokemon type habitat pokopia\" who wants a practical route instead of a short summary."
+      "Best for: players choosing where to farm by type, weather, and resource needs."
     ],
     "common_mistakes": [
       "Starting Best Habitat for Each Pokemon Type without deciding whether the run is for unlocking, farming, catching, or testing.",
@@ -497,7 +497,7 @@
     "slug": "speed-run-leveling-route",
     "category": "farming",
     "seo_keyword": "fast leveling pokopia",
-    "content": "Speed Run Route for Leveling is mainly about turning fast leveling pokopia from a vague search into a clear route plan. The fastest leveling route chains easy and medium habitats with minimal downtime: Crystal Lake, Forest Valley, and Windmill Plains are the core loop. For most players, the practical route is to focus on Crystal Lake, Forest Valley, and Windmill Plains, build around Aquap, Bulbin, and Zaprat, and spend Speed Potion only when the run objective is clear.\n\nThe first decision is where to spend your time. For this topic, Crystal Lake, Forest Valley, and Windmill Plains matter most because they control the unlock gate, resource loop, and rare-check value.\n\nYour team should begin with Aquap, Bulbin, and Zaprat, then adjust the backup slot around the part of the route that fails most often. Aquap lead for safe Crystal Lake routes. Bulbin as the stable second pick for Forest Valley. Zaprat or another electric pick for faster Windmill Plains clears.\n\nA clean run usually follows this pattern: Start in Crystal Lake for safe early clears and low reset time. Move to Forest Valley when your team needs stable catch and resource gains. Skip hard habitats until your clears are clean enough to beat the easy-loop XP rate.\n\nSpeed Potion should be treated as a route tool, not a button to press immediately. Save it for boss rooms, rare checks, repeated loops, or the first serious clear after scouting. Common mistakes to avoid: Measuring XP per clear instead of XP per minute. Entering hard habitats too early and losing time to failed attempts. Forgetting that travel time matters as much as combat time.",
+    "content": "Fast leveling works best when you chain short, safe clears instead of chasing the hardest habitat you can enter. Crystal Lake, Forest Valley, and Windmill Plains form the core route because they keep downtime low and do not demand heavy recipe spending.\n\nStart with Aquap in Crystal Lake for safe clears, move through Forest Valley when you need stable resources or catches, then use Windmill Plains once Speed Potion can meaningfully reduce travel time. Measure progress by XP per minute, not XP per clear.\n\nSkip hard habitats until your easy and medium loops are clean. A failed hard route usually loses more time than it gains, especially if you spend half the buff duration walking back to the key room.",
     "related_pokemon": "pkm004,pkm002,pkm005",
     "related_items": "rec003",
     "related_habitats": "hab003,hab002,hab004",
@@ -525,7 +525,7 @@
       "Bulbin as the stable second pick for Forest Valley.",
       "Zaprat or another electric pick for faster Windmill Plains clears.",
       "Speed Potion when the loop includes long travel.",
-      "Best player type: anyone searching for \"fast leveling pokopia\" who wants a practical route instead of a short summary."
+      "Best for: players who want reliable XP gains without overcommitting to hard habitats."
     ],
     "common_mistakes": [
       "Starting Speed Run Route for Leveling without deciding whether the run is for unlocking, farming, catching, or testing.",
@@ -597,7 +597,7 @@
       "Mechabit for Steel/Electric durability.",
       "Voltscale as the high-end reward target.",
       "Thunder Strike for damage and Speed Potion for route efficiency.",
-      "Best player type: anyone searching for \"thunder arena pokopia\" who wants a practical route instead of a short summary."
+      "Best for: players who want route steps, team picks, and mistakes to avoid before committing resources."
     ],
     "common_mistakes": [
       "Starting Thunder Arena Unlock and Strategy without deciding whether the run is for unlocking, farming, catching, or testing.",
@@ -668,7 +668,7 @@
       "Glacior when you want Ice/Water value from the area.",
       "Ice Armor for difficult rooms or boss attempts.",
       "Mega Restore as backup if your team is close but not comfortable.",
-      "Best player type: anyone searching for \"frost peak pokopia\" who wants a practical route instead of a short summary."
+      "Best for: players who want route steps, team picks, and mistakes to avoid before committing resources."
     ],
     "common_mistakes": [
       "Starting Frost Peak Exploration Guide without deciding whether the run is for unlocking, farming, catching, or testing.",
@@ -712,7 +712,7 @@
     "slug": "best-defense-team-pokopia",
     "category": "team",
     "seo_keyword": "defense team pokopia",
-    "content": "Best Defense Team Build is mainly about turning defense team pokopia from a vague search into a clear route plan. A good defense team is not passive. Bulbin, Tidlet, and Mechabit create enough staying power to keep farming routes consistent. For most players, the practical route is to focus on Forest Valley, Frost Peak, and Windmill Plains, build around Bulbin, Tidlet, and Mechabit, and spend Steel Shell only when the run objective is clear.\n\nThe first decision is where to spend your time. For this topic, Forest Valley, Frost Peak, and Windmill Plains matter most because they control the unlock gate, resource loop, and rare-check value.\n\nYour team should begin with Bulbin, Tidlet, and Mechabit, then adjust the backup slot around the part of the route that fails most often. Bulbin as the early defender. Tidlet as the low-risk stabilizer. Mechabit as the midgame utility wall.\n\nA clean run usually follows this pattern: Start with Bulbin for early defensive stability. Add Tidlet when you need a simple neutral backup that does not require rare resources. Bring Steel Shell for hard routes where survival matters more than clear speed.\n\nSteel Shell should be treated as a route tool, not a button to press immediately. Save it for boss rooms, rare checks, repeated loops, or the first serious clear after scouting. Common mistakes to avoid: Building defense with no damage plan. Using Steel Shell on easy routes where it saves no time. Ignoring type coverage and calling the team defensive when it is only slow.",
+    "content": "Best Defense Team Build gives you a practical route for defense team pokopia. A good defense team is not passive. Bulbin, Tidlet, and Mechabit create enough staying power to keep farming routes consistent. For most players, the practical route is to focus on Forest Valley, Frost Peak, and Windmill Plains, build around Bulbin, Tidlet, and Mechabit, and spend Steel Shell only when the run objective is clear.\n\nThe first decision is where to spend your time. For this topic, Forest Valley, Frost Peak, and Windmill Plains matter most because they control the unlock gate, resource loop, and rare-check value.\n\nYour team should begin with Bulbin, Tidlet, and Mechabit, then adjust the backup slot around the part of the route that fails most often. Bulbin as the early defender. Tidlet as the low-risk stabilizer. Mechabit as the midgame utility wall.\n\nA clean run usually follows this pattern: Start with Bulbin for early defensive stability. Add Tidlet when you need a simple neutral backup that does not require rare resources. Bring Steel Shell for hard routes where survival matters more than clear speed.\n\nSteel Shell should be treated as a route tool, not a button to press immediately. Save it for boss rooms, rare checks, repeated loops, or the first serious clear after scouting. Common mistakes to avoid: Building defense with no damage plan. Using Steel Shell on easy routes where it saves no time. Ignoring type coverage and calling the team defensive when it is only slow.",
     "related_pokemon": "pkm002,pkm008,pkm010",
     "related_items": "rec012",
     "related_habitats": "hab002,hab005,hab004",
@@ -740,7 +740,7 @@
       "Tidlet as the low-risk stabilizer.",
       "Mechabit as the midgame utility wall.",
       "Steel Shell for defensive windows and Guardian Stew if you need a shorter buff.",
-      "Best player type: anyone searching for \"defense team pokopia\" who wants a practical route instead of a short summary."
+      "Best for: players who want route steps, team picks, and mistakes to avoid before committing resources."
     ],
     "common_mistakes": [
       "Starting Best Defense Team Build without deciding whether the run is for unlocking, farming, catching, or testing.",
@@ -810,7 +810,7 @@
       "Voltscale as the main dragon carry when available.",
       "A durable backup to protect setup turns.",
       "Dragon's Fury for burst windows and Speed Potion if the route has long travel.",
-      "Best player type: anyone searching for \"dragon type pokopia\" who wants a practical route instead of a short summary."
+      "Best for: players who want route steps, team picks, and mistakes to avoid before committing resources."
     ],
     "common_mistakes": [
       "Starting Dragon-Type Mastery Guide without deciding whether the run is for unlocking, farming, catching, or testing.",
@@ -854,7 +854,7 @@
     "slug": "complete-recipe-list",
     "category": "guides",
     "seo_keyword": "recipes pokopia",
-    "content": "Complete Recipe List and Effects answers a specific player problem: Recipes should be chosen by the run objective: attraction for rare farming, damage for boss routes, defense for hard habitats, and recovery for long attempts. For most players, the practical route is to focus on Volcanic Cave, build around Pikafire and Flamexor, and spend Lucky Charm, Mega Restore, and Fire Boost only when the run objective is clear.\n\nUse this as a route guide. The value comes from knowing when to enter, what to bring, and which part of the route is worth repeating.\n\nStart by checking Volcanic Cave. These areas decide the route difficulty, spawn timing, and whether Pikafire and Flamexor can actually perform well. If the first linked habitat is still inconsistent, farm the easier related area before pushing the harder one.\n\nThe practical setup is built around Pikafire and Flamexor. Honey Cake for early farming. Lucky Charm for serious rare or legendary sessions. Steel Shell for hard habitat first clears.\n\nFor recipes, plan around Lucky Charm, Mega Restore, and Fire Boost. The best timing is usually after you know the route, because a buff used during scouting rarely gives full value. Watch out for these issues: Crafting rare buffs before knowing where to use them. Using damage recipes when the real problem is survival. Saving every item forever and slowing progression.",
+    "content": "Recipes are tools for solving specific route problems. Honey Cake and Lucky Charm help with catches and rare checks, damage recipes push boss rooms, defensive recipes keep hard habitats stable, and recovery recipes protect long attempts.\n\nDo not craft based only on rarity. A common or uncommon recipe used at the right time can be more valuable than a legendary recipe spent during a messy scouting run. Match the buff to the objective: catching, damage, defense, movement, or emergency recovery.\n\nBefore using expensive ingredients, decide which habitat and Pokemon the recipe is supporting. If the route is not stable yet, scout first, shorten the path, then use the recipe when the next attempt has a clear payoff.",
     "related_pokemon": "pkm001,pkm007",
     "related_items": "rec005,rec015,rec002",
     "related_habitats": "hab001",
@@ -881,7 +881,7 @@
       "Lucky Charm for serious rare or legendary sessions.",
       "Steel Shell for hard habitat first clears.",
       "Mega Restore for routes where one mistake ruins the attempt.",
-      "Best player type: anyone searching for \"recipes pokopia\" who wants a practical route instead of a short summary."
+      "Best for: players deciding which recipe is worth crafting for the next route."
     ],
     "common_mistakes": [
       "Starting Complete Recipe List and Effects without deciding whether the run is for unlocking, farming, catching, or testing.",
@@ -925,7 +925,7 @@
     "slug": "sky-isles-guide",
     "category": "guides",
     "seo_keyword": "sky isles pokopia",
-    "content": "Sky Isles and Flying-Type Guide is mainly about turning sky isles pokopia from a vague search into a clear route plan. Sky Isles is a mobility check as much as a combat route. Flying High helps, but route knowledge matters more than raw damage. For most players, the practical route is to focus on Sky Isles, build around Breezel, Flamingo, and Tropius, and spend Flying High only when the run objective is clear.\n\nThe first decision is where to spend your time. For this topic, Sky Isles matters most because they control the unlock gate, resource loop, and rare-check value.\n\nYour team should begin with Breezel, Flamingo, and Tropius, then adjust the backup slot around the part of the route that fails most often. Breezel as an accessible flying lead. Flamingo for Fire/Flying coverage. Flying High for damage and Speed Potion if the route feels too slow.\n\nA clean run usually follows this pattern: Reach Level 18 before committing to the full route. Bring Breezel or Flamingo to handle flying-type encounters cleanly.\n\nFlying High should be treated as a route tool, not a button to press immediately. Save it for boss rooms, rare checks, repeated loops, or the first serious clear after scouting. Common mistakes to avoid: Treating Sky Isles like a normal ground route. Ignoring backup coverage against non-flying enemies.",
+    "content": "Sky Isles and Flying-Type Guide gives you a practical route for sky isles pokopia. Sky Isles is a mobility check as much as a combat route. Flying High helps, but route knowledge matters more than raw damage. For most players, the practical route is to focus on Sky Isles, build around Breezel, Flamingo, and Tropius, and spend Flying High only when the run objective is clear.\n\nThe first decision is where to spend your time. For this topic, Sky Isles matters most because it controls the unlock gate, resource loop, and rare-check value.\n\nYour team should begin with Breezel, Flamingo, and Tropius, then adjust the backup slot around the part of the route that fails most often. Breezel as an accessible flying lead. Flamingo for Fire/Flying coverage. Flying High for damage and Speed Potion if the route feels too slow.\n\nA clean run usually follows this pattern: Reach Level 18 before committing to the full route. Bring Breezel or Flamingo to handle flying-type encounters cleanly.\n\nFlying High should be treated as a route tool, not a button to press immediately. Save it for boss rooms, rare checks, repeated loops, or the first serious clear after scouting. Common mistakes to avoid: Treating Sky Isles like a normal ground route. Ignoring backup coverage against non-flying enemies.",
     "related_pokemon": "pkm016,pkm020,pkm025",
     "related_items": "rec013",
     "related_habitats": "hab008",
@@ -951,7 +951,7 @@
       "Breezel as an accessible flying lead.",
       "Flamingo for Fire/Flying coverage.",
       "Flying High for damage and Speed Potion if the route feels too slow.",
-      "Best player type: anyone searching for \"sky isles pokopia\" who wants a practical route instead of a short summary."
+      "Best for: players who want route steps, team picks, and mistakes to avoid before committing resources."
     ],
     "common_mistakes": [
       "Starting Sky Isles and Flying-Type Guide without deciding whether the run is for unlocking, farming, catching, or testing.",
@@ -1021,7 +1021,7 @@
       "Mudkipz as the main Water/Ground target.",
       "Aquap as backup if your early team needs safer water coverage.",
       "Muddy Swirl for ground damage windows.",
-      "Best player type: anyone searching for \"muddy river pokopia\" who wants a practical route instead of a short summary."
+      "Best for: players who want route steps, team picks, and mistakes to avoid before committing resources."
     ],
     "common_mistakes": [
       "Starting Mudstone River Habitat Guide without deciding whether the run is for unlocking, farming, catching, or testing.",
@@ -1092,7 +1092,7 @@
       "Shadowclaw or Shados for ghost routes.",
       "Voltscale for electric-dragon power.",
       "Bulbin and Aquap remain valuable because they stabilize early progression.",
-      "Best player type: anyone searching for \"strongest pokemon pokopia\" who wants a practical route instead of a short summary."
+      "Best for: players who want route steps, team picks, and mistakes to avoid before committing resources."
     ],
     "common_mistakes": [
       "Starting Top 10 Most Powerful Pokemon without deciding whether the run is for unlocking, farming, catching, or testing.",
@@ -1136,7 +1136,7 @@
     "slug": "gemstone-canyon-guide",
     "category": "guides",
     "seo_keyword": "gemstone canyon pokopia",
-    "content": "Gemstone Canyon Mining Guide is mainly about turning gemstone canyon pokopia from a vague search into a clear route plan. Gemstone Canyon is a resource-first habitat. Treat it as a mining loop for rock, ground, and crystal progression rather than a pure combat zone. For most players, the practical route is to focus on Gemstone Canyon, build around Rockler and Crystion, and spend Steel Shell only when the run objective is clear.\n\nThe first decision is where to spend your time. For this topic, Gemstone Canyon matters most because they control the unlock gate, resource loop, and rare-check value.\n\nYour team should begin with Rockler and Crystion, then adjust the backup slot around the part of the route that fails most often. Rockler for consistent early mining runs. Crystion for higher-value crystal routes. Steel Shell when mining routes include heavy damage rooms.\n\nA clean run usually follows this pattern: Unlock at Level 12 and scout the shortest mining loop. Repeat short loops instead of clearing every branch.\n\nSteel Shell should be treated as a route tool, not a button to press immediately. Save it for boss rooms, rare checks, repeated loops, or the first serious clear after scouting. Common mistakes to avoid: Clearing too deeply when the best material loop is near the entrance. Ignoring resource goals and farming random encounters. Entering without enough inventory space or recovery support.",
+    "content": "Gemstone Canyon Mining Guide gives you a practical route for gemstone canyon pokopia. Gemstone Canyon is a resource-first habitat. Treat it as a mining loop for rock, ground, and crystal progression rather than a pure combat zone. For most players, the practical route is to focus on Gemstone Canyon, build around Rockler and Crystion, and spend Steel Shell only when the run objective is clear.\n\nThe first decision is where to spend your time. For this topic, Gemstone Canyon matters most because it controls the unlock gate, resource loop, and rare-check value.\n\nYour team should begin with Rockler and Crystion, then adjust the backup slot around the part of the route that fails most often. Rockler for consistent early mining runs. Crystion for higher-value crystal routes. Steel Shell when mining routes include heavy damage rooms.\n\nA clean run usually follows this pattern: Unlock at Level 12 and scout the shortest mining loop. Repeat short loops instead of clearing every branch.\n\nSteel Shell should be treated as a route tool, not a button to press immediately. Save it for boss rooms, rare checks, repeated loops, or the first serious clear after scouting. Common mistakes to avoid: Clearing too deeply when the best material loop is near the entrance. Ignoring resource goals and farming random encounters. Entering without enough inventory space or recovery support.",
     "related_pokemon": "pkm011,pkm012",
     "related_items": "rec012",
     "related_habitats": "hab007",
@@ -1163,7 +1163,7 @@
       "Rockler for consistent early mining runs.",
       "Crystion for higher-value crystal routes.",
       "Steel Shell when mining routes include heavy damage rooms.",
-      "Best player type: anyone searching for \"gemstone canyon pokopia\" who wants a practical route instead of a short summary."
+      "Best for: players who want route steps, team picks, and mistakes to avoid before committing resources."
     ],
     "common_mistakes": [
       "Starting Gemstone Canyon Mining Guide without deciding whether the run is for unlocking, farming, catching, or testing.",
@@ -1234,7 +1234,7 @@
       "Mudkipz as the coverage pick.",
       "A defensive third slot such as Bulbin or Mechabit depending on the target habitat.",
       "Water Shield for longer water-heavy routes.",
-      "Best player type: anyone searching for \"water team pokopia\" who wants a practical route instead of a short summary."
+      "Best for: players who want route steps, team picks, and mistakes to avoid before committing resources."
     ],
     "common_mistakes": [
       "Starting Water-Type Team Compilation without deciding whether the run is for unlocking, farming, catching, or testing.",
@@ -1305,7 +1305,7 @@
       "Nightfall for darker route coverage.",
       "Ghost Veil for high-value ghost damage windows.",
       "Lucky Charm only after you know the route.",
-      "Best player type: anyone searching for \"ghost type pokemon pokopia\" who wants a practical route instead of a short summary."
+      "Best for: players who want route steps, team picks, and mistakes to avoid before committing resources."
     ],
     "common_mistakes": [
       "Starting Ghost-Type Hunting Secrets without deciding whether the run is for unlocking, farming, catching, or testing.",
@@ -1349,7 +1349,7 @@
     "slug": "electric-speed-build",
     "category": "team",
     "seo_keyword": "electric speed team pokopia",
-    "content": "Electric-Type Speed Demon Build is mainly about turning electric speed team pokopia from a vague search into a clear route plan. Electric speed teams are built around fast clears: Zaprat starts the route, Mechabit adds safety, and Voltscale becomes the late-game carry. For most players, the practical route is to focus on Windmill Plains and Thunder Arena, build around Zaprat, Mechabit, and Voltscale, and spend Speed Potion and Thunder Strike only when the run objective is clear.\n\nThe first decision is where to spend your time. For this topic, Windmill Plains and Thunder Arena matter most because they control the unlock gate, resource loop, and rare-check value.\n\nYour team should begin with Zaprat, Mechabit, and Voltscale, then adjust the backup slot around the part of the route that fails most often. Zaprat lead for quick fights. Mechabit as the stabilizer. Voltscale as the high-end carry.\n\nA clean run usually follows this pattern: Add Mechabit when routes start punishing fragile attackers. Bring Voltscale and Thunder Strike for hard electric routes or boss windows.\n\nSpeed Potion and Thunder Strike should be treated as route tools, not buttons to press immediately. Save them for boss rooms, rare checks, repeated loops, or the first serious clear after scouting. Common mistakes to avoid: Building only for speed and losing to one bad encounter. Using Speed Potion on short routes where it saves little time. Forgetting that Mechabit is often what makes the build reliable.",
+    "content": "Electric-Type Speed Demon Build gives you a practical route for electric speed team pokopia. Electric speed teams are built around fast clears: Zaprat starts the route, Mechabit adds safety, and Voltscale becomes the late-game carry. For most players, the practical route is to focus on Windmill Plains and Thunder Arena, build around Zaprat, Mechabit, and Voltscale, and spend Speed Potion and Thunder Strike only when the run objective is clear.\n\nThe first decision is where to spend your time. For this topic, Windmill Plains and Thunder Arena matter most because they control the unlock gate, resource loop, and rare-check value.\n\nYour team should begin with Zaprat, Mechabit, and Voltscale, then adjust the backup slot around the part of the route that fails most often. Zaprat lead for quick fights. Mechabit as the stabilizer. Voltscale as the high-end carry.\n\nA clean run usually follows this pattern: Add Mechabit when routes start punishing fragile attackers. Bring Voltscale and Thunder Strike for hard electric routes or boss windows.\n\nSpeed Potion and Thunder Strike should be treated as route tools, not buttons to press immediately. Save them for boss rooms, rare checks, repeated loops, or the first serious clear after scouting. Common mistakes to avoid: Building only for speed and losing to one bad encounter. Using Speed Potion on short routes where it saves little time. Forgetting that Mechabit is often what makes the build reliable.",
     "related_pokemon": "pkm005,pkm010,pkm015",
     "related_items": "rec003,rec007",
     "related_habitats": "hab004,hab012",
@@ -1377,7 +1377,7 @@
       "Mechabit as the stabilizer.",
       "Voltscale as the high-end carry.",
       "Speed Potion plus Thunder Strike for fast hard-route clears.",
-      "Best player type: anyone searching for \"electric speed team pokopia\" who wants a practical route instead of a short summary."
+      "Best for: players who want route steps, team picks, and mistakes to avoid before committing resources."
     ],
     "common_mistakes": [
       "Starting Electric-Type Speed Demon Build without deciding whether the run is for unlocking, farming, catching, or testing.",
@@ -1448,7 +1448,7 @@
       "Voltscale as the primary dragon carry.",
       "A defensive steel or bulky support pick for long fights.",
       "Dragon's Fury for boss windows and Mega Restore for failed-turn recovery.",
-      "Best player type: anyone searching for \"dragons den pokopia\" who wants a practical route instead of a short summary."
+      "Best for: players who want route steps, team picks, and mistakes to avoid before committing resources."
     ],
     "common_mistakes": [
       "Starting How to Unlock Dragon's Den without deciding whether the run is for unlocking, farming, catching, or testing.",
@@ -1519,7 +1519,7 @@
       "Tidlet for simple neutral practice.",
       "Thornvine for grass pressure and beginner farming.",
       "Grass Heal for practice runs that would otherwise end early.",
-      "Best player type: anyone searching for \"training grounds pokopia\" who wants a practical route instead of a short summary."
+      "Best for: players who want route steps, team picks, and mistakes to avoid before committing resources."
     ],
     "common_mistakes": [
       "Starting Beginner's Guide to Training Grounds without deciding whether the run is for unlocking, farming, catching, or testing.",
@@ -1563,7 +1563,7 @@
     "slug": "poison-type-team",
     "category": "team",
     "seo_keyword": "poison team pokopia",
-    "content": "Poison-Type Team Analysis is mainly about turning poison team pokopia from a vague search into a clear route plan. Poison teams are control teams. Leafon and later poison picks work best when they slow dangerous routes instead of trying to outburst everything. For most players, the practical route is to focus on Nightmare Forest, build around Leafon and Toxifin, and spend Ghost Veil only when the run objective is clear.\n\nThe first decision is where to spend your time. For this topic, Nightmare Forest matters most because they control the unlock gate, resource loop, and rare-check value.\n\nYour team should begin with Leafon and Toxifin, then adjust the backup slot around the part of the route that fails most often. Leafon as the accessible poison core. A durable backup to protect longer fights. Ghost Veil or Steel Shell depending on whether damage or survival is the issue.\n\nA clean run usually follows this pattern: Start with Leafon if you need Grass/Poison flexibility. Pair poison damage with Ghost Veil or defensive buffs only when the habitat calls for it.\n\nGhost Veil should be treated as a route tool, not a button to press immediately. Save it for boss rooms, rare checks, repeated loops, or the first serious clear after scouting. Common mistakes to avoid: Expecting poison teams to clear like burst fire teams. Ignoring defensive support for long fights. Using poison into routes where the matchup gives no advantage.",
+    "content": "Poison-Type Team Analysis gives you a practical route for poison team pokopia. Poison teams are control teams. Leafon and later poison picks work best when they slow dangerous routes instead of trying to outburst everything. For most players, the practical route is to focus on Nightmare Forest, build around Leafon and Toxifin, and spend Ghost Veil only when the run objective is clear.\n\nThe first decision is where to spend your time. For this topic, Nightmare Forest matters most because it controls the unlock gate, resource loop, and rare-check value.\n\nYour team should begin with Leafon and Toxifin, then adjust the backup slot around the part of the route that fails most often. Leafon as the accessible poison core. A durable backup to protect longer fights. Ghost Veil or Steel Shell depending on whether damage or survival is the issue.\n\nA clean run usually follows this pattern: Start with Leafon if you need Grass/Poison flexibility. Pair poison damage with Ghost Veil or defensive buffs only when the habitat calls for it.\n\nGhost Veil should be treated as a route tool, not a button to press immediately. Save it for boss rooms, rare checks, repeated loops, or the first serious clear after scouting. Common mistakes to avoid: Expecting poison teams to clear like burst fire teams. Ignoring defensive support for long fights. Using poison into routes where the matchup gives no advantage.",
     "related_pokemon": "pkm006,pkm041",
     "related_items": "rec010",
     "related_habitats": "hab017",
@@ -1589,7 +1589,7 @@
       "Leafon as the accessible poison core.",
       "A durable backup to protect longer fights.",
       "Ghost Veil or Steel Shell depending on whether damage or survival is the issue.",
-      "Best player type: anyone searching for \"poison team pokopia\" who wants a practical route instead of a short summary."
+      "Best for: players who want route steps, team picks, and mistakes to avoid before committing resources."
     ],
     "common_mistakes": [
       "Starting Poison-Type Team Analysis without deciding whether the run is for unlocking, farming, catching, or testing.",
@@ -1660,7 +1660,7 @@
       "Lucky Charm for any serious legendary session.",
       "The matching damage recipe for each legendary habitat.",
       "A backup Pokemon that solves the route, not just the legendary fight.",
-      "Best player type: anyone searching for \"legendary locations pokopia\" who wants a practical route instead of a short summary."
+      "Best for: players who want route steps, team picks, and mistakes to avoid before committing resources."
     ],
     "common_mistakes": [
       "Starting All 4 Legendary Pokemon Locations without deciding whether the run is for unlocking, farming, catching, or testing.",
@@ -1730,7 +1730,7 @@
       "Crystion for Crystal/Fairy value.",
       "A durable backup for longer branch fights.",
       "Lucky Charm for rare checks and Mega Restore for long exploration attempts.",
-      "Best player type: anyone searching for \"crystal cave pokopia\" who wants a practical route instead of a short summary."
+      "Best for: players who want route steps, team picks, and mistakes to avoid before committing resources."
     ],
     "common_mistakes": [
       "Starting Crystal Cave Discovery Guide without deciding whether the run is for unlocking, farming, catching, or testing.",
@@ -1774,7 +1774,7 @@
     "slug": "best-grass-types",
     "category": "tier",
     "seo_keyword": "best grass pokemon pokopia",
-    "content": "Best Grass-Type Pick for Every Team is mainly about turning best grass pokemon pokopia from a vague search into a clear route plan. Bulbin is the best safe grass pick, Thornvine is the practical farmer, and higher-value grass picks belong in teams that need control or sustain. For most players, the practical route is to focus on Forest Valley, build around Thornvine, Sunflora, and Tropius, and spend Grass Heal only when the run objective is clear.\n\nThe first decision is where to spend your time. For this topic, Forest Valley matters most because they control the unlock gate, resource loop, and rare-check value.\n\nYour team should begin with Thornvine, Sunflora, and Tropius, then adjust the backup slot around the part of the route that fails most often. Bulbin for starter safety. Thornvine for repeated Forest Valley-style farming. Grass Heal when sustain is the difference between a failed and completed loop.\n\nA clean run usually follows this pattern: \n\nGrass Heal should be treated as a route tool, not a button to press immediately. Save it for boss rooms, rare checks, repeated loops, or the first serious clear after scouting. Common mistakes to avoid: Assuming all grass Pokemon do the same job. Skipping Bulbin too early because it is common. Using grass teams where fire pressure is too high.",
+    "content": "Best Grass-Type Pick for Every Team gives you a practical route for best grass pokemon pokopia. Bulbin is the best safe grass pick, Thornvine is the practical farmer, and higher-value grass picks belong in teams that need control or sustain. For most players, the practical route is to focus on Forest Valley, build around Thornvine, Sunflora, and Tropius, and spend Grass Heal only when the run objective is clear.\n\nThe first decision is where to spend your time. For this topic, Forest Valley matters most because it controls the unlock gate, resource loop, and rare-check value.\n\nYour team should begin with Thornvine, Sunflora, and Tropius, then adjust the backup slot around the part of the route that fails most often. Bulbin for starter safety. Thornvine for repeated Forest Valley-style farming. Grass Heal when sustain is the difference between a failed and completed loop.\n\nA clean run usually follows this pattern: Start with Bulbin when you need safety, move into Thornvine for repeat farming, and save Sunflora or Tropius for routes that need stronger coverage.\n\nGrass Heal should be treated as a route tool, not a button to press immediately. Save it for boss rooms, rare checks, repeated loops, or the first serious clear after scouting. Common mistakes to avoid: Assuming all grass Pokemon do the same job. Skipping Bulbin too early because it is common. Using grass teams where fire pressure is too high.",
     "related_pokemon": "pkm017,pkm023,pkm025",
     "related_items": "rec009",
     "related_habitats": "hab002",
@@ -1800,7 +1800,7 @@
       "Bulbin for starter safety.",
       "Thornvine for repeated Forest Valley-style farming.",
       "Grass Heal when sustain is the difference between a failed and completed loop.",
-      "Best player type: anyone searching for \"best grass pokemon pokopia\" who wants a practical route instead of a short summary."
+      "Best for: players who want route steps, team picks, and mistakes to avoid before committing resources."
     ],
     "common_mistakes": [
       "Starting Best Grass-Type Pick for Every Team without deciding whether the run is for unlocking, farming, catching, or testing.",
@@ -1871,7 +1871,7 @@
       "Mechabit for flexible utility.",
       "Bronzorm for bulky steel pressure.",
       "Steel Shell for hard rooms and Guardian Stew for shorter defensive windows.",
-      "Best player type: anyone searching for \"steel type team pokopia\" who wants a practical route instead of a short summary."
+      "Best for: players who want route steps, team picks, and mistakes to avoid before committing resources."
     ],
     "common_mistakes": [
       "Starting Steel-Type硬核Build攻略 without deciding whether the run is for unlocking, farming, catching, or testing.",
@@ -1941,7 +1941,7 @@
       "Crystion for Crystal/Fairy coverage.",
       "A grass or support backup for safer exploration.",
       "Lucky Charm for confirmed hidden checks.",
-      "Best player type: anyone searching for \"fairy glen pokopia\" who wants a practical route instead of a short summary."
+      "Best for: players who want route steps, team picks, and mistakes to avoid before committing resources."
     ],
     "common_mistakes": [
       "Starting Fairy Glen Hidden Secrets without deciding whether the run is for unlocking, farming, catching, or testing.",
@@ -1985,7 +1985,7 @@
     "slug": "nightmare-forest-guide",
     "category": "guides",
     "seo_keyword": "nightmare forest pokopia",
-    "content": "Nightmare Forest Horror Stories is mainly about turning nightmare forest pokopia from a vague search into a clear route plan. Nightmare Forest is a hard habitat built around pressure and control. Bring a plan for darkness, poison, or sustain before chasing rare rewards. For most players, the practical route is to focus on Nightmare Forest, build around Leafon, Frostbite, and Magicalure, and spend Ghost Veil only when the run objective is clear.\n\nThe first decision is where to spend your time. For this topic, Nightmare Forest matters most because they control the unlock gate, resource loop, and rare-check value.\n\nYour team should begin with Leafon, Frostbite, and Magicalure, then adjust the backup slot around the part of the route that fails most often. Leafon for Grass/Poison control. A dark or ghost-compatible backup for dangerous sections. Ghost Veil or Steel Shell depending on whether damage or survival is failing.\n\nA clean run usually follows this pattern: Reach Level 26 and prepare a team that can handle long fights. Bring Ghost Veil or defensive support if the route overlaps with ghost-style threats. Scout the safest route before using rare buffs.\n\nGhost Veil should be treated as a route tool, not a button to press immediately. Save it for boss rooms, rare checks, repeated loops, or the first serious clear after scouting. Common mistakes to avoid: Entering because the name sounds like a story area instead of a hard route. Using only burst damage with no sustain. Trying to rare farm before the normal route is stable.",
+    "content": "Nightmare Forest Horror Stories gives you a practical route for nightmare forest pokopia. Nightmare Forest is a hard habitat built around pressure and control. Bring a plan for darkness, poison, or sustain before chasing rare rewards. For most players, the practical route is to focus on Nightmare Forest, build around Leafon, Frostbite, and Magicalure, and spend Ghost Veil only when the run objective is clear.\n\nThe first decision is where to spend your time. For this topic, Nightmare Forest matters most because it controls the unlock gate, resource loop, and rare-check value.\n\nYour team should begin with Leafon, Frostbite, and Magicalure, then adjust the backup slot around the part of the route that fails most often. Leafon for Grass/Poison control. A dark or ghost-compatible backup for dangerous sections. Ghost Veil or Steel Shell depending on whether damage or survival is failing.\n\nA clean run usually follows this pattern: Reach Level 26 and prepare a team that can handle long fights. Bring Ghost Veil or defensive support if the route overlaps with ghost-style threats. Scout the safest route before using rare buffs.\n\nGhost Veil should be treated as a route tool, not a button to press immediately. Save it for boss rooms, rare checks, repeated loops, or the first serious clear after scouting. Common mistakes to avoid: Entering because the name sounds like a story area instead of a hard route. Using only burst damage with no sustain. Trying to rare farm before the normal route is stable.",
     "related_pokemon": "pkm006,pkm022,pkm048",
     "related_items": "rec010",
     "related_habitats": "hab017",
@@ -2012,7 +2012,7 @@
       "Leafon for Grass/Poison control.",
       "A dark or ghost-compatible backup for dangerous sections.",
       "Ghost Veil or Steel Shell depending on whether damage or survival is failing.",
-      "Best player type: anyone searching for \"nightmare forest pokopia\" who wants a practical route instead of a short summary."
+      "Best for: players who want route steps, team picks, and mistakes to avoid before committing resources."
     ],
     "common_mistakes": [
       "Starting Nightmare Forest Horror Stories without deciding whether the run is for unlocking, farming, catching, or testing.",
@@ -2056,7 +2056,7 @@
     "slug": "endgame-build-guide",
     "category": "tier",
     "seo_keyword": "endgame build pokopia",
-    "content": "If you are working on endgame build pokopia, this guide gives you the short answer first: The best endgame build is not one fixed team. Use a legendary carry, one defensive anchor, one speed or utility slot, and recipes matched to the habitat. For most players, the practical route is to focus on Volcanic Cave, Shadow Marsh, Thunder Arena, and Dragon's Den, build around Flamexor, Shadowclaw, Voltscale, and Primordion, and spend Lucky Charm, Steel Shell, and Speed Potion only when the run objective is clear.\n\nThe route is strongest when you keep the goal narrow. Decide whether the run is for unlocking, farming, catching, or testing before entering Volcanic Cave, Shadow Marsh, Thunder Arena, and Dragon's Den. Mixed goals waste recipes and make results harder to judge.\n\nFor team planning, focus on Flamexor, Shadowclaw, Voltscale, and Primordion. Legendary carry for the target route. Steel Shell or Guardian Stew when survival is the bottleneck. Speed Potion for farming loops and Lucky Charm for rare or legendary checks.\n\nRoute execution matters more than raw stats. Choose the carry around the target habitat: Flamexor, Voltscale, Shadowclaw, or Dragon's Den options. Add a defensive anchor such as a steel or bulky support pick. Add speed, sustain, or matchup coverage in the third slot.\n\nUse Lucky Charm, Steel Shell, and Speed Potion only when the run has a payoff. If a route still feels unstable, fix the lead Pokemon, backup role, or habitat timing before spending rare ingredients. The biggest traps are: Copying one endgame team into every habitat. Using only legendary Pokemon and no support. Forgetting to change recipes when the route objective changes.",
+    "content": "Endgame teams should be flexible, not copied as one fixed lineup. Start with a carry that matches the target route, add one defensive anchor, then use the third slot for speed, sustain, or matchup coverage.\n\nFlamexor works well when Volcanic Cave or fire-steel pressure matters, Shadowclaw is built for ghost-heavy routes, Voltscale brings electric-dragon power, and Primordion gives late-game bulk. The recipe choice should change with the route: Lucky Charm for rare checks, Steel Shell for survival, Speed Potion for repeat loops, and Mega Restore for long attempts.\n\nIf a team fails, identify the failing room before replacing everything. Most endgame problems are caused by one missing role, not by the whole team being wrong.",
     "related_pokemon": "pkm007,pkm030,pkm015,pkm050",
     "related_items": "rec005,rec012,rec003",
     "related_habitats": "hab001,hab006,hab012,hab018",
@@ -2084,7 +2084,7 @@
       "Steel Shell or Guardian Stew when survival is the bottleneck.",
       "Speed Potion for farming loops and Lucky Charm for rare or legendary checks.",
       "Mega Restore for long routes where one mistake can end the attempt.",
-      "Best player type: anyone searching for \"endgame build pokopia\" who wants a practical route instead of a short summary."
+      "Best for: players tuning late-game teams for hard habitats and legendary sessions."
     ],
     "common_mistakes": [
       "Starting Ultimate Endgame Build Compilation without deciding whether the run is for unlocking, farming, catching, or testing.",

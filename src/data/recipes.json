@@ -28,7 +28,7 @@
       "Recommended Pokemon: Bulbin, Aquap, Thornvine, Sunflora, Skittlish, and Thornback.",
       "Recommended habitats: Forest Valley, Crystal Lake, Meadow Garden, and Training Grounds.",
       "Related guides: Best Starter Pokemon in Pokopia.",
-      "Best use case: players searching for Honey Cake recipe, Honey Cake effect, or when to use Honey Cake in Pokopia."
+      "Best when you are farming early catches or improving rare attempts in stable beginner routes."
     ],
     "alternatives": [
       "Speed Potion: use when +25% movement speed is more useful than +20% attraction rate.",
@@ -97,7 +97,7 @@
       "Recommended Pokemon: Pikafire, Charmuddy, Flamexor, Emberal, Magmar, and Sunreep.",
       "Recommended habitats: Volcanic Cave.",
       "Related guides: How to Unlock Volcanic Cave, Best Fire-Type Team Build, Best Habitat for Each Pokemon Type, and Complete Recipe List and Effects.",
-      "Best use case: players searching for Fire Boost recipe, Fire Boost effect, or when to use Fire Boost in Pokopia."
+      "Best when a fire team is ready for a boss room, Volcanic Cave push, or serious Flamexor attempt."
     ],
     "alternatives": [
       "Thunder Strike: use when +40% electric damage is more useful than +30% Fire damage.",
@@ -166,7 +166,7 @@
       "Recommended Pokemon: Zaprat, Mechabit, Voltscale, Magnedex, and Zapbug.",
       "Recommended habitats: Windmill Plains, Thunder Arena, and Training Grounds.",
       "Related guides: Speed Run Route for Leveling, Electric-Type Speed Demon Build, and Ultimate Endgame Build Compilation.",
-      "Best use case: players searching for Speed Potion recipe, Speed Potion effect, or when to use Speed Potion in Pokopia."
+      "Best for: players deciding whether Speed Potion fits their next route, buff window, or farming target."
     ],
     "alternatives": [
       "Honey Cake: use when +20% attraction rate is more useful than +25% movement speed.",
@@ -235,7 +235,7 @@
       "Recommended Pokemon: Bulbin, Tidlet, Mechabit, Bronzorm, and Ironclaw.",
       "Recommended habitats: Frost Peak, Ancient Ruins, Industrial Zone, and Nightmare Forest.",
       "Related guides: check the main guides page for routes that mention Guardian Stew.",
-      "Best use case: players searching for Guardian Stew recipe, Guardian Stew effect, or when to use Guardian Stew in Pokopia."
+      "Best for: players deciding whether Guardian Stew fits their next route, buff window, or farming target."
     ],
     "alternatives": [
       "Water Shield: use when +35% water resistance is more useful than +40% defense.",
@@ -304,7 +304,7 @@
       "Recommended Pokemon: Flamexor, Voltscale, Shadowclaw, Primordion, Crystion, and Crystalwing.",
       "Recommended habitats: Volcanic Cave, Shadow Marsh, Thunder Arena, Crystal Cave, Dragon's Den, and Fairy Glen.",
       "Related guides: Fast Farming Guide for Rare Pokemon, How to Get Legendary Pokemon, Complete Recipe List and Effects, Top 10 Most Powerful Pokemon, and All 4 Legendary Pokemon Locations.",
-      "Best use case: players searching for Lucky Charm recipe, Lucky Charm effect, or when to use Lucky Charm in Pokopia."
+      "Best when the rare or legendary route is already scouted and you can fit several attempts into one buff window."
     ],
     "alternatives": [
       "Honey Cake: use when +20% attraction rate is more useful than +50% rare spawn chance.",
@@ -373,7 +373,7 @@
       "Recommended Pokemon: Aquap, Glacior, Mudkipz, Stealthfin, Dewdrop, and Aquashell.",
       "Recommended habitats: Crystal Lake, Muddy River, and Sunny Beach.",
       "Related guides: Water-Type Team Compilation.",
-      "Best use case: players searching for Water Shield recipe, Water Shield effect, or when to use Water Shield in Pokopia."
+      "Best for: players deciding whether Water Shield fits their next route, buff window, or farming target."
     ],
     "alternatives": [
       "Guardian Stew: use when +40% defense is more useful than +35% water resistance.",
@@ -442,7 +442,7 @@
       "Recommended Pokemon: Zaprat, Mechabit, Voltscale, Magnedex, and Zapbug.",
       "Recommended habitats: Windmill Plains and Thunder Arena.",
       "Related guides: Best Habitat for Each Pokemon Type, Thunder Arena Unlock and Strategy, and Electric-Type Speed Demon Build.",
-      "Best use case: players searching for Thunder Strike recipe, Thunder Strike effect, or when to use Thunder Strike in Pokopia."
+      "Best for: players deciding whether Thunder Strike fits their next route, buff window, or farming target."
     ],
     "alternatives": [
       "Fire Boost: use when +30% Fire damage is more useful than +40% electric damage.",
@@ -511,7 +511,7 @@
       "Recommended Pokemon: Tidlet, Glacior, Frostbite, and Snorizard.",
       "Recommended habitats: Frost Peak and Crystal Cave.",
       "Related guides: Best Habitat for Each Pokemon Type and Frost Peak Exploration Guide.",
-      "Best use case: players searching for Ice Armor recipe, Ice Armor effect, or when to use Ice Armor in Pokopia."
+      "Best for: players deciding whether Ice Armor fits their next route, buff window, or farming target."
     ],
     "alternatives": [
       "Guardian Stew: use when +40% defense is more useful than +50% ice resistance.",
@@ -580,7 +580,7 @@
       "Recommended Pokemon: Bulbin, Leafon, Thornvine, Sunflora, Skittlish, and Thornback.",
       "Recommended habitats: Forest Valley, Meadow Garden, and Training Grounds.",
       "Related guides: Beginner's Guide to Training Grounds and Best Grass-Type Pick for Every Team.",
-      "Best use case: players searching for Grass Heal recipe, Grass Heal effect, or when to use Grass Heal in Pokopia."
+      "Best for: players deciding whether Grass Heal fits their next route, buff window, or farming target."
     ],
     "alternatives": [
       "Honey Cake: use when +20% attraction rate is more useful than +30 HP restore.",
@@ -649,7 +649,7 @@
       "Recommended Pokemon: Shados, Shadowclaw, Lunaflare, and Nightfall.",
       "Recommended habitats: Shadow Marsh, Nightmare Forest, and Dark Cavern.",
       "Related guides: Shadow Marsh Complete Guide, Best Habitat for Each Pokemon Type, Ghost-Type Hunting Secrets, Poison-Type Team Analysis, and Nightmare Forest Horror Stories.",
-      "Best use case: players searching for Ghost Veil recipe, Ghost Veil effect, or when to use Ghost Veil in Pokopia."
+      "Best for: players deciding whether Ghost Veil fits their next route, buff window, or farming target."
     ],
     "alternatives": [
       "Fire Boost: use when +30% Fire damage is more useful than +45% ghost damage.",
@@ -718,7 +718,7 @@
       "Recommended Pokemon: Voltscale, Snorizard, and Primordion.",
       "Recommended habitats: Thunder Arena and Dragon's Den.",
       "Related guides: Dragon-Type Mastery Guide and How to Unlock Dragon's Den.",
-      "Best use case: players searching for Dragon's Fury recipe, Dragon's Fury effect, or when to use Dragon's Fury in Pokopia."
+      "Best for: players deciding whether Dragon's Fury fits their next route, buff window, or farming target."
     ],
     "alternatives": [
       "Fire Boost: use when +30% Fire damage is more useful than +35% dragon damage.",
@@ -787,7 +787,7 @@
       "Recommended Pokemon: Flamexor, Mechabit, Bronzorm, Ironclaw, and Stormbird.",
       "Recommended habitats: Industrial Zone, Ancient Ruins, Dragon's Den, and Volcanic Cave.",
       "Related guides: Best Defense Team Build, Gemstone Canyon Mining Guide, Steel-Type硬核Build攻略, and Ultimate Endgame Build Compilation.",
-      "Best use case: players searching for Steel Shell recipe, Steel Shell effect, or when to use Steel Shell in Pokopia."
+      "Best when hard habitats are failing because the team cannot survive the dangerous room."
     ],
     "alternatives": [
       "Guardian Stew: use when +40% defense is more useful than +60% defense.",
@@ -856,7 +856,7 @@
       "Recommended Pokemon: Breezel, Flamingo, Tropius, and Windlor.",
       "Recommended habitats: Sky Isles.",
       "Related guides: Sky Isles and Flying-Type Guide.",
-      "Best use case: players searching for Flying High recipe, Flying High effect, or when to use Flying High in Pokopia."
+      "Best for: players deciding whether Flying High fits their next route, buff window, or farming target."
     ],
     "alternatives": [
       "Fire Boost: use when +30% Fire damage is more useful than +30% flying damage.",
@@ -925,7 +925,7 @@
       "Recommended Pokemon: Rockler, Mudkipz, Stealthfin, and Boulderchin.",
       "Recommended habitats: Gemstone Canyon and Muddy River.",
       "Related guides: Mudstone River Habitat Guide.",
-      "Best use case: players searching for Muddy Swirl recipe, Muddy Swirl effect, or when to use Muddy Swirl in Pokopia."
+      "Best for: players deciding whether Muddy Swirl fits their next route, buff window, or farming target."
     ],
     "alternatives": [
       "Fire Boost: use when +30% Fire damage is more useful than +25% ground damage.",
@@ -994,7 +994,7 @@
       "Recommended Pokemon: Flamexor, Voltscale, Shadowclaw, Primordion, and Bronzorm.",
       "Recommended habitats: Volcanic Cave, Shadow Marsh, Ancient Ruins, and Dragon's Den.",
       "Related guides: Complete Recipe List and Effects.",
-      "Best use case: players searching for Mega Restore recipe, Mega Restore effect, or when to use Mega Restore in Pokopia."
+      "Best when a long route or legendary attempt is worth saving from one bad turn."
     ],
     "alternatives": [
       "Guardian Stew: use when +40% defense is more useful than Full HP restore.",
