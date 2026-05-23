@@ -4,7 +4,7 @@ import { DataStatus } from '@/components/content/DataStatus'
 import { OfficialContext } from '@/components/content/OfficialContext'
 
 export const metadata: Metadata = {
-  title: 'Community Guidelines | Pokopia Portal',
+  title: 'Community Guidelines',
   description: 'Read Pokopia Portal community contribution guidelines, source rules, and future submission standards.',
   alternates: {
     canonical: canonicalUrl('/community'),

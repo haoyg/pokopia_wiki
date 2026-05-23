@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     default: 'Pokopia Portal',
     template: '%s | Pokopia Portal',
   },
-  description: 'Your ultimate Pokopia wiki - guides, Pokemon database, habitat maps, recipes, and community builds.',
+  description: 'Independent Pokopia wiki with official source roundups, guides, Pokemon database pages, habitat notes, recipes, and planning tools.',
   keywords: [
     'Pokopia',
     'Pokopia wiki',
@@ -34,8 +34,8 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     siteName: 'Pokopia Portal',
-    title: 'Pokopia Portal - Your Ultimate Gaming Wiki',
-    description: 'Guides, Pokemon database, habitat maps, recipes, and community builds for Pokopia.',
+    title: 'Pokopia Portal - Pokopia Wiki, Guides, and Source Notes',
+    description: 'Official source roundups, guides, Pokemon database pages, habitat notes, recipes, and tools for Pokopia.',
     images: [
       {
         url: '/og-image.svg',
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Pokopia Portal',
-    description: 'Your ultimate Pokopia wiki - guides, Pokemon database, and more.',
+    description: 'Pokopia wiki with official source notes, guides, Pokemon database pages, recipes, and tools.',
     images: ['/og-image.svg'],
   },
   robots: {

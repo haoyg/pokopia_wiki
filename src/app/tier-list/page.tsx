@@ -77,10 +77,10 @@ const roleEmoji: Record<string, string> = {
 }
 
 export const metadata: Metadata = {
-  title: 'Pokemon Priority Index | Pokopia Portal',
+  title: 'Pokemon Priority Index',
   description: 'Browse an editorial Pokemon priority index based on current site database fields such as rarity and role.',
   openGraph: {
-    title: 'Pokemon Priority Index | Pokopia Portal',
+    title: 'Pokemon Priority Index',
     description: 'Browse an editorial Pokemon priority index based on rarity and role data.',
     images: ['/og-image.svg'],
   },

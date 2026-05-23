@@ -12,11 +12,11 @@ const categoryLabels: Record<string, string> = {
 }
 
 export const metadata: Metadata = {
-  title: 'Game Guides & Tutorials | Pokopia Portal',
-  description: 'Master Pokopia with our comprehensive game guides. Tier lists, farming tips, team builds, and strategy guides for all players.',
+  title: 'Pokopia Guides and Route Notes',
+  description: 'Read source-aware Pokopia guides for starter choices, habitat routes, farming plans, recipes, and editorial team planning.',
   openGraph: {
-    title: 'Game Guides | Pokopia Portal',
-    description: 'Master Pokopia with our comprehensive game guides. Tier lists, farming tips, team builds, and strategy guides.',
+    title: 'Pokopia Guides and Route Notes',
+    description: 'Source-aware Pokopia guides for routes, farming, recipes, and team planning.',
     images: ['/og-image.svg'],
   },
   alternates: {

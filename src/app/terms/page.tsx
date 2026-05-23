@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import { canonicalUrl } from '@/lib/site'
 
 export const metadata: Metadata = {
-  title: 'Terms of Use | Pokopia Portal',
+  title: 'Terms of Use',
   description: 'Read the Pokopia Portal terms of use for site content, guides, tools, community submissions, and disclaimers.',
   alternates: {
     canonical: canonicalUrl('/terms'),

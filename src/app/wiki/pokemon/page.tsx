@@ -4,11 +4,11 @@ import { canonicalUrl } from '@/lib/site'
 import { CreditedImage } from '@/components/media/CreditedImage'
 
 export const metadata: Metadata = {
-  title: 'Pokemon Database | Pokopia Portal',
-  description: 'Browse all Pokemon in Pokopia. View stats, abilities, habitats, drops, and best builds for every creature.',
+  title: 'Pokemon Database',
+  description: 'Browse Pokopia Pokemon entries with types, rarity, habitats, food, drops, and editorial route notes.',
   openGraph: {
-    title: 'Pokemon Database | Pokopia Portal',
-    description: 'Browse all Pokemon in Pokopia. View stats, abilities, habitats, drops, and best builds.',
+    title: 'Pokemon Database',
+    description: 'Browse Pokopia Pokemon entries with types, rarity, habitats, food, and drops.',
     images: ['/og-image.svg'],
   },
   alternates: {

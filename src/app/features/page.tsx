@@ -41,7 +41,7 @@ export const metadata: Metadata = {
   title: 'Features & Official Context',
   description: 'Official-context features and editorial explainers for Pokémon Pokopia systems, gameplay, multiplayer, and beginner planning.',
   openGraph: {
-    title: 'Features & Official Context | Pokopia Portal',
+    title: 'Features and Official Context',
     description: 'Source-aware features and editorial explainers for Pokémon Pokopia.',
     images: ['/og-image.svg'],
   },

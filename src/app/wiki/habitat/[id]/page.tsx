@@ -4,6 +4,7 @@ import pokemonData from '@/data/pokemon.json'
 import guidesData from '@/data/guides.json'
 import recipesData from '@/data/recipes.json'
 import { canonicalUrl } from '@/lib/site'
+import { habitatMetaDescription, habitatMetaTitle } from '@/lib/seoText'
 import { CreditedImage } from '@/components/media/CreditedImage'
 import { BreadcrumbJsonLd, FAQJsonLd, WikiPageJsonLd } from '@/components/seo/JsonLd'
 import { DataStatus } from '@/components/content/DataStatus'
@@ -22,12 +23,13 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { id } = await params
   const habitat = habitatsData.find((h) => h.id === id)
-  const description = habitat?.overview || `${habitat?.name} - ${habitat?.unlock_condition}. ${habitat?.resource_bonus}`
+  const title = habitat ? habitatMetaTitle(habitat) : 'Habitat Not Found'
+  const description = habitat ? habitatMetaDescription(habitat) : undefined
   return {
-    title: habitat ? `${habitat.name} Unlock, Spawns & Farming Route` : 'Habitat Not Found',
+    title,
     description,
     openGraph: {
-      title: habitat ? `${habitat.name} - Pokopia Portal` : 'Habitat Not Found',
+      title,
       description,
       images: habitat?.image_source ? [habitat.image_url] : ['/og-image.svg'],
     },

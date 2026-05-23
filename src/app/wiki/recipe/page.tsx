@@ -8,11 +8,11 @@ const rarityLabels: Record<string, string> = {
 }
 
 export const metadata: Metadata = {
-  title: 'Recipe Cookbook & Buffs | Pokopia Portal',
-  description: 'Discover all recipes in Pokopia. Learn ingredient combinations, buff effects, durations, and best use cases.',
+  title: 'Recipe Cookbook and Buff Notes',
+  description: 'Browse Pokopia recipes with ingredients, buff effects, durations, rarity, timing notes, and related route planning links.',
   openGraph: {
-    title: 'Recipes | Pokopia Portal',
-    description: 'Discover all recipes in Pokopia. Learn ingredient combinations and buff effects.',
+    title: 'Recipe Cookbook and Buff Notes',
+    description: 'Browse Pokopia recipes with ingredients, buff effects, durations, and route notes.',
     images: ['/og-image.svg'],
   },
   alternates: {

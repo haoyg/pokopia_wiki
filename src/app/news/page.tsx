@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   title: 'Official News & Source Updates',
   description: 'Official Pokémon Pokopia source roundups, trailer notes, Nintendo updates, and Pokopia Portal site transparency updates.',
   openGraph: {
-    title: 'Official News & Source Updates | Pokopia Portal',
+    title: 'Official News & Source Updates',
     description: 'Source-based Pokémon Pokopia news tracking and official information roundups.',
     images: ['/og-image.svg'],
   },

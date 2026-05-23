@@ -8,11 +8,11 @@ const difficultyEmoji: Record<string, string> = {
 }
 
 export const metadata: Metadata = {
-  title: 'Habitat Maps & Locations | Pokopia Portal',
-  description: 'Explore all habitats in Pokopia. Find unlock conditions, difficulty ratings, resource bonuses, and recommended builds.',
+  title: 'Habitat Maps and Route Notes',
+  description: 'Explore Pokopia habitats with unlock conditions, weather, difficulty, resource bonuses, spawn lists, and editorial route notes.',
   openGraph: {
-    title: 'Habitats | Pokopia Portal',
-    description: 'Explore all habitats in Pokopia. Find unlock conditions, difficulty ratings, and resource bonuses.',
+    title: 'Habitat Maps and Route Notes',
+    description: 'Explore Pokopia habitats with unlocks, weather, difficulty, resources, and spawns.',
     images: ['/og-image.svg'],
   },
   alternates: {

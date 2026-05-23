@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import { canonicalUrl } from '@/lib/site'
 
 export const metadata: Metadata = {
-  title: 'Copyright & Content Removal | Pokopia Portal',
+  title: 'Copyright and Content Removal',
   description: 'Copyright, trademark, image source, and content removal information for Pokopia Portal.',
   alternates: {
     canonical: canonicalUrl('/copyright'),

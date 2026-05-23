@@ -3,10 +3,10 @@ import { SpawnTracker } from '@/components/tools/SpawnTracker'
 import { canonicalUrl } from '@/lib/site'
 
 export const metadata: Metadata = {
-  title: 'Spawn Tracker | Pokopia Portal',
+  title: 'Spawn Tracker',
   description: 'Track Pokopia Pokemon spawn conditions by habitat, weather, time, rarity, food, and drops.',
   openGraph: {
-    title: 'Spawn Tracker | Pokopia Portal',
+    title: 'Spawn Tracker',
     description: 'Track Pokemon spawn conditions by habitat, weather, time, rarity, food, and drops.',
     images: ['/og-image.svg'],
   },

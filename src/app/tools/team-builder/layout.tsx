@@ -2,8 +2,8 @@ import type { Metadata } from 'next'
 import { canonicalUrl } from '@/lib/site'
 
 export const metadata: Metadata = {
-  title: 'Team Builder | Pokopia Portal',
-  description: 'Build and compare Pokopia teams by role, type, and recommended team templates.',
+  title: 'Team Builder',
+  description: 'Draft Pokopia teams by role, type, rarity, and database-based planning notes.',
   alternates: {
     canonical: canonicalUrl('/tools/team-builder'),
   },

@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import { canonicalUrl } from '@/lib/site'
 
 export const metadata: Metadata = {
-  title: 'Habitat Planner | Pokopia Portal',
+  title: 'Habitat Planner',
   description: 'Plan Pokopia habitat progression by player level, difficulty, and weather.',
   alternates: {
     canonical: canonicalUrl('/tools/habitat-planner'),

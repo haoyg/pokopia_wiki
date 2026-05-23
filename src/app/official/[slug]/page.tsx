@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import officialData from '@/data/official.json'
 import { canonicalUrl } from '@/lib/site'
+import { cleanDescription, cleanTitle } from '@/lib/seoText'
 import { DataStatus } from '@/components/content/DataStatus'
 import { BreadcrumbJsonLd } from '@/components/seo/JsonLd'
 
@@ -20,20 +21,22 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const page = officialData.find((item) => item.slug === slug)
 
   if (!page) return { title: 'Official Info Not Found' }
+  const title = cleanTitle(page.title)
+  const description = cleanDescription(page.summary)
 
   return {
-    title: page.title,
-    description: page.summary,
+    title,
+    description,
     openGraph: {
-      title: page.title,
-      description: page.summary,
+      title,
+      description,
       images: ['/og-image.svg'],
       type: 'article',
     },
     twitter: {
       card: 'summary_large_image',
-      title: page.title,
-      description: page.summary,
+      title,
+      description,
       images: ['/og-image.svg'],
     },
     alternates: {

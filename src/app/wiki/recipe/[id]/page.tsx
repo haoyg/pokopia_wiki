@@ -4,6 +4,7 @@ import guidesData from '@/data/guides.json'
 import pokemonData from '@/data/pokemon.json'
 import habitatsData from '@/data/habitats.json'
 import { canonicalUrl } from '@/lib/site'
+import { recipeMetaDescription, recipeMetaTitle } from '@/lib/seoText'
 import { CreditedImage } from '@/components/media/CreditedImage'
 import { BreadcrumbJsonLd, FAQJsonLd, WikiPageJsonLd } from '@/components/seo/JsonLd'
 import { DataStatus } from '@/components/content/DataStatus'
@@ -22,12 +23,13 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { id } = await params
   const recipe = recipesData.find((r) => r.id === id)
-  const description = recipe?.overview || (recipe ? `${recipe.name} - ${recipe.buff}` : undefined)
+  const title = recipe ? recipeMetaTitle(recipe) : 'Recipe Not Found'
+  const description = recipe ? recipeMetaDescription(recipe) : undefined
   return {
-    title: recipe ? `${recipe.name} Recipe, Ingredients & Best Use` : 'Recipe Not Found',
+    title,
     description,
     openGraph: {
-      title: recipe ? `${recipe.name} - Pokopia Portal` : 'Recipe Not Found',
+      title,
       description,
       images: recipe?.image_source ? [recipe.image_url] : ['/og-image.svg'],
     },

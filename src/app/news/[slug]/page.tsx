@@ -3,6 +3,7 @@ import newsData from '@/data/news.json'
 import guidesData from '@/data/guides.json'
 import { ArticleJsonLd, BreadcrumbJsonLd } from '@/components/seo/JsonLd'
 import { canonicalUrl } from '@/lib/site'
+import { cleanDescription, cleanTitle } from '@/lib/seoText'
 import { CreditedImage } from '@/components/media/CreditedImage'
 import { DataStatus } from '@/components/content/DataStatus'
 
@@ -27,13 +28,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params
   const news = newsData.find((n) => n.slug === slug)
   if (!news) return { title: 'News Not Found' }
+  const title = cleanTitle(news.title)
+  const description = cleanDescription(news.excerpt)
 
   return {
-    title: news.title,
-    description: news.excerpt,
+    title,
+    description,
     openGraph: {
-      title: news.title,
-      description: news.excerpt,
+      title,
+      description,
       images: news.image_source ? [news.image_url] : ['/og-image.svg'],
       type: 'article',
       publishedTime: new Date(news.published_at * 1000).toISOString(),
@@ -41,8 +44,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     },
     twitter: {
       card: 'summary_large_image',
-      title: news.title,
-      description: news.excerpt,
+      title,
+      description,
       images: news.image_source ? [news.image_url] : ['/og-image.svg'],
     },
     alternates: {

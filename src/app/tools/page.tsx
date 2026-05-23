@@ -2,10 +2,10 @@ import { Metadata } from 'next'
 import { canonicalUrl } from '@/lib/site'
 
 export const metadata: Metadata = {
-  title: 'Game Tools & Calculators | Pokopia Portal',
+  title: 'Pokopia Tools and Calculators',
   description: 'Use Pokopia database tools for habitat planning, recipe lookup, team notes, and spawn filtering.',
   openGraph: {
-    title: 'Tools | Pokopia Portal',
+    title: 'Pokopia Tools and Calculators',
     description: 'Use Pokopia database tools for habitat planning, recipe lookup, team notes, and spawn filtering.',
     images: ['/og-image.svg'],
   },

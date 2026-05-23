@@ -17,7 +17,7 @@ export function WebsiteJsonLd() {
     '@type': 'WebSite',
     name: 'Pokopia Portal',
     url: 'https://pokopia.wiki',
-    description: 'Your ultimate Pokopia wiki - guides, Pokemon database, habitat maps, recipes, and community builds.',
+    description: 'Independent Pokopia wiki with official source roundups, guides, Pokemon database pages, habitat notes, recipes, and planning tools.',
     potentialAction: {
       '@type': 'SearchAction',
       target: {

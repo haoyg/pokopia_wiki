@@ -5,17 +5,13 @@ import pokemonData from '@/data/pokemon.json'
 import recipesData from '@/data/recipes.json'
 import { ArticleJsonLd, BreadcrumbJsonLd, FAQJsonLd } from '@/components/seo/JsonLd'
 import { canonicalUrl } from '@/lib/site'
+import { cleanDescription, cleanTitle } from '@/lib/seoText'
 import { CreditedImage } from '@/components/media/CreditedImage'
 import { DataStatus } from '@/components/content/DataStatus'
 import { OfficialContext } from '@/components/content/OfficialContext'
 
 interface Props {
   params: Promise<{ slug: string }>
-}
-
-function metaDescription(text: string) {
-  if (text.length <= 155) return text
-  return `${text.slice(0, 152).trim()}...`
 }
 
 export async function generateStaticParams() {
@@ -28,20 +24,21 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params
   const guide = guidesData.find((g) => g.slug === slug)
   if (!guide) return { title: 'Guide Not Found' }
-  const description = metaDescription(guide.answer || guide.seo_keyword)
+  const title = cleanTitle(guide.title)
+  const description = cleanDescription(guide.answer || guide.seo_keyword)
 
   return {
-    title: guide.title,
+    title,
     description,
     openGraph: {
-      title: guide.title,
+      title,
       description,
       images: guide.image_source ? [guide.image_url] : ['/og-image.svg'],
       type: 'article',
     },
     twitter: {
       card: 'summary_large_image',
-      title: guide.title,
+      title,
       description,
       images: guide.image_source ? [guide.image_url] : ['/og-image.svg'],
     },
