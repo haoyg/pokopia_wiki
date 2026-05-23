@@ -47,6 +47,7 @@ export function ArticleJsonLd({
   url,
   publishedAt,
   modifiedAt,
+  image,
   author,
   type = 'Article',
 }: {
@@ -55,6 +56,7 @@ export function ArticleJsonLd({
   url: string
   publishedAt: string
   modifiedAt?: string
+  image?: string
   author?: string
   type?: 'Article' | 'NewsArticle' | 'Guide'
 }) {
@@ -64,6 +66,7 @@ export function ArticleJsonLd({
     headline: title,
     description,
     url: `https://pokopia.wiki${url}`,
+    ...(image ? { image } : {}),
     datePublished: publishedAt,
     dateModified: modifiedAt || publishedAt,
     author: {
@@ -84,6 +87,73 @@ export function ArticleJsonLd({
       '@type': 'WebPage',
       '@id': `https://pokopia.wiki${url}`,
     },
+  }
+
+  return <JsonLd data={jsonLd} />
+}
+
+export function BreadcrumbJsonLd({
+  items,
+}: {
+  items: { name: string; url: string }[]
+}) {
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: items.map((item, index) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      name: item.name,
+      item: `https://pokopia.wiki${item.url}`,
+    })),
+  }
+
+  return <JsonLd data={jsonLd} />
+}
+
+export function WikiPageJsonLd({
+  name,
+  description,
+  url,
+  pageType,
+  image,
+  dateModified,
+  properties,
+}: {
+  name: string
+  description?: string
+  url: string
+  pageType: 'Pokemon' | 'Habitat' | 'Recipe'
+  image?: string
+  dateModified?: string
+  properties?: { name: string; value: string }[]
+}) {
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    name,
+    description,
+    url: `https://pokopia.wiki${url}`,
+    ...(image ? { image } : {}),
+    ...(dateModified ? { dateModified } : {}),
+    isPartOf: {
+      '@type': 'WebSite',
+      name: 'Pokopia Portal',
+      url: 'https://pokopia.wiki',
+    },
+    about: {
+      '@type': 'Thing',
+      name,
+      description,
+      additionalType: `https://pokopia.wiki/schema/${pageType.toLowerCase()}`,
+    },
+    ...(properties && properties.length > 0 ? {
+      additionalProperty: properties.map((property) => ({
+        '@type': 'PropertyValue',
+        name: property.name,
+        value: property.value,
+      })),
+    } : {}),
   }
 
   return <JsonLd data={jsonLd} />

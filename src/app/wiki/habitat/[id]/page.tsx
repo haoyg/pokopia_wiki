@@ -5,7 +5,7 @@ import guidesData from '@/data/guides.json'
 import recipesData from '@/data/recipes.json'
 import { canonicalUrl } from '@/lib/site'
 import { CreditedImage } from '@/components/media/CreditedImage'
-import { FAQJsonLd } from '@/components/seo/JsonLd'
+import { BreadcrumbJsonLd, FAQJsonLd, WikiPageJsonLd } from '@/components/seo/JsonLd'
 import { DataStatus } from '@/components/content/DataStatus'
 import { OfficialContext } from '@/components/content/OfficialContext'
 
@@ -56,9 +56,33 @@ export default async function HabitatDetailPage({ params }: Props) {
     month: 'long',
     day: 'numeric',
   }) : null
+  const modifiedAt = habitat.updated_at ? new Date(habitat.updated_at).toISOString() : undefined
 
   return (
     <main style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
+      <WikiPageJsonLd
+        name={habitat.name}
+        description={habitat.overview}
+        url={`/wiki/habitat/${habitat.id}`}
+        pageType="Habitat"
+        image={habitat.image_source ? habitat.image_url : undefined}
+        dateModified={modifiedAt}
+        properties={[
+          { name: 'Unlock Condition', value: habitat.unlock_condition },
+          { name: 'Weather', value: habitat.weather },
+          { name: 'Difficulty', value: habitat.difficulty },
+          { name: 'Resource Bonus', value: habitat.resource_bonus },
+          { name: 'Pokemon Spawns', value: relatedPokemon.map((p) => p.name).join(', ') },
+          ...(recommendedRecipe ? [{ name: 'Recommended Recipe', value: recommendedRecipe.name }] : []),
+        ]}
+      />
+      <BreadcrumbJsonLd
+        items={[
+          { name: 'Home', url: '/' },
+          { name: 'Habitats', url: '/wiki/habitat' },
+          { name: habitat.name, url: `/wiki/habitat/${habitat.id}` },
+        ]}
+      />
       {habitat.faqs && habitat.faqs.length > 0 && <FAQJsonLd faqs={habitat.faqs} title={habitat.name} />}
       <h1>{habitat.name}</h1>
       <p>{habitat.unlock_condition}</p>

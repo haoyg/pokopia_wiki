@@ -3,6 +3,7 @@ import Link from 'next/link'
 import officialData from '@/data/official.json'
 import { canonicalUrl } from '@/lib/site'
 import { DataStatus } from '@/components/content/DataStatus'
+import { BreadcrumbJsonLd } from '@/components/seo/JsonLd'
 
 interface Props {
   params: Promise<{ slug: string }>
@@ -56,7 +57,15 @@ export default async function OfficialInfoDetailPage({ params }: Props) {
   })
 
   return (
-    <main style={{ maxWidth: '850px', margin: '0 auto', padding: '2rem 1rem' }}>
+    <>
+      <BreadcrumbJsonLd
+        items={[
+          { name: 'Home', url: '/' },
+          { name: 'Official Info', url: '/official' },
+          { name: page.title, url: `/official/${page.slug}` },
+        ]}
+      />
+      <main style={{ maxWidth: '850px', margin: '0 auto', padding: '2rem 1rem' }}>
       <article>
         <span className="badge announcement">{page.category}</span>
         <h1 style={{ marginTop: '1rem' }}>{page.title}</h1>
@@ -120,6 +129,7 @@ export default async function OfficialInfoDetailPage({ params }: Props) {
           </Link>
         </div>
       </aside>
-    </main>
+      </main>
+    </>
   )
 }

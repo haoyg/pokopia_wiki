@@ -5,7 +5,7 @@ import newsData from '@/data/news.json'
 import habitatsData from '@/data/habitats.json'
 import { canonicalUrl } from '@/lib/site'
 import { CreditedImage } from '@/components/media/CreditedImage'
-import { FAQJsonLd } from '@/components/seo/JsonLd'
+import { BreadcrumbJsonLd, FAQJsonLd, WikiPageJsonLd } from '@/components/seo/JsonLd'
 import { DataStatus } from '@/components/content/DataStatus'
 import { OfficialContext } from '@/components/content/OfficialContext'
 
@@ -55,9 +55,35 @@ export default async function PokemonDetailPage({ params }: Props) {
     month: 'long',
     day: 'numeric',
   }) : null
+  const modifiedAt = pokemon.updated_at ? new Date(pokemon.updated_at).toISOString() : undefined
 
   return (
     <main>
+      <WikiPageJsonLd
+        name={pokemon.name}
+        description={pokemon.overview || pokemon.description}
+        url={`/wiki/pokemon/${pokemon.id}`}
+        pageType="Pokemon"
+        image={pokemon.image_source ? pokemon.image_url : undefined}
+        dateModified={modifiedAt}
+        properties={[
+          { name: 'Type', value: pokemon.type },
+          { name: 'Rarity', value: pokemon.rarity },
+          { name: 'Habitat', value: habitat?.name || pokemon.habitat },
+          { name: 'Favorite Food', value: pokemon.favorite_food },
+          { name: 'Spawn Time', value: pokemon.spawn_time },
+          { name: 'Weather', value: pokemon.weather },
+          { name: 'Specialty', value: pokemon.specialty },
+          { name: 'Drops', value: Array.isArray(pokemon.drops) ? pokemon.drops.join(', ') : pokemon.drops },
+        ]}
+      />
+      <BreadcrumbJsonLd
+        items={[
+          { name: 'Home', url: '/' },
+          { name: 'Pokemon Database', url: '/wiki/pokemon' },
+          { name: pokemon.name, url: `/wiki/pokemon/${pokemon.id}` },
+        ]}
+      />
       {pokemon.faqs && pokemon.faqs.length > 0 && <FAQJsonLd faqs={pokemon.faqs} title={pokemon.name} />}
       <article style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
         <div className="pokemon-detail-hero">

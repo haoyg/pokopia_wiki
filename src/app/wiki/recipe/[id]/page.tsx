@@ -5,7 +5,7 @@ import pokemonData from '@/data/pokemon.json'
 import habitatsData from '@/data/habitats.json'
 import { canonicalUrl } from '@/lib/site'
 import { CreditedImage } from '@/components/media/CreditedImage'
-import { FAQJsonLd } from '@/components/seo/JsonLd'
+import { BreadcrumbJsonLd, FAQJsonLd, WikiPageJsonLd } from '@/components/seo/JsonLd'
 import { DataStatus } from '@/components/content/DataStatus'
 import { OfficialContext } from '@/components/content/OfficialContext'
 
@@ -57,9 +57,32 @@ export default async function RecipeDetailPage({ params }: Props) {
     month: 'long',
     day: 'numeric',
   }) : null
+  const modifiedAt = recipe.updated_at ? new Date(recipe.updated_at).toISOString() : undefined
 
   return (
     <main style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
+      <WikiPageJsonLd
+        name={recipe.name}
+        description={recipe.overview || `${recipe.name} - ${recipe.buff}`}
+        url={`/wiki/recipe/${recipe.id}`}
+        pageType="Recipe"
+        image={recipe.image_source ? recipe.image_url : undefined}
+        dateModified={modifiedAt}
+        properties={[
+          { name: 'Ingredients', value: Array.isArray(recipe.ingredients) ? recipe.ingredients.join(', ') : recipe.ingredients },
+          { name: 'Buff', value: recipe.buff },
+          { name: 'Effect Duration', value: recipe.effect_duration },
+          { name: 'Rarity', value: recipe.rarity },
+          { name: 'Best Use', value: recipe.best_use },
+        ]}
+      />
+      <BreadcrumbJsonLd
+        items={[
+          { name: 'Home', url: '/' },
+          { name: 'Recipes', url: '/wiki/recipe' },
+          { name: recipe.name, url: `/wiki/recipe/${recipe.id}` },
+        ]}
+      />
       {recipe.faqs && recipe.faqs.length > 0 && <FAQJsonLd faqs={recipe.faqs} title={recipe.name} />}
       <h1>{recipe.name}</h1>
       <span className={`rarity ${recipe.rarity}`}>{recipe.rarity}</span>

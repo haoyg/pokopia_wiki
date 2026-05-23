@@ -1,7 +1,7 @@
 import { Metadata } from 'next'
 import newsData from '@/data/news.json'
 import guidesData from '@/data/guides.json'
-import { ArticleJsonLd } from '@/components/seo/JsonLd'
+import { ArticleJsonLd, BreadcrumbJsonLd } from '@/components/seo/JsonLd'
 import { canonicalUrl } from '@/lib/site'
 import { CreditedImage } from '@/components/media/CreditedImage'
 import { DataStatus } from '@/components/content/DataStatus'
@@ -72,7 +72,15 @@ export default async function NewsDetailPage({ params }: Props) {
         description={news.excerpt}
         url={`/news/${news.slug}`}
         publishedAt={new Date(news.published_at * 1000).toISOString()}
+        image={news.image_source ? news.image_url : undefined}
         type="NewsArticle"
+      />
+      <BreadcrumbJsonLd
+        items={[
+          { name: 'Home', url: '/' },
+          { name: 'News', url: '/news' },
+          { name: news.title, url: `/news/${news.slug}` },
+        ]}
       />
       <main style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
         <article>

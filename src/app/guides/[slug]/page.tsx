@@ -3,7 +3,7 @@ import guidesData from '@/data/guides.json'
 import habitatsData from '@/data/habitats.json'
 import pokemonData from '@/data/pokemon.json'
 import recipesData from '@/data/recipes.json'
-import { ArticleJsonLd, FAQJsonLd } from '@/components/seo/JsonLd'
+import { ArticleJsonLd, BreadcrumbJsonLd, FAQJsonLd } from '@/components/seo/JsonLd'
 import { canonicalUrl } from '@/lib/site'
 import { CreditedImage } from '@/components/media/CreditedImage'
 import { DataStatus } from '@/components/content/DataStatus'
@@ -79,7 +79,15 @@ export default async function GuideDetailPage({ params }: Props) {
         url={`/guides/${guide.slug}`}
         publishedAt={new Date(publishedAt).toISOString()}
         modifiedAt={new Date(updatedAt).toISOString()}
+        image={guide.image_source ? guide.image_url : undefined}
         type="Article"
+      />
+      <BreadcrumbJsonLd
+        items={[
+          { name: 'Home', url: '/' },
+          { name: 'Guides', url: '/guides' },
+          { name: guide.title, url: `/guides/${guide.slug}` },
+        ]}
       />
       {guide.faqs?.length > 0 && <FAQJsonLd title={guide.title} faqs={guide.faqs} />}
       <main style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
