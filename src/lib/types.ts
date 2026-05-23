@@ -11,6 +11,17 @@ export interface Pokemon {
   skills: string[]
   drops: string[]
   description: string
+  overview?: string
+  how_to_get?: string[]
+  best_use?: string[]
+  team_tips?: string[]
+  farming_notes?: string[]
+  common_mistakes?: string[]
+  faqs?: {
+    question: string
+    answer: string
+  }[]
+  updated_at?: string
   image_url?: string
   image_alt?: string
   image_source?: string
