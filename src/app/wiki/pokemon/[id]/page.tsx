@@ -7,6 +7,7 @@ import { canonicalUrl } from '@/lib/site'
 import { CreditedImage } from '@/components/media/CreditedImage'
 import { FAQJsonLd } from '@/components/seo/JsonLd'
 import { DataStatus } from '@/components/content/DataStatus'
+import { OfficialContext } from '@/components/content/OfficialContext'
 
 interface Props {
   params: Promise<{ id: string }>
@@ -67,6 +68,14 @@ export default async function PokemonDetailPage({ params }: Props) {
             <span className={`rarity ${pokemon.rarity}`}>{pokemon.rarity}</span>
             {updatedAt && <p style={{ color: '#777', fontSize: '0.875rem', marginTop: '0.75rem' }}>Updated {updatedAt}</p>}
             <DataStatus status={pokemon.data_status} note={pokemon.data_status_note} updatedAt={updatedAt} />
+            <OfficialContext
+              title="Confirmed Gameplay Context"
+              description="Pokémon pages include editorial database notes. Use the official gameplay overview for confirmed systems such as Ditto, moves, crafting, and exploration."
+              links={[
+                { href: '/official/gameplay-overview', label: 'Gameplay overview' },
+                { href: '/official/official-beginner-tips', label: 'Official tips' },
+              ]}
+            />
           </div>
         </div>
 

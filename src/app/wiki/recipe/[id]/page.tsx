@@ -7,6 +7,7 @@ import { canonicalUrl } from '@/lib/site'
 import { CreditedImage } from '@/components/media/CreditedImage'
 import { FAQJsonLd } from '@/components/seo/JsonLd'
 import { DataStatus } from '@/components/content/DataStatus'
+import { OfficialContext } from '@/components/content/OfficialContext'
 
 interface Props {
   params: Promise<{ id: string }>
@@ -64,6 +65,14 @@ export default async function RecipeDetailPage({ params }: Props) {
       <span className={`rarity ${recipe.rarity}`}>{recipe.rarity}</span>
       {updatedAt && <p style={{ color: '#777', fontSize: '0.875rem', marginTop: '0.5rem' }}>Updated {updatedAt}</p>}
       <DataStatus status={recipe.data_status} note={recipe.data_status_note} updatedAt={updatedAt} />
+      <OfficialContext
+        title="Official Food and Move Context"
+        description="Recipe recommendations are editorial. Nintendo's official tips explain how food can power up Ditto's moves and support exploration."
+        links={[
+          { href: '/official/official-beginner-tips', label: 'Official tips' },
+          { href: '/official/gameplay-overview', label: 'Gameplay overview' },
+        ]}
+      />
       <CreditedImage src={recipe.image_url} alt={recipe.image_alt || recipe.name} source={recipe.image_source} sourceUrl={recipe.image_source_url} className="article-cover" sizes="(max-width: 768px) 100vw, 800px" priority />
 
       <section style={{ padding: 0, marginTop: '2rem' }}>

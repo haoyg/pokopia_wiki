@@ -2,6 +2,7 @@ import { Metadata } from 'next'
 import guidesData from '@/data/guides.json'
 import { canonicalUrl } from '@/lib/site'
 import { CreditedImage } from '@/components/media/CreditedImage'
+import { OfficialContext } from '@/components/content/OfficialContext'
 
 const categoryLabels: Record<string, string> = {
   tier: 'Tier',
@@ -30,6 +31,11 @@ export default function GuidesPage() {
         <h1>Guides</h1>
         <p>Game guides and tutorials</p>
       </section>
+
+      <OfficialContext
+        title="Check Confirmed Systems First"
+        description="Use official source pages for confirmed gameplay, release, and beginner details. Individual guides add editorial route advice on top of that baseline."
+      />
 
       <div className="guides-grid">
         {guidesData.map((guide) => (

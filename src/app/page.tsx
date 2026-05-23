@@ -4,6 +4,7 @@ import guidesData from '@/data/guides.json'
 import pokemonData from '@/data/pokemon.json'
 import { canonicalUrl } from '@/lib/site'
 import { CreditedImage } from '@/components/media/CreditedImage'
+import { OfficialContext } from '@/components/content/OfficialContext'
 
 export const metadata: Metadata = {
   alternates: {
@@ -82,6 +83,18 @@ export default function Home() {
             </a>
           ))}
         </div>
+      </section>
+
+      <section>
+        <OfficialContext
+          title="Start With Confirmed Pokopia Info"
+          description="Official pages collect release, gameplay, multiplayer, and beginner details from Nintendo and Pokémon sources before you move into editorial guides."
+          links={[
+            { href: '/official/gameplay-overview', label: 'Gameplay overview' },
+            { href: '/official/multiplayer-gameshare-cloud-island', label: 'Multiplayer' },
+            { href: '/official/release-date-platform-price', label: 'Release details' },
+          ]}
+        />
       </section>
 
       <section>

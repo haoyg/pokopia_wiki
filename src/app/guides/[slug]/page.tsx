@@ -7,6 +7,7 @@ import { ArticleJsonLd, FAQJsonLd } from '@/components/seo/JsonLd'
 import { canonicalUrl } from '@/lib/site'
 import { CreditedImage } from '@/components/media/CreditedImage'
 import { DataStatus } from '@/components/content/DataStatus'
+import { OfficialContext } from '@/components/content/OfficialContext'
 
 interface Props {
   params: Promise<{ slug: string }>
@@ -93,6 +94,10 @@ export default async function GuideDetailPage({ params }: Props) {
             status={guide.data_status}
             note={guide.data_status_note}
             updatedAt={new Date(updatedAt).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+          />
+          <OfficialContext
+            title="Official Baseline for This Guide"
+            description="This guide contains editorial route advice. For confirmed Pokémon Pokopia systems, check the official-source pages first."
           />
           <CreditedImage src={guide.image_url} alt={guide.image_alt} source={guide.image_source} sourceUrl={guide.image_source_url} className="article-cover" sizes="(max-width: 768px) 100vw, 800px" priority />
 
