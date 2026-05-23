@@ -37,6 +37,19 @@ export interface Habitat {
   weather: string
   difficulty: 'easy' | 'medium' | 'hard'
   resource_bonus: string
+  overview?: string
+  unlock_steps?: string[]
+  recommended_team?: string[]
+  farming_route?: string[]
+  rare_spawns?: string[]
+  resource_notes?: string[]
+  common_mistakes?: string[]
+  faqs?: {
+    question: string
+    answer: string
+  }[]
+  recommended_recipe?: string
+  updated_at?: string
   image_url?: string
   image_alt?: string
   image_source?: string
