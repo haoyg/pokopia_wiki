@@ -5,6 +5,7 @@ type CreditedImageProps = {
   alt?: string
   source?: string
   sourceUrl?: string
+  licenseNote?: string
   className?: string
   priority?: boolean
   sizes?: string
@@ -15,6 +16,7 @@ export function CreditedImage({
   alt,
   source,
   sourceUrl,
+  licenseNote,
   className = 'card-cover',
   priority = false,
   sizes = '(max-width: 768px) 100vw, 300px',
@@ -33,7 +35,13 @@ export function CreditedImage({
         )}
       </div>
       <figcaption style={{ color: '#777', fontSize: '0.75rem', lineHeight: 1.5, marginTop: '0.35rem' }}>
-        图片来源：{sourceUrl ? <a href={sourceUrl} rel="nofollow noopener noreferrer" target="_blank">{source}</a> : source}
+        <span>
+          图片来源：{sourceUrl ? <a href={sourceUrl} rel="nofollow noopener noreferrer" target="_blank">{source}</a> : source}
+        </span>
+        <br />
+        <span>
+          使用说明：{licenseNote || 'Source credited for editorial identification and informational context.'}
+        </span>
       </figcaption>
     </figure>
   )

@@ -73,7 +73,7 @@ export default async function RecipeDetailPage({ params }: Props) {
           { href: '/official/gameplay-overview', label: 'Gameplay overview' },
         ]}
       />
-      <CreditedImage src={recipe.image_url} alt={recipe.image_alt || recipe.name} source={recipe.image_source} sourceUrl={recipe.image_source_url} className="article-cover" sizes="(max-width: 768px) 100vw, 800px" priority />
+      <CreditedImage src={recipe.image_url} alt={recipe.image_alt || recipe.name} source={recipe.image_source} sourceUrl={recipe.image_source_url} licenseNote={recipe.image_license_note} className="article-cover" sizes="(max-width: 768px) 100vw, 800px" priority />
 
       <section style={{ padding: 0, marginTop: '2rem' }}>
         <h2>{recipe.name} Overview</h2>

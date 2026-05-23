@@ -29,7 +29,7 @@ export default function RecipePage() {
       <div className="pokemon-grid" style={{ marginTop: '2rem' }}>
         {recipesData.map((r) => (
           <a key={r.id} href={`/wiki/recipe/${r.id}`} className="card">
-            <CreditedImage src={r.image_url} alt={r.image_alt || r.name} source={r.image_source} sourceUrl={r.image_source_url} />
+            <CreditedImage src={r.image_url} alt={r.image_alt || r.name} source={r.image_source} sourceUrl={r.image_source_url} licenseNote={r.image_license_note} />
             <h3 style={{ textAlign: 'center', marginTop: '0.5rem' }}>{r.name}</h3>
             <p style={{ textAlign: 'center', color: '#666', fontSize: '0.875rem' }}>{r.buff}</p>
             <div style={{ textAlign: 'center', marginTop: '0.5rem' }}>

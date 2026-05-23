@@ -73,7 +73,7 @@ export default async function HabitatDetailPage({ params }: Props) {
           { href: '/official/official-beginner-tips', label: 'Official tips' },
         ]}
       />
-      <CreditedImage src={habitat.image_url} alt={habitat.image_alt || habitat.name} source={habitat.image_source} sourceUrl={habitat.image_source_url} className="article-cover" sizes="(max-width: 768px) 100vw, 800px" priority />
+      <CreditedImage src={habitat.image_url} alt={habitat.image_alt || habitat.name} source={habitat.image_source} sourceUrl={habitat.image_source_url} licenseNote={habitat.image_license_note} className="article-cover" sizes="(max-width: 768px) 100vw, 800px" priority />
 
       <section style={{ padding: 0, marginTop: '2rem' }}>
         <h2>{habitat.name} Overview</h2>

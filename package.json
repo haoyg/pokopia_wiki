@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "node scripts/generate-search-index.js && next build",
+    "build": "node scripts/check-image-credits.js && node scripts/generate-search-index.js && next build",
     "deploy": "echo \"Cloudflare Pages deploys the out directory automatically after npm run build.\"",
     "preview": "npm run dev"
   },

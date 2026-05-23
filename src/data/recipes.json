@@ -68,7 +68,8 @@
     "related_habitats": "hab002,hab003,hab015,hab020",
     "updated_at": "2026-05-23",
     "data_status": "Editorial recipe reference",
-    "data_status_note": "This recipe page is maintained as an editorial reference. Ingredient routes, buff timing, and recommendations may need review after balance changes."
+    "data_status_note": "This recipe page is maintained as an editorial reference. Ingredient routes, buff timing, and recommendations may need review after balance changes.",
+    "image_license_note": "Official or press screenshot reposted by the credited source. Used here for editorial news, guide, and wiki context with attribution; replace with official-hosted media or licensed player screenshots when available."
   },
   {
     "id": "rec002",
@@ -139,7 +140,8 @@
     "related_habitats": "hab001",
     "updated_at": "2026-05-23",
     "data_status": "Editorial recipe reference",
-    "data_status_note": "This recipe page is maintained as an editorial reference. Ingredient routes, buff timing, and recommendations may need review after balance changes."
+    "data_status_note": "This recipe page is maintained as an editorial reference. Ingredient routes, buff timing, and recommendations may need review after balance changes.",
+    "image_license_note": "Official or press screenshot reposted by the credited source. Used here for editorial news, guide, and wiki context with attribution; replace with official-hosted media or licensed player screenshots when available."
   },
   {
     "id": "rec003",
@@ -210,7 +212,8 @@
     "related_habitats": "hab004,hab012,hab020",
     "updated_at": "2026-05-23",
     "data_status": "Editorial recipe reference",
-    "data_status_note": "This recipe page is maintained as an editorial reference. Ingredient routes, buff timing, and recommendations may need review after balance changes."
+    "data_status_note": "This recipe page is maintained as an editorial reference. Ingredient routes, buff timing, and recommendations may need review after balance changes.",
+    "image_license_note": "Official or press screenshot reposted by the credited source. Used here for editorial news, guide, and wiki context with attribution; replace with official-hosted media or licensed player screenshots when available."
   },
   {
     "id": "rec004",
@@ -281,7 +284,8 @@
     "related_habitats": "hab005,hab010,hab016,hab017",
     "updated_at": "2026-05-23",
     "data_status": "Editorial recipe reference",
-    "data_status_note": "This recipe page is maintained as an editorial reference. Ingredient routes, buff timing, and recommendations may need review after balance changes."
+    "data_status_note": "This recipe page is maintained as an editorial reference. Ingredient routes, buff timing, and recommendations may need review after balance changes.",
+    "image_license_note": "Official or press screenshot reposted by the credited source. Used here for editorial news, guide, and wiki context with attribution; replace with official-hosted media or licensed player screenshots when available."
   },
   {
     "id": "rec005",
@@ -352,7 +356,8 @@
     "related_habitats": "hab001,hab006,hab012,hab014,hab018,hab019",
     "updated_at": "2026-05-23",
     "data_status": "Editorial recipe reference",
-    "data_status_note": "This recipe page is maintained as an editorial reference. Ingredient routes, buff timing, and recommendations may need review after balance changes."
+    "data_status_note": "This recipe page is maintained as an editorial reference. Ingredient routes, buff timing, and recommendations may need review after balance changes.",
+    "image_license_note": "Official or press screenshot reposted by the credited source. Used here for editorial news, guide, and wiki context with attribution; replace with official-hosted media or licensed player screenshots when available."
   },
   {
     "id": "rec006",
@@ -423,7 +428,8 @@
     "related_habitats": "hab003,hab009,hab011",
     "updated_at": "2026-05-23",
     "data_status": "Editorial recipe reference",
-    "data_status_note": "This recipe page is maintained as an editorial reference. Ingredient routes, buff timing, and recommendations may need review after balance changes."
+    "data_status_note": "This recipe page is maintained as an editorial reference. Ingredient routes, buff timing, and recommendations may need review after balance changes.",
+    "image_license_note": "Official or press screenshot reposted by the credited source. Used here for editorial news, guide, and wiki context with attribution; replace with official-hosted media or licensed player screenshots when available."
   },
   {
     "id": "rec007",
@@ -494,7 +500,8 @@
     "related_habitats": "hab004,hab012",
     "updated_at": "2026-05-23",
     "data_status": "Editorial recipe reference",
-    "data_status_note": "This recipe page is maintained as an editorial reference. Ingredient routes, buff timing, and recommendations may need review after balance changes."
+    "data_status_note": "This recipe page is maintained as an editorial reference. Ingredient routes, buff timing, and recommendations may need review after balance changes.",
+    "image_license_note": "Official or press screenshot reposted by the credited source. Used here for editorial news, guide, and wiki context with attribution; replace with official-hosted media or licensed player screenshots when available."
   },
   {
     "id": "rec008",
@@ -565,7 +572,8 @@
     "related_habitats": "hab005,hab014",
     "updated_at": "2026-05-23",
     "data_status": "Editorial recipe reference",
-    "data_status_note": "This recipe page is maintained as an editorial reference. Ingredient routes, buff timing, and recommendations may need review after balance changes."
+    "data_status_note": "This recipe page is maintained as an editorial reference. Ingredient routes, buff timing, and recommendations may need review after balance changes.",
+    "image_license_note": "Official or press screenshot reposted by the credited source. Used here for editorial news, guide, and wiki context with attribution; replace with official-hosted media or licensed player screenshots when available."
   },
   {
     "id": "rec009",
@@ -636,7 +644,8 @@
     "related_habitats": "hab002,hab015,hab020",
     "updated_at": "2026-05-23",
     "data_status": "Editorial recipe reference",
-    "data_status_note": "This recipe page is maintained as an editorial reference. Ingredient routes, buff timing, and recommendations may need review after balance changes."
+    "data_status_note": "This recipe page is maintained as an editorial reference. Ingredient routes, buff timing, and recommendations may need review after balance changes.",
+    "image_license_note": "Official or press screenshot reposted by the credited source. Used here for editorial news, guide, and wiki context with attribution; replace with official-hosted media or licensed player screenshots when available."
   },
   {
     "id": "rec010",
@@ -707,7 +716,8 @@
     "related_habitats": "hab006,hab017,hab013",
     "updated_at": "2026-05-23",
     "data_status": "Editorial recipe reference",
-    "data_status_note": "This recipe page is maintained as an editorial reference. Ingredient routes, buff timing, and recommendations may need review after balance changes."
+    "data_status_note": "This recipe page is maintained as an editorial reference. Ingredient routes, buff timing, and recommendations may need review after balance changes.",
+    "image_license_note": "Official or press screenshot reposted by the credited source. Used here for editorial news, guide, and wiki context with attribution; replace with official-hosted media or licensed player screenshots when available."
   },
   {
     "id": "rec011",
@@ -778,7 +788,8 @@
     "related_habitats": "hab012,hab018",
     "updated_at": "2026-05-23",
     "data_status": "Editorial recipe reference",
-    "data_status_note": "This recipe page is maintained as an editorial reference. Ingredient routes, buff timing, and recommendations may need review after balance changes."
+    "data_status_note": "This recipe page is maintained as an editorial reference. Ingredient routes, buff timing, and recommendations may need review after balance changes.",
+    "image_license_note": "Official or press screenshot reposted by the credited source. Used here for editorial news, guide, and wiki context with attribution; replace with official-hosted media or licensed player screenshots when available."
   },
   {
     "id": "rec012",
@@ -849,7 +860,8 @@
     "related_habitats": "hab016,hab010,hab018,hab001",
     "updated_at": "2026-05-23",
     "data_status": "Editorial recipe reference",
-    "data_status_note": "This recipe page is maintained as an editorial reference. Ingredient routes, buff timing, and recommendations may need review after balance changes."
+    "data_status_note": "This recipe page is maintained as an editorial reference. Ingredient routes, buff timing, and recommendations may need review after balance changes.",
+    "image_license_note": "Official or press screenshot reposted by the credited source. Used here for editorial news, guide, and wiki context with attribution; replace with official-hosted media or licensed player screenshots when available."
   },
   {
     "id": "rec013",
@@ -920,7 +932,8 @@
     "related_habitats": "hab008",
     "updated_at": "2026-05-23",
     "data_status": "Editorial recipe reference",
-    "data_status_note": "This recipe page is maintained as an editorial reference. Ingredient routes, buff timing, and recommendations may need review after balance changes."
+    "data_status_note": "This recipe page is maintained as an editorial reference. Ingredient routes, buff timing, and recommendations may need review after balance changes.",
+    "image_license_note": "Official or press screenshot reposted by the credited source. Used here for editorial news, guide, and wiki context with attribution; replace with official-hosted media or licensed player screenshots when available."
   },
   {
     "id": "rec014",
@@ -991,7 +1004,8 @@
     "related_habitats": "hab007,hab009",
     "updated_at": "2026-05-23",
     "data_status": "Editorial recipe reference",
-    "data_status_note": "This recipe page is maintained as an editorial reference. Ingredient routes, buff timing, and recommendations may need review after balance changes."
+    "data_status_note": "This recipe page is maintained as an editorial reference. Ingredient routes, buff timing, and recommendations may need review after balance changes.",
+    "image_license_note": "Official or press screenshot reposted by the credited source. Used here for editorial news, guide, and wiki context with attribution; replace with official-hosted media or licensed player screenshots when available."
   },
   {
     "id": "rec015",
@@ -1062,6 +1076,7 @@
     "related_habitats": "hab001,hab006,hab010,hab018",
     "updated_at": "2026-05-23",
     "data_status": "Editorial recipe reference",
-    "data_status_note": "This recipe page is maintained as an editorial reference. Ingredient routes, buff timing, and recommendations may need review after balance changes."
+    "data_status_note": "This recipe page is maintained as an editorial reference. Ingredient routes, buff timing, and recommendations may need review after balance changes.",
+    "image_license_note": "Official or press screenshot reposted by the credited source. Used here for editorial news, guide, and wiki context with attribution; replace with official-hosted media or licensed player screenshots when available."
   }
 ]

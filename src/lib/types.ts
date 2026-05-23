@@ -26,6 +26,7 @@ export interface Pokemon {
   image_alt?: string
   image_source?: string
   image_source_url?: string
+  image_license_note?: string
   data_status?: string
   data_status_note?: string
 }
@@ -56,6 +57,7 @@ export interface Habitat {
   image_alt?: string
   image_source?: string
   image_source_url?: string
+  image_license_note?: string
   data_status?: string
   data_status_note?: string
 }
@@ -85,6 +87,7 @@ export interface Recipe {
   image_alt?: string
   image_source?: string
   image_source_url?: string
+  image_license_note?: string
   data_status?: string
   data_status_note?: string
 }
@@ -110,6 +113,7 @@ export interface Guide {
   image_alt?: string
   image_source?: string
   image_source_url?: string
+  image_license_note?: string
   data_status?: string
   data_status_note?: string
   related_pokemon: string   // CSV string, e.g. "pkm001,pkm002"
@@ -128,6 +132,7 @@ export interface News {
   image_alt?: string
   image_source?: string
   image_source_url?: string
+  image_license_note?: string
   verified_status?: string
   source_label?: string
   source_url?: string

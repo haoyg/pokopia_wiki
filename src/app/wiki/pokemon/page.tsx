@@ -27,7 +27,7 @@ export default function PokemonPage() {
       <div className="pokemon-grid">
         {pokemonData.map((p) => (
           <a key={p.id} href={`/wiki/pokemon/${p.id}`} className="card">
-            <CreditedImage src={p.image_url} alt={p.image_alt || p.type} source={p.image_source} sourceUrl={p.image_source_url} className="card-cover pokemon-cover" sizes="(max-width: 768px) 100px, 200px" />
+            <CreditedImage src={p.image_url} alt={p.image_alt || p.type} source={p.image_source} sourceUrl={p.image_source_url} licenseNote={p.image_license_note} className="card-cover pokemon-cover" sizes="(max-width: 768px) 100px, 200px" />
             <h3 style={{ textAlign: 'center' }}>{p.name}</h3>
             <p style={{ textAlign: 'center', color: '#666', fontSize: '0.875rem' }}>{p.type}</p>
             <div style={{ textAlign: 'center', marginTop: '0.5rem' }}>

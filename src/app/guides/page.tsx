@@ -40,7 +40,7 @@ export default function GuidesPage() {
       <div className="guides-grid">
         {guidesData.map((guide) => (
           <a key={guide.id} href={`/guides/${guide.slug}`} className="card">
-            <CreditedImage src={guide.image_url} alt={guide.image_alt} source={guide.image_source} sourceUrl={guide.image_source_url} />
+            <CreditedImage src={guide.image_url} alt={guide.image_alt} source={guide.image_source} sourceUrl={guide.image_source_url} licenseNote={guide.image_license_note} />
             <span className="badge">{categoryLabels[guide.category] || guide.category}</span>
             <h3>{guide.title}</h3>
             <p>{guide.seo_keyword}</p>
