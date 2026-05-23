@@ -64,6 +64,19 @@ export interface Recipe {
   effect_duration: string
   rarity: 'common' | 'uncommon' | 'rare' | 'legendary'
   best_use: string
+  overview?: string
+  ingredient_route?: string[]
+  best_timing?: string[]
+  recommended_for?: string[]
+  alternatives?: string[]
+  common_mistakes?: string[]
+  faqs?: {
+    question: string
+    answer: string
+  }[]
+  related_pokemon?: string
+  related_habitats?: string
+  updated_at?: string
   image_url?: string
   image_alt?: string
   image_source?: string

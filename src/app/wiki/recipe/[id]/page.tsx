@@ -1,8 +1,11 @@
 import { Metadata } from 'next'
 import recipesData from '@/data/recipes.json'
 import guidesData from '@/data/guides.json'
+import pokemonData from '@/data/pokemon.json'
+import habitatsData from '@/data/habitats.json'
 import { canonicalUrl } from '@/lib/site'
 import { CreditedImage } from '@/components/media/CreditedImage'
+import { FAQJsonLd } from '@/components/seo/JsonLd'
 
 interface Props {
   params: Promise<{ id: string }>
@@ -17,12 +20,13 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { id } = await params
   const recipe = recipesData.find((r) => r.id === id)
+  const description = recipe?.overview || (recipe ? `${recipe.name} - ${recipe.buff}` : undefined)
   return {
-    title: recipe ? `${recipe.name} | Pokopia Portal` : 'Recipe Not Found',
-    description: recipe ? `${recipe.name} - ${recipe.buff}` : undefined,
+    title: recipe ? `${recipe.name} Recipe, Ingredients & Best Use` : 'Recipe Not Found',
+    description,
     openGraph: {
       title: recipe ? `${recipe.name} - Pokopia Portal` : 'Recipe Not Found',
-      description: recipe?.buff,
+      description,
       images: recipe?.image_source ? [recipe.image_url] : ['/og-image.svg'],
     },
     alternates: recipe ? {
@@ -41,35 +45,148 @@ export default async function RecipeDetailPage({ params }: Props) {
 
   const relatedGuides = guidesData.filter((g) =>
     (g.related_items || '').split(',').includes(id)
-  ).slice(0, 3)
+  ).slice(0, 5)
+  const relatedPokemonIds = (recipe.related_pokemon || '').split(',').map((item) => item.trim()).filter(Boolean)
+  const relatedHabitatIds = (recipe.related_habitats || '').split(',').map((item) => item.trim()).filter(Boolean)
+  const relatedPokemon = pokemonData.filter((p) => relatedPokemonIds.includes(p.id)).slice(0, 6)
+  const relatedHabitats = habitatsData.filter((h) => relatedHabitatIds.includes(h.id)).slice(0, 5)
+  const updatedAt = recipe.updated_at ? new Date(recipe.updated_at).toLocaleDateString('en-US', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+  }) : null
 
   return (
     <main style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
+      {recipe.faqs && recipe.faqs.length > 0 && <FAQJsonLd faqs={recipe.faqs} title={recipe.name} />}
       <h1>{recipe.name}</h1>
       <span className={`rarity ${recipe.rarity}`}>{recipe.rarity}</span>
+      {updatedAt && <p style={{ color: '#777', fontSize: '0.875rem', marginTop: '0.5rem' }}>Updated {updatedAt}</p>}
       <CreditedImage src={recipe.image_url} alt={recipe.image_alt || recipe.name} source={recipe.image_source} sourceUrl={recipe.image_source_url} className="article-cover" sizes="(max-width: 768px) 100vw, 800px" priority />
 
-      <div style={{ marginTop: '2rem' }}>
-        <h4>Ingredients</h4>
-        <p>{recipe.ingredients}</p>
+      <section style={{ padding: 0, marginTop: '2rem' }}>
+        <h2>{recipe.name} Overview</h2>
+        <p>{recipe.overview}</p>
+      </section>
+
+      <div style={{ marginTop: '2rem', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem' }}>
+        <div>
+          <h4>Ingredients</h4>
+          <p>{recipe.ingredients}</p>
+        </div>
+
+        <div>
+          <h4>Buff</h4>
+          <p>{recipe.buff}</p>
+        </div>
+
+        <div>
+          <h4>Effect Duration</h4>
+          <p>{recipe.effect_duration}</p>
+        </div>
+
+        <div>
+          <h4>Best Use</h4>
+          <p>{recipe.best_use}</p>
+        </div>
       </div>
 
-      <div style={{ marginTop: '1rem' }}>
-        <h4>Buff</h4>
-        <p>{recipe.buff}</p>
-      </div>
+      {recipe.ingredient_route && (
+        <section style={{ padding: 0, marginTop: '2rem' }}>
+          <h2>Ingredient Route</h2>
+          <ol>
+            {recipe.ingredient_route.map((step) => (
+              <li key={step}>{step}</li>
+            ))}
+          </ol>
+        </section>
+      )}
 
-      <div style={{ marginTop: '1rem' }}>
-        <h4>Effect Duration</h4>
-        <p>{recipe.effect_duration}</p>
-      </div>
+      {recipe.best_timing && (
+        <section style={{ padding: 0, marginTop: '2rem' }}>
+          <h2>Best Timing</h2>
+          <ul>
+            {recipe.best_timing.map((item) => (
+              <li key={item}>{item}</li>
+            ))}
+          </ul>
+        </section>
+      )}
 
-      <div style={{ marginTop: '1rem' }}>
-        <h4>Best Use</h4>
-        <p>{recipe.best_use}</p>
-      </div>
+      {recipe.recommended_for && (
+        <section style={{ padding: 0, marginTop: '2rem' }}>
+          <h2>Recommended For</h2>
+          <ul>
+            {recipe.recommended_for.map((item) => (
+              <li key={item}>{item}</li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      {recipe.alternatives && (
+        <section style={{ padding: 0, marginTop: '2rem' }}>
+          <h2>Alternatives</h2>
+          <ul>
+            {recipe.alternatives.map((item) => (
+              <li key={item}>{item}</li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      {recipe.common_mistakes && (
+        <section style={{ padding: 0, marginTop: '2rem' }}>
+          <h2>Common Mistakes</h2>
+          <ul>
+            {recipe.common_mistakes.map((item) => (
+              <li key={item}>{item}</li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      {recipe.faqs && (
+        <section style={{ padding: 0, marginTop: '2rem' }}>
+          <h2>{recipe.name} FAQ</h2>
+          {recipe.faqs.map((faq) => (
+            <div key={faq.question} style={{ marginTop: '1rem' }}>
+              <h3>{faq.question}</h3>
+              <p>{faq.answer}</p>
+            </div>
+          ))}
+        </section>
+      )}
 
       <aside style={{ marginTop: '3rem', borderTop: '1px solid #ddd', paddingTop: '2rem' }}>
+        {relatedPokemon.length > 0 && (
+          <>
+            <h3>Recommended Pokemon</h3>
+            <div className="pokemon-grid" style={{ marginTop: '1rem' }}>
+              {relatedPokemon.map((p) => (
+                <a key={p.id} href={`/wiki/pokemon/${p.id}`} className="card">
+                  <h4>{p.name}</h4>
+                  <p>{p.type}</p>
+                  <span className={`rarity ${p.rarity}`}>{p.rarity}</span>
+                </a>
+              ))}
+            </div>
+          </>
+        )}
+
+        {relatedHabitats.length > 0 && (
+          <>
+            <h3 style={{ marginTop: '2rem' }}>Recommended Habitats</h3>
+            <ul style={{ marginTop: '1rem', paddingLeft: '1.5rem' }}>
+              {relatedHabitats.map((h) => (
+                <li key={h.id} style={{ marginBottom: '0.5rem' }}>
+                  <a href={`/wiki/habitat/${h.id}`}>{h.name}</a>
+                </li>
+              ))}
+            </ul>
+          </>
+        )}
+
         <h3>Related Guides</h3>
         {relatedGuides.length > 0 ? (
           <ul style={{ marginTop: '1rem', paddingLeft: '1.5rem' }}>
