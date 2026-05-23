@@ -52,7 +52,7 @@ export default function TermsPage() {
 
         <h2 style={{ marginTop: '2rem' }}>Contact</h2>
         <p>
-          Questions about these terms can be sent to <a href="mailto:hello@pokopia.wiki">hello@pokopia.wiki</a>.
+          Questions about these terms can be sent to <a href="mailto:hello@pokopia.cloud">hello@pokopia.cloud</a>.
         </p>
       </article>
     </main>

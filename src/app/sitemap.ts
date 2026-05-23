@@ -7,8 +7,8 @@ import pokemonData from '@/data/pokemon.json'
 import habitatsData from '@/data/habitats.json'
 import recipesData from '@/data/recipes.json'
 import officialData from '@/data/official.json'
+import { BASE_URL } from '@/lib/site'
 
-const BASE_URL = 'https://pokopia.wiki'
 const SITE_REVIEWED_AT = new Date('2026-05-23')
 
 const staticPages = [

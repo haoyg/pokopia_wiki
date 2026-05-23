@@ -45,7 +45,7 @@ export default function AboutPage() {
 
         <h2 style={{ marginTop: '2rem' }}>Contact</h2>
         <p>
-          To suggest a correction, request a new guide, or report a rights concern, contact <a href="mailto:hello@pokopia.wiki">hello@pokopia.wiki</a>. You can also read our <a href="/disclaimer">disclaimer</a> and <a href="/copyright">copyright removal policy</a>.
+          To suggest a correction, request a new guide, or report a rights concern, contact <a href="mailto:hello@pokopia.cloud">hello@pokopia.cloud</a>. You can also read our <a href="/disclaimer">disclaimer</a> and <a href="/copyright">copyright removal policy</a>.
         </p>
       </article>
     </main>

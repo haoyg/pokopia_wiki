@@ -20,7 +20,7 @@ export default function ContactPage() {
 
         <h2 style={{ marginTop: '2rem' }}>Email</h2>
         <p>
-          Send messages to <a href="mailto:hello@pokopia.wiki">hello@pokopia.wiki</a>. Please include the page URL when reporting outdated data, missing internal links, or a guide that needs review.
+          Send messages to <a href="mailto:hello@pokopia.cloud">hello@pokopia.cloud</a>. Please include the page URL when reporting outdated data, missing internal links, or a guide that needs review.
         </p>
 
         <h2 style={{ marginTop: '2rem' }}>What to Send</h2>

@@ -52,7 +52,7 @@ export default function PrivacyPolicyPage() {
 
         <h2 style={{ marginTop: '2rem' }}>Contact</h2>
         <p>
-          For privacy questions, contact us at <a href="mailto:hello@pokopia.wiki">hello@pokopia.wiki</a>.
+          For privacy questions, contact us at <a href="mailto:hello@pokopia.cloud">hello@pokopia.cloud</a>.
         </p>
       </article>
     </main>

@@ -1,4 +1,5 @@
 import { MetadataRoute } from 'next'
+import { BASE_URL } from '@/lib/site'
 
 export const dynamic = 'force-static'
 
@@ -11,6 +12,6 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ['/api/', '/admin/'],
       },
     ],
-    sitemap: 'https://pokopia.wiki/sitemap.xml',
+    sitemap: `${BASE_URL}/sitemap.xml`,
   }
 }

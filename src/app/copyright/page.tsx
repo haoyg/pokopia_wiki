@@ -33,7 +33,7 @@ export default function CopyrightPage() {
           If you are a rights holder or authorized representative and believe that content on Pokopia Portal should be corrected, credited differently, or removed, please contact us by email.
         </p>
         <p>
-          Email: <a href="mailto:hello@pokopia.wiki">hello@pokopia.wiki</a>
+          Email: <a href="mailto:hello@pokopia.cloud">hello@pokopia.cloud</a>
         </p>
 
         <h2 style={{ marginTop: '2rem' }}>What to Include</h2>

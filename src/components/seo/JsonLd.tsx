@@ -1,3 +1,5 @@
+import { BASE_URL } from '@/lib/site'
+
 type JsonLdProps = {
   data: Record<string, any>
 }
@@ -16,13 +18,13 @@ export function WebsiteJsonLd() {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
     name: 'Pokopia Portal',
-    url: 'https://pokopia.wiki',
+    url: BASE_URL,
     description: 'Independent Pokopia wiki with official source roundups, guides, Pokemon database pages, habitat notes, recipes, and planning tools.',
     potentialAction: {
       '@type': 'SearchAction',
       target: {
         '@type': 'EntryPoint',
-        urlTemplate: 'https://pokopia.wiki/search?q={search_term_string}',
+        urlTemplate: `${BASE_URL}/search?q={search_term_string}`,
       },
       'query-input': 'required name=search_term_string',
     },
@@ -31,7 +33,7 @@ export function WebsiteJsonLd() {
       name: 'Pokopia Portal',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://pokopia.wiki/logo.png',
+        url: `${BASE_URL}/logo.png`,
         width: 512,
         height: 512,
       },
@@ -65,7 +67,7 @@ export function ArticleJsonLd({
     '@type': type,
     headline: title,
     description,
-    url: `https://pokopia.wiki${url}`,
+    url: `${BASE_URL}${url}`,
     ...(image ? { image } : {}),
     datePublished: publishedAt,
     dateModified: modifiedAt || publishedAt,
@@ -78,14 +80,14 @@ export function ArticleJsonLd({
       name: 'Pokopia Portal',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://pokopia.wiki/logo.png',
+        url: `${BASE_URL}/logo.png`,
         width: 512,
         height: 512,
       },
     },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id': `https://pokopia.wiki${url}`,
+      '@id': `${BASE_URL}${url}`,
     },
   }
 
@@ -104,7 +106,7 @@ export function BreadcrumbJsonLd({
       '@type': 'ListItem',
       position: index + 1,
       name: item.name,
-      item: `https://pokopia.wiki${item.url}`,
+      item: `${BASE_URL}${item.url}`,
     })),
   }
 
@@ -133,19 +135,19 @@ export function WikiPageJsonLd({
     '@type': 'WebPage',
     name,
     description,
-    url: `https://pokopia.wiki${url}`,
+    url: `${BASE_URL}${url}`,
     ...(image ? { image } : {}),
     ...(dateModified ? { dateModified } : {}),
     isPartOf: {
       '@type': 'WebSite',
       name: 'Pokopia Portal',
-      url: 'https://pokopia.wiki',
+      url: BASE_URL,
     },
     about: {
       '@type': 'Thing',
       name,
       description,
-      additionalType: `https://pokopia.wiki/schema/${pageType.toLowerCase()}`,
+      additionalType: `${BASE_URL}/schema/${pageType.toLowerCase()}`,
     },
     ...(properties && properties.length > 0 ? {
       additionalProperty: properties.map((property) => ({
