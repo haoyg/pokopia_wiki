@@ -56,8 +56,16 @@ export default function Home() {
   return (
     <main>
       <section className="hero">
-        <h1>Pokopia Portal</h1>
-        <p>Your ultimate guide to the Pokopia world</p>
+        <div className="hero-inner">
+          <p className="hero-kicker">Explorer Field Guide</p>
+          <h1>Pokopia Portal</h1>
+          <p>Your cozy guide to habitats, Pokemon, recipes, and build routes across the Pokopia world.</p>
+          <div className="hero-actions" aria-label="Pokopia quick sections">
+            <a href="/guides">Start Guides</a>
+            <a href="/wiki/pokemon">Open Pokedex</a>
+            <a href="/tools">Use Tools</a>
+          </div>
+        </div>
       </section>
 
       <section>
