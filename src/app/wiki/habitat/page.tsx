@@ -1,7 +1,7 @@
 import { Metadata } from 'next'
-import Image from 'next/image'
 import habitatsData from '@/data/habitats.json'
 import { canonicalUrl } from '@/lib/site'
+import { CreditedImage } from '@/components/media/CreditedImage'
 
 const difficultyEmoji: Record<string, string> = {
   'easy': '🟢', 'medium': '🟡', 'hard': '🔴',
@@ -29,15 +29,7 @@ export default function HabitatPage() {
       <div className="pokemon-grid" style={{ marginTop: '2rem' }}>
         {habitatsData.map((h) => (
           <a key={h.id} href={`/wiki/habitat/${h.id}`} className="card">
-            <div className="card-cover">
-              <Image
-                src={h.image_url}
-                alt={h.image_alt || h.name}
-                fill
-                style={{ objectFit: 'contain' }}
-                sizes="(max-width: 768px) 100vw, 300px"
-              />
-            </div>
+            <CreditedImage src={h.image_url} alt={h.image_alt || h.name} source={h.image_source} sourceUrl={h.image_source_url} />
             <h3 style={{ textAlign: 'center', marginTop: '0.5rem' }}>{h.name}</h3>
             <p style={{ textAlign: 'center', color: '#666', fontSize: '0.875rem' }}>{h.unlock_condition}</p>
             <div style={{ textAlign: 'center', marginTop: '0.5rem', display: 'flex', gap: '0.5rem', justifyContent: 'center', alignItems: 'center' }}>

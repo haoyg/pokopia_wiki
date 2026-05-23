@@ -1,9 +1,9 @@
 import { Metadata } from 'next'
-import Image from 'next/image'
 import pokemonData from '@/data/pokemon.json'
 import guidesData from '@/data/guides.json'
 import newsData from '@/data/news.json'
 import { canonicalUrl } from '@/lib/site'
+import { CreditedImage } from '@/components/media/CreditedImage'
 
 interface Props {
   params: Promise<{ id: string }>
@@ -24,7 +24,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     openGraph: {
       title: pokemon ? `${pokemon.name} - Pokopia Portal` : 'Pokemon Not Found',
       description: pokemon?.description,
-      images: [pokemon?.image_url || '/og-image.svg'],
+      images: pokemon?.image_source ? [pokemon.image_url] : ['/og-image.svg'],
     },
     alternates: pokemon ? {
       canonical: canonicalUrl(`/wiki/pokemon/${pokemon.id}`),
@@ -49,9 +49,7 @@ export default async function PokemonDetailPage({ params }: Props) {
     <main>
       <article style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
         <div className="pokemon-detail-hero">
-          <div className="pokemon-portrait">
-            <Image src={pokemon.image_url} alt={pokemon.image_alt} fill sizes="180px" priority />
-          </div>
+          <CreditedImage src={pokemon.image_url} alt={pokemon.image_alt} source={pokemon.image_source} sourceUrl={pokemon.image_source_url} className="pokemon-portrait" sizes="180px" priority />
           <div>
             <h1>{pokemon.name}</h1>
             <p>{pokemon.type}</p>

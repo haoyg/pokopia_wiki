@@ -8,7 +8,9 @@
     "content": "The v1.5 update brings 5 new Pokémon including the legendary Flamexor! Also includes balance changes and new recipes. Update now to experience the new content.",
     "published_at": 1746652800,
     "image_url": "/images/news/new-pokemon-update-v15.svg",
-    "image_alt": "New Pokémon Update v1.5 Released illustrated news cover"
+    "image_alt": "New Pokémon Update v1.5 Released illustrated news cover",
+    "image_source": "",
+    "image_source_url": ""
   },
   {
     "id": "news002",
@@ -19,7 +21,9 @@
     "content": "Fire-type abilities have been adjusted. Flamexor nerfed by 10%. Charmuddy buffed. Fire Boost recipe duration increased to 1 hour.",
     "published_at": 1746566400,
     "image_url": "/images/news/patch-notes-v143.svg",
-    "image_alt": "Patch Notes v1.4.3 - Balance Changes illustrated news cover"
+    "image_alt": "Patch Notes v1.4.3 - Balance Changes illustrated news cover",
+    "image_source": "",
+    "image_source_url": ""
   },
   {
     "id": "news003",
@@ -30,7 +34,9 @@
     "content": "Spring Festival starts March 20! +50% rare drops and +100% XP for 2 weeks. Special recipes available during event.",
     "published_at": 1746480000,
     "image_url": "/images/news/spring-festival-event.svg",
-    "image_alt": "Spring Festival Event Starting Soon illustrated news cover"
+    "image_alt": "Spring Festival Event Starting Soon illustrated news cover",
+    "image_source": "",
+    "image_source_url": ""
   },
   {
     "id": "news004",
@@ -41,7 +47,9 @@
     "content": "Shadow Marsh is now open! Face Shadowclaw, the new legendary ghost Pokémon. +60% ghost drops. Only for Level 25+.",
     "published_at": 1746393600,
     "image_url": "/images/news/shadow-marsh-release.svg",
-    "image_alt": "New Shadow Marsh Habitat Now Available illustrated news cover"
+    "image_alt": "New Shadow Marsh Habitat Now Available illustrated news cover",
+    "image_source": "",
+    "image_source_url": ""
   },
   {
     "id": "news005",
@@ -52,7 +60,9 @@
     "content": "Congratulations to our build competition winners! Top 3 builds featured on homepage. Winners receive 5000 gems each.",
     "published_at": 1746307200,
     "image_url": "/images/news/build-competition-winners.svg",
-    "image_alt": "Community Build Competition Winners illustrated news cover"
+    "image_alt": "Community Build Competition Winners illustrated news cover",
+    "image_source": "",
+    "image_source_url": ""
   },
   {
     "id": "news006",
@@ -63,7 +73,9 @@
     "content": "Thunder Arena opens at Level 22. Home to Voltscale, the legendary electric dragon! +55% electric drops. Bring Thunder Strike recipe!",
     "published_at": 1746220800,
     "image_url": "/images/news/thunder-arena-opening.svg",
-    "image_alt": "Thunder Arena Grand Opening illustrated news cover"
+    "image_alt": "Thunder Arena Grand Opening illustrated news cover",
+    "image_source": "",
+    "image_source_url": ""
   },
   {
     "id": "news007",
@@ -74,7 +86,9 @@
     "content": "Fixed crash when entering Shadow Marsh. Improved frame rate on mobile. Fixed recipe_buff not applying correctly.",
     "published_at": 1746134400,
     "image_url": "/images/news/patch-notes-v144.svg",
-    "image_alt": "Bug Fixes and Performance Improvements illustrated news cover"
+    "image_alt": "Bug Fixes and Performance Improvements illustrated news cover",
+    "image_source": "",
+    "image_source_url": ""
   },
   {
     "id": "news008",
@@ -85,7 +99,9 @@
     "content": "Summer Beach Event in June! New water Pokémon. Special Sunny Beach habitat. Beach-themed recipes and cosmetics.",
     "published_at": 1746048000,
     "image_url": "/images/news/summer-beach-event.svg",
-    "image_alt": "Summer Beach Event Coming Next Month illustrated news cover"
+    "image_alt": "Summer Beach Event Coming Next Month illustrated news cover",
+    "image_source": "",
+    "image_source_url": ""
   },
   {
     "id": "news009",
@@ -96,7 +112,9 @@
     "content": "New to Pokopia? Check out our getting started guide. Learn about habitats, recipes, and how to catch your first Pokémon.",
     "published_at": 1745961600,
     "image_url": "/images/news/new-player-guide.svg",
-    "image_alt": "New Player Guide: Getting Started illustrated news cover"
+    "image_alt": "New Player Guide: Getting Started illustrated news cover",
+    "image_source": "",
+    "image_source_url": ""
   },
   {
     "id": "news010",
@@ -107,7 +125,9 @@
     "content": "Community submissions now open! Submit your best builds, guides, and fan art. Top submissions featured on site.",
     "published_at": 1745875200,
     "image_url": "/images/news/community-submissions-open.svg",
-    "image_alt": "Community Submissions Now Open illustrated news cover"
+    "image_alt": "Community Submissions Now Open illustrated news cover",
+    "image_source": "",
+    "image_source_url": ""
   },
   {
     "id": "news011",
@@ -118,7 +138,9 @@
     "content": "Double XP this weekend! March 15-17. All habitats. Stack with Lucky Charm for triple XP. Perfect time to level up!",
     "published_at": 1745788800,
     "image_url": "/images/news/double-xp-weekend.svg",
-    "image_alt": "Double XP Weekend Event illustrated news cover"
+    "image_alt": "Double XP Weekend Event illustrated news cover",
+    "image_source": "",
+    "image_source_url": ""
   },
   {
     "id": "news012",
@@ -129,6 +151,8 @@
     "content": "Results are in! Pikafire takes #1 spot. Flamexor #2. Shados #3. See the full list on our Tier List page.",
     "published_at": 1745702400,
     "image_url": "/images/news/top-10-popular-pokemon.svg",
-    "image_alt": "Top 10 Most Popular Pokémon illustrated news cover"
+    "image_alt": "Top 10 Most Popular Pokémon illustrated news cover",
+    "image_source": "",
+    "image_source_url": ""
   }
 ]

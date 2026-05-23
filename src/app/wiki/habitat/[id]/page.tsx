@@ -1,9 +1,9 @@
 import { Metadata } from 'next'
-import Image from 'next/image'
 import habitatsData from '@/data/habitats.json'
 import pokemonData from '@/data/pokemon.json'
 import guidesData from '@/data/guides.json'
 import { canonicalUrl } from '@/lib/site'
+import { CreditedImage } from '@/components/media/CreditedImage'
 
 interface Props {
   params: Promise<{ id: string }>
@@ -24,7 +24,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     openGraph: {
       title: habitat ? `${habitat.name} - Pokopia Portal` : 'Habitat Not Found',
       description: `${habitat?.name} - ${habitat?.unlock_condition}. ${habitat?.resource_bonus}`,
-      images: [habitat?.image_url || '/og-image.svg'],
+      images: habitat?.image_source ? [habitat.image_url] : ['/og-image.svg'],
     },
     alternates: habitat ? {
       canonical: canonicalUrl(`/wiki/habitat/${habitat.id}`),
@@ -50,9 +50,7 @@ export default async function HabitatDetailPage({ params }: Props) {
     <main style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
       <h1>{habitat.name}</h1>
       <p>{habitat.unlock_condition}</p>
-      <div className="article-cover">
-        <Image src={habitat.image_url} alt={habitat.image_alt || habitat.name} fill sizes="(max-width: 768px) 100vw, 800px" priority />
-      </div>
+      <CreditedImage src={habitat.image_url} alt={habitat.image_alt || habitat.name} source={habitat.image_source} sourceUrl={habitat.image_source_url} className="article-cover" sizes="(max-width: 768px) 100vw, 800px" priority />
 
       <div style={{ marginTop: '2rem', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem' }}>
         <div>

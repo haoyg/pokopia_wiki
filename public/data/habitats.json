@@ -9,7 +9,9 @@
     "difficulty": "hard",
     "resource_bonus": "+50% Fire drops",
     "image_url": "/images/habitats/hab001-volcanic-cave.svg",
-    "image_alt": "Volcanic Cave habitat landscape"
+    "image_alt": "Volcanic Cave habitat landscape",
+    "image_source": "",
+    "image_source_url": ""
   },
   {
     "id": "hab002",
@@ -21,7 +23,9 @@
     "difficulty": "easy",
     "resource_bonus": "+30% Leaf drops",
     "image_url": "/images/habitats/hab002-forest-valley.svg",
-    "image_alt": "Forest Valley habitat landscape"
+    "image_alt": "Forest Valley habitat landscape",
+    "image_source": "",
+    "image_source_url": ""
   },
   {
     "id": "hab003",
@@ -33,7 +37,9 @@
     "difficulty": "easy",
     "resource_bonus": "+40% Water drops",
     "image_url": "/images/habitats/hab003-crystal-lake.svg",
-    "image_alt": "Crystal Lake habitat landscape"
+    "image_alt": "Crystal Lake habitat landscape",
+    "image_source": "",
+    "image_source_url": ""
   },
   {
     "id": "hab004",
@@ -45,7 +51,9 @@
     "difficulty": "medium",
     "resource_bonus": "+25% Electric drops",
     "image_url": "/images/habitats/hab004-windmill-plains.svg",
-    "image_alt": "Windmill Plains habitat landscape"
+    "image_alt": "Windmill Plains habitat landscape",
+    "image_source": "",
+    "image_source_url": ""
   },
   {
     "id": "hab005",
@@ -57,7 +65,9 @@
     "difficulty": "medium",
     "resource_bonus": "+35% Ice drops",
     "image_url": "/images/habitats/hab005-frost-peak.svg",
-    "image_alt": "Frost Peak habitat landscape"
+    "image_alt": "Frost Peak habitat landscape",
+    "image_source": "",
+    "image_source_url": ""
   },
   {
     "id": "hab006",
@@ -69,7 +79,9 @@
     "difficulty": "hard",
     "resource_bonus": "+60% Ghost drops",
     "image_url": "/images/habitats/hab006-shadow-marsh.svg",
-    "image_alt": "Shadow Marsh habitat landscape"
+    "image_alt": "Shadow Marsh habitat landscape",
+    "image_source": "",
+    "image_source_url": ""
   },
   {
     "id": "hab007",
@@ -81,7 +93,9 @@
     "difficulty": "medium",
     "resource_bonus": "+50% Stone drops",
     "image_url": "/images/habitats/hab007-gemstone-canyon.svg",
-    "image_alt": "Gemstone Canyon habitat landscape"
+    "image_alt": "Gemstone Canyon habitat landscape",
+    "image_source": "",
+    "image_source_url": ""
   },
   {
     "id": "hab008",
@@ -93,7 +107,9 @@
     "difficulty": "medium",
     "resource_bonus": "+40% Feather drops",
     "image_url": "/images/habitats/hab008-sky-isles.svg",
-    "image_alt": "Sky Isles habitat landscape"
+    "image_alt": "Sky Isles habitat landscape",
+    "image_source": "",
+    "image_source_url": ""
   },
   {
     "id": "hab009",
@@ -105,7 +121,9 @@
     "difficulty": "easy",
     "resource_bonus": "+35% Mud drops",
     "image_url": "/images/habitats/hab009-muddy-river.svg",
-    "image_alt": "Muddy River habitat landscape"
+    "image_alt": "Muddy River habitat landscape",
+    "image_source": "",
+    "image_source_url": ""
   },
   {
     "id": "hab010",
@@ -117,7 +135,9 @@
     "difficulty": "hard",
     "resource_bonus": "+45% Metal drops",
     "image_url": "/images/habitats/hab010-ancient-ruins.svg",
-    "image_alt": "Ancient Ruins habitat landscape"
+    "image_alt": "Ancient Ruins habitat landscape",
+    "image_source": "",
+    "image_source_url": ""
   },
   {
     "id": "hab011",
@@ -129,7 +149,9 @@
     "difficulty": "easy",
     "resource_bonus": "+30% Shell drops",
     "image_url": "/images/habitats/hab011-sunny-beach.svg",
-    "image_alt": "Sunny Beach habitat landscape"
+    "image_alt": "Sunny Beach habitat landscape",
+    "image_source": "",
+    "image_source_url": ""
   },
   {
     "id": "hab012",
@@ -141,7 +163,9 @@
     "difficulty": "hard",
     "resource_bonus": "+55% Electric drops",
     "image_url": "/images/habitats/hab012-thunder-arena.svg",
-    "image_alt": "Thunder Arena habitat landscape"
+    "image_alt": "Thunder Arena habitat landscape",
+    "image_source": "",
+    "image_source_url": ""
   },
   {
     "id": "hab013",
@@ -153,7 +177,9 @@
     "difficulty": "hard",
     "resource_bonus": "+65% Dark drops",
     "image_url": "/images/habitats/hab013-dark-cavern.svg",
-    "image_alt": "Dark Cavern habitat landscape"
+    "image_alt": "Dark Cavern habitat landscape",
+    "image_source": "",
+    "image_source_url": ""
   },
   {
     "id": "hab014",
@@ -165,7 +191,9 @@
     "difficulty": "medium",
     "resource_bonus": "+60% Crystal drops",
     "image_url": "/images/habitats/hab014-crystal-cave.svg",
-    "image_alt": "Crystal Cave habitat landscape"
+    "image_alt": "Crystal Cave habitat landscape",
+    "image_source": "",
+    "image_source_url": ""
   },
   {
     "id": "hab015",
@@ -177,7 +205,9 @@
     "difficulty": "easy",
     "resource_bonus": "+25% Herb drops",
     "image_url": "/images/habitats/hab015-meadow-garden.svg",
-    "image_alt": "Meadow Garden habitat landscape"
+    "image_alt": "Meadow Garden habitat landscape",
+    "image_source": "",
+    "image_source_url": ""
   },
   {
     "id": "hab016",
@@ -189,7 +219,9 @@
     "difficulty": "medium",
     "resource_bonus": "+40% Metal drops",
     "image_url": "/images/habitats/hab016-industrial-zone.svg",
-    "image_alt": "Industrial Zone habitat landscape"
+    "image_alt": "Industrial Zone habitat landscape",
+    "image_source": "",
+    "image_source_url": ""
   },
   {
     "id": "hab017",
@@ -201,7 +233,9 @@
     "difficulty": "hard",
     "resource_bonus": "+55% Poison drops",
     "image_url": "/images/habitats/hab017-nightmare-forest.svg",
-    "image_alt": "Nightmare Forest habitat landscape"
+    "image_alt": "Nightmare Forest habitat landscape",
+    "image_source": "",
+    "image_source_url": ""
   },
   {
     "id": "hab018",
@@ -213,7 +247,9 @@
     "difficulty": "hard",
     "resource_bonus": "+50% Dragon drops",
     "image_url": "/images/habitats/hab018-dragon-s-den.svg",
-    "image_alt": "Dragon's Den habitat landscape"
+    "image_alt": "Dragon's Den habitat landscape",
+    "image_source": "",
+    "image_source_url": ""
   },
   {
     "id": "hab019",
@@ -225,7 +261,9 @@
     "difficulty": "medium",
     "resource_bonus": "+45% Fairy dust drops",
     "image_url": "/images/habitats/hab019-fairy-glen.svg",
-    "image_alt": "Fairy Glen habitat landscape"
+    "image_alt": "Fairy Glen habitat landscape",
+    "image_source": "",
+    "image_source_url": ""
   },
   {
     "id": "hab020",
@@ -237,6 +275,8 @@
     "difficulty": "easy",
     "resource_bonus": "+30% XP bonus",
     "image_url": "/images/habitats/hab020-training-grounds.svg",
-    "image_alt": "Training Grounds habitat landscape"
+    "image_alt": "Training Grounds habitat landscape",
+    "image_source": "",
+    "image_source_url": ""
   }
 ]

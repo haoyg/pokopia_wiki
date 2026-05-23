@@ -1,7 +1,7 @@
 import { Metadata } from 'next'
-import Image from 'next/image'
 import guidesData from '@/data/guides.json'
 import { canonicalUrl } from '@/lib/site'
+import { CreditedImage } from '@/components/media/CreditedImage'
 
 const categoryLabels: Record<string, string> = {
   tier: 'Tier',
@@ -34,9 +34,7 @@ export default function GuidesPage() {
       <div className="guides-grid">
         {guidesData.map((guide) => (
           <a key={guide.id} href={`/guides/${guide.slug}`} className="card">
-            <div className="card-cover">
-              <Image src={guide.image_url} alt={guide.image_alt} fill sizes="(max-width: 768px) 100vw, 300px" />
-            </div>
+            <CreditedImage src={guide.image_url} alt={guide.image_alt} source={guide.image_source} sourceUrl={guide.image_source_url} />
             <span className="badge">{categoryLabels[guide.category] || guide.category}</span>
             <h3>{guide.title}</h3>
             <p>{guide.seo_keyword}</p>

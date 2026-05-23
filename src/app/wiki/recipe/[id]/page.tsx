@@ -1,8 +1,8 @@
 import { Metadata } from 'next'
-import Image from 'next/image'
 import recipesData from '@/data/recipes.json'
 import guidesData from '@/data/guides.json'
 import { canonicalUrl } from '@/lib/site'
+import { CreditedImage } from '@/components/media/CreditedImage'
 
 interface Props {
   params: Promise<{ id: string }>
@@ -23,7 +23,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     openGraph: {
       title: recipe ? `${recipe.name} - Pokopia Portal` : 'Recipe Not Found',
       description: recipe?.buff,
-      images: [recipe?.image_url || '/og-image.svg'],
+      images: recipe?.image_source ? [recipe.image_url] : ['/og-image.svg'],
     },
     alternates: recipe ? {
       canonical: canonicalUrl(`/wiki/recipe/${recipe.id}`),
@@ -47,9 +47,7 @@ export default async function RecipeDetailPage({ params }: Props) {
     <main style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
       <h1>{recipe.name}</h1>
       <span className={`rarity ${recipe.rarity}`}>{recipe.rarity}</span>
-      <div className="article-cover">
-        <Image src={recipe.image_url} alt={recipe.image_alt || recipe.name} fill sizes="(max-width: 768px) 100vw, 800px" priority />
-      </div>
+      <CreditedImage src={recipe.image_url} alt={recipe.image_alt || recipe.name} source={recipe.image_source} sourceUrl={recipe.image_source_url} className="article-cover" sizes="(max-width: 768px) 100vw, 800px" priority />
 
       <div style={{ marginTop: '2rem' }}>
         <h4>Ingredients</h4>
