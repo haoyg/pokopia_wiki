@@ -12,6 +12,8 @@ export function Footer() {
           <Link href="/wiki/pokemon">Pokemon Database</Link>
           <Link href="/about">About</Link>
           <Link href="/contact">Contact</Link>
+          <Link href="/disclaimer">Disclaimer</Link>
+          <Link href="/copyright">Copyright</Link>
           <Link href="/privacy-policy">Privacy Policy</Link>
           <Link href="/terms">Terms</Link>
         </div>

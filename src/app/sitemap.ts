@@ -28,6 +28,8 @@ const staticPages = [
   { url: '/community', priority: '0.5', changefreq: 'monthly' },
   { url: '/about', priority: '0.4', changefreq: 'yearly' },
   { url: '/contact', priority: '0.4', changefreq: 'yearly' },
+  { url: '/disclaimer', priority: '0.3', changefreq: 'yearly' },
+  { url: '/copyright', priority: '0.3', changefreq: 'yearly' },
   { url: '/privacy-policy', priority: '0.3', changefreq: 'yearly' },
   { url: '/terms', priority: '0.3', changefreq: 'yearly' },
 ]

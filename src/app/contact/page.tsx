@@ -29,7 +29,13 @@ export default function ContactPage() {
           <li>Suggestions for new long-tail guides and player questions.</li>
           <li>Community builds with team members, recipes, habitats, and playstyle notes.</li>
           <li>Advertising, privacy, or site policy questions.</li>
+          <li>Copyright, trademark, image source, or content removal requests.</li>
         </ul>
+
+        <h2 style={{ marginTop: '2rem' }}>Rights and Removal Requests</h2>
+        <p>
+          If you are contacting us about copyrighted material, trademarks, screenshots, or image attribution, please include the page URL, the content in question, your relationship to the rights holder, and the action requested. See our <a href="/copyright">copyright and content removal page</a> for details.
+        </p>
 
         <h2 style={{ marginTop: '2rem' }}>Response Time</h2>
         <p>

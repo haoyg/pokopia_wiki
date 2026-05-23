@@ -33,9 +33,19 @@ export default function AboutPage() {
           Pokopia Portal is a fan-oriented information website. Unless explicitly stated, it is not officially affiliated with, endorsed by, or sponsored by any game publisher or rights holder. All game-related names and marks belong to their respective owners.
         </p>
 
+        <h2 style={{ marginTop: '2rem' }}>Unofficial Fan Resource</h2>
+        <p>
+          This site is not an official Nintendo, The Pokemon Company, Game Freak, or Creatures Inc. website. We publish guides, data summaries, and editorial notes to help players research routes, teams, recipes, and habitats.
+        </p>
+
+        <h2 style={{ marginTop: '2rem' }}>Image and Source Policy</h2>
+        <p>
+          We try to label images with their source near the image or on the related page. If a source needs correction or a rights holder requests removal, please contact us through the copyright removal process.
+        </p>
+
         <h2 style={{ marginTop: '2rem' }}>Contact</h2>
         <p>
-          To suggest a correction or request a new guide, contact <a href="mailto:hello@pokopia.wiki">hello@pokopia.wiki</a>.
+          To suggest a correction, request a new guide, or report a rights concern, contact <a href="mailto:hello@pokopia.wiki">hello@pokopia.wiki</a>. You can also read our <a href="/disclaimer">disclaimer</a> and <a href="/copyright">copyright removal policy</a>.
         </p>
       </article>
     </main>
