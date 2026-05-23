@@ -24,6 +24,8 @@ export interface Habitat {
   weather: string
   difficulty: 'easy' | 'medium' | 'hard'
   resource_bonus: string
+  image_url?: string
+  image_alt?: string
 }
 
 export interface Recipe {
@@ -34,6 +36,8 @@ export interface Recipe {
   effect_duration: string
   rarity: 'common' | 'uncommon' | 'rare' | 'legendary'
   best_use: string
+  image_url?: string
+  image_alt?: string
 }
 
 export interface Guide {

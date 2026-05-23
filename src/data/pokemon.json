@@ -140,8 +140,8 @@
     "skills": "Shadow Ball,Lick,Astonish,Night Shade",
     "drops": "Ghost Stone,Soul Dust",
     "description": "A ghostly shadow Pokemon. Appears only in dark places.",
-    "image_url": "/icons/ghost.svg",
-    "image_alt": "Shados Ghost Pokemon icon"
+    "image_url": "/images/pokemon/shados.svg",
+    "image_alt": "Shados illustrated Pokemon portrait"
   },
   {
     "id": "pkm010",
@@ -156,8 +156,8 @@
     "skills": "Lock-On,Zap Cannon,Flash Cannon,Protect",
     "drops": "Metal Coat,Piston",
     "description": "A robotic electric Pokemon. Created by ancient engineers.",
-    "image_url": "/icons/electric.svg",
-    "image_alt": "Mechabit Electric/Steel Pokemon icon"
+    "image_url": "/images/pokemon/mechabit.svg",
+    "image_alt": "Mechabit illustrated Pokemon portrait"
   },
   {
     "id": "pkm011",
@@ -172,8 +172,8 @@
     "skills": "Rock Throw,Earthquake,Protect,Stealth Rock",
     "drops": "Stone,Rock Fragment",
     "description": "A sturdy rock-type. Excellent for defense.",
-    "image_url": "/icons/rock.svg",
-    "image_alt": "Rockler Rock/Ground Pokemon icon"
+    "image_url": "/images/pokemon/rockler.svg",
+    "image_alt": "Rockler illustrated Pokemon portrait"
   },
   {
     "id": "pkm012",
@@ -188,8 +188,8 @@
     "skills": "Crystal Beam,Moonblast,Power Gem,Dazzling Gleam",
     "drops": "Crystal Shard,Diamond",
     "description": "A beautiful crystal creature. Very rare to find.",
-    "image_url": "/icons/crystal.svg",
-    "image_alt": "Crystion Crystal/Fairy Pokemon icon"
+    "image_url": "/images/pokemon/crystion.svg",
+    "image_alt": "Crystion illustrated Pokemon portrait"
   },
   {
     "id": "pkm013",
@@ -204,8 +204,8 @@
     "skills": "Ember,Fire Punch,Flame Wheel,Fire Spin",
     "drops": "Fire Stone,Flame Ore",
     "description": "A small fire salamander. Popular among beginners.",
-    "image_url": "/icons/fire.svg",
-    "image_alt": "Emberal Fire Pokemon icon"
+    "image_url": "/images/pokemon/emberal.svg",
+    "image_alt": "Emberal illustrated Pokemon portrait"
   },
   {
     "id": "pkm014",
@@ -220,8 +220,8 @@
     "skills": "Ice Beam,Blizzard,Aurora Veil,Hail",
     "drops": "Ice Stone,Frost Crystal",
     "description": "An ice penguin. At home in frozen environments.",
-    "image_url": "/icons/ice.svg",
-    "image_alt": "Glacior Ice/Water Pokemon icon"
+    "image_url": "/images/pokemon/glacior.svg",
+    "image_alt": "Glacior illustrated Pokemon portrait"
   },
   {
     "id": "pkm015",
@@ -236,8 +236,8 @@
     "skills": "Thunderbolt,Dragon Pulse,Wild Charge,Thunder Wave",
     "drops": "Thunder Stone,Dragon Scale",
     "description": "The legendary storm dragon. Said to control lightning.",
-    "image_url": "/icons/electric.svg",
-    "image_alt": "Voltscale Electric/Dragon Pokemon icon"
+    "image_url": "/images/pokemon/voltscale.svg",
+    "image_alt": "Voltscale illustrated Pokemon portrait"
   },
   {
     "id": "pkm016",
@@ -252,8 +252,8 @@
     "skills": "Peck,Wing Attack,Quick Attack,Aerial Ace",
     "drops": "Feather,Wind Essence",
     "description": "A gentle wind bird. Found in open plains.",
-    "image_url": "/icons/flying.svg",
-    "image_alt": "Breezel Flying Pokemon icon"
+    "image_url": "/images/pokemon/breezel.svg",
+    "image_alt": "Breezel illustrated Pokemon portrait"
   },
   {
     "id": "pkm017",
@@ -268,8 +268,8 @@
     "skills": "Bullet Seed,Power Whip,Leech Seed,Protect",
     "drops": "Leaf,Thorn",
     "description": "A thorny plant Pokemon. Great for defensive teams.",
-    "image_url": "/icons/grass.svg",
-    "image_alt": "Thornvine Grass Pokemon icon"
+    "image_url": "/images/pokemon/thornvine.svg",
+    "image_alt": "Thornvine illustrated Pokemon portrait"
   },
   {
     "id": "pkm018",
@@ -284,8 +284,8 @@
     "skills": "Water Gun,Mud Shot,Earthquake,Protect",
     "drops": "Mud Stone,Water Stone",
     "description": "A playful water dog. Loves playing in mud.",
-    "image_url": "/icons/water.svg",
-    "image_alt": "Mudkipz Water/Ground Pokemon icon"
+    "image_url": "/images/pokemon/mudkipz.svg",
+    "image_alt": "Mudkipz illustrated Pokemon portrait"
   },
   {
     "id": "pkm019",
@@ -300,8 +300,8 @@
     "skills": "Psychic,Flash Cannon,Recover,Iron Defense",
     "drops": "Metal Coat,Bronze Medal",
     "description": "An ancient bronze statue that came to life.",
-    "image_url": "/icons/steel.svg",
-    "image_alt": "Bronzorm Steel/Psychic Pokemon icon"
+    "image_url": "/images/pokemon/bronzorm.svg",
+    "image_alt": "Bronzorm illustrated Pokemon portrait"
   },
   {
     "id": "pkm020",
@@ -316,8 +316,8 @@
     "skills": "Fire Spin,Hurricane,Flame Charge,Brave Bird",
     "drops": "Fire Stone,Feather",
     "description": "An elegant fire bird. Its dance mesmerizes opponents.",
-    "image_url": "/icons/fire.svg",
-    "image_alt": "Flamingo Fire/Flying Pokemon icon"
+    "image_url": "/images/pokemon/flamingo.svg",
+    "image_alt": "Flamingo illustrated Pokemon portrait"
   },
   {
     "id": "pkm021",
@@ -332,8 +332,8 @@
     "skills": "Crunch,Aqua Jet,Knock Off,Ice Fang",
     "drops": "Deep Sea Tooth,Dark Gem",
     "description": "A mysterious deep-sea creature. Hunts at night.",
-    "image_url": "/icons/water.svg",
-    "image_alt": "Stealthfin Water/Dark Pokemon icon"
+    "image_url": "/images/pokemon/stealthfin.svg",
+    "image_alt": "Stealthfin illustrated Pokemon portrait"
   },
   {
     "id": "pkm022",
@@ -348,8 +348,8 @@
     "skills": "Ice Beam,Shadow Ball,Avalanche,Hypnosis",
     "drops": "Ghost Stone,Ice Crystal",
     "description": "A spirit of the frozen wastes. Beware its icy gaze.",
-    "image_url": "/icons/ice.svg",
-    "image_alt": "Frostbite Ice/Ghost Pokemon icon"
+    "image_url": "/images/pokemon/frostbite.svg",
+    "image_alt": "Frostbite illustrated Pokemon portrait"
   },
   {
     "id": "pkm023",
@@ -364,8 +364,8 @@
     "skills": "Solar Beam,Fire Blast,Weather Ball,Sunny Day",
     "drops": "Sun Stone,Flame Ore",
     "description": "A flower that thrives in sunlight. Chaotic battle style.",
-    "image_url": "/icons/grass.svg",
-    "image_alt": "Sunflora Grass/Fire Pokemon icon"
+    "image_url": "/images/pokemon/sunflora.svg",
+    "image_alt": "Sunflora illustrated Pokemon portrait"
   },
   {
     "id": "pkm024",
@@ -380,8 +380,8 @@
     "skills": "Magnet Bomb,Thunderbolt,Volt Switch,Protect",
     "drops": "Metal Coil,Magnet",
     "description": "A magnetic robot Pokemon. Attracts steel-types.",
-    "image_url": "/icons/electric.svg",
-    "image_alt": "Magnedex Electric/Steel Pokemon icon"
+    "image_url": "/images/pokemon/magnedex.svg",
+    "image_alt": "Magnedex illustrated Pokemon portrait"
   },
   {
     "id": "pkm025",
@@ -396,8 +396,8 @@
     "skills": "Air Slash,Energy Ball,Roost,Synthesis",
     "drops": "Leaf,Dragon Scale",
     "description": "A tropical flying dinosaur. Produces delicious fruit.",
-    "image_url": "/icons/grass.svg",
-    "image_alt": "Tropius Grass/Flying Pokemon icon"
+    "image_url": "/images/pokemon/tropius.svg",
+    "image_alt": "Tropius illustrated Pokemon portrait"
   },
   {
     "id": "pkm026",
@@ -412,8 +412,8 @@
     "skills": "Playful,Body Slam,Cotton Guard,Seismic Toss",
     "drops": "Fur,Cloth",
     "description": "A hyperactive creature. Always bouncing around.",
-    "image_url": "/icons/normal.svg",
-    "image_alt": "Skittlish Normal Pokemon icon"
+    "image_url": "/images/pokemon/skittlish.svg",
+    "image_alt": "Skittlish illustrated Pokemon portrait"
   },
   {
     "id": "pkm027",
@@ -428,8 +428,8 @@
     "skills": "Moonblast,Aqua Jet,Muddy Water,Charm",
     "drops": "Water Stone,Star Piece",
     "description": "A water droplet with fairy-like properties.",
-    "image_url": "/icons/water.svg",
-    "image_alt": "Dewdrop Water/Fairy Pokemon icon"
+    "image_url": "/images/pokemon/dewdrop.svg",
+    "image_alt": "Dewdrop illustrated Pokemon portrait"
   },
   {
     "id": "pkm028",
@@ -444,8 +444,8 @@
     "skills": "Flamethrower,Fire Punch,Thunder Punch,Will-O-Wisp",
     "drops": "Fire Stone,Magma Core",
     "description": "A living flame. Can melt any material.",
-    "image_url": "/icons/fire.svg",
-    "image_alt": "Magmar Fire Pokemon icon"
+    "image_url": "/images/pokemon/magmar.svg",
+    "image_alt": "Magmar illustrated Pokemon portrait"
   },
   {
     "id": "pkm029",
@@ -460,8 +460,8 @@
     "skills": "Draco Meteor,Icicle Spear,Dragon Dance,Extreme Speed",
     "drops": "Dragon Scale,Ice Stone",
     "description": "A rare dragon that lives in icy mountains.",
-    "image_url": "/icons/dragon.svg",
-    "image_alt": "Snorizard Dragon/Ice Pokemon icon"
+    "image_url": "/images/pokemon/snorizard.svg",
+    "image_alt": "Snorizard illustrated Pokemon portrait"
   },
   {
     "id": "pkm030",
@@ -476,8 +476,8 @@
     "skills": "Shadow Claw,Phantom Strike,Crunch,Sucker Punch",
     "drops": "Shadow Stone,King's Rock",
     "description": "The legendary shadow beast. Master of darkness.",
-    "image_url": "/icons/dark.svg",
-    "image_alt": "Shadowclaw Dark/Ghost Pokemon icon"
+    "image_url": "/images/pokemon/shadowclaw.svg",
+    "image_alt": "Shadowclaw illustrated Pokemon portrait"
   },
   {
     "id": "pkm031",
@@ -492,8 +492,8 @@
     "skills": "Diamond Storm,Aerial Ace,Crystal Beam,Roost",
     "drops": "Crystal Shard,Feather",
     "description": "A majestic crystal bird. Its feathers shimmer like diamonds.",
-    "image_url": "/icons/flying.svg",
-    "image_alt": "Crystalwing Flying/Crystal Pokemon icon"
+    "image_url": "/images/pokemon/crystalwing.svg",
+    "image_alt": "Crystalwing illustrated Pokemon portrait"
   },
   {
     "id": "pkm032",
@@ -508,8 +508,8 @@
     "skills": "Rock Blast,Bug Bite,Spikes,Protect",
     "drops": "Stone,Bug Shell",
     "description": "A hardy rock bug. Its back is covered in protective thorns.",
-    "image_url": "/icons/rock.svg",
-    "image_alt": "Thornback Rock/Bug Pokemon icon"
+    "image_url": "/images/pokemon/thornback.svg",
+    "image_alt": "Thornback illustrated Pokemon portrait"
   },
   {
     "id": "pkm033",
@@ -524,8 +524,8 @@
     "skills": "Fire Spin,Psybeam,Will-O-Wisp,Confuse Ray",
     "drops": "Fire Stone,Psy Crystal",
     "description": "A mystical fire fox. Its tails contains ancient flames.",
-    "image_url": "/icons/fire.svg",
-    "image_alt": "Emberfox Fire/Psychic Pokemon icon"
+    "image_url": "/images/pokemon/emberfox.svg",
+    "image_alt": "Emberfox illustrated Pokemon portrait"
   },
   {
     "id": "pkm034",
@@ -540,8 +540,8 @@
     "skills": "Water Gun,Rock Throw,Withdraw,Iron Defense",
     "drops": "Shell,Pearl",
     "description": "A water snail with a rock shell. Very defensive.",
-    "image_url": "/icons/water.svg",
-    "image_alt": "Aquashell Water/Rock Pokemon icon"
+    "image_url": "/images/pokemon/aquashell.svg",
+    "image_alt": "Aquashell illustrated Pokemon portrait"
   },
   {
     "id": "pkm035",
@@ -556,8 +556,8 @@
     "skills": "Spark,Bug Bite,Electroweb,String Shot",
     "drops": "Thunder Stone,Bug Shell",
     "description": "A small electric bug. Sparks fly when it moves.",
-    "image_url": "/icons/electric.svg",
-    "image_alt": "Zapbug Electric/Bug Pokemon icon"
+    "image_url": "/images/pokemon/zapbug.svg",
+    "image_alt": "Zapbug illustrated Pokemon portrait"
   },
   {
     "id": "pkm036",
@@ -572,8 +572,8 @@
     "skills": "Mega Drain,Grow,Leech Seed,Synthesis",
     "drops": "Leaf,Grass Fiber",
     "description": "A small moss creature. Found in damp forest areas.",
-    "image_url": "/icons/grass.svg",
-    "image_alt": "Mossling Grass Pokemon icon"
+    "image_url": "/images/pokemon/mossling.svg",
+    "image_alt": "Mossling illustrated Pokemon portrait"
   },
   {
     "id": "pkm037",
@@ -588,8 +588,8 @@
     "skills": "Metal Claw,Karate Chop,Iron Defense,Swords Dance",
     "drops": "Metal Coat,Piston",
     "description": "A fighting robot. Its claws can cut through steel.",
-    "image_url": "/icons/steel.svg",
-    "image_alt": "Ironclaw Steel/Fighting Pokemon icon"
+    "image_url": "/images/pokemon/ironclaw.svg",
+    "image_alt": "Ironclaw illustrated Pokemon portrait"
   },
   {
     "id": "pkm038",
@@ -604,8 +604,8 @@
     "skills": "Psychic,Moonblast,Reflect,Light Screen",
     "drops": "Psy Crystal,Star Piece",
     "description": "A mysterious cat with psychic powers. Very rare to encounter.",
-    "image_url": "/icons/normal.svg",
-    "image_alt": "Mysticat Psychic/Fairy Pokemon icon"
+    "image_url": "/images/pokemon/mysticat.svg",
+    "image_alt": "Mysticat illustrated Pokemon portrait"
   },
   {
     "id": "pkm039",
@@ -620,8 +620,8 @@
     "skills": "Rock Throw,Take Down,Stealth Rock,Bulldoze",
     "drops": "Stone,Rock Fragment",
     "description": "A sturdy chin Pokemon. Made entirely of rock.",
-    "image_url": "/icons/rock.svg",
-    "image_alt": "Boulderchin Rock Pokemon icon"
+    "image_url": "/images/pokemon/boulderchin.svg",
+    "image_alt": "Boulderchin illustrated Pokemon portrait"
   },
   {
     "id": "pkm040",
@@ -636,8 +636,8 @@
     "skills": "Gust,Air Slash,Quick Attack,Feather Dance",
     "drops": "Feather,Wind Essence",
     "description": "A graceful wind spirit. Floats on air currents.",
-    "image_url": "/icons/flying.svg",
-    "image_alt": "Windlor Flying Pokemon icon"
+    "image_url": "/images/pokemon/windlor.svg",
+    "image_alt": "Windlor illustrated Pokemon portrait"
   },
   {
     "id": "pkm041",
@@ -652,8 +652,8 @@
     "skills": "Sludge Wave,Surf,Toxic,Aqua Jet",
     "drops": "Poison Stone,Gill",
     "description": "A poisonous water fish. Its fins secrete toxins.",
-    "image_url": "/icons/poison.svg",
-    "image_alt": "Toxifin Poison/Water Pokemon icon"
+    "image_url": "/images/pokemon/toxifin.svg",
+    "image_alt": "Toxifin illustrated Pokemon portrait"
   },
   {
     "id": "pkm042",
@@ -668,8 +668,8 @@
     "skills": "Earthquake,Bulk Up,Stone Edge,Dynamic Punch",
     "drops": "Earth Gem,Fighting Ribbon",
     "description": "A earth bender with incredible strength. Lives underground.",
-    "image_url": "/icons/ground.svg",
-    "image_alt": "Galebender Ground/Fighting Pokemon icon"
+    "image_url": "/images/pokemon/galebender.svg",
+    "image_alt": "Galebender illustrated Pokemon portrait"
   },
   {
     "id": "pkm043",
@@ -684,8 +684,8 @@
     "skills": "Fire Blast,Flash Cannon,Morning Sun,Light Metal",
     "drops": "Fire Stone,Metal Coat",
     "description": "A solar-powered steel golem. Super charged in sunlight.",
-    "image_url": "/icons/fire.svg",
-    "image_alt": "Sunreep Fire/Steel Pokemon icon"
+    "image_url": "/images/pokemon/sunreep.svg",
+    "image_alt": "Sunreep illustrated Pokemon portrait"
   },
   {
     "id": "pkm044",
@@ -700,8 +700,8 @@
     "skills": "Shadow Ball,Fire Blast,Hypnosis,Nightmare",
     "drops": "Ghost Stone,Soul Dust,Legendary Ember",
     "description": "The lunar flame guardian. Appears only on moonless nights.",
-    "image_url": "/icons/ghost.svg",
-    "image_alt": "Lunaflare Ghost/Fire Pokemon icon"
+    "image_url": "/images/pokemon/lunaflare.svg",
+    "image_alt": "Lunaflare illustrated Pokemon portrait"
   },
   {
     "id": "pkm045",
@@ -716,8 +716,8 @@
     "skills": "Thunder,Air Slash,Hurricane,Weather Ball",
     "drops": "Thunder Stone,Feather,Wind Essence",
     "description": "A thunder bird. Creates storms with its wings.",
-    "image_url": "/icons/flying.svg",
-    "image_alt": "Stormbird Flying/Electric Pokemon icon"
+    "image_url": "/images/pokemon/stormbird.svg",
+    "image_alt": "Stormbird illustrated Pokemon portrait"
   },
   {
     "id": "pkm046",
@@ -732,8 +732,8 @@
     "skills": "Synthesis,Body Slam,Wood Hammer,Iron Tail",
     "drops": "Leaf,Grass Fiber,Oak Log",
     "description": "A walking tree. Its branches can heal wounds.",
-    "image_url": "/icons/grass.svg",
-    "image_alt": "Treemendous Grass/Normal Pokemon icon"
+    "image_url": "/images/pokemon/treemendous.svg",
+    "image_alt": "Treemendous illustrated Pokemon portrait"
   },
   {
     "id": "pkm047",
@@ -748,8 +748,8 @@
     "skills": "Quick Attack,Feint, Baton Pass,Agility",
     "drops": "Feather,Speed Gem",
     "description": "The fastest Pokemon. Moves faster than the eye can see.",
-    "image_url": "/icons/normal.svg",
-    "image_alt": "Lightspeed Normal/Flying Pokemon icon"
+    "image_url": "/images/pokemon/lightspeed.svg",
+    "image_alt": "Lightspeed illustrated Pokemon portrait"
   },
   {
     "id": "pkm048",
@@ -764,8 +764,8 @@
     "skills": "Moonblast,Sludge Bomb,Toxic Spikes,Aromatherapy",
     "drops": "Fairy Dust,Poison Stone",
     "description": "A magical flower creature. Its scent is both healing and toxic.",
-    "image_url": "/icons/fairy.svg",
-    "image_alt": "Magicalure Fairy/Poison Pokemon icon"
+    "image_url": "/images/pokemon/magicalure.svg",
+    "image_alt": "Magicalure illustrated Pokemon portrait"
   },
   {
     "id": "pkm049",
@@ -780,8 +780,8 @@
     "skills": "Night Slash,Foul Play,Sucker Punch,Knock Off",
     "drops": "Dark Gem,Shadow Stone",
     "description": "A shadow assassin. Strikes without warning.",
-    "image_url": "/icons/dark.svg",
-    "image_alt": "Nightfall Dark Pokemon icon"
+    "image_url": "/images/pokemon/nightfall.svg",
+    "image_alt": "Nightfall illustrated Pokemon portrait"
   },
   {
     "id": "pkm050",
@@ -796,7 +796,7 @@
     "skills": "Earthquake,Dragon Tail,Rest,Sleep Talk",
     "drops": "Dragon Scale,Earth Gem,Legendary Pearl",
     "description": "The primordial dragon. Said to have created the rivers and mountains.",
-    "image_url": "/icons/dragon.svg",
-    "image_alt": "Primordion Dragon/Ground Pokemon icon"
+    "image_url": "/images/pokemon/primordion.svg",
+    "image_alt": "Primordion illustrated Pokemon portrait"
   }
 ]

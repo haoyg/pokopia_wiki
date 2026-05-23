@@ -3,23 +3,8 @@ import Image from 'next/image'
 import habitatsData from '@/data/habitats.json'
 import { canonicalUrl } from '@/lib/site'
 
-const weatherIconMap: Record<string, string> = {
-  'Sunny': '/icons/habitat-forest.svg', 'Rain': '/icons/habitat-lake.svg',
-  'Snow': '/icons/habitat-frost.svg', 'Cloudy': '/icons/habitat-plains.svg',
-  'Windy': '/icons/habitat-plains.svg', 'Thunderstorm': '/icons/habitat-volcanic.svg',
-  'Foggy': '/icons/habitat-shadow.svg', 'Clear': '/icons/habitat-forest.svg',
-  'Stormy': '/icons/habitat-shadow.svg',
-}
-
 const difficultyEmoji: Record<string, string> = {
   'easy': '🟢', 'medium': '🟡', 'hard': '🔴',
-}
-
-function getWeatherIcon(weather: string): string {
-  for (const key of Object.keys(weatherIconMap)) {
-    if (weather.toLowerCase().includes(key.toLowerCase())) return weatherIconMap[key]
-  }
-  return '/icons/habitat-forest.svg'
 }
 
 export const metadata: Metadata = {
@@ -44,13 +29,13 @@ export default function HabitatPage() {
       <div className="pokemon-grid" style={{ marginTop: '2rem' }}>
         {habitatsData.map((h) => (
           <a key={h.id} href={`/wiki/habitat/${h.id}`} className="card">
-            <div style={{ width: '100%', height: '80px', position: 'relative', marginBottom: '0.5rem' }}>
+            <div className="card-cover">
               <Image
-                src={getWeatherIcon(h.weather)}
-                alt={h.name}
+                src={h.image_url}
+                alt={h.image_alt || h.name}
                 fill
                 style={{ objectFit: 'contain' }}
-                sizes="(max-width: 768px) 100px, 200px"
+                sizes="(max-width: 768px) 100vw, 300px"
               />
             </div>
             <h3 style={{ textAlign: 'center', marginTop: '0.5rem' }}>{h.name}</h3>

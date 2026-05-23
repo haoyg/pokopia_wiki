@@ -1,17 +1,167 @@
-﻿[
-  {"id":"rec001","name":"Honey Cake","ingredients":"Honey x3, Flour x2, Egg x1","buff":"+20% attraction rate","effect_duration":"30 min","rarity":"uncommon","best_use":"Rare Pokemon farming"},
-  {"id":"rec002","name":"Fire Boost","ingredients":"Flame Fruit x5, Magma Stone x1","buff":"+30% Fire damage","effect_duration":"1 hour","rarity":"rare","best_use":"Boss battles"},
-  {"id":"rec003","name":"Speed Potion","ingredients":"Windy Herb x4, Zap Berry x2","buff":"+25% movement speed","effect_duration":"45 min","rarity":"uncommon","best_use":"Speed runs"},
-  {"id":"rec004","name":"Guardian Stew","ingredients":"Iron Root x3, Big Root x2, Mystery Meat x2","buff":"+40% defense","effect_duration":"2 hours","rarity":"rare","best_use":"Hard habitats"},
-  {"id":"rec005","name":"Lucky Charm","ingredients":"Golden Fish x1, Four Leaf x3, Star Dust x2","buff":"+50% rare spawn chance","effect_duration":"1 hour","rarity":"legendary","best_use":"Legendary hunting"},
-  {"id":"rec006","name":"Water Shield","ingredients":"Crystal Dew x3, Shell x2, Pearl x1","buff":"+35% water resistance","effect_duration":"1.5 hours","rarity":"uncommon","best_use":"Water habitats"},
-  {"id":"rec007","name":"Thunder Strike","ingredients":"Lightning Bug x5, Battery x3, Magnet x1","buff":"+40% electric damage","effect_duration":"45 min","rarity":"rare","best_use":"Electric battles"},
-  {"id":"rec008","name":"Ice Armor","ingredients":"Frost Crystal x4, Ice Stone x2, Snowball x3","buff":"+50% ice resistance","effect_duration":"2 hours","rarity":"rare","best_use":"Frost Peak"},
-  {"id":"rec009","name":"Grass Heal","ingredients":"Leaf x5, Berry x3, Sunleaf x2","buff":"+30 HP restore","effect_duration":"20 min","rarity":"common","best_use":"Daily farming"},
-  {"id":"rec010","name":"Ghost Veil","ingredients":"Soul Dust x4, Shadow Stone x2, Void Fruit x1","buff":"+45% ghost damage","effect_duration":"1 hour","rarity":"legendary","best_use":"Shadow Marsh"},
-  {"id":"rec011","name":"Dragon's Fury","ingredients":"Dragon Scale x3, Magma Core x2, Fire Stone x1","buff":"+35% dragon damage","effect_duration":"90 min","rarity":"rare","best_use":"Boss fights"},
-  {"id":"rec012","name":"Steel Shell","ingredients":"Metal Coat x4, Bronze Medal x2, Iron Ore x3","buff":"+60% defense","effect_duration":"2 hours","rarity":"rare","best_use":"Tank builds"},
-  {"id":"rec013","name":"Flying High","ingredients":"Feather x5, Wind Essence x2, Cloudy Wool x3","buff":"+30% flying damage","effect_duration":"1 hour","rarity":"uncommon","best_use":"Sky Isles"},
-  {"id":"rec014","name":"Muddy Swirl","ingredients":"Mud Ball x4, River Clay x3, Water Stone x1","buff":"+25% ground damage","effect_duration":"45 min","rarity":"uncommon","best_use":"Muddy River"},
-  {"id":"rec015","name":"Mega Restore","ingredients":"Star Piece x3, Gold Leaf x2, Rainbow Shell x1","buff":"Full HP restore","effect_duration":"Instant","rarity":"legendary","best_use":"Emergency healing"}
+[
+  {
+    "id": "rec001",
+    "name": "Honey Cake",
+    "ingredients": "Honey x3, Flour x2, Egg x1",
+    "buff": "+20% attraction rate",
+    "effect_duration": "30 min",
+    "rarity": "uncommon",
+    "best_use": "Rare Pokemon farming",
+    "image_url": "/images/recipes/rec001-honey-cake.svg",
+    "image_alt": "Honey Cake recipe illustration"
+  },
+  {
+    "id": "rec002",
+    "name": "Fire Boost",
+    "ingredients": "Flame Fruit x5, Magma Stone x1",
+    "buff": "+30% Fire damage",
+    "effect_duration": "1 hour",
+    "rarity": "rare",
+    "best_use": "Boss battles",
+    "image_url": "/images/recipes/rec002-fire-boost.svg",
+    "image_alt": "Fire Boost recipe illustration"
+  },
+  {
+    "id": "rec003",
+    "name": "Speed Potion",
+    "ingredients": "Windy Herb x4, Zap Berry x2",
+    "buff": "+25% movement speed",
+    "effect_duration": "45 min",
+    "rarity": "uncommon",
+    "best_use": "Speed runs",
+    "image_url": "/images/recipes/rec003-speed-potion.svg",
+    "image_alt": "Speed Potion recipe illustration"
+  },
+  {
+    "id": "rec004",
+    "name": "Guardian Stew",
+    "ingredients": "Iron Root x3, Big Root x2, Mystery Meat x2",
+    "buff": "+40% defense",
+    "effect_duration": "2 hours",
+    "rarity": "rare",
+    "best_use": "Hard habitats",
+    "image_url": "/images/recipes/rec004-guardian-stew.svg",
+    "image_alt": "Guardian Stew recipe illustration"
+  },
+  {
+    "id": "rec005",
+    "name": "Lucky Charm",
+    "ingredients": "Golden Fish x1, Four Leaf x3, Star Dust x2",
+    "buff": "+50% rare spawn chance",
+    "effect_duration": "1 hour",
+    "rarity": "legendary",
+    "best_use": "Legendary hunting",
+    "image_url": "/images/recipes/rec005-lucky-charm.svg",
+    "image_alt": "Lucky Charm recipe illustration"
+  },
+  {
+    "id": "rec006",
+    "name": "Water Shield",
+    "ingredients": "Crystal Dew x3, Shell x2, Pearl x1",
+    "buff": "+35% water resistance",
+    "effect_duration": "1.5 hours",
+    "rarity": "uncommon",
+    "best_use": "Water habitats",
+    "image_url": "/images/recipes/rec006-water-shield.svg",
+    "image_alt": "Water Shield recipe illustration"
+  },
+  {
+    "id": "rec007",
+    "name": "Thunder Strike",
+    "ingredients": "Lightning Bug x5, Battery x3, Magnet x1",
+    "buff": "+40% electric damage",
+    "effect_duration": "45 min",
+    "rarity": "rare",
+    "best_use": "Electric battles",
+    "image_url": "/images/recipes/rec007-thunder-strike.svg",
+    "image_alt": "Thunder Strike recipe illustration"
+  },
+  {
+    "id": "rec008",
+    "name": "Ice Armor",
+    "ingredients": "Frost Crystal x4, Ice Stone x2, Snowball x3",
+    "buff": "+50% ice resistance",
+    "effect_duration": "2 hours",
+    "rarity": "rare",
+    "best_use": "Frost Peak",
+    "image_url": "/images/recipes/rec008-ice-armor.svg",
+    "image_alt": "Ice Armor recipe illustration"
+  },
+  {
+    "id": "rec009",
+    "name": "Grass Heal",
+    "ingredients": "Leaf x5, Berry x3, Sunleaf x2",
+    "buff": "+30 HP restore",
+    "effect_duration": "20 min",
+    "rarity": "common",
+    "best_use": "Daily farming",
+    "image_url": "/images/recipes/rec009-grass-heal.svg",
+    "image_alt": "Grass Heal recipe illustration"
+  },
+  {
+    "id": "rec010",
+    "name": "Ghost Veil",
+    "ingredients": "Soul Dust x4, Shadow Stone x2, Void Fruit x1",
+    "buff": "+45% ghost damage",
+    "effect_duration": "1 hour",
+    "rarity": "legendary",
+    "best_use": "Shadow Marsh",
+    "image_url": "/images/recipes/rec010-ghost-veil.svg",
+    "image_alt": "Ghost Veil recipe illustration"
+  },
+  {
+    "id": "rec011",
+    "name": "Dragon's Fury",
+    "ingredients": "Dragon Scale x3, Magma Core x2, Fire Stone x1",
+    "buff": "+35% dragon damage",
+    "effect_duration": "90 min",
+    "rarity": "rare",
+    "best_use": "Boss fights",
+    "image_url": "/images/recipes/rec011-dragon-s-fury.svg",
+    "image_alt": "Dragon's Fury recipe illustration"
+  },
+  {
+    "id": "rec012",
+    "name": "Steel Shell",
+    "ingredients": "Metal Coat x4, Bronze Medal x2, Iron Ore x3",
+    "buff": "+60% defense",
+    "effect_duration": "2 hours",
+    "rarity": "rare",
+    "best_use": "Tank builds",
+    "image_url": "/images/recipes/rec012-steel-shell.svg",
+    "image_alt": "Steel Shell recipe illustration"
+  },
+  {
+    "id": "rec013",
+    "name": "Flying High",
+    "ingredients": "Feather x5, Wind Essence x2, Cloudy Wool x3",
+    "buff": "+30% flying damage",
+    "effect_duration": "1 hour",
+    "rarity": "uncommon",
+    "best_use": "Sky Isles",
+    "image_url": "/images/recipes/rec013-flying-high.svg",
+    "image_alt": "Flying High recipe illustration"
+  },
+  {
+    "id": "rec014",
+    "name": "Muddy Swirl",
+    "ingredients": "Mud Ball x4, River Clay x3, Water Stone x1",
+    "buff": "+25% ground damage",
+    "effect_duration": "45 min",
+    "rarity": "uncommon",
+    "best_use": "Muddy River",
+    "image_url": "/images/recipes/rec014-muddy-swirl.svg",
+    "image_alt": "Muddy Swirl recipe illustration"
+  },
+  {
+    "id": "rec015",
+    "name": "Mega Restore",
+    "ingredients": "Star Piece x3, Gold Leaf x2, Rainbow Shell x1",
+    "buff": "Full HP restore",
+    "effect_duration": "Instant",
+    "rarity": "legendary",
+    "best_use": "Emergency healing",
+    "image_url": "/images/recipes/rec015-mega-restore.svg",
+    "image_alt": "Mega Restore recipe illustration"
+  }
 ]

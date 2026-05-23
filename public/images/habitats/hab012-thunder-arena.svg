@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-label="Thunder Arena">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#dcfce7"/>
+      <stop offset=".45" stop-color="#2dd4bf"/>
+      <stop offset="1" stop-color="#0f3460"/>
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#000" flood-opacity=".18"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="675" fill="url(#sky)"/>
+  <circle cx="930" cy="135" r="88" fill="#fff" opacity=".42"/>
+  <path d="M0 448 C145 330 248 412 374 308 C515 191 680 305 790 214 C927 100 1042 235 1200 172 L1200 675 L0 675Z" fill="#fff" opacity=".22"/>
+  <path d="M0 526 C176 458 318 544 470 458 C638 364 771 492 948 417 C1070 365 1136 394 1200 360 L1200 675 L0 675Z" fill="#0f3460" opacity=".42"/>
+  <g filter="url(#shadow)" opacity=".92">
+    <path d="M176 478 L302 280 L426 478Z" fill="#fff" opacity=".78"/>
+    <path d="M382 500 L545 244 L724 500Z" fill="#fff" opacity=".72"/>
+    <path d="M668 490 L810 302 L950 490Z" fill="#fff" opacity=".68"/>
+  </g>
+  <rect x="72" y="74" width="620" height="162" rx="26" fill="#0f172a" opacity=".36"/>
+  <text x="112" y="134" fill="#fff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="28" font-weight="800" letter-spacing="3">HABITAT</text>
+  <text x="112" y="194" fill="#fff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="58" font-weight="900">Thunder Arena</text>
+  <text x="112" y="575" fill="#fff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="28" font-weight="800">Thunderstorm / hard</text>
+  <text x="112" y="620" fill="#fff" opacity=".86" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="24">+55% Electric drops</text>
+</svg>

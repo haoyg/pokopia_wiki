@@ -51,8 +51,8 @@
     "excerpt": "Check out the top community builds",
     "content": "Congratulations to our build competition winners! Top 3 builds featured on homepage. Winners receive 5000 gems each.",
     "published_at": 1746307200,
-    "image_url": "/icons/normal.svg",
-    "image_alt": "Community Build Competition Winners news cover"
+    "image_url": "/images/news/build-competition-winners.svg",
+    "image_alt": "Community Build Competition Winners illustrated news cover"
   },
   {
     "id": "news006",
@@ -62,8 +62,8 @@
     "excerpt": "New habitat Thunder Arena now open!",
     "content": "Thunder Arena opens at Level 22. Home to Voltscale, the legendary electric dragon! +55% electric drops. Bring Thunder Strike recipe!",
     "published_at": 1746220800,
-    "image_url": "/icons/normal.svg",
-    "image_alt": "Thunder Arena Grand Opening news cover"
+    "image_url": "/images/news/thunder-arena-opening.svg",
+    "image_alt": "Thunder Arena Grand Opening illustrated news cover"
   },
   {
     "id": "news007",
@@ -73,8 +73,8 @@
     "excerpt": "Version 1.4.4 fixes critical bugs",
     "content": "Fixed crash when entering Shadow Marsh. Improved frame rate on mobile. Fixed recipe_buff not applying correctly.",
     "published_at": 1746134400,
-    "image_url": "/icons/steel.svg",
-    "image_alt": "Bug Fixes and Performance Improvements news cover"
+    "image_url": "/images/news/patch-notes-v144.svg",
+    "image_alt": "Bug Fixes and Performance Improvements illustrated news cover"
   },
   {
     "id": "news008",
@@ -84,8 +84,8 @@
     "excerpt": "Beach event with exclusive rewards",
     "content": "Summer Beach Event in June! New water Pokémon. Special Sunny Beach habitat. Beach-themed recipes and cosmetics.",
     "published_at": 1746048000,
-    "image_url": "/icons/habitat-forest.svg",
-    "image_alt": "Summer Beach Event Coming Next Month news cover"
+    "image_url": "/images/news/summer-beach-event.svg",
+    "image_alt": "Summer Beach Event Coming Next Month illustrated news cover"
   },
   {
     "id": "news009",
@@ -95,8 +95,8 @@
     "excerpt": "Complete guide for new players",
     "content": "New to Pokopia? Check out our getting started guide. Learn about habitats, recipes, and how to catch your first Pokémon.",
     "published_at": 1745961600,
-    "image_url": "/icons/normal.svg",
-    "image_alt": "New Player Guide: Getting Started news cover"
+    "image_url": "/images/news/new-player-guide.svg",
+    "image_alt": "New Player Guide: Getting Started illustrated news cover"
   },
   {
     "id": "news010",
@@ -106,8 +106,8 @@
     "excerpt": "Submit your builds and guides",
     "content": "Community submissions now open! Submit your best builds, guides, and fan art. Top submissions featured on site.",
     "published_at": 1745875200,
-    "image_url": "/icons/normal.svg",
-    "image_alt": "Community Submissions Now Open news cover"
+    "image_url": "/images/news/community-submissions-open.svg",
+    "image_alt": "Community Submissions Now Open illustrated news cover"
   },
   {
     "id": "news011",
@@ -117,8 +117,8 @@
     "excerpt": "This weekend only: Double XP!",
     "content": "Double XP this weekend! March 15-17. All habitats. Stack with Lucky Charm for triple XP. Perfect time to level up!",
     "published_at": 1745788800,
-    "image_url": "/icons/habitat-forest.svg",
-    "image_alt": "Double XP Weekend Event news cover"
+    "image_url": "/images/news/double-xp-weekend.svg",
+    "image_alt": "Double XP Weekend Event illustrated news cover"
   },
   {
     "id": "news012",
@@ -128,7 +128,7 @@
     "excerpt": "Community votes on favorite Pokémon",
     "content": "Results are in! Pikafire takes #1 spot. Flamexor #2. Shados #3. See the full list on our Tier List page.",
     "published_at": 1745702400,
-    "image_url": "/icons/normal.svg",
-    "image_alt": "Top 10 Most Popular Pokémon news cover"
+    "image_url": "/images/news/top-10-popular-pokemon.svg",
+    "image_alt": "Top 10 Most Popular Pokémon illustrated news cover"
   }
 ]

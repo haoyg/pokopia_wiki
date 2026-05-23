@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900" role="img" aria-label="Honey Cake">
+  <defs>
+    <radialGradient id="bg" cx=".38" cy=".24" r=".85">
+      <stop offset="0" stop-color="#ffedd5"/>
+      <stop offset=".5" stop-color="#f97316"/>
+      <stop offset="1" stop-color="#7c2d12"/>
+    </radialGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="22" stdDeviation="22" flood-color="#000" flood-opacity=".24"/>
+    </filter>
+  </defs>
+  <rect width="900" height="900" fill="url(#bg)"/>
+  <circle cx="720" cy="170" r="118" fill="#fff" opacity=".18"/>
+  <circle cx="160" cy="720" r="180" fill="#fff" opacity=".12"/>
+  <g filter="url(#shadow)">
+    <path d="M260 500 C260 390 350 330 450 330 C550 330 640 390 640 500 C640 622 555 700 450 700 C345 700 260 622 260 500Z" fill="#fff" opacity=".9"/>
+    <path d="M308 470 C400 510 504 510 592 470" fill="none" stroke="#7c2d12" stroke-width="24" stroke-linecap="round" opacity=".55"/>
+    <path d="M360 318 C346 230 390 188 450 182 C510 188 554 230 540 318" fill="none" stroke="#fff" stroke-width="42" stroke-linecap="round" opacity=".82"/>
+    <circle cx="370" cy="532" r="22" fill="#f97316" opacity=".78"/>
+    <circle cx="462" cy="575" r="18" fill="#f97316" opacity=".72"/>
+    <circle cx="522" cy="512" r="24" fill="#f97316" opacity=".68"/>
+  </g>
+  <text x="70" y="92" fill="#fff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="30" font-weight="900" letter-spacing="3">RECIPE</text>
+  <text x="70" y="152" fill="#fff" opacity=".88" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="26" font-weight="800">uncommon recipe</text>
+  <text x="70" y="790" fill="#fff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="54" font-weight="900">Honey Cake</text>
+  <text x="70" y="840" fill="#fff" opacity=".84" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="24">+20% attraction rate</text>
+</svg>
