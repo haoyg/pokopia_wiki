@@ -25,6 +25,11 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'Pokopia Portal' }],
   creator: 'Pokopia Portal',
+  icons: {
+    icon: [{ url: '/logo.png', sizes: '512x512', type: 'image/png' }],
+    shortcut: ['/logo.png'],
+    apple: [{ url: '/logo.png', sizes: '512x512', type: 'image/png' }],
+  },
   openGraph: {
     type: 'website',
     locale: 'en_US',

@@ -1,5 +1,6 @@
 'use client'
 
+import Image from 'next/image'
 import Link from 'next/link'
 
 const navItems = [
@@ -21,7 +22,14 @@ export function Header() {
     <header className="site-header">
       <div className="site-header-inner">
         <Link href="/" className="site-brand" aria-label="Pokopia Portal home">
-          <span className="site-brand-mark">P</span>
+          <Image
+            className="site-brand-logo"
+            src="/logo.png"
+            alt="Pokopia Portal logo"
+            width={40}
+            height={40}
+            priority
+          />
           <span>
             <strong>Pokopia Portal</strong>
             <small>Guides, news, wiki, tools</small>
