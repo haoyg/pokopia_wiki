@@ -27,7 +27,7 @@ export function CreditedImage({
     <figure style={{ margin: 0 }}>
       <div className={className}>
         {isRemote ? (
-          <img src={src} alt={alt || source} loading={priority ? 'eager' : 'lazy'} />
+          <img src={src} alt={alt || source} loading={priority ? 'eager' : 'lazy'} referrerPolicy="no-referrer" />
         ) : (
           <Image src={src} alt={alt || source} fill sizes={sizes} priority={priority} />
         )}
