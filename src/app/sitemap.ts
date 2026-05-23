@@ -50,7 +50,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   guidesData.forEach((guide) => {
     entries.push({
       url: `${BASE_URL}/guides/${guide.slug}`,
-      lastModified: new Date(),
+      lastModified: new Date(guide.updated_at || guide.published_at || Date.now()),
       changeFrequency: 'monthly',
       priority: 0.7,
     })

@@ -43,6 +43,16 @@ export interface Guide {
   category: string
   seo_keyword: string
   content: string
+  answer?: string
+  steps?: string[]
+  recommended_setup?: string[]
+  common_mistakes?: string[]
+  faqs?: {
+    question: string
+    answer: string
+  }[]
+  published_at?: string
+  updated_at?: string
   image_url?: string
   image_alt?: string
   related_pokemon: string   // CSV string, e.g. "pkm001,pkm002"
