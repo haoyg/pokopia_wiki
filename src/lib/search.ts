@@ -1,8 +1,4 @@
-import guidesData from '@/data/guides.json'
-import habitatsData from '@/data/habitats.json'
-import newsData from '@/data/news.json'
-import pokemonData from '@/data/pokemon.json'
-import recipesData from '@/data/recipes.json'
+import searchIndex from '@/data/search-index.json'
 
 export type SearchResult = {
   id: string
@@ -11,96 +7,31 @@ export type SearchResult = {
   href: string
   description: string
   meta: string
-  haystack: string
+  keywords: string
 }
 
-const results: SearchResult[] = [
-  ...newsData.map((item) => ({
-    id: item.id,
-    type: 'News' as const,
-    title: item.title,
-    href: `/news/${item.slug}`,
-    description: item.excerpt,
-    meta: item.category,
-    haystack: [item.title, item.category, item.excerpt, item.content].join(' '),
-  })),
-  ...guidesData.map((item) => ({
-    id: item.id,
-    type: 'Guide' as const,
-    title: item.title,
-    href: `/guides/${item.slug}`,
-    description: item.content,
-    meta: item.category,
-    haystack: [item.title, item.category, item.seo_keyword, item.content].join(' '),
-  })),
-  ...pokemonData.map((item) => ({
-    id: item.id,
-    type: 'Pokemon' as const,
-    title: item.name,
-    href: `/wiki/pokemon/${item.id}`,
-    description: item.description,
-    meta: `${item.type} / ${item.rarity}`,
-    haystack: [
-      item.name,
-      item.type,
-      item.rarity,
-      item.habitat,
-      item.favorite_food,
-      item.spawn_time,
-      item.weather,
-      item.specialty,
-      item.skills,
-      item.drops,
-      item.description,
-    ].join(' '),
-  })),
-  ...habitatsData.map((item) => ({
-    id: item.id,
-    type: 'Habitat' as const,
-    title: item.name,
-    href: `/wiki/habitat/${item.id}`,
-    description: `${item.unlock_condition}. ${item.resource_bonus}`,
-    meta: `${item.weather} / ${item.difficulty}`,
-    haystack: [
-      item.name,
-      item.unlock_condition,
-      item.spawn_list,
-      item.recommended_build,
-      item.weather,
-      item.difficulty,
-      item.resource_bonus,
-    ].join(' '),
-  })),
-  ...recipesData.map((item) => ({
-    id: item.id,
-    type: 'Recipe' as const,
-    title: item.name,
-    href: `/wiki/recipe/${item.id}`,
-    description: item.buff,
-    meta: `${item.rarity} / ${item.effect_duration}`,
-    haystack: [
-      item.name,
-      item.ingredients,
-      item.buff,
-      item.effect_duration,
-      item.rarity,
-      item.best_use,
-    ].join(' '),
-  })),
-]
+const results = searchIndex as SearchResult[]
 
 function scoreResult(result: SearchResult, terms: string[]) {
   const title = result.title.toLowerCase()
   const meta = result.meta.toLowerCase()
-  const haystack = result.haystack.toLowerCase()
+  const keywords = result.keywords.toLowerCase()
+  const description = result.description.toLowerCase()
+  const searchable = `${title} ${meta} ${description} ${keywords}`
 
-  return terms.reduce((score, term) => {
+  const matchedTerms = terms.filter((term) => searchable.includes(term))
+  if (matchedTerms.length === 0) return 0
+
+  const score = terms.reduce((score, term) => {
     if (title === term) return score + 20
     if (title.includes(term)) score += 10
     if (meta.includes(term)) score += 4
-    if (haystack.includes(term)) score += 1
+    if (description.includes(term)) score += 2
+    if (keywords.includes(term)) score += 1
     return score
   }, 0)
+
+  return matchedTerms.length === terms.length ? score + 8 : score
 }
 
 export function searchContent(query: string) {
