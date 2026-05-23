@@ -26,6 +26,8 @@ export interface Pokemon {
   image_alt?: string
   image_source?: string
   image_source_url?: string
+  data_status?: string
+  data_status_note?: string
 }
 
 export interface Habitat {
@@ -54,6 +56,8 @@ export interface Habitat {
   image_alt?: string
   image_source?: string
   image_source_url?: string
+  data_status?: string
+  data_status_note?: string
 }
 
 export interface Recipe {
@@ -81,6 +85,8 @@ export interface Recipe {
   image_alt?: string
   image_source?: string
   image_source_url?: string
+  data_status?: string
+  data_status_note?: string
 }
 
 export interface Guide {
@@ -104,6 +110,8 @@ export interface Guide {
   image_alt?: string
   image_source?: string
   image_source_url?: string
+  data_status?: string
+  data_status_note?: string
   related_pokemon: string   // CSV string, e.g. "pkm001,pkm002"
   related_items: string     // CSV string
   related_habitats: string  // CSV string

@@ -6,6 +6,7 @@ import habitatsData from '@/data/habitats.json'
 import { canonicalUrl } from '@/lib/site'
 import { CreditedImage } from '@/components/media/CreditedImage'
 import { FAQJsonLd } from '@/components/seo/JsonLd'
+import { DataStatus } from '@/components/content/DataStatus'
 
 interface Props {
   params: Promise<{ id: string }>
@@ -65,6 +66,7 @@ export default async function PokemonDetailPage({ params }: Props) {
             <p>{pokemon.type}</p>
             <span className={`rarity ${pokemon.rarity}`}>{pokemon.rarity}</span>
             {updatedAt && <p style={{ color: '#777', fontSize: '0.875rem', marginTop: '0.75rem' }}>Updated {updatedAt}</p>}
+            <DataStatus status={pokemon.data_status} note={pokemon.data_status_note} updatedAt={updatedAt} />
           </div>
         </div>
 

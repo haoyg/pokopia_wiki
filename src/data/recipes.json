@@ -66,7 +66,9 @@
     ],
     "related_pokemon": "pkm002,pkm004,pkm017,pkm023,pkm026,pkm032",
     "related_habitats": "hab002,hab003,hab015,hab020",
-    "updated_at": "2026-05-23"
+    "updated_at": "2026-05-23",
+    "data_status": "Editorial recipe reference",
+    "data_status_note": "This recipe page is maintained as an editorial reference. Ingredient routes, buff timing, and recommendations may need review after balance changes."
   },
   {
     "id": "rec002",
@@ -135,7 +137,9 @@
     ],
     "related_pokemon": "pkm001,pkm003,pkm007,pkm013,pkm028,pkm043",
     "related_habitats": "hab001",
-    "updated_at": "2026-05-23"
+    "updated_at": "2026-05-23",
+    "data_status": "Editorial recipe reference",
+    "data_status_note": "This recipe page is maintained as an editorial reference. Ingredient routes, buff timing, and recommendations may need review after balance changes."
   },
   {
     "id": "rec003",
@@ -204,7 +208,9 @@
     ],
     "related_pokemon": "pkm005,pkm010,pkm015,pkm024,pkm035",
     "related_habitats": "hab004,hab012,hab020",
-    "updated_at": "2026-05-23"
+    "updated_at": "2026-05-23",
+    "data_status": "Editorial recipe reference",
+    "data_status_note": "This recipe page is maintained as an editorial reference. Ingredient routes, buff timing, and recommendations may need review after balance changes."
   },
   {
     "id": "rec004",
@@ -273,7 +279,9 @@
     ],
     "related_pokemon": "pkm002,pkm008,pkm010,pkm019,pkm037",
     "related_habitats": "hab005,hab010,hab016,hab017",
-    "updated_at": "2026-05-23"
+    "updated_at": "2026-05-23",
+    "data_status": "Editorial recipe reference",
+    "data_status_note": "This recipe page is maintained as an editorial reference. Ingredient routes, buff timing, and recommendations may need review after balance changes."
   },
   {
     "id": "rec005",
@@ -342,7 +350,9 @@
     ],
     "related_pokemon": "pkm007,pkm015,pkm030,pkm050,pkm012,pkm031",
     "related_habitats": "hab001,hab006,hab012,hab014,hab018,hab019",
-    "updated_at": "2026-05-23"
+    "updated_at": "2026-05-23",
+    "data_status": "Editorial recipe reference",
+    "data_status_note": "This recipe page is maintained as an editorial reference. Ingredient routes, buff timing, and recommendations may need review after balance changes."
   },
   {
     "id": "rec006",
@@ -411,7 +421,9 @@
     ],
     "related_pokemon": "pkm004,pkm014,pkm018,pkm021,pkm027,pkm034",
     "related_habitats": "hab003,hab009,hab011",
-    "updated_at": "2026-05-23"
+    "updated_at": "2026-05-23",
+    "data_status": "Editorial recipe reference",
+    "data_status_note": "This recipe page is maintained as an editorial reference. Ingredient routes, buff timing, and recommendations may need review after balance changes."
   },
   {
     "id": "rec007",
@@ -480,7 +492,9 @@
     ],
     "related_pokemon": "pkm005,pkm010,pkm015,pkm024,pkm035",
     "related_habitats": "hab004,hab012",
-    "updated_at": "2026-05-23"
+    "updated_at": "2026-05-23",
+    "data_status": "Editorial recipe reference",
+    "data_status_note": "This recipe page is maintained as an editorial reference. Ingredient routes, buff timing, and recommendations may need review after balance changes."
   },
   {
     "id": "rec008",
@@ -549,7 +563,9 @@
     ],
     "related_pokemon": "pkm008,pkm014,pkm022,pkm029",
     "related_habitats": "hab005,hab014",
-    "updated_at": "2026-05-23"
+    "updated_at": "2026-05-23",
+    "data_status": "Editorial recipe reference",
+    "data_status_note": "This recipe page is maintained as an editorial reference. Ingredient routes, buff timing, and recommendations may need review after balance changes."
   },
   {
     "id": "rec009",
@@ -618,7 +634,9 @@
     ],
     "related_pokemon": "pkm002,pkm006,pkm017,pkm023,pkm026,pkm032",
     "related_habitats": "hab002,hab015,hab020",
-    "updated_at": "2026-05-23"
+    "updated_at": "2026-05-23",
+    "data_status": "Editorial recipe reference",
+    "data_status_note": "This recipe page is maintained as an editorial reference. Ingredient routes, buff timing, and recommendations may need review after balance changes."
   },
   {
     "id": "rec010",
@@ -687,7 +705,9 @@
     ],
     "related_pokemon": "pkm009,pkm030,pkm044,pkm049",
     "related_habitats": "hab006,hab017,hab013",
-    "updated_at": "2026-05-23"
+    "updated_at": "2026-05-23",
+    "data_status": "Editorial recipe reference",
+    "data_status_note": "This recipe page is maintained as an editorial reference. Ingredient routes, buff timing, and recommendations may need review after balance changes."
   },
   {
     "id": "rec011",
@@ -756,7 +776,9 @@
     ],
     "related_pokemon": "pkm015,pkm029,pkm050",
     "related_habitats": "hab012,hab018",
-    "updated_at": "2026-05-23"
+    "updated_at": "2026-05-23",
+    "data_status": "Editorial recipe reference",
+    "data_status_note": "This recipe page is maintained as an editorial reference. Ingredient routes, buff timing, and recommendations may need review after balance changes."
   },
   {
     "id": "rec012",
@@ -825,7 +847,9 @@
     ],
     "related_pokemon": "pkm007,pkm010,pkm019,pkm037,pkm045",
     "related_habitats": "hab016,hab010,hab018,hab001",
-    "updated_at": "2026-05-23"
+    "updated_at": "2026-05-23",
+    "data_status": "Editorial recipe reference",
+    "data_status_note": "This recipe page is maintained as an editorial reference. Ingredient routes, buff timing, and recommendations may need review after balance changes."
   },
   {
     "id": "rec013",
@@ -894,7 +918,9 @@
     ],
     "related_pokemon": "pkm016,pkm020,pkm025,pkm040",
     "related_habitats": "hab008",
-    "updated_at": "2026-05-23"
+    "updated_at": "2026-05-23",
+    "data_status": "Editorial recipe reference",
+    "data_status_note": "This recipe page is maintained as an editorial reference. Ingredient routes, buff timing, and recommendations may need review after balance changes."
   },
   {
     "id": "rec014",
@@ -963,7 +989,9 @@
     ],
     "related_pokemon": "pkm011,pkm018,pkm021,pkm039",
     "related_habitats": "hab007,hab009",
-    "updated_at": "2026-05-23"
+    "updated_at": "2026-05-23",
+    "data_status": "Editorial recipe reference",
+    "data_status_note": "This recipe page is maintained as an editorial reference. Ingredient routes, buff timing, and recommendations may need review after balance changes."
   },
   {
     "id": "rec015",
@@ -1032,6 +1060,8 @@
     ],
     "related_pokemon": "pkm007,pkm015,pkm030,pkm050,pkm019",
     "related_habitats": "hab001,hab006,hab010,hab018",
-    "updated_at": "2026-05-23"
+    "updated_at": "2026-05-23",
+    "data_status": "Editorial recipe reference",
+    "data_status_note": "This recipe page is maintained as an editorial reference. Ingredient routes, buff timing, and recommendations may need review after balance changes."
   }
 ]

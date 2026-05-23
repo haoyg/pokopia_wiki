@@ -6,6 +6,7 @@ import habitatsData from '@/data/habitats.json'
 import { canonicalUrl } from '@/lib/site'
 import { CreditedImage } from '@/components/media/CreditedImage'
 import { FAQJsonLd } from '@/components/seo/JsonLd'
+import { DataStatus } from '@/components/content/DataStatus'
 
 interface Props {
   params: Promise<{ id: string }>
@@ -62,6 +63,7 @@ export default async function RecipeDetailPage({ params }: Props) {
       <h1>{recipe.name}</h1>
       <span className={`rarity ${recipe.rarity}`}>{recipe.rarity}</span>
       {updatedAt && <p style={{ color: '#777', fontSize: '0.875rem', marginTop: '0.5rem' }}>Updated {updatedAt}</p>}
+      <DataStatus status={recipe.data_status} note={recipe.data_status_note} updatedAt={updatedAt} />
       <CreditedImage src={recipe.image_url} alt={recipe.image_alt || recipe.name} source={recipe.image_source} sourceUrl={recipe.image_source_url} className="article-cover" sizes="(max-width: 768px) 100vw, 800px" priority />
 
       <section style={{ padding: 0, marginTop: '2rem' }}>

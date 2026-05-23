@@ -213,6 +213,44 @@ a:hover {
   font-size: var(--font-size-xs);
 }
 
+.data-status {
+  margin-top: var(--space-4);
+  padding: var(--space-4);
+  border: 2px solid rgba(98, 182, 243, 0.35);
+  border-radius: var(--radius-md);
+  background: rgba(245, 252, 255, 0.92);
+  box-shadow: var(--shadow-sm);
+}
+
+.data-status-label {
+  display: block;
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-xs);
+  font-weight: 800;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.data-status strong {
+  display: block;
+  margin-top: var(--space-1);
+  color: var(--color-secondary);
+  font-size: var(--font-size-sm);
+}
+
+.data-status p {
+  margin-top: var(--space-2);
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-sm);
+}
+
+.data-status small {
+  display: block;
+  margin-top: var(--space-2);
+  color: var(--color-text-muted);
+  font-size: var(--font-size-xs);
+}
+
 .site-search,
 .search-page-form {
   display: flex;
