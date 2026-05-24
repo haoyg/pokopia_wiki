@@ -160,11 +160,11 @@
     "type": "Guide",
     "title": "Best Starter Pokemon in Pokopia",
     "href": "/guides/best-starter-pokemon",
-    "description": "Bulbin is the safest first pick, Aquap is the easiest comfort pick, and Pikafire is the fastest aggressive pick once you understand habitat matchups. For most players, the practic…",
+    "description": "Bulbin is still the safest first pick because it stabilizes early routes with the fewest resource mistakes. Aquap is the comfort option for slower Crystal Lake farming, while Pika…",
     "meta": "tier",
     "status": "Editorial guide",
-    "source": "Gematsu / 官方截图转载",
-    "updatedAt": "2026-05-23",
+    "source": "Gematsu / official screenshot repost",
+    "updatedAt": "2026-05-24",
     "priority": 85,
     "keywords": "Best Starter Pokemon in Pokopia tier best starter pokopia pkm002 pkm004 pkm001 hab002 hab003 hab001 rec001"
   },
@@ -173,11 +173,11 @@
     "type": "Guide",
     "title": "How to Unlock Volcanic Cave",
     "href": "/guides/how-to-unlock-volcanic-cave",
-    "description": "Unlock Volcanic Cave after Level 15, then enter with a fire-resistant plan instead of treating it like another early farming zone. For most players, the practical route is to focu…",
+    "description": "Unlock Volcanic Cave after Level 15, but treat the first entry as a scouting run. Use Pikafire for tempo, bring a safer backup if your team is fragile, and save Fire Boost for the…",
     "meta": "guides",
     "status": "Editorial guide",
-    "source": "Gematsu / 官方截图转载",
-    "updatedAt": "2026-05-23",
+    "source": "Gematsu / official screenshot repost",
+    "updatedAt": "2026-05-24",
     "priority": 85,
     "keywords": "How to Unlock Volcanic Cave guides volcanic cave unlock pokopia pkm001 pkm007 hab001 rec002"
   },
@@ -186,11 +186,11 @@
     "type": "Guide",
     "title": "Fast Farming Guide for Rare Pokemon",
     "href": "/guides/fast-farming-rare-pokemon",
-    "description": "Fast rare farming is about short repeatable loops, not long clears. Use Lucky Charm only during routes where rare checks happen quickly. For most players, the practical route is t…",
+    "description": "The fastest rare farming route is the shortest reliable loop that reaches a rare check, resets cleanly, and lets Lucky Charm cover several attempts. Shadow Marsh is stronger for g…",
     "meta": "farming",
     "status": "Editorial guide",
-    "source": "Gematsu / 官方截图转载",
-    "updatedAt": "2026-05-23",
+    "source": "Gematsu / official screenshot repost",
+    "updatedAt": "2026-05-24",
     "priority": 85,
     "keywords": "Fast Farming Guide for Rare Pokemon farming rare pokemon farming pokopia pkm009 pkm030 pkm029 hab006 hab005 rec005"
   },
@@ -199,11 +199,11 @@
     "type": "Guide",
     "title": "Best Fire-Type Team Build",
     "href": "/guides/best-fire-type-team",
-    "description": "The best fire team uses Pikafire for tempo, Charmuddy for consistent fire damage, and Flamexor as the late-game finisher. For most players, the practical route is to focus on Volc…",
+    "description": "The best fire team uses Pikafire for tempo, Charmuddy for stable fire pressure, and Flamexor as the finisher. Keep one slot or backup plan for survival; Fire Boost should amplify…",
     "meta": "team",
     "status": "Editorial guide",
-    "source": "Gematsu / 官方截图转载",
-    "updatedAt": "2026-05-23",
+    "source": "Gematsu / official screenshot repost",
+    "updatedAt": "2026-05-24",
     "priority": 85,
     "keywords": "Best Fire-Type Team Build team fire type team pokopia pkm001 pkm003 pkm007 hab001 rec002"
   },
@@ -212,11 +212,11 @@
     "type": "Guide",
     "title": "Shadow Marsh Complete Guide",
     "href": "/guides/shadow-marsh-guide",
-    "description": "Shadow Marsh should be treated as a controlled ghost hunt: enter after Level 25, bring Ghost Veil, and avoid long routes until you know the safe path. For most players, the practi…",
+    "description": "Shadow Marsh should be scouted slowly before it becomes a farming route. Use Shados to learn the path, add poison or durability support when status pressure becomes a problem, and…",
     "meta": "guides",
     "status": "Editorial guide",
-    "source": "Gematsu / 官方截图转载",
-    "updatedAt": "2026-05-23",
+    "source": "Gematsu / official screenshot repost",
+    "updatedAt": "2026-05-24",
     "priority": 85,
     "keywords": "Shadow Marsh Complete Guide guides shadow marsh pokopia pkm009 pkm030 hab006 rec010"
   },
@@ -225,11 +225,11 @@
     "type": "Guide",
     "title": "How to Get Legendary Pokemon",
     "href": "/guides/how-to-get-legendary-pokemon",
-    "description": "Legendary Pokemon are best pursued with a dedicated route, a saved Lucky Charm, and a team built for retries rather than one lucky burst. For most players, the practical route is…",
+    "description": "To get legendary Pokemon, prepare the habitat route first. Scout cheaply, stabilize the repeatable check, then use Lucky Charm or the matching recipe only when Flamexor, Voltscale…",
     "meta": "guides",
     "status": "Editorial guide",
-    "source": "Gematsu / 官方截图转载",
-    "updatedAt": "2026-05-23",
+    "source": "Gematsu / official screenshot repost",
+    "updatedAt": "2026-05-24",
     "priority": 85,
     "keywords": "How to Get Legendary Pokemon guides legendary pokemon pokopia pkm007 pkm030 pkm015 hab001 hab006 rec005"
   },
@@ -238,11 +238,11 @@
     "type": "Guide",
     "title": "Best Habitat for Each Pokemon Type",
     "href": "/guides/best-habitat-type-pokopia",
-    "description": "The best habitat is the one that matches your target type, weather condition, and resource goal at the same time. For most players, the practical route is to focus on Volcanic Cav…",
+    "description": "The best habitat depends on the type goal and your current consistency. Forest Valley, Crystal Lake, Volcanic Cave, Frost Peak, and Shadow Marsh are strong anchors, but the right…",
     "meta": "guides",
     "status": "Editorial guide",
-    "source": "Gematsu / 官方截图转载",
-    "updatedAt": "2026-05-23",
+    "source": "Gematsu / official screenshot repost",
+    "updatedAt": "2026-05-24",
     "priority": 85,
     "keywords": "Best Habitat for Each Pokemon Type guides pokemon type habitat pokopia pkm001 pkm014 pkm005 pkm009 hab001 hab005 hab012 hab006 rec002 rec008 rec007 rec010"
   },
@@ -251,11 +251,11 @@
     "type": "Guide",
     "title": "Speed Run Route for Leveling",
     "href": "/guides/speed-run-leveling-route",
-    "description": "The fastest leveling route chains easy and medium habitats with minimal downtime: Crystal Lake, Forest Valley, and Windmill Plains are the core loop. For most players, the practic…",
+    "description": "The fastest leveling route is a short repeatable loop with low downtime. Start with Training Grounds or Forest Valley, move toward Volcanic Cave only when clears are stable, and s…",
     "meta": "farming",
     "status": "Editorial guide",
-    "source": "Gematsu / 官方截图转载",
-    "updatedAt": "2026-05-23",
+    "source": "Gematsu / official screenshot repost",
+    "updatedAt": "2026-05-24",
     "priority": 85,
     "keywords": "Speed Run Route for Leveling farming fast leveling pokopia pkm004 pkm002 pkm005 hab003 hab002 hab004 rec003"
   },
@@ -264,11 +264,11 @@
     "type": "Guide",
     "title": "Thunder Arena Unlock and Strategy",
     "href": "/guides/thunder-arena-guide",
-    "description": "Thunder Arena rewards fast electric damage, but the safest first clear uses Speed Potion or Thunder Strike with a backup that can survive burst turns. For most players, the practi…",
+    "description": "Thunder Arena is best approached as a tempo route. Use Pikafire or Stormwing to keep fights moving, prepare for Voltscale only after the path is stable, and save Speed Potion for…",
     "meta": "guides",
     "status": "Editorial guide",
-    "source": "Gematsu / 官方截图转载",
-    "updatedAt": "2026-05-23",
+    "source": "Gematsu / official screenshot repost",
+    "updatedAt": "2026-05-24",
     "priority": 85,
     "keywords": "Thunder Arena Unlock and Strategy guides thunder arena pokopia pkm005 pkm015 pkm024 hab012 rec007"
   },
@@ -277,11 +277,11 @@
     "type": "Guide",
     "title": "Frost Peak Exploration Guide",
     "href": "/guides/frost-peak-guide",
-    "description": "Frost Peak is a medium habitat that feels hard if you ignore resistance. Ice Armor turns it from a risky climb into a controlled farming route. For most players, the practical rou…",
+    "description": "Frost Peak is a controlled midgame route, not a brute-force climb. Use Tidlet for stability, Glacior when you want stronger Ice/Water value, and save Ice Armor for the dangerous s…",
     "meta": "guides",
     "status": "Editorial guide",
-    "source": "Gematsu / 官方截图转载",
-    "updatedAt": "2026-05-23",
+    "source": "Gematsu / official screenshot repost",
+    "updatedAt": "2026-05-24",
     "priority": 85,
     "keywords": "Frost Peak Exploration Guide guides frost peak pokopia pkm008 pkm014 pkm029 hab005 rec008"
   },
@@ -293,7 +293,7 @@
     "description": "A good defense team is not passive. Bulbin, Tidlet, and Mechabit create enough staying power to keep farming routes consistent. For most players, the practical route is to focus o…",
     "meta": "team",
     "status": "Editorial guide",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 85,
     "keywords": "Best Defense Team Build team defense team pokopia pkm002 pkm008 pkm010 hab002 hab005 hab004 rec012"
@@ -306,7 +306,7 @@
     "description": "Dragon teams are late-game investments. Voltscale gives electric pressure, while dragon-focused picks need recipe support to justify their slower setup. For most players, the prac…",
     "meta": "guides",
     "status": "Editorial guide",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 85,
     "keywords": "Dragon-Type Mastery Guide guides dragon type pokopia pkm015 pkm029 hab005 hab012 rec011"
@@ -319,7 +319,7 @@
     "description": "Recipes should be chosen by the run objective: attraction for rare farming, damage for boss routes, defense for hard habitats, and recovery for long attempts. For most players, th…",
     "meta": "guides",
     "status": "Editorial guide",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 85,
     "keywords": "Complete Recipe List and Effects guides recipes pokopia pkm001 pkm007 hab001 rec005 rec015 rec002"
@@ -332,7 +332,7 @@
     "description": "Sky Isles is a mobility check as much as a combat route. Flying High helps, but route knowledge matters more than raw damage. For most players, the practical route is to focus on…",
     "meta": "guides",
     "status": "Editorial guide",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 85,
     "keywords": "Sky Isles and Flying-Type Guide guides sky isles pokopia pkm016 pkm020 pkm025 hab008 rec013"
@@ -345,7 +345,7 @@
     "description": "Muddy River is one of the best low-pressure farming areas because Water/Ground targets and Muddy Swirl support make it efficient early. For most players, the practical route is to…",
     "meta": "guides",
     "status": "Editorial guide",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 85,
     "keywords": "Mudstone River Habitat Guide guides muddy river pokopia pkm018 pkm021 hab009 rec014"
@@ -358,7 +358,7 @@
     "description": "The strongest Pokemon are the ones that combine damage, typing, and route value. Flamexor, Shadowclaw, and Voltscale sit near the top because they change what you can farm. For mo…",
     "meta": "tier",
     "status": "Editorial guide",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 85,
     "keywords": "Top 10 Most Powerful Pokemon tier strongest pokemon pokopia pkm007 pkm030 pkm015 hab001 hab006 hab012 rec005"
@@ -371,7 +371,7 @@
     "description": "Gemstone Canyon is a resource-first habitat. Treat it as a mining loop for rock, ground, and crystal progression rather than a pure combat zone. For most players, the practical ro…",
     "meta": "guides",
     "status": "Editorial guide",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 85,
     "keywords": "Gemstone Canyon Mining Guide guides gemstone canyon pokopia pkm011 pkm012 hab007 rec012"
@@ -384,7 +384,7 @@
     "description": "A strong water team uses Aquap for support, Mudkipz for Water/Ground coverage, and a durable third slot to handle electric pressure. For most players, the practical route is to fo…",
     "meta": "team",
     "status": "Editorial guide",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 85,
     "keywords": "Water-Type Team Compilation team water team pokopia pkm004 pkm018 pkm021 hab003 hab009 rec006"
@@ -397,7 +397,7 @@
     "description": "Ghost hunting works best when you control time, weather, and route length. Shadow Marsh rewards patient repeat attempts more than random exploration. For most players, the practic…",
     "meta": "farming",
     "status": "Editorial guide",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 85,
     "keywords": "Ghost-Type Hunting Secrets farming ghost type pokemon pokopia pkm009 pkm030 hab006 rec010"
@@ -410,7 +410,7 @@
     "description": "Electric speed teams are built around fast clears: Zaprat starts the route, Mechabit adds safety, and Voltscale becomes the late-game carry. For most players, the practical route…",
     "meta": "team",
     "status": "Editorial guide",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 85,
     "keywords": "Electric-Type Speed Demon Build team electric speed team pokopia pkm005 pkm010 pkm015 hab004 hab012 rec003 rec007"
@@ -423,7 +423,7 @@
     "description": "Dragon's Den is an endgame unlock. Do not rush it before Level 32, because the route expects strong damage, survival, and recipe planning. For most players, the practical route is…",
     "meta": "guides",
     "status": "Editorial guide",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 85,
     "keywords": "How to Unlock Dragon's Den guides dragons den pokopia pkm015 pkm029 pkm050 hab018 rec011"
@@ -436,7 +436,7 @@
     "description": "Training Grounds is where beginners should learn team roles, food timing, and route resets before spending rare recipes elsewhere. For most players, the practical route is to focu…",
     "meta": "guides",
     "status": "Editorial guide",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 85,
     "keywords": "Beginner's Guide to Training Grounds guides training grounds pokopia pkm002 pkm008 pkm017 hab020 rec009"
@@ -449,7 +449,7 @@
     "description": "Poison teams are control teams. Leafon and later poison picks work best when they slow dangerous routes instead of trying to outburst everything. For most players, the practical r…",
     "meta": "team",
     "status": "Editorial guide",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 85,
     "keywords": "Poison-Type Team Analysis team poison team pokopia pkm006 pkm041 hab017 rec010"
@@ -462,7 +462,7 @@
     "description": "The four legendary hunts should be planned one at a time: Flamexor, Voltscale, Shadowclaw, and the Dragon's Den target each need different prep. For most players, the practical ro…",
     "meta": "guides",
     "status": "Editorial guide",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 85,
     "keywords": "All 4 Legendary Pokemon Locations guides legendary locations pokopia pkm007 pkm015 pkm030 pkm050 hab001 hab004 hab006 hab009 rec005"
@@ -475,7 +475,7 @@
     "description": "Crystal Cave is best approached as a discovery and resource route. Crystion-style teams benefit from careful pathing more than brute force. For most players, the practical route i…",
     "meta": "guides",
     "status": "Editorial guide",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 85,
     "keywords": "Crystal Cave Discovery Guide guides crystal cave pokopia pkm012 pkm031 hab014 rec005"
@@ -488,7 +488,7 @@
     "description": "Bulbin is the best safe grass pick, Thornvine is the practical farmer, and higher-value grass picks belong in teams that need control or sustain. For most players, the practical r…",
     "meta": "tier",
     "status": "Editorial guide",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 85,
     "keywords": "Best Grass-Type Pick for Every Team tier best grass pokemon pokopia pkm017 pkm023 pkm025 hab002 rec009"
@@ -496,15 +496,15 @@
   {
     "id": "guid027",
     "type": "Guide",
-    "title": "Steel-Type硬核Build攻略",
+    "title": "Steel-Type Hard-Core Build Guide",
     "href": "/guides/steel-type-build",
     "description": "Steel teams are hard-route anchors. Mechabit, Bronzorm, and other steel picks shine when Steel Shell turns dangerous rooms into repeatable clears. For most players, the practical…",
     "meta": "team",
     "status": "Editorial guide",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 85,
-    "keywords": "Steel-Type硬核Build攻略 team steel type team pokopia pkm010 pkm019 pkm037 hab016 rec012"
+    "keywords": "Steel-Type Hard-Core Build Guide team steel type team pokopia pkm010 pkm019 pkm037 hab016 rec012"
   },
   {
     "id": "guid028",
@@ -514,7 +514,7 @@
     "description": "Fairy Glen rewards careful exploration. It is not the hardest route, but hidden checks make it valuable for Crystion and fairy-style farming. For most players, the practical route…",
     "meta": "guides",
     "status": "Editorial guide",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 85,
     "keywords": "Fairy Glen Hidden Secrets guides fairy glen pokopia pkm012 pkm038 pkm048 hab019 rec005"
@@ -527,7 +527,7 @@
     "description": "Nightmare Forest is a hard habitat built around pressure and control. Bring a plan for darkness, poison, or sustain before chasing rare rewards. For most players, the practical ro…",
     "meta": "guides",
     "status": "Editorial guide",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 85,
     "keywords": "Nightmare Forest Horror Stories guides nightmare forest pokopia pkm006 pkm022 pkm048 hab017 rec010"
@@ -540,7 +540,7 @@
     "description": "The best endgame build is not one fixed team. Use a legendary carry, one defensive anchor, one speed or utility slot, and recipes matched to the habitat. For most players, the pra…",
     "meta": "tier",
     "status": "Editorial guide",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 85,
     "keywords": "Late-Game Team Planning Guide tier endgame build pokopia pkm007 pkm030 pkm015 pkm050 hab001 hab006 hab012 hab018 rec005 rec012 rec003"
@@ -605,7 +605,7 @@
     "description": "Pikafire is a rare Fire/Electric Pokemon with the Attacker specialty. It is found in Volcanic Cave, usually during Day conditions with Sunny weather. A fiery variant of Pikachu wi…",
     "meta": "Fire/Electric / rare",
     "status": "Editorial database entry",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 75,
     "keywords": "Pikafire Fire/Electric rare Attacker Apple Day Sunny hab001 Volcanic Cave Fire Stone,Thunder Stone Thunderbolt,Fire Blast,Quick Attack,Iron Tail"
@@ -618,7 +618,7 @@
     "description": "Bulbin is a common Grass Pokemon with the Defender specialty. It is found in Forest Valley, usually during Any conditions with Cloudy weather. A loyal grass-type starter. Easy to…",
     "meta": "Grass / common",
     "status": "Editorial database entry",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 75,
     "keywords": "Bulbin Grass common Defender Leaf Any Cloudy hab002 Forest Valley Leaf,Grass Fiber Vine Whip,Razor Leaf,Protect,Growl"
@@ -631,7 +631,7 @@
     "description": "Charmuddy is an uncommon Fire Pokemon with the Attacker specialty. It is found in Volcanic Cave, usually during Night conditions with Clear weather. A cuddly fire-type with fluffy…",
     "meta": "Fire / uncommon",
     "status": "Editorial database entry",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 75,
     "keywords": "Charmuddy Fire uncommon Attacker Honey Night Clear hab001 Volcanic Cave Fire Stone,Ash Ember,Fire Spin,Flamethrower,Fire Blast"
@@ -644,7 +644,7 @@
     "description": "Aquap is a common Water Pokemon with the Support specialty. It is found in Crystal Lake, usually during Any conditions with Rain weather. A playful water creature. Found near rive…",
     "meta": "Water / common",
     "status": "Editorial database entry",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 75,
     "keywords": "Aquap Water common Support Golden Fish Any Rain hab003 Crystal Lake Water Stone,Pearl Water Gun,Bubble,Aqua Jet,Rain Dance"
@@ -657,7 +657,7 @@
     "description": "Zaprat is an uncommon Electric Pokemon with the Speedster specialty. It is found in Windmill Plains, usually during Morning conditions with Windy weather. An electric rat-like Pok…",
     "meta": "Electric / uncommon",
     "status": "Editorial database entry",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 75,
     "keywords": "Zaprat Electric uncommon Speedster Cheese Morning Windy hab004 Windmill Plains Thunder Stone,Lightning Rod Spark,Quick Attack,Thunder Wave,Discharge"
@@ -670,7 +670,7 @@
     "description": "Leafon is a rare Grass/Poison Pokemon with the Assassin specialty. It is found in Forest Valley, usually during Night conditions with Foggy weather. A rare grass-type with toxic a…",
     "meta": "Grass/Poison / rare",
     "status": "Editorial database entry",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 75,
     "keywords": "Leafon Grass/Poison rare Assassin Mystery Mushroom Night Foggy hab002 Forest Valley Poison Stone,Leaf Stone Poison Powder,Sludge Bomb,Razor Leaf,Toxic"
@@ -683,7 +683,7 @@
     "description": "Flamexor is a legendary Fire/Steel Pokemon with the Tank specialty. It is found in Volcanic Cave, usually during Night conditions with Clear weather. The legendary flame beast. Ne…",
     "meta": "Fire/Steel / legendary",
     "status": "Editorial database entry",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 75,
     "keywords": "Flamexor Fire/Steel legendary Tank Iron Ore Night Clear hab001 Volcanic Cave Fire Stone,Metal Coat,Legendary Scale Flame Body,Iron Defense,Fire Blast,Stealth Rock"
@@ -696,7 +696,7 @@
     "description": "Tidlet is a common Normal Pokemon with the Support specialty. It is found in Frost Peak, usually during Day conditions with Snow weather. A small cute creature. Found in snowy reg…",
     "meta": "Normal / common",
     "status": "Editorial database entry",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 75,
     "keywords": "Tidlet Normal common Support Any Food Day Snow hab005 Frost Peak Fur,Cloth Growl,Tackle,Play Nice,Swagger"
@@ -709,7 +709,7 @@
     "description": "Shados is a rare Ghost Pokemon with the Assassin specialty. It is found in Shadow Marsh, usually during Night conditions with Stormy weather. A ghostly shadow Pokemon. Appears onl…",
     "meta": "Ghost / rare",
     "status": "Editorial database entry",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 75,
     "keywords": "Shados Ghost rare Assassin Soul Dust Night Stormy hab006 Shadow Marsh Ghost Stone,Soul Dust Shadow Ball,Lick,Astonish,Night Shade"
@@ -722,7 +722,7 @@
     "description": "Mechabit is an uncommon Electric/Steel Pokemon with the Defender specialty. It is found in Windmill Plains, usually during Any conditions with Thunderstorm weather. A robotic elec…",
     "meta": "Electric/Steel / uncommon",
     "status": "Editorial database entry",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 75,
     "keywords": "Mechabit Electric/Steel uncommon Defender Battery Any Thunderstorm hab004 Windmill Plains Metal Coat,Piston Lock-On,Zap Cannon,Flash Cannon,Protect"
@@ -735,7 +735,7 @@
     "description": "Rockler is a common Rock/Ground Pokemon with the Defender specialty. It is found in Gemstone Canyon, usually during Any conditions with Clear weather. A sturdy rock-type. Excellen…",
     "meta": "Rock/Ground / common",
     "status": "Editorial database entry",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 75,
     "keywords": "Rockler Rock/Ground common Defender Stone Any Clear hab007 Gemstone Canyon Stone,Rock Fragment Rock Throw,Earthquake,Protect,Stealth Rock"
@@ -748,7 +748,7 @@
     "description": "Crystion is a rare Crystal/Fairy Pokemon with the Attacker specialty. It is found in Gemstone Canyon, usually during Night conditions with Snow weather. A beautiful crystal creatu…",
     "meta": "Crystal/Fairy / rare",
     "status": "Editorial database entry",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 75,
     "keywords": "Crystion Crystal/Fairy rare Attacker Gem Night Snow hab007 Gemstone Canyon Crystal Shard,Diamond Crystal Beam,Moonblast,Power Gem,Dazzling Gleam"
@@ -761,7 +761,7 @@
     "description": "Emberal is a common Fire Pokemon with the Attacker specialty. It is found in Volcanic Cave, usually during Day conditions with Sunny weather. A small fire salamander. Popular amon…",
     "meta": "Fire / common",
     "status": "Editorial database entry",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 75,
     "keywords": "Emberal Fire common Attacker Hot Pepper Day Sunny hab001 Volcanic Cave Fire Stone,Flame Ore Ember,Fire Punch,Flame Wheel,Fire Spin"
@@ -774,7 +774,7 @@
     "description": "Glacior is an uncommon Ice/Water Pokemon with the Support specialty. It is found in Frost Peak, usually during Any conditions with Snow weather. An ice penguin. At home in frozen…",
     "meta": "Ice/Water / uncommon",
     "status": "Editorial database entry",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 75,
     "keywords": "Glacior Ice/Water uncommon Support Snowball Any Snow hab005 Frost Peak Ice Stone,Frost Crystal Ice Beam,Blizzard,Aurora Veil,Hail"
@@ -787,7 +787,7 @@
     "description": "Voltscale is a legendary Electric/Dragon Pokemon with the Attacker specialty. It is found in Windmill Plains, usually during Night conditions with Thunderstorm weather. The legend…",
     "meta": "Electric/Dragon / legendary",
     "status": "Editorial database entry",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 75,
     "keywords": "Voltscale Electric/Dragon legendary Attacker Lightning Bug Night Thunderstorm hab004 Windmill Plains Thunder Stone,Dragon Scale Thunderbolt,Dragon Pulse,Wild Charge,Thunder Wave"
@@ -800,7 +800,7 @@
     "description": "Breezel is a common Flying Pokemon with the Speedster specialty. It is found in Sky Isles, usually during Day conditions with Windy weather. A gentle wind bird. Found in open plai…",
     "meta": "Flying / common",
     "status": "Editorial database entry",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 75,
     "keywords": "Breezel Flying common Speedster Feather Day Windy hab008 Sky Isles Feather,Wind Essence Peck,Wing Attack,Quick Attack,Aerial Ace"
@@ -813,7 +813,7 @@
     "description": "Thornvine is a common Grass Pokemon with the Defender specialty. It is found in Forest Valley, usually during Any conditions with Rain weather. A thorny plant Pokemon. Great for d…",
     "meta": "Grass / common",
     "status": "Editorial database entry",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 75,
     "keywords": "Thornvine Grass common Defender Berry Any Rain hab002 Forest Valley Leaf,Thorn Bullet Seed,Power Whip,Leech Seed,Protect"
@@ -826,7 +826,7 @@
     "description": "Mudkipz is an uncommon Water/Ground Pokemon with the Attacker specialty. It is found in Muddy River, usually during Any conditions with Rain weather. A playful water dog. Loves pl…",
     "meta": "Water/Ground / uncommon",
     "status": "Editorial database entry",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 75,
     "keywords": "Mudkipz Water/Ground uncommon Attacker Mud Ball Any Rain hab009 Muddy River Mud Stone,Water Stone Water Gun,Mud Shot,Earthquake,Protect"
@@ -839,7 +839,7 @@
     "description": "Bronzorm is a rare Steel/Psychic Pokemon with the Support specialty. It is found in Ancient Ruins, usually during Day conditions with Cloudy weather. An ancient bronze statue that…",
     "meta": "Steel/Psychic / rare",
     "status": "Editorial database entry",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 75,
     "keywords": "Bronzorm Steel/Psychic rare Support Coin Day Cloudy hab010 Ancient Ruins Metal Coat,Bronze Medal Psychic,Flash Cannon,Recover,Iron Defense"
@@ -852,7 +852,7 @@
     "description": "Flamingo is an uncommon Fire/Flying Pokemon with the Attacker specialty. It is found in Sky Isles, usually during Day conditions with Sunny weather. An elegant fire bird. Its danc…",
     "meta": "Fire/Flying / uncommon",
     "status": "Editorial database entry",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 75,
     "keywords": "Flamingo Fire/Flying uncommon Attacker Hot Seed Day Sunny hab008 Sky Isles Fire Stone,Feather Fire Spin,Hurricane,Flame Charge,Brave Bird"
@@ -865,7 +865,7 @@
     "description": "Stealthfin is a rare Water/Dark Pokemon with the Assassin specialty. It is found in Muddy River, usually during Night conditions with Rain weather. A mysterious deep-sea creature.…",
     "meta": "Water/Dark / rare",
     "status": "Editorial database entry",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 75,
     "keywords": "Stealthfin Water/Dark rare Assassin Fish Night Rain hab009 Muddy River Deep Sea Tooth,Dark Gem Crunch,Aqua Jet,Knock Off,Ice Fang"
@@ -878,7 +878,7 @@
     "description": "Frostbite is a rare Ice/Ghost Pokemon with the Assassin specialty. It is found in Frost Peak, usually during Night conditions with Snow weather. A spirit of the frozen wastes. Bew…",
     "meta": "Ice/Ghost / rare",
     "status": "Editorial database entry",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 75,
     "keywords": "Frostbite Ice/Ghost rare Assassin Frozen Soul Night Snow hab005 Frost Peak Ghost Stone,Ice Crystal Ice Beam,Shadow Ball,Avalanche,Hypnosis"
@@ -891,7 +891,7 @@
     "description": "Sunflora is an uncommon Grass/Fire Pokemon with the Attacker specialty. It is found in Forest Valley, usually during Day conditions with Sunny weather. A flower that thrives in su…",
     "meta": "Grass/Fire / uncommon",
     "status": "Editorial database entry",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 75,
     "keywords": "Sunflora Grass/Fire uncommon Attacker Sunstone Day Sunny hab002 Forest Valley Sun Stone,Flame Ore Solar Beam,Fire Blast,Weather Ball,Sunny Day"
@@ -904,7 +904,7 @@
     "description": "Magnedex is an uncommon Electric/Steel Pokemon with the Defender specialty. It is found in Windmill Plains, usually during Any conditions with Thunderstorm weather. A magnetic rob…",
     "meta": "Electric/Steel / uncommon",
     "status": "Editorial database entry",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 75,
     "keywords": "Magnedex Electric/Steel uncommon Defender Magnet Any Thunderstorm hab004 Windmill Plains Metal Coil,Magnet Magnet Bomb,Thunderbolt,Volt Switch,Protect"
@@ -917,7 +917,7 @@
     "description": "Tropius is a common Grass/Flying Pokemon with the Support specialty. It is found in Sky Isles, usually during Day conditions with Clear weather. A tropical flying dinosaur. Produc…",
     "meta": "Grass/Flying / common",
     "status": "Editorial database entry",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 75,
     "keywords": "Tropius Grass/Flying common Support Tropical Fruit Day Clear hab008 Sky Isles Leaf,Dragon Scale Air Slash,Energy Ball,Roost,Synthesis"
@@ -930,7 +930,7 @@
     "description": "Skittlish is a common Normal Pokemon with the Support specialty. It is found in Forest Valley, usually during Day conditions with Cloudy weather. A hyperactive creature. Always bo…",
     "meta": "Normal / common",
     "status": "Editorial database entry",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 75,
     "keywords": "Skittlish Normal common Support Cookie Day Cloudy hab002 Forest Valley Fur,Cloth Playful,Body Slam,Cotton Guard,Seismic Toss"
@@ -943,7 +943,7 @@
     "description": "Dewdrop is an uncommon Water/Fairy Pokemon with the Support specialty. It is found in Crystal Lake, usually during Morning conditions with Rain weather. A water droplet with fairy…",
     "meta": "Water/Fairy / uncommon",
     "status": "Editorial database entry",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 75,
     "keywords": "Dewdrop Water/Fairy uncommon Support Crystal Dew Morning Rain hab003 Crystal Lake Water Stone,Star Piece Moonblast,Aqua Jet,Muddy Water,Charm"
@@ -956,7 +956,7 @@
     "description": "Magmar is an uncommon Fire Pokemon with the Attacker specialty. It is found in Volcanic Cave, usually during Night conditions with Clear weather. A living flame. Can melt any mate…",
     "meta": "Fire / uncommon",
     "status": "Editorial database entry",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 75,
     "keywords": "Magmar Fire uncommon Attacker Magma Stone Night Clear hab001 Volcanic Cave Fire Stone,Magma Core Flamethrower,Fire Punch,Thunder Punch,Will-O-Wisp"
@@ -969,7 +969,7 @@
     "description": "Snorizard is a rare Dragon/Ice Pokemon with the Attacker specialty. It is found in Frost Peak, usually during Any conditions with Snow weather. A rare dragon that lives in icy mou…",
     "meta": "Dragon/Ice / rare",
     "status": "Editorial database entry",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 75,
     "keywords": "Snorizard Dragon/Ice rare Attacker Frost Meat Any Snow hab005 Frost Peak Dragon Scale,Ice Stone Draco Meteor,Icicle Spear,Dragon Dance,Extreme Speed"
@@ -982,7 +982,7 @@
     "description": "Shadowclaw is a legendary Dark/Ghost Pokemon with the Assassin specialty. It is found in Shadow Marsh, usually during Night conditions with Stormy weather. The legendary shadow be…",
     "meta": "Dark/Ghost / legendary",
     "status": "Editorial database entry",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 75,
     "keywords": "Shadowclaw Dark/Ghost legendary Assassin Void Fruit Night Stormy hab006 Shadow Marsh Shadow Stone,King's Rock Shadow Claw,Phantom Strike,Crunch,Sucker Punch"
@@ -995,7 +995,7 @@
     "description": "Crystalwing is a rare Flying/Crystal Pokemon with the Attacker specialty. It is found in Sky Isles, usually during Day conditions with Windy weather. A majestic crystal bird. Its…",
     "meta": "Flying/Crystal / rare",
     "status": "Editorial database entry",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 75,
     "keywords": "Crystalwing Flying/Crystal rare Attacker Gem Shard Day Windy hab008 Sky Isles Crystal Shard,Feather Diamond Storm,Aerial Ace,Crystal Beam,Roost"
@@ -1008,7 +1008,7 @@
     "description": "Thornback is a common Rock/Bug Pokemon with the Defender specialty. It is found in Forest Valley, usually during Any conditions with Cloudy weather. A hardy rock bug. Its back is…",
     "meta": "Rock/Bug / common",
     "status": "Editorial database entry",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 75,
     "keywords": "Thornback Rock/Bug common Defender Leaf Any Cloudy hab002 Forest Valley Stone,Bug Shell Rock Blast,Bug Bite,Spikes,Protect"
@@ -1021,7 +1021,7 @@
     "description": "Emberfox is an uncommon Fire/Psychic Pokemon with the Assassin specialty. It is found in Volcanic Cave, usually during Night conditions with Clear weather. A mystical fire fox. It…",
     "meta": "Fire/Psychic / uncommon",
     "status": "Editorial database entry",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 75,
     "keywords": "Emberfox Fire/Psychic uncommon Assassin Hot Pepper Night Clear hab001 Volcanic Cave Fire Stone,Psy Crystal Fire Spin,Psybeam,Will-O-Wisp,Confuse Ray"
@@ -1034,7 +1034,7 @@
     "description": "Aquashell is a common Water/Rock Pokemon with the Defender specialty. It is found in Crystal Lake, usually during Any conditions with Rain weather. A water snail with a rock shell…",
     "meta": "Water/Rock / common",
     "status": "Editorial database entry",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 75,
     "keywords": "Aquashell Water/Rock common Defender Pearl Any Rain hab003 Crystal Lake Shell,Pearl Water Gun,Rock Throw,Withdraw,Iron Defense"
@@ -1047,7 +1047,7 @@
     "description": "Zapbug is a common Electric/Bug Pokemon with the Speedster specialty. It is found in Windmill Plains, usually during Morning conditions with Cloudy weather. A small electric bug.…",
     "meta": "Electric/Bug / common",
     "status": "Editorial database entry",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 75,
     "keywords": "Zapbug Electric/Bug common Speedster Mushroom Morning Cloudy hab004 Windmill Plains Thunder Stone,Bug Shell Spark,Bug Bite,Electroweb,String Shot"
@@ -1060,7 +1060,7 @@
     "description": "Mossling is a common Grass Pokemon with the Support specialty. It is found in Forest Valley, usually during Any conditions with Rain weather. A small moss creature. Found in damp…",
     "meta": "Grass / common",
     "status": "Editorial database entry",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 75,
     "keywords": "Mossling Grass common Support Leaf Any Rain hab002 Forest Valley Leaf,Grass Fiber Mega Drain,Grow,Leech Seed,Synthesis"
@@ -1073,7 +1073,7 @@
     "description": "Ironclaw is an uncommon Steel/Fighting Pokemon with the Attacker specialty. It is found in Ancient Ruins, usually during Any conditions with Cloudy weather. A fighting robot. Its…",
     "meta": "Steel/Fighting / uncommon",
     "status": "Editorial database entry",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 75,
     "keywords": "Ironclaw Steel/Fighting uncommon Attacker Iron Ore Any Cloudy hab010 Ancient Ruins Metal Coat,Piston Metal Claw,Karate Chop,Iron Defense,Swords Dance"
@@ -1086,7 +1086,7 @@
     "description": "Mysticat is a rare Psychic/Fairy Pokemon with the Support specialty. It is found in Ancient Ruins, usually during Night conditions with Clear weather. A mysterious cat with psychi…",
     "meta": "Psychic/Fairy / rare",
     "status": "Editorial database entry",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 75,
     "keywords": "Mysticat Psychic/Fairy rare Support Star Sweet Night Clear hab010 Ancient Ruins Psy Crystal,Star Piece Psychic,Moonblast,Reflect,Light Screen"
@@ -1099,7 +1099,7 @@
     "description": "Boulderchin is a common Rock Pokemon with the Defender specialty. It is found in Gemstone Canyon, usually during Any conditions with Sunny weather. A sturdy chin Pokemon. Made ent…",
     "meta": "Rock / common",
     "status": "Editorial database entry",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 75,
     "keywords": "Boulderchin Rock common Defender Stone Any Sunny hab007 Gemstone Canyon Stone,Rock Fragment Rock Throw,Take Down,Stealth Rock,Bulldoze"
@@ -1112,7 +1112,7 @@
     "description": "Windlor is an uncommon Flying Pokemon with the Speedster specialty. It is found in Sky Isles, usually during Day conditions with Windy weather. A graceful wind spirit. Floats on a…",
     "meta": "Flying / uncommon",
     "status": "Editorial database entry",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 75,
     "keywords": "Windlor Flying uncommon Speedster Feather Day Windy hab008 Sky Isles Feather,Wind Essence Gust,Air Slash,Quick Attack,Feather Dance"
@@ -1125,7 +1125,7 @@
     "description": "Toxifin is an uncommon Poison/Water Pokemon with the Assassin specialty. It is found in Muddy River, usually during Any conditions with Rain weather. A poisonous water fish. Its f…",
     "meta": "Poison/Water / uncommon",
     "status": "Editorial database entry",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 75,
     "keywords": "Toxifin Poison/Water uncommon Assassin Fish Any Rain hab009 Muddy River Poison Stone,Gill Sludge Wave,Surf,Toxic,Aqua Jet"
@@ -1138,7 +1138,7 @@
     "description": "Galebender is a rare Ground/Fighting Pokemon with the Attacker specialty. It is found in Gemstone Canyon, usually during Night conditions with Foggy weather. A earth bender with i…",
     "meta": "Ground/Fighting / rare",
     "status": "Editorial database entry",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 75,
     "keywords": "Galebender Ground/Fighting rare Attacker Mystic Root Night Foggy hab007 Gemstone Canyon Earth Gem,Fighting Ribbon Earthquake,Bulk Up,Stone Edge,Dynamic Punch"
@@ -1151,7 +1151,7 @@
     "description": "Sunreep is a rare Fire/Steel Pokemon with the Attacker specialty. It is found in Volcanic Cave, usually during Day conditions with Sunny weather. A solar-powered steel golem. Supe…",
     "meta": "Fire/Steel / rare",
     "status": "Editorial database entry",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 75,
     "keywords": "Sunreep Fire/Steel rare Attacker Iron Ore Day Sunny hab001 Volcanic Cave Fire Stone,Metal Coat Fire Blast,Flash Cannon,Morning Sun,Light Metal"
@@ -1164,7 +1164,7 @@
     "description": "Lunaflare is a legendary Ghost/Fire Pokemon with the Attacker specialty. It is found in Shadow Marsh, usually during Night conditions with Stormy weather. The lunar flame guardian…",
     "meta": "Ghost/Fire / legendary",
     "status": "Editorial database entry",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 75,
     "keywords": "Lunaflare Ghost/Fire legendary Attacker Soul Dust Night Stormy hab006 Shadow Marsh Ghost Stone,Soul Dust,Legendary Ember Shadow Ball,Fire Blast,Hypnosis,Nightmare"
@@ -1177,7 +1177,7 @@
     "description": "Stormbird is an uncommon Flying/Electric Pokemon with the Speedster specialty. It is found in Sky Isles, usually during Any conditions with Thunderstorm weather. A thunder bird. C…",
     "meta": "Flying/Electric / uncommon",
     "status": "Editorial database entry",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 75,
     "keywords": "Stormbird Flying/Electric uncommon Speedster Feather Any Thunderstorm hab008 Sky Isles Thunder Stone,Feather,Wind Essence Thunder,Air Slash,Hurricane,Weather Ball"
@@ -1190,7 +1190,7 @@
     "description": "Treemendous is a common Grass/Normal Pokemon with the Defender specialty. It is found in Forest Valley, usually during Any conditions with Sunny weather. A walking tree. Its branc…",
     "meta": "Grass/Normal / common",
     "status": "Editorial database entry",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 75,
     "keywords": "Treemendous Grass/Normal common Defender Berry Any Sunny hab002 Forest Valley Leaf,Grass Fiber,Oak Log Synthesis,Body Slam,Wood Hammer,Iron Tail"
@@ -1203,7 +1203,7 @@
     "description": "Lightspeed is a rare Normal/Flying Pokemon with the Speedster specialty. It is found in Sky Isles, usually during Morning conditions with Clear weather. The fastest Pokemon. Moves…",
     "meta": "Normal/Flying / rare",
     "status": "Editorial database entry",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 75,
     "keywords": "Lightspeed Normal/Flying rare Speedster Star Sweet Morning Clear hab008 Sky Isles Feather,Speed Gem Quick Attack,Feint, Baton Pass,Agility"
@@ -1216,7 +1216,7 @@
     "description": "Magicalure is a rare Fairy/Poison Pokemon with the Support specialty. It is found in Forest Valley, usually during Night conditions with Foggy weather. A magical flower creature.…",
     "meta": "Fairy/Poison / rare",
     "status": "Editorial database entry",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 75,
     "keywords": "Magicalure Fairy/Poison rare Support Mystery Mushroom Night Foggy hab002 Forest Valley Fairy Dust,Poison Stone Moonblast,Sludge Bomb,Toxic Spikes,Aromatherapy"
@@ -1229,7 +1229,7 @@
     "description": "Nightfall is an uncommon Dark Pokemon with the Assassin specialty. It is found in Shadow Marsh, usually during Night conditions with Stormy weather. A shadow assassin. Strikes wit…",
     "meta": "Dark / uncommon",
     "status": "Editorial database entry",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 75,
     "keywords": "Nightfall Dark uncommon Assassin Void Fruit Night Stormy hab006 Shadow Marsh Dark Gem,Shadow Stone Night Slash,Foul Play,Sucker Punch,Knock Off"
@@ -1242,7 +1242,7 @@
     "description": "Primordion is a legendary Dragon/Ground Pokemon with the Tank specialty. It is found in Muddy River, usually during Any conditions with Rain weather. The primordial dragon. Said t…",
     "meta": "Dragon/Ground / legendary",
     "status": "Editorial database entry",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 75,
     "keywords": "Primordion Dragon/Ground legendary Tank Golden Fish Any Rain hab009 Muddy River Dragon Scale,Earth Gem,Legendary Pearl Earthquake,Dragon Tail,Rest,Sleep Talk"
@@ -1255,7 +1255,7 @@
     "description": "Volcanic Cave is a hard Pokopia habitat unlocked at Level 15. It runs around Clear/Sunny weather, rewards +50% Fire drops, and is the first major test for teams that rely too much…",
     "meta": "Clear/Sunny / hard",
     "status": "Editorial habitat guide",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 70,
     "keywords": "Volcanic Cave Reach Level 15 Tank Build Clear/Sunny hard +50% Fire drops pkm001,pkm003,pkm007,pkm013,pkm028,pkm043 rec002"
@@ -1268,7 +1268,7 @@
     "description": "Forest Valley is the starting habitat and one of the best places to build early consistency. Cloudy/Foggy weather supports grass routes, +30% Leaf drops help starter growth, and t…",
     "meta": "Cloudy/Foggy / easy",
     "status": "Editorial habitat guide",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 70,
     "keywords": "Forest Valley Starting Habitat Balanced Cloudy/Foggy easy +30% Leaf drops pkm002,pkm006,pkm017,pkm023,pkm026,pkm032,pkm036,pkm048 rec002"
@@ -1281,7 +1281,7 @@
     "description": "Crystal Lake is an easy Pokopia habitat unlocked by: Reach Level 5. The area runs around Rain weather and gives +40% Water drops. This is a good route for early farming, testing n…",
     "meta": "Rain / easy",
     "status": "Editorial habitat guide",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 70,
     "keywords": "Crystal Lake Reach Level 5 Farming Rain easy +40% Water drops pkm004,pkm027,pkm034 rec006"
@@ -1294,7 +1294,7 @@
     "description": "Windmill Plains is a medium Pokopia habitat unlocked by: Reach Level 10. The area runs around Windy weather and gives +25% Electric drops. This area is best treated as a transitio…",
     "meta": "Windy / medium",
     "status": "Editorial habitat guide",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 70,
     "keywords": "Windmill Plains Reach Level 10 Speed Build Windy medium +25% Electric drops pkm005,pkm010,pkm015,pkm024,pkm035 rec007"
@@ -1307,7 +1307,7 @@
     "description": "Frost Peak is a medium Pokopia habitat unlocked by: Reach Level 20. The area runs around Snow weather and gives +35% Ice drops. This area is best treated as a transition route. It…",
     "meta": "Snow / medium",
     "status": "Editorial habitat guide",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 70,
     "keywords": "Frost Peak Reach Level 20 Defense Build Snow medium +35% Ice drops pkm008,pkm014,pkm022,pkm029 rec010"
@@ -1320,7 +1320,7 @@
     "description": "Shadow Marsh opens at Level 25 and should be treated as a serious ghost-hunting route. Stormy/Night conditions and +60% Ghost drops make it valuable, but the area rewards scouting…",
     "meta": "Stormy/Night / hard",
     "status": "Editorial habitat guide",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 70,
     "keywords": "Shadow Marsh Reach Level 25 Stealth Build Stormy/Night hard +60% Ghost drops pkm009,pkm030,pkm044,pkm049 rec002"
@@ -1333,7 +1333,7 @@
     "description": "Gemstone Canyon is a medium Pokopia habitat unlocked by: Reach Level 12. The area runs around Clear weather and gives +50% Stone drops. This area is best treated as a transition r…",
     "meta": "Clear / medium",
     "status": "Editorial habitat guide",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 70,
     "keywords": "Gemstone Canyon Reach Level 12 Mining Build Clear medium +50% Stone drops pkm011,pkm012,pkm042 rec014"
@@ -1346,7 +1346,7 @@
     "description": "Sky Isles is a medium Pokopia habitat unlocked by: Reach Level 18. The area runs around Windy weather and gives +40% Feather drops. This area is best treated as a transition route…",
     "meta": "Windy / medium",
     "status": "Editorial habitat guide",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 70,
     "keywords": "Sky Isles Reach Level 18 Flying Build Windy medium +40% Feather drops pkm016,pkm020,pkm025,pkm031,pkm040,pkm045 rec002"
@@ -1359,7 +1359,7 @@
     "description": "Muddy River is an easy Pokopia habitat unlocked by: Reach Level 8. The area runs around Rain weather and gives +35% Mud drops. This is a good route for early farming, testing new…",
     "meta": "Rain / easy",
     "status": "Editorial habitat guide",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 70,
     "keywords": "Muddy River Reach Level 8 Farming Build Rain easy +35% Mud drops pkm018,pkm021,pkm041,pkm050 rec006"
@@ -1372,7 +1372,7 @@
     "description": "Ancient Ruins is a hard Pokopia habitat unlocked by: Reach Level 30. The area runs around Cloudy weather and gives +45% Metal drops. This is a high-pressure route where scouting m…",
     "meta": "Cloudy / hard",
     "status": "Editorial habitat guide",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 70,
     "keywords": "Ancient Ruins Reach Level 30 Treasure Build Cloudy hard +45% Metal drops pkm019,pkm037,pkm038 rec012"
@@ -1385,7 +1385,7 @@
     "description": "Sunny Beach is an easy Pokopia habitat unlocked by: Starting Habitat. The area runs around Sunny weather and gives +30% Shell drops. This is a good route for early farming, testin…",
     "meta": "Sunny / easy",
     "status": "Editorial habitat guide",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 70,
     "keywords": "Sunny Beach Starting Habitat Relaxed Build Sunny easy +30% Shell drops pkm004,pkm023,pkm027 rec002"
@@ -1398,7 +1398,7 @@
     "description": "Thunder Arena unlocks at Level 22 and is the main electric pressure test. Thunderstorm weather and +55% Electric drops make it excellent for Zaprat, Voltscale, and electric-team f…",
     "meta": "Thunderstorm / hard",
     "status": "Editorial habitat guide",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 70,
     "keywords": "Thunder Arena Reach Level 22 Electric Build Thunderstorm hard +55% Electric drops pkm005,pkm015,pkm024,pkm035,pkm045 rec007"
@@ -1411,7 +1411,7 @@
     "description": "Dark Cavern is a hard Pokopia habitat unlocked by: Reach Level 28. The area runs around Dark weather and gives +65% Dark drops. This is a high-pressure route where scouting matter…",
     "meta": "Dark / hard",
     "status": "Editorial habitat guide",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 70,
     "keywords": "Dark Cavern Reach Level 28 Ghost Build Dark hard +65% Dark drops pkm030,pkm044,pkm049 rec002"
@@ -1424,7 +1424,7 @@
     "description": "Crystal Cave is a medium Pokopia habitat unlocked by: Reach Level 16. The area runs around Foggy weather and gives +60% Crystal drops. This area is best treated as a transition ro…",
     "meta": "Foggy / medium",
     "status": "Editorial habitat guide",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 70,
     "keywords": "Crystal Cave Reach Level 16 Crystal Build Foggy medium +60% Crystal drops pkm012,pkm031 rec013"
@@ -1437,7 +1437,7 @@
     "description": "Meadow Garden is an easy Pokopia habitat unlocked by: Starting Habitat. The area runs around Sunny weather and gives +25% Herb drops. This is a good route for early farming, testi…",
     "meta": "Sunny / easy",
     "status": "Editorial habitat guide",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 70,
     "keywords": "Meadow Garden Starting Habitat Beginner Build Sunny easy +25% Herb drops pkm002,pkm017,pkm036,pkm046 rec009"
@@ -1450,7 +1450,7 @@
     "description": "Industrial Zone is a medium Pokopia habitat unlocked by: Reach Level 14. The area runs around Cloudy weather and gives +40% Metal drops. This area is best treated as a transition…",
     "meta": "Cloudy / medium",
     "status": "Editorial habitat guide",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 70,
     "keywords": "Industrial Zone Reach Level 14 Tech Build Cloudy medium +40% Metal drops pkm010,pkm024,pkm037 rec007"
@@ -1463,7 +1463,7 @@
     "description": "Nightmare Forest is a hard Pokopia habitat unlocked by: Reach Level 26. The area runs around Foggy/Night weather and gives +55% Poison drops. This is a high-pressure route where s…",
     "meta": "Foggy/Night / hard",
     "status": "Editorial habitat guide",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 70,
     "keywords": "Nightmare Forest Reach Level 26 Poison Build Foggy/Night hard +55% Poison drops pkm006,pkm022,pkm048 rec010"
@@ -1476,7 +1476,7 @@
     "description": "Dragon's Den is a late-game habitat unlocked at Level 32. Stormy weather, +50% Dragon drops, and targets like Voltscale, Snorizard, and Primordion make it worth farming only after…",
     "meta": "Stormy / hard",
     "status": "Editorial habitat guide",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 70,
     "keywords": "Dragon's Den Reach Level 32 Dragon Build Stormy hard +50% Dragon drops pkm015,pkm029,pkm050 rec007"
@@ -1489,7 +1489,7 @@
     "description": "Fairy Glen is a medium Pokopia habitat unlocked by: Reach Level 18. The area runs around Clear weather and gives +45% Fairy dust drops. This area is best treated as a transition r…",
     "meta": "Clear / medium",
     "status": "Editorial habitat guide",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 70,
     "keywords": "Fairy Glen Reach Level 18 Fairy Build Clear medium +45% Fairy dust drops pkm012,pkm027,pkm038,pkm048 rec006"
@@ -1502,7 +1502,7 @@
     "description": "Training Grounds is an easy Pokopia habitat unlocked by: Reach Level 10. The area runs around Clear weather and gives +30% XP bonus. This is a good route for early farming, testin…",
     "meta": "Clear / easy",
     "status": "Editorial habitat guide",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 70,
     "keywords": "Training Grounds Reach Level 10 Starter Build Clear easy +30% XP bonus pkm002,pkm008,pkm017,pkm026,pkm046 rec014"
@@ -1515,7 +1515,7 @@
     "description": "Honey Cake is an uncommon Pokopia recipe that gives +20% attraction rate for 30 min. Its main use is Rare Pokemon farming. Because this is an uncommon recipe, it is safe to use on…",
     "meta": "uncommon / 30 min",
     "status": "Editorial recipe reference",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 65,
     "keywords": "Honey Cake Honey x3, Flour x2, Egg x1 +20% attraction rate 30 min uncommon Rare Pokemon farming pkm002,pkm004,pkm017,pkm023,pkm026,pkm032 hab002,hab003,hab015,hab020"
@@ -1528,7 +1528,7 @@
     "description": "Fire Boost is a rare Pokopia recipe that gives +30% Fire damage for 1 hour. Its main use is Boss battles. Because this is a rare recipe, use it for serious clears, boss rooms, and…",
     "meta": "rare / 1 hour",
     "status": "Editorial recipe reference",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 65,
     "keywords": "Fire Boost Flame Fruit x5, Magma Stone x1 +30% Fire damage 1 hour rare Boss battles pkm001,pkm003,pkm007,pkm013,pkm028,pkm043 hab001"
@@ -1541,7 +1541,7 @@
     "description": "Speed Potion is an uncommon Pokopia recipe that gives +25% movement speed for 45 min. Its main use is Speed runs. Because this is an uncommon recipe, it is safe to use once a rout…",
     "meta": "uncommon / 45 min",
     "status": "Editorial recipe reference",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 65,
     "keywords": "Speed Potion Windy Herb x4, Zap Berry x2 +25% movement speed 45 min uncommon Speed runs pkm005,pkm010,pkm015,pkm024,pkm035 hab004,hab012,hab020"
@@ -1554,7 +1554,7 @@
     "description": "Guardian Stew is a rare Pokopia recipe that gives +40% defense for 2 hours. Its main use is Hard habitats. Because this is a rare recipe, use it for serious clears, boss rooms, an…",
     "meta": "rare / 2 hours",
     "status": "Editorial recipe reference",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 65,
     "keywords": "Guardian Stew Iron Root x3, Big Root x2, Mystery Meat x2 +40% defense 2 hours rare Hard habitats pkm002,pkm008,pkm010,pkm019,pkm037 hab005,hab010,hab016,hab017"
@@ -1567,7 +1567,7 @@
     "description": "Lucky Charm is a legendary Pokopia recipe that gives +50% rare spawn chance for 1 hour. Its main use is Legendary hunting. Because this is a legendary recipe, save it for rare spa…",
     "meta": "legendary / 1 hour",
     "status": "Editorial recipe reference",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 65,
     "keywords": "Lucky Charm Golden Fish x1, Four Leaf x3, Star Dust x2 +50% rare spawn chance 1 hour legendary Legendary hunting pkm007,pkm015,pkm030,pkm050,pkm012,pkm031 hab001,hab006,hab012,hab014,hab018,hab019"
@@ -1580,7 +1580,7 @@
     "description": "Water Shield is an uncommon Pokopia recipe that gives +35% water resistance for 1.5 hours. Its main use is Water habitats. Because this is an uncommon recipe, it is safe to use on…",
     "meta": "uncommon / 1.5 hours",
     "status": "Editorial recipe reference",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 65,
     "keywords": "Water Shield Crystal Dew x3, Shell x2, Pearl x1 +35% water resistance 1.5 hours uncommon Water habitats pkm004,pkm014,pkm018,pkm021,pkm027,pkm034 hab003,hab009,hab011"
@@ -1593,7 +1593,7 @@
     "description": "Thunder Strike is a rare Pokopia recipe that gives +40% electric damage for 45 min. Its main use is Electric battles. Because this is a rare recipe, use it for serious clears, bos…",
     "meta": "rare / 45 min",
     "status": "Editorial recipe reference",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 65,
     "keywords": "Thunder Strike Lightning Bug x5, Battery x3, Magnet x1 +40% electric damage 45 min rare Electric battles pkm005,pkm010,pkm015,pkm024,pkm035 hab004,hab012"
@@ -1606,7 +1606,7 @@
     "description": "Ice Armor is a rare Pokopia recipe that gives +50% ice resistance for 2 hours. Its main use is Frost Peak. Because this is a rare recipe, use it for serious clears, boss rooms, an…",
     "meta": "rare / 2 hours",
     "status": "Editorial recipe reference",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 65,
     "keywords": "Ice Armor Frost Crystal x4, Ice Stone x2, Snowball x3 +50% ice resistance 2 hours rare Frost Peak pkm008,pkm014,pkm022,pkm029 hab005,hab014"
@@ -1619,7 +1619,7 @@
     "description": "Grass Heal is a common Pokopia recipe that gives +30 HP restore for 20 min. Its main use is Daily farming. Because this is an uncommon recipe, it is safe to use once a route is mo…",
     "meta": "common / 20 min",
     "status": "Editorial recipe reference",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 65,
     "keywords": "Grass Heal Leaf x5, Berry x3, Sunleaf x2 +30 HP restore 20 min common Daily farming pkm002,pkm006,pkm017,pkm023,pkm026,pkm032 hab002,hab015,hab020"
@@ -1632,7 +1632,7 @@
     "description": "Ghost Veil is a legendary Pokopia recipe that gives +45% ghost damage for 1 hour. Its main use is Shadow Marsh. Because this is a legendary recipe, save it for rare spawns, legend…",
     "meta": "legendary / 1 hour",
     "status": "Editorial recipe reference",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 65,
     "keywords": "Ghost Veil Soul Dust x4, Shadow Stone x2, Void Fruit x1 +45% ghost damage 1 hour legendary Shadow Marsh pkm009,pkm030,pkm044,pkm049 hab006,hab017,hab013"
@@ -1645,7 +1645,7 @@
     "description": "Dragon's Fury is a rare Pokopia recipe that gives +35% dragon damage for 90 min. Its main use is Boss fights. Because this is a rare recipe, use it for serious clears, boss rooms,…",
     "meta": "rare / 90 min",
     "status": "Editorial recipe reference",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 65,
     "keywords": "Dragon's Fury Dragon Scale x3, Magma Core x2, Fire Stone x1 +35% dragon damage 90 min rare Boss fights pkm015,pkm029,pkm050 hab012,hab018"
@@ -1658,7 +1658,7 @@
     "description": "Steel Shell is a rare Pokopia recipe that gives +60% defense for 2 hours. Its main use is Tank builds. Because this is a rare recipe, use it for serious clears, boss rooms, and re…",
     "meta": "rare / 2 hours",
     "status": "Editorial recipe reference",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 65,
     "keywords": "Steel Shell Metal Coat x4, Bronze Medal x2, Iron Ore x3 +60% defense 2 hours rare Tank builds pkm007,pkm010,pkm019,pkm037,pkm045 hab016,hab010,hab018,hab001"
@@ -1671,7 +1671,7 @@
     "description": "Flying High is an uncommon Pokopia recipe that gives +30% flying damage for 1 hour. Its main use is Sky Isles. Because this is an uncommon recipe, it is safe to use once a route i…",
     "meta": "uncommon / 1 hour",
     "status": "Editorial recipe reference",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 65,
     "keywords": "Flying High Feather x5, Wind Essence x2, Cloudy Wool x3 +30% flying damage 1 hour uncommon Sky Isles pkm016,pkm020,pkm025,pkm040 hab008"
@@ -1684,7 +1684,7 @@
     "description": "Muddy Swirl is an uncommon Pokopia recipe that gives +25% ground damage for 45 min. Its main use is Muddy River. Because this is an uncommon recipe, it is safe to use once a route…",
     "meta": "uncommon / 45 min",
     "status": "Editorial recipe reference",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 65,
     "keywords": "Muddy Swirl Mud Ball x4, River Clay x3, Water Stone x1 +25% ground damage 45 min uncommon Muddy River pkm011,pkm018,pkm021,pkm039 hab007,hab009"
@@ -1697,7 +1697,7 @@
     "description": "Mega Restore is a legendary Pokopia recipe that gives Full HP restore for Instant. Its main use is Emergency healing. Because this is a legendary recipe, save it for rare spawns,…",
     "meta": "legendary / Instant",
     "status": "Editorial recipe reference",
-    "source": "Gematsu / 官方截图转载",
+    "source": "Gematsu / official screenshot repost",
     "updatedAt": "2026-05-23",
     "priority": 65,
     "keywords": "Mega Restore Star Piece x3, Gold Leaf x2, Rainbow Shell x1 Full HP restore Instant legendary Emergency healing pkm007,pkm015,pkm030,pkm050,pkm019 hab001,hab006,hab010,hab018"
