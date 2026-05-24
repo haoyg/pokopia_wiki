@@ -16,7 +16,6 @@ export function CreditedImage({
   alt,
   source,
   sourceUrl,
-  licenseNote,
   className = 'card-cover',
   priority = false,
   sizes = '(max-width: 768px) 100vw, 300px',
@@ -36,11 +35,7 @@ export function CreditedImage({
       </div>
       <figcaption style={{ color: '#777', fontSize: '0.75rem', lineHeight: 1.5, marginTop: '0.35rem' }}>
         <span>
-          图片来源：{sourceUrl ? <a href={sourceUrl} rel="nofollow noopener noreferrer" target="_blank">{source}</a> : source}
-        </span>
-        <br />
-        <span>
-          使用说明：{licenseNote || 'Source credited for editorial identification and informational context.'}
+          Image source: {sourceUrl ? <a href={sourceUrl} rel="nofollow noopener noreferrer" target="_blank">{source}</a> : source}
         </span>
       </figcaption>
     </figure>
