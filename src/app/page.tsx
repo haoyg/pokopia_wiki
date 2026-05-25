@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import newsData from '@/data/news.json'
 import guidesData from '@/data/guides.json'
 import pokemonData from '@/data/pokemon.json'
+import habitatsData from '@/data/habitats.json'
 import { canonicalUrl } from '@/lib/site'
 import { CreditedImage } from '@/components/media/CreditedImage'
 import { OfficialContext } from '@/components/content/OfficialContext'
@@ -50,9 +51,17 @@ function getTypeLabel(type: string) {
 }
 
 export default function Home() {
-  const news = newsData.slice(0, 4)
-  const guides = guidesData.slice(0, 4)
+  const leadNews = newsData[0]
+  const news = newsData.slice(1, 5)
+  const guides = guidesData.slice(0, 6)
   const pokemon = pokemonData.slice(0, 8)
+  const habitats = habitatsData.slice(0, 4)
+  const beginnerGuides = guidesData.filter((guide) =>
+    ['best-starter-pokemon', 'training-grounds-beginners', 'best-habitat-type-pokopia', 'complete-recipe-list'].includes(guide.slug)
+  )
+  const routeGuides = guidesData.filter((guide) =>
+    ['how-to-unlock-volcanic-cave', 'fast-farming-rare-pokemon', 'shadow-marsh-guide', 'frost-peak-guide'].includes(guide.slug)
+  )
 
   return (
     <main>
@@ -69,19 +78,37 @@ export default function Home() {
         </div>
       </section>
 
-      <section>
-        <h2>Latest News</h2>
-        <div className="news-grid">
-          {news.map((item) => (
-            <a key={item.id} href={`/news/${item.slug}`} className="card">
-              <CreditedImage src={item.image_url} alt={item.image_alt} source={item.image_source} sourceUrl={item.image_source_url} licenseNote={item.image_license_note} />
-              <span className={`badge ${item.category}`}>
-                {categoryLabels[item.category] || item.category}
-              </span>
-              <h3>{item.title}</h3>
-              <p>{item.excerpt}</p>
-            </a>
-          ))}
+      <section className="home-dashboard" aria-label="Pokopia homepage highlights">
+        <div className="lead-story">
+          <a href={`/news/${leadNews.slug}`} className="lead-story-link">
+            <CreditedImage src={leadNews.image_url} alt={leadNews.image_alt} source={leadNews.image_source} sourceUrl={leadNews.image_source_url} licenseNote={leadNews.image_license_note} className="lead-cover" sizes="(max-width: 768px) 100vw, 620px" priority />
+            <span className={`badge ${leadNews.category}`}>
+              {categoryLabels[leadNews.category] || leadNews.category}
+            </span>
+            <h2>{leadNews.title}</h2>
+            <p>{leadNews.excerpt}</p>
+          </a>
+        </div>
+
+        <div className="home-briefing">
+          <div className="briefing-panel">
+            <span className="panel-kicker">Start Here</span>
+            <h2>Beginner Route</h2>
+            <div className="briefing-list">
+              {beginnerGuides.map((guide) => (
+                <a key={guide.id} href={`/guides/${guide.slug}`}>
+                  <span>{categoryLabels[guide.category] || guide.category}</span>
+                  <strong>{guide.title}</strong>
+                </a>
+              ))}
+            </div>
+          </div>
+          <div className="briefing-panel official-panel">
+            <span className="panel-kicker">Official Sources</span>
+            <h2>Confirmed Info</h2>
+            <p>Check source-backed release, gameplay, multiplayer, and beginner notes before reading editorial route advice.</p>
+            <a className="panel-link" href="/official">Open official hub</a>
+          </div>
         </div>
       </section>
 
@@ -97,22 +124,61 @@ export default function Home() {
         />
       </section>
 
-      <section>
-        <h2>Trending Guides</h2>
-        <div className="guides-grid">
+      <section className="content-lanes">
+        <div className="section-title-row">
+          <div>
+            <span className="panel-kicker">Route Planning</span>
+            <h2>Trending Guides</h2>
+          </div>
+          <a href="/guides">View all guides</a>
+        </div>
+        <div className="guide-lane-grid">
           {guides.map((item) => (
             <a key={item.id} href={`/guides/${item.slug}`} className="card">
               <CreditedImage src={item.image_url} alt={item.image_alt} source={item.image_source} sourceUrl={item.image_source_url} licenseNote={item.image_license_note} />
               <span className="badge">{categoryLabels[item.category] || item.category}</span>
               <h3>{item.title}</h3>
+              <p>{item.answer}</p>
             </a>
           ))}
         </div>
       </section>
 
-      <section>
-        <h2>Popular Pokemon</h2>
-        <div className="pokemon-grid">
+      <section className="route-board">
+        <div className="section-title-row">
+          <div>
+            <span className="panel-kicker">Today&apos;s Routes</span>
+            <h2>Habitat and Farming Paths</h2>
+          </div>
+          <a href="/wiki/habitat">Open habitats</a>
+        </div>
+        <div className="route-board-grid">
+          {routeGuides.map((guide) => (
+            <a key={guide.id} href={`/guides/${guide.slug}`} className="route-card">
+              <span className={`badge ${guide.category}`}>{categoryLabels[guide.category] || guide.category}</span>
+              <h3>{guide.title}</h3>
+              <p>{guide.answer}</p>
+            </a>
+          ))}
+          {habitats.map((habitat) => (
+            <a key={habitat.id} href={`/wiki/habitat/${habitat.id}`} className="route-card habitat-route">
+              <span className={`badge ${habitat.difficulty.toLowerCase()}`}>{habitat.difficulty}</span>
+              <h3>{habitat.name}</h3>
+              <p>{habitat.overview}</p>
+            </a>
+          ))}
+        </div>
+      </section>
+
+      <section className="pokedex-strip">
+        <div className="section-title-row">
+          <div>
+            <span className="panel-kicker">Field Notes</span>
+            <h2>Popular Pokemon</h2>
+          </div>
+          <a href="/wiki/pokemon">Open Pokedex</a>
+        </div>
+        <div className="pokemon-strip-grid">
           {pokemon.map((p) => (
             <a key={p.id} href={`/wiki/pokemon/${p.id}`} className="card">
               <CreditedImage src={p.image_url} alt={p.image_alt} source={p.image_source} sourceUrl={p.image_source_url} licenseNote={p.image_license_note} className="card-cover pokemon-cover" sizes="120px" />
@@ -122,6 +188,28 @@ export default function Home() {
               <div style={{ textAlign: 'center', marginTop: '0.5rem' }}>
                 <span className={`rarity ${p.rarity}`}>{p.rarity}</span>
               </div>
+            </a>
+          ))}
+        </div>
+      </section>
+
+      <section className="latest-wire">
+        <div className="section-title-row">
+          <div>
+            <span className="panel-kicker">News Wire</span>
+            <h2>Latest Updates</h2>
+          </div>
+          <a href="/news">View all news</a>
+        </div>
+        <div className="news-grid">
+          {news.map((item) => (
+            <a key={item.id} href={`/news/${item.slug}`} className="card">
+              <CreditedImage src={item.image_url} alt={item.image_alt} source={item.image_source} sourceUrl={item.image_source_url} licenseNote={item.image_license_note} />
+              <span className={`badge ${item.category}`}>
+                {categoryLabels[item.category] || item.category}
+              </span>
+              <h3>{item.title}</h3>
+              <p>{item.excerpt}</p>
             </a>
           ))}
         </div>
