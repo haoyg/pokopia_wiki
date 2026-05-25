@@ -104,7 +104,7 @@ export default async function GuideDetailPage({ params }: Props) {
             title="Official Baseline for This Guide"
             description="This guide contains editorial route advice. For confirmed Pokémon Pokopia systems, check the official-source pages first."
           />
-          <CreditedImage src={guide.image_url} alt={guide.image_alt} source={guide.image_source} sourceUrl={guide.image_source_url} licenseNote={guide.image_license_note} className="article-cover" sizes="(max-width: 768px) 100vw, 800px" priority />
+          <CreditedImage src={guide.image_url} alt={guide.image_alt} source={guide.image_source} sourceUrl={guide.image_source_url} licenseNote={guide.image_license_note} originalMedia={guide.image_original_media} className="article-cover" sizes="(max-width: 768px) 100vw, 800px" priority />
 
           <section style={{ marginTop: '2rem', lineHeight: '1.8' }}>
             <h2>Quick Answer</h2>

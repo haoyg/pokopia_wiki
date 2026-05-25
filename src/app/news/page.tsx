@@ -34,7 +34,7 @@ export default function NewsPage() {
       <div className="news-grid">
         {newsData.map((item) => (
           <a key={item.id} href={`/news/${item.slug}`} className="card">
-            <CreditedImage src={item.image_url} alt={item.image_alt} source={item.image_source} sourceUrl={item.image_source_url} licenseNote={item.image_license_note} />
+            <CreditedImage src={item.image_url} alt={item.image_alt} source={item.image_source} sourceUrl={item.image_source_url} licenseNote={item.image_license_note} originalMedia={item.image_original_media} />
             <span className={`badge ${item.category}`}>{categoryLabels[item.category] || item.category}</span>
             <h3>{item.title}</h3>
             <p>{item.excerpt}</p>

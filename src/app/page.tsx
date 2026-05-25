@@ -81,7 +81,7 @@ export default function Home() {
       <section className="home-dashboard" aria-label="Pokopia homepage highlights">
         <div className="lead-story">
           <a href={`/news/${leadNews.slug}`} className="lead-story-link">
-            <CreditedImage src={leadNews.image_url} alt={leadNews.image_alt} source={leadNews.image_source} sourceUrl={leadNews.image_source_url} licenseNote={leadNews.image_license_note} className="lead-cover" sizes="(max-width: 768px) 100vw, 620px" priority />
+            <CreditedImage src={leadNews.image_url} alt={leadNews.image_alt} source={leadNews.image_source} sourceUrl={leadNews.image_source_url} licenseNote={leadNews.image_license_note} originalMedia={leadNews.image_original_media} className="lead-cover" sizes="(max-width: 768px) 100vw, 620px" priority />
             <span className={`badge ${leadNews.category}`}>
               {categoryLabels[leadNews.category] || leadNews.category}
             </span>
@@ -135,7 +135,7 @@ export default function Home() {
         <div className="guide-lane-grid">
           {guides.map((item) => (
             <a key={item.id} href={`/guides/${item.slug}`} className="card">
-              <CreditedImage src={item.image_url} alt={item.image_alt} source={item.image_source} sourceUrl={item.image_source_url} licenseNote={item.image_license_note} />
+              <CreditedImage src={item.image_url} alt={item.image_alt} source={item.image_source} sourceUrl={item.image_source_url} licenseNote={item.image_license_note} originalMedia={item.image_original_media} />
               <span className="badge">{categoryLabels[item.category] || item.category}</span>
               <h3>{item.title}</h3>
               <p>{item.answer}</p>
@@ -181,7 +181,7 @@ export default function Home() {
         <div className="pokemon-strip-grid">
           {pokemon.map((p) => (
             <a key={p.id} href={`/wiki/pokemon/${p.id}`} className="card">
-              <CreditedImage src={p.image_url} alt={p.image_alt} source={p.image_source} sourceUrl={p.image_source_url} licenseNote={p.image_license_note} className="card-cover pokemon-cover" sizes="120px" />
+              <CreditedImage src={p.image_url} alt={p.image_alt} source={p.image_source} sourceUrl={p.image_source_url} licenseNote={p.image_license_note} originalMedia={p.image_original_media} className="card-cover pokemon-cover" sizes="120px" />
               <div className="type-kicker">{getTypeLabel(p.type)}</div>
               <h3 style={{ textAlign: 'center', marginTop: '0.5rem' }}>{p.name}</h3>
               <p style={{ textAlign: 'center', color: '#666', fontSize: '0.875rem' }}>{p.type}</p>
@@ -204,7 +204,7 @@ export default function Home() {
         <div className="news-grid">
           {news.map((item) => (
             <a key={item.id} href={`/news/${item.slug}`} className="card">
-              <CreditedImage src={item.image_url} alt={item.image_alt} source={item.image_source} sourceUrl={item.image_source_url} licenseNote={item.image_license_note} />
+              <CreditedImage src={item.image_url} alt={item.image_alt} source={item.image_source} sourceUrl={item.image_source_url} licenseNote={item.image_license_note} originalMedia={item.image_original_media} />
               <span className={`badge ${item.category}`}>
                 {categoryLabels[item.category] || item.category}
               </span>

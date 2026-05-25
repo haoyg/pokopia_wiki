@@ -13,6 +13,7 @@ const requiredFields = [
   'image_alt',
   'image_source',
   'image_source_url',
+  'image_original_media',
   'image_license_note',
 ]
 

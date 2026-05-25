@@ -112,7 +112,7 @@ export default async function NewsDetailPage({ params }: Props) {
               </p>
             </aside>
           )}
-          <CreditedImage src={news.image_url} alt={news.image_alt} source={news.image_source} sourceUrl={news.image_source_url} licenseNote={news.image_license_note} className="article-cover" sizes="(max-width: 768px) 100vw, 800px" priority />
+          <CreditedImage src={news.image_url} alt={news.image_alt} source={news.image_source} sourceUrl={news.image_source_url} licenseNote={news.image_license_note} originalMedia={news.image_original_media} className="article-cover" sizes="(max-width: 768px) 100vw, 800px" priority />
           <p style={{ marginTop: '1rem' }}>{news.excerpt}</p>
           <div style={{ marginTop: '2rem', lineHeight: '1.8' }}>
             {contentParagraphs.map((paragraph) => (

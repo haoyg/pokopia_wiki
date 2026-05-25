@@ -5,6 +5,7 @@ type CreditedImageProps = {
   alt?: string
   source?: string
   sourceUrl?: string
+  originalMedia?: string
   licenseNote?: string
   className?: string
   priority?: boolean
@@ -16,6 +17,7 @@ export function CreditedImage({
   alt,
   source,
   sourceUrl,
+  originalMedia,
   className = 'card-cover',
   priority = false,
   sizes = '(max-width: 768px) 100vw, 300px',
@@ -37,6 +39,12 @@ export function CreditedImage({
         <span>
           Image source: {sourceUrl ? <a href={sourceUrl} rel="nofollow noopener noreferrer" target="_blank">{source}</a> : source}
         </span>
+        {originalMedia && (
+          <>
+            <br />
+            <span>Original media: {originalMedia}</span>
+          </>
+        )}
       </figcaption>
     </figure>
   )

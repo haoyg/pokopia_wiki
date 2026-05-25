@@ -89,7 +89,7 @@ export default async function PokemonDetailPage({ params }: Props) {
       {pokemon.faqs && pokemon.faqs.length > 0 && <FAQJsonLd faqs={pokemon.faqs} title={pokemon.name} />}
       <article style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
         <div className="pokemon-detail-hero">
-          <CreditedImage src={pokemon.image_url} alt={pokemon.image_alt} source={pokemon.image_source} sourceUrl={pokemon.image_source_url} licenseNote={pokemon.image_license_note} className="pokemon-portrait" sizes="180px" priority />
+          <CreditedImage src={pokemon.image_url} alt={pokemon.image_alt} source={pokemon.image_source} sourceUrl={pokemon.image_source_url} licenseNote={pokemon.image_license_note} originalMedia={pokemon.image_original_media} className="pokemon-portrait" sizes="180px" priority />
           <div>
             <h1>{pokemon.name}</h1>
             <p>{pokemon.type}</p>
