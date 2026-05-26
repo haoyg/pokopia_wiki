@@ -16,7 +16,7 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Pikafire",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Pikafire is a rare Fire/Electric Pokemon with the Attacker specialty. It is found in Volcanic Cave, usually during Day conditions with Sunny weather. A fiery variant of Pikachu with flame-themed markings. Found near volcanic areas. Because it is rare, do not chase it blindly. Learn the habitat route first, then farm it during the correct time and weather window.",
+    "overview": "Pikafire is a rare Fire/Electric attacker found in Volcanic Cave during Day and Sunny conditions. Its value is tempo: it helps early fights end quickly, but it still needs a safer partner before serious cave farming. Learn the Volcanic Cave loop first, then chase Pikafire when the weather and route are both ready.",
     "how_to_get": [
       "Go to Volcanic Cave (Reach Level 15).",
       "Check the spawn window first: Pikafire is listed for Day and Sunny weather.",
@@ -27,7 +27,7 @@
     "best_use": [
       "Use it when the route needs faster clears or boss pressure. Pair it with a safer backup so one bad matchup does not end the run.",
       "Fire typing is useful for aggressive clears and routes where damage windows matter. Watch for fights that punish fragile attackers.",
-      "Thunderbolt is the first skill to evaluate because it defines how Pikafire starts a fight. The rest of the kit (Thunderbolt, Fire Blast, Quick Attack, Iron Tail) should be judged by whether it helps the target habitat, not by damage numbers alone.",
+      "Thunderbolt gives Pikafire its opening pressure, while Fire Blast is the payoff when a fight needs to end quickly. Quick Attack and Iron Tail matter most when they help the route stay smooth instead of simply raising the damage total.",
       "The most relevant related routes to check are Best Starter Pokemon in Pokopia, How to Unlock Volcanic Cave, Best Fire-Type Team Build, Best Habitat for Each Pokemon Type. These pages show where Pikafire fits into team plans and farming loops."
     ],
     "team_tips": [
@@ -45,9 +45,9 @@
     "common_mistakes": [
       "Farming Pikafire in Volcanic Cave without checking Day and Sunny.",
       "Using Apple before learning the shortest route to the spawn check.",
-      "Building around rarity alone instead of asking whether Attacker helps your current team.",
+      "Choosing Pikafire only because it is rare instead of checking whether your current team actually needs a fragile attacker.",
       "Ignoring drops like Fire Stone, Thunder Stone when deciding if the farming loop is worth repeating.",
-      "Skipping related guides, which often explain where Pikafire performs best."
+      "Ignoring Volcanic Cave planning notes and then blaming Pikafire for route problems caused by team structure."
     ],
     "faqs": [
       {
@@ -94,7 +94,7 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Bulbin",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Bulbin is a common Grass Pokemon with the Defender specialty. It is found in Forest Valley, usually during Any conditions with Cloudy weather. A loyal grass-type starter. Easy to catch and great for beginners. Because it is common, the main value is consistency. Build it early if it helps you farm without spending rare resources.",
+    "overview": "Bulbin is a common Grass defender from Forest Valley and one of the most forgiving early route anchors. It will not solve every fight quickly, but it makes scouting, food gathering, and starter farming less punishing. Build it when you want a stable first loop instead of spending rare recipes to cover basic mistakes.",
     "how_to_get": [
       "Go to Forest Valley (Starting Habitat).",
       "Check the spawn window first: Bulbin is listed for Any and Cloudy weather.",
@@ -105,7 +105,7 @@
     "best_use": [
       "Use it as the front-line stabilizer. It is strongest when the rest of the team supplies damage or capture utility.",
       "Grass typing is valuable for beginner stability, sustain, and control. It is often better for repeatable farming than pure burst.",
-      "Vine Whip is the first skill to evaluate because it defines how Bulbin starts a fight. The rest of the kit (Vine Whip, Razor Leaf, Protect, Growl) should be judged by whether it helps the target habitat, not by damage numbers alone.",
+      "Vine Whip and Razor Leaf give Bulbin enough pressure for early clears, but Protect is the reason it stays useful when a route gets messy. Judge the kit by whether it keeps Forest Valley repeatable.",
       "The most relevant related routes to check are Best Starter Pokemon in Pokopia, Speed Run Route for Leveling, Best Defense Team Build, Beginner's Guide to Training Grounds. These pages show where Bulbin fits into team plans and farming loops."
     ],
     "team_tips": [
@@ -123,9 +123,9 @@
     "common_mistakes": [
       "Farming Bulbin in Forest Valley without checking Any and Cloudy.",
       "Using Leaf before learning the shortest route to the spawn check.",
-      "Building around rarity alone instead of asking whether Defender helps your current team.",
+      "Dropping Bulbin too early because it is common, even when the team still needs a reliable front slot.",
       "Ignoring drops like Leaf, Grass Fiber when deciding if the farming loop is worth repeating.",
-      "Skipping related guides, which often explain where Bulbin performs best."
+      "Ignoring starter-route advice and using Bulbin in fights where a damage lead would solve the problem faster."
     ],
     "faqs": [
       {
@@ -172,7 +172,7 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Charmuddy",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Charmuddy is an uncommon Fire Pokemon with the Attacker specialty. It is found in Volcanic Cave, usually during Night conditions with Clear weather. A cuddly fire-type with fluffy fur. Evolves from Firdle. Because it is uncommon, it is usually worth testing once your starter route is stable and you need a more specialized role.",
+    "overview": "Charmuddy is an uncommon Fire attacker in Volcanic Cave during Night and Clear conditions. It is less about flashy burst and more about steady fire pressure once the cave route is already under control. Bring Honey only after you know the short path to its check.",
     "how_to_get": [
       "Go to Volcanic Cave (Reach Level 15).",
       "Check the spawn window first: Charmuddy is listed for Night and Clear weather.",
@@ -183,7 +183,7 @@
     "best_use": [
       "Use it when the route needs faster clears or boss pressure. Pair it with a safer backup so one bad matchup does not end the run.",
       "Fire typing is useful for aggressive clears and routes where damage windows matter. Watch for fights that punish fragile attackers.",
-      "Ember is the first skill to evaluate because it defines how Charmuddy starts a fight. The rest of the kit (Ember, Fire Spin, Flamethrower, Fire Blast) should be judged by whether it helps the target habitat, not by damage numbers alone.",
+      "Ember and Fire Spin make Charmuddy comfortable for repeat clears, while Flamethrower and Fire Blast give it enough ceiling for tougher rooms. Use the heavier skills when the route is stable enough to justify the extra pressure.",
       "The most relevant related routes to check are Best Fire-Type Team Build. These pages show where Charmuddy fits into team plans and farming loops."
     ],
     "team_tips": [
@@ -201,9 +201,9 @@
     "common_mistakes": [
       "Farming Charmuddy in Volcanic Cave without checking Night and Clear.",
       "Using Honey before learning the shortest route to the spawn check.",
-      "Building around rarity alone instead of asking whether Attacker helps your current team.",
+      "Treating Charmuddy like a full boss answer when the team still needs a backup for long cave fights.",
       "Ignoring drops like Fire Stone, Ash when deciding if the farming loop is worth repeating.",
-      "Skipping related guides, which often explain where Charmuddy performs best."
+      "Skipping fire-team notes and missing the difference between a steady cave clearer and a burst finisher."
     ],
     "faqs": [
       {
@@ -250,7 +250,7 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Aquap",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Aquap is a common Water Pokemon with the Support specialty. It is found in Crystal Lake, usually during Any conditions with Rain weather. A playful water creature. Found near rivers and lakes. Because it is common, the main value is consistency. Build it early if it helps you farm without spending rare resources.",
+    "overview": "Aquap is a common Water support Pokemon found in Crystal Lake during Rain. It is useful when a route needs steadier recovery windows, safer gathering, or a support slot for a stronger attacker. Treat it as a comfort pick for repeatable water farming, not as a damage carry.",
     "how_to_get": [
       "Go to Crystal Lake (Reach Level 5).",
       "Check the spawn window first: Aquap is listed for Any and Rain weather.",
@@ -261,7 +261,7 @@
     "best_use": [
       "Use it to make longer routes safer. Support Pokemon are best when they protect a stronger damage dealer or keep farming loops consistent.",
       "Water typing is strong for safe farming and flexible coverage, especially when the route includes long fights or mixed enemies.",
-      "Water Gun is the first skill to evaluate because it defines how Aquap starts a fight. The rest of the kit (Water Gun, Bubble, Aqua Jet, Rain Dance) should be judged by whether it helps the target habitat, not by damage numbers alone.",
+      "Water Gun and Bubble keep Aquap useful in routine fights, while Rain Dance is the reason it supports longer Crystal Lake loops. Aqua Jet is best valued for routing comfort, not raw damage.",
       "The most relevant related routes to check are Best Starter Pokemon in Pokopia, Speed Run Route for Leveling, Water-Type Team Compilation. These pages show where Aquap fits into team plans and farming loops."
     ],
     "team_tips": [
@@ -279,9 +279,9 @@
     "common_mistakes": [
       "Farming Aquap in Crystal Lake without checking Any and Rain.",
       "Using Golden Fish before learning the shortest route to the spawn check.",
-      "Building around rarity alone instead of asking whether Support helps your current team.",
+      "Expecting Aquap to carry damage checks instead of using it to protect a stronger route lead.",
       "Ignoring drops like Water Stone, Pearl when deciding if the farming loop is worth repeating.",
-      "Skipping related guides, which often explain where Aquap performs best."
+      "Ignoring Crystal Lake route notes and spending Golden Fish before the useful checks are mapped."
     ],
     "faqs": [
       {
@@ -328,7 +328,7 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Zaprat",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Zaprat is an uncommon Electric Pokemon with the Speedster specialty. It is found in Windmill Plains, usually during Morning conditions with Windy weather. An electric rat-like Pokemon. Extremely fast but fragile. Because it is uncommon, it is usually worth testing once your starter route is stable and you need a more specialized role.",
+    "overview": "Zaprat is an uncommon Electric speedster from Windmill Plains, best checked in Morning and Windy conditions. It is fast enough to make repeated route loops feel cleaner, but fragile enough that one bad fight can waste the time it saves. Use it when the path is already familiar and the goal is faster checks.",
     "how_to_get": [
       "Go to Windmill Plains (Reach Level 10).",
       "Check the spawn window first: Zaprat is listed for Morning and Windy weather.",
@@ -339,7 +339,7 @@
     "best_use": [
       "Use it to reduce clear time and improve repeated farming loops. Keep one durable partner nearby because speed picks can be punished by hard encounters.",
       "Electric typing helps speed up routes and pressure mobile targets, but it should be backed by durability in hard habitats.",
-      "Spark is the first skill to evaluate because it defines how Zaprat starts a fight. The rest of the kit (Spark, Quick Attack, Thunder Wave, Discharge) should be judged by whether it helps the target habitat, not by damage numbers alone.",
+      "Spark and Quick Attack are what make Zaprat feel quick on repeat routes. Thunder Wave and Discharge matter when you need control over a fast clear, especially in Windmill Plains or electric-focused farming.",
       "The most relevant related routes to check are Best Habitat for Each Pokemon Type, Speed Run Route for Leveling, Thunder Arena Unlock and Strategy, Electric-Type Speed Demon Build. These pages show where Zaprat fits into team plans and farming loops."
     ],
     "team_tips": [
@@ -357,9 +357,9 @@
     "common_mistakes": [
       "Farming Zaprat in Windmill Plains without checking Morning and Windy.",
       "Using Cheese before learning the shortest route to the spawn check.",
-      "Building around rarity alone instead of asking whether Speedster helps your current team.",
+      "Using Zaprat on unstable routes where speed does not matter because the team cannot survive the opening fights.",
       "Ignoring drops like Thunder Stone, Lightning Rod when deciding if the farming loop is worth repeating.",
-      "Skipping related guides, which often explain where Zaprat performs best."
+      "Ignoring speed-route notes and letting optional fights erase the time Zaprat was supposed to save."
     ],
     "faqs": [
       {
@@ -406,7 +406,7 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Leafon",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Leafon is a rare Grass/Poison Pokemon with the Assassin specialty. It is found in Forest Valley, usually during Night conditions with Foggy weather. A rare grass-type with toxic abilities. Stealthy hunter. Because it is rare, do not chase it blindly. Learn the habitat route first, then farm it during the correct time and weather window.",
+    "overview": "Leafon is a rare Grass/Poison assassin from Forest Valley, tied to Night and Foggy conditions. It is a focused hunting target rather than a general beginner pickup: strong when the route is short, wasteful when you are still learning the forest. Prepare Mystery Mushroom only after the rare-check loop is repeatable.",
     "how_to_get": [
       "Go to Forest Valley (Starting Habitat).",
       "Check the spawn window first: Leafon is listed for Night and Foggy weather.",
@@ -417,7 +417,7 @@
     "best_use": [
       "Use it for targeted burst, rare checks, or control routes. It works best when you know which encounter needs to be removed quickly.",
       "Grass typing is valuable for beginner stability, sustain, and control. It is often better for repeatable farming than pure burst.",
-      "Poison Powder is the first skill to evaluate because it defines how Leafon starts a fight. The rest of the kit (Poison Powder, Sludge Bomb, Razor Leaf, Toxic) should be judged by whether it helps the target habitat, not by damage numbers alone.",
+      "Poison Powder and Toxic give Leafon its control identity, while Sludge Bomb and Razor Leaf decide whether it can finish the target quickly enough. It works best when the fight is planned, not improvised.",
       "The most relevant related routes to check are Poison-Type Team Analysis, Nightmare Forest Horror Stories. These pages show where Leafon fits into team plans and farming loops."
     ],
     "team_tips": [
@@ -435,9 +435,9 @@
     "common_mistakes": [
       "Farming Leafon in Forest Valley without checking Night and Foggy.",
       "Using Mystery Mushroom before learning the shortest route to the spawn check.",
-      "Building around rarity alone instead of asking whether Assassin helps your current team.",
+      "Chasing Leafon during the wrong weather window because the page says rare and the route looks easy.",
       "Ignoring drops like Poison Stone, Leaf Stone when deciding if the farming loop is worth repeating.",
-      "Skipping related guides, which often explain where Leafon performs best."
+      "Ignoring poison-team context and using Leafon without a plan for longer fights."
     ],
     "faqs": [
       {
@@ -495,7 +495,7 @@
     "best_use": [
       "Use it in hard habitats and boss routes where survival matters more than speed. Add a damage recipe or attacker so fights do not drag too long.",
       "Fire typing is useful for aggressive clears and routes where damage windows matter. Watch for fights that punish fragile attackers.",
-      "Flame Body is the first skill to evaluate because it defines how Flamexor starts a fight. The rest of the kit (Flame Body, Iron Defense, Fire Blast, Stealth Rock) should be judged by whether it helps the target habitat, not by damage numbers alone.",
+      "Flame Body and Iron Defense are what make Flamexor valuable in hard rooms; Fire Blast is the pressure tool, and Stealth Rock helps when the route has repeated heavy checks. Build around survival first, then add damage.",
       "The most relevant related routes to check are How to Unlock Volcanic Cave, Best Fire-Type Team Build, How to Get Legendary Pokemon, Complete Recipe List and Effects. These pages show where Flamexor fits into team plans and farming loops."
     ],
     "team_tips": [
@@ -513,9 +513,9 @@
     "common_mistakes": [
       "Farming Flamexor in Volcanic Cave without checking Night and Clear.",
       "Using Iron Ore before learning the shortest route to the spawn check.",
-      "Building around rarity alone instead of asking whether Tank helps your current team.",
+      "Treating Flamexor like a pure damage legend instead of using it as the durable anchor for dangerous cave rooms.",
       "Ignoring drops like Fire Stone, Metal Coat, Legendary Scale when deciding if the farming loop is worth repeating.",
-      "Skipping related guides, which often explain where Flamexor performs best."
+      "Skipping legendary-route planning and wasting a Night / Clear window on an untested path."
     ],
     "faqs": [
       {
@@ -562,7 +562,7 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Tidlet",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Tidlet is a common Normal Pokemon with the Support specialty. It is found in Frost Peak, usually during Day conditions with Snow weather. A small cute creature. Found in snowy regions. Because it is common, the main value is consistency. Build it early if it helps you farm without spending rare resources.",
+    "overview": "Tidlet is a common Normal support Pokemon found on Frost Peak during Day and Snow conditions. Its value is not rarity; it is the ability to make an icy route less punishing while you learn the safe path. Use it when Frost Peak attempts are failing through chip damage, awkward timing, or weak backup planning.",
     "how_to_get": [
       "Go to Frost Peak (Reach Level 20).",
       "Check the spawn window first: Tidlet is listed for Day and Snow weather.",
@@ -573,7 +573,7 @@
     "best_use": [
       "Use it to make longer routes safer. Support Pokemon are best when they protect a stronger damage dealer or keep farming loops consistent.",
       "This typing is best judged by route matchup, habitat weather, and the role your team still needs.",
-      "Growl is the first skill to evaluate because it defines how Tidlet starts a fight. The rest of the kit (Growl, Tackle, Play Nice, Swagger) should be judged by whether it helps the target habitat, not by damage numbers alone.",
+      "Growl and Play Nice are the important parts of Tidlet's kit because they buy time for safer clears. Tackle and Swagger are secondary tools, useful only when they help the Frost Peak loop stay controlled.",
       "The most relevant related routes to check are Frost Peak Exploration Guide, Best Defense Team Build, Beginner's Guide to Training Grounds. These pages show where Tidlet fits into team plans and farming loops."
     ],
     "team_tips": [
@@ -591,9 +591,9 @@
     "common_mistakes": [
       "Farming Tidlet in Frost Peak without checking Day and Snow.",
       "Using Any Food before learning the shortest route to the spawn check.",
-      "Building around rarity alone instead of asking whether Support helps your current team.",
+      "Ignoring Tidlet because it is common, even when the team keeps failing Frost Peak through small mistakes.",
       "Ignoring drops like Fur, Cloth when deciding if the farming loop is worth repeating.",
-      "Skipping related guides, which often explain where Tidlet performs best."
+      "Using Tidlet without a clear route problem to solve, which makes the support slot feel weaker than it is."
     ],
     "faqs": [
       {
@@ -640,7 +640,7 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Shados",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Shados is a rare Ghost Pokemon with the Assassin specialty. It is found in Shadow Marsh, usually during Night conditions with Stormy weather. A ghostly shadow Pokemon. Appears only in dark places. Because it is rare, do not chase it blindly. Learn the habitat route first, then farm it during the correct time and weather window.",
+    "overview": "Shados is a rare Ghost assassin from Shadow Marsh, tied to Night and Stormy conditions. It rewards tight route planning because the useful check window is narrow and the habitat can punish sloppy resets. Save Soul Dust for attempts where the marsh path and weather are already lined up.",
     "how_to_get": [
       "Go to Shadow Marsh (Reach Level 25).",
       "Check the spawn window first: Shados is listed for Night and Stormy weather.",
@@ -651,7 +651,7 @@
     "best_use": [
       "Use it for targeted burst, rare checks, or control routes. It works best when you know which encounter needs to be removed quickly.",
       "Ghost typing shines in late-game hunting and special route checks. Timing and weather matter more than raw stats.",
-      "Shadow Ball is the first skill to evaluate because it defines how Shados starts a fight. The rest of the kit (Shadow Ball, Lick, Astonish, Night Shade) should be judged by whether it helps the target habitat, not by damage numbers alone.",
+      "Shadow Ball is the main pressure tool, while Lick, Astonish, and Night Shade help Shados control specific ghost-route fights. The kit is strongest when you know which encounter needs to be removed quickly.",
       "The most relevant related routes to check are Fast Farming Guide for Rare Pokemon, Shadow Marsh Complete Guide, Best Habitat for Each Pokemon Type, Ghost-Type Hunting Secrets. These pages show where Shados fits into team plans and farming loops."
     ],
     "team_tips": [
@@ -669,9 +669,9 @@
     "common_mistakes": [
       "Farming Shados in Shadow Marsh without checking Night and Stormy.",
       "Using Soul Dust before learning the shortest route to the spawn check.",
-      "Building around rarity alone instead of asking whether Assassin helps your current team.",
+      "Entering Shadow Marsh for Shados before the team can handle ordinary marsh encounters reliably.",
       "Ignoring drops like Ghost Stone, Soul Dust when deciding if the farming loop is worth repeating.",
-      "Skipping related guides, which often explain where Shados performs best."
+      "Skipping ghost-hunting notes and wasting Soul Dust on a route that still has too many failed openings."
     ],
     "faqs": [
       {
@@ -718,7 +718,7 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Mechabit",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Mechabit is an uncommon Electric/Steel Pokemon with the Defender specialty. It is found in Windmill Plains, usually during Any conditions with Thunderstorm weather. A robotic electric Pokemon. Created by ancient engineers. Because it is uncommon, it is usually worth testing once your starter route is stable and you need a more specialized role.",
+    "overview": "Mechabit is an uncommon Electric/Steel defender found in Windmill Plains during Thunderstorm weather. It is the slower, steadier answer for electric routes that punish fragile speed picks. Use it when Zaprat-style tempo is not enough and the team needs a front slot that can keep the loop intact.",
     "how_to_get": [
       "Go to Windmill Plains (Reach Level 10).",
       "Check the spawn window first: Mechabit is listed for Any and Thunderstorm weather.",
@@ -729,7 +729,7 @@
     "best_use": [
       "Use it as the front-line stabilizer. It is strongest when the rest of the team supplies damage or capture utility.",
       "Electric typing helps speed up routes and pressure mobile targets, but it should be backed by durability in hard habitats.",
-      "Lock-On is the first skill to evaluate because it defines how Mechabit starts a fight. The rest of the kit (Lock-On, Zap Cannon, Flash Cannon, Protect) should be judged by whether it helps the target habitat, not by damage numbers alone.",
+      "Lock-On and Zap Cannon give Mechabit a deliberate rhythm, while Flash Cannon and Protect make it useful when fights drag. It should make electric routes safer first and faster second.",
       "The most relevant related routes to check are Best Defense Team Build, Electric-Type Speed Demon Build, Steel-Type Hard-Core Build Guide. These pages show where Mechabit fits into team plans and farming loops."
     ],
     "team_tips": [
@@ -747,9 +747,9 @@
     "common_mistakes": [
       "Farming Mechabit in Windmill Plains without checking Any and Thunderstorm.",
       "Using Battery before learning the shortest route to the spawn check.",
-      "Building around rarity alone instead of asking whether Defender helps your current team.",
+      "Using Mechabit only because it looks sturdier, without checking whether the route actually needs a defender.",
       "Ignoring drops like Metal Coat, Piston when deciding if the farming loop is worth repeating.",
-      "Skipping related guides, which often explain where Mechabit performs best."
+      "Ignoring electric and steel build notes, then pairing Mechabit with teammates that duplicate its job."
     ],
     "faqs": [
       {

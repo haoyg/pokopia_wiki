@@ -34,9 +34,9 @@
       "Speed Potion can outperform Honey Cake on long routes where movement time is the main bottleneck."
     ],
     "common_mistakes": [
-      "Using Honey Cake before checking whether the rare spawn is active in the current habitat state.",
+      "Using Honey Cake because a route feels lucky, without first checking whether the target spawn is active.",
       "Turning a short farming loop into a full clear and wasting most of the recipe duration.",
-      "Crafting several cakes at once before knowing whether the route actually produces useful results."
+      "Crafting several cakes at once before one test session proves the route is worth repeating."
     ],
     "faqs": [
       {
@@ -95,9 +95,9 @@
       "Steel Shell fits routes where the fight is dangerous because of heavy incoming hits rather than low outgoing damage."
     ],
     "common_mistakes": [
-      "Activating Fire Boost at the habitat entrance and spending the strongest part of the buff on travel.",
+      "Activating Fire Boost at the habitat entrance and spending the best part of the buff walking to the fight.",
       "Using it to fix a route that is failing because of defense or healing problems.",
-      "Crafting it for every fire habitat visit instead of saving it for real damage checks."
+      "Crafting it for every fire habitat visit instead of saving it for boss rooms, elite checks, or short damage tests."
     ],
     "faqs": [
       {
@@ -156,8 +156,8 @@
       "Grass Heal is safer for relaxed daily farming where mistakes are more common than long travel time."
     ],
     "common_mistakes": [
-      "Using Speed Potion before learning the route and losing the benefit to indecision.",
-      "Stopping for side materials that are not part of the planned loop.",
+      "Using Speed Potion before learning the route and losing most of the benefit while deciding where to go.",
+      "Stopping for side materials that were never part of the planned loop.",
       "Crafting it for boss fights where damage or defense would matter more."
     ],
     "faqs": [
@@ -217,8 +217,8 @@
       "Grass Heal is cheaper for daily routes that only need light sustain."
     ],
     "common_mistakes": [
-      "Using Guardian Stew when the team actually lacks damage and the fight simply lasts too long.",
-      "Saving it until the run is already unstable instead of using it before the dangerous section.",
+      "Using Guardian Stew when the team actually lacks damage and the fight is only dangerous because it lasts too long.",
+      "Saving it until the run is already unstable instead of using it before the section that usually causes the failure.",
       "Spending rare ingredients on easy habitats that do not need defensive support."
     ],
     "faqs": [
@@ -278,8 +278,8 @@
       "Mega Restore is better when the rare target route is dangerous enough to risk losing the whole attempt."
     ],
     "common_mistakes": [
-      "Using Lucky Charm on a route that has not been practiced.",
-      "Chasing several unrelated targets during one buff window.",
+      "Using Lucky Charm on a route that has not been practiced just because the target is rare.",
+      "Chasing several unrelated targets during one buff window and reducing serious attempts on the main target.",
       "Assuming the charm guarantees a result and burning all rare ingredients in one session."
     ],
     "faqs": [

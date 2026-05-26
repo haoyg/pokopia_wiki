@@ -94,7 +94,7 @@
     "image_alt": "Pokémon Pokopia habitat screenshot: Forest Valley",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Forest Valley is the starting habitat and one of the best places to build early consistency. Cloudy/Foggy weather supports grass routes, +30% Leaf drops help starter growth, and the spawn list gives new players useful defenders, supports, and farming targets without heavy recipe costs.",
+    "overview": "Forest Valley is the starting habitat and one of the best places to build early consistency. Cloudy/Foggy weather supports grass routes, +30% Leaf drops help starter growth, and the spawn list gives new players useful defenders, supports, and farming targets without heavy recipe costs. Use it to learn short loops before spending Honey Cake on Leafon or Magicalure attempts.",
     "unlock_steps": [
       "Meet the unlock condition: Starting Habitat.",
       "Check the expected weather before entering: Cloudy/Foggy.",
@@ -113,7 +113,7 @@
       "Enter Forest Valley with one objective: unlock clear, resource farming, rare hunting, or team testing.",
       "Run the shortest loop that includes the main spawn group: Bulbin, Leafon, Thornvine, and Sunflora.",
       "Track +30% Leaf drops during the first few clears. If the bonus is not helping your current build, switch to a more relevant habitat.",
-      "Use Fire Boost only after the loop is stable. Its effect (+30% Fire damage) is most valuable when you can use the full duration.",
+      "Use Honey Cake only after the loop is stable and you are making focused capture or rare-check attempts.",
       "Reset quickly after the important spawn check instead of clearing every branch, unless you also need general resources."
     ],
     "rare_spawns": [
@@ -128,7 +128,7 @@
     ],
     "common_mistakes": [
       "Entering Forest Valley without checking Cloudy/Foggy weather first.",
-      "Using Fire Boost before learning the route path and spawn check locations.",
+      "Using Honey Cake before learning the route path and spawn check locations.",
       "Trying to farm Leafon and Magicalure before normal encounters are consistent.",
       "Ignoring +30% Leaf drops and repeating the route even when it does not support your current build.",
       "Skipping related Pokemon pages, especially food and drop notes for Bulbin, Leafon, and Thornvine."
@@ -148,14 +148,14 @@
       },
       {
         "question": "What is the best recipe for Forest Valley?",
-        "answer": "Fire Boost is the safest first recipe to consider because it gives +30% Fire damage. Use it after the route is stable, not on your first scouting run."
+        "answer": "Honey Cake is the first recipe to consider for focused capture attempts, while Grass Heal is safer for relaxed daily farming. Use either after the route is stable, not on the first scouting run."
       },
       {
         "question": "Is Forest Valley worth farming?",
         "answer": "Forest Valley is worth farming when you need +30% Leaf drops or one of its key Pokemon such as Bulbin, Leafon, and Thornvine. If neither helps your current build, farm a more relevant habitat first."
       }
     ],
-    "recommended_recipe": "rec002",
+    "recommended_recipe": "rec001",
     "updated_at": "2026-05-23",
     "data_status": "Editorial habitat guide",
     "data_status_note": "This habitat page is an editorial route guide built from site database entries and public materials. Unlocks, spawns, and farming routes should be rechecked after patches.",
@@ -175,7 +175,7 @@
     "image_alt": "Pokémon Pokopia habitat screenshot: Crystal Lake",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Crystal Lake is an easy Pokopia habitat unlocked by: Reach Level 5. The area runs around Rain weather and gives +40% Water drops. This is a good route for early farming, testing new team members, and collecting resources without heavy recipe spending. Key Pokemon to watch here include Aquap, Dewdrop, and Aquashell.",
+    "overview": "Crystal Lake opens at Level 5 and is one of the cleanest early farming routes. Rain weather and +40% Water drops make it useful for building Aquap, Dewdrop, and Aquashell without heavy recipe spending. Use the lake to test support slots, learn water-route timing, and gather resources before moving into harder midgame habitats.",
     "unlock_steps": [
       "Meet the unlock condition: Reach Level 5.",
       "Check the expected weather before entering: Rain.",
@@ -255,7 +255,7 @@
     "image_alt": "Pokémon Pokopia habitat screenshot: Windmill Plains",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Windmill Plains is a medium Pokopia habitat unlocked by: Reach Level 10. The area runs around Windy weather and gives +25% Electric drops. This area is best treated as a transition route. It rewards better planning than starter habitats but does not require a full endgame team. Key Pokemon to watch here include Zaprat, Mechabit, Voltscale, Magnedex, and Zapbug.",
+    "overview": "Windmill Plains opens at Level 10 and works best as a transition route between starter farming and more demanding electric checks. Windy weather, +25% Electric drops, and spawns such as Zaprat, Mechabit, Voltscale, Magnedex, and Zapbug reward cleaner pathing more than raw level. Bring one fast lead, one safer backup, and avoid turning every run into a full clear.",
     "unlock_steps": [
       "Meet the unlock condition: Reach Level 10.",
       "Check the expected weather before entering: Windy.",
@@ -335,7 +335,7 @@
     "image_alt": "Pokémon Pokopia habitat screenshot: Frost Peak",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Frost Peak is a medium Pokopia habitat unlocked by: Reach Level 20. The area runs around Snow weather and gives +35% Ice drops. This area is best treated as a transition route. It rewards better planning than starter habitats but does not require a full endgame team. Key Pokemon to watch here include Tidlet, Glacior, Frostbite, and Snorizard.",
+    "overview": "Frost Peak opens at Level 20 and is the first ice route where defensive planning starts to matter. Snow weather and +35% Ice drops make it valuable for Tidlet, Glacior, Frostbite, and Snorizard, but the route rewards patience more than brute force. Treat the first clears as mapping runs, then use Ice Armor when the path to your target is repeatable.",
     "unlock_steps": [
       "Meet the unlock condition: Reach Level 20.",
       "Check the expected weather before entering: Snow.",
@@ -354,7 +354,7 @@
       "Enter Frost Peak with one objective: unlock clear, resource farming, rare hunting, or team testing.",
       "Run the shortest loop that includes the main spawn group: Tidlet, Glacior, Frostbite, and Snorizard.",
       "Track +35% Ice drops during the first few clears. If the bonus is not helping your current build, switch to a more relevant habitat.",
-      "Use Ghost Veil only after the loop is stable. Its effect (+45% ghost damage) is most valuable when you can use the full duration.",
+      "Use Ice Armor only after the loop is stable. Its effect (+50% ice resistance) is most valuable when you can use the full duration.",
       "Reset quickly after the important spawn check instead of clearing every branch, unless you also need general resources."
     ],
     "rare_spawns": [
@@ -369,7 +369,7 @@
     ],
     "common_mistakes": [
       "Entering Frost Peak without checking Snow weather first.",
-      "Using Ghost Veil before learning the route path and spawn check locations.",
+      "Using Ice Armor before learning the route path and spawn check locations.",
       "Trying to farm Frostbite and Snorizard before normal encounters are consistent.",
       "Ignoring +35% Ice drops and repeating the route even when it does not support your current build.",
       "Skipping related Pokemon pages, especially food and drop notes for Tidlet, Glacior, and Frostbite."
@@ -389,14 +389,14 @@
       },
       {
         "question": "What is the best recipe for Frost Peak?",
-        "answer": "Ghost Veil is the safest first recipe to consider because it gives +45% ghost damage. Use it after the route is stable, not on your first scouting run."
+        "answer": "Ice Armor is the safest first recipe to consider because it gives +50% ice resistance. Use it after the route is stable, not on your first scouting run."
       },
       {
         "question": "Is Frost Peak worth farming?",
         "answer": "Frost Peak is worth farming when you need +35% Ice drops or one of its key Pokemon such as Tidlet, Glacior, and Frostbite. If neither helps your current build, farm a more relevant habitat first."
       }
     ],
-    "recommended_recipe": "rec010",
+    "recommended_recipe": "rec008",
     "updated_at": "2026-05-23",
     "data_status": "Editorial habitat guide",
     "data_status_note": "This habitat page is an editorial route guide built from site database entries and public materials. Unlocks, spawns, and farming routes should be rechecked after patches.",
