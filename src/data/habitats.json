@@ -30,8 +30,8 @@
     "farming_route": [
       "Enter Volcanic Cave with one objective: unlock clear, resource farming, rare hunting, or team testing.",
       "Run the shortest loop that includes the main spawn group: Pikafire, Charmuddy, Flamexor, and Emberal.",
-      "Track +50% Fire drops during the first few clears. If the bonus is not helping your current build, switch to a more relevant habitat.",
-      "Use Fire Boost only after the loop is stable. Its effect (+30% Fire damage) is most valuable when you can use the full duration.",
+      "Track +50% Fire drops during the first clears. Stay only if that bonus feeds your current upgrades or recipe plan.",
+      "Use Fire Boost after the loop is stable, when +30% Fire damage can cover the full section of the route that matters.",
       "Reset quickly after the important spawn check instead of clearing every branch, unless you also need general resources."
     ],
     "rare_spawns": [
@@ -71,11 +71,11 @@
       },
       {
         "question": "Is Volcanic Cave worth farming?",
-        "answer": "Volcanic Cave is worth farming when you need +50% Fire drops or one of its key Pokemon such as Pikafire, Charmuddy, and Flamexor. If neither helps your current build, farm a more relevant habitat first."
+        "answer": "Volcanic Cave is worth farming when +50% Fire drops supports your next upgrade or when you are targeting Pikafire, Charmuddy, and Flamexor. If both goals are weak, spend the session on a habitat with better immediate payoff."
       }
     ],
     "recommended_recipe": "rec002",
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-05-26",
     "data_status": "Editorial habitat guide",
     "data_status_note": "This habitat page is an editorial route guide built from site database entries and public materials. Unlocks, spawns, and farming routes should be rechecked after patches.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
@@ -112,7 +112,7 @@
     "farming_route": [
       "Enter Forest Valley with one objective: unlock clear, resource farming, rare hunting, or team testing.",
       "Run the shortest loop that includes the main spawn group: Bulbin, Leafon, Thornvine, and Sunflora.",
-      "Track +30% Leaf drops during the first few clears. If the bonus is not helping your current build, switch to a more relevant habitat.",
+      "Use the first few clears to measure whether +30% Leaf drops is actually useful; if it is not, change objectives before the run becomes busywork.",
       "Use Honey Cake only after the loop is stable and you are making focused capture or rare-check attempts.",
       "Reset quickly after the important spawn check instead of clearing every branch, unless you also need general resources."
     ],
@@ -152,11 +152,11 @@
       },
       {
         "question": "Is Forest Valley worth farming?",
-        "answer": "Forest Valley is worth farming when you need +30% Leaf drops or one of its key Pokemon such as Bulbin, Leafon, and Thornvine. If neither helps your current build, farm a more relevant habitat first."
+        "answer": "Farm Forest Valley for +30% Leaf drops or for focused checks on Bulbin, Leafon, and Thornvine. Skip it for now if your team needs a different material path."
       }
     ],
     "recommended_recipe": "rec001",
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-05-26",
     "data_status": "Editorial habitat guide",
     "data_status_note": "This habitat page is an editorial route guide built from site database entries and public materials. Unlocks, spawns, and farming routes should be rechecked after patches.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
@@ -193,8 +193,8 @@
     "farming_route": [
       "Enter Crystal Lake with one objective: unlock clear, resource farming, rare hunting, or team testing.",
       "Run the shortest loop that includes the main spawn group: Aquap, Dewdrop, and Aquashell.",
-      "Track +40% Water drops during the first few clears. If the bonus is not helping your current build, switch to a more relevant habitat.",
-      "Use Water Shield only after the loop is stable. Its effect (+35% water resistance) is most valuable when you can use the full duration.",
+      "+40% Water drops is the reason to repeat this habitat, so compare the materials gained against the team you are building.",
+      "Water Shield is best once the main checks are reachable on demand, not during the first exploratory clear.",
       "Reset quickly after the important spawn check instead of clearing every branch, unless you also need general resources."
     ],
     "rare_spawns": [
@@ -232,7 +232,7 @@
       },
       {
         "question": "Is Crystal Lake worth farming?",
-        "answer": "Crystal Lake is worth farming when you need +40% Water drops or one of its key Pokemon such as Aquap, Dewdrop, and Aquashell. If neither helps your current build, farm a more relevant habitat first."
+        "answer": "Crystal Lake makes sense when the reward log points toward +40% Water drops and the spawn list includes a Pokemon you actively need, such as Aquap, Dewdrop, and Aquashell."
       }
     ],
     "recommended_recipe": "rec006",
@@ -273,8 +273,8 @@
     "farming_route": [
       "Enter Windmill Plains with one objective: unlock clear, resource farming, rare hunting, or team testing.",
       "Run the shortest loop that includes the main spawn group: Zaprat, Mechabit, Voltscale, and Magnedex.",
-      "Track +25% Electric drops during the first few clears. If the bonus is not helping your current build, switch to a more relevant habitat.",
-      "Use Thunder Strike only after the loop is stable. Its effect (+40% electric damage) is most valuable when you can use the full duration.",
+      "After two or three clears, judge +25% Electric drops by results: if the bonus is not solving a real need, move the farm elsewhere.",
+      "Bring Thunder Strike only when the next run has a defined target and the route is already consistent.",
       "Reset quickly after the important spawn check instead of clearing every branch, unless you also need general resources."
     ],
     "rare_spawns": [
@@ -312,11 +312,11 @@
       },
       {
         "question": "Is Windmill Plains worth farming?",
-        "answer": "Windmill Plains is worth farming when you need +25% Electric drops or one of its key Pokemon such as Zaprat, Mechabit, and Voltscale. If neither helps your current build, farm a more relevant habitat first."
+        "answer": "Use Windmill Plains as a focused farm, not a default stop. It is strongest when +25% Electric drops and targets like Zaprat, Mechabit, and Voltscale match your current build plan."
       }
     ],
     "recommended_recipe": "rec007",
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-05-26",
     "data_status": "Editorial habitat guide",
     "data_status_note": "This habitat page is an editorial route guide built from site database entries and public materials. Unlocks, spawns, and farming routes should be rechecked after patches.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
@@ -353,8 +353,8 @@
     "farming_route": [
       "Enter Frost Peak with one objective: unlock clear, resource farming, rare hunting, or team testing.",
       "Run the shortest loop that includes the main spawn group: Tidlet, Glacior, Frostbite, and Snorizard.",
-      "Track +35% Ice drops during the first few clears. If the bonus is not helping your current build, switch to a more relevant habitat.",
-      "Use Ice Armor only after the loop is stable. Its effect (+50% ice resistance) is most valuable when you can use the full duration.",
+      "Do not farm the area only because it is unlocked. +35% Ice drops should support a Pokemon upgrade, recipe, or route goal.",
+      "Treat Ice Armor as a consistency tool, not an unlock shortcut; map the habitat first, then spend it.",
       "Reset quickly after the important spawn check instead of clearing every branch, unless you also need general resources."
     ],
     "rare_spawns": [
@@ -393,11 +393,11 @@
       },
       {
         "question": "Is Frost Peak worth farming?",
-        "answer": "Frost Peak is worth farming when you need +35% Ice drops or one of its key Pokemon such as Tidlet, Glacior, and Frostbite. If neither helps your current build, farm a more relevant habitat first."
+        "answer": "Frost Peak is a good repeat route if you need +35% Ice drops or one of Tidlet, Glacior, and Frostbite. Otherwise, clear it once and move to the habitat tied to your current recipe or team gap."
       }
     ],
     "recommended_recipe": "rec008",
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-05-26",
     "data_status": "Editorial habitat guide",
     "data_status_note": "This habitat page is an editorial route guide built from site database entries and public materials. Unlocks, spawns, and farming routes should be rechecked after patches.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
@@ -434,8 +434,8 @@
     "farming_route": [
       "Enter Shadow Marsh with one objective: unlock clear, resource farming, rare hunting, or team testing.",
       "Run the shortest loop that includes the main spawn group: Shados, Shadowclaw, Lunaflare, and Nightfall.",
-      "Track +60% Ghost drops during the first few clears. If the bonus is not helping your current build, switch to a more relevant habitat.",
-      "Use Ghost Veil only after the loop is stable. Its effect (+45% ghost damage) is most valuable when you can reach the key marsh checks quickly.",
+      "Check the reward log early. +60% Ghost drops is valuable only when those resources are part of the build you are pushing next.",
+      "Use Ghost Veil after the loop is stable, when +45% ghost damage can cover the full section of the route that matters.",
       "Reset quickly after the important spawn check instead of clearing every branch, unless you also need general resources."
     ],
     "rare_spawns": [
@@ -475,11 +475,11 @@
       },
       {
         "question": "Is Shadow Marsh worth farming?",
-        "answer": "Shadow Marsh is worth farming when you need +60% Ghost drops or one of its key Pokemon such as Shados, Shadowclaw, and Lunaflare. If neither helps your current build, farm a more relevant habitat first."
+        "answer": "Shadow Marsh is worth farming when +60% Ghost drops supports your next upgrade or when you are targeting Shados, Shadowclaw, and Lunaflare. If both goals are weak, spend the session on a habitat with better immediate payoff."
       }
     ],
     "recommended_recipe": "rec010",
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-05-26",
     "data_status": "Editorial habitat guide",
     "data_status_note": "This habitat page is an editorial route guide built from site database entries and public materials. Unlocks, spawns, and farming routes should be rechecked after patches.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
@@ -516,8 +516,8 @@
     "farming_route": [
       "Enter Gemstone Canyon with one objective: unlock clear, resource farming, rare hunting, or team testing.",
       "Run the shortest loop that includes the main spawn group: Rockler, Crystion, and Galebender.",
-      "Track +50% Stone drops during the first few clears. If the bonus is not helping your current build, switch to a more relevant habitat.",
-      "Use Muddy Swirl only after the loop is stable. Its effect (+25% ground damage) is most valuable when you can use the full duration.",
+      "Track +50% Stone drops during the first clears. Stay only if that bonus feeds your current upgrades or recipe plan.",
+      "Save Muddy Swirl for repeat attempts; spending it while you are still learning the path usually hides routing mistakes.",
       "Reset quickly after the important spawn check instead of clearing every branch, unless you also need general resources."
     ],
     "rare_spawns": [
@@ -556,11 +556,11 @@
       },
       {
         "question": "Is Gemstone Canyon worth farming?",
-        "answer": "Gemstone Canyon is worth farming when you need +50% Stone drops or one of its key Pokemon such as Rockler, Crystion, and Galebender. If neither helps your current build, farm a more relevant habitat first."
+        "answer": "Farm Gemstone Canyon for +50% Stone drops or for focused checks on Rockler, Crystion, and Galebender. Skip it for now if your team needs a different material path."
       }
     ],
     "recommended_recipe": "rec014",
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-05-26",
     "data_status": "Editorial habitat guide",
     "data_status_note": "This habitat page is an editorial route guide built from site database entries and public materials. Unlocks, spawns, and farming routes should be rechecked after patches.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
@@ -597,8 +597,8 @@
     "farming_route": [
       "Enter Sky Isles with one objective: unlock clear, resource farming, rare hunting, or team testing.",
       "Run the shortest loop that includes the main spawn group: Breezel, Flamingo, Tropius, and Crystalwing.",
-      "Track +40% Feather drops during the first few clears. If the bonus is not helping your current build, switch to a more relevant habitat.",
-      "Use Flying High only after the loop is stable. Its effect (+30% flying damage) is most valuable when you can use the full duration on repeated aerial checks.",
+      "Use the first few clears to measure whether +40% Feather drops is actually useful; if it is not, change objectives before the run becomes busywork.",
+      "Flying High is best once the main checks are reachable on demand, not during the first exploratory clear.",
       "Reset quickly after the important spawn check instead of clearing every branch, unless you also need general resources."
     ],
     "rare_spawns": [
@@ -636,11 +636,11 @@
       },
       {
         "question": "Is Sky Isles worth farming?",
-        "answer": "Sky Isles is worth farming when you need +40% Feather drops or one of its key Pokemon such as Breezel, Flamingo, and Tropius. If neither helps your current build, farm a more relevant habitat first."
+        "answer": "Sky Isles makes sense when the reward log points toward +40% Feather drops and the spawn list includes a Pokemon you actively need, such as Breezel, Flamingo, and Tropius."
       }
     ],
     "recommended_recipe": "rec013",
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-05-26",
     "data_status": "Editorial habitat guide",
     "data_status_note": "This habitat page is an editorial route guide built from site database entries and public materials. Unlocks, spawns, and farming routes should be rechecked after patches.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
@@ -677,8 +677,8 @@
     "farming_route": [
       "Enter Muddy River with one objective: unlock clear, resource farming, rare hunting, or team testing.",
       "Run the shortest loop that includes the main spawn group: Mudkipz, Stealthfin, Toxifin, and Primordion.",
-      "Track +35% Mud drops during the first few clears. If the bonus is not helping your current build, switch to a more relevant habitat.",
-      "Use Water Shield only after the loop is stable. Its effect (+35% water resistance) is most valuable when you can use the full duration.",
+      "+35% Mud drops is the reason to repeat this habitat, so compare the materials gained against the team you are building.",
+      "Bring Water Shield only when the next run has a defined target and the route is already consistent.",
       "Reset quickly after the important spawn check instead of clearing every branch, unless you also need general resources."
     ],
     "rare_spawns": [
@@ -717,11 +717,11 @@
       },
       {
         "question": "Is Muddy River worth farming?",
-        "answer": "Muddy River is worth farming when you need +35% Mud drops or one of its key Pokemon such as Mudkipz, Stealthfin, and Toxifin. If neither helps your current build, farm a more relevant habitat first."
+        "answer": "Use Muddy River as a focused farm, not a default stop. It is strongest when +35% Mud drops and targets like Mudkipz, Stealthfin, and Toxifin match your current build plan."
       }
     ],
     "recommended_recipe": "rec006",
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-05-26",
     "data_status": "Editorial habitat guide",
     "data_status_note": "This habitat page is an editorial route guide built from site database entries and public materials. Unlocks, spawns, and farming routes should be rechecked after patches.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
@@ -758,8 +758,8 @@
     "farming_route": [
       "Enter Ancient Ruins with one objective: unlock clear, resource farming, rare hunting, or team testing.",
       "Run the shortest loop that includes the main spawn group: Bronzorm, Ironclaw, and Mysticat.",
-      "Track +45% Metal drops during the first few clears. If the bonus is not helping your current build, switch to a more relevant habitat.",
-      "Use Steel Shell only after the loop is stable. Its effect (+60% defense) is most valuable when you can use the full duration.",
+      "After two or three clears, judge +45% Metal drops by results: if the bonus is not solving a real need, move the farm elsewhere.",
+      "Treat Steel Shell as a consistency tool, not an unlock shortcut; map the habitat first, then spend it.",
       "Reset quickly after the important spawn check instead of clearing every branch, unless you also need general resources."
     ],
     "rare_spawns": [
@@ -798,7 +798,7 @@
       },
       {
         "question": "Is Ancient Ruins worth farming?",
-        "answer": "Ancient Ruins is worth farming when you need +45% Metal drops or one of its key Pokemon such as Bronzorm, Ironclaw, and Mysticat. If neither helps your current build, farm a more relevant habitat first."
+        "answer": "Ancient Ruins is a good repeat route if you need +45% Metal drops or one of Bronzorm, Ironclaw, and Mysticat. Otherwise, clear it once and move to the habitat tied to your current recipe or team gap."
       }
     ],
     "recommended_recipe": "rec012",
@@ -839,8 +839,8 @@
     "farming_route": [
       "Enter Sunny Beach with one objective: unlock clear, resource farming, rare hunting, or team testing.",
       "Run the shortest loop that includes the main spawn group: Aquap, Sunflora, and Dewdrop.",
-      "Track +30% Shell drops during the first few clears. If the bonus is not helping your current build, switch to a more relevant habitat.",
-      "Use Water Shield only after the loop is stable. Its effect (+35% water resistance) is most valuable when repeated water checks are slowing the route down.",
+      "Do not farm the area only because it is unlocked. +30% Shell drops should support a Pokemon upgrade, recipe, or route goal.",
+      "Use Water Shield after the loop is stable, when +35% water resistance can cover the full section of the route that matters.",
       "Reset quickly after the important spawn check instead of clearing every branch, unless you also need general resources."
     ],
     "rare_spawns": [
@@ -878,7 +878,7 @@
       },
       {
         "question": "Is Sunny Beach worth farming?",
-        "answer": "Sunny Beach is worth farming when you need +30% Shell drops or one of its key Pokemon such as Aquap, Sunflora, and Dewdrop. If neither helps your current build, farm a more relevant habitat first."
+        "answer": "Sunny Beach is worth farming when +30% Shell drops supports your next upgrade or when you are targeting Aquap, Sunflora, and Dewdrop. If both goals are weak, spend the session on a habitat with better immediate payoff."
       }
     ],
     "recommended_recipe": "rec006",
@@ -919,8 +919,8 @@
     "farming_route": [
       "Enter Thunder Arena with one objective: unlock clear, resource farming, rare hunting, or team testing.",
       "Run the shortest loop that includes the main spawn group: Zaprat, Voltscale, Magnedex, and Zapbug.",
-      "Track +55% Electric drops during the first few clears. If the bonus is not helping your current build, switch to a more relevant habitat.",
-      "Use Thunder Strike only after the loop is stable. Its effect (+40% electric damage) is most valuable when you can use the full duration.",
+      "Check the reward log early. +55% Electric drops is valuable only when those resources are part of the build you are pushing next.",
+      "Save Thunder Strike for repeat attempts; spending it while you are still learning the path usually hides routing mistakes.",
       "Reset quickly after the important spawn check instead of clearing every branch, unless you also need general resources."
     ],
     "rare_spawns": [
@@ -958,11 +958,11 @@
       },
       {
         "question": "Is Thunder Arena worth farming?",
-        "answer": "Thunder Arena is worth farming when you need +55% Electric drops or one of its key Pokemon such as Zaprat, Voltscale, and Magnedex. If neither helps your current build, farm a more relevant habitat first."
+        "answer": "Farm Thunder Arena for +55% Electric drops or for focused checks on Zaprat, Voltscale, and Magnedex. Skip it for now if your team needs a different material path."
       }
     ],
     "recommended_recipe": "rec007",
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-05-26",
     "data_status": "Editorial habitat guide",
     "data_status_note": "This habitat page is an editorial route guide built from site database entries and public materials. Unlocks, spawns, and farming routes should be rechecked after patches.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
@@ -999,8 +999,8 @@
     "farming_route": [
       "Enter Dark Cavern with one objective: unlock clear, resource farming, rare hunting, or team testing.",
       "Run the shortest loop that includes the main spawn group: Shadowclaw, Lunaflare, and Nightfall.",
-      "Track +65% Dark drops during the first few clears. If the bonus is not helping your current build, switch to a more relevant habitat.",
-      "Use Ghost Veil only after the loop is stable. Its effect (+45% ghost damage) is most valuable when the route reaches Shadowclaw and Lunaflare checks quickly.",
+      "Track +65% Dark drops during the first clears. Stay only if that bonus feeds your current upgrades or recipe plan.",
+      "Ghost Veil is best once the main checks are reachable on demand, not during the first exploratory clear.",
       "Reset quickly after the important spawn check instead of clearing every branch, unless you also need general resources."
     ],
     "rare_spawns": [
@@ -1039,7 +1039,7 @@
       },
       {
         "question": "Is Dark Cavern worth farming?",
-        "answer": "Dark Cavern is worth farming when you need +65% Dark drops or one of its key Pokemon such as Shadowclaw, Lunaflare, and Nightfall. If neither helps your current build, farm a more relevant habitat first."
+        "answer": "Dark Cavern makes sense when the reward log points toward +65% Dark drops and the spawn list includes a Pokemon you actively need, such as Shadowclaw, Lunaflare, and Nightfall."
       }
     ],
     "recommended_recipe": "rec010",
@@ -1080,8 +1080,8 @@
     "farming_route": [
       "Enter Crystal Cave with one objective: unlock clear, resource farming, rare hunting, or team testing.",
       "Run the shortest loop that includes the main spawn group: Crystion and Crystalwing.",
-      "Track +60% Crystal drops during the first few clears. If the bonus is not helping your current build, switch to a more relevant habitat.",
-      "Use Flying High only after the loop is stable. Its effect (+30% flying damage) is most valuable when you can use the full duration.",
+      "Use the first few clears to measure whether +60% Crystal drops is actually useful; if it is not, change objectives before the run becomes busywork.",
+      "Bring Flying High only when the next run has a defined target and the route is already consistent.",
       "Reset quickly after the important spawn check instead of clearing every branch, unless you also need general resources."
     ],
     "rare_spawns": [
@@ -1120,11 +1120,11 @@
       },
       {
         "question": "Is Crystal Cave worth farming?",
-        "answer": "Crystal Cave is worth farming when you need +60% Crystal drops or one of its key Pokemon such as Crystion and Crystalwing. If neither helps your current build, farm a more relevant habitat first."
+        "answer": "Use Crystal Cave as a focused farm, not a default stop. It is strongest when +60% Crystal drops and targets like Crystion and Crystalwing match your current build plan."
       }
     ],
     "recommended_recipe": "rec013",
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-05-26",
     "data_status": "Editorial habitat guide",
     "data_status_note": "This habitat page is an editorial route guide built from site database entries and public materials. Unlocks, spawns, and farming routes should be rechecked after patches.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
@@ -1161,8 +1161,8 @@
     "farming_route": [
       "Enter Meadow Garden with one objective: unlock clear, resource farming, rare hunting, or team testing.",
       "Run the shortest loop that includes the main spawn group: Bulbin, Thornvine, Mossling, and Treemendous.",
-      "Track +25% Herb drops during the first few clears. If the bonus is not helping your current build, switch to a more relevant habitat.",
-      "Use Grass Heal only after the loop is stable. Its effect (+30 HP restore) is most valuable when you can use the full duration.",
+      "+25% Herb drops is the reason to repeat this habitat, so compare the materials gained against the team you are building.",
+      "Treat Grass Heal as a consistency tool, not an unlock shortcut; map the habitat first, then spend it.",
       "Reset quickly after the important spawn check instead of clearing every branch, unless you also need general resources."
     ],
     "rare_spawns": [
@@ -1200,7 +1200,7 @@
       },
       {
         "question": "Is Meadow Garden worth farming?",
-        "answer": "Meadow Garden is worth farming when you need +25% Herb drops or one of its key Pokemon such as Bulbin, Thornvine, and Mossling. If neither helps your current build, farm a more relevant habitat first."
+        "answer": "Meadow Garden is a good repeat route if you need +25% Herb drops or one of Bulbin, Thornvine, and Mossling. Otherwise, clear it once and move to the habitat tied to your current recipe or team gap."
       }
     ],
     "recommended_recipe": "rec009",
@@ -1241,8 +1241,8 @@
     "farming_route": [
       "Enter Industrial Zone with one objective: unlock clear, resource farming, rare hunting, or team testing.",
       "Run the shortest loop that includes the main spawn group: Mechabit, Magnedex, and Ironclaw.",
-      "Track +40% Metal drops during the first few clears. If the bonus is not helping your current build, switch to a more relevant habitat.",
-      "Use Thunder Strike only after the loop is stable. Its effect (+40% electric damage) is most valuable when you can use the full duration.",
+      "After two or three clears, judge +40% Metal drops by results: if the bonus is not solving a real need, move the farm elsewhere.",
+      "Use Thunder Strike after the loop is stable, when +40% electric damage can cover the full section of the route that matters.",
       "Reset quickly after the important spawn check instead of clearing every branch, unless you also need general resources."
     ],
     "rare_spawns": [
@@ -1280,7 +1280,7 @@
       },
       {
         "question": "Is Industrial Zone worth farming?",
-        "answer": "Industrial Zone is worth farming when you need +40% Metal drops or one of its key Pokemon such as Mechabit, Magnedex, and Ironclaw. If neither helps your current build, farm a more relevant habitat first."
+        "answer": "Industrial Zone is worth farming when +40% Metal drops supports your next upgrade or when you are targeting Mechabit, Magnedex, and Ironclaw. If both goals are weak, spend the session on a habitat with better immediate payoff."
       }
     ],
     "recommended_recipe": "rec007",
@@ -1321,8 +1321,8 @@
     "farming_route": [
       "Enter Nightmare Forest with one objective: unlock clear, resource farming, rare hunting, or team testing.",
       "Run the shortest loop that includes the main spawn group: Leafon, Frostbite, and Magicalure.",
-      "Track +55% Poison drops during the first few clears. If the bonus is not helping your current build, switch to a more relevant habitat.",
-      "Use Ghost Veil only after the loop is stable. Its effect (+45% ghost damage) is most valuable when you can use the full duration.",
+      "Do not farm the area only because it is unlocked. +55% Poison drops should support a Pokemon upgrade, recipe, or route goal.",
+      "Save Ghost Veil for repeat attempts; spending it while you are still learning the path usually hides routing mistakes.",
       "Reset quickly after the important spawn check instead of clearing every branch, unless you also need general resources."
     ],
     "rare_spawns": [
@@ -1362,11 +1362,11 @@
       },
       {
         "question": "Is Nightmare Forest worth farming?",
-        "answer": "Nightmare Forest is worth farming when you need +55% Poison drops or one of its key Pokemon such as Leafon, Frostbite, and Magicalure. If neither helps your current build, farm a more relevant habitat first."
+        "answer": "Farm Nightmare Forest for +55% Poison drops or for focused checks on Leafon, Frostbite, and Magicalure. Skip it for now if your team needs a different material path."
       }
     ],
     "recommended_recipe": "rec010",
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-05-26",
     "data_status": "Editorial habitat guide",
     "data_status_note": "This habitat page is an editorial route guide built from site database entries and public materials. Unlocks, spawns, and farming routes should be rechecked after patches.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
@@ -1403,8 +1403,8 @@
     "farming_route": [
       "Enter Dragon's Den with one objective: unlock clear, resource farming, rare hunting, or team testing.",
       "Run the shortest loop that includes the main spawn group: Voltscale, Snorizard, and Primordion.",
-      "Track +50% Dragon drops during the first few clears. If the bonus is not helping your current build, switch to a more relevant habitat.",
-      "Use Dragon's Fury only after the loop is stable. Its effect (+35% dragon damage) is most valuable when the next run includes a serious dragon check.",
+      "Check the reward log early. +50% Dragon drops is valuable only when those resources are part of the build you are pushing next.",
+      "Dragon's Fury is best once the main checks are reachable on demand, not during the first exploratory clear.",
       "Reset quickly after the important spawn check instead of clearing every branch, unless you also need general resources."
     ],
     "rare_spawns": [
@@ -1444,11 +1444,11 @@
       },
       {
         "question": "Is Dragon's Den worth farming?",
-        "answer": "Dragon's Den is worth farming when you need +50% Dragon drops or one of its key Pokemon such as Voltscale, Snorizard, and Primordion. If neither helps your current build, farm a more relevant habitat first."
+        "answer": "Dragon's Den makes sense when the reward log points toward +50% Dragon drops and the spawn list includes a Pokemon you actively need, such as Voltscale, Snorizard, and Primordion."
       }
     ],
     "recommended_recipe": "rec011",
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-05-26",
     "data_status": "Editorial habitat guide",
     "data_status_note": "This habitat page is an editorial route guide built from site database entries and public materials. Unlocks, spawns, and farming routes should be rechecked after patches.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
@@ -1485,8 +1485,8 @@
     "farming_route": [
       "Enter Fairy Glen with one objective: unlock clear, resource farming, rare hunting, or team testing.",
       "Run the shortest loop that includes the main spawn group: Crystion, Dewdrop, Mysticat, and Magicalure.",
-      "Track +45% Fairy dust drops during the first few clears. If the bonus is not helping your current build, switch to a more relevant habitat.",
-      "Use Water Shield only after the loop is stable. Its effect (+35% water resistance) is most valuable when you can use the full duration.",
+      "Track +45% Fairy dust drops during the first clears. Stay only if that bonus feeds your current upgrades or recipe plan.",
+      "Bring Water Shield only when the next run has a defined target and the route is already consistent.",
       "Reset quickly after the important spawn check instead of clearing every branch, unless you also need general resources."
     ],
     "rare_spawns": [
@@ -1526,11 +1526,11 @@
       },
       {
         "question": "Is Fairy Glen worth farming?",
-        "answer": "Fairy Glen is worth farming when you need +45% Fairy dust drops or one of its key Pokemon such as Crystion, Dewdrop, and Mysticat. If neither helps your current build, farm a more relevant habitat first."
+        "answer": "Use Fairy Glen as a focused farm, not a default stop. It is strongest when +45% Fairy dust drops and targets like Crystion, Dewdrop, and Mysticat match your current build plan."
       }
     ],
     "recommended_recipe": "rec006",
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-05-26",
     "data_status": "Editorial habitat guide",
     "data_status_note": "This habitat page is an editorial route guide built from site database entries and public materials. Unlocks, spawns, and farming routes should be rechecked after patches.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
@@ -1567,8 +1567,8 @@
     "farming_route": [
       "Enter Training Grounds with one objective: unlock clear, resource farming, rare hunting, or team testing.",
       "Run the shortest loop that includes the main spawn group: Bulbin, Tidlet, Thornvine, and Skittlish.",
-      "Track +30% XP bonus during the first few clears. If the bonus is not helping your current build, switch to a more relevant habitat.",
-      "Use Grass Heal only after the loop is stable. Its effect (+30 HP restore) is most valuable when repeated small fights are slowly wearing the team down.",
+      "Use the first few clears to measure whether +30% XP bonus is actually useful; if it is not, change objectives before the run becomes busywork.",
+      "Treat Grass Heal as a consistency tool, not an unlock shortcut; map the habitat first, then spend it.",
       "Reset quickly after the important spawn check instead of clearing every branch, unless you also need general resources."
     ],
     "rare_spawns": [
@@ -1606,7 +1606,7 @@
       },
       {
         "question": "Is Training Grounds worth farming?",
-        "answer": "Training Grounds is worth farming when you need +30% XP bonus or one of its key Pokemon such as Bulbin, Tidlet, and Thornvine. If neither helps your current build, farm a more relevant habitat first."
+        "answer": "Training Grounds is a good repeat route if you need +30% XP bonus or one of Bulbin, Tidlet, and Thornvine. Otherwise, clear it once and move to the habitat tied to your current recipe or team gap."
       }
     ],
     "recommended_recipe": "rec009",
