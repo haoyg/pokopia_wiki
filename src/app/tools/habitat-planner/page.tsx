@@ -1,336 +1,499 @@
 'use client'
 
-import { useState } from 'react'
-import habitatsData from '@/data/habitats.json'
+import { useMemo, useState } from 'react'
 import Link from 'next/link'
+import habitatsData from '@/data/habitats.json'
+import pokemonLinksData from '@/data/pokemon-links.json'
+import recipeLinksData from '@/data/recipe-links.json'
+import guideLinksData from '@/data/guide-links.json'
 import { DataStatus } from '@/components/content/DataStatus'
 
-const difficultyOrder = { easy: 0, medium: 1, hard: 2 }
+const difficultyOrder: Record<string, number> = { easy: 0, medium: 1, hard: 2 }
 
-function getUnlockLevel(condition: string): number {
+const goals = [
+  {
+    id: 'next-unlock',
+    label: 'Next Unlock',
+    note: 'Find the next habitat worth preparing for at your current level.',
+    keywords: ['unlock', 'level', 'starting', 'reach'],
+  },
+  {
+    id: 'rare-farming',
+    label: 'Rare Farming',
+    note: 'Prioritize routes with rare or legendary spawn value.',
+    keywords: ['rare', 'legendary', 'hunting', 'spawn', 'charm'],
+  },
+  {
+    id: 'resource',
+    label: 'Resource Route',
+    note: 'Choose habitats by drop bonus and repeatable material loops.',
+    keywords: ['drops', 'resource', 'farming', 'materials', 'bonus'],
+  },
+  {
+    id: 'safe-daily',
+    label: 'Safe Daily',
+    note: 'Favor easier routes for stable gathering and low recipe cost.',
+    keywords: ['easy', 'starter', 'daily', 'stable', 'training'],
+  },
+  {
+    id: 'hard-push',
+    label: 'Hard Push',
+    note: 'Prepare for difficult habitats, boss pressure, and survival checks.',
+    keywords: ['hard', 'boss', 'tank', 'defense', 'dangerous', 'survival'],
+  },
+]
+
+const weatherOptions = [
+  ['all', 'All Weather'],
+  ['clear', 'Clear/Sunny'],
+  ['cloudy', 'Cloudy'],
+  ['rain', 'Rain'],
+  ['snow', 'Snow'],
+  ['windy', 'Windy'],
+  ['stormy', 'Stormy'],
+  ['foggy', 'Foggy'],
+  ['dark', 'Dark'],
+]
+
+function getUnlockLevel(condition: string) {
   const match = condition.match(/Reach Level (\d+)/)
-  return match ? parseInt(match[1]) : 0
+  return match ? Number.parseInt(match[1], 10) : 1
 }
 
-const typeEmoji: Record<string, string> = {
-  'Clear': '☀️', 'Sunny': '☀️', 'Cloudy': '☁️', 'Foggy': '🌫️',
-  'Rain': '🌧️', 'Snow': '❄️', 'Windy': '💨', 'Stormy': '⛈️',
-  'Thunderstorm': '⚡', 'Dark': '🌑', 'Night': '🌙',
+function splitIds(value?: string) {
+  return (value || '').split(',').map((item) => item.trim()).filter(Boolean)
 }
 
-function getWeatherEmoji(weather: string): string {
-  const conditions = weather.split('/')
-  return conditions.map((w) => typeEmoji[w.trim()] || '❓').join(' ')
+function scoreHabitat(habitat: (typeof habitatsData)[number], goal: (typeof goals)[number], playerLevel: number) {
+  const unlockLevel = getUnlockLevel(habitat.unlock_condition)
+  const haystack = [
+    habitat.name,
+    habitat.unlock_condition,
+    habitat.difficulty,
+    habitat.resource_bonus,
+    habitat.recommended_build,
+    habitat.weather,
+    habitat.overview,
+    ...(habitat.farming_route || []),
+    ...(habitat.rare_spawns || []),
+    ...(habitat.resource_notes || []),
+  ].join(' ').toLowerCase()
+
+  let score = goal.keywords.reduce((total, keyword) => (
+    haystack.includes(keyword.toLowerCase()) ? total + 1 : total
+  ), 0)
+
+  if (goal.id === 'next-unlock') {
+    if (unlockLevel >= playerLevel) score += Math.max(0, 8 - Math.abs(unlockLevel - playerLevel))
+    if (unlockLevel <= playerLevel) score += 2
+  }
+
+  if (goal.id === 'safe-daily' && habitat.difficulty === 'easy') score += 4
+  if (goal.id === 'hard-push' && habitat.difficulty === 'hard') score += 4
+  if (goal.id === 'resource' && habitat.resource_bonus.includes('%')) score += 3
+  if (goal.id === 'rare-farming' && (habitat.rare_spawns || []).some((spawn) => !spawn.startsWith('No dedicated'))) score += 4
+
+  if (unlockLevel > playerLevel) score -= Math.min(4, unlockLevel - playerLevel)
+
+  return score
+}
+
+function getPokemonName(id: string) {
+  return pokemonLinksData.find((pokemon) => pokemon.id === id)?.name || id
 }
 
 export default function HabitatPlanner() {
-  const [playerLevel, setPlayerLevel] = useState<number>(1)
-  const [filterDifficulty, setFilterDifficulty] = useState<string>('all')
-  const [filterWeather, setFilterWeather] = useState<string>('all')
+  const [playerLevel, setPlayerLevel] = useState(1)
+  const [selectedGoal, setSelectedGoal] = useState('next-unlock')
+  const [filterDifficulty, setFilterDifficulty] = useState('all')
+  const [filterWeather, setFilterWeather] = useState('all')
+  const [selectedHabitatId, setSelectedHabitatId] = useState('')
 
-  const sortedHabitats = [...habitatsData].sort((a, b) => {
-    return getUnlockLevel(a.unlock_condition) - getUnlockLevel(b.unlock_condition)
-  })
+  const activeGoal = goals.find((goal) => goal.id === selectedGoal) || goals[0]
 
-  const filteredHabitats = sortedHabitats.filter((h) => {
-    if (filterDifficulty !== 'all' && h.difficulty !== filterDifficulty) return false
-    if (filterWeather !== 'all' && !h.weather.toLowerCase().includes(filterWeather.toLowerCase())) return false
-    return true
-  })
+  const rankedHabitats = useMemo(() => {
+    return habitatsData
+      .map((habitat) => ({
+        habitat,
+        score: scoreHabitat(habitat, activeGoal, playerLevel),
+      }))
+      .filter(({ habitat }) => {
+        if (filterDifficulty !== 'all' && habitat.difficulty !== filterDifficulty) return false
+        if (filterWeather !== 'all' && !habitat.weather.toLowerCase().includes(filterWeather)) return false
+        return true
+      })
+      .sort((a, b) => {
+        const unlockA = getUnlockLevel(a.habitat.unlock_condition)
+        const unlockB = getUnlockLevel(b.habitat.unlock_condition)
+        const aUnlocked = unlockA <= playerLevel
+        const bUnlocked = unlockB <= playerLevel
 
-  const unlockedHabitats = filteredHabitats.filter((h) => getUnlockLevel(h.unlock_condition) <= playerLevel)
-  const lockedHabitats = filteredHabitats.filter((h) => getUnlockLevel(h.unlock_condition) > playerLevel)
+        if (aUnlocked !== bUnlocked) return aUnlocked ? -1 : 1
+        if (b.score !== a.score) return b.score - a.score
+        if (difficultyOrder[a.habitat.difficulty] !== difficultyOrder[b.habitat.difficulty]) {
+          return difficultyOrder[a.habitat.difficulty] - difficultyOrder[b.habitat.difficulty]
+        }
+        return unlockA - unlockB
+      })
+  }, [activeGoal, filterDifficulty, filterWeather, playerLevel])
+
+  const unlockedCount = rankedHabitats.filter(({ habitat }) => getUnlockLevel(habitat.unlock_condition) <= playerLevel).length
+  const lockedCount = rankedHabitats.length - unlockedCount
+  const recommendation = rankedHabitats.find(({ score }) => score > 0) || rankedHabitats[0]
+  const selectedHabitat = habitatsData.find((habitat) => habitat.id === selectedHabitatId) || recommendation?.habitat
+  const selectedScore = rankedHabitats.find(({ habitat }) => habitat.id === selectedHabitat?.id)?.score || 0
+
+  const spawnIds = splitIds(selectedHabitat?.spawn_list)
+  const relatedRecipe = recipeLinksData.find((recipe) => recipe.id === selectedHabitat?.recommended_recipe)
+  const relatedGuides = guideLinksData
+    .filter((guide) => splitIds(guide.related_habitats).includes(selectedHabitat?.id || ''))
+    .slice(0, 4)
 
   return (
-    <main style={{ maxWidth: '1000px', margin: '0 auto', padding: '2rem 1rem' }}>
-      <header style={{ marginBottom: '2rem' }}>
-        <Link href="/tools" style={{ fontSize: '0.875rem', color: '#666' }}>
-          ← Back to Tools
+    <main style={{ maxWidth: '1120px', margin: '0 auto', padding: '2rem 1rem 3rem' }}>
+      <header style={{ marginBottom: '1.5rem' }}>
+        <Link href="/tools" style={{ fontSize: '0.875rem', color: '#637083' }}>
+          Back to Tools
         </Link>
         <h1 style={{ fontSize: '2rem', fontWeight: 800, marginTop: '0.5rem' }}>
           Habitat Planner
         </h1>
-        <p style={{ color: '#666', marginTop: '0.5rem' }}>
-          Filter current habitat database entries by level, difficulty, weather, and resource goals.
+        <p style={{ color: '#637083', marginTop: '0.5rem', maxWidth: '780px' }}>
+          Pick a route goal, check level access, and jump into the habitat, recipe, Pokemon, and guide pages that support the run.
         </p>
       </header>
 
       <DataStatus
-        status="Database planning tool"
-        note="Unlock levels, resource bonuses, spawns, and recommended builds come from Pokopia Portal database entries. Treat this as route planning data, not an official live tracker."
-        updatedAt="2026-05-23"
+        status="Interactive habitat planning tool"
+        note="Recommendations are based on Pokopia Portal habitat, recipe, Pokemon, and guide entries. Use this as route planning support and recheck pages after balance updates."
+        updatedAt="2026-05-26"
       />
 
-      {/* Controls */}
-      <div
+      <section style={{ marginTop: '1.5rem' }}>
+        <h2 style={{ fontSize: '1rem', marginBottom: '0.75rem' }}>Route Goal</h2>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))', gap: '0.75rem' }}>
+          {goals.map((goal) => (
+            <button
+              key={goal.id}
+              onClick={() => {
+                setSelectedGoal(goal.id)
+                setSelectedHabitatId('')
+              }}
+              style={{
+                minHeight: '108px',
+                padding: '1rem',
+                borderRadius: '10px',
+                border: selectedGoal === goal.id ? '2px solid #ff5c7a' : '1px solid #dce8dc',
+                background: selectedGoal === goal.id ? '#fff1f4' : 'rgba(255, 255, 255, 0.88)',
+                boxShadow: selectedGoal === goal.id ? '0 8px 18px rgba(47, 76, 113, 0.12)' : '0 2px 0 rgba(47, 76, 113, 0.08)',
+                cursor: 'pointer',
+                textAlign: 'left',
+              }}
+            >
+              <strong style={{ display: 'block', fontSize: '0.95rem' }}>{goal.label}</strong>
+              <span style={{ display: 'block', marginTop: '0.45rem', color: '#637083', fontSize: '0.82rem', lineHeight: 1.45 }}>
+                {goal.note}
+              </span>
+            </button>
+          ))}
+        </div>
+      </section>
+
+      <section
         style={{
           display: 'grid',
-          gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))',
+          gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))',
           gap: '1rem',
-          marginBottom: '2rem',
-          padding: '1.5rem',
-          background: '#f8f9fa',
+          marginTop: '1.5rem',
+          padding: '1rem',
+          border: '1px solid #dce8dc',
           borderRadius: '12px',
+          background: 'rgba(255, 255, 255, 0.9)',
         }}
       >
         <div>
-          <label style={{ display: 'block', fontSize: '0.75rem', fontWeight: 700, color: '#999', textTransform: 'uppercase', marginBottom: '0.5rem' }}>
-            Your Level
+          <label style={{ display: 'block', fontSize: '0.75rem', fontWeight: 800, color: '#637083', textTransform: 'uppercase', marginBottom: '0.5rem' }}>
+            Player Level
           </label>
           <input
             type="number"
             min="1"
             max="50"
             value={playerLevel}
-            onChange={(e) => setPlayerLevel(Math.max(1, Math.min(50, parseInt(e.target.value) || 1)))}
+            onChange={(event) => {
+              setPlayerLevel(Math.max(1, Math.min(50, Number.parseInt(event.target.value, 10) || 1)))
+              setSelectedHabitatId('')
+            }}
             style={{
               width: '100%',
-              padding: '0.75rem 1rem',
-              border: '2px solid #e5e5e5',
+              minHeight: '44px',
+              padding: '0.6rem 0.75rem',
+              border: '1px solid #dce8dc',
               borderRadius: '8px',
-              fontSize: '1.25rem',
-              fontWeight: 700,
+              fontSize: '1.1rem',
+              fontWeight: 800,
               textAlign: 'center',
+              background: 'white',
             }}
           />
         </div>
 
         <div>
-          <label style={{ display: 'block', fontSize: '0.75rem', fontWeight: 700, color: '#999', textTransform: 'uppercase', marginBottom: '0.5rem' }}>
+          <label style={{ display: 'block', fontSize: '0.75rem', fontWeight: 800, color: '#637083', textTransform: 'uppercase', marginBottom: '0.5rem' }}>
             Difficulty
           </label>
-          <div style={{ display: 'flex', gap: '0.5rem' }}>
-            {['all', 'easy', 'medium', 'hard'].map((d) => (
-              <button
-                key={d}
-                onClick={() => setFilterDifficulty(d)}
-                style={{
-                  flex: 1,
-                  padding: '0.5rem',
-                  borderRadius: '8px',
-                  border: '1px solid',
-                  borderColor: filterDifficulty === d ? '#e94560' : '#ddd',
-                  background: filterDifficulty === d ? '#e94560' : 'white',
-                  color: filterDifficulty === d ? 'white' : '#666',
-                  fontSize: '0.75rem',
-                  fontWeight: 600,
-                  cursor: 'pointer',
-                  textTransform: 'capitalize',
-                }}
-              >
-                {d}
-              </button>
+          <select
+            value={filterDifficulty}
+            onChange={(event) => {
+              setFilterDifficulty(event.target.value)
+              setSelectedHabitatId('')
+            }}
+            aria-label="Filter habitats by difficulty"
+            style={{
+              width: '100%',
+              minHeight: '44px',
+              padding: '0.6rem 0.75rem',
+              borderRadius: '8px',
+              border: '1px solid #dce8dc',
+              background: 'white',
+            }}
+          >
+            {['all', 'easy', 'medium', 'hard'].map((difficulty) => (
+              <option key={difficulty} value={difficulty}>
+                {difficulty === 'all' ? 'All difficulty' : difficulty}
+              </option>
             ))}
-          </div>
+          </select>
         </div>
 
         <div>
-          <label style={{ display: 'block', fontSize: '0.75rem', fontWeight: 700, color: '#999', textTransform: 'uppercase', marginBottom: '0.5rem' }}>
+          <label style={{ display: 'block', fontSize: '0.75rem', fontWeight: 800, color: '#637083', textTransform: 'uppercase', marginBottom: '0.5rem' }}>
             Weather
           </label>
           <select
             value={filterWeather}
-            onChange={(e) => setFilterWeather(e.target.value)}
+            onChange={(event) => {
+              setFilterWeather(event.target.value)
+              setSelectedHabitatId('')
+            }}
+            aria-label="Filter habitats by weather"
             style={{
               width: '100%',
-              padding: '0.75rem 1rem',
-              border: '2px solid #e5e5e5',
+              minHeight: '44px',
+              padding: '0.6rem 0.75rem',
               borderRadius: '8px',
-              fontSize: '0.875rem',
+              border: '1px solid #dce8dc',
               background: 'white',
-              cursor: 'pointer',
             }}
           >
-            <option value="all">All Weather</option>
-            <option value="clear">☀️ Clear/Sunny</option>
-            <option value="cloudy">☁️ Cloudy</option>
-            <option value="rain">🌧️ Rain</option>
-            <option value="snow">❄️ Snow</option>
-            <option value="windy">💨 Windy</option>
-            <option value="stormy">⛈️ Stormy</option>
-            <option value="foggy">🌫️ Foggy</option>
-            <option value="dark">🌑 Dark</option>
+            {weatherOptions.map(([value, label]) => (
+              <option key={value} value={value}>{label}</option>
+            ))}
           </select>
         </div>
+      </section>
+
+      <div style={{ marginTop: '1rem', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))', gap: '0.75rem' }}>
+        {[
+          ['Available', unlockedCount, '#2e7d32', '#e8f5e9'],
+          ['Locked', lockedCount, '#c62828', '#ffebee'],
+          ['Player Level', playerLevel, '#1565c0', '#e3f2fd'],
+        ].map(([label, value, color, background]) => (
+          <div key={label} style={{ padding: '0.9rem 1rem', borderRadius: '10px', background: String(background) }}>
+            <strong style={{ display: 'block', fontSize: '1.55rem', color: String(color) }}>{value}</strong>
+            <span style={{ display: 'block', color: String(color), fontSize: '0.75rem', fontWeight: 800, textTransform: 'uppercase' }}>
+              {label}
+            </span>
+          </div>
+        ))}
       </div>
 
-      {/* Summary */}
-      <div
-        style={{
-          display: 'flex',
-          gap: '1rem',
-          marginBottom: '2rem',
-          flexWrap: 'wrap',
-        }}
-      >
-        <div
-          style={{
-            padding: '1rem 1.5rem',
-            background: '#e8f5e9',
-            borderRadius: '12px',
-            flex: 1,
-            minWidth: '150px',
-          }}
-        >
-          <div style={{ fontSize: '2rem', fontWeight: 800, color: '#2e7d32' }}>
-            {unlockedHabitats.length}
-          </div>
-          <div style={{ fontSize: '0.75rem', fontWeight: 600, color: '#2e7d32', textTransform: 'uppercase' }}>
-            Available
-          </div>
-        </div>
-        <div
-          style={{
-            padding: '1rem 1.5rem',
-            background: '#ffebee',
-            borderRadius: '12px',
-            flex: 1,
-            minWidth: '150px',
-          }}
-        >
-          <div style={{ fontSize: '2rem', fontWeight: 800, color: '#c62828' }}>
-            {lockedHabitats.length}
-          </div>
-          <div style={{ fontSize: '0.75rem', fontWeight: 600, color: '#c62828', textTransform: 'uppercase' }}>
-            Locked
-          </div>
-        </div>
-        <div
-          style={{
-            padding: '1rem 1.5rem',
-            background: '#e3f2fd',
-            borderRadius: '12px',
-            flex: 1,
-            minWidth: '150px',
-          }}
-        >
-          <div style={{ fontSize: '2rem', fontWeight: 800, color: '#1565c0' }}>
-            {playerLevel}
-          </div>
-          <div style={{ fontSize: '0.75rem', fontWeight: 600, color: '#1565c0', textTransform: 'uppercase' }}>
-            Your Level
-          </div>
-        </div>
-      </div>
+      <div style={{ marginTop: '2rem', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 360px), 1fr))', gap: '1.25rem', alignItems: 'start' }}>
+        <section>
+          <h2 style={{ fontSize: '1rem', marginBottom: '0.75rem' }}>Recommended Habitats</h2>
+          <div style={{ display: 'grid', gap: '0.65rem' }}>
+            {rankedHabitats.map(({ habitat, score }) => {
+              const unlockLevel = getUnlockLevel(habitat.unlock_condition)
+              const isUnlocked = unlockLevel <= playerLevel
+              const spawns = splitIds(habitat.spawn_list)
 
-      {/* Habitat Grid */}
-      <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
-        {filteredHabitats.map((habitat) => {
-          const unlockLevel = getUnlockLevel(habitat.unlock_condition)
-          const isUnlocked = unlockLevel <= playerLevel
-          const spawns = habitat.spawn_list.split(',')
-
-          return (
-            <div
-              key={habitat.id}
-              style={{
-                padding: '1.25rem',
-                border: '2px solid',
-                borderColor: isUnlocked ? '#e5e5e5' : '#eee',
-                borderRadius: '12px',
-                background: isUnlocked ? 'white' : '#fafafa',
-                opacity: isUnlocked ? 1 : 0.7,
-              }}
-            >
-              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'start', flexWrap: 'wrap', gap: '0.5rem' }}>
-                <div>
-                  <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-                    <h3 style={{ fontSize: '1.125rem', fontWeight: 700 }}>
-                      {habitat.name}
-                    </h3>
-                    {isUnlocked ? (
-                      <span style={{ fontSize: '0.7rem', padding: '0.125rem 0.5rem', background: '#d4edda', color: '#155724', borderRadius: '4px', fontWeight: 600 }}>
-                        ✓ Unlocked
-                      </span>
-                    ) : (
-                      <span style={{ fontSize: '0.7rem', padding: '0.125rem 0.5rem', background: '#fff3cd', color: '#856404', borderRadius: '4px', fontWeight: 600 }}>
-                        🔒 Lv.{unlockLevel}
-                      </span>
-                    )}
+              return (
+                <button
+                  key={habitat.id}
+                  onClick={() => setSelectedHabitatId(habitat.id)}
+                  style={{
+                    padding: '0.9rem',
+                    borderRadius: '10px',
+                    border: selectedHabitat?.id === habitat.id ? '2px solid #ff5c7a' : '1px solid #dce8dc',
+                    background: selectedHabitat?.id === habitat.id ? '#fff1f4' : 'rgba(255, 255, 255, 0.92)',
+                    opacity: isUnlocked ? 1 : 0.72,
+                    cursor: 'pointer',
+                    textAlign: 'left',
+                    boxShadow: '0 2px 0 rgba(47, 76, 113, 0.08)',
+                  }}
+                >
+                  <div style={{ display: 'flex', justifyContent: 'space-between', gap: '0.75rem', alignItems: 'center' }}>
+                    <strong>{habitat.name}</strong>
+                    <span className={`badge ${habitat.difficulty}`} style={{ flex: '0 0 auto' }}>{habitat.difficulty}</span>
                   </div>
-                  <p style={{ fontSize: '0.75rem', color: '#666', marginTop: '0.25rem' }}>
-                    {habitat.unlock_condition}
+                  <p style={{ marginTop: '0.35rem', color: '#637083', fontSize: '0.84rem' }}>
+                    {isUnlocked ? 'Unlocked' : `Unlocks at Lv.${unlockLevel}`} · {habitat.weather} · {habitat.resource_bonus}
                   </p>
-                </div>
-                <div style={{ display: 'flex', gap: '0.5rem', alignItems: 'center' }}>
-                  <span className={`badge ${habitat.difficulty}`}>
-                    {habitat.difficulty}
-                  </span>
-                  <span style={{ fontSize: '1rem' }}>
-                    {getWeatherEmoji(habitat.weather)}
-                  </span>
-                </div>
-              </div>
+                  <small style={{ display: 'block', marginTop: '0.45rem', color: score > 0 ? '#2f84d8' : '#8b97a8' }}>
+                    {score > 0 ? `Route match ${score}` : 'General route'} · {spawns.length} Pokemon
+                  </small>
+                </button>
+              )
+            })}
+          </div>
+        </section>
 
-              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))', gap: '1rem', marginTop: '1rem' }}>
-                <div>
-                  <span style={{ fontSize: '0.7rem', fontWeight: 700, color: '#999', textTransform: 'uppercase' }}>Resource Bonus</span>
-                  <p style={{ fontSize: '0.875rem', fontWeight: 600, color: '#e94560', marginTop: '0.25rem' }}>
-                    {habitat.resource_bonus}
-                  </p>
-                </div>
-                <div>
-                  <span style={{ fontSize: '0.7rem', fontWeight: 700, color: '#999', textTransform: 'uppercase' }}>Recommended Build</span>
-                  <p style={{ fontSize: '0.875rem', fontWeight: 600, marginTop: '0.25rem' }}>
-                    {habitat.recommended_build}
-                  </p>
-                </div>
-                <div>
-                  <span style={{ fontSize: '0.7rem', fontWeight: 700, color: '#999', textTransform: 'uppercase' }}>Weather</span>
-                  <p style={{ fontSize: '0.875rem', marginTop: '0.25rem' }}>
-                    {habitat.weather}
-                  </p>
-                </div>
-              </div>
-
-              <div style={{ marginTop: '1rem', paddingTop: '1rem', borderTop: '1px solid #eee' }}>
-                <span style={{ fontSize: '0.7rem', fontWeight: 700, color: '#999', textTransform: 'uppercase' }}>
-                  Spawns ({spawns.length})
+        {selectedHabitat && (
+          <section
+            style={{
+              padding: '1.25rem',
+              border: '1px solid #dce8dc',
+              borderRadius: '12px',
+              background: 'rgba(255, 255, 255, 0.94)',
+              boxShadow: '0 8px 18px rgba(47, 76, 113, 0.12)',
+            }}
+          >
+            <div style={{ display: 'flex', justifyContent: 'space-between', gap: '1rem', alignItems: 'start', flexWrap: 'wrap' }}>
+              <div>
+                <span style={{ color: '#637083', fontSize: '0.78rem', fontWeight: 800, textTransform: 'uppercase' }}>
+                  Current route · Match {selectedScore}
                 </span>
-                <div style={{ display: 'flex', gap: '0.5rem', marginTop: '0.5rem', flexWrap: 'wrap' }}>
-                  {spawns.map((spawnId) => (
+                <h2 style={{ fontSize: '1.6rem', marginTop: '0.2rem' }}>{selectedHabitat.name}</h2>
+              </div>
+              <Link
+                href={`/wiki/habitat/${selectedHabitat.id}`}
+                style={{
+                  display: 'inline-flex',
+                  alignItems: 'center',
+                  minHeight: '40px',
+                  padding: '0.55rem 0.8rem',
+                  borderRadius: '8px',
+                  background: '#ff5c7a',
+                  color: 'white',
+                  fontWeight: 700,
+                  textDecoration: 'none',
+                }}
+              >
+                Open Habitat
+              </Link>
+            </div>
+
+            <p style={{ marginTop: '1rem', color: '#3d475c' }}>{selectedHabitat.overview}</p>
+
+            <div style={{ marginTop: '1.25rem', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))', gap: '0.75rem' }}>
+              {[
+                ['Unlock', selectedHabitat.unlock_condition],
+                ['Difficulty', selectedHabitat.difficulty],
+                ['Weather', selectedHabitat.weather],
+                ['Bonus', selectedHabitat.resource_bonus],
+                ['Build', selectedHabitat.recommended_build],
+              ].map(([label, value]) => (
+                <div key={label} style={{ padding: '0.85rem', borderRadius: '8px', border: '1px solid #dce8dc', background: '#fffdf7' }}>
+                  <span style={{ display: 'block', color: '#637083', fontSize: '0.72rem', fontWeight: 800, textTransform: 'uppercase' }}>
+                    {label}
+                  </span>
+                  <strong style={{ display: 'block', marginTop: '0.3rem', fontSize: '0.9rem' }}>{value}</strong>
+                </div>
+              ))}
+            </div>
+
+            <div style={{ marginTop: '1.5rem', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: '1rem' }}>
+              <div>
+                <h3 style={{ fontSize: '0.95rem', marginBottom: '0.55rem' }}>Route Steps</h3>
+                <ul style={{ paddingLeft: '1.1rem', color: '#3d475c', fontSize: '0.9rem' }}>
+                  {(selectedHabitat.farming_route || []).slice(0, 4).map((item) => (
+                    <li key={item} style={{ marginBottom: '0.35rem' }}>{item}</li>
+                  ))}
+                </ul>
+              </div>
+              <div>
+                <h3 style={{ fontSize: '0.95rem', marginBottom: '0.55rem' }}>Avoid These</h3>
+                <ul style={{ paddingLeft: '1.1rem', color: '#3d475c', fontSize: '0.9rem' }}>
+                  {(selectedHabitat.common_mistakes || []).slice(0, 4).map((item) => (
+                    <li key={item} style={{ marginBottom: '0.35rem' }}>{item}</li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+
+            <div style={{ marginTop: '1.5rem', borderTop: '1px solid #dce8dc', paddingTop: '1.25rem' }}>
+              <h3 style={{ fontSize: '0.95rem', marginBottom: '0.75rem' }}>Planning Links</h3>
+              {relatedRecipe && (
+                <div style={{ marginBottom: '1rem' }}>
+                  <strong style={{ display: 'block', fontSize: '0.8rem', color: '#637083', marginBottom: '0.45rem' }}>Recommended Recipe</strong>
+                  <Link
+                    href={`/wiki/recipe/${relatedRecipe.id}`}
+                    style={{
+                      display: 'inline-block',
+                      padding: '0.45rem 0.65rem',
+                      border: '1px solid #dce8dc',
+                      borderRadius: '999px',
+                      background: '#fff1f4',
+                      fontSize: '0.82rem',
+                    }}
+                  >
+                    {relatedRecipe.name} · {relatedRecipe.buff}
+                  </Link>
+                </div>
+              )}
+
+              <div style={{ marginBottom: '1rem' }}>
+                <strong style={{ display: 'block', fontSize: '0.8rem', color: '#637083', marginBottom: '0.45rem' }}>Pokemon Spawns</strong>
+                <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap' }}>
+                  {spawnIds.slice(0, 8).map((id) => (
                     <Link
-                      key={spawnId}
-                      href={`/wiki/pokemon/${spawnId}`}
+                      key={id}
+                      href={`/wiki/pokemon/${id}`}
                       style={{
-                        padding: '0.25rem 0.5rem',
-                        background: '#f5f5f5',
-                        borderRadius: '4px',
-                        fontSize: '0.75rem',
-                        color: '#666',
-                        textDecoration: 'none',
+                        padding: '0.4rem 0.6rem',
+                        border: '1px solid #dce8dc',
+                        borderRadius: '999px',
+                        background: '#f5fcff',
+                        fontSize: '0.82rem',
                       }}
                     >
-                      {spawnId}
+                      {getPokemonName(id)}
                     </Link>
                   ))}
                 </div>
               </div>
+
+              {relatedGuides.length > 0 && (
+                <div>
+                  <strong style={{ display: 'block', fontSize: '0.8rem', color: '#637083', marginBottom: '0.45rem' }}>Related Guides</strong>
+                  <div style={{ display: 'grid', gap: '0.45rem' }}>
+                    {relatedGuides.map((guide) => (
+                      <Link key={guide.id} href={`/guides/${guide.slug}`} style={{ fontSize: '0.88rem' }}>
+                        {guide.title}
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              )}
             </div>
-          )
-        })}
+          </section>
+        )}
       </div>
 
-      {/* Tips */}
-      <div
+      <section
         style={{
           marginTop: '2rem',
-          padding: '1.5rem',
-          background: '#fef2f4',
+          padding: '1.25rem',
           borderRadius: '12px',
-          border: '1px solid #fcc',
+          border: '1px solid rgba(255, 209, 102, 0.65)',
+          background: 'rgba(255, 253, 247, 0.94)',
         }}
       >
-        <h3 style={{ fontSize: '1rem', fontWeight: 700, marginBottom: '0.5rem' }}>
-          Planning Tips
-        </h3>
-        <ul style={{ fontSize: '0.875rem', color: '#666', paddingLeft: '1.25rem', margin: 0 }}>
-          <li>Start with easier habitats when you need stable materials and short route checks.</li>
-          <li>Use the level filter to find the next unlock before planning a resource route.</li>
-          <li>Compare weather and resource bonuses before repeating a habitat for farming.</li>
-          <li>Open the habitat page before relying on a spawn or route recommendation.</li>
-        </ul>
-      </div>
+        <h2 style={{ fontSize: '1rem', marginBottom: '0.5rem' }}>How to use the planner</h2>
+        <p style={{ color: '#637083', fontSize: '0.9rem', maxWidth: '850px' }}>
+          Start with the goal, then narrow by level, difficulty, or weather. Open the habitat page before spending rare recipes, and use the linked Pokemon and guide pages to confirm food, drops, spawn timing, and route risks.
+        </p>
+      </section>
     </main>
   )
 }

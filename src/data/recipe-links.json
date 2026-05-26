@@ -1,0 +1,92 @@
+[
+  {
+    "id": "rec001",
+    "name": "Honey Cake",
+    "buff": "+20% attraction rate",
+    "best_use": "Rare Pokemon farming"
+  },
+  {
+    "id": "rec002",
+    "name": "Fire Boost",
+    "buff": "+30% Fire damage",
+    "best_use": "Boss battles"
+  },
+  {
+    "id": "rec003",
+    "name": "Speed Potion",
+    "buff": "+25% movement speed",
+    "best_use": "Speed runs"
+  },
+  {
+    "id": "rec004",
+    "name": "Guardian Stew",
+    "buff": "+40% defense",
+    "best_use": "Hard habitats"
+  },
+  {
+    "id": "rec005",
+    "name": "Lucky Charm",
+    "buff": "+50% rare spawn chance",
+    "best_use": "Legendary hunting"
+  },
+  {
+    "id": "rec006",
+    "name": "Water Shield",
+    "buff": "+35% water resistance",
+    "best_use": "Water habitats"
+  },
+  {
+    "id": "rec007",
+    "name": "Thunder Strike",
+    "buff": "+40% electric damage",
+    "best_use": "Electric battles"
+  },
+  {
+    "id": "rec008",
+    "name": "Ice Armor",
+    "buff": "+50% ice resistance",
+    "best_use": "Frost Peak"
+  },
+  {
+    "id": "rec009",
+    "name": "Grass Heal",
+    "buff": "+30 HP restore",
+    "best_use": "Daily farming"
+  },
+  {
+    "id": "rec010",
+    "name": "Ghost Veil",
+    "buff": "+45% ghost damage",
+    "best_use": "Shadow Marsh"
+  },
+  {
+    "id": "rec011",
+    "name": "Dragon's Fury",
+    "buff": "+35% dragon damage",
+    "best_use": "Boss fights"
+  },
+  {
+    "id": "rec012",
+    "name": "Steel Shell",
+    "buff": "+60% defense",
+    "best_use": "Tank builds"
+  },
+  {
+    "id": "rec013",
+    "name": "Flying High",
+    "buff": "+30% flying damage",
+    "best_use": "Sky Isles"
+  },
+  {
+    "id": "rec014",
+    "name": "Muddy Swirl",
+    "buff": "+25% ground damage",
+    "best_use": "Muddy River"
+  },
+  {
+    "id": "rec015",
+    "name": "Mega Restore",
+    "buff": "Full HP restore",
+    "best_use": "Emergency healing"
+  }
+]

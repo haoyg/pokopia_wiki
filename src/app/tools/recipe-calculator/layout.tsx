@@ -3,7 +3,7 @@ import { canonicalUrl } from '@/lib/site'
 
 export const metadata: Metadata = {
   title: 'Recipe Calculator',
-  description: 'Compare Pokopia recipe buffs, ingredients, duration, and database-based timing notes.',
+  description: 'Plan Pokopia recipes by route goal, rarity, timing, related Pokemon, and habitat links.',
   alternates: {
     canonical: canonicalUrl('/tools/recipe-calculator'),
   },

@@ -1,0 +1,242 @@
+[
+  {
+    "id": "guid001",
+    "title": "Best Starter Pokemon in Pokopia",
+    "slug": "best-starter-pokemon",
+    "related_habitats": "hab002,hab003,hab001",
+    "related_items": "rec001",
+    "related_pokemon": "pkm002,pkm004,pkm001"
+  },
+  {
+    "id": "guid002",
+    "title": "How to Unlock Volcanic Cave",
+    "slug": "how-to-unlock-volcanic-cave",
+    "related_habitats": "hab001",
+    "related_items": "rec002",
+    "related_pokemon": "pkm001,pkm007"
+  },
+  {
+    "id": "guid003",
+    "title": "Fast Farming Guide for Rare Pokemon",
+    "slug": "fast-farming-rare-pokemon",
+    "related_habitats": "hab006,hab005",
+    "related_items": "rec005",
+    "related_pokemon": "pkm009,pkm030,pkm029"
+  },
+  {
+    "id": "guid004",
+    "title": "Best Fire-Type Team Build",
+    "slug": "best-fire-type-team",
+    "related_habitats": "hab001",
+    "related_items": "rec002",
+    "related_pokemon": "pkm001,pkm003,pkm007"
+  },
+  {
+    "id": "guid005",
+    "title": "Shadow Marsh Complete Guide",
+    "slug": "shadow-marsh-guide",
+    "related_habitats": "hab006",
+    "related_items": "rec010",
+    "related_pokemon": "pkm009,pkm030"
+  },
+  {
+    "id": "guid006",
+    "title": "How to Get Legendary Pokemon",
+    "slug": "how-to-get-legendary-pokemon",
+    "related_habitats": "hab001,hab006",
+    "related_items": "rec005",
+    "related_pokemon": "pkm007,pkm030,pkm015"
+  },
+  {
+    "id": "guid007",
+    "title": "Best Habitat for Each Pokemon Type",
+    "slug": "best-habitat-type-pokopia",
+    "related_habitats": "hab001,hab005,hab012,hab006",
+    "related_items": "rec002,rec008,rec007,rec010",
+    "related_pokemon": "pkm001,pkm014,pkm005,pkm009"
+  },
+  {
+    "id": "guid008",
+    "title": "Speed Run Route for Leveling",
+    "slug": "speed-run-leveling-route",
+    "related_habitats": "hab003,hab002,hab004",
+    "related_items": "rec003",
+    "related_pokemon": "pkm004,pkm002,pkm005"
+  },
+  {
+    "id": "guid009",
+    "title": "Thunder Arena Unlock and Strategy",
+    "slug": "thunder-arena-guide",
+    "related_habitats": "hab012",
+    "related_items": "rec007",
+    "related_pokemon": "pkm005,pkm015,pkm024"
+  },
+  {
+    "id": "guid010",
+    "title": "Frost Peak Exploration Guide",
+    "slug": "frost-peak-guide",
+    "related_habitats": "hab005",
+    "related_items": "rec008",
+    "related_pokemon": "pkm008,pkm014,pkm029"
+  },
+  {
+    "id": "guid011",
+    "title": "Best Defense Team Build",
+    "slug": "best-defense-team-pokopia",
+    "related_habitats": "hab002,hab005,hab004",
+    "related_items": "rec012",
+    "related_pokemon": "pkm002,pkm008,pkm010"
+  },
+  {
+    "id": "guid012",
+    "title": "Dragon-Type Mastery Guide",
+    "slug": "dragon-type-guide",
+    "related_habitats": "hab005,hab012",
+    "related_items": "rec011",
+    "related_pokemon": "pkm015,pkm029"
+  },
+  {
+    "id": "guid013",
+    "title": "Complete Recipe List and Effects",
+    "slug": "complete-recipe-list",
+    "related_habitats": "hab001",
+    "related_items": "rec005,rec015,rec002",
+    "related_pokemon": "pkm001,pkm007"
+  },
+  {
+    "id": "guid014",
+    "title": "Sky Isles and Flying-Type Guide",
+    "slug": "sky-isles-guide",
+    "related_habitats": "hab008",
+    "related_items": "rec013",
+    "related_pokemon": "pkm016,pkm020,pkm025"
+  },
+  {
+    "id": "guid015",
+    "title": "Mudstone River Habitat Guide",
+    "slug": "muddy-river-guide",
+    "related_habitats": "hab009",
+    "related_items": "rec014",
+    "related_pokemon": "pkm018,pkm021"
+  },
+  {
+    "id": "guid016",
+    "title": "Top 10 Most Powerful Pokemon",
+    "slug": "top-10-powerful-pokemon",
+    "related_habitats": "hab001,hab006,hab012",
+    "related_items": "rec005",
+    "related_pokemon": "pkm007,pkm030,pkm015"
+  },
+  {
+    "id": "guid017",
+    "title": "Gemstone Canyon Mining Guide",
+    "slug": "gemstone-canyon-guide",
+    "related_habitats": "hab007",
+    "related_items": "rec012",
+    "related_pokemon": "pkm011,pkm012"
+  },
+  {
+    "id": "guid018",
+    "title": "Water-Type Team Compilation",
+    "slug": "water-type-team-build",
+    "related_habitats": "hab003,hab009",
+    "related_items": "rec006",
+    "related_pokemon": "pkm004,pkm018,pkm021"
+  },
+  {
+    "id": "guid019",
+    "title": "Ghost-Type Hunting Secrets",
+    "slug": "ghost-type-hunting",
+    "related_habitats": "hab006",
+    "related_items": "rec010",
+    "related_pokemon": "pkm009,pkm030"
+  },
+  {
+    "id": "guid020",
+    "title": "Electric-Type Speed Demon Build",
+    "slug": "electric-speed-build",
+    "related_habitats": "hab004,hab012",
+    "related_items": "rec003,rec007",
+    "related_pokemon": "pkm005,pkm010,pkm015"
+  },
+  {
+    "id": "guid021",
+    "title": "How to Unlock Dragon's Den",
+    "slug": "dragons-den-guide",
+    "related_habitats": "hab018",
+    "related_items": "rec011",
+    "related_pokemon": "pkm015,pkm029,pkm050"
+  },
+  {
+    "id": "guid022",
+    "title": "Beginner's Guide to Training Grounds",
+    "slug": "training-grounds-beginners",
+    "related_habitats": "hab020",
+    "related_items": "rec009",
+    "related_pokemon": "pkm002,pkm008,pkm017"
+  },
+  {
+    "id": "guid023",
+    "title": "Poison-Type Team Analysis",
+    "slug": "poison-type-team",
+    "related_habitats": "hab017",
+    "related_items": "rec010",
+    "related_pokemon": "pkm006,pkm041"
+  },
+  {
+    "id": "guid024",
+    "title": "All 4 Legendary Pokemon Locations",
+    "slug": "legendary-locations-guide",
+    "related_habitats": "hab001,hab004,hab006,hab009",
+    "related_items": "rec005",
+    "related_pokemon": "pkm007,pkm015,pkm030,pkm050"
+  },
+  {
+    "id": "guid025",
+    "title": "Crystal Cave Discovery Guide",
+    "slug": "crystal-cave-guide",
+    "related_habitats": "hab014",
+    "related_items": "rec005",
+    "related_pokemon": "pkm012,pkm031"
+  },
+  {
+    "id": "guid026",
+    "title": "Best Grass-Type Pick for Every Team",
+    "slug": "best-grass-types",
+    "related_habitats": "hab002",
+    "related_items": "rec009",
+    "related_pokemon": "pkm017,pkm023,pkm025"
+  },
+  {
+    "id": "guid027",
+    "title": "Steel-Type Hard-Core Build Guide",
+    "slug": "steel-type-build",
+    "related_habitats": "hab016",
+    "related_items": "rec012",
+    "related_pokemon": "pkm010,pkm019,pkm037"
+  },
+  {
+    "id": "guid028",
+    "title": "Fairy Glen Hidden Secrets",
+    "slug": "fairy-glen-exploration",
+    "related_habitats": "hab019",
+    "related_items": "rec005",
+    "related_pokemon": "pkm012,pkm038,pkm048"
+  },
+  {
+    "id": "guid029",
+    "title": "Nightmare Forest Horror Stories",
+    "slug": "nightmare-forest-guide",
+    "related_habitats": "hab017",
+    "related_items": "rec010",
+    "related_pokemon": "pkm006,pkm022,pkm048"
+  },
+  {
+    "id": "guid030",
+    "title": "Late-Game Team Planning Guide",
+    "slug": "endgame-build-guide",
+    "related_habitats": "hab001,hab006,hab012,hab018",
+    "related_items": "rec005,rec012,rec003",
+    "related_pokemon": "pkm007,pkm030,pkm015,pkm050"
+  }
+]

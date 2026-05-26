@@ -3,7 +3,7 @@ import { canonicalUrl } from '@/lib/site'
 
 export const metadata: Metadata = {
   title: 'Habitat Planner',
-  description: 'Plan Pokopia habitat progression by player level, difficulty, and weather.',
+  description: 'Plan Pokopia habitat routes by goal, level, difficulty, weather, recipes, Pokemon spawns, and guide links.',
   alternates: {
     canonical: canonicalUrl('/tools/habitat-planner'),
   },

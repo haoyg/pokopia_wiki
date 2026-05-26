@@ -1,0 +1,82 @@
+[
+  {
+    "id": "hab001",
+    "name": "Volcanic Cave"
+  },
+  {
+    "id": "hab002",
+    "name": "Forest Valley"
+  },
+  {
+    "id": "hab003",
+    "name": "Crystal Lake"
+  },
+  {
+    "id": "hab004",
+    "name": "Windmill Plains"
+  },
+  {
+    "id": "hab005",
+    "name": "Frost Peak"
+  },
+  {
+    "id": "hab006",
+    "name": "Shadow Marsh"
+  },
+  {
+    "id": "hab007",
+    "name": "Gemstone Canyon"
+  },
+  {
+    "id": "hab008",
+    "name": "Sky Isles"
+  },
+  {
+    "id": "hab009",
+    "name": "Muddy River"
+  },
+  {
+    "id": "hab010",
+    "name": "Ancient Ruins"
+  },
+  {
+    "id": "hab011",
+    "name": "Sunny Beach"
+  },
+  {
+    "id": "hab012",
+    "name": "Thunder Arena"
+  },
+  {
+    "id": "hab013",
+    "name": "Dark Cavern"
+  },
+  {
+    "id": "hab014",
+    "name": "Crystal Cave"
+  },
+  {
+    "id": "hab015",
+    "name": "Meadow Garden"
+  },
+  {
+    "id": "hab016",
+    "name": "Industrial Zone"
+  },
+  {
+    "id": "hab017",
+    "name": "Nightmare Forest"
+  },
+  {
+    "id": "hab018",
+    "name": "Dragon's Den"
+  },
+  {
+    "id": "hab019",
+    "name": "Fairy Glen"
+  },
+  {
+    "id": "hab020",
+    "name": "Training Grounds"
+  }
+]
