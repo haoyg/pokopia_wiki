@@ -16,50 +16,46 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Pikafire",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Pikafire burst lane is the reason to read Pikafire. A fiery variant of Pikachu with flame-themed markings. Found near volcanic areas. In Volcanic Cave, the useful clues are Apple timing, Fire Stone plus Thunder Stone, and electric reach. The drops, Fire Stone and Thunder Stone, are secondary unless they connect to the next build step.",
+    "overview": "Pikafire is worth farming when a Volcanic Cave team needs Fire pressure with real Electric reach. Its best runs happen during sunny daytime attempts where Thunderbolt can open safely, then Quick Attack finishes weakened targets before the cave fight drags on. Treat Fire Stone and Thunder Stone as build materials for a burst plan, not as random collection drops.",
     "how_to_get": [
-      "Start with fast cave opener during Day / Sunny.",
-      "Hold Apple until Thunderbolt opener has a clean approach.",
-      "Thunderbolt is the first proof point; Quick Attack is the follow-up."
+      "Enter Volcanic Cave during Day / Sunny and scout the first enemy group before spending Apple.",
+      "Use Apple only when Thunderbolt can start the fight from a clean angle.",
+      "If Thunderbolt lands well, follow with Quick Attack and finish the pass; if it does not, reset instead of forcing the cave."
     ],
     "best_use": [
-      "Use Pikafire when Fire Stone plus Thunder Stone matters.",
-      "Pikafire chooses electric reach; Sunreep chooses steel staying power.",
-      "boss-prep damage test should be visible within one or two attempts.",
-      "Material split: Fire Stone and Thunder Stone should be judged through Thunderbolt opener, Apple timing, and electric reach."
+      "Use Pikafire for boss-prep damage checks that need both Fire Stone and Thunder Stone progress.",
+      "Pick it over Emberal when the fight rewards Electric reach more than cheap Flame Ore farming.",
+      "Pick it over Sunreep when you need faster burst instead of Fire/Steel staying power.",
+      "The route is successful if Thunderbolt changes the opening turn within one or two attempts."
     ],
     "team_tips": [
-      "One support slot should cover the weakness created by Thunderbolt opener.",
-      "Avoid carrying teammates for unrelated drops.",
-      "sunny cave burst is the route identity."
+      "Bring a support that can absorb the first counterhit after Thunderbolt.",
+      "Avoid slow material farmers on this run; Pikafire wants the fight decided quickly.",
+      "A Water-resistant teammate helps cover bad cave matchups without changing the burst plan."
     ],
     "farming_notes": [
-      "Farm for Fire Stone and Thunder Stone, not for completion.",
-      "Reset if fast cave opener misses the target.",
-      "Return later if Apple becomes the bottleneck.",
-      "Exit rule: leave after sunny cave burst is tested unless Thunderbolt opener still improves the next attempt."
+      "Track Fire Stone and Thunder Stone separately so you know which upgrade is actually blocked.",
+      "Apple is the limiting cost; do not spend it on a cave pull where Thunderbolt cannot open.",
+      "Leave after the burst test is answered, even if the cave still has extra side materials.",
+      "Return later only when a specific Electric or Fire upgrade needs one of its drops."
     ],
     "common_mistakes": [
-      "Copying a nearby Pokemon plan onto Pikafire.",
-      "Spending food before the Thunderbolt opener test.",
-      "Ignoring the difference between Fire Stone plus Thunder Stone and generic farming."
+      "Using Pikafire as a generic Fire attacker when Emberal would farm cheaper.",
+      "Opening with Quick Attack before checking whether Thunderbolt can control the first turn.",
+      "Continuing the run after the Thunder Stone target is already solved."
     ],
     "faqs": [
       {
         "question": "Where do you find Pikafire?",
-        "answer": "Volcanic Cave, Day / Sunny, with Apple saved for a known Thunderbolt opener attempt."
+        "answer": "Pikafire appears in Volcanic Cave during Day / Sunny attempts. Save Apple for a confirmed Thunderbolt opener."
       },
       {
-        "question": "What is the main reason to use Pikafire?",
-        "answer": "Pikafire burst lane: Thunderbolt opener, Fire Stone plus Thunder Stone, and electric reach."
+        "question": "When should you use Pikafire?",
+        "answer": "Use it when the team needs fast Fire/Electric burst or when both Fire Stone and Thunder Stone are relevant."
       },
       {
-        "question": "What does Pikafire drop?",
-        "answer": "Fire Stone and Thunder Stone. For Pikafire, those drops matter most when Thunderbolt opener and electric reach are part of the active plan."
-      },
-      {
-        "question": "Which local comparison matters?",
-        "answer": "Pikafire chooses electric reach; Sunreep chooses steel staying power."
+        "question": "Is Pikafire better than Emberal?",
+        "answer": "Not for cheap farming. Pikafire is better when Electric reach matters; Emberal is better for low-cost Flame Ore loops."
       }
     ],
     "updated_at": "2026-05-26",
@@ -85,50 +81,46 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Bulbin",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Bulbin is a narrow starter leaf guard option, not a general checklist entry. A loyal grass-type starter. Easy to catch and great for beginners. The page matters when beginner forest wall and Grass Fiber baseline are more important than clearing every branch in Forest Valley. Bulbin is the safe starter wall; Thornback adds rock-bug rewards.",
+    "overview": "Bulbin is the beginner Forest Valley guard. It is useful because Vine Whip and Protect teach the safest version of early Grass routing while also building a small stock of Leaf and Grass Fiber. Use it when you want the forest to become predictable before chasing rarer plant or bug rewards.",
     "how_to_get": [
-      "Use the Any / Cloudy window for the serious attempt.",
-      "Save Leaf for the starter leaf guard attempt after the path is stable.",
-      "Test Vine Whip before judging Protect lesson."
+      "Run Forest Valley in the Any / Cloudy window and confirm the first branch is stable.",
+      "Spend Leaf only after Vine Whip can hit without pulling extra enemies.",
+      "Use Protect to learn the timing of the route, then leave once the lesson is clear."
     ],
     "best_use": [
-      "The strongest case is Grass Fiber baseline.",
-      "safe starter branch is the practical map clue.",
-      "Leaf and Grass Fiber should have a destination before the run starts.",
-      "Material split: Leaf and Grass Fiber should be judged through starter leaf guard, Leaf food loop, and Protect lesson."
+      "Use Bulbin when a new account needs a safe Grass defender rather than faster farming.",
+      "It is a good first check for Leaf and Grass Fiber requirements.",
+      "Choose Bulbin over Thornback when defense timing matters more than rock-bug rewards.",
+      "The page’s main value is route control, not maximum material yield."
     ],
     "team_tips": [
-      "Pair Bulbin with a teammate that makes Vine Whip opener safer.",
-      "Keep the team focused on starter leaf guard and Vine Whip opener; unrelated material goals should wait.",
-      "Swap out if Bulbin guard lane stops solving the active problem."
+      "Add one ranged attacker so Bulbin is not responsible for all damage.",
+      "Let Bulbin protect key turns instead of forcing it to clear every enemy.",
+      "Keep the team simple; this route is for learning Forest Valley pacing."
     ],
     "farming_notes": [
-      "Stop after the beginner forest wall result is known.",
-      "Count food spent against Leaf and Grass Fiber.",
-      "Do another attempt only when Protect lesson changes the route.",
-      "Exit rule: leave after Vine Whip opener is tested unless starter leaf guard still improves the next attempt."
+      "Stop after you understand whether Protect changes the branch timing.",
+      "Do not spend extra Leaf if Grass Fiber is no longer needed.",
+      "Repeat only when a beginner build still needs basic Grass materials.",
+      "Move to Thornvine or Treemendous when the route needs endurance or better rewards."
     ],
     "common_mistakes": [
-      "Turning starter leaf guard into a full clear.",
-      "Comparing only rarity.",
-      "Forgetting that bulbin is the safe starter wall; thornback adds rock-bug rewards."
+      "Trying to turn Bulbin into a full Forest Valley clear plan.",
+      "Ignoring Protect timing and judging the page only by damage.",
+      "Farming Leaf after the starter upgrade is already complete."
     ],
     "faqs": [
       {
         "question": "Where do you find Bulbin?",
-        "answer": "Forest Valley, Any / Cloudy, with Leaf saved for a known starter leaf guard attempt."
+        "answer": "Bulbin appears in Forest Valley during Any / Cloudy attempts. Leaf is the food to save for the stable route."
       },
       {
-        "question": "What is the main reason to use Bulbin?",
-        "answer": "Bulbin guard lane: starter leaf guard, beginner forest wall, and Protect lesson."
+        "question": "Why use Bulbin?",
+        "answer": "Use Bulbin to learn safe Grass routing and collect early Leaf and Grass Fiber."
       },
       {
-        "question": "What does Bulbin drop?",
-        "answer": "Leaf and Grass Fiber. For Bulbin, those drops matter most when starter leaf guard and Protect lesson are part of the active plan."
-      },
-      {
-        "question": "Which local comparison matters?",
-        "answer": "Bulbin is the safe starter wall; Thornback adds rock-bug rewards."
+        "question": "When should Bulbin leave the team?",
+        "answer": "Replace it once Forest Valley timing is stable or when you need rare plant materials instead of basic defense."
       }
     ],
     "updated_at": "2026-05-26",
@@ -154,50 +146,46 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Charmuddy",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "For Volcanic Cave, Charmuddy covers Charmuddy ash lane. A cuddly fire-type with fluffy fur. Evolves from Firdle. The decision point is Fire Spin pressure: if that fails, Honey spend and Fire Stone and Ash are not enough reason to keep going. Charmuddy farms Ash; Emberfox controls Psy Crystal branches.",
+    "overview": "Charmuddy is a night Volcanic Cave attacker for players who need Fire Stone and Ash without moving into premium cave routes. Honey funds the attempt, Ember handles the first check, and Fire Spin or Flamethrower decides whether the cave pull is worth continuing.",
     "how_to_get": [
-      "Scout soft fire branch once without spending extra food.",
-      "Commit Honey only in Night / Clear.",
-      "Use Ember and Fire Spin as the short test."
+      "Run Volcanic Cave during Night / Clear and scout the first enemy group.",
+      "Spend Honey only when Ember can start the fight safely.",
+      "Use Fire Spin to hold the target, then test Flamethrower before committing to more pulls."
     ],
     "best_use": [
-      "Best for Ash material loop.",
-      "Useful when night cave fire farm is the named goal.",
-      "Weak when the session asks for another local material.",
-      "Material split: Fire Stone and Ash should be judged through Ash material loop, Honey spend, and Flamethrower step."
+      "Use Charmuddy when Ash is the main missing material.",
+      "Choose it over Emberal when night timing or Fire Spin control matters.",
+      "Choose it over Flamexor when you do not need a tank route.",
+      "A good attempt should prove that Honey can produce reliable Fire pressure."
     ],
     "team_tips": [
-      "The team should make room for Flamethrower step.",
-      "Bring a fallback for the fight Fire dislikes.",
-      "Do not let cheap clear-weather damage expand into several unrelated objectives."
+      "Pair Charmuddy with one defender so Flamethrower can finish safely.",
+      "Bring coverage for enemies that resist Fire Spin.",
+      "Keep the route short because Charmuddy is a material attacker, not a cave anchor."
     ],
     "farming_notes": [
-      "Write down Fire Stone and Ash after each attempt.",
-      "Move on if cheap clear-weather damage is not improving.",
-      "Honey is the limiting cost.",
-      "Exit rule: leave after Fire Spin pressure is tested unless Ash material loop still improves the next attempt."
+      "Track Ash separately from Fire Stone because Ash is the clearer reason to return.",
+      "Honey should be reserved for Night / Clear attempts with a clean opener.",
+      "Stop once the current craft no longer needs Ash.",
+      "Return when a Fire Blast or cave upgrade needs extra Fire material."
     ],
     "common_mistakes": [
-      "Using Charmuddy as a generic Attacker.",
-      "Ignoring Night / Clear.",
-      "Treating Fire Stone and Ash as useful without a plan."
+      "Using Charmuddy as a premium Fire carry.",
+      "Spending Honey before checking the opening angle.",
+      "Continuing the cave route after Ash is already stocked."
     ],
     "faqs": [
       {
         "question": "Where do you find Charmuddy?",
-        "answer": "Volcanic Cave, Night / Clear, with Honey saved for a known Ash material loop attempt."
+        "answer": "Charmuddy appears in Volcanic Cave during Night / Clear routes. Honey is the food to save."
       },
       {
-        "question": "What is the main reason to use Charmuddy?",
-        "answer": "Charmuddy ash lane: Ash material loop, night cave fire farm, and Flamethrower step."
+        "question": "What is Charmuddy best for?",
+        "answer": "It is best for Ash farming and controlled Fire damage with Ember, Fire Spin, and Flamethrower."
       },
       {
-        "question": "What does Charmuddy drop?",
-        "answer": "Fire Stone and Ash. For Charmuddy, those drops matter most when Ash material loop and Flamethrower step are part of the active plan."
-      },
-      {
-        "question": "Which local comparison matters?",
-        "answer": "Charmuddy farms Ash; Emberfox controls Psy Crystal branches."
+        "question": "When should you skip Charmuddy?",
+        "answer": "Skip it when the route needs tanking, Electric reach, or rare cave payoff."
       }
     ],
     "updated_at": "2026-05-26",
@@ -223,50 +211,46 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Aquap",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Aquap works as Aquap lesson lane inside Crystal Lake. A playful water creature. Found near rivers and lakes. Its plan leans on Rain Dance lesson, Golden Fish support, and Pearl side value; the reward is Water Stone and Pearl. Aquap teaches rain support; Aquashell protects shell loops.",
+    "overview": "Aquap is the early Crystal Lake support lesson. Golden Fish pays for the attempt, Water Gun starts the route, and Rain Dance teaches whether the team can benefit from weather support. Use it before heavier lake picks when you still need to understand the rain plan.",
     "how_to_get": [
-      "Check Any / Rain first; Golden Fish is wasted if Pearl side value cannot happen.",
-      "Water Gun opens the attempt and Bubble decides whether safe lake opener is worth repeating.",
-      "End the pass when early water support is answered."
+      "Run Crystal Lake during Any / Rain and check whether Water Gun can open safely.",
+      "Spend Golden Fish only when Rain Dance will help the planned fight.",
+      "Use Bubble to confirm pacing, then leave once the support lesson is answered."
     ],
     "best_use": [
-      "Choose Aquap for Rain Dance lesson.",
-      "safe lake opener is the measurable reason to return.",
-      "Aquap teaches rain support; Aquashell protects shell loops.",
-      "Material split: Water Stone and Pearl should be judged through Rain Dance lesson, Golden Fish support, and Bubble pacing."
+      "Use Aquap when the team needs early water support rather than a defensive shell wall.",
+      "Choose it over Aquashell when Rain Dance matters more than Shell safety.",
+      "It is useful when Water Stone and Pearl are still basic progression blockers.",
+      "A successful run should clarify whether rain support improves the lake route."
     ],
     "team_tips": [
-      "Protect Pearl side value with one teammate that covers bad matchups.",
-      "Bubble pacing should support the planned fight, not random clears.",
-      "Keep the party light if Crystal Lake starter loop is only a material check."
+      "Pair Aquap with an attacker that benefits from Rain Dance.",
+      "Keep one sturdy teammate available because Aquap is not the main wall.",
+      "Avoid spending slots on unrelated material farmers during the rain lesson."
     ],
     "farming_notes": [
-      "Log Water Stone and Pearl separately from clear time.",
-      "Golden Fish belongs to confirmed Crystal Lake starter loop attempts.",
-      "Pause when early water support no longer changes the build.",
-      "Exit rule: leave after Pearl side value is tested unless Rain Dance lesson still improves the next attempt."
+      "Track Water Stone first and Pearl second for early upgrades.",
+      "Golden Fish should be reserved for routes where Rain Dance changes damage or safety.",
+      "Stop after the early water support question is answered.",
+      "Return when a new team wants cheap Crystal Lake weather setup."
     ],
     "common_mistakes": [
-      "Using Aquap outside its Aquap lesson lane role.",
-      "Treating Golden Fish support as free.",
-      "Chasing Water Stone and Pearl after the upgrade is already solved."
+      "Treating Aquap like Aquashell and expecting it to tank slow fights.",
+      "Spending Golden Fish before confirming the route needs rain support.",
+      "Continuing to farm Pearl after the starter water upgrade is done."
     ],
     "faqs": [
       {
         "question": "Where do you find Aquap?",
-        "answer": "Crystal Lake, Any / Rain, with Golden Fish saved for a known Rain Dance lesson attempt."
+        "answer": "Aquap appears in Crystal Lake during Any / Rain routes. Golden Fish is used for its support attempt."
       },
       {
-        "question": "What is the main reason to use Aquap?",
-        "answer": "Aquap lesson lane: Rain Dance lesson, safe lake opener, and Bubble pacing."
+        "question": "What is Aquap best for?",
+        "answer": "Aquap is best for early Rain Dance lessons, Water Stone progress, and light Pearl collection."
       },
       {
-        "question": "What does Aquap drop?",
-        "answer": "Water Stone and Pearl. For Aquap, those drops matter most when Rain Dance lesson and Bubble pacing are part of the active plan."
-      },
-      {
-        "question": "Which local comparison matters?",
-        "answer": "Aquap teaches rain support; Aquashell protects shell loops."
+        "question": "When should you use Aquashell instead?",
+        "answer": "Use Aquashell when the lake route needs defense and Shell farming more than weather support."
       }
     ],
     "updated_at": "2026-05-26",
@@ -292,50 +276,46 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Zaprat",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Zaprat scout lane is the reason to read Zaprat. An electric rat-like Pokemon. Extremely fast but fragile. In Windmill Plains, the useful clues are Cheese economy, Spark interrupt, and fragile tempo lead. The drops, Thunder Stone and Lightning Rod, are secondary unless they connect to the next build step.",
+    "overview": "Zaprat is the fast Windmill Plains scout for morning windy routes. Cheese gives it a low-cost entry point, Spark interrupts early tempo, and Quick Attack helps confirm whether a fragile speed plan can survive long enough to matter.",
     "how_to_get": [
-      "Start with Windy opener during Morning / Windy.",
-      "Hold Cheese until morning sprint loop has a clean approach.",
-      "Spark is the first proof point; Thunder Wave is the follow-up."
+      "Run Windmill Plains during Morning / Windy and check the first enemy pattern.",
+      "Spend Cheese after Spark has a clear interrupt target.",
+      "Use Quick Attack to finish the tempo test, then leave if the route starts trading damage badly."
     ],
     "best_use": [
-      "Use Zaprat when Spark interrupt matters.",
-      "Zaprat is the tempo scout; Zapbug is the Bug Shell budget pick.",
-      "field reset timing should be visible within one or two attempts.",
-      "Material split: Thunder Stone and Lightning Rod should be judged through morning sprint loop, Cheese economy, and Spark interrupt."
+      "Use Zaprat when Thunder Stone or Lightning Rod progress is tied to a speed route.",
+      "Choose it over Mechabit when speed is more important than Steel defense.",
+      "Choose it over Magnedex when you need a fragile scout instead of a pivot.",
+      "A successful run should make the opening faster without requiring heavy support."
     ],
     "team_tips": [
-      "One support slot should cover the weakness created by morning sprint loop.",
-      "Avoid carrying teammates for unrelated drops.",
-      "Lightning Rod target is the route identity."
+      "Bring one sturdy partner because Zaprat cannot absorb repeated hits.",
+      "Use Thunder Wave to create space for a stronger teammate.",
+      "Avoid slow defenders that remove the value of a fast scout route."
     ],
     "farming_notes": [
-      "Farm for Thunder Stone and Lightning Rod, not for completion.",
-      "Reset if Windy opener misses the target.",
-      "Return later if Cheese becomes the bottleneck.",
-      "Exit rule: leave after Lightning Rod target is tested unless morning sprint loop still improves the next attempt."
+      "Track Lightning Rod as the special reason to repeat the route.",
+      "Cheese should not be spent when Spark has no meaningful interrupt.",
+      "Stop once the speed build has enough Thunder Stone progress.",
+      "Return when Windmill Plains needs a fast Electric opener."
     ],
     "common_mistakes": [
-      "Copying a nearby Pokemon plan onto Zaprat.",
-      "Spending food before the morning sprint loop test.",
-      "Ignoring the difference between Spark interrupt and generic farming."
+      "Expecting Zaprat to survive like a defender.",
+      "Using Cheese before confirming the Morning / Windy route.",
+      "Farming Thunder Stone here when a sturdier Electric option would be safer."
     ],
     "faqs": [
       {
         "question": "Where do you find Zaprat?",
-        "answer": "Windmill Plains, Morning / Windy, with Cheese saved for a known morning sprint loop attempt."
+        "answer": "Zaprat appears in Windmill Plains during Morning / Windy attempts. Save Cheese for the speed route."
       },
       {
-        "question": "What is the main reason to use Zaprat?",
-        "answer": "Zaprat scout lane: morning sprint loop, Spark interrupt, and fragile tempo lead."
+        "question": "What is Zaprat best for?",
+        "answer": "Zaprat is best for fast Electric scouting, Spark interrupts, and Lightning Rod progress."
       },
       {
-        "question": "What does Zaprat drop?",
-        "answer": "Thunder Stone and Lightning Rod. For Zaprat, those drops matter most when morning sprint loop and Spark interrupt are part of the active plan."
-      },
-      {
-        "question": "Which local comparison matters?",
-        "answer": "Zaprat is the tempo scout; Zapbug is the Bug Shell budget pick."
+        "question": "Is Zaprat durable?",
+        "answer": "No. It is fast but fragile, so it needs a partner that can absorb pressure."
       }
     ],
     "updated_at": "2026-05-26",
@@ -361,50 +341,46 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Leafon",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Leafon is a narrow Leaf Stone poison hunt option, not a general checklist entry. A rare grass-type with toxic abilities. Stealthy hunter. The page matters when toxic grass assassin and night status removal are more important than clearing every branch in Forest Valley. Leafon ends one fog fight quickly; Magicalure extends several fog fights safely.",
+    "overview": "Leafon is the foggy Forest Valley assassin for routes where poison solves one dangerous fight quickly. Mystery Mushroom funds the attempt, Poison Powder sets the status plan, and Sludge Bomb decides whether the target drops before the route becomes messy.",
     "how_to_get": [
-      "Use the Night / Foggy window for the serious attempt.",
-      "Save Mystery Mushroom for the Leaf Stone poison hunt attempt after the path is stable.",
-      "Test Poison Powder before judging Sludge Bomb payoff."
+      "Run Forest Valley during Night / Foggy and identify the enemy that poison must remove.",
+      "Spend Mystery Mushroom only when Poison Powder can land early.",
+      "Use Sludge Bomb as the payoff check; if it does not swing the fight, stop the run."
     ],
     "best_use": [
-      "The strongest case is night status removal.",
-      "fog poison branch is the practical map clue.",
-      "Poison Stone and Leaf Stone should have a destination before the run starts.",
-      "Material split: Poison Stone and Leaf Stone should be judged through Leaf Stone poison hunt, Mushroom fog check, and Sludge Bomb payoff."
+      "Use Leafon when Poison Stone and Leaf Stone both support the current build path.",
+      "Choose it over Bulbin when defense lessons are no longer the problem.",
+      "Choose it over Magicalure when you need one quick poison answer instead of extended safe control.",
+      "A good Leafon run removes the key fog threat before the team loses tempo."
     ],
     "team_tips": [
-      "Pair Leafon with a teammate that makes Poison Powder opener safer.",
-      "Keep the team focused on Leaf Stone poison hunt and Poison Powder opener; unrelated material goals should wait.",
-      "Swap out if Leafon venom lane stops solving the active problem."
+      "Bring a teammate that can finish poisoned targets quickly.",
+      "Cover Fire or Psychic pressure so Leafon can focus on the planned status target.",
+      "Avoid slow sustain packages unless the fog route specifically requires them."
     ],
     "farming_notes": [
-      "Stop after the toxic grass assassin result is known.",
-      "Count food spent against Poison Stone and Leaf Stone.",
-      "Do another attempt only when Sludge Bomb payoff changes the route.",
-      "Exit rule: leave after Poison Powder opener is tested unless Leaf Stone poison hunt still improves the next attempt."
+      "Track Poison Stone and Leaf Stone against the build that needs them.",
+      "Mystery Mushroom should not be spent if the route lacks a clear poison target.",
+      "Stop once the poison upgrade or Leaf Stone requirement is complete.",
+      "Return for fog routes where one status application changes the fight."
     ],
     "common_mistakes": [
-      "Turning Leaf Stone poison hunt into a full clear.",
-      "Comparing only rarity.",
-      "Forgetting that leafon ends one fog fight quickly; magicalure extends several fog fights safely."
+      "Using Leafon as a generic Grass farmer.",
+      "Applying Poison Powder after the main threat is already handled.",
+      "Forcing Leafon into long control routes better suited to Magicalure."
     ],
     "faqs": [
       {
         "question": "Where do you find Leafon?",
-        "answer": "Forest Valley, Night / Foggy, with Mystery Mushroom saved for a known Leaf Stone poison hunt attempt."
+        "answer": "Leafon appears in Forest Valley during Night / Foggy routes. Mystery Mushroom is the key food."
       },
       {
-        "question": "What is the main reason to use Leafon?",
-        "answer": "Leafon venom lane: Leaf Stone poison hunt, toxic grass assassin, and Sludge Bomb payoff."
+        "question": "What is Leafon best for?",
+        "answer": "It is best for Poison Stone and Leaf Stone routes where Poison Powder can remove one key threat."
       },
       {
-        "question": "What does Leafon drop?",
-        "answer": "Poison Stone and Leaf Stone. For Leafon, those drops matter most when Leaf Stone poison hunt and Sludge Bomb payoff are part of the active plan."
-      },
-      {
-        "question": "Which local comparison matters?",
-        "answer": "Leafon ends one fog fight quickly; Magicalure extends several fog fights safely."
+        "question": "When should you skip Leafon?",
+        "answer": "Skip it when the route needs long sustain or when no enemy is worth poisoning early."
       }
     ],
     "updated_at": "2026-05-26",
@@ -430,50 +406,46 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Flamexor",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "For Volcanic Cave, Flamexor covers Flamexor tank lane. The legendary flame beast. Nearly extinct in the wild. The decision point is Night cave survival: if that fails, Iron Defense wall and Fire Stone, Metal Coat, and Legendary Scale are not enough reason to keep going. Flamexor protects the cave; Emberal farms it cheaply.",
+    "overview": "Flamexor is the premium Volcanic Cave tank. Iron Ore starts a costly route, Flame Body punishes contact, and Iron Defense lets it hold night cave fights that cheaper Fire Pokémon cannot survive. Use it when Legendary Scale or Fire/Steel durability is the actual target.",
     "how_to_get": [
-      "Scout high-cost cave wall once without spending extra food.",
-      "Commit Iron Ore only in Night / Clear.",
-      "Use Flame Body and Iron Defense as the short test."
+      "Scout Volcanic Cave during Night / Clear before spending Iron Ore.",
+      "Commit only when Flame Body can punish the main enemy group.",
+      "Use Iron Defense early enough to stabilize the route, then check whether Stealth Rock adds value."
     ],
     "best_use": [
-      "Best for Legendary Scale commitment.",
-      "Useful when Flame Body anchor is the named goal.",
-      "Weak when the session asks for another local material.",
-      "Material split: Fire Stone, Metal Coat, and Legendary Scale should be judged through Legendary Scale commitment, Iron Defense wall, and Flame Body anchor."
+      "Use Flamexor when Legendary Scale is tied to a real upgrade or build.",
+      "Choose it over Emberal when survival matters more than cheap Flame Ore farming.",
+      "Choose it over Pikafire when the team needs a cave anchor instead of burst reach.",
+      "A successful run should make a dangerous night cave fight controllable."
     ],
     "team_tips": [
-      "The team should make room for Stealth Rock setup.",
-      "Bring a fallback for the fight Fire/Steel dislikes.",
-      "Do not let premium fire-steel tank expand into several unrelated objectives."
+      "Bring a healer or shield support so Flamexor can keep holding the front line.",
+      "Add a faster attacker to prevent the tank route from becoming too slow.",
+      "Avoid bringing other expensive cave picks unless their materials are also required."
     ],
     "farming_notes": [
-      "Write down Fire Stone, Metal Coat, and Legendary Scale after each attempt.",
-      "Move on if premium fire-steel tank is not improving.",
-      "Iron Ore is the limiting cost.",
-      "Exit rule: leave after Night cave survival is tested unless Legendary Scale commitment still improves the next attempt."
+      "Track Legendary Scale separately from Fire Stone and Metal Coat.",
+      "Iron Ore should be spent only when the team needs the tank plan.",
+      "Stop if the route no longer needs Fire/Steel defense.",
+      "Return for premium cave builds where Flame Body and rare drops both matter."
     ],
     "common_mistakes": [
-      "Using Flamexor as a generic Tank.",
-      "Ignoring Night / Clear.",
-      "Treating Fire Stone, Metal Coat, and Legendary Scale as useful without a plan."
+      "Using Flamexor for cheap Fire farming.",
+      "Saving Iron Defense until after the dangerous damage already lands.",
+      "Continuing to farm common drops after Legendary Scale is finished."
     ],
     "faqs": [
       {
         "question": "Where do you find Flamexor?",
-        "answer": "Volcanic Cave, Night / Clear, with Iron Ore saved for a known Legendary Scale commitment attempt."
+        "answer": "Flamexor appears in Volcanic Cave during Night / Clear routes. Iron Ore is the commitment food."
       },
       {
-        "question": "What is the main reason to use Flamexor?",
-        "answer": "Flamexor tank lane: Legendary Scale commitment, Flame Body anchor, and Stealth Rock setup."
+        "question": "What is Flamexor best for?",
+        "answer": "It is best for premium Fire/Steel tanking, Legendary Scale routes, and dangerous cave fights."
       },
       {
-        "question": "What does Flamexor drop?",
-        "answer": "Fire Stone, Metal Coat, and Legendary Scale. For Flamexor, those drops matter most when Legendary Scale commitment and Flame Body anchor are part of the active plan."
-      },
-      {
-        "question": "Which local comparison matters?",
-        "answer": "Flamexor protects the cave; Emberal farms it cheaply."
+        "question": "When should you avoid Flamexor?",
+        "answer": "Avoid it when you only need cheap Fire Stone or Flame Ore farming."
       }
     ],
     "updated_at": "2026-05-26",
@@ -499,50 +471,46 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Tidlet",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Tidlet works as Tidlet lesson lane inside Frost Peak. A small cute creature. Found in snowy regions. Its plan leans on snow practice support, Any Food economy, and Growl opener; the reward is Fur and Cloth. Tidlet is snow practice; Skittlish is forest practice.",
+    "overview": "Tidlet is the Frost Peak practice support. Any Food makes it easy to test, Growl softens the first snow fight, and Play Nice or Swagger shows whether the team needs control before stronger Ice or snow picks come online.",
     "how_to_get": [
-      "Check Day / Snow first; Any Food is wasted if Growl opener cannot happen.",
-      "Growl opens the attempt and Tackle decides whether Fur and Cloth pass is worth repeating.",
-      "End the pass when low-risk Frost Peak lesson is answered."
+      "Run Frost Peak during Day / Snow and use a low-cost scouting attempt first.",
+      "Spend Any Food only when Growl can reduce early pressure.",
+      "Test Play Nice before extending the route; leave if the support turn does not matter."
     ],
     "best_use": [
-      "Choose Tidlet for snow practice support.",
-      "Fur and Cloth pass is the measurable reason to return.",
-      "Tidlet is snow practice; Skittlish is forest practice.",
-      "Material split: Fur and Cloth should be judged through snow practice support, Any Food economy, and Play Nice safety."
+      "Use Tidlet when a beginner team needs safe Frost Peak practice.",
+      "Choose it over Skittlish when the route is snow-specific rather than forest practice.",
+      "Fur and Cloth are useful only while support gear is unfinished.",
+      "A good run should make a fragile teammate easier to protect."
     ],
     "team_tips": [
-      "Protect Growl opener with one teammate that covers bad matchups.",
-      "Play Nice safety should support the planned fight, not random clears.",
-      "Keep the party light if tiny snow helper is only a material check."
+      "Pair Tidlet with one real damage dealer.",
+      "Use support turns to protect the carry, not to stall without purpose.",
+      "Avoid adding another low-damage support unless the snow route is punishing."
     ],
     "farming_notes": [
-      "Log Fur and Cloth separately from clear time.",
-      "Any Food belongs to confirmed tiny snow helper attempts.",
-      "Pause when low-risk Frost Peak lesson no longer changes the build.",
-      "Exit rule: leave after Growl opener is tested unless snow practice support still improves the next attempt."
+      "Track Fur and Cloth against the item you are building.",
+      "Any Food is cheap, but repeated weak attempts still waste time.",
+      "Stop once Frost Peak timing is learned or materials are stocked.",
+      "Return when a new snow team needs a safe setup lesson."
     ],
     "common_mistakes": [
-      "Using Tidlet outside its Tidlet lesson lane role.",
-      "Treating Any Food economy as free.",
-      "Chasing Fur and Cloth after the upgrade is already solved."
+      "Using Tidlet as a damage carry.",
+      "Continuing after support gear no longer needs Fur or Cloth.",
+      "Ignoring whether Play Nice actually changes the fight."
     ],
     "faqs": [
       {
         "question": "Where do you find Tidlet?",
-        "answer": "Frost Peak, Day / Snow, with Any Food saved for a known snow practice support attempt."
+        "answer": "Tidlet appears in Frost Peak during Day / Snow routes. Any Food is enough for its support test."
       },
       {
-        "question": "What is the main reason to use Tidlet?",
-        "answer": "Tidlet lesson lane: snow practice support, Fur and Cloth pass, and Play Nice safety."
+        "question": "What is Tidlet best for?",
+        "answer": "It is best for beginner Frost Peak support, Fur and Cloth collection, and safe practice fights."
       },
       {
-        "question": "What does Tidlet drop?",
-        "answer": "Fur and Cloth. For Tidlet, those drops matter most when snow practice support and Play Nice safety are part of the active plan."
-      },
-      {
-        "question": "Which local comparison matters?",
-        "answer": "Tidlet is snow practice; Skittlish is forest practice."
+        "question": "Is Tidlet better than Skittlish?",
+        "answer": "Only on snow routes. Skittlish is the better Forest Valley practice support."
       }
     ],
     "updated_at": "2026-05-26",
@@ -632,50 +600,46 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Mechabit",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Mechabit is a narrow Piston defender option, not a general checklist entry. A robotic electric Pokemon. Created by ancient engineers. The page matters when Thunderstorm steel wall and Zap Cannon risk are more important than clearing every branch in Windmill Plains. Mechabit is the Battery and Piston wall; Magnedex is the Magnet pivot.",
+    "overview": "Mechabit is the Windmill Plains steel wall for Thunderstorm routes. Battery unlocks the attempt, Lock-On prepares the high-risk play, and Zap Cannon or Flash Cannon determines whether the run has enough payoff. Use it when Metal Coat and Piston are both part of the build plan.",
     "how_to_get": [
-      "Use the Any / Thunderstorm window for the serious attempt.",
-      "Save Battery for the Piston defender attempt after the path is stable.",
-      "Test Lock-On before judging Flash Cannon defense."
+      "Run Windmill Plains during Any / Thunderstorm and check whether the first fight rewards Electric/Steel defense.",
+      "Spend Battery after Lock-On has a safe setup turn.",
+      "Use Zap Cannon only when the hit can decide the fight; otherwise rely on Flash Cannon defense."
     ],
     "best_use": [
-      "The strongest case is Zap Cannon risk.",
-      "engineered metal route is the practical map clue.",
-      "Metal Coat and Piston should have a destination before the run starts.",
-      "Material split: Metal Coat and Piston should be judged through Piston defender, Battery gate, and Zap Cannon risk."
+      "Use Mechabit when Piston and Metal Coat are both blocking progression.",
+      "Choose it over Magnedex when the route needs a wall instead of a magnet pivot.",
+      "It works best when Thunderstorm turns Electric pressure into a real advantage.",
+      "A good run should show that Lock-On makes the risky payoff reliable enough."
     ],
     "team_tips": [
-      "Pair Mechabit with a teammate that makes Lock-On setup safer.",
-      "Keep the team focused on Piston defender and Lock-On setup; unrelated material goals should wait.",
-      "Swap out if Mechabit wall lane stops solving the active problem."
+      "Bring a teammate that protects Mechabit while Lock-On is being set up.",
+      "Add coverage against Ground pressure, which can punish the steel wall plan.",
+      "Avoid another setup-heavy Pokémon unless the route gives enough safe turns."
     ],
     "farming_notes": [
-      "Stop after the Thunderstorm steel wall result is known.",
-      "Count food spent against Metal Coat and Piston.",
-      "Do another attempt only when Flash Cannon defense changes the route.",
-      "Exit rule: leave after Lock-On setup is tested unless Piston defender still improves the next attempt."
+      "Track Piston as the special route reward and Metal Coat as the shared steel material.",
+      "Battery should be spent only on Thunderstorm routes with a clear payoff target.",
+      "Stop when the build no longer needs Electric/Steel defense or Piston progress.",
+      "Return for wall-heavy Windmill Plains compositions."
     ],
     "common_mistakes": [
-      "Turning Piston defender into a full clear.",
-      "Comparing only rarity.",
-      "Forgetting that mechabit is the battery and piston wall; magnedex is the magnet pivot."
+      "Firing Zap Cannon without first creating a safe Lock-On turn.",
+      "Using Mechabit for generic Metal Coat farming when a cheaper route exists.",
+      "Ignoring Ground counters because the page looks defensively strong."
     ],
     "faqs": [
       {
         "question": "Where do you find Mechabit?",
-        "answer": "Windmill Plains, Any / Thunderstorm, with Battery saved for a known Piston defender attempt."
+        "answer": "Mechabit appears in Windmill Plains during Any / Thunderstorm routes. Battery is used for committed attempts."
       },
       {
-        "question": "What is the main reason to use Mechabit?",
-        "answer": "Mechabit wall lane: Piston defender, Thunderstorm steel wall, and Flash Cannon defense."
+        "question": "What is Mechabit best for?",
+        "answer": "It is best for Electric/Steel defense, Piston farming, and Lock-On into Zap Cannon routes."
       },
       {
-        "question": "What does Mechabit drop?",
-        "answer": "Metal Coat and Piston. For Mechabit, those drops matter most when Piston defender and Zap Cannon risk are part of the active plan."
-      },
-      {
-        "question": "Which local comparison matters?",
-        "answer": "Mechabit is the Battery and Piston wall; Magnedex is the Magnet pivot."
+        "question": "When is Magnedex better?",
+        "answer": "Magnedex is better when the route needs a Magnet pivot rather than a steel wall."
       }
     ],
     "updated_at": "2026-05-26",
@@ -701,50 +665,46 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Rockler",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "For Gemstone Canyon, Rockler covers Rockler stone lane. A sturdy rock-type. Excellent for defense. The decision point is Stealth Rock guard: if that fails, Stone food loop and Stone and Rock Fragment are not enough reason to keep going. Rockler is a short stone loop, not a rare gem chase.",
+    "overview": "Rockler is the short Gemstone Canyon stone defender. Stone pays for a simple route, Rock Throw checks the opener, and Stealth Rock gives the team a defensive setup point. Use it for Stone and Rock Fragment progress, not for rare gem chasing.",
     "how_to_get": [
-      "Scout mining defender path once without spending extra food.",
-      "Commit Stone only in Any / Clear.",
-      "Use Rock Throw and Earthquake as the short test."
+      "Run Gemstone Canyon during Any / Clear and scout the first mining fight.",
+      "Spend Stone when Rock Throw can open without losing tempo.",
+      "Use Stealth Rock only if the fight will last long enough to benefit from setup."
     ],
     "best_use": [
-      "Best for Rock Fragment mining.",
-      "Useful when canyon wall practice is the named goal.",
-      "Weak when the session asks for another local material.",
-      "Material split: Stone and Rock Fragment should be judged through Rock Fragment mining, Stone food loop, and Rock Throw opener."
+      "Use Rockler when Rock Fragment mining is the clear goal.",
+      "Choose it over Galebender when you need a safer wall instead of an aggressive brawler.",
+      "Choose it over crystal picks when Stone, not rare gems, blocks progression.",
+      "A good run should finish a short defensive branch cleanly."
     ],
     "team_tips": [
-      "The team should make room for Rock Throw opener.",
-      "Bring a fallback for the fight Rock/Ground dislikes.",
-      "Do not let short stone branch expand into several unrelated objectives."
+      "Pair Rockler with a special or ranged attacker to compensate for slow damage.",
+      "Bring coverage for Grass or Water threats that punish Rock/Ground typing.",
+      "Keep the route short; Rockler loses value when side goals pile up."
     ],
     "farming_notes": [
-      "Write down Stone and Rock Fragment after each attempt.",
-      "Move on if short stone branch is not improving.",
-      "Stone is the limiting cost.",
-      "Exit rule: leave after Stealth Rock guard is tested unless Rock Fragment mining still improves the next attempt."
+      "Track Stone and Rock Fragment as practical crafting materials.",
+      "Do not spend Stone on routes where Stealth Rock never has time to matter.",
+      "Stop once mining gear or basic canyon upgrades are complete.",
+      "Return when a short canyon wall is safer than a high-risk gem route."
     ],
     "common_mistakes": [
-      "Using Rockler as a generic Defender.",
-      "Ignoring Any / Clear.",
-      "Treating Stone and Rock Fragment as useful without a plan."
+      "Expecting Rockler to produce rare gem value.",
+      "Using Stealth Rock in fights that end before setup matters.",
+      "Ignoring type counters because its defense looks high."
     ],
     "faqs": [
       {
         "question": "Where do you find Rockler?",
-        "answer": "Gemstone Canyon, Any / Clear, with Stone saved for a known Rock Fragment mining attempt."
+        "answer": "Rockler appears in Gemstone Canyon during Any / Clear routes. Stone is used for committed mining attempts."
       },
       {
-        "question": "What is the main reason to use Rockler?",
-        "answer": "Rockler stone lane: Rock Fragment mining, canyon wall practice, and Rock Throw opener."
+        "question": "What is Rockler best for?",
+        "answer": "It is best for short defensive canyon runs, Stone collection, and Rock Fragment mining."
       },
       {
-        "question": "What does Rockler drop?",
-        "answer": "Stone and Rock Fragment. For Rockler, those drops matter most when Rock Fragment mining and Rock Throw opener are part of the active plan."
-      },
-      {
-        "question": "Which local comparison matters?",
-        "answer": "Rockler is a short stone loop, not a rare gem chase."
+        "question": "Is Rockler a rare gem farmer?",
+        "answer": "No. Use crystal-focused pages when rare gem payoff is the goal."
       }
     ],
     "updated_at": "2026-05-26",
@@ -770,50 +730,46 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Crystion",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Crystion works as Crystion jewel lane inside Gemstone Canyon. A beautiful crystal creature. Very rare to find. Its plan leans on Diamond hunt, Gem spend, and Crystal Beam check; the reward is Crystal Shard and Diamond. Crystion follows Diamond value; Galebender follows Earth Gem value.",
+    "overview": "Crystion is a rare Gemstone Canyon attacker for Night / Snow routes where Diamond is the real target. Gem is the expensive gate, Crystal Beam checks the opener, and Moonblast or Power Gem determines whether the rare route deserves another attempt.",
     "how_to_get": [
-      "Check Night / Snow first; Gem is wasted if Crystal Beam check cannot happen.",
-      "Crystal Beam opens the attempt and Moonblast decides whether canyon jewel branch is worth repeating.",
-      "End the pass when rare crystal material is answered."
+      "Scout Gemstone Canyon at Night / Snow before spending Gem.",
+      "Commit only when Crystal Beam has a clean target.",
+      "Use Moonblast for the payoff check and stop if the fight still feels unstable."
     ],
     "best_use": [
-      "Choose Crystion for Diamond hunt.",
-      "canyon jewel branch is the measurable reason to return.",
-      "Crystion follows Diamond value; Galebender follows Earth Gem value.",
-      "Material split: Crystal Shard and Diamond should be judged through Diamond hunt, Gem spend, and Power Gem pressure."
+      "Use Crystion when Diamond and Crystal Shard both matter to progression.",
+      "Choose it over Galebender when rare crystal value matters more than Ground/Fighting pressure.",
+      "It works best for short, high-value rare attempts.",
+      "A good run should justify the Gem cost quickly."
     ],
     "team_tips": [
-      "Protect Crystal Beam check with one teammate that covers bad matchups.",
-      "Power Gem pressure should support the planned fight, not random clears.",
-      "Keep the party light if snow-night gem window is only a material check."
+      "Bring protection for the setup turn after Crystal Beam.",
+      "Add a finisher that can benefit from Moonblast pressure.",
+      "Keep the party focused on rare crystal value, not broad canyon farming."
     ],
     "farming_notes": [
-      "Log Crystal Shard and Diamond separately from clear time.",
-      "Gem belongs to confirmed snow-night gem window attempts.",
-      "Pause when rare crystal material no longer changes the build.",
-      "Exit rule: leave after Crystal Beam check is tested unless Diamond hunt still improves the next attempt."
+      "Track Diamond as the main stop condition.",
+      "Do not spend Gem for ordinary Crystal Shard farming.",
+      "Leave when the rare route does not improve within a few attempts.",
+      "Return only when a build specifically needs Diamond."
     ],
     "common_mistakes": [
-      "Using Crystion outside its Crystion jewel lane role.",
-      "Treating Gem spend as free.",
-      "Chasing Crystal Shard and Diamond after the upgrade is already solved."
+      "Using Crystion as a general canyon attacker.",
+      "Spending Gem without Night / Snow value.",
+      "Continuing after Diamond is already solved."
     ],
     "faqs": [
       {
         "question": "Where do you find Crystion?",
-        "answer": "Gemstone Canyon, Night / Snow, with Gem saved for a known Diamond hunt attempt."
+        "answer": "Crystion appears in Gemstone Canyon during Night / Snow routes. Gem is the commitment food."
       },
       {
-        "question": "What is the main reason to use Crystion?",
-        "answer": "Crystion jewel lane: Diamond hunt, canyon jewel branch, and Power Gem pressure."
+        "question": "What is Crystion best for?",
+        "answer": "It is best for Diamond and Crystal Shard routes where Crystal Beam has a strong opener."
       },
       {
-        "question": "What does Crystion drop?",
-        "answer": "Crystal Shard and Diamond. For Crystion, those drops matter most when Diamond hunt and Power Gem pressure are part of the active plan."
-      },
-      {
-        "question": "Which local comparison matters?",
-        "answer": "Crystion follows Diamond value; Galebender follows Earth Gem value."
+        "question": "When should you skip Crystion?",
+        "answer": "Skip it when the goal is common stone, Earth Gem, or passive canyon safety."
       }
     ],
     "updated_at": "2026-05-26",
@@ -839,50 +795,46 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Emberal",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Emberal farming lane is the reason to read Emberal. A small fire salamander. Popular among beginners. In Volcanic Cave, the useful clues are Hot Pepper budget, common fire volume, and Flame Wheel pass. The drops, Fire Stone and Flame Ore, are secondary unless they connect to the next build step.",
+    "overview": "Emberal is the simple Volcanic Cave farmer: easy to route, cheap to feed, and useful when the next upgrade needs Flame Ore more than rare cave drops. It is not the flashiest Fire pick, but Ember into Flame Wheel gives beginners a stable way to test cave damage without spending premium materials.",
     "how_to_get": [
-      "Start with low-cost fire branch during Day / Sunny.",
-      "Hold Hot Pepper until Flame Ore loop has a clean approach.",
-      "Ember is the first proof point; Flame Wheel is the follow-up."
+      "Run Volcanic Cave during Day / Sunny when you only need a low-risk Fire attempt.",
+      "Save Hot Pepper until the first enemy group can be handled by Ember into Flame Wheel.",
+      "If the opening takes too long, reset and keep the Hot Pepper for another pass."
     ],
     "best_use": [
-      "Use Emberal when common fire volume matters.",
-      "Emberal handles common fire volume; Sunreep and Pikafire handle higher commitment branches.",
-      "starter cave damage should be visible within one or two attempts.",
-      "Material split: Fire Stone and Flame Ore should be judged through Flame Ore loop, Hot Pepper budget, and Flame Wheel pass."
+      "Use Emberal when Flame Ore is the main reason for entering the cave.",
+      "Use it for starter cave damage checks before moving to Pikafire or Sunreep.",
+      "It works best when the goal is repeatable Fire pressure, not rare drop hunting.",
+      "A good Emberal run should answer whether the cave can be farmed cheaply."
     ],
     "team_tips": [
-      "One support slot should cover the weakness created by Flame Ore loop.",
-      "Avoid carrying teammates for unrelated drops.",
-      "Ember opener is the route identity."
+      "Pair Emberal with one stable defender so Flame Wheel can finish instead of rescue the fight.",
+      "Keep the party cheap; expensive support defeats Emberal’s main advantage.",
+      "Add Electric or Rock coverage only if the current cave pull repeatedly blocks Ember."
     ],
     "farming_notes": [
-      "Farm for Fire Stone and Flame Ore, not for completion.",
-      "Reset if low-cost fire branch misses the target.",
-      "Return later if Hot Pepper becomes the bottleneck.",
-      "Exit rule: leave after Ember opener is tested unless Flame Ore loop still improves the next attempt."
+      "Count Flame Ore first and Fire Stone second; Emberal is mainly a volume farmer.",
+      "Hot Pepper should be spent on repeatable routes, not one lucky clear.",
+      "Stop once the Flame Ore requirement is met and move to a stronger Fire branch if needed.",
+      "Return when a new recipe or upgrade asks for common Fire materials."
     ],
     "common_mistakes": [
-      "Copying a nearby Pokemon plan onto Emberal.",
-      "Spending food before the Flame Ore loop test.",
-      "Ignoring the difference between common fire volume and generic farming."
+      "Treating Emberal like a premium attacker instead of a low-cost farming choice.",
+      "Staying in Volcanic Cave after Flame Ore is already stocked.",
+      "Comparing it to Pikafire without checking whether Electric reach is needed."
     ],
     "faqs": [
       {
         "question": "Where do you find Emberal?",
-        "answer": "Volcanic Cave, Day / Sunny, with Hot Pepper saved for a known Flame Ore loop attempt."
+        "answer": "Emberal is found in Volcanic Cave during Day / Sunny routes, usually with Hot Pepper saved for a clean Fire opener."
       },
       {
-        "question": "What is the main reason to use Emberal?",
-        "answer": "Emberal farming lane: Flame Ore loop, common fire volume, and Flame Wheel pass."
+        "question": "What is Emberal best for?",
+        "answer": "Emberal is best for repeatable Flame Ore farming and early Fire damage checks."
       },
       {
-        "question": "What does Emberal drop?",
-        "answer": "Fire Stone and Flame Ore. For Emberal, those drops matter most when Flame Ore loop and Flame Wheel pass are part of the active plan."
-      },
-      {
-        "question": "Which local comparison matters?",
-        "answer": "Emberal handles common fire volume; Sunreep and Pikafire handle higher commitment branches."
+        "question": "When should you replace Emberal?",
+        "answer": "Replace it when the route needs Electric reach, Steel durability, or a rarer cave payoff."
       }
     ],
     "updated_at": "2026-05-26",
@@ -1101,50 +1053,46 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Thornvine",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Thornvine wall lane is the reason to read Thornvine. A thorny plant Pokemon. Great for defensive teams. In Forest Valley, the useful clues are Berry sustain, rain grass wall, and Power Whip check. The drops, Leaf and Thorn, are secondary unless they connect to the next build step.",
+    "overview": "Thornvine is the rainy Forest Valley attrition wall. Berry starts the route, Leech Seed keeps it alive, and Power Whip gives the page enough threat to matter. Use it when Leaf and Thorn are tied to a defensive plan rather than a fast clear.",
     "how_to_get": [
-      "Start with thorny forest path during Any / Rain.",
-      "Hold Berry until Thorn material lane has a clean approach.",
-      "Bullet Seed is the first proof point; Leech Seed is the follow-up."
+      "Run Forest Valley during Any / Rain and check whether the enemies can be worn down safely.",
+      "Spend Berry when Leech Seed can land early enough to change the fight.",
+      "Use Power Whip to finish the test once the route is stabilized."
     ],
     "best_use": [
-      "Use Thornvine when rain grass wall matters.",
-      "Thornvine is plant attrition, not canyon mining.",
-      "plant attrition route should be visible within one or two attempts.",
-      "Material split: Leaf and Thorn should be judged through Thorn material lane, Berry sustain, and Power Whip check."
+      "Use Thornvine when a team needs rain-resistant Grass defense and Thorn materials.",
+      "Choose it over Bulbin when starter protection is no longer enough.",
+      "Choose it over Tropius when the route is ground forest attrition, not air support.",
+      "A successful run should show that Leech Seed reduces the pressure of the branch."
     ],
     "team_tips": [
-      "One support slot should cover the weakness created by Thorn material lane.",
-      "Avoid carrying teammates for unrelated drops.",
-      "Leech Seed defense is the route identity."
+      "Pair Thornvine with a teammate that can handle enemies resistant to Grass damage.",
+      "Let Thornvine absorb long fights while the rest of the party handles burst windows.",
+      "Do not add another slow wall unless the route is built for attrition."
     ],
     "farming_notes": [
-      "Farm for Leaf and Thorn, not for completion.",
-      "Reset if thorny forest path misses the target.",
-      "Return later if Berry becomes the bottleneck.",
-      "Exit rule: leave after Leech Seed defense is tested unless Thorn material lane still improves the next attempt."
+      "Track Thorn as the main reason to return; Leaf is usually the secondary gain.",
+      "Berry is worth spending only when Leech Seed can be used early.",
+      "Stop when the defensive material requirement is finished.",
+      "Return for rainy forest routes where sustain is more valuable than speed."
     ],
     "common_mistakes": [
-      "Copying a nearby Pokemon plan onto Thornvine.",
-      "Spending food before the Thorn material lane test.",
-      "Ignoring the difference between rain grass wall and generic farming."
+      "Using Thornvine for fast Grass farming when a lighter pick would do.",
+      "Waiting too long to apply Leech Seed.",
+      "Confusing its ground attrition role with Tropius-style air support."
     ],
     "faqs": [
       {
         "question": "Where do you find Thornvine?",
-        "answer": "Forest Valley, Any / Rain, with Berry saved for a known Thorn material lane attempt."
+        "answer": "Thornvine appears in Forest Valley during Any / Rain routes. Berry supports its Leech Seed plan."
       },
       {
-        "question": "What is the main reason to use Thornvine?",
-        "answer": "Thornvine wall lane: Thorn material lane, rain grass wall, and Power Whip check."
+        "question": "What is Thornvine best for?",
+        "answer": "It is best for rainy forest attrition, Thorn collection, and defensive Grass routes."
       },
       {
-        "question": "What does Thornvine drop?",
-        "answer": "Leaf and Thorn. For Thornvine, those drops matter most when Thorn material lane and Power Whip check are part of the active plan."
-      },
-      {
-        "question": "Which local comparison matters?",
-        "answer": "Thornvine is plant attrition, not canyon mining."
+        "question": "When should you skip Thornvine?",
+        "answer": "Skip it when the goal is a fast clear or when the team already has enough sustain."
       }
     ],
     "updated_at": "2026-05-26",
@@ -1170,50 +1118,46 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Mudkipz",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Mudkipz is a narrow mud material pass option, not a general checklist entry. A playful water dog. Loves playing in mud. The page matters when ordinary rain attacker and Water Stone backup are more important than clearing every branch in Muddy River. Mudkipz keeps the river practical; Stealthfin and Toxifin narrow the hunt.",
+    "overview": "Mudkipz is the practical Muddy River attacker for rainy runs that need Water and Ground coverage without a rare-hunt commitment. Mud Ball sets up the route, Water Gun checks the opening, and Mud Shot decides whether the run has enough control to continue.",
     "how_to_get": [
-      "Use the Any / Rain window for the serious attempt.",
-      "Save Mud Ball for the mud material pass attempt after the path is stable.",
-      "Test Water Gun before judging Mud Shot value."
+      "Run Muddy River during Any / Rain and verify the first water-ground matchup.",
+      "Use Mud Ball only after Water Gun can start the fight safely.",
+      "Continue with Mud Shot if the enemy group can be slowed; otherwise end the attempt early."
     ],
     "best_use": [
-      "The strongest case is Water Stone backup.",
-      "river ground blend is the practical map clue.",
-      "Mud Stone and Water Stone should have a destination before the run starts.",
-      "Material split: Mud Stone and Water Stone should be judged through mud material pass, Mud Ball route, and Mud Shot value."
+      "Use Mudkipz when Mud Stone and Water Stone are both useful to the next upgrade path.",
+      "It is better for ordinary rain attacks than Stealthfin or Toxifin, which serve narrower hunts.",
+      "Choose it when the team needs flexible coverage rather than poison or stealth play.",
+      "A good route should prove whether rainy river fights are manageable."
     ],
     "team_tips": [
-      "Pair Mudkipz with a teammate that makes Water Gun opener safer.",
-      "Keep the team focused on mud material pass and Water Gun opener; unrelated material goals should wait.",
-      "Swap out if Mudkipz utility lane stops solving the active problem."
+      "Add one Grass-resistant teammate because Mudkipz dislikes the obvious counter route.",
+      "Let Mudkipz handle opening pressure while another teammate cleans up stalled targets.",
+      "Avoid support picks that slow the run without protecting the first Water Gun turn."
     ],
     "farming_notes": [
-      "Stop after the ordinary rain attacker result is known.",
-      "Count food spent against Mud Stone and Water Stone.",
-      "Do another attempt only when Mud Shot value changes the route.",
-      "Exit rule: leave after Water Gun opener is tested unless mud material pass still improves the next attempt."
+      "Track Mud Stone and Water Stone separately; they often block different upgrades.",
+      "Mud Ball should be saved for rainy attempts with a clear opening target.",
+      "Stop once the river no longer improves the current Water/Ground build.",
+      "Return when a recipe or team build needs both ground and water materials."
     ],
     "common_mistakes": [
-      "Turning mud material pass into a full clear.",
-      "Comparing only rarity.",
-      "Forgetting that mudkipz keeps the river practical; stealthfin and toxifin narrow the hunt."
+      "Forcing Mudkipz into specialized poison or stealth routes.",
+      "Ignoring the rain requirement and blaming the Pokémon for weak pacing.",
+      "Continuing after only one of the two stone drops is still relevant."
     ],
     "faqs": [
       {
         "question": "Where do you find Mudkipz?",
-        "answer": "Muddy River, Any / Rain, with Mud Ball saved for a known mud material pass attempt."
+        "answer": "Mudkipz appears in Muddy River during Any / Rain routes. Mud Ball should be saved for a real water-ground attempt."
       },
       {
-        "question": "What is the main reason to use Mudkipz?",
-        "answer": "Mudkipz utility lane: mud material pass, ordinary rain attacker, and Mud Shot value."
+        "question": "What is Mudkipz best for?",
+        "answer": "It is best for practical rainy attacks and combined Mud Stone plus Water Stone progress."
       },
       {
-        "question": "What does Mudkipz drop?",
-        "answer": "Mud Stone and Water Stone. For Mudkipz, those drops matter most when mud material pass and Mud Shot value are part of the active plan."
-      },
-      {
-        "question": "Which local comparison matters?",
-        "answer": "Mudkipz keeps the river practical; Stealthfin and Toxifin narrow the hunt."
+        "question": "When should you choose another river Pokémon?",
+        "answer": "Choose another option when the goal is poison, stealth, or a rare river-specific material."
       }
     ],
     "updated_at": "2026-05-26",
@@ -1239,50 +1183,46 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Bronzorm",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "For Ancient Ruins, Bronzorm covers Bronzorm medal lane. An ancient bronze statue that came to life. The decision point is Recover tempo: if that fails, Coin spend and Metal Coat and Bronze Medal are not enough reason to keep going. Bronzorm recovers and supports; Ironclaw pushes direct damage.",
+    "overview": "Bronzorm is an Ancient Ruins support wall for cloudy daytime routes. Coin starts the attempt, Psychic controls awkward enemies, and Recover or Iron Defense gives slower teams time to finish. Use it when Bronze Medal and Metal Coat are both useful.",
     "how_to_get": [
-      "Scout bronze relic branch once without spending extra food.",
-      "Commit Coin only in Day / Cloudy.",
-      "Use Psychic and Flash Cannon as the short test."
+      "Run Ancient Ruins during Day / Cloudy and check whether the first fight rewards support.",
+      "Spend Coin after Psychic can control a meaningful target.",
+      "Use Recover to test staying power before extending the ruins route."
     ],
     "best_use": [
-      "Best for Bronze Medal support.",
-      "Useful when ancient psychic statue is the named goal.",
-      "Weak when the session asks for another local material.",
-      "Material split: Metal Coat and Bronze Medal should be judged through Bronze Medal support, Coin spend, and Psychic setup."
+      "Use Bronzorm when a ruins team needs support instead of raw damage.",
+      "Choose it over Ironclaw when recovery and setup matter more than finishing power.",
+      "Bronze Medal should be the named reason to farm this page.",
+      "A good attempt should make the ruins route safer, not necessarily faster."
     ],
     "team_tips": [
-      "The team should make room for Psychic setup.",
-      "Bring a fallback for the fight Steel/Psychic dislikes.",
-      "Do not let ruin sustain route expand into several unrelated objectives."
+      "Pair Bronzorm with a strong attacker that benefits from Recover-backed pacing.",
+      "Bring coverage for Dark or Fire pressure if the ruins route includes it.",
+      "Avoid stacking too many defensive supports."
     ],
     "farming_notes": [
-      "Write down Metal Coat and Bronze Medal after each attempt.",
-      "Move on if ruin sustain route is not improving.",
-      "Coin is the limiting cost.",
-      "Exit rule: leave after Recover tempo is tested unless Bronze Medal support still improves the next attempt."
+      "Track Bronze Medal first and Metal Coat second.",
+      "Coin should be spent only when the route needs support control.",
+      "Stop after the medal requirement is met.",
+      "Return when an Ancient Ruins build needs a stable support core."
     ],
     "common_mistakes": [
-      "Using Bronzorm as a generic Support.",
-      "Ignoring Day / Cloudy.",
-      "Treating Metal Coat and Bronze Medal as useful without a plan."
+      "Treating Bronzorm as a damage carry.",
+      "Farming Metal Coat here without needing Bronze Medal.",
+      "Using Recover too late to change the fight."
     ],
     "faqs": [
       {
         "question": "Where do you find Bronzorm?",
-        "answer": "Ancient Ruins, Day / Cloudy, with Coin saved for a known Bronze Medal support attempt."
+        "answer": "Bronzorm appears in Ancient Ruins during Day / Cloudy routes. Coin is the key food."
       },
       {
-        "question": "What is the main reason to use Bronzorm?",
-        "answer": "Bronzorm medal lane: Bronze Medal support, ancient psychic statue, and Psychic setup."
+        "question": "What is Bronzorm best for?",
+        "answer": "It is best for Bronze Medal farming, Psychic control, Recover support, and slower ruins teams."
       },
       {
-        "question": "What does Bronzorm drop?",
-        "answer": "Metal Coat and Bronze Medal. For Bronzorm, those drops matter most when Bronze Medal support and Psychic setup are part of the active plan."
-      },
-      {
-        "question": "Which local comparison matters?",
-        "answer": "Bronzorm recovers and supports; Ironclaw pushes direct damage."
+        "question": "When is Ironclaw better?",
+        "answer": "Ironclaw is better when the route needs a Steel/Fighting finisher instead of support."
       }
     ],
     "updated_at": "2026-05-26",
@@ -1502,50 +1442,46 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Sunflora",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "For Forest Valley, Sunflora covers Sunflora burst lane. A flower that thrives in sunlight. Chaotic battle style. The decision point is Sunny Day setup: if that fails, Weather Ball route and Sun Stone and Flame Ore are not enough reason to keep going. Sunflora needs sunlight and Sun Stone payoff.",
+    "overview": "Sunflora is a sunny Forest Valley attacker built around weather payoff. Sunstone funds the route, Sunny Day powers the plan, and Solar Beam or Weather Ball decides whether the sunlight turn was worth the cost.",
     "how_to_get": [
-      "Scout sunny flower path once without spending extra food.",
-      "Commit Sunstone only in Day / Sunny.",
-      "Use Solar Beam and Fire Blast as the short test."
+      "Run Forest Valley during Day / Sunny and confirm the route has enough time for Sunny Day.",
+      "Spend Sunstone only when Solar Beam can punish the next target.",
+      "Use Weather Ball to test whether the sun route has flexible damage."
     ],
     "best_use": [
-      "Best for Sun Stone burst.",
-      "Useful when grass-fire flower is the named goal.",
-      "Weak when the session asks for another local material.",
-      "Material split: Sun Stone and Flame Ore should be judged through Sun Stone burst, Weather Ball route, and Solar Beam opener."
+      "Use Sunflora when Sun Stone and Flame Ore are both tied to a Grass/Fire build.",
+      "Choose it over Thornvine when speed and sunlight matter more than rain attrition.",
+      "Choose it over Sunreep when you need Grass/Fire pressure instead of Fire/Steel durability.",
+      "A good run should turn sunlight into a clear damage advantage."
     ],
     "team_tips": [
-      "The team should make room for Solar Beam opener.",
-      "Bring a fallback for the fight Grass/Fire dislikes.",
-      "Do not let daylight Flame Ore expand into several unrelated objectives."
+      "Bring a teammate that benefits from Sunny Day rather than fighting against it.",
+      "Protect Sunflora during the setup turn.",
+      "Avoid rain-based partners on this route."
     ],
     "farming_notes": [
-      "Write down Sun Stone and Flame Ore after each attempt.",
-      "Move on if daylight Flame Ore is not improving.",
-      "Sunstone is the limiting cost.",
-      "Exit rule: leave after Sunny Day setup is tested unless Sun Stone burst still improves the next attempt."
+      "Track Sun Stone as the main reason to return.",
+      "Sunstone should not be spent if Solar Beam cannot resolve a key target.",
+      "Stop when the Grass/Fire build no longer needs Flame Ore.",
+      "Return for sunny forest routes with real weather synergy."
     ],
     "common_mistakes": [
-      "Using Sunflora as a generic Attacker.",
-      "Ignoring Day / Sunny.",
-      "Treating Sun Stone and Flame Ore as useful without a plan."
+      "Using Sunflora without enough time for Sunny Day.",
+      "Farming Flame Ore here when a cave route would be cheaper.",
+      "Ignoring weather synergy and judging only the base moves."
     ],
     "faqs": [
       {
         "question": "Where do you find Sunflora?",
-        "answer": "Forest Valley, Day / Sunny, with Sunstone saved for a known Sun Stone burst attempt."
+        "answer": "Sunflora appears in Forest Valley during Day / Sunny routes. Sunstone is the commitment food."
       },
       {
-        "question": "What is the main reason to use Sunflora?",
-        "answer": "Sunflora burst lane: Sun Stone burst, grass-fire flower, and Solar Beam opener."
+        "question": "What is Sunflora best for?",
+        "answer": "It is best for Sunny Day routes, Solar Beam payoff, Sun Stone, and Flame Ore overlap."
       },
       {
-        "question": "What does Sunflora drop?",
-        "answer": "Sun Stone and Flame Ore. For Sunflora, those drops matter most when Sun Stone burst and Solar Beam opener are part of the active plan."
-      },
-      {
-        "question": "Which local comparison matters?",
-        "answer": "Sunflora needs sunlight and Sun Stone payoff."
+        "question": "When should you skip Sunflora?",
+        "answer": "Skip it when the route is rainy, defensive, or only needs cheap Fire material."
       }
     ],
     "updated_at": "2026-05-26",
@@ -1571,50 +1507,46 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Magnedex",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Magnedex works as Magnedex coil lane inside Windmill Plains. A magnetic robot Pokemon. Attracts steel-types. Its plan leans on Magnet pivot, Metal Coil focus, and Volt Switch rotation; the reward is Metal Coil and Magnet. Magnedex rotates Magnet value; Mechabit holds Piston pressure.",
+    "overview": "Magnedex is the Windmill Plains magnet pivot. Magnet pays for the attempt, Volt Switch keeps the route moving, and Magnet Bomb or Protect decides whether the team can control Thunderstorm pressure without becoming too slow.",
     "how_to_get": [
-      "Check Any / Thunderstorm first; Magnet is wasted if Volt Switch rotation cannot happen.",
-      "Magnet Bomb opens the attempt and Thunderbolt decides whether Thunderstorm machine wall is worth repeating.",
-      "End the pass when magnetic material pass is answered."
+      "Run Windmill Plains during Any / Thunderstorm and scout for Steel or Electric value.",
+      "Spend Magnet after Volt Switch has a useful pivot target.",
+      "Use Protect to confirm whether the route can survive longer fights."
     ],
     "best_use": [
-      "Choose Magnedex for Magnet pivot.",
-      "Thunderstorm machine wall is the measurable reason to return.",
-      "Magnedex rotates Magnet value; Mechabit holds Piston pressure.",
-      "Material split: Metal Coil and Magnet should be judged through Magnet pivot, Metal Coil focus, and Magnet Bomb opener."
+      "Use Magnedex when Metal Coil and Magnet both support the active upgrade path.",
+      "Choose it over Zaprat when pivot safety matters more than pure speed.",
+      "Choose it over Mechabit when the team needs movement, not a wall.",
+      "A good attempt should make switching and Electric pressure cleaner."
     ],
     "team_tips": [
-      "Protect Volt Switch rotation with one teammate that covers bad matchups.",
-      "Magnet Bomb opener should support the planned fight, not random clears.",
-      "Keep the party light if machine rotation route is only a material check."
+      "Pair Magnedex with an attacker that benefits from Volt Switch positioning.",
+      "Bring Ground coverage protection if the route threatens Electric/Steel typing.",
+      "Avoid pairing it with too many slow setup picks."
     ],
     "farming_notes": [
-      "Log Metal Coil and Magnet separately from clear time.",
-      "Magnet belongs to confirmed machine rotation route attempts.",
-      "Pause when magnetic material pass no longer changes the build.",
-      "Exit rule: leave after Volt Switch rotation is tested unless Magnet pivot still improves the next attempt."
+      "Track Metal Coil as the route-specific material.",
+      "Magnet should be spent only when the pivot plan has a real target.",
+      "Stop once Metal Coil or Magnet requirements are complete.",
+      "Return for Thunderstorm routes where positioning matters."
     ],
     "common_mistakes": [
-      "Using Magnedex outside its Magnedex coil lane role.",
-      "Treating Metal Coil focus as free.",
-      "Chasing Metal Coil and Magnet after the upgrade is already solved."
+      "Using Magnedex as a pure tank when Mechabit fits better.",
+      "Spending Magnet without a planned Volt Switch target.",
+      "Ignoring Ground counters on Thunderstorm routes."
     ],
     "faqs": [
       {
         "question": "Where do you find Magnedex?",
-        "answer": "Windmill Plains, Any / Thunderstorm, with Magnet saved for a known Magnet pivot attempt."
+        "answer": "Magnedex appears in Windmill Plains during Any / Thunderstorm routes. Magnet is the key food."
       },
       {
-        "question": "What is the main reason to use Magnedex?",
-        "answer": "Magnedex coil lane: Magnet pivot, Thunderstorm machine wall, and Magnet Bomb opener."
+        "question": "What is Magnedex best for?",
+        "answer": "It is best for Metal Coil farming, Magnet value, Volt Switch positioning, and Electric/Steel pivots."
       },
       {
-        "question": "What does Magnedex drop?",
-        "answer": "Metal Coil and Magnet. For Magnedex, those drops matter most when Magnet pivot and Magnet Bomb opener are part of the active plan."
-      },
-      {
-        "question": "Which local comparison matters?",
-        "answer": "Magnedex rotates Magnet value; Mechabit holds Piston pressure."
+        "question": "When is Mechabit better?",
+        "answer": "Mechabit is better when the route needs a wall and Piston progress."
       }
     ],
     "updated_at": "2026-05-26",
@@ -1640,50 +1572,46 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Tropius",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Tropius support lane is the reason to read Tropius. A tropical flying dinosaur. Produces delicious fruit. In Sky Isles, the useful clues are Roost sustain, air-grass support route, and Energy Ball angle. The drops, Leaf and Dragon Scale, are secondary unless they connect to the next build step.",
+    "overview": "Tropius is the Sky Isles support pick for long air routes. Tropical Fruit gives the attempt a clear cost, Air Slash handles the opener, and Roost or Synthesis keeps the party moving when lighter flyers run out of health. Its Dragon Scale value is a bonus only when the build already needs it.",
     "how_to_get": [
-      "Start with flying fruit path during Day / Clear.",
-      "Hold Tropical Fruit until Tropical Fruit support has a clean approach.",
-      "Air Slash is the first proof point; Roost is the follow-up."
+      "Run Sky Isles during Day / Clear and scout whether the route is long enough for Roost to matter.",
+      "Spend Tropical Fruit after Air Slash can control the first flying pack.",
+      "Use Roost before the team is in danger; waiting too long wastes Tropius’s role."
     ],
     "best_use": [
-      "Use Tropius when air-grass support route matters.",
-      "Tropius keeps long air routes alive rather than chasing rare crystal payoff.",
-      "long Sky Isles safety should be visible within one or two attempts.",
-      "Material split: Leaf and Dragon Scale should be judged through Tropical Fruit support, Roost sustain, and Energy Ball angle."
+      "Use Tropius when Sky Isles needs sustain more than raw speed.",
+      "Choose it over Crystalwing when rare crystal payoff is not the goal.",
+      "Choose it over Lightspeed when the route needs staying power instead of speed benchmarks.",
+      "A good Tropius run keeps the air route alive while collecting Leaf and Dragon Scale."
     ],
     "team_tips": [
-      "One support slot should cover the weakness created by Tropical Fruit support.",
-      "Avoid carrying teammates for unrelated drops.",
-      "Dragon Scale side value is the route identity."
+      "Pair Tropius with a high-damage teammate so Roost buys useful turns.",
+      "Bring coverage for Ice or Rock pressure if the route includes those threats.",
+      "Do not overload the party with support; Tropius already fills the sustain slot."
     ],
     "farming_notes": [
-      "Farm for Leaf and Dragon Scale, not for completion.",
-      "Reset if flying fruit path misses the target.",
-      "Return later if Tropical Fruit becomes the bottleneck.",
-      "Exit rule: leave after Dragon Scale side value is tested unless Tropical Fruit support still improves the next attempt."
+      "Treat Dragon Scale as the special reason to return and Leaf as the side reward.",
+      "Tropical Fruit should be spent only on long routes where healing changes the outcome.",
+      "Stop when the team no longer needs sustain or Dragon Scale progress.",
+      "Return when a Sky Isles build needs both air support and Grass/Flying utility."
     ],
     "common_mistakes": [
-      "Copying a nearby Pokemon plan onto Tropius.",
-      "Spending food before the Tropical Fruit support test.",
-      "Ignoring the difference between air-grass support route and generic farming."
+      "Using Tropius for short Sky Isles clears where Roost never matters.",
+      "Chasing Dragon Scale without a build that uses it.",
+      "Comparing it to faster flyers without considering route length."
     ],
     "faqs": [
       {
         "question": "Where do you find Tropius?",
-        "answer": "Sky Isles, Day / Clear, with Tropical Fruit saved for a known Tropical Fruit support attempt."
+        "answer": "Tropius appears in Sky Isles during Day / Clear routes. Tropical Fruit should be saved for longer support runs."
       },
       {
-        "question": "What is the main reason to use Tropius?",
-        "answer": "Tropius support lane: Tropical Fruit support, air-grass support route, and Energy Ball angle."
+        "question": "What is Tropius best for?",
+        "answer": "It is best for long Sky Isles routes that need Roost, Synthesis, Leaf, and Dragon Scale value."
       },
       {
-        "question": "What does Tropius drop?",
-        "answer": "Leaf and Dragon Scale. For Tropius, those drops matter most when Tropical Fruit support and Energy Ball angle are part of the active plan."
-      },
-      {
-        "question": "Which local comparison matters?",
-        "answer": "Tropius keeps long air routes alive rather than chasing rare crystal payoff."
+        "question": "Is Tropius a speed pick?",
+        "answer": "No. It is a sustain support, not a speed benchmark Pokémon."
       }
     ],
     "updated_at": "2026-05-26",
@@ -1709,50 +1637,46 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Skittlish",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Skittlish is a narrow Cookie support test option, not a general checklist entry. A hyperactive creature. Always bouncing around. The page matters when Body Slam utility and cheap normal support are more important than clearing every branch in Forest Valley. Skittlish is forest practice; Tidlet is snow practice.",
+    "overview": "Skittlish is a Forest Valley practice support for players who want cheap control instead of heavy damage. Cookie lets you test a bouncy normal-support route, while Cotton Guard and Body Slam help stabilize awkward early fights. It is most useful when the team needs time to set up, not when the goal is rare loot.",
     "how_to_get": [
-      "Use the Day / Cloudy window for the serious attempt.",
-      "Save Cookie for the Cookie support test attempt after the path is stable.",
-      "Test Playful before judging Playful opener."
+      "Enter Forest Valley during Day / Cloudy and check whether the first pack can be controlled safely.",
+      "Spend Cookie after Cotton Guard can protect the setup turn.",
+      "Use Body Slam to confirm the route; if it does not slow the fight enough, leave and save resources."
     ],
     "best_use": [
-      "The strongest case is cheap normal support.",
-      "cloudy bounce route is the practical map clue.",
-      "Fur and Cloth should have a destination before the run starts.",
-      "Material split: Fur and Cloth should be judged through Cookie support test, Cotton Guard bounce, and Body Slam utility."
+      "Use Skittlish when a fragile attacker needs a cheap support slot.",
+      "It is a better practice pick than Tidlet when you are learning Forest Valley instead of Frost Peak.",
+      "Fur and Cloth are useful only if the current craft path actually needs them.",
+      "A good Skittlish attempt makes the next teammate safer, not necessarily faster."
     ],
     "team_tips": [
-      "Pair Skittlish with a teammate that makes forest practice slot safer.",
-      "Keep the team focused on Cookie support test and forest practice slot; unrelated material goals should wait.",
-      "Swap out if Skittlish practice lane stops solving the active problem."
+      "Put Skittlish beside one attacker that benefits from extra setup time.",
+      "Avoid stacking multiple low-damage supports in the same run.",
+      "Use Body Slam as a timing tool before spending more Cookie."
     ],
     "farming_notes": [
-      "Stop after the Body Slam utility result is known.",
-      "Count food spent against Fur and Cloth.",
-      "Do another attempt only when Playful opener changes the route.",
-      "Exit rule: leave after forest practice slot is tested unless Cookie support test still improves the next attempt."
+      "Track Fur and Cloth only while support gear is still unfinished.",
+      "Cookie should not be spent on routes where Cotton Guard cannot prevent early damage.",
+      "Stop once the team no longer needs a practice support slot.",
+      "Return when a new beginner composition needs safe setup turns."
     ],
     "common_mistakes": [
-      "Turning Cookie support test into a full clear.",
-      "Comparing only rarity.",
-      "Forgetting that skittlish is forest practice; tidlet is snow practice."
+      "Expecting Skittlish to carry damage like an attacker.",
+      "Running it for materials after Fur and Cloth are already stocked.",
+      "Using Cookie before checking whether Body Slam has a real target."
     ],
     "faqs": [
       {
         "question": "Where do you find Skittlish?",
-        "answer": "Forest Valley, Day / Cloudy, with Cookie saved for a known Cookie support test attempt."
+        "answer": "Skittlish appears in Forest Valley during Day / Cloudy routes. Cookie should be saved for Cotton Guard setup."
       },
       {
-        "question": "What is the main reason to use Skittlish?",
-        "answer": "Skittlish practice lane: Cookie support test, Body Slam utility, and Playful opener."
+        "question": "What is Skittlish good for?",
+        "answer": "It is good for cheap support practice, setup protection, and Fur or Cloth collection."
       },
       {
-        "question": "What does Skittlish drop?",
-        "answer": "Fur and Cloth. For Skittlish, those drops matter most when Cookie support test and Body Slam utility are part of the active plan."
-      },
-      {
-        "question": "Which local comparison matters?",
-        "answer": "Skittlish is forest practice; Tidlet is snow practice."
+        "question": "Is Skittlish a farming carry?",
+        "answer": "No. It is a support pick that makes another Pokémon safer."
       }
     ],
     "updated_at": "2026-05-26",
@@ -2034,50 +1958,46 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Crystalwing",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "For Sky Isles, Crystalwing covers Crystalwing payoff lane. A majestic crystal bird. Its feathers shimmer like diamonds. The decision point is Diamond Storm opener: if that fails, Gem Shard spend and Crystal Shard and Feather are not enough reason to keep going. Crystalwing pays off rare crystal-feather overlap, not basic air speed.",
+    "overview": "Crystalwing is a premium Sky Isles attacker for rare crystal-feather overlap. Gem Shard is the commitment cost, Diamond Storm decides whether the route is real, and Roost keeps the attempt from collapsing after the first burst. Use it only when Crystal Shard and Feather both matter.",
     "how_to_get": [
-      "Scout rare air crystal once without spending extra food.",
-      "Commit Gem Shard only in Day / Windy.",
-      "Use Diamond Storm and Aerial Ace as the short test."
+      "Scout Sky Isles once without spending Gem Shard to confirm the rare air crystal route.",
+      "Commit during Day / Windy when Diamond Storm has a meaningful opener.",
+      "Use Aerial Ace after the burst to check whether the route can finish cleanly."
     ],
     "best_use": [
-      "Best for Crystalwing rare branch.",
-      "Useful when crystal feather overlap is the named goal.",
-      "Weak when the session asks for another local material.",
-      "Material split: Crystal Shard and Feather should be judged through Crystalwing rare branch, Gem Shard spend, and Roost fallback."
+      "Use Crystalwing when a build needs Crystal Shard and Feather from the same Sky Isles route.",
+      "Choose it over Tropius when rare payoff matters more than long-route healing.",
+      "Choose it over Lightspeed when crystal damage matters more than pure speed.",
+      "A good attempt should justify the Gem Shard cost quickly."
     ],
     "team_tips": [
-      "The team should make room for Roost fallback.",
-      "Bring a fallback for the fight Flying/Crystal dislikes.",
-      "Do not let Sky Isles jewel target expand into several unrelated objectives."
+      "Bring support that can protect Crystalwing after Diamond Storm is used.",
+      "Add a reliable finisher so the rare burst does not stall into a long fight.",
+      "Avoid side objectives; Gem Shard routes should stay narrow."
     ],
     "farming_notes": [
-      "Write down Crystal Shard and Feather after each attempt.",
-      "Move on if Sky Isles jewel target is not improving.",
-      "Gem Shard is the limiting cost.",
-      "Exit rule: leave after Diamond Storm opener is tested unless Crystalwing rare branch still improves the next attempt."
+      "Write down Crystal Shard and Feather after each committed attempt.",
+      "Gem Shard is expensive, so stop if Diamond Storm does not improve the opener.",
+      "Do not run Crystalwing for ordinary Feather farming.",
+      "Return when the next upgrade specifically asks for crystal and air materials together."
     ],
     "common_mistakes": [
-      "Using Crystalwing as a generic Attacker.",
-      "Ignoring Day / Windy.",
-      "Treating Crystal Shard and Feather as useful without a plan."
+      "Using Crystalwing as a generic Flying attacker.",
+      "Spending Gem Shard before confirming Day / Windy value.",
+      "Continuing the route after only Feather remains relevant."
     ],
     "faqs": [
       {
         "question": "Where do you find Crystalwing?",
-        "answer": "Sky Isles, Day / Windy, with Gem Shard saved for a known Crystalwing rare branch attempt."
+        "answer": "Crystalwing appears in Sky Isles during Day / Windy routes. Gem Shard should be saved for a confirmed rare branch."
       },
       {
-        "question": "What is the main reason to use Crystalwing?",
-        "answer": "Crystalwing payoff lane: Crystalwing rare branch, crystal feather overlap, and Roost fallback."
+        "question": "What is Crystalwing best for?",
+        "answer": "It is best for Crystal Shard plus Feather routes where Diamond Storm creates real burst value."
       },
       {
-        "question": "What does Crystalwing drop?",
-        "answer": "Crystal Shard and Feather. For Crystalwing, those drops matter most when Crystalwing rare branch and Roost fallback are part of the active plan."
-      },
-      {
-        "question": "Which local comparison matters?",
-        "answer": "Crystalwing pays off rare crystal-feather overlap, not basic air speed."
+        "question": "When should you skip Crystalwing?",
+        "answer": "Skip it when you only need ordinary Feather or long-route sustain."
       }
     ],
     "updated_at": "2026-05-26",
@@ -2103,50 +2023,46 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Thornback",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Thornback works as Thornback armor lane inside Forest Valley. A hardy rock bug. Its back is covered in protective thorns. Its plan leans on Bug Shell defender, rock-bug thorns, and Spikes setup; the reward is Stone and Bug Shell. Thornback adds rock-bug rewards; Bulbin is the safe starter wall.",
+    "overview": "Thornback is the cloudy Forest Valley defender for rock-bug material checks. Leaf makes it cheap to test, Protect stabilizes early hits, and Rock Blast or Spikes gives the route enough control to farm Bug Shell safely.",
     "how_to_get": [
-      "Check Any / Cloudy first; Leaf is wasted if Spikes setup cannot happen.",
-      "Rock Blast opens the attempt and Bug Bite decides whether Stone side farm is worth repeating.",
-      "End the pass when protective shell branch is answered."
+      "Run Forest Valley during Any / Cloudy and check the first defensive branch.",
+      "Spend Leaf when Protect can cover the opening turn.",
+      "Use Rock Blast to confirm damage and Spikes only if the fight will last."
     ],
     "best_use": [
-      "Choose Thornback for Bug Shell defender.",
-      "Stone side farm is the measurable reason to return.",
-      "Thornback adds rock-bug rewards; Bulbin is the safe starter wall.",
-      "Material split: Stone and Bug Shell should be judged through Bug Shell defender, rock-bug thorns, and Rock Blast control."
+      "Use Thornback when Stone and Bug Shell are both useful.",
+      "Choose it over Bulbin when you need rock-bug rewards instead of starter Grass safety.",
+      "Choose it over Skittlish when defense matters more than practice support.",
+      "A good run should make a cloudy forest branch safer and more controlled."
     ],
     "team_tips": [
-      "Protect Spikes setup with one teammate that covers bad matchups.",
-      "Rock Blast control should support the planned fight, not random clears.",
-      "Keep the party light if thornback shield route is only a material check."
+      "Pair Thornback with a teammate that handles enemies resistant to Rock or Bug.",
+      "Let Protect absorb key hits while another teammate finishes targets.",
+      "Keep the route material-focused and avoid long detours."
     ],
     "farming_notes": [
-      "Log Stone and Bug Shell separately from clear time.",
-      "Leaf belongs to confirmed thornback shield route attempts.",
-      "Pause when protective shell branch no longer changes the build.",
-      "Exit rule: leave after Spikes setup is tested unless Bug Shell defender still improves the next attempt."
+      "Track Bug Shell as the special drop and Stone as the shared material.",
+      "Leaf should be spent only when the branch needs a defender.",
+      "Stop after Bug Shell requirements are met.",
+      "Return when cloudy Forest Valley needs a cheap defensive shell route."
     ],
     "common_mistakes": [
-      "Using Thornback outside its Thornback armor lane role.",
-      "Treating rock-bug thorns as free.",
-      "Chasing Stone and Bug Shell after the upgrade is already solved."
+      "Using Thornback for general Grass farming.",
+      "Setting Spikes in fights that end too quickly.",
+      "Comparing it to Bulbin without checking the material target."
     ],
     "faqs": [
       {
         "question": "Where do you find Thornback?",
-        "answer": "Forest Valley, Any / Cloudy, with Leaf saved for a known Bug Shell defender attempt."
+        "answer": "Thornback appears in Forest Valley during Any / Cloudy routes. Leaf is enough for the attempt."
       },
       {
-        "question": "What is the main reason to use Thornback?",
-        "answer": "Thornback armor lane: Bug Shell defender, Stone side farm, and Rock Blast control."
+        "question": "What is Thornback best for?",
+        "answer": "It is best for Bug Shell, Stone, and cheap defensive forest routes."
       },
       {
-        "question": "What does Thornback drop?",
-        "answer": "Stone and Bug Shell. For Thornback, those drops matter most when Bug Shell defender and Rock Blast control are part of the active plan."
-      },
-      {
-        "question": "Which local comparison matters?",
-        "answer": "Thornback adds rock-bug rewards; Bulbin is the safe starter wall."
+        "question": "When should you use Bulbin instead?",
+        "answer": "Use Bulbin when the route needs beginner Grass safety rather than rock-bug materials."
       }
     ],
     "updated_at": "2026-05-26",
@@ -2172,50 +2088,46 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Emberfox",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Emberfox trick lane is the reason to read Emberfox. A mystical fire fox. Its tails contains ancient flames. In Volcanic Cave, the useful clues are Will-O-Wisp branch, fire-psychic pickoff, and Psybeam test. The drops, Fire Stone and Psy Crystal, are secondary unless they connect to the next build step.",
+    "overview": "Emberfox is the Volcanic Cave control pick for night routes where raw Fire damage is not enough. Hot Pepper enables the attempt, Fire Spin holds the fight in place, and Will-O-Wisp gives the page its identity as a Fire/Psychic disruptor.",
     "how_to_get": [
-      "Start with night control fox during Night / Clear.",
-      "Hold Hot Pepper until Psy Crystal control has a clean approach.",
-      "Fire Spin is the first proof point; Will-O-Wisp is the follow-up."
+      "Enter Volcanic Cave during Night / Clear and scout whether control matters more than burst.",
+      "Spend Hot Pepper when Fire Spin can trap the first dangerous target.",
+      "Use Psybeam or Will-O-Wisp to confirm whether the control route is worth continuing."
     ],
     "best_use": [
-      "Use Emberfox when fire-psychic pickoff matters.",
-      "Emberfox controls Psy Crystal branches; Charmuddy farms Ash.",
-      "Confuse Ray safety should be visible within one or two attempts.",
-      "Material split: Fire Stone and Psy Crystal should be judged through Psy Crystal control, Will-O-Wisp branch, and Psybeam test."
+      "Use Emberfox when Psy Crystal and Fire Stone both feed the current plan.",
+      "Choose it over Emberal when the cave fight needs disruption instead of cheap farming.",
+      "Choose it over Pikafire when status control matters more than Electric reach.",
+      "A good run should make a hard cave enemy safer, not merely faster."
     ],
     "team_tips": [
-      "One support slot should cover the weakness created by Psy Crystal control.",
-      "Avoid carrying teammates for unrelated drops.",
-      "Hot Pepper control run is the route identity."
+      "Pair Emberfox with a finisher that can punish enemies held by Fire Spin.",
+      "Bring one defensive slot because control routes can still take awkward counterhits.",
+      "Avoid duplicate status picks unless the route is built around slow control."
     ],
     "farming_notes": [
-      "Farm for Fire Stone and Psy Crystal, not for completion.",
-      "Reset if night control fox misses the target.",
-      "Return later if Hot Pepper becomes the bottleneck.",
-      "Exit rule: leave after Hot Pepper control run is tested unless Psy Crystal control still improves the next attempt."
+      "Track Psy Crystal as the distinguishing reward; Fire Stone is shared with other cave picks.",
+      "Hot Pepper should be saved for night routes where Will-O-Wisp changes the fight.",
+      "Leave if control does not reduce damage or create a clean finish.",
+      "Return when a Fire/Psychic build needs both materials and safer cave handling."
     ],
     "common_mistakes": [
-      "Copying a nearby Pokemon plan onto Emberfox.",
-      "Spending food before the Psy Crystal control test.",
-      "Ignoring the difference between fire-psychic pickoff and generic farming."
+      "Using Emberfox as a plain Fire attacker when Emberal is cheaper.",
+      "Ignoring Psy Crystal and farming only the common Fire drop.",
+      "Casting Will-O-Wisp after the dangerous part of the fight is already over."
     ],
     "faqs": [
       {
         "question": "Where do you find Emberfox?",
-        "answer": "Volcanic Cave, Night / Clear, with Hot Pepper saved for a known Psy Crystal control attempt."
+        "answer": "Emberfox appears in Volcanic Cave during Night / Clear routes. Hot Pepper should be kept for a control-focused attempt."
       },
       {
-        "question": "What is the main reason to use Emberfox?",
-        "answer": "Emberfox trick lane: Psy Crystal control, fire-psychic pickoff, and Psybeam test."
+        "question": "What makes Emberfox useful?",
+        "answer": "Fire Spin and Will-O-Wisp let it control cave fights while farming Psy Crystal and Fire Stone."
       },
       {
-        "question": "What does Emberfox drop?",
-        "answer": "Fire Stone and Psy Crystal. For Emberfox, those drops matter most when Psy Crystal control and Psybeam test are part of the active plan."
-      },
-      {
-        "question": "Which local comparison matters?",
-        "answer": "Emberfox controls Psy Crystal branches; Charmuddy farms Ash."
+        "question": "Is Emberfox a farming upgrade over Emberal?",
+        "answer": "Only when control or Psy Crystal matters. Emberal is still better for cheap Flame Ore volume."
       }
     ],
     "updated_at": "2026-05-26",
@@ -2241,50 +2153,46 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Aquashell",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Aquashell is a narrow shell defense loop option, not a general checklist entry. A water snail with a rock shell. Very defensive. The page matters when rock-shell safety and slow lake protector are more important than clearing every branch in Crystal Lake. Aquashell protects shell loops; Aquap teaches rain support.",
+    "overview": "Aquashell is a Crystal Lake wall for slow, safe shell runs. Pearl unlocks the attempt, Withdraw controls early damage, and Iron Defense turns the page into a defensive material route. Pick it when Shell and Pearl matter more than speed.",
     "how_to_get": [
-      "Use the Any / Rain window for the serious attempt.",
-      "Save Pearl for the shell defense loop attempt after the path is stable.",
-      "Test Water Gun before judging Iron Defense practice."
+      "Enter Crystal Lake during Any / Rain and check whether the first lake fight can be slowed.",
+      "Spend Pearl after Withdraw can cover the opening hit.",
+      "Use Iron Defense to confirm the shell route before committing to a longer pass."
     ],
     "best_use": [
-      "The strongest case is slow lake protector.",
-      "Pearl shell pass is the practical map clue.",
-      "Shell and Pearl should have a destination before the run starts.",
-      "Material split: Shell and Pearl should be judged through shell defense loop, Pearl food spend, and Iron Defense practice."
+      "Use Aquashell when a team needs a slow lake protector.",
+      "Choose it over Aquap when survival and Shell farming matter more than Rain Dance lessons.",
+      "It is strongest in routes where Pearl is already part of the upgrade plan.",
+      "A successful attempt reduces damage taken enough to justify the slower clear."
     ],
     "team_tips": [
-      "Pair Aquashell with a teammate that makes Withdraw timing safer.",
-      "Keep the team focused on shell defense loop and Withdraw timing; unrelated material goals should wait.",
-      "Swap out if Aquashell guard lane stops solving the active problem."
+      "Pair Aquashell with a damage dealer that benefits from extra defensive turns.",
+      "Do not stack it with another slow wall unless the route specifically requires it.",
+      "Bring coverage for enemies that ignore or punish defensive setup."
     ],
     "farming_notes": [
-      "Stop after the rock-shell safety result is known.",
-      "Count food spent against Shell and Pearl.",
-      "Do another attempt only when Iron Defense practice changes the route.",
-      "Exit rule: leave after Withdraw timing is tested unless shell defense loop still improves the next attempt."
+      "Treat Shell as the main repeatable drop and Pearl as the commitment cost.",
+      "Stop when the defensive gear or recipe requirement is complete.",
+      "Do not chase fast clear times with Aquashell; that is not its role.",
+      "Return when Crystal Lake safety is more important than material speed."
     ],
     "common_mistakes": [
-      "Turning shell defense loop into a full clear.",
-      "Comparing only rarity.",
-      "Forgetting that aquashell protects shell loops; aquap teaches rain support."
+      "Using Aquashell when the team actually needs Aquap’s support pacing.",
+      "Spending Pearl before Withdraw can protect the setup turn.",
+      "Judging the page by damage instead of damage prevented."
     ],
     "faqs": [
       {
         "question": "Where do you find Aquashell?",
-        "answer": "Crystal Lake, Any / Rain, with Pearl saved for a known shell defense loop attempt."
+        "answer": "Aquashell appears in Crystal Lake during Any / Rain routes. Pearl is the key food for its defensive run."
       },
       {
-        "question": "What is the main reason to use Aquashell?",
-        "answer": "Aquashell guard lane: shell defense loop, rock-shell safety, and Iron Defense practice."
+        "question": "What is Aquashell best for?",
+        "answer": "It is best for safe Shell and Pearl routes where Withdraw and Iron Defense reduce risk."
       },
       {
-        "question": "What does Aquashell drop?",
-        "answer": "Shell and Pearl. For Aquashell, those drops matter most when shell defense loop and Iron Defense practice are part of the active plan."
-      },
-      {
-        "question": "Which local comparison matters?",
-        "answer": "Aquashell protects shell loops; Aquap teaches rain support."
+        "question": "Is Aquashell faster than Aquap?",
+        "answer": "No. Aquashell is the safer wall; Aquap is better for lighter rain support."
       }
     ],
     "updated_at": "2026-05-26",
@@ -2310,50 +2218,46 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Zapbug",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "For Windmill Plains, Zapbug covers Zapbug budget lane. A small electric bug. Sparks fly when it moves. The decision point is Bug Shell side farm: if that fails, Mushroom budget and Thunder Stone and Bug Shell are not enough reason to keep going. Zapbug is the Bug Shell budget pick; Zaprat is the tempo scout.",
+    "overview": "Zapbug is the cloudy Windmill Plains speed control pick. Mushroom starts the route, Electroweb slows the target, and Spark or Bug Bite decides whether the small Electric/Bug package creates enough tempo.",
     "how_to_get": [
-      "Scout Cloudy insect check once without spending extra food.",
-      "Commit Mushroom only in Morning / Cloudy.",
-      "Use Spark and Bug Bite as the short test."
+      "Run Windmill Plains during Morning / Cloudy and scout the first speed-control target.",
+      "Spend Mushroom after Electroweb can slow the right enemy.",
+      "Use Spark for the damage check and leave if the route still trades poorly."
     ],
     "best_use": [
-      "Best for cloudy bug detour.",
-      "Useful when Electroweb slow setup is the named goal.",
-      "Weak when the session asks for another local material.",
-      "Material split: Thunder Stone and Bug Shell should be judged through cloudy bug detour, Mushroom budget, and Electroweb slow setup."
+      "Use Zapbug when Thunder Stone and Bug Shell both matter.",
+      "Choose it over Zaprat when slowing the enemy is more important than moving first.",
+      "Choose it over Magnedex when the team does not need a Steel pivot.",
+      "A good attempt should create tempo through Electroweb, not raw stats."
     ],
     "team_tips": [
-      "The team should make room for String Shot control.",
-      "Bring a fallback for the fight Electric/Bug dislikes.",
-      "Do not let cheap electric pass expand into several unrelated objectives."
+      "Pair Zapbug with a teammate that can exploit slowed enemies.",
+      "Bring a sturdier partner because Zapbug cannot hold long fights alone.",
+      "Avoid routes where Bug typing creates unnecessary risk."
     ],
     "farming_notes": [
-      "Write down Thunder Stone and Bug Shell after each attempt.",
-      "Move on if cheap electric pass is not improving.",
-      "Mushroom is the limiting cost.",
-      "Exit rule: leave after Bug Shell side farm is tested unless cloudy bug detour still improves the next attempt."
+      "Track Bug Shell separately from Thunder Stone.",
+      "Mushroom should be saved for cloudy routes where Electroweb has a real target.",
+      "Stop once the bug material requirement is complete.",
+      "Return when a Windmill route needs speed control and Electric pressure together."
     ],
     "common_mistakes": [
-      "Using Zapbug as a generic Speedster.",
-      "Ignoring Morning / Cloudy.",
-      "Treating Thunder Stone and Bug Shell as useful without a plan."
+      "Using Zapbug as a raw damage speedster.",
+      "Casting Electroweb on targets that are already easy to control.",
+      "Farming Thunder Stone here when Bug Shell is no longer needed."
     ],
     "faqs": [
       {
         "question": "Where do you find Zapbug?",
-        "answer": "Windmill Plains, Morning / Cloudy, with Mushroom saved for a known cloudy bug detour attempt."
+        "answer": "Zapbug appears in Windmill Plains during Morning / Cloudy routes. Mushroom is the key food."
       },
       {
-        "question": "What is the main reason to use Zapbug?",
-        "answer": "Zapbug budget lane: cloudy bug detour, Electroweb slow setup, and String Shot control."
+        "question": "What is Zapbug best for?",
+        "answer": "It is best for Electroweb speed control, Thunder Stone progress, and Bug Shell collection."
       },
       {
-        "question": "What does Zapbug drop?",
-        "answer": "Thunder Stone and Bug Shell. For Zapbug, those drops matter most when cloudy bug detour and Electroweb slow setup are part of the active plan."
-      },
-      {
-        "question": "Which local comparison matters?",
-        "answer": "Zapbug is the Bug Shell budget pick; Zaprat is the tempo scout."
+        "question": "When should you pick Zaprat instead?",
+        "answer": "Pick Zaprat when you need a faster scout and do not need Bug Shell."
       }
     ],
     "updated_at": "2026-05-26",
@@ -2443,50 +2347,46 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Ironclaw",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Ironclaw pressure lane is the reason to read Ironclaw. A fighting robot. Its claws can cut through steel. In Ancient Ruins, the useful clues are Iron Ore branch, ruin fight finisher, and Karate Chop angle. The drops, Metal Coat and Piston, are secondary unless they connect to the next build step.",
+    "overview": "Ironclaw is the Ancient Ruins finisher for cloudy routes where Steel/Fighting pressure is needed. Iron Ore pays for the attempt, Metal Claw opens the route, and Karate Chop or Swords Dance decides whether it can end the fight before the ruins grind the team down.",
     "how_to_get": [
-      "Start with cloudy relic fight during Any / Cloudy.",
-      "Hold Iron Ore until Piston pressure has a clean approach.",
-      "Metal Claw is the first proof point; Iron Defense is the follow-up."
+      "Run Ancient Ruins during Any / Cloudy and identify the target Ironclaw must finish.",
+      "Spend Iron Ore only when Metal Claw can start safely.",
+      "Use Karate Chop for the first payoff check, then Swords Dance only if the route gives a safe turn."
     ],
     "best_use": [
-      "Use Ironclaw when ruin fight finisher matters.",
-      "Ironclaw finishes fights; Bronzorm protects longer ruin runs.",
-      "steel-combat check should be visible within one or two attempts.",
-      "Material split: Metal Coat and Piston should be judged through Piston pressure, Iron Ore branch, and Karate Chop angle."
+      "Use Ironclaw when Metal Coat and Piston both support an offensive build.",
+      "Choose it over Bronzorm when the route needs finishing power instead of recovery support.",
+      "It works best in focused ruins fights with one important target.",
+      "A good attempt should shorten the fight before setup becomes dangerous."
     ],
     "team_tips": [
-      "One support slot should cover the weakness created by Piston pressure.",
-      "Avoid carrying teammates for unrelated drops.",
-      "Metal Claw opener is the route identity."
+      "Bring one support that protects the Swords Dance turn.",
+      "Add coverage for enemies that resist Steel/Fighting damage.",
+      "Avoid slow material detours that leave Ironclaw exposed."
     ],
     "farming_notes": [
-      "Farm for Metal Coat and Piston, not for completion.",
-      "Reset if cloudy relic fight misses the target.",
-      "Return later if Iron Ore becomes the bottleneck.",
-      "Exit rule: leave after Metal Claw opener is tested unless Piston pressure still improves the next attempt."
+      "Track Piston as the unique reason to repeat the route.",
+      "Iron Ore should not be spent unless the finisher role is needed.",
+      "Stop once the offensive build has enough Metal Coat and Piston.",
+      "Return for ruins routes where fast Steel/Fighting pressure solves the fight."
     ],
     "common_mistakes": [
-      "Copying a nearby Pokemon plan onto Ironclaw.",
-      "Spending food before the Piston pressure test.",
-      "Ignoring the difference between ruin fight finisher and generic farming."
+      "Using Ironclaw like a defensive support.",
+      "Setting up Swords Dance without protection.",
+      "Farming shared Metal Coat here after Piston is done."
     ],
     "faqs": [
       {
         "question": "Where do you find Ironclaw?",
-        "answer": "Ancient Ruins, Any / Cloudy, with Iron Ore saved for a known Piston pressure attempt."
+        "answer": "Ironclaw appears in Ancient Ruins during Any / Cloudy routes. Iron Ore is the commitment food."
       },
       {
-        "question": "What is the main reason to use Ironclaw?",
-        "answer": "Ironclaw pressure lane: Piston pressure, ruin fight finisher, and Karate Chop angle."
+        "question": "What is Ironclaw best for?",
+        "answer": "It is best for Steel/Fighting pressure, Piston progress, and finishing dangerous ruins targets."
       },
       {
-        "question": "What does Ironclaw drop?",
-        "answer": "Metal Coat and Piston. For Ironclaw, those drops matter most when Piston pressure and Karate Chop angle are part of the active plan."
-      },
-      {
-        "question": "Which local comparison matters?",
-        "answer": "Ironclaw finishes fights; Bronzorm protects longer ruin runs."
+        "question": "When is Bronzorm better?",
+        "answer": "Bronzorm is better when the route needs recovery, support, and Bronze Medal farming."
       }
     ],
     "updated_at": "2026-05-26",
@@ -2576,45 +2476,46 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Boulderchin",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Boulderchin is a simple Sunny stone wall for Gemstone Canyon. It shares Stone and Rock Fragment logic with Rockler, but Boulderchin is about Take Down, Bulldoze, and holding a sunny branch rather than teaching the basic mining loop. Use it when the canyon needs extra physical stability.",
+    "overview": "Boulderchin is the sunny Gemstone Canyon wall for basic stone output. Stone makes the route cheap, Rock Throw tests the opener, and Stealth Rock or Bulldoze keeps short mining fights controlled.",
     "how_to_get": [
-      "Use Any / Sunny and bring Stone only after the branch is known.",
-      "Rock Throw checks the first target; Take Down tests whether Boulderchin can finish without extra help.",
-      "Stealth Rock is useful when the branch repeats.",
-      "Stop after Stone or Rock Fragment progress is clear."
+      "Run Gemstone Canyon during Any / Sunny and choose a short mining branch.",
+      "Spend Stone only when Rock Throw can start the fight cleanly.",
+      "Use Bulldoze if the enemies need slowing; otherwise keep the pass short."
     ],
     "best_use": [
-      "Best for a sturdier Rock Fragment pass.",
-      "Choose Boulderchin over Rockler when Sunny branch durability matters.",
-      "Bulldoze is the reason to test it beyond basic stone farming."
+      "Use Boulderchin when Stone and Rock Fragment are immediate crafting blockers.",
+      "Choose it over Rockler when sunny route timing is better for the current branch.",
+      "Choose it over rare canyon picks when you only need basic rock materials.",
+      "A good run should be short, stable, and easy to repeat."
     ],
     "team_tips": [
-      "Pair with support that offsets Take Down risk.",
-      "Do not use it for Crystal Shard or Diamond goals.",
-      "Keep the team focused on stone output."
+      "Pair Boulderchin with a damage dealer that covers its slow pace.",
+      "Bring answers to Water or Grass pressure.",
+      "Do not add rare-hunt objectives to a basic stone route."
     ],
     "farming_notes": [
-      "Stone food should not be spent on rare canyon branches.",
-      "Compare the yield with Rockler after two runs.",
-      "Leave when Rock Fragment stops mattering."
+      "Track Rock Fragment as the practical reward.",
+      "Stone should be spent only on branches that can finish quickly.",
+      "Stop once basic mining upgrades are complete.",
+      "Return when sunny canyon routes need a cheap wall."
     ],
     "common_mistakes": [
-      "Treating Boulderchin like Shados or other rare-target pages.",
-      "Using it for gem farming.",
-      "Ignoring Sunny branch stability."
+      "Turning Boulderchin into a rare gem hunt.",
+      "Using Stealth Rock in routes that should end quickly.",
+      "Ignoring type counters because the route feels low risk."
     ],
     "faqs": [
       {
         "question": "Where do you find Boulderchin?",
-        "answer": "Boulderchin appears in Gemstone Canyon during Any / Sunny. Stone should be spent on a known sunny wall branch."
+        "answer": "Boulderchin appears in Gemstone Canyon during Any / Sunny routes. Stone is the food for committed passes."
       },
       {
-        "question": "What is Boulderchin best used for?",
-        "answer": "Boulderchin is for Stone, Rock Fragment, and physical canyon stability."
+        "question": "What is Boulderchin best for?",
+        "answer": "It is best for basic Stone, Rock Fragment, and short defensive canyon farming."
       },
       {
-        "question": "What does Boulderchin drop?",
-        "answer": "Boulderchin drops Stone and Rock Fragment. Use it when a sturdier stone loop is needed."
+        "question": "When should you skip Boulderchin?",
+        "answer": "Skip it when the route needs rare gems, high damage, or non-rock materials."
       }
     ],
     "updated_at": "2026-05-26",
@@ -2771,50 +2672,46 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Galebender",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Galebender is a narrow Earth Gem pressure option, not a general checklist entry. An earth bender with incredible strength. Lives underground. The page matters when Fighting Ribbon branch and ground brawler route are more important than clearing every branch in Gemstone Canyon. Galebender follows Earth Gem value; Crystion follows Diamond value.",
+    "overview": "Galebender is the foggy Gemstone Canyon brawler for players who need Earth Gem pressure and Fighting Ribbon value in the same route. Earthquake tests the first serious fight, Mystic Root pays for the commitment, and Bulk Up determines whether the route can stay aggressive.",
     "how_to_get": [
-      "Use the Night / Foggy window for the serious attempt.",
-      "Save Mystic Root for the Earth Gem pressure attempt after the path is stable.",
-      "Test Earthquake before judging Bulk Up payoff."
+      "Run Gemstone Canyon during Night / Foggy and scout the first brawler matchup.",
+      "Spend Mystic Root only when Earthquake can hit the important target group.",
+      "Use Bulk Up after the opener if the route needs a longer duel instead of quick damage."
     ],
     "best_use": [
-      "The strongest case is ground brawler route.",
-      "foggy canyon duel is the practical map clue.",
-      "Earth Gem and Fighting Ribbon should have a destination before the run starts.",
-      "Material split: Earth Gem and Fighting Ribbon should be judged through Earth Gem pressure, Mystic Root cost, and Bulk Up payoff."
+      "Use Galebender when Earth Gem and Fighting Ribbon are both tied to current progression.",
+      "Choose it over Crystion when ground force matters more than Diamond value.",
+      "It works best in routes that reward controlled aggression rather than passive mining.",
+      "A good Galebender run should make one canyon fight noticeably shorter or safer."
     ],
     "team_tips": [
-      "Pair Galebender with a teammate that makes Earthquake test safer.",
-      "Keep the team focused on Earth Gem pressure and Earthquake test; unrelated material goals should wait.",
-      "Swap out if Galebender force lane stops solving the active problem."
+      "Bring one teammate that can cover Flying or Psychic pressure against Galebender.",
+      "Let Galebender take the main duel while support handles recovery or status.",
+      "Avoid turning the route into a mixed gem hunt; the brawler plan needs focus."
     ],
     "farming_notes": [
-      "Stop after the Fighting Ribbon branch result is known.",
-      "Count food spent against Earth Gem and Fighting Ribbon.",
-      "Do another attempt only when Bulk Up payoff changes the route.",
-      "Exit rule: leave after Earthquake test is tested unless Earth Gem pressure still improves the next attempt."
+      "Track Fighting Ribbon separately from Earth Gem so the run has a clear stop point.",
+      "Mystic Root should be spent on foggy routes where Earthquake has a strong target.",
+      "Stop if Bulk Up only makes the fight longer without improving safety.",
+      "Return when a build needs both Ground/Fighting pressure and canyon materials."
     ],
     "common_mistakes": [
-      "Turning Earth Gem pressure into a full clear.",
-      "Comparing only rarity.",
-      "Forgetting that galebender follows earth gem value; crystion follows diamond value."
+      "Running Galebender like a passive mining defender.",
+      "Spending Mystic Root before checking the Earthquake target.",
+      "Choosing it for Diamond goals that belong to Crystal-focused pages."
     ],
     "faqs": [
       {
         "question": "Where do you find Galebender?",
-        "answer": "Gemstone Canyon, Night / Foggy, with Mystic Root saved for a known Earth Gem pressure attempt."
+        "answer": "Galebender appears in Gemstone Canyon during Night / Foggy routes. Mystic Root should be saved for the Earthquake attempt."
       },
       {
-        "question": "What is the main reason to use Galebender?",
-        "answer": "Galebender force lane: Earth Gem pressure, Fighting Ribbon branch, and Bulk Up payoff."
+        "question": "What is Galebender best for?",
+        "answer": "It is best for Earth Gem pressure, Fighting Ribbon progress, and aggressive canyon duels."
       },
       {
-        "question": "What does Galebender drop?",
-        "answer": "Earth Gem and Fighting Ribbon. For Galebender, those drops matter most when Earth Gem pressure and Bulk Up payoff are part of the active plan."
-      },
-      {
-        "question": "Which local comparison matters?",
-        "answer": "Galebender follows Earth Gem value; Crystion follows Diamond value."
+        "question": "When is Galebender the wrong pick?",
+        "answer": "Skip it when the route is mainly about Diamond farming or passive mining safety."
       }
     ],
     "updated_at": "2026-05-26",
@@ -2840,50 +2737,46 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Sunreep",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "For Volcanic Cave, Sunreep covers Sunreep armor lane. A solar-powered steel golem. Super charged in sunlight. The decision point is Morning Sun sustain: if that fails, Iron Ore planning and Fire Stone and Metal Coat are not enough reason to keep going. Sunreep chooses steel staying power; Pikafire chooses electric reach.",
+    "overview": "Sunreep is the sunny Volcanic Cave Fire/Steel attacker for players who need damage and staying power together. Iron Ore funds the route, Fire Blast tests the sunlight payoff, and Morning Sun gives it more endurance than fragile Fire picks.",
     "how_to_get": [
-      "Scout steel-side fire value once without spending extra food.",
-      "Commit Iron Ore only in Day / Sunny.",
-      "Use Fire Blast and Flash Cannon as the short test."
+      "Run Volcanic Cave during Day / Sunny and check whether sunlight improves the first fight.",
+      "Spend Iron Ore when Fire Blast has a strong opening target.",
+      "Use Morning Sun to stabilize before testing Flash Cannon or Light Metal value."
     ],
     "best_use": [
-      "Best for solar steel golem.",
-      "Useful when Metal Coat overlap is the named goal.",
-      "Weak when the session asks for another local material.",
-      "Material split: Fire Stone and Metal Coat should be judged through solar steel golem, Iron Ore planning, and Metal Coat overlap."
+      "Use Sunreep when Fire Stone and Metal Coat are both needed.",
+      "Choose it over Pikafire when steel durability matters more than Electric reach.",
+      "Choose it over Emberal when cheap farming is not enough for the fight.",
+      "A good run should combine strong Fire damage with enough sustain to continue."
     ],
     "team_tips": [
-      "The team should make room for Flash Cannon follow-up.",
-      "Bring a fallback for the fight Fire/Steel dislikes.",
-      "Do not let sunlight armor pressure expand into several unrelated objectives."
+      "Bring a teammate that can cover Ground or Water pressure.",
+      "Use Morning Sun before the route becomes unstable.",
+      "Avoid pairing it with routes that do not benefit from sunny timing."
     ],
     "farming_notes": [
-      "Write down Fire Stone and Metal Coat after each attempt.",
-      "Move on if sunlight armor pressure is not improving.",
-      "Iron Ore is the limiting cost.",
-      "Exit rule: leave after Morning Sun sustain is tested unless solar steel golem still improves the next attempt."
+      "Track Metal Coat as the differentiator from other Fire cave pages.",
+      "Iron Ore should be reserved for routes where Fire/Steel typing is useful.",
+      "Stop once the build no longer needs both drops.",
+      "Return for sunny cave routes that punish fragile Fire attackers."
     ],
     "common_mistakes": [
-      "Using Sunreep as a generic Attacker.",
-      "Ignoring Day / Sunny.",
-      "Treating Fire Stone and Metal Coat as useful without a plan."
+      "Using Sunreep for basic Flame Ore farming.",
+      "Ignoring Morning Sun and playing it like a pure glass cannon.",
+      "Choosing it when Pikafire’s Electric reach is the actual missing tool."
     ],
     "faqs": [
       {
         "question": "Where do you find Sunreep?",
-        "answer": "Volcanic Cave, Day / Sunny, with Iron Ore saved for a known solar steel golem attempt."
+        "answer": "Sunreep appears in Volcanic Cave during Day / Sunny routes. Iron Ore is the commitment food."
       },
       {
-        "question": "What is the main reason to use Sunreep?",
-        "answer": "Sunreep armor lane: solar steel golem, Metal Coat overlap, and Flash Cannon follow-up."
+        "question": "What is Sunreep best for?",
+        "answer": "It is best for Fire/Steel damage, Metal Coat progress, Fire Stone, and sunny cave endurance."
       },
       {
-        "question": "What does Sunreep drop?",
-        "answer": "Fire Stone and Metal Coat. For Sunreep, those drops matter most when solar steel golem and Metal Coat overlap are part of the active plan."
-      },
-      {
-        "question": "Which local comparison matters?",
-        "answer": "Sunreep chooses steel staying power; Pikafire chooses electric reach."
+        "question": "When is Emberal better?",
+        "answer": "Emberal is better when you only need cheap common Fire material."
       }
     ],
     "updated_at": "2026-05-26",
@@ -3037,50 +2930,46 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Treemendous",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Treemendous is a narrow Oak Log sustain option, not a general checklist entry. A walking tree. Its branches can heal wounds. The page matters when walking-tree endurance and long forest branch are more important than clearing every branch in Forest Valley. Treemendous wins through healing and wood value, not metal defense.",
+    "overview": "Treemendous is the long-route Forest Valley defender. Berry, Synthesis, and Wood Hammer make it a strong choice when the branch is too long for lighter Grass Pokémon. Its value comes from staying power and Oak Log access, so it should be used for planned endurance runs rather than quick material checks.",
     "how_to_get": [
-      "Use the Any / Sunny window for the serious attempt.",
-      "Save Berry for the Oak Log sustain attempt after the path is stable.",
-      "Test Synthesis before judging Wood Hammer tradeoff."
+      "Use Forest Valley during Any / Sunny when the route is long enough to reward Synthesis.",
+      "Spend Berry after confirming Treemendous can anchor the first extended fight.",
+      "Use Wood Hammer only when the extra damage will finish a meaningful target."
     ],
     "best_use": [
-      "The strongest case is long forest branch.",
-      "sunny trunk route is the practical map clue.",
-      "Leaf, Grass Fiber, and Oak Log should have a destination before the run starts.",
-      "Material split: Leaf, Grass Fiber, and Oak Log should be judged through Oak Log sustain, Berry spend, and Wood Hammer tradeoff."
+      "Use Treemendous for long Forest Valley branches that need healing and wood value.",
+      "Choose it over Bulbin when Protect is no longer enough to stabilize the route.",
+      "Oak Log matters most when a build or tool upgrade already needs it.",
+      "A successful run ends with the team healthier, not merely with more Leaf."
     ],
     "team_tips": [
-      "Pair Treemendous with a teammate that makes Synthesis anchor safer.",
-      "Keep the team focused on Oak Log sustain and Synthesis anchor; unrelated material goals should wait.",
-      "Swap out if Treemendous sustain lane stops solving the active problem."
+      "Pair Treemendous with a faster attacker so Synthesis buys time instead of causing stalls.",
+      "Keep one slot open for coverage against enemies that punish Grass/Normal typing.",
+      "Do not combine too many slow defenders; Treemendous already fills that role."
     ],
     "farming_notes": [
-      "Stop after the walking-tree endurance result is known.",
-      "Count food spent against Leaf, Grass Fiber, and Oak Log.",
-      "Do another attempt only when Wood Hammer tradeoff changes the route.",
-      "Exit rule: leave after Synthesis anchor is tested unless Oak Log sustain still improves the next attempt."
+      "Track Oak Log as the main reward, with Leaf and Grass Fiber as side gains.",
+      "Berry is justified only when the route lasts long enough for Synthesis to matter.",
+      "Leave short branches to Bulbin or faster Grass picks.",
+      "Return when a long forest route requires both sustain and wood materials."
     ],
     "common_mistakes": [
-      "Turning Oak Log sustain into a full clear.",
-      "Comparing only rarity.",
-      "Forgetting that treemendous wins through healing and wood value, not metal defense."
+      "Using Treemendous on short farming passes where its healing never matters.",
+      "Spamming Wood Hammer and losing the sustain advantage.",
+      "Treating Oak Log as a bonus instead of the reason to choose this page."
     ],
     "faqs": [
       {
         "question": "Where do you find Treemendous?",
-        "answer": "Forest Valley, Any / Sunny, with Berry saved for a known Oak Log sustain attempt."
+        "answer": "Treemendous appears in Forest Valley during Any / Sunny routes. Berry is the key food for its sustain plan."
       },
       {
-        "question": "What is the main reason to use Treemendous?",
-        "answer": "Treemendous sustain lane: Oak Log sustain, walking-tree endurance, and Wood Hammer tradeoff."
+        "question": "What makes Treemendous useful?",
+        "answer": "Synthesis gives it staying power on long forest branches, and Oak Log gives the run a clear material target."
       },
       {
-        "question": "What does Treemendous drop?",
-        "answer": "Leaf, Grass Fiber, and Oak Log. For Treemendous, those drops matter most when Oak Log sustain and Wood Hammer tradeoff are part of the active plan."
-      },
-      {
-        "question": "Which local comparison matters?",
-        "answer": "Treemendous wins through healing and wood value, not metal defense."
+        "question": "Is Treemendous better than Bulbin?",
+        "answer": "For long endurance routes, yes. For simple starter safety, Bulbin is cheaper."
       }
     ],
     "updated_at": "2026-05-26",
@@ -3106,50 +2995,46 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Lightspeed",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "For Sky Isles, Lightspeed covers Lightspeed chase lane. The fastest Pokemon. Moves faster than the eye can see. The decision point is Baton Pass utility: if that fails, Star Sweet cost and Feather and Speed Gem are not enough reason to keep going. Lightspeed is a premium Speed Gem chase, not a Feather shortcut.",
+    "overview": "Lightspeed is the Sky Isles speed benchmark. Star Sweet makes the route expensive, so the page is useful only when Quick Attack, Feint, and Baton Pass can prove a faster clear or setup chain. Treat Speed Gem as the target and Feather as a secondary gain.",
     "how_to_get": [
-      "Scout premium pace test once without spending extra food.",
-      "Commit Star Sweet only in Morning / Clear.",
-      "Use Quick Attack and Feint as the short test."
+      "Scout the Morning / Clear Sky Isles route before spending Star Sweet.",
+      "Commit only when Quick Attack can start the first fight without wasting the speed advantage.",
+      "Use Feint or Baton Pass to verify that the speed plan changes the route."
     ],
     "best_use": [
-      "Best for Speed Gem premium chase.",
-      "Useful when rare speed benchmark is the named goal.",
-      "Weak when the session asks for another local material.",
-      "Material split: Feather and Speed Gem should be judged through Speed Gem premium chase, Star Sweet cost, and Feint timing."
+      "Use Lightspeed when a team needs Speed Gem for a premium speed build.",
+      "Choose it over Tropius when the route must be faster, not safer.",
+      "Choose it over Crystalwing when speed utility matters more than crystal burst.",
+      "A successful attempt should improve timing enough to justify Star Sweet."
     ],
     "team_tips": [
-      "The team should make room for Feint timing.",
-      "Bring a fallback for the fight Normal/Flying dislikes.",
-      "Do not let clear-morning sprint expand into several unrelated objectives."
+      "Pair Lightspeed with a teammate that can receive Baton Pass value.",
+      "Bring enough damage to finish fights quickly; speed alone will not clear the route.",
+      "Avoid slow support packages that erase the reason to choose Lightspeed."
     ],
     "farming_notes": [
-      "Write down Feather and Speed Gem after each attempt.",
-      "Move on if clear-morning sprint is not improving.",
-      "Star Sweet is the limiting cost.",
-      "Exit rule: leave after Baton Pass utility is tested unless Speed Gem premium chase still improves the next attempt."
+      "Track Speed Gem as the main reward and Feather as the extra drop.",
+      "Star Sweet should be spent only on routes with a measurable speed gain.",
+      "Stop once the speed build has the required gems.",
+      "Return when the next composition needs a faster opener or Baton Pass chain."
     ],
     "common_mistakes": [
-      "Using Lightspeed as a generic Speedster.",
-      "Ignoring Morning / Clear.",
-      "Treating Feather and Speed Gem as useful without a plan."
+      "Running Lightspeed for basic Feather farming.",
+      "Spending Star Sweet without a planned Baton Pass or timing test.",
+      "Adding slow teammates that make the speed benchmark meaningless."
     ],
     "faqs": [
       {
         "question": "Where do you find Lightspeed?",
-        "answer": "Sky Isles, Morning / Clear, with Star Sweet saved for a known Speed Gem premium chase attempt."
+        "answer": "Lightspeed appears in Sky Isles during Morning / Clear routes. Star Sweet is the key food for committed attempts."
       },
       {
-        "question": "What is the main reason to use Lightspeed?",
-        "answer": "Lightspeed chase lane: Speed Gem premium chase, rare speed benchmark, and Feint timing."
+        "question": "What is Lightspeed best for?",
+        "answer": "It is best for Speed Gem farming, faster openers, and Baton Pass utility."
       },
       {
-        "question": "What does Lightspeed drop?",
-        "answer": "Feather and Speed Gem. For Lightspeed, those drops matter most when Speed Gem premium chase and Feint timing are part of the active plan."
-      },
-      {
-        "question": "Which local comparison matters?",
-        "answer": "Lightspeed is a premium Speed Gem chase, not a Feather shortcut."
+        "question": "Is Lightspeed good for general farming?",
+        "answer": "No. It is expensive and should be used when speed itself is the goal."
       }
     ],
     "updated_at": "2026-05-26",
@@ -3175,50 +3060,46 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Magicalure",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Magicalure works as Magicalure sustain lane inside Forest Valley. A magical flower creature. Its scent is both healing and toxic. Its plan leans on Fairy Dust support, Aromatherapy payoff, and healing-toxic flower; the reward is Fairy Dust and Poison Stone. Magicalure extends several fog fights safely; Leafon ends one fog fight quickly.",
+    "overview": "Magicalure is the foggy Forest Valley support for long status routes. Mystery Mushroom starts the attempt, Aromatherapy protects the party, and Moonblast or Toxic Spikes decides whether the route should become a controlled poison-fairy plan.",
     "how_to_get": [
-      "Check Night / Foggy first; Mystery Mushroom is wasted if healing-toxic flower cannot happen.",
-      "Moonblast opens the attempt and Sludge Bomb decides whether dual poison support is worth repeating.",
-      "End the pass when long fog branch is answered."
+      "Run Forest Valley during Night / Foggy and confirm the route needs healing or poison control.",
+      "Spend Mystery Mushroom when Aromatherapy can prevent a real problem.",
+      "Use Toxic Spikes only if the fight lasts long enough for poison setup to matter."
     ],
     "best_use": [
-      "Choose Magicalure for Fairy Dust support.",
-      "dual poison support is the measurable reason to return.",
-      "Magicalure extends several fog fights safely; Leafon ends one fog fight quickly.",
-      "Material split: Fairy Dust and Poison Stone should be judged through Fairy Dust support, Aromatherapy payoff, and Moonblast utility."
+      "Use Magicalure when Fairy Dust and Poison Stone both matter.",
+      "Choose it over Leafon when the team needs extended support rather than one quick poison answer.",
+      "It works best in fog routes that punish teams through status or chip damage.",
+      "A good attempt should make several turns safer, not just add damage."
     ],
     "team_tips": [
-      "Protect healing-toxic flower with one teammate that covers bad matchups.",
-      "Moonblast utility should support the planned fight, not random clears.",
-      "Keep the party light if support scent route is only a material check."
+      "Pair Magicalure with a carry that benefits from Aromatherapy support.",
+      "Bring enough damage so the support route does not stall forever.",
+      "Avoid duplicate poison setup unless the whole team is built around it."
     ],
     "farming_notes": [
-      "Log Fairy Dust and Poison Stone separately from clear time.",
-      "Mystery Mushroom belongs to confirmed support scent route attempts.",
-      "Pause when long fog branch no longer changes the build.",
-      "Exit rule: leave after healing-toxic flower is tested unless Fairy Dust support still improves the next attempt."
+      "Track Fairy Dust as the rare support reward.",
+      "Mystery Mushroom should be spent only when fog control is needed.",
+      "Stop when the support build has enough Fairy Dust or Poison Stone.",
+      "Return for long Forest Valley fog routes with status pressure."
     ],
     "common_mistakes": [
-      "Using Magicalure outside its Magicalure sustain lane role.",
-      "Treating Aromatherapy payoff as free.",
-      "Chasing Fairy Dust and Poison Stone after the upgrade is already solved."
+      "Using Magicalure as a simple attacker.",
+      "Setting Toxic Spikes in short fights.",
+      "Choosing it when Leafon would remove the target faster."
     ],
     "faqs": [
       {
         "question": "Where do you find Magicalure?",
-        "answer": "Forest Valley, Night / Foggy, with Mystery Mushroom saved for a known Fairy Dust support attempt."
+        "answer": "Magicalure appears in Forest Valley during Night / Foggy routes. Mystery Mushroom is the food to save."
       },
       {
-        "question": "What is the main reason to use Magicalure?",
-        "answer": "Magicalure sustain lane: Fairy Dust support, dual poison support, and Moonblast utility."
+        "question": "What is Magicalure best for?",
+        "answer": "It is best for Fairy Dust, Poison Stone, Aromatherapy support, and longer fog control routes."
       },
       {
-        "question": "What does Magicalure drop?",
-        "answer": "Fairy Dust and Poison Stone. For Magicalure, those drops matter most when Fairy Dust support and Moonblast utility are part of the active plan."
-      },
-      {
-        "question": "Which local comparison matters?",
-        "answer": "Magicalure extends several fog fights safely; Leafon ends one fog fight quickly."
+        "question": "When is Leafon better?",
+        "answer": "Leafon is better when one fast poison application solves the fight."
       }
     ],
     "updated_at": "2026-05-26",
