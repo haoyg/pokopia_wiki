@@ -484,7 +484,7 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Flamexor",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Flamexor is a legendary Fire/Steel Pokemon with the Tank specialty. It is found in Volcanic Cave, usually during Night conditions with Clear weather. The legendary flame beast. Nearly extinct in the wild. Because it is legendary, treat every attempt as a planned session. Save strong recipes, bring a backup plan, and avoid wasting the spawn window.",
+    "overview": "Flamexor is a legendary Fire/Steel tank found in Volcanic Cave during Night / Clear conditions. It is mainly useful for survival planning, especially when its drops (Fire Stone, Metal Coat, Legendary Scale) support the route you are already running. Treat each attempt as a planned session because the food, weather, and reset cost are all higher than a normal farm.",
     "how_to_get": [
       "Go to Volcanic Cave (Reach Level 15).",
       "Check the spawn window first: Flamexor is listed for Night and Clear weather.",
@@ -796,7 +796,7 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Rockler",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Rockler is a common Rock/Ground Pokemon with the Defender specialty. It is found in Gemstone Canyon, usually during Any conditions with Clear weather. A sturdy rock-type. Excellent for defense. Because it is common, the main value is consistency. Build it early if it helps you farm without spending rare resources.",
+    "overview": "Rockler is a common Rock/Ground defender found in Gemstone Canyon during Any / Clear conditions. It is mainly useful for route stability, especially when its drops (Stone, Rock Fragment) support the route you are already running. Its value comes from repeatable results, not from rarity.",
     "how_to_get": [
       "Go to Gemstone Canyon (Reach Level 12).",
       "Check the spawn window first: Rockler is listed for Any and Clear weather.",
@@ -807,7 +807,7 @@
     "best_use": [
       "Use it as the front-line stabilizer. It is strongest when the rest of the team supplies damage or capture utility.",
       "Ground typing gives practical coverage and resource value in easy or medium farming loops.",
-      "Rock Throw is the first skill to evaluate because it defines how Rockler starts a fight. The rest of the kit (Rock Throw, Earthquake, Protect, Stealth Rock) should be judged by whether it helps the target habitat, not by damage numbers alone.",
+      "Rock Throw gives Rockler a reliable opener, but Earthquake, Protect, Stealth Rock are what decide whether it can hold the line through Gemstone Canyon. Value the kit by how much it reduces failed runs.",
       "The most relevant related routes to check are Gemstone Canyon Mining Guide. These pages show where Rockler fits into team plans and farming loops."
     ],
     "team_tips": [
@@ -825,9 +825,9 @@
     "common_mistakes": [
       "Farming Rockler in Gemstone Canyon without checking Any and Clear.",
       "Using Stone before learning the shortest route to the spawn check.",
-      "Building around rarity alone instead of asking whether Defender helps your current team.",
+      "Bringing Rockler only for safety, then forgetting that Gemstone Canyon still needs enough damage or capture tempo.",
       "Ignoring drops like Stone, Rock Fragment when deciding if the farming loop is worth repeating.",
-      "Skipping related guides, which often explain where Rockler performs best."
+      "Skipping Gemstone Canyon planning and turning Rockler into a slow wall instead of a useful route anchor."
     ],
     "faqs": [
       {
@@ -851,7 +851,7 @@
         "answer": "Start with Gemstone Canyon Mining Guide."
       }
     ],
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
@@ -874,7 +874,7 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Crystion",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Crystion is a rare Crystal/Fairy Pokemon with the Attacker specialty. It is found in Gemstone Canyon, usually during Night conditions with Snow weather. A beautiful crystal creature. Very rare to find. Because it is rare, do not chase it blindly. Learn the habitat route first, then farm it during the correct time and weather window.",
+    "overview": "Crystion is a rare Crystal/Fairy attacker found in Gemstone Canyon during Night / Snow conditions. It is mainly useful for damage pressure, especially when its drops (Crystal Shard, Diamond) support the route you are already running. It is worth chasing only when the route is already mapped and the right spawn window is active.",
     "how_to_get": [
       "Go to Gemstone Canyon (Reach Level 12).",
       "Check the spawn window first: Crystion is listed for Night and Snow weather.",
@@ -885,7 +885,7 @@
     "best_use": [
       "Use it when the route needs faster clears or boss pressure. Pair it with a safer backup so one bad matchup does not end the run.",
       "Fairy typing is useful for exploration-heavy routes and special matchups.",
-      "Crystal Beam is the first skill to evaluate because it defines how Crystion starts a fight. The rest of the kit (Crystal Beam, Moonblast, Power Gem, Dazzling Gleam) should be judged by whether it helps the target habitat, not by damage numbers alone.",
+      "Crystal Beam is Crystion's main pressure tool, while Moonblast, Power Gem, Dazzling Gleam should be judged by whether they help Gemstone Canyon clears end cleanly. Build around the fight you are solving, not the biggest number on the skill list.",
       "The most relevant related routes to check are Gemstone Canyon Mining Guide, Crystal Cave Discovery Guide, Fairy Glen Hidden Secrets. These pages show where Crystion fits into team plans and farming loops."
     ],
     "team_tips": [
@@ -903,9 +903,9 @@
     "common_mistakes": [
       "Farming Crystion in Gemstone Canyon without checking Night and Snow.",
       "Using Gem before learning the shortest route to the spawn check.",
-      "Building around rarity alone instead of asking whether Attacker helps your current team.",
+      "Using Crystion as a default damage lead in Gemstone Canyon without checking whether the route actually needs more offense.",
       "Ignoring drops like Crystal Shard, Diamond when deciding if the farming loop is worth repeating.",
-      "Skipping related guides, which often explain where Crystion performs best."
+      "Ignoring Gemstone Canyon route notes and using Crystion in fights where a safer setup would clear more consistently."
     ],
     "faqs": [
       {
@@ -929,7 +929,7 @@
         "answer": "Start with Gemstone Canyon Mining Guide, Crystal Cave Discovery Guide, Fairy Glen Hidden Secrets."
       }
     ],
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
@@ -952,7 +952,7 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Emberal",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Emberal is a common Fire Pokemon with the Attacker specialty. It is found in Volcanic Cave, usually during Day conditions with Sunny weather. A small fire salamander. Popular among beginners. Because it is common, the main value is consistency. Build it early if it helps you farm without spending rare resources.",
+    "overview": "Emberal is a common Fire attacker found in Volcanic Cave during Day / Sunny conditions. It is mainly useful for damage pressure, especially when its drops (Fire Stone, Flame Ore) support the route you are already running. Its value comes from repeatable results, not from rarity.",
     "how_to_get": [
       "Go to Volcanic Cave (Reach Level 15).",
       "Check the spawn window first: Emberal is listed for Day and Sunny weather.",
@@ -963,7 +963,7 @@
     "best_use": [
       "Use it when the route needs faster clears or boss pressure. Pair it with a safer backup so one bad matchup does not end the run.",
       "Fire typing is useful for aggressive clears and routes where damage windows matter. Watch for fights that punish fragile attackers.",
-      "Ember is the first skill to evaluate because it defines how Emberal starts a fight. The rest of the kit (Ember, Fire Punch, Flame Wheel, Fire Spin) should be judged by whether it helps the target habitat, not by damage numbers alone.",
+      "Ember is Emberal's main pressure tool, while Fire Punch, Flame Wheel, Fire Spin should be judged by whether they help Volcanic Cave clears end cleanly. Build around the fight you are solving, not the biggest number on the skill list.",
       "The most relevant related routes to check are Emberal farming routes. These pages show where Emberal fits into team plans and farming loops."
     ],
     "team_tips": [
@@ -981,9 +981,9 @@
     "common_mistakes": [
       "Farming Emberal in Volcanic Cave without checking Day and Sunny.",
       "Using Hot Pepper before learning the shortest route to the spawn check.",
-      "Building around rarity alone instead of asking whether Attacker helps your current team.",
+      "Using Emberal as a default damage lead in Volcanic Cave without checking whether the route actually needs more offense.",
       "Ignoring drops like Fire Stone, Flame Ore when deciding if the farming loop is worth repeating.",
-      "Skipping related guides, which often explain where Emberal performs best."
+      "Ignoring Volcanic Cave route notes and using Emberal in fights where a safer setup would clear more consistently."
     ],
     "faqs": [
       {
@@ -1007,7 +1007,7 @@
         "answer": "Start with the Volcanic Cave page and the general Pokemon database pages until a dedicated guide is available."
       }
     ],
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
@@ -1030,7 +1030,7 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Glacior",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Glacior is an uncommon Ice/Water Pokemon with the Support specialty. It is found in Frost Peak, usually during Any conditions with Snow weather. An ice penguin. At home in frozen environments. Because it is uncommon, it is usually worth testing once your starter route is stable and you need a more specialized role.",
+    "overview": "Glacior is an uncommon Ice/Water support found in Frost Peak during Any / Snow conditions. It is mainly useful for team comfort, especially when its drops (Ice Stone, Frost Crystal) support the route you are already running. Test it once the route is stable and you know which role is missing from the team.",
     "how_to_get": [
       "Go to Frost Peak (Reach Level 20).",
       "Check the spawn window first: Glacior is listed for Any and Snow weather.",
@@ -1041,7 +1041,7 @@
     "best_use": [
       "Use it to make longer routes safer. Support Pokemon are best when they protect a stronger damage dealer or keep farming loops consistent.",
       "Water typing is strong for safe farming and flexible coverage, especially when the route includes long fights or mixed enemies.",
-      "Ice Beam is the first skill to evaluate because it defines how Glacior starts a fight. The rest of the kit (Ice Beam, Blizzard, Aurora Veil, Hail) should be judged by whether it helps the target habitat, not by damage numbers alone.",
+      "Ice Beam gives Glacior a useful opening action, while Blizzard, Aurora Veil, Hail matter most when they keep Frost Peak runs calm and repeatable. It is strongest when supporting a clearer win condition.",
       "The most relevant related routes to check are Best Habitat for Each Pokemon Type, Frost Peak Exploration Guide. These pages show where Glacior fits into team plans and farming loops."
     ],
     "team_tips": [
@@ -1059,9 +1059,9 @@
     "common_mistakes": [
       "Farming Glacior in Frost Peak without checking Any and Snow.",
       "Using Snowball before learning the shortest route to the spawn check.",
-      "Building around rarity alone instead of asking whether Support helps your current team.",
+      "Expecting Glacior to fix Frost Peak by itself instead of pairing it with a Pokemon that can finish the route.",
       "Ignoring drops like Ice Stone, Frost Crystal when deciding if the farming loop is worth repeating.",
-      "Skipping related guides, which often explain where Glacior performs best."
+      "Ignoring related route notes, then blaming Glacior when the team lacks a clear damage plan."
     ],
     "faqs": [
       {
@@ -1085,7 +1085,7 @@
         "answer": "Start with Best Habitat for Each Pokemon Type, Frost Peak Exploration Guide."
       }
     ],
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
@@ -1108,7 +1108,7 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Voltscale",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Voltscale is a legendary Electric/Dragon Pokemon with the Attacker specialty. It is found in Windmill Plains, usually during Night conditions with Thunderstorm weather. The legendary storm dragon. Said to control lightning. Because it is legendary, treat every attempt as a planned session. Save strong recipes, bring a backup plan, and avoid wasting the spawn window.",
+    "overview": "Voltscale is a legendary Electric/Dragon attacker found in Windmill Plains during Night / Thunderstorm conditions. It is mainly useful for damage pressure, especially when its drops (Thunder Stone, Dragon Scale) support the route you are already running. Treat each attempt as a planned session because the food, weather, and reset cost are all higher than a normal farm.",
     "how_to_get": [
       "Go to Windmill Plains (Reach Level 10).",
       "Check the spawn window first: Voltscale is listed for Night and Thunderstorm weather.",
@@ -1119,7 +1119,7 @@
     "best_use": [
       "Use it when the route needs faster clears or boss pressure. Pair it with a safer backup so one bad matchup does not end the run.",
       "Electric typing helps speed up routes and pressure mobile targets, but it should be backed by durability in hard habitats.",
-      "Thunderbolt is the first skill to evaluate because it defines how Voltscale starts a fight. The rest of the kit (Thunderbolt, Dragon Pulse, Wild Charge, Thunder Wave) should be judged by whether it helps the target habitat, not by damage numbers alone.",
+      "Thunderbolt is Voltscale's main pressure tool, while Dragon Pulse, Wild Charge, Thunder Wave should be judged by whether they help Windmill Plains clears end cleanly. Build around the fight you are solving, not the biggest number on the skill list.",
       "The most relevant related routes to check are How to Get Legendary Pokemon, Thunder Arena Unlock and Strategy, Dragon-Type Mastery Guide, Top 10 Most Powerful Pokemon. These pages show where Voltscale fits into team plans and farming loops."
     ],
     "team_tips": [
@@ -1137,9 +1137,9 @@
     "common_mistakes": [
       "Farming Voltscale in Windmill Plains without checking Night and Thunderstorm.",
       "Using Lightning Bug before learning the shortest route to the spawn check.",
-      "Building around rarity alone instead of asking whether Attacker helps your current team.",
+      "Using Voltscale as a default damage lead in Windmill Plains without checking whether the route actually needs more offense.",
       "Ignoring drops like Thunder Stone, Dragon Scale when deciding if the farming loop is worth repeating.",
-      "Skipping related guides, which often explain where Voltscale performs best."
+      "Ignoring Windmill Plains route notes and using Voltscale in fights where a safer setup would clear more consistently."
     ],
     "faqs": [
       {
@@ -1163,7 +1163,7 @@
         "answer": "Start with How to Get Legendary Pokemon, Thunder Arena Unlock and Strategy, Dragon-Type Mastery Guide, Top 10 Most Powerful Pokemon."
       }
     ],
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
@@ -1186,7 +1186,7 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Breezel",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Breezel is a common Flying Pokemon with the Speedster specialty. It is found in Sky Isles, usually during Day conditions with Windy weather. A gentle wind bird. Found in open plains. Because it is common, the main value is consistency. Build it early if it helps you farm without spending rare resources.",
+    "overview": "Breezel is a common Flying speedster found in Sky Isles during Day / Windy conditions. It is mainly useful for cleaner routing, especially when its drops (Feather, Wind Essence) support the route you are already running. Its value comes from repeatable results, not from rarity.",
     "how_to_get": [
       "Go to Sky Isles (Reach Level 18).",
       "Check the spawn window first: Breezel is listed for Day and Windy weather.",
@@ -1197,7 +1197,7 @@
     "best_use": [
       "Use it to reduce clear time and improve repeated farming loops. Keep one durable partner nearby because speed picks can be punished by hard encounters.",
       "Flying typing is best when route mobility or Sky Isles-style encounters matter.",
-      "Peck is the first skill to evaluate because it defines how Breezel starts a fight. The rest of the kit (Peck, Wing Attack, Quick Attack, Aerial Ace) should be judged by whether it helps the target habitat, not by damage numbers alone.",
+      "Peck helps Breezel start quickly, while Wing Attack, Quick Attack, Aerial Ace decide whether the speed actually saves time across Sky Isles. Do not count mobility as value unless the route gets shorter.",
       "The most relevant related routes to check are Sky Isles and Flying-Type Guide. These pages show where Breezel fits into team plans and farming loops."
     ],
     "team_tips": [
@@ -1215,9 +1215,9 @@
     "common_mistakes": [
       "Farming Breezel in Sky Isles without checking Day and Windy.",
       "Using Feather before learning the shortest route to the spawn check.",
-      "Building around rarity alone instead of asking whether Speedster helps your current team.",
+      "Using Breezel to move faster through Sky Isles before the path is mapped well enough for speed to matter.",
       "Ignoring drops like Feather, Wind Essence when deciding if the farming loop is worth repeating.",
-      "Skipping related guides, which often explain where Breezel performs best."
+      "Skipping route notes and letting optional fights erase the time Breezel is supposed to save."
     ],
     "faqs": [
       {
@@ -1241,7 +1241,7 @@
         "answer": "Start with Sky Isles and Flying-Type Guide."
       }
     ],
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
@@ -1264,7 +1264,7 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Thornvine",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Thornvine is a common Grass Pokemon with the Defender specialty. It is found in Forest Valley, usually during Any conditions with Rain weather. A thorny plant Pokemon. Great for defensive teams. Because it is common, the main value is consistency. Build it early if it helps you farm without spending rare resources.",
+    "overview": "Thornvine is a common Grass defender found in Forest Valley during Any / Rain conditions. It is mainly useful for route stability, especially when its drops (Leaf, Thorn) support the route you are already running. Its value comes from repeatable results, not from rarity.",
     "how_to_get": [
       "Go to Forest Valley (Starting Habitat).",
       "Check the spawn window first: Thornvine is listed for Any and Rain weather.",
@@ -1275,7 +1275,7 @@
     "best_use": [
       "Use it as the front-line stabilizer. It is strongest when the rest of the team supplies damage or capture utility.",
       "Grass typing is valuable for beginner stability, sustain, and control. It is often better for repeatable farming than pure burst.",
-      "Bullet Seed is the first skill to evaluate because it defines how Thornvine starts a fight. The rest of the kit (Bullet Seed, Power Whip, Leech Seed, Protect) should be judged by whether it helps the target habitat, not by damage numbers alone.",
+      "Bullet Seed gives Thornvine a reliable opener, but Power Whip, Leech Seed, Protect are what decide whether it can hold the line through Forest Valley. Value the kit by how much it reduces failed runs.",
       "The most relevant related routes to check are Beginner's Guide to Training Grounds, Best Grass-Type Pick for Every Team. These pages show where Thornvine fits into team plans and farming loops."
     ],
     "team_tips": [
@@ -1293,9 +1293,9 @@
     "common_mistakes": [
       "Farming Thornvine in Forest Valley without checking Any and Rain.",
       "Using Berry before learning the shortest route to the spawn check.",
-      "Building around rarity alone instead of asking whether Defender helps your current team.",
+      "Bringing Thornvine only for safety, then forgetting that Forest Valley still needs enough damage or capture tempo.",
       "Ignoring drops like Leaf, Thorn when deciding if the farming loop is worth repeating.",
-      "Skipping related guides, which often explain where Thornvine performs best."
+      "Skipping Forest Valley planning and turning Thornvine into a slow wall instead of a useful route anchor."
     ],
     "faqs": [
       {
@@ -1319,7 +1319,7 @@
         "answer": "Start with Beginner's Guide to Training Grounds, Best Grass-Type Pick for Every Team."
       }
     ],
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
@@ -1342,7 +1342,7 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Mudkipz",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Mudkipz is an uncommon Water/Ground Pokemon with the Attacker specialty. It is found in Muddy River, usually during Any conditions with Rain weather. A playful water dog. Loves playing in mud. Because it is uncommon, it is usually worth testing once your starter route is stable and you need a more specialized role.",
+    "overview": "Mudkipz is an uncommon Water/Ground attacker found in Muddy River during Any / Rain conditions. It is mainly useful for damage pressure, especially when its drops (Mud Stone, Water Stone) support the route you are already running. Test it once the route is stable and you know which role is missing from the team.",
     "how_to_get": [
       "Go to Muddy River (Reach Level 8).",
       "Check the spawn window first: Mudkipz is listed for Any and Rain weather.",
@@ -1353,7 +1353,7 @@
     "best_use": [
       "Use it when the route needs faster clears or boss pressure. Pair it with a safer backup so one bad matchup does not end the run.",
       "Water typing is strong for safe farming and flexible coverage, especially when the route includes long fights or mixed enemies.",
-      "Water Gun is the first skill to evaluate because it defines how Mudkipz starts a fight. The rest of the kit (Water Gun, Mud Shot, Earthquake, Protect) should be judged by whether it helps the target habitat, not by damage numbers alone.",
+      "Water Gun is Mudkipz's main pressure tool, while Mud Shot, Earthquake, Protect should be judged by whether they help Muddy River clears end cleanly. Build around the fight you are solving, not the biggest number on the skill list.",
       "The most relevant related routes to check are Mudstone River Habitat Guide, Water-Type Team Compilation. These pages show where Mudkipz fits into team plans and farming loops."
     ],
     "team_tips": [
@@ -1371,9 +1371,9 @@
     "common_mistakes": [
       "Farming Mudkipz in Muddy River without checking Any and Rain.",
       "Using Mud Ball before learning the shortest route to the spawn check.",
-      "Building around rarity alone instead of asking whether Attacker helps your current team.",
+      "Using Mudkipz as a default damage lead in Muddy River without checking whether the route actually needs more offense.",
       "Ignoring drops like Mud Stone, Water Stone when deciding if the farming loop is worth repeating.",
-      "Skipping related guides, which often explain where Mudkipz performs best."
+      "Ignoring Muddy River route notes and using Mudkipz in fights where a safer setup would clear more consistently."
     ],
     "faqs": [
       {
@@ -1397,7 +1397,7 @@
         "answer": "Start with Mudstone River Habitat Guide, Water-Type Team Compilation."
       }
     ],
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
@@ -1420,7 +1420,7 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Bronzorm",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Bronzorm is a rare Steel/Psychic Pokemon with the Support specialty. It is found in Ancient Ruins, usually during Day conditions with Cloudy weather. An ancient bronze statue that came to life. Because it is rare, do not chase it blindly. Learn the habitat route first, then farm it during the correct time and weather window.",
+    "overview": "Bronzorm is a rare Steel/Psychic support found in Ancient Ruins during Day / Cloudy conditions. It is mainly useful for team comfort, especially when its drops (Metal Coat, Bronze Medal) support the route you are already running. It is worth chasing only when the route is already mapped and the right spawn window is active.",
     "how_to_get": [
       "Go to Ancient Ruins (Reach Level 30).",
       "Check the spawn window first: Bronzorm is listed for Day and Cloudy weather.",
@@ -1431,7 +1431,7 @@
     "best_use": [
       "Use it to make longer routes safer. Support Pokemon are best when they protect a stronger damage dealer or keep farming loops consistent.",
       "Steel typing is excellent for defensive teams and hard routes. It often needs a damage partner to avoid slow clears.",
-      "Psychic is the first skill to evaluate because it defines how Bronzorm starts a fight. The rest of the kit (Psychic, Flash Cannon, Recover, Iron Defense) should be judged by whether it helps the target habitat, not by damage numbers alone.",
+      "Psychic gives Bronzorm a useful opening action, while Flash Cannon, Recover, Iron Defense matter most when they keep Ancient Ruins runs calm and repeatable. It is strongest when supporting a clearer win condition.",
       "The most relevant related routes to check are Steel-Type Hard-Core Build Guide. These pages show where Bronzorm fits into team plans and farming loops."
     ],
     "team_tips": [
@@ -1449,9 +1449,9 @@
     "common_mistakes": [
       "Farming Bronzorm in Ancient Ruins without checking Day and Cloudy.",
       "Using Coin before learning the shortest route to the spawn check.",
-      "Building around rarity alone instead of asking whether Support helps your current team.",
+      "Expecting Bronzorm to fix Ancient Ruins by itself instead of pairing it with a Pokemon that can finish the route.",
       "Ignoring drops like Metal Coat, Bronze Medal when deciding if the farming loop is worth repeating.",
-      "Skipping related guides, which often explain where Bronzorm performs best."
+      "Ignoring related route notes, then blaming Bronzorm when the team lacks a clear damage plan."
     ],
     "faqs": [
       {
@@ -1475,7 +1475,7 @@
         "answer": "Start with Steel-Type Hard-Core Build Guide."
       }
     ],
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
@@ -1498,7 +1498,7 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Flamingo",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Flamingo is an uncommon Fire/Flying Pokemon with the Attacker specialty. It is found in Sky Isles, usually during Day conditions with Sunny weather. An elegant fire bird. Its dance mesmerizes opponents. Because it is uncommon, it is usually worth testing once your starter route is stable and you need a more specialized role.",
+    "overview": "Flamingo is an uncommon Fire/Flying attacker found in Sky Isles during Day / Sunny conditions. It is mainly useful for damage pressure, especially when its drops (Fire Stone, Feather) support the route you are already running. Test it once the route is stable and you know which role is missing from the team.",
     "how_to_get": [
       "Go to Sky Isles (Reach Level 18).",
       "Check the spawn window first: Flamingo is listed for Day and Sunny weather.",
@@ -1509,7 +1509,7 @@
     "best_use": [
       "Use it when the route needs faster clears or boss pressure. Pair it with a safer backup so one bad matchup does not end the run.",
       "Fire typing is useful for aggressive clears and routes where damage windows matter. Watch for fights that punish fragile attackers.",
-      "Fire Spin is the first skill to evaluate because it defines how Flamingo starts a fight. The rest of the kit (Fire Spin, Hurricane, Flame Charge, Brave Bird) should be judged by whether it helps the target habitat, not by damage numbers alone.",
+      "Fire Spin is Flamingo's main pressure tool, while Hurricane, Flame Charge, Brave Bird should be judged by whether they help Sky Isles clears end cleanly. Build around the fight you are solving, not the biggest number on the skill list.",
       "The most relevant related routes to check are Sky Isles and Flying-Type Guide. These pages show where Flamingo fits into team plans and farming loops."
     ],
     "team_tips": [
@@ -1527,9 +1527,9 @@
     "common_mistakes": [
       "Farming Flamingo in Sky Isles without checking Day and Sunny.",
       "Using Hot Seed before learning the shortest route to the spawn check.",
-      "Building around rarity alone instead of asking whether Attacker helps your current team.",
+      "Using Flamingo as a default damage lead in Sky Isles without checking whether the route actually needs more offense.",
       "Ignoring drops like Fire Stone, Feather when deciding if the farming loop is worth repeating.",
-      "Skipping related guides, which often explain where Flamingo performs best."
+      "Ignoring Sky Isles route notes and using Flamingo in fights where a safer setup would clear more consistently."
     ],
     "faqs": [
       {
@@ -1553,7 +1553,7 @@
         "answer": "Start with Sky Isles and Flying-Type Guide."
       }
     ],
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
@@ -1576,7 +1576,7 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Stealthfin",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Stealthfin is a rare Water/Dark Pokemon with the Assassin specialty. It is found in Muddy River, usually during Night conditions with Rain weather. A mysterious deep-sea creature. Hunts at night. Because it is rare, do not chase it blindly. Learn the habitat route first, then farm it during the correct time and weather window.",
+    "overview": "Stealthfin is a rare Water/Dark assassin found in Muddy River during Night / Rain conditions. It is mainly useful for targeted picks, especially when its drops (Deep Sea Tooth, Dark Gem) support the route you are already running. It is worth chasing only when the route is already mapped and the right spawn window is active.",
     "how_to_get": [
       "Go to Muddy River (Reach Level 8).",
       "Check the spawn window first: Stealthfin is listed for Night and Rain weather.",
@@ -1587,7 +1587,7 @@
     "best_use": [
       "Use it for targeted burst, rare checks, or control routes. It works best when you know which encounter needs to be removed quickly.",
       "Water typing is strong for safe farming and flexible coverage, especially when the route includes long fights or mixed enemies.",
-      "Crunch is the first skill to evaluate because it defines how Stealthfin starts a fight. The rest of the kit (Crunch, Aqua Jet, Knock Off, Ice Fang) should be judged by whether it helps the target habitat, not by damage numbers alone.",
+      "Crunch is the main pick tool, while Aqua Jet, Knock Off, Ice Fang help Stealthfin control the target long enough to finish the check. Use the kit for planned encounters in Muddy River, not random full clears.",
       "The most relevant related routes to check are Mudstone River Habitat Guide, Water-Type Team Compilation. These pages show where Stealthfin fits into team plans and farming loops."
     ],
     "team_tips": [
@@ -1605,9 +1605,9 @@
     "common_mistakes": [
       "Farming Stealthfin in Muddy River without checking Night and Rain.",
       "Using Fish before learning the shortest route to the spawn check.",
-      "Building around rarity alone instead of asking whether Assassin helps your current team.",
+      "Chasing a clean Stealthfin pick before the Muddy River route is stable enough to reach the target check consistently.",
       "Ignoring drops like Deep Sea Tooth, Dark Gem when deciding if the farming loop is worth repeating.",
-      "Skipping related guides, which often explain where Stealthfin performs best."
+      "Skipping rare-hunting notes and spending food before Stealthfin's target window is actually efficient."
     ],
     "faqs": [
       {
@@ -1631,7 +1631,7 @@
         "answer": "Start with Mudstone River Habitat Guide, Water-Type Team Compilation."
       }
     ],
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
@@ -1654,7 +1654,7 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Frostbite",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Frostbite is a rare Ice/Ghost Pokemon with the Assassin specialty. It is found in Frost Peak, usually during Night conditions with Snow weather. A spirit of the frozen wastes. Beware its icy gaze. Because it is rare, do not chase it blindly. Learn the habitat route first, then farm it during the correct time and weather window.",
+    "overview": "Frostbite is a rare Ice/Ghost assassin found in Frost Peak during Night / Snow conditions. It is mainly useful for targeted picks, especially when its drops (Ghost Stone, Ice Crystal) support the route you are already running. It is worth chasing only when the route is already mapped and the right spawn window is active.",
     "how_to_get": [
       "Go to Frost Peak (Reach Level 20).",
       "Check the spawn window first: Frostbite is listed for Night and Snow weather.",
@@ -1665,7 +1665,7 @@
     "best_use": [
       "Use it for targeted burst, rare checks, or control routes. It works best when you know which encounter needs to be removed quickly.",
       "Ghost typing shines in late-game hunting and special route checks. Timing and weather matter more than raw stats.",
-      "Ice Beam is the first skill to evaluate because it defines how Frostbite starts a fight. The rest of the kit (Ice Beam, Shadow Ball, Avalanche, Hypnosis) should be judged by whether it helps the target habitat, not by damage numbers alone.",
+      "Ice Beam is the main pick tool, while Shadow Ball, Avalanche, Hypnosis help Frostbite control the target long enough to finish the check. Use the kit for planned encounters in Frost Peak, not random full clears.",
       "The most relevant related routes to check are Nightmare Forest Horror Stories. These pages show where Frostbite fits into team plans and farming loops."
     ],
     "team_tips": [
@@ -1683,9 +1683,9 @@
     "common_mistakes": [
       "Farming Frostbite in Frost Peak without checking Night and Snow.",
       "Using Frozen Soul before learning the shortest route to the spawn check.",
-      "Building around rarity alone instead of asking whether Assassin helps your current team.",
+      "Chasing a clean Frostbite pick before the Frost Peak route is stable enough to reach the target check consistently.",
       "Ignoring drops like Ghost Stone, Ice Crystal when deciding if the farming loop is worth repeating.",
-      "Skipping related guides, which often explain where Frostbite performs best."
+      "Skipping rare-hunting notes and spending food before Frostbite's target window is actually efficient."
     ],
     "faqs": [
       {
@@ -1709,7 +1709,7 @@
         "answer": "Start with Nightmare Forest Horror Stories."
       }
     ],
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
@@ -1732,7 +1732,7 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Sunflora",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Sunflora is an uncommon Grass/Fire Pokemon with the Attacker specialty. It is found in Forest Valley, usually during Day conditions with Sunny weather. A flower that thrives in sunlight. Chaotic battle style. Because it is uncommon, it is usually worth testing once your starter route is stable and you need a more specialized role.",
+    "overview": "Sunflora is an uncommon Grass/Fire attacker found in Forest Valley during Day / Sunny conditions. It is mainly useful for damage pressure, especially when its drops (Sun Stone, Flame Ore) support the route you are already running. Test it once the route is stable and you know which role is missing from the team.",
     "how_to_get": [
       "Go to Forest Valley (Starting Habitat).",
       "Check the spawn window first: Sunflora is listed for Day and Sunny weather.",
@@ -1743,7 +1743,7 @@
     "best_use": [
       "Use it when the route needs faster clears or boss pressure. Pair it with a safer backup so one bad matchup does not end the run.",
       "Fire typing is useful for aggressive clears and routes where damage windows matter. Watch for fights that punish fragile attackers.",
-      "Solar Beam is the first skill to evaluate because it defines how Sunflora starts a fight. The rest of the kit (Solar Beam, Fire Blast, Weather Ball, Sunny Day) should be judged by whether it helps the target habitat, not by damage numbers alone.",
+      "Solar Beam is Sunflora's main pressure tool, while Fire Blast, Weather Ball, Sunny Day should be judged by whether they help Forest Valley clears end cleanly. Build around the fight you are solving, not the biggest number on the skill list.",
       "The most relevant related routes to check are Best Grass-Type Pick for Every Team. These pages show where Sunflora fits into team plans and farming loops."
     ],
     "team_tips": [
@@ -1761,9 +1761,9 @@
     "common_mistakes": [
       "Farming Sunflora in Forest Valley without checking Day and Sunny.",
       "Using Sunstone before learning the shortest route to the spawn check.",
-      "Building around rarity alone instead of asking whether Attacker helps your current team.",
+      "Using Sunflora as a default damage lead in Forest Valley without checking whether the route actually needs more offense.",
       "Ignoring drops like Sun Stone, Flame Ore when deciding if the farming loop is worth repeating.",
-      "Skipping related guides, which often explain where Sunflora performs best."
+      "Ignoring Forest Valley route notes and using Sunflora in fights where a safer setup would clear more consistently."
     ],
     "faqs": [
       {
@@ -1787,7 +1787,7 @@
         "answer": "Start with Best Grass-Type Pick for Every Team."
       }
     ],
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
@@ -1810,7 +1810,7 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Magnedex",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Magnedex is an uncommon Electric/Steel Pokemon with the Defender specialty. It is found in Windmill Plains, usually during Any conditions with Thunderstorm weather. A magnetic robot Pokemon. Attracts steel-types. Because it is uncommon, it is usually worth testing once your starter route is stable and you need a more specialized role.",
+    "overview": "Magnedex is an uncommon Electric/Steel defender found in Windmill Plains during Any / Thunderstorm conditions. It is mainly useful for route stability, especially when its drops (Metal Coil, Magnet) support the route you are already running. Test it once the route is stable and you know which role is missing from the team.",
     "how_to_get": [
       "Go to Windmill Plains (Reach Level 10).",
       "Check the spawn window first: Magnedex is listed for Any and Thunderstorm weather.",
@@ -1821,7 +1821,7 @@
     "best_use": [
       "Use it as the front-line stabilizer. It is strongest when the rest of the team supplies damage or capture utility.",
       "Electric typing helps speed up routes and pressure mobile targets, but it should be backed by durability in hard habitats.",
-      "Magnet Bomb is the first skill to evaluate because it defines how Magnedex starts a fight. The rest of the kit (Magnet Bomb, Thunderbolt, Volt Switch, Protect) should be judged by whether it helps the target habitat, not by damage numbers alone.",
+      "Magnet Bomb gives Magnedex a reliable opener, but Thunderbolt, Volt Switch, Protect are what decide whether it can hold the line through Windmill Plains. Value the kit by how much it reduces failed runs.",
       "The most relevant related routes to check are Thunder Arena Unlock and Strategy. These pages show where Magnedex fits into team plans and farming loops."
     ],
     "team_tips": [
@@ -1839,9 +1839,9 @@
     "common_mistakes": [
       "Farming Magnedex in Windmill Plains without checking Any and Thunderstorm.",
       "Using Magnet before learning the shortest route to the spawn check.",
-      "Building around rarity alone instead of asking whether Defender helps your current team.",
+      "Bringing Magnedex only for safety, then forgetting that Windmill Plains still needs enough damage or capture tempo.",
       "Ignoring drops like Metal Coil, Magnet when deciding if the farming loop is worth repeating.",
-      "Skipping related guides, which often explain where Magnedex performs best."
+      "Skipping Windmill Plains planning and turning Magnedex into a slow wall instead of a useful route anchor."
     ],
     "faqs": [
       {
@@ -1865,7 +1865,7 @@
         "answer": "Start with Thunder Arena Unlock and Strategy."
       }
     ],
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
@@ -1888,7 +1888,7 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Tropius",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Tropius is a common Grass/Flying Pokemon with the Support specialty. It is found in Sky Isles, usually during Day conditions with Clear weather. A tropical flying dinosaur. Produces delicious fruit. Because it is common, the main value is consistency. Build it early if it helps you farm without spending rare resources.",
+    "overview": "Tropius is a common Grass/Flying support found in Sky Isles during Day / Clear conditions. It is mainly useful for team comfort, especially when its drops (Leaf, Dragon Scale) support the route you are already running. Its value comes from repeatable results, not from rarity.",
     "how_to_get": [
       "Go to Sky Isles (Reach Level 18).",
       "Check the spawn window first: Tropius is listed for Day and Clear weather.",
@@ -1899,7 +1899,7 @@
     "best_use": [
       "Use it to make longer routes safer. Support Pokemon are best when they protect a stronger damage dealer or keep farming loops consistent.",
       "Grass typing is valuable for beginner stability, sustain, and control. It is often better for repeatable farming than pure burst.",
-      "Air Slash is the first skill to evaluate because it defines how Tropius starts a fight. The rest of the kit (Air Slash, Energy Ball, Roost, Synthesis) should be judged by whether it helps the target habitat, not by damage numbers alone.",
+      "Air Slash gives Tropius a useful opening action, while Energy Ball, Roost, Synthesis matter most when they keep Sky Isles runs calm and repeatable. It is strongest when supporting a clearer win condition.",
       "The most relevant related routes to check are Sky Isles and Flying-Type Guide, Best Grass-Type Pick for Every Team. These pages show where Tropius fits into team plans and farming loops."
     ],
     "team_tips": [
@@ -1917,9 +1917,9 @@
     "common_mistakes": [
       "Farming Tropius in Sky Isles without checking Day and Clear.",
       "Using Tropical Fruit before learning the shortest route to the spawn check.",
-      "Building around rarity alone instead of asking whether Support helps your current team.",
+      "Expecting Tropius to fix Sky Isles by itself instead of pairing it with a Pokemon that can finish the route.",
       "Ignoring drops like Leaf, Dragon Scale when deciding if the farming loop is worth repeating.",
-      "Skipping related guides, which often explain where Tropius performs best."
+      "Ignoring related route notes, then blaming Tropius when the team lacks a clear damage plan."
     ],
     "faqs": [
       {
@@ -1943,7 +1943,7 @@
         "answer": "Start with Sky Isles and Flying-Type Guide, Best Grass-Type Pick for Every Team."
       }
     ],
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
@@ -1966,7 +1966,7 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Skittlish",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Skittlish is a common Normal Pokemon with the Support specialty. It is found in Forest Valley, usually during Day conditions with Cloudy weather. A hyperactive creature. Always bouncing around. Because it is common, the main value is consistency. Build it early if it helps you farm without spending rare resources.",
+    "overview": "Skittlish is a common Normal support found in Forest Valley during Day / Cloudy conditions. It is mainly useful for team comfort, especially when its drops (Fur, Cloth) support the route you are already running. Its value comes from repeatable results, not from rarity.",
     "how_to_get": [
       "Go to Forest Valley (Starting Habitat).",
       "Check the spawn window first: Skittlish is listed for Day and Cloudy weather.",
@@ -1977,7 +1977,7 @@
     "best_use": [
       "Use it to make longer routes safer. Support Pokemon are best when they protect a stronger damage dealer or keep farming loops consistent.",
       "This typing is best judged by route matchup, habitat weather, and the role your team still needs.",
-      "Playful is the first skill to evaluate because it defines how Skittlish starts a fight. The rest of the kit (Playful, Body Slam, Cotton Guard, Seismic Toss) should be judged by whether it helps the target habitat, not by damage numbers alone.",
+      "Playful gives Skittlish a useful opening action, while Body Slam, Cotton Guard, Seismic Toss matter most when they keep Forest Valley runs calm and repeatable. It is strongest when supporting a clearer win condition.",
       "The most relevant related routes to check are Skittlish farming routes. These pages show where Skittlish fits into team plans and farming loops."
     ],
     "team_tips": [
@@ -1995,9 +1995,9 @@
     "common_mistakes": [
       "Farming Skittlish in Forest Valley without checking Day and Cloudy.",
       "Using Cookie before learning the shortest route to the spawn check.",
-      "Building around rarity alone instead of asking whether Support helps your current team.",
+      "Expecting Skittlish to fix Forest Valley by itself instead of pairing it with a Pokemon that can finish the route.",
       "Ignoring drops like Fur, Cloth when deciding if the farming loop is worth repeating.",
-      "Skipping related guides, which often explain where Skittlish performs best."
+      "Ignoring related route notes, then blaming Skittlish when the team lacks a clear damage plan."
     ],
     "faqs": [
       {
@@ -2021,7 +2021,7 @@
         "answer": "Start with the Forest Valley page and the general Pokemon database pages until a dedicated guide is available."
       }
     ],
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
@@ -2044,7 +2044,7 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Dewdrop",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Dewdrop is an uncommon Water/Fairy Pokemon with the Support specialty. It is found in Crystal Lake, usually during Morning conditions with Rain weather. A water droplet with fairy-like properties. Because it is uncommon, it is usually worth testing once your starter route is stable and you need a more specialized role.",
+    "overview": "Dewdrop is an uncommon Water/Fairy support found in Crystal Lake during Morning / Rain conditions. It is mainly useful for team comfort, especially when its drops (Water Stone, Star Piece) support the route you are already running. Test it once the route is stable and you know which role is missing from the team.",
     "how_to_get": [
       "Go to Crystal Lake (Reach Level 5).",
       "Check the spawn window first: Dewdrop is listed for Morning and Rain weather.",
@@ -2055,7 +2055,7 @@
     "best_use": [
       "Use it to make longer routes safer. Support Pokemon are best when they protect a stronger damage dealer or keep farming loops consistent.",
       "Water typing is strong for safe farming and flexible coverage, especially when the route includes long fights or mixed enemies.",
-      "Moonblast is the first skill to evaluate because it defines how Dewdrop starts a fight. The rest of the kit (Moonblast, Aqua Jet, Muddy Water, Charm) should be judged by whether it helps the target habitat, not by damage numbers alone.",
+      "Moonblast gives Dewdrop a useful opening action, while Aqua Jet, Muddy Water, Charm matter most when they keep Crystal Lake runs calm and repeatable. It is strongest when supporting a clearer win condition.",
       "The most relevant related routes to check are Dewdrop farming routes. These pages show where Dewdrop fits into team plans and farming loops."
     ],
     "team_tips": [
@@ -2073,9 +2073,9 @@
     "common_mistakes": [
       "Farming Dewdrop in Crystal Lake without checking Morning and Rain.",
       "Using Crystal Dew before learning the shortest route to the spawn check.",
-      "Building around rarity alone instead of asking whether Support helps your current team.",
+      "Expecting Dewdrop to fix Crystal Lake by itself instead of pairing it with a Pokemon that can finish the route.",
       "Ignoring drops like Water Stone, Star Piece when deciding if the farming loop is worth repeating.",
-      "Skipping related guides, which often explain where Dewdrop performs best."
+      "Ignoring related route notes, then blaming Dewdrop when the team lacks a clear damage plan."
     ],
     "faqs": [
       {
@@ -2099,7 +2099,7 @@
         "answer": "Start with the Crystal Lake page and the general Pokemon database pages until a dedicated guide is available."
       }
     ],
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
@@ -2122,7 +2122,7 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Magmar",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Magmar is an uncommon Fire Pokemon with the Attacker specialty. It is found in Volcanic Cave, usually during Night conditions with Clear weather. A living flame. Can melt any material. Because it is uncommon, it is usually worth testing once your starter route is stable and you need a more specialized role.",
+    "overview": "Magmar is an uncommon Fire attacker found in Volcanic Cave during Night / Clear conditions. It is mainly useful for damage pressure, especially when its drops (Fire Stone, Magma Core) support the route you are already running. Test it once the route is stable and you know which role is missing from the team.",
     "how_to_get": [
       "Go to Volcanic Cave (Reach Level 15).",
       "Check the spawn window first: Magmar is listed for Night and Clear weather.",
@@ -2133,7 +2133,7 @@
     "best_use": [
       "Use it when the route needs faster clears or boss pressure. Pair it with a safer backup so one bad matchup does not end the run.",
       "Fire typing is useful for aggressive clears and routes where damage windows matter. Watch for fights that punish fragile attackers.",
-      "Flamethrower is the first skill to evaluate because it defines how Magmar starts a fight. The rest of the kit (Flamethrower, Fire Punch, Thunder Punch, Will-O-Wisp) should be judged by whether it helps the target habitat, not by damage numbers alone.",
+      "Flamethrower is Magmar's main pressure tool, while Fire Punch, Thunder Punch, Will-O-Wisp should be judged by whether they help Volcanic Cave clears end cleanly. Build around the fight you are solving, not the biggest number on the skill list.",
       "The most relevant related routes to check are Magmar farming routes. These pages show where Magmar fits into team plans and farming loops."
     ],
     "team_tips": [
@@ -2151,9 +2151,9 @@
     "common_mistakes": [
       "Farming Magmar in Volcanic Cave without checking Night and Clear.",
       "Using Magma Stone before learning the shortest route to the spawn check.",
-      "Building around rarity alone instead of asking whether Attacker helps your current team.",
+      "Using Magmar as a default damage lead in Volcanic Cave without checking whether the route actually needs more offense.",
       "Ignoring drops like Fire Stone, Magma Core when deciding if the farming loop is worth repeating.",
-      "Skipping related guides, which often explain where Magmar performs best."
+      "Ignoring Volcanic Cave route notes and using Magmar in fights where a safer setup would clear more consistently."
     ],
     "faqs": [
       {
@@ -2177,7 +2177,7 @@
         "answer": "Start with the Volcanic Cave page and the general Pokemon database pages until a dedicated guide is available."
       }
     ],
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
@@ -2200,7 +2200,7 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Snorizard",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Snorizard is a rare Dragon/Ice Pokemon with the Attacker specialty. It is found in Frost Peak, usually during Any conditions with Snow weather. A rare dragon that lives in icy mountains. Because it is rare, do not chase it blindly. Learn the habitat route first, then farm it during the correct time and weather window.",
+    "overview": "Snorizard is a rare Dragon/Ice attacker found in Frost Peak during Any / Snow conditions. It is mainly useful for damage pressure, especially when its drops (Dragon Scale, Ice Stone) support the route you are already running. It is worth chasing only when the route is already mapped and the right spawn window is active.",
     "how_to_get": [
       "Go to Frost Peak (Reach Level 20).",
       "Check the spawn window first: Snorizard is listed for Any and Snow weather.",
@@ -2211,7 +2211,7 @@
     "best_use": [
       "Use it when the route needs faster clears or boss pressure. Pair it with a safer backup so one bad matchup does not end the run.",
       "Dragon typing is usually a late-game investment. Save recipe support for boss rooms or legendary windows.",
-      "Draco Meteor is the first skill to evaluate because it defines how Snorizard starts a fight. The rest of the kit (Draco Meteor, Icicle Spear, Dragon Dance, Extreme Speed) should be judged by whether it helps the target habitat, not by damage numbers alone.",
+      "Draco Meteor is Snorizard's main pressure tool, while Icicle Spear, Dragon Dance, Extreme Speed should be judged by whether they help Frost Peak clears end cleanly. Build around the fight you are solving, not the biggest number on the skill list.",
       "The most relevant related routes to check are Fast Farming Guide for Rare Pokemon, Frost Peak Exploration Guide, Dragon-Type Mastery Guide, How to Unlock Dragon's Den. These pages show where Snorizard fits into team plans and farming loops."
     ],
     "team_tips": [
@@ -2229,9 +2229,9 @@
     "common_mistakes": [
       "Farming Snorizard in Frost Peak without checking Any and Snow.",
       "Using Frost Meat before learning the shortest route to the spawn check.",
-      "Building around rarity alone instead of asking whether Attacker helps your current team.",
+      "Using Snorizard as a default damage lead in Frost Peak without checking whether the route actually needs more offense.",
       "Ignoring drops like Dragon Scale, Ice Stone when deciding if the farming loop is worth repeating.",
-      "Skipping related guides, which often explain where Snorizard performs best."
+      "Ignoring Frost Peak route notes and using Snorizard in fights where a safer setup would clear more consistently."
     ],
     "faqs": [
       {
@@ -2255,7 +2255,7 @@
         "answer": "Start with Fast Farming Guide for Rare Pokemon, Frost Peak Exploration Guide, Dragon-Type Mastery Guide, How to Unlock Dragon's Den."
       }
     ],
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
@@ -2278,7 +2278,7 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Shadowclaw",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Shadowclaw is a legendary Dark/Ghost Pokemon with the Assassin specialty. It is found in Shadow Marsh, usually during Night conditions with Stormy weather. The legendary shadow beast. Master of darkness. Because it is legendary, treat every attempt as a planned session. Save strong recipes, bring a backup plan, and avoid wasting the spawn window.",
+    "overview": "Shadowclaw is a legendary Dark/Ghost assassin found in Shadow Marsh during Night / Stormy conditions. It is mainly useful for targeted picks, especially when its drops (Shadow Stone, King's Rock) support the route you are already running. Treat each attempt as a planned session because the food, weather, and reset cost are all higher than a normal farm.",
     "how_to_get": [
       "Go to Shadow Marsh (Reach Level 25).",
       "Check the spawn window first: Shadowclaw is listed for Night and Stormy weather.",
@@ -2289,7 +2289,7 @@
     "best_use": [
       "Use it for targeted burst, rare checks, or control routes. It works best when you know which encounter needs to be removed quickly.",
       "Ghost typing shines in late-game hunting and special route checks. Timing and weather matter more than raw stats.",
-      "Shadow Claw is the first skill to evaluate because it defines how Shadowclaw starts a fight. The rest of the kit (Shadow Claw, Phantom Strike, Crunch, Sucker Punch) should be judged by whether it helps the target habitat, not by damage numbers alone.",
+      "Shadow Claw is the main pick tool, while Phantom Strike, Crunch, Sucker Punch help Shadowclaw control the target long enough to finish the check. Use the kit for planned encounters in Shadow Marsh, not random full clears.",
       "The most relevant related routes to check are Fast Farming Guide for Rare Pokemon, Shadow Marsh Complete Guide, How to Get Legendary Pokemon, Top 10 Most Powerful Pokemon. These pages show where Shadowclaw fits into team plans and farming loops."
     ],
     "team_tips": [
@@ -2307,9 +2307,9 @@
     "common_mistakes": [
       "Farming Shadowclaw in Shadow Marsh without checking Night and Stormy.",
       "Using Void Fruit before learning the shortest route to the spawn check.",
-      "Building around rarity alone instead of asking whether Assassin helps your current team.",
+      "Chasing a clean Shadowclaw pick before the Shadow Marsh route is stable enough to reach the target check consistently.",
       "Ignoring drops like Shadow Stone, King's Rock when deciding if the farming loop is worth repeating.",
-      "Skipping related guides, which often explain where Shadowclaw performs best."
+      "Skipping rare-hunting notes and spending food before Shadowclaw's target window is actually efficient."
     ],
     "faqs": [
       {
@@ -2333,7 +2333,7 @@
         "answer": "Start with Fast Farming Guide for Rare Pokemon, Shadow Marsh Complete Guide, How to Get Legendary Pokemon, Top 10 Most Powerful Pokemon."
       }
     ],
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
@@ -2356,7 +2356,7 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Crystalwing",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Crystalwing is a rare Flying/Crystal Pokemon with the Attacker specialty. It is found in Sky Isles, usually during Day conditions with Windy weather. A majestic crystal bird. Its feathers shimmer like diamonds. Because it is rare, do not chase it blindly. Learn the habitat route first, then farm it during the correct time and weather window.",
+    "overview": "Crystalwing is a rare Flying/Crystal attacker found in Sky Isles during Day / Windy conditions. It is mainly useful for damage pressure, especially when its drops (Crystal Shard, Feather) support the route you are already running. It is worth chasing only when the route is already mapped and the right spawn window is active.",
     "how_to_get": [
       "Go to Sky Isles (Reach Level 18).",
       "Check the spawn window first: Crystalwing is listed for Day and Windy weather.",
@@ -2367,7 +2367,7 @@
     "best_use": [
       "Use it when the route needs faster clears or boss pressure. Pair it with a safer backup so one bad matchup does not end the run.",
       "Flying typing is best when route mobility or Sky Isles-style encounters matter.",
-      "Diamond Storm is the first skill to evaluate because it defines how Crystalwing starts a fight. The rest of the kit (Diamond Storm, Aerial Ace, Crystal Beam, Roost) should be judged by whether it helps the target habitat, not by damage numbers alone.",
+      "Diamond Storm is Crystalwing's main pressure tool, while Aerial Ace, Crystal Beam, Roost should be judged by whether they help Sky Isles clears end cleanly. Build around the fight you are solving, not the biggest number on the skill list.",
       "The most relevant related routes to check are Crystal Cave Discovery Guide. These pages show where Crystalwing fits into team plans and farming loops."
     ],
     "team_tips": [
@@ -2385,9 +2385,9 @@
     "common_mistakes": [
       "Farming Crystalwing in Sky Isles without checking Day and Windy.",
       "Using Gem Shard before learning the shortest route to the spawn check.",
-      "Building around rarity alone instead of asking whether Attacker helps your current team.",
+      "Using Crystalwing as a default damage lead in Sky Isles without checking whether the route actually needs more offense.",
       "Ignoring drops like Crystal Shard, Feather when deciding if the farming loop is worth repeating.",
-      "Skipping related guides, which often explain where Crystalwing performs best."
+      "Ignoring Sky Isles route notes and using Crystalwing in fights where a safer setup would clear more consistently."
     ],
     "faqs": [
       {
@@ -2411,7 +2411,7 @@
         "answer": "Start with Crystal Cave Discovery Guide."
       }
     ],
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
@@ -2434,7 +2434,7 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Thornback",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Thornback is a common Rock/Bug Pokemon with the Defender specialty. It is found in Forest Valley, usually during Any conditions with Cloudy weather. A hardy rock bug. Its back is covered in protective thorns. Because it is common, the main value is consistency. Build it early if it helps you farm without spending rare resources.",
+    "overview": "Thornback is a common Rock/Bug defender found in Forest Valley during Any / Cloudy conditions. It is mainly useful for route stability, especially when its drops (Stone, Bug Shell) support the route you are already running. Its value comes from repeatable results, not from rarity.",
     "how_to_get": [
       "Go to Forest Valley (Starting Habitat).",
       "Check the spawn window first: Thornback is listed for Any and Cloudy weather.",
@@ -2445,7 +2445,7 @@
     "best_use": [
       "Use it as the front-line stabilizer. It is strongest when the rest of the team supplies damage or capture utility.",
       "Rock typing is practical for mining, canyon, and resource-oriented routes.",
-      "Rock Blast is the first skill to evaluate because it defines how Thornback starts a fight. The rest of the kit (Rock Blast, Bug Bite, Spikes, Protect) should be judged by whether it helps the target habitat, not by damage numbers alone.",
+      "Rock Blast gives Thornback a reliable opener, but Bug Bite, Spikes, Protect are what decide whether it can hold the line through Forest Valley. Value the kit by how much it reduces failed runs.",
       "The most relevant related routes to check are Thornback farming routes. These pages show where Thornback fits into team plans and farming loops."
     ],
     "team_tips": [
@@ -2463,9 +2463,9 @@
     "common_mistakes": [
       "Farming Thornback in Forest Valley without checking Any and Cloudy.",
       "Using Leaf before learning the shortest route to the spawn check.",
-      "Building around rarity alone instead of asking whether Defender helps your current team.",
+      "Bringing Thornback only for safety, then forgetting that Forest Valley still needs enough damage or capture tempo.",
       "Ignoring drops like Stone, Bug Shell when deciding if the farming loop is worth repeating.",
-      "Skipping related guides, which often explain where Thornback performs best."
+      "Skipping Forest Valley planning and turning Thornback into a slow wall instead of a useful route anchor."
     ],
     "faqs": [
       {
@@ -2489,7 +2489,7 @@
         "answer": "Start with the Forest Valley page and the general Pokemon database pages until a dedicated guide is available."
       }
     ],
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
@@ -2512,7 +2512,7 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Emberfox",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Emberfox is an uncommon Fire/Psychic Pokemon with the Assassin specialty. It is found in Volcanic Cave, usually during Night conditions with Clear weather. A mystical fire fox. Its tails contains ancient flames. Because it is uncommon, it is usually worth testing once your starter route is stable and you need a more specialized role.",
+    "overview": "Emberfox is an uncommon Fire/Psychic assassin found in Volcanic Cave during Night / Clear conditions. It is mainly useful for targeted picks, especially when its drops (Fire Stone, Psy Crystal) support the route you are already running. Test it once the route is stable and you know which role is missing from the team.",
     "how_to_get": [
       "Go to Volcanic Cave (Reach Level 15).",
       "Check the spawn window first: Emberfox is listed for Night and Clear weather.",
@@ -2523,7 +2523,7 @@
     "best_use": [
       "Use it for targeted burst, rare checks, or control routes. It works best when you know which encounter needs to be removed quickly.",
       "Fire typing is useful for aggressive clears and routes where damage windows matter. Watch for fights that punish fragile attackers.",
-      "Fire Spin is the first skill to evaluate because it defines how Emberfox starts a fight. The rest of the kit (Fire Spin, Psybeam, Will-O-Wisp, Confuse Ray) should be judged by whether it helps the target habitat, not by damage numbers alone.",
+      "Fire Spin is the main pick tool, while Psybeam, Will-O-Wisp, Confuse Ray help Emberfox control the target long enough to finish the check. Use the kit for planned encounters in Volcanic Cave, not random full clears.",
       "The most relevant related routes to check are Emberfox farming routes. These pages show where Emberfox fits into team plans and farming loops."
     ],
     "team_tips": [
@@ -2541,9 +2541,9 @@
     "common_mistakes": [
       "Farming Emberfox in Volcanic Cave without checking Night and Clear.",
       "Using Hot Pepper before learning the shortest route to the spawn check.",
-      "Building around rarity alone instead of asking whether Assassin helps your current team.",
+      "Chasing a clean Emberfox pick before the Volcanic Cave route is stable enough to reach the target check consistently.",
       "Ignoring drops like Fire Stone, Psy Crystal when deciding if the farming loop is worth repeating.",
-      "Skipping related guides, which often explain where Emberfox performs best."
+      "Skipping rare-hunting notes and spending food before Emberfox's target window is actually efficient."
     ],
     "faqs": [
       {
@@ -2567,7 +2567,7 @@
         "answer": "Start with the Volcanic Cave page and the general Pokemon database pages until a dedicated guide is available."
       }
     ],
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
@@ -2590,7 +2590,7 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Aquashell",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Aquashell is a common Water/Rock Pokemon with the Defender specialty. It is found in Crystal Lake, usually during Any conditions with Rain weather. A water snail with a rock shell. Very defensive. Because it is common, the main value is consistency. Build it early if it helps you farm without spending rare resources.",
+    "overview": "Aquashell is a common Water/Rock defender found in Crystal Lake during Any / Rain conditions. It is mainly useful for route stability, especially when its drops (Shell, Pearl) support the route you are already running. Its value comes from repeatable results, not from rarity.",
     "how_to_get": [
       "Go to Crystal Lake (Reach Level 5).",
       "Check the spawn window first: Aquashell is listed for Any and Rain weather.",
@@ -2601,7 +2601,7 @@
     "best_use": [
       "Use it as the front-line stabilizer. It is strongest when the rest of the team supplies damage or capture utility.",
       "Water typing is strong for safe farming and flexible coverage, especially when the route includes long fights or mixed enemies.",
-      "Water Gun is the first skill to evaluate because it defines how Aquashell starts a fight. The rest of the kit (Water Gun, Rock Throw, Withdraw, Iron Defense) should be judged by whether it helps the target habitat, not by damage numbers alone.",
+      "Water Gun gives Aquashell a reliable opener, but Rock Throw, Withdraw, Iron Defense are what decide whether it can hold the line through Crystal Lake. Value the kit by how much it reduces failed runs.",
       "The most relevant related routes to check are Aquashell farming routes. These pages show where Aquashell fits into team plans and farming loops."
     ],
     "team_tips": [
@@ -2619,9 +2619,9 @@
     "common_mistakes": [
       "Farming Aquashell in Crystal Lake without checking Any and Rain.",
       "Using Pearl before learning the shortest route to the spawn check.",
-      "Building around rarity alone instead of asking whether Defender helps your current team.",
+      "Bringing Aquashell only for safety, then forgetting that Crystal Lake still needs enough damage or capture tempo.",
       "Ignoring drops like Shell, Pearl when deciding if the farming loop is worth repeating.",
-      "Skipping related guides, which often explain where Aquashell performs best."
+      "Skipping Crystal Lake planning and turning Aquashell into a slow wall instead of a useful route anchor."
     ],
     "faqs": [
       {
@@ -2645,7 +2645,7 @@
         "answer": "Start with the Crystal Lake page and the general Pokemon database pages until a dedicated guide is available."
       }
     ],
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
@@ -2668,7 +2668,7 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Zapbug",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Zapbug is a common Electric/Bug Pokemon with the Speedster specialty. It is found in Windmill Plains, usually during Morning conditions with Cloudy weather. A small electric bug. Sparks fly when it moves. Because it is common, the main value is consistency. Build it early if it helps you farm without spending rare resources.",
+    "overview": "Zapbug is a common Electric/Bug speedster found in Windmill Plains during Morning / Cloudy conditions. It is mainly useful for cleaner routing, especially when its drops (Thunder Stone, Bug Shell) support the route you are already running. Its value comes from repeatable results, not from rarity.",
     "how_to_get": [
       "Go to Windmill Plains (Reach Level 10).",
       "Check the spawn window first: Zapbug is listed for Morning and Cloudy weather.",
@@ -2679,7 +2679,7 @@
     "best_use": [
       "Use it to reduce clear time and improve repeated farming loops. Keep one durable partner nearby because speed picks can be punished by hard encounters.",
       "Electric typing helps speed up routes and pressure mobile targets, but it should be backed by durability in hard habitats.",
-      "Spark is the first skill to evaluate because it defines how Zapbug starts a fight. The rest of the kit (Spark, Bug Bite, Electroweb, String Shot) should be judged by whether it helps the target habitat, not by damage numbers alone.",
+      "Spark helps Zapbug start quickly, while Bug Bite, Electroweb, String Shot decide whether the speed actually saves time across Windmill Plains. Do not count mobility as value unless the route gets shorter.",
       "The most relevant related routes to check are Zapbug farming routes. These pages show where Zapbug fits into team plans and farming loops."
     ],
     "team_tips": [
@@ -2697,9 +2697,9 @@
     "common_mistakes": [
       "Farming Zapbug in Windmill Plains without checking Morning and Cloudy.",
       "Using Mushroom before learning the shortest route to the spawn check.",
-      "Building around rarity alone instead of asking whether Speedster helps your current team.",
+      "Using Zapbug to move faster through Windmill Plains before the path is mapped well enough for speed to matter.",
       "Ignoring drops like Thunder Stone, Bug Shell when deciding if the farming loop is worth repeating.",
-      "Skipping related guides, which often explain where Zapbug performs best."
+      "Skipping route notes and letting optional fights erase the time Zapbug is supposed to save."
     ],
     "faqs": [
       {
@@ -2723,7 +2723,7 @@
         "answer": "Start with the Windmill Plains page and the general Pokemon database pages until a dedicated guide is available."
       }
     ],
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
@@ -2746,7 +2746,7 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Mossling",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Mossling is a common Grass Pokemon with the Support specialty. It is found in Forest Valley, usually during Any conditions with Rain weather. A small moss creature. Found in damp forest areas. Because it is common, the main value is consistency. Build it early if it helps you farm without spending rare resources.",
+    "overview": "Mossling is a common Grass support found in Forest Valley during Any / Rain conditions. It is mainly useful for team comfort, especially when its drops (Leaf, Grass Fiber) support the route you are already running. Its value comes from repeatable results, not from rarity.",
     "how_to_get": [
       "Go to Forest Valley (Starting Habitat).",
       "Check the spawn window first: Mossling is listed for Any and Rain weather.",
@@ -2757,7 +2757,7 @@
     "best_use": [
       "Use it to make longer routes safer. Support Pokemon are best when they protect a stronger damage dealer or keep farming loops consistent.",
       "Grass typing is valuable for beginner stability, sustain, and control. It is often better for repeatable farming than pure burst.",
-      "Mega Drain is the first skill to evaluate because it defines how Mossling starts a fight. The rest of the kit (Mega Drain, Grow, Leech Seed, Synthesis) should be judged by whether it helps the target habitat, not by damage numbers alone.",
+      "Mega Drain gives Mossling a useful opening action, while Grow, Leech Seed, Synthesis matter most when they keep Forest Valley runs calm and repeatable. It is strongest when supporting a clearer win condition.",
       "The most relevant related routes to check are Mossling farming routes. These pages show where Mossling fits into team plans and farming loops."
     ],
     "team_tips": [
@@ -2775,9 +2775,9 @@
     "common_mistakes": [
       "Farming Mossling in Forest Valley without checking Any and Rain.",
       "Using Leaf before learning the shortest route to the spawn check.",
-      "Building around rarity alone instead of asking whether Support helps your current team.",
+      "Expecting Mossling to fix Forest Valley by itself instead of pairing it with a Pokemon that can finish the route.",
       "Ignoring drops like Leaf, Grass Fiber when deciding if the farming loop is worth repeating.",
-      "Skipping related guides, which often explain where Mossling performs best."
+      "Ignoring related route notes, then blaming Mossling when the team lacks a clear damage plan."
     ],
     "faqs": [
       {
@@ -2801,7 +2801,7 @@
         "answer": "Start with the Forest Valley page and the general Pokemon database pages until a dedicated guide is available."
       }
     ],
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
@@ -2824,7 +2824,7 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Ironclaw",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Ironclaw is an uncommon Steel/Fighting Pokemon with the Attacker specialty. It is found in Ancient Ruins, usually during Any conditions with Cloudy weather. A fighting robot. Its claws can cut through steel. Because it is uncommon, it is usually worth testing once your starter route is stable and you need a more specialized role.",
+    "overview": "Ironclaw is an uncommon Steel/Fighting attacker found in Ancient Ruins during Any / Cloudy conditions. It is mainly useful for damage pressure, especially when its drops (Metal Coat, Piston) support the route you are already running. Test it once the route is stable and you know which role is missing from the team.",
     "how_to_get": [
       "Go to Ancient Ruins (Reach Level 30).",
       "Check the spawn window first: Ironclaw is listed for Any and Cloudy weather.",
@@ -2835,7 +2835,7 @@
     "best_use": [
       "Use it when the route needs faster clears or boss pressure. Pair it with a safer backup so one bad matchup does not end the run.",
       "Steel typing is excellent for defensive teams and hard routes. It often needs a damage partner to avoid slow clears.",
-      "Metal Claw is the first skill to evaluate because it defines how Ironclaw starts a fight. The rest of the kit (Metal Claw, Karate Chop, Iron Defense, Swords Dance) should be judged by whether it helps the target habitat, not by damage numbers alone.",
+      "Metal Claw is Ironclaw's main pressure tool, while Karate Chop, Iron Defense, Swords Dance should be judged by whether they help Ancient Ruins clears end cleanly. Build around the fight you are solving, not the biggest number on the skill list.",
       "The most relevant related routes to check are Steel-Type Hard-Core Build Guide. These pages show where Ironclaw fits into team plans and farming loops."
     ],
     "team_tips": [
@@ -2853,9 +2853,9 @@
     "common_mistakes": [
       "Farming Ironclaw in Ancient Ruins without checking Any and Cloudy.",
       "Using Iron Ore before learning the shortest route to the spawn check.",
-      "Building around rarity alone instead of asking whether Attacker helps your current team.",
+      "Using Ironclaw as a default damage lead in Ancient Ruins without checking whether the route actually needs more offense.",
       "Ignoring drops like Metal Coat, Piston when deciding if the farming loop is worth repeating.",
-      "Skipping related guides, which often explain where Ironclaw performs best."
+      "Ignoring Ancient Ruins route notes and using Ironclaw in fights where a safer setup would clear more consistently."
     ],
     "faqs": [
       {
@@ -2879,7 +2879,7 @@
         "answer": "Start with Steel-Type Hard-Core Build Guide."
       }
     ],
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
@@ -2902,7 +2902,7 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Mysticat",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Mysticat is a rare Psychic/Fairy Pokemon with the Support specialty. It is found in Ancient Ruins, usually during Night conditions with Clear weather. A mysterious cat with psychic powers. Very rare to encounter. Because it is rare, do not chase it blindly. Learn the habitat route first, then farm it during the correct time and weather window.",
+    "overview": "Mysticat is a rare Psychic/Fairy support found in Ancient Ruins during Night / Clear conditions. It is mainly useful for team comfort, especially when its drops (Psy Crystal, Star Piece) support the route you are already running. It is worth chasing only when the route is already mapped and the right spawn window is active.",
     "how_to_get": [
       "Go to Ancient Ruins (Reach Level 30).",
       "Check the spawn window first: Mysticat is listed for Night and Clear weather.",
@@ -2913,7 +2913,7 @@
     "best_use": [
       "Use it to make longer routes safer. Support Pokemon are best when they protect a stronger damage dealer or keep farming loops consistent.",
       "Fairy typing is useful for exploration-heavy routes and special matchups.",
-      "Psychic is the first skill to evaluate because it defines how Mysticat starts a fight. The rest of the kit (Psychic, Moonblast, Reflect, Light Screen) should be judged by whether it helps the target habitat, not by damage numbers alone.",
+      "Psychic gives Mysticat a useful opening action, while Moonblast, Reflect, Light Screen matter most when they keep Ancient Ruins runs calm and repeatable. It is strongest when supporting a clearer win condition.",
       "The most relevant related routes to check are Fairy Glen Hidden Secrets. These pages show where Mysticat fits into team plans and farming loops."
     ],
     "team_tips": [
@@ -2931,9 +2931,9 @@
     "common_mistakes": [
       "Farming Mysticat in Ancient Ruins without checking Night and Clear.",
       "Using Star Sweet before learning the shortest route to the spawn check.",
-      "Building around rarity alone instead of asking whether Support helps your current team.",
+      "Expecting Mysticat to fix Ancient Ruins by itself instead of pairing it with a Pokemon that can finish the route.",
       "Ignoring drops like Psy Crystal, Star Piece when deciding if the farming loop is worth repeating.",
-      "Skipping related guides, which often explain where Mysticat performs best."
+      "Ignoring related route notes, then blaming Mysticat when the team lacks a clear damage plan."
     ],
     "faqs": [
       {
@@ -2957,7 +2957,7 @@
         "answer": "Start with Fairy Glen Hidden Secrets."
       }
     ],
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
@@ -2980,7 +2980,7 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Boulderchin",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Boulderchin is a common Rock Pokemon with the Defender specialty. It is found in Gemstone Canyon, usually during Any conditions with Sunny weather. A sturdy chin Pokemon. Made entirely of rock. Because it is common, the main value is consistency. Build it early if it helps you farm without spending rare resources.",
+    "overview": "Boulderchin is a common Rock defender found in Gemstone Canyon during Any / Sunny conditions. It is mainly useful for route stability, especially when its drops (Stone, Rock Fragment) support the route you are already running. Its value comes from repeatable results, not from rarity.",
     "how_to_get": [
       "Go to Gemstone Canyon (Reach Level 12).",
       "Check the spawn window first: Boulderchin is listed for Any and Sunny weather.",
@@ -2991,7 +2991,7 @@
     "best_use": [
       "Use it as the front-line stabilizer. It is strongest when the rest of the team supplies damage or capture utility.",
       "Rock typing is practical for mining, canyon, and resource-oriented routes.",
-      "Rock Throw is the first skill to evaluate because it defines how Boulderchin starts a fight. The rest of the kit (Rock Throw, Take Down, Stealth Rock, Bulldoze) should be judged by whether it helps the target habitat, not by damage numbers alone.",
+      "Rock Throw gives Boulderchin a reliable opener, but Take Down, Stealth Rock, Bulldoze are what decide whether it can hold the line through Gemstone Canyon. Value the kit by how much it reduces failed runs.",
       "The most relevant related routes to check are Boulderchin farming routes. These pages show where Boulderchin fits into team plans and farming loops."
     ],
     "team_tips": [
@@ -3009,9 +3009,9 @@
     "common_mistakes": [
       "Farming Boulderchin in Gemstone Canyon without checking Any and Sunny.",
       "Using Stone before learning the shortest route to the spawn check.",
-      "Building around rarity alone instead of asking whether Defender helps your current team.",
+      "Bringing Boulderchin only for safety, then forgetting that Gemstone Canyon still needs enough damage or capture tempo.",
       "Ignoring drops like Stone, Rock Fragment when deciding if the farming loop is worth repeating.",
-      "Skipping related guides, which often explain where Boulderchin performs best."
+      "Skipping Gemstone Canyon planning and turning Boulderchin into a slow wall instead of a useful route anchor."
     ],
     "faqs": [
       {
@@ -3035,7 +3035,7 @@
         "answer": "Start with the Gemstone Canyon page and the general Pokemon database pages until a dedicated guide is available."
       }
     ],
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
@@ -3058,7 +3058,7 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Windlor",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Windlor is an uncommon Flying Pokemon with the Speedster specialty. It is found in Sky Isles, usually during Day conditions with Windy weather. A graceful wind spirit. Floats on air currents. Because it is uncommon, it is usually worth testing once your starter route is stable and you need a more specialized role.",
+    "overview": "Windlor is an uncommon Flying speedster found in Sky Isles during Day / Windy conditions. It is mainly useful for cleaner routing, especially when its drops (Feather, Wind Essence) support the route you are already running. Test it once the route is stable and you know which role is missing from the team.",
     "how_to_get": [
       "Go to Sky Isles (Reach Level 18).",
       "Check the spawn window first: Windlor is listed for Day and Windy weather.",
@@ -3069,7 +3069,7 @@
     "best_use": [
       "Use it to reduce clear time and improve repeated farming loops. Keep one durable partner nearby because speed picks can be punished by hard encounters.",
       "Flying typing is best when route mobility or Sky Isles-style encounters matter.",
-      "Gust is the first skill to evaluate because it defines how Windlor starts a fight. The rest of the kit (Gust, Air Slash, Quick Attack, Feather Dance) should be judged by whether it helps the target habitat, not by damage numbers alone.",
+      "Gust helps Windlor start quickly, while Air Slash, Quick Attack, Feather Dance decide whether the speed actually saves time across Sky Isles. Do not count mobility as value unless the route gets shorter.",
       "The most relevant related routes to check are Windlor farming routes. These pages show where Windlor fits into team plans and farming loops."
     ],
     "team_tips": [
@@ -3087,9 +3087,9 @@
     "common_mistakes": [
       "Farming Windlor in Sky Isles without checking Day and Windy.",
       "Using Feather before learning the shortest route to the spawn check.",
-      "Building around rarity alone instead of asking whether Speedster helps your current team.",
+      "Using Windlor to move faster through Sky Isles before the path is mapped well enough for speed to matter.",
       "Ignoring drops like Feather, Wind Essence when deciding if the farming loop is worth repeating.",
-      "Skipping related guides, which often explain where Windlor performs best."
+      "Skipping route notes and letting optional fights erase the time Windlor is supposed to save."
     ],
     "faqs": [
       {
@@ -3113,7 +3113,7 @@
         "answer": "Start with the Sky Isles page and the general Pokemon database pages until a dedicated guide is available."
       }
     ],
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
@@ -3136,7 +3136,7 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Toxifin",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Toxifin is an uncommon Poison/Water Pokemon with the Assassin specialty. It is found in Muddy River, usually during Any conditions with Rain weather. A poisonous water fish. Its fins secrete toxins. Because it is uncommon, it is usually worth testing once your starter route is stable and you need a more specialized role.",
+    "overview": "Toxifin is an uncommon Poison/Water assassin found in Muddy River during Any / Rain conditions. It is mainly useful for targeted picks, especially when its drops (Poison Stone, Gill) support the route you are already running. Test it once the route is stable and you know which role is missing from the team.",
     "how_to_get": [
       "Go to Muddy River (Reach Level 8).",
       "Check the spawn window first: Toxifin is listed for Any and Rain weather.",
@@ -3147,7 +3147,7 @@
     "best_use": [
       "Use it for targeted burst, rare checks, or control routes. It works best when you know which encounter needs to be removed quickly.",
       "Water typing is strong for safe farming and flexible coverage, especially when the route includes long fights or mixed enemies.",
-      "Sludge Wave is the first skill to evaluate because it defines how Toxifin starts a fight. The rest of the kit (Sludge Wave, Surf, Toxic, Aqua Jet) should be judged by whether it helps the target habitat, not by damage numbers alone.",
+      "Sludge Wave is the main pick tool, while Surf, Toxic, Aqua Jet help Toxifin control the target long enough to finish the check. Use the kit for planned encounters in Muddy River, not random full clears.",
       "The most relevant related routes to check are Poison-Type Team Analysis. These pages show where Toxifin fits into team plans and farming loops."
     ],
     "team_tips": [
@@ -3165,9 +3165,9 @@
     "common_mistakes": [
       "Farming Toxifin in Muddy River without checking Any and Rain.",
       "Using Fish before learning the shortest route to the spawn check.",
-      "Building around rarity alone instead of asking whether Assassin helps your current team.",
+      "Chasing a clean Toxifin pick before the Muddy River route is stable enough to reach the target check consistently.",
       "Ignoring drops like Poison Stone, Gill when deciding if the farming loop is worth repeating.",
-      "Skipping related guides, which often explain where Toxifin performs best."
+      "Skipping rare-hunting notes and spending food before Toxifin's target window is actually efficient."
     ],
     "faqs": [
       {
@@ -3191,7 +3191,7 @@
         "answer": "Start with Poison-Type Team Analysis."
       }
     ],
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
@@ -3214,7 +3214,7 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Galebender",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Galebender is a rare Ground/Fighting Pokemon with the Attacker specialty. It is found in Gemstone Canyon, usually during Night conditions with Foggy weather. A earth bender with incredible strength. Lives underground. Because it is rare, do not chase it blindly. Learn the habitat route first, then farm it during the correct time and weather window.",
+    "overview": "Galebender is a rare Ground/Fighting attacker found in Gemstone Canyon during Night / Foggy conditions. It is mainly useful for damage pressure, especially when its drops (Earth Gem, Fighting Ribbon) support the route you are already running. It is worth chasing only when the route is already mapped and the right spawn window is active.",
     "how_to_get": [
       "Go to Gemstone Canyon (Reach Level 12).",
       "Check the spawn window first: Galebender is listed for Night and Foggy weather.",
@@ -3225,7 +3225,7 @@
     "best_use": [
       "Use it when the route needs faster clears or boss pressure. Pair it with a safer backup so one bad matchup does not end the run.",
       "Ground typing gives practical coverage and resource value in easy or medium farming loops.",
-      "Earthquake is the first skill to evaluate because it defines how Galebender starts a fight. The rest of the kit (Earthquake, Bulk Up, Stone Edge, Dynamic Punch) should be judged by whether it helps the target habitat, not by damage numbers alone.",
+      "Earthquake is Galebender's main pressure tool, while Bulk Up, Stone Edge, Dynamic Punch should be judged by whether they help Gemstone Canyon clears end cleanly. Build around the fight you are solving, not the biggest number on the skill list.",
       "The most relevant related routes to check are Galebender farming routes. These pages show where Galebender fits into team plans and farming loops."
     ],
     "team_tips": [
@@ -3243,9 +3243,9 @@
     "common_mistakes": [
       "Farming Galebender in Gemstone Canyon without checking Night and Foggy.",
       "Using Mystic Root before learning the shortest route to the spawn check.",
-      "Building around rarity alone instead of asking whether Attacker helps your current team.",
+      "Using Galebender as a default damage lead in Gemstone Canyon without checking whether the route actually needs more offense.",
       "Ignoring drops like Earth Gem, Fighting Ribbon when deciding if the farming loop is worth repeating.",
-      "Skipping related guides, which often explain where Galebender performs best."
+      "Ignoring Gemstone Canyon route notes and using Galebender in fights where a safer setup would clear more consistently."
     ],
     "faqs": [
       {
@@ -3269,7 +3269,7 @@
         "answer": "Start with the Gemstone Canyon page and the general Pokemon database pages until a dedicated guide is available."
       }
     ],
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
@@ -3292,7 +3292,7 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Sunreep",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Sunreep is a rare Fire/Steel Pokemon with the Attacker specialty. It is found in Volcanic Cave, usually during Day conditions with Sunny weather. A solar-powered steel golem. Super charged in sunlight. Because it is rare, do not chase it blindly. Learn the habitat route first, then farm it during the correct time and weather window.",
+    "overview": "Sunreep is a rare Fire/Steel attacker found in Volcanic Cave during Day / Sunny conditions. It is mainly useful for damage pressure, especially when its drops (Fire Stone, Metal Coat) support the route you are already running. It is worth chasing only when the route is already mapped and the right spawn window is active.",
     "how_to_get": [
       "Go to Volcanic Cave (Reach Level 15).",
       "Check the spawn window first: Sunreep is listed for Day and Sunny weather.",
@@ -3303,7 +3303,7 @@
     "best_use": [
       "Use it when the route needs faster clears or boss pressure. Pair it with a safer backup so one bad matchup does not end the run.",
       "Fire typing is useful for aggressive clears and routes where damage windows matter. Watch for fights that punish fragile attackers.",
-      "Fire Blast is the first skill to evaluate because it defines how Sunreep starts a fight. The rest of the kit (Fire Blast, Flash Cannon, Morning Sun, Light Metal) should be judged by whether it helps the target habitat, not by damage numbers alone.",
+      "Fire Blast is Sunreep's main pressure tool, while Flash Cannon, Morning Sun, Light Metal should be judged by whether they help Volcanic Cave clears end cleanly. Build around the fight you are solving, not the biggest number on the skill list.",
       "The most relevant related routes to check are Sunreep farming routes. These pages show where Sunreep fits into team plans and farming loops."
     ],
     "team_tips": [
@@ -3321,9 +3321,9 @@
     "common_mistakes": [
       "Farming Sunreep in Volcanic Cave without checking Day and Sunny.",
       "Using Iron Ore before learning the shortest route to the spawn check.",
-      "Building around rarity alone instead of asking whether Attacker helps your current team.",
+      "Using Sunreep as a default damage lead in Volcanic Cave without checking whether the route actually needs more offense.",
       "Ignoring drops like Fire Stone, Metal Coat when deciding if the farming loop is worth repeating.",
-      "Skipping related guides, which often explain where Sunreep performs best."
+      "Ignoring Volcanic Cave route notes and using Sunreep in fights where a safer setup would clear more consistently."
     ],
     "faqs": [
       {
@@ -3347,7 +3347,7 @@
         "answer": "Start with the Volcanic Cave page and the general Pokemon database pages until a dedicated guide is available."
       }
     ],
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
@@ -3370,7 +3370,7 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Lunaflare",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Lunaflare is a legendary Ghost/Fire Pokemon with the Attacker specialty. It is found in Shadow Marsh, usually during Night conditions with Stormy weather. The lunar flame guardian. Appears only on moonless nights. Because it is legendary, treat every attempt as a planned session. Save strong recipes, bring a backup plan, and avoid wasting the spawn window.",
+    "overview": "Lunaflare is a legendary Ghost/Fire attacker found in Shadow Marsh during Night / Stormy conditions. It is mainly useful for damage pressure, especially when its drops (Ghost Stone, Soul Dust, Legendary Ember) support the route you are already running. Treat each attempt as a planned session because the food, weather, and reset cost are all higher than a normal farm.",
     "how_to_get": [
       "Go to Shadow Marsh (Reach Level 25).",
       "Check the spawn window first: Lunaflare is listed for Night and Stormy weather.",
@@ -3381,7 +3381,7 @@
     "best_use": [
       "Use it when the route needs faster clears or boss pressure. Pair it with a safer backup so one bad matchup does not end the run.",
       "Fire typing is useful for aggressive clears and routes where damage windows matter. Watch for fights that punish fragile attackers.",
-      "Shadow Ball is the first skill to evaluate because it defines how Lunaflare starts a fight. The rest of the kit (Shadow Ball, Fire Blast, Hypnosis, Nightmare) should be judged by whether it helps the target habitat, not by damage numbers alone.",
+      "Shadow Ball is Lunaflare's main pressure tool, while Fire Blast, Hypnosis, Nightmare should be judged by whether they help Shadow Marsh clears end cleanly. Build around the fight you are solving, not the biggest number on the skill list.",
       "The most relevant related routes to check are Lunaflare farming routes. These pages show where Lunaflare fits into team plans and farming loops."
     ],
     "team_tips": [
@@ -3399,9 +3399,9 @@
     "common_mistakes": [
       "Farming Lunaflare in Shadow Marsh without checking Night and Stormy.",
       "Using Soul Dust before learning the shortest route to the spawn check.",
-      "Building around rarity alone instead of asking whether Attacker helps your current team.",
+      "Using Lunaflare as a default damage lead in Shadow Marsh without checking whether the route actually needs more offense.",
       "Ignoring drops like Ghost Stone, Soul Dust, Legendary Ember when deciding if the farming loop is worth repeating.",
-      "Skipping related guides, which often explain where Lunaflare performs best."
+      "Ignoring Shadow Marsh route notes and using Lunaflare in fights where a safer setup would clear more consistently."
     ],
     "faqs": [
       {
@@ -3425,7 +3425,7 @@
         "answer": "Start with the Shadow Marsh page and the general Pokemon database pages until a dedicated guide is available."
       }
     ],
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
@@ -3448,7 +3448,7 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Stormbird",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Stormbird is an uncommon Flying/Electric Pokemon with the Speedster specialty. It is found in Sky Isles, usually during Any conditions with Thunderstorm weather. A thunder bird. Creates storms with its wings. Because it is uncommon, it is usually worth testing once your starter route is stable and you need a more specialized role.",
+    "overview": "Stormbird is an uncommon Flying/Electric speedster found in Sky Isles during Any / Thunderstorm conditions. It is mainly useful for cleaner routing, especially when its drops (Thunder Stone, Feather, Wind Essence) support the route you are already running. Test it once the route is stable and you know which role is missing from the team.",
     "how_to_get": [
       "Go to Sky Isles (Reach Level 18).",
       "Check the spawn window first: Stormbird is listed for Any and Thunderstorm weather.",
@@ -3459,7 +3459,7 @@
     "best_use": [
       "Use it to reduce clear time and improve repeated farming loops. Keep one durable partner nearby because speed picks can be punished by hard encounters.",
       "Electric typing helps speed up routes and pressure mobile targets, but it should be backed by durability in hard habitats.",
-      "Thunder is the first skill to evaluate because it defines how Stormbird starts a fight. The rest of the kit (Thunder, Air Slash, Hurricane, Weather Ball) should be judged by whether it helps the target habitat, not by damage numbers alone.",
+      "Thunder helps Stormbird start quickly, while Air Slash, Hurricane, Weather Ball decide whether the speed actually saves time across Sky Isles. Do not count mobility as value unless the route gets shorter.",
       "The most relevant related routes to check are Stormbird farming routes. These pages show where Stormbird fits into team plans and farming loops."
     ],
     "team_tips": [
@@ -3477,9 +3477,9 @@
     "common_mistakes": [
       "Farming Stormbird in Sky Isles without checking Any and Thunderstorm.",
       "Using Feather before learning the shortest route to the spawn check.",
-      "Building around rarity alone instead of asking whether Speedster helps your current team.",
+      "Using Stormbird to move faster through Sky Isles before the path is mapped well enough for speed to matter.",
       "Ignoring drops like Thunder Stone, Feather, Wind Essence when deciding if the farming loop is worth repeating.",
-      "Skipping related guides, which often explain where Stormbird performs best."
+      "Skipping route notes and letting optional fights erase the time Stormbird is supposed to save."
     ],
     "faqs": [
       {
@@ -3503,7 +3503,7 @@
         "answer": "Start with the Sky Isles page and the general Pokemon database pages until a dedicated guide is available."
       }
     ],
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
@@ -3526,7 +3526,7 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Treemendous",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Treemendous is a common Grass/Normal Pokemon with the Defender specialty. It is found in Forest Valley, usually during Any conditions with Sunny weather. A walking tree. Its branches can heal wounds. Because it is common, the main value is consistency. Build it early if it helps you farm without spending rare resources.",
+    "overview": "Treemendous is a common Grass/Normal defender found in Forest Valley during Any / Sunny conditions. It is mainly useful for route stability, especially when its drops (Leaf, Grass Fiber, Oak Log) support the route you are already running. Its value comes from repeatable results, not from rarity.",
     "how_to_get": [
       "Go to Forest Valley (Starting Habitat).",
       "Check the spawn window first: Treemendous is listed for Any and Sunny weather.",
@@ -3537,7 +3537,7 @@
     "best_use": [
       "Use it as the front-line stabilizer. It is strongest when the rest of the team supplies damage or capture utility.",
       "Grass typing is valuable for beginner stability, sustain, and control. It is often better for repeatable farming than pure burst.",
-      "Synthesis is the first skill to evaluate because it defines how Treemendous starts a fight. The rest of the kit (Synthesis, Body Slam, Wood Hammer, Iron Tail) should be judged by whether it helps the target habitat, not by damage numbers alone.",
+      "Synthesis gives Treemendous a reliable opener, but Body Slam, Wood Hammer, Iron Tail are what decide whether it can hold the line through Forest Valley. Value the kit by how much it reduces failed runs.",
       "The most relevant related routes to check are Treemendous farming routes. These pages show where Treemendous fits into team plans and farming loops."
     ],
     "team_tips": [
@@ -3555,9 +3555,9 @@
     "common_mistakes": [
       "Farming Treemendous in Forest Valley without checking Any and Sunny.",
       "Using Berry before learning the shortest route to the spawn check.",
-      "Building around rarity alone instead of asking whether Defender helps your current team.",
+      "Bringing Treemendous only for safety, then forgetting that Forest Valley still needs enough damage or capture tempo.",
       "Ignoring drops like Leaf, Grass Fiber, Oak Log when deciding if the farming loop is worth repeating.",
-      "Skipping related guides, which often explain where Treemendous performs best."
+      "Skipping Forest Valley planning and turning Treemendous into a slow wall instead of a useful route anchor."
     ],
     "faqs": [
       {
@@ -3581,7 +3581,7 @@
         "answer": "Start with the Forest Valley page and the general Pokemon database pages until a dedicated guide is available."
       }
     ],
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
@@ -3604,7 +3604,7 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Lightspeed",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Lightspeed is a rare Normal/Flying Pokemon with the Speedster specialty. It is found in Sky Isles, usually during Morning conditions with Clear weather. The fastest Pokemon. Moves faster than the eye can see. Because it is rare, do not chase it blindly. Learn the habitat route first, then farm it during the correct time and weather window.",
+    "overview": "Lightspeed is a rare Normal/Flying speedster found in Sky Isles during Morning / Clear conditions. It is mainly useful for cleaner routing, especially when its drops (Feather, Speed Gem) support the route you are already running. It is worth chasing only when the route is already mapped and the right spawn window is active.",
     "how_to_get": [
       "Go to Sky Isles (Reach Level 18).",
       "Check the spawn window first: Lightspeed is listed for Morning and Clear weather.",
@@ -3615,7 +3615,7 @@
     "best_use": [
       "Use it to reduce clear time and improve repeated farming loops. Keep one durable partner nearby because speed picks can be punished by hard encounters.",
       "Flying typing is best when route mobility or Sky Isles-style encounters matter.",
-      "Quick Attack is the first skill to evaluate because it defines how Lightspeed starts a fight. The rest of the kit (Quick Attack, Feint, Baton Pass, Agility) should be judged by whether it helps the target habitat, not by damage numbers alone.",
+      "Quick Attack helps Lightspeed start quickly, while Feint, Baton Pass, Agility decide whether the speed actually saves time across Sky Isles. Do not count mobility as value unless the route gets shorter.",
       "The most relevant related routes to check are Lightspeed farming routes. These pages show where Lightspeed fits into team plans and farming loops."
     ],
     "team_tips": [
@@ -3633,9 +3633,9 @@
     "common_mistakes": [
       "Farming Lightspeed in Sky Isles without checking Morning and Clear.",
       "Using Star Sweet before learning the shortest route to the spawn check.",
-      "Building around rarity alone instead of asking whether Speedster helps your current team.",
+      "Using Lightspeed to move faster through Sky Isles before the path is mapped well enough for speed to matter.",
       "Ignoring drops like Feather, Speed Gem when deciding if the farming loop is worth repeating.",
-      "Skipping related guides, which often explain where Lightspeed performs best."
+      "Skipping route notes and letting optional fights erase the time Lightspeed is supposed to save."
     ],
     "faqs": [
       {
@@ -3659,7 +3659,7 @@
         "answer": "Start with the Sky Isles page and the general Pokemon database pages until a dedicated guide is available."
       }
     ],
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
@@ -3682,7 +3682,7 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Magicalure",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Magicalure is a rare Fairy/Poison Pokemon with the Support specialty. It is found in Forest Valley, usually during Night conditions with Foggy weather. A magical flower creature. Its scent is both healing and toxic. Because it is rare, do not chase it blindly. Learn the habitat route first, then farm it during the correct time and weather window.",
+    "overview": "Magicalure is a rare Fairy/Poison support found in Forest Valley during Night / Foggy conditions. It is mainly useful for team comfort, especially when its drops (Fairy Dust, Poison Stone) support the route you are already running. It is worth chasing only when the route is already mapped and the right spawn window is active.",
     "how_to_get": [
       "Go to Forest Valley (Starting Habitat).",
       "Check the spawn window first: Magicalure is listed for Night and Foggy weather.",
@@ -3693,7 +3693,7 @@
     "best_use": [
       "Use it to make longer routes safer. Support Pokemon are best when they protect a stronger damage dealer or keep farming loops consistent.",
       "Poison typing rewards longer fights and control play rather than immediate burst.",
-      "Moonblast is the first skill to evaluate because it defines how Magicalure starts a fight. The rest of the kit (Moonblast, Sludge Bomb, Toxic Spikes, Aromatherapy) should be judged by whether it helps the target habitat, not by damage numbers alone.",
+      "Moonblast gives Magicalure a useful opening action, while Sludge Bomb, Toxic Spikes, Aromatherapy matter most when they keep Forest Valley runs calm and repeatable. It is strongest when supporting a clearer win condition.",
       "The most relevant related routes to check are Fairy Glen Hidden Secrets, Nightmare Forest Horror Stories. These pages show where Magicalure fits into team plans and farming loops."
     ],
     "team_tips": [
@@ -3711,9 +3711,9 @@
     "common_mistakes": [
       "Farming Magicalure in Forest Valley without checking Night and Foggy.",
       "Using Mystery Mushroom before learning the shortest route to the spawn check.",
-      "Building around rarity alone instead of asking whether Support helps your current team.",
+      "Expecting Magicalure to fix Forest Valley by itself instead of pairing it with a Pokemon that can finish the route.",
       "Ignoring drops like Fairy Dust, Poison Stone when deciding if the farming loop is worth repeating.",
-      "Skipping related guides, which often explain where Magicalure performs best."
+      "Ignoring related route notes, then blaming Magicalure when the team lacks a clear damage plan."
     ],
     "faqs": [
       {
@@ -3737,7 +3737,7 @@
         "answer": "Start with Fairy Glen Hidden Secrets, Nightmare Forest Horror Stories."
       }
     ],
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
@@ -3760,7 +3760,7 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Nightfall",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Nightfall is an uncommon Dark Pokemon with the Assassin specialty. It is found in Shadow Marsh, usually during Night conditions with Stormy weather. A shadow assassin. Strikes without warning. Because it is uncommon, it is usually worth testing once your starter route is stable and you need a more specialized role.",
+    "overview": "Nightfall is an uncommon Dark assassin found in Shadow Marsh during Night / Stormy conditions. It is mainly useful for targeted picks, especially when its drops (Dark Gem, Shadow Stone) support the route you are already running. Test it once the route is stable and you know which role is missing from the team.",
     "how_to_get": [
       "Go to Shadow Marsh (Reach Level 25).",
       "Check the spawn window first: Nightfall is listed for Night and Stormy weather.",
@@ -3771,7 +3771,7 @@
     "best_use": [
       "Use it for targeted burst, rare checks, or control routes. It works best when you know which encounter needs to be removed quickly.",
       "This typing is best judged by route matchup, habitat weather, and the role your team still needs.",
-      "Night Slash is the first skill to evaluate because it defines how Nightfall starts a fight. The rest of the kit (Night Slash, Foul Play, Sucker Punch, Knock Off) should be judged by whether it helps the target habitat, not by damage numbers alone.",
+      "Night Slash is the main pick tool, while Foul Play, Sucker Punch, Knock Off help Nightfall control the target long enough to finish the check. Use the kit for planned encounters in Shadow Marsh, not random full clears.",
       "The most relevant related routes to check are Nightfall farming routes. These pages show where Nightfall fits into team plans and farming loops."
     ],
     "team_tips": [
@@ -3789,9 +3789,9 @@
     "common_mistakes": [
       "Farming Nightfall in Shadow Marsh without checking Night and Stormy.",
       "Using Void Fruit before learning the shortest route to the spawn check.",
-      "Building around rarity alone instead of asking whether Assassin helps your current team.",
+      "Chasing a clean Nightfall pick before the Shadow Marsh route is stable enough to reach the target check consistently.",
       "Ignoring drops like Dark Gem, Shadow Stone when deciding if the farming loop is worth repeating.",
-      "Skipping related guides, which often explain where Nightfall performs best."
+      "Skipping rare-hunting notes and spending food before Nightfall's target window is actually efficient."
     ],
     "faqs": [
       {
@@ -3815,7 +3815,7 @@
         "answer": "Start with the Shadow Marsh page and the general Pokemon database pages until a dedicated guide is available."
       }
     ],
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
@@ -3838,7 +3838,7 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Primordion",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Primordion is a legendary Dragon/Ground Pokemon with the Tank specialty. It is found in Muddy River, usually during Any conditions with Rain weather. The primordial dragon. Said to have created the rivers and mountains. Because it is legendary, treat every attempt as a planned session. Save strong recipes, bring a backup plan, and avoid wasting the spawn window.",
+    "overview": "Primordion is a legendary Dragon/Ground tank found in Muddy River during Any / Rain conditions. It is mainly useful for survival planning, especially when its drops (Dragon Scale, Earth Gem, Legendary Pearl) support the route you are already running. Treat each attempt as a planned session because the food, weather, and reset cost are all higher than a normal farm.",
     "how_to_get": [
       "Go to Muddy River (Reach Level 8).",
       "Check the spawn window first: Primordion is listed for Any and Rain weather.",
@@ -3849,7 +3849,7 @@
     "best_use": [
       "Use it in hard habitats and boss routes where survival matters more than speed. Add a damage recipe or attacker so fights do not drag too long.",
       "Dragon typing is usually a late-game investment. Save recipe support for boss rooms or legendary windows.",
-      "Earthquake is the first skill to evaluate because it defines how Primordion starts a fight. The rest of the kit (Earthquake, Dragon Tail, Rest, Sleep Talk) should be judged by whether it helps the target habitat, not by damage numbers alone.",
+      "Earthquake gives Primordion its first point of control, while Dragon Tail, Rest, Sleep Talk decide whether it can survive the route long enough to matter. Treat the kit as a stability plan before a damage plan.",
       "The most relevant related routes to check are How to Unlock Dragon's Den, All 4 Legendary Pokemon Locations, Late-Game Team Planning Guide. These pages show where Primordion fits into team plans and farming loops."
     ],
     "team_tips": [
@@ -3867,9 +3867,9 @@
     "common_mistakes": [
       "Farming Primordion in Muddy River without checking Any and Rain.",
       "Using Golden Fish before learning the shortest route to the spawn check.",
-      "Building around rarity alone instead of asking whether Tank helps your current team.",
+      "Treating Primordion as a full solution when the route still needs damage, food timing, and a shorter reset plan.",
       "Ignoring drops like Dragon Scale, Earth Gem, Legendary Pearl when deciding if the farming loop is worth repeating.",
-      "Skipping related guides, which often explain where Primordion performs best."
+      "Ignoring linked route advice and using Primordion on long clears where a shorter loop would be safer."
     ],
     "faqs": [
       {
@@ -3893,7 +3893,7 @@
         "answer": "Start with How to Unlock Dragon's Den, All 4 Legendary Pokemon Locations, Late-Game Team Planning Guide."
       }
     ],
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
