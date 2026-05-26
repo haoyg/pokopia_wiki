@@ -72,9 +72,27 @@ const byRole = ['Tank', 'Attacker', 'Assassin', 'Speedster', 'Support', 'Defende
   pokemon: pokemonData.filter((p) => p.specialty === role),
 }))
 
-const roleEmoji: Record<string, string> = {
-  Tank: '🛡️', Attacker: '⚔️', Assassin: '🗡️', Speedster: '⚡', Support: '💚', Defender: '🛡️',
-}
+const indexNotes = [
+  {
+    title: 'What this page is',
+    text: 'A planning index that helps readers find Pokemon pages by rarity and role. It is not an official strength ranking or competitive tier list.',
+  },
+  {
+    title: 'How picks are sorted',
+    text: 'The current order uses site database fields: rarity first, then specialty. That makes rare planning targets easier to find without claiming verified power.',
+  },
+  {
+    title: 'What to check next',
+    text: 'Open the Pokemon page, confirm habitat and weather, then use Team Builder or Recipe Calculator before spending rare resources.',
+  },
+]
+
+const rarityHeadings = [
+  { label: 'Legendary', pokemon: legendary, color: '#856404', border: '#fff3cd', background: '#fffef5' },
+  { label: 'Rare', pokemon: rare, color: '#004085', border: '#cce5ff', background: '#f8fbff' },
+  { label: 'Uncommon', pokemon: uncommon, color: '#155724', border: '#d4edda', background: '#f8fff8' },
+  { label: 'Common', pokemon: common, color: '#666', border: '#eee', background: 'white' },
+]
 
 export const metadata: Metadata = {
   title: 'Pokemon Priority Index',
@@ -91,15 +109,11 @@ export const metadata: Metadata = {
 
 export default function TierListPage() {
   return (
-    <main style={{ maxWidth: '1000px', margin: '0 auto', padding: '2rem 1rem' }}>
-      <header style={{ marginBottom: '2rem' }}>
-        <h1 style={{ fontSize: '2.5rem', fontWeight: 800 }}>
-          Pokemon Priority Index
-        </h1>
-        <p style={{ color: '#666', marginTop: '0.5rem' }}>
-          Editorial sorting based on the current Pokopia Portal database, not official competitive data.
-        </p>
-      </header>
+    <main className="page-shell">
+      <section className="page-hero">
+        <h1>Pokemon Priority Index</h1>
+        <p>Editorial sorting based on Pokopia Portal database fields, not official competitive data.</p>
+      </section>
 
       <DataStatus
         status="Editorial database index"
@@ -116,6 +130,24 @@ export default function TierListPage() {
           { href: '/features/meta-analysis', label: 'Systems analysis' },
         ]}
       />
+
+      <section className="index-guide-panel">
+        <div className="section-title-row">
+          <div>
+            <span className="panel-kicker">Reading Guide</span>
+            <h2>Use This as a Planning Index</h2>
+          </div>
+          <Link href="/tools/team-builder">Open Team Builder</Link>
+        </div>
+        <div className="index-guide-grid">
+          {indexNotes.map((note) => (
+            <div key={note.title} className="index-guide-card">
+              <strong>{note.title}</strong>
+              <p>{note.text}</p>
+            </div>
+          ))}
+        </div>
+      </section>
 
       {/* Priority Picks */}
       <section style={{ marginBottom: '3rem' }}>
@@ -173,20 +205,17 @@ export default function TierListPage() {
       {/* By Rarity */}
       <section style={{ marginBottom: '3rem' }}>
         <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1.5rem' }}>
-          💎 By Rarity
+          By Rarity
         </h2>
 
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '1.5rem' }}>
-          {/* Legendary */}
-          <div>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: '1rem' }}>
-              <span style={{ fontSize: '1.25rem' }}>🟡</span>
-              <h3 style={{ fontSize: '1rem', fontWeight: 700, color: '#856404' }}>
-                Legendary ({legendary.length})
+          {rarityHeadings.map((group) => (
+            <div key={group.label}>
+              <h3 style={{ fontSize: '1rem', fontWeight: 700, color: group.color, marginBottom: '1rem' }}>
+                {group.label} ({group.pokemon.length})
               </h3>
-            </div>
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
-              {legendary.map((p) => (
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
+              {group.pokemon.map((p) => (
                 <Link
                   key={p.id}
                   href={`/wiki/pokemon/${p.id}`}
@@ -195,9 +224,9 @@ export default function TierListPage() {
                     alignItems: 'center',
                     gap: '0.75rem',
                     padding: '0.75rem',
-                    border: '1px solid #fff3cd',
+                    border: `1px solid ${group.border}`,
                     borderRadius: '8px',
-                    background: '#fffef5',
+                    background: group.background,
                     textDecoration: 'none',
                     color: 'inherit',
                   }}
@@ -206,121 +235,23 @@ export default function TierListPage() {
                   <span style={{ fontWeight: 600, fontSize: '0.875rem' }}>{p.name}</span>
                 </Link>
               ))}
+              </div>
             </div>
-          </div>
-
-          {/* Rare */}
-          <div>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: '1rem' }}>
-              <span style={{ fontSize: '1.25rem' }}>🔵</span>
-              <h3 style={{ fontSize: '1rem', fontWeight: 700, color: '#004085' }}>
-                Rare ({rare.length})
-              </h3>
-            </div>
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
-              {rare.map((p) => (
-                <Link
-                  key={p.id}
-                  href={`/wiki/pokemon/${p.id}`}
-                  style={{
-                    display: 'flex',
-                    alignItems: 'center',
-                    gap: '0.75rem',
-                    padding: '0.75rem',
-                    border: '1px solid #cce5ff',
-                    borderRadius: '8px',
-                    background: '#f8fbff',
-                    textDecoration: 'none',
-                    color: 'inherit',
-                  }}
-                >
-                  <span style={{ fontSize: '1.25rem' }}><Image src={getTypeIcon(p.type)} alt={p.type} width={24} height={24} /></span>
-                  <span style={{ fontWeight: 600, fontSize: '0.875rem' }}>{p.name}</span>
-                </Link>
-              ))}
-            </div>
-          </div>
-
-          {/* Uncommon */}
-          <div>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: '1rem' }}>
-              <span style={{ fontSize: '1.25rem' }}>🟢</span>
-              <h3 style={{ fontSize: '1rem', fontWeight: 700, color: '#155724' }}>
-                Uncommon ({uncommon.length})
-              </h3>
-            </div>
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
-              {uncommon.map((p) => (
-                <Link
-                  key={p.id}
-                  href={`/wiki/pokemon/${p.id}`}
-                  style={{
-                    display: 'flex',
-                    alignItems: 'center',
-                    gap: '0.75rem',
-                    padding: '0.75rem',
-                    border: '1px solid #d4edda',
-                    borderRadius: '8px',
-                    background: '#f8fff8',
-                    textDecoration: 'none',
-                    color: 'inherit',
-                  }}
-                >
-                  <span style={{ fontSize: '1.25rem' }}><Image src={getTypeIcon(p.type)} alt={p.type} width={24} height={24} /></span>
-                  <span style={{ fontWeight: 600, fontSize: '0.875rem' }}>{p.name}</span>
-                </Link>
-              ))}
-            </div>
-          </div>
-
-          {/* Common */}
-          <div>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: '1rem' }}>
-              <span style={{ fontSize: '1.25rem' }}>⚪</span>
-              <h3 style={{ fontSize: '1rem', fontWeight: 700, color: '#666' }}>
-                Common ({common.length})
-              </h3>
-            </div>
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
-              {common.map((p) => (
-                <Link
-                  key={p.id}
-                  href={`/wiki/pokemon/${p.id}`}
-                  style={{
-                    display: 'flex',
-                    alignItems: 'center',
-                    gap: '0.75rem',
-                    padding: '0.75rem',
-                    border: '1px solid #eee',
-                    borderRadius: '8px',
-                    background: 'white',
-                    textDecoration: 'none',
-                    color: 'inherit',
-                  }}
-                >
-                  <span style={{ fontSize: '1.25rem' }}><Image src={getTypeIcon(p.type)} alt={p.type} width={24} height={24} /></span>
-                  <span style={{ fontWeight: 600, fontSize: '0.875rem' }}>{p.name}</span>
-                </Link>
-              ))}
-            </div>
-          </div>
+          ))}
         </div>
       </section>
 
       {/* By Role */}
       <section style={{ marginBottom: '3rem' }}>
         <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1.5rem' }}>
-          ⚔️ By Role
+          By Role
         </h2>
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '1.5rem' }}>
           {byRole.map(({ role, pokemon }) => (
             <div key={role}>
-              <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: '1rem' }}>
-                <span style={{ fontSize: '1.25rem' }}>{roleEmoji[role]}</span>
-                <h3 style={{ fontSize: '1rem', fontWeight: 700 }}>
-                  {role} ({pokemon.length})
-                </h3>
-              </div>
+              <h3 style={{ fontSize: '1rem', fontWeight: 700, marginBottom: '1rem' }}>
+                {role} ({pokemon.length})
+              </h3>
               <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem' }}>
                 {pokemon
                   .sort((a, b) => rarityOrder[a.rarity] - rarityOrder[b.rarity])
