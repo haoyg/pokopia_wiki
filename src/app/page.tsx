@@ -43,6 +43,33 @@ const categoryLabels: Record<string, string> = {
   team: 'Team',
 }
 
+const planningTools = [
+  {
+    href: '/tools/habitat-planner',
+    label: 'Habitat Planner',
+    summary: 'Match a goal, level, difficulty, and weather window to practical habitat routes.',
+    tags: ['Routes', 'Weather', 'Recipes'],
+  },
+  {
+    href: '/tools/recipe-calculator',
+    label: 'Recipe Calculator',
+    summary: 'Compare recipe value before spending rare ingredients on a farming or boss route.',
+    tags: ['Buffs', 'Timing', 'Ingredients'],
+  },
+  {
+    href: '/tools/team-builder',
+    label: 'Team Builder',
+    summary: 'Draft a four-role team for progression, rare farming, hard fights, or speed routing.',
+    tags: ['Roles', 'Matchups', 'Routes'],
+  },
+  {
+    href: '/tools/spawn-tracker',
+    label: 'Spawn Tracker',
+    summary: 'Filter spawn records by habitat, weather, time, rarity, and Pokemon type.',
+    tags: ['Spawns', 'Habitats', 'Rarity'],
+  },
+]
+
 function getTypeLabel(type: string) {
   for (const [key, label] of Object.entries(typeLabels)) {
     if (type.toLowerCase().includes(key.toLowerCase())) return label
@@ -122,6 +149,29 @@ export default function Home() {
             { href: '/official/release-date-platform-price', label: 'Release details' },
           ]}
         />
+      </section>
+
+      <section className="home-tools-strip">
+        <div className="section-title-row">
+          <div>
+            <span className="panel-kicker">Planning Tools</span>
+            <h2>Build a Route Before You Spend Resources</h2>
+          </div>
+          <a href="/tools">Open tools hub</a>
+        </div>
+        <div className="home-tools-grid">
+          {planningTools.map((tool) => (
+            <a key={tool.href} href={tool.href} className="home-tool-card">
+              <strong>{tool.label}</strong>
+              <p>{tool.summary}</p>
+              <div>
+                {tool.tags.map((tag) => (
+                  <span key={tag}>{tag}</span>
+                ))}
+              </div>
+            </a>
+          ))}
+        </div>
       </section>
 
       <section className="content-lanes">

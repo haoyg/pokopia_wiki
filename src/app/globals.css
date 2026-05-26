@@ -735,6 +735,64 @@ a:hover {
   gap: var(--space-4);
 }
 
+.home-tools-strip {
+  padding-top: var(--space-6);
+}
+
+.home-tools-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: var(--space-4);
+}
+
+.home-tool-card {
+  display: grid;
+  gap: var(--space-3);
+  min-height: 100%;
+  padding: var(--space-5);
+  border: 2px solid rgba(220, 232, 220, 0.95);
+  border-radius: var(--radius-lg);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(245, 252, 255, 0.92)),
+    var(--color-bg);
+  box-shadow: 0 4px 0 rgba(47, 76, 113, 0.08);
+  color: inherit;
+  text-decoration: none;
+  transition: transform var(--transition-base), box-shadow var(--transition-base), border-color var(--transition-base);
+}
+
+.home-tool-card:hover {
+  border-color: rgba(89, 201, 130, 0.62);
+  box-shadow: var(--shadow-lg);
+  text-decoration: none;
+  transform: translateY(-4px);
+}
+
+.home-tool-card strong {
+  font-size: var(--font-size-lg);
+}
+
+.home-tool-card p {
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-sm);
+}
+
+.home-tool-card div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.home-tool-card span {
+  padding: 0.25rem 0.5rem;
+  border: 1px solid rgba(220, 232, 220, 0.95);
+  border-radius: var(--radius-full);
+  background: rgba(255, 255, 255, 0.88);
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-xs);
+  font-weight: 800;
+}
+
 /* ============================================
    Sections
    ============================================ */
@@ -1479,6 +1537,7 @@ aside ul li {
   .guide-lane-grid,
   .route-board-grid,
   .pokemon-strip-grid,
+  .home-tools-grid,
   .tools-hub-hero,
   .tools-feature-grid,
   .tools-workflow-grid {
