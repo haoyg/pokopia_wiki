@@ -930,6 +930,45 @@ section h2::before {
   margin: 0;
 }
 
+.index-card-summary {
+  display: -webkit-box;
+  overflow: hidden;
+  min-height: 4.6em;
+  margin-top: var(--space-3) !important;
+  color: var(--color-text-secondary) !important;
+  font-size: var(--font-size-sm) !important;
+  line-height: 1.55;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.index-card-facts {
+  display: grid;
+  gap: var(--space-2);
+  margin-top: var(--space-4);
+  padding-top: var(--space-3);
+  border-top: 1px solid rgba(220, 232, 220, 0.95);
+}
+
+.index-card-facts div {
+  display: grid;
+  gap: 0.12rem;
+}
+
+.index-card-facts dt {
+  color: var(--color-text-muted);
+  font-size: 0.68rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.index-card-facts dd {
+  color: var(--color-text);
+  font-size: var(--font-size-xs);
+  font-weight: 750;
+  line-height: 1.35;
+}
+
 .type-kicker {
   text-align: center;
   color: var(--color-primary);

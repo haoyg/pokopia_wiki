@@ -1,10 +1,17 @@
 import { Metadata } from 'next'
 import pokemonData from '@/data/pokemon.json'
+import habitatsData from '@/data/habitats.json'
 import { canonicalUrl } from '@/lib/site'
 import { CreditedImage } from '@/components/media/CreditedImage'
 import { BreadcrumbJsonLd, ItemListJsonLd } from '@/components/seo/JsonLd'
 
 const featuredPokemon = ['pkm001', 'pkm002', 'pkm007', 'pkm030']
+const habitatNames = Object.fromEntries(habitatsData.map((habitat) => [habitat.id, habitat.name]))
+
+function shortText(text: string, length = 150) {
+  if (text.length <= length) return text
+  return `${text.slice(0, length).trim()}...`
+}
 
 export const metadata: Metadata = {
   title: 'Pokemon Database',
@@ -99,7 +106,22 @@ export default function PokemonPage() {
             <CreditedImage src={p.image_url} alt={p.image_alt || p.type} source={p.image_source} sourceUrl={p.image_source_url} licenseNote={p.image_license_note} originalMedia={p.image_original_media} className="card-cover pokemon-cover" sizes="(max-width: 768px) 100px, 200px" />
             <h3 style={{ textAlign: 'center' }}>{p.name}</h3>
             <p style={{ textAlign: 'center', color: '#666', fontSize: '0.875rem' }}>{p.type}</p>
-            <p style={{ textAlign: 'center', color: '#637083', fontSize: '0.78rem', marginTop: '0.35rem' }}>{p.specialty} · {p.spawn_time}</p>
+            <p style={{ textAlign: 'center', color: '#637083', fontSize: '0.78rem', marginTop: '0.35rem' }}>{p.specialty} · {habitatNames[p.habitat] || p.habitat}</p>
+            <p className="index-card-summary">{shortText(p.overview, 135)}</p>
+            <dl className="index-card-facts">
+              <div>
+                <dt>Food</dt>
+                <dd>{p.favorite_food}</dd>
+              </div>
+              <div>
+                <dt>Window</dt>
+                <dd>{p.spawn_time} / {p.weather}</dd>
+              </div>
+              <div>
+                <dt>Drops</dt>
+                <dd>{p.drops}</dd>
+              </div>
+            </dl>
             <div style={{ textAlign: 'center', marginTop: '0.5rem' }}>
               <span className={`rarity ${p.rarity}`}>{p.rarity}</span>
             </div>

@@ -8,6 +8,15 @@ const rarityLabels: Record<string, string> = {
   'common': 'Common', 'uncommon': 'Uncommon', 'rare': 'Rare', 'legendary': 'Legendary',
 }
 
+function shortText(text: string, length = 150) {
+  if (text.length <= length) return text
+  return `${text.slice(0, length).trim()}...`
+}
+
+function textValue(value: string | string[]) {
+  return Array.isArray(value) ? value.join(' ') : value
+}
+
 export const metadata: Metadata = {
   title: 'Recipe Cookbook and Buff Notes',
   description: 'Browse Pokopia recipes with ingredients, buff effects, durations, rarity, timing notes, and related route planning links.',
@@ -101,6 +110,17 @@ export default function RecipePage() {
             <h3 style={{ textAlign: 'center', marginTop: '0.5rem' }}>{r.name}</h3>
             <p style={{ textAlign: 'center', color: '#666', fontSize: '0.875rem' }}>{r.buff}</p>
             <p style={{ textAlign: 'center', color: '#637083', fontSize: '0.78rem', marginTop: '0.35rem' }}>{r.effect_duration} · {r.best_use}</p>
+            <p className="index-card-summary">{shortText(r.overview, 135)}</p>
+            <dl className="index-card-facts">
+              <div>
+                <dt>Ingredients</dt>
+                <dd>{r.ingredients}</dd>
+              </div>
+              <div>
+                <dt>Timing</dt>
+                <dd>{shortText(textValue(r.best_timing), 74)}</dd>
+              </div>
+            </dl>
             <div style={{ textAlign: 'center', marginTop: '0.5rem' }}>
               <span className={`rarity ${r.rarity}`}>{rarityLabels[r.rarity]}</span>
             </div>

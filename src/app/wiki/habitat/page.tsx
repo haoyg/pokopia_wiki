@@ -4,6 +4,11 @@ import { canonicalUrl } from '@/lib/site'
 import { CreditedImage } from '@/components/media/CreditedImage'
 import { BreadcrumbJsonLd, ItemListJsonLd } from '@/components/seo/JsonLd'
 
+function shortText(text: string, length = 160) {
+  if (text.length <= length) return text
+  return `${text.slice(0, length).trim()}...`
+}
+
 export const metadata: Metadata = {
   title: 'Habitat Maps and Route Notes',
   description: 'Explore Pokopia habitats with unlock conditions, weather, difficulty, resource bonuses, spawn lists, and editorial route notes.',
@@ -97,6 +102,17 @@ export default function HabitatPage() {
             <h3 style={{ textAlign: 'center', marginTop: '0.5rem' }}>{h.name}</h3>
             <p style={{ textAlign: 'center', color: '#666', fontSize: '0.875rem' }}>{h.unlock_condition}</p>
             <p style={{ textAlign: 'center', color: '#637083', fontSize: '0.78rem', marginTop: '0.35rem' }}>{h.weather} · {h.resource_bonus}</p>
+            <p className="index-card-summary">{shortText(h.overview, 145)}</p>
+            <dl className="index-card-facts">
+              <div>
+                <dt>Build</dt>
+                <dd>{h.recommended_build}</dd>
+              </div>
+              <div>
+                <dt>Route</dt>
+                <dd>{shortText(h.farming_route[1], 72)}</dd>
+              </div>
+            </dl>
             <div style={{ textAlign: 'center', marginTop: '0.5rem', display: 'flex', gap: '0.5rem', justifyContent: 'center', alignItems: 'center' }}>
               <span className={`badge ${h.difficulty}`}>{h.difficulty}</span>
             </div>
