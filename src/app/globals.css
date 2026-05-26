@@ -1648,6 +1648,165 @@ section h2::before {
   margin-top: var(--space-2);
 }
 
+.habitat-detail-page {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: var(--space-8) var(--space-4);
+}
+
+.habitat-detail-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(300px, 420px);
+  gap: var(--space-6);
+  align-items: start;
+  padding: var(--space-6);
+  border: 2px solid rgba(89, 201, 130, 0.34);
+  border-radius: var(--radius-lg);
+  background:
+    linear-gradient(135deg, rgba(242, 251, 244, 0.98), rgba(245, 252, 255, 0.92)),
+    var(--color-bg);
+  box-shadow: 0 8px 0 rgba(89, 201, 130, 0.14);
+}
+
+.habitat-hero-copy h1 {
+  margin: 0;
+  font-size: clamp(2rem, 5vw, 3rem);
+  line-height: 1.05;
+}
+
+.habitat-hero-copy > p {
+  margin-top: var(--space-3);
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-lg);
+  line-height: 1.65;
+}
+
+.habitat-hero-cover {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  border: 2px solid rgba(255, 255, 255, 0.86);
+  border-radius: var(--radius-lg);
+  background:
+    linear-gradient(180deg, rgba(217, 242, 255, 0.9), rgba(242, 251, 244, 0.9)),
+    var(--color-bg-alt);
+  box-shadow: var(--shadow-md);
+}
+
+.habitat-hero-cover img {
+  width: 100%;
+  height: 100%;
+  padding: var(--space-2);
+  object-fit: cover;
+}
+
+.habitat-quick-facts {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: var(--space-3);
+  margin: var(--space-6) 0;
+}
+
+.habitat-quick-facts div {
+  min-width: 0;
+  padding: var(--space-4);
+  border: 2px solid rgba(220, 232, 220, 0.9);
+  border-radius: var(--radius-md);
+  background: rgba(255, 255, 255, 0.82);
+  box-shadow: 0 3px 0 rgba(47, 76, 113, 0.08);
+}
+
+.habitat-quick-facts span {
+  display: block;
+  margin-bottom: var(--space-1);
+  color: var(--color-text-muted);
+  font-size: var(--font-size-xs);
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.habitat-quick-facts strong,
+.habitat-quick-facts a {
+  overflow-wrap: anywhere;
+  color: var(--color-text);
+  font-size: var(--font-size-sm);
+  font-weight: 900;
+  line-height: 1.35;
+}
+
+.habitat-spawn-panel,
+.habitat-guide-section {
+  margin-top: var(--space-5);
+  padding: var(--space-5);
+  border: 2px solid rgba(220, 232, 220, 0.82);
+  border-radius: var(--radius-md);
+  background: rgba(255, 253, 247, 0.86);
+  box-shadow: 0 3px 0 rgba(47, 76, 113, 0.06);
+}
+
+.habitat-guide-section h2,
+.habitat-spawn-panel h2 {
+  display: block;
+  margin-bottom: var(--space-3);
+  font-size: var(--font-size-xl);
+}
+
+.habitat-guide-section h2::before,
+.habitat-spawn-panel h2::before {
+  display: none;
+}
+
+.habitat-guide-section p,
+.habitat-guide-section li {
+  color: var(--color-text-secondary);
+}
+
+.habitat-guide-section ol,
+.habitat-guide-section ul {
+  display: grid;
+  gap: var(--space-2);
+  padding-left: var(--space-5);
+}
+
+.habitat-spawn-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: var(--space-3);
+}
+
+.habitat-spawn-grid a {
+  display: grid;
+  gap: var(--space-1);
+  min-height: 96px;
+  padding: var(--space-3);
+  border: 2px solid rgba(220, 232, 220, 0.82);
+  border-radius: var(--radius-md);
+  background: rgba(255, 255, 255, 0.8);
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+.habitat-spawn-grid a:hover {
+  border-color: rgba(89, 201, 130, 0.62);
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+.habitat-spawn-grid strong {
+  line-height: 1.25;
+}
+
+.habitat-spawn-grid span,
+.habitat-spawn-grid small {
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-xs);
+  font-weight: 800;
+  line-height: 1.35;
+}
+
 /* ============================================
    Badges
    ============================================ */
@@ -2137,6 +2296,28 @@ aside ul li {
   }
 
   .pokemon-guide-section {
+    padding: var(--space-4);
+  }
+
+  .habitat-detail-page {
+    padding: var(--space-5) var(--space-4);
+  }
+
+  .habitat-detail-hero {
+    grid-template-columns: 1fr;
+    padding: var(--space-4);
+  }
+
+  .habitat-hero-copy > p {
+    font-size: var(--font-size-base);
+  }
+
+  .habitat-quick-facts {
+    grid-template-columns: 1fr;
+  }
+
+  .habitat-spawn-panel,
+  .habitat-guide-section {
     padding: var(--space-4);
   }
 }

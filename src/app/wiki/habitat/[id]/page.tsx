@@ -61,7 +61,7 @@ export default async function HabitatDetailPage({ params }: Props) {
   const modifiedAt = habitat.updated_at ? new Date(habitat.updated_at).toISOString() : undefined
 
   return (
-    <main style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
+    <main>
       <WikiPageJsonLd
         name={habitat.name}
         description={habitat.overview}
@@ -86,128 +86,151 @@ export default async function HabitatDetailPage({ params }: Props) {
         ]}
       />
       {habitat.faqs && habitat.faqs.length > 0 && <FAQJsonLd faqs={habitat.faqs} title={habitat.name} />}
-      <h1>{habitat.name}</h1>
-      <p>{habitat.unlock_condition}</p>
-      {updatedAt && <p style={{ color: '#777', fontSize: '0.875rem', marginTop: '0.5rem' }}>Updated {updatedAt}</p>}
-      <DataStatus status={habitat.data_status} note={habitat.data_status_note} updatedAt={updatedAt} />
-      <OfficialContext
-        title="Official Building and Exploration Context"
-        description="Habitat route advice is editorial. Use official pages for confirmed systems around building, exploration, Pokémon moves, multiplayer, and world creation."
-        links={[
-          { href: '/official/gameplay-overview', label: 'Gameplay overview' },
-          { href: '/official/multiplayer-gameshare-cloud-island', label: 'Multiplayer' },
-          { href: '/official/official-beginner-tips', label: 'Official tips' },
-        ]}
-      />
-      <CreditedImage src={habitat.image_url} alt={habitat.image_alt || habitat.name} source={habitat.image_source} sourceUrl={habitat.image_source_url} licenseNote={habitat.image_license_note} originalMedia={habitat.image_original_media} className="article-cover" sizes="(max-width: 768px) 100vw, 800px" priority />
-
-      <section style={{ padding: 0, marginTop: '2rem' }}>
-        <h2>{habitat.name} Overview</h2>
-        <p>{habitat.overview}</p>
-      </section>
-
-      <div style={{ marginTop: '2rem', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem' }}>
-        <div>
-          <h4>Weather</h4>
-          <p>{habitat.weather}</p>
-        </div>
-        <div>
-          <h4>Difficulty</h4>
-          <span className={`badge ${habitat.difficulty}`}>{habitat.difficulty}</span>
-        </div>
-        <div>
-          <h4>Resource Bonus</h4>
-          <p>{habitat.resource_bonus}</p>
-        </div>
-        <div>
-          <h4>Spawns</h4>
-          <p>{relatedPokemon.map((p) => p.name).join(', ')}</p>
-        </div>
-        {recommendedRecipe && (
-          <div>
-            <h4>Recommended Recipe</h4>
-            <a href={`/wiki/recipe/${recommendedRecipe.id}`}>{recommendedRecipe.name}</a>
-          </div>
-        )}
-      </div>
-
-      {habitat.unlock_steps && (
-        <section style={{ padding: 0, marginTop: '2rem' }}>
-          <h2>Unlock Route</h2>
-          <ol>
-            {habitat.unlock_steps.map((step) => (
-              <li key={step}>{step}</li>
-            ))}
-          </ol>
-        </section>
-      )}
-
-      {habitat.recommended_team && (
-        <section style={{ padding: 0, marginTop: '2rem' }}>
-          <h2>Recommended Team</h2>
-          <ul>
-            {habitat.recommended_team.map((item) => (
-              <li key={item}>{item}</li>
-            ))}
-          </ul>
-        </section>
-      )}
-
-      {habitat.farming_route && (
-        <section style={{ padding: 0, marginTop: '2rem' }}>
-          <h2>Farming Route</h2>
-          <ol>
-            {habitat.farming_route.map((step) => (
-              <li key={step}>{step}</li>
-            ))}
-          </ol>
-        </section>
-      )}
-
-      {habitat.rare_spawns && (
-        <section style={{ padding: 0, marginTop: '2rem' }}>
-          <h2>Rare Spawns</h2>
-          <ul>
-            {habitat.rare_spawns.map((item) => (
-              <li key={item}>{item}</li>
-            ))}
-          </ul>
-        </section>
-      )}
-
-      {habitat.resource_notes && (
-        <section style={{ padding: 0, marginTop: '2rem' }}>
-          <h2>Resource Notes</h2>
-          <ul>
-            {habitat.resource_notes.map((item) => (
-              <li key={item}>{item}</li>
-            ))}
-          </ul>
-        </section>
-      )}
-
-      {habitat.common_mistakes && (
-        <section style={{ padding: 0, marginTop: '2rem' }}>
-          <h2>Common Mistakes</h2>
-          <ul>
-            {habitat.common_mistakes.map((item) => (
-              <li key={item}>{item}</li>
-            ))}
-          </ul>
-        </section>
-      )}
-
-      {habitat.faqs && (
-        <section style={{ padding: 0, marginTop: '2rem' }}>
-          <h2>{habitat.name} FAQ</h2>
-          {habitat.faqs.map((faq) => (
-            <div key={faq.question} style={{ marginTop: '1rem' }}>
-              <h3>{faq.question}</h3>
-              <p>{faq.answer}</p>
+      <article className="habitat-detail-page">
+        <div className="habitat-detail-hero">
+          <div className="habitat-hero-copy">
+            <span className="panel-kicker">Habitat Route</span>
+            <h1>{habitat.name}</h1>
+            <p>{habitat.overview}</p>
+            <div className="pokemon-tag-row">
+              <span className={`badge ${habitat.difficulty}`}>{habitat.difficulty}</span>
+              <span className="type-chip">{habitat.weather}</span>
+              <span className="type-chip">{habitat.resource_bonus}</span>
             </div>
-          ))}
-        </section>
-      )}
+            {updatedAt && <p className="updated-note">Updated {updatedAt}</p>}
+            <DataStatus status={habitat.data_status} note={habitat.data_status_note} updatedAt={updatedAt} />
+            <OfficialContext
+              title="Official Building and Exploration Context"
+              description="Habitat route advice is editorial. Use official pages for confirmed systems around building, exploration, Pokémon moves, multiplayer, and world creation."
+              links={[
+                { href: '/official/gameplay-overview', label: 'Gameplay overview' },
+                { href: '/official/multiplayer-gameshare-cloud-island', label: 'Multiplayer' },
+                { href: '/official/official-beginner-tips', label: 'Official tips' },
+              ]}
+            />
+          </div>
+          <CreditedImage src={habitat.image_url} alt={habitat.image_alt || habitat.name} source={habitat.image_source} sourceUrl={habitat.image_source_url} licenseNote={habitat.image_license_note} originalMedia={habitat.image_original_media} className="habitat-hero-cover" sizes="(max-width: 768px) 100vw, 420px" priority />
+        </div>
+
+        <div className="habitat-quick-facts" aria-label={`${habitat.name} quick facts`}>
+          <div>
+            <span>Unlock Condition</span>
+            <strong>{habitat.unlock_condition}</strong>
+          </div>
+          <div>
+            <span>Weather</span>
+            <strong>{habitat.weather}</strong>
+          </div>
+          <div>
+            <span>Spawns</span>
+            <strong>{relatedPokemon.length} Pokemon</strong>
+          </div>
+          {recommendedRecipe && (
+            <div>
+              <span>Recommended Recipe</span>
+              <a href={`/wiki/recipe/${recommendedRecipe.id}`}>{recommendedRecipe.name}</a>
+            </div>
+          )}
+        </div>
+
+        {relatedPokemon.length > 0 && (
+          <section className="habitat-spawn-panel">
+            <div className="section-title-row">
+              <div>
+                <span className="panel-kicker">Local Spawns</span>
+                <h2>Pokemon in {habitat.name}</h2>
+              </div>
+            </div>
+            <div className="habitat-spawn-grid">
+              {relatedPokemon.map((p) => (
+                <a key={p.id} href={`/wiki/pokemon/${p.id}`}>
+                  <strong>{p.name}</strong>
+                  <span>{p.type} · {p.specialty}</span>
+                  <small>{p.spawn_time} / {p.weather}</small>
+                </a>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {habitat.unlock_steps && (
+          <section className="habitat-guide-section">
+            <h2>Unlock Route</h2>
+            <ol>
+              {habitat.unlock_steps.map((step) => (
+                <li key={step}>{step}</li>
+              ))}
+            </ol>
+          </section>
+        )}
+
+        {habitat.recommended_team && (
+          <section className="habitat-guide-section">
+            <h2>Recommended Team</h2>
+            <ul>
+              {habitat.recommended_team.map((item) => (
+                <li key={item}>{item}</li>
+              ))}
+            </ul>
+          </section>
+        )}
+
+        {habitat.farming_route && (
+          <section className="habitat-guide-section">
+            <h2>Farming Route</h2>
+            <ol>
+              {habitat.farming_route.map((step) => (
+                <li key={step}>{step}</li>
+              ))}
+            </ol>
+          </section>
+        )}
+
+        {habitat.rare_spawns && (
+          <section className="habitat-guide-section">
+            <h2>Rare Spawns</h2>
+            <ul>
+              {habitat.rare_spawns.map((item) => (
+                <li key={item}>{item}</li>
+              ))}
+            </ul>
+          </section>
+        )}
+
+        {habitat.resource_notes && (
+          <section className="habitat-guide-section">
+            <h2>Resource Notes</h2>
+            <ul>
+              {habitat.resource_notes.map((item) => (
+                <li key={item}>{item}</li>
+              ))}
+            </ul>
+          </section>
+        )}
+
+        {habitat.common_mistakes && (
+          <section className="habitat-guide-section">
+            <h2>Common Mistakes</h2>
+            <ul>
+              {habitat.common_mistakes.map((item) => (
+                <li key={item}>{item}</li>
+              ))}
+            </ul>
+          </section>
+        )}
+
+        {habitat.faqs && (
+          <section className="habitat-guide-section pokemon-faq-list">
+            <h2>{habitat.name} FAQ</h2>
+            {habitat.faqs.map((faq) => (
+              <div key={faq.question}>
+                <h3>{faq.question}</h3>
+                <p>{faq.answer}</p>
+              </div>
+            ))}
+          </section>
+        )}
+      </article>
 
       <aside className="related-content-panel">
         <div className="section-title-row">
