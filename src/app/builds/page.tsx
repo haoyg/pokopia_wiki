@@ -35,6 +35,45 @@ export default function BuildsPage() {
         ]}
       />
 
+      <section className="index-guide-panel">
+        <div className="section-title-row">
+          <div>
+            <span className="panel-kicker">Build Workflow</span>
+            <h2>Start With a Route, Not a Ranking</h2>
+          </div>
+          <a href="/tools/team-builder">Open Team Builder</a>
+        </div>
+        <div className="index-guide-grid">
+          <div className="index-guide-card">
+            <strong>Progression build</strong>
+            <p>Use this path when the goal is safer unlocks, cleaner habitat scouting, and fewer wasted recipe attempts.</p>
+            <div>
+              <a href="/guides/best-starter-pokemon">Starter guide</a>
+              <a href="/tools/team-builder">Team Builder</a>
+              <a href="/wiki/pokemon">Pokemon database</a>
+            </div>
+          </div>
+          <div className="index-guide-card">
+            <strong>Farming build</strong>
+            <p>Use this path when the route already works and the next question is how to repeat rare checks more efficiently.</p>
+            <div>
+              <a href="/guides/fast-farming-rare-pokemon">Rare farming</a>
+              <a href="/tools/habitat-planner">Habitat Planner</a>
+              <a href="/tools/recipe-calculator">Recipe Calculator</a>
+            </div>
+          </div>
+          <div className="index-guide-card">
+            <strong>Hard route build</strong>
+            <p>Use this path when damage alone is not enough and the route needs survival, timing, and role coverage.</p>
+            <div>
+              <a href="/guides/best-defense-team">Defense guide</a>
+              <a href="/wiki/habitat">Habitat index</a>
+              <a href="/tier-list">Priority index</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="content-section">
         <h2>What a Build Page Should Include</h2>
         <div className="grid-3">
@@ -64,6 +103,27 @@ export default function BuildsPage() {
           <li>Link every build note to related Pokemon, habitats, recipes, and official context pages.</li>
           <li>Record the review date so readers know whether the page may need rechecking after updates.</li>
         </ul>
+      </section>
+
+      <section className="content-section">
+        <h2>Build Review Checklist</h2>
+        <div className="grid-3">
+          <article className="card">
+            <span className="badge official">Evidence</span>
+            <h3>Source or Test Basis</h3>
+            <p>A build should say whether it comes from official information, site database planning, or repeated player testing.</p>
+          </article>
+          <article className="card">
+            <span className="badge farming">Failure Case</span>
+            <h3>When It Breaks</h3>
+            <p>Strong build notes explain the matchups, weather, missing food, or route conditions that make the build unreliable.</p>
+          </article>
+          <article className="card">
+            <span className="badge team">Next Page</span>
+            <h3>Internal Links</h3>
+            <p>Every build should point readers to Pokemon pages, habitat pages, recipe pages, and relevant guides for verification.</p>
+          </article>
+        </div>
       </section>
     </main>
   )

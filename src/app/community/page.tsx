@@ -35,6 +35,45 @@ export default function CommunityPage() {
         ]}
       />
 
+      <section className="index-guide-panel">
+        <div className="section-title-row">
+          <div>
+            <span className="panel-kicker">Contribution Paths</span>
+            <h2>What Community Notes Should Support</h2>
+          </div>
+          <a href="/contact">Contact the site</a>
+        </div>
+        <div className="index-guide-grid">
+          <div className="index-guide-card">
+            <strong>Image corrections</strong>
+            <p>Use this path for better official media, licensed screenshots, clearer source labels, or removal requests.</p>
+            <div>
+              <a href="/copyright">Copyright</a>
+              <a href="/contact">Contact</a>
+              <a href="/official">Official hub</a>
+            </div>
+          </div>
+          <div className="index-guide-card">
+            <strong>Route observations</strong>
+            <p>Useful route notes should include habitat, weather, target Pokemon, repeated attempts, and a review date.</p>
+            <div>
+              <a href="/wiki/habitat">Habitats</a>
+              <a href="/tools/spawn-tracker">Spawn Tracker</a>
+              <a href="/tools/habitat-planner">Habitat Planner</a>
+            </div>
+          </div>
+          <div className="index-guide-card">
+            <strong>Build feedback</strong>
+            <p>Build feedback should explain role coverage, recipe timing, and the specific route where the team was tested.</p>
+            <div>
+              <a href="/builds">Build standards</a>
+              <a href="/tools/team-builder">Team Builder</a>
+              <a href="/tools/recipe-calculator">Recipe Calculator</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="content-section">
         <h2>Accepted Contribution Types</h2>
         <div className="grid-3">
@@ -64,6 +103,27 @@ export default function CommunityPage() {
           <li>Advice based on player testing must include conditions, repeated observations, and a review date.</li>
           <li>Official claims should link to Nintendo, The Pokemon Company, or other clearly identified primary sources.</li>
         </ul>
+      </section>
+
+      <section className="content-section">
+        <h2>Review Priority</h2>
+        <div className="grid-3">
+          <article className="card">
+            <span className="badge official">Highest</span>
+            <h3>Official Source Updates</h3>
+            <p>New Nintendo or Pokemon source pages, release details, feature descriptions, and correction requests should be reviewed first.</p>
+          </article>
+          <article className="card">
+            <span className="badge source-roundup">High</span>
+            <h3>Media Source Fixes</h3>
+            <p>Image ownership, attribution, source clarity, and takedown requests take priority over normal guide expansion.</p>
+          </article>
+          <article className="card">
+            <span className="badge guides">Normal</span>
+            <h3>Editorial Suggestions</h3>
+            <p>Route tips, build ideas, and recipe suggestions are useful when they include conditions and avoid unverifiable ranking claims.</p>
+          </article>
+        </div>
       </section>
     </main>
   )

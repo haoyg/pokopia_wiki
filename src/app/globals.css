@@ -1366,6 +1366,21 @@ main {
   padding: var(--space-8) 0;
 }
 
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--space-4);
+}
+
+.check-list {
+  display: grid;
+  gap: var(--space-3);
+  margin: 0;
+  padding-left: var(--space-5);
+  color: var(--color-text-secondary);
+  line-height: 1.65;
+}
+
 .search-page-form {
   max-width: 760px;
   margin-top: var(--space-4);
@@ -1644,6 +1659,7 @@ aside ul li {
   .pokemon-strip-grid,
   .home-tools-grid,
   .index-guide-grid,
+  .grid-3,
   .tools-hub-hero,
   .tools-feature-grid,
   .tool-guide-grid,
