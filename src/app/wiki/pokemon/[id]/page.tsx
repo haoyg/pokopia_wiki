@@ -87,14 +87,19 @@ export default async function PokemonDetailPage({ params }: Props) {
         ]}
       />
       {pokemon.faqs && pokemon.faqs.length > 0 && <FAQJsonLd faqs={pokemon.faqs} title={pokemon.name} />}
-      <article style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
+      <article className="pokemon-detail-page">
         <div className="pokemon-detail-hero">
           <CreditedImage src={pokemon.image_url} alt={pokemon.image_alt} source={pokemon.image_source} sourceUrl={pokemon.image_source_url} licenseNote={pokemon.image_license_note} originalMedia={pokemon.image_original_media} className="pokemon-portrait" sizes="180px" priority />
-          <div>
+          <div className="pokemon-hero-copy">
+            <span className="panel-kicker">Pokemon Database</span>
             <h1>{pokemon.name}</h1>
-            <p>{pokemon.type}</p>
-            <span className={`rarity ${pokemon.rarity}`}>{pokemon.rarity}</span>
-            {updatedAt && <p style={{ color: '#777', fontSize: '0.875rem', marginTop: '0.75rem' }}>Updated {updatedAt}</p>}
+            <p>{pokemon.overview || pokemon.description}</p>
+            <div className="pokemon-tag-row">
+              <span className="type-chip">{pokemon.type}</span>
+              <span className={`rarity ${pokemon.rarity}`}>{pokemon.rarity}</span>
+              <span className="type-chip">{pokemon.specialty}</span>
+            </div>
+            {updatedAt && <p className="updated-note">Updated {updatedAt}</p>}
             <DataStatus status={pokemon.data_status} note={pokemon.data_status_note} updatedAt={updatedAt} />
             <OfficialContext
               title="Confirmed Gameplay Context"
@@ -107,13 +112,27 @@ export default async function PokemonDetailPage({ params }: Props) {
           </div>
         </div>
 
-        <section style={{ padding: 0, marginTop: '2rem' }}>
-          <h2>{pokemon.name} Overview</h2>
-          <p>{pokemon.overview || pokemon.description}</p>
-        </section>
+        <div className="pokemon-quick-facts" aria-label={`${pokemon.name} quick facts`}>
+          <div>
+            <span>Habitat</span>
+            <a href={`/wiki/habitat/${pokemon.habitat}`}>{habitat?.name || pokemon.habitat}</a>
+          </div>
+          <div>
+            <span>Favorite Food</span>
+            <strong>{pokemon.favorite_food}</strong>
+          </div>
+          <div>
+            <span>Spawn</span>
+            <strong>{pokemon.spawn_time} · {pokemon.weather}</strong>
+          </div>
+          <div>
+            <span>Drops</span>
+            <strong>{pokemon.drops}</strong>
+          </div>
+        </div>
 
         {pokemon.how_to_get && pokemon.how_to_get.length > 0 && (
-          <section style={{ padding: 0, marginTop: '2rem' }}>
+          <section className="pokemon-guide-section">
             <h2>How to Get {pokemon.name}</h2>
             <ol>
               {pokemon.how_to_get.map((step) => (
@@ -123,40 +142,13 @@ export default async function PokemonDetailPage({ params }: Props) {
           </section>
         )}
 
-        <div style={{ marginTop: '1.5rem', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem' }}>
-          <div>
-            <h4>Habitat</h4>
-            <a href={`/wiki/habitat/${pokemon.habitat}`}>{habitat?.name || pokemon.habitat}</a>
-          </div>
-          <div>
-            <h4>Favorite Food</h4>
-            <p>{pokemon.favorite_food}</p>
-          </div>
-          <div>
-            <h4>Spawn Time</h4>
-            <p>{pokemon.spawn_time}</p>
-          </div>
-          <div>
-            <h4>Weather</h4>
-            <p>{pokemon.weather}</p>
-          </div>
-          <div>
-            <h4>Specialty</h4>
-            <p>{pokemon.specialty}</p>
-          </div>
-          <div>
-            <h4>Drops</h4>
-            <p>{pokemon.drops}</p>
-          </div>
-        </div>
-
-        <section style={{ padding: 0, marginTop: '2rem' }}>
+        <section className="pokemon-guide-section pokemon-skill-panel">
           <h2>Skills</h2>
           <p>{pokemon.skills}</p>
         </section>
 
         {pokemon.best_use && pokemon.best_use.length > 0 && (
-          <section style={{ padding: 0, marginTop: '2rem' }}>
+          <section className="pokemon-guide-section">
             <h2>Best Use</h2>
             <ul>
               {pokemon.best_use.map((item) => (
@@ -167,7 +159,7 @@ export default async function PokemonDetailPage({ params }: Props) {
         )}
 
         {pokemon.team_tips && pokemon.team_tips.length > 0 && (
-          <section style={{ padding: 0, marginTop: '2rem' }}>
+          <section className="pokemon-guide-section">
             <h2>Team Tips</h2>
             <ul>
               {pokemon.team_tips.map((item) => (
@@ -178,7 +170,7 @@ export default async function PokemonDetailPage({ params }: Props) {
         )}
 
         {pokemon.farming_notes && pokemon.farming_notes.length > 0 && (
-          <section style={{ padding: 0, marginTop: '2rem' }}>
+          <section className="pokemon-guide-section">
             <h2>Farming Notes</h2>
             <ul>
               {pokemon.farming_notes.map((item) => (
@@ -189,7 +181,7 @@ export default async function PokemonDetailPage({ params }: Props) {
         )}
 
         {pokemon.common_mistakes && pokemon.common_mistakes.length > 0 && (
-          <section style={{ padding: 0, marginTop: '2rem' }}>
+          <section className="pokemon-guide-section">
             <h2>Common Mistakes</h2>
             <ul>
               {pokemon.common_mistakes.map((item) => (
@@ -200,10 +192,10 @@ export default async function PokemonDetailPage({ params }: Props) {
         )}
 
         {pokemon.faqs && pokemon.faqs.length > 0 && (
-          <section style={{ padding: 0, marginTop: '2rem' }}>
+          <section className="pokemon-guide-section pokemon-faq-list">
             <h2>{pokemon.name} FAQ</h2>
             {pokemon.faqs.map((faq) => (
-              <div key={faq.question} style={{ marginTop: '1rem' }}>
+              <div key={faq.question}>
                 <h3>{faq.question}</h3>
                 <p>{faq.answer}</p>
               </div>
