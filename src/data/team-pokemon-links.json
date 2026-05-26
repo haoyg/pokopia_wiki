@@ -1,0 +1,402 @@
+[
+  {
+    "id": "pkm001",
+    "name": "Pikafire",
+    "type": "Fire/Electric",
+    "rarity": "rare",
+    "specialty": "Attacker",
+    "habitat": "hab001"
+  },
+  {
+    "id": "pkm002",
+    "name": "Bulbin",
+    "type": "Grass",
+    "rarity": "common",
+    "specialty": "Defender",
+    "habitat": "hab002"
+  },
+  {
+    "id": "pkm003",
+    "name": "Charmuddy",
+    "type": "Fire",
+    "rarity": "uncommon",
+    "specialty": "Attacker",
+    "habitat": "hab001"
+  },
+  {
+    "id": "pkm004",
+    "name": "Aquap",
+    "type": "Water",
+    "rarity": "common",
+    "specialty": "Support",
+    "habitat": "hab003"
+  },
+  {
+    "id": "pkm005",
+    "name": "Zaprat",
+    "type": "Electric",
+    "rarity": "uncommon",
+    "specialty": "Speedster",
+    "habitat": "hab004"
+  },
+  {
+    "id": "pkm006",
+    "name": "Leafon",
+    "type": "Grass/Poison",
+    "rarity": "rare",
+    "specialty": "Assassin",
+    "habitat": "hab002"
+  },
+  {
+    "id": "pkm007",
+    "name": "Flamexor",
+    "type": "Fire/Steel",
+    "rarity": "legendary",
+    "specialty": "Tank",
+    "habitat": "hab001"
+  },
+  {
+    "id": "pkm008",
+    "name": "Tidlet",
+    "type": "Normal",
+    "rarity": "common",
+    "specialty": "Support",
+    "habitat": "hab005"
+  },
+  {
+    "id": "pkm009",
+    "name": "Shados",
+    "type": "Ghost",
+    "rarity": "rare",
+    "specialty": "Assassin",
+    "habitat": "hab006"
+  },
+  {
+    "id": "pkm010",
+    "name": "Mechabit",
+    "type": "Electric/Steel",
+    "rarity": "uncommon",
+    "specialty": "Defender",
+    "habitat": "hab004"
+  },
+  {
+    "id": "pkm011",
+    "name": "Rockler",
+    "type": "Rock/Ground",
+    "rarity": "common",
+    "specialty": "Defender",
+    "habitat": "hab007"
+  },
+  {
+    "id": "pkm012",
+    "name": "Crystion",
+    "type": "Crystal/Fairy",
+    "rarity": "rare",
+    "specialty": "Attacker",
+    "habitat": "hab007"
+  },
+  {
+    "id": "pkm013",
+    "name": "Emberal",
+    "type": "Fire",
+    "rarity": "common",
+    "specialty": "Attacker",
+    "habitat": "hab001"
+  },
+  {
+    "id": "pkm014",
+    "name": "Glacior",
+    "type": "Ice/Water",
+    "rarity": "uncommon",
+    "specialty": "Support",
+    "habitat": "hab005"
+  },
+  {
+    "id": "pkm015",
+    "name": "Voltscale",
+    "type": "Electric/Dragon",
+    "rarity": "legendary",
+    "specialty": "Attacker",
+    "habitat": "hab004"
+  },
+  {
+    "id": "pkm016",
+    "name": "Breezel",
+    "type": "Flying",
+    "rarity": "common",
+    "specialty": "Speedster",
+    "habitat": "hab008"
+  },
+  {
+    "id": "pkm017",
+    "name": "Thornvine",
+    "type": "Grass",
+    "rarity": "common",
+    "specialty": "Defender",
+    "habitat": "hab002"
+  },
+  {
+    "id": "pkm018",
+    "name": "Mudkipz",
+    "type": "Water/Ground",
+    "rarity": "uncommon",
+    "specialty": "Attacker",
+    "habitat": "hab009"
+  },
+  {
+    "id": "pkm019",
+    "name": "Bronzorm",
+    "type": "Steel/Psychic",
+    "rarity": "rare",
+    "specialty": "Support",
+    "habitat": "hab010"
+  },
+  {
+    "id": "pkm020",
+    "name": "Flamingo",
+    "type": "Fire/Flying",
+    "rarity": "uncommon",
+    "specialty": "Attacker",
+    "habitat": "hab008"
+  },
+  {
+    "id": "pkm021",
+    "name": "Stealthfin",
+    "type": "Water/Dark",
+    "rarity": "rare",
+    "specialty": "Assassin",
+    "habitat": "hab009"
+  },
+  {
+    "id": "pkm022",
+    "name": "Frostbite",
+    "type": "Ice/Ghost",
+    "rarity": "rare",
+    "specialty": "Assassin",
+    "habitat": "hab005"
+  },
+  {
+    "id": "pkm023",
+    "name": "Sunflora",
+    "type": "Grass/Fire",
+    "rarity": "uncommon",
+    "specialty": "Attacker",
+    "habitat": "hab002"
+  },
+  {
+    "id": "pkm024",
+    "name": "Magnedex",
+    "type": "Electric/Steel",
+    "rarity": "uncommon",
+    "specialty": "Defender",
+    "habitat": "hab004"
+  },
+  {
+    "id": "pkm025",
+    "name": "Tropius",
+    "type": "Grass/Flying",
+    "rarity": "common",
+    "specialty": "Support",
+    "habitat": "hab008"
+  },
+  {
+    "id": "pkm026",
+    "name": "Skittlish",
+    "type": "Normal",
+    "rarity": "common",
+    "specialty": "Support",
+    "habitat": "hab002"
+  },
+  {
+    "id": "pkm027",
+    "name": "Dewdrop",
+    "type": "Water/Fairy",
+    "rarity": "uncommon",
+    "specialty": "Support",
+    "habitat": "hab003"
+  },
+  {
+    "id": "pkm028",
+    "name": "Magmar",
+    "type": "Fire",
+    "rarity": "uncommon",
+    "specialty": "Attacker",
+    "habitat": "hab001"
+  },
+  {
+    "id": "pkm029",
+    "name": "Snorizard",
+    "type": "Dragon/Ice",
+    "rarity": "rare",
+    "specialty": "Attacker",
+    "habitat": "hab005"
+  },
+  {
+    "id": "pkm030",
+    "name": "Shadowclaw",
+    "type": "Dark/Ghost",
+    "rarity": "legendary",
+    "specialty": "Assassin",
+    "habitat": "hab006"
+  },
+  {
+    "id": "pkm031",
+    "name": "Crystalwing",
+    "type": "Flying/Crystal",
+    "rarity": "rare",
+    "specialty": "Attacker",
+    "habitat": "hab008"
+  },
+  {
+    "id": "pkm032",
+    "name": "Thornback",
+    "type": "Rock/Bug",
+    "rarity": "common",
+    "specialty": "Defender",
+    "habitat": "hab002"
+  },
+  {
+    "id": "pkm033",
+    "name": "Emberfox",
+    "type": "Fire/Psychic",
+    "rarity": "uncommon",
+    "specialty": "Assassin",
+    "habitat": "hab001"
+  },
+  {
+    "id": "pkm034",
+    "name": "Aquashell",
+    "type": "Water/Rock",
+    "rarity": "common",
+    "specialty": "Defender",
+    "habitat": "hab003"
+  },
+  {
+    "id": "pkm035",
+    "name": "Zapbug",
+    "type": "Electric/Bug",
+    "rarity": "common",
+    "specialty": "Speedster",
+    "habitat": "hab004"
+  },
+  {
+    "id": "pkm036",
+    "name": "Mossling",
+    "type": "Grass",
+    "rarity": "common",
+    "specialty": "Support",
+    "habitat": "hab002"
+  },
+  {
+    "id": "pkm037",
+    "name": "Ironclaw",
+    "type": "Steel/Fighting",
+    "rarity": "uncommon",
+    "specialty": "Attacker",
+    "habitat": "hab010"
+  },
+  {
+    "id": "pkm038",
+    "name": "Mysticat",
+    "type": "Psychic/Fairy",
+    "rarity": "rare",
+    "specialty": "Support",
+    "habitat": "hab010"
+  },
+  {
+    "id": "pkm039",
+    "name": "Boulderchin",
+    "type": "Rock",
+    "rarity": "common",
+    "specialty": "Defender",
+    "habitat": "hab007"
+  },
+  {
+    "id": "pkm040",
+    "name": "Windlor",
+    "type": "Flying",
+    "rarity": "uncommon",
+    "specialty": "Speedster",
+    "habitat": "hab008"
+  },
+  {
+    "id": "pkm041",
+    "name": "Toxifin",
+    "type": "Poison/Water",
+    "rarity": "uncommon",
+    "specialty": "Assassin",
+    "habitat": "hab009"
+  },
+  {
+    "id": "pkm042",
+    "name": "Galebender",
+    "type": "Ground/Fighting",
+    "rarity": "rare",
+    "specialty": "Attacker",
+    "habitat": "hab007"
+  },
+  {
+    "id": "pkm043",
+    "name": "Sunreep",
+    "type": "Fire/Steel",
+    "rarity": "rare",
+    "specialty": "Attacker",
+    "habitat": "hab001"
+  },
+  {
+    "id": "pkm044",
+    "name": "Lunaflare",
+    "type": "Ghost/Fire",
+    "rarity": "legendary",
+    "specialty": "Attacker",
+    "habitat": "hab006"
+  },
+  {
+    "id": "pkm045",
+    "name": "Stormbird",
+    "type": "Flying/Electric",
+    "rarity": "uncommon",
+    "specialty": "Speedster",
+    "habitat": "hab008"
+  },
+  {
+    "id": "pkm046",
+    "name": "Treemendous",
+    "type": "Grass/Normal",
+    "rarity": "common",
+    "specialty": "Defender",
+    "habitat": "hab002"
+  },
+  {
+    "id": "pkm047",
+    "name": "Lightspeed",
+    "type": "Normal/Flying",
+    "rarity": "rare",
+    "specialty": "Speedster",
+    "habitat": "hab008"
+  },
+  {
+    "id": "pkm048",
+    "name": "Magicalure",
+    "type": "Fairy/Poison",
+    "rarity": "rare",
+    "specialty": "Support",
+    "habitat": "hab002"
+  },
+  {
+    "id": "pkm049",
+    "name": "Nightfall",
+    "type": "Dark",
+    "rarity": "uncommon",
+    "specialty": "Assassin",
+    "habitat": "hab006"
+  },
+  {
+    "id": "pkm050",
+    "name": "Primordion",
+    "type": "Dragon/Ground",
+    "rarity": "legendary",
+    "specialty": "Tank",
+    "habitat": "hab009"
+  }
+]

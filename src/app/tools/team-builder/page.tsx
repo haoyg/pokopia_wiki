@@ -1,358 +1,449 @@
 'use client'
 
-import { useState } from 'react'
+import { useMemo, useState } from 'react'
 import Link from 'next/link'
-import pokemonData from '@/data/pokemon.json'
+import pokemonData from '@/data/team-pokemon-links.json'
+import habitatLinksData from '@/data/habitat-links.json'
+import recipeLinksData from '@/data/recipe-links.json'
+import guideLinksData from '@/data/guide-links.json'
 import { DataStatus } from '@/components/content/DataStatus'
 
-const typeEmoji: Record<string, string> = {
-  'Fire': '🔥', 'Water': '💧', 'Grass': '🌿', 'Electric': '⚡',
-  'Ice': '❄️', 'Ghost': '👻', 'Dark': '🌑', 'Dragon': '🐉',
-  'Steel': '⚙️', 'Rock': '🪨', 'Ground': '🌍', 'Flying': '🕊️',
-  'Normal': '⚪', 'Poison': '☠️', 'Fairy': '✨', 'Crystal': '💎',
-}
+const roles = ['all', 'Tank', 'Attacker', 'Assassin', 'Speedster', 'Support', 'Defender']
 
-function getTypeEmoji(type: string): string {
-  for (const [key, emoji] of Object.entries(typeEmoji)) {
-    if (type.toLowerCase().includes(key.toLowerCase())) return emoji
-  }
-  return '⚡'
-}
-
-const roles = ['Tank', 'Attacker', 'Assassin', 'Speedster', 'Support', 'Defender']
-const roleEmoji: Record<string, string> = {
-  Tank: '🛡️', Attacker: '⚔️', Assassin: '🗡️', Speedster: '⚡', Support: '💚', Defender: '🛡️',
-}
-
-const recommendedTeams = [
+const goals = [
   {
-    name: 'Balanced Starter Draft',
-    desc: 'A simple role mix for early planning',
-    members: ['Bulbin', 'Aquap', 'Pikafire'],
+    id: 'balanced',
+    label: 'Balanced Progression',
+    note: 'A stable team for route learning, unlocks, and mixed farming.',
+    preferredRoles: ['Defender', 'Attacker', 'Support', 'Speedster'],
+    preferredTypes: ['Grass', 'Water', 'Fire', 'Electric'],
+    recipeId: 'rec004',
+    guideKeyword: 'starter',
   },
   {
-    name: 'Fire Route Draft',
-    desc: 'A fire-focused group for comparing habitat and recipe pages',
-    members: ['Pikafire', 'Charmuddy', 'Flamexor'],
+    id: 'boss',
+    label: 'Boss Push',
+    note: 'Prioritize burst damage with enough durability to survive the fight.',
+    preferredRoles: ['Attacker', 'Tank', 'Defender', 'Support'],
+    preferredTypes: ['Fire', 'Dragon', 'Electric', 'Steel'],
+    recipeId: 'rec011',
+    guideKeyword: 'fire',
   },
   {
-    name: 'Ghost Route Draft',
-    desc: 'A ghost-focused group for checking role coverage',
-    members: ['Shados', 'Shadowclaw', 'Nightfall'],
+    id: 'rare-farming',
+    label: 'Rare Farming',
+    note: 'Build around repeatable checks, route speed, and safe capture windows.',
+    preferredRoles: ['Speedster', 'Support', 'Assassin', 'Defender'],
+    preferredTypes: ['Grass', 'Water', 'Flying', 'Ghost'],
+    recipeId: 'rec005',
+    guideKeyword: 'rare',
   },
   {
-    name: 'Electric Utility Draft',
-    desc: 'A speed-leaning group for database comparison',
-    members: ['Zaprat', 'Magnedex', 'Voltscale'],
+    id: 'safe-daily',
+    label: 'Safe Daily',
+    note: 'Favor common and uncommon Pokemon that keep farming loops cheap.',
+    preferredRoles: ['Defender', 'Support', 'Speedster', 'Attacker'],
+    preferredTypes: ['Grass', 'Water', 'Normal', 'Electric'],
+    recipeId: 'rec009',
+    guideKeyword: 'leveling',
   },
   {
-    name: 'Durability Draft',
-    desc: 'A sturdy group for planning longer routes',
-    members: ['Flamexor', 'Bulbin', 'Tidlet'],
-  },
-  {
-    name: 'Dragon Route Draft',
-    desc: 'A dragon-focused group for late-route comparison',
-    members: ['Voltscale', 'Snorizard', 'Primordion'],
+    id: 'speed',
+    label: 'Speed Route',
+    note: 'Focus on mobility and fast clears for known routes.',
+    preferredRoles: ['Speedster', 'Attacker', 'Support', 'Assassin'],
+    preferredTypes: ['Electric', 'Flying', 'Fire', 'Water'],
+    recipeId: 'rec003',
+    guideKeyword: 'speed',
   },
 ]
 
-export default function TeamBuilder() {
-  const [selected, setSelected] = useState<string[]>([])
-  const [filterRole, setFilterRole] = useState<string>('all')
+const roleSlots = [
+  { key: 'Lead', roles: ['Defender', 'Tank', 'Speedster'], note: 'Starts the route and controls the first mistake window.' },
+  { key: 'Damage', roles: ['Attacker', 'Assassin'], note: 'Handles boss rooms, elite checks, or faster clears.' },
+  { key: 'Support', roles: ['Support', 'Speedster'], note: 'Keeps farming loops consistent and reduces route friction.' },
+  { key: 'Survival', roles: ['Tank', 'Defender', 'Support'], note: 'Protects long routes, bad weather, and final-room pressure.' },
+]
 
-  const togglePokemon = (name: string) => {
-    if (selected.includes(name)) {
-      setSelected(selected.filter((n) => n !== name))
-    } else if (selected.length < 6) {
-      setSelected([...selected, name])
+function includesType(type: string, preferredTypes: string[]) {
+  return preferredTypes.some((target) => type.toLowerCase().includes(target.toLowerCase()))
+}
+
+function scorePokemon(pokemon: (typeof pokemonData)[number], goal: (typeof goals)[number]) {
+  let score = 0
+  const roleIndex = goal.preferredRoles.indexOf(pokemon.specialty)
+  if (roleIndex >= 0) score += 8 - roleIndex
+  if (includesType(pokemon.type, goal.preferredTypes)) score += 4
+  if (goal.id === 'safe-daily' && ['common', 'uncommon'].includes(pokemon.rarity)) score += 3
+  if (goal.id === 'boss' && ['rare', 'legendary'].includes(pokemon.rarity)) score += 2
+  if (goal.id === 'rare-farming' && pokemon.specialty === 'Speedster') score += 2
+  if (goal.id === 'balanced' && pokemon.rarity !== 'legendary') score += 1
+  return score
+}
+
+function pickForSlot(
+  pool: typeof pokemonData,
+  slot: (typeof roleSlots)[number],
+  usedIds: Set<string>,
+  goal: (typeof goals)[number]
+) {
+  return pool
+    .filter((pokemon) => !usedIds.has(pokemon.id))
+    .filter((pokemon) => slot.roles.includes(pokemon.specialty))
+    .sort((a, b) => scorePokemon(b, goal) - scorePokemon(a, goal))[0]
+}
+
+function uniqueIds(values: string[]) {
+  return Array.from(new Set(values.filter(Boolean)))
+}
+
+export default function TeamBuilder() {
+  const [selectedGoal, setSelectedGoal] = useState('balanced')
+  const [filterRole, setFilterRole] = useState('all')
+  const [selectedIds, setSelectedIds] = useState<string[]>([])
+
+  const activeGoal = goals.find((goal) => goal.id === selectedGoal) || goals[0]
+
+  const rankedPokemon = useMemo(() => {
+    return pokemonData
+      .map((pokemon) => ({
+        pokemon,
+        score: scorePokemon(pokemon, activeGoal),
+      }))
+      .filter(({ pokemon }) => filterRole === 'all' || pokemon.specialty === filterRole)
+      .sort((a, b) => {
+        if (b.score !== a.score) return b.score - a.score
+        return a.pokemon.name.localeCompare(b.pokemon.name)
+      })
+  }, [activeGoal, filterRole])
+
+  const autoTeam = useMemo(() => {
+    const used = new Set<string>()
+    const picked = roleSlots.map((slot) => {
+      const pokemon = pickForSlot(pokemonData, slot, used, activeGoal)
+      if (pokemon) used.add(pokemon.id)
+      return { slot, pokemon }
+    })
+
+    for (const { pokemon } of rankedPokemon) {
+      if (used.size >= 4) break
+      if (!used.has(pokemon.id)) used.add(pokemon.id)
     }
+
+    return picked
+  }, [activeGoal, rankedPokemon])
+
+  const visibleTeamIds = selectedIds.length > 0
+    ? selectedIds
+    : autoTeam.map(({ pokemon }) => pokemon?.id).filter(Boolean) as string[]
+
+  const selectedPokemon = visibleTeamIds
+    .map((id) => pokemonData.find((pokemon) => pokemon.id === id))
+    .filter(Boolean) as typeof pokemonData
+
+  const habitatIds = uniqueIds(selectedPokemon.map((pokemon) => pokemon.habitat))
+  const relatedHabitats = habitatLinksData.filter((habitat) => habitatIds.includes(habitat.id)).slice(0, 5)
+  const relatedRecipe = recipeLinksData.find((recipe) => recipe.id === activeGoal.recipeId)
+  const relatedGuides = guideLinksData
+    .filter((guide) => {
+      const haystack = `${guide.title} ${guide.related_pokemon} ${guide.related_habitats} ${guide.related_items}`.toLowerCase()
+      return haystack.includes(activeGoal.guideKeyword)
+        || selectedPokemon.some((pokemon) => haystack.includes(pokemon.id))
+        || habitatIds.some((id) => haystack.includes(id))
+    })
+    .slice(0, 4)
+
+  const togglePokemon = (id: string) => {
+    setSelectedIds((current) => {
+      if (current.includes(id)) return current.filter((item) => item !== id)
+      if (current.length >= 6) return current
+      return [...current, id]
+    })
   }
 
-  const filteredPokemon = pokemonData.filter((p) => {
-    if (filterRole === 'all') return true
-    return p.specialty === filterRole
-  })
-
-  const selectedPokemon = selected.map((name) => pokemonData.find((p) => p.name === name)).filter(Boolean)
-
   return (
-    <main style={{ maxWidth: '1200px', margin: '0 auto', padding: '2rem 1rem' }}>
-      <header style={{ marginBottom: '2rem' }}>
-        <Link href="/tools" style={{ fontSize: '0.875rem', color: '#666' }}>
-          ← Back to Tools
+    <main style={{ maxWidth: '1120px', margin: '0 auto', padding: '2rem 1rem 3rem' }}>
+      <header style={{ marginBottom: '1.5rem' }}>
+        <Link href="/tools" style={{ fontSize: '0.875rem', color: '#637083' }}>
+          Back to Tools
         </Link>
         <h1 style={{ fontSize: '2rem', fontWeight: 800, marginTop: '0.5rem' }}>
-          ⚔️ Team Builder
+          Team Builder
         </h1>
-        <p style={{ color: '#666', marginTop: '0.5rem' }}>
-          Draft up to 6 Pokemon from current database roles, then verify details on Pokemon and habitat pages.
+        <p style={{ color: '#637083', marginTop: '0.5rem', maxWidth: '780px' }}>
+          Choose a team goal, compare Pokemon by role, and connect the draft to recipes, habitats, and guide pages before committing resources.
         </p>
       </header>
 
       <DataStatus
-        status="Database planning tool"
-        note="Suggested teams are editorial drafts built from site database roles. They are not official team rankings, competitive recommendations, or verified clear-speed results."
-        updatedAt="2026-05-23"
+        status="Interactive team planning tool"
+        note="Team recommendations are editorial planning drafts based on Pokopia Portal role, type, habitat, recipe, and guide data. They are not official rankings or verified competitive results."
+        updatedAt="2026-05-26"
       />
 
-      <div style={{ display: 'grid', gridTemplateColumns: '1fr 350px', gap: '2rem', alignItems: 'start' }}>
-        {/* Pokemon Selection */}
-        <div>
-          {/* Role Filter */}
-          <div style={{ marginBottom: '1rem', display: 'flex', gap: '0.5rem', flexWrap: 'wrap' }}>
+      <section style={{ marginTop: '1.5rem' }}>
+        <h2 style={{ fontSize: '1rem', marginBottom: '0.75rem' }}>Team Goal</h2>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))', gap: '0.75rem' }}>
+          {goals.map((goal) => (
             <button
-              onClick={() => setFilterRole('all')}
+              key={goal.id}
+              onClick={() => {
+                setSelectedGoal(goal.id)
+                setSelectedIds([])
+              }}
               style={{
-                padding: '0.5rem 1rem',
-                borderRadius: '8px',
-                border: '2px solid',
-                borderColor: filterRole === 'all' ? '#e94560' : '#e5e5e5',
-                background: filterRole === 'all' ? '#e94560' : 'white',
-                color: filterRole === 'all' ? 'white' : '#666',
-                fontWeight: 600,
+                minHeight: '108px',
+                padding: '1rem',
+                borderRadius: '10px',
+                border: selectedGoal === goal.id ? '2px solid #ff5c7a' : '1px solid #dce8dc',
+                background: selectedGoal === goal.id ? '#fff1f4' : 'rgba(255, 255, 255, 0.88)',
+                boxShadow: selectedGoal === goal.id ? '0 8px 18px rgba(47, 76, 113, 0.12)' : '0 2px 0 rgba(47, 76, 113, 0.08)',
                 cursor: 'pointer',
+                textAlign: 'left',
               }}
             >
-              All
+              <strong style={{ display: 'block', fontSize: '0.95rem' }}>{goal.label}</strong>
+              <span style={{ display: 'block', marginTop: '0.45rem', color: '#637083', fontSize: '0.82rem', lineHeight: 1.45 }}>
+                {goal.note}
+              </span>
             </button>
-            {roles.map((role) => (
-              <button
-                key={role}
-                onClick={() => setFilterRole(role)}
-                style={{
-                  padding: '0.5rem 1rem',
-                  borderRadius: '8px',
-                  border: '2px solid',
-                  borderColor: filterRole === role ? '#e94560' : '#e5e5e5',
-                  background: filterRole === role ? '#e94560' : 'white',
-                  color: filterRole === role ? 'white' : '#666',
-                  fontWeight: 600,
-                  cursor: 'pointer',
-                }}
-              >
-                {roleEmoji[role]} {role}
-              </button>
-            ))}
+          ))}
+        </div>
+      </section>
+
+      <div style={{ marginTop: '2rem', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 360px), 1fr))', gap: '1.25rem', alignItems: 'start' }}>
+        <section>
+          <div style={{ display: 'flex', justifyContent: 'space-between', gap: '1rem', alignItems: 'center', marginBottom: '0.75rem', flexWrap: 'wrap' }}>
+            <h2 style={{ fontSize: '1rem' }}>Pokemon Pool</h2>
+            <select
+              value={filterRole}
+              onChange={(event) => setFilterRole(event.target.value)}
+              aria-label="Filter Pokemon by role"
+              style={{
+                minWidth: '140px',
+                padding: '0.55rem 0.65rem',
+                borderRadius: '8px',
+                border: '1px solid #dce8dc',
+                background: 'white',
+                color: '#20243a',
+              }}
+            >
+              {roles.map((role) => (
+                <option key={role} value={role}>
+                  {role === 'all' ? 'All roles' : role}
+                </option>
+              ))}
+            </select>
           </div>
 
-          {/* Pokemon Grid */}
-          <div
-            style={{
-              display: 'grid',
-              gridTemplateColumns: 'repeat(auto-fill, minmax(150px, 1fr))',
-              gap: '0.75rem',
-              maxHeight: '500px',
-              overflowY: 'auto',
-              padding: '0.5rem',
-            }}
-          >
-            {filteredPokemon.map((p) => {
-              const isSelected = selected.includes(p.name)
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(160px, 1fr))', gap: '0.65rem' }}>
+            {rankedPokemon.map(({ pokemon, score }) => {
+              const isSelected = visibleTeamIds.includes(pokemon.id)
+              const isManualSelected = selectedIds.includes(pokemon.id)
+
               return (
                 <button
-                  key={p.id}
-                  onClick={() => togglePokemon(p.name)}
+                  key={pokemon.id}
+                  onClick={() => togglePokemon(pokemon.id)}
                   style={{
-                    padding: '0.75rem',
+                    minHeight: '128px',
+                    padding: '0.85rem',
                     borderRadius: '10px',
-                    border: '2px solid',
-                    borderColor: isSelected ? '#e94560' : '#e5e5e5',
-                    background: isSelected ? '#fef2f4' : 'white',
-                    cursor: 'pointer',
+                    border: isSelected ? '2px solid #ff5c7a' : '1px solid #dce8dc',
+                    background: isSelected ? '#fff1f4' : 'rgba(255, 255, 255, 0.92)',
+                    cursor: selectedIds.length >= 6 && !isManualSelected ? 'not-allowed' : 'pointer',
                     textAlign: 'left',
-                    transition: 'all 0.15s',
-                    opacity: selected.length >= 6 && !isSelected ? 0.5 : 1,
+                    opacity: selectedIds.length >= 6 && !isManualSelected ? 0.55 : 1,
+                    boxShadow: '0 2px 0 rgba(47, 76, 113, 0.08)',
                   }}
                 >
-                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'start' }}>
-                    <span style={{ fontSize: '1.5rem' }}>{getTypeEmoji(p.type)}</span>
-                    {isSelected && (
-                      <span style={{ color: '#e94560', fontWeight: 700, fontSize: '0.875rem' }}>✓</span>
-                    )}
+                  <div style={{ display: 'flex', justifyContent: 'space-between', gap: '0.5rem', alignItems: 'start' }}>
+                    <strong style={{ fontSize: '0.9rem' }}>{pokemon.name}</strong>
+                    <span className={`rarity ${pokemon.rarity}`} style={{ fontSize: '0.62rem' }}>{pokemon.rarity}</span>
                   </div>
-                  <div style={{ fontWeight: 700, fontSize: '0.8rem', marginTop: '0.25rem', color: '#1a1a2e' }}>
-                    {p.name}
-                  </div>
-                  <div style={{ fontSize: '0.65rem', color: '#666', marginTop: '0.125rem' }}>
-                    {p.specialty}
-                  </div>
-                  <span
-                    className={`rarity ${p.rarity}`}
-                    style={{ fontSize: '0.6rem', marginTop: '0.25rem', display: 'inline-block' }}
+                  <p style={{ marginTop: '0.35rem', color: '#637083', fontSize: '0.8rem' }}>
+                    {pokemon.type} · {pokemon.specialty}
+                  </p>
+                  <small style={{ display: 'block', marginTop: '0.5rem', color: score > 0 ? '#2f84d8' : '#8b97a8' }}>
+                    Team match {score}
+                  </small>
+                  <Link
+                    href={`/wiki/pokemon/${pokemon.id}`}
+                    onClick={(event) => event.stopPropagation()}
+                    style={{ display: 'inline-block', marginTop: '0.55rem', fontSize: '0.78rem' }}
                   >
-                    {p.rarity}
-                  </span>
+                    Open Pokemon
+                  </Link>
                 </button>
               )
             })}
           </div>
-        </div>
+        </section>
 
-        {/* Team Panel */}
-        <div style={{ position: 'sticky', top: '1rem' }}>
-          {/* Your Team */}
-          <div
-            style={{
-              padding: '1.5rem',
-              border: '1px solid #e5e5e5',
-              borderRadius: '12px',
-              background: 'white',
-              marginBottom: '1.5rem',
-            }}
-          >
-            <h2 style={{ fontSize: '1.125rem', fontWeight: 700, marginBottom: '1rem' }}>
-              Your Team ({selected.length}/6)
-            </h2>
-
-            {selected.length === 0 ? (
-              <p style={{ color: '#999', fontSize: '0.875rem', textAlign: 'center', padding: '2rem' }}>
-                Select Pokémon to build your team
-              </p>
-            ) : (
-              <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
-                {selectedPokemon.map((p) => p && (
-                  <div
-                    key={p.id}
-                    style={{
-                      display: 'flex',
-                      alignItems: 'center',
-                      gap: '0.75rem',
-                      padding: '0.5rem',
-                      background: '#f8f9fa',
-                      borderRadius: '8px',
-                    }}
-                  >
-                    <span style={{ fontSize: '1.25rem' }}>{getTypeEmoji(p.type)}</span>
-                    <div style={{ flex: 1 }}>
-                      <Link href={`/wiki/pokemon/${p.id}`} style={{ fontWeight: 600, fontSize: '0.875rem', color: '#1a1a2e' }}>
-                        {p.name}
-                      </Link>
-                      <div style={{ fontSize: '0.7rem', color: '#666' }}>{p.specialty}</div>
-                    </div>
-                    <button
-                      onClick={() => togglePokemon(p.name)}
-                      style={{
-                        padding: '0.25rem 0.5rem',
-                        border: 'none',
-                        background: '#ffebee',
-                        color: '#c62828',
-                        borderRadius: '4px',
-                        cursor: 'pointer',
-                        fontSize: '0.75rem',
-                      }}
-                    >
-                      ✕
-                    </button>
-                  </div>
-                ))}
-              </div>
-            )}
-
-            {selected.length > 0 && (
+        <section
+          style={{
+            padding: '1.25rem',
+            border: '1px solid #dce8dc',
+            borderRadius: '12px',
+            background: 'rgba(255, 255, 255, 0.94)',
+            boxShadow: '0 8px 18px rgba(47, 76, 113, 0.12)',
+          }}
+        >
+          <div style={{ display: 'flex', justifyContent: 'space-between', gap: '1rem', alignItems: 'start', flexWrap: 'wrap' }}>
+            <div>
+              <span style={{ color: '#637083', fontSize: '0.78rem', fontWeight: 800, textTransform: 'uppercase' }}>
+                Current draft
+              </span>
+              <h2 style={{ fontSize: '1.6rem', marginTop: '0.2rem' }}>{activeGoal.label}</h2>
+            </div>
+            {selectedIds.length > 0 && (
               <button
-                onClick={() => setSelected([])}
+                onClick={() => setSelectedIds([])}
                 style={{
-                  marginTop: '1rem',
-                  width: '100%',
-                  padding: '0.75rem',
-                  border: '1px solid #e5e5e5',
+                  minHeight: '40px',
+                  padding: '0.55rem 0.8rem',
                   borderRadius: '8px',
+                  border: '1px solid #dce8dc',
                   background: 'white',
-                  color: '#666',
+                  color: '#637083',
+                  fontWeight: 700,
                   cursor: 'pointer',
-                  fontSize: '0.875rem',
                 }}
               >
-                Clear Team
+                Reset Auto Draft
               </button>
             )}
           </div>
 
-          {/* Recommended Teams */}
-          <div
-            style={{
-              padding: '1.5rem',
-              border: '1px solid #e5e5e5',
-              borderRadius: '12px',
-              background: 'white',
-            }}
-          >
-            <h2 style={{ fontSize: '1.125rem', fontWeight: 700, marginBottom: '1rem' }}>
-              Planning Drafts
-            </h2>
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
-              {recommendedTeams.map((team) => (
-                <div
-                  key={team.name}
+          <p style={{ marginTop: '1rem', color: '#3d475c' }}>{activeGoal.note}</p>
+
+          <div style={{ marginTop: '1.25rem', display: 'grid', gap: '0.75rem' }}>
+            {roleSlots.map((slot) => {
+              const manualPokemon = selectedPokemon.find((pokemon) => slot.roles.includes(pokemon.specialty))
+              const autoPokemon = autoTeam.find((item) => item.slot.key === slot.key)?.pokemon
+              const pokemon = manualPokemon || autoPokemon
+
+              return (
+                <div key={slot.key} style={{ padding: '0.9rem', borderRadius: '10px', border: '1px solid #dce8dc', background: '#fffdf7' }}>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', gap: '0.75rem', alignItems: 'center', flexWrap: 'wrap' }}>
+                    <div>
+                      <strong>{slot.key}</strong>
+                      <p style={{ marginTop: '0.2rem', color: '#637083', fontSize: '0.82rem' }}>{slot.note}</p>
+                    </div>
+                    {pokemon && (
+                      <Link href={`/wiki/pokemon/${pokemon.id}`} style={{ fontWeight: 800 }}>
+                        {pokemon.name}
+                      </Link>
+                    )}
+                  </div>
+                  {pokemon && (
+                    <p style={{ marginTop: '0.45rem', color: '#3d475c', fontSize: '0.88rem' }}>
+                      {pokemon.type} · {pokemon.specialty} · {pokemon.rarity}
+                    </p>
+                  )}
+                </div>
+              )
+            })}
+          </div>
+
+          <div style={{ marginTop: '1.5rem', borderTop: '1px solid #dce8dc', paddingTop: '1.25rem' }}>
+            <h3 style={{ fontSize: '0.95rem', marginBottom: '0.75rem' }}>Planning Links</h3>
+
+            {relatedRecipe && (
+              <div style={{ marginBottom: '1rem' }}>
+                <strong style={{ display: 'block', fontSize: '0.8rem', color: '#637083', marginBottom: '0.45rem' }}>Recommended Recipe</strong>
+                <Link
+                  href={`/wiki/recipe/${relatedRecipe.id}`}
                   style={{
-                    padding: '0.75rem',
-                    background: '#f8f9fa',
-                    borderRadius: '8px',
+                    display: 'inline-block',
+                    padding: '0.45rem 0.65rem',
+                    border: '1px solid #dce8dc',
+                    borderRadius: '999px',
+                    background: '#fff1f4',
+                    fontSize: '0.82rem',
                   }}
                 >
-                  <div style={{ fontWeight: 600, fontSize: '0.875rem' }}>{team.name}</div>
-                  <div style={{ fontSize: '0.75rem', color: '#666', margin: '0.25rem 0' }}>{team.desc}</div>
-                  <div style={{ display: 'flex', gap: '0.25rem', flexWrap: 'wrap', marginTop: '0.5rem' }}>
-                    {team.members.map((member) => {
-                      const p = pokemonData.find((pk) => pk.name === member)
-                      return (
-                        <button
-                          key={member}
-                          onClick={() => !selected.includes(member) && togglePokemon(member)}
-                          style={{
-                            padding: '0.25rem 0.5rem',
-                            border: '1px solid',
-                            borderColor: selected.includes(member) ? '#e94560' : '#ddd',
-                            borderRadius: '4px',
-                            background: selected.includes(member) ? '#fef2f4' : 'white',
-                            fontSize: '0.7rem',
-                            cursor: selected.includes(member) ? 'default' : 'pointer',
-                            display: 'flex',
-                            alignItems: 'center',
-                            gap: '0.25rem',
-                          }}
-                        >
-                          {p && getTypeEmoji(p.type)} {member}
-                        </button>
-                      )
-                    })}
-                  </div>
+                  {relatedRecipe.name} · {relatedRecipe.best_use}
+                </Link>
+              </div>
+            )}
+
+            {relatedHabitats.length > 0 && (
+              <div style={{ marginBottom: '1rem' }}>
+                <strong style={{ display: 'block', fontSize: '0.8rem', color: '#637083', marginBottom: '0.45rem' }}>Route Habitats</strong>
+                <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap' }}>
+                  {relatedHabitats.map((habitat) => (
+                    <Link
+                      key={habitat.id}
+                      href={`/wiki/habitat/${habitat.id}`}
+                      style={{
+                        padding: '0.4rem 0.6rem',
+                        border: '1px solid #dce8dc',
+                        borderRadius: '999px',
+                        background: '#f2fbf4',
+                        fontSize: '0.82rem',
+                      }}
+                    >
+                      {habitat.name}
+                    </Link>
+                  ))}
                 </div>
-              ))}
-            </div>
+              </div>
+            )}
+
+            {selectedPokemon.length > 0 && (
+              <div style={{ marginBottom: '1rem' }}>
+                <strong style={{ display: 'block', fontSize: '0.8rem', color: '#637083', marginBottom: '0.45rem' }}>Team Members</strong>
+                <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap' }}>
+                  {selectedPokemon.map((pokemon) => (
+                    <Link
+                      key={pokemon.id}
+                      href={`/wiki/pokemon/${pokemon.id}`}
+                      style={{
+                        padding: '0.4rem 0.6rem',
+                        border: '1px solid #dce8dc',
+                        borderRadius: '999px',
+                        background: '#f5fcff',
+                        fontSize: '0.82rem',
+                      }}
+                    >
+                      {pokemon.name}
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {relatedGuides.length > 0 && (
+              <div>
+                <strong style={{ display: 'block', fontSize: '0.8rem', color: '#637083', marginBottom: '0.45rem' }}>Related Guides</strong>
+                <div style={{ display: 'grid', gap: '0.45rem' }}>
+                  {relatedGuides.map((guide) => (
+                    <Link key={guide.id} href={`/guides/${guide.slug}`} style={{ fontSize: '0.88rem' }}>
+                      {guide.title}
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            )}
           </div>
-        </div>
+        </section>
       </div>
 
-      {/* Team Synergy Tips */}
-      {selected.length >= 3 && (
-        <div
-          style={{
-            marginTop: '2rem',
-            padding: '1.5rem',
-            background: '#e8f5e9',
-            borderRadius: '12px',
-          }}
-        >
-          <h3 style={{ fontSize: '1rem', fontWeight: 700, marginBottom: '0.5rem' }}>
-            💡 Team Synergy Tips
-          </h3>
-          <ul style={{ fontSize: '0.875rem', color: '#666', paddingLeft: '1.25rem', margin: 0 }}>
-            {selected.length >= 4 && <li>Your draft has several roles covered; compare Support entries if the route needs utility.</li>}
-            {selected.filter((n) => pokemonData.find((p) => p.name === n)?.specialty === 'Tank').length === 0 && (
-              <li>No Tank role selected; check durability-focused Pokemon if the habitat route is difficult.</li>
-            )}
-            {selected.filter((n) => pokemonData.find((p) => p.name === n)?.rarity === 'legendary').length === 0 && (
-              <li>No legendary entry selected; compare rarity, habitat access, and resource needs before adding one.</li>
-            )}
-            {!selected.some((n) => pokemonData.find((p) => p.name === n)?.type.includes('Ghost')) && (
-              <li>No Ghost-type selected; check whether the target habitat actually needs Ghost-type planning.</li>
-            )}
-            {selected.length >= 5 && <li>Before using this draft, match weather, recipes, and habitat conditions on the linked pages.</li>}
-          </ul>
-        </div>
-      )}
+      <section
+        style={{
+          marginTop: '2rem',
+          padding: '1.25rem',
+          borderRadius: '12px',
+          border: '1px solid rgba(255, 209, 102, 0.65)',
+          background: 'rgba(255, 253, 247, 0.94)',
+        }}
+      >
+        <h2 style={{ fontSize: '1rem', marginBottom: '0.5rem' }}>How to use the draft</h2>
+        <p style={{ color: '#637083', fontSize: '0.9rem', maxWidth: '850px' }}>
+          Start from the automatic four-role draft, then swap Pokemon from the pool if your target habitat needs a different type or rarity. Open the linked pages before spending rare recipes so the team matches weather, food, drops, and route risk.
+        </p>
+      </section>
     </main>
   )
 }
