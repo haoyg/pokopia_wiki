@@ -12,27 +12,27 @@
     "image_alt": "Pokémon Pokopia habitat screenshot: Volcanic Cave",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Volcanic Cave should be planned as a tank build route, not as a generic checklist map. The main reasons to enter are +50% Fire drops, Clear/Sunny conditions, and target checks for Pikafire, Charmuddy, Flamexor, Emberal, and Magmar. For Volcanic Cave, enter with a narrow goal; hard routes punish teams that try to farm every possible target at once. Fire Boost adds +30% Fire damage, but Volcanic Cave should be mapped once before that recipe becomes part of the repeat plan.",
+    "overview": "Volcanic Cave is a hard fire-damage route with real commitment costs. Clear/Sunny weather, Fire Boost, and targets such as Pikafire, Flamexor, and Sunreep make it a boss-prep habitat rather than a casual Fire Stone loop. Use the cave when fire materials and damage testing matter at the same time.",
     "unlock_steps": [
-      "Volcanic Cave unlocks through Reach Level 15; treat the first visit as route survey time.",
-      "Before entering Volcanic Cave, check Clear/Sunny and choose whether the session is for +50% Fire drops, Pikafire, Flamexor, and Sunreep, or unlock progress.",
-      "Bring a Tank Build plan to Volcanic Cave only if it helps the first target branch with Pikafire, Charmuddy, and Flamexor.",
-      "Scout Volcanic Cave once without Fire Boost and mark the earliest safe exit after the target check.",
-      "Start repeat farming in Volcanic Cave only when two clean clears show that Fire Stone, Thunder Stone, Ash, Metal Coat, Legendary Scale, Flame Ore, and Magma Core still justify the time."
+      "Unlock Volcanic Cave through Reach Level 15 and scout the first fire branch without Fire Boost.",
+      "Check Clear/Sunny weather before spending food on Pikafire, Flamexor, or Sunreep.",
+      "Choose whether the route is for Fire Stone volume, Metal Coat overlap, or a high-value rare target.",
+      "Bring a Tank Build only if the team needs to survive the cave's opening pressure.",
+      "Repeat once Fire Stone, Thunder Stone, Metal Coat, Flame Ore, or Magma Core has a named use."
     ],
     "recommended_team": [
-      "Choose one lead target before entering Volcanic Cave: Pikafire, Flamexor, and Sunreep for high-value checks, or Charmuddy, Emberal, and Magmar when the session is about steady materials.",
-      "Prepare food around Apple, Honey, Iron Ore, Hot Pepper, and Magma Stone. If those foods do not match the Volcanic Cave target list, treat the run as a scout rather than a farm.",
-      "Use Fire Boost in Volcanic Cave after the first clean path is known; +30% Fire damage should improve a branch you already plan to repeat.",
-      "Bring a backup role for the point where Volcanic Cave usually fails: the first bad weather branch, the target encounter, or the exit after the material check.",
-      "Compare the local Pokemon pages before repeating Volcanic Cave, because Fire Stone, Thunder Stone, Ash, Metal Coat, Legendary Scale, Flame Ore, and Magma Core do not all support the same build step."
+      "Bring one durable slot for the opener and one attacker that benefits from Fire Boost.",
+      "Use Pikafire for Fire / Electric pressure, Flamexor for survival checks, and Sunreep for Fire / Steel overlap.",
+      "Charmuddy, Emberal, and Magmar are better for shorter Fire Stone or Flame Ore loops.",
+      "Fire Boost should reduce known fights; it should not be spent to discover the route.",
+      "Food planning matters because Apple, Honey, Iron Ore, Hot Pepper, and Magma Stone point to different branches."
     ],
     "farming_route": [
-      "Use Clear/Sunny as the session gate for Volcanic Cave. A clean Volcanic Cave scout under the wrong weather should be logged, not repeated for serious farming.",
-      "After the first target check, continue only if Fire Stone, Thunder Stone, Ash, Metal Coat, Legendary Scale, Flame Ore, and Magma Core still match the active team plan.",
-      "Add Fire Boost on the repeat version of Volcanic Cave, once pathing mistakes are no longer hiding the recipe value.",
-      "Review Volcanic Cave after two clears: if the result is only generic resources, move the session to a more specific habitat.",
-      "Start Volcanic Cave by declaring one goal: unlock progress, +50% Fire drops, a rare spawn check, or a recipe test."
+      "Open with a safe fire branch and identify whether the run is a material loop or a rare check.",
+      "Stay short for Fire Stone volume; branch deeper only for Flamexor, Sunreep, or Magmar materials.",
+      "Add Fire Boost after the team knows where the hard fight happens.",
+      "Exit after the chosen fire material is checked, especially if the route begins costing recovery items.",
+      "Compare cave results with recipe needs before repeating."
     ],
     "rare_spawns": [
       "Pikafire in Volcanic Cave: rare Fire/Electric, best checked during Day / Sunny.",
@@ -40,17 +40,17 @@
       "Sunreep in Volcanic Cave: rare Fire/Steel, best checked during Day / Sunny."
     ],
     "resource_notes": [
-      "Volcanic Cave turns +50% Fire drops into value only when the target material is named before the run starts; the usual candidates are Fire Stone, Thunder Stone, Ash, Metal Coat, Legendary Scale, Flame Ore, and Magma Core.",
-      "For Volcanic Cave, food prep starts with Apple, Honey, Iron Ore, Hot Pepper, and Magma Stone. Leave extras behind when they do not support Pikafire, Flamexor, and Sunreep or Charmuddy, Emberal, and Magmar.",
-      "Pikafire, Flamexor, and Sunreep are the high-commitment Volcanic Cave checks, while Charmuddy, Emberal, and Magmar are better for shorter material loops.",
-      "Track Volcanic Cave clear time separately from Fire Stone, Thunder Stone, Ash, Metal Coat, Legendary Scale, Flame Ore, and Magma Core; a route can feel good and still be inefficient for the current build."
+      "Volcanic Cave is strongest when Fire Stone and another material matter together.",
+      "Thunder Stone points to Pikafire, Metal Coat points to Flamexor or Sunreep, and Magma Core points to Magmar.",
+      "Fire Boost creates value only when the target fight repeats cleanly.",
+      "This habitat should support boss preparation, not unfocused fire collecting."
     ],
     "common_mistakes": [
-      "Repeating Volcanic Cave after Fire Stone, Thunder Stone, Ash, Metal Coat, Legendary Scale, Flame Ore, and Magma Core stop supporting the current recipe or team upgrade.",
-      "Treating Volcanic Cave like a full-clear map when the stronger play is to exit after the planned branch.",
-      "Entering Volcanic Cave without choosing whether the run is for +50% Fire drops, Pikafire, Flamexor, and Sunreep, or route practice.",
-      "Using Fire Boost before the first clean Volcanic Cave path is known.",
-      "Chasing Pikafire, Charmuddy, Flamexor, Emberal, and Magmar in one run even when the food plan only supports Apple, Honey, Iron Ore, Hot Pepper, and Magma Stone."
+      "Entering Volcanic Cave without deciding between material farming and boss-prep testing.",
+      "Using Fire Boost on the first scouting pass.",
+      "Chasing every fire target in one expensive run.",
+      "Ignoring Clear/Sunny weather before spending rare food.",
+      "Repeating the cave after the build no longer needs its fire-side materials."
     ],
     "faqs": [
       {
@@ -94,44 +94,44 @@
     "image_alt": "Pokémon Pokopia habitat screenshot: Forest Valley",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "The practical question for Forest Valley is whether Cloudy/Foggy helps the team reach Leafon and Magicalure or collect Leaf, Grass Fiber, Poison Stone, Leaf Stone, Thorn, Sun Stone, and Flame Ore. It unlocks through Starting Habitat, then rewards players who choose one objective before entering. Use Forest Valley to learn spawn timing, verify food value, and build confidence before spending rare recipes. Honey Cake adds +20% attraction rate, but Forest Valley should be mapped once before that recipe becomes part of the repeat plan.",
+    "overview": "Forest Valley is the flexible early grass route, but it is not the same job as Meadow Garden. Cloudy/Foggy weather, Leafon, Thornvine, Mossling, Sunflora, and Magicalure make it a denser route for grass, poison, and support decisions. Use it when the team is ready to manage mixed status pressure rather than simple daily herb farming.",
     "unlock_steps": [
-      "Forest Valley unlocks through Starting Habitat; treat the first visit as route survey time.",
-      "Before entering Forest Valley, check Cloudy/Foggy and choose whether the session is for +30% Leaf drops, Leafon and Magicalure, or unlock progress.",
-      "Bring a Balanced plan to Forest Valley only if it helps the first target branch with Bulbin, Leafon, and Thornvine.",
-      "Scout Forest Valley once without Honey Cake and mark the earliest safe exit after the target check.",
-      "Start repeat farming in Forest Valley only when two clean clears show that Leaf, Grass Fiber, Poison Stone, Leaf Stone, Thorn, Sun Stone, and Flame Ore still justify the time."
+      "Unlock Forest Valley through the early story path and use the first run to separate the safe grass branch from the foggy rare branch.",
+      "Check Cloudy/Foggy before committing food to Leafon, Sunflora, or Magicalure.",
+      "Choose whether the session is for Leaf materials, poison overlap, support practice, or a rare night check.",
+      "Scout once without Honey Cake so the team can see whether attraction rate is actually needed.",
+      "Repeat only when Leaf, Grass Fiber, Poison Stone, Sun Stone, or Fairy Dust supports the next build step."
     ],
     "recommended_team": [
-      "Prepare food around Leaf, Mystery Mushroom, Berry, Sunstone, and Cookie. If those foods do not match the Forest Valley target list, treat the run as a scout rather than a farm.",
-      "Use Honey Cake in Forest Valley after the first clean path is known; +20% attraction rate should improve a branch you already plan to repeat.",
-      "Bring a backup role for the point where Forest Valley usually fails: the first bad weather branch, the target encounter, or the exit after the material check.",
-      "Compare the local Pokemon pages before repeating Forest Valley, because Leaf, Grass Fiber, Poison Stone, Leaf Stone, Thorn, Sun Stone, and Flame Ore do not all support the same build step.",
-      "Forest Valley wants a Balanced core that can handle Cloudy/Foggy; start with roles from defender, assassin, attacker, and support instead of forcing only high-rarity picks."
+      "Bring a balanced team with one support answer; Forest Valley asks for more role coverage than Meadow Garden.",
+      "Use Bulbin or Mossling for safer grass loops, Leafon for poison pressure, and Magicalure for rare support checks.",
+      "Honey Cake is useful when attraction rate changes the target branch, not as a default farming tax.",
+      "Food should match the planned branch: Leaf and Berry for grass loops, Mystery Mushroom for Magicalure, and Sunflower Seed for Sunflora.",
+      "If the goal is only low-risk herb farming, Meadow Garden is cleaner."
     ],
     "farming_route": [
-      "After the first target check, continue only if Leaf, Grass Fiber, Poison Stone, Leaf Stone, Thorn, Sun Stone, and Flame Ore still match the active team plan.",
-      "Add Honey Cake on the repeat version of Forest Valley, once pathing mistakes are no longer hiding the recipe value.",
-      "Review Forest Valley after two clears: if the result is only generic resources, move the session to a more specific habitat.",
-      "Start Forest Valley by declaring one goal: unlock progress, +30% Leaf drops, a rare spawn check, or a recipe test.",
-      "Path first toward Bulbin, Leafon, Thornvine, Sunflora, and Skittlish; if the target branch is missed, reset before the run turns into unfocused clearing."
+      "Start with the basic grass branch and decide whether Leaf or Grass Fiber is still the goal.",
+      "Branch toward Leafon when poison overlap is useful; branch toward Magicalure only when Fairy Dust or Poison Stone matters.",
+      "Use Honey Cake after the path is mapped and the rare check is worth repeating.",
+      "Exit once the chosen status or grass material is checked, because Forest Valley can sprawl into unfocused clearing.",
+      "Compare results with Meadow Garden after two runs if the session is only about Leaf."
     ],
     "rare_spawns": [
       "Leafon in Forest Valley: rare Grass/Poison, best checked during Night / Foggy.",
       "Magicalure in Forest Valley: rare Fairy/Poison, best checked during Night / Foggy."
     ],
     "resource_notes": [
-      "Forest Valley turns +30% Leaf drops into value only when the target material is named before the run starts; the usual candidates are Leaf, Grass Fiber, Poison Stone, Leaf Stone, Thorn, Sun Stone, and Flame Ore.",
-      "For Forest Valley, food prep starts with Leaf, Mystery Mushroom, Berry, Sunstone, and Cookie. Leave extras behind when they do not support Leafon and Magicalure or Bulbin, Thornvine, Sunflora, and Skittlish.",
-      "Leafon and Magicalure are the high-commitment Forest Valley checks, while Bulbin, Thornvine, Sunflora, and Skittlish are better for shorter material loops.",
-      "Track Forest Valley clear time separately from Leaf, Grass Fiber, Poison Stone, Leaf Stone, Thorn, Sun Stone, and Flame Ore; a route can feel good and still be inefficient for the current build."
+      "Forest Valley is strongest for mixed Grass / Poison / Fairy support materials.",
+      "Leaf and Grass Fiber are available here, but Meadow Garden handles simpler daily loops with less decision pressure.",
+      "Magicalure gives the route a rare support-material angle that Meadow Garden does not have.",
+      "The route works best when the player chooses either safe grass farming or foggy rare checks before entering."
     ],
     "common_mistakes": [
-      "Treating Forest Valley like a full-clear map when the stronger play is to exit after the planned branch.",
-      "Entering Forest Valley without choosing whether the run is for +30% Leaf drops, Leafon and Magicalure, or route practice.",
-      "Using Honey Cake before the first clean Forest Valley path is known.",
-      "Chasing Bulbin, Leafon, Thornvine, Sunflora, and Skittlish in one run even when the food plan only supports Leaf, Mystery Mushroom, Berry, Sunstone, and Cookie.",
-      "Ignoring Cloudy/Foggy and then blaming the Pokemon roster for weak results."
+      "Treating Forest Valley like a simple Meadow Garden daily route.",
+      "Using Honey Cake before the foggy rare branch is mapped.",
+      "Chasing Bulbin, Leafon, Mossling, Sunflora, and Magicalure in one session without a material priority.",
+      "Ignoring Cloudy/Foggy and then judging rare support targets unfairly.",
+      "Continuing after the chosen grass or poison material is finished."
     ],
     "faqs": [
       {
@@ -175,41 +175,41 @@
     "image_alt": "Pokémon Pokopia habitat screenshot: Crystal Lake",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Crystal Lake combines support and defender roles with Water, Fairy, and Rock coverage, so the best route depends on the team goal rather than the map name. Its headline bonus is +40% Water drops, and the important local checks include Aquap, Dewdrop, and Aquashell. Use Crystal Lake to learn spawn timing, verify food value, and build confidence before spending rare recipes. Water Shield adds +35% water resistance, but Crystal Lake should be mapped once before that recipe becomes part of the repeat plan.",
+    "overview": "Crystal Lake is the early water-learning route. Rain weather, Aquap support, Dewdrop utility, and Aquashell durability make it a safe place to learn resource loops before harder habitats. It is not a rare-hunt map first; it is a consistency and water-material map.",
     "unlock_steps": [
-      "Crystal Lake unlocks through Reach Level 5; treat the first visit as route survey time.",
-      "Before entering Crystal Lake, check Rain and choose whether the session is for +40% Water drops, Aquap, Dewdrop, and Aquashell, or unlock progress.",
-      "Bring a Farming plan to Crystal Lake only if it helps the first target branch with Aquap, Dewdrop, and Aquashell.",
-      "Scout Crystal Lake once without Water Shield and mark the earliest safe exit after the target check.",
-      "Start repeat farming in Crystal Lake only when two clean clears show that Water Stone, Pearl, Star Piece, and Shell still justify the time."
+      "Unlock Crystal Lake through Reach Level 5 and use the first visit to learn Rain routing.",
+      "Choose whether the run is for Aquap support, Dewdrop utility, Aquashell durability, or basic Water Stone farming.",
+      "Map the safest path before spending Water Shield.",
+      "Use a low-cost team until the lake route can be repeated without item pressure.",
+      "Repeat when Water Stone, Star Piece, Shell, or Pearl is needed for a clear upgrade."
     ],
     "recommended_team": [
-      "Use Water Shield in Crystal Lake after the first clean path is known; +35% water resistance should improve a branch you already plan to repeat.",
-      "Bring a backup role for the point where Crystal Lake usually fails: the first bad weather branch, the target encounter, or the exit after the material check.",
-      "Compare the local Pokemon pages before repeating Crystal Lake, because Water Stone, Pearl, Star Piece, and Shell do not all support the same build step.",
-      "Crystal Lake wants a Farming core that can handle Rain; start with support and defender roles instead of forcing only high-rarity picks.",
-      "Choose one lead target before entering Crystal Lake: Aquap, Dewdrop, and Aquashell for high-value checks, or Aquap, Dewdrop, and Aquashell when the session is about steady materials."
+      "Use Aquap for support learning, Dewdrop for utility checks, and Aquashell when durability is the lesson.",
+      "Water Shield is best saved for repeat runs where incoming water pressure is actually slowing the team.",
+      "Bring Fish, Crystal Dew, or Shell based on the target instead of treating all water food as interchangeable.",
+      "A Farming build should favor consistency and low resource spend.",
+      "Crystal Lake is a good training route before moving to Muddy River or Fairy Glen."
     ],
     "farming_route": [
-      "Add Water Shield on the repeat version of Crystal Lake, once pathing mistakes are no longer hiding the recipe value.",
-      "Review Crystal Lake after two clears: if the result is only generic resources, move the session to a more specific habitat.",
-      "Start Crystal Lake by declaring one goal: unlock progress, +40% Water drops, a rare spawn check, or a recipe test.",
-      "Path first toward Aquap, Dewdrop, and Aquashell; if the target branch is missed, reset before the run turns into unfocused clearing.",
-      "Use Rain as the session gate for Crystal Lake. A clean Crystal Lake scout under the wrong weather should be logged, not repeated for serious farming."
+      "Start with the safest Rain path and measure how many items the team spends before the first target.",
+      "Run Aquap checks when support stability is the goal.",
+      "Branch to Dewdrop when Star Piece or mixed Fairy utility is needed.",
+      "Use Aquashell when the route needs defensive practice or Shell / Pearl value.",
+      "Leave after the planned water-material check instead of turning the lake into a full map clear."
     ],
     "rare_spawns": [],
     "resource_notes": [
-      "Crystal Lake turns +40% Water drops into value only when the target material is named before the run starts; the usual candidates are Water Stone, Pearl, Star Piece, and Shell.",
-      "For Crystal Lake, food prep starts with Golden Fish, Crystal Dew, and Pearl. Leave extras behind when they do not support Aquap, Dewdrop, and Aquashell or Aquap, Dewdrop, and Aquashell.",
-      "Aquap, Dewdrop, and Aquashell are the high-commitment Crystal Lake checks, while Aquap, Dewdrop, and Aquashell are better for shorter material loops.",
-      "Track Crystal Lake clear time separately from Water Stone, Pearl, Star Piece, and Shell; a route can feel good and still be inefficient for the current build."
+      "Crystal Lake is best for early Water Stone, Star Piece, Shell, and Pearl planning.",
+      "It teaches Rain timing without the mud-route complexity of Muddy River.",
+      "Dewdrop gives this route a support angle that later connects to Fairy Glen.",
+      "Aquashell is the slower durability option, not the default farming target."
     ],
     "common_mistakes": [
-      "Entering Crystal Lake without choosing whether the run is for +40% Water drops, Aquap, Dewdrop, and Aquashell, or route practice.",
-      "Using Water Shield before the first clean Crystal Lake path is known.",
-      "Chasing Aquap, Dewdrop, and Aquashell in one run even when the food plan only supports Golden Fish, Crystal Dew, and Pearl.",
-      "Ignoring Rain and then blaming the Pokemon roster for weak results.",
-      "Repeating Crystal Lake after Water Stone, Pearl, Star Piece, and Shell stop supporting the current recipe or team upgrade."
+      "Treating Crystal Lake like a rare-hunt page instead of an early consistency route.",
+      "Using Water Shield before the team actually needs water resistance.",
+      "Mixing Aquap, Dewdrop, and Aquashell goals without choosing the target material.",
+      "Staying after the basic water material is already finished.",
+      "Skipping this route too early and entering harder water areas without a stable plan."
     ],
     "faqs": [
       {
@@ -253,43 +253,43 @@
     "image_alt": "Pokémon Pokopia habitat screenshot: Windmill Plains",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Windmill Plains is a medium habitat unlocked through Reach Level 10. Its identity is Windy routing, +25% Electric drops, and a spawn group led by Zaprat, Mechabit, Voltscale, Magnedex, and Zapbug. Treat Windmill Plains as a bridge route: scout carefully, then shorten the repeat path once the target branch is known. Thunder Strike adds +40% electric damage, but Windmill Plains should be mapped once before that recipe becomes part of the repeat plan.",
+    "overview": "Windmill Plains is the first serious speed-routing habitat: Windy weather, light electric enemies, and repeated short checks matter more than one long full clear. The page is built around Zaprat, Zapbug, and the Voltscale lottery, with Mechabit and Magnedex acting as metal-side detours. Use Thunder Strike only when the route is already fast enough to benefit from extra electric damage.",
     "unlock_steps": [
-      "Windmill Plains unlocks through Reach Level 10; treat the first visit as route survey time.",
-      "Before entering Windmill Plains, check Windy and choose whether the session is for +25% Electric drops, Voltscale, or unlock progress.",
-      "Bring a Speed Build plan to Windmill Plains only if it helps the first target branch with Zaprat, Mechabit, and Voltscale.",
-      "Scout Windmill Plains once without Thunder Strike and mark the earliest safe exit after the target check.",
-      "Start repeat farming in Windmill Plains only when two clean clears show that Thunder Stone, Lightning Rod, Metal Coat, Piston, Dragon Scale, Metal Coil, and Magnet still justify the time."
+      "Unlock Windmill Plains through Reach Level 10, then treat the first visit as a pathing exercise rather than a damage test.",
+      "Enter during Windy weather if the goal is Zaprat, Zapbug, or a faster Voltscale check; otherwise use the run only for mapping.",
+      "Mark the quickest loop that reaches the first electric spawn cluster, because this area rewards repeated checks over deep clearing.",
+      "Bring Thunder Strike only after the speed loop is stable; the recipe should reduce repeat time, not hide sloppy routing.",
+      "Start farming when Thunder Stone, Lightning Rod, or Dragon Scale has a clear upgrade target."
     ],
     "recommended_team": [
-      "Bring a backup role for the point where Windmill Plains usually fails: the first bad weather branch, the target encounter, or the exit after the material check.",
-      "Compare the local Pokemon pages before repeating Windmill Plains, because Thunder Stone, Lightning Rod, Metal Coat, Piston, Dragon Scale, Metal Coil, and Magnet do not all support the same build step.",
-      "Windmill Plains wants a Speed Build core that can handle Windy; start with roles from speedster, defender, and attacker instead of forcing only high-rarity picks.",
-      "Choose one lead target before entering Windmill Plains: Voltscale for high-value checks, or Zaprat, Mechabit, Magnedex, and Zapbug when the session is about steady materials.",
-      "Prepare food around Cheese, Battery, Lightning Bug, Magnet, and Mushroom. If those foods do not match the Windmill Plains target list, treat the run as a scout rather than a farm."
+      "Start with a speedster-friendly team that can reset quickly after the first electric branch.",
+      "Use Zaprat or Zapbug for low-cost electric checks; save Voltscale attempts for sessions with food and time to repeat.",
+      "Add one defensive slot if Mechabit or Magnedex is part of the material plan, because the metal detour slows the route.",
+      "Thunder Strike fits the fast loop better than a full-clear plan; use it when repeated electric fights are the bottleneck.",
+      "Do not bring every electric food at once. Pick Cheese, Lightning Bug, or Battery based on the target branch."
     ],
     "farming_route": [
-      "Review Windmill Plains after two clears: if the result is only generic resources, move the session to a more specific habitat.",
-      "Start Windmill Plains by declaring one goal: unlock progress, +25% Electric drops, a rare spawn check, or a recipe test.",
-      "Path first toward Zaprat, Mechabit, Voltscale, Magnedex, and Zapbug; if the target branch is missed, reset before the run turns into unfocused clearing.",
-      "Use Windy as the session gate for Windmill Plains. A clean Windmill Plains scout under the wrong weather should be logged, not repeated for serious farming.",
-      "After the first target check, continue only if Thunder Stone, Lightning Rod, Metal Coat, Piston, Dragon Scale, Metal Coil, and Magnet still match the active team plan."
+      "Run the opening field path first and record how quickly the route reaches Zaprat or Zapbug.",
+      "If Voltscale is the target, skip metal detours unless Thunder Stone and Dragon Scale both matter.",
+      "If Mechabit or Magnedex is the target, slow down and treat the run as a metal-material pass instead of a speed pass.",
+      "Exit after the first failed rare check when the session is about Voltscale; full clears dilute the purpose of Windmill Plains.",
+      "Compare three repeat runs by time-to-check, not by total enemies defeated."
     ],
     "rare_spawns": [
       "Voltscale in Windmill Plains: legendary Electric/Dragon, best checked during Night / Thunderstorm."
     ],
     "resource_notes": [
-      "Windmill Plains turns +25% Electric drops into value only when the target material is named before the run starts; the usual candidates are Thunder Stone, Lightning Rod, Metal Coat, Piston, Dragon Scale, Metal Coil, and Magnet.",
-      "For Windmill Plains, food prep starts with Cheese, Battery, Lightning Bug, Magnet, and Mushroom. Leave extras behind when they do not support Voltscale or Zaprat, Mechabit, Magnedex, and Zapbug.",
-      "Voltscale is the high-commitment Windmill Plains checks, while Zaprat, Mechabit, Magnedex, and Zapbug are better for shorter material loops.",
-      "Track Windmill Plains clear time separately from Thunder Stone, Lightning Rod, Metal Coat, Piston, Dragon Scale, Metal Coil, and Magnet; a route can feel good and still be inefficient for the current build."
+      "Windmill Plains is best for Thunder Stone and Lightning Rod when short electric loops are more valuable than heavy metal farming.",
+      "Dragon Scale is the reason to stay for Voltscale; without that target, the route should stay short.",
+      "Metal Coat, Metal Coil, Piston, and Magnet are secondary here. Move to Industrial Zone if those are the main goal.",
+      "The strongest Windmill Plains sessions end early and repeat often."
     ],
     "common_mistakes": [
-      "Using Thunder Strike before the first clean Windmill Plains path is known.",
-      "Chasing Zaprat, Mechabit, Voltscale, Magnedex, and Zapbug in one run even when the food plan only supports Cheese, Battery, Lightning Bug, Magnet, and Mushroom.",
-      "Ignoring Windy and then blaming the Pokemon roster for weak results.",
-      "Repeating Windmill Plains after Thunder Stone, Lightning Rod, Metal Coat, Piston, Dragon Scale, Metal Coil, and Magnet stop supporting the current recipe or team upgrade.",
-      "Treating Windmill Plains like a full-clear map when the stronger play is to exit after the planned branch."
+      "Treating Windmill Plains like Industrial Zone just because both contain electric or steel Pokemon.",
+      "Using Thunder Strike before the speed loop is mapped.",
+      "Chasing Voltscale while also clearing every Mechabit and Magnedex branch.",
+      "Ignoring Windy weather and then judging the route by a slow scouting run.",
+      "Farming metal materials here when Industrial Zone is the cleaner target."
     ],
     "faqs": [
       {
@@ -333,44 +333,44 @@
     "image_alt": "Pokémon Pokopia habitat screenshot: Frost Peak",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Frost Peak should be planned as a defense build route, not as a generic checklist map. The main reasons to enter are +35% Ice drops, Snow conditions, and target checks for Tidlet, Glacior, Frostbite, and Snorizard. Treat Frost Peak as a bridge route: scout carefully, then shorten the repeat path once the target branch is known. Ice Armor adds +50% ice resistance, but Frost Peak should be mapped once before that recipe becomes part of the repeat plan.",
+    "overview": "Frost Peak is the snow survival route. Snow weather, Ice Armor, Frostbite, Snorizard, Tidlet, and Glacieron make it a defensive pacing habitat where the main question is whether the team can survive long enough to make Ice Stone, Frost Crystal, or Dragon Scale worth the climb.",
     "unlock_steps": [
-      "Frost Peak unlocks through Reach Level 20; treat the first visit as route survey time.",
-      "Before entering Frost Peak, check Snow and choose whether the session is for +35% Ice drops, Frostbite and Snorizard, or unlock progress.",
-      "Bring a Defense Build plan to Frost Peak only if it helps the first target branch with Tidlet, Glacior, and Frostbite.",
-      "Scout Frost Peak once without Ice Armor and mark the earliest safe exit after the target check.",
-      "Start repeat farming in Frost Peak only when two clean clears show that Fur, Cloth, Ice Stone, Frost Crystal, Ghost Stone, Ice Crystal, and Dragon Scale still justify the time."
+      "Unlock Frost Peak through Reach Level 20 and scout the first snow branch without Ice Armor.",
+      "Check Snow weather before committing Frost Meat, Ice Crystal, or Frozen Berry.",
+      "Choose whether the run is for safe support practice, Frostbite control, Snorizard overlap, or Glacieron materials.",
+      "Map the recovery cost of the climb before adding defensive recipes.",
+      "Repeat when Ice Stone, Frost Crystal, Fur, Cloth, or Dragon Scale has a clear use."
     ],
     "recommended_team": [
-      "Compare the local Pokemon pages before repeating Frost Peak, because Fur, Cloth, Ice Stone, Frost Crystal, Ghost Stone, Ice Crystal, and Dragon Scale do not all support the same build step.",
-      "Frost Peak wants a Defense Build core that can handle Snow; start with roles from support, assassin, and attacker instead of forcing only high-rarity picks.",
-      "Choose one lead target before entering Frost Peak: Frostbite and Snorizard for high-value checks, or Tidlet and Glacior when the session is about steady materials.",
-      "Prepare food around Any Food, Snowball, Frozen Soul, and Frost Meat. If those foods do not match the Frost Peak target list, treat the run as a scout rather than a farm.",
-      "Use Ice Armor in Frost Peak after the first clean path is known; +50% ice resistance should improve a branch you already plan to repeat."
+      "Bring one durable front slot and one reliable finisher; Frost Peak punishes teams that only chase speed.",
+      "Use Tidlet for low-cost support practice, Frostbite for ghost-ice pressure, and Snorizard or Glacieron for higher-value snow targets.",
+      "Ice Armor should reduce a known survival problem, not replace basic routing.",
+      "Food choice should separate Frostbite from Snorizard and Glacieron attempts.",
+      "If the route feels slow but safe, judge it by material yield rather than clear speed alone."
     ],
     "farming_route": [
-      "Start Frost Peak by declaring one goal: unlock progress, +35% Ice drops, a rare spawn check, or a recipe test.",
-      "Path first toward Tidlet, Glacior, Frostbite, and Snorizard; if the target branch is missed, reset before the run turns into unfocused clearing.",
-      "Use Snow as the session gate for Frost Peak. A clean Frost Peak scout under the wrong weather should be logged, not repeated for serious farming.",
-      "After the first target check, continue only if Fur, Cloth, Ice Stone, Frost Crystal, Ghost Stone, Ice Crystal, and Dragon Scale still match the active team plan.",
-      "Add Ice Armor on the repeat version of Frost Peak, once pathing mistakes are no longer hiding the recipe value."
+      "Start with the safest snow branch and measure item spend before the first target.",
+      "Branch to Frostbite when Ghost Stone or Ice Crystal is useful.",
+      "Commit to Snorizard only when Dragon Scale or Ice Stone justifies the longer climb.",
+      "Use Ice Armor on repeat routes where incoming snow damage is the actual bottleneck.",
+      "Exit after the chosen ice material is checked; full clears are rarely efficient here."
     ],
     "rare_spawns": [
       "Frostbite in Frost Peak: rare Ice/Ghost, best checked during Night / Snow.",
       "Snorizard in Frost Peak: rare Dragon/Ice, best checked during Any / Snow."
     ],
     "resource_notes": [
-      "Frost Peak turns +35% Ice drops into value only when the target material is named before the run starts; the usual candidates are Fur, Cloth, Ice Stone, Frost Crystal, Ghost Stone, Ice Crystal, and Dragon Scale.",
-      "For Frost Peak, food prep starts with Any Food, Snowball, Frozen Soul, and Frost Meat. Leave extras behind when they do not support Frostbite and Snorizard or Tidlet and Glacior.",
-      "Frostbite and Snorizard are the high-commitment Frost Peak checks, while Tidlet and Glacior are better for shorter material loops.",
-      "Track Frost Peak clear time separately from Fur, Cloth, Ice Stone, Frost Crystal, Ghost Stone, Ice Crystal, and Dragon Scale; a route can feel good and still be inefficient for the current build."
+      "Frost Peak is strongest for Ice Stone, Frost Crystal, Ice Crystal, Fur, and Dragon Scale.",
+      "Snorizard turns the route into a Dragon / Ice material check, while Tidlet keeps it low-cost.",
+      "Ice Armor is valuable when survival, not damage, is limiting the route.",
+      "The best Frost Peak sessions have a strict target and a planned exit."
     ],
     "common_mistakes": [
-      "Chasing Tidlet, Glacior, Frostbite, and Snorizard in one run even when the food plan only supports Any Food, Snowball, Frozen Soul, and Frost Meat.",
-      "Ignoring Snow and then blaming the Pokemon roster for weak results.",
-      "Repeating Frost Peak after Fur, Cloth, Ice Stone, Frost Crystal, Ghost Stone, Ice Crystal, and Dragon Scale stop supporting the current recipe or team upgrade.",
-      "Treating Frost Peak like a full-clear map when the stronger play is to exit after the planned branch.",
-      "Entering Frost Peak without choosing whether the run is for +35% Ice drops, Frostbite and Snorizard, or route practice."
+      "Treating Frost Peak like a normal material loop instead of a survival route.",
+      "Using Ice Armor before identifying where the team takes too much damage.",
+      "Chasing every snow target when only Ice Stone or Fur is needed.",
+      "Ignoring Snow weather before spending rare food.",
+      "Repeating the climb after the target ice material is finished."
     ],
     "faqs": [
       {
@@ -414,27 +414,27 @@
     "image_alt": "Pokémon Pokopia habitat screenshot: Shadow Marsh",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "The practical question for Shadow Marsh is whether Stormy/Night helps the team reach Shados, Shadowclaw, and Lunaflare or collect Ghost Stone, Soul Dust, Shadow Stone, King's Rock, Legendary Ember, and Dark Gem. It unlocks through Reach Level 25, then rewards players who choose one objective before entering. For Shadow Marsh, enter with a narrow goal; hard routes punish teams that try to farm every possible target at once. Ghost Veil adds +45% ghost damage, but Shadow Marsh should be mapped once before that recipe becomes part of the repeat plan.",
+    "overview": "Shadow Marsh is the broad ghost-night route. Stormy/Night conditions, Shados, Shadowclaw, Lunaflare, and Nightfall create a wider farm than Dark Cavern, with Ghost Stone, Soul Dust, Shadow Stone, and Legendary Ember all competing for attention. Enter with a written target or the marsh becomes an expensive full-clear trap.",
     "unlock_steps": [
-      "Shadow Marsh unlocks through Reach Level 25; treat the first visit as route survey time.",
-      "Before entering Shadow Marsh, check Stormy/Night and choose whether the session is for +60% Ghost drops, Shados, Shadowclaw, and Lunaflare, or unlock progress.",
-      "Bring a Stealth Build plan to Shadow Marsh only if it helps the first target branch with Shados, Shadowclaw, and Lunaflare.",
-      "Scout Shadow Marsh once without Ghost Veil and mark the earliest safe exit after the target check.",
-      "Start repeat farming in Shadow Marsh only when two clean clears show that Ghost Stone, Soul Dust, Shadow Stone, King's Rock, Legendary Ember, and Dark Gem still justify the time."
+      "Unlock Shadow Marsh through Reach Level 25 and use the first run to mark safe exits after each night branch.",
+      "Check Stormy/Night before committing food to Shados, Shadowclaw, or Lunaflare.",
+      "Decide whether the session is a ghost-material farm, an assassin check, or a legendary attempt.",
+      "Scout once without Ghost Veil so the marsh's natural risk is visible.",
+      "Repeat only when Ghost Stone, Soul Dust, Shadow Stone, or Legendary Ember has a current build purpose."
     ],
     "recommended_team": [
-      "Shadow Marsh wants a Stealth Build core that can handle Stormy/Night; start with assassin and attacker roles instead of forcing only high-rarity picks.",
-      "Choose one lead target before entering Shadow Marsh: Shados, Shadowclaw, and Lunaflare for high-value checks, or Nightfall when the session is about steady materials.",
-      "Prepare food around Soul Dust and Void Fruit. If those foods do not match the Shadow Marsh target list, treat the run as a scout rather than a farm.",
-      "Use Ghost Veil in Shadow Marsh after the first clean path is known; +45% ghost damage should improve a branch you already plan to repeat.",
-      "Bring a backup role for the point where Shadow Marsh usually fails: the first bad weather branch, the target encounter, or the exit after the material check."
+      "Bring assassin pressure and one recovery or safety slot; Shadow Marsh punishes missed burst windows.",
+      "Use Shados for Ghost Stone and Soul Dust, Nightfall for dark-side materials, and Shadowclaw / Lunaflare for high-commitment targets.",
+      "Ghost Veil is useful on repeat ghost branches but should not turn the run into a full-clear habit.",
+      "Soul Dust and Void Fruit should be packed according to the chosen target, not carried as a default bundle.",
+      "If the goal is only Dark Gem, Dark Cavern is usually cleaner."
     ],
     "farming_route": [
-      "Path first toward Shados, Shadowclaw, Lunaflare, and Nightfall; if the target branch is missed, reset before the run turns into unfocused clearing.",
-      "Use Stormy/Night as the session gate for Shadow Marsh. A clean Shadow Marsh scout under the wrong weather should be logged, not repeated for serious farming.",
-      "After the first target check, continue only if Ghost Stone, Soul Dust, Shadow Stone, King's Rock, Legendary Ember, and Dark Gem still match the active team plan.",
-      "Add Ghost Veil on the repeat version of Shadow Marsh, once pathing mistakes are no longer hiding the recipe value.",
-      "Review Shadow Marsh after two clears: if the result is only generic resources, move the session to a more specific habitat."
+      "Start with Shados when Ghost Stone or Soul Dust is the main goal.",
+      "Branch toward Shadowclaw or Lunaflare only when legendary materials justify the extra risk.",
+      "Use Nightfall as the exit-side dark check, not as a reason to clear the entire marsh.",
+      "Add Ghost Veil after the team has a repeatable night route.",
+      "Leave after the chosen ghost or dark material is checked."
     ],
     "rare_spawns": [
       "Shados in Shadow Marsh: rare Ghost, best checked during Night / Stormy.",
@@ -442,17 +442,17 @@
       "Lunaflare in Shadow Marsh: legendary Ghost/Fire, best checked during Night / Stormy."
     ],
     "resource_notes": [
-      "Shadow Marsh turns +60% Ghost drops into value only when the target material is named before the run starts; the usual candidates are Ghost Stone, Soul Dust, Shadow Stone, King's Rock, Legendary Ember, and Dark Gem.",
-      "For Shadow Marsh, food prep starts with Soul Dust and Void Fruit. Leave extras behind when they do not support Shados, Shadowclaw, and Lunaflare or Nightfall.",
-      "Shados, Shadowclaw, and Lunaflare are the high-commitment Shadow Marsh checks, while Nightfall is better for shorter material loops.",
-      "Track Shadow Marsh clear time separately from Ghost Stone, Soul Dust, Shadow Stone, King's Rock, Legendary Ember, and Dark Gem; a route can feel good and still be inefficient for the current build."
+      "Shadow Marsh is strongest for broad ghost-night farming: Ghost Stone, Soul Dust, Shadow Stone, and Legendary Ember.",
+      "Nightfall gives Dark Gem overlap, but Dark Cavern handles focused dark farming better.",
+      "Shados is the efficient ghost check; Shadowclaw and Lunaflare are premium attempts.",
+      "The marsh needs stricter exit rules than most habitats."
     ],
     "common_mistakes": [
-      "Ignoring Stormy/Night and then blaming the Pokemon roster for weak results.",
-      "Repeating Shadow Marsh after Ghost Stone, Soul Dust, Shadow Stone, King's Rock, Legendary Ember, and Dark Gem stop supporting the current recipe or team upgrade.",
-      "Treating Shadow Marsh like a full-clear map when the stronger play is to exit after the planned branch.",
-      "Entering Shadow Marsh without choosing whether the run is for +60% Ghost drops, Shados, Shadowclaw, and Lunaflare, or route practice.",
-      "Using Ghost Veil before the first clean Shadow Marsh path is known."
+      "Entering Shadow Marsh without a written target.",
+      "Treating every night branch as mandatory after Ghost Veil is active.",
+      "Using the marsh for focused Dark Gem farming when Dark Cavern is cleaner.",
+      "Spending Soul Dust and Void Fruit in the same run without enough time for both targets.",
+      "Ignoring Stormy/Night and then blaming the spawn list."
     ],
     "faqs": [
       {
@@ -496,44 +496,44 @@
     "image_alt": "Pokémon Pokopia habitat screenshot: Gemstone Canyon",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Gemstone Canyon combines defender and attacker roles with Rock, Ground, Crystal, Fairy, and Fighting coverage, so the best route depends on the team goal rather than the map name. Its headline bonus is +50% Stone drops, and the important local checks include Rockler, Crystion, and Galebender. Treat Gemstone Canyon as a bridge route: scout carefully, then shorten the repeat path once the target branch is known. Muddy Swirl adds +25% ground damage, but Gemstone Canyon should be mapped once before that recipe becomes part of the repeat plan.",
+    "overview": "Gemstone Canyon is the mining route: Clear weather, stone drops, and a split between cheap Rockler loops and higher-value Crystion / Galebender checks. It is slower than Fairy Glen but cleaner for raw stone and gem planning. Muddy Swirl belongs here only when Galebender or ground damage is the reason for the repeat.",
     "unlock_steps": [
-      "Gemstone Canyon unlocks through Reach Level 12; treat the first visit as route survey time.",
-      "Before entering Gemstone Canyon, check Clear and choose whether the session is for +50% Stone drops, Crystion and Galebender, or unlock progress.",
-      "Bring a Mining Build plan to Gemstone Canyon only if it helps the first target branch with Rockler, Crystion, and Galebender.",
-      "Scout Gemstone Canyon once without Muddy Swirl and mark the earliest safe exit after the target check.",
-      "Start repeat farming in Gemstone Canyon only when two clean clears show that Stone, Rock Fragment, Crystal Shard, Diamond, Earth Gem, and Fighting Ribbon still justify the time."
+      "Unlock Gemstone Canyon through Reach Level 12 and mark the first Rockler material loop before chasing rare targets.",
+      "Use Clear weather as the signal for a serious mining session.",
+      "Decide whether the run is for Stone and Rock Fragment or for Crystion / Galebender rare materials.",
+      "Test one pass without Muddy Swirl so the canyon path is clear before recipe spending begins.",
+      "Repeat only when Stone, Crystal Shard, Diamond, Earth Gem, or Fighting Ribbon has a current use."
     ],
     "recommended_team": [
-      "Choose one lead target before entering Gemstone Canyon: Crystion and Galebender for high-value checks, or Rockler when the session is about steady materials.",
-      "Prepare food around Stone, Gem, and Mystic Root. If those foods do not match the Gemstone Canyon target list, treat the run as a scout rather than a farm.",
-      "Use Muddy Swirl in Gemstone Canyon after the first clean path is known; +25% ground damage should improve a branch you already plan to repeat.",
-      "Bring a backup role for the point where Gemstone Canyon usually fails: the first bad weather branch, the target encounter, or the exit after the material check.",
-      "Compare the local Pokemon pages before repeating Gemstone Canyon, because Stone, Rock Fragment, Crystal Shard, Diamond, Earth Gem, and Fighting Ribbon do not all support the same build step."
+      "Bring one sturdy route holder for Rockler checks and one attacker for Crystion or Galebender branches.",
+      "Use Muddy Swirl when Galebender is the target; it is less important for a short Rockler loop.",
+      "Stone food belongs to cheap mining passes, while Gem and Mystic Root belong to higher-commitment branches.",
+      "A Mining Build should favor material consistency over fastest possible clears.",
+      "Compare Crystion and Galebender before spending food because they support different upgrade paths."
     ],
     "farming_route": [
-      "Use Clear as the session gate for Gemstone Canyon. A clean Gemstone Canyon scout under the wrong weather should be logged, not repeated for serious farming.",
-      "After the first target check, continue only if Stone, Rock Fragment, Crystal Shard, Diamond, Earth Gem, and Fighting Ribbon still match the active team plan.",
-      "Add Muddy Swirl on the repeat version of Gemstone Canyon, once pathing mistakes are no longer hiding the recipe value.",
-      "Review Gemstone Canyon after two clears: if the result is only generic resources, move the session to a more specific habitat.",
-      "Start Gemstone Canyon by declaring one goal: unlock progress, +50% Stone drops, a rare spawn check, or a recipe test."
+      "Start with the Rockler branch if the goal is Stone or Rock Fragment.",
+      "Branch deeper only when Crystal Shard, Diamond, Earth Gem, or Fighting Ribbon is the named target.",
+      "Use Muddy Swirl on repeat Galebender runs after the canyon path is already stable.",
+      "Exit after the material target is checked; mining sessions lose value when they become rare-hunt sessions by accident.",
+      "Log drops by branch so Rockler loops and rare checks are not mixed together."
     ],
     "rare_spawns": [
       "Crystion in Gemstone Canyon: rare Crystal/Fairy, best checked during Night / Snow.",
       "Galebender in Gemstone Canyon: rare Ground/Fighting, best checked during Night / Foggy."
     ],
     "resource_notes": [
-      "Gemstone Canyon turns +50% Stone drops into value only when the target material is named before the run starts; the usual candidates are Stone, Rock Fragment, Crystal Shard, Diamond, Earth Gem, and Fighting Ribbon.",
-      "For Gemstone Canyon, food prep starts with Stone, Gem, and Mystic Root. Leave extras behind when they do not support Crystion and Galebender or Rockler.",
-      "Crystion and Galebender are the high-commitment Gemstone Canyon checks, while Rockler is better for shorter material loops.",
-      "Track Gemstone Canyon clear time separately from Stone, Rock Fragment, Crystal Shard, Diamond, Earth Gem, and Fighting Ribbon; a route can feel good and still be inefficient for the current build."
+      "Stone and Rock Fragment are the reason to do short Gemstone Canyon loops.",
+      "Crystal Shard and Diamond shift the route toward Crystion; Earth Gem and Fighting Ribbon shift it toward Galebender.",
+      "Gemstone Canyon is not the best Fairy Dust route even though Crystion appears here.",
+      "The canyon is strongest when the player chooses mining or rare checks before entering."
     ],
     "common_mistakes": [
-      "Repeating Gemstone Canyon after Stone, Rock Fragment, Crystal Shard, Diamond, Earth Gem, and Fighting Ribbon stop supporting the current recipe or team upgrade.",
-      "Treating Gemstone Canyon like a full-clear map when the stronger play is to exit after the planned branch.",
-      "Entering Gemstone Canyon without choosing whether the run is for +50% Stone drops, Crystion and Galebender, or route practice.",
-      "Using Muddy Swirl before the first clean Gemstone Canyon path is known.",
-      "Chasing Rockler, Crystion, and Galebender in one run even when the food plan only supports Stone, Gem, and Mystic Root."
+      "Using Fairy Glen logic in Gemstone Canyon because both contain Crystion.",
+      "Spending Muddy Swirl when Galebender is not part of the goal.",
+      "Turning a Rockler material run into a full rare-spawn hunt.",
+      "Ignoring the difference between stone drops and fairy-support drops.",
+      "Repeating the canyon after the current build no longer needs its mining materials."
     ],
     "faqs": [
       {
@@ -577,43 +577,43 @@
     "image_alt": "Pokémon Pokopia habitat screenshot: Sky Isles",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Sky Isles is a medium habitat unlocked through Reach Level 18. Its identity is Windy routing, +40% Feather drops, and a spawn group led by Breezel, Flamingo, Tropius, Crystalwing, and Windlor. Treat Sky Isles as a bridge route: scout carefully, then shorten the repeat path once the target branch is known. Flying High adds +30% flying damage, but Sky Isles should be mapped once before that recipe becomes part of the repeat plan.",
+    "overview": "Sky Isles is a feather and reset-speed habitat. Windy weather, Flying Build planning, Breezel / Windlor loops, and Crystalwing rare checks make it a movement-focused area. Its best runs are short, repeated, and measured by time-to-target rather than by total clears.",
     "unlock_steps": [
-      "Sky Isles unlocks through Reach Level 18; treat the first visit as route survey time.",
-      "Before entering Sky Isles, check Windy and choose whether the session is for +40% Feather drops, Crystalwing, or unlock progress.",
-      "Bring a Flying Build plan to Sky Isles only if it helps the first target branch with Breezel, Flamingo, and Tropius.",
-      "Scout Sky Isles once without Flying High and mark the earliest safe exit after the target check.",
-      "Start repeat farming in Sky Isles only when two clean clears show that Feather, Wind Essence, Fire Stone, Leaf, Dragon Scale, Crystal Shard, and Thunder Stone still justify the time."
+      "Unlock Sky Isles through Reach Level 18 and map the first flying branch before spending Flying High.",
+      "Use Windy weather for serious Breezel, Windlor, Stormbird, or Crystalwing checks.",
+      "Separate feather loops from mixed-type targets such as Flamingo and Tropius.",
+      "Scout the route once without Flying High so movement mistakes are visible.",
+      "Repeat when Feather, Wind Essence, or Crystal Shard has a direct build purpose."
     ],
     "recommended_team": [
-      "Prepare food around Feather, Hot Seed, Tropical Fruit, and Gem Shard. If those foods do not match the Sky Isles target list, treat the run as a scout rather than a farm.",
-      "Use Flying High in Sky Isles after the first clean path is known; +30% flying damage should improve a branch you already plan to repeat.",
-      "Bring a backup role for the point where Sky Isles usually fails: the first bad weather branch, the target encounter, or the exit after the material check.",
-      "Compare the local Pokemon pages before repeating Sky Isles, because Feather, Wind Essence, Fire Stone, Leaf, Dragon Scale, Crystal Shard, and Thunder Stone do not all support the same build step.",
-      "Sky Isles wants a Flying Build core that can handle Windy; start with roles from speedster, attacker, and support instead of forcing only high-rarity picks."
+      "Use a fast lead for Breezel or Windlor and a steady finisher for Crystalwing or Stormbird.",
+      "Flying High belongs on repeat routes where flying damage reduces the target branch.",
+      "Bring Feather for speed loops, Gem Shard for Crystalwing, and Hot Seed only when Flamingo is the target.",
+      "Tropius turns the route into a support-material pass; do not mix it with rare Crystalwing attempts unless both materials matter.",
+      "Sky Isles teams should avoid heavy full-clear plans."
     ],
     "farming_route": [
-      "After the first target check, continue only if Feather, Wind Essence, Fire Stone, Leaf, Dragon Scale, Crystal Shard, and Thunder Stone still match the active team plan.",
-      "Add Flying High on the repeat version of Sky Isles, once pathing mistakes are no longer hiding the recipe value.",
-      "Review Sky Isles after two clears: if the result is only generic resources, move the session to a more specific habitat.",
-      "Start Sky Isles by declaring one goal: unlock progress, +40% Feather drops, a rare spawn check, or a recipe test.",
-      "Path first toward Breezel, Flamingo, Tropius, Crystalwing, and Windlor; if the target branch is missed, reset before the run turns into unfocused clearing."
+      "Start with the shortest Breezel or Windlor check and record time-to-target.",
+      "Branch toward Crystalwing only when Crystal Shard or rare flying coverage is the goal.",
+      "Use Flying High after the first clean repeat, not on the mapping pass.",
+      "Reset after a missed rare branch unless Feather and Wind Essence still justify the loop.",
+      "Treat Stormbird as an electric-flying detour, not as the default route."
     ],
     "rare_spawns": [
       "Crystalwing in Sky Isles: rare Flying/Crystal, best checked during Day / Windy."
     ],
     "resource_notes": [
-      "Sky Isles turns +40% Feather drops into value only when the target material is named before the run starts; the usual candidates are Feather, Wind Essence, Fire Stone, Leaf, Dragon Scale, Crystal Shard, and Thunder Stone.",
-      "For Sky Isles, food prep starts with Feather, Hot Seed, Tropical Fruit, and Gem Shard. Leave extras behind when they do not support Crystalwing or Breezel, Flamingo, Tropius, and Windlor.",
-      "Crystalwing is the high-commitment Sky Isles checks, while Breezel, Flamingo, Tropius, and Windlor are better for shorter material loops.",
-      "Track Sky Isles clear time separately from Feather, Wind Essence, Fire Stone, Leaf, Dragon Scale, Crystal Shard, and Thunder Stone; a route can feel good and still be inefficient for the current build."
+      "Feather and Wind Essence are the normal Sky Isles loop materials.",
+      "Crystal Shard turns the session toward Crystalwing, while Fire Stone points to Flamingo.",
+      "Thunder Stone appears through Stormbird, but Thunder Arena is cleaner for dedicated electric farming.",
+      "Sky Isles should feel fast; if it becomes a long clear, the goal is probably too broad."
     ],
     "common_mistakes": [
-      "Treating Sky Isles like a full-clear map when the stronger play is to exit after the planned branch.",
-      "Entering Sky Isles without choosing whether the run is for +40% Feather drops, Crystalwing, or route practice.",
-      "Using Flying High before the first clean Sky Isles path is known.",
-      "Chasing Breezel, Flamingo, Tropius, Crystalwing, and Windlor in one run even when the food plan only supports Feather, Hot Seed, Tropical Fruit, and Gem Shard.",
-      "Ignoring Windy and then blaming the Pokemon roster for weak results."
+      "Treating Sky Isles like Crystal Cave because both can involve Crystalwing.",
+      "Using Flying High before measuring the route without it.",
+      "Chasing Breezel, Windlor, Stormbird, and Crystalwing in one unfocused run.",
+      "Ignoring Windy weather on a movement-focused habitat.",
+      "Continuing a feather loop after Feather and Wind Essence are no longer useful."
     ],
     "faqs": [
       {
@@ -657,44 +657,44 @@
     "image_alt": "Pokémon Pokopia habitat screenshot: Muddy River",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Muddy River should be planned as a farming build route, not as a generic checklist map. The main reasons to enter are +35% Mud drops, Rain conditions, and target checks for Mudkipz, Stealthfin, Toxifin, and Primordion. Use Muddy River to learn spawn timing, verify food value, and build confidence before spending rare recipes. Water Shield adds +35% water resistance, but Muddy River should be mapped once before that recipe becomes part of the repeat plan.",
+    "overview": "Muddy River is the rain-and-ground farming route. It overlaps with Crystal Lake through water materials, but the river adds mud pressure, Stealthfin, Toxifin, and Galebender-style decisions. Use it when the goal is Deep Sea Tooth, Poison Stone, Gill, or mud-side routing rather than simple early Water Stone practice.",
     "unlock_steps": [
-      "Muddy River unlocks through Reach Level 8; treat the first visit as route survey time.",
-      "Before entering Muddy River, check Rain and choose whether the session is for +35% Mud drops, Stealthfin and Primordion, or unlock progress.",
-      "Bring a Farming Build plan to Muddy River only if it helps the first target branch with Mudkipz, Stealthfin, and Toxifin.",
-      "Scout Muddy River once without Water Shield and mark the earliest safe exit after the target check.",
-      "Start repeat farming in Muddy River only when two clean clears show that Mud Stone, Water Stone, Deep Sea Tooth, Dark Gem, Poison Stone, Gill, and Dragon Scale still justify the time."
+      "Unlock Muddy River through Reach Level 12 and map the safest Rain path before spending Water Shield.",
+      "Choose whether the run is for Stealthfin, Toxifin, Galebender, or basic mud materials.",
+      "Scout one pass without defensive recipe help so the team understands river pressure.",
+      "Bring Fish or Mystic Root only when the target branch is already known.",
+      "Repeat when Deep Sea Tooth, Dark Gem, Poison Stone, Gill, or Earth Gem is the current bottleneck."
     ],
     "recommended_team": [
-      "Use Water Shield in Muddy River after the first clean path is known; +35% water resistance should improve a branch you already plan to repeat.",
-      "Bring a backup role for the point where Muddy River usually fails: the first bad weather branch, the target encounter, or the exit after the material check.",
-      "Compare the local Pokemon pages before repeating Muddy River, because Mud Stone, Water Stone, Deep Sea Tooth, Dark Gem, Poison Stone, Gill, and Dragon Scale do not all support the same build step.",
-      "Muddy River wants a Farming Build core that can handle Rain; start with roles from attacker, assassin, and tank instead of forcing only high-rarity picks.",
-      "Choose one lead target before entering Muddy River: Stealthfin and Primordion for high-value checks, or Mudkipz and Toxifin when the session is about steady materials."
+      "Use a farming team with one status answer; Muddy River has more bad-condition pressure than Crystal Lake.",
+      "Stealthfin is the rare night target, Toxifin is the poison-water material check, and Galebender is the ground-side detour.",
+      "Water Shield helps when Rain pressure drains resources, but it is not mandatory for every mud loop.",
+      "Fish supports water targets; Mystic Root belongs to Galebender-style routing.",
+      "If the team only needs basic Water Stone practice, Crystal Lake is easier."
     ],
     "farming_route": [
-      "Add Water Shield on the repeat version of Muddy River, once pathing mistakes are no longer hiding the recipe value.",
-      "Review Muddy River after two clears: if the result is only generic resources, move the session to a more specific habitat.",
-      "Start Muddy River by declaring one goal: unlock progress, +35% Mud drops, a rare spawn check, or a recipe test.",
-      "Path first toward Mudkipz, Stealthfin, Toxifin, and Primordion; if the target branch is missed, reset before the run turns into unfocused clearing.",
-      "Use Rain as the session gate for Muddy River. A clean Muddy River scout under the wrong weather should be logged, not repeated for serious farming."
+      "Open with the closest Rain branch and decide whether the run is water, poison, or ground focused.",
+      "Branch to Stealthfin only when Deep Sea Tooth or Dark Gem is needed.",
+      "Use Toxifin checks for Poison Stone or Gill rather than forcing a rare-hunt plan.",
+      "Add Water Shield after the river path is mapped and damage intake is the issue.",
+      "Exit after the chosen mud or water material is checked."
     ],
     "rare_spawns": [
       "Stealthfin in Muddy River: rare Water/Dark, best checked during Night / Rain.",
       "Primordion in Muddy River: legendary Dragon/Ground, best checked during Any / Rain."
     ],
     "resource_notes": [
-      "Muddy River turns +35% Mud drops into value only when the target material is named before the run starts; the usual candidates are Mud Stone, Water Stone, Deep Sea Tooth, Dark Gem, Poison Stone, Gill, and Dragon Scale.",
-      "For Muddy River, food prep starts with Mud Ball, Fish, and Golden Fish. Leave extras behind when they do not support Stealthfin and Primordion or Mudkipz and Toxifin.",
-      "Stealthfin and Primordion are the high-commitment Muddy River checks, while Mudkipz and Toxifin are better for shorter material loops.",
-      "Track Muddy River clear time separately from Mud Stone, Water Stone, Deep Sea Tooth, Dark Gem, Poison Stone, Gill, and Dragon Scale; a route can feel good and still be inefficient for the current build."
+      "Muddy River is strongest for Deep Sea Tooth, Poison Stone, Gill, Earth Gem, and Dark Gem overlap.",
+      "It is more specialized than Crystal Lake and less relaxed as a teaching route.",
+      "Toxifin gives the route its poison-water identity.",
+      "Galebender makes the route useful when ground materials are part of the plan."
     ],
     "common_mistakes": [
-      "Entering Muddy River without choosing whether the run is for +35% Mud drops, Stealthfin and Primordion, or route practice.",
-      "Using Water Shield before the first clean Muddy River path is known.",
-      "Chasing Mudkipz, Stealthfin, Toxifin, and Primordion in one run even when the food plan only supports Mud Ball, Fish, and Golden Fish.",
-      "Ignoring Rain and then blaming the Pokemon roster for weak results.",
-      "Repeating Muddy River after Mud Stone, Water Stone, Deep Sea Tooth, Dark Gem, Poison Stone, Gill, and Dragon Scale stop supporting the current recipe or team upgrade."
+      "Using Crystal Lake expectations in a route with mud and poison pressure.",
+      "Spending Water Shield before deciding whether damage intake is the real problem.",
+      "Mixing Stealthfin, Toxifin, and Galebender goals without enough food.",
+      "Ignoring Rain and then blaming the spawn list.",
+      "Continuing after the targeted river material is already done."
     ],
     "faqs": [
       {
@@ -738,44 +738,44 @@
     "image_alt": "Pokémon Pokopia habitat screenshot: Ancient Ruins",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "The practical question for Ancient Ruins is whether Cloudy helps the team reach Bronzorm and Mysticat or collect Metal Coat, Bronze Medal, Piston, Psy Crystal, and Star Piece. It unlocks through Reach Level 30, then rewards players who choose one objective before entering. For Ancient Ruins, enter with a narrow goal; hard routes punish teams that try to farm every possible target at once. Steel Shell adds +60% defense, but Ancient Ruins should be mapped once before that recipe becomes part of the repeat plan.",
+    "overview": "Ancient Ruins is the treasure-and-metal control route. Cloudy weather, Steel Shell, Bronzorm, Mysticat, Ironclaw, and Primordion give it a slower, more deliberate identity than Industrial Zone. Farm it when relic-style materials, Psychic setup, or premium Steel / Dragon overlap matters.",
     "unlock_steps": [
-      "Ancient Ruins unlocks through Reach Level 30; treat the first visit as route survey time.",
-      "Before entering Ancient Ruins, check Cloudy and choose whether the session is for +45% Metal drops, Bronzorm and Mysticat, or unlock progress.",
-      "Bring a Treasure Build plan to Ancient Ruins only if it helps the first target branch with Bronzorm, Ironclaw, and Mysticat.",
-      "Scout Ancient Ruins once without Steel Shell and mark the earliest safe exit after the target check.",
-      "Start repeat farming in Ancient Ruins only when two clean clears show that Metal Coat, Bronze Medal, Piston, Psy Crystal, and Star Piece still justify the time."
+      "Unlock Ancient Ruins through Reach Level 24 and scout the first relic branch without Steel Shell.",
+      "Use Cloudy weather as the gate for serious Bronzorm, Mysticat, Ironclaw, or Primordion checks.",
+      "Choose whether the run is for Metal Coat, Psy Crystal, Fighting Ribbon, Earth Gem, or Legendary Pearl.",
+      "Map the treasure path before committing rare defensive support.",
+      "Repeat when the route's mixed metal, psychic, and dragon materials all connect to a build plan."
     ],
     "recommended_team": [
-      "Bring a backup role for the point where Ancient Ruins usually fails: the first bad weather branch, the target encounter, or the exit after the material check.",
-      "Compare the local Pokemon pages before repeating Ancient Ruins, because Metal Coat, Bronze Medal, Piston, Psy Crystal, and Star Piece do not all support the same build step.",
-      "Ancient Ruins wants a Treasure Build core that can handle Cloudy; start with support and attacker roles instead of forcing only high-rarity picks.",
-      "Choose one lead target before entering Ancient Ruins: Bronzorm and Mysticat for high-value checks, or Ironclaw when the session is about steady materials.",
-      "Prepare food around Coin, Iron Ore, and Star Sweet. If those foods do not match the Ancient Ruins target list, treat the run as a scout rather than a farm."
+      "Bring a defensive core plus a precise attacker; Ancient Ruins is slower and more setup-heavy than Industrial Zone.",
+      "Use Bronzorm for metal-psychic stability, Mysticat for psychic-fairy utility, Ironclaw for direct pressure, and Primordion for premium material checks.",
+      "Steel Shell belongs on repeat routes where defense protects a known treasure branch.",
+      "Do not treat every ruin spawn as equal; the materials point to different build paths.",
+      "If only Metal Coat is needed, Industrial Zone is usually cleaner."
     ],
     "farming_route": [
-      "Review Ancient Ruins after two clears: if the result is only generic resources, move the session to a more specific habitat.",
-      "Start Ancient Ruins by declaring one goal: unlock progress, +45% Metal drops, a rare spawn check, or a recipe test.",
-      "Path first toward Bronzorm, Ironclaw, and Mysticat; if the target branch is missed, reset before the run turns into unfocused clearing.",
-      "Use Cloudy as the session gate for Ancient Ruins. A clean Ancient Ruins scout under the wrong weather should be logged, not repeated for serious farming.",
-      "After the first target check, continue only if Metal Coat, Bronze Medal, Piston, Psy Crystal, and Star Piece still match the active team plan."
+      "Open with the relic branch tied to the current material goal.",
+      "Branch toward Mysticat when Psy Crystal or Star Piece matters.",
+      "Use Ironclaw for Fighting Ribbon and Piston pressure; save Primordion for Earth Gem or Legendary Pearl sessions.",
+      "Add Steel Shell after the team knows which branch needs protection.",
+      "Leave after the treasure material is checked, because ruin clears can become too slow."
     ],
     "rare_spawns": [
       "Bronzorm in Ancient Ruins: rare Steel/Psychic, best checked during Day / Cloudy.",
       "Mysticat in Ancient Ruins: rare Psychic/Fairy, best checked during Night / Clear."
     ],
     "resource_notes": [
-      "Ancient Ruins turns +45% Metal drops into value only when the target material is named before the run starts; the usual candidates are Metal Coat, Bronze Medal, Piston, Psy Crystal, and Star Piece.",
-      "For Ancient Ruins, food prep starts with Coin, Iron Ore, and Star Sweet. Leave extras behind when they do not support Bronzorm and Mysticat or Ironclaw.",
-      "Bronzorm and Mysticat are the high-commitment Ancient Ruins checks, while Ironclaw is better for shorter material loops.",
-      "Track Ancient Ruins clear time separately from Metal Coat, Bronze Medal, Piston, Psy Crystal, and Star Piece; a route can feel good and still be inefficient for the current build."
+      "Ancient Ruins is strongest for mixed premium materials: Metal Coat, Psy Crystal, Fighting Ribbon, Earth Gem, and Legendary Pearl.",
+      "It is not the fastest pure metal farm despite its steel targets.",
+      "Mysticat and Primordion are the reasons to accept longer route time.",
+      "Steel Shell should protect value, not encourage full clears."
     ],
     "common_mistakes": [
-      "Using Steel Shell before the first clean Ancient Ruins path is known.",
-      "Chasing Bronzorm, Ironclaw, and Mysticat in one run even when the food plan only supports Coin, Iron Ore, and Star Sweet.",
-      "Ignoring Cloudy and then blaming the Pokemon roster for weak results.",
-      "Repeating Ancient Ruins after Metal Coat, Bronze Medal, Piston, Psy Crystal, and Star Piece stop supporting the current recipe or team upgrade.",
-      "Treating Ancient Ruins like a full-clear map when the stronger play is to exit after the planned branch."
+      "Using Industrial Zone material logic in a slower treasure route.",
+      "Spending Steel Shell before the dangerous branch is known.",
+      "Chasing Bronzorm, Mysticat, Ironclaw, and Primordion in one unfocused run.",
+      "Ignoring Cloudy weather before committing rare food.",
+      "Repeating the ruins for pure metal drops when a cleaner route exists."
     ],
     "faqs": [
       {
@@ -819,41 +819,41 @@
     "image_alt": "Pokémon Pokopia habitat screenshot: Sunny Beach",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Sunny Beach combines support and attacker roles with Water, Grass, Fire, and Fairy coverage, so the best route depends on the team goal rather than the map name. Its headline bonus is +30% Shell drops, and the important local checks include Aquap, Sunflora, and Dewdrop. Use Sunny Beach to learn spawn timing, verify food value, and build confidence before spending rare recipes. Water Shield adds +35% water resistance, but Sunny Beach should be mapped once before that recipe becomes part of the repeat plan.",
+    "overview": "Sunny Beach is the relaxed shell and water-support route. Sunny weather, Aquap, Sunflora, Dewdrop, and Aquashell make it a low-stress material page for Shell, Pearl, Water Stone, and Sun Stone. It should feel lighter than Crystal Lake or Muddy River, with short loops and simple exits.",
     "unlock_steps": [
-      "Sunny Beach unlocks through Starting Habitat; treat the first visit as route survey time.",
-      "Before entering Sunny Beach, check Sunny and choose whether the session is for +30% Shell drops, Aquap, Sunflora, and Dewdrop, or unlock progress.",
-      "Bring a Relaxed Build plan to Sunny Beach only if it helps the first target branch with Aquap, Sunflora, and Dewdrop.",
-      "Scout Sunny Beach once without Water Shield and mark the earliest safe exit after the target check.",
-      "Start repeat farming in Sunny Beach only when two clean clears show that Water Stone, Pearl, Sun Stone, Flame Ore, and Star Piece still justify the time."
+      "Sunny Beach is available as a starting habitat, so use it to establish early material habits.",
+      "Check Sunny weather before turning the beach into a repeat shell or support session.",
+      "Choose whether the run is for Aquap, Sunflora, Dewdrop, or Aquashell before spending food.",
+      "Scout without Water Shield first; most beach loops should not need recipe support.",
+      "Repeat when Shell, Pearl, Water Stone, Star Piece, or Sun Stone is needed for a small upgrade."
     ],
     "recommended_team": [
-      "Compare the local Pokemon pages before repeating Sunny Beach, because Water Stone, Pearl, Sun Stone, Flame Ore, and Star Piece do not all support the same build step.",
-      "Sunny Beach wants a Relaxed Build core that can handle Sunny; start with support and attacker roles instead of forcing only high-rarity picks.",
-      "Choose one lead target before entering Sunny Beach: Aquap, Sunflora, and Dewdrop for high-value checks, or Aquap, Sunflora, and Dewdrop when the session is about steady materials.",
-      "Prepare food around Golden Fish, Sunstone, and Crystal Dew. If those foods do not match the Sunny Beach target list, treat the run as a scout rather than a farm.",
-      "Use Water Shield in Sunny Beach after the first clean path is known; +35% water resistance should improve a branch you already plan to repeat."
+      "Bring a relaxed team with one support slot and one quick finisher.",
+      "Use Aquap or Dewdrop for water-support checks, Sunflora for Sun Stone, and Aquashell for Shell / Pearl value.",
+      "Water Shield should be optional here; if it feels required, the team may be underbuilt.",
+      "Food planning is simple: Fish, Sunflower Seed, Crystal Dew, or Shell based on target.",
+      "Move to Crystal Lake or Muddy River when the route needs harder water practice."
     ],
     "farming_route": [
-      "Start Sunny Beach by declaring one goal: unlock progress, +30% Shell drops, a rare spawn check, or a recipe test.",
-      "Path first toward Aquap, Sunflora, and Dewdrop; if the target branch is missed, reset before the run turns into unfocused clearing.",
-      "Use Sunny as the session gate for Sunny Beach. A clean Sunny Beach scout under the wrong weather should be logged, not repeated for serious farming.",
-      "After the first target check, continue only if Water Stone, Pearl, Sun Stone, Flame Ore, and Star Piece still match the active team plan.",
-      "Add Water Shield on the repeat version of Sunny Beach, once pathing mistakes are no longer hiding the recipe value."
+      "Open with the shoreline material branch and check whether Shell or Pearl is still useful.",
+      "Branch to Sunflora only when Sun Stone or Sunny grass support is the goal.",
+      "Use Dewdrop for Star Piece and support overlap.",
+      "Keep the loop short; Sunny Beach loses value when it becomes a full-clear route.",
+      "End the run once the simple material goal is complete."
     ],
     "rare_spawns": [],
     "resource_notes": [
-      "Sunny Beach turns +30% Shell drops into value only when the target material is named before the run starts; the usual candidates are Water Stone, Pearl, Sun Stone, Flame Ore, and Star Piece.",
-      "For Sunny Beach, food prep starts with Golden Fish, Sunstone, and Crystal Dew. Leave extras behind when they do not support Aquap, Sunflora, and Dewdrop or Aquap, Sunflora, and Dewdrop.",
-      "Aquap, Sunflora, and Dewdrop are the high-commitment Sunny Beach checks, while Aquap, Sunflora, and Dewdrop are better for shorter material loops.",
-      "Track Sunny Beach clear time separately from Water Stone, Pearl, Sun Stone, Flame Ore, and Star Piece; a route can feel good and still be inefficient for the current build."
+      "Sunny Beach is strongest for Shell, Pearl, Water Stone, Star Piece, and Sun Stone in low-pressure loops.",
+      "It is more relaxed than Crystal Lake and less specialized than Muddy River.",
+      "Aquashell gives the route its shell identity.",
+      "Sunflora is the reason to treat Sunny weather as more than a cosmetic condition."
     ],
     "common_mistakes": [
-      "Chasing Aquap, Sunflora, and Dewdrop in one run even when the food plan only supports Golden Fish, Sunstone, and Crystal Dew.",
-      "Ignoring Sunny and then blaming the Pokemon roster for weak results.",
-      "Repeating Sunny Beach after Water Stone, Pearl, Sun Stone, Flame Ore, and Star Piece stop supporting the current recipe or team upgrade.",
-      "Treating Sunny Beach like a full-clear map when the stronger play is to exit after the planned branch.",
-      "Entering Sunny Beach without choosing whether the run is for +30% Shell drops, Aquap, Sunflora, and Dewdrop, or route practice."
+      "Overbuilding Sunny Beach with recipes and rare-food planning it does not need.",
+      "Farming it like a hard water habitat instead of a simple material loop.",
+      "Ignoring Sunflora when Sun Stone is the actual goal.",
+      "Continuing after Shell or Pearl is already finished.",
+      "Comparing Sunny Beach directly with Muddy River instead of using it as a lighter route."
     ],
     "faqs": [
       {
@@ -897,43 +897,43 @@
     "image_alt": "Pokémon Pokopia habitat screenshot: Thunder Arena",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Thunder Arena is a hard habitat unlocked through Reach Level 22. Its identity is Thunderstorm routing, +55% Electric drops, and a spawn group led by Zaprat, Voltscale, Magnedex, Zapbug, and Stormbird. For Thunder Arena, enter with a narrow goal; hard routes punish teams that try to farm every possible target at once. Thunder Strike adds +40% electric damage, but Thunder Arena should be mapped once before that recipe becomes part of the repeat plan.",
+    "overview": "Thunder Arena is the dedicated electric battle route. Thunderstorm weather, Thunder Strike, Zaprat, Voltscale, Magnedex, Zapbug, and Stormbird make it more combat-focused than Windmill Plains. Enter when the goal is electric damage testing, Thunder Stone volume, or high-pressure electric-flying / electric-dragon checks.",
     "unlock_steps": [
-      "Thunder Arena unlocks through Reach Level 22; treat the first visit as route survey time.",
-      "Before entering Thunder Arena, check Thunderstorm and choose whether the session is for +55% Electric drops, Voltscale, or unlock progress.",
-      "Bring a Electric Build plan to Thunder Arena only if it helps the first target branch with Zaprat, Voltscale, and Magnedex.",
-      "Scout Thunder Arena once without Thunder Strike and mark the earliest safe exit after the target check.",
-      "Start repeat farming in Thunder Arena only when two clean clears show that Thunder Stone, Lightning Rod, Dragon Scale, Metal Coil, Magnet, Bug Shell, and Feather still justify the time."
+      "Unlock Thunder Arena through Reach Level 22 and scout the first Thunderstorm branch without Thunder Strike.",
+      "Use Thunderstorm weather as the gate for serious electric farming.",
+      "Choose whether the run is for Thunder Stone volume, Voltscale, Stormbird, or metal-electric overlap.",
+      "Map where the arena fight becomes dangerous before adding recipe damage.",
+      "Repeat when Thunder Stone, Lightning Rod, Magnet, Dragon Scale, or Feather has a current use."
     ],
     "recommended_team": [
-      "Thunder Arena wants a Electric Build core that can handle Thunderstorm; start with roles from speedster, attacker, and defender instead of forcing only high-rarity picks.",
-      "Choose one lead target before entering Thunder Arena: Voltscale for high-value checks, or Zaprat, Magnedex, Zapbug, and Stormbird when the session is about steady materials.",
-      "Prepare food around Cheese, Lightning Bug, Magnet, Mushroom, and Feather. If those foods do not match the Thunder Arena target list, treat the run as a scout rather than a farm.",
-      "Use Thunder Strike in Thunder Arena after the first clean path is known; +40% electric damage should improve a branch you already plan to repeat.",
-      "Bring a backup role for the point where Thunder Arena usually fails: the first bad weather branch, the target encounter, or the exit after the material check."
+      "Bring a battle-ready electric team rather than a pure speed team.",
+      "Use Zaprat and Zapbug for lower-cost electric materials, Voltscale for Dragon Scale, Magnedex for Magnet, and Stormbird for Feather overlap.",
+      "Thunder Strike is central here because repeated electric fights are the identity of the arena.",
+      "Add one safety slot if Thunderstorm pressure is causing failed clears.",
+      "If the target is only a fast early electric check, Windmill Plains may be cheaper."
     ],
     "farming_route": [
-      "Path first toward Zaprat, Voltscale, Magnedex, Zapbug, and Stormbird; if the target branch is missed, reset before the run turns into unfocused clearing.",
-      "Use Thunderstorm as the session gate for Thunder Arena. A clean Thunder Arena scout under the wrong weather should be logged, not repeated for serious farming.",
-      "After the first target check, continue only if Thunder Stone, Lightning Rod, Dragon Scale, Metal Coil, Magnet, Bug Shell, and Feather still match the active team plan.",
-      "Add Thunder Strike on the repeat version of Thunder Arena, once pathing mistakes are no longer hiding the recipe value.",
-      "Review Thunder Arena after two clears: if the result is only generic resources, move the session to a more specific habitat."
+      "Open with the shortest Thunder Stone branch and decide whether the arena is a material run or a battle test.",
+      "Branch toward Voltscale only when Dragon Scale is the named target.",
+      "Use Stormbird checks when Feather and electric materials both matter.",
+      "Add Thunder Strike after the first mapped arena path, then compare fight time directly.",
+      "Exit when the chosen electric material is complete; arena clears can become expensive."
     ],
     "rare_spawns": [
       "Voltscale in Thunder Arena: legendary Electric/Dragon, best checked during Night / Thunderstorm."
     ],
     "resource_notes": [
-      "Thunder Arena turns +55% Electric drops into value only when the target material is named before the run starts; the usual candidates are Thunder Stone, Lightning Rod, Dragon Scale, Metal Coil, Magnet, Bug Shell, and Feather.",
-      "For Thunder Arena, food prep starts with Cheese, Lightning Bug, Magnet, Mushroom, and Feather. Leave extras behind when they do not support Voltscale or Zaprat, Magnedex, Zapbug, and Stormbird.",
-      "Voltscale is the high-commitment Thunder Arena checks, while Zaprat, Magnedex, Zapbug, and Stormbird are better for shorter material loops.",
-      "Track Thunder Arena clear time separately from Thunder Stone, Lightning Rod, Dragon Scale, Metal Coil, Magnet, Bug Shell, and Feather; a route can feel good and still be inefficient for the current build."
+      "Thunder Arena is strongest for Thunder Stone, Lightning Rod, Dragon Scale, Magnet, Feather, and Wind Essence under combat pressure.",
+      "It is the better Thunder Strike page; Windmill Plains is the faster scout page.",
+      "Stormbird makes this route useful when flying materials overlap with electric goals.",
+      "Voltscale turns the arena into a high-commitment Dragon Scale check."
     ],
     "common_mistakes": [
-      "Ignoring Thunderstorm and then blaming the Pokemon roster for weak results.",
-      "Repeating Thunder Arena after Thunder Stone, Lightning Rod, Dragon Scale, Metal Coil, Magnet, Bug Shell, and Feather stop supporting the current recipe or team upgrade.",
-      "Treating Thunder Arena like a full-clear map when the stronger play is to exit after the planned branch.",
-      "Entering Thunder Arena without choosing whether the run is for +55% Electric drops, Voltscale, or route practice.",
-      "Using Thunder Strike before the first clean Thunder Arena path is known."
+      "Using Windmill Plains speed assumptions in a combat arena.",
+      "Skipping Thunder Strike even when electric fight time is the bottleneck.",
+      "Chasing Voltscale without needing Dragon Scale.",
+      "Ignoring Thunderstorm weather before judging arena value.",
+      "Continuing after the electric material goal is done."
     ],
     "faqs": [
       {
@@ -977,44 +977,44 @@
     "image_alt": "Pokémon Pokopia habitat screenshot: Dark Cavern",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Dark Cavern should be planned as a ghost build route, not as a generic checklist map. The main reasons to enter are +65% Dark drops, Dark conditions, and target checks for Shadowclaw, Lunaflare, and Nightfall. For Dark Cavern, enter with a narrow goal; hard routes punish teams that try to farm every possible target at once. Ghost Veil adds +45% ghost damage, but Dark Cavern should be mapped once before that recipe becomes part of the repeat plan.",
+    "overview": "Dark Cavern is the focused dark-material route: fewer targets, higher commitment, and a cleaner Shadowclaw / Lunaflare / Nightfall decision than Shadow Marsh. It is not a broad ghost farm. Enter when +65% Dark drops, Void Fruit planning, or late-route assassin checks are the reason for the session.",
     "unlock_steps": [
-      "Dark Cavern unlocks through Reach Level 28; treat the first visit as route survey time.",
-      "Before entering Dark Cavern, check Dark and choose whether the session is for +65% Dark drops, Shadowclaw and Lunaflare, or unlock progress.",
-      "Bring a Ghost Build plan to Dark Cavern only if it helps the first target branch with Shadowclaw, Lunaflare, and Nightfall.",
-      "Scout Dark Cavern once without Ghost Veil and mark the earliest safe exit after the target check.",
-      "Start repeat farming in Dark Cavern only when two clean clears show that Shadow Stone, King's Rock, Ghost Stone, Soul Dust, Legendary Ember, and Dark Gem still justify the time."
+      "Unlock Dark Cavern through Reach Level 28 and map the first dark branch before using Ghost Veil.",
+      "Use Dark weather as the gate for serious Shadowclaw or Nightfall checks.",
+      "Choose whether the route is for Shadow Stone, Dark Gem, or a legendary Shadowclaw / Lunaflare attempt.",
+      "Scout without Ghost Veil once so the dark branch can be judged by its own timing.",
+      "Repeat when Dark drops are more important than broad ghost-material coverage."
     ],
     "recommended_team": [
-      "Choose one lead target before entering Dark Cavern: Shadowclaw and Lunaflare for high-value checks, or Nightfall when the session is about steady materials.",
-      "Prepare food around Void Fruit and Soul Dust. If those foods do not match the Dark Cavern target list, treat the run as a scout rather than a farm.",
-      "Use Ghost Veil in Dark Cavern after the first clean path is known; +45% ghost damage should improve a branch you already plan to repeat.",
-      "Bring a backup role for the point where Dark Cavern usually fails: the first bad weather branch, the target encounter, or the exit after the material check.",
-      "Compare the local Pokemon pages before repeating Dark Cavern, because Shadow Stone, King's Rock, Ghost Stone, Soul Dust, Legendary Ember, and Dark Gem do not all support the same build step."
+      "Build around an assassin plan plus one safety slot; Dark Cavern punishes failed burst attempts.",
+      "Use Nightfall for shorter dark loops and Shadowclaw or Lunaflare for high-commitment checks.",
+      "Void Fruit is the main food decision; Soul Dust belongs only when Lunaflare is part of the plan.",
+      "Ghost Veil helps repeat fights, but the route identity is dark drops rather than generic ghost damage.",
+      "Compare this page with Shadow Marsh before choosing where to farm ghost-adjacent materials."
     ],
     "farming_route": [
-      "Use Dark as the session gate for Dark Cavern. A clean Dark Cavern scout under the wrong weather should be logged, not repeated for serious farming.",
-      "After the first target check, continue only if Shadow Stone, King's Rock, Ghost Stone, Soul Dust, Legendary Ember, and Dark Gem still match the active team plan.",
-      "Add Ghost Veil on the repeat version of Dark Cavern, once pathing mistakes are no longer hiding the recipe value.",
-      "Review Dark Cavern after two clears: if the result is only generic resources, move the session to a more specific habitat.",
-      "Start Dark Cavern by declaring one goal: unlock progress, +65% Dark drops, a rare spawn check, or a recipe test."
+      "Open with the shortest Nightfall or Shadowclaw branch and record whether Dark Gem or Shadow Stone appears.",
+      "Branch to Lunaflare only when Ghost Stone, Soul Dust, or Legendary Ember is also useful.",
+      "Use Ghost Veil once the target branch is known and repeated fights are taking too long.",
+      "Exit early if the route misses the dark target; Dark Cavern is valuable because it stays focused.",
+      "Move to Shadow Marsh when the session needs wider ghost coverage."
     ],
     "rare_spawns": [
       "Shadowclaw in Dark Cavern: legendary Dark/Ghost, best checked during Night / Stormy.",
       "Lunaflare in Dark Cavern: legendary Ghost/Fire, best checked during Night / Stormy."
     ],
     "resource_notes": [
-      "Dark Cavern turns +65% Dark drops into value only when the target material is named before the run starts; the usual candidates are Shadow Stone, King's Rock, Ghost Stone, Soul Dust, Legendary Ember, and Dark Gem.",
-      "For Dark Cavern, food prep starts with Void Fruit and Soul Dust. Leave extras behind when they do not support Shadowclaw and Lunaflare or Nightfall.",
-      "Shadowclaw and Lunaflare are the high-commitment Dark Cavern checks, while Nightfall is better for shorter material loops.",
-      "Track Dark Cavern clear time separately from Shadow Stone, King's Rock, Ghost Stone, Soul Dust, Legendary Ember, and Dark Gem; a route can feel good and still be inefficient for the current build."
+      "Dark Cavern is best for Shadow Stone, Dark Gem, and targeted dark-side farming.",
+      "Ghost Stone and Soul Dust are secondary here unless Lunaflare is the target.",
+      "Nightfall is the efficient material loop; Shadowclaw and Lunaflare are commitment checks.",
+      "The route should stay narrow or it loses its advantage over Shadow Marsh."
     ],
     "common_mistakes": [
-      "Repeating Dark Cavern after Shadow Stone, King's Rock, Ghost Stone, Soul Dust, Legendary Ember, and Dark Gem stop supporting the current recipe or team upgrade.",
-      "Treating Dark Cavern like a full-clear map when the stronger play is to exit after the planned branch.",
-      "Entering Dark Cavern without choosing whether the run is for +65% Dark drops, Shadowclaw and Lunaflare, or route practice.",
-      "Using Ghost Veil before the first clean Dark Cavern path is known.",
-      "Chasing Shadowclaw, Lunaflare, and Nightfall in one run even when the food plan only supports Void Fruit and Soul Dust."
+      "Treating Dark Cavern like Shadow Marsh with fewer spawns.",
+      "Using Ghost Veil before the dark branch is mapped.",
+      "Chasing Lunaflare when the session only needs Dark Gem or Shadow Stone.",
+      "Ignoring Dark weather before spending Void Fruit.",
+      "Continuing after the focused dark material check is already finished."
     ],
     "faqs": [
       {
@@ -1058,44 +1058,44 @@
     "image_alt": "Pokémon Pokopia habitat screenshot: Crystal Cave",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "The practical question for Crystal Cave is whether Foggy helps the team reach Crystion and Crystalwing or collect Crystal Shard, Diamond, and Feather. It unlocks through Reach Level 16, then rewards players who choose one objective before entering. Treat Crystal Cave as a bridge route: scout carefully, then shorten the repeat path once the target branch is known. Flying High adds +30% flying damage, but Crystal Cave should be mapped once before that recipe becomes part of the repeat plan.",
+    "overview": "Crystal Cave is a focused crystal-material habitat. It has fewer spawns than Sky Isles, but that is the advantage: Crystion and Crystalwing make the route cleaner for Crystal Shard, Diamond, and Feather checks. Use Flying High only when Crystalwing is the repeat target; otherwise the area is about controlled crystal farming.",
     "unlock_steps": [
-      "Crystal Cave unlocks through Reach Level 16; treat the first visit as route survey time.",
-      "Before entering Crystal Cave, check Foggy and choose whether the session is for +60% Crystal drops, Crystion and Crystalwing, or unlock progress.",
-      "Bring a Crystal Build plan to Crystal Cave only if it helps the first target branch with Crystion and Crystalwing.",
-      "Scout Crystal Cave once without Flying High and mark the earliest safe exit after the target check.",
-      "Start repeat farming in Crystal Cave only when two clean clears show that Crystal Shard, Diamond, and Feather still justify the time."
+      "Unlock Crystal Cave through Reach Level 16 and map the short path to Crystion and Crystalwing.",
+      "Check Foggy weather before committing to a crystal-material session.",
+      "Decide whether the run is for Crystion's Diamond value or Crystalwing's Feather overlap.",
+      "Scout without Flying High first, because this cave should be readable without recipe help.",
+      "Repeat only when Crystal Shard, Diamond, or Feather is the current bottleneck."
     ],
     "recommended_team": [
-      "Prepare food around Gem and Gem Shard. If those foods do not match the Crystal Cave target list, treat the run as a scout rather than a farm.",
-      "Use Flying High in Crystal Cave after the first clean path is known; +30% flying damage should improve a branch you already plan to repeat.",
-      "Bring a backup role for the point where Crystal Cave usually fails: the first bad weather branch, the target encounter, or the exit after the material check.",
-      "Compare the local Pokemon pages before repeating Crystal Cave, because Crystal Shard, Diamond, and Feather do not all support the same build step.",
-      "Crystal Cave wants a Crystal Build core that can handle Foggy; start with attacker roles instead of forcing only high-rarity picks."
+      "Bring a compact attacker plan; Crystal Cave has fewer targets and rewards clean execution.",
+      "Use Flying High for Crystalwing repeats, but do not spend it on Crystion-only material runs.",
+      "Gem belongs to Crystion checks, while Gem Shard belongs to Crystalwing checks.",
+      "A Crystal Build should prioritize material certainty over broad coverage.",
+      "If the team needs many flying targets, Sky Isles is the better page to follow."
     ],
     "farming_route": [
-      "After the first target check, continue only if Crystal Shard, Diamond, and Feather still match the active team plan.",
-      "Add Flying High on the repeat version of Crystal Cave, once pathing mistakes are no longer hiding the recipe value.",
-      "Review Crystal Cave after two clears: if the result is only generic resources, move the session to a more specific habitat.",
-      "Start Crystal Cave by declaring one goal: unlock progress, +60% Crystal drops, a rare spawn check, or a recipe test.",
-      "Path first toward Crystion and Crystalwing; if the target branch is missed, reset before the run turns into unfocused clearing."
+      "Open with the nearest crystal branch and identify whether Crystion or Crystalwing appears first.",
+      "Continue only if the branch gives Crystal Shard, Diamond, or Feather progress.",
+      "Add Flying High when Crystalwing is the repeated target and fight time is the bottleneck.",
+      "Reset earlier than a normal cave clear; the small spawn list is useful only when the target is specific.",
+      "Compare Crystal Cave with Gemstone Canyon before farming Crystion for Diamond alone."
     ],
     "rare_spawns": [
       "Crystion in Crystal Cave: rare Crystal/Fairy, best checked during Night / Snow.",
       "Crystalwing in Crystal Cave: rare Flying/Crystal, best checked during Day / Windy."
     ],
     "resource_notes": [
-      "Crystal Cave turns +60% Crystal drops into value only when the target material is named before the run starts; the usual candidates are Crystal Shard, Diamond, and Feather.",
-      "For Crystal Cave, food prep starts with Gem and Gem Shard. Leave extras behind when they do not support Crystion and Crystalwing.",
-      "Crystion and Crystalwing are the high-commitment Crystal Cave checks; for shorter loops, stop after the first useful material result instead of chasing every spawn.",
-      "Track Crystal Cave clear time separately from Crystal Shard, Diamond, and Feather; a route can feel good and still be inefficient for the current build."
+      "Crystal Cave is strongest for Crystal Shard, Diamond, and Feather in a compact route.",
+      "It is not a general flying route despite Crystalwing's presence.",
+      "Gem and Gem Shard should be used separately so Crystion and Crystalwing attempts do not compete.",
+      "The cave is valuable when the player wants fewer spawn distractions."
     ],
     "common_mistakes": [
-      "Treating Crystal Cave like a full-clear map when the stronger play is to exit after the planned branch.",
-      "Entering Crystal Cave without choosing whether the run is for +60% Crystal drops, Crystion and Crystalwing, or route practice.",
-      "Using Flying High before the first clean Crystal Cave path is known.",
-      "Chasing Crystion and Crystalwing in one run even when the food plan only supports Gem and Gem Shard.",
-      "Ignoring Foggy and then blaming the Pokemon roster for weak results."
+      "Using Sky Isles logic in Crystal Cave and expecting many flying targets.",
+      "Spending Flying High on a Crystion-only route.",
+      "Repeating the cave when the build no longer needs Crystal Shard, Diamond, or Feather.",
+      "Treating the small spawn list as thin content instead of a focused material advantage.",
+      "Ignoring Foggy weather before judging crystal drop value."
     ],
     "faqs": [
       {
@@ -1139,41 +1139,41 @@
     "image_alt": "Pokémon Pokopia habitat screenshot: Meadow Garden",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Meadow Garden combines defender and support roles with Grass and Normal coverage, so the best route depends on the team goal rather than the map name. Its headline bonus is +25% Herb drops, and the important local checks include Bulbin, Thornvine, Mossling, and Treemendous. Use Meadow Garden to learn spawn timing, verify food value, and build confidence before spending rare recipes. Grass Heal adds +30 HP restore, but Meadow Garden should be mapped once before that recipe becomes part of the repeat plan.",
+    "overview": "Meadow Garden is the low-pressure herb and daily-farming habitat. Sunny weather, Grass Heal, and the Bulbin / Thornvine / Mossling / Treemendous group make it a recovery-focused route rather than a rare chase. It overlaps with Forest Valley, but Meadow Garden is simpler, sunnier, and better for relaxed material collection.",
     "unlock_steps": [
-      "Meadow Garden unlocks through Starting Habitat; treat the first visit as route survey time.",
-      "Before entering Meadow Garden, check Sunny and choose whether the session is for +25% Herb drops, Bulbin, Thornvine, Mossling, and Treemendous, or unlock progress.",
-      "Bring a Beginner Build plan to Meadow Garden only if it helps the first target branch with Bulbin, Thornvine, and Mossling.",
-      "Scout Meadow Garden once without Grass Heal and mark the earliest safe exit after the target check.",
-      "Start repeat farming in Meadow Garden only when two clean clears show that Leaf, Grass Fiber, Thorn, and Oak Log still justify the time."
+      "Unlock Meadow Garden through Reach Level 8 and use it as a daily farming route.",
+      "Check Sunny weather before turning the run into an herb or recovery session.",
+      "Choose one grass target: Bulbin for basic leaves, Thornvine for Thorn value, Mossling for support practice, or Treemendous for Oak Log.",
+      "Scout once without Grass Heal so the route's natural safety is clear.",
+      "Repeat when Leaf, Grass Fiber, Thorn, or Oak Log supports the next small upgrade."
     ],
     "recommended_team": [
-      "Use Grass Heal in Meadow Garden after the first clean path is known; +30 HP restore should improve a branch you already plan to repeat.",
-      "Bring a backup role for the point where Meadow Garden usually fails: the first bad weather branch, the target encounter, or the exit after the material check.",
-      "Compare the local Pokemon pages before repeating Meadow Garden, because Leaf, Grass Fiber, Thorn, and Oak Log do not all support the same build step.",
-      "Meadow Garden wants a Beginner Build core that can handle Sunny; start with defender and support roles instead of forcing only high-rarity picks.",
-      "Choose one lead target before entering Meadow Garden: Bulbin, Thornvine, Mossling, and Treemendous for high-value checks, or Bulbin, Thornvine, Mossling, and Treemendous when the session is about steady materials."
+      "Use a beginner-friendly team with one support slot; Meadow Garden should feel stable, not risky.",
+      "Grass Heal is useful when the goal is long, low-pressure daily farming.",
+      "Bring Leaf for basic loops and Berry only when Treemendous is the target.",
+      "A Beginner Build should prioritize low item spend over fastest clear time.",
+      "If the goal is harder poison or rare grass routing, move to Forest Valley instead."
     ],
     "farming_route": [
-      "Add Grass Heal on the repeat version of Meadow Garden, once pathing mistakes are no longer hiding the recipe value.",
-      "Review Meadow Garden after two clears: if the result is only generic resources, move the session to a more specific habitat.",
-      "Start Meadow Garden by declaring one goal: unlock progress, +25% Herb drops, a rare spawn check, or a recipe test.",
-      "Path first toward Bulbin, Thornvine, Mossling, and Treemendous; if the target branch is missed, reset before the run turns into unfocused clearing.",
-      "Use Sunny as the session gate for Meadow Garden. A clean Meadow Garden scout under the wrong weather should be logged, not repeated for serious farming."
+      "Open with the closest grass branch and check whether Leaf or Grass Fiber is still needed.",
+      "Branch toward Thornvine when Thorn is the material goal.",
+      "Use Mossling to practice support pacing before taking similar roles into harder habitats.",
+      "Commit to Treemendous only when Oak Log or Berry use justifies the longer path.",
+      "End the run after the daily material goal is reached."
     ],
     "rare_spawns": [],
     "resource_notes": [
-      "Meadow Garden turns +25% Herb drops into value only when the target material is named before the run starts; the usual candidates are Leaf, Grass Fiber, Thorn, and Oak Log.",
-      "For Meadow Garden, food prep starts with Leaf and Berry. Leave extras behind when they do not support Bulbin, Thornvine, Mossling, and Treemendous or Bulbin, Thornvine, Mossling, and Treemendous.",
-      "Bulbin, Thornvine, Mossling, and Treemendous are the high-commitment Meadow Garden checks, while Bulbin, Thornvine, Mossling, and Treemendous are better for shorter material loops.",
-      "Track Meadow Garden clear time separately from Leaf, Grass Fiber, Thorn, and Oak Log; a route can feel good and still be inefficient for the current build."
+      "Meadow Garden is strongest for low-risk Leaf, Grass Fiber, Thorn, and Oak Log collection.",
+      "It is a daily route, not the best place for advanced grass-poison planning.",
+      "Grass Heal helps stretch relaxed farming sessions but should not be required for the first clear.",
+      "Treemendous gives the route a late material target without changing its beginner identity."
     ],
     "common_mistakes": [
-      "Entering Meadow Garden without choosing whether the run is for +25% Herb drops, Bulbin, Thornvine, Mossling, and Treemendous, or route practice.",
-      "Using Grass Heal before the first clean Meadow Garden path is known.",
-      "Chasing Bulbin, Thornvine, Mossling, and Treemendous in one run even when the food plan only supports Leaf and Berry.",
-      "Ignoring Sunny and then blaming the Pokemon roster for weak results.",
-      "Repeating Meadow Garden after Leaf, Grass Fiber, Thorn, and Oak Log stop supporting the current recipe or team upgrade."
+      "Expecting Meadow Garden to carry the same rare-route value as Forest Valley.",
+      "Using Grass Heal on a short material check that does not need healing.",
+      "Farming every grass target when only Leaf or Thorn is needed.",
+      "Ignoring Sunny weather and then comparing the route unfairly with Forest Valley.",
+      "Continuing daily farming after the small upgrade material is finished."
     ],
     "faqs": [
       {
@@ -1217,41 +1217,41 @@
     "image_alt": "Pokémon Pokopia habitat screenshot: Industrial Zone",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Industrial Zone is a medium habitat unlocked through Reach Level 14. Its identity is Cloudy routing, +40% Metal drops, and a spawn group led by Mechabit, Magnedex, and Ironclaw. Treat Industrial Zone as a bridge route: scout carefully, then shorten the repeat path once the target branch is known. Thunder Strike adds +40% electric damage, but Industrial Zone should be mapped once before that recipe becomes part of the repeat plan.",
+    "overview": "Industrial Zone is a compact metal-material route, not a speed route. Cloudy weather, Tech Build planning, and the Mechabit / Magnedex / Ironclaw triangle make it the better place for Metal Coat, Piston, Metal Coil, and Magnet. Thunder Strike is useful only as a support tool for the electric-steel fights; the real goal is controlled material output.",
     "unlock_steps": [
-      "Industrial Zone unlocks through Reach Level 14; treat the first visit as route survey time.",
-      "Before entering Industrial Zone, check Cloudy and choose whether the session is for +40% Metal drops, Mechabit, Magnedex, and Ironclaw, or unlock progress.",
-      "Bring a Tech Build plan to Industrial Zone only if it helps the first target branch with Mechabit, Magnedex, and Ironclaw.",
-      "Scout Industrial Zone once without Thunder Strike and mark the earliest safe exit after the target check.",
-      "Start repeat farming in Industrial Zone only when two clean clears show that Metal Coat, Piston, Metal Coil, and Magnet still justify the time."
+      "Unlock Industrial Zone through Reach Level 14 and enter it as a workshop route, not a rare-spawn chase.",
+      "Check Cloudy weather before committing, because the area is strongest when the material loop is stable.",
+      "Map the Mechabit and Magnedex branches first, then add Ironclaw only if Metal Coat or Piston is still needed.",
+      "Run one pass without Thunder Strike so the team can measure natural durability and clear time.",
+      "Repeat only when metal drops are the current bottleneck for a build or recipe."
     ],
     "recommended_team": [
-      "Bring a backup role for the point where Industrial Zone usually fails: the first bad weather branch, the target encounter, or the exit after the material check.",
-      "Compare the local Pokemon pages before repeating Industrial Zone, because Metal Coat, Piston, Metal Coil, and Magnet do not all support the same build step.",
-      "Industrial Zone wants a Tech Build core that can handle Cloudy; start with defender and attacker roles instead of forcing only high-rarity picks.",
-      "Choose one lead target before entering Industrial Zone: Mechabit, Magnedex, and Ironclaw for high-value checks, or Mechabit, Magnedex, and Ironclaw when the session is about steady materials.",
-      "Prepare food around Battery, Magnet, and Iron Ore. If those foods do not match the Industrial Zone target list, treat the run as a scout rather than a farm."
+      "Build around defenders and one clean attacker; Industrial Zone punishes fragile speed teams more than Windmill Plains does.",
+      "Use Mechabit or Magnedex when the goal is stable metal farming, and Ironclaw when the team needs a faster finish.",
+      "Bring Battery, Magnet, or Iron Ore based on the material branch instead of packing every food item.",
+      "Thunder Strike helps if electric-steel fights are dragging, but it should not be the reason to enter the zone.",
+      "A Tech Build should reduce wasted turns between material checks."
     ],
     "farming_route": [
-      "Review Industrial Zone after two clears: if the result is only generic resources, move the session to a more specific habitat.",
-      "Start Industrial Zone by declaring one goal: unlock progress, +40% Metal drops, a rare spawn check, or a recipe test.",
-      "Path first toward Mechabit, Magnedex, and Ironclaw; if the target branch is missed, reset before the run turns into unfocused clearing.",
-      "Use Cloudy as the session gate for Industrial Zone. A clean Industrial Zone scout under the wrong weather should be logged, not repeated for serious farming.",
-      "After the first target check, continue only if Metal Coat, Piston, Metal Coil, and Magnet still match the active team plan."
+      "Open with the nearest metal branch and decide immediately whether the run is for Metal Coat, Piston, Metal Coil, or Magnet.",
+      "Stay on the defender path for Mechabit and Magnedex; branch toward Ironclaw only when the route still needs Piston pressure.",
+      "Do not reset as aggressively as Windmill Plains. Industrial Zone rewards complete material passes when the target drops overlap.",
+      "Use Thunder Strike on repeat runs where fight length, not navigation, is the problem.",
+      "End the session when the active metal material is finished, even if the route still feels efficient."
     ],
     "rare_spawns": [],
     "resource_notes": [
-      "Industrial Zone turns +40% Metal drops into value only when the target material is named before the run starts; the usual candidates are Metal Coat, Piston, Metal Coil, and Magnet.",
-      "For Industrial Zone, food prep starts with Battery, Magnet, and Iron Ore. Leave extras behind when they do not support Mechabit, Magnedex, and Ironclaw or Mechabit, Magnedex, and Ironclaw.",
-      "Mechabit, Magnedex, and Ironclaw are the high-commitment Industrial Zone checks, while Mechabit, Magnedex, and Ironclaw are better for shorter material loops.",
-      "Track Industrial Zone clear time separately from Metal Coat, Piston, Metal Coil, and Magnet; a route can feel good and still be inefficient for the current build."
+      "Industrial Zone should be the default target for Metal Coat, Piston, Metal Coil, and Magnet.",
+      "Battery and Magnet have better value here than in a pure speed loop because both connect to repeatable steel-side targets.",
+      "If Thunder Stone is the priority, move back to Windmill Plains instead of forcing this route.",
+      "Track material yield per full pass, not only time-to-first-spawn."
     ],
     "common_mistakes": [
-      "Using Thunder Strike before the first clean Industrial Zone path is known.",
-      "Chasing Mechabit, Magnedex, and Ironclaw in one run even when the food plan only supports Battery, Magnet, and Iron Ore.",
-      "Ignoring Cloudy and then blaming the Pokemon roster for weak results.",
-      "Repeating Industrial Zone after Metal Coat, Piston, Metal Coil, and Magnet stop supporting the current recipe or team upgrade.",
-      "Treating Industrial Zone like a full-clear map when the stronger play is to exit after the planned branch."
+      "Using a Windmill Plains speed plan in a zone that wants controlled metal farming.",
+      "Leaving after the first spawn check when several metal drops still overlap.",
+      "Treating Ironclaw as mandatory when Mechabit and Magnedex already cover the material goal.",
+      "Spending Thunder Strike to fix a team that lacks durability.",
+      "Continuing the route after Metal Coat, Piston, Metal Coil, and Magnet are no longer needed."
     ],
     "faqs": [
       {
@@ -1295,27 +1295,27 @@
     "image_alt": "Pokémon Pokopia habitat screenshot: Nightmare Forest",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Nightmare Forest should be planned as a poison build route, not as a generic checklist map. The main reasons to enter are +55% Poison drops, Foggy/Night conditions, and target checks for Leafon, Frostbite, and Magicalure. For Nightmare Forest, enter with a narrow goal; hard routes punish teams that try to farm every possible target at once. Ghost Veil adds +45% ghost damage, but Nightmare Forest should be mapped once before that recipe becomes part of the repeat plan.",
+    "overview": "Nightmare Forest is the fog-night poison and fear-control route. Foggy/Night weather, Leafon, Shados, Frostbite, Toxifin, and Magicalure make it a status-heavy habitat where poison, ghost, ice, and fairy materials overlap. It is harder and darker than Forest Valley, and it should be entered only with a target branch.",
     "unlock_steps": [
-      "Nightmare Forest unlocks through Reach Level 26; treat the first visit as route survey time.",
-      "Before entering Nightmare Forest, check Foggy/Night and choose whether the session is for +55% Poison drops, Leafon, Frostbite, and Magicalure, or unlock progress.",
-      "Bring a Poison Build plan to Nightmare Forest only if it helps the first target branch with Leafon, Frostbite, and Magicalure.",
-      "Scout Nightmare Forest once without Ghost Veil and mark the earliest safe exit after the target check.",
-      "Start repeat farming in Nightmare Forest only when two clean clears show that Poison Stone, Leaf Stone, Ghost Stone, Ice Crystal, and Fairy Dust still justify the time."
+      "Unlock Nightmare Forest through Reach Level 26 and scout the first fog-night branch without Ghost Veil.",
+      "Use Foggy/Night as the gate for Leafon, Shados, Frostbite, Toxifin, or Magicalure attempts.",
+      "Choose whether the run is for Poison Stone, Ghost Stone, Ice Crystal, Fairy Dust, or a status-control build test.",
+      "Map the first dangerous status encounter before spending rare food.",
+      "Repeat when the route's mixed status materials match the next team upgrade."
     ],
     "recommended_team": [
-      "Compare the local Pokemon pages before repeating Nightmare Forest, because Poison Stone, Leaf Stone, Ghost Stone, Ice Crystal, and Fairy Dust do not all support the same build step.",
-      "Nightmare Forest wants a Poison Build core that can handle Foggy/Night; start with assassin and support roles instead of forcing only high-rarity picks.",
-      "Choose one lead target before entering Nightmare Forest: Leafon, Frostbite, and Magicalure for high-value checks, or Leafon, Frostbite, and Magicalure when the session is about steady materials.",
-      "Prepare food around Mystery Mushroom and Frozen Soul. If those foods do not match the Nightmare Forest target list, treat the run as a scout rather than a farm.",
-      "Use Ghost Veil in Nightmare Forest after the first clean path is known; +45% ghost damage should improve a branch you already plan to repeat."
+      "Bring status answers and one burst option; Nightmare Forest punishes teams that cannot end bad conditions quickly.",
+      "Use Leafon and Toxifin for poison value, Shados for ghost checks, Frostbite for ice-ghost overlap, and Magicalure for support materials.",
+      "Ghost Veil helps only if the route leans into ghost branches; do not use it for every poison run.",
+      "Food should be narrow: Leaf, Soul Dust, Frozen Berry, Fish, or Mystery Mushroom based on the target.",
+      "If the goal is basic grass farming, Forest Valley or Meadow Garden is safer."
     ],
     "farming_route": [
-      "Start Nightmare Forest by declaring one goal: unlock progress, +55% Poison drops, a rare spawn check, or a recipe test.",
-      "Path first toward Leafon, Frostbite, and Magicalure; if the target branch is missed, reset before the run turns into unfocused clearing.",
-      "Use Foggy/Night as the session gate for Nightmare Forest. A clean Nightmare Forest scout under the wrong weather should be logged, not repeated for serious farming.",
-      "After the first target check, continue only if Poison Stone, Leaf Stone, Ghost Stone, Ice Crystal, and Fairy Dust still match the active team plan.",
-      "Add Ghost Veil on the repeat version of Nightmare Forest, once pathing mistakes are no longer hiding the recipe value."
+      "Open with the status branch tied to the current material goal.",
+      "Take Leafon or Toxifin paths for Poison Stone, Shados for Ghost Stone, and Frostbite for Ice Crystal.",
+      "Use Magicalure only when Fairy Dust or Poison Stone support is the main reason to enter.",
+      "Add Ghost Veil after the ghost branch is mapped and repeated fights justify it.",
+      "Exit after the chosen status material is checked; Nightmare Forest is too risky for casual full clears."
     ],
     "rare_spawns": [
       "Leafon in Nightmare Forest: rare Grass/Poison, best checked during Night / Foggy.",
@@ -1323,17 +1323,17 @@
       "Magicalure in Nightmare Forest: rare Fairy/Poison, best checked during Night / Foggy."
     ],
     "resource_notes": [
-      "Nightmare Forest turns +55% Poison drops into value only when the target material is named before the run starts; the usual candidates are Poison Stone, Leaf Stone, Ghost Stone, Ice Crystal, and Fairy Dust.",
-      "For Nightmare Forest, food prep starts with Mystery Mushroom and Frozen Soul. Leave extras behind when they do not support Leafon, Frostbite, and Magicalure.",
-      "Leafon, Frostbite, and Magicalure are the high-commitment Nightmare Forest checks; for shorter loops, stop after the first useful material result instead of chasing every spawn.",
-      "Track Nightmare Forest clear time separately from Poison Stone, Leaf Stone, Ghost Stone, Ice Crystal, and Fairy Dust; a route can feel good and still be inefficient for the current build."
+      "Nightmare Forest is strongest for Poison Stone, Ghost Stone, Ice Crystal, Fairy Dust, and mixed status materials.",
+      "It is the advanced version of several easier routes, not a replacement for them.",
+      "Magicalure gives support value, while Leafon and Toxifin define the poison angle.",
+      "The route needs strict food control because every branch asks for a different item."
     ],
     "common_mistakes": [
-      "Chasing Leafon, Frostbite, and Magicalure in one run even when the food plan only supports Mystery Mushroom and Frozen Soul.",
-      "Ignoring Foggy/Night and then blaming the Pokemon roster for weak results.",
-      "Repeating Nightmare Forest after Poison Stone, Leaf Stone, Ghost Stone, Ice Crystal, and Fairy Dust stop supporting the current recipe or team upgrade.",
-      "Treating Nightmare Forest like a full-clear map when the stronger play is to exit after the planned branch.",
-      "Entering Nightmare Forest without choosing whether the run is for +55% Poison drops, Leafon, Frostbite, and Magicalure, or route practice."
+      "Entering Nightmare Forest without a status-material target.",
+      "Using Ghost Veil on poison-focused runs that do not need ghost damage.",
+      "Trying to farm Leafon, Shados, Frostbite, Toxifin, and Magicalure in one pass.",
+      "Ignoring Foggy/Night before spending rare food.",
+      "Using this route for simple grass materials that easier habitats already cover."
     ],
     "faqs": [
       {
@@ -1377,27 +1377,27 @@
     "image_alt": "Pokémon Pokopia habitat screenshot: Dragon's Den",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "The practical question for Dragon's Den is whether Stormy helps the team reach Voltscale, Snorizard, and Primordion or collect Thunder Stone, Dragon Scale, Ice Stone, Earth Gem, and Legendary Pearl. It unlocks through Reach Level 32, then rewards players who choose one objective before entering. For Dragon's Den, enter with a narrow goal; hard routes punish teams that try to farm every possible target at once. Dragon's Fury adds +35% dragon damage, but Dragon's Den should be mapped once before that recipe becomes part of the repeat plan.",
+    "overview": "Dragon's Den is a late-game commitment route for Dragon Scale and legendary-level checks. Stormy weather, Voltscale, Snorizard, and Primordion make it expensive to repeat, so every run should have a single target. Dragon's Fury belongs here after the storm route is mapped and the team can survive the opening branch.",
     "unlock_steps": [
-      "Dragon's Den unlocks through Reach Level 32; treat the first visit as route survey time.",
-      "Before entering Dragon's Den, check Stormy and choose whether the session is for +50% Dragon drops, Voltscale, Snorizard, and Primordion, or unlock progress.",
-      "Bring a Dragon Build plan to Dragon's Den only if it helps the first target branch with Voltscale, Snorizard, and Primordion.",
-      "Scout Dragon's Den once without Dragon's Fury and mark the earliest safe exit after the target check.",
-      "Start repeat farming in Dragon's Den only when two clean clears show that Thunder Stone, Dragon Scale, Ice Stone, Earth Gem, and Legendary Pearl still justify the time."
+      "Unlock Dragon's Den through Reach Level 32 and scout the first storm branch without Dragon's Fury.",
+      "Use Stormy weather as the gate for any serious Voltscale, Snorizard, or Primordion attempt.",
+      "Choose whether the run is for Dragon Scale volume, Ice Stone overlap, Earth Gem, or Legendary Pearl.",
+      "Bring Dragon's Fury only after the team knows where the decisive dragon fight happens.",
+      "Repeat when the target material justifies a high-cost late-game route."
     ],
     "recommended_team": [
-      "Dragon's Den wants a Dragon Build core that can handle Stormy; start with attacker and tank roles instead of forcing only high-rarity picks.",
-      "Choose one lead target before entering Dragon's Den: Voltscale, Snorizard, and Primordion for high-value checks, or Voltscale, Snorizard, and Primordion when the session is about steady materials.",
-      "Prepare food around Lightning Bug, Frost Meat, and Golden Fish. If those foods do not match the Dragon's Den target list, treat the run as a scout rather than a farm.",
-      "Use Dragon's Fury in Dragon's Den after the first clean path is known; +35% dragon damage should improve a branch you already plan to repeat.",
-      "Bring a backup role for the point where Dragon's Den usually fails: the first bad weather branch, the target encounter, or the exit after the material check."
+      "Bring a damage plan plus a tank or safety slot; Dragon's Den punishes fragile teams quickly.",
+      "Use Voltscale for electric-dragon pressure, Snorizard for Dragon / Ice overlap, and Primordion for premium Dragon / Ground materials.",
+      "Dragon's Fury should shorten a known fight, not compensate for poor storm routing.",
+      "Lightning Bug, Frost Meat, and Golden Fish should never be packed together unless the session is deliberately long.",
+      "Compare this route with Thunder Arena before chasing Voltscale only for electric materials."
     ],
     "farming_route": [
-      "Path first toward Voltscale, Snorizard, and Primordion; if the target branch is missed, reset before the run turns into unfocused clearing.",
-      "Use Stormy as the session gate for Dragon's Den. A clean Dragon's Den scout under the wrong weather should be logged, not repeated for serious farming.",
-      "After the first target check, continue only if Thunder Stone, Dragon Scale, Ice Stone, Earth Gem, and Legendary Pearl still match the active team plan.",
-      "Add Dragon's Fury on the repeat version of Dragon's Den, once pathing mistakes are no longer hiding the recipe value.",
-      "Review Dragon's Den after two clears: if the result is only generic resources, move the session to a more specific habitat."
+      "Open with the branch tied to the chosen food item: Lightning Bug, Frost Meat, or Golden Fish.",
+      "Continue only while Dragon Scale or the secondary material still supports the build.",
+      "Use Dragon's Fury on repeat attempts after the first clean storm route.",
+      "Reset when the selected dragon target is missed; the den is too expensive for accidental full clears.",
+      "Review material value after every two runs because late-game food costs are high."
     ],
     "rare_spawns": [
       "Voltscale in Dragon's Den: legendary Electric/Dragon, best checked during Night / Thunderstorm.",
@@ -1405,17 +1405,17 @@
       "Primordion in Dragon's Den: legendary Dragon/Ground, best checked during Any / Rain."
     ],
     "resource_notes": [
-      "Dragon's Den turns +50% Dragon drops into value only when the target material is named before the run starts; the usual candidates are Thunder Stone, Dragon Scale, Ice Stone, Earth Gem, and Legendary Pearl.",
-      "For Dragon's Den, food prep starts with Lightning Bug, Frost Meat, and Golden Fish. Leave extras behind when they do not support Voltscale, Snorizard, and Primordion.",
-      "Voltscale, Snorizard, and Primordion are the high-commitment Dragon's Den checks; for shorter loops, stop after the first useful material result instead of chasing every spawn.",
-      "Track Dragon's Den clear time separately from Thunder Stone, Dragon Scale, Ice Stone, Earth Gem, and Legendary Pearl; a route can feel good and still be inefficient for the current build."
+      "Dragon Scale is the shared reason to enter Dragon's Den.",
+      "Thunder Stone points to Voltscale, Ice Stone points to Snorizard, and Earth Gem / Legendary Pearl points to Primordion.",
+      "Dragon's Den is not a general XP route; it is a targeted late-game material route.",
+      "The best sessions spend one type of rare food, not all of them."
     ],
     "common_mistakes": [
-      "Ignoring Stormy and then blaming the Pokemon roster for weak results.",
-      "Repeating Dragon's Den after Thunder Stone, Dragon Scale, Ice Stone, Earth Gem, and Legendary Pearl stop supporting the current recipe or team upgrade.",
-      "Treating Dragon's Den like a full-clear map when the stronger play is to exit after the planned branch.",
-      "Entering Dragon's Den without choosing whether the run is for +50% Dragon drops, Voltscale, Snorizard, and Primordion, or route practice.",
-      "Using Dragon's Fury before the first clean Dragon's Den path is known."
+      "Entering Dragon's Den without choosing one dragon target.",
+      "Using Dragon's Fury before the storm path is mapped.",
+      "Packing Lightning Bug, Frost Meat, and Golden Fish for an unfocused run.",
+      "Farming Voltscale here when only Thunder Stone is needed.",
+      "Continuing after Dragon Scale stops being the bottleneck."
     ],
     "faqs": [
       {
@@ -1459,27 +1459,27 @@
     "image_alt": "Pokémon Pokopia habitat screenshot: Fairy Glen",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Fairy Glen combines attacker and support roles with Crystal, Fairy, Water, Psychic, and Poison coverage, so the best route depends on the team goal rather than the map name. Its headline bonus is +45% Fairy dust drops, and the important local checks include Crystion, Dewdrop, Mysticat, and Magicalure. Treat Fairy Glen as a bridge route: scout carefully, then shorten the repeat path once the target branch is known. Water Shield adds +35% water resistance, but Fairy Glen should be mapped once before that recipe becomes part of the repeat plan.",
+    "overview": "Fairy Glen is a support and utility habitat built around Fairy Dust, Star Piece, Psy Crystal, and status-friendly team planning. It overlaps with Gemstone Canyon through Crystion, but the reason to farm it is different: Fairy Glen is for support materials, mixed Fairy coverage, and Mysticat / Magicalure checks rather than raw mining.",
     "unlock_steps": [
-      "Fairy Glen unlocks through Reach Level 18; treat the first visit as route survey time.",
-      "Before entering Fairy Glen, check Clear and choose whether the session is for +45% Fairy dust drops, Crystion, Mysticat, and Magicalure, or unlock progress.",
-      "Bring a Fairy Build plan to Fairy Glen only if it helps the first target branch with Crystion, Dewdrop, and Mysticat.",
-      "Scout Fairy Glen once without Water Shield and mark the earliest safe exit after the target check.",
-      "Start repeat farming in Fairy Glen only when two clean clears show that Crystal Shard, Diamond, Water Stone, Star Piece, Psy Crystal, Fairy Dust, and Poison Stone still justify the time."
+      "Unlock Fairy Glen through Reach Level 18 and treat the first pass as a support-route survey.",
+      "Use Clear weather to decide whether Crystion, Mysticat, or Magicalure is worth checking today.",
+      "Map the Dewdrop branch separately from the rare support branch so Water Stone farming does not blur the route goal.",
+      "Scout once without Water Shield; add it later only if water resistance changes the repeat path.",
+      "Repeat when Fairy Dust, Star Piece, Psy Crystal, or Poison Stone is tied to the next support build."
     ],
     "recommended_team": [
-      "Choose one lead target before entering Fairy Glen: Crystion, Mysticat, and Magicalure for high-value checks, or Dewdrop when the session is about steady materials.",
-      "Prepare food around Gem, Crystal Dew, Star Sweet, and Mystery Mushroom. If those foods do not match the Fairy Glen target list, treat the run as a scout rather than a farm.",
-      "Use Water Shield in Fairy Glen after the first clean path is known; +35% water resistance should improve a branch you already plan to repeat.",
-      "Bring a backup role for the point where Fairy Glen usually fails: the first bad weather branch, the target encounter, or the exit after the material check.",
-      "Compare the local Pokemon pages before repeating Fairy Glen, because Crystal Shard, Diamond, Water Stone, Star Piece, Psy Crystal, Fairy Dust, and Poison Stone do not all support the same build step."
+      "Bring a stable attacker plus support coverage; Fairy Glen rewards longer utility fights more than pure mining speed.",
+      "Use Dewdrop for lower-cost Water Stone and Star Piece checks, then branch toward Mysticat or Magicalure when rare support materials matter.",
+      "Crystion is optional here. If Crystal Shard and Diamond are the only goal, Gemstone Canyon or Crystal Cave may be cleaner.",
+      "Water Shield is a route-smoothing tool, not the main reason to farm Fairy Glen.",
+      "Food should match the target: Crystal Dew for Dewdrop, Star Sweet for Mysticat, Mystery Mushroom for Magicalure."
     ],
     "farming_route": [
-      "Use Clear as the session gate for Fairy Glen. A clean Fairy Glen scout under the wrong weather should be logged, not repeated for serious farming.",
-      "After the first target check, continue only if Crystal Shard, Diamond, Water Stone, Star Piece, Psy Crystal, Fairy Dust, and Poison Stone still match the active team plan.",
-      "Add Water Shield on the repeat version of Fairy Glen, once pathing mistakes are no longer hiding the recipe value.",
-      "Review Fairy Glen after two clears: if the result is only generic resources, move the session to a more specific habitat.",
-      "Start Fairy Glen by declaring one goal: unlock progress, +45% Fairy dust drops, a rare spawn check, or a recipe test."
+      "Open with the Dewdrop branch only when Water Stone or Star Piece is useful.",
+      "For rare support checks, path toward Mysticat or Magicalure and skip mining-style detours.",
+      "Use Water Shield after the support branch is mapped and repeated fights are costing too much health.",
+      "Exit once Fairy Dust, Psy Crystal, or Poison Stone is checked; do not keep clearing just because the map has mixed coverage.",
+      "Compare support material yield against Gemstone Canyon before repeating Crystion-only runs."
     ],
     "rare_spawns": [
       "Crystion in Fairy Glen: rare Crystal/Fairy, best checked during Night / Snow.",
@@ -1487,17 +1487,17 @@
       "Magicalure in Fairy Glen: rare Fairy/Poison, best checked during Night / Foggy."
     ],
     "resource_notes": [
-      "Fairy Glen turns +45% Fairy dust drops into value only when the target material is named before the run starts; the usual candidates are Crystal Shard, Diamond, Water Stone, Star Piece, Psy Crystal, Fairy Dust, and Poison Stone.",
-      "For Fairy Glen, food prep starts with Gem, Crystal Dew, Star Sweet, and Mystery Mushroom. Leave extras behind when they do not support Crystion, Mysticat, and Magicalure or Dewdrop.",
-      "Crystion, Mysticat, and Magicalure are the high-commitment Fairy Glen checks, while Dewdrop is better for shorter material loops.",
-      "Track Fairy Glen clear time separately from Crystal Shard, Diamond, Water Stone, Star Piece, Psy Crystal, Fairy Dust, and Poison Stone; a route can feel good and still be inefficient for the current build."
+      "Fairy Glen is strongest for Fairy Dust, Star Piece, Psy Crystal, and Poison Stone.",
+      "Crystal Shard and Diamond appear through Crystion, but they are not the identity of this route.",
+      "Dewdrop makes the area useful for cheaper water-support loops.",
+      "Mysticat and Magicalure are the main reasons to commit rare food."
     ],
     "common_mistakes": [
-      "Repeating Fairy Glen after Crystal Shard, Diamond, Water Stone, Star Piece, Psy Crystal, Fairy Dust, and Poison Stone stop supporting the current recipe or team upgrade.",
-      "Treating Fairy Glen like a full-clear map when the stronger play is to exit after the planned branch.",
-      "Entering Fairy Glen without choosing whether the run is for +45% Fairy dust drops, Crystion, Mysticat, and Magicalure, or route practice.",
-      "Using Water Shield before the first clean Fairy Glen path is known.",
-      "Chasing Crystion, Dewdrop, Mysticat, and Magicalure in one run even when the food plan only supports Gem, Crystal Dew, Star Sweet, and Mystery Mushroom."
+      "Farming Fairy Glen as if it were another Gemstone Canyon mining route.",
+      "Using Water Shield before knowing whether the support branch actually needs it.",
+      "Chasing Crystion here when Crystal Shard and Diamond are the only materials needed.",
+      "Mixing Dewdrop farming with Magicalure hunting in the same run without enough food.",
+      "Ignoring the support-material identity of the habitat."
     ],
     "faqs": [
       {
@@ -1541,41 +1541,41 @@
     "image_alt": "Pokémon Pokopia habitat screenshot: Training Grounds",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Training Grounds is a easy habitat unlocked through Reach Level 10. Its identity is Clear routing, +30% XP bonus, and a spawn group led by Bulbin, Tidlet, Thornvine, Skittlish, and Treemendous. Use Training Grounds to learn spawn timing, verify food value, and build confidence before spending rare recipes. Grass Heal adds +30 HP restore, but Training Grounds should be mapped once before that recipe becomes part of the repeat plan.",
+    "overview": "Training Grounds is the starter practice and XP route. Clear weather, Normal / Fighting / Grass basics, and low-pressure targets like Bulbin, Tidlet, Fisticub, and Playful make it a route for learning roles, testing team shape, and earning steady XP rather than chasing rare materials.",
     "unlock_steps": [
-      "Training Grounds unlocks through Reach Level 10; treat the first visit as route survey time.",
-      "Before entering Training Grounds, check Clear and choose whether the session is for +30% XP bonus, Bulbin, Tidlet, Thornvine, and Skittlish, or unlock progress.",
-      "Bring a Starter Build plan to Training Grounds only if it helps the first target branch with Bulbin, Tidlet, and Thornvine.",
-      "Scout Training Grounds once without Grass Heal and mark the earliest safe exit after the target check.",
-      "Start repeat farming in Training Grounds only when two clean clears show that Leaf, Grass Fiber, Fur, Cloth, Thorn, and Oak Log still justify the time."
+      "Training Grounds is available as a starter-style route, so use it to test basic team structure.",
+      "Choose whether the run is for XP, Fisticub practice, Playful support, or simple Leaf / Fur materials.",
+      "Map one short loop before spending Grass Heal.",
+      "Use Clear weather to keep the session predictable while learning role timing.",
+      "Repeat when the team needs low-risk XP or a controlled role test."
     ],
     "recommended_team": [
-      "Prepare food around Leaf, Any Food, Berry, and Cookie. If those foods do not match the Training Grounds target list, treat the run as a scout rather than a farm.",
-      "Use Grass Heal in Training Grounds after the first clean path is known; +30 HP restore should improve a branch you already plan to repeat.",
-      "Bring a backup role for the point where Training Grounds usually fails: the first bad weather branch, the target encounter, or the exit after the material check.",
-      "Compare the local Pokemon pages before repeating Training Grounds, because Leaf, Grass Fiber, Fur, Cloth, Thorn, and Oak Log do not all support the same build step.",
-      "Training Grounds wants a Starter Build core that can handle Clear; start with defender and support roles instead of forcing only high-rarity picks."
+      "Bring one beginner attacker, one support or defender, and one flexible slot.",
+      "Use Bulbin for basic grass practice, Tidlet for support timing, Fisticub for direct combat, and Playful for utility checks.",
+      "Grass Heal should support long practice sessions, not replace basic team balance.",
+      "Food should be cheap and role-specific: Leaf, Any Food, Protein, or Toy Ball.",
+      "Move to specialized habitats once the team knows what role is missing."
     ],
     "farming_route": [
-      "After the first target check, continue only if Leaf, Grass Fiber, Fur, Cloth, Thorn, and Oak Log still match the active team plan.",
-      "Add Grass Heal on the repeat version of Training Grounds, once pathing mistakes are no longer hiding the recipe value.",
-      "Review Training Grounds after two clears: if the result is only generic resources, move the session to a more specific habitat.",
-      "Start Training Grounds by declaring one goal: unlock progress, +30% XP bonus, a rare spawn check, or a recipe test.",
-      "Path first toward Bulbin, Tidlet, Thornvine, Skittlish, and Treemendous; if the target branch is missed, reset before the run turns into unfocused clearing."
+      "Run the shortest XP loop first and note which role causes slowdowns.",
+      "Branch to Fisticub when Fighting Ribbon or direct combat practice is needed.",
+      "Use Playful checks for Star Piece or support utility rather than rare hunting.",
+      "Keep the loop predictable; Training Grounds loses purpose when it becomes a broad farm.",
+      "Stop after the XP or role test is complete."
     ],
     "rare_spawns": [],
     "resource_notes": [
-      "Training Grounds turns +30% XP bonus into value only when the target material is named before the run starts; the usual candidates are Leaf, Grass Fiber, Fur, Cloth, Thorn, and Oak Log.",
-      "For Training Grounds, food prep starts with Leaf, Any Food, Berry, and Cookie. Leave extras behind when they do not support Bulbin, Tidlet, Thornvine, and Skittlish or Bulbin, Tidlet, Thornvine, and Skittlish.",
-      "Bulbin, Tidlet, Thornvine, and Skittlish are the high-commitment Training Grounds checks, while Bulbin, Tidlet, Thornvine, and Skittlish are better for shorter material loops.",
-      "Track Training Grounds clear time separately from Leaf, Grass Fiber, Fur, Cloth, Thorn, and Oak Log; a route can feel good and still be inefficient for the current build."
+      "Training Grounds is strongest for XP, basic Leaf / Fur materials, Fighting Ribbon, and low-risk role testing.",
+      "It should feed confidence and team shape before harder habitats.",
+      "Playful adds utility value without turning the route into a rare support farm.",
+      "The route is successful when it teaches what to build next."
     ],
     "common_mistakes": [
-      "Treating Training Grounds like a full-clear map when the stronger play is to exit after the planned branch.",
-      "Entering Training Grounds without choosing whether the run is for +30% XP bonus, Bulbin, Tidlet, Thornvine, Skittlish, and Treemendous, or route practice.",
-      "Using Grass Heal before the first clean Training Grounds path is known.",
-      "Chasing Bulbin, Tidlet, Thornvine, Skittlish, and Treemendous in one run even when the food plan only supports Leaf, Any Food, Berry, and Cookie.",
-      "Ignoring Clear and then blaming the Pokemon roster for weak results."
+      "Expecting Training Grounds to compete with specialized farming habitats.",
+      "Using Grass Heal for a short XP loop that does not need it.",
+      "Ignoring role testing and judging the route only by materials.",
+      "Staying after the team question has already been answered.",
+      "Skipping the route before the player understands basic team roles."
     ],
     "faqs": [
       {
