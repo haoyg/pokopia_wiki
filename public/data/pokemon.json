@@ -28,7 +28,7 @@
       "Use it when the route needs faster clears or boss pressure. Pair it with a safer backup so one bad matchup does not end the run.",
       "Fire typing is useful for aggressive clears and routes where damage windows matter. Watch for fights that punish fragile attackers.",
       "Thunderbolt gives Pikafire its opening pressure, while Fire Blast is the payoff when a fight needs to end quickly. Quick Attack and Iron Tail matter most when they help the route stay smooth instead of simply raising the damage total.",
-      "The most relevant related routes to check are Best Starter Pokemon in Pokopia, How to Unlock Volcanic Cave, Best Fire-Type Team Build, Best Habitat for Each Pokemon Type. These pages show where Pikafire fits into team plans and farming loops."
+      "Use the Volcanic Cave page as the main route reference, then compare related team and recipe pages to decide whether Pikafire fits the current farming goal. Bring Apple only after the route is mapped."
     ],
     "team_tips": [
       "Lead slot: use Pikafire as lead when attacker value is the main reason you entered the route.",
@@ -68,7 +68,7 @@
       },
       {
         "question": "Which guides are related to Pikafire?",
-        "answer": "Start with Best Starter Pokemon in Pokopia, How to Unlock Volcanic Cave, Best Fire-Type Team Build, Best Habitat for Each Pokemon Type."
+        "answer": "Start with the Volcanic Cave page, then check related recipe and team pages for route timing, food use, and role coverage."
       }
     ],
     "updated_at": "2026-05-23",
@@ -106,7 +106,7 @@
       "Use it as the front-line stabilizer. It is strongest when the rest of the team supplies damage or capture utility.",
       "Grass typing is valuable for beginner stability, sustain, and control. It is often better for repeatable farming than pure burst.",
       "Vine Whip and Razor Leaf give Bulbin enough pressure for early clears, but Protect is the reason it stays useful when a route gets messy. Judge the kit by whether it keeps Forest Valley repeatable.",
-      "The most relevant related routes to check are Best Starter Pokemon in Pokopia, Speed Run Route for Leveling, Best Defense Team Build, Beginner's Guide to Training Grounds. These pages show where Bulbin fits into team plans and farming loops."
+      "Use the Forest Valley page as the main route reference, then compare related team and recipe pages to decide whether Bulbin fits the current farming goal. Bring Leaf only after the route is mapped."
     ],
     "team_tips": [
       "Lead slot: use Bulbin as lead when defender value is the main reason you entered the route.",
@@ -146,7 +146,7 @@
       },
       {
         "question": "Which guides are related to Bulbin?",
-        "answer": "Start with Best Starter Pokemon in Pokopia, Speed Run Route for Leveling, Best Defense Team Build, Beginner's Guide to Training Grounds."
+        "answer": "Start with the Forest Valley page, then check related recipe and team pages for route timing, food use, and role coverage."
       }
     ],
     "updated_at": "2026-05-23",
@@ -184,7 +184,7 @@
       "Use it when the route needs faster clears or boss pressure. Pair it with a safer backup so one bad matchup does not end the run.",
       "Fire typing is useful for aggressive clears and routes where damage windows matter. Watch for fights that punish fragile attackers.",
       "Ember and Fire Spin make Charmuddy comfortable for repeat clears, while Flamethrower and Fire Blast give it enough ceiling for tougher rooms. Use the heavier skills when the route is stable enough to justify the extra pressure.",
-      "The most relevant related routes to check are Best Fire-Type Team Build. These pages show where Charmuddy fits into team plans and farming loops."
+      "Use the Volcanic Cave page as the main route reference, then compare related team and recipe pages to decide whether Charmuddy fits the current farming goal. Bring Honey only after the route is mapped."
     ],
     "team_tips": [
       "Lead slot: use Charmuddy as lead when attacker value is the main reason you entered the route.",
@@ -224,7 +224,7 @@
       },
       {
         "question": "Which guides are related to Charmuddy?",
-        "answer": "Start with Best Fire-Type Team Build."
+        "answer": "Start with the Volcanic Cave page, then check related recipe and team pages for route timing, food use, and role coverage."
       }
     ],
     "updated_at": "2026-05-23",
@@ -262,7 +262,7 @@
       "Use it to make longer routes safer. Support Pokemon are best when they protect a stronger damage dealer or keep farming loops consistent.",
       "Water typing is strong for safe farming and flexible coverage, especially when the route includes long fights or mixed enemies.",
       "Water Gun and Bubble keep Aquap useful in routine fights, while Rain Dance is the reason it supports longer Crystal Lake loops. Aqua Jet is best valued for routing comfort, not raw damage.",
-      "The most relevant related routes to check are Best Starter Pokemon in Pokopia, Speed Run Route for Leveling, Water-Type Team Compilation. These pages show where Aquap fits into team plans and farming loops."
+      "Use the Crystal Lake page as the main route reference, then compare related team and recipe pages to decide whether Aquap fits the current farming goal. Bring Golden Fish only after the route is mapped."
     ],
     "team_tips": [
       "Lead slot: use Aquap as lead when support value is the main reason you entered the route.",
@@ -302,7 +302,7 @@
       },
       {
         "question": "Which guides are related to Aquap?",
-        "answer": "Start with Best Starter Pokemon in Pokopia, Speed Run Route for Leveling, Water-Type Team Compilation."
+        "answer": "Start with the Crystal Lake page, then check related recipe and team pages for route timing, food use, and role coverage."
       }
     ],
     "updated_at": "2026-05-23",
@@ -340,7 +340,7 @@
       "Use it to reduce clear time and improve repeated farming loops. Keep one durable partner nearby because speed picks can be punished by hard encounters.",
       "Electric typing helps speed up routes and pressure mobile targets, but it should be backed by durability in hard habitats.",
       "Spark and Quick Attack are what make Zaprat feel quick on repeat routes. Thunder Wave and Discharge matter when you need control over a fast clear, especially in Windmill Plains or electric-focused farming.",
-      "The most relevant related routes to check are Best Habitat for Each Pokemon Type, Speed Run Route for Leveling, Thunder Arena Unlock and Strategy, Electric-Type Speed Demon Build. These pages show where Zaprat fits into team plans and farming loops."
+      "Use the Windmill Plains page as the main route reference, then compare related team and recipe pages to decide whether Zaprat fits the current farming goal. Bring Cheese only after the route is mapped."
     ],
     "team_tips": [
       "Lead slot: use Zaprat as lead when speedster value is the main reason you entered the route.",
@@ -380,7 +380,7 @@
       },
       {
         "question": "Which guides are related to Zaprat?",
-        "answer": "Start with Best Habitat for Each Pokemon Type, Speed Run Route for Leveling, Thunder Arena Unlock and Strategy, Electric-Type Speed Demon Build."
+        "answer": "Start with the Windmill Plains page, then check related recipe and team pages for route timing, food use, and role coverage."
       }
     ],
     "updated_at": "2026-05-23",
@@ -418,7 +418,7 @@
       "Use it for targeted burst, rare checks, or control routes. It works best when you know which encounter needs to be removed quickly.",
       "Grass typing is valuable for beginner stability, sustain, and control. It is often better for repeatable farming than pure burst.",
       "Poison Powder and Toxic give Leafon its control identity, while Sludge Bomb and Razor Leaf decide whether it can finish the target quickly enough. It works best when the fight is planned, not improvised.",
-      "The most relevant related routes to check are Poison-Type Team Analysis, Nightmare Forest Horror Stories. These pages show where Leafon fits into team plans and farming loops."
+      "Use the Forest Valley page as the main route reference, then compare related team and recipe pages to decide whether Leafon fits the current farming goal. Bring Mystery Mushroom only after the route is mapped."
     ],
     "team_tips": [
       "Lead slot: use Leafon as lead when assassin value is the main reason you entered the route.",
@@ -458,7 +458,7 @@
       },
       {
         "question": "Which guides are related to Leafon?",
-        "answer": "Start with Poison-Type Team Analysis, Nightmare Forest Horror Stories."
+        "answer": "Start with the Forest Valley page, then check related recipe and team pages for route timing, food use, and role coverage."
       }
     ],
     "updated_at": "2026-05-23",
@@ -496,7 +496,7 @@
       "Use it in hard habitats and boss routes where survival matters more than speed. Add a damage recipe or attacker so fights do not drag too long.",
       "Fire typing is useful for aggressive clears and routes where damage windows matter. Watch for fights that punish fragile attackers.",
       "Flame Body and Iron Defense are what make Flamexor valuable in hard rooms; Fire Blast is the pressure tool, and Stealth Rock helps when the route has repeated heavy checks. Build around survival first, then add damage.",
-      "The most relevant related routes to check are How to Unlock Volcanic Cave, Best Fire-Type Team Build, How to Get Legendary Pokemon, Complete Recipe List and Effects. These pages show where Flamexor fits into team plans and farming loops."
+      "Use the Volcanic Cave page as the main route reference, then compare related team and recipe pages to decide whether Flamexor fits the current farming goal. Bring Iron Ore only after the route is mapped."
     ],
     "team_tips": [
       "Lead slot: use Flamexor as lead when tank value is the main reason you entered the route.",
@@ -536,7 +536,7 @@
       },
       {
         "question": "Which guides are related to Flamexor?",
-        "answer": "Start with How to Unlock Volcanic Cave, Best Fire-Type Team Build, How to Get Legendary Pokemon, Complete Recipe List and Effects."
+        "answer": "Start with the Volcanic Cave page, then check related recipe and team pages for route timing, food use, and role coverage."
       }
     ],
     "updated_at": "2026-05-23",
@@ -574,7 +574,7 @@
       "Use it to make longer routes safer. Support Pokemon are best when they protect a stronger damage dealer or keep farming loops consistent.",
       "This typing is best judged by route matchup, habitat weather, and the role your team still needs.",
       "Growl and Play Nice are the important parts of Tidlet's kit because they buy time for safer clears. Tackle and Swagger are secondary tools, useful only when they help the Frost Peak loop stay controlled.",
-      "The most relevant related routes to check are Frost Peak Exploration Guide, Best Defense Team Build, Beginner's Guide to Training Grounds. These pages show where Tidlet fits into team plans and farming loops."
+      "Use the Frost Peak page as the main route reference, then compare related team and recipe pages to decide whether Tidlet fits the current farming goal. Save recipe spending until the route is mapped."
     ],
     "team_tips": [
       "Lead slot: use Tidlet as lead when support value is the main reason you entered the route.",
@@ -614,7 +614,7 @@
       },
       {
         "question": "Which guides are related to Tidlet?",
-        "answer": "Start with Frost Peak Exploration Guide, Best Defense Team Build, Beginner's Guide to Training Grounds."
+        "answer": "Start with the Frost Peak page, then check related recipe and team pages for route timing, food use, and role coverage."
       }
     ],
     "updated_at": "2026-05-23",
@@ -652,7 +652,7 @@
       "Use it for targeted burst, rare checks, or control routes. It works best when you know which encounter needs to be removed quickly.",
       "Ghost typing shines in late-game hunting and special route checks. Timing and weather matter more than raw stats.",
       "Shadow Ball is the main pressure tool, while Lick, Astonish, and Night Shade help Shados control specific ghost-route fights. The kit is strongest when you know which encounter needs to be removed quickly.",
-      "The most relevant related routes to check are Fast Farming Guide for Rare Pokemon, Shadow Marsh Complete Guide, Best Habitat for Each Pokemon Type, Ghost-Type Hunting Secrets. These pages show where Shados fits into team plans and farming loops."
+      "Use the Shadow Marsh page as the main route reference, then compare related team and recipe pages to decide whether Shados fits the current farming goal. Bring Soul Dust only after the route is mapped."
     ],
     "team_tips": [
       "Lead slot: use Shados as lead when assassin value is the main reason you entered the route.",
@@ -692,7 +692,7 @@
       },
       {
         "question": "Which guides are related to Shados?",
-        "answer": "Start with Fast Farming Guide for Rare Pokemon, Shadow Marsh Complete Guide, Best Habitat for Each Pokemon Type, Ghost-Type Hunting Secrets."
+        "answer": "Start with the Shadow Marsh page, then check related recipe and team pages for route timing, food use, and role coverage."
       }
     ],
     "updated_at": "2026-05-23",
@@ -730,7 +730,7 @@
       "Use it as the front-line stabilizer. It is strongest when the rest of the team supplies damage or capture utility.",
       "Electric typing helps speed up routes and pressure mobile targets, but it should be backed by durability in hard habitats.",
       "Lock-On and Zap Cannon give Mechabit a deliberate rhythm, while Flash Cannon and Protect make it useful when fights drag. It should make electric routes safer first and faster second.",
-      "The most relevant related routes to check are Best Defense Team Build, Electric-Type Speed Demon Build, Steel-Type Hard-Core Build Guide. These pages show where Mechabit fits into team plans and farming loops."
+      "Use the Windmill Plains page as the main route reference, then compare related team and recipe pages to decide whether Mechabit fits the current farming goal. Bring Battery only after the route is mapped."
     ],
     "team_tips": [
       "Lead slot: use Mechabit as lead when defender value is the main reason you entered the route.",
@@ -770,7 +770,7 @@
       },
       {
         "question": "Which guides are related to Mechabit?",
-        "answer": "Start with Best Defense Team Build, Electric-Type Speed Demon Build, Steel-Type Hard-Core Build Guide."
+        "answer": "Start with the Windmill Plains page, then check related recipe and team pages for route timing, food use, and role coverage."
       }
     ],
     "updated_at": "2026-05-23",
@@ -808,7 +808,7 @@
       "Use it as the front-line stabilizer. It is strongest when the rest of the team supplies damage or capture utility.",
       "Ground typing gives practical coverage and resource value in easy or medium farming loops.",
       "Rock Throw gives Rockler a reliable opener, but Earthquake, Protect, Stealth Rock are what decide whether it can hold the line through Gemstone Canyon. Value the kit by how much it reduces failed runs.",
-      "The most relevant related routes to check are Gemstone Canyon Mining Guide. These pages show where Rockler fits into team plans and farming loops."
+      "Use the Gemstone Canyon page as the main route reference, then compare related team and recipe pages to decide whether Rockler fits the current farming goal. Bring Stone only after the route is mapped."
     ],
     "team_tips": [
       "Lead slot: use Rockler as lead when defender value is the main reason you entered the route.",
@@ -848,7 +848,7 @@
       },
       {
         "question": "Which guides are related to Rockler?",
-        "answer": "Start with Gemstone Canyon Mining Guide."
+        "answer": "Start with the Gemstone Canyon page, then check related recipe and team pages for route timing, food use, and role coverage."
       }
     ],
     "updated_at": "2026-05-26",
@@ -886,7 +886,7 @@
       "Use it when the route needs faster clears or boss pressure. Pair it with a safer backup so one bad matchup does not end the run.",
       "Fairy typing is useful for exploration-heavy routes and special matchups.",
       "Crystal Beam is Crystion's main pressure tool, while Moonblast, Power Gem, Dazzling Gleam should be judged by whether they help Gemstone Canyon clears end cleanly. Build around the fight you are solving, not the biggest number on the skill list.",
-      "The most relevant related routes to check are Gemstone Canyon Mining Guide, Crystal Cave Discovery Guide, Fairy Glen Hidden Secrets. These pages show where Crystion fits into team plans and farming loops."
+      "Use the Gemstone Canyon page as the main route reference, then compare related team and recipe pages to decide whether Crystion fits the current farming goal. Bring Gem only after the route is mapped."
     ],
     "team_tips": [
       "Lead slot: use Crystion as lead when attacker value is the main reason you entered the route.",
@@ -926,7 +926,7 @@
       },
       {
         "question": "Which guides are related to Crystion?",
-        "answer": "Start with Gemstone Canyon Mining Guide, Crystal Cave Discovery Guide, Fairy Glen Hidden Secrets."
+        "answer": "Start with the Gemstone Canyon page, then check related recipe and team pages for route timing, food use, and role coverage."
       }
     ],
     "updated_at": "2026-05-26",
@@ -964,7 +964,7 @@
       "Use it when the route needs faster clears or boss pressure. Pair it with a safer backup so one bad matchup does not end the run.",
       "Fire typing is useful for aggressive clears and routes where damage windows matter. Watch for fights that punish fragile attackers.",
       "Ember is Emberal's main pressure tool, while Fire Punch, Flame Wheel, Fire Spin should be judged by whether they help Volcanic Cave clears end cleanly. Build around the fight you are solving, not the biggest number on the skill list.",
-      "The most relevant related routes to check are Emberal farming routes. These pages show where Emberal fits into team plans and farming loops."
+      "Use the Volcanic Cave page as the main route reference, then compare related team and recipe pages to decide whether Emberal fits the current farming goal. Bring Hot Pepper only after the route is mapped."
     ],
     "team_tips": [
       "Lead slot: use Emberal as lead when attacker value is the main reason you entered the route.",
@@ -1004,7 +1004,7 @@
       },
       {
         "question": "Which guides are related to Emberal?",
-        "answer": "Start with the Volcanic Cave page and the general Pokemon database pages until a dedicated guide is available."
+        "answer": "Start with the Volcanic Cave page, then check related recipe and team pages for route timing, food use, and role coverage."
       }
     ],
     "updated_at": "2026-05-26",
@@ -1042,7 +1042,7 @@
       "Use it to make longer routes safer. Support Pokemon are best when they protect a stronger damage dealer or keep farming loops consistent.",
       "Water typing is strong for safe farming and flexible coverage, especially when the route includes long fights or mixed enemies.",
       "Ice Beam gives Glacior a useful opening action, while Blizzard, Aurora Veil, Hail matter most when they keep Frost Peak runs calm and repeatable. It is strongest when supporting a clearer win condition.",
-      "The most relevant related routes to check are Best Habitat for Each Pokemon Type, Frost Peak Exploration Guide. These pages show where Glacior fits into team plans and farming loops."
+      "Use the Frost Peak page as the main route reference, then compare related team and recipe pages to decide whether Glacior fits the current farming goal. Bring Snowball only after the route is mapped."
     ],
     "team_tips": [
       "Lead slot: use Glacior as lead when support value is the main reason you entered the route.",
@@ -1082,7 +1082,7 @@
       },
       {
         "question": "Which guides are related to Glacior?",
-        "answer": "Start with Best Habitat for Each Pokemon Type, Frost Peak Exploration Guide."
+        "answer": "Start with the Frost Peak page, then check related recipe and team pages for route timing, food use, and role coverage."
       }
     ],
     "updated_at": "2026-05-26",
@@ -1120,7 +1120,7 @@
       "Use it when the route needs faster clears or boss pressure. Pair it with a safer backup so one bad matchup does not end the run.",
       "Electric typing helps speed up routes and pressure mobile targets, but it should be backed by durability in hard habitats.",
       "Thunderbolt is Voltscale's main pressure tool, while Dragon Pulse, Wild Charge, Thunder Wave should be judged by whether they help Windmill Plains clears end cleanly. Build around the fight you are solving, not the biggest number on the skill list.",
-      "The most relevant related routes to check are How to Get Legendary Pokemon, Thunder Arena Unlock and Strategy, Dragon-Type Mastery Guide, Top 10 Most Powerful Pokemon. These pages show where Voltscale fits into team plans and farming loops."
+      "Use the Windmill Plains page as the main route reference, then compare related team and recipe pages to decide whether Voltscale fits the current farming goal. Bring Lightning Bug only after the route is mapped."
     ],
     "team_tips": [
       "Lead slot: use Voltscale as lead when attacker value is the main reason you entered the route.",
@@ -1160,7 +1160,7 @@
       },
       {
         "question": "Which guides are related to Voltscale?",
-        "answer": "Start with How to Get Legendary Pokemon, Thunder Arena Unlock and Strategy, Dragon-Type Mastery Guide, Top 10 Most Powerful Pokemon."
+        "answer": "Start with the Windmill Plains page, then check related recipe and team pages for route timing, food use, and role coverage."
       }
     ],
     "updated_at": "2026-05-26",
@@ -1198,7 +1198,7 @@
       "Use it to reduce clear time and improve repeated farming loops. Keep one durable partner nearby because speed picks can be punished by hard encounters.",
       "Flying typing is best when route mobility or Sky Isles-style encounters matter.",
       "Peck helps Breezel start quickly, while Wing Attack, Quick Attack, Aerial Ace decide whether the speed actually saves time across Sky Isles. Do not count mobility as value unless the route gets shorter.",
-      "The most relevant related routes to check are Sky Isles and Flying-Type Guide. These pages show where Breezel fits into team plans and farming loops."
+      "Use the Sky Isles page as the main route reference, then compare related team and recipe pages to decide whether Breezel fits the current farming goal. Bring Feather only after the route is mapped."
     ],
     "team_tips": [
       "Lead slot: use Breezel as lead when speedster value is the main reason you entered the route.",
@@ -1238,7 +1238,7 @@
       },
       {
         "question": "Which guides are related to Breezel?",
-        "answer": "Start with Sky Isles and Flying-Type Guide."
+        "answer": "Start with the Sky Isles page, then check related recipe and team pages for route timing, food use, and role coverage."
       }
     ],
     "updated_at": "2026-05-26",
@@ -1276,7 +1276,7 @@
       "Use it as the front-line stabilizer. It is strongest when the rest of the team supplies damage or capture utility.",
       "Grass typing is valuable for beginner stability, sustain, and control. It is often better for repeatable farming than pure burst.",
       "Bullet Seed gives Thornvine a reliable opener, but Power Whip, Leech Seed, Protect are what decide whether it can hold the line through Forest Valley. Value the kit by how much it reduces failed runs.",
-      "The most relevant related routes to check are Beginner's Guide to Training Grounds, Best Grass-Type Pick for Every Team. These pages show where Thornvine fits into team plans and farming loops."
+      "Use the Forest Valley page as the main route reference, then compare related team and recipe pages to decide whether Thornvine fits the current farming goal. Bring Berry only after the route is mapped."
     ],
     "team_tips": [
       "Lead slot: use Thornvine as lead when defender value is the main reason you entered the route.",
@@ -1316,7 +1316,7 @@
       },
       {
         "question": "Which guides are related to Thornvine?",
-        "answer": "Start with Beginner's Guide to Training Grounds, Best Grass-Type Pick for Every Team."
+        "answer": "Start with the Forest Valley page, then check related recipe and team pages for route timing, food use, and role coverage."
       }
     ],
     "updated_at": "2026-05-26",
@@ -1354,7 +1354,7 @@
       "Use it when the route needs faster clears or boss pressure. Pair it with a safer backup so one bad matchup does not end the run.",
       "Water typing is strong for safe farming and flexible coverage, especially when the route includes long fights or mixed enemies.",
       "Water Gun is Mudkipz's main pressure tool, while Mud Shot, Earthquake, Protect should be judged by whether they help Muddy River clears end cleanly. Build around the fight you are solving, not the biggest number on the skill list.",
-      "The most relevant related routes to check are Muddy River Habitat Guide, Water-Type Team Compilation. These pages show where Mudkipz fits into team plans and farming loops."
+      "Use the Muddy River page as the main route reference, then compare related team and recipe pages to decide whether Mudkipz fits the current farming goal. Bring Mud Ball only after the route is mapped."
     ],
     "team_tips": [
       "Lead slot: use Mudkipz as lead when attacker value is the main reason you entered the route.",
@@ -1394,7 +1394,7 @@
       },
       {
         "question": "Which guides are related to Mudkipz?",
-        "answer": "Start with Muddy River Habitat Guide, Water-Type Team Compilation."
+        "answer": "Start with the Muddy River page, then check related recipe and team pages for route timing, food use, and role coverage."
       }
     ],
     "updated_at": "2026-05-26",
@@ -1432,7 +1432,7 @@
       "Use it to make longer routes safer. Support Pokemon are best when they protect a stronger damage dealer or keep farming loops consistent.",
       "Steel typing is excellent for defensive teams and hard routes. It often needs a damage partner to avoid slow clears.",
       "Psychic gives Bronzorm a useful opening action, while Flash Cannon, Recover, Iron Defense matter most when they keep Ancient Ruins runs calm and repeatable. It is strongest when supporting a clearer win condition.",
-      "The most relevant related routes to check are Steel-Type Hard-Core Build Guide. These pages show where Bronzorm fits into team plans and farming loops."
+      "Use the Ancient Ruins page as the main route reference, then compare related team and recipe pages to decide whether Bronzorm fits the current farming goal. Bring Coin only after the route is mapped."
     ],
     "team_tips": [
       "Lead slot: use Bronzorm as lead when support value is the main reason you entered the route.",
@@ -1472,7 +1472,7 @@
       },
       {
         "question": "Which guides are related to Bronzorm?",
-        "answer": "Start with Steel-Type Hard-Core Build Guide."
+        "answer": "Start with the Ancient Ruins page, then check related recipe and team pages for route timing, food use, and role coverage."
       }
     ],
     "updated_at": "2026-05-26",
@@ -1510,7 +1510,7 @@
       "Use it when the route needs faster clears or boss pressure. Pair it with a safer backup so one bad matchup does not end the run.",
       "Fire typing is useful for aggressive clears and routes where damage windows matter. Watch for fights that punish fragile attackers.",
       "Fire Spin is Flamingo's main pressure tool, while Hurricane, Flame Charge, Brave Bird should be judged by whether they help Sky Isles clears end cleanly. Build around the fight you are solving, not the biggest number on the skill list.",
-      "The most relevant related routes to check are Sky Isles and Flying-Type Guide. These pages show where Flamingo fits into team plans and farming loops."
+      "Use the Sky Isles page as the main route reference, then compare related team and recipe pages to decide whether Flamingo fits the current farming goal. Bring Hot Seed only after the route is mapped."
     ],
     "team_tips": [
       "Lead slot: use Flamingo as lead when attacker value is the main reason you entered the route.",
@@ -1550,7 +1550,7 @@
       },
       {
         "question": "Which guides are related to Flamingo?",
-        "answer": "Start with Sky Isles and Flying-Type Guide."
+        "answer": "Start with the Sky Isles page, then check related recipe and team pages for route timing, food use, and role coverage."
       }
     ],
     "updated_at": "2026-05-26",
@@ -1588,7 +1588,7 @@
       "Use it for targeted burst, rare checks, or control routes. It works best when you know which encounter needs to be removed quickly.",
       "Water typing is strong for safe farming and flexible coverage, especially when the route includes long fights or mixed enemies.",
       "Crunch is the main pick tool, while Aqua Jet, Knock Off, Ice Fang help Stealthfin control the target long enough to finish the check. Use the kit for planned encounters in Muddy River, not random full clears.",
-      "The most relevant related routes to check are Muddy River Habitat Guide, Water-Type Team Compilation. These pages show where Stealthfin fits into team plans and farming loops."
+      "Use the Muddy River page as the main route reference, then compare related team and recipe pages to decide whether Stealthfin fits the current farming goal. Bring Fish only after the route is mapped."
     ],
     "team_tips": [
       "Lead slot: use Stealthfin as lead when assassin value is the main reason you entered the route.",
@@ -1628,7 +1628,7 @@
       },
       {
         "question": "Which guides are related to Stealthfin?",
-        "answer": "Start with Muddy River Habitat Guide, Water-Type Team Compilation."
+        "answer": "Start with the Muddy River page, then check related recipe and team pages for route timing, food use, and role coverage."
       }
     ],
     "updated_at": "2026-05-26",
@@ -1666,7 +1666,7 @@
       "Use it for targeted burst, rare checks, or control routes. It works best when you know which encounter needs to be removed quickly.",
       "Ghost typing shines in late-game hunting and special route checks. Timing and weather matter more than raw stats.",
       "Ice Beam is the main pick tool, while Shadow Ball, Avalanche, Hypnosis help Frostbite control the target long enough to finish the check. Use the kit for planned encounters in Frost Peak, not random full clears.",
-      "The most relevant related routes to check are Nightmare Forest Horror Stories. These pages show where Frostbite fits into team plans and farming loops."
+      "Use the Frost Peak page as the main route reference, then compare related team and recipe pages to decide whether Frostbite fits the current farming goal. Bring Frozen Soul only after the route is mapped."
     ],
     "team_tips": [
       "Lead slot: use Frostbite as lead when assassin value is the main reason you entered the route.",
@@ -1706,7 +1706,7 @@
       },
       {
         "question": "Which guides are related to Frostbite?",
-        "answer": "Start with Nightmare Forest Horror Stories."
+        "answer": "Start with the Frost Peak page, then check related recipe and team pages for route timing, food use, and role coverage."
       }
     ],
     "updated_at": "2026-05-26",
@@ -1744,7 +1744,7 @@
       "Use it when the route needs faster clears or boss pressure. Pair it with a safer backup so one bad matchup does not end the run.",
       "Fire typing is useful for aggressive clears and routes where damage windows matter. Watch for fights that punish fragile attackers.",
       "Solar Beam is Sunflora's main pressure tool, while Fire Blast, Weather Ball, Sunny Day should be judged by whether they help Forest Valley clears end cleanly. Build around the fight you are solving, not the biggest number on the skill list.",
-      "The most relevant related routes to check are Best Grass-Type Pick for Every Team. These pages show where Sunflora fits into team plans and farming loops."
+      "Use the Forest Valley page as the main route reference, then compare related team and recipe pages to decide whether Sunflora fits the current farming goal. Bring Sunstone only after the route is mapped."
     ],
     "team_tips": [
       "Lead slot: use Sunflora as lead when attacker value is the main reason you entered the route.",
@@ -1784,7 +1784,7 @@
       },
       {
         "question": "Which guides are related to Sunflora?",
-        "answer": "Start with Best Grass-Type Pick for Every Team."
+        "answer": "Start with the Forest Valley page, then check related recipe and team pages for route timing, food use, and role coverage."
       }
     ],
     "updated_at": "2026-05-26",
@@ -1822,7 +1822,7 @@
       "Use it as the front-line stabilizer. It is strongest when the rest of the team supplies damage or capture utility.",
       "Electric typing helps speed up routes and pressure mobile targets, but it should be backed by durability in hard habitats.",
       "Magnet Bomb gives Magnedex a reliable opener, but Thunderbolt, Volt Switch, Protect are what decide whether it can hold the line through Windmill Plains. Value the kit by how much it reduces failed runs.",
-      "The most relevant related routes to check are Thunder Arena Unlock and Strategy. These pages show where Magnedex fits into team plans and farming loops."
+      "Use the Windmill Plains page as the main route reference, then compare related team and recipe pages to decide whether Magnedex fits the current farming goal. Bring Magnet only after the route is mapped."
     ],
     "team_tips": [
       "Lead slot: use Magnedex as lead when defender value is the main reason you entered the route.",
@@ -1862,7 +1862,7 @@
       },
       {
         "question": "Which guides are related to Magnedex?",
-        "answer": "Start with Thunder Arena Unlock and Strategy."
+        "answer": "Start with the Windmill Plains page, then check related recipe and team pages for route timing, food use, and role coverage."
       }
     ],
     "updated_at": "2026-05-26",
@@ -1900,7 +1900,7 @@
       "Use it to make longer routes safer. Support Pokemon are best when they protect a stronger damage dealer or keep farming loops consistent.",
       "Grass typing is valuable for beginner stability, sustain, and control. It is often better for repeatable farming than pure burst.",
       "Air Slash gives Tropius a useful opening action, while Energy Ball, Roost, Synthesis matter most when they keep Sky Isles runs calm and repeatable. It is strongest when supporting a clearer win condition.",
-      "The most relevant related routes to check are Sky Isles and Flying-Type Guide, Best Grass-Type Pick for Every Team. These pages show where Tropius fits into team plans and farming loops."
+      "Use the Sky Isles page as the main route reference, then compare related team and recipe pages to decide whether Tropius fits the current farming goal. Bring Tropical Fruit only after the route is mapped."
     ],
     "team_tips": [
       "Lead slot: use Tropius as lead when support value is the main reason you entered the route.",
@@ -1940,7 +1940,7 @@
       },
       {
         "question": "Which guides are related to Tropius?",
-        "answer": "Start with Sky Isles and Flying-Type Guide, Best Grass-Type Pick for Every Team."
+        "answer": "Start with the Sky Isles page, then check related recipe and team pages for route timing, food use, and role coverage."
       }
     ],
     "updated_at": "2026-05-26",
@@ -1978,7 +1978,7 @@
       "Use it to make longer routes safer. Support Pokemon are best when they protect a stronger damage dealer or keep farming loops consistent.",
       "This typing is best judged by route matchup, habitat weather, and the role your team still needs.",
       "Playful gives Skittlish a useful opening action, while Body Slam, Cotton Guard, Seismic Toss matter most when they keep Forest Valley runs calm and repeatable. It is strongest when supporting a clearer win condition.",
-      "The most relevant related routes to check are Skittlish farming routes. These pages show where Skittlish fits into team plans and farming loops."
+      "Use the Forest Valley page as the main route reference, then compare related team and recipe pages to decide whether Skittlish fits the current farming goal. Bring Cookie only after the route is mapped."
     ],
     "team_tips": [
       "Lead slot: use Skittlish as lead when support value is the main reason you entered the route.",
@@ -2018,7 +2018,7 @@
       },
       {
         "question": "Which guides are related to Skittlish?",
-        "answer": "Start with the Forest Valley page and the general Pokemon database pages until a dedicated guide is available."
+        "answer": "Start with the Forest Valley page, then check related recipe and team pages for route timing, food use, and role coverage."
       }
     ],
     "updated_at": "2026-05-26",
@@ -2056,7 +2056,7 @@
       "Use it to make longer routes safer. Support Pokemon are best when they protect a stronger damage dealer or keep farming loops consistent.",
       "Water typing is strong for safe farming and flexible coverage, especially when the route includes long fights or mixed enemies.",
       "Moonblast gives Dewdrop a useful opening action, while Aqua Jet, Muddy Water, Charm matter most when they keep Crystal Lake runs calm and repeatable. It is strongest when supporting a clearer win condition.",
-      "The most relevant related routes to check are Dewdrop farming routes. These pages show where Dewdrop fits into team plans and farming loops."
+      "Use the Crystal Lake page as the main route reference, then compare related team and recipe pages to decide whether Dewdrop fits the current farming goal. Bring Crystal Dew only after the route is mapped."
     ],
     "team_tips": [
       "Lead slot: use Dewdrop as lead when support value is the main reason you entered the route.",
@@ -2096,7 +2096,7 @@
       },
       {
         "question": "Which guides are related to Dewdrop?",
-        "answer": "Start with the Crystal Lake page and the general Pokemon database pages until a dedicated guide is available."
+        "answer": "Start with the Crystal Lake page, then check related recipe and team pages for route timing, food use, and role coverage."
       }
     ],
     "updated_at": "2026-05-26",
@@ -2134,7 +2134,7 @@
       "Use it when the route needs faster clears or boss pressure. Pair it with a safer backup so one bad matchup does not end the run.",
       "Fire typing is useful for aggressive clears and routes where damage windows matter. Watch for fights that punish fragile attackers.",
       "Flamethrower is Magmar's main pressure tool, while Fire Punch, Thunder Punch, Will-O-Wisp should be judged by whether they help Volcanic Cave clears end cleanly. Build around the fight you are solving, not the biggest number on the skill list.",
-      "The most relevant related routes to check are Magmar farming routes. These pages show where Magmar fits into team plans and farming loops."
+      "Use the Volcanic Cave page as the main route reference, then compare related team and recipe pages to decide whether Magmar fits the current farming goal. Bring Magma Stone only after the route is mapped."
     ],
     "team_tips": [
       "Lead slot: use Magmar as lead when attacker value is the main reason you entered the route.",
@@ -2174,7 +2174,7 @@
       },
       {
         "question": "Which guides are related to Magmar?",
-        "answer": "Start with the Volcanic Cave page and the general Pokemon database pages until a dedicated guide is available."
+        "answer": "Start with the Volcanic Cave page, then check related recipe and team pages for route timing, food use, and role coverage."
       }
     ],
     "updated_at": "2026-05-26",
@@ -2212,7 +2212,7 @@
       "Use it when the route needs faster clears or boss pressure. Pair it with a safer backup so one bad matchup does not end the run.",
       "Dragon typing is usually a late-game investment. Save recipe support for boss rooms or legendary windows.",
       "Draco Meteor is Snorizard's main pressure tool, while Icicle Spear, Dragon Dance, Extreme Speed should be judged by whether they help Frost Peak clears end cleanly. Build around the fight you are solving, not the biggest number on the skill list.",
-      "The most relevant related routes to check are Fast Farming Guide for Rare Pokemon, Frost Peak Exploration Guide, Dragon-Type Mastery Guide, How to Unlock Dragon's Den. These pages show where Snorizard fits into team plans and farming loops."
+      "Use the Frost Peak page as the main route reference, then compare related team and recipe pages to decide whether Snorizard fits the current farming goal. Bring Frost Meat only after the route is mapped."
     ],
     "team_tips": [
       "Lead slot: use Snorizard as lead when attacker value is the main reason you entered the route.",
@@ -2252,7 +2252,7 @@
       },
       {
         "question": "Which guides are related to Snorizard?",
-        "answer": "Start with Fast Farming Guide for Rare Pokemon, Frost Peak Exploration Guide, Dragon-Type Mastery Guide, How to Unlock Dragon's Den."
+        "answer": "Start with the Frost Peak page, then check related recipe and team pages for route timing, food use, and role coverage."
       }
     ],
     "updated_at": "2026-05-26",
@@ -2290,7 +2290,7 @@
       "Use it for targeted burst, rare checks, or control routes. It works best when you know which encounter needs to be removed quickly.",
       "Ghost typing shines in late-game hunting and special route checks. Timing and weather matter more than raw stats.",
       "Shadow Claw is the main pick tool, while Phantom Strike, Crunch, Sucker Punch help Shadowclaw control the target long enough to finish the check. Use the kit for planned encounters in Shadow Marsh, not random full clears.",
-      "The most relevant related routes to check are Fast Farming Guide for Rare Pokemon, Shadow Marsh Complete Guide, How to Get Legendary Pokemon, Top 10 Most Powerful Pokemon. These pages show where Shadowclaw fits into team plans and farming loops."
+      "Use the Shadow Marsh page as the main route reference, then compare related team and recipe pages to decide whether Shadowclaw fits the current farming goal. Bring Void Fruit only after the route is mapped."
     ],
     "team_tips": [
       "Lead slot: use Shadowclaw as lead when assassin value is the main reason you entered the route.",
@@ -2330,7 +2330,7 @@
       },
       {
         "question": "Which guides are related to Shadowclaw?",
-        "answer": "Start with Fast Farming Guide for Rare Pokemon, Shadow Marsh Complete Guide, How to Get Legendary Pokemon, Top 10 Most Powerful Pokemon."
+        "answer": "Start with the Shadow Marsh page, then check related recipe and team pages for route timing, food use, and role coverage."
       }
     ],
     "updated_at": "2026-05-26",
@@ -2368,7 +2368,7 @@
       "Use it when the route needs faster clears or boss pressure. Pair it with a safer backup so one bad matchup does not end the run.",
       "Flying typing is best when route mobility or Sky Isles-style encounters matter.",
       "Diamond Storm is Crystalwing's main pressure tool, while Aerial Ace, Crystal Beam, Roost should be judged by whether they help Sky Isles clears end cleanly. Build around the fight you are solving, not the biggest number on the skill list.",
-      "The most relevant related routes to check are Crystal Cave Discovery Guide. These pages show where Crystalwing fits into team plans and farming loops."
+      "Use the Sky Isles page as the main route reference, then compare related team and recipe pages to decide whether Crystalwing fits the current farming goal. Bring Gem Shard only after the route is mapped."
     ],
     "team_tips": [
       "Lead slot: use Crystalwing as lead when attacker value is the main reason you entered the route.",
@@ -2408,7 +2408,7 @@
       },
       {
         "question": "Which guides are related to Crystalwing?",
-        "answer": "Start with Crystal Cave Discovery Guide."
+        "answer": "Start with the Sky Isles page, then check related recipe and team pages for route timing, food use, and role coverage."
       }
     ],
     "updated_at": "2026-05-26",
@@ -2446,7 +2446,7 @@
       "Use it as the front-line stabilizer. It is strongest when the rest of the team supplies damage or capture utility.",
       "Rock typing is practical for mining, canyon, and resource-oriented routes.",
       "Rock Blast gives Thornback a reliable opener, but Bug Bite, Spikes, Protect are what decide whether it can hold the line through Forest Valley. Value the kit by how much it reduces failed runs.",
-      "The most relevant related routes to check are Thornback farming routes. These pages show where Thornback fits into team plans and farming loops."
+      "Use the Forest Valley page as the main route reference, then compare related team and recipe pages to decide whether Thornback fits the current farming goal. Bring Leaf only after the route is mapped."
     ],
     "team_tips": [
       "Lead slot: use Thornback as lead when defender value is the main reason you entered the route.",
@@ -2486,7 +2486,7 @@
       },
       {
         "question": "Which guides are related to Thornback?",
-        "answer": "Start with the Forest Valley page and the general Pokemon database pages until a dedicated guide is available."
+        "answer": "Start with the Forest Valley page, then check related recipe and team pages for route timing, food use, and role coverage."
       }
     ],
     "updated_at": "2026-05-26",
@@ -2524,7 +2524,7 @@
       "Use it for targeted burst, rare checks, or control routes. It works best when you know which encounter needs to be removed quickly.",
       "Fire typing is useful for aggressive clears and routes where damage windows matter. Watch for fights that punish fragile attackers.",
       "Fire Spin is the main pick tool, while Psybeam, Will-O-Wisp, Confuse Ray help Emberfox control the target long enough to finish the check. Use the kit for planned encounters in Volcanic Cave, not random full clears.",
-      "The most relevant related routes to check are Emberfox farming routes. These pages show where Emberfox fits into team plans and farming loops."
+      "Use the Volcanic Cave page as the main route reference, then compare related team and recipe pages to decide whether Emberfox fits the current farming goal. Bring Hot Pepper only after the route is mapped."
     ],
     "team_tips": [
       "Lead slot: use Emberfox as lead when assassin value is the main reason you entered the route.",
@@ -2564,7 +2564,7 @@
       },
       {
         "question": "Which guides are related to Emberfox?",
-        "answer": "Start with the Volcanic Cave page and the general Pokemon database pages until a dedicated guide is available."
+        "answer": "Start with the Volcanic Cave page, then check related recipe and team pages for route timing, food use, and role coverage."
       }
     ],
     "updated_at": "2026-05-26",
@@ -2602,7 +2602,7 @@
       "Use it as the front-line stabilizer. It is strongest when the rest of the team supplies damage or capture utility.",
       "Water typing is strong for safe farming and flexible coverage, especially when the route includes long fights or mixed enemies.",
       "Water Gun gives Aquashell a reliable opener, but Rock Throw, Withdraw, Iron Defense are what decide whether it can hold the line through Crystal Lake. Value the kit by how much it reduces failed runs.",
-      "The most relevant related routes to check are Aquashell farming routes. These pages show where Aquashell fits into team plans and farming loops."
+      "Use the Crystal Lake page as the main route reference, then compare related team and recipe pages to decide whether Aquashell fits the current farming goal. Bring Pearl only after the route is mapped."
     ],
     "team_tips": [
       "Lead slot: use Aquashell as lead when defender value is the main reason you entered the route.",
@@ -2642,7 +2642,7 @@
       },
       {
         "question": "Which guides are related to Aquashell?",
-        "answer": "Start with the Crystal Lake page and the general Pokemon database pages until a dedicated guide is available."
+        "answer": "Start with the Crystal Lake page, then check related recipe and team pages for route timing, food use, and role coverage."
       }
     ],
     "updated_at": "2026-05-26",
@@ -2680,7 +2680,7 @@
       "Use it to reduce clear time and improve repeated farming loops. Keep one durable partner nearby because speed picks can be punished by hard encounters.",
       "Electric typing helps speed up routes and pressure mobile targets, but it should be backed by durability in hard habitats.",
       "Spark helps Zapbug start quickly, while Bug Bite, Electroweb, String Shot decide whether the speed actually saves time across Windmill Plains. Do not count mobility as value unless the route gets shorter.",
-      "The most relevant related routes to check are Zapbug farming routes. These pages show where Zapbug fits into team plans and farming loops."
+      "Use the Windmill Plains page as the main route reference, then compare related team and recipe pages to decide whether Zapbug fits the current farming goal. Bring Mushroom only after the route is mapped."
     ],
     "team_tips": [
       "Lead slot: use Zapbug as lead when speedster value is the main reason you entered the route.",
@@ -2720,7 +2720,7 @@
       },
       {
         "question": "Which guides are related to Zapbug?",
-        "answer": "Start with the Windmill Plains page and the general Pokemon database pages until a dedicated guide is available."
+        "answer": "Start with the Windmill Plains page, then check related recipe and team pages for route timing, food use, and role coverage."
       }
     ],
     "updated_at": "2026-05-26",
@@ -2758,7 +2758,7 @@
       "Use it to make longer routes safer. Support Pokemon are best when they protect a stronger damage dealer or keep farming loops consistent.",
       "Grass typing is valuable for beginner stability, sustain, and control. It is often better for repeatable farming than pure burst.",
       "Mega Drain gives Mossling a useful opening action, while Grow, Leech Seed, Synthesis matter most when they keep Forest Valley runs calm and repeatable. It is strongest when supporting a clearer win condition.",
-      "The most relevant related routes to check are Mossling farming routes. These pages show where Mossling fits into team plans and farming loops."
+      "Use the Forest Valley page as the main route reference, then compare related team and recipe pages to decide whether Mossling fits the current farming goal. Bring Leaf only after the route is mapped."
     ],
     "team_tips": [
       "Lead slot: use Mossling as lead when support value is the main reason you entered the route.",
@@ -2798,7 +2798,7 @@
       },
       {
         "question": "Which guides are related to Mossling?",
-        "answer": "Start with the Forest Valley page and the general Pokemon database pages until a dedicated guide is available."
+        "answer": "Start with the Forest Valley page, then check related recipe and team pages for route timing, food use, and role coverage."
       }
     ],
     "updated_at": "2026-05-26",
@@ -2836,7 +2836,7 @@
       "Use it when the route needs faster clears or boss pressure. Pair it with a safer backup so one bad matchup does not end the run.",
       "Steel typing is excellent for defensive teams and hard routes. It often needs a damage partner to avoid slow clears.",
       "Metal Claw is Ironclaw's main pressure tool, while Karate Chop, Iron Defense, Swords Dance should be judged by whether they help Ancient Ruins clears end cleanly. Build around the fight you are solving, not the biggest number on the skill list.",
-      "The most relevant related routes to check are Steel-Type Hard-Core Build Guide. These pages show where Ironclaw fits into team plans and farming loops."
+      "Use the Ancient Ruins page as the main route reference, then compare related team and recipe pages to decide whether Ironclaw fits the current farming goal. Bring Iron Ore only after the route is mapped."
     ],
     "team_tips": [
       "Lead slot: use Ironclaw as lead when attacker value is the main reason you entered the route.",
@@ -2876,7 +2876,7 @@
       },
       {
         "question": "Which guides are related to Ironclaw?",
-        "answer": "Start with Steel-Type Hard-Core Build Guide."
+        "answer": "Start with the Ancient Ruins page, then check related recipe and team pages for route timing, food use, and role coverage."
       }
     ],
     "updated_at": "2026-05-26",
@@ -2914,7 +2914,7 @@
       "Use it to make longer routes safer. Support Pokemon are best when they protect a stronger damage dealer or keep farming loops consistent.",
       "Fairy typing is useful for exploration-heavy routes and special matchups.",
       "Psychic gives Mysticat a useful opening action, while Moonblast, Reflect, Light Screen matter most when they keep Ancient Ruins runs calm and repeatable. It is strongest when supporting a clearer win condition.",
-      "The most relevant related routes to check are Fairy Glen Hidden Secrets. These pages show where Mysticat fits into team plans and farming loops."
+      "Use the Ancient Ruins page as the main route reference, then compare related team and recipe pages to decide whether Mysticat fits the current farming goal. Bring Star Sweet only after the route is mapped."
     ],
     "team_tips": [
       "Lead slot: use Mysticat as lead when support value is the main reason you entered the route.",
@@ -2954,7 +2954,7 @@
       },
       {
         "question": "Which guides are related to Mysticat?",
-        "answer": "Start with Fairy Glen Hidden Secrets."
+        "answer": "Start with the Ancient Ruins page, then check related recipe and team pages for route timing, food use, and role coverage."
       }
     ],
     "updated_at": "2026-05-26",
@@ -2992,7 +2992,7 @@
       "Use it as the front-line stabilizer. It is strongest when the rest of the team supplies damage or capture utility.",
       "Rock typing is practical for mining, canyon, and resource-oriented routes.",
       "Rock Throw gives Boulderchin a reliable opener, but Take Down, Stealth Rock, Bulldoze are what decide whether it can hold the line through Gemstone Canyon. Value the kit by how much it reduces failed runs.",
-      "The most relevant related routes to check are Boulderchin farming routes. These pages show where Boulderchin fits into team plans and farming loops."
+      "Use the Gemstone Canyon page as the main route reference, then compare related team and recipe pages to decide whether Boulderchin fits the current farming goal. Bring Stone only after the route is mapped."
     ],
     "team_tips": [
       "Lead slot: use Boulderchin as lead when defender value is the main reason you entered the route.",
@@ -3032,7 +3032,7 @@
       },
       {
         "question": "Which guides are related to Boulderchin?",
-        "answer": "Start with the Gemstone Canyon page and the general Pokemon database pages until a dedicated guide is available."
+        "answer": "Start with the Gemstone Canyon page, then check related recipe and team pages for route timing, food use, and role coverage."
       }
     ],
     "updated_at": "2026-05-26",
@@ -3070,7 +3070,7 @@
       "Use it to reduce clear time and improve repeated farming loops. Keep one durable partner nearby because speed picks can be punished by hard encounters.",
       "Flying typing is best when route mobility or Sky Isles-style encounters matter.",
       "Gust helps Windlor start quickly, while Air Slash, Quick Attack, Feather Dance decide whether the speed actually saves time across Sky Isles. Do not count mobility as value unless the route gets shorter.",
-      "The most relevant related routes to check are Windlor farming routes. These pages show where Windlor fits into team plans and farming loops."
+      "Use the Sky Isles page as the main route reference, then compare related team and recipe pages to decide whether Windlor fits the current farming goal. Bring Feather only after the route is mapped."
     ],
     "team_tips": [
       "Lead slot: use Windlor as lead when speedster value is the main reason you entered the route.",
@@ -3110,7 +3110,7 @@
       },
       {
         "question": "Which guides are related to Windlor?",
-        "answer": "Start with the Sky Isles page and the general Pokemon database pages until a dedicated guide is available."
+        "answer": "Start with the Sky Isles page, then check related recipe and team pages for route timing, food use, and role coverage."
       }
     ],
     "updated_at": "2026-05-26",
@@ -3148,7 +3148,7 @@
       "Use it for targeted burst, rare checks, or control routes. It works best when you know which encounter needs to be removed quickly.",
       "Water typing is strong for safe farming and flexible coverage, especially when the route includes long fights or mixed enemies.",
       "Sludge Wave is the main pick tool, while Surf, Toxic, Aqua Jet help Toxifin control the target long enough to finish the check. Use the kit for planned encounters in Muddy River, not random full clears.",
-      "The most relevant related routes to check are Poison-Type Team Analysis. These pages show where Toxifin fits into team plans and farming loops."
+      "Use the Muddy River page as the main route reference, then compare related team and recipe pages to decide whether Toxifin fits the current farming goal. Bring Fish only after the route is mapped."
     ],
     "team_tips": [
       "Lead slot: use Toxifin as lead when assassin value is the main reason you entered the route.",
@@ -3188,7 +3188,7 @@
       },
       {
         "question": "Which guides are related to Toxifin?",
-        "answer": "Start with Poison-Type Team Analysis."
+        "answer": "Start with the Muddy River page, then check related recipe and team pages for route timing, food use, and role coverage."
       }
     ],
     "updated_at": "2026-05-26",
@@ -3226,7 +3226,7 @@
       "Use it when the route needs faster clears or boss pressure. Pair it with a safer backup so one bad matchup does not end the run.",
       "Ground typing gives practical coverage and resource value in easy or medium farming loops.",
       "Earthquake is Galebender's main pressure tool, while Bulk Up, Stone Edge, Dynamic Punch should be judged by whether they help Gemstone Canyon clears end cleanly. Build around the fight you are solving, not the biggest number on the skill list.",
-      "The most relevant related routes to check are Galebender farming routes. These pages show where Galebender fits into team plans and farming loops."
+      "Use the Gemstone Canyon page as the main route reference, then compare related team and recipe pages to decide whether Galebender fits the current farming goal. Bring Mystic Root only after the route is mapped."
     ],
     "team_tips": [
       "Lead slot: use Galebender as lead when attacker value is the main reason you entered the route.",
@@ -3266,7 +3266,7 @@
       },
       {
         "question": "Which guides are related to Galebender?",
-        "answer": "Start with the Gemstone Canyon page and the general Pokemon database pages until a dedicated guide is available."
+        "answer": "Start with the Gemstone Canyon page, then check related recipe and team pages for route timing, food use, and role coverage."
       }
     ],
     "updated_at": "2026-05-26",
@@ -3304,7 +3304,7 @@
       "Use it when the route needs faster clears or boss pressure. Pair it with a safer backup so one bad matchup does not end the run.",
       "Fire typing is useful for aggressive clears and routes where damage windows matter. Watch for fights that punish fragile attackers.",
       "Fire Blast is Sunreep's main pressure tool, while Flash Cannon, Morning Sun, Light Metal should be judged by whether they help Volcanic Cave clears end cleanly. Build around the fight you are solving, not the biggest number on the skill list.",
-      "The most relevant related routes to check are Sunreep farming routes. These pages show where Sunreep fits into team plans and farming loops."
+      "Use the Volcanic Cave page as the main route reference, then compare related team and recipe pages to decide whether Sunreep fits the current farming goal. Bring Iron Ore only after the route is mapped."
     ],
     "team_tips": [
       "Lead slot: use Sunreep as lead when attacker value is the main reason you entered the route.",
@@ -3344,7 +3344,7 @@
       },
       {
         "question": "Which guides are related to Sunreep?",
-        "answer": "Start with the Volcanic Cave page and the general Pokemon database pages until a dedicated guide is available."
+        "answer": "Start with the Volcanic Cave page, then check related recipe and team pages for route timing, food use, and role coverage."
       }
     ],
     "updated_at": "2026-05-26",
@@ -3382,7 +3382,7 @@
       "Use it when the route needs faster clears or boss pressure. Pair it with a safer backup so one bad matchup does not end the run.",
       "Fire typing is useful for aggressive clears and routes where damage windows matter. Watch for fights that punish fragile attackers.",
       "Shadow Ball is Lunaflare's main pressure tool, while Fire Blast, Hypnosis, Nightmare should be judged by whether they help Shadow Marsh clears end cleanly. Build around the fight you are solving, not the biggest number on the skill list.",
-      "The most relevant related routes to check are Lunaflare farming routes. These pages show where Lunaflare fits into team plans and farming loops."
+      "Use the Shadow Marsh page as the main route reference, then compare related team and recipe pages to decide whether Lunaflare fits the current farming goal. Bring Soul Dust only after the route is mapped."
     ],
     "team_tips": [
       "Lead slot: use Lunaflare as lead when attacker value is the main reason you entered the route.",
@@ -3422,7 +3422,7 @@
       },
       {
         "question": "Which guides are related to Lunaflare?",
-        "answer": "Start with the Shadow Marsh page and the general Pokemon database pages until a dedicated guide is available."
+        "answer": "Start with the Shadow Marsh page, then check related recipe and team pages for route timing, food use, and role coverage."
       }
     ],
     "updated_at": "2026-05-26",
@@ -3460,7 +3460,7 @@
       "Use it to reduce clear time and improve repeated farming loops. Keep one durable partner nearby because speed picks can be punished by hard encounters.",
       "Electric typing helps speed up routes and pressure mobile targets, but it should be backed by durability in hard habitats.",
       "Thunder helps Stormbird start quickly, while Air Slash, Hurricane, Weather Ball decide whether the speed actually saves time across Sky Isles. Do not count mobility as value unless the route gets shorter.",
-      "The most relevant related routes to check are Stormbird farming routes. These pages show where Stormbird fits into team plans and farming loops."
+      "Use the Sky Isles page as the main route reference, then compare related team and recipe pages to decide whether Stormbird fits the current farming goal. Bring Feather only after the route is mapped."
     ],
     "team_tips": [
       "Lead slot: use Stormbird as lead when speedster value is the main reason you entered the route.",
@@ -3500,7 +3500,7 @@
       },
       {
         "question": "Which guides are related to Stormbird?",
-        "answer": "Start with the Sky Isles page and the general Pokemon database pages until a dedicated guide is available."
+        "answer": "Start with the Sky Isles page, then check related recipe and team pages for route timing, food use, and role coverage."
       }
     ],
     "updated_at": "2026-05-26",
@@ -3538,7 +3538,7 @@
       "Use it as the front-line stabilizer. It is strongest when the rest of the team supplies damage or capture utility.",
       "Grass typing is valuable for beginner stability, sustain, and control. It is often better for repeatable farming than pure burst.",
       "Synthesis gives Treemendous a reliable opener, but Body Slam, Wood Hammer, Iron Tail are what decide whether it can hold the line through Forest Valley. Value the kit by how much it reduces failed runs.",
-      "The most relevant related routes to check are Treemendous farming routes. These pages show where Treemendous fits into team plans and farming loops."
+      "Use the Forest Valley page as the main route reference, then compare related team and recipe pages to decide whether Treemendous fits the current farming goal. Bring Berry only after the route is mapped."
     ],
     "team_tips": [
       "Lead slot: use Treemendous as lead when defender value is the main reason you entered the route.",
@@ -3578,7 +3578,7 @@
       },
       {
         "question": "Which guides are related to Treemendous?",
-        "answer": "Start with the Forest Valley page and the general Pokemon database pages until a dedicated guide is available."
+        "answer": "Start with the Forest Valley page, then check related recipe and team pages for route timing, food use, and role coverage."
       }
     ],
     "updated_at": "2026-05-26",
@@ -3616,7 +3616,7 @@
       "Use it to reduce clear time and improve repeated farming loops. Keep one durable partner nearby because speed picks can be punished by hard encounters.",
       "Flying typing is best when route mobility or Sky Isles-style encounters matter.",
       "Quick Attack helps Lightspeed start quickly, while Feint, Baton Pass, Agility decide whether the speed actually saves time across Sky Isles. Do not count mobility as value unless the route gets shorter.",
-      "The most relevant related routes to check are Lightspeed farming routes. These pages show where Lightspeed fits into team plans and farming loops."
+      "Use the Sky Isles page as the main route reference, then compare related team and recipe pages to decide whether Lightspeed fits the current farming goal. Bring Star Sweet only after the route is mapped."
     ],
     "team_tips": [
       "Lead slot: use Lightspeed as lead when speedster value is the main reason you entered the route.",
@@ -3656,7 +3656,7 @@
       },
       {
         "question": "Which guides are related to Lightspeed?",
-        "answer": "Start with the Sky Isles page and the general Pokemon database pages until a dedicated guide is available."
+        "answer": "Start with the Sky Isles page, then check related recipe and team pages for route timing, food use, and role coverage."
       }
     ],
     "updated_at": "2026-05-26",
@@ -3694,7 +3694,7 @@
       "Use it to make longer routes safer. Support Pokemon are best when they protect a stronger damage dealer or keep farming loops consistent.",
       "Poison typing rewards longer fights and control play rather than immediate burst.",
       "Moonblast gives Magicalure a useful opening action, while Sludge Bomb, Toxic Spikes, Aromatherapy matter most when they keep Forest Valley runs calm and repeatable. It is strongest when supporting a clearer win condition.",
-      "The most relevant related routes to check are Fairy Glen Hidden Secrets, Nightmare Forest Horror Stories. These pages show where Magicalure fits into team plans and farming loops."
+      "Use the Forest Valley page as the main route reference, then compare related team and recipe pages to decide whether Magicalure fits the current farming goal. Bring Mystery Mushroom only after the route is mapped."
     ],
     "team_tips": [
       "Lead slot: use Magicalure as lead when support value is the main reason you entered the route.",
@@ -3734,7 +3734,7 @@
       },
       {
         "question": "Which guides are related to Magicalure?",
-        "answer": "Start with Fairy Glen Hidden Secrets, Nightmare Forest Horror Stories."
+        "answer": "Start with the Forest Valley page, then check related recipe and team pages for route timing, food use, and role coverage."
       }
     ],
     "updated_at": "2026-05-26",
@@ -3772,7 +3772,7 @@
       "Use it for targeted burst, rare checks, or control routes. It works best when you know which encounter needs to be removed quickly.",
       "This typing is best judged by route matchup, habitat weather, and the role your team still needs.",
       "Night Slash is the main pick tool, while Foul Play, Sucker Punch, Knock Off help Nightfall control the target long enough to finish the check. Use the kit for planned encounters in Shadow Marsh, not random full clears.",
-      "The most relevant related routes to check are Nightfall farming routes. These pages show where Nightfall fits into team plans and farming loops."
+      "Use the Shadow Marsh page as the main route reference, then compare related team and recipe pages to decide whether Nightfall fits the current farming goal. Bring Void Fruit only after the route is mapped."
     ],
     "team_tips": [
       "Lead slot: use Nightfall as lead when assassin value is the main reason you entered the route.",
@@ -3812,7 +3812,7 @@
       },
       {
         "question": "Which guides are related to Nightfall?",
-        "answer": "Start with the Shadow Marsh page and the general Pokemon database pages until a dedicated guide is available."
+        "answer": "Start with the Shadow Marsh page, then check related recipe and team pages for route timing, food use, and role coverage."
       }
     ],
     "updated_at": "2026-05-26",
@@ -3850,7 +3850,7 @@
       "Use it in hard habitats and boss routes where survival matters more than speed. Add a damage recipe or attacker so fights do not drag too long.",
       "Dragon typing is usually a late-game investment. Save recipe support for boss rooms or legendary windows.",
       "Earthquake gives Primordion its first point of control, while Dragon Tail, Rest, Sleep Talk decide whether it can survive the route long enough to matter. Treat the kit as a stability plan before a damage plan.",
-      "The most relevant related routes to check are How to Unlock Dragon's Den, All 4 Legendary Pokemon Locations, Late-Game Team Planning Guide. These pages show where Primordion fits into team plans and farming loops."
+      "Use the Muddy River page as the main route reference, then compare related team and recipe pages to decide whether Primordion fits the current farming goal. Bring Golden Fish only after the route is mapped."
     ],
     "team_tips": [
       "Lead slot: use Primordion as lead when tank value is the main reason you entered the route.",
@@ -3890,7 +3890,7 @@
       },
       {
         "question": "Which guides are related to Primordion?",
-        "answer": "Start with How to Unlock Dragon's Den, All 4 Legendary Pokemon Locations, Late-Game Team Planning Guide."
+        "answer": "Start with the Muddy River page, then check related recipe and team pages for route timing, food use, and role coverage."
       }
     ],
     "updated_at": "2026-05-26",

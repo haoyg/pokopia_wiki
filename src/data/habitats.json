@@ -187,7 +187,7 @@
       "Recommended build style: Farming.",
       "Best early targets in this habitat: Aquashell (Defender) and Aquap (Support).",
       "Use easy habitats to build consistency. Save rare buffs for catches, not for normal clears.",
-      "If you are hunting the highest-value spawn in the area, keep one durable backup slot instead of running only damage Pokemon.",
+      "Use Crystal Lake to test Aquap, Dewdrop, and Aquashell roles before moving into harder rain routes.",
       "Before spending rare food or recipes, open the linked Pokemon pages and check food, drops, and spawn timing."
     ],
     "farming_route": [
@@ -198,7 +198,7 @@
       "Reset quickly after the important spawn check instead of clearing every branch, unless you also need general resources."
     ],
     "rare_spawns": [
-      "No dedicated rare or legendary target is listed here yet. Use this habitat for resource farming, starter growth, or route testing until new spawn data is added."
+      "Crystal Lake is not a rare-hunt route yet. Treat it as a water-material loop and support-team testing area until stronger spawn data is available."
     ],
     "resource_notes": [
       "+40% Water drops is the main reason to repeat this route. Compare it against the materials your current Pokemon and recipes need.",
@@ -209,7 +209,7 @@
     "common_mistakes": [
       "Entering Crystal Lake without checking Rain weather first.",
       "Using Water Shield before learning the route path and spawn check locations.",
-      "Trying to farm the highest-value spawn in the area before normal encounters are consistent.",
+      "Forcing rare-hunt expectations onto Crystal Lake instead of using it for water drops, support testing, and safer farming practice.",
       "Ignoring +40% Water drops and repeating the route even when it does not support your current build.",
       "Skipping related Pokemon pages, especially food and drop notes for Aquap, Dewdrop, and Aquashell."
     ],
@@ -236,7 +236,7 @@
       }
     ],
     "recommended_recipe": "rec006",
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-05-26",
     "data_status": "Editorial habitat guide",
     "data_status_note": "This habitat page is an editorial route guide built from site database entries and public materials. Unlocks, spawns, and farming routes should be rechecked after patches.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
@@ -770,7 +770,7 @@
       "+45% Metal drops is the main reason to repeat this route. Compare it against the materials your current Pokemon and recipes need.",
       "Common drops from the local Pokemon include Metal Coat, Bronze Medal, Piston, Psy Crystal, and Star Piece.",
       "Favorite foods to prepare for this area include Coin, Iron Ore, and Star Sweet.",
-      "Related guide pages to check: Ancient Ruins farming routes."
+      "Related guide pages to check: Steel-Type Hard-Core Build Guide, Best Defense Team Build, and Late-Game Team Planning Guide."
     ],
     "common_mistakes": [
       "Entering Ancient Ruins without checking Cloudy weather first.",
@@ -802,7 +802,7 @@
       }
     ],
     "recommended_recipe": "rec012",
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-05-26",
     "data_status": "Editorial habitat guide",
     "data_status_note": "This habitat page is an editorial route guide built from site database entries and public materials. Unlocks, spawns, and farming routes should be rechecked after patches.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
@@ -833,7 +833,7 @@
       "Recommended build style: Relaxed Build.",
       "Best early targets in this habitat: Sunflora (Attacker) and Aquap (Support).",
       "Use easy habitats to build consistency. Save rare buffs for catches, not for normal clears.",
-      "If you are hunting the highest-value spawn in the area, keep one durable backup slot instead of running only damage Pokemon.",
+      "Use Sunny Beach to practice Aquap, Sunflora, and Dewdrop loops without committing expensive recipes.",
       "Before spending rare food or recipes, open the linked Pokemon pages and check food, drops, and spawn timing."
     ],
     "farming_route": [
@@ -844,18 +844,18 @@
       "Reset quickly after the important spawn check instead of clearing every branch, unless you also need general resources."
     ],
     "rare_spawns": [
-      "No dedicated rare or legendary target is listed here yet. Use this habitat for resource farming, starter growth, or route testing until new spawn data is added."
+      "Sunny Beach is better for relaxed shell farming than rare hunting. Use it when you need safe resources, support testing, or a low-pressure reset route."
     ],
     "resource_notes": [
       "+30% Shell drops is the main reason to repeat this route. Compare it against the materials your current Pokemon and recipes need.",
       "Common drops from the local Pokemon include Water Stone, Pearl, Sun Stone, Flame Ore, and Star Piece.",
       "Favorite foods to prepare for this area include Golden Fish, Sunstone, and Crystal Dew.",
-      "Related guide pages to check: Sunny Beach farming routes."
+      "Related guide pages to check: Water-Type Team Compilation, Best Grass-Type Pick for Every Team, and Complete Recipe List and Effects."
     ],
     "common_mistakes": [
       "Entering Sunny Beach without checking Sunny weather first.",
       "Using Water Shield before learning the route path and spawn check locations.",
-      "Trying to farm the highest-value spawn in the area before normal encounters are consistent.",
+      "Treating Sunny Beach like a rare-hunt route instead of using it for shell drops, support testing, and relaxed resource loops.",
       "Ignoring +30% Shell drops and repeating the route even when it does not support your current build.",
       "Skipping related Pokemon pages, especially food and drop notes for Aquap, Sunflora, and Dewdrop."
     ],
@@ -882,7 +882,7 @@
       }
     ],
     "recommended_recipe": "rec006",
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-05-26",
     "data_status": "Editorial habitat guide",
     "data_status_note": "This habitat page is an editorial route guide built from site database entries and public materials. Unlocks, spawns, and farming routes should be rechecked after patches.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
@@ -1011,7 +1011,7 @@
       "+65% Dark drops is the main reason to repeat this route. Compare it against the materials your current Pokemon and recipes need.",
       "Common drops from the local Pokemon include Shadow Stone, King's Rock, Ghost Stone, Soul Dust, Legendary Ember, and Dark Gem.",
       "Favorite foods to prepare for this area include Void Fruit and Soul Dust.",
-      "Related guide pages to check: Dark Cavern farming routes."
+      "Related guide pages to check: Ghost-Type Hunting Secrets, How to Get Legendary Pokemon, and Top 10 Most Powerful Pokemon."
     ],
     "common_mistakes": [
       "Entering Dark Cavern without checking Dark weather first.",
@@ -1043,7 +1043,7 @@
       }
     ],
     "recommended_recipe": "rec010",
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-05-26",
     "data_status": "Editorial habitat guide",
     "data_status_note": "This habitat page is an editorial route guide built from site database entries and public materials. Unlocks, spawns, and farming routes should be rechecked after patches.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
@@ -1155,7 +1155,7 @@
       "Recommended build style: Beginner Build.",
       "Best early targets in this habitat: Bulbin (Defender) and Mossling (Support).",
       "Use easy habitats to build consistency. Save rare buffs for catches, not for normal clears.",
-      "If you are hunting the highest-value spawn in the area, keep one durable backup slot instead of running only damage Pokemon.",
+      "Use Meadow Garden to practice Bulbin, Thornvine, Mossling, and Treemendous routes before committing to harder grass checks.",
       "Before spending rare food or recipes, open the linked Pokemon pages and check food, drops, and spawn timing."
     ],
     "farming_route": [
@@ -1166,18 +1166,18 @@
       "Reset quickly after the important spawn check instead of clearing every branch, unless you also need general resources."
     ],
     "rare_spawns": [
-      "No dedicated rare or legendary target is listed here yet. Use this habitat for resource farming, starter growth, or route testing until new spawn data is added."
+      "Meadow Garden is a daily farming route, not a rare-hunt route. Its value is steady Herb drops, safe practice, and low-cost Grass Heal usage."
     ],
     "resource_notes": [
       "+25% Herb drops is the main reason to repeat this route. Compare it against the materials your current Pokemon and recipes need.",
       "Common drops from the local Pokemon include Leaf, Grass Fiber, Thorn, and Oak Log.",
       "Favorite foods to prepare for this area include Leaf and Berry.",
-      "Related guide pages to check: Meadow Garden farming routes."
+      "Related guide pages to check: Best Starter Pokemon in Pokopia, Best Grass-Type Pick for Every Team, and Beginner's Guide to Training Grounds."
     ],
     "common_mistakes": [
       "Entering Meadow Garden without checking Sunny weather first.",
       "Using Grass Heal before learning the route path and spawn check locations.",
-      "Trying to farm the highest-value spawn in the area before normal encounters are consistent.",
+      "Expecting Meadow Garden to produce rare-route value instead of using it for herb drops, starter practice, and low-pressure farming.",
       "Ignoring +25% Herb drops and repeating the route even when it does not support your current build.",
       "Skipping related Pokemon pages, especially food and drop notes for Bulbin, Thornvine, and Mossling."
     ],
@@ -1204,7 +1204,7 @@
       }
     ],
     "recommended_recipe": "rec009",
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-05-26",
     "data_status": "Editorial habitat guide",
     "data_status_note": "This habitat page is an editorial route guide built from site database entries and public materials. Unlocks, spawns, and farming routes should be rechecked after patches.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
@@ -1235,7 +1235,7 @@
       "Recommended build style: Tech Build.",
       "Best early targets in this habitat: Ironclaw (Attacker) and Mechabit (Defender).",
       "Bring one reliable lead and one backup that covers the route weakness. Medium habitats punish sloppy teams more than low levels alone.",
-      "If you are hunting the highest-value spawn in the area, keep one durable backup slot instead of running only damage Pokemon.",
+      "Use Industrial Zone to practice Mechabit, Magnedex, and Ironclaw routing before pushing harder steel or electric checks.",
       "Before spending rare food or recipes, open the linked Pokemon pages and check food, drops, and spawn timing."
     ],
     "farming_route": [
@@ -1246,18 +1246,18 @@
       "Reset quickly after the important spawn check instead of clearing every branch, unless you also need general resources."
     ],
     "rare_spawns": [
-      "No dedicated rare or legendary target is listed here yet. Use this habitat for resource farming, starter growth, or route testing until new spawn data is added."
+      "Industrial Zone is mainly a metal-material route. Treat it as a consistency check for Electric/Steel teams rather than a rare-spawn route."
     ],
     "resource_notes": [
       "+40% Metal drops is the main reason to repeat this route. Compare it against the materials your current Pokemon and recipes need.",
       "Common drops from the local Pokemon include Metal Coat, Piston, Metal Coil, and Magnet.",
       "Favorite foods to prepare for this area include Battery, Magnet, and Iron Ore.",
-      "Related guide pages to check: Steel-Type Hard-Core Build Guide."
+      "Related guide pages to check: Steel-Type Hard-Core Build Guide, Electric-Type Speed Demon Build, and Thunder Arena Unlock and Strategy."
     ],
     "common_mistakes": [
       "Entering Industrial Zone without checking Cloudy weather first.",
       "Using Thunder Strike before learning the route path and spawn check locations.",
-      "Trying to farm the highest-value spawn in the area before normal encounters are consistent.",
+      "Expecting Industrial Zone to behave like a rare-hunt route instead of using it to farm metal drops and test Electric/Steel team stability.",
       "Ignoring +40% Metal drops and repeating the route even when it does not support your current build.",
       "Skipping related Pokemon pages, especially food and drop notes for Mechabit, Magnedex, and Ironclaw."
     ],
@@ -1284,7 +1284,7 @@
       }
     ],
     "recommended_recipe": "rec007",
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-05-26",
     "data_status": "Editorial habitat guide",
     "data_status_note": "This habitat page is an editorial route guide built from site database entries and public materials. Unlocks, spawns, and farming routes should be rechecked after patches.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
@@ -1561,7 +1561,7 @@
       "Recommended build style: Starter Build.",
       "Best early targets in this habitat: Bulbin (Defender) and Tidlet (Support).",
       "Use easy habitats to build consistency. Save rare buffs for catches, not for normal clears.",
-      "If you are hunting the highest-value spawn in the area, keep one durable backup slot instead of running only damage Pokemon.",
+      "Use Training Grounds to compare Bulbin, Tidlet, Thornvine, Skittlish, and Treemendous in a low-risk XP route.",
       "Before spending rare food or recipes, open the linked Pokemon pages and check food, drops, and spawn timing."
     ],
     "farming_route": [
@@ -1572,18 +1572,18 @@
       "Reset quickly after the important spawn check instead of clearing every branch, unless you also need general resources."
     ],
     "rare_spawns": [
-      "No dedicated rare or legendary target is listed here yet. Use this habitat for resource farming, starter growth, or route testing until new spawn data is added."
+      "Training Grounds is for XP, starter testing, and route practice. It is not a rare-hunt route, so judge it by consistency and learning value."
     ],
     "resource_notes": [
       "+30% XP bonus is the main reason to repeat this route. Compare it against the materials your current Pokemon and recipes need.",
       "Common drops from the local Pokemon include Leaf, Grass Fiber, Fur, Cloth, Thorn, and Oak Log.",
       "Favorite foods to prepare for this area include Leaf, Any Food, Berry, and Cookie.",
-      "Related guide pages to check: Beginner's Guide to Training Grounds."
+      "Related guide pages to check: Beginner's Guide to Training Grounds, Best Starter Pokemon in Pokopia, and Best Defense Team Build."
     ],
     "common_mistakes": [
       "Entering Training Grounds without checking Clear weather first.",
       "Using Grass Heal before learning the route path and spawn check locations.",
-      "Trying to farm the highest-value spawn in the area before normal encounters are consistent.",
+      "Judging Training Grounds by rare-hunt value instead of XP efficiency, starter testing, and clean route practice.",
       "Ignoring +30% XP bonus and repeating the route even when it does not support your current build.",
       "Skipping related Pokemon pages, especially food and drop notes for Bulbin, Tidlet, and Thornvine."
     ],
@@ -1610,7 +1610,7 @@
       }
     ],
     "recommended_recipe": "rec009",
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-05-26",
     "data_status": "Editorial habitat guide",
     "data_status_note": "This habitat page is an editorial route guide built from site database entries and public materials. Unlocks, spawns, and farming routes should be rechecked after patches.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
