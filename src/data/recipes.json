@@ -7,66 +7,54 @@
     "effect_duration": "30 min",
     "rarity": "uncommon",
     "best_use": "Rare Pokemon farming",
-    "image_url": "https://www.gematsu.com/wp-content/uploads/2025/11/Pokemon-Pokopia_2025_11-13-25_004-320x180.jpg",
+    "image_url": "https://www.gematsu.com/wp-content/uploads/2025/11/Pokemon-Pokopia_2025_11-13-25_004.jpg",
     "image_alt": "Pokémon Pokopia gameplay screenshot for recipe page: Honey Cake",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Honey Cake is an uncommon Pokopia recipe that gives +20% attraction rate for 30 min. Its main use is Rare Pokemon farming. Because this is an uncommon recipe, it is safe to use once a route is mostly stable, but it should still match the run objective. The best first targets to consider are Bulbin, Aquap, Thornvine, and Sunflora, especially when running Forest Valley, Crystal Lake, and Meadow Garden.",
+    "overview": "Honey Cake is the recipe to craft when the goal is not raw combat power, but cleaner rare Pokemon attempts. Its value comes from making short farming loops feel less random: enter the habitat, check the spawn points that matter, collect the nearby ingredients, and leave before the run turns into a full clear. It is strongest on routes where grass, meadow, or lakeside Pokemon are already part of the plan, because the ingredients and target spawns overlap naturally. Do not treat Honey Cake as a universal luck button. If the habitat is still unfamiliar, scout the map first; if the rare spawn only appears under a specific weather or time condition, save the cake until that condition is active.",
     "ingredient_route": [
-      "Prepare the required ingredients: Honey x3, Flour x2, and Egg x1.",
-      "Check Pokemon and habitat pages for the drops that overlap with these materials before farming blindly.",
-      "If one ingredient is rare, farm that ingredient first and craft only when the full route plan is ready.",
-      "Do not craft multiple copies until you know how many runs fit inside the 30 min duration."
+      "Farm Honey first from meadow or forest-side gathering spots, then pick up Flour on the return path instead of making a separate trip.",
+      "Only craft the cake after confirming the target habitat has the rare Pokemon or material route you want to repeat.",
+      "Pair the finished recipe with compact areas such as Forest Valley, Crystal Lake, Meadow Garden, or late-game nature routes where multiple checks sit close together.",
+      "End the loop once the key spawn checks are done; stretching the run lowers the value of the buff."
     ],
     "best_timing": [
-      "Use Honey Cake when the run objective matches Rare Pokemon farming, not just because the buff is available.",
-      "The best timing is after scouting, right before the boss room, rare check, long farming loop, or difficult habitat section.",
-      "Avoid using it on a first visit to a new area unless the recipe is cheap and the route is low risk.",
-      "+20% attraction rate is strongest when your team can already survive the route and only needs the extra push."
+      "Use it after the route is mapped and the next run has a specific rare Pokemon target.",
+      "Save it for weather, time, or event windows that improve the target spawn instead of spending it during a casual sweep.",
+      "Craft one before a repeated farming session, not before a first visit to a new habitat."
     ],
     "recommended_for": [
-      "Recommended Pokemon: Bulbin, Aquap, Thornvine, Sunflora, Skittlish, and Thornback.",
-      "Recommended habitats: Forest Valley, Crystal Lake, Meadow Garden, and Training Grounds.",
-      "Related guides: Best Starter Pokemon in Pokopia.",
-      "Best when you are farming early catches or improving rare attempts in stable beginner routes."
+      "Players farming Bulbin, Thornvine, Aquap, Sunflora, or other nature-route Pokemon with repeated short checks.",
+      "Rare-material farming where the same gathering nodes are revisited several times in one session.",
+      "Early and mid-game players who need a low-risk recipe that helps progression without forcing boss combat."
     ],
     "alternatives": [
-      "Speed Potion: use when +25% movement speed is more useful than +20% attraction rate.",
-      "Lucky Charm: use when +50% rare spawn chance is more useful than +20% attraction rate.",
-      "Grass Heal: use when +30 HP restore is more useful than +20% attraction rate."
+      "Lucky Charm is better when the target is legendary-tier or event-limited and the route is already optimized.",
+      "Grass Heal is safer when failed runs are caused by chip damage rather than low encounter value.",
+      "Speed Potion can outperform Honey Cake on long routes where movement time is the main bottleneck."
     ],
     "common_mistakes": [
-      "Crafting Honey Cake before deciding which habitat or Pokemon route needs it.",
-      "Using Honey Cake during a scouting run instead of a serious attempt.",
-      "Ignoring the 30 min duration and wasting part of the buff on travel or menu time.",
-      "Using +20% attraction rate when the real problem is team role coverage, weather, or spawn timing.",
-      "Forgetting to check related Pokemon and habitat pages before spending ingredients."
+      "Using Honey Cake before checking whether the rare spawn is active in the current habitat state.",
+      "Turning a short farming loop into a full clear and wasting most of the recipe duration.",
+      "Crafting several cakes at once before knowing whether the route actually produces useful results."
     ],
     "faqs": [
       {
-        "question": "What does Honey Cake do in Pokopia?",
-        "answer": "Honey Cake gives +20% attraction rate for 30 min. It is mainly used for Rare Pokemon farming."
+        "question": "Is Honey Cake worth using for early rare Pokemon farming?",
+        "answer": "Yes, if the target route is short and repeatable. It is less useful during blind exploration because the buff is spent while you are still learning where the important spawn points are."
       },
       {
-        "question": "What ingredients does Honey Cake need?",
-        "answer": "Honey Cake requires Honey x3, Flour x2, and Egg x1. Farm the rarest ingredient first before crafting multiple copies."
+        "question": "Should I use Honey Cake or Lucky Charm?",
+        "answer": "Use Honey Cake for routine rare farming and Lucky Charm for higher-value legendary or event attempts where each run is already planned."
       },
       {
-        "question": "When should I use Honey Cake?",
-        "answer": "Use Honey Cake after the route is scouted and the buff directly supports the objective, such as a boss room, rare check, or repeated farming loop."
-      },
-      {
-        "question": "Which Pokemon work well with Honey Cake?",
-        "answer": "Honey Cake works well with Bulbin, Aquap, Thornvine, Sunflora, Skittlish, and Thornback."
-      },
-      {
-        "question": "Is Honey Cake worth crafting?",
-        "answer": "Honey Cake is worth crafting when +20% attraction rate solves the route problem. If the issue is weather, team level, or wrong habitat choice, fix that first."
+        "question": "What is the best way to avoid wasting Honey Cake?",
+        "answer": "Start the run next to the target habitat, check only the important spawn points, and leave once the checks are finished."
       }
     ],
     "related_pokemon": "pkm002,pkm004,pkm017,pkm023,pkm026,pkm032",
     "related_habitats": "hab002,hab003,hab015,hab020",
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-05-26",
     "data_status": "Editorial recipe reference",
     "data_status_note": "This recipe page is maintained as an editorial reference. Ingredient routes, buff timing, and recommendations may need review after balance changes.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
@@ -80,66 +68,54 @@
     "effect_duration": "1 hour",
     "rarity": "rare",
     "best_use": "Boss battles",
-    "image_url": "https://www.gematsu.com/wp-content/uploads/2025/11/Pokemon-Pokopia_2025_11-13-25_005-320x180.jpg",
+    "image_url": "https://www.gematsu.com/wp-content/uploads/2025/11/Pokemon-Pokopia_2025_11-13-25_005.jpg",
     "image_alt": "Pokémon Pokopia gameplay screenshot for recipe page: Fire Boost",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Fire Boost is a rare Pokopia recipe that gives +30% Fire damage for 1 hour. Its main use is Boss battles. Because this is a rare recipe, use it for serious clears, boss rooms, and repeated farming loops rather than casual scouting. The best first targets to consider are Pikafire, Charmuddy, Flamexor, and Emberal, especially when running Volcanic Cave.",
+    "overview": "Fire Boost is a focused damage recipe for routes where fire-type pressure solves the actual problem. It is most useful when a boss room, elite encounter, or tough habitat section can be shortened by burst damage. In Volcanic Cave and similar fire-heavy routes, it also fits naturally with Pokemon that already benefit from aggressive play. The mistake is using it as a comfort buff on routes where survival, pathing, or resource loss is the real issue. If a run fails before reaching the fight, defensive food will do more. Craft Fire Boost when the path to the target is stable, your team is ready to attack immediately, and the goal is to finish a dangerous encounter before it snowballs.",
     "ingredient_route": [
-      "Prepare the required ingredients: Flame Fruit x5 and Magma Stone x1.",
-      "Check Pokemon and habitat pages for the drops that overlap with these materials before farming blindly.",
-      "If one ingredient is rare, farm that ingredient first and craft only when the full route plan is ready.",
-      "Do not craft multiple copies until you know how many runs fit inside the 1 hour duration."
+      "Collect Flame Fruit during Volcanic Cave runs and save Magma Stone for attempts that include a boss or elite target.",
+      "Scout the path first so the buff starts near the fight instead of at the habitat entrance.",
+      "Bring fire-friendly Pokemon or coverage options that can take advantage of the shorter damage window.",
+      "Craft only one for the target attempt unless you are repeating the same boss route."
     ],
     "best_timing": [
-      "Use Fire Boost when the run objective matches Boss battles, not just because the buff is available.",
-      "The best timing is after scouting, right before the boss room, rare check, long farming loop, or difficult habitat section.",
-      "Avoid using it on a first visit to a new area unless the recipe is cheap and the route is low risk.",
-      "+30% Fire damage is strongest when your team can already survive the route and only needs the extra push."
+      "Use it just before entering the dangerous fight or final room, not at the start of a long walk-in.",
+      "Best after your team already survives the route and only needs more damage to finish cleanly.",
+      "Avoid using it during gathering runs where combat is not the main objective."
     ],
     "recommended_for": [
-      "Recommended Pokemon: Pikafire, Charmuddy, Flamexor, Emberal, Magmar, and Sunreep.",
-      "Recommended habitats: Volcanic Cave.",
-      "Related guides: How to Unlock Volcanic Cave, Best Fire-Type Team Build, Best Habitat for Each Pokemon Type, and Complete Recipe List and Effects.",
-      "Best when a fire team is ready for a boss room, Volcanic Cave push, or serious Flamexor attempt."
+      "Boss attempts in Volcanic Cave and other routes where fire damage has clear value.",
+      "Players running Flamexor, Emberkit, or other fire-leaning Pokemon in an aggressive setup.",
+      "Short combat checks where ending the encounter quickly matters more than long-duration utility."
     ],
     "alternatives": [
-      "Thunder Strike: use when +40% electric damage is more useful than +30% Fire damage.",
-      "Ghost Veil: use when +45% ghost damage is more useful than +30% Fire damage.",
-      "Dragon's Fury: use when +35% dragon damage is more useful than +30% Fire damage."
+      "Guardian Stew is better if the team loses too much health before the boss room.",
+      "Dragon's Fury is the stronger late-game burst option when the materials are available.",
+      "Steel Shell fits routes where the fight is dangerous because of heavy incoming hits rather than low outgoing damage."
     ],
     "common_mistakes": [
-      "Crafting Fire Boost before deciding which habitat or Pokemon route needs it.",
-      "Using Fire Boost during a scouting run instead of a serious attempt.",
-      "Ignoring the 1 hour duration and wasting part of the buff on travel or menu time.",
-      "Using +30% Fire damage when the real problem is team role coverage, weather, or spawn timing.",
-      "Forgetting to check related Pokemon and habitat pages before spending ingredients."
+      "Activating Fire Boost at the habitat entrance and spending the strongest part of the buff on travel.",
+      "Using it to fix a route that is failing because of defense or healing problems.",
+      "Crafting it for every fire habitat visit instead of saving it for real damage checks."
     ],
     "faqs": [
       {
-        "question": "What does Fire Boost do in Pokopia?",
-        "answer": "Fire Boost gives +30% Fire damage for 1 hour. It is mainly used for Boss battles."
-      },
-      {
-        "question": "What ingredients does Fire Boost need?",
-        "answer": "Fire Boost requires Flame Fruit x5 and Magma Stone x1. Farm the rarest ingredient first before crafting multiple copies."
-      },
-      {
         "question": "When should I use Fire Boost?",
-        "answer": "Use Fire Boost after the route is scouted and the buff directly supports the objective, such as a boss room, rare check, or repeated farming loop."
+        "answer": "Use it when the next few minutes include the fight you actually care about. It is a burst tool, not a general exploration recipe."
       },
       {
-        "question": "Which Pokemon work well with Fire Boost?",
-        "answer": "Fire Boost works well with Pikafire, Charmuddy, Flamexor, Emberal, Magmar, and Sunreep."
+        "question": "Is Fire Boost good for farming Volcanic Cave?",
+        "answer": "It is good for combat-focused Volcanic Cave runs. For material-only farming, save the ingredients unless enemies are slowing the route down."
       },
       {
-        "question": "Is Fire Boost worth crafting?",
-        "answer": "Fire Boost is worth crafting when +30% Fire damage solves the route problem. If the issue is weather, team level, or wrong habitat choice, fix that first."
+        "question": "What should I use if Fire Boost does not solve the fight?",
+        "answer": "If damage is still low, consider Dragon's Fury later. If the team dies too quickly, switch to Guardian Stew or Steel Shell instead."
       }
     ],
     "related_pokemon": "pkm001,pkm003,pkm007,pkm013,pkm028,pkm043",
     "related_habitats": "hab001",
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-05-26",
     "data_status": "Editorial recipe reference",
     "data_status_note": "This recipe page is maintained as an editorial reference. Ingredient routes, buff timing, and recommendations may need review after balance changes.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
@@ -153,66 +129,54 @@
     "effect_duration": "45 min",
     "rarity": "uncommon",
     "best_use": "Speed runs",
-    "image_url": "https://www.gematsu.com/wp-content/uploads/2025/11/Pokemon-Pokopia_2025_11-13-25_003-320x180.jpg",
+    "image_url": "https://www.gematsu.com/wp-content/uploads/2025/11/Pokemon-Pokopia_2025_11-13-25_003.jpg",
     "image_alt": "Pokémon Pokopia gameplay screenshot for recipe page: Speed Potion",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Speed Potion is an uncommon Pokopia recipe that gives +25% movement speed for 45 min. Its main use is Speed runs. Because this is an uncommon recipe, it is safe to use once a route is mostly stable, but it should still match the run objective. The best first targets to consider are Zaprat, Mechabit, Voltscale, and Magnedex, especially when running Windmill Plains, Thunder Arena, and Training Grounds.",
+    "overview": "Speed Potion is a route-efficiency recipe. It is not about winning harder; it is about reducing dead time between spawn checks, material nodes, and repeat objectives. This makes it excellent for routes that are already understood, especially electric or open-area paths where the distance between useful points is the main cost. It performs poorly in cramped habitats where enemies, puzzles, or survival checks slow the run more than movement. Before crafting it, walk the route once and mark the points that matter. If you cannot describe the loop in a few steps, the potion will probably be spent while you are still deciding where to go.",
     "ingredient_route": [
-      "Prepare the required ingredients: Windy Herb x4 and Zap Berry x2.",
-      "Check Pokemon and habitat pages for the drops that overlap with these materials before farming blindly.",
-      "If one ingredient is rare, farm that ingredient first and craft only when the full route plan is ready.",
-      "Do not craft multiple copies until you know how many runs fit inside the 45 min duration."
+      "Gather Windy Herb on open paths and pick up Zap Berry while checking electric-route spawns.",
+      "Plan the loop before crafting: start point, first check, second check, exit point.",
+      "Use it on Thunder Arena, Sky Isles, Meadow Garden, or other routes where movement distance is visible and repeatable.",
+      "Keep the run narrow; Speed Potion loses value when you stop to fight every optional enemy."
     ],
     "best_timing": [
-      "Use Speed Potion when the run objective matches Speed runs, not just because the buff is available.",
-      "The best timing is after scouting, right before the boss room, rare check, long farming loop, or difficult habitat section.",
-      "Avoid using it on a first visit to a new area unless the recipe is cheap and the route is low risk.",
-      "+25% movement speed is strongest when your team can already survive the route and only needs the extra push."
+      "Activate it at the start of a known farming loop, not during first-time exploration.",
+      "Best when the next objective is several quick checks rather than one long boss fight.",
+      "Use it after inventory space is cleared so you do not interrupt the route early."
     ],
     "recommended_for": [
-      "Recommended Pokemon: Zaprat, Mechabit, Voltscale, Magnedex, and Zapbug.",
-      "Recommended habitats: Windmill Plains, Thunder Arena, and Training Grounds.",
-      "Related guides: Speed Run Route for Leveling, Electric-Type Speed Demon Build, and Late-Game Team Planning Guide.",
-      "Best for: players deciding whether Speed Potion fits their next route, buff window, or farming target."
+      "Players repeating electric, flying, or meadow routes for spawns and materials.",
+      "Short sessions where faster routing matters more than combat buffs.",
+      "Mid-game farming once the map layout is familiar enough to run without hesitation."
     ],
     "alternatives": [
-      "Honey Cake: use when +20% attraction rate is more useful than +25% movement speed.",
-      "Lucky Charm: use when +50% rare spawn chance is more useful than +25% movement speed.",
-      "Grass Heal: use when +30 HP restore is more useful than +25% movement speed."
+      "Honey Cake is better when the route is short and the main goal is rare spawn quality.",
+      "Thunder Strike is better when the same route is slowed by electric combat checks.",
+      "Grass Heal is safer for relaxed daily farming where mistakes are more common than long travel time."
     ],
     "common_mistakes": [
-      "Crafting Speed Potion before deciding which habitat or Pokemon route needs it.",
-      "Using Speed Potion during a scouting run instead of a serious attempt.",
-      "Ignoring the 45 min duration and wasting part of the buff on travel or menu time.",
-      "Using +25% movement speed when the real problem is team role coverage, weather, or spawn timing.",
-      "Forgetting to check related Pokemon and habitat pages before spending ingredients."
+      "Using Speed Potion before learning the route and losing the benefit to indecision.",
+      "Stopping for side materials that are not part of the planned loop.",
+      "Crafting it for boss fights where damage or defense would matter more."
     ],
     "faqs": [
       {
-        "question": "What does Speed Potion do in Pokopia?",
-        "answer": "Speed Potion gives +25% movement speed for 45 min. It is mainly used for Speed runs."
+        "question": "Is Speed Potion good for speed runs?",
+        "answer": "Yes, but only after the route is practiced. It rewards planning more than improvisation."
       },
       {
-        "question": "What ingredients does Speed Potion need?",
-        "answer": "Speed Potion requires Windy Herb x4 and Zap Berry x2. Farm the rarest ingredient first before crafting multiple copies."
+        "question": "Which routes benefit most from Speed Potion?",
+        "answer": "Open routes with several checks spread apart, such as Thunder Arena, Sky Isles, Meadow Garden, and other repeatable farming paths."
       },
       {
-        "question": "When should I use Speed Potion?",
-        "answer": "Use Speed Potion after the route is scouted and the buff directly supports the objective, such as a boss room, rare check, or repeated farming loop."
-      },
-      {
-        "question": "Which Pokemon work well with Speed Potion?",
-        "answer": "Speed Potion works well with Zaprat, Mechabit, Voltscale, Magnedex, and Zapbug."
-      },
-      {
-        "question": "Is Speed Potion worth crafting?",
-        "answer": "Speed Potion is worth crafting when +25% movement speed solves the route problem. If the issue is weather, team level, or wrong habitat choice, fix that first."
+        "question": "Should beginners craft Speed Potion early?",
+        "answer": "Usually no. Beginners get more value after they know where the important nodes and spawns are."
       }
     ],
     "related_pokemon": "pkm005,pkm010,pkm015,pkm024,pkm035",
     "related_habitats": "hab004,hab012,hab020",
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-05-26",
     "data_status": "Editorial recipe reference",
     "data_status_note": "This recipe page is maintained as an editorial reference. Ingredient routes, buff timing, and recommendations may need review after balance changes.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
@@ -226,66 +190,54 @@
     "effect_duration": "2 hours",
     "rarity": "rare",
     "best_use": "Hard habitats",
-    "image_url": "https://www.gematsu.com/wp-content/uploads/2025/11/Pokemon-Pokopia_2025_11-13-25_001-320x180.jpeg",
+    "image_url": "https://www.gematsu.com/wp-content/uploads/2025/11/Pokemon-Pokopia_2025_11-13-25_001.jpeg",
     "image_alt": "Pokémon Pokopia gameplay screenshot for recipe page: Guardian Stew",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Guardian Stew is a rare Pokopia recipe that gives +40% defense for 2 hours. Its main use is Hard habitats. Because this is a rare recipe, use it for serious clears, boss rooms, and repeated farming loops rather than casual scouting. The best first targets to consider are Bulbin, Tidlet, Mechabit, and Bronzorm, especially when running Frost Peak, Ancient Ruins, and Industrial Zone.",
+    "overview": "Guardian Stew is the recipe to use when a route is almost working but the team keeps running out of health or stability before the objective is complete. It is especially useful in hard habitats with long approach paths, repeated enemy pressure, or late-room mistakes. The recipe does not make slow teams suddenly fast, and it does not replace a better damage plan. Its job is to buy enough margin for a serious attempt. Use it when you already understand the route and can point to the exact section that causes failures. If the problem is only one heavy hit, Steel Shell may be cleaner; if the problem is chip damage over time, Guardian Stew is usually the steadier choice.",
     "ingredient_route": [
-      "Prepare the required ingredients: Iron Root x3, Big Root x2, and Mystery Meat x2.",
-      "Check Pokemon and habitat pages for the drops that overlap with these materials before farming blindly.",
-      "If one ingredient is rare, farm that ingredient first and craft only when the full route plan is ready.",
-      "Do not craft multiple copies until you know how many runs fit inside the 2 hours duration."
+      "Collect Iron Root and Big Root during normal habitat clears so Mystery Meat is the only scarce ingredient you need to plan around.",
+      "Save the stew for routes with multiple danger points instead of spending it on a single easy fight.",
+      "Pair it with Frost Peak, Ancient Ruins, Industrial Factory, or Nightmare Hollow when repeated pressure is the main issue.",
+      "Review the failed section before crafting so the extra defense is used where it matters."
     ],
     "best_timing": [
-      "Use Guardian Stew when the run objective matches Hard habitats, not just because the buff is available.",
-      "The best timing is after scouting, right before the boss room, rare check, long farming loop, or difficult habitat section.",
-      "Avoid using it on a first visit to a new area unless the recipe is cheap and the route is low risk.",
-      "+40% defense is strongest when your team can already survive the route and only needs the extra push."
+      "Use it before entering the first dangerous stretch of a long route.",
+      "Best after a failed attempt shows that survival, not damage, is the limiting factor.",
+      "Avoid using it for casual gathering if the route can already be cleared safely."
     ],
     "recommended_for": [
-      "Recommended Pokemon: Bulbin, Tidlet, Mechabit, Bronzorm, and Ironclaw.",
-      "Recommended habitats: Frost Peak, Ancient Ruins, Industrial Zone, and Nightmare Forest.",
-      "Related guides: check the main guides page for routes that mention Guardian Stew.",
-      "Best for: players deciding whether Guardian Stew fits their next route, buff window, or farming target."
+      "Players pushing hard habitats for the first clean completion.",
+      "Defensive teams that need more time to stabilize before the objective room.",
+      "Routes with steady incoming damage rather than one short burst fight."
     ],
     "alternatives": [
-      "Water Shield: use when +35% water resistance is more useful than +40% defense.",
-      "Ice Armor: use when +50% ice resistance is more useful than +40% defense.",
-      "Steel Shell: use when +60% defense is more useful than +40% defense."
+      "Steel Shell is stronger for short windows with heavy physical pressure.",
+      "Mega Restore is better as emergency insurance during late-game or legendary attempts.",
+      "Grass Heal is cheaper for daily routes that only need light sustain."
     ],
     "common_mistakes": [
-      "Crafting Guardian Stew before deciding which habitat or Pokemon route needs it.",
-      "Using Guardian Stew during a scouting run instead of a serious attempt.",
-      "Ignoring the 2 hours duration and wasting part of the buff on travel or menu time.",
-      "Using +40% defense when the real problem is team role coverage, weather, or spawn timing.",
-      "Forgetting to check related Pokemon and habitat pages before spending ingredients."
+      "Using Guardian Stew when the team actually lacks damage and the fight simply lasts too long.",
+      "Saving it until the run is already unstable instead of using it before the dangerous section.",
+      "Spending rare ingredients on easy habitats that do not need defensive support."
     ],
     "faqs": [
       {
-        "question": "What does Guardian Stew do in Pokopia?",
-        "answer": "Guardian Stew gives +40% defense for 2 hours. It is mainly used for Hard habitats."
+        "question": "Is Guardian Stew better than Steel Shell?",
+        "answer": "Guardian Stew is better for long routes with repeated pressure. Steel Shell is better for a shorter, heavier damage window."
       },
       {
-        "question": "What ingredients does Guardian Stew need?",
-        "answer": "Guardian Stew requires Iron Root x3, Big Root x2, and Mystery Meat x2. Farm the rarest ingredient first before crafting multiple copies."
+        "question": "When should I craft Guardian Stew?",
+        "answer": "Craft it when a route has failed more than once because the team cannot stay healthy through the middle or final section."
       },
       {
-        "question": "When should I use Guardian Stew?",
-        "answer": "Use Guardian Stew after the route is scouted and the buff directly supports the objective, such as a boss room, rare check, or repeated farming loop."
-      },
-      {
-        "question": "Which Pokemon work well with Guardian Stew?",
-        "answer": "Guardian Stew works well with Bulbin, Tidlet, Mechabit, Bronzorm, and Ironclaw."
-      },
-      {
-        "question": "Is Guardian Stew worth crafting?",
-        "answer": "Guardian Stew is worth crafting when +40% defense solves the route problem. If the issue is weather, team level, or wrong habitat choice, fix that first."
+        "question": "Does Guardian Stew help with bosses?",
+        "answer": "It helps if the boss fight is long or punishing. If the boss needs to be defeated quickly, a damage recipe may be better."
       }
     ],
     "related_pokemon": "pkm002,pkm008,pkm010,pkm019,pkm037",
     "related_habitats": "hab005,hab010,hab016,hab017",
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-05-26",
     "data_status": "Editorial recipe reference",
     "data_status_note": "This recipe page is maintained as an editorial reference. Ingredient routes, buff timing, and recommendations may need review after balance changes.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
@@ -299,66 +251,54 @@
     "effect_duration": "1 hour",
     "rarity": "legendary",
     "best_use": "Legendary hunting",
-    "image_url": "https://www.gematsu.com/wp-content/uploads/2025/11/Pokemon-Pokopia_2025_11-13-25_002-320x180.jpg",
+    "image_url": "https://www.gematsu.com/wp-content/uploads/2025/11/Pokemon-Pokopia_2025_11-13-25_002.jpg",
     "image_alt": "Pokémon Pokopia gameplay screenshot for recipe page: Lucky Charm",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Lucky Charm is a legendary Pokopia recipe that gives +50% rare spawn chance for 1 hour. Its main use is Legendary hunting. Because this is a legendary recipe, save it for rare spawns, legendary hunts, or route attempts where the payoff is clearly worth the materials. The best first targets to consider are Flamexor, Voltscale, Shadowclaw, and Primordion, especially when running Volcanic Cave, Shadow Marsh, and Thunder Arena.",
+    "overview": "Lucky Charm is for high-value attempts where each run is built around a rare result. It is stronger than a casual farming buff, but only when the route is already tight. Legendary hunting, event spawn checks, and rare material sessions all benefit from it if you can reach the important checks quickly and repeat them without detours. The recipe is easy to waste because the ingredients feel special and the reward is still chance-based. Treat Lucky Charm as a multiplier on a good process, not as a fix for a messy one. If you cannot repeat the same target route consistently, improve the route before spending the charm.",
     "ingredient_route": [
-      "Prepare the required ingredients: Golden Fish x1, Four Leaf x3, and Star Dust x2.",
-      "Check Pokemon and habitat pages for the drops that overlap with these materials before farming blindly.",
-      "If one ingredient is rare, farm that ingredient first and craft only when the full route plan is ready.",
-      "Do not craft multiple copies until you know how many runs fit inside the 1 hour duration."
+      "Collect Four Leaf and Star Dust during normal exploration, then reserve Golden Fish for a planned legendary or event session.",
+      "Choose one target before crafting; Lucky Charm loses value when the run tries to cover too many unrelated goals.",
+      "Use it on compact legendary checks such as Shadow Marsh, Dragon's Den, Crystal Cave, or other known rare routes.",
+      "Track the number of attempts so you can judge whether the route is worth repeating later."
     ],
     "best_timing": [
-      "Use Lucky Charm when the run objective matches Legendary hunting, not just because the buff is available.",
-      "The best timing is after scouting, right before the boss room, rare check, long farming loop, or difficult habitat section.",
-      "Avoid using it on a first visit to a new area unless the recipe is cheap and the route is low risk.",
-      "+50% rare spawn chance is strongest when your team can already survive the route and only needs the extra push."
+      "Use it only after confirming the target spawn condition, event window, or route state is active.",
+      "Best at the beginning of a short repeated check route.",
+      "Avoid using it during first-time map exploration or long completion runs."
     ],
     "recommended_for": [
-      "Recommended Pokemon: Flamexor, Voltscale, Shadowclaw, Primordion, Crystion, and Crystalwing.",
-      "Recommended habitats: Volcanic Cave, Shadow Marsh, Thunder Arena, Crystal Cave, Dragon's Den, and Fairy Glen.",
-      "Related guides: Fast Farming Guide for Rare Pokemon, How to Get Legendary Pokemon, Complete Recipe List and Effects, Top 10 Most Powerful Pokemon, and All 4 Legendary Pokemon Locations.",
-      "Best when the rare or legendary route is already scouted and you can fit several attempts into one buff window."
+      "Legendary hunting and rare-event Pokemon attempts.",
+      "Players repeating the same high-value route several times in one session.",
+      "Late-game farming where the scarce ingredient cost is justified by the target reward."
     ],
     "alternatives": [
-      "Honey Cake: use when +20% attraction rate is more useful than +50% rare spawn chance.",
-      "Speed Potion: use when +25% movement speed is more useful than +50% rare spawn chance.",
-      "Grass Heal: use when +30 HP restore is more useful than +50% rare spawn chance."
+      "Honey Cake is better for routine rare Pokemon farming with cheaper materials.",
+      "Speed Potion is better if the limiting factor is travel time between checks.",
+      "Mega Restore is better when the rare target route is dangerous enough to risk losing the whole attempt."
     ],
     "common_mistakes": [
-      "Crafting Lucky Charm before deciding which habitat or Pokemon route needs it.",
-      "Using Lucky Charm during a scouting run instead of a serious attempt.",
-      "Ignoring the 1 hour duration and wasting part of the buff on travel or menu time.",
-      "Using +50% rare spawn chance when the real problem is team role coverage, weather, or spawn timing.",
-      "Forgetting to check related Pokemon and habitat pages before spending ingredients."
+      "Using Lucky Charm on a route that has not been practiced.",
+      "Chasing several unrelated targets during one buff window.",
+      "Assuming the charm guarantees a result and burning all rare ingredients in one session."
     ],
     "faqs": [
       {
-        "question": "What does Lucky Charm do in Pokopia?",
-        "answer": "Lucky Charm gives +50% rare spawn chance for 1 hour. It is mainly used for Legendary hunting."
+        "question": "Should I save Lucky Charm for legendary hunting?",
+        "answer": "Yes. It is one of the better uses because the target value is high enough to justify the ingredients."
       },
       {
-        "question": "What ingredients does Lucky Charm need?",
-        "answer": "Lucky Charm requires Golden Fish x1, Four Leaf x3, and Star Dust x2. Farm the rarest ingredient first before crafting multiple copies."
+        "question": "Can Lucky Charm replace route planning?",
+        "answer": "No. It helps a good route produce more value, but it cannot fix slow pathing or inactive spawn conditions."
       },
       {
-        "question": "When should I use Lucky Charm?",
-        "answer": "Use Lucky Charm after the route is scouted and the buff directly supports the objective, such as a boss room, rare check, or repeated farming loop."
-      },
-      {
-        "question": "Which Pokemon work well with Lucky Charm?",
-        "answer": "Lucky Charm works well with Flamexor, Voltscale, Shadowclaw, Primordion, Crystion, and Crystalwing."
-      },
-      {
-        "question": "Is Lucky Charm worth crafting?",
-        "answer": "Lucky Charm is worth crafting when +50% rare spawn chance solves the route problem. If the issue is weather, team level, or wrong habitat choice, fix that first."
+        "question": "How many Lucky Charms should I craft?",
+        "answer": "Craft one for a planned session first. Make more only after the route feels repeatable and the target remains worth farming."
       }
     ],
     "related_pokemon": "pkm007,pkm015,pkm030,pkm050,pkm012,pkm031",
     "related_habitats": "hab001,hab006,hab012,hab014,hab018,hab019",
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-05-26",
     "data_status": "Editorial recipe reference",
     "data_status_note": "This recipe page is maintained as an editorial reference. Ingredient routes, buff timing, and recommendations may need review after balance changes.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
@@ -372,66 +312,54 @@
     "effect_duration": "1.5 hours",
     "rarity": "uncommon",
     "best_use": "Water habitats",
-    "image_url": "https://www.gematsu.com/wp-content/uploads/2025/11/Pokemon-Pokopia_2025_11-13-25_004-320x180.jpg",
+    "image_url": "https://www.gematsu.com/wp-content/uploads/2025/11/Pokemon-Pokopia_2025_11-13-25_004.jpg",
     "image_alt": "Pokémon Pokopia gameplay screenshot for recipe page: Water Shield",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Water Shield is an uncommon Pokopia recipe that gives +35% water resistance for 1.5 hours. Its main use is Water habitats. Because this is an uncommon recipe, it is safe to use once a route is mostly stable, but it should still match the run objective. The best first targets to consider are Aquap, Glacior, Mudkipz, and Stealthfin, especially when running Crystal Lake, Muddy River, and Sunny Beach.",
+    "overview": "Water Shield is a specialist defensive recipe for water-heavy habitats. It is worth crafting when the dangerous part of the route is clearly tied to water damage, wet terrain pressure, or repeated aquatic encounters. Crystal Lake, Coral Reef, and Mudstone River routes can all justify it if the team loses momentum to water threats before reaching the target. It is not a general defensive recipe. If enemies from several types are causing trouble, Guardian Stew is more flexible. The best Water Shield runs are planned around one watery section: enter prepared, clear the hazard cleanly, and leave with the objective instead of extending the route beyond the recipe’s purpose.",
     "ingredient_route": [
-      "Prepare the required ingredients: Crystal Dew x3, Shell x2, and Pearl x1.",
-      "Check Pokemon and habitat pages for the drops that overlap with these materials before farming blindly.",
-      "If one ingredient is rare, farm that ingredient first and craft only when the full route plan is ready.",
-      "Do not craft multiple copies until you know how many runs fit inside the 1.5 hours duration."
+      "Collect Crystal Dew and Shell during water-route scouting before spending Pearl on a serious attempt.",
+      "Confirm the failed section is water-based; do not craft it just because the habitat has water in the name.",
+      "Use it in Crystal Lake, Coral Reef, or Mudstone River when the target path includes repeated aquatic pressure.",
+      "Pair it with Pokemon that can already handle the route objective so the shield supports the plan instead of replacing it."
     ],
     "best_timing": [
-      "Use Water Shield when the run objective matches Water habitats, not just because the buff is available.",
-      "The best timing is after scouting, right before the boss room, rare check, long farming loop, or difficult habitat section.",
-      "Avoid using it on a first visit to a new area unless the recipe is cheap and the route is low risk.",
-      "+35% water resistance is strongest when your team can already survive the route and only needs the extra push."
+      "Activate it before the first water-heavy fight or terrain section.",
+      "Best when the route is known but one watery stretch keeps draining resources.",
+      "Skip it for dry side routes inside the same habitat."
     ],
     "recommended_for": [
-      "Recommended Pokemon: Aquap, Glacior, Mudkipz, Stealthfin, Dewdrop, and Aquashell.",
-      "Recommended habitats: Crystal Lake, Muddy River, and Sunny Beach.",
-      "Related guides: Water-Type Team Compilation.",
-      "Best for: players deciding whether Water Shield fits their next route, buff window, or farming target."
+      "Players farming water habitats for materials, aquatic Pokemon, or route unlocks.",
+      "Teams that can finish the objective if they survive the water section with enough health.",
+      "Mid-game attempts where Pearl is valuable but the route reward is worth protecting."
     ],
     "alternatives": [
-      "Guardian Stew: use when +40% defense is more useful than +35% water resistance.",
-      "Ice Armor: use when +50% ice resistance is more useful than +35% water resistance.",
-      "Steel Shell: use when +60% defense is more useful than +35% water resistance."
+      "Guardian Stew is better for mixed-damage routes.",
+      "Grass Heal is cheaper when only light recovery is needed.",
+      "Muddy Swirl is better if ground damage, not water defense, is the route solution."
     ],
     "common_mistakes": [
-      "Crafting Water Shield before deciding which habitat or Pokemon route needs it.",
-      "Using Water Shield during a scouting run instead of a serious attempt.",
-      "Ignoring the 1.5 hours duration and wasting part of the buff on travel or menu time.",
-      "Using +35% water resistance when the real problem is team role coverage, weather, or spawn timing.",
-      "Forgetting to check related Pokemon and habitat pages before spending ingredients."
+      "Using Water Shield as a generic tank buff outside water-heavy sections.",
+      "Crafting it before confirming Pearl is not needed for a higher-priority recipe.",
+      "Staying in the habitat after the water objective is complete and wasting the remaining duration."
     ],
     "faqs": [
       {
-        "question": "What does Water Shield do in Pokopia?",
-        "answer": "Water Shield gives +35% water resistance for 1.5 hours. It is mainly used for Water habitats."
+        "question": "Where is Water Shield most useful?",
+        "answer": "It is strongest in Crystal Lake, Coral Reef, and Mudstone River when the route’s danger comes from water pressure."
       },
       {
-        "question": "What ingredients does Water Shield need?",
-        "answer": "Water Shield requires Crystal Dew x3, Shell x2, and Pearl x1. Farm the rarest ingredient first before crafting multiple copies."
+        "question": "Is Water Shield better than Guardian Stew?",
+        "answer": "Only when water damage is the specific problem. Guardian Stew is more flexible for mixed habitats."
       },
       {
-        "question": "When should I use Water Shield?",
-        "answer": "Use Water Shield after the route is scouted and the buff directly supports the objective, such as a boss room, rare check, or repeated farming loop."
-      },
-      {
-        "question": "Which Pokemon work well with Water Shield?",
-        "answer": "Water Shield works well with Aquap, Glacior, Mudkipz, Stealthfin, Dewdrop, and Aquashell."
-      },
-      {
-        "question": "Is Water Shield worth crafting?",
-        "answer": "Water Shield is worth crafting when +35% water resistance solves the route problem. If the issue is weather, team level, or wrong habitat choice, fix that first."
+        "question": "Should I craft Water Shield for every water route?",
+        "answer": "No. Use it for serious attempts or farming loops that have already failed because of water hazards."
       }
     ],
     "related_pokemon": "pkm004,pkm014,pkm018,pkm021,pkm027,pkm034",
     "related_habitats": "hab003,hab009,hab011",
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-05-26",
     "data_status": "Editorial recipe reference",
     "data_status_note": "This recipe page is maintained as an editorial reference. Ingredient routes, buff timing, and recommendations may need review after balance changes.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
@@ -445,66 +373,54 @@
     "effect_duration": "45 min",
     "rarity": "rare",
     "best_use": "Electric battles",
-    "image_url": "https://www.gematsu.com/wp-content/uploads/2025/11/Pokemon-Pokopia_2025_11-13-25_005-320x180.jpg",
+    "image_url": "https://www.gematsu.com/wp-content/uploads/2025/11/Pokemon-Pokopia_2025_11-13-25_005.jpg",
     "image_alt": "Pokémon Pokopia gameplay screenshot for recipe page: Thunder Strike",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Thunder Strike is a rare Pokopia recipe that gives +40% electric damage for 45 min. Its main use is Electric battles. Because this is a rare recipe, use it for serious clears, boss rooms, and repeated farming loops rather than casual scouting. The best first targets to consider are Zaprat, Mechabit, Voltscale, and Magnedex, especially when running Windmill Plains and Thunder Arena.",
+    "overview": "Thunder Strike is an offensive recipe for electric battles and fast tempo checks. It shines when the next target can be decided quickly with electric burst, especially in Thunder Arena or routes where Voltscale, Sparkit, Mechabit, and similar Pokemon already fit the plan. The recipe is weaker when a route is slow because of travel, resource management, or unclear objectives. It should be used close to the fight, not at the start of a long habitat run. Think of Thunder Strike as a way to compress a dangerous encounter into a short controlled window. If the team cannot survive long enough to attack, fix defense first.",
     "ingredient_route": [
-      "Prepare the required ingredients: Lightning Bug x5, Battery x3, and Magnet x1.",
-      "Check Pokemon and habitat pages for the drops that overlap with these materials before farming blindly.",
-      "If one ingredient is rare, farm that ingredient first and craft only when the full route plan is ready.",
-      "Do not craft multiple copies until you know how many runs fit inside the 45 min duration."
+      "Gather Lightning Bug while clearing electric spawn paths, then save Battery and Magnet for planned combat attempts.",
+      "Enter Thunder Arena or the target electric route with the fight order already decided.",
+      "Activate the recipe shortly before the elite enemy, boss, or repeated battle check.",
+      "Use Pokemon that can immediately benefit from electric pressure rather than a team built only for gathering."
     ],
     "best_timing": [
-      "Use Thunder Strike when the run objective matches Electric battles, not just because the buff is available.",
-      "The best timing is after scouting, right before the boss room, rare check, long farming loop, or difficult habitat section.",
-      "Avoid using it on a first visit to a new area unless the recipe is cheap and the route is low risk.",
-      "+40% electric damage is strongest when your team can already survive the route and only needs the extra push."
+      "Best right before a compact chain of electric fights.",
+      "Use it when faster damage will prevent the fight from becoming messy.",
+      "Avoid it during open exploration where most of the buff would be spent walking."
     ],
     "recommended_for": [
-      "Recommended Pokemon: Zaprat, Mechabit, Voltscale, Magnedex, and Zapbug.",
-      "Recommended habitats: Windmill Plains and Thunder Arena.",
-      "Related guides: Best Habitat for Each Pokemon Type, Thunder Arena Unlock and Strategy, and Electric-Type Speed Demon Build.",
-      "Best for: players deciding whether Thunder Strike fits their next route, buff window, or farming target."
+      "Electric battle routes in Thunder Arena and Windmill Plateau.",
+      "Players building around Voltscale, Sparkit, Mechabit, or other electric attackers.",
+      "Mid-game damage checks where a short burst matters more than long sustain."
     ],
     "alternatives": [
-      "Fire Boost: use when +30% Fire damage is more useful than +40% electric damage.",
-      "Ghost Veil: use when +45% ghost damage is more useful than +40% electric damage.",
-      "Dragon's Fury: use when +35% dragon damage is more useful than +40% electric damage."
+      "Speed Potion is better when the electric route is limited by travel time rather than combat.",
+      "Guardian Stew is better if the fight is lost because the team cannot stay alive.",
+      "Dragon's Fury is the stronger late-game burst option for premium attempts."
     ],
     "common_mistakes": [
-      "Crafting Thunder Strike before deciding which habitat or Pokemon route needs it.",
-      "Using Thunder Strike during a scouting run instead of a serious attempt.",
-      "Ignoring the 45 min duration and wasting part of the buff on travel or menu time.",
-      "Using +40% electric damage when the real problem is team role coverage, weather, or spawn timing.",
-      "Forgetting to check related Pokemon and habitat pages before spending ingredients."
+      "Using Thunder Strike for a full route clear instead of a specific battle window.",
+      "Crafting it when the team lacks survivability and cannot make use of the extra damage.",
+      "Spending Magnet on low-value fights that could be handled without a recipe."
     ],
     "faqs": [
       {
-        "question": "What does Thunder Strike do in Pokopia?",
-        "answer": "Thunder Strike gives +40% electric damage for 45 min. It is mainly used for Electric battles."
+        "question": "Is Thunder Strike only for electric Pokemon?",
+        "answer": "No, but it works best when the team or route can immediately convert the buff into faster combat."
       },
       {
-        "question": "What ingredients does Thunder Strike need?",
-        "answer": "Thunder Strike requires Lightning Bug x5, Battery x3, and Magnet x1. Farm the rarest ingredient first before crafting multiple copies."
+        "question": "Should I use Thunder Strike or Speed Potion in Thunder Arena?",
+        "answer": "Use Thunder Strike if battles are slowing the route. Use Speed Potion if moving between checks is the real bottleneck."
       },
       {
-        "question": "When should I use Thunder Strike?",
-        "answer": "Use Thunder Strike after the route is scouted and the buff directly supports the objective, such as a boss room, rare check, or repeated farming loop."
-      },
-      {
-        "question": "Which Pokemon work well with Thunder Strike?",
-        "answer": "Thunder Strike works well with Zaprat, Mechabit, Voltscale, Magnedex, and Zapbug."
-      },
-      {
-        "question": "Is Thunder Strike worth crafting?",
-        "answer": "Thunder Strike is worth crafting when +40% electric damage solves the route problem. If the issue is weather, team level, or wrong habitat choice, fix that first."
+        "question": "When should I save Thunder Strike?",
+        "answer": "Save it for elite fights, boss rooms, or repeated combat checks where the ingredient cost produces a clear time or safety gain."
       }
     ],
     "related_pokemon": "pkm005,pkm010,pkm015,pkm024,pkm035",
     "related_habitats": "hab004,hab012",
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-05-26",
     "data_status": "Editorial recipe reference",
     "data_status_note": "This recipe page is maintained as an editorial reference. Ingredient routes, buff timing, and recommendations may need review after balance changes.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
@@ -518,66 +434,54 @@
     "effect_duration": "2 hours",
     "rarity": "rare",
     "best_use": "Frost Peak",
-    "image_url": "https://www.gematsu.com/wp-content/uploads/2025/11/Pokemon-Pokopia_2025_11-13-25_003-320x180.jpg",
+    "image_url": "https://www.gematsu.com/wp-content/uploads/2025/11/Pokemon-Pokopia_2025_11-13-25_003.jpg",
     "image_alt": "Pokémon Pokopia gameplay screenshot for recipe page: Ice Armor",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Ice Armor is a rare Pokopia recipe that gives +50% ice resistance for 2 hours. Its main use is Frost Peak. Because this is a rare recipe, use it for serious clears, boss rooms, and repeated farming loops rather than casual scouting. The best first targets to consider are Tidlet, Glacior, Frostbite, and Snorizard, especially when running Frost Peak and Crystal Cave.",
+    "overview": "Ice Armor is a targeted survival recipe for Frost Peak and other cold routes where the dangerous section is predictable. Its value is highest when frost pressure slowly breaks the run before the final objective. Unlike Guardian Stew, Ice Armor is narrower but more efficient when the route’s main threat is exactly what it protects against. Use it after scouting the climb, cave section, or frozen encounter chain that causes losses. Do not activate it at the entrance if the first half of the route is safe. The best use is to carry the recipe into the hardest frozen stretch with enough time left to finish the objective.",
     "ingredient_route": [
-      "Prepare the required ingredients: Frost Crystal x4, Ice Stone x2, and Snowball x3.",
-      "Check Pokemon and habitat pages for the drops that overlap with these materials before farming blindly.",
-      "If one ingredient is rare, farm that ingredient first and craft only when the full route plan is ready.",
-      "Do not craft multiple copies until you know how many runs fit inside the 2 hours duration."
+      "Farm Frost Crystal and Snowball during low-risk Frost Peak visits before spending Ice Stone on a serious clear.",
+      "Mark the exact frozen section where the run usually starts losing health or tempo.",
+      "Craft Ice Armor when the objective is inside Frost Peak or another cold route, not for general defense.",
+      "Enter the hard section immediately after activation so the recipe covers the part that matters."
     ],
     "best_timing": [
-      "Use Ice Armor when the run objective matches Frost Peak, not just because the buff is available.",
-      "The best timing is after scouting, right before the boss room, rare check, long farming loop, or difficult habitat section.",
-      "Avoid using it on a first visit to a new area unless the recipe is cheap and the route is low risk.",
-      "+50% ice resistance is strongest when your team can already survive the route and only needs the extra push."
+      "Use it just before the climb, cave, or encounter chain that creates frost pressure.",
+      "Best after one scouting run has identified the danger point.",
+      "Avoid using it early if the route has a long safe approach."
     ],
     "recommended_for": [
-      "Recommended Pokemon: Tidlet, Glacior, Frostbite, and Snorizard.",
-      "Recommended habitats: Frost Peak and Crystal Cave.",
-      "Related guides: Best Habitat for Each Pokemon Type and Frost Peak Exploration Guide.",
-      "Best for: players deciding whether Ice Armor fits their next route, buff window, or farming target."
+      "Frost Peak clears, ice-material farming, and cold-route Pokemon attempts.",
+      "Teams that can handle the objective once the frost damage is controlled.",
+      "Players who need a specific defensive answer rather than a broad tank recipe."
     ],
     "alternatives": [
-      "Guardian Stew: use when +40% defense is more useful than +50% ice resistance.",
-      "Water Shield: use when +35% water resistance is more useful than +50% ice resistance.",
-      "Steel Shell: use when +60% defense is more useful than +50% ice resistance."
+      "Guardian Stew is better if the route has mixed threats before and after the frozen section.",
+      "Steel Shell is better for short heavy-hit windows.",
+      "Mega Restore is better for a late-game route where one mistake could ruin a rare attempt."
     ],
     "common_mistakes": [
-      "Crafting Ice Armor before deciding which habitat or Pokemon route needs it.",
-      "Using Ice Armor during a scouting run instead of a serious attempt.",
-      "Ignoring the 2 hours duration and wasting part of the buff on travel or menu time.",
-      "Using +50% ice resistance when the real problem is team role coverage, weather, or spawn timing.",
-      "Forgetting to check related Pokemon and habitat pages before spending ingredients."
+      "Using Ice Armor too early and reaching the dangerous section after the best duration is gone.",
+      "Crafting it for routes where cold damage is only a minor part of the problem.",
+      "Ignoring route cleanup and expecting the recipe to cover avoidable mistakes."
     ],
     "faqs": [
       {
-        "question": "What does Ice Armor do in Pokopia?",
-        "answer": "Ice Armor gives +50% ice resistance for 2 hours. It is mainly used for Frost Peak."
+        "question": "Is Ice Armor required for Frost Peak?",
+        "answer": "Not always. It is most useful when you already know Frost Peak but still lose too much health in the frozen section."
       },
       {
-        "question": "What ingredients does Ice Armor need?",
-        "answer": "Ice Armor requires Frost Crystal x4, Ice Stone x2, and Snowball x3. Farm the rarest ingredient first before crafting multiple copies."
+        "question": "How is Ice Armor different from Guardian Stew?",
+        "answer": "Ice Armor is narrower and should be used for cold-specific pressure. Guardian Stew covers broader hard-route survival."
       },
       {
-        "question": "When should I use Ice Armor?",
-        "answer": "Use Ice Armor after the route is scouted and the buff directly supports the objective, such as a boss room, rare check, or repeated farming loop."
-      },
-      {
-        "question": "Which Pokemon work well with Ice Armor?",
-        "answer": "Ice Armor works well with Tidlet, Glacior, Frostbite, and Snorizard."
-      },
-      {
-        "question": "Is Ice Armor worth crafting?",
-        "answer": "Ice Armor is worth crafting when +50% ice resistance solves the route problem. If the issue is weather, team level, or wrong habitat choice, fix that first."
+        "question": "When should I activate Ice Armor?",
+        "answer": "Activate it immediately before the frost-heavy section, not at the start of a long approach."
       }
     ],
     "related_pokemon": "pkm008,pkm014,pkm022,pkm029",
     "related_habitats": "hab005,hab014",
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-05-26",
     "data_status": "Editorial recipe reference",
     "data_status_note": "This recipe page is maintained as an editorial reference. Ingredient routes, buff timing, and recommendations may need review after balance changes.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
@@ -591,66 +495,54 @@
     "effect_duration": "20 min",
     "rarity": "common",
     "best_use": "Daily farming",
-    "image_url": "https://www.gematsu.com/wp-content/uploads/2025/11/Pokemon-Pokopia_2025_11-13-25_001-320x180.jpeg",
+    "image_url": "https://www.gematsu.com/wp-content/uploads/2025/11/Pokemon-Pokopia_2025_11-13-25_001.jpeg",
     "image_alt": "Pokémon Pokopia gameplay screenshot for recipe page: Grass Heal",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Grass Heal is a common Pokopia recipe that gives +30 HP restore for 20 min. Its main use is Daily farming. Because this is an uncommon recipe, it is safe to use once a route is mostly stable, but it should still match the run objective. The best first targets to consider are Bulbin, Leafon, Thornvine, and Sunflora, especially when running Forest Valley, Meadow Garden, and Training Grounds.",
+    "overview": "Grass Heal is the practical daily recipe: cheap enough to use often, useful enough to prevent small mistakes from ending a farming loop. It is not designed for boss pushing or legendary attempts. Its best role is keeping early and mid-game nature routes comfortable while you collect ingredients, check friendly spawns, and learn efficient paths. Because the materials are common, Grass Heal is also a good training recipe for players who are still learning when food matters. The limit is power. If a route is genuinely hard, Grass Heal will only delay the failure. Use it for low-pressure farming, not for forcing progress through a habitat that needs a stronger defensive plan.",
     "ingredient_route": [
-      "Prepare the required ingredients: Leaf x5, Berry x3, and Sunleaf x2.",
-      "Check Pokemon and habitat pages for the drops that overlap with these materials before farming blindly.",
-      "If one ingredient is rare, farm that ingredient first and craft only when the full route plan is ready.",
-      "Do not craft multiple copies until you know how many runs fit inside the 20 min duration."
+      "Collect Leaf and Berry as part of normal forest or meadow runs, then add Sunleaf when the route already passes through a sunny plant area.",
+      "Craft it before daily farming sessions where minor damage would otherwise force an early return.",
+      "Use it in Forest Valley, Meadow Garden, Training Grounds, or other routes with frequent low-risk gathering.",
+      "Keep one ready for learning new beginner routes, but do not stockpile more than the next session needs."
     ],
     "best_timing": [
-      "Use Grass Heal when the run objective matches Daily farming, not just because the buff is available.",
-      "The best timing is after scouting, right before the boss room, rare check, long farming loop, or difficult habitat section.",
-      "Avoid using it on a first visit to a new area unless the recipe is cheap and the route is low risk.",
-      "+30 HP restore is strongest when your team can already survive the route and only needs the extra push."
+      "Use it at the start of a relaxed gathering loop or before entering a light combat section.",
+      "Best when the objective is steady resource collection rather than a single rare fight.",
+      "Skip it if the route is safe enough without healing or hard enough to require stronger food."
     ],
     "recommended_for": [
-      "Recommended Pokemon: Bulbin, Leafon, Thornvine, Sunflora, Skittlish, and Thornback.",
-      "Recommended habitats: Forest Valley, Meadow Garden, and Training Grounds.",
-      "Related guides: Beginner's Guide to Training Grounds and Best Grass-Type Pick for Every Team.",
-      "Best for: players deciding whether Grass Heal fits their next route, buff window, or farming target."
+      "Daily farming, beginner-friendly routes, and low-risk material collection.",
+      "Players learning route layouts who want room for small mistakes.",
+      "Nature-route Pokemon farming where long sustain is more useful than burst power."
     ],
     "alternatives": [
-      "Honey Cake: use when +20% attraction rate is more useful than +30 HP restore.",
-      "Speed Potion: use when +25% movement speed is more useful than +30 HP restore.",
-      "Lucky Charm: use when +50% rare spawn chance is more useful than +30 HP restore."
+      "Guardian Stew is better for hard habitat progression.",
+      "Honey Cake is better when the goal is rare spawn value rather than sustain.",
+      "Mega Restore is better for late-game emergency protection, though it is too expensive for daily use."
     ],
     "common_mistakes": [
-      "Crafting Grass Heal before deciding which habitat or Pokemon route needs it.",
-      "Using Grass Heal during a scouting run instead of a serious attempt.",
-      "Ignoring the 20 min duration and wasting part of the buff on travel or menu time.",
-      "Using +30 HP restore when the real problem is team role coverage, weather, or spawn timing.",
-      "Forgetting to check related Pokemon and habitat pages before spending ingredients."
+      "Expecting Grass Heal to carry a route that needs real defense or damage.",
+      "Using it when the route is already safe and the ingredients would be better saved.",
+      "Ignoring stronger recipes for late-game attempts because Grass Heal is easy to craft."
     ],
     "faqs": [
       {
-        "question": "What does Grass Heal do in Pokopia?",
-        "answer": "Grass Heal gives +30 HP restore for 20 min. It is mainly used for Daily farming."
+        "question": "Is Grass Heal good for beginners?",
+        "answer": "Yes. It is forgiving, cheap, and useful while learning early routes."
       },
       {
-        "question": "What ingredients does Grass Heal need?",
-        "answer": "Grass Heal requires Leaf x5, Berry x3, and Sunleaf x2. Farm the rarest ingredient first before crafting multiple copies."
+        "question": "Can Grass Heal replace Guardian Stew?",
+        "answer": "No. Grass Heal helps with light sustain, while Guardian Stew is built for hard routes with repeated pressure."
       },
       {
-        "question": "When should I use Grass Heal?",
-        "answer": "Use Grass Heal after the route is scouted and the buff directly supports the objective, such as a boss room, rare check, or repeated farming loop."
-      },
-      {
-        "question": "Which Pokemon work well with Grass Heal?",
-        "answer": "Grass Heal works well with Bulbin, Leafon, Thornvine, Sunflora, Skittlish, and Thornback."
-      },
-      {
-        "question": "Is Grass Heal worth crafting?",
-        "answer": "Grass Heal is worth crafting when +30 HP restore solves the route problem. If the issue is weather, team level, or wrong habitat choice, fix that first."
+        "question": "Where should I use Grass Heal?",
+        "answer": "Use it on daily farming routes such as Forest Valley, Meadow Garden, and other low-risk gathering paths."
       }
     ],
     "related_pokemon": "pkm002,pkm006,pkm017,pkm023,pkm026,pkm032",
     "related_habitats": "hab002,hab015,hab020",
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-05-26",
     "data_status": "Editorial recipe reference",
     "data_status_note": "This recipe page is maintained as an editorial reference. Ingredient routes, buff timing, and recommendations may need review after balance changes.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
@@ -664,66 +556,54 @@
     "effect_duration": "1 hour",
     "rarity": "legendary",
     "best_use": "Shadow Marsh",
-    "image_url": "https://www.gematsu.com/wp-content/uploads/2025/11/Pokemon-Pokopia_2025_11-13-25_002-320x180.jpg",
+    "image_url": "https://www.gematsu.com/wp-content/uploads/2025/11/Pokemon-Pokopia_2025_11-13-25_002.jpg",
     "image_alt": "Pokémon Pokopia gameplay screenshot for recipe page: Ghost Veil",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Ghost Veil is a legendary Pokopia recipe that gives +45% ghost damage for 1 hour. Its main use is Shadow Marsh. Because this is a legendary recipe, save it for rare spawns, legendary hunts, or route attempts where the payoff is clearly worth the materials. The best first targets to consider are Shados, Shadowclaw, Lunaflare, and Nightfall, especially when running Shadow Marsh, Nightmare Forest, and Dark Cavern.",
+    "overview": "Ghost Veil is a route-control recipe for Shadow Marsh, Nightmare Hollow, and other areas where ghost or shadow pressure defines the run. It is most valuable when the objective sits behind a dangerous encounter chain or when ghost-type Pokemon farming requires repeated checks in unsafe terrain. The recipe should be used after the route is understood, because shadow routes often punish wandering. Ghost Veil is not a general luck or stealth solution. If the route is failing because the team gets worn down slowly, a defensive recipe may help more. Use Ghost Veil when the next few minutes involve the specific shadow section that matters.",
     "ingredient_route": [
-      "Prepare the required ingredients: Soul Dust x4, Shadow Stone x2, and Void Fruit x1.",
-      "Check Pokemon and habitat pages for the drops that overlap with these materials before farming blindly.",
-      "If one ingredient is rare, farm that ingredient first and craft only when the full route plan is ready.",
-      "Do not craft multiple copies until you know how many runs fit inside the 1 hour duration."
+      "Gather Soul Dust during shadow-route scouting and save Void Fruit for attempts with a clear target.",
+      "Map the dangerous section of Shadow Marsh or Nightmare Hollow before crafting the recipe.",
+      "Use Ghost Veil for repeated ghost Pokemon checks, shadow material routes, or short dangerous objective pushes.",
+      "Leave the habitat after the target checks are complete rather than stretching the buff into unrelated farming."
     ],
     "best_timing": [
-      "Use Ghost Veil when the run objective matches Shadow Marsh, not just because the buff is available.",
-      "The best timing is after scouting, right before the boss room, rare check, long farming loop, or difficult habitat section.",
-      "Avoid using it on a first visit to a new area unless the recipe is cheap and the route is low risk.",
-      "+45% ghost damage is strongest when your team can already survive the route and only needs the extra push."
+      "Activate it near the shadow section, not at the first safe camp or entrance.",
+      "Best when the route target is a ghost Pokemon, shadow material, or known dangerous room.",
+      "Avoid it during broad exploration where several non-shadow objectives compete for time."
     ],
     "recommended_for": [
-      "Recommended Pokemon: Shados, Shadowclaw, Lunaflare, and Nightfall.",
-      "Recommended habitats: Shadow Marsh, Nightmare Forest, and Dark Cavern.",
-      "Related guides: Shadow Marsh Complete Guide, Best Habitat for Each Pokemon Type, Ghost-Type Hunting Secrets, Poison-Type Team Analysis, and Nightmare Forest Horror Stories.",
-      "Best for: players deciding whether Ghost Veil fits their next route, buff window, or farming target."
+      "Shadow Marsh farming, Nightmare Hollow pushes, and ghost-type Pokemon checks.",
+      "Players who know the route but need cleaner control through the dangerous middle section.",
+      "Focused late-mid-game attempts where Void Fruit is worth spending."
     ],
     "alternatives": [
-      "Fire Boost: use when +30% Fire damage is more useful than +45% ghost damage.",
-      "Thunder Strike: use when +40% electric damage is more useful than +45% ghost damage.",
-      "Dragon's Fury: use when +35% dragon damage is more useful than +45% ghost damage."
+      "Lucky Charm is better for rare ghost or legendary attempts when the route is already safe.",
+      "Guardian Stew is better if the issue is surviving repeated damage over the whole route.",
+      "Speed Potion can help if the shadow checks are far apart and combat is not the problem."
     ],
     "common_mistakes": [
-      "Crafting Ghost Veil before deciding which habitat or Pokemon route needs it.",
-      "Using Ghost Veil during a scouting run instead of a serious attempt.",
-      "Ignoring the 1 hour duration and wasting part of the buff on travel or menu time.",
-      "Using +45% ghost damage when the real problem is team role coverage, weather, or spawn timing.",
-      "Forgetting to check related Pokemon and habitat pages before spending ingredients."
+      "Using Ghost Veil before reaching the part of the route that actually contains ghost pressure.",
+      "Crafting it for mixed habitats where shadow threats are only a small portion of the run.",
+      "Trying to combine too many objectives into one buff window."
     ],
     "faqs": [
       {
-        "question": "What does Ghost Veil do in Pokopia?",
-        "answer": "Ghost Veil gives +45% ghost damage for 1 hour. It is mainly used for Shadow Marsh."
+        "question": "Is Ghost Veil mainly for Shadow Marsh?",
+        "answer": "Shadow Marsh is one of its best uses, but Nightmare Hollow and other shadow-heavy routes can also justify it."
       },
       {
-        "question": "What ingredients does Ghost Veil need?",
-        "answer": "Ghost Veil requires Soul Dust x4, Shadow Stone x2, and Void Fruit x1. Farm the rarest ingredient first before crafting multiple copies."
+        "question": "Should I use Ghost Veil for rare ghost Pokemon?",
+        "answer": "Use it if the route is dangerous. If the route is already safe and only the spawn is rare, Lucky Charm may be better."
       },
       {
-        "question": "When should I use Ghost Veil?",
-        "answer": "Use Ghost Veil after the route is scouted and the buff directly supports the objective, such as a boss room, rare check, or repeated farming loop."
-      },
-      {
-        "question": "Which Pokemon work well with Ghost Veil?",
-        "answer": "Ghost Veil works well with Shados, Shadowclaw, Lunaflare, and Nightfall."
-      },
-      {
-        "question": "Is Ghost Veil worth crafting?",
-        "answer": "Ghost Veil is worth crafting when +45% ghost damage solves the route problem. If the issue is weather, team level, or wrong habitat choice, fix that first."
+        "question": "When should I activate Ghost Veil?",
+        "answer": "Activate it right before the shadow-heavy section or repeated ghost checks you are targeting."
       }
     ],
     "related_pokemon": "pkm009,pkm030,pkm044,pkm049",
     "related_habitats": "hab006,hab017,hab013",
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-05-26",
     "data_status": "Editorial recipe reference",
     "data_status_note": "This recipe page is maintained as an editorial reference. Ingredient routes, buff timing, and recommendations may need review after balance changes.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
@@ -737,66 +617,54 @@
     "effect_duration": "90 min",
     "rarity": "rare",
     "best_use": "Boss fights",
-    "image_url": "https://www.gematsu.com/wp-content/uploads/2025/11/Pokemon-Pokopia_2025_11-13-25_004-320x180.jpg",
+    "image_url": "https://www.gematsu.com/wp-content/uploads/2025/11/Pokemon-Pokopia_2025_11-13-25_004.jpg",
     "image_alt": "Pokémon Pokopia gameplay screenshot for recipe page: Dragon's Fury",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Dragon's Fury is a rare Pokopia recipe that gives +35% dragon damage for 90 min. Its main use is Boss fights. Because this is a rare recipe, use it for serious clears, boss rooms, and repeated farming loops rather than casual scouting. The best first targets to consider are Voltscale, Snorizard, and Primordion, especially when running Thunder Arena and Dragon's Den.",
+    "overview": "Dragon's Fury is a premium damage recipe for serious late-game fights. Its ingredients are expensive, so it should not be used to make routine battles faster. Craft it when a boss, dragon route, or high-value combat check is important enough that ending the fight quickly is worth the cost. The recipe works best with a team that already survives the approach and can immediately convert the burst into pressure. If the team is underleveled or the fight mechanics are unknown, scout first with cheaper food. Dragon's Fury is strongest when it turns a known difficult fight from risky into controlled.",
     "ingredient_route": [
-      "Prepare the required ingredients: Dragon Scale x3, Magma Core x2, and Fire Stone x1.",
-      "Check Pokemon and habitat pages for the drops that overlap with these materials before farming blindly.",
-      "If one ingredient is rare, farm that ingredient first and craft only when the full route plan is ready.",
-      "Do not craft multiple copies until you know how many runs fit inside the 90 min duration."
+      "Reserve Dragon Scale and Magma Core for named boss routes, dragon encounters, or late-game farming sessions.",
+      "Practice the approach without spending the recipe so the final attempt starts cleanly.",
+      "Craft it only when the team is already positioned for the fight and inventory space is prepared.",
+      "Pair it with Dragon's Den, Thunder Arena, or other combat routes where burst damage changes the outcome."
     ],
     "best_timing": [
-      "Use Dragon's Fury when the run objective matches Boss fights, not just because the buff is available.",
-      "The best timing is after scouting, right before the boss room, rare check, long farming loop, or difficult habitat section.",
-      "Avoid using it on a first visit to a new area unless the recipe is cheap and the route is low risk.",
-      "+35% dragon damage is strongest when your team can already survive the route and only needs the extra push."
+      "Use it immediately before the boss or elite encounter.",
+      "Best after learning the fight pattern and confirming that damage is the missing piece.",
+      "Avoid using it for casual farming or first-time scouting."
     ],
     "recommended_for": [
-      "Recommended Pokemon: Voltscale, Snorizard, and Primordion.",
-      "Recommended habitats: Thunder Arena and Dragon's Den.",
-      "Related guides: Dragon-Type Mastery Guide and How to Unlock Dragon's Den.",
-      "Best for: players deciding whether Dragon's Fury fits their next route, buff window, or farming target."
+      "Late-game boss fights and dragon-route damage checks.",
+      "Players running strong attackers who can take advantage of the burst window.",
+      "High-value attempts where saving time and reducing fight length lowers overall risk."
     ],
     "alternatives": [
-      "Fire Boost: use when +30% Fire damage is more useful than +35% dragon damage.",
-      "Thunder Strike: use when +40% electric damage is more useful than +35% dragon damage.",
-      "Ghost Veil: use when +45% ghost damage is more useful than +35% dragon damage."
+      "Fire Boost or Thunder Strike are cheaper if the route only needs type-specific burst.",
+      "Guardian Stew is better if the fight is lost because the team cannot survive long enough.",
+      "Mega Restore is better when one emergency recovery matters more than faster damage."
     ],
     "common_mistakes": [
-      "Crafting Dragon's Fury before deciding which habitat or Pokemon route needs it.",
-      "Using Dragon's Fury during a scouting run instead of a serious attempt.",
-      "Ignoring the 90 min duration and wasting part of the buff on travel or menu time.",
-      "Using +35% dragon damage when the real problem is team role coverage, weather, or spawn timing.",
-      "Forgetting to check related Pokemon and habitat pages before spending ingredients."
+      "Crafting Dragon's Fury before the fight has been scouted.",
+      "Using it on enemies that could be handled with cheaper damage food.",
+      "Activating it too early and spending the burst window on travel or setup."
     ],
     "faqs": [
       {
-        "question": "What does Dragon's Fury do in Pokopia?",
-        "answer": "Dragon's Fury gives +35% dragon damage for 90 min. It is mainly used for Boss fights."
+        "question": "Is Dragon's Fury worth the rare ingredients?",
+        "answer": "Yes, but only for serious late-game fights or routes where burst damage clearly changes the result."
       },
       {
-        "question": "What ingredients does Dragon's Fury need?",
-        "answer": "Dragon's Fury requires Dragon Scale x3, Magma Core x2, and Fire Stone x1. Farm the rarest ingredient first before crafting multiple copies."
+        "question": "Should I use Dragon's Fury before learning a boss?",
+        "answer": "No. Scout the fight first, then use the recipe once the route and timing are understood."
       },
       {
-        "question": "When should I use Dragon's Fury?",
-        "answer": "Use Dragon's Fury after the route is scouted and the buff directly supports the objective, such as a boss room, rare check, or repeated farming loop."
-      },
-      {
-        "question": "Which Pokemon work well with Dragon's Fury?",
-        "answer": "Dragon's Fury works well with Voltscale, Snorizard, and Primordion."
-      },
-      {
-        "question": "Is Dragon's Fury worth crafting?",
-        "answer": "Dragon's Fury is worth crafting when +35% dragon damage solves the route problem. If the issue is weather, team level, or wrong habitat choice, fix that first."
+        "question": "How does Dragon's Fury compare with Fire Boost?",
+        "answer": "Dragon's Fury is the stronger premium option. Fire Boost is cheaper and better for fire-specific mid-game fights."
       }
     ],
     "related_pokemon": "pkm015,pkm029,pkm050",
     "related_habitats": "hab012,hab018",
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-05-26",
     "data_status": "Editorial recipe reference",
     "data_status_note": "This recipe page is maintained as an editorial reference. Ingredient routes, buff timing, and recommendations may need review after balance changes.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
@@ -810,66 +678,54 @@
     "effect_duration": "2 hours",
     "rarity": "rare",
     "best_use": "Tank builds",
-    "image_url": "https://www.gematsu.com/wp-content/uploads/2025/11/Pokemon-Pokopia_2025_11-13-25_005-320x180.jpg",
+    "image_url": "https://www.gematsu.com/wp-content/uploads/2025/11/Pokemon-Pokopia_2025_11-13-25_005.jpg",
     "image_alt": "Pokémon Pokopia gameplay screenshot for recipe page: Steel Shell",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Steel Shell is a rare Pokopia recipe that gives +60% defense for 2 hours. Its main use is Tank builds. Because this is a rare recipe, use it for serious clears, boss rooms, and repeated farming loops rather than casual scouting. The best first targets to consider are Flamexor, Mechabit, Bronzorm, and Ironclaw, especially when running Industrial Zone, Ancient Ruins, and Dragon's Den.",
+    "overview": "Steel Shell is a compact defensive recipe for heavy incoming hits. It is best when one room, boss pattern, or mining route has a short dangerous window that must be survived cleanly. Unlike Guardian Stew, it is not meant to cover an entire long route. Use Steel Shell when the failure point is obvious and intense: a hard-hitting encounter, a narrow industrial path, or a late-game objective where taking one bad hit ruins the attempt. It pairs well with tank builds and steel-friendly Pokemon, but it should not be used as a default exploration buff. If the damage is spread across the whole route, choose a longer sustain recipe instead.",
     "ingredient_route": [
-      "Prepare the required ingredients: Metal Coat x4, Bronze Medal x2, and Iron Ore x3.",
-      "Check Pokemon and habitat pages for the drops that overlap with these materials before farming blindly.",
-      "If one ingredient is rare, farm that ingredient first and craft only when the full route plan is ready.",
-      "Do not craft multiple copies until you know how many runs fit inside the 2 hours duration."
+      "Gather Iron Ore during mining or factory routes and save Metal Coat for attempts with a clear defensive need.",
+      "Identify the short danger window before crafting: boss phase, heavy enemy room, or risky resource node.",
+      "Use it in Industrial Factory, Ancient Ruins, Dragon's Den, or Volcanic Cave when heavy hits are the issue.",
+      "Enter the danger section immediately after activation to keep the strongest protection aligned with the threat."
     ],
     "best_timing": [
-      "Use Steel Shell when the run objective matches Tank builds, not just because the buff is available.",
-      "The best timing is after scouting, right before the boss room, rare check, long farming loop, or difficult habitat section.",
-      "Avoid using it on a first visit to a new area unless the recipe is cheap and the route is low risk.",
-      "+60% defense is strongest when your team can already survive the route and only needs the extra push."
+      "Activate it just before the heavy-hit section.",
+      "Best for short defensive windows rather than long mixed-damage routes.",
+      "Use it after the route is known enough that you can reach the danger point reliably."
     ],
     "recommended_for": [
-      "Recommended Pokemon: Flamexor, Mechabit, Bronzorm, Ironclaw, and Stormbird.",
-      "Recommended habitats: Industrial Zone, Ancient Ruins, Dragon's Den, and Volcanic Cave.",
-      "Related guides: Best Defense Team Build, Gemstone Canyon Mining Guide, Steel-Type Hard-Core Build Guide, and Late-Game Team Planning Guide.",
-      "Best when hard habitats are failing because the team cannot survive the dangerous room."
+      "Tank builds, mining routes, factory clears, and boss phases with heavy damage.",
+      "Players using sturdy Pokemon that benefit from extra defensive margin.",
+      "Late-mid-game attempts where one mistake can cost the run."
     ],
     "alternatives": [
-      "Guardian Stew: use when +40% defense is more useful than +60% defense.",
-      "Water Shield: use when +35% water resistance is more useful than +60% defense.",
-      "Ice Armor: use when +50% ice resistance is more useful than +60% defense."
+      "Guardian Stew is better for long routes with repeated chip damage.",
+      "Ice Armor or Water Shield are better when the threat is specifically cold or water-based.",
+      "Mega Restore is better when an emergency full recovery is more valuable than preemptive defense."
     ],
     "common_mistakes": [
-      "Crafting Steel Shell before deciding which habitat or Pokemon route needs it.",
-      "Using Steel Shell during a scouting run instead of a serious attempt.",
-      "Ignoring the 2 hours duration and wasting part of the buff on travel or menu time.",
-      "Using +60% defense when the real problem is team role coverage, weather, or spawn timing.",
-      "Forgetting to check related Pokemon and habitat pages before spending ingredients."
+      "Using Steel Shell at the start of a route with a long safe approach.",
+      "Choosing it for chip-damage routes that need sustain instead of a short shield.",
+      "Spending Metal Coat on a routine clear that does not need extra defense."
     ],
     "faqs": [
       {
-        "question": "What does Steel Shell do in Pokopia?",
-        "answer": "Steel Shell gives +60% defense for 2 hours. It is mainly used for Tank builds."
+        "question": "Is Steel Shell a tank-build recipe?",
+        "answer": "Yes. It is especially good when a tank build needs to survive a short heavy-pressure section."
       },
       {
-        "question": "What ingredients does Steel Shell need?",
-        "answer": "Steel Shell requires Metal Coat x4, Bronze Medal x2, and Iron Ore x3. Farm the rarest ingredient first before crafting multiple copies."
+        "question": "Should I use Steel Shell or Guardian Stew?",
+        "answer": "Use Steel Shell for short heavy-hit windows. Use Guardian Stew when the whole route applies steady pressure."
       },
       {
-        "question": "When should I use Steel Shell?",
-        "answer": "Use Steel Shell after the route is scouted and the buff directly supports the objective, such as a boss room, rare check, or repeated farming loop."
-      },
-      {
-        "question": "Which Pokemon work well with Steel Shell?",
-        "answer": "Steel Shell works well with Flamexor, Mechabit, Bronzorm, Ironclaw, and Stormbird."
-      },
-      {
-        "question": "Is Steel Shell worth crafting?",
-        "answer": "Steel Shell is worth crafting when +60% defense solves the route problem. If the issue is weather, team level, or wrong habitat choice, fix that first."
+        "question": "Where does Steel Shell work best?",
+        "answer": "Industrial Factory, Ancient Ruins, Dragon's Den, Volcanic Cave, and other routes with clear heavy-damage checkpoints."
       }
     ],
     "related_pokemon": "pkm007,pkm010,pkm019,pkm037,pkm045",
     "related_habitats": "hab016,hab010,hab018,hab001",
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-05-26",
     "data_status": "Editorial recipe reference",
     "data_status_note": "This recipe page is maintained as an editorial reference. Ingredient routes, buff timing, and recommendations may need review after balance changes.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
@@ -883,66 +739,54 @@
     "effect_duration": "1 hour",
     "rarity": "uncommon",
     "best_use": "Sky Isles",
-    "image_url": "https://www.gematsu.com/wp-content/uploads/2025/11/Pokemon-Pokopia_2025_11-13-25_003-320x180.jpg",
+    "image_url": "https://www.gematsu.com/wp-content/uploads/2025/11/Pokemon-Pokopia_2025_11-13-25_003.jpg",
     "image_alt": "Pokémon Pokopia gameplay screenshot for recipe page: Flying High",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Flying High is an uncommon Pokopia recipe that gives +30% flying damage for 1 hour. Its main use is Sky Isles. Because this is an uncommon recipe, it is safe to use once a route is mostly stable, but it should still match the run objective. The best first targets to consider are Breezel, Flamingo, Tropius, and Windlor, especially when running Sky Isles.",
+    "overview": "Flying High supports Sky Isles and other vertical or mobility-heavy routes where aerial pressure matters. It is not just a damage buff; its value comes from making open, elevated routes smoother once the path is already understood. Use it when the objective requires moving between distant platforms, checking flying Pokemon, or clearing a short airborne encounter chain. It is a poor choice for routes where the main issue is survival on the ground. Before crafting, make sure the route has enough flying-value moments to justify the ingredients. A good Flying High run feels fast and direct, with very little time spent fighting unrelated enemies.",
     "ingredient_route": [
-      "Prepare the required ingredients: Feather x5, Wind Essence x2, and Cloudy Wool x3.",
-      "Check Pokemon and habitat pages for the drops that overlap with these materials before farming blindly.",
-      "If one ingredient is rare, farm that ingredient first and craft only when the full route plan is ready.",
-      "Do not craft multiple copies until you know how many runs fit inside the 1 hour duration."
+      "Collect Feather while checking Sky Isles spawns and save Wind Essence for planned aerial routes.",
+      "Map the platform order before crafting so the recipe is spent on movement and flying checks, not route finding.",
+      "Use it when the target Pokemon, material, or objective sits in the upper route rather than near the entrance.",
+      "Exit after the aerial checks are complete instead of dropping into unrelated ground farming."
     ],
     "best_timing": [
-      "Use Flying High when the run objective matches Sky Isles, not just because the buff is available.",
-      "The best timing is after scouting, right before the boss room, rare check, long farming loop, or difficult habitat section.",
-      "Avoid using it on a first visit to a new area unless the recipe is cheap and the route is low risk.",
-      "+30% flying damage is strongest when your team can already survive the route and only needs the extra push."
+      "Activate it right before entering the vertical or open-air section.",
+      "Best when the route includes several flying checks close together.",
+      "Avoid it if the main threat is heavy damage and not movement or aerial combat."
     ],
     "recommended_for": [
-      "Recommended Pokemon: Breezel, Flamingo, Tropius, and Windlor.",
-      "Recommended habitats: Sky Isles.",
-      "Related guides: Sky Isles and Flying-Type Guide.",
-      "Best for: players deciding whether Flying High fits their next route, buff window, or farming target."
+      "Sky Isles farming, flying Pokemon checks, and platform-heavy objective routes.",
+      "Players using Pidgewing, Skyfin, Cloudpuff, or other flying-route Pokemon.",
+      "Route optimization after the layout has already been scouted."
     ],
     "alternatives": [
-      "Fire Boost: use when +30% Fire damage is more useful than +30% flying damage.",
-      "Thunder Strike: use when +40% electric damage is more useful than +30% flying damage.",
-      "Ghost Veil: use when +45% ghost damage is more useful than +30% flying damage."
+      "Speed Potion is better for ground routes with long travel distance.",
+      "Guardian Stew is better if Sky Isles failures come from survival instead of routing.",
+      "Thunder Strike or Fire Boost may be better if the route is actually blocked by a specific combat check."
     ],
     "common_mistakes": [
-      "Crafting Flying High before deciding which habitat or Pokemon route needs it.",
-      "Using Flying High during a scouting run instead of a serious attempt.",
-      "Ignoring the 1 hour duration and wasting part of the buff on travel or menu time.",
-      "Using +30% flying damage when the real problem is team role coverage, weather, or spawn timing.",
-      "Forgetting to check related Pokemon and habitat pages before spending ingredients."
+      "Using Flying High before learning the Sky Isles platform order.",
+      "Spending the recipe on ground-side farming where the flying bonus does little.",
+      "Crafting it for every Sky Isles visit instead of saving it for compact aerial objectives."
     ],
     "faqs": [
       {
-        "question": "What does Flying High do in Pokopia?",
-        "answer": "Flying High gives +30% flying damage for 1 hour. It is mainly used for Sky Isles."
+        "question": "Is Flying High mainly for Sky Isles?",
+        "answer": "Yes. It is strongest there because the route naturally rewards mobility and flying-focused checks."
       },
       {
-        "question": "What ingredients does Flying High need?",
-        "answer": "Flying High requires Feather x5, Wind Essence x2, and Cloudy Wool x3. Farm the rarest ingredient first before crafting multiple copies."
+        "question": "Should I use Flying High for exploration?",
+        "answer": "Only after a quick scout. It performs much better when you already know the platform order."
       },
       {
-        "question": "When should I use Flying High?",
-        "answer": "Use Flying High after the route is scouted and the buff directly supports the objective, such as a boss room, rare check, or repeated farming loop."
-      },
-      {
-        "question": "Which Pokemon work well with Flying High?",
-        "answer": "Flying High works well with Breezel, Flamingo, Tropius, and Windlor."
-      },
-      {
-        "question": "Is Flying High worth crafting?",
-        "answer": "Flying High is worth crafting when +30% flying damage solves the route problem. If the issue is weather, team level, or wrong habitat choice, fix that first."
+        "question": "What should I use if Sky Isles enemies hit too hard?",
+        "answer": "Use Guardian Stew or Steel Shell if survival is the real problem. Flying High is better for movement and aerial pressure."
       }
     ],
     "related_pokemon": "pkm016,pkm020,pkm025,pkm040",
     "related_habitats": "hab008",
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-05-26",
     "data_status": "Editorial recipe reference",
     "data_status_note": "This recipe page is maintained as an editorial reference. Ingredient routes, buff timing, and recommendations may need review after balance changes.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
@@ -956,66 +800,54 @@
     "effect_duration": "45 min",
     "rarity": "uncommon",
     "best_use": "Muddy River",
-    "image_url": "https://www.gematsu.com/wp-content/uploads/2025/11/Pokemon-Pokopia_2025_11-13-25_001-320x180.jpeg",
+    "image_url": "https://www.gematsu.com/wp-content/uploads/2025/11/Pokemon-Pokopia_2025_11-13-25_001.jpeg",
     "image_alt": "Pokémon Pokopia gameplay screenshot for recipe page: Muddy Swirl",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Muddy Swirl is an uncommon Pokopia recipe that gives +25% ground damage for 45 min. Its main use is Muddy River. Because this is an uncommon recipe, it is safe to use once a route is mostly stable, but it should still match the run objective. The best first targets to consider are Rockler, Mudkipz, Stealthfin, and Boulderchin, especially when running Gemstone Canyon and Muddy River.",
+    "overview": "Muddy Swirl is a ground-route recipe for Mudstone River, Gemstone Mine, and other paths where earth or mud coverage solves the main obstacle. It is useful when the target route has clustered ground encounters, riverbank materials, or enemies that can be handled faster with ground pressure. The recipe is not a general water-route buff despite the river ingredients. If the problem is water damage, Water Shield is more appropriate. Use Muddy Swirl when the plan is to push through a muddy or mineral-heavy section, collect the target materials, and leave before the route turns into a broader clear.",
     "ingredient_route": [
-      "Prepare the required ingredients: Mud Ball x4, River Clay x3, and Water Stone x1.",
-      "Check Pokemon and habitat pages for the drops that overlap with these materials before farming blindly.",
-      "If one ingredient is rare, farm that ingredient first and craft only when the full route plan is ready.",
-      "Do not craft multiple copies until you know how many runs fit inside the 45 min duration."
+      "Gather Mud Ball and River Clay during riverbank farming, then save Water Stone for a focused Mudstone River or Gemstone Mine run.",
+      "Check whether the target objective needs ground pressure or water defense before choosing this recipe.",
+      "Use it on routes with clustered muddy encounters or mineral nodes rather than scattered general farming.",
+      "Keep the loop short so the recipe covers the dense ground-value section."
     ],
     "best_timing": [
-      "Use Muddy Swirl when the run objective matches Muddy River, not just because the buff is available.",
-      "The best timing is after scouting, right before the boss room, rare check, long farming loop, or difficult habitat section.",
-      "Avoid using it on a first visit to a new area unless the recipe is cheap and the route is low risk.",
-      "+25% ground damage is strongest when your team can already survive the route and only needs the extra push."
+      "Activate it before the muddy encounter chain or mineral route begins.",
+      "Best when the next objective is ground-favored combat or material collection.",
+      "Avoid it if the route mostly contains water hazards and only a few ground enemies."
     ],
     "recommended_for": [
-      "Recommended Pokemon: Rockler, Mudkipz, Stealthfin, and Boulderchin.",
-      "Recommended habitats: Gemstone Canyon and Muddy River.",
-      "Related guides: Mudstone River Habitat Guide.",
-      "Best for: players deciding whether Muddy Swirl fits their next route, buff window, or farming target."
+      "Mudstone River farming, Gemstone Mine support, and ground-type Pokemon checks.",
+      "Players using Mudkipper, Quagshell, Riverhorn, or other ground/water route Pokemon.",
+      "Mid-game resource routes where faster ground pressure improves consistency."
     ],
     "alternatives": [
-      "Fire Boost: use when +30% Fire damage is more useful than +25% ground damage.",
-      "Thunder Strike: use when +40% electric damage is more useful than +25% ground damage.",
-      "Ghost Veil: use when +45% ghost damage is more useful than +25% ground damage."
+      "Water Shield is better when aquatic damage is the problem.",
+      "Speed Potion is better if the route is long but not combat-heavy.",
+      "Steel Shell is better for mining routes with short heavy-hit danger windows."
     ],
     "common_mistakes": [
-      "Crafting Muddy Swirl before deciding which habitat or Pokemon route needs it.",
-      "Using Muddy Swirl during a scouting run instead of a serious attempt.",
-      "Ignoring the 45 min duration and wasting part of the buff on travel or menu time.",
-      "Using +25% ground damage when the real problem is team role coverage, weather, or spawn timing.",
-      "Forgetting to check related Pokemon and habitat pages before spending ingredients."
+      "Choosing Muddy Swirl for water defense when Water Shield is the correct answer.",
+      "Using it on scattered routes with too few ground-value targets.",
+      "Spending Water Stone before confirming the route reward is worth the ingredient."
     ],
     "faqs": [
       {
-        "question": "What does Muddy Swirl do in Pokopia?",
-        "answer": "Muddy Swirl gives +25% ground damage for 45 min. It is mainly used for Muddy River."
+        "question": "Is Muddy Swirl for water routes or ground routes?",
+        "answer": "It is better treated as a ground-route recipe. Use Water Shield when the real problem is water damage."
       },
       {
-        "question": "What ingredients does Muddy Swirl need?",
-        "answer": "Muddy Swirl requires Mud Ball x4, River Clay x3, and Water Stone x1. Farm the rarest ingredient first before crafting multiple copies."
+        "question": "Where should I use Muddy Swirl?",
+        "answer": "Mudstone River and Gemstone Mine are the clearest fits because the recipe supports muddy encounters and resource routing."
       },
       {
-        "question": "When should I use Muddy Swirl?",
-        "answer": "Use Muddy Swirl after the route is scouted and the buff directly supports the objective, such as a boss room, rare check, or repeated farming loop."
-      },
-      {
-        "question": "Which Pokemon work well with Muddy Swirl?",
-        "answer": "Muddy Swirl works well with Rockler, Mudkipz, Stealthfin, and Boulderchin."
-      },
-      {
-        "question": "Is Muddy Swirl worth crafting?",
-        "answer": "Muddy Swirl is worth crafting when +25% ground damage solves the route problem. If the issue is weather, team level, or wrong habitat choice, fix that first."
+        "question": "Should I craft Muddy Swirl for daily farming?",
+        "answer": "Only if the daily route includes enough ground-value checks. Otherwise, cheaper utility food is usually better."
       }
     ],
     "related_pokemon": "pkm011,pkm018,pkm021,pkm039",
     "related_habitats": "hab007,hab009",
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-05-26",
     "data_status": "Editorial recipe reference",
     "data_status_note": "This recipe page is maintained as an editorial reference. Ingredient routes, buff timing, and recommendations may need review after balance changes.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
@@ -1029,66 +861,54 @@
     "effect_duration": "Instant",
     "rarity": "legendary",
     "best_use": "Emergency healing",
-    "image_url": "https://www.gematsu.com/wp-content/uploads/2025/11/Pokemon-Pokopia_2025_11-13-25_002-320x180.jpg",
+    "image_url": "https://www.gematsu.com/wp-content/uploads/2025/11/Pokemon-Pokopia_2025_11-13-25_002.jpg",
     "image_alt": "Pokémon Pokopia gameplay screenshot for recipe page: Mega Restore",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Mega Restore is a legendary Pokopia recipe that gives Full HP restore for Instant. Its main use is Emergency healing. Because this is a legendary recipe, save it for rare spawns, legendary hunts, or route attempts where the payoff is clearly worth the materials. The best first targets to consider are Flamexor, Voltscale, Shadowclaw, and Primordion, especially when running Volcanic Cave, Shadow Marsh, and Ancient Ruins.",
+    "overview": "Mega Restore is emergency insurance for long or high-value attempts. It is powerful, but that power is exactly why it should not become routine healing. Craft it when losing a run would cost rare materials, a legendary attempt, or a long late-game route. The best Mega Restore use is planned before the run: you know the objective is valuable, you know where failure usually happens, and you carry the recipe to protect that moment. If a route needs constant healing, the team or strategy probably needs adjustment. Mega Restore should save an attempt from one serious mistake, not cover a route that is fundamentally unstable.",
     "ingredient_route": [
-      "Prepare the required ingredients: Star Piece x3, Gold Leaf x2, and Rainbow Shell x1.",
-      "Check Pokemon and habitat pages for the drops that overlap with these materials before farming blindly.",
-      "If one ingredient is rare, farm that ingredient first and craft only when the full route plan is ready.",
-      "Do not craft multiple copies until you know how many runs fit inside the Instant duration."
+      "Reserve Star Piece, Gold Leaf, and Rainbow Shell for late-game routes, legendary checks, or boss attempts with real failure cost.",
+      "Do a lower-cost scouting run before committing Mega Restore to the final attempt.",
+      "Carry it into Volcanic Cave, Shadow Marsh, Ancient Ruins, Dragon's Den, or other routes where one mistake can ruin the objective.",
+      "Use it only when the recovery changes the result of the run; do not spend it after the objective is already safe."
     ],
     "best_timing": [
-      "Use Mega Restore when the run objective matches Emergency healing, not just because the buff is available.",
-      "The best timing is after scouting, right before the boss room, rare check, long farming loop, or difficult habitat section.",
-      "Avoid using it on a first visit to a new area unless the recipe is cheap and the route is low risk.",
-      "Full HP restore is strongest when your team can already survive the route and only needs the extra push."
+      "Keep it for the dangerous middle or final section of a serious attempt.",
+      "Best when the route is long, the objective is rare, and one recovery can prevent a reset.",
+      "Avoid using it as routine sustain during daily farming."
     ],
     "recommended_for": [
-      "Recommended Pokemon: Flamexor, Voltscale, Shadowclaw, Primordion, and Bronzorm.",
-      "Recommended habitats: Volcanic Cave, Shadow Marsh, Ancient Ruins, and Dragon's Den.",
-      "Related guides: Complete Recipe List and Effects.",
-      "Best when a long route or legendary attempt is worth saving from one bad turn."
+      "Legendary hunts, long boss routes, late-game progression, and high-value resource attempts.",
+      "Players who already know the route but want protection against one major mistake.",
+      "Final attempts after cheaper scouting has confirmed the objective is worth the ingredients."
     ],
     "alternatives": [
-      "Guardian Stew: use when +40% defense is more useful than Full HP restore.",
-      "Water Shield: use when +35% water resistance is more useful than Full HP restore.",
-      "Ice Armor: use when +50% ice resistance is more useful than Full HP restore."
+      "Grass Heal is better for cheap daily sustain.",
+      "Guardian Stew is better if the route needs steady defense from the start.",
+      "Lucky Charm is better when the route is safe and the only issue is rare target value."
     ],
     "common_mistakes": [
-      "Crafting Mega Restore before deciding which habitat or Pokemon route needs it.",
-      "Using Mega Restore during a scouting run instead of a serious attempt.",
-      "Ignoring the Instant duration and wasting part of the buff on travel or menu time.",
-      "Using Full HP restore when the real problem is team role coverage, weather, or spawn timing.",
-      "Forgetting to check related Pokemon and habitat pages before spending ingredients."
+      "Using Mega Restore on routine farming routes where cheap healing would be enough.",
+      "Waiting so long to use it that the run is already unrecoverable.",
+      "Crafting it before scouting the route and discovering the attempt does not need emergency insurance."
     ],
     "faqs": [
       {
-        "question": "What does Mega Restore do in Pokopia?",
-        "answer": "Mega Restore gives Full HP restore for Instant. It is mainly used for Emergency healing."
+        "question": "When is Mega Restore worth crafting?",
+        "answer": "Craft it for high-value attempts where one emergency recovery can save a rare target, boss clear, or long route."
       },
       {
-        "question": "What ingredients does Mega Restore need?",
-        "answer": "Mega Restore requires Star Piece x3, Gold Leaf x2, and Rainbow Shell x1. Farm the rarest ingredient first before crafting multiple copies."
+        "question": "Should I use Mega Restore for daily farming?",
+        "answer": "No. Grass Heal or route improvements are better for routine farming. Mega Restore is too expensive for casual sustain."
       },
       {
-        "question": "When should I use Mega Restore?",
-        "answer": "Use Mega Restore after the route is scouted and the buff directly supports the objective, such as a boss room, rare check, or repeated farming loop."
-      },
-      {
-        "question": "Which Pokemon work well with Mega Restore?",
-        "answer": "Mega Restore works well with Flamexor, Voltscale, Shadowclaw, Primordion, and Bronzorm."
-      },
-      {
-        "question": "Is Mega Restore worth crafting?",
-        "answer": "Mega Restore is worth crafting when Full HP restore solves the route problem. If the issue is weather, team level, or wrong habitat choice, fix that first."
+        "question": "Is Mega Restore better than Guardian Stew?",
+        "answer": "They solve different problems. Guardian Stew reduces pressure across a route, while Mega Restore saves one dangerous moment."
       }
     ],
     "related_pokemon": "pkm007,pkm015,pkm030,pkm050,pkm019",
     "related_habitats": "hab001,hab006,hab010,hab018",
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-05-26",
     "data_status": "Editorial recipe reference",
     "data_status_note": "This recipe page is maintained as an editorial reference. Ingredient routes, buff timing, and recommendations may need review after balance changes.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",

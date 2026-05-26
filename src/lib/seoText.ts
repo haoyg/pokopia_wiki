@@ -75,8 +75,13 @@ export function recipeMetaTitle(recipe: {
   name: string
   rarity: string
   effect_duration: string
+  best_use?: string
 }) {
-  return cleanTitle(`${recipe.name}: Ingredients, Buff, and Timing`)
+  return cleanTitle(
+    recipe.best_use
+      ? `${recipe.name}: ${recipe.best_use} Recipe Guide`
+      : `${recipe.name}: Recipe Timing Guide`
+  )
 }
 
 export function recipeMetaDescription(recipe: {
@@ -84,9 +89,15 @@ export function recipeMetaDescription(recipe: {
   ingredients: string[] | string
   buff: string
   effect_duration: string
+  best_use?: string
+  overview?: string
 }) {
+  if (recipe.overview) {
+    return cleanDescription(recipe.overview)
+  }
+
   return cleanDescription(
-    `${recipe.name} recipe guide with ingredients, ${recipe.buff}, ${recipe.effect_duration} duration, timing notes, related Pokemon, and habitat planning links.`
+    `${recipe.name} recipe guide for ${recipe.best_use || 'route planning'} with ingredients, ${recipe.buff}, ${recipe.effect_duration} duration, timing notes, related Pokemon, and habitat links.`
   )
 }
 
