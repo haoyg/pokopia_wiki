@@ -568,60 +568,45 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Shados",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Shados is an assassin option tied to Shadow Marsh, Night / Stormy, and Ghost Stone and Soul Dust. A ghostly shadow Pokemon. Appears only in dark places. The practical test is simple: does Shados improve early target removal without forcing extra full clears? Ghost Veil can help later, but the first scout should prove the path without it.",
+    "overview": "Shados is the efficient Ghost Stone check in Shadow Marsh. It is smaller than Shadowclaw or Lunaflare, but that is the advantage: Soul Dust and Shadow Ball can create a short night branch with a strict exit. Use Shados when the marsh goal is ghost material, not legendary payoff.",
     "how_to_get": [
-      "Find Shados through the Night / Stormy route in Shadow Marsh, then compare the result with Shadowclaw, Lunaflare, and Nightfall.",
-      "Run Shadow Marsh without rare recipe help first so the Shados route shows its real timing.",
-      "Bring Soul Dust only when the branch to Shados is already mapped and safe.",
-      "Build around Shados when Shadow Marsh needs fast target removal before the route becomes expensive, not simply because the database lists it as rare.",
-      "Stop after the Shados material check if Ghost Stone and Soul Dust no longer match the active goal."
+      "Use Night / Stormy and map the quick Shados branch.",
+      "Spend Soul Dust only when Ghost Stone is still useful.",
+      "Shadow Ball should decide whether the route is fast enough.",
+      "Skip Lunaflare and Shadowclaw branches unless the session changes goal."
     ],
     "best_use": [
-      "Open the test with Shadow Ball for its ambush window, then watch whether Lick adds a second ambush window or just slows the clear.",
-      "Shados's Ghost coverage is most valuable on the branch where +60% Ghost drops and Stormy/Night both support the same objective.",
-      "Shados has a single-type plan, so avoid forcing it into matchups that ask for coverage outside Ghost.",
-      "Shados should be upgraded after Ghost Stone and Soul Dust have a named use; otherwise the farm becomes a slow way to fill storage.",
-      "If Ghost Veil is part of the route, test Shados once without it first so the recipe is proving a repeat plan rather than covering bad pathing."
+      "Best for efficient Ghost Stone and Soul Dust checks.",
+      "Choose Shados before legendary targets when the farm needs speed.",
+      "Astonish and Night Shade are secondary to the first Shadow Ball result."
     ],
     "team_tips": [
-      "If Shadowclaw is already carrying the route, use Shados as a focused alternative rather than a second copy of the same job.",
-      "Shados is easier to evaluate when the backup slot covers unplanned full clears; without that cover, failed runs can blame the wrong Pokemon.",
-      "In Shadow Marsh, Shadowclaw, Lunaflare, and Nightfall compete for the same session time; choose Shados when its assassin job is the missing piece.",
-      "Pair Shados with a safety pick that covers failed burst attempts; that lets the team measure early target removal instead of guessing from one lucky clear."
+      "Pair with a backup that prevents failed ambush attempts.",
+      "Avoid carrying food for every marsh target.",
+      "Keep the branch narrow."
     ],
     "farming_notes": [
-      "Stop the Shados hunt once early target removal no longer shortens the route; extra attempts should have a material reason.",
-      "Only start a serious Shados farm during Night / Stormy; outside that window, the route is useful for scouting but poor for judging value.",
-      "Soul Dust should be saved for repeat attempts where the path to Shados is already short and safe.",
-      "Track Ghost Stone and Soul Dust separately after each clear. For Shados, if one material is finished, change the exit point instead of full-clearing Shadow Marsh."
+      "Ghost Stone value should be known before entering.",
+      "Do not let Dark Gem goals pull the run toward Nightfall.",
+      "Exit quickly after the Shados result."
     ],
     "common_mistakes": [
-      "Letting Night Shade decide the build before Shadow Ball and Lick prove the core route plan.",
-      "Full-clearing Shadow Marsh when the actual goal is a short Shados check.",
-      "Building Shados because it is rare before confirming that Shadow Marsh actually needs fast target removal before the route becomes expensive.",
-      "Spending Soul Dust on a blind scout instead of saving it for a mapped Night / Stormy attempt.",
-      "Treating Ghost Stone and Soul Dust as valuable without linking them to a recipe, upgrade, or team change."
+      "Using Shados as a legendary hunt substitute.",
+      "Spending Soul Dust when Ghost Stone is already finished.",
+      "Full-clearing Shadow Marsh after a quick Shados miss."
     ],
     "faqs": [
       {
-        "question": "Where do you find Shados in Pokopia?",
-        "answer": "Shados is found in Shadow Marsh. For Shados, use the Night / Stormy window and repeat the shortest route only after one clean scout run."
+        "question": "Where do you find Shados?",
+        "answer": "Shados appears in Shadow Marsh during Night / Stormy. Soul Dust works best on a short ghost branch."
       },
       {
-        "question": "What is Shados's favorite food?",
-        "answer": "Shados's favorite food is Soul Dust. Save Soul Dust for mapped Shados attempts rather than spending it on the first scouting pass."
-      },
-      {
-        "question": "Is Shados worth building?",
-        "answer": "Shados is worth building when Shadow Marsh needs fast target removal before the route becomes expensive and Ghost coverage helps the target branch. If the route fails before Shados can use that role, fix the team shape first."
+        "question": "What is Shados best used for?",
+        "answer": "Shados is for efficient Ghost Stone and Soul Dust checks before the marsh expands into legendary targets."
       },
       {
         "question": "What does Shados drop?",
-        "answer": "Shados drops Ghost Stone and Soul Dust. For Shados, compare material value with route time so the farm does not continue after the useful drop is finished."
-      },
-      {
-        "question": "Which pages should you read with Shados?",
-        "answer": "Read the Shadow Marsh habitat page with Shados, then compare Shadowclaw and Ghost Veil before spending more food."
+        "answer": "Shados drops Ghost Stone and Soul Dust. Leave early when the ghost material goal is done."
       }
     ],
     "updated_at": "2026-05-26",
@@ -923,60 +908,45 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Glacior",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Glacior is a support pick option tied to Frost Peak, Any / Snow, and Ice Stone and Frost Crystal. An ice penguin. At home in frozen environments. The practical test is simple: does Glacior improve items and health saved before the final target check without forcing extra full clears? Ice Armor can help later, but the first scout should prove the path without it.",
+    "overview": "Glacior is Frost Peak's Aurora Veil support page. Ice Beam and Blizzard provide control, but the real reason to build it is making Snow routes cheaper before the final check. Snowball should be used only when Ice Stone and Frost Crystal matter more than raw damage.",
     "how_to_get": [
-      "Glacior starts in Frost Peak; confirm the Any / Snow window before turning the route into a farm.",
-      "Scout Frost Peak once with a cheap team and mark the shortest branch that reaches Glacior.",
-      "Save Snowball for the second or third Glacior attempt, after the path and weather both line up.",
-      "Use Ice Beam and Blizzard as the first skill check for Glacior; if they do not improve items and health saved before the final target check, pause the build.",
-      "Repeat Frost Peak for Glacior only when Ice Stone and Frost Crystal support the next recipe, upgrade, or team change."
+      "Check Any / Snow before using Snowball.",
+      "Scout the shortest Glacior branch and note whether Aurora Veil saves resources.",
+      "Use Ice Beam first; Blizzard is the commitment test.",
+      "Repeat only while Ice Stone or Frost Crystal is needed."
     ],
     "best_use": [
-      "Glacior is worth fielding when Frost Peak needs recovery, setup, or status support across repeated clears; if the real problem is missing damage, adjust the supporting slot first.",
-      "Compare Glacior with Tidlet before spending Snowball: Glacior should win on resources saved before the final target check, while Tidlet may still be better for Normal coverage or a cheaper check.",
-      "Open the test with Ice Beam for its control turn, then watch whether Blizzard adds control turn or just slows the clear.",
-      "Glacior's Ice coverage is most valuable on the branch where +35% Ice drops and Snow both support the same objective.",
-      "The Water side gives Glacior a second use case, but only if the team is not already covering that matchup through Tidlet, Frostbite, and Snorizard."
+      "Best for snow support and Frost Crystal planning.",
+      "Choose Glacior over Tidlet when Aurora Veil changes survival.",
+      "Do not compare it to Mysticat just because both are support pages."
     ],
     "team_tips": [
-      "Defense Build works best with Glacior when the build supports snow routes, defensive pacing, and freeze-adjacent control, not when it simply stacks the rarest local Pokemon.",
-      "If Tidlet is already carrying the route, use Glacior as a focused alternative rather than a second copy of the same job.",
-      "Glacior is easier to evaluate when the backup slot covers slow clears after the target check; without that cover, failed runs can blame the wrong Pokemon.",
-      "In Frost Peak, Tidlet, Frostbite, and Snorizard compete for the same session time; choose Glacior when its support job is the missing piece."
+      "Pair Glacior with a damage dealer that benefits from longer safe fights.",
+      "Avoid using it when Frost Peak already feels stable.",
+      "Let Hail support the route only after Ice Beam proves control value."
     ],
     "farming_notes": [
-      "When farming Glacior alongside Tidlet, split the session into target checks instead of trying to solve every local farm at once.",
-      "Stop the hunt once resources saved before the final target check stops improving; more Glacior attempts are not automatically better content for the build.",
-      "Only start a serious Glacior farm during Any / Snow; outside that window, the route is useful for scouting but poor for judging value.",
-      "Snowball should be saved for repeat attempts where the path to Glacior is already short and safe."
+      "Record item savings, not just clear time.",
+      "Snowball is a support investment.",
+      "Stop after Frost Crystal is no longer needed."
     ],
     "common_mistakes": [
-      "Comparing Glacior to Tidlet only by rarity and ignoring support value, food cost, and route timing.",
-      "Keeping Glacior in the party after resources saved before the final target check stops improving.",
-      "Letting Hail decide the build before Ice Beam and Blizzard prove the core route plan.",
-      "Full-clearing Frost Peak when the actual goal is a short Glacior check.",
-      "Building Glacior because it is uncommon before confirming that Frost Peak actually needs recovery, setup, or status support across repeated clears."
+      "Using Glacior as a damage carry.",
+      "Spending Snowball before checking Aurora Veil value.",
+      "Farming it in place of a dedicated rare ice target."
     ],
     "faqs": [
       {
-        "question": "Where do you find Glacior in Pokopia?",
-        "answer": "Glacior is found in Frost Peak. For Glacior, use the Any / Snow window and repeat the shortest route only after one clean scout run."
+        "question": "Where do you find Glacior?",
+        "answer": "Glacior appears on Frost Peak during Any / Snow. Use Snowball after the Aurora Veil branch is mapped."
       },
       {
-        "question": "What is Glacior's favorite food?",
-        "answer": "Glacior's favorite food is Snowball. Save Snowball for mapped Glacior attempts rather than spending it on the first scouting pass."
-      },
-      {
-        "question": "Is Glacior worth building?",
-        "answer": "Glacior is worth building when Frost Peak needs better recovery, setup, or status support and Ice coverage helps the target branch. If the route fails before Glacior can use that role, fix the team shape first."
+        "question": "What is Glacior best used for?",
+        "answer": "Glacior is mainly for Aurora Veil support, Frost Crystal planning, and safer Snow routes."
       },
       {
         "question": "What does Glacior drop?",
-        "answer": "Glacior drops Ice Stone and Frost Crystal. For Glacior, compare material value with route time so the farm does not continue after the useful drop is finished."
-      },
-      {
-        "question": "Which pages should you read with Glacior?",
-        "answer": "Read the Frost Peak habitat page with Glacior, then compare Tidlet and Ice Armor before spending more food."
+        "answer": "Glacior drops Ice Stone and Frost Crystal. Repeat only while one of those materials has an active use."
       }
     ],
     "updated_at": "2026-05-26",
@@ -1002,60 +972,45 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Voltscale",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Voltscale is an Electric/Dragon attacker for Windmill Plains. The legendary storm dragon. Said to control lightning. In practice, build Voltscale when Windmill Plains needs shorter known fights and reliable damage windows; test it during Night / Thunderstorm and judge it by turns saved on the hardest repeat fight. Thunder Stone and Dragon Scale make the farm worth repeating only when they support the next upgrade or recipe.",
+    "overview": "Voltscale is the storm-dragon lottery in Windmill Plains. It shares Thunder Stone with cheap electric targets, but Dragon Scale and Thunderstorm timing make it a separate commitment. Use Lightning Bug only when the session is willing to chase legendary electric-dragon payoff.",
     "how_to_get": [
-      "Find Voltscale through the Night / Thunderstorm route in Windmill Plains, then compare the result with Zaprat, Mechabit, and Magnedex.",
-      "Run Windmill Plains without rare recipe help first so the Voltscale route shows its real timing.",
-      "Bring Lightning Bug only when the branch to Voltscale is already mapped and safe.",
-      "Build around Voltscale when Windmill Plains needs shorter known fights, not simply because the database lists it as legendary.",
-      "Stop after the Voltscale material check if Thunder Stone and Dragon Scale no longer match the active goal."
+      "Wait for Night / Thunderstorm before spending Lightning Bug.",
+      "Use Thunderbolt to test the electric side and Dragon Pulse to justify the rare branch.",
+      "Skip Mechabit and Magnedex detours unless metal drops are part of the plan.",
+      "Leave after the Dragon Scale check."
     ],
     "best_use": [
-      "Compare Voltscale with Zaprat before spending Lightning Bug: Voltscale should win on turns saved on the hardest repeat fight, while Zaprat may still be better for Electric coverage or a cheaper check.",
-      "Open the test with Thunderbolt for its tempo break, then watch whether Dragon Pulse adds high-commitment burst or just slows the clear.",
-      "Voltscale's Electric coverage is most valuable on the branch where +25% Electric drops and Windy both support the same objective.",
-      "The Dragon side gives Voltscale a second use case, but only if the team is not already covering that matchup through Zaprat, Mechabit, and Magnedex.",
-      "Voltscale should be upgraded after Thunder Stone and Dragon Scale have a named use; otherwise the farm becomes a slow way to fill storage."
+      "Best for Dragon Scale inside an electric route.",
+      "Choose Voltscale when Zaprat is too small a payoff.",
+      "Wild Charge is a commitment signal, not a scouting move."
     ],
     "team_tips": [
-      "If Zaprat is already carrying the route, use Voltscale as a focused alternative rather than a second copy of the same job.",
-      "Voltscale is easier to evaluate when the backup slot covers drawn-out resource farming; without that cover, failed runs can blame the wrong Pokemon.",
-      "In Windmill Plains, Zaprat, Mechabit, and Magnedex compete for the same session time; choose Voltscale when its attacker job is the missing piece.",
-      "Pair Voltscale with a defender or support pick that keeps the opening stable; that lets the team measure turns saved on the hardest repeat fight instead of guessing from one lucky clear."
+      "Bring support for a failed legendary burst.",
+      "Do not mix Voltscale with basic Thunder Stone farming.",
+      "Use Thunder Strike only after the storm path is mapped."
     ],
     "farming_notes": [
-      "Stop the hunt once turns saved on the hardest repeat fight stops improving; more Voltscale attempts are not automatically better content for the build.",
-      "Only start a serious Voltscale farm during Night / Thunderstorm; outside that window, the route is useful for scouting but poor for judging value.",
-      "Lightning Bug should be saved for repeat attempts where the path to Voltscale is already short and safe.",
-      "Track Thunder Stone and Dragon Scale separately after each clear. For Voltscale, if one material is finished, change the exit point instead of full-clearing Windmill Plains."
+      "Lightning Bug cost should be tracked separately.",
+      "Thunder Stone is a side benefit, not the main reason to stay.",
+      "Stop when Dragon Scale is no longer the bottleneck."
     ],
     "common_mistakes": [
-      "Keeping Voltscale in the party after turns saved on the hardest repeat fight stops improving.",
-      "Letting Thunder Wave decide the build before Thunderbolt and Dragon Pulse prove the core route plan.",
-      "Full-clearing Windmill Plains when the actual goal is a short Voltscale check.",
-      "Building Voltscale because it is legendary before confirming that Windmill Plains actually needs shorter known fights and reliable damage windows.",
-      "Spending Lightning Bug on a blind scout instead of saving it for a mapped Night / Thunderstorm attempt."
+      "Farming Voltscale like Zaprat.",
+      "Spending Lightning Bug outside Thunderstorm timing.",
+      "Continuing into metal branches after the dragon check."
     ],
     "faqs": [
       {
-        "question": "Where do you find Voltscale in Pokopia?",
-        "answer": "Voltscale is found in Windmill Plains. For Voltscale, use the Night / Thunderstorm window and repeat the shortest route only after one clean scout run."
+        "question": "Where do you find Voltscale?",
+        "answer": "Voltscale appears in Windmill Plains during Night / Thunderstorm. Lightning Bug should be reserved for Dragon Scale attempts."
       },
       {
-        "question": "What is Voltscale's favorite food?",
-        "answer": "Voltscale's favorite food is Lightning Bug. Save Lightning Bug for mapped Voltscale attempts rather than spending it on the first scouting pass."
-      },
-      {
-        "question": "Is Voltscale worth building?",
-        "answer": "Voltscale is worth building when Windmill Plains needs shorter known fights and Electric coverage helps the target branch. If the route fails before Voltscale can use that role, fix the team shape first."
+        "question": "What is Voltscale best used for?",
+        "answer": "Voltscale is for legendary electric-dragon payoff, not cheap Thunder Stone farming."
       },
       {
         "question": "What does Voltscale drop?",
-        "answer": "Voltscale drops Thunder Stone and Dragon Scale. For Voltscale, compare material value with route time so the farm does not continue after the useful drop is finished."
-      },
-      {
-        "question": "Which pages should you read with Voltscale?",
-        "answer": "Read the Windmill Plains habitat page with Voltscale, then compare Zaprat and Thunder Strike before spending more food."
+        "answer": "Voltscale drops Thunder Stone and Dragon Scale. Dragon Scale is the main reason to repeat."
       }
     ],
     "updated_at": "2026-05-26",
@@ -1081,50 +1036,46 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Breezel",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Breezel works as Breezel training lane inside Sky Isles. A gentle wind bird. Found in open plains. Its plan leans on first feather scout, simple flying route, and Peck timing; the reward is Feather and Wind Essence. Breezel teaches the flying loop; Windlor refines it.",
+    "overview": "Breezel is the first cheap Sky Isles flying check. It teaches the Feather path with Peck, Wing Attack, and simple Day / Windy timing before rare food or advanced control matters. Use Breezel to learn whether the island loop is short enough; move on when the route needs stronger air control.",
     "how_to_get": [
-      "Check Day / Windy first; Feather is wasted if Peck timing cannot happen.",
-      "Peck opens the attempt and Wing Attack decides whether low-cost movement test is worth repeating.",
-      "End the pass when beginner Sky Isles loop is answered."
+      "Use Day / Windy and keep the first Feather attempt cheap.",
+      "Test Peck on the opening branch before spending extra time on deeper spawns.",
+      "Use Wing Attack only if the branch is already safe.",
+      "Leave when Feather or Wind Essence is checked."
     ],
     "best_use": [
-      "Choose Breezel for first feather scout.",
-      "low-cost movement test is the measurable reason to return.",
-      "Breezel teaches the flying loop; Windlor refines it.",
-      "Material split: Feather and Wind Essence should be judged through first feather scout, simple flying route, and Wing Attack practice."
+      "Best for learning Sky Isles flying movement.",
+      "Choose Breezel before Windlor when route knowledge is still the bottleneck.",
+      "Quick Attack is a reset tool, not a reason to full-clear.",
+      "Aerial Ace should be tested after the basic Feather loop works."
     ],
     "team_tips": [
-      "Protect Peck timing with one teammate that covers bad matchups.",
-      "Wing Attack practice should support the planned fight, not random clears.",
-      "Keep the party light if basic air branch is only a material check."
+      "Pair Breezel with a reliable finisher.",
+      "Keep rare Crystalwing and Stormbird plans out of beginner Breezel runs.",
+      "Use Breezel as a route teacher, not a permanent speed slot."
     ],
     "farming_notes": [
-      "Log Feather and Wind Essence separately from clear time.",
-      "Feather belongs to confirmed basic air branch attempts.",
-      "Pause when beginner Sky Isles loop no longer changes the build.",
-      "Exit rule: leave after Peck timing is tested unless first feather scout still improves the next attempt."
+      "Feather and Wind Essence are enough reason for short repeats.",
+      "If the loop is already mapped, compare Windlor next.",
+      "Bad weather should become scouting time only."
     ],
     "common_mistakes": [
-      "Using Breezel outside its Breezel training lane role.",
-      "Treating simple flying route as free.",
-      "Chasing Feather and Wind Essence after the upgrade is already solved."
+      "Treating Breezel like a rare Sky Isles target.",
+      "Spending Feather before the first air branch is known.",
+      "Continuing after the beginner loop has answered its question."
     ],
     "faqs": [
       {
         "question": "Where do you find Breezel?",
-        "answer": "Sky Isles, Day / Windy, with Feather saved for a known first feather scout attempt."
+        "answer": "Breezel appears in Sky Isles during Day / Windy. Feather should be used on a cheap first flying loop."
       },
       {
-        "question": "What is the main reason to use Breezel?",
-        "answer": "Breezel training lane: first feather scout, low-cost movement test, and Wing Attack practice."
+        "question": "What is Breezel best used for?",
+        "answer": "Breezel is for learning the Sky Isles Feather path before Windlor or Crystalwing becomes relevant."
       },
       {
         "question": "What does Breezel drop?",
-        "answer": "Feather and Wind Essence. For Breezel, those drops matter most when first feather scout and Wing Attack practice are part of the active plan."
-      },
-      {
-        "question": "Which local comparison matters?",
-        "answer": "Breezel teaches the flying loop; Windlor refines it."
+        "answer": "Breezel drops Feather and Wind Essence. Repeat only while the beginner flying loop still teaches or pays."
       }
     ],
     "updated_at": "2026-05-26",
@@ -1357,60 +1308,45 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Flamingo",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Flamingo is an Fire/Flying attacker for Sky Isles. An elegant fire bird. Its dance mesmerizes opponents. In practice, build Flamingo when Sky Isles needs shorter known fights and reliable damage windows; test it during Day / Sunny and judge it by turns saved on the hardest repeat fight. Fire Stone and Feather make the farm worth repeating only when they support the next upgrade or recipe.",
+    "overview": "Flamingo is Sky Isles' Fire / Flying dance attacker. It is useful when Fire Stone and Feather overlap, especially in Day / Sunny routes where Fire Spin and Hurricane both matter. It should not be treated like a pure flying speed page.",
     "how_to_get": [
-      "Flamingo starts in Sky Isles; confirm the Day / Sunny window before turning the route into a farm.",
-      "Scout Sky Isles once with a cheap team and mark the shortest branch that reaches Flamingo.",
-      "Save Hot Seed for the second or third Flamingo attempt, after the path and weather both line up.",
-      "Use Fire Spin and Hurricane as the first skill check for Flamingo; if they do not improve turns saved on the hardest repeat fight, pause the build.",
-      "Repeat Sky Isles for Flamingo only when Fire Stone and Feather support the next recipe, upgrade, or team change."
+      "Use Day / Sunny and bring Hot Seed only for the fire-bird branch.",
+      "Start with Fire Spin; Hurricane is the test for the flying side.",
+      "Use Flame Charge when the route needs a faster second fight.",
+      "Exit if Fire Stone is not part of the session goal."
     ],
     "best_use": [
-      "If Flying High is part of the route, test Flamingo once without it first so the recipe is proving a repeat plan rather than covering bad pathing.",
-      "Flamingo is worth fielding when Sky Isles needs shorter known fights and reliable damage windows; if the route collapses before damage windows open, adjust the supporting slot first.",
-      "Compare Flamingo with Crystalwing before spending Hot Seed: Flamingo should win on turns saved on the hardest repeat fight, while Crystalwing may still be better for Flying/Crystal coverage or a cheaper check.",
-      "Open the test with Fire Spin for its damage spike, then watch whether Hurricane adds a second movement window or just slows the clear.",
-      "Flamingo's Fire coverage is most valuable on the branch where +40% Feather drops and Windy both support the same objective."
+      "Best for Fire Stone plus Feather overlap.",
+      "Choose Flamingo when Sky Isles needs damage, not movement practice.",
+      "Brave Bird is a finisher, not a scouting tool."
     ],
     "team_tips": [
-      "Flying Build works best with Flamingo when the build supports burst pressure and burn-oriented material routes, not when it simply stacks the rarest local Pokemon.",
-      "If Crystalwing is already carrying the route, use Flamingo as a focused alternative rather than a second copy of the same job.",
-      "Flamingo is easier to evaluate when the backup slot covers long defensive checks; without that cover, failed runs can blame the wrong Pokemon.",
-      "In Sky Isles, Breezel, Tropius, and Crystalwing compete for the same session time; choose Flamingo when its attacker job is the missing piece."
+      "Pair with a support that protects risky flying attacks.",
+      "Avoid mixing Flamingo with Crystalwing hunts unless Feather is the shared target.",
+      "Use it as a damage branch inside Sky Isles."
     ],
     "farming_notes": [
-      "When farming Flamingo alongside Crystalwing, split the session into target checks instead of trying to solve every local farm at once.",
-      "Stop the hunt once turns saved on the hardest repeat fight stops improving; more Flamingo attempts are not automatically better content for the build.",
-      "Only start a serious Flamingo farm during Day / Sunny; outside that window, the route is useful for scouting but poor for judging value.",
-      "Hot Seed should be saved for repeat attempts where the path to Flamingo is already short and safe."
+      "Track Fire Stone separately from Feather.",
+      "Hot Seed is wasted if the run only wants Wind Essence.",
+      "Repeat when sunny damage shortens the target branch."
     ],
     "common_mistakes": [
-      "Treating Fire Stone and Feather as valuable without linking them to a recipe, upgrade, or team change.",
-      "Comparing Flamingo to Crystalwing only by rarity and ignoring attacker value, food cost, and route timing.",
-      "Keeping Flamingo in the party after turns saved on the hardest repeat fight stops improving.",
-      "Letting Brave Bird decide the build before Fire Spin and Hurricane prove the core route plan.",
-      "Full-clearing Sky Isles when the actual goal is a short Flamingo check."
+      "Using Flamingo like Breezel.",
+      "Spending Hot Seed for generic feather farming.",
+      "Ignoring Day / Sunny before testing fire value."
     ],
     "faqs": [
       {
-        "question": "Where do you find Flamingo in Pokopia?",
-        "answer": "Flamingo is found in Sky Isles. For Flamingo, use the Day / Sunny window and repeat the shortest route only after one clean scout run."
+        "question": "Where do you find Flamingo?",
+        "answer": "Flamingo appears in Sky Isles during Day / Sunny. Hot Seed belongs on the fire-bird branch only."
       },
       {
-        "question": "What is Flamingo's favorite food?",
-        "answer": "Flamingo's favorite food is Hot Seed. Save Hot Seed for mapped Flamingo attempts rather than spending it on the first scouting pass."
-      },
-      {
-        "question": "Is Flamingo worth building?",
-        "answer": "Flamingo is worth building when Sky Isles needs shorter known fights and Fire coverage helps the target branch. If the route fails before Flamingo can use that role, fix the team shape first."
+        "question": "What is Flamingo best used for?",
+        "answer": "Flamingo is for Fire Stone plus Feather overlap, not beginner flying movement."
       },
       {
         "question": "What does Flamingo drop?",
-        "answer": "Flamingo drops Fire Stone and Feather. For Flamingo, compare material value with route time so the farm does not continue after the useful drop is finished."
-      },
-      {
-        "question": "Which pages should you read with Flamingo?",
-        "answer": "Read the Sky Isles habitat page with Flamingo, then compare Crystalwing and Flying High before spending more food."
+        "answer": "Flamingo drops Fire Stone and Feather. Repeat when both sides still help the build."
       }
     ],
     "updated_at": "2026-05-26",
@@ -1436,50 +1372,47 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Stealthfin",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Stealthfin tooth lane is the reason to read Stealthfin. A mysterious deep-sea creature. Hunts at night. In Muddy River, the useful clues are night rain assassin, dark-water pickoff, and Aqua Jet finish. The drops, Deep Sea Tooth and Dark Gem, are secondary unless they connect to the next build step.",
+    "overview": "Stealthfin is the night-only river predator. Its value is Deep Sea Tooth plus Dark Gem under Night / Rain, so the run should feel like a silent pickoff route rather than a normal water farm. Crunch and Aqua Jet are the proof points: if they do not remove the target quickly, save Fish for a better night window.",
     "how_to_get": [
-      "Start with nocturnal river route during Night / Rain.",
-      "Hold Fish until Deep Sea Tooth hunt has a clean approach.",
-      "Crunch is the first proof point; Knock Off is the follow-up."
+      "Wait for Night / Rain in Muddy River before using Fish.",
+      "Take the dark-water branch first and ignore poison-side detours unless Dark Gem is already finished.",
+      "Use Crunch as the opening test, then Aqua Jet to confirm whether the route is fast enough.",
+      "Leave after the Deep Sea Tooth check; Stealthfin loses value when the run turns into Toxifin farming."
     ],
     "best_use": [
-      "Use Stealthfin when dark-water pickoff matters.",
-      "Stealthfin hunts Deep Sea Tooth at night; Toxifin farms poison-water materials any rain.",
-      "Fish on rare branch should be visible within one or two attempts.",
-      "Material split: Deep Sea Tooth and Dark Gem should be judged through Deep Sea Tooth hunt, night rain assassin, and Aqua Jet finish."
+      "Best for Deep Sea Tooth hunts and dark-water pickoff routes.",
+      "Choose Stealthfin over Toxifin when Night timing and rare material value justify the extra setup.",
+      "Crunch, Knock Off, and Ice Fang make sense only if one dangerous target is being removed early.",
+      "Fish should be spent on a mapped night branch, not on generic Rain farming."
     ],
     "team_tips": [
-      "One support slot should cover the weakness created by Deep Sea Tooth hunt.",
-      "Avoid carrying teammates for unrelated drops.",
-      "Crunch opener is the route identity."
+      "Bring one safety slot for missed burst attempts.",
+      "Avoid pairing Stealthfin with teams that already need long poison attrition.",
+      "Use a fast exit plan; the page is strongest before the river becomes a full clear."
     ],
     "farming_notes": [
-      "Farm for Deep Sea Tooth and Dark Gem, not for completion.",
-      "Reset if nocturnal river route misses the target.",
-      "Return later if Fish becomes the bottleneck.",
-      "Exit rule: leave after Crunch opener is tested unless Deep Sea Tooth hunt still improves the next attempt."
+      "Track Deep Sea Tooth separately from Dark Gem because the first one finished should change the exit point.",
+      "If Night / Rain is missing, scout the path and keep the food.",
+      "Compare the result with Toxifin only when Fish is the limiting resource."
     ],
     "common_mistakes": [
-      "Copying a nearby Pokemon plan onto Stealthfin.",
-      "Spending food before the Deep Sea Tooth hunt test.",
-      "Ignoring the difference between dark-water pickoff and generic farming."
+      "Using Stealthfin for Gill or Poison Stone goals.",
+      "Spending Fish before the night branch is mapped.",
+      "Letting the run continue after the rare dark-water check fails.",
+      "Judging Stealthfin by normal water farming efficiency."
     ],
     "faqs": [
       {
         "question": "Where do you find Stealthfin?",
-        "answer": "Muddy River, Night / Rain, with Fish saved for a known Deep Sea Tooth hunt attempt."
+        "answer": "Stealthfin appears in Muddy River during Night / Rain. Fish is worth using only after the dark-water branch is mapped."
       },
       {
-        "question": "What is the main reason to use Stealthfin?",
-        "answer": "Stealthfin tooth lane: Deep Sea Tooth hunt, dark-water pickoff, and Aqua Jet finish."
+        "question": "What is Stealthfin best used for?",
+        "answer": "Stealthfin is for Deep Sea Tooth, Dark Gem, and fast night pickoff routing."
       },
       {
         "question": "What does Stealthfin drop?",
-        "answer": "Deep Sea Tooth and Dark Gem. For Stealthfin, those drops matter most when Deep Sea Tooth hunt and Aqua Jet finish are part of the active plan."
-      },
-      {
-        "question": "Which local comparison matters?",
-        "answer": "Stealthfin hunts Deep Sea Tooth at night; Toxifin farms poison-water materials any rain."
+        "answer": "Stealthfin differs from Toxifin because it is the rare night hunt, while Toxifin is the repeatable poison loop."
       }
     ],
     "updated_at": "2026-05-26",
@@ -1505,60 +1438,45 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Frostbite",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Treat Frostbite as an assassin check for Frost Peak, not as a generic roster upgrade. A spirit of the frozen wastes. Beware its icy gaze. Its Ice side matters most when the route needs snow routing and control turns. If the target window or weather is wrong, postpone the build until the team shape is cleaner.",
+    "overview": "Frostbite is the night snow assassin in Frost Peak. Frozen Soul, Ghost Stone, and Ice Crystal make it a control-removal branch rather than a broad ice farm. Use Ice Beam to start the lock, then Shadow Ball or Hypnosis only if the target must disappear quickly.",
     "how_to_get": [
-      "Frostbite starts in Frost Peak; confirm the Night / Snow window before turning the route into a farm.",
-      "Scout Frost Peak once with a cheap team and mark the shortest branch that reaches Frostbite.",
-      "Save Frozen Soul for the second or third Frostbite attempt, after the path and weather both line up.",
-      "Use Ice Beam and Shadow Ball as the first skill check for Frostbite; if they do not improve early target removal, pause the build.",
-      "Repeat Frost Peak for Frostbite only when Ghost Stone and Ice Crystal support the next recipe, upgrade, or team change."
+      "Use Night / Snow and save Frozen Soul for a mapped branch.",
+      "Open with Ice Beam before committing to Shadow Ball.",
+      "Avalanche is a payoff only when the route already survives the opener.",
+      "Exit after Ghost Stone or Ice Crystal is checked."
     ],
     "best_use": [
-      "Compare Frostbite with Glacior before spending Frozen Soul: Frostbite should win by removing the key target earlier, while Glacior may still be better for Ice/Water coverage or a cheaper check.",
-      "Open the test with Ice Beam for its control turn, then watch whether Shadow Ball adds a second ambush window or just slows the clear.",
-      "Frostbite's Ice coverage is most valuable on the branch where +35% Ice drops and Snow both support the same objective.",
-      "The Ghost side gives Frostbite a second use case, but only if the team is not already covering that matchup through Tidlet, Glacior, and Snorizard.",
-      "Frostbite should be upgraded after Ghost Stone and Ice Crystal have a named use; otherwise the farm becomes a slow way to fill storage."
+      "Best for ghost-ice material overlap.",
+      "Choose Frostbite when Glacior is too passive.",
+      "Hypnosis is useful only if the target branch is dangerous."
     ],
     "team_tips": [
-      "Frostbite is easier to evaluate when the backup slot covers slow clears after the target check; without that cover, failed runs can blame the wrong Pokemon.",
-      "In Frost Peak, Tidlet, Glacior, and Snorizard compete for the same session time; choose Frostbite when its assassin job is the missing piece.",
-      "Pair Frostbite with a safety pick that covers failed burst attempts; that lets the team measure early target removal instead of guessing from one lucky clear.",
-      "A good Frostbite team keeps Ice Beam available for the target check and avoids wasting Shadow Ball on throwaway encounters."
+      "Bring a finisher that benefits from control.",
+      "Do not combine it with every Frost Peak material goal.",
+      "Use Ice Armor later, not on the scout."
     ],
     "farming_notes": [
-      "Only start a serious Frostbite farm during Night / Snow; outside that window, the route is useful for scouting but poor for judging value.",
-      "Frozen Soul should be saved for repeat attempts where the path to Frostbite is already short and safe.",
-      "Track Ghost Stone and Ice Crystal separately after each clear. For Frostbite, if one material is finished, change the exit point instead of full-clearing Frost Peak.",
-      "A first clear should note where Ice Beam and Avalanche matter; the second clear should decide whether those skills justify another run."
+      "Frozen Soul is a high-value spend.",
+      "Night / Snow is mandatory for meaningful attempts.",
+      "Stop after the ghost-ice target is answered."
     ],
     "common_mistakes": [
-      "Keeping Frostbite in the party after it stops shortening the target branch.",
-      "Letting Hypnosis decide the build before Ice Beam and Shadow Ball prove the core route plan.",
-      "Full-clearing Frost Peak when the actual goal is a short Frostbite check.",
-      "Building Frostbite because it is rare before confirming that Frost Peak actually needs fast target removal before the route becomes expensive.",
-      "Spending Frozen Soul on a blind scout instead of saving it for a mapped Night / Snow attempt."
+      "Using Frostbite like a support page.",
+      "Spending Frozen Soul before the branch is safe.",
+      "Ignoring Ice Crystal value after Ghost Stone is finished."
     ],
     "faqs": [
       {
-        "question": "Where do you find Frostbite in Pokopia?",
-        "answer": "Frostbite is found in Frost Peak. For Frostbite, use the Night / Snow window and repeat the shortest route only after one clean scout run."
+        "question": "Where do you find Frostbite?",
+        "answer": "Frostbite appears on Frost Peak during Night / Snow. Frozen Soul should wait for a mapped ghost-ice branch."
       },
       {
-        "question": "What is Frostbite's favorite food?",
-        "answer": "Frostbite's favorite food is Frozen Soul. Save Frozen Soul for mapped Frostbite attempts rather than spending it on the first scouting pass."
-      },
-      {
-        "question": "Is Frostbite worth building?",
-        "answer": "Frostbite is worth building when Frost Peak needs fast target removal before the route becomes expensive and Ice coverage helps the target branch. If the route fails before Frostbite can use that role, fix the team shape first."
+        "question": "What is Frostbite best used for?",
+        "answer": "Frostbite is for Ghost Stone, Ice Crystal, and quick control-removal plans."
       },
       {
         "question": "What does Frostbite drop?",
-        "answer": "Frostbite drops Ghost Stone and Ice Crystal. For Frostbite, compare material value with route time so the farm does not continue after the useful drop is finished."
-      },
-      {
-        "question": "Which pages should you read with Frostbite?",
-        "answer": "Read the Frost Peak habitat page with Frostbite, then compare Glacior and Ice Armor before spending more food."
+        "answer": "Frostbite drops Ghost Stone and Ice Crystal. Repeat when both the night window and material goal line up."
       }
     ],
     "updated_at": "2026-05-26",
@@ -1860,60 +1778,45 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Dewdrop",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Treat Dewdrop as a support pick check for Crystal Lake, not as a generic roster upgrade. A water droplet with fairy-like properties. Its Water side matters most when the route needs rain routing and steady resource loops. If the real problem is missing damage, postpone the build until the team shape is cleaner.",
+    "overview": "Dewdrop is the morning Rain utility page for Crystal Lake. It sits between Aquap's simple support and Fairy Glen's rarer support materials, giving Water Stone and Star Piece value with Moonblast and Charm. Use Crystal Dew when the lake needs utility, not raw damage.",
     "how_to_get": [
-      "Find Dewdrop through the Morning / Rain route in Crystal Lake, then compare the result with Aquap and Aquashell.",
-      "Run Crystal Lake without rare recipe help first so the Dewdrop route shows its real timing.",
-      "Bring Crystal Dew only when the branch to Dewdrop is already mapped and safe.",
-      "Build around Dewdrop when Crystal Lake needs better recovery, setup, or status support, not simply because the database lists it as uncommon.",
-      "Stop after the Dewdrop material check if Water Stone and Star Piece no longer match the active goal."
+      "Use Morning / Rain and map the Dewdrop path before spending Crystal Dew.",
+      "Moonblast tests the fairy side; Aqua Jet keeps the route moving.",
+      "Charm matters when the branch is costing too much health.",
+      "Stop after Water Stone or Star Piece is checked."
     ],
     "best_use": [
-      "If Water Shield is part of the route, test Dewdrop once without it first so the recipe is proving a repeat plan rather than covering bad pathing.",
-      "Dewdrop is worth fielding when Crystal Lake needs recovery, setup, or status support across repeated clears; if the real problem is missing damage, adjust the supporting slot first.",
-      "Compare Dewdrop with Aquap before spending Crystal Dew: Dewdrop should win on resources saved before the final target check, while Aquap may still be better for Water coverage or a cheaper check.",
-      "Open the test with Moonblast for its utility swing, then watch whether Aqua Jet adds rain-safe pressure or just slows the clear.",
-      "Dewdrop's Water coverage is most valuable on the branch where +40% Water drops and Rain both support the same objective."
+      "Best for Star Piece and water-fairy utility.",
+      "Choose Dewdrop when Aquap is too basic but Fairy Glen is unnecessary.",
+      "Muddy Water should support the route, not extend it."
     ],
     "team_tips": [
-      "If Aquap is already carrying the route, use Dewdrop as a focused alternative rather than a second copy of the same job.",
-      "Dewdrop is easier to evaluate when the backup slot covers dry sessions with weak drop value; without that cover, failed runs can blame the wrong Pokemon.",
-      "In Crystal Lake, Aquap and Aquashell compete for the same session time; choose Dewdrop when its support job is the missing piece.",
-      "Pair Dewdrop with a focused attacker that benefits from longer fights; that lets the team measure items and health saved before the final target check instead of guessing from one lucky clear."
+      "Pair with a stronger finisher.",
+      "Avoid taking Dewdrop into pure shell-defense goals.",
+      "Use it to smooth early Rain paths."
     ],
     "farming_notes": [
-      "Stop the hunt once resources saved before the final target check stops improving; more Dewdrop attempts are not automatically better content for the build.",
-      "Only start a serious Dewdrop farm during Morning / Rain; outside that window, the route is useful for scouting but poor for judging value.",
-      "Crystal Dew should be saved for repeat attempts where the path to Dewdrop is already short and safe.",
-      "Track Water Stone and Star Piece separately after each clear. For Dewdrop, if one material is finished, change the exit point instead of full-clearing Crystal Lake."
+      "Crystal Dew should pay for Star Piece or clear utility.",
+      "Do not over-clear Crystal Lake after the support check.",
+      "Compare with Aquap before repeating."
     ],
     "common_mistakes": [
-      "Treating Water Stone and Star Piece as valuable without linking them to a recipe, upgrade, or team change.",
-      "Comparing Dewdrop to Aquap only by rarity and ignoring support value, food cost, and route timing.",
-      "Keeping Dewdrop in the party after resources saved before the final target check stops improving.",
-      "Letting Charm decide the build before Moonblast and Aqua Jet prove the core route plan.",
-      "Full-clearing Crystal Lake when the actual goal is a short Dewdrop check."
+      "Treating Dewdrop like a rare Fairy Glen target.",
+      "Spending Crystal Dew for basic Water Stone only.",
+      "Ignoring Morning timing."
     ],
     "faqs": [
       {
-        "question": "Where do you find Dewdrop in Pokopia?",
-        "answer": "Dewdrop is found in Crystal Lake. For Dewdrop, use the Morning / Rain window and repeat the shortest route only after one clean scout run."
+        "question": "Where do you find Dewdrop?",
+        "answer": "Dewdrop appears in Crystal Lake during Morning / Rain. Crystal Dew should be used on mapped utility attempts."
       },
       {
-        "question": "What is Dewdrop's favorite food?",
-        "answer": "Dewdrop's favorite food is Crystal Dew. Save Crystal Dew for mapped Dewdrop attempts rather than spending it on the first scouting pass."
-      },
-      {
-        "question": "Is Dewdrop worth building?",
-        "answer": "Dewdrop is worth building when Crystal Lake needs better recovery, setup, or status support and Water coverage helps the target branch. If the route fails before Dewdrop can use that role, fix the team shape first."
+        "question": "What is Dewdrop best used for?",
+        "answer": "Dewdrop is for Star Piece, Water Stone, Moonblast utility, and smoother lake support."
       },
       {
         "question": "What does Dewdrop drop?",
-        "answer": "Dewdrop drops Water Stone and Star Piece. For Dewdrop, compare material value with route time so the farm does not continue after the useful drop is finished."
-      },
-      {
-        "question": "Which pages should you read with Dewdrop?",
-        "answer": "Read the Crystal Lake habitat page with Dewdrop, then compare Aquap and Water Shield before spending more food."
+        "answer": "Dewdrop drops Water Stone and Star Piece. Stop when the support material is complete."
       }
     ],
     "updated_at": "2026-05-26",
@@ -1939,60 +1842,45 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Magmar",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Magmar belongs in Volcanic Cave planning when fire pressure and burn-oriented materials and shorter known fights and reliable damage windows point to the same target branch. A living flame. Can melt any material. Use the Night / Clear window as the first filter, then compare route time before and after Flamethrower. Keep farming only while Fire Stone and Magma Core still matter.",
+    "overview": "Magmar is the Magma Core branch in Volcanic Cave. It is more focused than Charmuddy and cheaper than the rare fire-steel targets, making it useful when Night / Clear fire pressure and core material value line up. Flamethrower should shorten a known branch, not start a blind full clear.",
     "how_to_get": [
-      "Magmar starts in Volcanic Cave; confirm the Night / Clear window before turning the route into a farm.",
-      "Scout Volcanic Cave once with a cheap team and mark the shortest branch that reaches Magmar.",
-      "Save Magma Stone for the second or third Magmar attempt, after the path and weather both line up.",
-      "Use Flamethrower and Fire Punch as the first skill check for Magmar; if they do not improve turns saved on the hardest repeat fight, pause the build.",
-      "Repeat Volcanic Cave for Magmar only when Fire Stone and Magma Core support the next recipe, upgrade, or team change."
+      "Use Night / Clear and bring Magma Stone only for the Magmar branch.",
+      "Flamethrower starts the damage check; Thunder Punch is the coverage test.",
+      "Will-O-Wisp matters if the branch is unsafe.",
+      "Leave after Fire Stone or Magma Core is checked."
     ],
     "best_use": [
-      "Magmar is worth fielding when Volcanic Cave needs shorter known fights and reliable damage windows; if the route collapses before damage windows open, adjust the supporting slot first.",
-      "Compare Magmar with Pikafire before spending Magma Stone: Magmar should win on turns saved on the hardest repeat fight, while Pikafire may still be better for Fire/Electric coverage or a cheaper check.",
-      "Open the test with Flamethrower for its damage spike, then watch whether Fire Punch adds damage spike or just slows the clear.",
-      "Magmar's Fire coverage is most valuable on the branch where +50% Fire drops and Clear/Sunny both support the same objective.",
-      "Magmar has a single-type plan, so avoid forcing it into matchups that ask for coverage outside Fire."
+      "Best for Magma Core and focused fire pressure.",
+      "Choose Magmar when Charmuddy is too basic and Flamexor is too expensive.",
+      "Fire Punch should not be the only reason to repeat."
     ],
     "team_tips": [
-      "Magmar is easier to evaluate when the backup slot covers long defensive checks; without that cover, failed runs can blame the wrong Pokemon.",
-      "In Volcanic Cave, Pikafire, Charmuddy, and Flamexor compete for the same session time; choose Magmar when its attacker job is the missing piece.",
-      "Pair Magmar with a defender or support pick that keeps the opening stable; that lets the team measure turns saved on the hardest repeat fight instead of guessing from one lucky clear.",
-      "A good Magmar team keeps Flamethrower available for the target check and avoids wasting Fire Punch on throwaway encounters."
+      "Bring one defensive answer for risky fire fights.",
+      "Do not mix Magmar with every rare cave target.",
+      "Use Fire Boost after the branch is proven."
     ],
     "farming_notes": [
-      "Only start a serious Magmar farm during Night / Clear; outside that window, the route is useful for scouting but poor for judging value.",
-      "Magma Stone should be saved for repeat attempts where the path to Magmar is already short and safe.",
-      "Track Fire Stone and Magma Core separately after each clear. For Magmar, if one material is finished, change the exit point instead of full-clearing Volcanic Cave.",
-      "A first clear should note where Flamethrower and Thunder Punch matter; the second clear should decide whether those skills justify another run."
+      "Magma Core is the main signal to continue.",
+      "Magma Stone is wasted on general Fire Stone farming.",
+      "Night / Clear should be checked before every serious pass."
     ],
     "common_mistakes": [
-      "Comparing Magmar to Pikafire only by rarity and ignoring attacker value, food cost, and route timing.",
-      "Keeping Magmar in the party after turns saved on the hardest repeat fight stops improving.",
-      "Letting Will-O-Wisp decide the build before Flamethrower and Fire Punch prove the core route plan.",
-      "Full-clearing Volcanic Cave when the actual goal is a short Magmar check.",
-      "Building Magmar because it is uncommon before confirming that Volcanic Cave actually needs shorter known fights and reliable damage windows."
+      "Using Magmar as a generic fire page.",
+      "Spending Magma Stone before the branch is mapped.",
+      "Ignoring Magma Core after Fire Stone is done."
     ],
     "faqs": [
       {
-        "question": "Where do you find Magmar in Pokopia?",
-        "answer": "Magmar is found in Volcanic Cave. For Magmar, use the Night / Clear window and repeat the shortest route only after one clean scout run."
+        "question": "Where do you find Magmar?",
+        "answer": "Magmar appears in Volcanic Cave during Night / Clear. Magma Stone should be saved for the Magma Core branch."
       },
       {
-        "question": "What is Magmar's favorite food?",
-        "answer": "Magmar's favorite food is Magma Stone. Save Magma Stone for mapped Magmar attempts rather than spending it on the first scouting pass."
-      },
-      {
-        "question": "Is Magmar worth building?",
-        "answer": "Magmar is worth building when Volcanic Cave needs shorter known fights and Fire coverage helps the target branch. If the route fails before Magmar can use that role, fix the team shape first."
+        "question": "What is Magmar best used for?",
+        "answer": "Magmar is for focused fire pressure and Magma Core, not generic Fire Stone farming."
       },
       {
         "question": "What does Magmar drop?",
-        "answer": "Magmar drops Fire Stone and Magma Core. For Magmar, compare material value with route time so the farm does not continue after the useful drop is finished."
-      },
-      {
-        "question": "Which pages should you read with Magmar?",
-        "answer": "Read the Volcanic Cave habitat page with Magmar, then compare Pikafire and Fire Boost before spending more food."
+        "answer": "Magmar drops Fire Stone and Magma Core. Magma Core is the main reason to repeat."
       }
     ],
     "updated_at": "2026-05-26",
@@ -2018,60 +1906,45 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Snorizard",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Snorizard is an attacker option tied to Frost Peak, Any / Snow, and Dragon Scale and Ice Stone. A rare dragon that lives in icy mountains. The practical test is simple: does Snorizard improve turns saved on the hardest repeat fight without forcing extra full clears? Ice Armor can help later, but the first scout should prove the path without it.",
+    "overview": "Snorizard is the Dragon / Ice payoff in Frost Peak. Frost Meat, Dragon Scale, Ice Stone, and Draco Meteor make it a rare damage route, not a support climb. Use it when the team can survive Snow and still needs dragon material value.",
     "how_to_get": [
-      "Find Snorizard through the Any / Snow route in Frost Peak, then compare the result with Tidlet, Glacior, and Frostbite.",
-      "Run Frost Peak without rare recipe help first so the Snorizard route shows its real timing.",
-      "Bring Frost Meat only when the branch to Snorizard is already mapped and safe.",
-      "Build around Snorizard when Frost Peak needs shorter known fights, not simply because the database lists it as rare.",
-      "Stop after the Snorizard material check if Dragon Scale and Ice Stone no longer match the active goal."
+      "Use Any / Snow and map the Snorizard climb before spending Frost Meat.",
+      "Draco Meteor is the main test; Icicle Spear confirms the ice side.",
+      "Dragon Dance matters only on repeat attempts.",
+      "Exit after Dragon Scale or Ice Stone is checked."
     ],
     "best_use": [
-      "Compare Snorizard with Tidlet before spending Frost Meat: Snorizard should win on turns saved on the hardest repeat fight, while Tidlet may still be better for Normal coverage or a cheaper check.",
-      "Open the test with Draco Meteor for its high-commitment burst, then watch whether Icicle Spear adds control turn or just slows the clear.",
-      "Snorizard's Dragon coverage is most valuable on the branch where +35% Ice drops and Snow both support the same objective.",
-      "The Ice side gives Snorizard a second use case, but only if the team is not already covering that matchup through Tidlet, Glacior, and Frostbite.",
-      "Snorizard should be upgraded after Dragon Scale and Ice Stone have a named use; otherwise the farm becomes a slow way to fill storage."
+      "Best for Dragon Scale inside an ice habitat.",
+      "Choose Snorizard when Glacior lacks damage payoff.",
+      "Extreme Speed should finish a known branch."
     ],
     "team_tips": [
-      "In Frost Peak, Tidlet, Glacior, and Frostbite compete for the same session time; choose Snorizard when its attacker job is the missing piece.",
-      "Pair Snorizard with a defender or support pick that keeps the opening stable; that lets the team measure turns saved on the hardest repeat fight instead of guessing from one lucky clear.",
-      "A good Snorizard team keeps Draco Meteor available for the target check and avoids wasting Icicle Spear on throwaway encounters.",
-      "Defense Build works best with Snorizard when the build supports high-commitment boss pressure and rare material hunts, not when it simply stacks the rarest local Pokemon."
+      "Bring survival support before chasing damage.",
+      "Avoid mixing Snorizard with low-cost Fur or Cloth goals.",
+      "Use Ice Armor only after the climb is known."
     ],
     "farming_notes": [
-      "Frost Meat should be saved for repeat attempts where the path to Snorizard is already short and safe.",
-      "Track Dragon Scale and Ice Stone separately after each clear. For Snorizard, if one material is finished, change the exit point instead of full-clearing Frost Peak.",
-      "A first clear should note where Draco Meteor and Dragon Dance matter; the second clear should decide whether those skills justify another run.",
-      "When farming Snorizard alongside Tidlet, split the session into target checks instead of trying to solve every local farm at once."
+      "Frost Meat is a rare damage spend.",
+      "Dragon Scale should be the reason to repeat.",
+      "Stop if Snow pressure consumes too many resources."
     ],
     "common_mistakes": [
-      "Keeping Snorizard in the party after turns saved on the hardest repeat fight stops improving.",
-      "Letting Extreme Speed decide the build before Draco Meteor and Icicle Spear prove the core route plan.",
-      "Full-clearing Frost Peak when the actual goal is a short Snorizard check.",
-      "Building Snorizard because it is rare before confirming that Frost Peak actually needs shorter known fights and reliable damage windows.",
-      "Spending Frost Meat on a blind scout instead of saving it for a mapped Any / Snow attempt."
+      "Treating Snorizard like Tidlet or Glacior.",
+      "Using Frost Meat on a scout.",
+      "Continuing after Dragon Scale is no longer needed."
     ],
     "faqs": [
       {
-        "question": "Where do you find Snorizard in Pokopia?",
-        "answer": "Snorizard is found in Frost Peak. For Snorizard, use the Any / Snow window and repeat the shortest route only after one clean scout run."
+        "question": "Where do you find Snorizard?",
+        "answer": "Snorizard appears on Frost Peak during Any / Snow. Frost Meat should be spent after the climb is mapped."
       },
       {
-        "question": "What is Snorizard's favorite food?",
-        "answer": "Snorizard's favorite food is Frost Meat. Save Frost Meat for mapped Snorizard attempts rather than spending it on the first scouting pass."
-      },
-      {
-        "question": "Is Snorizard worth building?",
-        "answer": "Snorizard is worth building when Frost Peak needs shorter known fights and Dragon coverage helps the target branch. If the route fails before Snorizard can use that role, fix the team shape first."
+        "question": "What is Snorizard best used for?",
+        "answer": "Snorizard is for Dragon Scale inside an ice habitat, with Draco Meteor as the main payoff."
       },
       {
         "question": "What does Snorizard drop?",
-        "answer": "Snorizard drops Dragon Scale and Ice Stone. For Snorizard, compare material value with route time so the farm does not continue after the useful drop is finished."
-      },
-      {
-        "question": "Which pages should you read with Snorizard?",
-        "answer": "Read the Frost Peak habitat page with Snorizard, then compare Tidlet and Ice Armor before spending more food."
+        "answer": "Snorizard drops Dragon Scale and Ice Stone. Repeat only while dragon material value is active."
       }
     ],
     "updated_at": "2026-05-26",
@@ -2097,60 +1970,45 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Shadowclaw",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Shadowclaw is an Dark/Ghost assassin for Shadow Marsh. The legendary shadow beast. Master of darkness. In practice, build Shadowclaw when Shadow Marsh needs fast target removal before the route becomes expensive; test it during Night / Stormy and judge it by early target removal. Shadow Stone and King's Rock make the farm worth repeating only when they support the next upgrade or recipe.",
+    "overview": "Shadowclaw is the premium Dark / Ghost assassin in Shadow Marsh. Void Fruit, Shadow Stone, and King's Rock make it a high-risk branch that should be narrower than a full marsh farm. Shadow Claw and Phantom Strike need to remove the target before the route becomes expensive.",
     "how_to_get": [
-      "Shadowclaw starts in Shadow Marsh; confirm the Night / Stormy window before turning the route into a farm.",
-      "Scout Shadow Marsh once with a cheap team and mark the shortest branch that reaches Shadowclaw.",
-      "Save Void Fruit for the second or third Shadowclaw attempt, after the path and weather both line up.",
-      "Use Shadow Claw and Phantom Strike as the first skill check for Shadowclaw; if they do not improve early target removal, pause the build.",
-      "Repeat Shadow Marsh for Shadowclaw only when Shadow Stone and King's Rock support the next recipe, upgrade, or team change."
+      "Use Night / Stormy and scout the Shadowclaw branch without Ghost Veil.",
+      "Spend Void Fruit only when Shadow Stone or King's Rock is the target.",
+      "Open with Shadow Claw, then test Phantom Strike on the dangerous target.",
+      "Leave after the premium dark-ghost check."
     ],
     "best_use": [
-      "Open the test with Shadow Claw for its ambush window, then watch whether Phantom Strike adds a second ambush window or just slows the clear.",
-      "Shadowclaw's Dark coverage is most valuable on the branch where +60% Ghost drops and Stormy/Night both support the same objective.",
-      "The Ghost side gives Shadowclaw a second use case, but only if the team is not already covering that matchup through Shados, Lunaflare, and Nightfall.",
-      "Shadowclaw should be upgraded after Shadow Stone and King's Rock have a named use; otherwise the farm becomes a slow way to fill storage.",
-      "If Ghost Veil is part of the route, test Shadowclaw once without it first so the recipe is proving a repeat plan rather than covering bad pathing."
+      "Best for Shadow Stone and King's Rock.",
+      "Choose Shadowclaw when Shados is too small and Dark Cavern is too narrow.",
+      "Sucker Punch is a cleanup tool, not the route plan."
     ],
     "team_tips": [
-      "Pair Shadowclaw with a safety pick that covers failed burst attempts; that lets the team measure early target removal instead of guessing from one lucky clear.",
-      "A good Shadowclaw team keeps Shadow Claw available for the target check and avoids wasting Phantom Strike on throwaway encounters.",
-      "Stealth Build works best with Shadowclaw when the build supports pickoff routes, late-window checks, and dark material farming, not when it simply stacks the rarest local Pokemon.",
-      "If Shados is already carrying the route, use Shadowclaw as a focused alternative rather than a second copy of the same job."
+      "Bring a recovery backup for failed assassination attempts.",
+      "Avoid bundling Shadowclaw with Lunaflare in the same food plan.",
+      "Use Ghost Veil after the branch proves repeatable."
     ],
     "farming_notes": [
-      "Track Shadow Stone and King's Rock separately after each clear. For Shadowclaw, if one material is finished, change the exit point instead of full-clearing Shadow Marsh.",
-      "A first clear should note where Shadow Claw and Crunch matter; the second clear should decide whether those skills justify another run.",
-      "When farming Shadowclaw alongside Shados, split the session into target checks instead of trying to solve every local farm at once.",
-      "Stop the Shadowclaw hunt once early target removal no longer shortens the route; extra attempts should have a material reason."
+      "Void Fruit cost should decide how many attempts are reasonable.",
+      "King's Rock is the premium reason to stay.",
+      "Stop after the shadow branch is answered."
     ],
     "common_mistakes": [
-      "Letting Sucker Punch decide the build before Shadow Claw and Phantom Strike prove the core route plan.",
-      "Full-clearing Shadow Marsh when the actual goal is a short Shadowclaw check.",
-      "Building Shadowclaw because it is legendary before confirming that Shadow Marsh actually needs fast target removal before the route becomes expensive.",
-      "Spending Void Fruit on a blind scout instead of saving it for a mapped Night / Stormy attempt.",
-      "Treating Shadow Stone and King's Rock as valuable without linking them to a recipe, upgrade, or team change."
+      "Treating Shadowclaw like a cheap ghost farm.",
+      "Spending Void Fruit without an exit rule.",
+      "Ignoring the Dark side when comparing it to Shados."
     ],
     "faqs": [
       {
-        "question": "Where do you find Shadowclaw in Pokopia?",
-        "answer": "Shadowclaw is found in Shadow Marsh. For Shadowclaw, use the Night / Stormy window and repeat the shortest route only after one clean scout run."
+        "question": "Where do you find Shadowclaw?",
+        "answer": "Shadowclaw appears in Shadow Marsh during Night / Stormy. Void Fruit should be saved for Shadow Stone or King's Rock goals."
       },
       {
-        "question": "What is Shadowclaw's favorite food?",
-        "answer": "Shadowclaw's favorite food is Void Fruit. Save Void Fruit for mapped Shadowclaw attempts rather than spending it on the first scouting pass."
-      },
-      {
-        "question": "Is Shadowclaw worth building?",
-        "answer": "Shadowclaw is worth building when Shadow Marsh needs fast target removal before the route becomes expensive and Dark coverage helps the target branch. If the route fails before Shadowclaw can use that role, fix the team shape first."
+        "question": "What is Shadowclaw best used for?",
+        "answer": "Shadowclaw is for premium Dark / Ghost assassination, not cheap ghost farming."
       },
       {
         "question": "What does Shadowclaw drop?",
-        "answer": "Shadowclaw drops Shadow Stone and King's Rock. For Shadowclaw, compare material value with route time so the farm does not continue after the useful drop is finished."
-      },
-      {
-        "question": "Which pages should you read with Shadowclaw?",
-        "answer": "Read the Shadow Marsh habitat page with Shadowclaw, then compare Shados and Ghost Veil before spending more food."
+        "answer": "Shadowclaw drops Shadow Stone and King's Rock. Stop after the premium shadow check is answered."
       }
     ],
     "updated_at": "2026-05-26",
@@ -2521,60 +2379,45 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Mossling",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Forest Valley gives Mossling a specific job: recovery, setup, or status support across repeated clears. A small moss creature. Found in damp forest areas. Start with the Any / Rain window, then spend Leaf only after the path to Mossling is mapped. The best repeat runs are the ones where Leaf and Grass Fiber have a named use.",
+    "overview": "Mossling is the damp Forest Valley sustain page. Mega Drain, Leech Seed, and Synthesis make it useful when the route needs cheap recovery while still collecting Leaf and Grass Fiber. It is calmer than Leafon or Magicalure and should stay that way.",
     "how_to_get": [
-      "Mossling starts in Forest Valley; confirm the Any / Rain window before turning the route into a farm.",
-      "Scout Forest Valley once with a cheap team and mark the shortest branch that reaches Mossling.",
-      "Save Leaf for the second or third Mossling attempt, after the path and weather both line up.",
-      "Use Mega Drain and Grow as the first skill check for Mossling; if they do not improve items and health saved before the final target check, pause the build.",
-      "Repeat Forest Valley for Mossling only when Leaf and Grass Fiber support the next recipe, upgrade, or team change."
+      "Use Any / Rain and bring Leaf only for the Mossling sustain branch.",
+      "Mega Drain is the first test; Leech Seed decides whether the route stays healthy.",
+      "Synthesis matters on repeat paths, not short scouts.",
+      "Leave once Leaf or Grass Fiber is checked."
     ],
     "best_use": [
-      "Compare Mossling with Skittlish before spending Leaf: Mossling should win on resources saved before the final target check, while Skittlish may still be better for Normal coverage or a cheaper check.",
-      "Open the test with Mega Drain for its rain-safe pressure, then watch whether Grow adds route tool or just slows the clear.",
-      "Mossling's Grass coverage is most valuable on the branch where +30% Leaf drops and Cloudy/Foggy both support the same objective.",
-      "Mossling has a single-type plan, so avoid forcing it into matchups that ask for coverage outside Grass.",
-      "Mossling should be upgraded after Leaf and Grass Fiber have a named use; otherwise the farm becomes a slow way to fill storage."
+      "Best for low-risk sustain and Grass Fiber.",
+      "Choose Mossling when Skittlish is too generic and Magicalure is too expensive.",
+      "Grow is only useful if the branch lasts long enough."
     ],
     "team_tips": [
-      "Pair Mossling with a focused attacker that benefits from longer fights; that lets the team measure items and health saved before the final target check instead of guessing from one lucky clear.",
-      "A good Mossling team keeps Mega Drain available for the target check and avoids wasting Grow on throwaway encounters.",
-      "Balanced works best with Mossling when the build supports sustain, gradual pressure, and plant material farming, not when it simply stacks the rarest local Pokemon.",
-      "If Skittlish is already carrying the route, use Mossling as a focused alternative rather than a second copy of the same job."
+      "Pair with a damage dealer that benefits from recovery.",
+      "Do not turn Mossling into a rare support hunt.",
+      "Keep food costs low."
     ],
     "farming_notes": [
-      "Track Leaf and Grass Fiber separately after each clear. For Mossling, if one material is finished, change the exit point instead of full-clearing Forest Valley.",
-      "A first clear should note where Mega Drain and Leech Seed matter; the second clear should decide whether those skills justify another run.",
-      "When farming Mossling alongside Skittlish, split the session into target checks instead of trying to solve every local farm at once.",
-      "Stop the hunt once resources saved before the final target check stops improving; more Mossling attempts are not automatically better content for the build."
+      "Leaf should remain a cheap sustain spend.",
+      "Rain makes Mossling easier to judge.",
+      "Stop after Grass Fiber is finished."
     ],
     "common_mistakes": [
-      "Keeping Mossling in the party after resources saved before the final target check stops improving.",
-      "Letting Synthesis decide the build before Mega Drain and Grow prove the core route plan.",
-      "Full-clearing Forest Valley when the actual goal is a short Mossling check.",
-      "Building Mossling because it is common before confirming that Forest Valley actually needs recovery, setup, or status support across repeated clears.",
-      "Spending Leaf on a blind scout instead of saving it for a mapped Any / Rain attempt."
+      "Using Mossling like a rare support target.",
+      "Spending Leaf when the route needs burst damage.",
+      "Ignoring its simple sustain identity."
     ],
     "faqs": [
       {
-        "question": "Where do you find Mossling in Pokopia?",
-        "answer": "Mossling is found in Forest Valley. For Mossling, use the Any / Rain window and repeat the shortest route only after one clean scout run."
+        "question": "Where do you find Mossling?",
+        "answer": "Mossling appears in Forest Valley during Any / Rain. Leaf should stay a cheap sustain spend."
       },
       {
-        "question": "What is Mossling's favorite food?",
-        "answer": "Mossling's favorite food is Leaf. Save Leaf for mapped Mossling attempts rather than spending it on the first scouting pass."
-      },
-      {
-        "question": "Is Mossling worth building?",
-        "answer": "Mossling is worth building when Forest Valley needs better recovery, setup, or status support and Grass coverage helps the target branch. If the route fails before Mossling can use that role, fix the team shape first."
+        "question": "What is Mossling best used for?",
+        "answer": "Mossling is for Mega Drain, Leech Seed, Leaf, and Grass Fiber in calm sustain loops."
       },
       {
         "question": "What does Mossling drop?",
-        "answer": "Mossling drops Leaf and Grass Fiber. For Mossling, compare material value with route time so the farm does not continue after the useful drop is finished."
-      },
-      {
-        "question": "Which pages should you read with Mossling?",
-        "answer": "Read the Forest Valley habitat page with Mossling, then compare Skittlish and Honey Cake before spending more food."
+        "answer": "Mossling drops Leaf and Grass Fiber. Repeat while the route needs low-risk recovery value."
       }
     ],
     "updated_at": "2026-05-26",
@@ -2669,60 +2512,45 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Mysticat",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Mysticat belongs in Ancient Ruins planning when setup turns and precision clears and recovery, setup, or status support across repeated clears point to the same target branch. A mysterious cat with psychic powers. Very rare to encounter. Use the Night / Clear window as the first filter, then compare route time before and after Psychic. Keep farming only while Psy Crystal and Star Piece still matter.",
+    "overview": "Mysticat is a rare Ancient Ruins screen setter. Psychic, Reflect, and Light Screen make it useful when a ruin branch is dangerous but still worth repeating for Psy Crystal or Star Piece. It is a precision support target, not a general healer.",
     "how_to_get": [
-      "Mysticat starts in Ancient Ruins; confirm the Night / Clear window before turning the route into a farm.",
-      "Scout Ancient Ruins once with a cheap team and mark the shortest branch that reaches Mysticat.",
-      "Save Star Sweet for the second or third Mysticat attempt, after the path and weather both line up.",
-      "Use Psychic and Moonblast as the first skill check for Mysticat; if they do not improve items and health saved before the final target check, pause the build.",
-      "Repeat Ancient Ruins for Mysticat only when Psy Crystal and Star Piece support the next recipe, upgrade, or team change."
+      "Use Night / Clear and save Star Sweet for a known ruin branch.",
+      "Test Psychic first, then decide whether Reflect or Light Screen changes the second fight.",
+      "Avoid using Steel Shell until Mysticat's own support value is visible.",
+      "Leave after Psy Crystal or Star Piece is checked."
     ],
     "best_use": [
-      "Mysticat's Psychic coverage is most valuable on the branch where +45% Metal drops and Cloudy both support the same objective.",
-      "The Fairy side gives Mysticat a second use case, but only if the team is not already covering that matchup through Bronzorm and Ironclaw.",
-      "Mysticat should be upgraded after Psy Crystal and Star Piece have a named use; otherwise the farm becomes a slow way to fill storage.",
-      "If Steel Shell is part of the route, test Mysticat once without it first so the recipe is proving a repeat plan rather than covering bad pathing.",
-      "Mysticat is worth fielding when Ancient Ruins needs recovery, setup, or status support across repeated clears; if the real problem is missing damage, adjust the supporting slot first."
+      "Best for Psy Crystal and Star Piece with screen support.",
+      "Choose Mysticat when Ancient Ruins needs prevention, not recovery.",
+      "It should not be evaluated like Glacior or generic support."
     ],
     "team_tips": [
-      "Treasure Build works best with Mysticat when the build supports setup, control, and precision clears, not when it simply stacks the rarest local Pokemon.",
-      "If Bronzorm is already carrying the route, use Mysticat as a focused alternative rather than a second copy of the same job.",
-      "Mysticat is easier to evaluate when the backup slot covers unprotected openers; without that cover, failed runs can blame the wrong Pokemon.",
-      "In Ancient Ruins, Bronzorm and Ironclaw compete for the same session time; choose Mysticat when its support job is the missing piece."
+      "Pair Mysticat with a slow attacker that needs screens.",
+      "Do not stack it with support that solves the same damage window.",
+      "Use Star Sweet only for branches where Reflect or Light Screen matters."
     ],
     "farming_notes": [
-      "When farming Mysticat alongside Bronzorm, split the session into target checks instead of trying to solve every local farm at once.",
-      "Stop the hunt once resources saved before the final target check stops improving; more Mysticat attempts are not automatically better content for the build.",
-      "Only start a serious Mysticat farm during Night / Clear; outside that window, the route is useful for scouting but poor for judging value.",
-      "Star Sweet should be saved for repeat attempts where the path to Mysticat is already short and safe."
+      "Track whether screens prevented item use.",
+      "Psy Crystal is the primary reason to repeat.",
+      "Star Piece is a bonus only if the route stays efficient."
     ],
     "common_mistakes": [
-      "Full-clearing Ancient Ruins when the actual goal is a short Mysticat check.",
-      "Building Mysticat because it is rare before confirming that Ancient Ruins actually needs recovery, setup, or status support across repeated clears.",
-      "Spending Star Sweet on a blind scout instead of saving it for a mapped Night / Clear attempt.",
-      "Treating Psy Crystal and Star Piece as valuable without linking them to a recipe, upgrade, or team change.",
-      "Comparing Mysticat to Bronzorm only by rarity and ignoring support value, food cost, and route timing."
+      "Treating Mysticat like a healer.",
+      "Spending Star Sweet on an unmapped ruin path.",
+      "Ignoring screen timing and judging only damage."
     ],
     "faqs": [
       {
-        "question": "Where do you find Mysticat in Pokopia?",
-        "answer": "Mysticat is found in Ancient Ruins. For Mysticat, use the Night / Clear window and repeat the shortest route only after one clean scout run."
+        "question": "Where do you find Mysticat?",
+        "answer": "Mysticat appears around Ancient Ruins during Night / Clear. Star Sweet should wait until the screen-support branch is known."
       },
       {
-        "question": "What is Mysticat's favorite food?",
-        "answer": "Mysticat's favorite food is Star Sweet. Save Star Sweet for mapped Mysticat attempts rather than spending it on the first scouting pass."
-      },
-      {
-        "question": "Is Mysticat worth building?",
-        "answer": "Mysticat is worth building when Ancient Ruins needs better recovery, setup, or status support and Psychic coverage helps the target branch. If the route fails before Mysticat can use that role, fix the team shape first."
+        "question": "What is Mysticat best used for?",
+        "answer": "Mysticat is for Reflect, Light Screen, Psy Crystal, and Star Piece planning."
       },
       {
         "question": "What does Mysticat drop?",
-        "answer": "Mysticat drops Psy Crystal and Star Piece. For Mysticat, compare material value with route time so the farm does not continue after the useful drop is finished."
-      },
-      {
-        "question": "Which pages should you read with Mysticat?",
-        "answer": "Read the Ancient Ruins habitat page with Mysticat, then compare Bronzorm and Steel Shell before spending more food."
+        "answer": "Mysticat drops Psy Crystal and Star Piece. It is worth repeating when screens prevent item loss."
       }
     ],
     "updated_at": "2026-05-26",
@@ -2748,60 +2576,45 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Boulderchin",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Boulderchin is a defender option tied to Gemstone Canyon, Any / Sunny, and Stone and Rock Fragment. A sturdy chin Pokemon. Made entirely of rock. The practical test is simple: does Boulderchin improve bad openings converted into usable clears without forcing extra full clears? Muddy Swirl can help later, but the first scout should prove the path without it.",
+    "overview": "Boulderchin is a simple Sunny stone wall for Gemstone Canyon. It shares Stone and Rock Fragment logic with Rockler, but Boulderchin is about Take Down, Bulldoze, and holding a sunny branch rather than teaching the basic mining loop. Use it when the canyon needs extra physical stability.",
     "how_to_get": [
-      "Find Boulderchin through the Any / Sunny route in Gemstone Canyon, then compare the result with Rockler, Crystion, and Galebender.",
-      "Run Gemstone Canyon without rare recipe help first so the Boulderchin route shows its real timing.",
-      "Bring Stone only when the branch to Boulderchin is already mapped and safe.",
-      "Build around Boulderchin when Gemstone Canyon needs safer openings and fewer failed scout runs, not simply because the database lists it as common.",
-      "Stop after the Boulderchin material check if Stone and Rock Fragment no longer match the active goal."
+      "Use Any / Sunny and bring Stone only after the branch is known.",
+      "Rock Throw checks the first target; Take Down tests whether Boulderchin can finish without extra help.",
+      "Stealth Rock is useful when the branch repeats.",
+      "Stop after Stone or Rock Fragment progress is clear."
     ],
     "best_use": [
-      "Boulderchin has a single-type plan, so avoid forcing it into matchups that ask for coverage outside Rock.",
-      "Boulderchin should be upgraded after Stone and Rock Fragment have a named use; otherwise the farm becomes a slow way to fill storage.",
-      "If Muddy Swirl is part of the route, test Boulderchin once without it first so the recipe is proving a repeat plan rather than covering bad pathing.",
-      "Boulderchin is worth fielding when Gemstone Canyon needs safer openings and fewer failed scout runs; if the team already survives comfortably, adjust the supporting slot first.",
-      "Compare Boulderchin with Rockler before spending Stone: Boulderchin should win on repeat-run value, while Rockler may still be better for Rock/Ground coverage or a cheaper check."
+      "Best for a sturdier Rock Fragment pass.",
+      "Choose Boulderchin over Rockler when Sunny branch durability matters.",
+      "Bulldoze is the reason to test it beyond basic stone farming."
     ],
     "team_tips": [
-      "If Rockler is already carrying the route, use Boulderchin as a focused alternative rather than a second copy of the same job.",
-      "Boulderchin is easier to evaluate when the backup slot covers fast enemies that ignore the slower plan; without that cover, failed runs can blame the wrong Pokemon.",
-      "In Gemstone Canyon, Rockler, Crystion, and Galebender compete for the same session time; choose Boulderchin when its defender job is the missing piece.",
-      "Pair Boulderchin with a defender or support pick that keeps the opening stable; that lets the team measure repeat-run value instead of guessing from one lucky clear."
+      "Pair with support that offsets Take Down risk.",
+      "Do not use it for Crystal Shard or Diamond goals.",
+      "Keep the team focused on stone output."
     ],
     "farming_notes": [
-      "Stop the hunt once repeat-run value stops improving; more Boulderchin attempts are not automatically better content for the build.",
-      "Only start a serious Boulderchin farm during Any / Sunny; outside that window, the route is useful for scouting but poor for judging value.",
-      "Stone should be saved for repeat attempts where the path to Boulderchin is already short and safe.",
-      "Track Stone and Rock Fragment separately after each clear. For Boulderchin, if one material is finished, change the exit point instead of full-clearing Gemstone Canyon."
+      "Stone food should not be spent on rare canyon branches.",
+      "Compare the yield with Rockler after two runs.",
+      "Leave when Rock Fragment stops mattering."
     ],
     "common_mistakes": [
-      "Building Boulderchin because it is common before confirming that Gemstone Canyon actually needs safer openings and fewer failed scout runs.",
-      "Spending Stone on a blind scout instead of saving it for a mapped Any / Sunny attempt.",
-      "Treating Stone and Rock Fragment as valuable without linking them to a recipe, upgrade, or team change.",
-      "Comparing Boulderchin to Rockler only by rarity and ignoring defender value, food cost, and route timing.",
-      "Keeping Boulderchin in the party after repeat-run value stops improving."
+      "Treating Boulderchin like Shados or other rare-target pages.",
+      "Using it for gem farming.",
+      "Ignoring Sunny branch stability."
     ],
     "faqs": [
       {
-        "question": "Where do you find Boulderchin in Pokopia?",
-        "answer": "Boulderchin is found in Gemstone Canyon. For Boulderchin, use the Any / Sunny window and repeat the shortest route only after one clean scout run."
+        "question": "Where do you find Boulderchin?",
+        "answer": "Boulderchin appears in Gemstone Canyon during Any / Sunny. Stone should be spent on a known sunny wall branch."
       },
       {
-        "question": "What is Boulderchin's favorite food?",
-        "answer": "Boulderchin's favorite food is Stone. Save Stone for mapped Boulderchin attempts rather than spending it on the first scouting pass."
-      },
-      {
-        "question": "Is Boulderchin worth building?",
-        "answer": "Boulderchin is worth building when Gemstone Canyon needs safer openings and fewer failed scout runs and Rock coverage helps the target branch. If the route fails before Boulderchin can use that role, fix the team shape first."
+        "question": "What is Boulderchin best used for?",
+        "answer": "Boulderchin is for Stone, Rock Fragment, and physical canyon stability."
       },
       {
         "question": "What does Boulderchin drop?",
-        "answer": "Boulderchin drops Stone and Rock Fragment. For Boulderchin, compare material value with route time so the farm does not continue after the useful drop is finished."
-      },
-      {
-        "question": "Which pages should you read with Boulderchin?",
-        "answer": "Read the Gemstone Canyon habitat page with Boulderchin, then compare Rockler and Muddy Swirl before spending more food."
+        "answer": "Boulderchin drops Stone and Rock Fragment. Use it when a sturdier stone loop is needed."
       }
     ],
     "updated_at": "2026-05-26",
@@ -2827,50 +2640,46 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Windlor",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Windlor works as Windlor control lane inside Sky Isles. A graceful wind spirit. Floats on air currents. Its plan leans on air-control repeat, Feather Dance safety, and Gust approach; the reward is Feather and Wind Essence. Windlor refines flying control; Breezel teaches the loop.",
+    "overview": "Windlor is the air-control upgrade after Breezel. Gust, Air Slash, and Feather Dance should make repeated Sky Isles checks safer or cleaner; otherwise the shared Feather and Wind Essence drops do not justify switching targets. Windlor is about control quality, not first-time route learning.",
     "how_to_get": [
-      "Check Day / Windy first; Feather is wasted if Gust approach cannot happen.",
-      "Gust opens the attempt and Air Slash decides whether Wind Essence focus is worth repeating.",
-      "End the pass when refined flying timing is answered."
+      "Use Day / Windy only after the Breezel-style path is already understood.",
+      "Open with Gust and compare the branch against the cheaper flying loop.",
+      "Try Feather Dance when incoming damage is the repeat problem.",
+      "Keep farming only if Wind Essence or control value is still relevant."
     ],
     "best_use": [
-      "Choose Windlor for air-control repeat.",
-      "Wind Essence focus is the measurable reason to return.",
-      "Windlor refines flying control; Breezel teaches the loop.",
-      "Material split: Feather and Wind Essence should be judged through air-control repeat, Feather Dance safety, and Air Slash control."
+      "Best for controlled repeat checks in Sky Isles.",
+      "Choose Windlor over Breezel when Feather Dance or Air Slash changes the result.",
+      "Gust should reduce route risk, not only add another flying attack.",
+      "Shared drops need a performance reason to stay on Windlor."
     ],
     "team_tips": [
-      "Protect Gust approach with one teammate that covers bad matchups.",
-      "Air Slash control should support the planned fight, not random clears.",
-      "Keep the party light if repeatable wind branch is only a material check."
+      "Use a teammate that benefits from safer air control.",
+      "Avoid judging Windlor from one lucky fast clear.",
+      "Bring it when the route is known but still unstable."
     ],
     "farming_notes": [
-      "Log Feather and Wind Essence separately from clear time.",
-      "Feather belongs to confirmed repeatable wind branch attempts.",
-      "Pause when refined flying timing no longer changes the build.",
-      "Exit rule: leave after Gust approach is tested unless air-control repeat still improves the next attempt."
+      "Measure safety and reset quality, not only Feather count.",
+      "If control does not improve the loop, return to Breezel or switch to Crystalwing.",
+      "Feather food should not be spent on an unproven control route."
     ],
     "common_mistakes": [
-      "Using Windlor outside its Windlor control lane role.",
-      "Treating Feather Dance safety as free.",
-      "Chasing Feather and Wind Essence after the upgrade is already solved."
+      "Farming Windlor only because it shares Breezel drops.",
+      "Using Feather Dance after the dangerous moment has passed.",
+      "Expecting Windlor to teach the route from scratch."
     ],
     "faqs": [
       {
         "question": "Where do you find Windlor?",
-        "answer": "Sky Isles, Day / Windy, with Feather saved for a known air-control repeat attempt."
+        "answer": "Windlor appears in Sky Isles during Day / Windy. Feather should be spent after the basic air route is known."
       },
       {
-        "question": "What is the main reason to use Windlor?",
-        "answer": "Windlor control lane: air-control repeat, Wind Essence focus, and Air Slash control."
+        "question": "What is Windlor best used for?",
+        "answer": "Windlor is for Gust, Air Slash, Feather Dance, and safer repeat checks."
       },
       {
         "question": "What does Windlor drop?",
-        "answer": "Feather and Wind Essence. For Windlor, those drops matter most when air-control repeat and Air Slash control are part of the active plan."
-      },
-      {
-        "question": "Which local comparison matters?",
-        "answer": "Windlor refines flying control; Breezel teaches the loop."
+        "answer": "Windlor drops Feather and Wind Essence. It should outperform Breezel on control before repeated farming."
       }
     ],
     "updated_at": "2026-05-26",
@@ -2896,50 +2705,47 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Toxifin",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Toxifin gill lane is the reason to read Toxifin. A poisonous water fish. Its fins secrete toxins. In Muddy River, the useful clues are Sludge Wave opener, any-rain material pass, and Surf follow-up. The drops, Poison Stone and Gill, are secondary unless they connect to the next build step.",
+    "overview": "Toxifin is the practical poison-water river page. It does not need the stricter Stealthfin night hunt: Any / Rain is enough when Poison Stone, Gill, Sludge Wave, or Toxic attrition is the plan. Treat it as a material loop with poison pressure, not as a rare dark-water chase.",
     "how_to_get": [
-      "Start with toxin river route during Any / Rain.",
-      "Hold Fish until Gill poison loop has a clean approach.",
-      "Sludge Wave is the first proof point; Toxic is the follow-up."
+      "Use Muddy River during Rain and bring Fish only after the poison branch is known.",
+      "Open with Sludge Wave to see whether Poison Stone or Gill is worth another pass.",
+      "Use Toxic on longer fights, but reset if the route starts chasing Deep Sea Tooth instead.",
+      "Stop after the poison-water material check."
     ],
     "best_use": [
-      "Use Toxifin when any-rain material pass matters.",
-      "Toxifin farms poison-water materials any rain; Stealthfin hunts Deep Sea Tooth at night.",
-      "poison-water branch should be visible within one or two attempts.",
-      "Material split: Poison Stone and Gill should be judged through Gill poison loop, Sludge Wave opener, and Surf follow-up."
+      "Best for Poison Stone and Gill in a repeatable Rain route.",
+      "Choose Toxifin over Stealthfin when the session does not need Night timing.",
+      "Surf is useful only when the water side is still part of the material plan.",
+      "Toxic turns slow fights into value, but it should not extend a finished farm."
     ],
     "team_tips": [
-      "One support slot should cover the weakness created by Gill poison loop.",
-      "Avoid carrying teammates for unrelated drops.",
-      "Toxic attrition is the route identity."
+      "Pair Toxifin with a finisher that benefits from poison chip.",
+      "Keep the team lighter than a Stealthfin hunt because Toxifin's window is easier.",
+      "Avoid adding dark-material goals unless the route changes to Stealthfin."
     ],
     "farming_notes": [
-      "Farm for Poison Stone and Gill, not for completion.",
-      "Reset if toxin river route misses the target.",
-      "Return later if Fish becomes the bottleneck.",
-      "Exit rule: leave after Toxic attrition is tested unless Gill poison loop still improves the next attempt."
+      "Separate Gill from Poison Stone in the notes after every run.",
+      "Any / Rain makes Toxifin flexible, but flexibility is not a reason to over-clear.",
+      "Fish cost is acceptable only while poison-water materials are still useful."
     ],
     "common_mistakes": [
-      "Copying a nearby Pokemon plan onto Toxifin.",
-      "Spending food before the Gill poison loop test.",
-      "Ignoring the difference between any-rain material pass and generic farming."
+      "Treating Toxifin like a rare night assassin.",
+      "Farming it when Deep Sea Tooth is the real goal.",
+      "Letting Toxic turn a short material pass into a long clear.",
+      "Ignoring Gill value after Poison Stone is finished."
     ],
     "faqs": [
       {
         "question": "Where do you find Toxifin?",
-        "answer": "Muddy River, Any / Rain, with Fish saved for a known Gill poison loop attempt."
+        "answer": "Toxifin appears in Muddy River during Rain. It does not require Night timing."
       },
       {
-        "question": "What is the main reason to use Toxifin?",
-        "answer": "Toxifin gill lane: Gill poison loop, any-rain material pass, and Surf follow-up."
+        "question": "What is Toxifin best used for?",
+        "answer": "Toxifin is for Poison Stone, Gill, and poison-water attrition routes."
       },
       {
         "question": "What does Toxifin drop?",
-        "answer": "Poison Stone and Gill. For Toxifin, those drops matter most when Gill poison loop and Surf follow-up are part of the active plan."
-      },
-      {
-        "question": "Which local comparison matters?",
-        "answer": "Toxifin farms poison-water materials any rain; Stealthfin hunts Deep Sea Tooth at night."
+        "answer": "Toxifin differs from Stealthfin because it is repeatable and poison-focused rather than rare and dark-focused."
       }
     ],
     "updated_at": "2026-05-26",
@@ -3103,60 +2909,45 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Lunaflare",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Lunaflare is an attacker option tied to Shadow Marsh, Night / Stormy, and Ghost Stone, Soul Dust, and Legendary Ember. The lunar flame guardian. Appears only on moonless nights. The practical test is simple: does Lunaflare improve turns saved on the hardest repeat fight without forcing extra full clears? Ghost Veil can help later, but the first scout should prove the path without it.",
+    "overview": "Lunaflare is the premium Ghost / Fire target in Shadow Marsh. Soul Dust, Legendary Ember, Hypnosis, and Nightmare make it a high-cost night branch that should be planned separately from Shados or Nightfall loops. Use it when damage and rare material value line up.",
     "how_to_get": [
-      "Lunaflare starts in Shadow Marsh; confirm the Night / Stormy window before turning the route into a farm.",
-      "Scout Shadow Marsh once with a cheap team and mark the shortest branch that reaches Lunaflare.",
-      "Save Soul Dust for the second or third Lunaflare attempt, after the path and weather both line up.",
-      "Use Shadow Ball and Fire Blast as the first skill check for Lunaflare; if they do not improve turns saved on the hardest repeat fight, pause the build.",
-      "Repeat Shadow Marsh for Lunaflare only when Ghost Stone, Soul Dust, and Legendary Ember support the next recipe, upgrade, or team change."
+      "Use Night / Stormy and do one no-recipe scout first.",
+      "Spend Soul Dust only when the branch to Lunaflare is already safe.",
+      "Open with Shadow Ball or Hypnosis depending on whether damage or control is the problem.",
+      "Leave after the Legendary Ember check unless Ghost Stone is still needed."
     ],
     "best_use": [
-      "Open the test with Shadow Ball for its ambush window, then watch whether Fire Blast adds damage spike or just slows the clear.",
-      "Lunaflare's Ghost coverage is most valuable on the branch where +60% Ghost drops and Stormy/Night both support the same objective.",
-      "The Fire side gives Lunaflare a second use case, but only if the team is not already covering that matchup through Shados, Shadowclaw, and Nightfall.",
-      "Lunaflare should be upgraded after Ghost Stone, Soul Dust, and Legendary Ember have a named use; otherwise the farm becomes a slow way to fill storage.",
-      "If Ghost Veil is part of the route, test Lunaflare once without it first so the recipe is proving a repeat plan rather than covering bad pathing."
+      "Best for Legendary Ember and premium ghost-fire pressure.",
+      "Choose Lunaflare when Shados is too small a payoff and Dark Cavern is too narrow.",
+      "Nightmare should support a planned control route."
     ],
     "team_tips": [
-      "Stealth Build works best with Lunaflare when the build supports night routing, ambush pressure, and ghost material hunts, not when it simply stacks the rarest local Pokemon.",
-      "If Shados is already carrying the route, use Lunaflare as a focused alternative rather than a second copy of the same job.",
-      "Lunaflare is easier to evaluate when the backup slot covers unplanned full clears; without that cover, failed runs can blame the wrong Pokemon.",
-      "In Shadow Marsh, Shados, Shadowclaw, and Nightfall compete for the same session time; choose Lunaflare when its attacker job is the missing piece."
+      "Bring backup safety for missed sleep or burst windows.",
+      "Do not combine Lunaflare with every marsh target in one run.",
+      "Use Ghost Veil only after the branch is proven."
     ],
     "farming_notes": [
-      "When farming Lunaflare alongside Shados, split the session into target checks instead of trying to solve every local farm at once.",
-      "Stop the hunt once turns saved on the hardest repeat fight stops improving; more Lunaflare attempts are not automatically better content for the build.",
-      "Only start a serious Lunaflare farm during Night / Stormy; outside that window, the route is useful for scouting but poor for judging value.",
-      "Soul Dust should be saved for repeat attempts where the path to Lunaflare is already short and safe."
+      "Track Soul Dust cost against Legendary Ember value.",
+      "A failed control opener should end the attempt early.",
+      "Repeat only when rare materials justify the marsh risk."
     ],
     "common_mistakes": [
-      "Letting Nightmare decide the build before Shadow Ball and Fire Blast prove the core route plan.",
-      "Full-clearing Shadow Marsh when the actual goal is a short Lunaflare check.",
-      "Building Lunaflare because it is legendary before confirming that Shadow Marsh actually needs shorter known fights and reliable damage windows.",
-      "Spending Soul Dust on a blind scout instead of saving it for a mapped Night / Stormy attempt.",
-      "Treating Ghost Stone, Soul Dust, and Legendary Ember as valuable without linking them to a recipe, upgrade, or team change."
+      "Treating Lunaflare like a normal ghost farm.",
+      "Spending Soul Dust without a clear exit rule.",
+      "Ignoring the Fire side when comparing it with Shadowclaw."
     ],
     "faqs": [
       {
-        "question": "Where do you find Lunaflare in Pokopia?",
-        "answer": "Lunaflare is found in Shadow Marsh. For Lunaflare, use the Night / Stormy window and repeat the shortest route only after one clean scout run."
+        "question": "Where do you find Lunaflare?",
+        "answer": "Lunaflare appears in Shadow Marsh during Night / Stormy. Soul Dust should be saved for a mapped premium branch."
       },
       {
-        "question": "What is Lunaflare's favorite food?",
-        "answer": "Lunaflare's favorite food is Soul Dust. Save Soul Dust for mapped Lunaflare attempts rather than spending it on the first scouting pass."
-      },
-      {
-        "question": "Is Lunaflare worth building?",
-        "answer": "Lunaflare is worth building when Shadow Marsh needs shorter known fights and Ghost coverage helps the target branch. If the route fails before Lunaflare can use that role, fix the team shape first."
+        "question": "What is Lunaflare best used for?",
+        "answer": "Lunaflare is for Legendary Ember, Ghost / Fire pressure, and controlled high-cost attempts."
       },
       {
         "question": "What does Lunaflare drop?",
-        "answer": "Lunaflare drops Ghost Stone, Soul Dust, and Legendary Ember. For Lunaflare, compare material value with route time so the farm does not continue after the useful drop is finished."
-      },
-      {
-        "question": "Which pages should you read with Lunaflare?",
-        "answer": "Read the Shadow Marsh habitat page with Lunaflare, then compare Shados and Ghost Veil before spending more food."
+        "answer": "Lunaflare drops Ghost Stone, Soul Dust, and Legendary Ember. Stop if the rare material is no longer relevant."
       }
     ],
     "updated_at": "2026-05-26",
@@ -3182,60 +2973,45 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Stormbird",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Stormbird is a Flying/Electric speedster for Sky Isles. A thunder bird. Creates storms with its wings. In practice, build Stormbird when Sky Isles needs faster travel, cleaner resets, or shorter encounter chains; test it during Any / Thunderstorm and judge it by time saved between target checks. Thunder Stone, Feather, and Wind Essence make the farm worth repeating only when they support the next upgrade or recipe.",
+    "overview": "Stormbird is the Thunderstorm detour inside Sky Isles. It connects Feather, Wind Essence, and Thunder Stone, but it should be chosen for electric-flying overlap rather than ordinary speed. Thunder and Hurricane make the branch volatile; the route needs a clear material reason.",
     "how_to_get": [
-      "Find Stormbird through the Any / Thunderstorm route in Sky Isles, then compare the result with Breezel, Flamingo, and Tropius.",
-      "Run Sky Isles without rare recipe help first so the Stormbird route shows its real timing.",
-      "Bring Feather only when the branch to Stormbird is already mapped and safe.",
-      "Build around Stormbird when Sky Isles needs faster travel, cleaner resets, or shorter encounter chains, not simply because the database lists it as uncommon.",
-      "Stop after the Stormbird material check if Thunder Stone, Feather, and Wind Essence no longer match the active goal."
+      "Use Thunderstorm timing and map the Stormbird branch before spending Feather.",
+      "Thunder checks the electric side; Air Slash and Hurricane test the flying payoff.",
+      "Skip basic Breezel and Windlor loops if Thunder Stone is the target.",
+      "Exit after the overlap material is checked."
     ],
     "best_use": [
-      "Stormbird's Flying coverage is most valuable on the branch where +40% Feather drops and Windy both support the same objective.",
-      "The Electric side gives Stormbird a second use case, but only if the team is not already covering that matchup through Breezel, Flamingo, and Tropius.",
-      "Stormbird should be upgraded after Thunder Stone, Feather, and Wind Essence have a named use; otherwise the farm becomes a slow way to fill storage.",
-      "If Flying High is part of the route, test Stormbird once without it first so the recipe is proving a repeat plan rather than covering bad pathing.",
-      "Stormbird is worth fielding when Sky Isles needs faster travel, cleaner resets, or shorter encounter chains; if the path is still messy, adjust the supporting slot first."
+      "Best for electric-flying material overlap.",
+      "Choose Stormbird when Thunder Stone and Feather both matter.",
+      "Weather Ball should be tested only after the core branch works."
     ],
     "team_tips": [
-      "If Breezel is already carrying the route, use Stormbird as a focused alternative rather than a second copy of the same job.",
-      "Stormbird is easier to evaluate when the backup slot covers messy paths that waste the speed advantage; without that cover, failed runs can blame the wrong Pokemon.",
-      "In Sky Isles, Breezel, Flamingo, and Tropius compete for the same session time; choose Stormbird when its speedster job is the missing piece.",
-      "Pair Stormbird with a steady finisher that prevents fast runs from becoming sloppy clears; that lets the team measure time saved between target checks instead of guessing from one lucky clear."
+      "Bring a safety pick for volatile Thunderstorm fights.",
+      "Do not use Stormbird as a beginner flying scout.",
+      "Keep the target list narrower than a full Sky Isles run."
     ],
     "farming_notes": [
-      "Stop the Stormbird hunt once it no longer improves time saved between target checks; extra attempts should have a material reason.",
-      "Only start a serious Stormbird farm during Any / Thunderstorm; outside that window, the route is useful for scouting but poor for judging value.",
-      "Feather should be saved for repeat attempts where the path to Stormbird is already short and safe.",
-      "Track Thunder Stone, Feather, and Wind Essence separately after each clear. For Stormbird, if one material is finished, change the exit point instead of full-clearing Sky Isles."
+      "Track Thunder Stone separately from Feather.",
+      "Feather food is justified only if both material sides have value.",
+      "Move to Thunder Arena for dedicated electric farming."
     ],
     "common_mistakes": [
-      "Full-clearing Sky Isles when the actual goal is a short Stormbird check.",
-      "Building Stormbird because it is uncommon before confirming that Sky Isles actually needs faster travel, cleaner resets, or shorter encounter chains.",
-      "Spending Feather on a blind scout instead of saving it for a mapped Any / Thunderstorm attempt.",
-      "Treating Thunder Stone, Feather, and Wind Essence as valuable without linking them to a recipe, upgrade, or team change.",
-      "Comparing Stormbird to Breezel only by rarity and ignoring speedster value, food cost, and route timing."
+      "Treating Stormbird like Windlor.",
+      "Ignoring Thunderstorm as the main identity.",
+      "Farming it when only Feather is needed."
     ],
     "faqs": [
       {
-        "question": "Where do you find Stormbird in Pokopia?",
-        "answer": "Stormbird is found in Sky Isles. For Stormbird, use the Any / Thunderstorm window and repeat the shortest route only after one clean scout run."
+        "question": "Where do you find Stormbird?",
+        "answer": "Stormbird appears in Sky Isles during Thunderstorm conditions. Feather should be spent only when electric-flying overlap matters."
       },
       {
-        "question": "What is Stormbird's favorite food?",
-        "answer": "Stormbird's favorite food is Feather. Save Feather for mapped Stormbird attempts rather than spending it on the first scouting pass."
-      },
-      {
-        "question": "Is Stormbird worth building?",
-        "answer": "Stormbird is worth building when Sky Isles needs faster travel, cleaner resets, or shorter encounter chains and Flying coverage helps the target branch. If the route fails before Stormbird can use that role, fix the team shape first."
+        "question": "What is Stormbird best used for?",
+        "answer": "Stormbird is for Thunder Stone, Feather, and Wind Essence overlap in volatile weather."
       },
       {
         "question": "What does Stormbird drop?",
-        "answer": "Stormbird drops Thunder Stone, Feather, and Wind Essence. For Stormbird, compare material value with route time so the farm does not continue after the useful drop is finished."
-      },
-      {
-        "question": "Which pages should you read with Stormbird?",
-        "answer": "Read the Sky Isles habitat page with Stormbird, then compare Breezel and Flying High before spending more food."
+        "answer": "Stormbird drops Thunder Stone, Feather, and Wind Essence. Move to Thunder Arena for pure electric farming."
       }
     ],
     "updated_at": "2026-05-26",
@@ -3504,24 +3280,16 @@
     ],
     "faqs": [
       {
-        "question": "Where do you find Nightfall in Pokopia?",
-        "answer": "Nightfall is found in Shadow Marsh. For Nightfall, use the Night / Stormy window and repeat the shortest route only after one clean scout run."
+        "question": "Where do you find Nightfall?",
+        "answer": "Nightfall appears in Shadow Marsh during Night / Stormy. Use Void Fruit after the dark-side branch is mapped."
       },
       {
-        "question": "What is Nightfall's favorite food?",
-        "answer": "Nightfall's favorite food is Void Fruit. Save Void Fruit for mapped Nightfall attempts rather than spending it on the first scouting pass."
+        "question": "What is Nightfall best used for?",
+        "answer": "Nightfall is best for Dark Gem, Shadow Stone, and short assassin routes that do not need the full legendary marsh plan."
       },
       {
-        "question": "Is Nightfall worth building?",
-        "answer": "Nightfall is worth building when Shadow Marsh needs fast target removal before the route becomes expensive and Dark coverage helps the target branch. If the route fails before Nightfall can use that role, fix the team shape first."
-      },
-      {
-        "question": "What does Nightfall drop?",
-        "answer": "Nightfall drops Dark Gem and Shadow Stone. For Nightfall, compare material value with route time so the farm does not continue after the useful drop is finished."
-      },
-      {
-        "question": "Which pages should you read with Nightfall?",
-        "answer": "Read the Shadow Marsh habitat page with Nightfall, then compare Shados and Ghost Veil before spending more food."
+        "question": "How is Nightfall different from Shados?",
+        "answer": "Nightfall is the dark-side material check; Shados is the faster Ghost Stone and Soul Dust check."
       }
     ],
     "updated_at": "2026-05-26",
@@ -3547,60 +3315,45 @@
     "image_alt": "Pokémon Pokopia character and gameplay screenshot: Primordion",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Primordion is a Dragon/Ground tank for Muddy River. The primordial dragon. Said to have created the rivers and mountains. In practice, build Primordion when Muddy River needs front-line stability against the first dangerous branch; test it during Any / Rain and judge it by damage absorbed before the target check. Dragon Scale, Earth Gem, and Legendary Pearl make the farm worth repeating only when they support the next upgrade or recipe.",
+    "overview": "Primordion is the ancient Dragon / Ground tank tied to river and mountain materials. It is not a standard Muddy River farm: Golden Fish, Legendary Pearl, Rest, and Sleep Talk make it a late-commitment stability test. Enter only when Dragon Scale or Legendary Pearl matters.",
     "how_to_get": [
-      "Primordion starts in Muddy River; confirm the Any / Rain window before turning the route into a farm.",
-      "Scout Muddy River once with a cheap team and mark the shortest branch that reaches Primordion.",
-      "Save Golden Fish for the second or third Primordion attempt, after the path and weather both line up.",
-      "Use Earthquake and Dragon Tail as the first skill check for Primordion; if they do not improve failed openings converted into usable clears, pause the build.",
-      "Repeat Muddy River for Primordion only when Dragon Scale, Earth Gem, and Legendary Pearl support the next recipe, upgrade, or team change."
+      "Use Rain and map the Primordion branch before spending Golden Fish.",
+      "Earthquake tests ground pressure; Dragon Tail tests whether the target can be controlled.",
+      "Rest and Sleep Talk matter only in routes long enough to justify tank pacing.",
+      "Leave when Dragon Scale, Earth Gem, or Legendary Pearl is checked."
     ],
     "best_use": [
-      "Compare Primordion with Mudkipz before spending Golden Fish: Primordion should win on failed openings converted into usable clears, while Mudkipz may still be better for Water/Ground coverage or a cheaper check.",
-      "Open the test with Earthquake for its stability check, then watch whether Dragon Tail adds high-commitment burst or just slows the clear.",
-      "Primordion's Dragon coverage is most valuable on the branch where +35% Mud drops and Rain both support the same objective.",
-      "The Ground side gives Primordion a second use case, but only if the team is not already covering that matchup through Mudkipz, Stealthfin, and Toxifin.",
-      "Primordion should be upgraded after Dragon Scale, Earth Gem, and Legendary Pearl have a named use; otherwise the farm becomes a slow way to fill storage."
+      "Best for premium Dragon Scale and Legendary Pearl attempts.",
+      "Choose Primordion when Mudkipz is too small and Galebender lacks tank value.",
+      "It should be judged by survival and rare material value."
     ],
     "team_tips": [
-      "Farming Build works best with Primordion when the build supports high-commitment boss pressure and rare material hunts, not when it simply stacks the rarest local Pokemon.",
-      "If Mudkipz is already carrying the route, use Primordion as a focused alternative rather than a second copy of the same job.",
-      "Primordion is easier to evaluate when the backup slot covers spending premium food before the route is proven; without that cover, failed runs can blame the wrong Pokemon.",
-      "In Muddy River, Mudkipz, Stealthfin, and Toxifin compete for the same session time; choose Primordion when its tank job is the missing piece."
+      "Bring damage support so the tank route does not stall.",
+      "Avoid adding Stealthfin or Toxifin goals to a Primordion food run.",
+      "Use Golden Fish as a late-session commitment."
     ],
     "farming_notes": [
-      "When farming Primordion alongside Mudkipz, split the session into target checks instead of trying to solve every local farm at once.",
-      "Stop the Primordion hunt once it no longer improves failed openings converted into usable clears; extra attempts should have a material reason.",
-      "Only start a serious Primordion farm during Any / Rain; outside that window, the route is useful for scouting but poor for judging value.",
-      "Golden Fish should be saved for repeat attempts where the path to Primordion is already short and safe."
+      "Record whether Rest actually saved the attempt.",
+      "Earth Gem is secondary unless the team also needs ground upgrades.",
+      "Do not repeat if Legendary Pearl is not relevant."
     ],
     "common_mistakes": [
-      "Keeping Primordion in the party after failed openings converted into usable clears stops improving.",
-      "Letting Sleep Talk decide the build before Earthquake and Dragon Tail prove the core route plan.",
-      "Full-clearing Muddy River when the actual goal is a short Primordion check.",
-      "Building Primordion because it is legendary before confirming that Muddy River actually needs front-line stability against the first dangerous branch.",
-      "Spending Golden Fish on a blind scout instead of saving it for a mapped Any / Rain attempt."
+      "Using Primordion as a basic water-ground farmer.",
+      "Packing Golden Fish for a scouting pass.",
+      "Letting tank pacing hide bad material efficiency."
     ],
     "faqs": [
       {
-        "question": "Where do you find Primordion in Pokopia?",
-        "answer": "Primordion is found in Muddy River. For Primordion, use the Any / Rain window and repeat the shortest route only after one clean scout run."
+        "question": "Where do you find Primordion?",
+        "answer": "Primordion appears in Muddy River during Rain. Golden Fish should be treated as a late-route commitment."
       },
       {
-        "question": "What is Primordion's favorite food?",
-        "answer": "Primordion's favorite food is Golden Fish. Save Golden Fish for mapped Primordion attempts rather than spending it on the first scouting pass."
-      },
-      {
-        "question": "Is Primordion worth building?",
-        "answer": "Primordion is worth building when Muddy River needs more opening safety and Dragon coverage helps the target branch. If the route fails before Primordion can use that role, fix the team shape first."
+        "question": "What is Primordion best used for?",
+        "answer": "Primordion is for Dragon Scale, Legendary Pearl, and tank stability rather than ordinary river farming."
       },
       {
         "question": "What does Primordion drop?",
-        "answer": "Primordion drops Dragon Scale, Earth Gem, and Legendary Pearl. For Primordion, compare material value with route time so the farm does not continue after the useful drop is finished."
-      },
-      {
-        "question": "Which pages should you read with Primordion?",
-        "answer": "Read the Muddy River habitat page with Primordion, then compare Mudkipz and Water Shield before spending more food."
+        "answer": "Primordion drops Dragon Scale, Earth Gem, and Legendary Pearl. Repeat only for premium material value."
       }
     ],
     "updated_at": "2026-05-26",
