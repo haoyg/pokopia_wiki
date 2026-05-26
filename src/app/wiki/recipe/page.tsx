@@ -2,6 +2,7 @@ import { Metadata } from 'next'
 import recipesData from '@/data/recipes.json'
 import { canonicalUrl } from '@/lib/site'
 import { CreditedImage } from '@/components/media/CreditedImage'
+import { BreadcrumbJsonLd, ItemListJsonLd } from '@/components/seo/JsonLd'
 
 const rarityLabels: Record<string, string> = {
   'common': 'Common', 'uncommon': 'Uncommon', 'rare': 'Rare', 'legendary': 'Legendary',
@@ -34,6 +35,21 @@ export default function RecipePage() {
 
   return (
     <main className="page-shell">
+      <BreadcrumbJsonLd
+        items={[
+          { name: 'Home', url: '/' },
+          { name: 'Recipes', url: '/wiki/recipe' },
+        ]}
+      />
+      <ItemListJsonLd
+        name="Recipe Cookbook and Buff Notes"
+        description="Compare Pokopia recipes by ingredients, buff effect, duration, rarity, timing, and route fit."
+        url="/wiki/recipe"
+        items={recipesData.map((recipe) => ({
+          name: recipe.name,
+          url: `/wiki/recipe/${recipe.id}`,
+        }))}
+      />
       <section className="page-hero">
         <h1>Recipe Cookbook and Buff Notes</h1>
         <p>Compare Pokopia recipes by ingredients, buff effect, duration, rarity, timing, and route fit.</p>

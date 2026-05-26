@@ -3,6 +3,7 @@ import guidesData from '@/data/guides.json'
 import { canonicalUrl } from '@/lib/site'
 import { CreditedImage } from '@/components/media/CreditedImage'
 import { OfficialContext } from '@/components/content/OfficialContext'
+import { BreadcrumbJsonLd, ItemListJsonLd } from '@/components/seo/JsonLd'
 
 const categoryLabels: Record<string, string> = {
   tier: 'Tier',
@@ -47,6 +48,21 @@ export default function GuidesPage() {
 
   return (
     <main className="page-shell">
+      <BreadcrumbJsonLd
+        items={[
+          { name: 'Home', url: '/' },
+          { name: 'Guides', url: '/guides' },
+        ]}
+      />
+      <ItemListJsonLd
+        name="Pokopia Guides"
+        description="Route notes, farming advice, starter picks, team planning, and recipe decisions for Pokopia players."
+        url="/guides"
+        items={guidesData.map((guide) => ({
+          name: guide.title,
+          url: `/guides/${guide.slug}`,
+        }))}
+      />
       <section className="page-hero">
         <h1>Pokopia Guides</h1>
         <p>Route notes, farming advice, starter picks, team planning, and recipe decisions for Pokopia players.</p>

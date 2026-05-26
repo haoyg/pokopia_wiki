@@ -1,5 +1,6 @@
 import { Metadata } from 'next'
 import { canonicalUrl } from '@/lib/site'
+import { BreadcrumbJsonLd, ItemListJsonLd } from '@/components/seo/JsonLd'
 
 export const metadata: Metadata = {
   title: 'Pokopia Tools and Route Planners',
@@ -52,8 +53,25 @@ const supportTools = [
 ]
 
 export default function ToolsPage() {
+  const allTools = [...primaryTools, ...supportTools]
+
   return (
     <main className="page-shell tools-hub">
+      <BreadcrumbJsonLd
+        items={[
+          { name: 'Home', url: '/' },
+          { name: 'Tools', url: '/tools' },
+        ]}
+      />
+      <ItemListJsonLd
+        name="Pokopia Tools"
+        description="Planning tools for recipes, habitats, teams, spawn checks, Pokemon pages, and guide routes."
+        url="/tools"
+        items={allTools.map((tool) => ({
+          name: tool.label,
+          url: tool.href,
+        }))}
+      />
       <section className="tools-hub-hero">
         <div>
           <span className="tools-hub-kicker">Planning Tools</span>

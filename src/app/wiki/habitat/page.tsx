@@ -2,6 +2,7 @@ import { Metadata } from 'next'
 import habitatsData from '@/data/habitats.json'
 import { canonicalUrl } from '@/lib/site'
 import { CreditedImage } from '@/components/media/CreditedImage'
+import { BreadcrumbJsonLd, ItemListJsonLd } from '@/components/seo/JsonLd'
 
 export const metadata: Metadata = {
   title: 'Habitat Maps and Route Notes',
@@ -30,6 +31,21 @@ export default function HabitatPage() {
 
   return (
     <main className="page-shell">
+      <BreadcrumbJsonLd
+        items={[
+          { name: 'Home', url: '/' },
+          { name: 'Habitats', url: '/wiki/habitat' },
+        ]}
+      />
+      <ItemListJsonLd
+        name="Habitat Maps and Route Notes"
+        description="Explore Pokopia habitats by unlock condition, weather, difficulty, resource bonus, and spawn route."
+        url="/wiki/habitat"
+        items={habitatsData.map((habitat) => ({
+          name: habitat.name,
+          url: `/wiki/habitat/${habitat.id}`,
+        }))}
+      />
       <section className="page-hero">
         <h1>Habitat Maps and Route Notes</h1>
         <p>Explore Pokopia habitats by unlock condition, weather, difficulty, resource bonus, and spawn route.</p>

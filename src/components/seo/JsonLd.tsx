@@ -113,6 +113,35 @@ export function BreadcrumbJsonLd({
   return <JsonLd data={jsonLd} />
 }
 
+export function ItemListJsonLd({
+  name,
+  description,
+  url,
+  items,
+}: {
+  name: string
+  description?: string
+  url: string
+  items: { name: string; url: string }[]
+}) {
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name,
+    ...(description ? { description } : {}),
+    url: `${BASE_URL}${url}`,
+    numberOfItems: items.length,
+    itemListElement: items.map((item, index) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      name: item.name,
+      url: `${BASE_URL}${item.url}`,
+    })),
+  }
+
+  return <JsonLd data={jsonLd} />
+}
+
 export function WikiPageJsonLd({
   name,
   description,

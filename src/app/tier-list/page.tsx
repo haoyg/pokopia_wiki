@@ -5,6 +5,7 @@ import pokemonData from '@/data/pokemon.json'
 import { canonicalUrl } from '@/lib/site'
 import { DataStatus } from '@/components/content/DataStatus'
 import { OfficialContext } from '@/components/content/OfficialContext'
+import { BreadcrumbJsonLd, ItemListJsonLd } from '@/components/seo/JsonLd'
 
 const typeIcons: Record<string, string> = {
   'Fire': '/icons/fire.svg', 'Water': '/icons/water.svg', 'Grass': '/icons/grass.svg',
@@ -110,6 +111,21 @@ export const metadata: Metadata = {
 export default function TierListPage() {
   return (
     <main className="page-shell">
+      <BreadcrumbJsonLd
+        items={[
+          { name: 'Home', url: '/' },
+          { name: 'Pokemon Priority Index', url: '/tier-list' },
+        ]}
+      />
+      <ItemListJsonLd
+        name="Pokemon Priority Index"
+        description="Editorial Pokemon planning index based on current site database fields such as rarity and role."
+        url="/tier-list"
+        items={priorityPicks.map((pokemon) => ({
+          name: pokemon.name,
+          url: `/wiki/pokemon/${pokemon.id}`,
+        }))}
+      />
       <section className="page-hero">
         <h1>Pokemon Priority Index</h1>
         <p>Editorial sorting based on Pokopia Portal database fields, not official competitive data.</p>

@@ -2,6 +2,7 @@ import { Metadata } from 'next'
 import pokemonData from '@/data/pokemon.json'
 import { canonicalUrl } from '@/lib/site'
 import { CreditedImage } from '@/components/media/CreditedImage'
+import { BreadcrumbJsonLd, ItemListJsonLd } from '@/components/seo/JsonLd'
 
 const featuredPokemon = ['pkm001', 'pkm002', 'pkm007', 'pkm030']
 
@@ -33,6 +34,21 @@ export default function PokemonPage() {
 
   return (
     <main className="page-shell">
+      <BreadcrumbJsonLd
+        items={[
+          { name: 'Home', url: '/' },
+          { name: 'Pokemon Database', url: '/wiki/pokemon' },
+        ]}
+      />
+      <ItemListJsonLd
+        name="Pokemon Database"
+        description="Browse Pokopia Pokemon by type, rarity, habitat, favorite food, drops, and route role."
+        url="/wiki/pokemon"
+        items={pokemonData.map((pokemon) => ({
+          name: pokemon.name,
+          url: `/wiki/pokemon/${pokemon.id}`,
+        }))}
+      />
       <section className="page-hero">
         <h1>Pokemon Database</h1>
         <p>Browse Pokopia Pokemon by type, rarity, habitat, favorite food, drops, and route role.</p>
