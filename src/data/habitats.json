@@ -47,7 +47,7 @@
     ],
     "common_mistakes": [
       "Entering Volcanic Cave without checking Clear/Sunny weather first.",
-      "Using Fire Boost before learning the route path and spawn check locations.",
+      "Using Ghost Veil before learning the route path and spawn check locations.",
       "Trying to farm Pikafire, Flamexor, and Sunreep before normal encounters are consistent.",
       "Ignoring +50% Fire drops and repeating the route even when it does not support your current build.",
       "Skipping related Pokemon pages, especially food and drop notes for Pikafire, Charmuddy, and Flamexor."
@@ -435,7 +435,7 @@
       "Enter Shadow Marsh with one objective: unlock clear, resource farming, rare hunting, or team testing.",
       "Run the shortest loop that includes the main spawn group: Shados, Shadowclaw, Lunaflare, and Nightfall.",
       "Track +60% Ghost drops during the first few clears. If the bonus is not helping your current build, switch to a more relevant habitat.",
-      "Use Fire Boost only after the loop is stable. Its effect (+30% Fire damage) is most valuable when you can use the full duration.",
+      "Use Ghost Veil only after the loop is stable. Its effect (+45% ghost damage) is most valuable when you can reach the key marsh checks quickly.",
       "Reset quickly after the important spawn check instead of clearing every branch, unless you also need general resources."
     ],
     "rare_spawns": [
@@ -451,7 +451,7 @@
     ],
     "common_mistakes": [
       "Entering Shadow Marsh without checking Stormy/Night weather first.",
-      "Using Fire Boost before learning the route path and spawn check locations.",
+      "Using Ghost Veil before learning the route path and spawn check locations.",
       "Trying to farm Shados, Shadowclaw, and Lunaflare before normal encounters are consistent.",
       "Ignoring +60% Ghost drops and repeating the route even when it does not support your current build.",
       "Skipping related Pokemon pages, especially food and drop notes for Shados, Shadowclaw, and Lunaflare."
@@ -471,14 +471,14 @@
       },
       {
         "question": "What is the best recipe for Shadow Marsh?",
-        "answer": "Fire Boost is the safest first recipe to consider because it gives +30% Fire damage. Use it after the route is stable, not on your first scouting run."
+        "answer": "Ghost Veil is the safest first recipe to consider because it gives +45% ghost damage. Use it after the route is stable, not on your first scouting run."
       },
       {
         "question": "Is Shadow Marsh worth farming?",
         "answer": "Shadow Marsh is worth farming when you need +60% Ghost drops or one of its key Pokemon such as Shados, Shadowclaw, and Lunaflare. If neither helps your current build, farm a more relevant habitat first."
       }
     ],
-    "recommended_recipe": "rec002",
+    "recommended_recipe": "rec010",
     "updated_at": "2026-05-23",
     "data_status": "Editorial habitat guide",
     "data_status_note": "This habitat page is an editorial route guide built from site database entries and public materials. Unlocks, spawns, and farming routes should be rechecked after patches.",
@@ -498,7 +498,7 @@
     "image_alt": "Pokémon Pokopia habitat screenshot: Gemstone Canyon",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Gemstone Canyon is a medium Pokopia habitat unlocked by: Reach Level 12. The area runs around Clear weather and gives +50% Stone drops. This area is best treated as a transition route. It rewards better planning than starter habitats but does not require a full endgame team. Key Pokemon to watch here include Rockler, Crystion, and Galebender.",
+    "overview": "Gemstone Canyon opens at Level 12 and works as the first serious mining route. Clear weather, +50% Stone drops, and targets like Rockler, Crystion, and Galebender make it useful for material farming and sturdy team testing. Keep the route narrow at first: check the stone path, confirm whether the rare spawn is active, then decide if Muddy Swirl is worth spending.",
     "unlock_steps": [
       "Meet the unlock condition: Reach Level 12.",
       "Check the expected weather before entering: Clear.",
@@ -579,7 +579,7 @@
     "image_alt": "Pokémon Pokopia habitat screenshot: Sky Isles",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Sky Isles is a medium Pokopia habitat unlocked by: Reach Level 18. The area runs around Windy weather and gives +40% Feather drops. This area is best treated as a transition route. It rewards better planning than starter habitats but does not require a full endgame team. Key Pokemon to watch here include Breezel, Flamingo, Tropius, Crystalwing, and Windlor, and more.",
+    "overview": "Sky Isles opens at Level 18 and rewards players who can keep movement clean. Windy weather, +40% Feather drops, and spawns such as Breezel, Flamingo, Tropius, Crystalwing, Windlor, and Stormbird make it a strong flying-route hub. Flying High is worth saving for compact aerial checks, not for a first sightseeing run.",
     "unlock_steps": [
       "Meet the unlock condition: Reach Level 18.",
       "Check the expected weather before entering: Windy.",
@@ -598,7 +598,7 @@
       "Enter Sky Isles with one objective: unlock clear, resource farming, rare hunting, or team testing.",
       "Run the shortest loop that includes the main spawn group: Breezel, Flamingo, Tropius, and Crystalwing.",
       "Track +40% Feather drops during the first few clears. If the bonus is not helping your current build, switch to a more relevant habitat.",
-      "Use Fire Boost only after the loop is stable. Its effect (+30% Fire damage) is most valuable when you can use the full duration.",
+      "Use Flying High only after the loop is stable. Its effect (+30% flying damage) is most valuable when you can use the full duration on repeated aerial checks.",
       "Reset quickly after the important spawn check instead of clearing every branch, unless you also need general resources."
     ],
     "rare_spawns": [
@@ -612,7 +612,7 @@
     ],
     "common_mistakes": [
       "Entering Sky Isles without checking Windy weather first.",
-      "Using Fire Boost before learning the route path and spawn check locations.",
+      "Using Flying High before learning the route path and spawn check locations.",
       "Trying to farm Crystalwing before normal encounters are consistent.",
       "Ignoring +40% Feather drops and repeating the route even when it does not support your current build.",
       "Skipping related Pokemon pages, especially food and drop notes for Breezel, Flamingo, and Tropius."
@@ -632,14 +632,14 @@
       },
       {
         "question": "What is the best recipe for Sky Isles?",
-        "answer": "Fire Boost is the safest first recipe to consider because it gives +30% Fire damage. Use it after the route is stable, not on your first scouting run."
+        "answer": "Flying High is the safest first recipe to consider because it gives +30% flying damage. Use it after the route is stable, not on your first scouting run."
       },
       {
         "question": "Is Sky Isles worth farming?",
         "answer": "Sky Isles is worth farming when you need +40% Feather drops or one of its key Pokemon such as Breezel, Flamingo, and Tropius. If neither helps your current build, farm a more relevant habitat first."
       }
     ],
-    "recommended_recipe": "rec002",
+    "recommended_recipe": "rec013",
     "updated_at": "2026-05-23",
     "data_status": "Editorial habitat guide",
     "data_status_note": "This habitat page is an editorial route guide built from site database entries and public materials. Unlocks, spawns, and farming routes should be rechecked after patches.",
@@ -659,7 +659,7 @@
     "image_alt": "Pokémon Pokopia habitat screenshot: Muddy River",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Muddy River is an easy Pokopia habitat unlocked by: Reach Level 8. The area runs around Rain weather and gives +35% Mud drops. This is a good route for early farming, testing new team members, and collecting resources without heavy recipe spending. Key Pokemon to watch here include Mudkipz, Stealthfin, Toxifin, and Primordion.",
+    "overview": "Muddy River opens at Level 8 and is a forgiving rain-route bridge between basic water farming and later ground or dark targets. Rain weather and +35% Mud drops make it useful for Mudkipz, Stealthfin, Toxifin, and Primordion checks. Water Shield is best saved for repeat runs where the route is already mapped and the river pressure is the main problem.",
     "unlock_steps": [
       "Meet the unlock condition: Reach Level 8.",
       "Check the expected weather before entering: Rain.",
@@ -740,7 +740,7 @@
     "image_alt": "Pokémon Pokopia habitat screenshot: Ancient Ruins",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Ancient Ruins is a hard Pokopia habitat unlocked by: Reach Level 30. The area runs around Cloudy weather and gives +45% Metal drops. This is a high-pressure route where scouting matters. Enter with a defined objective and avoid spending rare recipes before the path is stable. Key Pokemon to watch here include Bronzorm, Ironclaw, and Mysticat.",
+    "overview": "Ancient Ruins opens at Level 30 and should be treated as a high-pressure treasure route. Cloudy weather, +45% Metal drops, and spawns such as Bronzorm, Ironclaw, and Mysticat reward careful scouting more than brute force. Enter with a defined objective, then save Steel Shell for the run where the route path is already stable.",
     "unlock_steps": [
       "Meet the unlock condition: Reach Level 30.",
       "Check the expected weather before entering: Cloudy.",
@@ -821,7 +821,7 @@
     "image_alt": "Pokémon Pokopia habitat screenshot: Sunny Beach",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Sunny Beach is an easy Pokopia habitat unlocked by: Starting Habitat. The area runs around Sunny weather and gives +30% Shell drops. This is a good route for early farming, testing new team members, and collecting resources without heavy recipe spending. Key Pokemon to watch here include Aquap, Sunflora, and Dewdrop.",
+    "overview": "Sunny Beach is a starting-friendly shell route built around low-pressure farming. Sunny weather, +30% Shell drops, and spawns such as Aquap, Sunflora, and Dewdrop make it useful for relaxed resource loops and support testing. Use Water Shield only when the route turns into repeated water checks; otherwise, keep the run cheap.",
     "unlock_steps": [
       "Meet the unlock condition: Starting Habitat.",
       "Check the expected weather before entering: Sunny.",
@@ -840,7 +840,7 @@
       "Enter Sunny Beach with one objective: unlock clear, resource farming, rare hunting, or team testing.",
       "Run the shortest loop that includes the main spawn group: Aquap, Sunflora, and Dewdrop.",
       "Track +30% Shell drops during the first few clears. If the bonus is not helping your current build, switch to a more relevant habitat.",
-      "Use Fire Boost only after the loop is stable. Its effect (+30% Fire damage) is most valuable when you can use the full duration.",
+      "Use Water Shield only after the loop is stable. Its effect (+35% water resistance) is most valuable when repeated water checks are slowing the route down.",
       "Reset quickly after the important spawn check instead of clearing every branch, unless you also need general resources."
     ],
     "rare_spawns": [
@@ -854,7 +854,7 @@
     ],
     "common_mistakes": [
       "Entering Sunny Beach without checking Sunny weather first.",
-      "Using Fire Boost before learning the route path and spawn check locations.",
+      "Using Water Shield before learning the route path and spawn check locations.",
       "Trying to farm the highest-value spawn in the area before normal encounters are consistent.",
       "Ignoring +30% Shell drops and repeating the route even when it does not support your current build.",
       "Skipping related Pokemon pages, especially food and drop notes for Aquap, Sunflora, and Dewdrop."
@@ -874,14 +874,14 @@
       },
       {
         "question": "What is the best recipe for Sunny Beach?",
-        "answer": "Fire Boost is the safest first recipe to consider because it gives +30% Fire damage. Use it after the route is stable, not on your first scouting run."
+        "answer": "Water Shield is the safest first recipe to consider when repeated water checks are the issue. For casual shell farming, run the beach without spending a recipe."
       },
       {
         "question": "Is Sunny Beach worth farming?",
         "answer": "Sunny Beach is worth farming when you need +30% Shell drops or one of its key Pokemon such as Aquap, Sunflora, and Dewdrop. If neither helps your current build, farm a more relevant habitat first."
       }
     ],
-    "recommended_recipe": "rec002",
+    "recommended_recipe": "rec006",
     "updated_at": "2026-05-23",
     "data_status": "Editorial habitat guide",
     "data_status_note": "This habitat page is an editorial route guide built from site database entries and public materials. Unlocks, spawns, and farming routes should be rechecked after patches.",
@@ -981,7 +981,7 @@
     "image_alt": "Pokémon Pokopia habitat screenshot: Dark Cavern",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Dark Cavern is a hard Pokopia habitat unlocked by: Reach Level 28. The area runs around Dark weather and gives +65% Dark drops. This is a high-pressure route where scouting matters. Enter with a defined objective and avoid spending rare recipes before the path is stable. Key Pokemon to watch here include Shadowclaw, Lunaflare, and Nightfall.",
+    "overview": "Dark Cavern opens at Level 28 and is one of the harshest dark-route farming checks. Dark weather, +65% Dark drops, and targets such as Shadowclaw, Lunaflare, and Nightfall make it valuable, but only after the path is predictable. Use Ghost Veil for planned dark or ghost hunts, not as a rescue button for an unstable route.",
     "unlock_steps": [
       "Meet the unlock condition: Reach Level 28.",
       "Check the expected weather before entering: Dark.",
@@ -1000,7 +1000,7 @@
       "Enter Dark Cavern with one objective: unlock clear, resource farming, rare hunting, or team testing.",
       "Run the shortest loop that includes the main spawn group: Shadowclaw, Lunaflare, and Nightfall.",
       "Track +65% Dark drops during the first few clears. If the bonus is not helping your current build, switch to a more relevant habitat.",
-      "Use Fire Boost only after the loop is stable. Its effect (+30% Fire damage) is most valuable when you can use the full duration.",
+      "Use Ghost Veil only after the loop is stable. Its effect (+45% ghost damage) is most valuable when the route reaches Shadowclaw and Lunaflare checks quickly.",
       "Reset quickly after the important spawn check instead of clearing every branch, unless you also need general resources."
     ],
     "rare_spawns": [
@@ -1015,7 +1015,7 @@
     ],
     "common_mistakes": [
       "Entering Dark Cavern without checking Dark weather first.",
-      "Using Fire Boost before learning the route path and spawn check locations.",
+      "Using Ghost Veil before learning the route path and spawn check locations.",
       "Trying to farm Shadowclaw and Lunaflare before normal encounters are consistent.",
       "Ignoring +65% Dark drops and repeating the route even when it does not support your current build.",
       "Skipping related Pokemon pages, especially food and drop notes for Shadowclaw, Lunaflare, and Nightfall."
@@ -1035,14 +1035,14 @@
       },
       {
         "question": "What is the best recipe for Dark Cavern?",
-        "answer": "Fire Boost is the safest first recipe to consider because it gives +30% Fire damage. Use it after the route is stable, not on your first scouting run."
+        "answer": "Ghost Veil is the safest first recipe to consider because the main high-value targets overlap with ghost pressure. Use it after the route is stable, not on your first scouting run."
       },
       {
         "question": "Is Dark Cavern worth farming?",
         "answer": "Dark Cavern is worth farming when you need +65% Dark drops or one of its key Pokemon such as Shadowclaw, Lunaflare, and Nightfall. If neither helps your current build, farm a more relevant habitat first."
       }
     ],
-    "recommended_recipe": "rec002",
+    "recommended_recipe": "rec010",
     "updated_at": "2026-05-23",
     "data_status": "Editorial habitat guide",
     "data_status_note": "This habitat page is an editorial route guide built from site database entries and public materials. Unlocks, spawns, and farming routes should be rechecked after patches.",
@@ -1062,7 +1062,7 @@
     "image_alt": "Pokémon Pokopia habitat screenshot: Crystal Cave",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Crystal Cave is a medium Pokopia habitat unlocked by: Reach Level 16. The area runs around Foggy weather and gives +60% Crystal drops. This area is best treated as a transition route. It rewards better planning than starter habitats but does not require a full endgame team. Key Pokemon to watch here include Crystion and Crystalwing.",
+    "overview": "Crystal Cave opens at Level 16 and is a compact crystal-farming route with two clear targets: Crystion and Crystalwing. Foggy weather and +60% Crystal drops make it attractive, but the spawn windows are easy to waste if you wander. Use Flying High only when Crystalwing is the plan; otherwise, keep the route focused on crystal drops and rare checks.",
     "unlock_steps": [
       "Meet the unlock condition: Reach Level 16.",
       "Check the expected weather before entering: Foggy.",
@@ -1143,7 +1143,7 @@
     "image_alt": "Pokémon Pokopia habitat screenshot: Meadow Garden",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Meadow Garden is an easy Pokopia habitat unlocked by: Starting Habitat. The area runs around Sunny weather and gives +25% Herb drops. This is a good route for early farming, testing new team members, and collecting resources without heavy recipe spending. Key Pokemon to watch here include Bulbin, Thornvine, Mossling, and Treemendous.",
+    "overview": "Meadow Garden is a low-pressure starter route for herb farming, support testing, and early Grass-team practice. Sunny weather and +25% Herb drops make it useful for Bulbin, Thornvine, Mossling, and Treemendous without heavy recipe spending. Grass Heal fits this area because most failures come from small mistakes rather than hard combat checks.",
     "unlock_steps": [
       "Meet the unlock condition: Starting Habitat.",
       "Check the expected weather before entering: Sunny.",
@@ -1223,7 +1223,7 @@
     "image_alt": "Pokémon Pokopia habitat screenshot: Industrial Zone",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Industrial Zone is a medium Pokopia habitat unlocked by: Reach Level 14. The area runs around Cloudy weather and gives +40% Metal drops. This area is best treated as a transition route. It rewards better planning than starter habitats but does not require a full endgame team. Key Pokemon to watch here include Mechabit, Magnedex, and Ironclaw.",
+    "overview": "Industrial Zone opens at Level 14 and is the practical metal route for players building Electric/Steel teams. Cloudy weather, +40% Metal drops, and spawns such as Mechabit, Magnedex, and Ironclaw reward sturdy routing and clean inventory planning. Thunder Strike helps when combat slows the route, but the first priority is learning the metal-node loop.",
     "unlock_steps": [
       "Meet the unlock condition: Reach Level 14.",
       "Check the expected weather before entering: Cloudy.",
@@ -1303,7 +1303,7 @@
     "image_alt": "Pokémon Pokopia habitat screenshot: Nightmare Forest",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Nightmare Forest is a hard Pokopia habitat unlocked by: Reach Level 26. The area runs around Foggy/Night weather and gives +55% Poison drops. This is a high-pressure route where scouting matters. Enter with a defined objective and avoid spending rare recipes before the path is stable. Key Pokemon to watch here include Leafon, Frostbite, and Magicalure.",
+    "overview": "Nightmare Forest opens at Level 26 and should be treated as a late-game poison route with awkward weather pressure. Foggy/Night conditions, +55% Poison drops, and targets like Leafon, Frostbite, and Magicalure make it valuable, but failed pathing can waste the entire window. Ghost Veil is useful when Frostbite pressure is the problem; otherwise, save recipes until the rare-check loop is stable.",
     "unlock_steps": [
       "Meet the unlock condition: Reach Level 26.",
       "Check the expected weather before entering: Foggy/Night.",
@@ -1404,7 +1404,7 @@
       "Enter Dragon's Den with one objective: unlock clear, resource farming, rare hunting, or team testing.",
       "Run the shortest loop that includes the main spawn group: Voltscale, Snorizard, and Primordion.",
       "Track +50% Dragon drops during the first few clears. If the bonus is not helping your current build, switch to a more relevant habitat.",
-      "Use Thunder Strike only after the loop is stable. Its effect (+40% electric damage) is most valuable when you can use the full duration.",
+      "Use Dragon's Fury only after the loop is stable. Its effect (+35% dragon damage) is most valuable when the next run includes a serious dragon check.",
       "Reset quickly after the important spawn check instead of clearing every branch, unless you also need general resources."
     ],
     "rare_spawns": [
@@ -1420,7 +1420,7 @@
     ],
     "common_mistakes": [
       "Entering Dragon's Den without checking Stormy weather first.",
-      "Using Thunder Strike before learning the route path and spawn check locations.",
+      "Using Dragon's Fury before learning the route path and spawn check locations.",
       "Trying to farm Voltscale, Snorizard, and Primordion before normal encounters are consistent.",
       "Ignoring +50% Dragon drops and repeating the route even when it does not support your current build.",
       "Skipping related Pokemon pages, especially food and drop notes for Voltscale, Snorizard, and Primordion."
@@ -1440,14 +1440,14 @@
       },
       {
         "question": "What is the best recipe for Dragon's Den?",
-        "answer": "Thunder Strike is the safest first recipe to consider because it gives +40% electric damage. Use it after the route is stable, not on your first scouting run."
+        "answer": "Dragon's Fury is the safest first recipe to consider because it gives +35% dragon damage. Use it after the route is stable, not on your first scouting run."
       },
       {
         "question": "Is Dragon's Den worth farming?",
         "answer": "Dragon's Den is worth farming when you need +50% Dragon drops or one of its key Pokemon such as Voltscale, Snorizard, and Primordion. If neither helps your current build, farm a more relevant habitat first."
       }
     ],
-    "recommended_recipe": "rec007",
+    "recommended_recipe": "rec011",
     "updated_at": "2026-05-23",
     "data_status": "Editorial habitat guide",
     "data_status_note": "This habitat page is an editorial route guide built from site database entries and public materials. Unlocks, spawns, and farming routes should be rechecked after patches.",
@@ -1467,7 +1467,7 @@
     "image_alt": "Pokémon Pokopia habitat screenshot: Fairy Glen",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Fairy Glen is a medium Pokopia habitat unlocked by: Reach Level 18. The area runs around Clear weather and gives +45% Fairy dust drops. This area is best treated as a transition route. It rewards better planning than starter habitats but does not require a full endgame team. Key Pokemon to watch here include Crystion, Dewdrop, Mysticat, and Magicalure.",
+    "overview": "Fairy Glen opens at Level 18 and works best as a focused fairy-dust and rare-support route. Clear weather, +45% Fairy dust drops, and spawns such as Crystion, Dewdrop, Mysticat, and Magicalure reward short, repeatable checks. Water Shield is only useful when Dewdrop-style support farming is the goal; rare hunting should be planned around food and timing instead.",
     "unlock_steps": [
       "Meet the unlock condition: Reach Level 18.",
       "Check the expected weather before entering: Clear.",
@@ -1549,7 +1549,7 @@
     "image_alt": "Pokémon Pokopia habitat screenshot: Training Grounds",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Training Grounds is an easy Pokopia habitat unlocked by: Reach Level 10. The area runs around Clear weather and gives +30% XP bonus. This is a good route for early farming, testing new team members, and collecting resources without heavy recipe spending. Key Pokemon to watch here include Bulbin, Tidlet, Thornvine, Skittlish, and Treemendous.",
+    "overview": "Training Grounds opens at Level 10 and is the safest place to test starter teams, backup slots, and early XP loops. Clear weather, +30% XP bonus, and spawns such as Bulbin, Tidlet, Thornvine, Skittlish, and Treemendous make it useful for practice rather than rare hunting. Grass Heal is the natural recipe here because the route is about staying consistent through repeated small fights.",
     "unlock_steps": [
       "Meet the unlock condition: Reach Level 10.",
       "Check the expected weather before entering: Clear.",
@@ -1568,7 +1568,7 @@
       "Enter Training Grounds with one objective: unlock clear, resource farming, rare hunting, or team testing.",
       "Run the shortest loop that includes the main spawn group: Bulbin, Tidlet, Thornvine, and Skittlish.",
       "Track +30% XP bonus during the first few clears. If the bonus is not helping your current build, switch to a more relevant habitat.",
-      "Use Muddy Swirl only after the loop is stable. Its effect (+25% ground damage) is most valuable when you can use the full duration.",
+      "Use Grass Heal only after the loop is stable. Its effect (+30 HP restore) is most valuable when repeated small fights are slowly wearing the team down.",
       "Reset quickly after the important spawn check instead of clearing every branch, unless you also need general resources."
     ],
     "rare_spawns": [
@@ -1582,7 +1582,7 @@
     ],
     "common_mistakes": [
       "Entering Training Grounds without checking Clear weather first.",
-      "Using Muddy Swirl before learning the route path and spawn check locations.",
+      "Using Grass Heal before learning the route path and spawn check locations.",
       "Trying to farm the highest-value spawn in the area before normal encounters are consistent.",
       "Ignoring +30% XP bonus and repeating the route even when it does not support your current build.",
       "Skipping related Pokemon pages, especially food and drop notes for Bulbin, Tidlet, and Thornvine."
@@ -1602,14 +1602,14 @@
       },
       {
         "question": "What is the best recipe for Training Grounds?",
-        "answer": "Muddy Swirl is the safest first recipe to consider because it gives +25% ground damage. Use it after the route is stable, not on your first scouting run."
+        "answer": "Grass Heal is the safest first recipe to consider because it supports repeated practice runs. Use it after the route is stable, not on your first scouting run."
       },
       {
         "question": "Is Training Grounds worth farming?",
         "answer": "Training Grounds is worth farming when you need +30% XP bonus or one of its key Pokemon such as Bulbin, Tidlet, and Thornvine. If neither helps your current build, farm a more relevant habitat first."
       }
     ],
-    "recommended_recipe": "rec014",
+    "recommended_recipe": "rec009",
     "updated_at": "2026-05-23",
     "data_status": "Editorial habitat guide",
     "data_status_note": "This habitat page is an editorial route guide built from site database entries and public materials. Unlocks, spawns, and farming routes should be rechecked after patches.",
