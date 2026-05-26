@@ -30,6 +30,11 @@ const guideTracks = [
   },
 ]
 
+function shortText(text: string, length = 145) {
+  if (text.length <= length) return text
+  return `${text.slice(0, length).trim()}...`
+}
+
 export const metadata: Metadata = {
   title: 'Pokopia Guides and Route Notes',
   description: 'Read source-aware Pokopia guides for starter choices, habitat routes, farming plans, recipes, and editorial team planning.',
@@ -108,7 +113,21 @@ export default function GuidesPage() {
             <CreditedImage src={guide.image_url} alt={guide.image_alt} source={guide.image_source} sourceUrl={guide.image_source_url} licenseNote={guide.image_license_note} originalMedia={guide.image_original_media} />
             <span className="badge">{categoryLabels[guide.category] || guide.category}</span>
             <h3>{guide.title}</h3>
-            <p>{guide.answer || guide.seo_keyword}</p>
+            <p className="index-card-summary">{shortText(guide.answer || guide.seo_keyword, 135)}</p>
+            <dl className="index-card-facts">
+              <div>
+                <dt>Steps</dt>
+                <dd>{guide.steps.length} route checks</dd>
+              </div>
+              <div>
+                <dt>Setup</dt>
+                <dd>{shortText(guide.recommended_setup[0], 76)}</dd>
+              </div>
+              <div>
+                <dt>Watch For</dt>
+                <dd>{shortText(guide.common_mistakes[0], 76)}</dd>
+              </div>
+            </dl>
           </a>
         ))}
       </div>
