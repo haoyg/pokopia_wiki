@@ -65,6 +65,21 @@ const roleSlots = [
   { key: 'Survival', roles: ['Tank', 'Defender', 'Support'], note: 'Protects long routes, bad weather, and final-room pressure.' },
 ]
 
+const builderNotes = [
+  {
+    title: 'When to use it',
+    text: 'Use the builder before pushing a hard route, farming a rare target, or changing recipes around a team that keeps failing.',
+  },
+  {
+    title: 'How to read roles',
+    text: 'The draft is built around Lead, Damage, Support, and Survival slots. A balanced team usually beats four high-rarity picks with overlapping jobs.',
+  },
+  {
+    title: 'What to check next',
+    text: 'Open each Pokemon page to confirm habitat, food, drops, and route fit, then check the linked recipe before committing resources.',
+  },
+]
+
 function includesType(type: string, preferredTypes: string[]) {
   return preferredTypes.some((target) => type.toLowerCase().includes(target.toLowerCase()))
 }
@@ -180,6 +195,15 @@ export default function TeamBuilder() {
         note="Team recommendations are editorial planning drafts based on Pokopia Portal role, type, habitat, recipe, and guide data. They are not official rankings or verified competitive results."
         updatedAt="2026-05-26"
       />
+
+      <section style={{ marginTop: '1.5rem', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: '0.85rem' }}>
+        {builderNotes.map((note) => (
+          <div key={note.title} style={{ padding: '1rem', border: '1px solid #dce8dc', borderRadius: '12px', background: 'rgba(255, 255, 255, 0.9)' }}>
+            <strong style={{ display: 'block', fontSize: '0.95rem' }}>{note.title}</strong>
+            <p style={{ marginTop: '0.45rem', color: '#637083', fontSize: '0.88rem', lineHeight: 1.55 }}>{note.text}</p>
+          </div>
+        ))}
+      </section>
 
       <section style={{ marginTop: '1.5rem' }}>
         <h2 style={{ fontSize: '1rem', marginBottom: '0.75rem' }}>Team Goal</h2>
@@ -443,6 +467,11 @@ export default function TeamBuilder() {
         <p style={{ color: '#637083', fontSize: '0.9rem', maxWidth: '850px' }}>
           Start from the automatic four-role draft, then swap Pokemon from the pool if your target habitat needs a different type or rarity. Open the linked pages before spending rare recipes so the team matches weather, food, drops, and route risk.
         </p>
+        <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.65rem', marginTop: '1rem' }}>
+          <Link href="/wiki/pokemon" style={{ fontSize: '0.85rem', fontWeight: 800 }}>Browse Pokemon</Link>
+          <Link href="/tools/habitat-planner" style={{ fontSize: '0.85rem', fontWeight: 800 }}>Plan route first</Link>
+          <Link href="/tools/recipe-calculator" style={{ fontSize: '0.85rem', fontWeight: 800 }}>Choose recipe support</Link>
+        </div>
       </section>
     </main>
   )

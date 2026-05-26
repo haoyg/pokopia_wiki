@@ -55,6 +55,21 @@ const weatherOptions = [
   ['dark', 'Dark'],
 ]
 
+const plannerNotes = [
+  {
+    title: 'When to use it',
+    text: 'Use this planner before opening a new habitat, repeating a rare farming loop, or deciding whether a recipe is worth spending on the next route.',
+  },
+  {
+    title: 'How to read scores',
+    text: 'A higher route match means the habitat better fits the selected goal. Level access still matters, so a lower-score unlocked habitat can be the better practical choice.',
+  },
+  {
+    title: 'Common planning mistake',
+    text: 'Do not choose a hard habitat only because it has valuable spawns. First confirm weather, recipe timing, and whether your current team can repeat the route safely.',
+  },
+]
+
 function getUnlockLevel(condition: string) {
   const match = condition.match(/Reach Level (\d+)/)
   return match ? Number.parseInt(match[1], 10) : 1
@@ -168,6 +183,15 @@ export default function HabitatPlanner() {
         note="Recommendations are based on Pokopia Portal habitat, recipe, Pokemon, and guide entries. Use this as route planning support and recheck pages after balance updates."
         updatedAt="2026-05-26"
       />
+
+      <section style={{ marginTop: '1.5rem', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: '0.85rem' }}>
+        {plannerNotes.map((note) => (
+          <div key={note.title} style={{ padding: '1rem', border: '1px solid #dce8dc', borderRadius: '12px', background: 'rgba(255, 255, 255, 0.9)' }}>
+            <strong style={{ display: 'block', fontSize: '0.95rem' }}>{note.title}</strong>
+            <p style={{ marginTop: '0.45rem', color: '#637083', fontSize: '0.88rem', lineHeight: 1.55 }}>{note.text}</p>
+          </div>
+        ))}
+      </section>
 
       <section style={{ marginTop: '1.5rem' }}>
         <h2 style={{ fontSize: '1rem', marginBottom: '0.75rem' }}>Route Goal</h2>
@@ -493,6 +517,11 @@ export default function HabitatPlanner() {
         <p style={{ color: '#637083', fontSize: '0.9rem', maxWidth: '850px' }}>
           Start with the goal, then narrow by level, difficulty, or weather. Open the habitat page before spending rare recipes, and use the linked Pokemon and guide pages to confirm food, drops, spawn timing, and route risks.
         </p>
+        <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.65rem', marginTop: '1rem' }}>
+          <Link href="/wiki/habitat" style={{ fontSize: '0.85rem', fontWeight: 800 }}>Browse all habitats</Link>
+          <Link href="/tools/recipe-calculator" style={{ fontSize: '0.85rem', fontWeight: 800 }}>Compare recipes</Link>
+          <Link href="/tools/team-builder" style={{ fontSize: '0.85rem', fontWeight: 800 }}>Build a team draft</Link>
+        </div>
       </section>
     </main>
   )
