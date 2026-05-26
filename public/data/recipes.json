@@ -34,9 +34,9 @@
       "Speed Potion can outperform Honey Cake on long routes where movement time is the main bottleneck."
     ],
     "common_mistakes": [
-      "Using Honey Cake before checking whether the rare spawn is active in the current habitat state.",
+      "Using Honey Cake because a route feels lucky, without first checking whether the target spawn is active.",
       "Turning a short farming loop into a full clear and wasting most of the recipe duration.",
-      "Crafting several cakes at once before knowing whether the route actually produces useful results."
+      "Crafting several cakes at once before one test session proves the route is worth repeating."
     ],
     "faqs": [
       {
@@ -86,7 +86,7 @@
     ],
     "recommended_for": [
       "Boss attempts in Volcanic Cave and other routes where fire damage has clear value.",
-      "Players running Flamexor, Emberkit, or other fire-leaning Pokemon in an aggressive setup.",
+      "Players running Flamexor, Emberal, or other fire-leaning Pokemon in an aggressive setup.",
       "Short combat checks where ending the encounter quickly matters more than long-duration utility."
     ],
     "alternatives": [
@@ -95,9 +95,9 @@
       "Steel Shell fits routes where the fight is dangerous because of heavy incoming hits rather than low outgoing damage."
     ],
     "common_mistakes": [
-      "Activating Fire Boost at the habitat entrance and spending the strongest part of the buff on travel.",
+      "Activating Fire Boost at the habitat entrance and spending the best part of the buff walking to the fight.",
       "Using it to fix a route that is failing because of defense or healing problems.",
-      "Crafting it for every fire habitat visit instead of saving it for real damage checks."
+      "Crafting it for every fire habitat visit instead of saving it for boss rooms, elite checks, or short damage tests."
     ],
     "faqs": [
       {
@@ -156,8 +156,8 @@
       "Grass Heal is safer for relaxed daily farming where mistakes are more common than long travel time."
     ],
     "common_mistakes": [
-      "Using Speed Potion before learning the route and losing the benefit to indecision.",
-      "Stopping for side materials that are not part of the planned loop.",
+      "Using Speed Potion before learning the route and losing most of the benefit while deciding where to go.",
+      "Stopping for side materials that were never part of the planned loop.",
       "Crafting it for boss fights where damage or defense would matter more."
     ],
     "faqs": [
@@ -198,7 +198,7 @@
     "ingredient_route": [
       "Collect Iron Root and Big Root during normal habitat clears so Mystery Meat is the only scarce ingredient you need to plan around.",
       "Save the stew for routes with multiple danger points instead of spending it on a single easy fight.",
-      "Pair it with Frost Peak, Ancient Ruins, Industrial Factory, or Nightmare Hollow when repeated pressure is the main issue.",
+      "Pair it with Frost Peak, Ancient Ruins, Industrial Zone, or Nightmare Forest when repeated pressure is the main issue.",
       "Review the failed section before crafting so the extra defense is used where it matters."
     ],
     "best_timing": [
@@ -217,8 +217,8 @@
       "Grass Heal is cheaper for daily routes that only need light sustain."
     ],
     "common_mistakes": [
-      "Using Guardian Stew when the team actually lacks damage and the fight simply lasts too long.",
-      "Saving it until the run is already unstable instead of using it before the dangerous section.",
+      "Using Guardian Stew when the team actually lacks damage and the fight is only dangerous because it lasts too long.",
+      "Saving it until the run is already unstable instead of using it before the section that usually causes the failure.",
       "Spending rare ingredients on easy habitats that do not need defensive support."
     ],
     "faqs": [
@@ -278,8 +278,8 @@
       "Mega Restore is better when the rare target route is dangerous enough to risk losing the whole attempt."
     ],
     "common_mistakes": [
-      "Using Lucky Charm on a route that has not been practiced.",
-      "Chasing several unrelated targets during one buff window.",
+      "Using Lucky Charm on a route that has not been practiced just because the target is rare.",
+      "Chasing several unrelated targets during one buff window and reducing serious attempts on the main target.",
       "Assuming the charm guarantees a result and burning all rare ingredients in one session."
     ],
     "faqs": [
@@ -316,11 +316,11 @@
     "image_alt": "Pokémon Pokopia gameplay screenshot for recipe page: Water Shield",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Water Shield is a specialist defensive recipe for water-heavy habitats. It is worth crafting when the dangerous part of the route is clearly tied to water damage, wet terrain pressure, or repeated aquatic encounters. Crystal Lake, Coral Reef, and Mudstone River routes can all justify it if the team loses momentum to water threats before reaching the target. It is not a general defensive recipe. If enemies from several types are causing trouble, Guardian Stew is more flexible. The best Water Shield runs are planned around one watery section: enter prepared, clear the hazard cleanly, and leave with the objective instead of extending the route beyond the recipe’s purpose.",
+    "overview": "Water Shield is a specialist defensive recipe for water-heavy habitats. It is worth crafting when the dangerous part of the route is clearly tied to water damage, wet terrain pressure, or repeated aquatic encounters. Crystal Lake, Sunny Beach, and Muddy River routes can all justify it if the team loses momentum to water threats before reaching the target. It is not a general defensive recipe. If enemies from several types are causing trouble, Guardian Stew is more flexible. The best Water Shield runs are planned around one watery section: enter prepared, clear the hazard cleanly, and leave with the objective instead of extending the route beyond the recipe’s purpose.",
     "ingredient_route": [
       "Collect Crystal Dew and Shell during water-route scouting before spending Pearl on a serious attempt.",
       "Confirm the failed section is water-based; do not craft it just because the habitat has water in the name.",
-      "Use it in Crystal Lake, Coral Reef, or Mudstone River when the target path includes repeated aquatic pressure.",
+      "Use it in Crystal Lake, Sunny Beach, or Muddy River when the target path includes repeated aquatic pressure.",
       "Pair it with Pokemon that can already handle the route objective so the shield supports the plan instead of replacing it."
     ],
     "best_timing": [
@@ -346,7 +346,7 @@
     "faqs": [
       {
         "question": "Where is Water Shield most useful?",
-        "answer": "It is strongest in Crystal Lake, Coral Reef, and Mudstone River when the route’s danger comes from water pressure."
+        "answer": "It is strongest in Crystal Lake, Sunny Beach, and Muddy River when the route’s danger comes from water pressure."
       },
       {
         "question": "Is Water Shield better than Guardian Stew?",
@@ -377,7 +377,7 @@
     "image_alt": "Pokémon Pokopia gameplay screenshot for recipe page: Thunder Strike",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Thunder Strike is an offensive recipe for electric battles and fast tempo checks. It shines when the next target can be decided quickly with electric burst, especially in Thunder Arena or routes where Voltscale, Sparkit, Mechabit, and similar Pokemon already fit the plan. The recipe is weaker when a route is slow because of travel, resource management, or unclear objectives. It should be used close to the fight, not at the start of a long habitat run. Think of Thunder Strike as a way to compress a dangerous encounter into a short controlled window. If the team cannot survive long enough to attack, fix defense first.",
+    "overview": "Thunder Strike is an offensive recipe for electric battles and fast tempo checks. It shines when the next target can be decided quickly with electric burst, especially in Thunder Arena or routes where Voltscale, Zaprat, Mechabit, and similar Pokemon already fit the plan. The recipe is weaker when a route is slow because of travel, resource management, or unclear objectives. It should be used close to the fight, not at the start of a long habitat run. Think of Thunder Strike as a way to compress a dangerous encounter into a short controlled window. If the team cannot survive long enough to attack, fix defense first.",
     "ingredient_route": [
       "Gather Lightning Bug while clearing electric spawn paths, then save Battery and Magnet for planned combat attempts.",
       "Enter Thunder Arena or the target electric route with the fight order already decided.",
@@ -390,8 +390,8 @@
       "Avoid it during open exploration where most of the buff would be spent walking."
     ],
     "recommended_for": [
-      "Electric battle routes in Thunder Arena and Windmill Plateau.",
-      "Players building around Voltscale, Sparkit, Mechabit, or other electric attackers.",
+      "Electric battle routes in Thunder Arena and Windmill Plains.",
+      "Players building around Voltscale, Zaprat, Mechabit, or other electric attackers.",
       "Mid-game damage checks where a short burst matters more than long sustain."
     ],
     "alternatives": [
@@ -560,10 +560,10 @@
     "image_alt": "Pokémon Pokopia gameplay screenshot for recipe page: Ghost Veil",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Ghost Veil is a route-control recipe for Shadow Marsh, Nightmare Hollow, and other areas where ghost or shadow pressure defines the run. It is most valuable when the objective sits behind a dangerous encounter chain or when ghost-type Pokemon farming requires repeated checks in unsafe terrain. The recipe should be used after the route is understood, because shadow routes often punish wandering. Ghost Veil is not a general luck or stealth solution. If the route is failing because the team gets worn down slowly, a defensive recipe may help more. Use Ghost Veil when the next few minutes involve the specific shadow section that matters.",
+    "overview": "Ghost Veil is a route-control recipe for Shadow Marsh, Nightmare Forest, and other areas where ghost or shadow pressure defines the run. It is most valuable when the objective sits behind a dangerous encounter chain or when ghost-type Pokemon farming requires repeated checks in unsafe terrain. The recipe should be used after the route is understood, because shadow routes often punish wandering. Ghost Veil is not a general luck or stealth solution. If the route is failing because the team gets worn down slowly, a defensive recipe may help more. Use Ghost Veil when the next few minutes involve the specific shadow section that matters.",
     "ingredient_route": [
       "Gather Soul Dust during shadow-route scouting and save Void Fruit for attempts with a clear target.",
-      "Map the dangerous section of Shadow Marsh or Nightmare Hollow before crafting the recipe.",
+      "Map the dangerous section of Shadow Marsh or Nightmare Forest before crafting the recipe.",
       "Use Ghost Veil for repeated ghost Pokemon checks, shadow material routes, or short dangerous objective pushes.",
       "Leave the habitat after the target checks are complete rather than stretching the buff into unrelated farming."
     ],
@@ -573,7 +573,7 @@
       "Avoid it during broad exploration where several non-shadow objectives compete for time."
     ],
     "recommended_for": [
-      "Shadow Marsh farming, Nightmare Hollow pushes, and ghost-type Pokemon checks.",
+      "Shadow Marsh farming, Nightmare Forest pushes, and ghost-type Pokemon checks.",
       "Players who know the route but need cleaner control through the dangerous middle section.",
       "Focused late-mid-game attempts where Void Fruit is worth spending."
     ],
@@ -590,7 +590,7 @@
     "faqs": [
       {
         "question": "Is Ghost Veil mainly for Shadow Marsh?",
-        "answer": "Shadow Marsh is one of its best uses, but Nightmare Hollow and other shadow-heavy routes can also justify it."
+        "answer": "Shadow Marsh is one of its best uses, but Nightmare Forest and other shadow-heavy routes can also justify it."
       },
       {
         "question": "Should I use Ghost Veil for rare ghost Pokemon?",
@@ -686,7 +686,7 @@
     "ingredient_route": [
       "Gather Iron Ore during mining or factory routes and save Metal Coat for attempts with a clear defensive need.",
       "Identify the short danger window before crafting: boss phase, heavy enemy room, or risky resource node.",
-      "Use it in Industrial Factory, Ancient Ruins, Dragon's Den, or Volcanic Cave when heavy hits are the issue.",
+      "Use it in Industrial Zone, Ancient Ruins, Dragon's Den, or Volcanic Cave when heavy hits are the issue.",
       "Enter the danger section immediately after activation to keep the strongest protection aligned with the threat."
     ],
     "best_timing": [
@@ -720,7 +720,7 @@
       },
       {
         "question": "Where does Steel Shell work best?",
-        "answer": "Industrial Factory, Ancient Ruins, Dragon's Den, Volcanic Cave, and other routes with clear heavy-damage checkpoints."
+        "answer": "Industrial Zone, Ancient Ruins, Dragon's Den, Volcanic Cave, and other routes with clear heavy-damage checkpoints."
       }
     ],
     "related_pokemon": "pkm007,pkm010,pkm019,pkm037,pkm045",
@@ -757,7 +757,7 @@
     ],
     "recommended_for": [
       "Sky Isles farming, flying Pokemon checks, and platform-heavy objective routes.",
-      "Players using Pidgewing, Skyfin, Cloudpuff, or other flying-route Pokemon.",
+      "Players using Breezel, Flamingo, Tropius, or other flying-route Pokemon.",
       "Route optimization after the layout has already been scouted."
     ],
     "alternatives": [
@@ -804,9 +804,9 @@
     "image_alt": "Pokémon Pokopia gameplay screenshot for recipe page: Muddy Swirl",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "overview": "Muddy Swirl is a ground-route recipe for Mudstone River, Gemstone Mine, and other paths where earth or mud coverage solves the main obstacle. It is useful when the target route has clustered ground encounters, riverbank materials, or enemies that can be handled faster with ground pressure. The recipe is not a general water-route buff despite the river ingredients. If the problem is water damage, Water Shield is more appropriate. Use Muddy Swirl when the plan is to push through a muddy or mineral-heavy section, collect the target materials, and leave before the route turns into a broader clear.",
+    "overview": "Muddy Swirl is a ground-route recipe for Muddy River, Gemstone Canyon, and other paths where earth or mud coverage solves the main obstacle. It is useful when the target route has clustered ground encounters, riverbank materials, or enemies that can be handled faster with ground pressure. The recipe is not a general water-route buff despite the river ingredients. If the problem is water damage, Water Shield is more appropriate. Use Muddy Swirl when the plan is to push through a muddy or mineral-heavy section, collect the target materials, and leave before the route turns into a broader clear.",
     "ingredient_route": [
-      "Gather Mud Ball and River Clay during riverbank farming, then save Water Stone for a focused Mudstone River or Gemstone Mine run.",
+      "Gather Mud Ball and River Clay during riverbank farming, then save Water Stone for a focused Muddy River or Gemstone Canyon run.",
       "Check whether the target objective needs ground pressure or water defense before choosing this recipe.",
       "Use it on routes with clustered muddy encounters or mineral nodes rather than scattered general farming.",
       "Keep the loop short so the recipe covers the dense ground-value section."
@@ -817,8 +817,8 @@
       "Avoid it if the route mostly contains water hazards and only a few ground enemies."
     ],
     "recommended_for": [
-      "Mudstone River farming, Gemstone Mine support, and ground-type Pokemon checks.",
-      "Players using Mudkipper, Quagshell, Riverhorn, or other ground/water route Pokemon.",
+      "Muddy River farming, Gemstone Canyon support, and ground-type Pokemon checks.",
+      "Players using Mudkipz, Toxifin, Primordion, or other ground/water route Pokemon.",
       "Mid-game resource routes where faster ground pressure improves consistency."
     ],
     "alternatives": [
@@ -838,7 +838,7 @@
       },
       {
         "question": "Where should I use Muddy Swirl?",
-        "answer": "Mudstone River and Gemstone Mine are the clearest fits because the recipe supports muddy encounters and resource routing."
+        "answer": "Muddy River and Gemstone Canyon are the clearest fits because the recipe supports muddy encounters and resource routing."
       },
       {
         "question": "Should I craft Muddy Swirl for daily farming?",

@@ -113,10 +113,10 @@
   },
   {
     "id": "guid015",
-    "title": "Mudstone River Habitat Guide",
+    "title": "Muddy River Habitat Guide",
     "slug": "muddy-river-guide",
     "related_habitats": "hab009",
-    "related_items": "rec014",
+    "related_items": "rec006",
     "related_pokemon": "pkm018,pkm021"
   },
   {

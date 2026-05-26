@@ -985,23 +985,23 @@
   },
   {
     "id": "guid015",
-    "title": "Mudstone River Habitat Guide",
+    "title": "Muddy River Habitat Guide",
     "slug": "muddy-river-guide",
     "category": "guides",
     "seo_keyword": "muddy river pokopia",
-    "content": "Mudstone River is a pacing route. It punishes players who rush into every branch, but it rewards teams that can repeat a simple water-ground loop without spending much recovery. The route is useful when you need steady water value, not when you want a flashy high-risk push.\n\nMudkipz gives the area a stable identity, while Stealthfin helps when the route asks for cleaner water pressure. Aqua Shield is strongest when used to protect the stretch that causes repeated damage, not at the start of every visit.\n\nIf the river feels slow, look at travel and branch selection before changing the team. A shorter route with fewer wasted fights usually beats a complete clear that drains your inventory.",
+    "content": "Muddy River is a pacing route. It punishes players who rush into every branch, but it rewards teams that can repeat a simple water-ground loop without spending much recovery. The route is useful when you need steady water value, not when you want a flashy high-risk push.\n\nMudkipz gives the area a stable identity, while Stealthfin helps when the route asks for cleaner water pressure. Water Shield is strongest when used to protect the stretch that causes repeated damage, not at the start of every visit.\n\nIf the river feels slow, look at travel and branch selection before changing the team. A shorter route with fewer wasted fights usually beats a complete clear that drains your inventory.",
     "related_pokemon": "pkm018,pkm021",
-    "related_items": "rec014",
+    "related_items": "rec006",
     "related_habitats": "hab009",
     "image_url": "https://www.gematsu.com/wp-content/uploads/2025/11/Pokemon-Pokopia_2025_11-13-25_005.jpg",
-    "image_alt": "Pokémon Pokopia gameplay screenshot for guide: Mudstone River Habitat Guide",
-    "answer": "Mudstone River is best farmed as a short water-ground loop. Use Mudkipz for stability, Stealthfin for cleaner water pressure, and Aqua Shield only where the route repeatedly causes damage.",
+    "image_alt": "Pokémon Pokopia gameplay screenshot for guide: Muddy River Habitat Guide",
+    "answer": "Muddy River is best farmed as a short water-ground loop. Use Mudkipz for stability, Stealthfin for cleaner water pressure, and Water Shield only where the route repeatedly causes damage.",
     "steps": [
       "Enter once to identify which river branch gives the best value.",
       "Use Mudkipz when the route needs stable water-ground handling.",
       "Use Stealthfin when faster water pressure matters.",
       "Skip branches that add travel without supporting the target.",
-      "Use Aqua Shield for the damage-heavy stretch, not automatically at the entrance.",
+      "Use Water Shield for the damage-heavy stretch, not automatically at the entrance.",
       "Keep one backup that can handle awkward non-water matchups.",
       "Repeat the clean loop instead of turning each run into a full clear.",
       "If recovery cost rises, shorten the route before spending more recipes."
@@ -1010,21 +1010,21 @@
       "Lead: Mudkipz for stable route handling.",
       "Pressure option: Stealthfin when faster water clears are needed.",
       "Backup: one coverage pick for enemies that slow water teams.",
-      "Recipe: Aqua Shield for repeated damage sections.",
+      "Recipe: Water Shield for repeated damage sections.",
       "Route style: short water-ground loops with low recovery cost.",
       "Best use: steady material farming, water-team practice, and safe midgame routing."
     ],
     "common_mistakes": [
       "Following every river branch because it is available.",
-      "Using Aqua Shield before knowing where the route actually hurts.",
-      "Treating Mudstone River as a speed route when it is better as a stable loop.",
+      "Using Water Shield before knowing where the route actually hurts.",
+      "Treating Muddy River as a speed route when it is better as a stable loop.",
       "Ignoring non-water matchups that slow the team down.",
       "Full-clearing when a shorter farming path gives better value.",
       "Changing Pokemon before fixing travel and branch selection."
     ],
     "faqs": [
       {
-        "question": "Is Mudstone River good for farming?",
+        "question": "Is Muddy River good for farming?",
         "answer": "Yes, when you keep the route short and repeatable. Long branch-heavy clears reduce its value."
       },
       {
@@ -1032,7 +1032,7 @@
         "answer": "Mudkipz is the safer lead. Stealthfin is better when you already know the route and want more pressure."
       },
       {
-        "question": "When should I use Aqua Shield?",
+        "question": "When should I use Water Shield?",
         "answer": "Use it for the stretch that repeatedly causes damage, not at the start of blind scouting."
       },
       {
@@ -1045,7 +1045,7 @@
       }
     ],
     "published_at": "2026-05-15",
-    "updated_at": "2026-05-25",
+    "updated_at": "2026-05-26",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
     "data_status": "Editorial guide",
@@ -1199,36 +1199,36 @@
     "slug": "water-type-team-build",
     "category": "team",
     "seo_keyword": "water team pokopia",
-    "content": "Water teams are strongest when they control the pace of a route. Aquap gives safe early structure, Mudkipz handles steady water-ground loops, and Stealthfin adds pressure when the route needs cleaner clears. The team should feel reliable before it tries to be fast.\n\nCrystal Lake is the natural early home for water planning, while Mudstone River is better when you want repeated midgame value. Aqua Shield is most useful when the route contains a known damage stretch. If the team already clears safely, a speed or damage adjustment may matter more than another defensive layer.\n\nDo not build water teams as pure comfort picks. Keep one slot for pressure so fights do not drag, and use the recipe only when it protects a section that actually threatens the run.",
+    "content": "Water teams are strongest when they control the pace of a route. Aquap gives safe early structure, Mudkipz handles steady water-ground loops, and Stealthfin adds pressure when the route needs cleaner clears. The team should feel reliable before it tries to be fast.\n\nCrystal Lake is the natural early home for water planning, while Muddy River is better when you want repeated midgame value. Water Shield is most useful when the route contains a known damage stretch. If the team already clears safely, a speed or damage adjustment may matter more than another defensive layer.\n\nDo not build water teams as pure comfort picks. Keep one slot for pressure so fights do not drag, and use the recipe only when it protects a section that actually threatens the run.",
     "related_pokemon": "pkm004,pkm018,pkm021",
     "related_items": "rec006",
     "related_habitats": "hab003,hab009",
     "image_url": "https://www.gematsu.com/wp-content/uploads/2025/11/Pokemon-Pokopia_2025_11-13-25_005.jpg",
     "image_alt": "Pokémon Pokopia gameplay screenshot for guide: Water-Type Team Compilation",
-    "answer": "A good water team uses Aquap for safe early structure, Mudkipz for stable water-ground loops, and Stealthfin when the route needs more pressure. Aqua Shield should protect known danger sections, not every run by default.",
+    "answer": "A good water team uses Aquap for safe early structure, Mudkipz for stable water-ground loops, and Stealthfin when the route needs more pressure. Water Shield should protect known danger sections, not every run by default.",
     "steps": [
       "Start with Aquap if Crystal Lake or early safety is the priority.",
-      "Use Mudkipz when Mudstone River needs stable water-ground handling.",
+      "Use Mudkipz when Muddy River needs stable water-ground handling.",
       "Add Stealthfin when the team needs faster water pressure.",
       "Keep one slot for coverage so fights do not drag.",
-      "Scout the route before using Aqua Shield.",
-      "Use Aqua Shield for known damage stretches, not easy openings.",
+      "Scout the route before using Water Shield.",
+      "Use Water Shield for known damage stretches, not easy openings.",
       "Switch from comfort to pressure once the route becomes stable.",
       "Review whether failed runs come from survival, speed, or bad matchup coverage."
     ],
     "recommended_setup": [
       "Early route: Aquap lead for Crystal Lake safety.",
-      "Stable loop: Mudkipz for Mudstone River-style routes.",
+      "Stable loop: Mudkipz for Muddy River-style routes.",
       "Pressure slot: Stealthfin when clears need to move faster.",
       "Backup: coverage for non-water enemies that slow the route.",
-      "Recipe: Aqua Shield when a specific section causes repeated damage.",
+      "Recipe: Water Shield when a specific section causes repeated damage.",
       "Best use: safe farming routes that still need enough pressure to stay efficient."
     ],
     "common_mistakes": [
       "Building water teams with too much comfort and not enough pressure.",
-      "Using Aqua Shield even when the route is already safe.",
+      "Using Water Shield even when the route is already safe.",
       "Ignoring coverage against enemies that resist or slow water damage.",
-      "Moving to Mudstone River before Crystal Lake-style basics are stable.",
+      "Moving to Muddy River before Crystal Lake-style basics are stable.",
       "Replacing Aquap too early instead of using it as a support base.",
       "Calling the team slow when the real issue is branch selection or travel."
     ],
@@ -1238,7 +1238,7 @@
         "answer": "Aquap, Mudkipz, and Stealthfin cover safety, stable routing, and pressure."
       },
       {
-        "question": "When should I use Aqua Shield?",
+        "question": "When should I use Water Shield?",
         "answer": "Use it for known damage-heavy sections, not automatically at the start of every run."
       },
       {
@@ -1247,7 +1247,7 @@
       },
       {
         "question": "Where should I test water teams?",
-        "answer": "Crystal Lake is safer for early testing. Mudstone River is better for repeated midgame loops."
+        "answer": "Crystal Lake is safer for early testing. Muddy River is better for repeated midgame loops."
       },
       {
         "question": "Why does my water team feel slow?",
@@ -1255,7 +1255,7 @@
       }
     ],
     "published_at": "2026-05-18",
-    "updated_at": "2026-05-25",
+    "updated_at": "2026-05-26",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
     "data_status": "Editorial guide",
@@ -1339,16 +1339,16 @@
     "slug": "electric-speed-build",
     "category": "team",
     "seo_keyword": "electric speed team pokopia",
-    "content": "Electric speed teams should win by reducing downtime, not by pretending every route is a race. Sparkit gives early electric pressure, Mechabit adds utility when the route fights back, and Voltscale becomes the high-value carry once the team can support it.\n\nSpeed Potion is strongest on a route that already has clean movement and predictable fights. If the path is messy, the potion only makes the mistakes happen faster. Thunder Arena and Windmill Plains reward speed when the team has enough control to turn that speed into more useful attempts.\n\nBuild the team around the bottleneck. If opening fights are slow, change the lead. If the route collapses halfway through, add utility. If travel is the real problem, shorten the loop before spending recipes.",
+    "content": "Electric speed teams should win by reducing downtime, not by pretending every route is a race. Zaprat gives early electric pressure, Mechabit adds utility when the route fights back, and Voltscale becomes the high-value carry once the team can support it.\n\nSpeed Potion is strongest on a route that already has clean movement and predictable fights. If the path is messy, the potion only makes the mistakes happen faster. Thunder Arena and Windmill Plains reward speed when the team has enough control to turn that speed into more useful attempts.\n\nBuild the team around the bottleneck. If opening fights are slow, change the lead. If the route collapses halfway through, add utility. If travel is the real problem, shorten the loop before spending recipes.",
     "related_pokemon": "pkm005,pkm010,pkm015",
     "related_items": "rec003,rec007",
     "related_habitats": "hab004,hab012",
     "image_url": "https://www.gematsu.com/wp-content/uploads/2025/11/Pokemon-Pokopia_2025_11-13-25_008.jpg",
     "image_alt": "Pokémon Pokopia gameplay screenshot for guide: Electric-Type Speed Demon Build",
-    "answer": "Electric speed builds work when speed reduces downtime. Use Sparkit for early pressure, Mechabit for utility, Voltscale as the high-value carry, and Speed Potion only on clean repeatable routes.",
+    "answer": "Electric speed builds work when speed reduces downtime. Use Zaprat for early pressure, Mechabit for utility, Voltscale as the high-value carry, and Speed Potion only on clean repeatable routes.",
     "steps": [
       "Identify whether the route needs faster fights, shorter travel, or more stability.",
-      "Use Sparkit for early electric tempo.",
+      "Use Zaprat for early electric tempo.",
       "Add Mechabit when utility and durability matter.",
       "Use Voltscale as the carry once the route can support it.",
       "Scout the loop before using Speed Potion.",
@@ -1357,7 +1357,7 @@
       "Adjust the bottleneck first instead of stacking more speed blindly."
     ],
     "recommended_setup": [
-      "Early pressure: Sparkit lead for simple electric tempo.",
+      "Early pressure: Zaprat lead for simple electric tempo.",
       "Utility slot: Mechabit when route pressure needs control.",
       "Carry: Voltscale for high-value electric-dragon routes.",
       "Recipe: Speed Potion on known loops with low downtime.",
@@ -1379,7 +1379,7 @@
       },
       {
         "question": "Who should lead?",
-        "answer": "Sparkit is the simple early lead. Voltscale is better once the route can support a stronger carry."
+        "answer": "Zaprat is the simple early lead. Voltscale is better once the route can support a stronger carry."
       },
       {
         "question": "When should I use Speed Potion?",
@@ -1395,7 +1395,7 @@
       }
     ],
     "published_at": "2026-05-20",
-    "updated_at": "2026-05-25",
+    "updated_at": "2026-05-26",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
     "data_status": "Editorial guide",
