@@ -212,28 +212,40 @@ export default async function PokemonDetailPage({ params }: Props) {
         )}
       </article>
 
-      <aside style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto', borderTop: '1px solid #ddd' }}>
-        <h3>Related Guides</h3>
-        {relatedGuides.length > 0 ? (
-          <ul style={{ marginTop: '1rem', paddingLeft: '1.5rem' }}>
-            {relatedGuides.map((g) => (
-              <li key={g.id} style={{ marginBottom: '0.5rem' }}>
-                <a href={`/guides/${g.slug}`}>{g.title}</a>
-              </li>
-            ))}
-          </ul>
-        ) : (
-          <p style={{ color: '#666' }}>No related guides yet.</p>
-        )}
-
-        <h3 style={{ marginTop: '2rem' }}>Latest News</h3>
-        <ul style={{ marginTop: '1rem', paddingLeft: '1.5rem' }}>
-          {recentNews.map((n) => (
-            <li key={n.id} style={{ marginBottom: '0.5rem' }}>
-              <a href={`/news/${n.slug}`}>{n.title}</a>
-            </li>
+      <aside className="related-content-panel">
+        <div className="section-title-row">
+          <div>
+            <span className="panel-kicker">Next Checks</span>
+            <h2>Related Guides and Source Updates</h2>
+          </div>
+          <a href="/wiki/pokemon">All Pokemon</a>
+        </div>
+        <div className="related-content-grid">
+          {habitat && (
+            <a href={`/wiki/habitat/${habitat.id}`} className="related-content-card">
+              <span>Habitat</span>
+              <strong>{habitat.name}</strong>
+              <p>{habitat.weather} · {habitat.resource_bonus}</p>
+              <small>Use this route page before farming {pokemon.name}.</small>
+            </a>
+          )}
+          {relatedGuides.map((g) => (
+            <a key={g.id} href={`/guides/${g.slug}`} className="related-content-card">
+              <span>Guide</span>
+              <strong>{g.title}</strong>
+              <p>{g.answer}</p>
+              <small>{g.steps.length} route checks</small>
+            </a>
           ))}
-        </ul>
+          {recentNews.map((n) => (
+            <a key={n.id} href={`/news/${n.slug}`} className="related-content-card">
+              <span>News</span>
+              <strong>{n.title}</strong>
+              <p>{n.excerpt}</p>
+              <small>{n.verified_status}</small>
+            </a>
+          ))}
+        </div>
       </aside>
     </main>
   )

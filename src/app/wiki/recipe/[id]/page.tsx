@@ -194,47 +194,40 @@ export default async function RecipeDetailPage({ params }: Props) {
         </section>
       )}
 
-      <aside style={{ marginTop: '3rem', borderTop: '1px solid #ddd', paddingTop: '2rem' }}>
-        {relatedPokemon.length > 0 && (
-          <>
-            <h3>Recommended Pokemon</h3>
-            <div className="pokemon-grid" style={{ marginTop: '1rem' }}>
-              {relatedPokemon.map((p) => (
-                <a key={p.id} href={`/wiki/pokemon/${p.id}`} className="card">
-                  <h4>{p.name}</h4>
-                  <p>{p.type}</p>
-                  <span className={`rarity ${p.rarity}`}>{p.rarity}</span>
-                </a>
-              ))}
-            </div>
-          </>
-        )}
-
-        {relatedHabitats.length > 0 && (
-          <>
-            <h3 style={{ marginTop: '2rem' }}>Recommended Habitats</h3>
-            <ul style={{ marginTop: '1rem', paddingLeft: '1.5rem' }}>
-              {relatedHabitats.map((h) => (
-                <li key={h.id} style={{ marginBottom: '0.5rem' }}>
-                  <a href={`/wiki/habitat/${h.id}`}>{h.name}</a>
-                </li>
-              ))}
-            </ul>
-          </>
-        )}
-
-        <h3>Related Guides</h3>
-        {relatedGuides.length > 0 ? (
-          <ul style={{ marginTop: '1rem', paddingLeft: '1.5rem' }}>
-            {relatedGuides.map((g) => (
-              <li key={g.id} style={{ marginBottom: '0.5rem' }}>
-                <a href={`/guides/${g.slug}`}>{g.title}</a>
-              </li>
-            ))}
-          </ul>
-        ) : (
-          <p style={{ color: '#666' }}>Check our <a href="/guides">guides</a> for recipe strategies.</p>
-        )}
+      <aside className="related-content-panel">
+        <div className="section-title-row">
+          <div>
+            <span className="panel-kicker">Use This Recipe With</span>
+            <h2>Related Pokemon, Habitats, and Guides</h2>
+          </div>
+          <a href="/tools/recipe-calculator">Compare recipes</a>
+        </div>
+        <div className="related-content-grid">
+          {relatedPokemon.map((p) => (
+            <a key={p.id} href={`/wiki/pokemon/${p.id}`} className="related-content-card">
+              <span>Pokemon</span>
+              <strong>{p.name}</strong>
+              <p>{p.type} · {p.specialty}</p>
+              <small>Food: {p.favorite_food}</small>
+            </a>
+          ))}
+          {relatedHabitats.map((h) => (
+            <a key={h.id} href={`/wiki/habitat/${h.id}`} className="related-content-card">
+              <span>Habitat</span>
+              <strong>{h.name}</strong>
+              <p>{h.weather} · {h.resource_bonus}</p>
+              <small>{h.difficulty} route</small>
+            </a>
+          ))}
+          {relatedGuides.map((g) => (
+            <a key={g.id} href={`/guides/${g.slug}`} className="related-content-card">
+              <span>Guide</span>
+              <strong>{g.title}</strong>
+              <p>{g.answer}</p>
+              <small>{g.steps.length} route checks</small>
+            </a>
+          ))}
+        </div>
       </aside>
     </main>
   )
