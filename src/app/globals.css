@@ -793,6 +793,62 @@ a:hover {
   font-weight: 800;
 }
 
+.index-guide-panel {
+  padding-top: var(--space-4);
+}
+
+.index-guide-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--space-4);
+}
+
+.index-guide-card {
+  padding: var(--space-5);
+  border: 2px solid rgba(220, 232, 220, 0.95);
+  border-radius: var(--radius-lg);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(255, 253, 247, 0.94)),
+    var(--color-bg);
+  box-shadow: 0 3px 0 rgba(47, 76, 113, 0.08);
+}
+
+.index-guide-card strong {
+  display: block;
+  font-size: var(--font-size-lg);
+}
+
+.index-guide-card p {
+  margin-top: var(--space-2);
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-sm);
+}
+
+.index-guide-card div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  margin-top: var(--space-4);
+}
+
+.index-guide-card a,
+.index-guide-card span {
+  padding: 0.28rem 0.55rem;
+  border: 1px solid rgba(220, 232, 220, 0.95);
+  border-radius: var(--radius-full);
+  background: rgba(255, 255, 255, 0.9);
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-xs);
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.index-guide-card a:hover {
+  border-color: rgba(89, 201, 130, 0.62);
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
 /* ============================================
    Sections
    ============================================ */
@@ -1587,6 +1643,7 @@ aside ul li {
   .route-board-grid,
   .pokemon-strip-grid,
   .home-tools-grid,
+  .index-guide-grid,
   .tools-hub-hero,
   .tools-feature-grid,
   .tool-guide-grid,

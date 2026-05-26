@@ -21,17 +21,70 @@ export const metadata: Metadata = {
 }
 
 export default function RecipePage() {
-  return (
-    <main style={{ padding: '2rem', maxWidth: '1200px', margin: '0 auto' }}>
-      <h1>🍳 Recipes</h1>
-      <p>Discover cooking recipes in Pokopia</p>
+  const rarityCounts = recipesData.reduce<Record<string, number>>((counts, recipe) => {
+    counts[recipe.rarity] = (counts[recipe.rarity] || 0) + 1
+    return counts
+  }, {})
+  const farmingRecipes = recipesData
+    .filter((recipe) => recipe.best_use.toLowerCase().includes('farming') || recipe.buff.toLowerCase().includes('attraction'))
+    .slice(0, 4)
+  const survivalRecipes = recipesData
+    .filter((recipe) => ['defense', 'restore', 'heal', 'armor'].some((word) => `${recipe.buff} ${recipe.best_use}`.toLowerCase().includes(word)))
+    .slice(0, 4)
 
-      <div className="pokemon-grid" style={{ marginTop: '2rem' }}>
+  return (
+    <main className="page-shell">
+      <section className="page-hero">
+        <h1>Recipe Cookbook and Buff Notes</h1>
+        <p>Compare Pokopia recipes by ingredients, buff effect, duration, rarity, timing, and route fit.</p>
+      </section>
+
+      <section className="index-guide-panel">
+        <div className="section-title-row">
+          <div>
+            <span className="panel-kicker">Cooking Routes</span>
+            <h2>Choose Recipes by Route Objective</h2>
+          </div>
+          <a href="/tools/recipe-calculator">Open Recipe Calculator</a>
+        </div>
+        <div className="index-guide-grid">
+          <div className="index-guide-card">
+            <strong>Farming support</strong>
+            <p>Use these recipes when the route is already mapped and the goal is repeated rare or material checks.</p>
+            <div>
+              {farmingRecipes.map((recipe) => (
+                <a key={recipe.id} href={`/wiki/recipe/${recipe.id}`}>{recipe.name}</a>
+              ))}
+            </div>
+          </div>
+          <div className="index-guide-card">
+            <strong>Survival support</strong>
+            <p>Use defensive or recovery recipes when failed runs come from damage, long routes, or unstable final rooms.</p>
+            <div>
+              {survivalRecipes.map((recipe) => (
+                <a key={recipe.id} href={`/wiki/recipe/${recipe.id}`}>{recipe.name}</a>
+              ))}
+            </div>
+          </div>
+          <div className="index-guide-card">
+            <strong>Rarity spread</strong>
+            <p>Start with common or uncommon recipes while scouting. Save rare recipes for repeatable routes with a clear target.</p>
+            <div>
+              {Object.entries(rarityCounts).map(([rarity, count]) => (
+                <span key={rarity}>{rarity}: {count}</span>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div className="pokemon-grid">
         {recipesData.map((r) => (
           <a key={r.id} href={`/wiki/recipe/${r.id}`} className="card">
             <CreditedImage src={r.image_url} alt={r.image_alt || r.name} source={r.image_source} sourceUrl={r.image_source_url} licenseNote={r.image_license_note} originalMedia={r.image_original_media} />
             <h3 style={{ textAlign: 'center', marginTop: '0.5rem' }}>{r.name}</h3>
             <p style={{ textAlign: 'center', color: '#666', fontSize: '0.875rem' }}>{r.buff}</p>
+            <p style={{ textAlign: 'center', color: '#637083', fontSize: '0.78rem', marginTop: '0.35rem' }}>{r.effect_duration} · {r.best_use}</p>
             <div style={{ textAlign: 'center', marginTop: '0.5rem' }}>
               <span className={`rarity ${r.rarity}`}>{rarityLabels[r.rarity]}</span>
             </div>
