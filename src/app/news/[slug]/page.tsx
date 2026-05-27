@@ -85,11 +85,24 @@ export default async function NewsDetailPage({ params }: Props) {
           { name: news.title, url: `/news/${news.slug}` },
         ]}
       />
-      <main style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
-        <article>
-          <span className={`badge ${news.category}`}>{categoryLabels[news.category] || news.category}</span>
-          <h1 style={{ marginTop: '1rem' }}>{news.title}</h1>
-          <p style={{ color: '#666', marginTop: '0.5rem' }}>{date}</p>
+      <main>
+        <article className="news-detail-page">
+          <div className="news-detail-hero">
+            <div className="news-hero-copy">
+              <div className="index-card-badges">
+                <span className={`badge ${news.category}`}>{categoryLabels[news.category] || news.category}</span>
+              </div>
+              <h1>{news.title}</h1>
+              <p>{news.excerpt}</p>
+              <div className="guide-meta-row">
+                <span>{date}</span>
+                <span>{news.verified_status}</span>
+                <span>{news.source_type || 'Source-backed'}</span>
+              </div>
+            </div>
+            <CreditedImage src={news.image_url} alt={news.image_alt} source={news.image_source} sourceUrl={news.image_source_url} licenseNote={news.image_license_note} originalMedia={news.image_original_media} className="news-detail-cover" sizes="(max-width: 768px) 100vw, 420px" priority />
+          </div>
+
           <DataStatus
             status={news.verified_status}
             note="This article is a source-based roundup or site update. It is not a patch note, live event announcement, or balance update unless the linked official source says so."
@@ -112,29 +125,40 @@ export default async function NewsDetailPage({ params }: Props) {
               </p>
             </aside>
           )}
-          <CreditedImage src={news.image_url} alt={news.image_alt} source={news.image_source} sourceUrl={news.image_source_url} licenseNote={news.image_license_note} originalMedia={news.image_original_media} className="article-cover" sizes="(max-width: 768px) 100vw, 800px" priority />
-          <p style={{ marginTop: '1rem' }}>{news.excerpt}</p>
-          <div style={{ marginTop: '2rem', lineHeight: '1.8' }}>
+
+          <section className="news-summary-panel">
+            <span className="panel-kicker">What Changed</span>
+            <p>{news.excerpt}</p>
+          </section>
+
+          <section className="news-content-section">
+            <h2>Source Update</h2>
             {contentParagraphs.map((paragraph) => (
-              <p key={paragraph} style={{ marginTop: '1rem' }}>{paragraph}</p>
+              <p key={paragraph}>{paragraph}</p>
             ))}
-          </div>
+          </section>
         </article>
 
-        <aside style={{ marginTop: '3rem', borderTop: '1px solid #ddd', paddingTop: '2rem' }}>
-          <h3>More News</h3>
-          <ul style={{ marginTop: '1rem', paddingLeft: '1.5rem' }}>
+        <aside className="news-follow-panel">
+          <div>
+            <span className="panel-kicker">More News</span>
+            <h2>Recent Source Updates</h2>
+          </div>
+          <ul>
             {relatedNews.map((n) => (
-              <li key={n.id} style={{ marginBottom: '0.5rem' }}>
+              <li key={n.id}>
                 <a href={`/news/${n.slug}`}>{n.title}</a>
               </li>
             ))}
           </ul>
 
-          <h3 style={{ marginTop: '2rem' }}>Related Guides</h3>
-          <ul style={{ marginTop: '1rem', paddingLeft: '1.5rem' }}>
+          <div>
+            <span className="panel-kicker">Next Reads</span>
+            <h2>Related Guides</h2>
+          </div>
+          <ul>
             {relatedGuides.map((g) => (
-              <li key={g.id} style={{ marginBottom: '0.5rem' }}>
+              <li key={g.id}>
                 <a href={`/guides/${g.slug}`}>{g.title}</a>
               </li>
             ))}

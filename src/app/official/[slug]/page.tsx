@@ -68,40 +68,52 @@ export default async function OfficialInfoDetailPage({ params }: Props) {
           { name: page.title, url: `/official/${page.slug}` },
         ]}
       />
-      <main style={{ maxWidth: '850px', margin: '0 auto', padding: '2rem 1rem' }}>
-      <article>
-        <span className="badge announcement">{page.category}</span>
-        <h1 style={{ marginTop: '1rem' }}>{page.title}</h1>
-        <p style={{ color: '#666', marginTop: '0.75rem', fontSize: '1.1rem', lineHeight: 1.7 }}>
-          {page.summary}
-        </p>
+      <main>
+      <article className="official-detail-page">
+        <div className="official-detail-hero">
+          <div>
+            <div className="index-card-badges">
+              <span className="badge announcement">{page.category}</span>
+            </div>
+            <h1>{page.title}</h1>
+            <p>{page.summary}</p>
+            <div className="guide-meta-row">
+              <span>{page.facts.length} confirmed facts</span>
+              <span>{page.sources.length} official sources</span>
+              <span>Updated {updatedAt}</span>
+            </div>
+          </div>
+        </div>
         <DataStatus
           status="Official source roundup"
           note="This page summarizes information from Nintendo and Pokémon source pages. Editorial interpretation is separated from the confirmed facts section below."
           updatedAt={updatedAt}
         />
 
-        <section style={{ marginTop: '2.5rem', lineHeight: 1.8 }}>
+        <section className="official-facts-section">
           <h2>Confirmed Facts</h2>
-          <ul style={{ marginTop: '1rem', paddingLeft: '1.5rem' }}>
-            {page.facts.map((fact) => (
-              <li key={fact} style={{ marginBottom: '0.75rem' }}>{fact}</li>
+          <ol>
+            {page.facts.map((fact, index) => (
+              <li key={fact}>
+                <span>{index + 1}</span>
+                <p>{fact}</p>
+              </li>
             ))}
-          </ul>
+          </ol>
         </section>
 
-        <section style={{ marginTop: '2.5rem', lineHeight: 1.8 }}>
+        <section className="official-notes-section">
           <h2>Editorial Notes</h2>
-          <ul style={{ marginTop: '1rem', paddingLeft: '1.5rem' }}>
+          <ul>
             {page.analysis.map((note) => (
-              <li key={note} style={{ marginBottom: '0.75rem' }}>{note}</li>
+              <li key={note}>{note}</li>
             ))}
           </ul>
         </section>
 
-        <section style={{ marginTop: '2.5rem', lineHeight: 1.8 }}>
+        <section className="official-sources-section">
           <h2>Official Sources</h2>
-          <div style={{ display: 'grid', gap: '1rem', marginTop: '1rem' }}>
+          <div>
             {page.sources.map((source) => (
               <a
                 key={source.url}
@@ -109,25 +121,27 @@ export default async function OfficialInfoDetailPage({ params }: Props) {
                 rel="nofollow noopener noreferrer"
                 target="_blank"
                 className="card"
-                style={{ display: 'block' }}
               >
                 <strong>{source.label}</strong>
-                <p style={{ color: '#666', marginTop: '0.4rem' }}>{source.note}</p>
+                <p>{source.note}</p>
               </a>
             ))}
           </div>
         </section>
       </article>
 
-      <aside style={{ marginTop: '3rem', borderTop: '1px solid #ddd', paddingTop: '2rem' }}>
-        <h3>Related Pages</h3>
-        <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem', marginTop: '1rem' }}>
+      <aside className="official-related-panel">
+        <div>
+          <span className="panel-kicker">Related Pages</span>
+          <h2>Use These For Context</h2>
+        </div>
+        <div>
           {page.related_links.map((item) => (
-            <Link key={item.href} href={item.href} className="card" style={{ padding: '0.75rem 1rem' }}>
+            <Link key={item.href} href={item.href} className="card">
               {item.label}
             </Link>
           ))}
-          <Link href="/official" className="card" style={{ padding: '0.75rem 1rem' }}>
+          <Link href="/official" className="card">
             All official info
           </Link>
         </div>

@@ -96,16 +96,16 @@ export default function NewsPage() {
             <h3>{item.title}</h3>
             <p>{item.excerpt}</p>
             {item.verified_status && (
-              <p style={{ color: '#637083', fontSize: '0.8rem', marginTop: '0.5rem', fontWeight: 700 }}>
+              <p className="news-card-status">
                 {item.verified_status}
               </p>
             )}
             {item.source_label && (
-              <p style={{ color: '#777', fontSize: '0.75rem', marginTop: '0.25rem' }}>
+              <p className="news-card-source">
                 Source: {item.source_label}
               </p>
             )}
-            <p style={{ color: '#999', fontSize: '0.75rem', marginTop: '0.5rem' }}>
+            <p className="news-card-date">
               {new Date(item.published_at * 1000).toLocaleDateString()}
             </p>
           </a>
