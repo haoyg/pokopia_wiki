@@ -61,6 +61,28 @@ function scoreRecipe(recipe: (typeof recipesData)[number], goal: (typeof goals)[
   }, 0)
 }
 
+function getRecipePlanNotes(recipe: (typeof recipesData)[number], goal: (typeof goals)[number], score: number) {
+  const timing = recipe.best_timing?.[0] || 'Use it only after the target route is mapped.'
+  const mistake = recipe.common_mistakes?.[0] || 'Avoid spending it during blind exploration.'
+
+  return [
+    {
+      label: 'Why this fits',
+      text: score > 0
+        ? `${recipe.name} matches the ${goal.label.toLowerCase()} goal through ${recipe.buff.toLowerCase()} and its ${recipe.best_use.toLowerCase()} use case.`
+        : `${recipe.name} is the best available option under the current filters, but it should be checked against the route before crafting.`,
+    },
+    {
+      label: 'Use it when',
+      text: timing,
+    },
+    {
+      label: 'Main risk',
+      text: mistake,
+    },
+  ]
+}
+
 export default function RecipeCalculator() {
   const [selectedGoal, setSelectedGoal] = useState('rare-farming')
   const [rarityFilter, setRarityFilter] = useState('all')
@@ -83,6 +105,7 @@ export default function RecipeCalculator() {
 
   const recommendation = rankedRecipes.find((item) => item.score > 0) || rankedRecipes[0]
   const recipe = recipesData.find((item) => item.id === selectedRecipe) || recommendation?.recipe
+  const selectedScore = rankedRecipes.find((item) => item.recipe.id === recipe?.id)?.score || 0
 
   const relatedPokemon = useMemo(() => {
     const ids = splitIds(recipe?.related_pokemon)
@@ -240,6 +263,17 @@ export default function RecipeCalculator() {
             </div>
 
             <p style={{ marginTop: '1rem', color: '#3d475c' }}>{recipe.overview}</p>
+
+            <div style={{ marginTop: '1.25rem', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))', gap: '0.75rem' }}>
+              {getRecipePlanNotes(recipe, activeGoal, selectedScore).map((note) => (
+                <div key={note.label} style={{ padding: '0.85rem', borderRadius: '8px', border: '1px solid #dce8dc', background: '#f6fbff' }}>
+                  <span style={{ display: 'block', color: '#2f84d8', fontSize: '0.72rem', fontWeight: 800, textTransform: 'uppercase' }}>
+                    {note.label}
+                  </span>
+                  <p style={{ marginTop: '0.35rem', color: '#3d475c', fontSize: '0.88rem', lineHeight: 1.5 }}>{note.text}</p>
+                </div>
+              ))}
+            </div>
 
             <div style={{ marginTop: '1.25rem', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(160px, 1fr))', gap: '0.75rem' }}>
               {[

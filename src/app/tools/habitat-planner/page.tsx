@@ -102,6 +102,41 @@ function getPokemonName(id: string) {
   return pokemonLinksData.find((pokemon) => pokemon.id === id)?.name || id
 }
 
+function getHabitatPlanNotes(
+  habitat: (typeof habitatsData)[number],
+  goal: (typeof goals)[number],
+  score: number,
+  playerLevel: number
+) {
+  const unlockLevel = getUnlockLevel(habitat.unlock_condition)
+  const isUnlocked = unlockLevel <= playerLevel
+  const routeStep = habitat.farming_route?.[0] || 'Scout the first route branch before spending a recipe.'
+  const mistake = habitat.common_mistakes?.[0] || 'Avoid repeating the route before choosing a clear farming target.'
+
+  return [
+    {
+      label: 'Why this route',
+      text: score > 0
+        ? `${habitat.name} fits the ${goal.label.toLowerCase()} goal because its weather, difficulty, spawns, or bonus line up with the current filters.`
+        : `${habitat.name} is a general route pick under the current filters; open the habitat page before committing a long session.`,
+    },
+    {
+      label: 'Access check',
+      text: isUnlocked
+        ? `Available now at player level ${playerLevel}. Use the route only if ${habitat.resource_bonus.toLowerCase()} supports the next upgrade.`
+        : `Locked until level ${unlockLevel}. Prepare the team and recipe first, then return when the route is available.`,
+    },
+    {
+      label: 'Run plan',
+      text: routeStep,
+    },
+    {
+      label: 'Main risk',
+      text: mistake,
+    },
+  ]
+}
+
 export default function HabitatPlanner() {
   const [playerLevel, setPlayerLevel] = useState(1)
   const [selectedGoal, setSelectedGoal] = useState('next-unlock')
@@ -384,6 +419,17 @@ export default function HabitatPlanner() {
             </div>
 
             <p style={{ marginTop: '1rem', color: '#3d475c' }}>{selectedHabitat.overview}</p>
+
+            <div style={{ marginTop: '1.25rem', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))', gap: '0.75rem' }}>
+              {getHabitatPlanNotes(selectedHabitat, activeGoal, selectedScore, playerLevel).map((note) => (
+                <div key={note.label} style={{ padding: '0.85rem', borderRadius: '8px', border: '1px solid #dce8dc', background: '#f6fbff' }}>
+                  <span style={{ display: 'block', color: '#2f84d8', fontSize: '0.72rem', fontWeight: 800, textTransform: 'uppercase' }}>
+                    {note.label}
+                  </span>
+                  <p style={{ marginTop: '0.35rem', color: '#3d475c', fontSize: '0.88rem', lineHeight: 1.5 }}>{note.text}</p>
+                </div>
+              ))}
+            </div>
 
             <div style={{ marginTop: '1.25rem', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))', gap: '0.75rem' }}>
               {[
