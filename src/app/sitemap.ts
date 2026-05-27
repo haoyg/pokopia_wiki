@@ -32,6 +32,7 @@ const staticPages = [
   { url: '/features/pokopia-animal-crossing', priority: 0.72, changefreq: 'monthly' },
   { url: '/features/meta-analysis', priority: 0.7, changefreq: 'monthly' },
   { url: '/builds', priority: 0.45, changefreq: 'monthly' },
+  { url: '/builds/home-design-ideas', priority: 0.66, changefreq: 'monthly' },
   { url: '/tier-list', priority: 0.58, changefreq: 'monthly' },
   { url: '/community', priority: 0.4, changefreq: 'monthly' },
   { url: '/about', priority: 0.35, changefreq: 'yearly' },

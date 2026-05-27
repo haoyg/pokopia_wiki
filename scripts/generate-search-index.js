@@ -85,6 +85,17 @@ const topicPages = [
 
 const featurePages = [
   {
+    id: 'home-design-ideas',
+    title: 'Pokopia Home Design Ideas and Building Showcase',
+    href: '/builds/home-design-ideas',
+    description: 'Text-based Pokopia home design ideas for cozy bases, recipe workshops, visitor courtyards, and future community showcases.',
+    meta: 'Building showcase',
+    status: 'Editorial feature',
+    updatedAt: '2026-05-27',
+    priority: 84,
+    keywords: 'home design ideas building showcase cozy base recipe workshop visitor courtyard habitat research camp decoration layout screenshots community',
+  },
+  {
     id: 'pokopia-animal-crossing',
     title: 'Pokopia vs Animal Crossing: Cozy Life Sim Comparison',
     href: '/features/pokopia-animal-crossing',

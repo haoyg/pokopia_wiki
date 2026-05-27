@@ -1,5 +1,18 @@
 [
   {
+    "id": "home-design-ideas",
+    "type": "Feature",
+    "title": "Pokopia Home Design Ideas and Building Showcase",
+    "href": "/builds/home-design-ideas",
+    "description": "Text-based Pokopia home design ideas for cozy bases, recipe workshops, visitor courtyards, and future community showcases.",
+    "meta": "Building showcase",
+    "status": "Editorial feature",
+    "source": null,
+    "updatedAt": "2026-05-27",
+    "priority": 84,
+    "keywords": "Pokopia Home Design Ideas and Building Showcase Text-based Pokopia home design ideas for cozy bases, recipe workshops, visitor courtyards, and future community showcases. Building showcase home design ideas building showcase cozy base recipe workshop visitor courtyard habitat research camp decoration layout screenshots community"
+  },
+  {
     "id": "pokopia-animal-crossing",
     "type": "Feature",
     "title": "Pokopia vs Animal Crossing: Cozy Life Sim Comparison",
