@@ -376,18 +376,61 @@ a:hover {
 }
 
 .site-footer-inner {
-  display: flex;
-  justify-content: space-between;
-  gap: var(--space-4);
+  display: grid;
+  grid-template-columns: minmax(220px, 0.75fr) minmax(0, 2fr);
+  gap: var(--space-8);
   max-width: var(--container-max);
   margin: 0 auto;
   padding: var(--space-8) var(--space-4);
 }
 
-.site-footer-inner div {
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--space-4);
+.site-footer-brand {
+  display: grid;
+  align-content: start;
+  gap: var(--space-2);
+}
+
+.site-footer-brand strong {
+  color: #17304f;
+  font-size: var(--font-size-lg);
+}
+
+.site-footer-brand p {
+  max-width: 320px;
+  line-height: 1.6;
+}
+
+.site-footer-nav {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--space-6);
+}
+
+.site-footer-group h2 {
+  margin-bottom: var(--space-3);
+  color: #17304f;
+  font-size: var(--font-size-sm);
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.site-footer-group h2::before {
+  display: none;
+}
+
+.site-footer-group div {
+  display: grid;
+  gap: var(--space-2);
+}
+
+.site-footer-group a {
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-sm);
+  line-height: 1.35;
+}
+
+.site-footer-group a:hover {
+  color: #1f6540;
 }
 
 /* ============================================
@@ -3428,7 +3471,10 @@ aside ul li {
   .site-header-inner,
   .site-footer-inner {
     grid-template-columns: 1fr;
-    flex-direction: column;
+  }
+
+  .site-footer-nav {
+    grid-template-columns: 1fr;
   }
 
   .site-header-inner {
