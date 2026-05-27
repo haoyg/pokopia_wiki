@@ -4,11 +4,11 @@ import { ToolJsonLd } from '@/components/seo/JsonLd'
 import { canonicalUrl } from '@/lib/site'
 
 export const metadata: Metadata = {
-  title: 'Spawn Tracker',
-  description: 'Track Pokopia Pokemon spawn conditions by habitat, weather, time, rarity, food, and drops.',
+  title: 'Pokopia Spawn Tracker - Habitat, Weather, Time, Food, and Drops',
+  description: 'Track Pokopia Pokemon spawn conditions by habitat, weather, time, rarity, food, drops, type, and related route pages.',
   openGraph: {
-    title: 'Spawn Tracker',
-    description: 'Track Pokemon spawn conditions by habitat, weather, time, rarity, food, and drops.',
+    title: 'Pokopia Spawn Tracker - Habitat, Weather, Time, Food, and Drops',
+    description: 'Track Pokopia Pokemon spawn conditions by habitat, weather, time, rarity, food, drops, type, and related route pages.',
     images: ['/og-image.svg'],
   },
   alternates: {
