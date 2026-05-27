@@ -16,6 +16,7 @@ const staticPages = [
   { url: '/official', priority: 0.9, changefreq: 'weekly' },
   { url: '/news', priority: 0.85, changefreq: 'weekly' },
   { url: '/guides', priority: 0.85, changefreq: 'weekly' },
+  { url: '/guides/beginner-route', priority: 0.82, changefreq: 'weekly' },
   { url: '/wiki/pokemon', priority: 0.8, changefreq: 'weekly' },
   { url: '/wiki/habitat', priority: 0.78, changefreq: 'weekly' },
   { url: '/wiki/recipe', priority: 0.74, changefreq: 'weekly' },

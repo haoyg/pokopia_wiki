@@ -47,6 +47,20 @@ const official = readJson('src/data/official.json')
 
 const habitatById = new Map(habitats.map((item) => [item.id, item]))
 
+const topicPages = [
+  {
+    id: 'beginner-route',
+    title: 'Pokopia Beginner Route',
+    href: '/guides/beginner-route',
+    description: 'A beginner route that connects starter choices, easy habitats, recipe timing, Pokemon pages, and planning tools.',
+    meta: 'Beginner topic route',
+    status: 'Editorial topic guide',
+    updatedAt: '2026-05-27',
+    priority: 90,
+    keywords: 'beginner route starter pokemon easy habitat recipe timing tools first path forest valley crystal lake training grounds',
+  },
+]
+
 const tools = [
   {
     id: 'tools',
@@ -96,6 +110,24 @@ const tools = [
 ]
 
 const index = [
+  ...topicPages.map((item) => ({
+    id: item.id,
+    type: 'Guide',
+    title: item.title,
+    href: item.href,
+    description: item.description,
+    meta: item.meta,
+    status: item.status,
+    source: null,
+    updatedAt: item.updatedAt,
+    priority: item.priority,
+    keywords: [
+      item.title,
+      item.description,
+      item.meta,
+      item.keywords,
+    ].join(' '),
+  })),
   ...tools.map((item) => ({
     id: item.id,
     type: 'Tool',

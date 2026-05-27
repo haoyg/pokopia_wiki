@@ -121,6 +121,8 @@ export default function Home() {
           <div className="briefing-panel">
             <span className="panel-kicker">Start Here</span>
             <h2>Beginner Route</h2>
+            <p>Use the full topic route to connect starter picks, easy habitats, recipes, and tools before choosing a longer farming loop.</p>
+            <a className="panel-link" href="/guides/beginner-route">Open beginner route</a>
             <div className="briefing-list">
               {beginnerGuides.map((guide) => (
                 <a key={guide.id} href={`/guides/${guide.slug}`}>

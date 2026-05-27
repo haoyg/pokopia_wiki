@@ -78,6 +78,18 @@ export default function GuidesPage() {
         description="Use official source pages for confirmed gameplay, release, and beginner details. Individual guides add editorial route advice on top of that baseline."
       />
 
+      <section className="features-lead-section">
+        <a href="/guides/beginner-route" className="feature-hero">
+          <span>Topic Route</span>
+          <h2>Pokopia Beginner Route</h2>
+          <p>
+            A practical first path that connects starter choices, easy habitats, recipe timing,
+            Pokemon pages, and planning tools before harder routes.
+          </p>
+          <div className="feature-read-time">Start here before choosing a long farming route</div>
+        </a>
+      </section>
+
       <section className="index-guide-panel">
         <div className="section-title-row">
           <div>

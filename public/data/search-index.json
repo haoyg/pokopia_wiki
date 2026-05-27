@@ -1,5 +1,18 @@
 [
   {
+    "id": "beginner-route",
+    "type": "Guide",
+    "title": "Pokopia Beginner Route",
+    "href": "/guides/beginner-route",
+    "description": "A beginner route that connects starter choices, easy habitats, recipe timing, Pokemon pages, and planning tools.",
+    "meta": "Beginner topic route",
+    "status": "Editorial topic guide",
+    "source": null,
+    "updatedAt": "2026-05-27",
+    "priority": 90,
+    "keywords": "Pokopia Beginner Route A beginner route that connects starter choices, easy habitats, recipe timing, Pokemon pages, and planning tools. Beginner topic route beginner route starter pokemon easy habitat recipe timing tools first path forest valley crystal lake training grounds"
+  },
+  {
     "id": "tools",
     "type": "Tool",
     "title": "Pokopia Tools and Route Planners",
