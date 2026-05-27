@@ -47,7 +47,73 @@ const official = readJson('src/data/official.json')
 
 const habitatById = new Map(habitats.map((item) => [item.id, item]))
 
+const tools = [
+  {
+    id: 'tools',
+    title: 'Pokopia Tools and Route Planners',
+    href: '/tools',
+    description: 'Planning hub for Pokopia recipe comparison, habitat routes, team drafts, and spawn tracking.',
+    meta: 'Planning hub',
+    keywords: 'tools planner route recipes habitats teams spawns calculator tracker builder',
+    priority: 82,
+  },
+  {
+    id: 'recipe-calculator',
+    title: 'Pokopia Recipe Calculator',
+    href: '/tools/recipe-calculator',
+    description: 'Compare recipes by route goal, rarity, buff timing, common mistakes, related Pokemon, and habitat support.',
+    meta: 'Recipe planner',
+    keywords: 'recipe calculator recipes buffs timing ingredients rare farming boss survival daily habitat pokemon',
+    priority: 88,
+  },
+  {
+    id: 'habitat-planner',
+    title: 'Pokopia Habitat Planner',
+    href: '/tools/habitat-planner',
+    description: 'Plan habitat routes by goal, player level, difficulty, weather, recipe support, Pokemon spawns, and guide links.',
+    meta: 'Habitat route planner',
+    keywords: 'habitat planner route unlock level difficulty weather spawns recipe pokemon guide farming',
+    priority: 88,
+  },
+  {
+    id: 'team-builder',
+    title: 'Pokopia Team Builder',
+    href: '/tools/team-builder',
+    description: 'Build team drafts by goal, role, type coverage, recipe support, habitat routes, Pokemon links, and related guides.',
+    meta: 'Team planner',
+    keywords: 'team builder pokemon roles type coverage recipe habitat guide boss rare farming speed route',
+    priority: 86,
+  },
+  {
+    id: 'spawn-tracker',
+    title: 'Pokopia Spawn Tracker',
+    href: '/tools/spawn-tracker',
+    description: 'Track Pokemon spawn conditions by habitat, weather, time, rarity, food, drops, type, and related route pages.',
+    meta: 'Spawn lookup tool',
+    keywords: 'spawn tracker pokemon habitat weather time rarity food drops type search farming route',
+    priority: 84,
+  },
+]
+
 const index = [
+  ...tools.map((item) => ({
+    id: item.id,
+    type: 'Tool',
+    title: item.title,
+    href: item.href,
+    description: item.description,
+    meta: item.meta,
+    status: 'Interactive planning tool',
+    source: null,
+    updatedAt: '2026-05-27',
+    priority: item.priority,
+    keywords: [
+      item.title,
+      item.description,
+      item.meta,
+      item.keywords,
+    ].join(' '),
+  })),
   ...news.map((item) => ({
     id: item.id,
     type: 'News',

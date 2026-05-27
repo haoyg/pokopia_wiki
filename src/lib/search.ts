@@ -2,7 +2,7 @@ import searchIndex from '@/data/search-index.json'
 
 export type SearchResult = {
   id: string
-  type: 'Official' | 'News' | 'Guide' | 'Pokemon' | 'Habitat' | 'Recipe'
+  type: 'Official' | 'News' | 'Guide' | 'Tool' | 'Pokemon' | 'Habitat' | 'Recipe'
   title: string
   href: string
   description: string
@@ -65,6 +65,8 @@ export const popularSearches = [
   'legendary',
   'fire team',
   'habitat',
+  'team builder',
+  'spawn tracker',
   'recipe',
   'rare farming',
 ]
