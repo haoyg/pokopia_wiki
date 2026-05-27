@@ -1,5 +1,18 @@
 [
   {
+    "id": "weekly-event-tracker",
+    "type": "Feature",
+    "title": "Pokopia Weekly Event Tracker",
+    "href": "/news/weekly-event-tracker",
+    "description": "A source-aware Pokopia weekly event tracker that separates confirmed official updates, topics to recheck, and archived event information.",
+    "meta": "Event tracker",
+    "status": "Source-aware tracker",
+    "source": null,
+    "updatedAt": "2026-05-27",
+    "priority": 88,
+    "keywords": "Pokopia Weekly Event Tracker A source-aware Pokopia weekly event tracker that separates confirmed official updates, topics to recheck, and archived event information. Event tracker weekly event tracker confirmed updates official source roundup active events archived events daily challenges early purchase bonus rewards schedule"
+  },
+  {
     "id": "home-design-ideas",
     "type": "Feature",
     "title": "Pokopia Home Design Ideas and Building Showcase",

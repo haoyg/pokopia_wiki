@@ -85,6 +85,17 @@ const topicPages = [
 
 const featurePages = [
   {
+    id: 'weekly-event-tracker',
+    title: 'Pokopia Weekly Event Tracker',
+    href: '/news/weekly-event-tracker',
+    description: 'A source-aware Pokopia weekly event tracker that separates confirmed official updates, topics to recheck, and archived event information.',
+    meta: 'Event tracker',
+    status: 'Source-aware tracker',
+    updatedAt: '2026-05-27',
+    priority: 88,
+    keywords: 'weekly event tracker confirmed updates official source roundup active events archived events daily challenges early purchase bonus rewards schedule',
+  },
+  {
     id: 'home-design-ideas',
     title: 'Pokopia Home Design Ideas and Building Showcase',
     href: '/builds/home-design-ideas',

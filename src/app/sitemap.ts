@@ -15,6 +15,7 @@ const staticPages = [
   { url: '/', priority: 1.0, changefreq: 'daily' },
   { url: '/official', priority: 0.9, changefreq: 'weekly' },
   { url: '/news', priority: 0.85, changefreq: 'weekly' },
+  { url: '/news/weekly-event-tracker', priority: 0.76, changefreq: 'weekly' },
   { url: '/guides', priority: 0.85, changefreq: 'weekly' },
   { url: '/guides/beginner-route', priority: 0.82, changefreq: 'weekly' },
   { url: '/guides/rare-farming-route', priority: 0.82, changefreq: 'weekly' },
