@@ -1,12 +1,18 @@
 import { Metadata } from 'next'
 import { SpawnTracker } from '@/components/tools/SpawnTracker'
-import { ToolJsonLd } from '@/components/seo/JsonLd'
+import { BreadcrumbJsonLd, ToolJsonLd } from '@/components/seo/JsonLd'
 import { canonicalUrl } from '@/lib/site'
 
 export const metadata: Metadata = {
   title: 'Pokopia Spawn Tracker - Habitat, Weather, Time, Food, and Drops',
   description: 'Track Pokopia Pokemon spawn conditions by habitat, weather, time, rarity, food, drops, type, and related route pages.',
   openGraph: {
+    title: 'Pokopia Spawn Tracker - Habitat, Weather, Time, Food, and Drops',
+    description: 'Track Pokopia Pokemon spawn conditions by habitat, weather, time, rarity, food, drops, type, and related route pages.',
+    images: ['/og-image.svg'],
+  },
+  twitter: {
+    card: 'summary_large_image',
     title: 'Pokopia Spawn Tracker - Habitat, Weather, Time, Food, and Drops',
     description: 'Track Pokopia Pokemon spawn conditions by habitat, weather, time, rarity, food, drops, type, and related route pages.',
     images: ['/og-image.svg'],
@@ -34,6 +40,13 @@ const spawnUseCases = [
 export default function SpawnTrackerPage() {
   return (
     <main className="page-shell">
+      <BreadcrumbJsonLd
+        items={[
+          { name: 'Home', url: '/' },
+          { name: 'Tools', url: '/tools' },
+          { name: 'Spawn Tracker', url: '/tools/spawn-tracker' },
+        ]}
+      />
       <ToolJsonLd
         name="Pokopia Spawn Tracker"
         description="Interactive Pokopia spawn tracking tool for filtering Pokemon by habitat, weather, time, rarity, food, drops, and type."
