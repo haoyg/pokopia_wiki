@@ -70,6 +70,63 @@ const planningTools = [
   },
 ]
 
+const exploreClusters = [
+  {
+    href: '/official',
+    label: 'Official Baseline',
+    summary: 'Confirmed release, gameplay, multiplayer, beginner tips, and source-backed update pages.',
+    links: [
+      { href: '/official/gameplay-overview', label: 'Gameplay' },
+      { href: '/official/official-beginner-tips', label: 'Tips' },
+    ],
+  },
+  {
+    href: '/guides/beginner-route',
+    label: 'Route Guides',
+    summary: 'Beginner, rare farming, and recipe planning routes that connect guides, tools, habitats, and Pokemon pages.',
+    links: [
+      { href: '/guides/rare-farming-route', label: 'Rare farming' },
+      { href: '/guides/recipe-planning-route', label: 'Recipes' },
+    ],
+  },
+  {
+    href: '/features/pokopia-animal-crossing',
+    label: 'Cozy Features',
+    summary: 'Source-aware features for Animal Crossing players, creative play, friendship requests, and system expectations.',
+    links: [
+      { href: '/features/creative-play-ideas', label: 'Creative play' },
+      { href: '/features/friendship-requests-tracker', label: 'Requests' },
+    ],
+  },
+  {
+    href: '/builds/home-design-ideas',
+    label: 'Build and Community',
+    summary: 'Home design concepts, future community showcase standards, and safe contribution rules.',
+    links: [
+      { href: '/community/showcase', label: 'Showcase' },
+      { href: '/community', label: 'Guidelines' },
+    ],
+  },
+  {
+    href: '/news/weekly-event-tracker',
+    label: 'Event Tracking',
+    summary: 'Confirmed-first event monitoring that avoids invented rewards, schedules, and unverified weekly claims.',
+    links: [
+      { href: '/news', label: 'News' },
+      { href: '/news/pokemon-pokopia-pc-requests-daily-challenges', label: 'Daily context' },
+    ],
+  },
+  {
+    href: '/wiki/pokemon',
+    label: 'Wiki Database',
+    summary: 'Pokemon, habitat, and recipe reference pages connected to route planning and tools.',
+    links: [
+      { href: '/wiki/habitat', label: 'Habitats' },
+      { href: '/wiki/recipe', label: 'Recipes' },
+    ],
+  },
+]
+
 function getTypeLabel(type: string) {
   for (const [key, label] of Object.entries(typeLabels)) {
     if (type.toLowerCase().includes(key.toLowerCase())) return label
@@ -151,6 +208,31 @@ export default function Home() {
             { href: '/official/release-date-platform-price', label: 'Release details' },
           ]}
         />
+      </section>
+
+      <section className="home-explore">
+        <div className="section-title-row">
+          <div>
+            <span className="panel-kicker">Explore Pokopia</span>
+            <h2>Choose a Content Path</h2>
+          </div>
+          <a href="/search">Search all pages</a>
+        </div>
+        <div className="home-explore-grid">
+          {exploreClusters.map((cluster) => (
+            <article key={cluster.href} className="home-explore-card">
+              <a href={cluster.href}>
+                <strong>{cluster.label}</strong>
+                <p>{cluster.summary}</p>
+              </a>
+              <div>
+                {cluster.links.map((link) => (
+                  <a key={link.href} href={link.href}>{link.label}</a>
+                ))}
+              </div>
+            </article>
+          ))}
+        </div>
       </section>
 
       <section className="home-tools-strip">
