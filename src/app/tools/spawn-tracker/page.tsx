@@ -1,5 +1,6 @@
 import { Metadata } from 'next'
 import { SpawnTracker } from '@/components/tools/SpawnTracker'
+import { ToolJsonLd } from '@/components/seo/JsonLd'
 import { canonicalUrl } from '@/lib/site'
 
 export const metadata: Metadata = {
@@ -33,6 +34,17 @@ const spawnUseCases = [
 export default function SpawnTrackerPage() {
   return (
     <main className="page-shell">
+      <ToolJsonLd
+        name="Pokopia Spawn Tracker"
+        description="Interactive Pokopia spawn tracking tool for filtering Pokemon by habitat, weather, time, rarity, food, drops, and type."
+        url="/tools/spawn-tracker"
+        featureList={[
+          'Search Pokemon spawn records',
+          'Filter by habitat, weather, time, and rarity',
+          'Review food and drop data',
+          'Open related Pokemon and habitat pages',
+        ]}
+      />
       <section className="page-hero">
         <h1>Spawn Tracker</h1>
         <p>Filter current database entries by habitat, weather, time, rarity, food, drops, and type.</p>

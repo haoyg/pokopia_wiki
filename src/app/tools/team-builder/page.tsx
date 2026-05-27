@@ -7,6 +7,7 @@ import habitatLinksData from '@/data/habitat-links.json'
 import recipeLinksData from '@/data/recipe-links.json'
 import guideLinksData from '@/data/guide-links.json'
 import { DataStatus } from '@/components/content/DataStatus'
+import { ToolJsonLd } from '@/components/seo/JsonLd'
 
 const roles = ['all', 'Tank', 'Attacker', 'Assassin', 'Speedster', 'Support', 'Defender']
 
@@ -203,6 +204,17 @@ export default function TeamBuilder() {
 
   return (
     <main style={{ maxWidth: '1120px', margin: '0 auto', padding: '2rem 1rem 3rem' }}>
+      <ToolJsonLd
+        name="Pokopia Team Builder"
+        description="Interactive Pokopia team planning tool for drafting roles, comparing Pokemon by goal, and connecting team choices to recipes, habitats, and guides."
+        url="/tools/team-builder"
+        featureList={[
+          'Draft a four-role team',
+          'Compare Pokemon by route goal and role',
+          'Review type and habitat coverage',
+          'Open related recipe, habitat, Pokemon, and guide pages',
+        ]}
+      />
       <header style={{ marginBottom: '1.5rem' }}>
         <Link href="/tools" style={{ fontSize: '0.875rem', color: '#637083' }}>
           Back to Tools

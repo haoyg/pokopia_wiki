@@ -6,6 +6,7 @@ import recipesData from '@/data/recipes.json'
 import pokemonLinksData from '@/data/pokemon-links.json'
 import habitatLinksData from '@/data/habitat-links.json'
 import { DataStatus } from '@/components/content/DataStatus'
+import { ToolJsonLd } from '@/components/seo/JsonLd'
 
 const rarityOrder = ['common', 'uncommon', 'rare', 'legendary']
 
@@ -119,6 +120,17 @@ export default function RecipeCalculator() {
 
   return (
     <main style={{ maxWidth: '1120px', margin: '0 auto', padding: '2rem 1rem 3rem' }}>
+      <ToolJsonLd
+        name="Pokopia Recipe Calculator"
+        description="Interactive Pokopia recipe planning tool for comparing recipe value by route goal, rarity, timing, Pokemon links, and habitat support."
+        url="/tools/recipe-calculator"
+        featureList={[
+          'Compare recipes by route goal',
+          'Filter recipes by rarity',
+          'Review use timing and common mistakes',
+          'Open related Pokemon and habitat pages',
+        ]}
+      />
       <header style={{ marginBottom: '1.5rem' }}>
         <Link href="/tools" style={{ fontSize: '0.875rem', color: '#637083' }}>
           Back to Tools

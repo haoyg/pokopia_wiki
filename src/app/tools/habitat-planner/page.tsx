@@ -7,6 +7,7 @@ import pokemonLinksData from '@/data/pokemon-links.json'
 import recipeLinksData from '@/data/recipe-links.json'
 import guideLinksData from '@/data/guide-links.json'
 import { DataStatus } from '@/components/content/DataStatus'
+import { ToolJsonLd } from '@/components/seo/JsonLd'
 
 const difficultyOrder: Record<string, number> = { easy: 0, medium: 1, hard: 2 }
 
@@ -186,6 +187,17 @@ export default function HabitatPlanner() {
 
   return (
     <main style={{ maxWidth: '1120px', margin: '0 auto', padding: '2rem 1rem 3rem' }}>
+      <ToolJsonLd
+        name="Pokopia Habitat Planner"
+        description="Interactive Pokopia habitat planning tool for choosing route goals, checking level access, filtering weather, and opening related recipes, Pokemon, and guides."
+        url="/tools/habitat-planner"
+        featureList={[
+          'Compare habitats by route goal',
+          'Check player level access',
+          'Filter by difficulty and weather',
+          'Open related recipe, Pokemon, and guide pages',
+        ]}
+      />
       <header style={{ marginBottom: '1.5rem' }}>
         <Link href="/tools" style={{ fontSize: '0.875rem', color: '#637083' }}>
           Back to Tools

@@ -142,6 +142,50 @@ export function ItemListJsonLd({
   return <JsonLd data={jsonLd} />
 }
 
+export function ToolJsonLd({
+  name,
+  description,
+  url,
+  applicationCategory = 'GameApplication',
+  featureList,
+}: {
+  name: string
+  description: string
+  url: string
+  applicationCategory?: string
+  featureList?: string[]
+}) {
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'WebApplication',
+    name,
+    description,
+    url: `${BASE_URL}${url}`,
+    applicationCategory,
+    operatingSystem: 'Web',
+    browserRequirements: 'Requires a modern web browser with JavaScript enabled.',
+    isAccessibleForFree: true,
+    ...(featureList && featureList.length > 0 ? { featureList } : {}),
+    publisher: {
+      '@type': 'Organization',
+      name: 'Pokopia Portal',
+      logo: {
+        '@type': 'ImageObject',
+        url: `${BASE_URL}/logo.png`,
+        width: 512,
+        height: 512,
+      },
+    },
+    isPartOf: {
+      '@type': 'WebSite',
+      name: 'Pokopia Portal',
+      url: BASE_URL,
+    },
+  }
+
+  return <JsonLd data={jsonLd} />
+}
+
 export function WikiPageJsonLd({
   name,
   description,
