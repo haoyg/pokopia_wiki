@@ -52,11 +52,11 @@ export const metadata: Metadata = {
 
 export default function FeaturesPage() {
   return (
-    <main style={{ maxWidth: '1000px', margin: '0 auto', padding: '2rem 1rem' }}>
-      <header style={{ marginBottom: '2rem' }}>
+    <main className="features-hub page-shell">
+      <header className="features-hub-hero">
         <span className="badge source-roundup">Features</span>
-        <h1 style={{ marginTop: '1rem' }}>Features & Official Context</h1>
-        <p style={{ color: '#666', marginTop: '0.75rem', fontSize: '1.125rem', lineHeight: 1.7 }}>
+        <h1>Features & Official Context</h1>
+        <p>
           Source-aware explainers for Pokémon Pokopia. These pages focus on confirmed systems and clearly marked editorial interpretation rather than unsourced rankings, interviews, or competitive claims.
         </p>
       </header>
@@ -71,47 +71,41 @@ export default function FeaturesPage() {
         ]}
       />
 
-      <section style={{ marginTop: '3rem', marginBottom: '3rem' }}>
+      <section className="features-lead-section">
         <Link
           href="/features/meta-analysis"
-          style={{
-            display: 'block',
-            padding: '2.5rem',
-            background: 'linear-gradient(135deg, #2f84d8 0%, #59c982 100%)',
-            borderRadius: '12px',
-            color: 'white',
-            textDecoration: 'none',
-            transition: 'transform 0.2s',
-          }}
           className="feature-hero"
         >
-          <span style={{ fontSize: '0.75rem', fontWeight: 700, textTransform: 'uppercase', letterSpacing: 0, opacity: 0.9 }}>
+          <span>
             Featured • Editorial Explainer
           </span>
-          <h2 style={{ fontSize: '2rem', fontWeight: 800, marginTop: '0.75rem', lineHeight: 1.2 }}>
+          <h2>
             Pokémon Pokopia Confirmed Systems Analysis
           </h2>
-          <p style={{ marginTop: '1rem', opacity: 0.95, fontSize: '1.125rem', lineHeight: 1.6 }}>
+          <p>
             What official sources confirm about Ditto, moves, crafting, food, habitats, multiplayer, and beginner routines, with editorial notes clearly separated.
           </p>
         </Link>
       </section>
 
-      <section style={{ marginBottom: '3rem' }}>
-        <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1.5rem' }}>
-          Source-Aware Features
-        </h2>
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: '1.5rem' }}>
+      <section className="features-topic-section">
+        <div className="section-title-row">
+          <div>
+            <span className="panel-kicker">Source-Aware Features</span>
+            <h2>Official Context and Editorial Explainers</h2>
+          </div>
+        </div>
+        <div className="features-topic-grid">
           {featuredTopics.map((topic) => (
             <Link key={topic.href} href={topic.href} className="card">
               <span className="badge source-roundup">{topic.category}</span>
-              <h3 style={{ fontSize: '1.125rem', fontWeight: 700, marginTop: '1rem', lineHeight: 1.3 }}>
+              <h3 className="index-card-title">
                 {topic.title}
               </h3>
-              <p style={{ fontSize: '0.875rem', color: '#666', marginTop: '0.75rem', lineHeight: 1.5 }}>
+              <p className="index-card-summary">
                 {topic.excerpt}
               </p>
-              <div style={{ marginTop: '1rem', fontSize: '0.75rem', color: '#999' }}>
+              <div className="feature-read-time">
                 {topic.readTime} read
               </div>
             </Link>
@@ -119,16 +113,20 @@ export default function FeaturesPage() {
         </div>
       </section>
 
-      <section>
-        <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1.5rem' }}>
-          From the Guides
-        </h2>
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
+      <section className="features-guide-section">
+        <div className="section-title-row">
+          <div>
+            <span className="panel-kicker">From the Guides</span>
+            <h2>Planning Guides That Use This Context</h2>
+          </div>
+          <Link href="/guides">All guides</Link>
+        </div>
+        <div className="features-guide-list">
           {featuredGuides.map((guide) => (
-            <Link key={guide.id} href={`/guides/${guide.slug}`} className="card" style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
+            <Link key={guide.id} href={`/guides/${guide.slug}`} className="feature-guide-row">
               <span className={`badge ${guide.category}`}>{guide.category}</span>
-              <span style={{ flex: 1, fontWeight: 600 }}>{guide.title}</span>
-              <span style={{ fontSize: '0.75rem', color: '#999' }}>Open</span>
+              <strong>{guide.title}</strong>
+              <small>Open</small>
             </Link>
           ))}
         </div>

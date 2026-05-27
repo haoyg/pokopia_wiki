@@ -23,15 +23,6 @@ const rarityOrder: Record<string, number> = {
   common: 3,
 }
 
-const specialtyOrder: Record<string, number> = {
-  Tank: 0,
-  Attacker: 1,
-  Assassin: 2,
-  Speedster: 3,
-  Support: 4,
-  Defender: 5,
-}
-
 function getTypeIcon(type: string): string {
   for (const key of Object.keys(typeIcons)) {
     if (type.toLowerCase().includes(key.toLowerCase())) return typeIcons[key]
@@ -89,10 +80,10 @@ const indexNotes = [
 ]
 
 const rarityHeadings = [
-  { label: 'Legendary', pokemon: legendary, color: '#856404', border: '#fff3cd', background: '#fffef5' },
-  { label: 'Rare', pokemon: rare, color: '#004085', border: '#cce5ff', background: '#f8fbff' },
-  { label: 'Uncommon', pokemon: uncommon, color: '#155724', border: '#d4edda', background: '#f8fff8' },
-  { label: 'Common', pokemon: common, color: '#666', border: '#eee', background: 'white' },
+  { label: 'Legendary', pokemon: legendary, className: 'legendary' },
+  { label: 'Rare', pokemon: rare, className: 'rare' },
+  { label: 'Uncommon', pokemon: uncommon, className: 'uncommon' },
+  { label: 'Common', pokemon: common, className: 'common' },
 ]
 
 export const metadata: Metadata = {
@@ -165,52 +156,29 @@ export default function TierListPage() {
         </div>
       </section>
 
-      {/* Priority Picks */}
-      <section style={{ marginBottom: '3rem' }}>
-        <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1.5rem' }}>
-          Priority Picks from Current Database
-        </h2>
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
+      <section className="tier-section">
+        <div className="section-title-row">
+          <div>
+            <span className="panel-kicker">Priority Picks</span>
+            <h2>Priority Picks from Current Database</h2>
+          </div>
+        </div>
+        <div className="tier-priority-list">
           {priorityPicks.map((pokemon, index) => (
             <Link
               key={pokemon.id}
               href={`/wiki/pokemon/${pokemon.id}`}
-              style={{
-                display: 'flex',
-                alignItems: 'center',
-                gap: '1rem',
-                padding: '1rem 1.25rem',
-                border: '1px solid #e5e5e5',
-                borderRadius: '12px',
-                background: 'white',
-                textDecoration: 'none',
-                color: 'inherit',
-                transition: 'all 0.2s',
-              }}
-              className="tier-card"
+              className="tier-priority-card"
             >
-              <div
-                style={{
-                  width: '2.5rem',
-                  height: '2.5rem',
-                  borderRadius: '50%',
-                  background: index < 3 ? '#fff3cd' : '#f5f5f5',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  fontWeight: 800,
-                  fontSize: '0.875rem',
-                  color: index < 3 ? '#856404' : '#666',
-                }}
-              >
+              <span className={`tier-rank ${index < 3 ? 'top' : ''}`}>
                 {index + 1}
-              </div>
-              <div style={{ fontSize: '2rem' }}><Image src={getTypeIcon(pokemon.type)} alt={pokemon.type} width={32} height={32} /></div>
-              <div style={{ flex: 1 }}>
-                <div style={{ fontWeight: 700, fontSize: '1rem' }}>{pokemon.name}</div>
-                <div style={{ fontSize: '0.75rem', color: '#666' }}>
+              </span>
+              <Image src={getTypeIcon(pokemon.type)} alt={pokemon.type} width={32} height={32} />
+              <div>
+                <strong>{pokemon.name}</strong>
+                <small>
                   {pokemon.type} • {pokemon.specialty}
-                </div>
+                </small>
               </div>
               <span className={`rarity ${pokemon.rarity}`}>{pokemon.rarity}</span>
             </Link>
@@ -218,37 +186,27 @@ export default function TierListPage() {
         </div>
       </section>
 
-      {/* By Rarity */}
-      <section style={{ marginBottom: '3rem' }}>
-        <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1.5rem' }}>
-          By Rarity
-        </h2>
-
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '1.5rem' }}>
+      <section className="tier-section">
+        <div className="section-title-row">
+          <div>
+            <span className="panel-kicker">Rarity Groups</span>
+            <h2>By Rarity</h2>
+          </div>
+        </div>
+        <div className="tier-rarity-grid">
           {rarityHeadings.map((group) => (
-            <div key={group.label}>
-              <h3 style={{ fontSize: '1rem', fontWeight: 700, color: group.color, marginBottom: '1rem' }}>
+            <div key={group.label} className={`tier-rarity-group ${group.className}`}>
+              <h3>
                 {group.label} ({group.pokemon.length})
               </h3>
-              <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
+              <div>
               {group.pokemon.map((p) => (
                 <Link
                   key={p.id}
                   href={`/wiki/pokemon/${p.id}`}
-                  style={{
-                    display: 'flex',
-                    alignItems: 'center',
-                    gap: '0.75rem',
-                    padding: '0.75rem',
-                    border: `1px solid ${group.border}`,
-                    borderRadius: '8px',
-                    background: group.background,
-                    textDecoration: 'none',
-                    color: 'inherit',
-                  }}
                 >
-                  <span style={{ fontSize: '1.25rem' }}><Image src={getTypeIcon(p.type)} alt={p.type} width={24} height={24} /></span>
-                  <span style={{ fontWeight: 600, fontSize: '0.875rem' }}>{p.name}</span>
+                  <Image src={getTypeIcon(p.type)} alt={p.type} width={24} height={24} />
+                  <span>{p.name}</span>
                 </Link>
               ))}
               </div>
@@ -257,39 +215,29 @@ export default function TierListPage() {
         </div>
       </section>
 
-      {/* By Role */}
-      <section style={{ marginBottom: '3rem' }}>
-        <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1.5rem' }}>
-          By Role
-        </h2>
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '1.5rem' }}>
+      <section className="tier-section">
+        <div className="section-title-row">
+          <div>
+            <span className="panel-kicker">Role Groups</span>
+            <h2>By Role</h2>
+          </div>
+        </div>
+        <div className="tier-role-grid">
           {byRole.map(({ role, pokemon }) => (
             <div key={role}>
-              <h3 style={{ fontSize: '1rem', fontWeight: 700, marginBottom: '1rem' }}>
+              <h3>
                 {role} ({pokemon.length})
               </h3>
-              <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem' }}>
+              <div>
                 {pokemon
                   .sort((a, b) => rarityOrder[a.rarity] - rarityOrder[b.rarity])
                   .map((p) => (
                     <Link
                       key={p.id}
                       href={`/wiki/pokemon/${p.id}`}
-                      style={{
-                        display: 'flex',
-                        alignItems: 'center',
-                        gap: '0.375rem',
-                        padding: '0.375rem 0.75rem',
-                        border: '1px solid #e5e5e5',
-                        borderRadius: '20px',
-                        background: 'white',
-                        textDecoration: 'none',
-                        color: 'inherit',
-                        fontSize: '0.8rem',
-                      }}
                     >
-                      <span><Image src={getTypeIcon(p.type)} alt={p.type} width={24} height={24} /></span>
-                      <span style={{ fontWeight: 600 }}>{p.name}</span>
+                      <Image src={getTypeIcon(p.type)} alt={p.type} width={24} height={24} />
+                      <span>{p.name}</span>
                     </Link>
                   ))}
               </div>
@@ -298,33 +246,15 @@ export default function TierListPage() {
         </div>
       </section>
 
-      {/* Notes */}
-      <div
-        style={{
-          padding: '1.5rem',
-          background: '#fef2f4',
-          borderRadius: '12px',
-          border: '1px solid #fcc',
-        }}
-      >
-        <h3 style={{ fontSize: '1rem', fontWeight: 700, marginBottom: '0.5rem' }}>
-          How to Read This Page
-        </h3>
-        <ul style={{ fontSize: '0.875rem', color: '#666', paddingLeft: '1.25rem', margin: 0 }}>
+      <aside className="tier-note-panel">
+        <h2>How to Read This Page</h2>
+        <ul>
           <li><strong>Rarity</strong> raises a Pokemon in this index because rare entries usually need more planning.</li>
           <li><strong>Specialty</strong> is used as an editorial organizing field, not as proof of official strength.</li>
           <li><strong>Role groups</strong> help readers jump to Pokemon pages and compare habitats, drops, and recipes.</li>
           <li><strong>Future updates</strong> should replace this simple index only when official data or verified player testing supports a stronger ranking model.</li>
         </ul>
-      </div>
-
-      <style>{`
-        .tier-card:hover {
-          box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-          transform: translateY(-2px);
-          border-color: #e94560;
-        }
-      `}</style>
+      </aside>
     </main>
   )
 }
