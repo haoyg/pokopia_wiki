@@ -1472,6 +1472,35 @@ section h2::before {
   font-size: var(--font-size-sm);
 }
 
+.spawn-insight-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: var(--space-3);
+  margin-top: var(--space-4);
+}
+
+.spawn-insight-card {
+  padding: var(--space-4);
+  border: 1px solid rgba(220, 232, 220, 0.95);
+  border-radius: var(--radius-md);
+  background: #f6fbff;
+}
+
+.spawn-insight-card span {
+  display: block;
+  color: #2f84d8;
+  font-size: var(--font-size-xs);
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.spawn-insight-card p {
+  margin-top: var(--space-2);
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-sm);
+  line-height: 1.5;
+}
+
 .tool-next-steps {
   padding: var(--space-5);
   border: 1px solid rgba(255, 209, 102, 0.65);
@@ -3096,6 +3125,7 @@ aside ul li {
   .tools-hub-hero,
   .tools-feature-grid,
   .tool-guide-grid,
+  .spawn-insight-grid,
   .tools-workflow-grid {
     grid-template-columns: 1fr;
   }

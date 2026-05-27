@@ -38,6 +38,8 @@ export default function SpawnTrackerPage() {
         <p>Filter current database entries by habitat, weather, time, rarity, food, drops, and type.</p>
       </section>
 
+      <SpawnTracker />
+
       <section className="tool-guide-grid" aria-label="Spawn tracker use cases">
         {spawnUseCases.map((item) => (
           <div key={item.title} className="tool-guide-card">
@@ -46,8 +48,6 @@ export default function SpawnTrackerPage() {
           </div>
         ))}
       </section>
-
-      <SpawnTracker />
 
       <section className="tool-next-steps">
         <h2>How to use spawn results</h2>
