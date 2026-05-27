@@ -85,6 +85,17 @@ const topicPages = [
 
 const featurePages = [
   {
+    id: 'community-showcase',
+    title: 'Pokopia Community Showcase Index',
+    href: '/community/showcase',
+    description: 'Future Pokopia community showcase index with submission standards for verified screenshots, home designs, route notes, and player-tested reports.',
+    meta: 'Community index',
+    status: 'Future showcase standard',
+    updatedAt: '2026-05-27',
+    priority: 82,
+    keywords: 'community showcase index player screenshots home design route notes verified submissions source credit permission community content aggregation',
+  },
+  {
     id: 'friendship-requests-tracker',
     title: 'Pokopia Friendship and Requests Tracker',
     href: '/features/friendship-requests-tracker',

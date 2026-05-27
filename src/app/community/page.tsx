@@ -41,9 +41,18 @@ export default function CommunityPage() {
             <span className="panel-kicker">Contribution Paths</span>
             <h2>What Community Notes Should Support</h2>
           </div>
-          <a href="/contact">Contact the site</a>
+          <a href="/community/showcase">Open showcase index</a>
         </div>
         <div className="index-guide-grid">
+          <div className="index-guide-card">
+            <strong>Community showcase</strong>
+            <p>Future showcase entries need permission, source credit, review dates, and links to related site pages.</p>
+            <div>
+              <a href="/community/showcase">Showcase index</a>
+              <a href="/builds/home-design-ideas">Home designs</a>
+              <a href="/copyright">Image rules</a>
+            </div>
+          </div>
           <div className="index-guide-card">
             <strong>Image corrections</strong>
             <p>Use this path for better official media, licensed screenshots, clearer source labels, or removal requests.</p>

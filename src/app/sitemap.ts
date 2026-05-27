@@ -37,6 +37,7 @@ const staticPages = [
   { url: '/builds/home-design-ideas', priority: 0.66, changefreq: 'monthly' },
   { url: '/tier-list', priority: 0.58, changefreq: 'monthly' },
   { url: '/community', priority: 0.4, changefreq: 'monthly' },
+  { url: '/community/showcase', priority: 0.62, changefreq: 'monthly' },
   { url: '/about', priority: 0.35, changefreq: 'yearly' },
   { url: '/contact', priority: 0.35, changefreq: 'yearly' },
   { url: '/disclaimer', priority: 0.3, changefreq: 'yearly' },

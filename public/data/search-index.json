@@ -1,5 +1,18 @@
 [
   {
+    "id": "community-showcase",
+    "type": "Feature",
+    "title": "Pokopia Community Showcase Index",
+    "href": "/community/showcase",
+    "description": "Future Pokopia community showcase index with submission standards for verified screenshots, home designs, route notes, and player-tested reports.",
+    "meta": "Community index",
+    "status": "Future showcase standard",
+    "source": null,
+    "updatedAt": "2026-05-27",
+    "priority": 82,
+    "keywords": "Pokopia Community Showcase Index Future Pokopia community showcase index with submission standards for verified screenshots, home designs, route notes, and player-tested reports. Community index community showcase index player screenshots home design route notes verified submissions source credit permission community content aggregation"
+  },
+  {
     "id": "friendship-requests-tracker",
     "type": "Feature",
     "title": "Pokopia Friendship and Requests Tracker",
