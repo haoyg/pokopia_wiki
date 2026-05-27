@@ -31,6 +31,7 @@ const staticPages = [
   { url: '/tools/team-builder', priority: 0.62, changefreq: 'monthly' },
   { url: '/tools/spawn-tracker', priority: 0.62, changefreq: 'monthly' },
   { url: '/features/pokopia-animal-crossing', priority: 0.72, changefreq: 'monthly' },
+  { url: '/features/friendship-requests-tracker', priority: 0.7, changefreq: 'monthly' },
   { url: '/features/meta-analysis', priority: 0.7, changefreq: 'monthly' },
   { url: '/builds', priority: 0.45, changefreq: 'monthly' },
   { url: '/builds/home-design-ideas', priority: 0.66, changefreq: 'monthly' },

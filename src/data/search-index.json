@@ -1,5 +1,18 @@
 [
   {
+    "id": "friendship-requests-tracker",
+    "type": "Feature",
+    "title": "Pokopia Friendship and Requests Tracker",
+    "href": "/features/friendship-requests-tracker",
+    "description": "A source-aware tracker for Pokopia befriended Pokemon, requests, visits, and unconfirmed NPC relationship mechanics.",
+    "meta": "System tracker",
+    "status": "Source-aware tracker",
+    "source": null,
+    "updatedAt": "2026-05-27",
+    "priority": 86,
+    "keywords": "Pokopia Friendship and Requests Tracker A source-aware tracker for Pokopia befriended Pokemon, requests, visits, and unconfirmed NPC relationship mechanics. System tracker friendship requests tracker befriended pokemon npc relationship visits daily challenges pc requests social systems official tips"
+  },
+  {
     "id": "weekly-event-tracker",
     "type": "Feature",
     "title": "Pokopia Weekly Event Tracker",

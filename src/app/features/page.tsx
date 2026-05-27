@@ -22,6 +22,13 @@ const featuredTopics = [
     readTime: '8 min',
   },
   {
+    href: '/features/friendship-requests-tracker',
+    title: 'Pokopia Friendship and Requests Tracker',
+    excerpt: 'Confirmed signals for befriended Pokemon, requests, visits, and what not to claim about unverified NPC relationship systems.',
+    category: 'System Tracker',
+    readTime: '7 min',
+  },
+  {
     href: '/official/gameplay-overview',
     title: 'Official Gameplay Overview',
     excerpt: 'Confirmed gameplay details from Nintendo and Pokémon sources, separated from editorial route advice.',

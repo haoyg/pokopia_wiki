@@ -85,6 +85,17 @@ const topicPages = [
 
 const featurePages = [
   {
+    id: 'friendship-requests-tracker',
+    title: 'Pokopia Friendship and Requests Tracker',
+    href: '/features/friendship-requests-tracker',
+    description: 'A source-aware tracker for Pokopia befriended Pokemon, requests, visits, and unconfirmed NPC relationship mechanics.',
+    meta: 'System tracker',
+    status: 'Source-aware tracker',
+    updatedAt: '2026-05-27',
+    priority: 86,
+    keywords: 'friendship requests tracker befriended pokemon npc relationship visits daily challenges pc requests social systems official tips',
+  },
+  {
     id: 'weekly-event-tracker',
     title: 'Pokopia Weekly Event Tracker',
     href: '/news/weekly-event-tracker',
