@@ -29,6 +29,13 @@ const featuredTopics = [
     readTime: '7 min',
   },
   {
+    href: '/features/creative-play-ideas',
+    title: 'Pokopia Creative Play Ideas',
+    excerpt: 'Safe building, route, recipe, and community challenge ideas that avoid unauthorized mods, downloads, and fake event claims.',
+    category: 'Creative Play',
+    readTime: '6 min',
+  },
+  {
     href: '/official/gameplay-overview',
     title: 'Official Gameplay Overview',
     excerpt: 'Confirmed gameplay details from Nintendo and Pokémon sources, separated from editorial route advice.',

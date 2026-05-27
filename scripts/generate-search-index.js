@@ -85,6 +85,17 @@ const topicPages = [
 
 const featurePages = [
   {
+    id: 'creative-play-ideas',
+    title: 'Pokopia Creative Play Ideas',
+    href: '/features/creative-play-ideas',
+    description: 'Safe Pokopia creative play ideas for building challenges, recipe workshops, habitat themes, and community-friendly routes without mod downloads.',
+    meta: 'Creative play',
+    status: 'Editorial feature',
+    updatedAt: '2026-05-28',
+    priority: 84,
+    keywords: 'creative play ideas mod alternatives building challenge habitat theme recipe workshop community challenge no downloads safe gameplay',
+  },
+  {
     id: 'community-showcase',
     title: 'Pokopia Community Showcase Index',
     href: '/community/showcase',
