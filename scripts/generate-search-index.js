@@ -83,6 +83,31 @@ const topicPages = [
   },
 ]
 
+const featurePages = [
+  {
+    id: 'pokopia-animal-crossing',
+    title: 'Pokopia vs Animal Crossing: Cozy Life Sim Comparison',
+    href: '/features/pokopia-animal-crossing',
+    description: 'A source-aware comparison for cozy game players, separating confirmed Pokopia systems from broader life-sim expectations.',
+    meta: 'Editorial comparison',
+    status: 'Editorial feature',
+    updatedAt: '2026-05-27',
+    priority: 86,
+    keywords: 'pokopia animal crossing comparison cozy life sim building decorating pokemon habitats recipes creative world rebuilding',
+  },
+  {
+    id: 'meta-analysis',
+    title: 'Pokémon Pokopia Confirmed Systems Analysis',
+    href: '/features/meta-analysis',
+    description: 'Editorial analysis of officially confirmed Pokémon Pokopia systems, including Ditto, moves, crafting, food, multiplayer, and beginner routines.',
+    meta: 'Official context',
+    status: 'Editorial feature',
+    updatedAt: '2026-05-23',
+    priority: 84,
+    keywords: 'confirmed systems analysis ditto moves crafting food multiplayer beginner routines official context',
+  },
+]
+
 const tools = [
   {
     id: 'tools',
@@ -132,6 +157,24 @@ const tools = [
 ]
 
 const index = [
+  ...featurePages.map((item) => ({
+    id: item.id,
+    type: 'Feature',
+    title: item.title,
+    href: item.href,
+    description: item.description,
+    meta: item.meta,
+    status: item.status,
+    source: null,
+    updatedAt: item.updatedAt,
+    priority: item.priority,
+    keywords: [
+      item.title,
+      item.description,
+      item.meta,
+      item.keywords,
+    ].join(' '),
+  })),
   ...topicPages.map((item) => ({
     id: item.id,
     type: 'Guide',

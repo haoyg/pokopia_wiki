@@ -1,5 +1,31 @@
 [
   {
+    "id": "pokopia-animal-crossing",
+    "type": "Feature",
+    "title": "Pokopia vs Animal Crossing: Cozy Life Sim Comparison",
+    "href": "/features/pokopia-animal-crossing",
+    "description": "A source-aware comparison for cozy game players, separating confirmed Pokopia systems from broader life-sim expectations.",
+    "meta": "Editorial comparison",
+    "status": "Editorial feature",
+    "source": null,
+    "updatedAt": "2026-05-27",
+    "priority": 86,
+    "keywords": "Pokopia vs Animal Crossing: Cozy Life Sim Comparison A source-aware comparison for cozy game players, separating confirmed Pokopia systems from broader life-sim expectations. Editorial comparison pokopia animal crossing comparison cozy life sim building decorating pokemon habitats recipes creative world rebuilding"
+  },
+  {
+    "id": "meta-analysis",
+    "type": "Feature",
+    "title": "Pokémon Pokopia Confirmed Systems Analysis",
+    "href": "/features/meta-analysis",
+    "description": "Editorial analysis of officially confirmed Pokémon Pokopia systems, including Ditto, moves, crafting, food, multiplayer, and beginner routines.",
+    "meta": "Official context",
+    "status": "Editorial feature",
+    "source": null,
+    "updatedAt": "2026-05-23",
+    "priority": 84,
+    "keywords": "Pokémon Pokopia Confirmed Systems Analysis Editorial analysis of officially confirmed Pokémon Pokopia systems, including Ditto, moves, crafting, food, multiplayer, and beginner routines. Official context confirmed systems analysis ditto moves crafting food multiplayer beginner routines official context"
+  },
+  {
     "id": "beginner-route",
     "type": "Guide",
     "title": "Pokopia Beginner Route",

@@ -29,6 +29,8 @@ const staticPages = [
   { url: '/tools/recipe-calculator', priority: 0.66, changefreq: 'monthly' },
   { url: '/tools/team-builder', priority: 0.62, changefreq: 'monthly' },
   { url: '/tools/spawn-tracker', priority: 0.62, changefreq: 'monthly' },
+  { url: '/features/pokopia-animal-crossing', priority: 0.72, changefreq: 'monthly' },
+  { url: '/features/meta-analysis', priority: 0.7, changefreq: 'monthly' },
   { url: '/builds', priority: 0.45, changefreq: 'monthly' },
   { url: '/tier-list', priority: 0.58, changefreq: 'monthly' },
   { url: '/community', priority: 0.4, changefreq: 'monthly' },
