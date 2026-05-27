@@ -87,69 +87,85 @@ export default async function GuideDetailPage({ params }: Props) {
         ]}
       />
       {guide.faqs?.length > 0 && <FAQJsonLd title={guide.title} faqs={guide.faqs} />}
-      <main style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
-        <article>
-          <span className={`badge ${guide.category}`}>{guide.category}</span>
-          <h1 style={{ marginTop: '1rem' }}>{guide.title}</h1>
-          <p style={{ color: '#666', marginTop: '0.5rem' }}>{guide.seo_keyword}</p>
-          <p style={{ color: '#777', fontSize: '0.875rem', marginTop: '0.5rem' }}>
-            Updated {new Date(updatedAt).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
-          </p>
-          <DataStatus
-            status={guide.data_status}
-            note={guide.data_status_note}
-            updatedAt={new Date(updatedAt).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
-          />
-          <OfficialContext
-            title="Official Baseline for This Guide"
-            description="This guide contains editorial route advice. For confirmed Pokémon Pokopia systems, check the official-source pages first."
-          />
-          <CreditedImage src={guide.image_url} alt={guide.image_alt} source={guide.image_source} sourceUrl={guide.image_source_url} licenseNote={guide.image_license_note} originalMedia={guide.image_original_media} className="article-cover" sizes="(max-width: 768px) 100vw, 800px" priority />
+      <main>
+        <article className="guide-detail-page">
+          <div className="guide-detail-hero">
+            <div className="guide-hero-copy">
+              <div className="index-card-badges">
+                <span className={`badge ${guide.category}`}>{guide.category}</span>
+              </div>
+              <h1>{guide.title}</h1>
+              <p>{guide.answer}</p>
+              <div className="guide-meta-row">
+                <span>{guide.seo_keyword}</span>
+                <span>{guide.steps?.length || 0} route checks</span>
+                <span>Updated {new Date(updatedAt).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
+              </div>
+              <DataStatus
+                status={guide.data_status}
+                note={guide.data_status_note}
+                updatedAt={new Date(updatedAt).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+              />
+              <OfficialContext
+                title="Official Baseline for This Guide"
+                description="This guide contains editorial route advice. For confirmed Pokémon Pokopia systems, check the official-source pages first."
+              />
+            </div>
+            <CreditedImage src={guide.image_url} alt={guide.image_alt} source={guide.image_source} sourceUrl={guide.image_source_url} licenseNote={guide.image_license_note} originalMedia={guide.image_original_media} className="guide-hero-cover" sizes="(max-width: 768px) 100vw, 420px" priority />
+          </div>
 
-          <section style={{ marginTop: '2rem', lineHeight: '1.8' }}>
-            <h2>Quick Answer</h2>
+          <section className="guide-answer-panel">
+            <span className="panel-kicker">Quick Answer</span>
             <p>{guide.answer}</p>
           </section>
 
-          <section style={{ marginTop: '2rem', lineHeight: '1.8' }}>
+          <section className="guide-content-section">
             <h2>Guide Overview</h2>
             {contentParagraphs.map((paragraph) => (
-              <p key={paragraph} style={{ marginTop: '1rem' }}>{paragraph}</p>
+              <p key={paragraph}>{paragraph}</p>
             ))}
           </section>
 
-          <section style={{ marginTop: '2rem', lineHeight: '1.8' }}>
-            <h2>Step-by-Step Route</h2>
-            <ol style={{ marginTop: '1rem', paddingLeft: '1.5rem' }}>
-              {guide.steps?.map((step) => (
-                <li key={step} style={{ marginBottom: '0.75rem' }}>{step}</li>
+          <section className="guide-route-section">
+            <div className="section-title-row">
+              <div>
+                <span className="panel-kicker">Route Checklist</span>
+                <h2>Step-by-Step Route</h2>
+              </div>
+            </div>
+            <ol>
+              {guide.steps?.map((step, index) => (
+                <li key={step}>
+                  <span>{index + 1}</span>
+                  <p>{step}</p>
+                </li>
               ))}
             </ol>
           </section>
 
-          <section style={{ marginTop: '2rem', lineHeight: '1.8' }}>
+          <section className="guide-content-section">
             <h2>Recommended Setup</h2>
-            <ul style={{ marginTop: '1rem', paddingLeft: '1.5rem' }}>
+            <ul>
               {guide.recommended_setup?.map((item) => (
-                <li key={item} style={{ marginBottom: '0.75rem' }}>{item}</li>
+                <li key={item}>{item}</li>
               ))}
             </ul>
           </section>
 
-          <section style={{ marginTop: '2rem', lineHeight: '1.8' }}>
+          <section className="guide-content-section">
             <h2>Common Mistakes</h2>
-            <ul style={{ marginTop: '1rem', paddingLeft: '1.5rem' }}>
+            <ul>
               {guide.common_mistakes?.map((mistake) => (
-                <li key={mistake} style={{ marginBottom: '0.75rem' }}>{mistake}</li>
+                <li key={mistake}>{mistake}</li>
               ))}
             </ul>
           </section>
 
           {guide.faqs?.length > 0 && (
-            <section style={{ marginTop: '2rem', lineHeight: '1.8' }}>
+            <section className="guide-content-section pokemon-faq-list">
               <h2>FAQ</h2>
               {guide.faqs.map((faq) => (
-                <div key={faq.question} style={{ marginTop: '1rem' }}>
+                <div key={faq.question}>
                   <h3>{faq.question}</h3>
                   <p>{faq.answer}</p>
                 </div>
