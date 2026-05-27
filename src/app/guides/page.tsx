@@ -98,6 +98,15 @@ export default function GuidesPage() {
             </p>
             <div className="feature-read-time">Use this after the route is already mapped</div>
           </a>
+          <a href="/guides/recipe-planning-route" className="feature-hero">
+            <span>Topic Route</span>
+            <h2>Pokopia Recipe Planning Route</h2>
+            <p>
+              A recipe workflow for choosing buffs by route objective, rarity cost, habitat risk,
+              Pokemon targets, and tool checks.
+            </p>
+            <div className="feature-read-time">Use this before spending rare ingredients</div>
+          </a>
         </div>
       </section>
 

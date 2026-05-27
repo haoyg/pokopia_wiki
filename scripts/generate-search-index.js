@@ -70,6 +70,17 @@ const topicPages = [
     priority: 90,
     keywords: 'rare farming route lucky charm legendary pokemon shadow marsh frost peak volcanic cave spawn tracker recipe calculator habitat planner',
   },
+  {
+    id: 'recipe-planning-route',
+    title: 'Pokopia Recipe Planning Route',
+    href: '/guides/recipe-planning-route',
+    description: 'A recipe planning route that connects buff timing, rarity cost, habitat risk, Pokemon targets, and tools.',
+    meta: 'Recipe topic route',
+    status: 'Editorial topic guide',
+    updatedAt: '2026-05-27',
+    priority: 88,
+    keywords: 'recipe planning route buff timing rarity ingredients habitat risk pokemon targets recipe calculator honey cake lucky charm fire boost grass heal',
+  },
 ]
 
 const tools = [
