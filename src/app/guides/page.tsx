@@ -111,8 +111,10 @@ export default function GuidesPage() {
         {guidesData.map((guide) => (
           <a key={guide.id} href={`/guides/${guide.slug}`} className="card">
             <CreditedImage src={guide.image_url} alt={guide.image_alt} source={guide.image_source} sourceUrl={guide.image_source_url} licenseNote={guide.image_license_note} originalMedia={guide.image_original_media} />
-            <span className="badge">{categoryLabels[guide.category] || guide.category}</span>
-            <h3>{guide.title}</h3>
+            <div className="index-card-badges">
+              <span className="badge">{categoryLabels[guide.category] || guide.category}</span>
+            </div>
+            <h3 className="index-card-title">{guide.title}</h3>
             <p className="index-card-summary">{shortText(guide.answer || guide.seo_keyword, 135)}</p>
             <dl className="index-card-facts">
               <div>

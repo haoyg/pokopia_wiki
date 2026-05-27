@@ -888,7 +888,7 @@ section h2::before {
 .guides-grid,
 .tools-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
   gap: var(--space-4);
 }
 
@@ -897,7 +897,8 @@ section h2::before {
    ============================================ */
 
 .card {
-  display: block;
+  display: grid;
+  align-content: start;
   padding: var(--space-4);
   border: 2px solid rgba(220, 232, 220, 0.95);
   border-radius: var(--radius-lg);
@@ -940,6 +941,46 @@ section h2::before {
   line-height: 1.55;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
+}
+
+.index-card-title {
+  margin: var(--space-2) 0 0;
+  font-size: var(--font-size-lg);
+  line-height: 1.25;
+}
+
+.index-card-title-center,
+.index-card-meta,
+.index-card-submeta {
+  text-align: center;
+}
+
+.index-card-meta {
+  color: var(--color-text);
+  font-size: var(--font-size-sm);
+  font-weight: 800;
+  line-height: 1.35;
+}
+
+.index-card-submeta {
+  margin-top: var(--space-1) !important;
+  color: var(--color-text-secondary) !important;
+  font-size: var(--font-size-xs) !important;
+  font-weight: 800;
+  line-height: 1.4;
+}
+
+.index-card-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  margin-top: var(--space-3);
+  align-items: center;
+}
+
+.index-card-badges-center {
+  justify-content: center;
+  text-align: center;
 }
 
 .index-card-facts {
@@ -2360,7 +2401,7 @@ aside ul li {
   .pokemon-grid,
   .news-grid,
   .guides-grid {
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-template-columns: 1fr;
   }
 
   .home-dashboard,

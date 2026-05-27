@@ -104,9 +104,9 @@ export default function PokemonPage() {
         {pokemonData.map((p) => (
           <a key={p.id} href={`/wiki/pokemon/${p.id}`} className="card">
             <CreditedImage src={p.image_url} alt={p.image_alt || p.type} source={p.image_source} sourceUrl={p.image_source_url} licenseNote={p.image_license_note} originalMedia={p.image_original_media} className="card-cover pokemon-cover" sizes="(max-width: 768px) 100px, 200px" />
-            <h3 style={{ textAlign: 'center' }}>{p.name}</h3>
-            <p style={{ textAlign: 'center', color: '#666', fontSize: '0.875rem' }}>{p.type}</p>
-            <p style={{ textAlign: 'center', color: '#637083', fontSize: '0.78rem', marginTop: '0.35rem' }}>{p.specialty} · {habitatNames[p.habitat] || p.habitat}</p>
+            <h3 className="index-card-title index-card-title-center">{p.name}</h3>
+            <p className="index-card-meta">{p.type}</p>
+            <p className="index-card-submeta">{p.specialty} · {habitatNames[p.habitat] || p.habitat}</p>
             <p className="index-card-summary">{shortText(p.overview, 135)}</p>
             <dl className="index-card-facts">
               <div>
@@ -122,7 +122,7 @@ export default function PokemonPage() {
                 <dd>{p.drops}</dd>
               </div>
             </dl>
-            <div style={{ textAlign: 'center', marginTop: '0.5rem' }}>
+            <div className="index-card-badges index-card-badges-center">
               <span className={`rarity ${p.rarity}`}>{p.rarity}</span>
             </div>
           </a>

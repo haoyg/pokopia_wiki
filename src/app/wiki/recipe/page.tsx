@@ -107,9 +107,9 @@ export default function RecipePage() {
         {recipesData.map((r) => (
           <a key={r.id} href={`/wiki/recipe/${r.id}`} className="card">
             <CreditedImage src={r.image_url} alt={r.image_alt || r.name} source={r.image_source} sourceUrl={r.image_source_url} licenseNote={r.image_license_note} originalMedia={r.image_original_media} />
-            <h3 style={{ textAlign: 'center', marginTop: '0.5rem' }}>{r.name}</h3>
-            <p style={{ textAlign: 'center', color: '#666', fontSize: '0.875rem' }}>{r.buff}</p>
-            <p style={{ textAlign: 'center', color: '#637083', fontSize: '0.78rem', marginTop: '0.35rem' }}>{r.effect_duration} · {r.best_use}</p>
+            <h3 className="index-card-title index-card-title-center">{r.name}</h3>
+            <p className="index-card-meta">{r.buff}</p>
+            <p className="index-card-submeta">{r.effect_duration} · {r.best_use}</p>
             <p className="index-card-summary">{shortText(r.overview, 135)}</p>
             <dl className="index-card-facts">
               <div>
@@ -121,7 +121,7 @@ export default function RecipePage() {
                 <dd>{shortText(textValue(r.best_timing), 74)}</dd>
               </div>
             </dl>
-            <div style={{ textAlign: 'center', marginTop: '0.5rem' }}>
+            <div className="index-card-badges index-card-badges-center">
               <span className={`rarity ${r.rarity}`}>{rarityLabels[r.rarity]}</span>
             </div>
           </a>

@@ -99,9 +99,9 @@ export default function HabitatPage() {
         {habitatsData.map((h) => (
           <a key={h.id} href={`/wiki/habitat/${h.id}`} className="card">
             <CreditedImage src={h.image_url} alt={h.image_alt || h.name} source={h.image_source} sourceUrl={h.image_source_url} licenseNote={h.image_license_note} originalMedia={h.image_original_media} />
-            <h3 style={{ textAlign: 'center', marginTop: '0.5rem' }}>{h.name}</h3>
-            <p style={{ textAlign: 'center', color: '#666', fontSize: '0.875rem' }}>{h.unlock_condition}</p>
-            <p style={{ textAlign: 'center', color: '#637083', fontSize: '0.78rem', marginTop: '0.35rem' }}>{h.weather} · {h.resource_bonus}</p>
+            <h3 className="index-card-title index-card-title-center">{h.name}</h3>
+            <p className="index-card-meta">{h.unlock_condition}</p>
+            <p className="index-card-submeta">{h.weather} · {h.resource_bonus}</p>
             <p className="index-card-summary">{shortText(h.overview, 145)}</p>
             <dl className="index-card-facts">
               <div>
@@ -113,7 +113,7 @@ export default function HabitatPage() {
                 <dd>{shortText(h.farming_route[1], 72)}</dd>
               </div>
             </dl>
-            <div style={{ textAlign: 'center', marginTop: '0.5rem', display: 'flex', gap: '0.5rem', justifyContent: 'center', alignItems: 'center' }}>
+            <div className="index-card-badges index-card-badges-center">
               <span className={`badge ${h.difficulty}`}>{h.difficulty}</span>
             </div>
           </a>
