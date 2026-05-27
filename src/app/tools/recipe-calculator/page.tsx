@@ -42,21 +42,6 @@ const goals = [
   },
 ]
 
-const calculatorNotes = [
-  {
-    title: 'When to use it',
-    text: 'Use the calculator before spending rare ingredients, entering a hard habitat, or trying to repeat a farming route for several attempts.',
-  },
-  {
-    title: 'How to read matches',
-    text: 'Goal match favors recipes whose buff, timing, and best-use notes fit the selected route objective. It is a planning shortcut, not a final answer.',
-  },
-  {
-    title: 'What to check next',
-    text: 'Open the linked recipe page for ingredient details, then verify related Pokemon and habitats before committing the recipe to a run.',
-  },
-]
-
 function splitIds(value?: string) {
   return (value || '').split(',').map((item) => item.trim()).filter(Boolean)
 }
@@ -128,15 +113,6 @@ export default function RecipeCalculator() {
         note="Recommendations are based on Pokopia Portal recipe, Pokemon, and habitat entries. Use this as a planning aid and recheck recipe pages after balance updates."
         updatedAt="2026-05-26"
       />
-
-      <section style={{ marginTop: '1.5rem', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: '0.85rem' }}>
-        {calculatorNotes.map((note) => (
-          <div key={note.title} style={{ padding: '1rem', border: '1px solid #dce8dc', borderRadius: '12px', background: 'rgba(255, 255, 255, 0.9)' }}>
-            <strong style={{ display: 'block', fontSize: '0.95rem' }}>{note.title}</strong>
-            <p style={{ marginTop: '0.45rem', color: '#637083', fontSize: '0.88rem', lineHeight: 1.55 }}>{note.text}</p>
-          </div>
-        ))}
-      </section>
 
       <section style={{ marginTop: '1.5rem' }}>
         <h2 style={{ fontSize: '1rem', marginBottom: '0.75rem' }}>Route Goal</h2>
