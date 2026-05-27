@@ -59,6 +59,17 @@ const topicPages = [
     priority: 90,
     keywords: 'beginner route starter pokemon easy habitat recipe timing tools first path forest valley crystal lake training grounds',
   },
+  {
+    id: 'rare-farming-route',
+    title: 'Pokopia Rare Farming Route',
+    href: '/guides/rare-farming-route',
+    description: 'A rare farming route that connects Lucky Charm timing, rare Pokemon targets, high-value habitats, recipes, and tools.',
+    meta: 'Rare farming topic route',
+    status: 'Editorial topic guide',
+    updatedAt: '2026-05-27',
+    priority: 90,
+    keywords: 'rare farming route lucky charm legendary pokemon shadow marsh frost peak volcanic cave spawn tracker recipe calculator habitat planner',
+  },
 ]
 
 const tools = [

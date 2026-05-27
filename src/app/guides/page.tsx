@@ -79,15 +79,26 @@ export default function GuidesPage() {
       />
 
       <section className="features-lead-section">
-        <a href="/guides/beginner-route" className="feature-hero">
-          <span>Topic Route</span>
-          <h2>Pokopia Beginner Route</h2>
-          <p>
-            A practical first path that connects starter choices, easy habitats, recipe timing,
-            Pokemon pages, and planning tools before harder routes.
-          </p>
-          <div className="feature-read-time">Start here before choosing a long farming route</div>
-        </a>
+        <div className="features-topic-grid">
+          <a href="/guides/beginner-route" className="feature-hero">
+            <span>Topic Route</span>
+            <h2>Pokopia Beginner Route</h2>
+            <p>
+              A practical first path that connects starter choices, easy habitats, recipe timing,
+              Pokemon pages, and planning tools before harder routes.
+            </p>
+            <div className="feature-read-time">Start here before choosing a long farming route</div>
+          </a>
+          <a href="/guides/rare-farming-route" className="feature-hero">
+            <span>Topic Route</span>
+            <h2>Pokopia Rare Farming Route</h2>
+            <p>
+              A focused route for rare and legendary checks, Lucky Charm timing, target habitats,
+              recipe support, and tool workflow.
+            </p>
+            <div className="feature-read-time">Use this after the route is already mapped</div>
+          </a>
+        </div>
       </section>
 
       <section className="index-guide-panel">

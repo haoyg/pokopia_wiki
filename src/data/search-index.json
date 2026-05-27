@@ -13,6 +13,19 @@
     "keywords": "Pokopia Beginner Route A beginner route that connects starter choices, easy habitats, recipe timing, Pokemon pages, and planning tools. Beginner topic route beginner route starter pokemon easy habitat recipe timing tools first path forest valley crystal lake training grounds"
   },
   {
+    "id": "rare-farming-route",
+    "type": "Guide",
+    "title": "Pokopia Rare Farming Route",
+    "href": "/guides/rare-farming-route",
+    "description": "A rare farming route that connects Lucky Charm timing, rare Pokemon targets, high-value habitats, recipes, and tools.",
+    "meta": "Rare farming topic route",
+    "status": "Editorial topic guide",
+    "source": null,
+    "updatedAt": "2026-05-27",
+    "priority": 90,
+    "keywords": "Pokopia Rare Farming Route A rare farming route that connects Lucky Charm timing, rare Pokemon targets, high-value habitats, recipes, and tools. Rare farming topic route rare farming route lucky charm legendary pokemon shadow marsh frost peak volcanic cave spawn tracker recipe calculator habitat planner"
+  },
+  {
     "id": "tools",
     "type": "Tool",
     "title": "Pokopia Tools and Route Planners",
