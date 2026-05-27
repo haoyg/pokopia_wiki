@@ -7,7 +7,7 @@ import habitatLinksData from '@/data/habitat-links.json'
 import recipeLinksData from '@/data/recipe-links.json'
 import guideLinksData from '@/data/guide-links.json'
 import { DataStatus } from '@/components/content/DataStatus'
-import { BreadcrumbJsonLd, ToolJsonLd } from '@/components/seo/JsonLd'
+import { BreadcrumbJsonLd, FAQJsonLd, ToolJsonLd } from '@/components/seo/JsonLd'
 
 const roles = ['all', 'Tank', 'Attacker', 'Assassin', 'Speedster', 'Support', 'Defender']
 
@@ -64,6 +64,21 @@ const roleSlots = [
   { key: 'Damage', roles: ['Attacker', 'Assassin'], note: 'Handles boss rooms, elite checks, or faster clears.' },
   { key: 'Support', roles: ['Support', 'Speedster'], note: 'Keeps farming loops consistent and reduces route friction.' },
   { key: 'Survival', roles: ['Tank', 'Defender', 'Support'], note: 'Protects long routes, bad weather, and final-room pressure.' },
+]
+
+const teamBuilderFaqs = [
+  {
+    question: 'How does the Pokopia Team Builder choose Pokemon?',
+    answer: 'It scores Pokemon by the selected team goal, preferred roles, preferred types, rarity fit, and route support, then fills lead, damage, support, and survival slots.',
+  },
+  {
+    question: 'Should I keep the automatic team draft?',
+    answer: 'Use the automatic draft as a balanced starting point. Swap Pokemon manually when a target habitat needs a different type, role, food route, or rarity level.',
+  },
+  {
+    question: 'Why do related habitats matter for a team?',
+    answer: 'Related habitats show where the selected Pokemon are usually connected, so you can check route difficulty, weather, and recipe cost before farming the team.',
+  },
 ]
 
 function includesType(type: string, preferredTypes: string[]) {
@@ -211,6 +226,7 @@ export default function TeamBuilder() {
           { name: 'Team Builder', url: '/tools/team-builder' },
         ]}
       />
+      <FAQJsonLd title="Team Builder FAQ" faqs={teamBuilderFaqs} />
       <ToolJsonLd
         name="Pokopia Team Builder"
         description="Interactive Pokopia team planning tool for drafting roles, comparing Pokemon by goal, and connecting team choices to recipes, habitats, and guides."
@@ -499,6 +515,26 @@ export default function TeamBuilder() {
           </div>
         </section>
       </div>
+
+      <section
+        style={{
+          marginTop: '2rem',
+          padding: '1.25rem',
+          borderRadius: '12px',
+          border: '1px solid #dce8dc',
+          background: 'rgba(255, 255, 255, 0.94)',
+        }}
+      >
+        <h2 style={{ fontSize: '1rem', marginBottom: '0.85rem' }}>Team Builder FAQ</h2>
+        <div style={{ display: 'grid', gap: '0.85rem' }}>
+          {teamBuilderFaqs.map((faq) => (
+            <div key={faq.question}>
+              <strong style={{ display: 'block', fontSize: '0.9rem' }}>{faq.question}</strong>
+              <p style={{ marginTop: '0.3rem', color: '#637083', fontSize: '0.9rem', lineHeight: 1.55 }}>{faq.answer}</p>
+            </div>
+          ))}
+        </div>
+      </section>
 
       <section
         style={{

@@ -1,6 +1,6 @@
 import { Metadata } from 'next'
 import { SpawnTracker } from '@/components/tools/SpawnTracker'
-import { BreadcrumbJsonLd, ToolJsonLd } from '@/components/seo/JsonLd'
+import { BreadcrumbJsonLd, FAQJsonLd, ToolJsonLd } from '@/components/seo/JsonLd'
 import { canonicalUrl } from '@/lib/site'
 
 export const metadata: Metadata = {
@@ -37,6 +37,21 @@ const spawnUseCases = [
   },
 ]
 
+const spawnTrackerFaqs = [
+  {
+    question: 'What can I search in the Pokopia Spawn Tracker?',
+    answer: 'You can search by Pokemon name, type, description, favorite food, skills, drops, or habitat name, then combine the search with habitat, weather, time, and rarity filters.',
+  },
+  {
+    question: 'Why does the tracker show broad results?',
+    answer: 'Broad results mean the current filters are still exploratory. Add one more filter, such as weather or rarity, before treating the list as a farming route.',
+  },
+  {
+    question: 'What should I check after finding a spawn target?',
+    answer: 'Open the Pokemon page for food, drops, and role notes, then open the habitat page to confirm route difficulty, weather, and recipe timing.',
+  },
+]
+
 export default function SpawnTrackerPage() {
   return (
     <main className="page-shell">
@@ -47,6 +62,7 @@ export default function SpawnTrackerPage() {
           { name: 'Spawn Tracker', url: '/tools/spawn-tracker' },
         ]}
       />
+      <FAQJsonLd title="Spawn Tracker FAQ" faqs={spawnTrackerFaqs} />
       <ToolJsonLd
         name="Pokopia Spawn Tracker"
         description="Interactive Pokopia spawn tracking tool for filtering Pokemon by habitat, weather, time, rarity, food, drops, and type."
@@ -72,6 +88,18 @@ export default function SpawnTrackerPage() {
             <p>{item.text}</p>
           </div>
         ))}
+      </section>
+
+      <section className="tool-next-steps">
+        <h2>Spawn Tracker FAQ</h2>
+        <div className="tool-faq-stack">
+          {spawnTrackerFaqs.map((faq) => (
+            <div key={faq.question}>
+              <strong>{faq.question}</strong>
+              <p>{faq.answer}</p>
+            </div>
+          ))}
+        </div>
       </section>
 
       <section className="tool-next-steps">

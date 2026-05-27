@@ -7,7 +7,7 @@ import pokemonLinksData from '@/data/pokemon-links.json'
 import recipeLinksData from '@/data/recipe-links.json'
 import guideLinksData from '@/data/guide-links.json'
 import { DataStatus } from '@/components/content/DataStatus'
-import { BreadcrumbJsonLd, ToolJsonLd } from '@/components/seo/JsonLd'
+import { BreadcrumbJsonLd, FAQJsonLd, ToolJsonLd } from '@/components/seo/JsonLd'
 
 const difficultyOrder: Record<string, number> = { easy: 0, medium: 1, hard: 2 }
 
@@ -54,6 +54,21 @@ const weatherOptions = [
   ['stormy', 'Stormy'],
   ['foggy', 'Foggy'],
   ['dark', 'Dark'],
+]
+
+const habitatPlannerFaqs = [
+  {
+    question: 'What does the Pokopia Habitat Planner score?',
+    answer: 'It scores habitats by selected goal, player level, difficulty, weather, route notes, rare spawns, resource bonuses, and related planning links.',
+  },
+  {
+    question: 'Should I run a locked habitat if it has a high match score?',
+    answer: 'No. A locked habitat is a preparation target. Use the score to plan recipes and team picks, then return when the level requirement is met.',
+  },
+  {
+    question: 'How should I use the weather filter?',
+    answer: 'Use the weather filter when the target Pokemon, recipe value, or farming route only makes sense under a specific weather condition.',
+  },
 ]
 
 function getUnlockLevel(condition: string) {
@@ -194,6 +209,7 @@ export default function HabitatPlanner() {
           { name: 'Habitat Planner', url: '/tools/habitat-planner' },
         ]}
       />
+      <FAQJsonLd title="Habitat Planner FAQ" faqs={habitatPlannerFaqs} />
       <ToolJsonLd
         name="Pokopia Habitat Planner"
         description="Interactive Pokopia habitat planning tool for choosing route goals, checking level access, filtering weather, and opening related recipes, Pokemon, and guides."
@@ -544,6 +560,26 @@ export default function HabitatPlanner() {
           </section>
         )}
       </div>
+
+      <section
+        style={{
+          marginTop: '2rem',
+          padding: '1.25rem',
+          borderRadius: '12px',
+          border: '1px solid #dce8dc',
+          background: 'rgba(255, 255, 255, 0.94)',
+        }}
+      >
+        <h2 style={{ fontSize: '1rem', marginBottom: '0.85rem' }}>Habitat Planner FAQ</h2>
+        <div style={{ display: 'grid', gap: '0.85rem' }}>
+          {habitatPlannerFaqs.map((faq) => (
+            <div key={faq.question}>
+              <strong style={{ display: 'block', fontSize: '0.9rem' }}>{faq.question}</strong>
+              <p style={{ marginTop: '0.3rem', color: '#637083', fontSize: '0.9rem', lineHeight: 1.55 }}>{faq.answer}</p>
+            </div>
+          ))}
+        </div>
+      </section>
 
       <section
         style={{

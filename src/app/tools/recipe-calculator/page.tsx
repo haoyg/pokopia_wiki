@@ -6,7 +6,7 @@ import recipesData from '@/data/recipes.json'
 import pokemonLinksData from '@/data/pokemon-links.json'
 import habitatLinksData from '@/data/habitat-links.json'
 import { DataStatus } from '@/components/content/DataStatus'
-import { BreadcrumbJsonLd, ToolJsonLd } from '@/components/seo/JsonLd'
+import { BreadcrumbJsonLd, FAQJsonLd, ToolJsonLd } from '@/components/seo/JsonLd'
 
 const rarityOrder = ['common', 'uncommon', 'rare', 'legendary']
 
@@ -40,6 +40,21 @@ const goals = [
     label: 'Daily Farming',
     note: 'Use cheaper recipes for normal gathering and safe repeat loops.',
     keywords: ['daily', 'heal', 'grass', 'farming', 'starter', 'common'],
+  },
+]
+
+const recipeCalculatorFaqs = [
+  {
+    question: 'What does the Pokopia Recipe Calculator compare?',
+    answer: 'It compares recipes by route goal, rarity, buff text, best-use notes, timing advice, related Pokemon, and related habitats.',
+  },
+  {
+    question: 'Should I always craft the top recipe recommendation?',
+    answer: 'No. Use the top recommendation as a shortlist, then open the recipe and habitat pages to confirm ingredients, route timing, and common mistakes.',
+  },
+  {
+    question: 'When should I filter recipes by rarity?',
+    answer: 'Use the rarity filter when ingredients are limited or when you want a cheaper daily farming option instead of spending rare materials.',
   },
 ]
 
@@ -127,6 +142,7 @@ export default function RecipeCalculator() {
           { name: 'Recipe Calculator', url: '/tools/recipe-calculator' },
         ]}
       />
+      <FAQJsonLd title="Recipe Calculator FAQ" faqs={recipeCalculatorFaqs} />
       <ToolJsonLd
         name="Pokopia Recipe Calculator"
         description="Interactive Pokopia recipe planning tool for comparing recipe value by route goal, rarity, timing, Pokemon links, and habitat support."
@@ -381,6 +397,26 @@ export default function RecipeCalculator() {
           </section>
         )}
       </div>
+
+      <section
+        style={{
+          marginTop: '2rem',
+          padding: '1.25rem',
+          borderRadius: '12px',
+          border: '1px solid #dce8dc',
+          background: 'rgba(255, 255, 255, 0.94)',
+        }}
+      >
+        <h2 style={{ fontSize: '1rem', marginBottom: '0.85rem' }}>Recipe Calculator FAQ</h2>
+        <div style={{ display: 'grid', gap: '0.85rem' }}>
+          {recipeCalculatorFaqs.map((faq) => (
+            <div key={faq.question}>
+              <strong style={{ display: 'block', fontSize: '0.9rem' }}>{faq.question}</strong>
+              <p style={{ marginTop: '0.3rem', color: '#637083', fontSize: '0.9rem', lineHeight: 1.55 }}>{faq.answer}</p>
+            </div>
+          ))}
+        </div>
+      </section>
 
       <section
         style={{
