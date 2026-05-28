@@ -12,7 +12,9 @@
       "Bash(npm list *)",
       "Read(//Users/gavin/.wrangler/config/**)",
       "Read(//Users/gavin/.cloudflare/**)",
-      "Bash(env)"
+      "Bash(env)",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\([g.get\\('title',''\\) for g in d[:5]]\\)\")",
+      "Bash(node *)"
     ]
   }
 }

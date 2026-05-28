@@ -20,6 +20,12 @@ export function WebsiteJsonLd() {
     name: 'Pokopia Portal',
     url: BASE_URL,
     description: 'Independent Pokopia wiki with official source roundups, guides, Pokemon database pages, habitat notes, recipes, and planning tools.',
+    about: {
+      '@type': 'Thing',
+      name: 'Pokopia',
+      description: 'A gaming content platform covering Pokemon-style game guides, database, and community tools.',
+    },
+    license: 'https://creativecommons.org/licenses/by/4.0/',
     potentialAction: {
       '@type': 'SearchAction',
       target: {
