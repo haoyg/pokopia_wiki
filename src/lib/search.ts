@@ -61,12 +61,16 @@ export function searchContent(query: string) {
 }
 
 export const popularSearches = [
-  'starter',
-  'legendary',
-  'fire team',
-  'habitat',
-  'team builder',
-  'spawn tracker',
-  'recipe',
   'rare farming',
+  'beginner route',
+  'recipe planning',
+  'home design',
+  'creative play',
+  'friendship requests',
+  'weekly event',
+  'animal crossing',
+  'habitat planner',
+  'spawn tracker',
+  'team builder',
+  'legendary',
 ]

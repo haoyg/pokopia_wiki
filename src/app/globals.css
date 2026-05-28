@@ -3252,6 +3252,58 @@ aside ul li {
   border-color: var(--color-primary);
 }
 
+.search-quick-section {
+  padding-bottom: 0;
+}
+
+.search-quick-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--space-4);
+}
+
+.search-quick-card {
+  display: grid;
+  gap: var(--space-3);
+  min-height: 100%;
+  padding: var(--space-5);
+  border: 2px solid rgba(220, 232, 220, 0.95);
+  border-radius: var(--radius-lg);
+  color: inherit;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(245, 252, 255, 0.92));
+  box-shadow: 0 4px 0 rgba(47, 76, 113, 0.08);
+  text-decoration: none;
+}
+
+.search-quick-card:hover {
+  border-color: rgba(89, 201, 130, 0.62);
+  color: inherit;
+  text-decoration: none;
+  transform: translateY(-2px);
+}
+
+.search-quick-card strong {
+  color: #17304f;
+  font-size: var(--font-size-lg);
+}
+
+.search-quick-card p {
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-sm);
+  line-height: 1.6;
+}
+
+.search-topic-columns {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-8);
+}
+
+.search-topic-columns h2 {
+  margin-bottom: var(--space-4);
+}
+
 .result-list {
   display: grid;
   gap: var(--space-4);
@@ -3422,6 +3474,8 @@ aside ul li {
   .news-lead-card,
   .source-facts,
   .home-explore-grid,
+  .search-quick-grid,
+  .search-topic-columns,
   .guide-lane-grid,
   .route-board-grid,
   .pokemon-strip-grid,
