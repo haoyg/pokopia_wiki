@@ -2,7 +2,7 @@ import searchIndex from '@/data/search-index.json'
 
 export type SearchResult = {
   id: string
-  type: 'Official' | 'News' | 'Guide' | 'Tool' | 'Pokemon' | 'Habitat' | 'Recipe'
+  type: 'Official' | 'News' | 'Guide' | 'Feature' | 'Tool' | 'Pokemon' | 'Habitat' | 'Recipe'
   title: string
   href: string
   description: string

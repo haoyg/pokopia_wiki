@@ -4,12 +4,13 @@ import Link from 'next/link'
 import { useSearchParams } from 'next/navigation'
 import { SearchResult, popularSearches, searchContent } from '@/lib/search'
 
-const typeOrder: SearchResult['type'][] = ['Official', 'News', 'Guide', 'Tool', 'Pokemon', 'Habitat', 'Recipe']
+const typeOrder: SearchResult['type'][] = ['Official', 'News', 'Guide', 'Feature', 'Tool', 'Pokemon', 'Habitat', 'Recipe']
 
 const typeLabels: Record<SearchResult['type'], string> = {
   Official: 'Official Info',
   News: 'News',
   Guide: 'Guides',
+  Feature: 'Features',
   Tool: 'Tools',
   Pokemon: 'Pokemon',
   Habitat: 'Habitats',

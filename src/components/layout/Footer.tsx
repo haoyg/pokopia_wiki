@@ -4,7 +4,9 @@ const footerGroups = [
   {
     title: 'Start',
     links: [
+      { href: '/', label: 'Home' },
       { href: '/official', label: 'Official Info' },
+      { href: '/news', label: 'News Hub' },
       { href: '/guides/beginner-route', label: 'Beginner Route' },
       { href: '/news/weekly-event-tracker', label: 'Event Tracker' },
       { href: '/search', label: 'Search' },
@@ -16,12 +18,15 @@ const footerGroups = [
       { href: '/wiki/pokemon', label: 'Pokemon Database' },
       { href: '/wiki/habitat', label: 'Habitats' },
       { href: '/wiki/recipe', label: 'Recipes' },
+      { href: '/guides', label: 'Guides Hub' },
       { href: '/guides/rare-farming-route', label: 'Rare Farming' },
+      { href: '/guides/recipe-planning-route', label: 'Recipe Planning' },
     ],
   },
   {
     title: 'Features',
     links: [
+      { href: '/features', label: 'Features Hub' },
       { href: '/features/pokopia-animal-crossing', label: 'Pokopia vs Animal Crossing' },
       { href: '/features/creative-play-ideas', label: 'Creative Play' },
       { href: '/features/friendship-requests-tracker', label: 'Friendship Requests' },
@@ -40,6 +45,7 @@ const footerGroups = [
   {
     title: 'Tools',
     links: [
+      { href: '/tools', label: 'Tools Hub' },
       { href: '/tools/habitat-planner', label: 'Habitat Planner' },
       { href: '/tools/recipe-calculator', label: 'Recipe Calculator' },
       { href: '/tools/team-builder', label: 'Team Builder' },
