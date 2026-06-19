@@ -2104,5 +2104,948 @@
     "data_status_note": "This guide combines public Pokopia materials, site database entries, and editorial route recommendations. Recheck details after major game updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
     "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture"
+  },
+  {
+    "id": "guid031",
+    "title": "How to Catch Voltscale in Pokopia",
+    "slug": "voltscale-catch-guide",
+    "category": "guides",
+    "seo_keyword": "how to catch voltscale pokopia",
+    "content": "The legendary storm dragon. Said to control lightning.",
+    "related_pokemon": "pkm015",
+    "related_items": "",
+    "related_habitats": "hab004",
+    "image_url": "https://www.gematsu.com/wp-content/uploads/2025/11/Pokemon-Pokopia_2025_11-13-25_006.jpg",
+    "image_alt": "Pokémon Pokopia character and gameplay screenshot: Voltscale",
+    "answer": "Voltscale is a legendary Electric/Dragon Attacker. It spawns during Night in Thunderstorm weather at Windmill Plains. Use Lightning Bug to improve attraction rates.",
+    "steps": [
+      "Wait for Night / Thunderstorm before spending Lightning Bug.",
+      "Use Thunderbolt to test the electric side and Dragon Pulse to justify the rare branch.",
+      "Skip Mechabit and Magnedex detours unless metal drops are part of the plan.",
+      "Leave after the Dragon Scale check."
+    ],
+    "recommended_setup": [
+      "Best for Dragon Scale inside an electric route.",
+      "Choose Voltscale when Zaprat is too small a payoff.",
+      "Wild Charge is a commitment signal, not a scouting move."
+    ],
+    "common_mistakes": [
+      "Farming Voltscale like Zaprat.",
+      "Spending Lightning Bug outside Thunderstorm timing.",
+      "Continuing into metal branches after the dragon check."
+    ],
+    "faqs": [
+      {
+        "question": "Where does Voltscale spawn?",
+        "answer": "Voltscale spawns in Windmill Plains during Night in Thunderstorm weather."
+      },
+      {
+        "question": "What bait attracts Voltscale?",
+        "answer": "Voltscale is attracted by Lightning Bug. Bring plenty when farming."
+      },
+      {
+        "question": "What is Voltscale used for?",
+        "answer": "Voltscale is a Attacker with Electric/Dragon typing."
+      }
+    ],
+    "published_at": 1778544000,
+    "updated_at": 1778544000,
+    "image_source": "Gematsu media page - official Pokopia screenshot repost",
+    "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
+    "data_status": "Editorial",
+    "data_status_note": "Catching tips are based on habitat data and published gameplay observations. Confirm spawn windows with official Nintendo sources.",
+    "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
+    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture"
+  },
+  {
+    "id": "guid032",
+    "title": "How to Catch Shadowclaw in Pokopia",
+    "slug": "shadowclaw-catch-guide",
+    "category": "guides",
+    "seo_keyword": "how to catch shadowclaw pokopia",
+    "content": "The legendary shadow beast. Master of darkness.",
+    "related_pokemon": "pkm030",
+    "related_items": "",
+    "related_habitats": "hab006",
+    "image_url": "https://www.gematsu.com/wp-content/uploads/2025/11/Pokemon-Pokopia_2025_11-13-25_001.jpeg",
+    "image_alt": "Pokémon Pokopia character and gameplay screenshot: Shadowclaw",
+    "answer": "Shadowclaw is a legendary Dark/Ghost Assassin. It spawns during Night in Stormy weather at Shadow Marsh. Use Void Fruit to improve attraction rates.",
+    "steps": [
+      "Use Night / Stormy and scout the Shadowclaw branch without Ghost Veil.",
+      "Spend Void Fruit only when Shadow Stone or King's Rock is the target.",
+      "Open with Shadow Claw, then test Phantom Strike on the dangerous target.",
+      "Leave after the premium dark-ghost check."
+    ],
+    "recommended_setup": [
+      "Best for Shadow Stone and King's Rock.",
+      "Choose Shadowclaw when Shados is too small and Dark Cavern is too narrow.",
+      "Sucker Punch is a cleanup tool, not the route plan."
+    ],
+    "common_mistakes": [
+      "Treating Shadowclaw like a cheap ghost farm.",
+      "Spending Void Fruit without an exit rule.",
+      "Ignoring the Dark side when comparing it to Shados."
+    ],
+    "faqs": [
+      {
+        "question": "Where does Shadowclaw spawn?",
+        "answer": "Shadowclaw spawns in Shadow Marsh during Night in Stormy weather."
+      },
+      {
+        "question": "What bait attracts Shadowclaw?",
+        "answer": "Shadowclaw is attracted by Void Fruit. Bring plenty when farming."
+      },
+      {
+        "question": "What is Shadowclaw used for?",
+        "answer": "Shadowclaw is a Assassin with Dark/Ghost typing."
+      }
+    ],
+    "published_at": 1778544000,
+    "updated_at": 1778544000,
+    "image_source": "Gematsu media page - official Pokopia screenshot repost",
+    "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
+    "data_status": "Editorial",
+    "data_status_note": "Catching tips are based on habitat data and published gameplay observations. Confirm spawn windows with official Nintendo sources.",
+    "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
+    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture"
+  },
+  {
+    "id": "guid033",
+    "title": "How to Catch Primordion in Pokopia",
+    "slug": "primordion-catch-guide",
+    "category": "guides",
+    "seo_keyword": "how to catch primordion pokopia",
+    "content": "The primordial dragon. Said to have created the rivers and mountains.",
+    "related_pokemon": "pkm050",
+    "related_items": "",
+    "related_habitats": "hab009",
+    "image_url": "https://www.gematsu.com/wp-content/uploads/2025/11/Pokemon-Pokopia_2025_11-13-25_006.jpg",
+    "image_alt": "Pokémon Pokopia character and gameplay screenshot: Primordion",
+    "answer": "Primordion is a legendary Dragon/Ground Tank. It spawns during Any in Rain weather at Muddy River. Use Golden Fish to improve attraction rates.",
+    "steps": [
+      "Use Rain and map the Primordion branch before spending Golden Fish.",
+      "Earthquake tests ground pressure; Dragon Tail tests whether the target can be controlled.",
+      "Rest and Sleep Talk matter only in routes long enough to justify tank pacing.",
+      "Leave when Dragon Scale, Earth Gem, or Legendary Pearl is checked."
+    ],
+    "recommended_setup": [
+      "Best for premium Dragon Scale and Legendary Pearl attempts.",
+      "Choose Primordion when Mudkipz is too small and Galebender lacks tank value.",
+      "It should be judged by survival and rare material value."
+    ],
+    "common_mistakes": [
+      "Using Primordion as a basic water-ground farmer.",
+      "Packing Golden Fish for a scouting pass.",
+      "Letting tank pacing hide bad material efficiency."
+    ],
+    "faqs": [
+      {
+        "question": "Where does Primordion spawn?",
+        "answer": "Primordion spawns in Muddy River during Any in Rain weather."
+      },
+      {
+        "question": "What bait attracts Primordion?",
+        "answer": "Primordion is attracted by Golden Fish. Bring plenty when farming."
+      },
+      {
+        "question": "What is Primordion used for?",
+        "answer": "Primordion is a Tank with Dragon/Ground typing."
+      }
+    ],
+    "published_at": 1778544000,
+    "updated_at": 1778544000,
+    "image_source": "Gematsu media page - official Pokopia screenshot repost",
+    "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
+    "data_status": "Editorial",
+    "data_status_note": "Catching tips are based on habitat data and published gameplay observations. Confirm spawn windows with official Nintendo sources.",
+    "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
+    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture"
+  },
+  {
+    "id": "guid034",
+    "title": "How to Catch Flamexor in Pokopia",
+    "slug": "flamexor-catch-guide",
+    "category": "guides",
+    "seo_keyword": "how to catch flamexor pokopia",
+    "content": "The legendary flame beast. Nearly extinct in the wild.",
+    "related_pokemon": "pkm007",
+    "related_items": "",
+    "related_habitats": "hab001",
+    "image_url": "https://www.gematsu.com/wp-content/uploads/2025/11/Pokemon-Pokopia_2025_11-13-25_004.jpg",
+    "image_alt": "Pokémon Pokopia character and gameplay screenshot: Flamexor",
+    "answer": "Flamexor is a legendary Fire/Steel Tank. It spawns during Night in Clear weather at Volcanic Cave. Use Iron Ore to improve attraction rates.",
+    "steps": [
+      "Scout Volcanic Cave during Night / Clear before spending Iron Ore.",
+      "Commit only when Flame Body can punish the main enemy group.",
+      "Use Iron Defense early enough to stabilize the route, then check whether Stealth Rock adds value."
+    ],
+    "recommended_setup": [
+      "Use Flamexor when Legendary Scale is tied to a real upgrade or build.",
+      "Choose it over Emberal when survival matters more than cheap Flame Ore farming.",
+      "Choose it over Pikafire when the team needs a cave anchor instead of burst reach.",
+      "A successful run should make a dangerous night cave fight controllable."
+    ],
+    "common_mistakes": [
+      "Using Flamexor for cheap Fire farming.",
+      "Saving Iron Defense until after the dangerous damage already lands.",
+      "Continuing to farm common drops after Legendary Scale is finished."
+    ],
+    "faqs": [
+      {
+        "question": "Where does Flamexor spawn?",
+        "answer": "Flamexor spawns in Volcanic Cave during Night in Clear weather."
+      },
+      {
+        "question": "What bait attracts Flamexor?",
+        "answer": "Flamexor is attracted by Iron Ore. Bring plenty when farming."
+      },
+      {
+        "question": "What is Flamexor used for?",
+        "answer": "Flamexor is a Tank with Fire/Steel typing."
+      }
+    ],
+    "published_at": 1778544000,
+    "updated_at": 1778544000,
+    "image_source": "Gematsu media page - official Pokopia screenshot repost",
+    "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
+    "data_status": "Editorial",
+    "data_status_note": "Catching tips are based on habitat data and published gameplay observations. Confirm spawn windows with official Nintendo sources.",
+    "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
+    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture"
+  },
+  {
+    "id": "guid035",
+    "title": "How to Catch Lunaflare in Pokopia",
+    "slug": "lunaflare-catch-guide",
+    "category": "guides",
+    "seo_keyword": "how to catch lunaflare pokopia",
+    "content": "The lunar flame guardian. Appears only on moonless nights.",
+    "related_pokemon": "pkm044",
+    "related_items": "",
+    "related_habitats": "hab006",
+    "image_url": "https://www.gematsu.com/wp-content/uploads/2025/11/Pokemon-Pokopia_2025_11-13-25_001.jpeg",
+    "image_alt": "Pokémon Pokopia character and gameplay screenshot: Lunaflare",
+    "answer": "Lunaflare is a legendary Ghost/Fire Attacker. It spawns during Night in Stormy weather at Shadow Marsh. Use Soul Dust to improve attraction rates.",
+    "steps": [
+      "Use Night / Stormy and do one no-recipe scout first.",
+      "Spend Soul Dust only when the branch to Lunaflare is already safe.",
+      "Open with Shadow Ball or Hypnosis depending on whether damage or control is the problem.",
+      "Leave after the Legendary Ember check unless Ghost Stone is still needed."
+    ],
+    "recommended_setup": [
+      "Best for Legendary Ember and premium ghost-fire pressure.",
+      "Choose Lunaflare when Shados is too small a payoff and Dark Cavern is too narrow.",
+      "Nightmare should support a planned control route."
+    ],
+    "common_mistakes": [
+      "Treating Lunaflare like a normal ghost farm.",
+      "Spending Soul Dust without a clear exit rule.",
+      "Ignoring the Fire side when comparing it with Shadowclaw."
+    ],
+    "faqs": [
+      {
+        "question": "Where does Lunaflare spawn?",
+        "answer": "Lunaflare spawns in Shadow Marsh during Night in Stormy weather."
+      },
+      {
+        "question": "What bait attracts Lunaflare?",
+        "answer": "Lunaflare is attracted by Soul Dust. Bring plenty when farming."
+      },
+      {
+        "question": "What is Lunaflare used for?",
+        "answer": "Lunaflare is a Attacker with Ghost/Fire typing."
+      }
+    ],
+    "published_at": 1778544000,
+    "updated_at": 1778544000,
+    "image_source": "Gematsu media page - official Pokopia screenshot repost",
+    "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
+    "data_status": "Editorial",
+    "data_status_note": "Catching tips are based on habitat data and published gameplay observations. Confirm spawn windows with official Nintendo sources.",
+    "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
+    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture"
+  },
+  {
+    "id": "guid036",
+    "title": "How to Catch Leafon in Pokopia",
+    "slug": "leafon-catch-guide",
+    "category": "guides",
+    "seo_keyword": "how to catch leafon pokopia",
+    "content": "A rare grass-type with toxic abilities. Stealthy hunter.",
+    "related_pokemon": "pkm006",
+    "related_items": "",
+    "related_habitats": "hab002",
+    "image_url": "https://www.gematsu.com/wp-content/uploads/2025/11/Pokemon-Pokopia_2025_11-13-25_007.jpg",
+    "image_alt": "Pokémon Pokopia character and gameplay screenshot: Leafon",
+    "answer": "Leafon is a rare Grass/Poison Assassin. It spawns during Night in Foggy weather at Forest Valley. Use Mystery Mushroom to improve attraction rates.",
+    "steps": [
+      "Run Forest Valley during Night / Foggy and identify the enemy that poison must remove.",
+      "Spend Mystery Mushroom only when Poison Powder can land early.",
+      "Use Sludge Bomb as the payoff check; if it does not swing the fight, stop the run."
+    ],
+    "recommended_setup": [
+      "Use Leafon when Poison Stone and Leaf Stone both support the current build path.",
+      "Choose it over Bulbin when defense lessons are no longer the problem.",
+      "Choose it over Magicalure when you need one quick poison answer instead of extended safe control.",
+      "A good Leafon run removes the key fog threat before the team loses tempo."
+    ],
+    "common_mistakes": [
+      "Using Leafon as a generic Grass farmer.",
+      "Applying Poison Powder after the main threat is already handled.",
+      "Forcing Leafon into long control routes better suited to Magicalure."
+    ],
+    "faqs": [
+      {
+        "question": "Where does Leafon spawn?",
+        "answer": "Leafon spawns in Forest Valley during Night in Foggy weather."
+      },
+      {
+        "question": "What bait attracts Leafon?",
+        "answer": "Leafon is attracted by Mystery Mushroom."
+      },
+      {
+        "question": "What is Leafon used for?",
+        "answer": "Leafon is a Assassin Grass/Poison Pokemon."
+      }
+    ],
+    "published_at": 1778544000,
+    "updated_at": 1778544000,
+    "image_source": "Gematsu media page - official Pokopia screenshot repost",
+    "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
+    "data_status": "Editorial",
+    "data_status_note": "Catching tips based on habitat data and published observations. Confirm spawn windows with official Nintendo sources.",
+    "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
+    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture"
+  },
+  {
+    "id": "guid037",
+    "title": "How to Catch Shados in Pokopia",
+    "slug": "shados-catch-guide",
+    "category": "guides",
+    "seo_keyword": "how to catch shados pokopia",
+    "content": "A ghostly shadow Pokemon. Appears only in dark places.",
+    "related_pokemon": "pkm009",
+    "related_items": "",
+    "related_habitats": "hab006",
+    "image_url": "https://www.gematsu.com/wp-content/uploads/2025/11/Pokemon-Pokopia_2025_11-13-25_001.jpeg",
+    "image_alt": "Pokémon Pokopia character and gameplay screenshot: Shados",
+    "answer": "Shados is a rare Ghost Assassin. It spawns during Night in Stormy weather at Shadow Marsh. Use Soul Dust to improve attraction rates.",
+    "steps": [
+      "Use Night / Stormy and map the quick Shados branch.",
+      "Spend Soul Dust only when Ghost Stone is still useful.",
+      "Shadow Ball should decide whether the route is fast enough.",
+      "Skip Lunaflare and Shadowclaw branches unless the session changes goal."
+    ],
+    "recommended_setup": [
+      "Best for efficient Ghost Stone and Soul Dust checks.",
+      "Choose Shados before legendary targets when the farm needs speed.",
+      "Astonish and Night Shade are secondary to the first Shadow Ball result."
+    ],
+    "common_mistakes": [
+      "Using Shados as a legendary hunt substitute.",
+      "Spending Soul Dust when Ghost Stone is already finished.",
+      "Full-clearing Shadow Marsh after a quick Shados miss."
+    ],
+    "faqs": [
+      {
+        "question": "Where does Shados spawn?",
+        "answer": "Shados spawns in Shadow Marsh during Night in Stormy weather."
+      },
+      {
+        "question": "What bait attracts Shados?",
+        "answer": "Shados is attracted by Soul Dust."
+      },
+      {
+        "question": "What is Shados used for?",
+        "answer": "Shados is a Assassin Ghost Pokemon."
+      }
+    ],
+    "published_at": 1778544000,
+    "updated_at": 1778544000,
+    "image_source": "Gematsu media page - official Pokopia screenshot repost",
+    "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
+    "data_status": "Editorial",
+    "data_status_note": "Catching tips based on habitat data and published observations. Confirm spawn windows with official Nintendo sources.",
+    "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
+    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture"
+  },
+  {
+    "id": "guid038",
+    "title": "How to Catch Crystion in Pokopia",
+    "slug": "crystion-catch-guide",
+    "category": "guides",
+    "seo_keyword": "how to catch crystion pokopia",
+    "content": "A beautiful crystal creature. Very rare to find.",
+    "related_pokemon": "pkm012",
+    "related_items": "",
+    "related_habitats": "hab007",
+    "image_url": "https://www.gematsu.com/wp-content/uploads/2025/11/Pokemon-Pokopia_2025_11-13-25_001.jpeg",
+    "image_alt": "Pokémon Pokopia character and gameplay screenshot: Crystion",
+    "answer": "Crystion is a rare Crystal/Fairy Attacker. It spawns during Night in Snow weather at Gemstone Canyon. Use Gem to improve attraction rates.",
+    "steps": [
+      "Scout Gemstone Canyon at Night / Snow before spending Gem.",
+      "Commit only when Crystal Beam has a clean target.",
+      "Use Moonblast for the payoff check and stop if the fight still feels unstable."
+    ],
+    "recommended_setup": [
+      "Use Crystion when Diamond and Crystal Shard both matter to progression.",
+      "Choose it over Galebender when rare crystal value matters more than Ground/Fighting pressure.",
+      "It works best for short, high-value rare attempts.",
+      "A good run should justify the Gem cost quickly."
+    ],
+    "common_mistakes": [
+      "Using Crystion as a general canyon attacker.",
+      "Spending Gem without Night / Snow value.",
+      "Continuing after Diamond is already solved."
+    ],
+    "faqs": [
+      {
+        "question": "Where does Crystion spawn?",
+        "answer": "Crystion spawns in Gemstone Canyon during Night in Snow weather."
+      },
+      {
+        "question": "What bait attracts Crystion?",
+        "answer": "Crystion is attracted by Gem."
+      },
+      {
+        "question": "What is Crystion used for?",
+        "answer": "Crystion is a Attacker Crystal/Fairy Pokemon."
+      }
+    ],
+    "published_at": 1778544000,
+    "updated_at": 1778544000,
+    "image_source": "Gematsu media page - official Pokopia screenshot repost",
+    "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
+    "data_status": "Editorial",
+    "data_status_note": "Catching tips based on habitat data and published observations. Confirm spawn windows with official Nintendo sources.",
+    "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
+    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture"
+  },
+  {
+    "id": "guid039",
+    "title": "How to Catch Bronzorm in Pokopia",
+    "slug": "bronzorm-catch-guide",
+    "category": "guides",
+    "seo_keyword": "how to catch bronzorm pokopia",
+    "content": "An ancient bronze statue that came to life.",
+    "related_pokemon": "pkm019",
+    "related_items": "",
+    "related_habitats": "hab010",
+    "image_url": "https://www.gematsu.com/wp-content/uploads/2025/11/Pokemon-Pokopia_2025_11-13-25_001.jpeg",
+    "image_alt": "Pokémon Pokopia character and gameplay screenshot: Bronzorm",
+    "answer": "Bronzorm is a rare Steel/Psychic Support. It spawns during Day in Cloudy weather at Ancient Ruins. Use Coin to improve attraction rates.",
+    "steps": [
+      "Run Ancient Ruins during Day / Cloudy and check whether the first fight rewards support.",
+      "Spend Coin after Psychic can control a meaningful target.",
+      "Use Recover to test staying power before extending the ruins route."
+    ],
+    "recommended_setup": [
+      "Use Bronzorm when a ruins team needs support instead of raw damage.",
+      "Choose it over Ironclaw when recovery and setup matter more than finishing power.",
+      "Bronze Medal should be the named reason to farm this page.",
+      "A good attempt should make the ruins route safer, not necessarily faster."
+    ],
+    "common_mistakes": [
+      "Treating Bronzorm as a damage carry.",
+      "Farming Metal Coat here without needing Bronze Medal.",
+      "Using Recover too late to change the fight."
+    ],
+    "faqs": [
+      {
+        "question": "Where does Bronzorm spawn?",
+        "answer": "Bronzorm spawns in Ancient Ruins during Day in Cloudy weather."
+      },
+      {
+        "question": "What bait attracts Bronzorm?",
+        "answer": "Bronzorm is attracted by Coin."
+      },
+      {
+        "question": "What is Bronzorm used for?",
+        "answer": "Bronzorm is a Support Steel/Psychic Pokemon."
+      }
+    ],
+    "published_at": 1778544000,
+    "updated_at": 1778544000,
+    "image_source": "Gematsu media page - official Pokopia screenshot repost",
+    "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
+    "data_status": "Editorial",
+    "data_status_note": "Catching tips based on habitat data and published observations. Confirm spawn windows with official Nintendo sources.",
+    "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
+    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture"
+  },
+  {
+    "id": "guid040",
+    "title": "How to Catch Stealthfin in Pokopia",
+    "slug": "stealthfin-catch-guide",
+    "category": "guides",
+    "seo_keyword": "how to catch stealthfin pokopia",
+    "content": "A mysterious deep-sea creature. Hunts at night.",
+    "related_pokemon": "pkm021",
+    "related_items": "",
+    "related_habitats": "hab009",
+    "image_url": "https://www.gematsu.com/wp-content/uploads/2025/11/Pokemon-Pokopia_2025_11-13-25_005.jpg",
+    "image_alt": "Pokémon Pokopia character and gameplay screenshot: Stealthfin",
+    "answer": "Stealthfin is a rare Water/Dark Assassin. It spawns during Night in Rain weather at Muddy River. Use Fish to improve attraction rates.",
+    "steps": [
+      "Wait for Night / Rain in Muddy River before using Fish.",
+      "Take the dark-water branch first and ignore poison-side detours unless Dark Gem is already finished.",
+      "Use Crunch as the opening test, then Aqua Jet to confirm whether the route is fast enough.",
+      "Leave after the Deep Sea Tooth check; Stealthfin loses value when the run turns into Toxifin farming."
+    ],
+    "recommended_setup": [
+      "Best for Deep Sea Tooth hunts and dark-water pickoff routes.",
+      "Choose Stealthfin over Toxifin when Night timing and rare material value justify the extra setup.",
+      "Crunch, Knock Off, and Ice Fang make sense only if one dangerous target is being removed early.",
+      "Fish should be spent on a mapped night branch, not on generic Rain farming."
+    ],
+    "common_mistakes": [
+      "Using Stealthfin for Gill or Poison Stone goals.",
+      "Spending Fish before the night branch is mapped.",
+      "Letting the run continue after the rare dark-water check fails.",
+      "Judging Stealthfin by normal water farming efficiency."
+    ],
+    "faqs": [
+      {
+        "question": "Where does Stealthfin spawn?",
+        "answer": "Stealthfin spawns in Muddy River during Night in Rain weather."
+      },
+      {
+        "question": "What bait attracts Stealthfin?",
+        "answer": "Stealthfin is attracted by Fish."
+      },
+      {
+        "question": "What is Stealthfin used for?",
+        "answer": "Stealthfin is a Assassin Water/Dark Pokemon."
+      }
+    ],
+    "published_at": 1778544000,
+    "updated_at": 1778544000,
+    "image_source": "Gematsu media page - official Pokopia screenshot repost",
+    "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
+    "data_status": "Editorial",
+    "data_status_note": "Catching tips based on habitat data and published observations. Confirm spawn windows with official Nintendo sources.",
+    "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
+    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture"
+  },
+  {
+    "id": "guid041",
+    "title": "How to Catch Frostbite in Pokopia",
+    "slug": "frostbite-catch-guide",
+    "category": "guides",
+    "seo_keyword": "how to catch frostbite pokopia",
+    "content": "A spirit of the frozen wastes. Beware its icy gaze.",
+    "related_pokemon": "pkm022",
+    "related_items": "",
+    "related_habitats": "hab005",
+    "image_url": "https://www.gematsu.com/wp-content/uploads/2025/11/Pokemon-Pokopia_2025_11-13-25_001.jpeg",
+    "image_alt": "Pokémon Pokopia character and gameplay screenshot: Frostbite",
+    "answer": "Frostbite is a rare Ice/Ghost Assassin. It spawns during Night in Snow weather at Frost Peak. Use Frozen Soul to improve attraction rates.",
+    "steps": [
+      "Use Night / Snow and save Frozen Soul for a mapped branch.",
+      "Open with Ice Beam before committing to Shadow Ball.",
+      "Avalanche is a payoff only when the route already survives the opener.",
+      "Exit after Ghost Stone or Ice Crystal is checked."
+    ],
+    "recommended_setup": [
+      "Best for ghost-ice material overlap.",
+      "Choose Frostbite when Glacior is too passive.",
+      "Hypnosis is useful only if the target branch is dangerous."
+    ],
+    "common_mistakes": [
+      "Using Frostbite like a support page.",
+      "Spending Frozen Soul before the branch is safe.",
+      "Ignoring Ice Crystal value after Ghost Stone is finished."
+    ],
+    "faqs": [
+      {
+        "question": "Where does Frostbite spawn?",
+        "answer": "Frostbite spawns in Frost Peak during Night in Snow weather."
+      },
+      {
+        "question": "What bait attracts Frostbite?",
+        "answer": "Frostbite is attracted by Frozen Soul."
+      },
+      {
+        "question": "What is Frostbite used for?",
+        "answer": "Frostbite is a Assassin Ice/Ghost Pokemon."
+      }
+    ],
+    "published_at": 1778544000,
+    "updated_at": 1778544000,
+    "image_source": "Gematsu media page - official Pokopia screenshot repost",
+    "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
+    "data_status": "Editorial",
+    "data_status_note": "Catching tips based on habitat data and published observations. Confirm spawn windows with official Nintendo sources.",
+    "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
+    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture"
+  },
+  {
+    "id": "guid042",
+    "title": "How to Catch Snorizard in Pokopia",
+    "slug": "snorizard-catch-guide",
+    "category": "guides",
+    "seo_keyword": "how to catch snorizard pokopia",
+    "content": "A rare dragon that lives in icy mountains.",
+    "related_pokemon": "pkm029",
+    "related_items": "",
+    "related_habitats": "hab005",
+    "image_url": "https://www.gematsu.com/wp-content/uploads/2025/11/Pokemon-Pokopia_2025_11-13-25_006.jpg",
+    "image_alt": "Pokémon Pokopia character and gameplay screenshot: Snorizard",
+    "answer": "Snorizard is a rare Dragon/Ice Attacker. It spawns during Any in Snow weather at Frost Peak. Use Frost Meat to improve attraction rates.",
+    "steps": [
+      "Use Any / Snow and map the Snorizard climb before spending Frost Meat.",
+      "Draco Meteor is the main test; Icicle Spear confirms the ice side.",
+      "Dragon Dance matters only on repeat attempts.",
+      "Exit after Dragon Scale or Ice Stone is checked."
+    ],
+    "recommended_setup": [
+      "Best for Dragon Scale inside an ice habitat.",
+      "Choose Snorizard when Glacior lacks damage payoff.",
+      "Extreme Speed should finish a known branch."
+    ],
+    "common_mistakes": [
+      "Treating Snorizard like Tidlet or Glacior.",
+      "Using Frost Meat on a scout.",
+      "Continuing after Dragon Scale is no longer needed."
+    ],
+    "faqs": [
+      {
+        "question": "Where does Snorizard spawn?",
+        "answer": "Snorizard spawns in Frost Peak during Any in Snow weather."
+      },
+      {
+        "question": "What bait attracts Snorizard?",
+        "answer": "Snorizard is attracted by Frost Meat."
+      },
+      {
+        "question": "What is Snorizard used for?",
+        "answer": "Snorizard is a Attacker Dragon/Ice Pokemon."
+      }
+    ],
+    "published_at": 1778544000,
+    "updated_at": 1778544000,
+    "image_source": "Gematsu media page - official Pokopia screenshot repost",
+    "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
+    "data_status": "Editorial",
+    "data_status_note": "Catching tips based on habitat data and published observations. Confirm spawn windows with official Nintendo sources.",
+    "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
+    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture"
+  },
+  {
+    "id": "guid043",
+    "title": "How to Catch Mysticat in Pokopia",
+    "slug": "mysticat-catch-guide",
+    "category": "guides",
+    "seo_keyword": "how to catch mysticat pokopia",
+    "content": "A mysterious cat with psychic powers. Very rare to encounter.",
+    "related_pokemon": "pkm038",
+    "related_items": "",
+    "related_habitats": "hab010",
+    "image_url": "https://www.gematsu.com/wp-content/uploads/2025/11/Pokemon-Pokopia_2025_11-13-25_001.jpeg",
+    "image_alt": "Pokémon Pokopia character and gameplay screenshot: Mysticat",
+    "answer": "Mysticat is a rare Psychic/Fairy Support. It spawns during Night in Clear weather at Ancient Ruins. Use Star Sweet to improve attraction rates.",
+    "steps": [
+      "Use Night / Clear and save Star Sweet for a known ruin branch.",
+      "Test Psychic first, then decide whether Reflect or Light Screen changes the second fight.",
+      "Avoid using Steel Shell until Mysticat's own support value is visible.",
+      "Leave after Psy Crystal or Star Piece is checked."
+    ],
+    "recommended_setup": [
+      "Best for Psy Crystal and Star Piece with screen support.",
+      "Choose Mysticat when Ancient Ruins needs prevention, not recovery.",
+      "It should not be evaluated like Glacior or generic support."
+    ],
+    "common_mistakes": [
+      "Treating Mysticat like a healer.",
+      "Spending Star Sweet on an unmapped ruin path.",
+      "Ignoring screen timing and judging only damage."
+    ],
+    "faqs": [
+      {
+        "question": "Where does Mysticat spawn?",
+        "answer": "Mysticat spawns in Ancient Ruins during Night in Clear weather."
+      },
+      {
+        "question": "What bait attracts Mysticat?",
+        "answer": "Mysticat is attracted by Star Sweet."
+      },
+      {
+        "question": "What is Mysticat used for?",
+        "answer": "Mysticat is a Support Psychic/Fairy Pokemon."
+      }
+    ],
+    "published_at": 1778544000,
+    "updated_at": 1778544000,
+    "image_source": "Gematsu media page - official Pokopia screenshot repost",
+    "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
+    "data_status": "Editorial",
+    "data_status_note": "Catching tips based on habitat data and published observations. Confirm spawn windows with official Nintendo sources.",
+    "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
+    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture"
+  },
+  {
+    "id": "guid044",
+    "title": "How to Unlock Frost Peak in Pokopia",
+    "slug": "how-to-unlock-frost-peak",
+    "category": "guides",
+    "seo_keyword": "habitat 005 unlock pokopia",
+    "content": "Frost Peak is the snow survival route. Snow weather, Ice Armor, Frostbite, Snorizard, Tidlet, and Glacieron make it a defensive pacing habitat where the main question is whether the team can survive long enough to make Ice Stone, Frost Crystal, or Dragon Scale worth the climb.",
+    "related_pokemon": "pkm008,pkm014,pkm022,pkm029",
+    "related_items": "",
+    "related_habitats": "hab005",
+    "image_url": "https://www.gematsu.com/wp-content/uploads/2025/11/Pokemon-Pokopia_2025_11-13-25_003.jpg",
+    "image_alt": "Pokémon Pokopia screenshot for Frost Peak",
+    "answer": "Frost Peak is a medium habitat unlocked at Reach Level 20. Weather: Snow. Best for: +35% Ice drops.",
+    "steps": [
+      "Reach Reach Level 20",
+      "Check weather forecast: Snow is optimal",
+      "Prepare gear for medium difficulty encounters",
+      "Enter during the recommended weather window",
+      "Focus on the primary spawn targets: Tidlet, Glacior, Frostbite, Snorizard"
+    ],
+    "recommended_setup": [
+      "Difficulty: medium — bring appropriate healing items",
+      "Recommended weather: Snow",
+      "Resource bonus: +35% Ice drops"
+    ],
+    "common_mistakes": [
+      "Entering without meeting the level requirement",
+      "Not checking the weather before entering",
+      "Staying too long in a hard habitat without enough healing items"
+    ],
+    "faqs": [
+      {
+        "question": "How to unlock Frost Peak?",
+        "answer": "Frost Peak unlocks at Reach Level 20."
+      },
+      {
+        "question": "What Pokemon spawn in Frost Peak?",
+        "answer": "Common spawns include Tidlet, Glacior, Frostbite, Snorizard."
+      },
+      {
+        "question": "What weather is best for Frost Peak?",
+        "answer": "Best conditions: Snow."
+      }
+    ],
+    "published_at": 1778544000,
+    "updated_at": 1778544000,
+    "image_source": "Gematsu - official Pokopia screenshot repost",
+    "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
+    "data_status": "Editorial",
+    "data_status_note": "Habitat unlock requirements based on published gameplay information. Confirm level requirements with official Nintendo sources.",
+    "image_license_note": "Image: Gematsu official Pokopia screenshot repost.",
+    "image_original_media": "Nintendo / The Pokemon Company"
+  },
+  {
+    "id": "guid045",
+    "title": "How to Unlock Shadow Marsh in Pokopia",
+    "slug": "how-to-unlock-shadow-marsh",
+    "category": "guides",
+    "seo_keyword": "habitat 006 unlock pokopia",
+    "content": "Shadow Marsh is the broad ghost-night route. Stormy/Night conditions, Shados, Shadowclaw, Lunaflare, and Nightfall create a wider farm than Dark Cavern, with Ghost Stone, Soul Dust, Shadow Stone, and Legendary Ember all competing for attention. Enter with a written target or the marsh becomes an expensive full-clear trap.",
+    "related_pokemon": "pkm009,pkm030,pkm044,pkm049",
+    "related_items": "",
+    "related_habitats": "hab006",
+    "image_url": "https://www.gematsu.com/wp-content/uploads/2025/11/Pokemon-Pokopia_2025_11-13-25_003.jpg",
+    "image_alt": "Pokémon Pokopia screenshot for Shadow Marsh",
+    "answer": "Shadow Marsh is a hard habitat unlocked at Reach Level 25. Weather: Stormy/Night. Best for: +60% Ghost drops.",
+    "steps": [
+      "Reach Reach Level 25",
+      "Check weather forecast: Stormy/Night is optimal",
+      "Prepare gear for hard difficulty encounters",
+      "Enter during the recommended weather window",
+      "Focus on the primary spawn targets: Shados, Shadowclaw, Lunaflare, Nightfall"
+    ],
+    "recommended_setup": [
+      "Difficulty: hard — bring appropriate healing items",
+      "Recommended weather: Stormy/Night",
+      "Resource bonus: +60% Ghost drops"
+    ],
+    "common_mistakes": [
+      "Entering without meeting the level requirement",
+      "Not checking the weather before entering",
+      "Staying too long in a hard habitat without enough healing items"
+    ],
+    "faqs": [
+      {
+        "question": "How to unlock Shadow Marsh?",
+        "answer": "Shadow Marsh unlocks at Reach Level 25."
+      },
+      {
+        "question": "What Pokemon spawn in Shadow Marsh?",
+        "answer": "Common spawns include Shados, Shadowclaw, Lunaflare, Nightfall."
+      },
+      {
+        "question": "What weather is best for Shadow Marsh?",
+        "answer": "Best conditions: Stormy/Night."
+      }
+    ],
+    "published_at": 1778544000,
+    "updated_at": 1778544000,
+    "image_source": "Gematsu - official Pokopia screenshot repost",
+    "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
+    "data_status": "Editorial",
+    "data_status_note": "Habitat unlock requirements based on published gameplay information. Confirm level requirements with official Nintendo sources.",
+    "image_license_note": "Image: Gematsu official Pokopia screenshot repost.",
+    "image_original_media": "Nintendo / The Pokemon Company"
+  },
+  {
+    "id": "guid046",
+    "title": "How to Unlock Thunder Arena in Pokopia",
+    "slug": "how-to-unlock-thunder-arena",
+    "category": "guides",
+    "seo_keyword": "habitat 012 unlock pokopia",
+    "content": "Thunder Arena is the dedicated electric battle route. Thunderstorm weather, Thunder Strike, Zaprat, Voltscale, Magnedex, Zapbug, and Stormbird make it more combat-focused than Windmill Plains. Enter when the goal is electric damage testing, Thunder Stone volume, or high-pressure electric-flying / electric-dragon checks.",
+    "related_pokemon": "",
+    "related_items": "",
+    "related_habitats": "hab012",
+    "image_url": "https://www.gematsu.com/wp-content/uploads/2025/11/Pokemon-Pokopia_2025_11-13-25_003.jpg",
+    "image_alt": "Pokémon Pokopia screenshot for Thunder Arena",
+    "answer": "Thunder Arena is a hard habitat unlocked at Reach Level 22. Weather: Thunderstorm. Best for: +55% Electric drops.",
+    "steps": [
+      "Reach Reach Level 22",
+      "Check weather forecast: Thunderstorm is optimal",
+      "Prepare gear for hard difficulty encounters",
+      "Enter during the recommended weather window",
+      "Focus on the primary spawn targets: "
+    ],
+    "recommended_setup": [
+      "Difficulty: hard — bring appropriate healing items",
+      "Recommended weather: Thunderstorm",
+      "Resource bonus: +55% Electric drops"
+    ],
+    "common_mistakes": [
+      "Entering without meeting the level requirement",
+      "Not checking the weather before entering",
+      "Staying too long in a hard habitat without enough healing items"
+    ],
+    "faqs": [
+      {
+        "question": "How to unlock Thunder Arena?",
+        "answer": "Thunder Arena unlocks at Reach Level 22."
+      },
+      {
+        "question": "What Pokemon spawn in Thunder Arena?",
+        "answer": "Common spawns include ."
+      },
+      {
+        "question": "What weather is best for Thunder Arena?",
+        "answer": "Best conditions: Thunderstorm."
+      }
+    ],
+    "published_at": 1778544000,
+    "updated_at": 1778544000,
+    "image_source": "Gematsu - official Pokopia screenshot repost",
+    "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
+    "data_status": "Editorial",
+    "data_status_note": "Habitat unlock requirements based on published gameplay information. Confirm level requirements with official Nintendo sources.",
+    "image_license_note": "Image: Gematsu official Pokopia screenshot repost.",
+    "image_original_media": "Nintendo / The Pokemon Company"
+  },
+  {
+    "id": "guid047",
+    "title": "How to Unlock Crystal Cave in Pokopia",
+    "slug": "how-to-unlock-crystal-cave",
+    "category": "guides",
+    "seo_keyword": "habitat 014 unlock pokopia",
+    "content": "Crystal Cave is a focused crystal-material habitat. It has fewer spawns than Sky Isles, but that is the advantage: Crystion and Crystalwing make the route cleaner for Crystal Shard, Diamond, and Feather checks. Use Flying High only when Crystalwing is the repeat target; otherwise the area is about controlled crystal farming.",
+    "related_pokemon": "",
+    "related_items": "",
+    "related_habitats": "hab014",
+    "image_url": "https://www.gematsu.com/wp-content/uploads/2025/11/Pokemon-Pokopia_2025_11-13-25_003.jpg",
+    "image_alt": "Pokémon Pokopia screenshot for Crystal Cave",
+    "answer": "Crystal Cave is a medium habitat unlocked at Reach Level 16. Weather: Foggy. Best for: +60% Crystal drops.",
+    "steps": [
+      "Reach Reach Level 16",
+      "Check weather forecast: Foggy is optimal",
+      "Prepare gear for medium difficulty encounters",
+      "Enter during the recommended weather window",
+      "Focus on the primary spawn targets: "
+    ],
+    "recommended_setup": [
+      "Difficulty: medium — bring appropriate healing items",
+      "Recommended weather: Foggy",
+      "Resource bonus: +60% Crystal drops"
+    ],
+    "common_mistakes": [
+      "Entering without meeting the level requirement",
+      "Not checking the weather before entering",
+      "Staying too long in a hard habitat without enough healing items"
+    ],
+    "faqs": [
+      {
+        "question": "How to unlock Crystal Cave?",
+        "answer": "Crystal Cave unlocks at Reach Level 16."
+      },
+      {
+        "question": "What Pokemon spawn in Crystal Cave?",
+        "answer": "Common spawns include ."
+      },
+      {
+        "question": "What weather is best for Crystal Cave?",
+        "answer": "Best conditions: Foggy."
+      }
+    ],
+    "published_at": 1778544000,
+    "updated_at": 1778544000,
+    "image_source": "Gematsu - official Pokopia screenshot repost",
+    "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
+    "data_status": "Editorial",
+    "data_status_note": "Habitat unlock requirements based on published gameplay information. Confirm level requirements with official Nintendo sources.",
+    "image_license_note": "Image: Gematsu official Pokopia screenshot repost.",
+    "image_original_media": "Nintendo / The Pokemon Company"
+  },
+  {
+    "id": "guid048",
+    "title": "How to Unlock Sky Isles in Pokopia",
+    "slug": "how-to-unlock-sky-isles",
+    "category": "guides",
+    "seo_keyword": "habitat 008 unlock pokopia",
+    "content": "Sky Isles is a feather and reset-speed habitat. Windy weather, Flying Build planning, Breezel / Windlor loops, and Crystalwing rare checks make it a movement-focused area. Its best runs are short, repeated, and measured by time-to-target rather than by total clears.",
+    "related_pokemon": "pkm016,pkm020,pkm025,pkm031",
+    "related_items": "",
+    "related_habitats": "hab008",
+    "image_url": "https://www.gematsu.com/wp-content/uploads/2025/11/Pokemon-Pokopia_2025_11-13-25_003.jpg",
+    "image_alt": "Pokémon Pokopia screenshot for Sky Isles",
+    "answer": "Sky Isles is a medium habitat unlocked at Reach Level 18. Weather: Windy. Best for: +40% Feather drops.",
+    "steps": [
+      "Reach Reach Level 18",
+      "Check weather forecast: Windy is optimal",
+      "Prepare gear for medium difficulty encounters",
+      "Enter during the recommended weather window",
+      "Focus on the primary spawn targets: Breezel, Flamingo, Tropius, Crystalwing"
+    ],
+    "recommended_setup": [
+      "Difficulty: medium — bring appropriate healing items",
+      "Recommended weather: Windy",
+      "Resource bonus: +40% Feather drops"
+    ],
+    "common_mistakes": [
+      "Entering without meeting the level requirement",
+      "Not checking the weather before entering",
+      "Staying too long in a hard habitat without enough healing items"
+    ],
+    "faqs": [
+      {
+        "question": "How to unlock Sky Isles?",
+        "answer": "Sky Isles unlocks at Reach Level 18."
+      },
+      {
+        "question": "What Pokemon spawn in Sky Isles?",
+        "answer": "Common spawns include Breezel, Flamingo, Tropius, Crystalwing."
+      },
+      {
+        "question": "What weather is best for Sky Isles?",
+        "answer": "Best conditions: Windy."
+      }
+    ],
+    "published_at": 1778544000,
+    "updated_at": 1778544000,
+    "image_source": "Gematsu - official Pokopia screenshot repost",
+    "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
+    "data_status": "Editorial",
+    "data_status_note": "Habitat unlock requirements based on published gameplay information. Confirm level requirements with official Nintendo sources.",
+    "image_license_note": "Image: Gematsu official Pokopia screenshot repost.",
+    "image_original_media": "Nintendo / The Pokemon Company"
   }
 ]
