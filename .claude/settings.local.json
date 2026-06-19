@@ -16,7 +16,8 @@
       "Bash(node *)",
       "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\([g.get\\('title',''\\) for g in d[:5]]\\)\")",
       "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(len\\(d\\)\\)\")",
-      "Bash(grep *)"
+      "Bash(grep *)",
+      "Bash(git add *)"
     ]
   }
 }
