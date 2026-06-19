@@ -2,8 +2,19 @@ import type { Metadata } from 'next'
 import { canonicalUrl } from '@/lib/site'
 
 export const metadata: Metadata = {
-  title: 'Habitat Planner',
-  description: 'Plan Pokopia habitat routes by goal, level, difficulty, weather, recipes, Pokemon spawns, and guide links.',
+  title: 'Pokopia Habitat Planner - Routes, Unlocks, Weather, and Spawns',
+  description: 'Plan Pokopia habitat routes by goal, player level, difficulty, weather, recipe support, Pokemon spawns, and related guide links.',
+  openGraph: {
+    title: 'Pokopia Habitat Planner - Routes, Unlocks, Weather, and Spawns',
+    description: 'Plan Pokopia habitat routes by goal, player level, difficulty, weather, recipe support, Pokemon spawns, and related guide links.',
+    images: ['/og-image.svg'],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Pokopia Habitat Planner - Routes, Unlocks, Weather, and Spawns',
+    description: 'Plan Pokopia habitat routes by goal, player level, difficulty, weather, recipe support, Pokemon spawns, and related guide links.',
+    images: ['/og-image.svg'],
+  },
   alternates: {
     canonical: canonicalUrl('/tools/habitat-planner'),
   },

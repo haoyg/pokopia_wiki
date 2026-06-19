@@ -80,6 +80,7 @@ export default function NewsPage() {
           <span className="panel-kicker">Source Mix</span>
           <h2>Track Confirmed Updates First</h2>
           <p>News pages prioritize official or source-backed updates. Editorial context is separated from confirmed facts so readers can verify the baseline.</p>
+          <a className="panel-link" href="/news/weekly-event-tracker">Open weekly event tracker</a>
           <div>
             {Object.entries(sourceCounts).map(([source, count]) => (
               <span key={source}>{source}: {count}</span>

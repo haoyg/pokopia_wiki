@@ -7,6 +7,7 @@ import pokemonLinksData from '@/data/pokemon-links.json'
 import recipeLinksData from '@/data/recipe-links.json'
 import guideLinksData from '@/data/guide-links.json'
 import { DataStatus } from '@/components/content/DataStatus'
+import { BreadcrumbJsonLd, FAQJsonLd, ToolJsonLd } from '@/components/seo/JsonLd'
 
 const difficultyOrder: Record<string, number> = { easy: 0, medium: 1, hard: 2 }
 
@@ -55,6 +56,21 @@ const weatherOptions = [
   ['dark', 'Dark'],
 ]
 
+const habitatPlannerFaqs = [
+  {
+    question: 'What does the Pokopia Habitat Planner score?',
+    answer: 'It scores habitats by selected goal, player level, difficulty, weather, route notes, rare spawns, resource bonuses, and related planning links.',
+  },
+  {
+    question: 'Should I run a locked habitat if it has a high match score?',
+    answer: 'No. A locked habitat is a preparation target. Use the score to plan recipes and team picks, then return when the level requirement is met.',
+  },
+  {
+    question: 'How should I use the weather filter?',
+    answer: 'Use the weather filter when the target Pokemon, recipe value, or farming route only makes sense under a specific weather condition.',
+  },
+]
+
 function getUnlockLevel(condition: string) {
   const match = condition.match(/Reach Level (\d+)/)
   return match ? Number.parseInt(match[1], 10) : 1
@@ -100,6 +116,41 @@ function scoreHabitat(habitat: (typeof habitatsData)[number], goal: (typeof goal
 
 function getPokemonName(id: string) {
   return pokemonLinksData.find((pokemon) => pokemon.id === id)?.name || id
+}
+
+function getHabitatPlanNotes(
+  habitat: (typeof habitatsData)[number],
+  goal: (typeof goals)[number],
+  score: number,
+  playerLevel: number
+) {
+  const unlockLevel = getUnlockLevel(habitat.unlock_condition)
+  const isUnlocked = unlockLevel <= playerLevel
+  const routeStep = habitat.farming_route?.[0] || 'Scout the first route branch before spending a recipe.'
+  const mistake = habitat.common_mistakes?.[0] || 'Avoid repeating the route before choosing a clear farming target.'
+
+  return [
+    {
+      label: 'Why this route',
+      text: score > 0
+        ? `${habitat.name} fits the ${goal.label.toLowerCase()} goal because its weather, difficulty, spawns, or bonus line up with the current filters.`
+        : `${habitat.name} is a general route pick under the current filters; open the habitat page before committing a long session.`,
+    },
+    {
+      label: 'Access check',
+      text: isUnlocked
+        ? `Available now at player level ${playerLevel}. Use the route only if ${habitat.resource_bonus.toLowerCase()} supports the next upgrade.`
+        : `Locked until level ${unlockLevel}. Prepare the team and recipe first, then return when the route is available.`,
+    },
+    {
+      label: 'Run plan',
+      text: routeStep,
+    },
+    {
+      label: 'Main risk',
+      text: mistake,
+    },
+  ]
 }
 
 export default function HabitatPlanner() {
@@ -151,6 +202,25 @@ export default function HabitatPlanner() {
 
   return (
     <main style={{ maxWidth: '1120px', margin: '0 auto', padding: '2rem 1rem 3rem' }}>
+      <BreadcrumbJsonLd
+        items={[
+          { name: 'Home', url: '/' },
+          { name: 'Tools', url: '/tools' },
+          { name: 'Habitat Planner', url: '/tools/habitat-planner' },
+        ]}
+      />
+      <FAQJsonLd title="Habitat Planner FAQ" faqs={habitatPlannerFaqs} />
+      <ToolJsonLd
+        name="Pokopia Habitat Planner"
+        description="Interactive Pokopia habitat planning tool for choosing route goals, checking level access, filtering weather, and opening related recipes, Pokemon, and guides."
+        url="/tools/habitat-planner"
+        featureList={[
+          'Compare habitats by route goal',
+          'Check player level access',
+          'Filter by difficulty and weather',
+          'Open related recipe, Pokemon, and guide pages',
+        ]}
+      />
       <header style={{ marginBottom: '1.5rem' }}>
         <Link href="/tools" style={{ fontSize: '0.875rem', color: '#637083' }}>
           Back to Tools
@@ -385,6 +455,17 @@ export default function HabitatPlanner() {
 
             <p style={{ marginTop: '1rem', color: '#3d475c' }}>{selectedHabitat.overview}</p>
 
+            <div style={{ marginTop: '1.25rem', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))', gap: '0.75rem' }}>
+              {getHabitatPlanNotes(selectedHabitat, activeGoal, selectedScore, playerLevel).map((note) => (
+                <div key={note.label} style={{ padding: '0.85rem', borderRadius: '8px', border: '1px solid #dce8dc', background: '#f6fbff' }}>
+                  <span style={{ display: 'block', color: '#2f84d8', fontSize: '0.72rem', fontWeight: 800, textTransform: 'uppercase' }}>
+                    {note.label}
+                  </span>
+                  <p style={{ marginTop: '0.35rem', color: '#3d475c', fontSize: '0.88rem', lineHeight: 1.5 }}>{note.text}</p>
+                </div>
+              ))}
+            </div>
+
             <div style={{ marginTop: '1.25rem', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))', gap: '0.75rem' }}>
               {[
                 ['Unlock', selectedHabitat.unlock_condition],
@@ -479,6 +560,26 @@ export default function HabitatPlanner() {
           </section>
         )}
       </div>
+
+      <section
+        style={{
+          marginTop: '2rem',
+          padding: '1.25rem',
+          borderRadius: '12px',
+          border: '1px solid #dce8dc',
+          background: 'rgba(255, 255, 255, 0.94)',
+        }}
+      >
+        <h2 style={{ fontSize: '1rem', marginBottom: '0.85rem' }}>Habitat Planner FAQ</h2>
+        <div style={{ display: 'grid', gap: '0.85rem' }}>
+          {habitatPlannerFaqs.map((faq) => (
+            <div key={faq.question}>
+              <strong style={{ display: 'block', fontSize: '0.9rem' }}>{faq.question}</strong>
+              <p style={{ marginTop: '0.3rem', color: '#637083', fontSize: '0.9rem', lineHeight: 1.55 }}>{faq.answer}</p>
+            </div>
+          ))}
+        </div>
+      </section>
 
       <section
         style={{

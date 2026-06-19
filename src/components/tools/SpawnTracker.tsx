@@ -13,6 +13,68 @@ function habitatName(id: string) {
   return habitatsData.find((habitat) => habitat.id === id)?.name || id
 }
 
+function formatFilterValue(value: string) {
+  return value === 'all' ? 'All' : value
+}
+
+function getTopHabitatNames(pokemon: typeof pokemonData) {
+  const counts = pokemon.reduce<Record<string, number>>((totals, item) => {
+    totals[item.habitat] = (totals[item.habitat] || 0) + 1
+    return totals
+  }, {})
+
+  return Object.entries(counts)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 2)
+    .map(([id, count]) => `${habitatName(id)} (${count})`)
+}
+
+function getSpawnResultNotes(
+  pokemon: typeof pokemonData,
+  filters: { query: string; habitat: string; weather: string; spawnTime: string; rarity: string }
+) {
+  const activeFilters = [
+    filters.query.trim() ? `Search: ${filters.query.trim()}` : '',
+    filters.habitat !== 'all' ? `Habitat: ${habitatName(filters.habitat)}` : '',
+    filters.weather !== 'all' ? `Weather: ${filters.weather}` : '',
+    filters.spawnTime !== 'all' ? `Time: ${filters.spawnTime}` : '',
+    filters.rarity !== 'all' ? `Rarity: ${filters.rarity}` : '',
+  ].filter(Boolean)
+
+  const rareTargets = pokemon.filter((item) => ['rare', 'legendary'].includes(item.rarity.toLowerCase()))
+  const topHabitats = getTopHabitatNames(pokemon)
+  const firstTarget = pokemon[0]
+
+  return [
+    {
+      label: 'Filter scope',
+      text: activeFilters.length > 0
+        ? activeFilters.join(' · ')
+        : 'No filters are active. Narrow by habitat, weather, time, or rarity before spending recipe buffs.',
+    },
+    {
+      label: 'Best next check',
+      text: topHabitats.length > 0
+        ? `Most current matches are in ${topHabitats.join(' and ')}. Open the habitat page before choosing a farming loop.`
+        : 'No matching habitat is available under the current filters.',
+    },
+    {
+      label: 'Rare pressure',
+      text: rareTargets.length > 0
+        ? `${rareTargets.length} rare or legendary target${rareTargets.length === 1 ? '' : 's'} match. Save high-value recipes for the tightest weather and time window.`
+        : 'No rare or legendary targets match. This filter set is better for routine materials or route scouting.',
+    },
+    {
+      label: 'Route caution',
+      text: pokemon.length > 12
+        ? 'The list is still broad. Add one more filter before treating it as a farming plan.'
+        : firstTarget
+          ? `Start by checking ${firstTarget.name}: ${firstTarget.favorite_food}, ${firstTarget.spawn_time}, ${firstTarget.weather}, and ${firstTarget.drops}.`
+          : 'Remove one filter or search by a broader type, food, drop, or habitat name.',
+    },
+  ]
+}
+
 export function SpawnTracker() {
   const [query, setQuery] = useState('')
   const [habitat, setHabitat] = useState('all')
@@ -60,6 +122,7 @@ export function SpawnTracker() {
     if (rarity !== 'all' && pokemon.rarity !== rarity) return false
     return true
   })
+  const resultNotes = getSpawnResultNotes(filteredPokemon, { query, habitat, weather, spawnTime, rarity })
 
   return (
     <>
@@ -126,6 +189,15 @@ export function SpawnTracker() {
 
       <div className="content-section">
         <h2>{filteredPokemon.length} spawn target{filteredPokemon.length === 1 ? '' : 's'}</h2>
+        <div className="spawn-insight-grid" aria-label="Spawn result guidance">
+          {resultNotes.map((note) => (
+            <div key={note.label} className="spawn-insight-card">
+              <span>{note.label}</span>
+              <p>{note.text}</p>
+            </div>
+          ))}
+        </div>
+
         {filteredPokemon.length > 0 ? (
           <div className="data-table-wrap">
             <table className="data-table">

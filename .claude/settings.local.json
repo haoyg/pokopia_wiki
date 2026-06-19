@@ -5,15 +5,18 @@
       "Bash(npm install *)",
       "Bash(npx wrangler *)",
       "Bash(npm run *)",
-      "Bash(rm src/app/news/\\\\[slug\\\\]/route.ts src/app/guides/\\\\[slug\\\\]/route.ts)",
-      "Bash(mkdir -p src/app/api/news/\\\\[slug\\\\] src/app/api/guides/\\\\[slug\\\\])",
+      "Bash(rm src/app/news/\\[slug\\]/route.ts src/app/guides/\\[slug\\]/route.ts)",
+      "Bash(mkdir -p src/app/api/news/\\[slug\\] src/app/api/guides/\\[slug\\])",
       "Bash(npx opennextjs-cloudflare *)",
       "Bash(npx next *)",
       "Bash(npm list *)",
       "Read(//Users/gavin/.wrangler/config/**)",
       "Read(//Users/gavin/.cloudflare/**)",
       "Bash(env)",
-      "Bash(node *)"
+      "Bash(node *)",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\([g.get\\('title',''\\) for g in d[:5]]\\)\")",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(len\\(d\\)\\)\")",
+      "Bash(grep *)"
     ]
   }
 }

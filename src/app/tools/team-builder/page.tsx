@@ -7,6 +7,7 @@ import habitatLinksData from '@/data/habitat-links.json'
 import recipeLinksData from '@/data/recipe-links.json'
 import guideLinksData from '@/data/guide-links.json'
 import { DataStatus } from '@/components/content/DataStatus'
+import { BreadcrumbJsonLd, FAQJsonLd, ToolJsonLd } from '@/components/seo/JsonLd'
 
 const roles = ['all', 'Tank', 'Attacker', 'Assassin', 'Speedster', 'Support', 'Defender']
 
@@ -65,6 +66,21 @@ const roleSlots = [
   { key: 'Survival', roles: ['Tank', 'Defender', 'Support'], note: 'Protects long routes, bad weather, and final-room pressure.' },
 ]
 
+const teamBuilderFaqs = [
+  {
+    question: 'How does the Pokopia Team Builder choose Pokemon?',
+    answer: 'It scores Pokemon by the selected team goal, preferred roles, preferred types, rarity fit, and route support, then fills lead, damage, support, and survival slots.',
+  },
+  {
+    question: 'Should I keep the automatic team draft?',
+    answer: 'Use the automatic draft as a balanced starting point. Swap Pokemon manually when a target habitat needs a different type, role, food route, or rarity level.',
+  },
+  {
+    question: 'Why do related habitats matter for a team?',
+    answer: 'Related habitats show where the selected Pokemon are usually connected, so you can check route difficulty, weather, and recipe cost before farming the team.',
+  },
+]
+
 function includesType(type: string, preferredTypes: string[]) {
   return preferredTypes.some((target) => type.toLowerCase().includes(target.toLowerCase()))
 }
@@ -95,6 +111,46 @@ function pickForSlot(
 
 function uniqueIds(values: string[]) {
   return Array.from(new Set(values.filter(Boolean)))
+}
+
+function getTeamPlanNotes(
+  team: typeof pokemonData,
+  goal: (typeof goals)[number],
+  habitatCount: number,
+  hasManualSelection: boolean
+) {
+  const rolesCovered = uniqueIds(team.map((pokemon) => pokemon.specialty))
+  const typesCovered = uniqueIds(team.flatMap((pokemon) => pokemon.type.split('/')))
+  const lead = team[0]
+
+  return [
+    {
+      label: 'Why this draft',
+      text: team.length > 0
+        ? `This ${goal.label.toLowerCase()} draft covers ${rolesCovered.slice(0, 4).join(', ')} roles and keeps the plan tied to ${goal.note.toLowerCase()}`
+        : `Choose Pokemon from the pool to build around ${goal.label.toLowerCase()}.`,
+    },
+    {
+      label: 'Coverage check',
+      text: typesCovered.length > 0
+        ? `Type coverage currently includes ${typesCovered.slice(0, 5).join(', ')}. Add a missing role before adding a duplicate attacker.`
+        : 'Add at least one lead, one damage option, and one support or survival slot.',
+    },
+    {
+      label: 'Route fit',
+      text: habitatCount > 1
+        ? `The draft spans ${habitatCount} habitats, so confirm food and recipe costs before farming every member.`
+        : lead
+          ? `${lead.name} anchors the current route fit; check the linked habitat before spending rare recipes.`
+          : 'Pick a lead Pokemon first, then check the linked habitat.',
+    },
+    {
+      label: 'Edit status',
+      text: hasManualSelection
+        ? 'Manual picks are active. Use Reset Auto Draft if you want the four-role recommendation again.'
+        : 'Auto draft is active. Swap from the pool only when the target habitat needs a different role or type.',
+    },
+  ]
 }
 
 export default function TeamBuilder() {
@@ -163,6 +219,25 @@ export default function TeamBuilder() {
 
   return (
     <main style={{ maxWidth: '1120px', margin: '0 auto', padding: '2rem 1rem 3rem' }}>
+      <BreadcrumbJsonLd
+        items={[
+          { name: 'Home', url: '/' },
+          { name: 'Tools', url: '/tools' },
+          { name: 'Team Builder', url: '/tools/team-builder' },
+        ]}
+      />
+      <FAQJsonLd title="Team Builder FAQ" faqs={teamBuilderFaqs} />
+      <ToolJsonLd
+        name="Pokopia Team Builder"
+        description="Interactive Pokopia team planning tool for drafting roles, comparing Pokemon by goal, and connecting team choices to recipes, habitats, and guides."
+        url="/tools/team-builder"
+        featureList={[
+          'Draft a four-role team',
+          'Compare Pokemon by route goal and role',
+          'Review type and habitat coverage',
+          'Open related recipe, habitat, Pokemon, and guide pages',
+        ]}
+      />
       <header style={{ marginBottom: '1.5rem' }}>
         <Link href="/tools" style={{ fontSize: '0.875rem', color: '#637083' }}>
           Back to Tools
@@ -317,6 +392,17 @@ export default function TeamBuilder() {
 
           <p style={{ marginTop: '1rem', color: '#3d475c' }}>{activeGoal.note}</p>
 
+          <div style={{ marginTop: '1.25rem', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))', gap: '0.75rem' }}>
+            {getTeamPlanNotes(selectedPokemon, activeGoal, relatedHabitats.length, selectedIds.length > 0).map((note) => (
+              <div key={note.label} style={{ padding: '0.85rem', borderRadius: '8px', border: '1px solid #dce8dc', background: '#f6fbff' }}>
+                <span style={{ display: 'block', color: '#2f84d8', fontSize: '0.72rem', fontWeight: 800, textTransform: 'uppercase' }}>
+                  {note.label}
+                </span>
+                <p style={{ marginTop: '0.35rem', color: '#3d475c', fontSize: '0.88rem', lineHeight: 1.5 }}>{note.text}</p>
+              </div>
+            ))}
+          </div>
+
           <div style={{ marginTop: '1.25rem', display: 'grid', gap: '0.75rem' }}>
             {roleSlots.map((slot) => {
               const manualPokemon = selectedPokemon.find((pokemon) => slot.roles.includes(pokemon.specialty))
@@ -429,6 +515,26 @@ export default function TeamBuilder() {
           </div>
         </section>
       </div>
+
+      <section
+        style={{
+          marginTop: '2rem',
+          padding: '1.25rem',
+          borderRadius: '12px',
+          border: '1px solid #dce8dc',
+          background: 'rgba(255, 255, 255, 0.94)',
+        }}
+      >
+        <h2 style={{ fontSize: '1rem', marginBottom: '0.85rem' }}>Team Builder FAQ</h2>
+        <div style={{ display: 'grid', gap: '0.85rem' }}>
+          {teamBuilderFaqs.map((faq) => (
+            <div key={faq.question}>
+              <strong style={{ display: 'block', fontSize: '0.9rem' }}>{faq.question}</strong>
+              <p style={{ marginTop: '0.3rem', color: '#637083', fontSize: '0.9rem', lineHeight: 1.55 }}>{faq.answer}</p>
+            </div>
+          ))}
+        </div>
+      </section>
 
       <section
         style={{

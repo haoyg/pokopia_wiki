@@ -15,6 +15,27 @@ const featuredTopics = [
     readTime: '7 min',
   },
   {
+    href: '/features/pokopia-animal-crossing',
+    title: 'Pokopia vs Animal Crossing: Cozy Life Sim Comparison',
+    excerpt: 'A source-aware comparison for cozy game players, separating confirmed Pokopia systems from broader life-sim expectations.',
+    category: 'Editorial Comparison',
+    readTime: '8 min',
+  },
+  {
+    href: '/features/friendship-requests-tracker',
+    title: 'Pokopia Friendship and Requests Tracker',
+    excerpt: 'Confirmed signals for befriended Pokemon, requests, visits, and what not to claim about unverified NPC relationship systems.',
+    category: 'System Tracker',
+    readTime: '7 min',
+  },
+  {
+    href: '/features/creative-play-ideas',
+    title: 'Pokopia Creative Play Ideas',
+    excerpt: 'Safe building, route, recipe, and community challenge ideas that avoid unauthorized mods, downloads, and fake event claims.',
+    category: 'Creative Play',
+    readTime: '6 min',
+  },
+  {
     href: '/official/gameplay-overview',
     title: 'Official Gameplay Overview',
     excerpt: 'Confirmed gameplay details from Nintendo and Pokémon sources, separated from editorial route advice.',
@@ -73,17 +94,17 @@ export default function FeaturesPage() {
 
       <section className="features-lead-section">
         <Link
-          href="/features/meta-analysis"
+          href="/features/pokopia-animal-crossing"
           className="feature-hero"
         >
           <span>
-            Featured • Editorial Explainer
+            Featured • Cozy Game Comparison
           </span>
           <h2>
-            Pokémon Pokopia Confirmed Systems Analysis
+            Pokopia vs Animal Crossing: What Cozy Game Players Should Expect
           </h2>
           <p>
-            What official sources confirm about Ditto, moves, crafting, food, habitats, multiplayer, and beginner routines, with editorial notes clearly separated.
+            A careful comparison for Animal Crossing players, focused on confirmed Pokopia systems, creative world-building, and where expectations need caution.
           </p>
         </Link>
       </section>

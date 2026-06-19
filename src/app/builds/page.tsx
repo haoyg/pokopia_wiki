@@ -41,9 +41,18 @@ export default function BuildsPage() {
             <span className="panel-kicker">Build Workflow</span>
             <h2>Start With a Route, Not a Ranking</h2>
           </div>
-          <a href="/tools/team-builder">Open Team Builder</a>
+          <a href="/builds/home-design-ideas">Home design ideas</a>
         </div>
         <div className="index-guide-grid">
+          <div className="index-guide-card">
+            <strong>Home design ideas</strong>
+            <p>Use text-based layout concepts for cozy bases, visitor courtyards, recipe workshops, and future verified showcase entries.</p>
+            <div>
+              <a href="/builds/home-design-ideas">Open ideas</a>
+              <a href="/features/pokopia-animal-crossing">Cozy comparison</a>
+              <a href="/community">Submission rules</a>
+            </div>
+          </div>
           <div className="index-guide-card">
             <strong>Progression build</strong>
             <p>Use this path when the goal is safer unlocks, cleaner habitat scouting, and fewer wasted recipe attempts.</p>

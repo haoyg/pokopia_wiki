@@ -4,16 +4,66 @@ import Link from 'next/link'
 import { useSearchParams } from 'next/navigation'
 import { SearchResult, popularSearches, searchContent } from '@/lib/search'
 
-const typeOrder: SearchResult['type'][] = ['Official', 'News', 'Guide', 'Pokemon', 'Habitat', 'Recipe']
+const typeOrder: SearchResult['type'][] = ['Official', 'News', 'Guide', 'Feature', 'Tool', 'Pokemon', 'Habitat', 'Recipe']
 
 const typeLabels: Record<SearchResult['type'], string> = {
   Official: 'Official Info',
   News: 'News',
   Guide: 'Guides',
+  Feature: 'Features',
+  Tool: 'Tools',
   Pokemon: 'Pokemon',
   Habitat: 'Habitats',
   Recipe: 'Recipes',
 }
+
+const quickPaths = [
+  {
+    href: '/guides/beginner-route',
+    title: 'Beginner Route',
+    description: 'Start with starter choices, easy habitats, recipes, and tools.',
+    label: 'Start',
+  },
+  {
+    href: '/guides/rare-farming-route',
+    title: 'Rare Farming Route',
+    description: 'Plan Lucky Charm timing, rare targets, habitats, and recipes.',
+    label: 'Guide',
+  },
+  {
+    href: '/builds/home-design-ideas',
+    title: 'Home Design Ideas',
+    description: 'Use text-based building concepts before verified screenshots exist.',
+    label: 'Build',
+  },
+  {
+    href: '/features/creative-play-ideas',
+    title: 'Creative Play Ideas',
+    description: 'Safe challenge ideas without downloads, patches, or fake events.',
+    label: 'Feature',
+  },
+  {
+    href: '/news/weekly-event-tracker',
+    title: 'Weekly Event Tracker',
+    description: 'Confirmed-first monitoring for event-related updates.',
+    label: 'News',
+  },
+  {
+    href: '/community/showcase',
+    title: 'Community Showcase Index',
+    description: 'Future submission standards for verified community content.',
+    label: 'Community',
+  },
+]
+
+const topicSearches = [
+  { href: '/search?q=official%20gameplay', label: 'Official gameplay' },
+  { href: '/search?q=recipe%20calculator', label: 'Recipe calculator' },
+  { href: '/search?q=habitat%20planner', label: 'Habitat planner' },
+  { href: '/search?q=pokemon%20database', label: 'Pokemon database' },
+  { href: '/search?q=animal%20crossing', label: 'Animal Crossing' },
+  { href: '/search?q=friendship%20requests', label: 'Friendship requests' },
+]
 
 function groupResults(results: SearchResult[]) {
   return typeOrder
@@ -44,16 +94,50 @@ export function SearchClient() {
       </form>
 
       {!query ? (
-        <section className="content-section">
-          <h2>Popular Searches</h2>
-          <div className="pill-list">
-            {popularSearches.map((term) => (
-              <Link key={term} href={`/search?q=${encodeURIComponent(term)}`}>
-                {term}
-              </Link>
-            ))}
-          </div>
-        </section>
+        <>
+          <section className="content-section search-quick-section">
+            <div className="section-title-row">
+              <div>
+                <span className="panel-kicker">Quick Paths</span>
+                <h2>Start With High-Value Pages</h2>
+              </div>
+            </div>
+            <div className="search-quick-grid">
+              {quickPaths.map((item) => (
+                <Link key={item.href} href={item.href} className="search-quick-card">
+                  <span className="badge source-roundup">{item.label}</span>
+                  <strong>{item.title}</strong>
+                  <p>{item.description}</p>
+                </Link>
+              ))}
+            </div>
+          </section>
+
+          <section className="content-section search-topic-section">
+            <div className="search-topic-columns">
+              <div>
+                <h2>Popular Searches</h2>
+                <div className="pill-list">
+                  {popularSearches.map((term) => (
+                    <Link key={term} href={`/search?q=${encodeURIComponent(term)}`}>
+                      {term}
+                    </Link>
+                  ))}
+                </div>
+              </div>
+              <div>
+                <h2>Search by Topic</h2>
+                <div className="pill-list">
+                  {topicSearches.map((item) => (
+                    <Link key={item.href} href={item.href}>
+                      {item.label}
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </section>
+        </>
       ) : (
         <section className="content-section">
           <h2>

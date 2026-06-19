@@ -2,7 +2,7 @@ import searchIndex from '@/data/search-index.json'
 
 export type SearchResult = {
   id: string
-  type: 'Official' | 'News' | 'Guide' | 'Pokemon' | 'Habitat' | 'Recipe'
+  type: 'Official' | 'News' | 'Guide' | 'Feature' | 'Tool' | 'Pokemon' | 'Habitat' | 'Recipe'
   title: string
   href: string
   description: string
@@ -61,10 +61,16 @@ export function searchContent(query: string) {
 }
 
 export const popularSearches = [
-  'starter',
-  'legendary',
-  'fire team',
-  'habitat',
-  'recipe',
   'rare farming',
+  'beginner route',
+  'recipe planning',
+  'home design',
+  'creative play',
+  'friendship requests',
+  'weekly event',
+  'animal crossing',
+  'habitat planner',
+  'spawn tracker',
+  'team builder',
+  'legendary',
 ]

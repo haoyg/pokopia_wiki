@@ -6,6 +6,7 @@ import recipesData from '@/data/recipes.json'
 import pokemonLinksData from '@/data/pokemon-links.json'
 import habitatLinksData from '@/data/habitat-links.json'
 import { DataStatus } from '@/components/content/DataStatus'
+import { BreadcrumbJsonLd, FAQJsonLd, ToolJsonLd } from '@/components/seo/JsonLd'
 
 const rarityOrder = ['common', 'uncommon', 'rare', 'legendary']
 
@@ -42,6 +43,21 @@ const goals = [
   },
 ]
 
+const recipeCalculatorFaqs = [
+  {
+    question: 'What does the Pokopia Recipe Calculator compare?',
+    answer: 'It compares recipes by route goal, rarity, buff text, best-use notes, timing advice, related Pokemon, and related habitats.',
+  },
+  {
+    question: 'Should I always craft the top recipe recommendation?',
+    answer: 'No. Use the top recommendation as a shortlist, then open the recipe and habitat pages to confirm ingredients, route timing, and common mistakes.',
+  },
+  {
+    question: 'When should I filter recipes by rarity?',
+    answer: 'Use the rarity filter when ingredients are limited or when you want a cheaper daily farming option instead of spending rare materials.',
+  },
+]
+
 function splitIds(value?: string) {
   return (value || '').split(',').map((item) => item.trim()).filter(Boolean)
 }
@@ -59,6 +75,28 @@ function scoreRecipe(recipe: (typeof recipesData)[number], goal: (typeof goals)[
   return goal.keywords.reduce((score, keyword) => {
     return haystack.includes(keyword.toLowerCase()) ? score + 1 : score
   }, 0)
+}
+
+function getRecipePlanNotes(recipe: (typeof recipesData)[number], goal: (typeof goals)[number], score: number) {
+  const timing = recipe.best_timing?.[0] || 'Use it only after the target route is mapped.'
+  const mistake = recipe.common_mistakes?.[0] || 'Avoid spending it during blind exploration.'
+
+  return [
+    {
+      label: 'Why this fits',
+      text: score > 0
+        ? `${recipe.name} matches the ${goal.label.toLowerCase()} goal through ${recipe.buff.toLowerCase()} and its ${recipe.best_use.toLowerCase()} use case.`
+        : `${recipe.name} is the best available option under the current filters, but it should be checked against the route before crafting.`,
+    },
+    {
+      label: 'Use it when',
+      text: timing,
+    },
+    {
+      label: 'Main risk',
+      text: mistake,
+    },
+  ]
 }
 
 export default function RecipeCalculator() {
@@ -83,6 +121,7 @@ export default function RecipeCalculator() {
 
   const recommendation = rankedRecipes.find((item) => item.score > 0) || rankedRecipes[0]
   const recipe = recipesData.find((item) => item.id === selectedRecipe) || recommendation?.recipe
+  const selectedScore = rankedRecipes.find((item) => item.recipe.id === recipe?.id)?.score || 0
 
   const relatedPokemon = useMemo(() => {
     const ids = splitIds(recipe?.related_pokemon)
@@ -96,6 +135,25 @@ export default function RecipeCalculator() {
 
   return (
     <main style={{ maxWidth: '1120px', margin: '0 auto', padding: '2rem 1rem 3rem' }}>
+      <BreadcrumbJsonLd
+        items={[
+          { name: 'Home', url: '/' },
+          { name: 'Tools', url: '/tools' },
+          { name: 'Recipe Calculator', url: '/tools/recipe-calculator' },
+        ]}
+      />
+      <FAQJsonLd title="Recipe Calculator FAQ" faqs={recipeCalculatorFaqs} />
+      <ToolJsonLd
+        name="Pokopia Recipe Calculator"
+        description="Interactive Pokopia recipe planning tool for comparing recipe value by route goal, rarity, timing, Pokemon links, and habitat support."
+        url="/tools/recipe-calculator"
+        featureList={[
+          'Compare recipes by route goal',
+          'Filter recipes by rarity',
+          'Review use timing and common mistakes',
+          'Open related Pokemon and habitat pages',
+        ]}
+      />
       <header style={{ marginBottom: '1.5rem' }}>
         <Link href="/tools" style={{ fontSize: '0.875rem', color: '#637083' }}>
           Back to Tools
@@ -241,6 +299,17 @@ export default function RecipeCalculator() {
 
             <p style={{ marginTop: '1rem', color: '#3d475c' }}>{recipe.overview}</p>
 
+            <div style={{ marginTop: '1.25rem', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))', gap: '0.75rem' }}>
+              {getRecipePlanNotes(recipe, activeGoal, selectedScore).map((note) => (
+                <div key={note.label} style={{ padding: '0.85rem', borderRadius: '8px', border: '1px solid #dce8dc', background: '#f6fbff' }}>
+                  <span style={{ display: 'block', color: '#2f84d8', fontSize: '0.72rem', fontWeight: 800, textTransform: 'uppercase' }}>
+                    {note.label}
+                  </span>
+                  <p style={{ marginTop: '0.35rem', color: '#3d475c', fontSize: '0.88rem', lineHeight: 1.5 }}>{note.text}</p>
+                </div>
+              ))}
+            </div>
+
             <div style={{ marginTop: '1.25rem', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(160px, 1fr))', gap: '0.75rem' }}>
               {[
                 ['Ingredients', recipe.ingredients],
@@ -328,6 +397,26 @@ export default function RecipeCalculator() {
           </section>
         )}
       </div>
+
+      <section
+        style={{
+          marginTop: '2rem',
+          padding: '1.25rem',
+          borderRadius: '12px',
+          border: '1px solid #dce8dc',
+          background: 'rgba(255, 255, 255, 0.94)',
+        }}
+      >
+        <h2 style={{ fontSize: '1rem', marginBottom: '0.85rem' }}>Recipe Calculator FAQ</h2>
+        <div style={{ display: 'grid', gap: '0.85rem' }}>
+          {recipeCalculatorFaqs.map((faq) => (
+            <div key={faq.question}>
+              <strong style={{ display: 'block', fontSize: '0.9rem' }}>{faq.question}</strong>
+              <p style={{ marginTop: '0.3rem', color: '#637083', fontSize: '0.9rem', lineHeight: 1.55 }}>{faq.answer}</p>
+            </div>
+          ))}
+        </div>
+      </section>
 
       <section
         style={{

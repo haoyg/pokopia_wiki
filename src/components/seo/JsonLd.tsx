@@ -20,6 +20,12 @@ export function WebsiteJsonLd() {
     name: 'Pokopia Portal',
     url: BASE_URL,
     description: 'Independent Pokopia wiki with official source roundups, guides, Pokemon database pages, habitat notes, recipes, and planning tools.',
+    about: {
+      '@type': 'Thing',
+      name: 'Pokopia',
+      description: 'A gaming content platform covering Pokemon-style game guides, database, and community tools.',
+    },
+    license: 'https://creativecommons.org/licenses/by/4.0/',
     potentialAction: {
       '@type': 'SearchAction',
       target: {
@@ -139,6 +145,50 @@ export function ItemListJsonLd({
       name: item.name,
       url: `${BASE_URL}${item.url}`,
     })),
+  }
+
+  return <JsonLd data={jsonLd} />
+}
+
+export function ToolJsonLd({
+  name,
+  description,
+  url,
+  applicationCategory = 'GameApplication',
+  featureList,
+}: {
+  name: string
+  description: string
+  url: string
+  applicationCategory?: string
+  featureList?: string[]
+}) {
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'WebApplication',
+    name,
+    description,
+    url: `${BASE_URL}${url}`,
+    applicationCategory,
+    operatingSystem: 'Web',
+    browserRequirements: 'Requires a modern web browser with JavaScript enabled.',
+    isAccessibleForFree: true,
+    ...(featureList && featureList.length > 0 ? { featureList } : {}),
+    publisher: {
+      '@type': 'Organization',
+      name: 'Pokopia Portal',
+      logo: {
+        '@type': 'ImageObject',
+        url: `${BASE_URL}/logo.png`,
+        width: 512,
+        height: 512,
+      },
+    },
+    isPartOf: {
+      '@type': 'WebSite',
+      name: 'Pokopia Portal',
+      url: BASE_URL,
+    },
   }
 
   return <JsonLd data={jsonLd} />

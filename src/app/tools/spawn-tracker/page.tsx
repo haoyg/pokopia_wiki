@@ -1,13 +1,20 @@
 import { Metadata } from 'next'
 import { SpawnTracker } from '@/components/tools/SpawnTracker'
+import { BreadcrumbJsonLd, FAQJsonLd, ToolJsonLd } from '@/components/seo/JsonLd'
 import { canonicalUrl } from '@/lib/site'
 
 export const metadata: Metadata = {
-  title: 'Spawn Tracker',
-  description: 'Track Pokopia Pokemon spawn conditions by habitat, weather, time, rarity, food, and drops.',
+  title: 'Pokopia Spawn Tracker - Habitat, Weather, Time, Food, and Drops',
+  description: 'Track Pokopia Pokemon spawn conditions by habitat, weather, time, rarity, food, drops, type, and related route pages.',
   openGraph: {
-    title: 'Spawn Tracker',
-    description: 'Track Pokemon spawn conditions by habitat, weather, time, rarity, food, and drops.',
+    title: 'Pokopia Spawn Tracker - Habitat, Weather, Time, Food, and Drops',
+    description: 'Track Pokopia Pokemon spawn conditions by habitat, weather, time, rarity, food, drops, type, and related route pages.',
+    images: ['/og-image.svg'],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Pokopia Spawn Tracker - Habitat, Weather, Time, Food, and Drops',
+    description: 'Track Pokopia Pokemon spawn conditions by habitat, weather, time, rarity, food, drops, type, and related route pages.',
     images: ['/og-image.svg'],
   },
   alternates: {
@@ -30,13 +37,49 @@ const spawnUseCases = [
   },
 ]
 
+const spawnTrackerFaqs = [
+  {
+    question: 'What can I search in the Pokopia Spawn Tracker?',
+    answer: 'You can search by Pokemon name, type, description, favorite food, skills, drops, or habitat name, then combine the search with habitat, weather, time, and rarity filters.',
+  },
+  {
+    question: 'Why does the tracker show broad results?',
+    answer: 'Broad results mean the current filters are still exploratory. Add one more filter, such as weather or rarity, before treating the list as a farming route.',
+  },
+  {
+    question: 'What should I check after finding a spawn target?',
+    answer: 'Open the Pokemon page for food, drops, and role notes, then open the habitat page to confirm route difficulty, weather, and recipe timing.',
+  },
+]
+
 export default function SpawnTrackerPage() {
   return (
     <main className="page-shell">
+      <BreadcrumbJsonLd
+        items={[
+          { name: 'Home', url: '/' },
+          { name: 'Tools', url: '/tools' },
+          { name: 'Spawn Tracker', url: '/tools/spawn-tracker' },
+        ]}
+      />
+      <FAQJsonLd title="Spawn Tracker FAQ" faqs={spawnTrackerFaqs} />
+      <ToolJsonLd
+        name="Pokopia Spawn Tracker"
+        description="Interactive Pokopia spawn tracking tool for filtering Pokemon by habitat, weather, time, rarity, food, drops, and type."
+        url="/tools/spawn-tracker"
+        featureList={[
+          'Search Pokemon spawn records',
+          'Filter by habitat, weather, time, and rarity',
+          'Review food and drop data',
+          'Open related Pokemon and habitat pages',
+        ]}
+      />
       <section className="page-hero">
         <h1>Spawn Tracker</h1>
         <p>Filter current database entries by habitat, weather, time, rarity, food, drops, and type.</p>
       </section>
+
+      <SpawnTracker />
 
       <section className="tool-guide-grid" aria-label="Spawn tracker use cases">
         {spawnUseCases.map((item) => (
@@ -47,7 +90,17 @@ export default function SpawnTrackerPage() {
         ))}
       </section>
 
-      <SpawnTracker />
+      <section className="tool-next-steps">
+        <h2>Spawn Tracker FAQ</h2>
+        <div className="tool-faq-stack">
+          {spawnTrackerFaqs.map((faq) => (
+            <div key={faq.question}>
+              <strong>{faq.question}</strong>
+              <p>{faq.answer}</p>
+            </div>
+          ))}
+        </div>
+      </section>
 
       <section className="tool-next-steps">
         <h2>How to use spawn results</h2>
