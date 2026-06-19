@@ -28,6 +28,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title,
     description,
+    keywords: recipe
+      ? ([
+          `${recipe.name} recipe Pokopia`,
+          `${recipe.buff} Pokopia recipe`,
+          `${recipe.rarity} recipe Pokopia`,
+          recipe.best_use ? `${recipe.best_use} recipe` : null,
+          `${recipe.effect_duration} duration recipe`,
+        ].filter(Boolean) as string[])
+      : undefined,
     openGraph: {
       title,
       description,

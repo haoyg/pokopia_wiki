@@ -28,6 +28,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title,
     description,
+    keywords: pokemon
+      ? [
+          `${pokemon.name} Pokopia`,
+          `${pokemon.type} Pokemon Pokopia`,
+          `${pokemon.rarity} Pokemon Pokopia`,
+          `${pokemon.specialty} Pokopia`,
+          `${pokemon.name} habitat`,
+          `${pokemon.name} spawn time`,
+        ]
+      : undefined,
     openGraph: {
       title,
       description,

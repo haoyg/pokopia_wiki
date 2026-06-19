@@ -28,6 +28,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title,
     description,
+    keywords: habitat
+      ? ([
+          `${habitat.name} Pokopia habitat`,
+          `${habitat.difficulty} habitat Pokopia`,
+          `${habitat.weather} Pokemon Pokopia`,
+          `best habitat route Pokopia`,
+          habitat.resource_bonus ? `resource bonus ${habitat.resource_bonus} Pokopia` : null,
+        ].filter(Boolean) as string[])
+      : undefined,
     openGraph: {
       title,
       description,

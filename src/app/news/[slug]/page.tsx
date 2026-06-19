@@ -36,6 +36,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title,
     description,
+    keywords: (
+      [
+        news.category === 'official' ? 'official Pokopia news' : null,
+        news.category === 'trailer' ? 'Pokopia trailer' : null,
+        news.category === 'source-roundup' ? 'Pokopia source roundup' : null,
+        'Pokopia news',
+        'Pokopia update',
+      ].filter(Boolean) as string[]
+    ),
     openGraph: {
       title,
       description,
