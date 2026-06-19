@@ -4,6 +4,16 @@ import { canonicalUrl } from '@/lib/site'
 export const metadata: Metadata = {
   title: 'Pokopia Recipe Calculator - Recipe Buffs, Timing, and Route Planning',
   description: 'Compare Pokopia recipes by route goal, rarity, buff timing, common mistakes, related Pokemon, and habitat support before spending ingredients.',
+  keywords: [
+    'Pokopia recipe calculator',
+    'Pokopia recipe buff',
+    'Pokopia best recipe',
+    'Pokopia recipe rarity',
+    'Pokopia recipe timing',
+    'Pokopia ingredient route',
+    'Pokopia farming recipes',
+    'Pokopia boss prep recipe',
+  ],
   openGraph: {
     title: 'Pokopia Recipe Calculator - Recipe Buffs, Timing, and Route Planning',
     description: 'Compare Pokopia recipes by route goal, rarity, buff timing, common mistakes, related Pokemon, and habitat support before spending ingredients.',

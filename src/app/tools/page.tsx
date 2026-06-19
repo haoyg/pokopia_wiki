@@ -5,6 +5,15 @@ import { BreadcrumbJsonLd, ItemListJsonLd } from '@/components/seo/JsonLd'
 export const metadata: Metadata = {
   title: 'Pokopia Tools and Route Planners',
   description: 'Use Pokopia planning tools for recipes, habitats, teams, spawn checks, Pokemon pages, and guide routes.',
+  keywords: [
+    'Pokopia tools',
+    'Pokopia route planner',
+    'Pokopia planning tools',
+    'Pokopia calculator',
+    'Pokopia tracker',
+    'Pokopia builder',
+    'Pokopia game tools',
+  ],
   openGraph: {
     title: 'Pokopia Tools and Route Planners',
     description: 'Use Pokopia planning tools for recipes, habitats, teams, spawn checks, Pokemon pages, and guide routes.',

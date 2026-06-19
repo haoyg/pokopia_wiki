@@ -6,6 +6,16 @@ import { canonicalUrl } from '@/lib/site'
 export const metadata: Metadata = {
   title: 'Pokopia Spawn Tracker - Habitat, Weather, Time, Food, and Drops',
   description: 'Track Pokopia Pokemon spawn conditions by habitat, weather, time, rarity, food, drops, type, and related route pages.',
+  keywords: [
+    'Pokopia spawn tracker',
+    'Pokopia spawn time',
+    'Pokopia Pokemon spawn',
+    'Pokopia weather spawn',
+    'Pokopia habitat spawn',
+    'Pokopia rare spawn',
+    'Pokopia spawn food',
+    'Pokopia Pokemon drops',
+  ],
   openGraph: {
     title: 'Pokopia Spawn Tracker - Habitat, Weather, Time, Food, and Drops',
     description: 'Track Pokopia Pokemon spawn conditions by habitat, weather, time, rarity, food, drops, type, and related route pages.',
