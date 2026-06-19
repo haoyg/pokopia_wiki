@@ -16,6 +16,15 @@ function shortText(text: string, length = 150) {
 export const metadata: Metadata = {
   title: 'Pokemon Database',
   description: 'Browse Pokopia Pokemon entries with types, rarity, habitats, food, drops, and editorial route notes.',
+  keywords: [
+    'Pokopia Pokemon database',
+    'Pokopia Pokedex',
+    'Pokopia Pokemon list',
+    'Pokopia all Pokemon',
+    'Pokopia Pokemon types',
+    'Pokopia rare Pokemon',
+    'Pokopia legendary Pokemon',
+  ],
   openGraph: {
     title: 'Pokemon Database',
     description: 'Browse Pokopia Pokemon entries with types, rarity, habitats, food, and drops.',

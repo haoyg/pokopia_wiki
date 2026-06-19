@@ -7,6 +7,16 @@ import { BreadcrumbJsonLd, ItemListJsonLd } from '@/components/seo/JsonLd'
 export const metadata: Metadata = {
   title: 'Official Pokémon Pokopia Info',
   description: 'Official Pokémon Pokopia release, platform, gameplay, multiplayer, GameShare, and beginner information collected from Nintendo and Pokémon sources.',
+  keywords: [
+    'official Pokopia information',
+    'Pokopia release date',
+    'Pokopia platform',
+    'Pokopia gameplay',
+    'Pokopia multiplayer',
+    'Pokopia GameShare',
+    'Pokopia official news',
+    'Nintendo Pokopia',
+  ],
   openGraph: {
     title: 'Official Pokémon Pokopia Info',
     description: 'Verified official information for Pokémon Pokopia from Nintendo and Pokémon sources.',

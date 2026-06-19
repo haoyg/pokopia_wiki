@@ -89,6 +89,15 @@ const rarityHeadings = [
 export const metadata: Metadata = {
   title: 'Pokemon Priority Index',
   description: 'Browse an editorial Pokemon priority index based on current site database fields such as rarity and role.',
+  keywords: [
+    'Pokopia tier list',
+    'Pokopia best Pokemon',
+    'Pokopia strongest Pokemon',
+    'Pokopia priority index',
+    'Pokopia Pokemon ranking',
+    'Pokopia meta Pokemon',
+    'Pokopia top Pokemon',
+  ],
   openGraph: {
     title: 'Pokemon Priority Index',
     description: 'Browse an editorial Pokemon priority index based on rarity and role data.',

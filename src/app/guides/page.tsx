@@ -38,6 +38,16 @@ function shortText(text: string, length = 145) {
 export const metadata: Metadata = {
   title: 'Pokopia Guides and Route Notes',
   description: 'Read source-aware Pokopia guides for starter choices, habitat routes, farming plans, recipes, and editorial team planning.',
+  keywords: [
+    'Pokopia guides',
+    'Pokopia route guide',
+    'Pokopia farming guide',
+    'Pokopia how to',
+    'Pokopia walkthrough',
+    'Pokopia tips',
+    'Pokopia starter guide',
+    'Pokopia recipe guide',
+  ],
   openGraph: {
     title: 'Pokopia Guides and Route Notes',
     description: 'Source-aware Pokopia guides for routes, farming, recipes, and team planning.',

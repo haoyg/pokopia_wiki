@@ -6,6 +6,15 @@ import { OfficialContext } from '@/components/content/OfficialContext'
 export const metadata: Metadata = {
   title: 'Build Planning Notes',
   description: 'Read Pokopia build planning notes and submission standards for future verified community builds.',
+  keywords: [
+    'Pokopia builds',
+    'Pokopia build planning',
+    'Pokopia team builds',
+    'Pokopia community builds',
+    'Pokopia build submission',
+    'Pokopia best build',
+    'Pokopia build guide',
+  ],
   alternates: {
     canonical: canonicalUrl('/builds'),
   },

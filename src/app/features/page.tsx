@@ -61,6 +61,15 @@ const featuredTopics = [
 export const metadata: Metadata = {
   title: 'Features & Official Context',
   description: 'Official-context features and editorial explainers for Pokémon Pokopia systems, gameplay, multiplayer, and beginner planning.',
+  keywords: [
+    'Pokopia features',
+    'Pokopia gameplay guide',
+    'Pokopia systems explained',
+    'Pokopia official information',
+    'Pokopia multiplayer guide',
+    'Pokopia beginner guide',
+    'Pokopia editorial analysis',
+  ],
   openGraph: {
     title: 'Features and Official Context',
     description: 'Source-aware features and editorial explainers for Pokémon Pokopia.',

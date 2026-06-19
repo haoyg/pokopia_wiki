@@ -20,6 +20,15 @@ function textValue(value: string | string[]) {
 export const metadata: Metadata = {
   title: 'Recipe Cookbook and Buff Notes',
   description: 'Browse Pokopia recipes with ingredients, buff effects, durations, rarity, timing notes, and related route planning links.',
+  keywords: [
+    'Pokopia recipes',
+    'Pokopia recipe list',
+    'Pokopia best recipe',
+    'Pokopia recipe buff',
+    'Pokopia recipe rarity',
+    'Pokopia cooking recipe',
+    'Pokopia ingredient recipe',
+  ],
   openGraph: {
     title: 'Recipe Cookbook and Buff Notes',
     description: 'Browse Pokopia recipes with ingredients, buff effects, durations, and route notes.',

@@ -18,7 +18,12 @@
       "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(len\\(d\\)\\)\")",
       "Bash(grep *)",
       "Bash(git add *)",
-      "Bash(git commit *)"
+      "Bash(git commit *)",
+      "Bash(sed -n '38,44p' \"E:/gitclone_project/pokopia_wiki/src/app/guides/page.tsx\")",
+      "Bash(sed -n '14,20p' \"E:/gitclone_project/pokopia_wiki/src/app/news/page.tsx\")",
+      "Bash(sed -n '16,22p' \"E:/gitclone_project/pokopia_wiki/src/app/wiki/pokemon/page.tsx\")",
+      "Bash(sed -n '12,18p' \"E:/gitclone_project/pokopia_wiki/src/app/wiki/habitat/page.tsx\")",
+      "Bash(sed -n '20,26p' \"E:/gitclone_project/pokopia_wiki/src/app/wiki/recipe/page.tsx\")"
     ]
   }
 }

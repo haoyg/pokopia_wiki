@@ -12,6 +12,15 @@ function shortText(text: string, length = 160) {
 export const metadata: Metadata = {
   title: 'Habitat Maps and Route Notes',
   description: 'Explore Pokopia habitats with unlock conditions, weather, difficulty, resource bonuses, spawn lists, and editorial route notes.',
+  keywords: [
+    'Pokopia habitats',
+    'Pokopia habitat map',
+    'Pokopia habitat list',
+    'Pokopia best habitat',
+    'Pokopia habitat route',
+    'Pokopia habitat difficulty',
+    'Pokopia unlock habitat',
+  ],
   openGraph: {
     title: 'Habitat Maps and Route Notes',
     description: 'Explore Pokopia habitats with unlocks, weather, difficulty, resources, and spawns.',

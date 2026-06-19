@@ -6,6 +6,14 @@ import { OfficialContext } from '@/components/content/OfficialContext'
 export const metadata: Metadata = {
   title: 'Community Guidelines',
   description: 'Read Pokopia Portal community contribution guidelines, source rules, and future submission standards.',
+  keywords: [
+    'Pokopia community',
+    'Pokopia community guidelines',
+    'Pokopia contribute',
+    'Pokopia build submission',
+    'Pokopia screenshot guidelines',
+    'Pokopia source rules',
+  ],
   alternates: {
     canonical: canonicalUrl('/community'),
   },

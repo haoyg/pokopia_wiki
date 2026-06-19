@@ -14,6 +14,16 @@ const categoryLabels: Record<string, string> = {
 export const metadata: Metadata = {
   title: 'Official News & Source Updates',
   description: 'Official Pokémon Pokopia source roundups, trailer notes, Nintendo updates, and Pokopia Portal site transparency updates.',
+  keywords: [
+    'Pokopia news',
+    'Pokopia update',
+    'Pokopia official news',
+    'Pokopia Nintendo',
+    'Pokopia source roundup',
+    'Pokopia trailer',
+    'Pokopia patch notes',
+    'Pokopia release news',
+  ],
   openGraph: {
     title: 'Official News & Source Updates',
     description: 'Source-based Pokémon Pokopia news tracking and official information roundups.',
