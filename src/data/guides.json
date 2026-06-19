@@ -60,6 +60,18 @@
       {
         "question": "Does the starter decide my whole team?",
         "answer": "Not really. It decides your opening comfort. Your second and third slots should fix the problems your starter cannot solve."
+      },
+      {
+        "question": "Does ranking change as new Pokemon or updates release?",
+        "answer": "Tier rankings reflect the current meta based on confirmed stats, spawn rates, and build viability. As new Pokemon, habitats, or balance updates release, rankings can shift. Check the last updated date on this page and cross-reference with the latest news for confirmed meta changes."
+      },
+      {
+        "question": "Should I always pick the top-ranked option?",
+        "answer": "No. Top rankings reflect overall strength in the current meta, but the best choice for your account depends on your team composition, available habitats, and progression stage. Use tier rankings as a guide for long-term investment, not a replacement for situational judgment."
+      },
+      {
+        "question": "How do tier rankings relate to farming difficulty?",
+        "answer": "Higher-ranked Pokemon are not always harder to farm — some of the strongest Pokemon appear in easy habitats with common spawn rates. Check each Pokemon's habitat page for actual spawn conditions. A legendary in an easy habitat may be faster to farm than a rare in a hard one."
       }
     ],
     "published_at": "2026-05-01",
@@ -112,6 +124,10 @@
     ],
     "faqs": [
       {
+        "question": "What is the fastest way to clear Volcanic Cave?",
+        "answer": "Volcanic Cave is hard difficulty. Speed comes from knowing the route layout, matching weather to spawn conditions, and having a team built for the long demanding encounters. Run the habitat 2-3 times to learn the layout before optimizing."
+      },
+      {
         "question": "What level do I need for Volcanic Cave?",
         "answer": "Use Level 15 as the unlock checkpoint, then scout the cave before treating it as a farming route."
       },
@@ -130,6 +146,18 @@
       {
         "question": "Should I farm the cave immediately after unlocking it?",
         "answer": "Only if normal encounters are already consistent. Otherwise, unlock it, adjust your team, and come back for farming."
+      },
+      {
+        "question": "What Pokemon should I prioritize after unlocking Volcanic Cave?",
+        "answer": "Focus first on the Pokemon that appear most consistently in the early spawn section of Volcanic Cave. Check the habitat page for the full spawn list and prioritize Pokemon that fill gaps in your current team. The resource bonus (+50% Fire drops) also makes specific farming runs more efficient — factor that into your priority list."
+      },
+      {
+        "question": "What is the biggest risk when first entering Volcanic Cave?",
+        "answer": "Entering without a full team and proper preparation — hard habitats punish incomplete teams severely. Always confirm weather, bring appropriate supplies, and set an exit rule before entering."
+      },
+      {
+        "question": "How does Volcanic Cave compare to nearby habitats?",
+        "answer": "Volcanic Cave is a hard habitat with Clear/Sunny weather and +50% Fire drops. Easier habitats offer less rarity but higher consistency. Harder habitats give better rewards but require more preparation. Use the habitat comparison on the wiki to decide which to prioritize based on your current goals."
       }
     ],
     "published_at": "2026-05-02",
@@ -182,6 +210,10 @@
     ],
     "faqs": [
       {
+        "question": "What is the correct exit rule for farming runs?",
+        "answer": "Set a specific exit condition before entering: a number of runs, a material quantity, or a weather change. Never continue past your exit condition chasing a drop. Fatigue and sunk-cost thinking are the biggest farming traps — a clear rule prevents both."
+      },
+      {
         "question": "What matters most for rare farming?",
         "answer": "Useful attempts per hour. A short, repeatable loop is usually better than a full clear."
       },
@@ -200,6 +232,14 @@
       {
         "question": "How do I know a route is too long?",
         "answer": "If most of the clear happens after the rare check, or if resets take too long, shorten the route or change habitats."
+      },
+      {
+        "question": "How many runs before judging if a farming route is efficient?",
+        "answer": "Judge a route over 5-10 runs minimum. Spawn variance and weather windows affect individual runs significantly. Track drops per hour across sessions — if it still feels inefficient after 10 runs with correct conditions, check whether a better habitat or weather window exists on the related habitat page."
+      },
+      {
+        "question": "Should I use rare attraction bait on every run?",
+        "answer": "No. Use rare bait only on confirmed spawn encounters. Run the habitat 1-2 times without bait first to verify the Pokemon is actually present in the current weather. Wasting rare bait on wrong branches or empty windows is the most common farming efficiency mistake."
       }
     ],
     "published_at": "2026-05-03",
@@ -270,6 +310,18 @@
       {
         "question": "Can I use non-fire Pokemon in a fire team?",
         "answer": "Yes. A smart backup that keeps the route alive is usually better than forcing another fire attacker into a bad matchup."
+      },
+      {
+        "question": "What is the biggest mistake in Fire/Electric team builds?",
+        "answer": "Filling every slot with Fire/Electric type Pokemon instead of covering type weaknesses. A good fire/electric team needs defensive backup, utility roles, and coverage for resistances that pure Fire/Electric typing cannot handle. Check the related habitat pages for Pokemon that complement your core without breaking the type theme."
+      },
+      {
+        "question": "What recipes work best with Fire/Electric teams?",
+        "answer": "Fire/Electric teams work best with recipes that boost the team's primary role. Damage-oriented Fire/Electric teams benefit from burst or damage buff recipes. Defensive teams need sustain and armor recipes. Check the recipe page for buffs that align with your team's specific role composition."
+      },
+      {
+        "question": "How many Fire/Electric Pokemon do I need before starting this build?",
+        "answer": "Start the build when you have 3 confirmed Fire/Electric Pokemon with different roles (Tank, Attacker, Support or similar). The remaining slots should cover type weaknesses and provide utility. Commit to a full fire/electric build only after the core is stable."
       }
     ],
     "published_at": "2026-05-04",
@@ -322,6 +374,10 @@
     ],
     "faqs": [
       {
+        "question": "What is the biggest trap in this guide's approach?",
+        "answer": "Treating the advice as a rigid formula instead of a starting framework. Real progress requires adjusting based on your team strength, current level, and available resources. Use the related Pokemon and habitat links to fill in specifics that this guide can only generalize about."
+      },
+      {
         "question": "Is Shadow Marsh good for rare farming?",
         "answer": "Yes, if your route is short and consistent. It is poor value if every attempt turns into a long, expensive clear."
       },
@@ -340,6 +396,14 @@
       {
         "question": "Why does Shadow Marsh feel inconsistent?",
         "answer": "Most inconsistency comes from treating scouting, clearing, and rare farming as the same route. Split those goals."
+      },
+      {
+        "question": "How long before this strategy shows results?",
+        "answer": "Most strategies show measurable results within 5-10 runs when conditions are met (correct weather, appropriate team, right recipe timing). If results feel slow after 10 attempts, a key condition is usually being missed — recheck the related habitat pages for spawn window, bait timing, or team matchup details."
+      },
+      {
+        "question": "What if this strategy stops working?",
+        "answer": "Re-examine: weather pattern shifts, team level mismatch, or progression to harder content before mastering the current habitat. Revisit the related habitat and Pokemon data to find what changed. Do not force a broken strategy — reset the approach and rebuild from confirmed conditions."
       }
     ],
     "published_at": "2026-05-05",
@@ -410,6 +474,18 @@
       {
         "question": "Why am I wasting resources on legendary attempts?",
         "answer": "Usually because scouting, unlocking, and capture attempts are being mixed together. Separate those runs."
+      },
+      {
+        "question": "What is the biggest trap in this guide's approach?",
+        "answer": "Treating the advice as a rigid formula instead of a starting framework. Real progress requires adjusting based on your team strength, current level, and available resources. Use the related Pokemon and habitat links to fill in specifics that this guide can only generalize about."
+      },
+      {
+        "question": "How long before this strategy shows results?",
+        "answer": "Most strategies show measurable results within 5-10 runs when conditions are met (correct weather, appropriate team, right recipe timing). If results feel slow after 10 attempts, a key condition is usually being missed — recheck the related habitat pages for spawn window, bait timing, or team matchup details."
+      },
+      {
+        "question": "What if this strategy stops working?",
+        "answer": "Re-examine: weather pattern shifts, team level mismatch, or progression to harder content before mastering the current habitat. Revisit the related habitat and Pokemon data to find what changed. Do not force a broken strategy — reset the approach and rebuild from confirmed conditions."
       }
     ],
     "published_at": "2026-05-06",
@@ -463,6 +539,10 @@
     ],
     "faqs": [
       {
+        "question": "What is the biggest trap in this guide's approach?",
+        "answer": "Treating the advice as a rigid formula instead of a starting framework. Real progress requires adjusting based on your team strength, current level, and available resources. Use the related Pokemon and habitat links to fill in specifics that this guide can only generalize about."
+      },
+      {
         "question": "What makes a habitat the best for a type?",
         "answer": "Consistency, useful encounters, route length, and resource value. The strongest-looking habitat is not best if you cannot repeat it."
       },
@@ -481,6 +561,14 @@
       {
         "question": "Can the best habitat change later?",
         "answer": "Yes. As your team improves, a route that was too expensive can become the better farming choice."
+      },
+      {
+        "question": "How long before this strategy shows results?",
+        "answer": "Most strategies show measurable results within 5-10 runs when conditions are met (correct weather, appropriate team, right recipe timing). If results feel slow after 10 attempts, a key condition is usually being missed — recheck the related habitat pages for spawn window, bait timing, or team matchup details."
+      },
+      {
+        "question": "What if this strategy stops working?",
+        "answer": "Re-examine: weather pattern shifts, team level mismatch, or progression to harder content before mastering the current habitat. Revisit the related habitat and Pokemon data to find what changed. Do not force a broken strategy — reset the approach and rebuild from confirmed conditions."
       }
     ],
     "published_at": "2026-05-07",
@@ -552,6 +640,18 @@
       {
         "question": "Should I always use my highest damage Pokemon?",
         "answer": "No. The best leveling lead is the one that keeps the loop fast and stable, not always the highest damage option."
+      },
+      {
+        "question": "How many runs before judging if a farming route is efficient?",
+        "answer": "Judge a route over 5-10 runs minimum. Spawn variance and weather windows affect individual runs significantly. Track drops per hour across sessions — if it still feels inefficient after 10 runs with correct conditions, check whether a better habitat or weather window exists on the related habitat page."
+      },
+      {
+        "question": "Should I use rare attraction bait on every run?",
+        "answer": "No. Use rare bait only on confirmed spawn encounters. Run the habitat 1-2 times without bait first to verify the Pokemon is actually present in the current weather. Wasting rare bait on wrong branches or empty windows is the most common farming efficiency mistake."
+      },
+      {
+        "question": "What is the correct exit rule for farming runs?",
+        "answer": "Set a specific exit condition before entering: a number of runs, a material quantity, or a weather change. Never continue past your exit condition chasing a drop. Fatigue and sunk-cost thinking are the biggest farming traps — a clear rule prevents both."
       }
     ],
     "published_at": "2026-05-08",
@@ -604,6 +704,10 @@
     ],
     "faqs": [
       {
+        "question": "What is the biggest trap in this guide's approach?",
+        "answer": "Treating the advice as a rigid formula instead of a starting framework. Real progress requires adjusting based on your team strength, current level, and available resources. Use the related Pokemon and habitat links to fill in specifics that this guide can only generalize about."
+      },
+      {
         "question": "What kind of route is Thunder Arena?",
         "answer": "It is a tempo route. Speed, clean openings, and recipe timing matter as much as raw damage."
       },
@@ -622,6 +726,14 @@
       {
         "question": "Why do my Thunder Arena runs feel inconsistent?",
         "answer": "Usually because the team is built for the reward instead of the route. Fix the unstable section first."
+      },
+      {
+        "question": "How long before this strategy shows results?",
+        "answer": "Most strategies show measurable results within 5-10 runs when conditions are met (correct weather, appropriate team, right recipe timing). If results feel slow after 10 attempts, a key condition is usually being missed — recheck the related habitat pages for spawn window, bait timing, or team matchup details."
+      },
+      {
+        "question": "What if this strategy stops working?",
+        "answer": "Re-examine: weather pattern shifts, team level mismatch, or progression to harder content before mastering the current habitat. Revisit the related habitat and Pokemon data to find what changed. Do not force a broken strategy — reset the approach and rebuild from confirmed conditions."
       }
     ],
     "published_at": "2026-05-09",
@@ -674,6 +786,10 @@
     ],
     "faqs": [
       {
+        "question": "What is the biggest trap in this guide's approach?",
+        "answer": "Treating the advice as a rigid formula instead of a starting framework. Real progress requires adjusting based on your team strength, current level, and available resources. Use the related Pokemon and habitat links to fill in specifics that this guide can only generalize about."
+      },
+      {
         "question": "Is Frost Peak good for midgame farming?",
         "answer": "Yes. It is valuable when you can keep the route controlled and avoid wasting Ice Armor on scouting."
       },
@@ -692,6 +808,14 @@
       {
         "question": "Should I full clear Frost Peak?",
         "answer": "Only when full clears are stable. For farming, a shorter loop is often better."
+      },
+      {
+        "question": "How long before this strategy shows results?",
+        "answer": "Most strategies show measurable results within 5-10 runs when conditions are met (correct weather, appropriate team, right recipe timing). If results feel slow after 10 attempts, a key condition is usually being missed — recheck the related habitat pages for spawn window, bait timing, or team matchup details."
+      },
+      {
+        "question": "What if this strategy stops working?",
+        "answer": "Re-examine: weather pattern shifts, team level mismatch, or progression to harder content before mastering the current habitat. Revisit the related habitat and Pokemon data to find what changed. Do not force a broken strategy — reset the approach and rebuild from confirmed conditions."
       }
     ],
     "published_at": "2026-05-10",
@@ -744,6 +868,10 @@
     ],
     "faqs": [
       {
+        "question": "What is the biggest mistake in Grass team builds?",
+        "answer": "Filling every slot with Grass type Pokemon instead of covering type weaknesses. A good grass team needs defensive backup, utility roles, and coverage for resistances that pure Grass typing cannot handle. Check the related habitat pages for Pokemon that complement your core without breaking the type theme."
+      },
+      {
         "question": "What makes a defense team good?",
         "answer": "It lowers failed runs while keeping the route repeatable. A good defense team is stable, not passive."
       },
@@ -762,6 +890,14 @@
       {
         "question": "Where is this build most useful?",
         "answer": "Use it in routes where failed attempts are expensive, such as Frost Peak-style climbs or controlled midgame farming loops."
+      },
+      {
+        "question": "What recipes work best with Grass teams?",
+        "answer": "Grass teams work best with recipes that boost the team's primary role. Damage-oriented Grass teams benefit from burst or damage buff recipes. Defensive teams need sustain and armor recipes. Check the recipe page for buffs that align with your team's specific role composition."
+      },
+      {
+        "question": "How many Grass Pokemon do I need before starting this build?",
+        "answer": "Start the build when you have 3 confirmed Grass Pokemon with different roles (Tank, Attacker, Support or similar). The remaining slots should cover type weaknesses and provide utility. Commit to a full grass build only after the core is stable."
       }
     ],
     "published_at": "2026-05-11",
@@ -814,6 +950,10 @@
     ],
     "faqs": [
       {
+        "question": "What is the biggest trap in this guide's approach?",
+        "answer": "Treating the advice as a rigid formula instead of a starting framework. Real progress requires adjusting based on your team strength, current level, and available resources. Use the related Pokemon and habitat links to fill in specifics that this guide can only generalize about."
+      },
+      {
         "question": "When should I start building dragon teams?",
         "answer": "Start after your supporting routes are stable. Dragon teams need setup and are rarely the best early-game shortcut."
       },
@@ -832,6 +972,14 @@
       {
         "question": "Why does my dragon team feel expensive?",
         "answer": "The route is probably not stable enough yet. Fix travel, backup support, and survival before spending rare recipes."
+      },
+      {
+        "question": "How long before this strategy shows results?",
+        "answer": "Most strategies show measurable results within 5-10 runs when conditions are met (correct weather, appropriate team, right recipe timing). If results feel slow after 10 attempts, a key condition is usually being missed — recheck the related habitat pages for spawn window, bait timing, or team matchup details."
+      },
+      {
+        "question": "What if this strategy stops working?",
+        "answer": "Re-examine: weather pattern shifts, team level mismatch, or progression to harder content before mastering the current habitat. Revisit the related habitat and Pokemon data to find what changed. Do not force a broken strategy — reset the approach and rebuild from confirmed conditions."
       }
     ],
     "published_at": "2026-05-12",
@@ -902,6 +1050,18 @@
       {
         "question": "How do I avoid wasting recipes?",
         "answer": "Name the bottleneck before using the recipe, then check whether the recipe actually improved that bottleneck."
+      },
+      {
+        "question": "What is the biggest trap in this guide's approach?",
+        "answer": "Treating the advice as a rigid formula instead of a starting framework. Real progress requires adjusting based on your team strength, current level, and available resources. Use the related Pokemon and habitat links to fill in specifics that this guide can only generalize about."
+      },
+      {
+        "question": "How long before this strategy shows results?",
+        "answer": "Most strategies show measurable results within 5-10 runs when conditions are met (correct weather, appropriate team, right recipe timing). If results feel slow after 10 attempts, a key condition is usually being missed — recheck the related habitat pages for spawn window, bait timing, or team matchup details."
+      },
+      {
+        "question": "What if this strategy stops working?",
+        "answer": "Re-examine: weather pattern shifts, team level mismatch, or progression to harder content before mastering the current habitat. Revisit the related habitat and Pokemon data to find what changed. Do not force a broken strategy — reset the approach and rebuild from confirmed conditions."
       }
     ],
     "published_at": "2026-05-13",
@@ -954,6 +1114,10 @@
     ],
     "faqs": [
       {
+        "question": "What is the biggest trap in this guide's approach?",
+        "answer": "Treating the advice as a rigid formula instead of a starting framework. Real progress requires adjusting based on your team strength, current level, and available resources. Use the related Pokemon and habitat links to fill in specifics that this guide can only generalize about."
+      },
+      {
         "question": "What matters most in Sky Isles?",
         "answer": "Movement efficiency. Clean pathing and reset timing matter as much as combat strength."
       },
@@ -972,6 +1136,14 @@
       {
         "question": "Should I full clear Sky Isles?",
         "answer": "Usually no for farming. Repeat the shortest loop that reaches the useful check."
+      },
+      {
+        "question": "How long before this strategy shows results?",
+        "answer": "Most strategies show measurable results within 5-10 runs when conditions are met (correct weather, appropriate team, right recipe timing). If results feel slow after 10 attempts, a key condition is usually being missed — recheck the related habitat pages for spawn window, bait timing, or team matchup details."
+      },
+      {
+        "question": "What if this strategy stops working?",
+        "answer": "Re-examine: weather pattern shifts, team level mismatch, or progression to harder content before mastering the current habitat. Revisit the related habitat and Pokemon data to find what changed. Do not force a broken strategy — reset the approach and rebuild from confirmed conditions."
       }
     ],
     "published_at": "2026-05-14",
@@ -1024,6 +1196,10 @@
     ],
     "faqs": [
       {
+        "question": "What is the biggest trap in this guide's approach?",
+        "answer": "Treating the advice as a rigid formula instead of a starting framework. Real progress requires adjusting based on your team strength, current level, and available resources. Use the related Pokemon and habitat links to fill in specifics that this guide can only generalize about."
+      },
+      {
         "question": "Is Muddy River good for farming?",
         "answer": "Yes, when you keep the route short and repeatable. Long branch-heavy clears reduce its value."
       },
@@ -1042,6 +1218,14 @@
       {
         "question": "Is this a beginner route?",
         "answer": "It is more of a stable midgame route, especially for players building water-team consistency."
+      },
+      {
+        "question": "How long before this strategy shows results?",
+        "answer": "Most strategies show measurable results within 5-10 runs when conditions are met (correct weather, appropriate team, right recipe timing). If results feel slow after 10 attempts, a key condition is usually being missed — recheck the related habitat pages for spawn window, bait timing, or team matchup details."
+      },
+      {
+        "question": "What if this strategy stops working?",
+        "answer": "Re-examine: weather pattern shifts, team level mismatch, or progression to harder content before mastering the current habitat. Revisit the related habitat and Pokemon data to find what changed. Do not force a broken strategy — reset the approach and rebuild from confirmed conditions."
       }
     ],
     "published_at": "2026-05-15",
@@ -1112,6 +1296,18 @@
       {
         "question": "Why does my strongest Pokemon keep failing?",
         "answer": "It is probably being used in the wrong route or without the support needed to reach its power window."
+      },
+      {
+        "question": "Does ranking change as new Pokemon or updates release?",
+        "answer": "Tier rankings reflect the current meta based on confirmed stats, spawn rates, and build viability. As new Pokemon, habitats, or balance updates release, rankings can shift. Check the last updated date on this page and cross-reference with the latest news for confirmed meta changes."
+      },
+      {
+        "question": "Should I always pick the top-ranked option?",
+        "answer": "No. Top rankings reflect overall strength in the current meta, but the best choice for your account depends on your team composition, available habitats, and progression stage. Use tier rankings as a guide for long-term investment, not a replacement for situational judgment."
+      },
+      {
+        "question": "How do tier rankings relate to farming difficulty?",
+        "answer": "Higher-ranked Pokemon are not always harder to farm — some of the strongest Pokemon appear in easy habitats with common spawn rates. Check each Pokemon's habitat page for actual spawn conditions. A legendary in an easy habitat may be faster to farm than a rare in a hard one."
       }
     ],
     "published_at": "2026-05-16",
@@ -1182,6 +1378,18 @@
       {
         "question": "Why are my canyon runs inefficient?",
         "answer": "You are probably clearing too many branches or entering without a specific material goal."
+      },
+      {
+        "question": "What is the biggest trap in this guide's approach?",
+        "answer": "Treating the advice as a rigid formula instead of a starting framework. Real progress requires adjusting based on your team strength, current level, and available resources. Use the related Pokemon and habitat links to fill in specifics that this guide can only generalize about."
+      },
+      {
+        "question": "How long before this strategy shows results?",
+        "answer": "Most strategies show measurable results within 5-10 runs when conditions are met (correct weather, appropriate team, right recipe timing). If results feel slow after 10 attempts, a key condition is usually being missed — recheck the related habitat pages for spawn window, bait timing, or team matchup details."
+      },
+      {
+        "question": "What if this strategy stops working?",
+        "answer": "Re-examine: weather pattern shifts, team level mismatch, or progression to harder content before mastering the current habitat. Revisit the related habitat and Pokemon data to find what changed. Do not force a broken strategy — reset the approach and rebuild from confirmed conditions."
       }
     ],
     "published_at": "2026-05-17",
@@ -1252,6 +1460,18 @@
       {
         "question": "Why does my water team feel slow?",
         "answer": "It may need a pressure slot or a shorter route, not simply another defensive option."
+      },
+      {
+        "question": "What is the biggest mistake in Water team builds?",
+        "answer": "Filling every slot with Water type Pokemon instead of covering type weaknesses. A good water team needs defensive backup, utility roles, and coverage for resistances that pure Water typing cannot handle. Check the related habitat pages for Pokemon that complement your core without breaking the type theme."
+      },
+      {
+        "question": "What recipes work best with Water teams?",
+        "answer": "Water teams work best with recipes that boost the team's primary role. Damage-oriented Water teams benefit from burst or damage buff recipes. Defensive teams need sustain and armor recipes. Check the recipe page for buffs that align with your team's specific role composition."
+      },
+      {
+        "question": "How many Water Pokemon do I need before starting this build?",
+        "answer": "Start the build when you have 3 confirmed Water Pokemon with different roles (Tank, Attacker, Support or similar). The remaining slots should cover type weaknesses and provide utility. Commit to a full water build only after the core is stable."
       }
     ],
     "published_at": "2026-05-18",
@@ -1322,6 +1542,18 @@
       {
         "question": "Do I need a support Pokemon?",
         "answer": "Usually yes. Status and survival support can matter more than another attacker in Shadow Marsh."
+      },
+      {
+        "question": "How many runs before judging if a farming route is efficient?",
+        "answer": "Judge a route over 5-10 runs minimum. Spawn variance and weather windows affect individual runs significantly. Track drops per hour across sessions — if it still feels inefficient after 10 runs with correct conditions, check whether a better habitat or weather window exists on the related habitat page."
+      },
+      {
+        "question": "Should I use rare attraction bait on every run?",
+        "answer": "No. Use rare bait only on confirmed spawn encounters. Run the habitat 1-2 times without bait first to verify the Pokemon is actually present in the current weather. Wasting rare bait on wrong branches or empty windows is the most common farming efficiency mistake."
+      },
+      {
+        "question": "What is the correct exit rule for farming runs?",
+        "answer": "Set a specific exit condition before entering: a number of runs, a material quantity, or a weather change. Never continue past your exit condition chasing a drop. Fatigue and sunk-cost thinking are the biggest farming traps — a clear rule prevents both."
       }
     ],
     "published_at": "2026-05-19",
@@ -1374,6 +1606,10 @@
     ],
     "faqs": [
       {
+        "question": "What is the biggest mistake in Electric team builds?",
+        "answer": "Filling every slot with Electric type Pokemon instead of covering type weaknesses. A good electric team needs defensive backup, utility roles, and coverage for resistances that pure Electric typing cannot handle. Check the related habitat pages for Pokemon that complement your core without breaking the type theme."
+      },
+      {
         "question": "What makes an electric speed build good?",
         "answer": "It turns speed into more useful attempts, not just faster movement."
       },
@@ -1392,6 +1628,14 @@
       {
         "question": "Why is my speed team inconsistent?",
         "answer": "It likely has speed without stability. Add coverage or utility before adding more tempo."
+      },
+      {
+        "question": "What recipes work best with Electric teams?",
+        "answer": "Electric teams work best with recipes that boost the team's primary role. Damage-oriented Electric teams benefit from burst or damage buff recipes. Defensive teams need sustain and armor recipes. Check the recipe page for buffs that align with your team's specific role composition."
+      },
+      {
+        "question": "How many Electric Pokemon do I need before starting this build?",
+        "answer": "Start the build when you have 3 confirmed Electric Pokemon with different roles (Tank, Attacker, Support or similar). The remaining slots should cover type weaknesses and provide utility. Commit to a full electric build only after the core is stable."
       }
     ],
     "published_at": "2026-05-20",
@@ -1444,6 +1688,10 @@
     ],
     "faqs": [
       {
+        "question": "What is the biggest trap in this guide's approach?",
+        "answer": "Treating the advice as a rigid formula instead of a starting framework. Real progress requires adjusting based on your team strength, current level, and available resources. Use the related Pokemon and habitat links to fill in specifics that this guide can only generalize about."
+      },
+      {
         "question": "When should I attempt Dragon's Den?",
         "answer": "Attempt it seriously after supporting routes are stable and your team can reach the key section without heavy recovery."
       },
@@ -1462,6 +1710,14 @@
       {
         "question": "Is this a farming route?",
         "answer": "Not at first. Treat it as an unlock and scouting route before turning it into a repeatable farm."
+      },
+      {
+        "question": "How long before this strategy shows results?",
+        "answer": "Most strategies show measurable results within 5-10 runs when conditions are met (correct weather, appropriate team, right recipe timing). If results feel slow after 10 attempts, a key condition is usually being missed — recheck the related habitat pages for spawn window, bait timing, or team matchup details."
+      },
+      {
+        "question": "What if this strategy stops working?",
+        "answer": "Re-examine: weather pattern shifts, team level mismatch, or progression to harder content before mastering the current habitat. Revisit the related habitat and Pokemon data to find what changed. Do not force a broken strategy — reset the approach and rebuild from confirmed conditions."
       }
     ],
     "published_at": "2026-05-21",
@@ -1514,6 +1770,10 @@
     ],
     "faqs": [
       {
+        "question": "What is the biggest trap in this guide's approach?",
+        "answer": "Treating the advice as a rigid formula instead of a starting framework. Real progress requires adjusting based on your team strength, current level, and available resources. Use the related Pokemon and habitat links to fill in specifics that this guide can only generalize about."
+      },
+      {
         "question": "Why should I use Training Grounds?",
         "answer": "It teaches team roles and route habits without the cost of harder habitats."
       },
@@ -1532,6 +1792,14 @@
       {
         "question": "Is Training Grounds only for new players?",
         "answer": "No. It is also useful when testing a new team shape before taking it into expensive routes."
+      },
+      {
+        "question": "How long before this strategy shows results?",
+        "answer": "Most strategies show measurable results within 5-10 runs when conditions are met (correct weather, appropriate team, right recipe timing). If results feel slow after 10 attempts, a key condition is usually being missed — recheck the related habitat pages for spawn window, bait timing, or team matchup details."
+      },
+      {
+        "question": "What if this strategy stops working?",
+        "answer": "Re-examine: weather pattern shifts, team level mismatch, or progression to harder content before mastering the current habitat. Revisit the related habitat and Pokemon data to find what changed. Do not force a broken strategy — reset the approach and rebuild from confirmed conditions."
       }
     ],
     "published_at": "2026-05-22",
@@ -1602,6 +1870,18 @@
       {
         "question": "Where should I use poison teams?",
         "answer": "They fit pressure-heavy habitats such as Nightmare Forest-style routes once normal clears are stable."
+      },
+      {
+        "question": "What is the biggest mistake in Grass/Poison team builds?",
+        "answer": "Filling every slot with Grass/Poison type Pokemon instead of covering type weaknesses. A good grass/poison team needs defensive backup, utility roles, and coverage for resistances that pure Grass/Poison typing cannot handle. Check the related habitat pages for Pokemon that complement your core without breaking the type theme."
+      },
+      {
+        "question": "What recipes work best with Grass/Poison teams?",
+        "answer": "Grass/Poison teams work best with recipes that boost the team's primary role. Damage-oriented Grass/Poison teams benefit from burst or damage buff recipes. Defensive teams need sustain and armor recipes. Check the recipe page for buffs that align with your team's specific role composition."
+      },
+      {
+        "question": "How many Grass/Poison Pokemon do I need before starting this build?",
+        "answer": "Start the build when you have 3 confirmed Grass/Poison Pokemon with different roles (Tank, Attacker, Support or similar). The remaining slots should cover type weaknesses and provide utility. Commit to a full grass/poison build only after the core is stable."
       }
     ],
     "published_at": "2026-05-22",
@@ -1654,6 +1934,10 @@
     ],
     "faqs": [
       {
+        "question": "What is the biggest trap in this guide's approach?",
+        "answer": "Treating the advice as a rigid formula instead of a starting framework. Real progress requires adjusting based on your team strength, current level, and available resources. Use the related Pokemon and habitat links to fill in specifics that this guide can only generalize about."
+      },
+      {
         "question": "Which legendary should I target first?",
         "answer": "Target the one tied to the route you can repeat most cleanly, not necessarily the flashiest name."
       },
@@ -1672,6 +1956,14 @@
       {
         "question": "Should I rotate targets often?",
         "answer": "No. Pick one target and build enough attempts to learn the route properly."
+      },
+      {
+        "question": "How long before this strategy shows results?",
+        "answer": "Most strategies show measurable results within 5-10 runs when conditions are met (correct weather, appropriate team, right recipe timing). If results feel slow after 10 attempts, a key condition is usually being missed — recheck the related habitat pages for spawn window, bait timing, or team matchup details."
+      },
+      {
+        "question": "What if this strategy stops working?",
+        "answer": "Re-examine: weather pattern shifts, team level mismatch, or progression to harder content before mastering the current habitat. Revisit the related habitat and Pokemon data to find what changed. Do not force a broken strategy — reset the approach and rebuild from confirmed conditions."
       }
     ],
     "published_at": "2026-05-22",
@@ -1742,6 +2034,18 @@
       {
         "question": "Should I full clear the cave?",
         "answer": "Not for farming. Find the valuable branch and repeat that loop."
+      },
+      {
+        "question": "What is the biggest trap in this guide's approach?",
+        "answer": "Treating the advice as a rigid formula instead of a starting framework. Real progress requires adjusting based on your team strength, current level, and available resources. Use the related Pokemon and habitat links to fill in specifics that this guide can only generalize about."
+      },
+      {
+        "question": "How long before this strategy shows results?",
+        "answer": "Most strategies show measurable results within 5-10 runs when conditions are met (correct weather, appropriate team, right recipe timing). If results feel slow after 10 attempts, a key condition is usually being missed — recheck the related habitat pages for spawn window, bait timing, or team matchup details."
+      },
+      {
+        "question": "What if this strategy stops working?",
+        "answer": "Re-examine: weather pattern shifts, team level mismatch, or progression to harder content before mastering the current habitat. Revisit the related habitat and Pokemon data to find what changed. Do not force a broken strategy — reset the approach and rebuild from confirmed conditions."
       }
     ],
     "published_at": "2026-05-22",
@@ -1812,6 +2116,18 @@
       {
         "question": "Should I use Grass Heal?",
         "answer": "Use Grass Heal when survival is the bottleneck, not as a default button."
+      },
+      {
+        "question": "Does ranking change as new Pokemon or updates release?",
+        "answer": "Tier rankings reflect the current meta based on confirmed stats, spawn rates, and build viability. As new Pokemon, habitats, or balance updates release, rankings can shift. Check the last updated date on this page and cross-reference with the latest news for confirmed meta changes."
+      },
+      {
+        "question": "Should I always pick the top-ranked option?",
+        "answer": "No. Top rankings reflect overall strength in the current meta, but the best choice for your account depends on your team composition, available habitats, and progression stage. Use tier rankings as a guide for long-term investment, not a replacement for situational judgment."
+      },
+      {
+        "question": "How do tier rankings relate to farming difficulty?",
+        "answer": "Higher-ranked Pokemon are not always harder to farm — some of the strongest Pokemon appear in easy habitats with common spawn rates. Check each Pokemon's habitat page for actual spawn conditions. A legendary in an easy habitat may be faster to farm than a rare in a hard one."
       }
     ],
     "published_at": "2026-05-22",
@@ -1882,6 +2198,18 @@
       {
         "question": "Should every hard route use steel?",
         "answer": "No. Use steel when resistance and durability solve the actual route problem."
+      },
+      {
+        "question": "What is the biggest mistake in Electric/Steel team builds?",
+        "answer": "Filling every slot with Electric/Steel type Pokemon instead of covering type weaknesses. A good electric/steel team needs defensive backup, utility roles, and coverage for resistances that pure Electric/Steel typing cannot handle. Check the related habitat pages for Pokemon that complement your core without breaking the type theme."
+      },
+      {
+        "question": "What recipes work best with Electric/Steel teams?",
+        "answer": "Electric/Steel teams work best with recipes that boost the team's primary role. Damage-oriented Electric/Steel teams benefit from burst or damage buff recipes. Defensive teams need sustain and armor recipes. Check the recipe page for buffs that align with your team's specific role composition."
+      },
+      {
+        "question": "How many Electric/Steel Pokemon do I need before starting this build?",
+        "answer": "Start the build when you have 3 confirmed Electric/Steel Pokemon with different roles (Tank, Attacker, Support or similar). The remaining slots should cover type weaknesses and provide utility. Commit to a full electric/steel build only after the core is stable."
       }
     ],
     "published_at": "2026-05-22",
@@ -1952,6 +2280,18 @@
       {
         "question": "Should I full clear Fairy Glen?",
         "answer": "Only while scouting. For farming, repeat the shortest route that reaches the valuable hidden checks."
+      },
+      {
+        "question": "What is the biggest trap in this guide's approach?",
+        "answer": "Treating the advice as a rigid formula instead of a starting framework. Real progress requires adjusting based on your team strength, current level, and available resources. Use the related Pokemon and habitat links to fill in specifics that this guide can only generalize about."
+      },
+      {
+        "question": "How long before this strategy shows results?",
+        "answer": "Most strategies show measurable results within 5-10 runs when conditions are met (correct weather, appropriate team, right recipe timing). If results feel slow after 10 attempts, a key condition is usually being missed — recheck the related habitat pages for spawn window, bait timing, or team matchup details."
+      },
+      {
+        "question": "What if this strategy stops working?",
+        "answer": "Re-examine: weather pattern shifts, team level mismatch, or progression to harder content before mastering the current habitat. Revisit the related habitat and Pokemon data to find what changed. Do not force a broken strategy — reset the approach and rebuild from confirmed conditions."
       }
     ],
     "published_at": "2026-05-22",
@@ -2004,6 +2344,10 @@
     ],
     "faqs": [
       {
+        "question": "What is the biggest trap in this guide's approach?",
+        "answer": "Treating the advice as a rigid formula instead of a starting framework. Real progress requires adjusting based on your team strength, current level, and available resources. Use the related Pokemon and habitat links to fill in specifics that this guide can only generalize about."
+      },
+      {
         "question": "Is Nightmare Forest hard?",
         "answer": "Yes. It should be treated as a hard control route with pressure, sustain, and route-planning demands."
       },
@@ -2022,6 +2366,14 @@
       {
         "question": "Should I rare farm immediately?",
         "answer": "No. Make normal clears stable first, then shorten the route around the valuable check."
+      },
+      {
+        "question": "How long before this strategy shows results?",
+        "answer": "Most strategies show measurable results within 5-10 runs when conditions are met (correct weather, appropriate team, right recipe timing). If results feel slow after 10 attempts, a key condition is usually being missed — recheck the related habitat pages for spawn window, bait timing, or team matchup details."
+      },
+      {
+        "question": "What if this strategy stops working?",
+        "answer": "Re-examine: weather pattern shifts, team level mismatch, or progression to harder content before mastering the current habitat. Revisit the related habitat and Pokemon data to find what changed. Do not force a broken strategy — reset the approach and rebuild from confirmed conditions."
       }
     ],
     "published_at": "2026-05-22",
@@ -2094,6 +2446,18 @@
       {
         "question": "Should I use only legendary Pokemon?",
         "answer": "No. Legendary carries still need support, coverage, and route-specific recipe timing."
+      },
+      {
+        "question": "Does ranking change as new Pokemon or updates release?",
+        "answer": "Tier rankings reflect the current meta based on confirmed stats, spawn rates, and build viability. As new Pokemon, habitats, or balance updates release, rankings can shift. Check the last updated date on this page and cross-reference with the latest news for confirmed meta changes."
+      },
+      {
+        "question": "Should I always pick the top-ranked option?",
+        "answer": "No. Top rankings reflect overall strength in the current meta, but the best choice for your account depends on your team composition, available habitats, and progression stage. Use tier rankings as a guide for long-term investment, not a replacement for situational judgment."
+      },
+      {
+        "question": "How do tier rankings relate to farming difficulty?",
+        "answer": "Higher-ranked Pokemon are not always harder to farm — some of the strongest Pokemon appear in easy habitats with common spawn rates. Check each Pokemon's habitat page for actual spawn conditions. A legendary in an easy habitat may be faster to farm than a rare in a hard one."
       }
     ],
     "published_at": "2026-05-22",
@@ -2139,6 +2503,10 @@
     ],
     "faqs": [
       {
+        "question": "What is Voltscale used for?",
+        "answer": "Voltscale is a Attacker with Electric/Dragon typing."
+      },
+      {
         "question": "Where does Voltscale spawn?",
         "answer": "Voltscale spawns in Windmill Plains during Night in Thunderstorm weather."
       },
@@ -2147,8 +2515,24 @@
         "answer": "Voltscale is attracted by Lightning Bug. Bring plenty when farming."
       },
       {
-        "question": "What is Voltscale used for?",
-        "answer": "Voltscale is a Attacker with Electric/Dragon typing."
+        "question": "What team partners work best with Voltscale?",
+        "answer": "Voltscale is a legendary Electric/Dragon Attacker. It pairs best with Pokemon that cover its type weaknesses. Check the Windmill Plains habitat page to see which Pokemon spawn alongside it and can fill complementary roles in your team."
+      },
+      {
+        "question": "When is the best time to farm Voltscale?",
+        "answer": "Commit to farming Voltscale only after reaching Windmill Plains reliably with a full team. Use scout runs to learn the spawn location before spending Lightning Bug."
+      },
+      {
+        "question": "What recipes synergize with Voltscale for attacker builds?",
+        "answer": "Recipes that boost Electric/Dragon spawn rates or attacker effectiveness pair best with Voltscale. Check the recipe page for buffs matching Voltscale's role. Save rare attraction bait for confirmed spawn encounters, not scout runs."
+      },
+      {
+        "question": "How does Voltscale compare to other Electric/Dragon Pokemon?",
+        "answer": "Voltscale is a legendary Electric/Dragon Attacker. As a legendary, it outperforms common and uncommon Electric/Dragon options in stats and material drops. Compare it on the wiki page before committing to a farming schedule."
+      },
+      {
+        "question": "What mistakes happen most often when catching Voltscale?",
+        "answer": "The most common mistakes are: entering Windmill Plains outside Windy weather, using the wrong bait for Voltscale, and spending attraction items on scout runs instead of confirmed encounters. Set a weather check before every run and have a clear exit rule."
       }
     ],
     "published_at": 1778544000,
@@ -2194,6 +2578,10 @@
     ],
     "faqs": [
       {
+        "question": "What is Shadowclaw used for?",
+        "answer": "Shadowclaw is a Assassin with Dark/Ghost typing."
+      },
+      {
         "question": "Where does Shadowclaw spawn?",
         "answer": "Shadowclaw spawns in Shadow Marsh during Night in Stormy weather."
       },
@@ -2202,8 +2590,24 @@
         "answer": "Shadowclaw is attracted by Void Fruit. Bring plenty when farming."
       },
       {
-        "question": "What is Shadowclaw used for?",
-        "answer": "Shadowclaw is a Assassin with Dark/Ghost typing."
+        "question": "What team partners work best with Shadowclaw?",
+        "answer": "Shadowclaw is a legendary Dark/Ghost Assassin. It pairs best with Pokemon that cover its type weaknesses. Check the Shadow Marsh habitat page to see which Pokemon spawn alongside it and can fill complementary roles in your team."
+      },
+      {
+        "question": "When is the best time to farm Shadowclaw?",
+        "answer": "Commit to farming Shadowclaw only after reaching Shadow Marsh reliably with a full team. Use scout runs to learn the spawn location before spending Void Fruit."
+      },
+      {
+        "question": "What recipes synergize with Shadowclaw for assassin builds?",
+        "answer": "Recipes that boost Dark/Ghost spawn rates or assassin effectiveness pair best with Shadowclaw. Check the recipe page for buffs matching Shadowclaw's role. Save rare attraction bait for confirmed spawn encounters, not scout runs."
+      },
+      {
+        "question": "How does Shadowclaw compare to other Dark/Ghost Pokemon?",
+        "answer": "Shadowclaw is a legendary Dark/Ghost Assassin. As a legendary, it outperforms common and uncommon Dark/Ghost options in stats and material drops. Compare it on the wiki page before committing to a farming schedule."
+      },
+      {
+        "question": "What mistakes happen most often when catching Shadowclaw?",
+        "answer": "The most common mistakes are: entering Shadow Marsh outside Stormy/Night weather, using the wrong bait for Shadowclaw, and spending attraction items on scout runs instead of confirmed encounters. Set a weather check before every run and have a clear exit rule."
       }
     ],
     "published_at": 1778544000,
@@ -2249,6 +2653,10 @@
     ],
     "faqs": [
       {
+        "question": "What is Primordion used for?",
+        "answer": "Primordion is a Tank with Dragon/Ground typing."
+      },
+      {
         "question": "Where does Primordion spawn?",
         "answer": "Primordion spawns in Muddy River during Any in Rain weather."
       },
@@ -2257,8 +2665,24 @@
         "answer": "Primordion is attracted by Golden Fish. Bring plenty when farming."
       },
       {
-        "question": "What is Primordion used for?",
-        "answer": "Primordion is a Tank with Dragon/Ground typing."
+        "question": "What team partners work best with Primordion?",
+        "answer": "Primordion is a legendary Dragon/Ground Tank. It pairs best with Pokemon that cover its type weaknesses. Check the Muddy River habitat page to see which Pokemon spawn alongside it and can fill complementary roles in your team."
+      },
+      {
+        "question": "When is the best time to farm Primordion?",
+        "answer": "Commit to farming Primordion only after reaching Muddy River reliably with a full team. Use scout runs to learn the spawn location before spending Golden Fish."
+      },
+      {
+        "question": "What recipes synergize with Primordion for tank builds?",
+        "answer": "Recipes that boost Dragon/Ground spawn rates or tank effectiveness pair best with Primordion. Check the recipe page for buffs matching Primordion's role. Save rare attraction bait for confirmed spawn encounters, not scout runs."
+      },
+      {
+        "question": "How does Primordion compare to other Dragon/Ground Pokemon?",
+        "answer": "Primordion is a legendary Dragon/Ground Tank. As a legendary, it outperforms common and uncommon Dragon/Ground options in stats and material drops. Compare it on the wiki page before committing to a farming schedule."
+      },
+      {
+        "question": "What mistakes happen most often when catching Primordion?",
+        "answer": "The most common mistakes are: entering Muddy River outside Rain weather, using the wrong bait for Primordion, and spending attraction items on scout runs instead of confirmed encounters. Set a weather check before every run and have a clear exit rule."
       }
     ],
     "published_at": 1778544000,
@@ -2304,6 +2728,10 @@
     ],
     "faqs": [
       {
+        "question": "What is Flamexor used for?",
+        "answer": "Flamexor is a Tank with Fire/Steel typing."
+      },
+      {
         "question": "Where does Flamexor spawn?",
         "answer": "Flamexor spawns in Volcanic Cave during Night in Clear weather."
       },
@@ -2312,8 +2740,24 @@
         "answer": "Flamexor is attracted by Iron Ore. Bring plenty when farming."
       },
       {
-        "question": "What is Flamexor used for?",
-        "answer": "Flamexor is a Tank with Fire/Steel typing."
+        "question": "What team partners work best with Flamexor?",
+        "answer": "Flamexor is a legendary Fire/Steel Tank. It pairs best with Pokemon that cover its type weaknesses. Check the Volcanic Cave habitat page to see which Pokemon spawn alongside it and can fill complementary roles in your team."
+      },
+      {
+        "question": "When is the best time to farm Flamexor?",
+        "answer": "Commit to farming Flamexor only after reaching Volcanic Cave reliably with a full team. Use scout runs to learn the spawn location before spending Iron Ore."
+      },
+      {
+        "question": "What recipes synergize with Flamexor for tank builds?",
+        "answer": "Recipes that boost Fire/Steel spawn rates or tank effectiveness pair best with Flamexor. Check the recipe page for buffs matching Flamexor's role. Save rare attraction bait for confirmed spawn encounters, not scout runs."
+      },
+      {
+        "question": "How does Flamexor compare to other Fire/Steel Pokemon?",
+        "answer": "Flamexor is a legendary Fire/Steel Tank. As a legendary, it outperforms common and uncommon Fire/Steel options in stats and material drops. Compare it on the wiki page before committing to a farming schedule."
+      },
+      {
+        "question": "What mistakes happen most often when catching Flamexor?",
+        "answer": "The most common mistakes are: entering Volcanic Cave outside Clear/Sunny weather, using the wrong bait for Flamexor, and spending attraction items on scout runs instead of confirmed encounters. Set a weather check before every run and have a clear exit rule."
       }
     ],
     "published_at": 1778544000,
@@ -2359,6 +2803,10 @@
     ],
     "faqs": [
       {
+        "question": "What is Lunaflare used for?",
+        "answer": "Lunaflare is a Attacker with Ghost/Fire typing."
+      },
+      {
         "question": "Where does Lunaflare spawn?",
         "answer": "Lunaflare spawns in Shadow Marsh during Night in Stormy weather."
       },
@@ -2367,8 +2815,24 @@
         "answer": "Lunaflare is attracted by Soul Dust. Bring plenty when farming."
       },
       {
-        "question": "What is Lunaflare used for?",
-        "answer": "Lunaflare is a Attacker with Ghost/Fire typing."
+        "question": "What team partners work best with Lunaflare?",
+        "answer": "Lunaflare is a legendary Ghost/Fire Attacker. It pairs best with Pokemon that cover its type weaknesses. Check the Shadow Marsh habitat page to see which Pokemon spawn alongside it and can fill complementary roles in your team."
+      },
+      {
+        "question": "When is the best time to farm Lunaflare?",
+        "answer": "Commit to farming Lunaflare only after reaching Shadow Marsh reliably with a full team. Use scout runs to learn the spawn location before spending Soul Dust."
+      },
+      {
+        "question": "What recipes synergize with Lunaflare for attacker builds?",
+        "answer": "Recipes that boost Ghost/Fire spawn rates or attacker effectiveness pair best with Lunaflare. Check the recipe page for buffs matching Lunaflare's role. Save rare attraction bait for confirmed spawn encounters, not scout runs."
+      },
+      {
+        "question": "How does Lunaflare compare to other Ghost/Fire Pokemon?",
+        "answer": "Lunaflare is a legendary Ghost/Fire Attacker. As a legendary, it outperforms common and uncommon Ghost/Fire options in stats and material drops. Compare it on the wiki page before committing to a farming schedule."
+      },
+      {
+        "question": "What mistakes happen most often when catching Lunaflare?",
+        "answer": "The most common mistakes are: entering Shadow Marsh outside Stormy/Night weather, using the wrong bait for Lunaflare, and spending attraction items on scout runs instead of confirmed encounters. Set a weather check before every run and have a clear exit rule."
       }
     ],
     "published_at": 1778544000,
@@ -2414,6 +2878,10 @@
     ],
     "faqs": [
       {
+        "question": "What is Leafon used for?",
+        "answer": "Leafon is a Assassin Grass/Poison Pokemon."
+      },
+      {
         "question": "Where does Leafon spawn?",
         "answer": "Leafon spawns in Forest Valley during Night in Foggy weather."
       },
@@ -2422,8 +2890,24 @@
         "answer": "Leafon is attracted by Mystery Mushroom."
       },
       {
-        "question": "What is Leafon used for?",
-        "answer": "Leafon is a Assassin Grass/Poison Pokemon."
+        "question": "What team partners work best with Leafon?",
+        "answer": "Leafon is a rare Grass/Poison Assassin. It pairs best with Pokemon that cover its type weaknesses. Check the Forest Valley habitat page to see which Pokemon spawn alongside it and can fill complementary roles in your team."
+      },
+      {
+        "question": "When is the best time to farm Leafon?",
+        "answer": "Commit to farming Leafon only after reaching Forest Valley reliably with a full team. Use scout runs to learn the spawn location before spending Mystery Mushroom."
+      },
+      {
+        "question": "What recipes synergize with Leafon for assassin builds?",
+        "answer": "Recipes that boost Grass/Poison spawn rates or assassin effectiveness pair best with Leafon. Check the recipe page for buffs matching Leafon's role. Save rare attraction bait for confirmed spawn encounters, not scout runs."
+      },
+      {
+        "question": "How does Leafon compare to other Grass/Poison Pokemon?",
+        "answer": "Leafon is a rare Grass/Poison Assassin. As a rare, it is worth prioritizing over common Grass/Poison options for long-term build planning. Compare it on the wiki page before committing to a farming schedule."
+      },
+      {
+        "question": "What mistakes happen most often when catching Leafon?",
+        "answer": "The most common mistakes are: entering Forest Valley outside Cloudy/Foggy weather, using the wrong bait for Leafon, and spending attraction items on scout runs instead of confirmed encounters. Set a weather check before every run and have a clear exit rule."
       }
     ],
     "published_at": 1778544000,
@@ -2469,6 +2953,10 @@
     ],
     "faqs": [
       {
+        "question": "What is Shados used for?",
+        "answer": "Shados is a Assassin Ghost Pokemon."
+      },
+      {
         "question": "Where does Shados spawn?",
         "answer": "Shados spawns in Shadow Marsh during Night in Stormy weather."
       },
@@ -2477,8 +2965,24 @@
         "answer": "Shados is attracted by Soul Dust."
       },
       {
-        "question": "What is Shados used for?",
-        "answer": "Shados is a Assassin Ghost Pokemon."
+        "question": "What team partners work best with Shados?",
+        "answer": "Shados is a rare Ghost Assassin. It pairs best with Pokemon that cover its type weaknesses. Check the Shadow Marsh habitat page to see which Pokemon spawn alongside it and can fill complementary roles in your team."
+      },
+      {
+        "question": "When is the best time to farm Shados?",
+        "answer": "Commit to farming Shados only after reaching Shadow Marsh reliably with a full team. Use scout runs to learn the spawn location before spending Soul Dust."
+      },
+      {
+        "question": "What recipes synergize with Shados for assassin builds?",
+        "answer": "Recipes that boost Ghost spawn rates or assassin effectiveness pair best with Shados. Check the recipe page for buffs matching Shados's role. Save rare attraction bait for confirmed spawn encounters, not scout runs."
+      },
+      {
+        "question": "How does Shados compare to other Ghost Pokemon?",
+        "answer": "Shados is a rare Ghost Assassin. As a rare, it is worth prioritizing over common Ghost options for long-term build planning. Compare it on the wiki page before committing to a farming schedule."
+      },
+      {
+        "question": "What mistakes happen most often when catching Shados?",
+        "answer": "The most common mistakes are: entering Shadow Marsh outside Stormy/Night weather, using the wrong bait for Shados, and spending attraction items on scout runs instead of confirmed encounters. Set a weather check before every run and have a clear exit rule."
       }
     ],
     "published_at": 1778544000,
@@ -2524,6 +3028,10 @@
     ],
     "faqs": [
       {
+        "question": "What is Crystion used for?",
+        "answer": "Crystion is a Attacker Crystal/Fairy Pokemon."
+      },
+      {
         "question": "Where does Crystion spawn?",
         "answer": "Crystion spawns in Gemstone Canyon during Night in Snow weather."
       },
@@ -2532,8 +3040,24 @@
         "answer": "Crystion is attracted by Gem."
       },
       {
-        "question": "What is Crystion used for?",
-        "answer": "Crystion is a Attacker Crystal/Fairy Pokemon."
+        "question": "What team partners work best with Crystion?",
+        "answer": "Crystion is a rare Crystal/Fairy Attacker. It pairs best with Pokemon that cover its type weaknesses. Check the Gemstone Canyon habitat page to see which Pokemon spawn alongside it and can fill complementary roles in your team."
+      },
+      {
+        "question": "When is the best time to farm Crystion?",
+        "answer": "Commit to farming Crystion only after reaching Gemstone Canyon reliably with a full team. Use scout runs to learn the spawn location before spending Gem."
+      },
+      {
+        "question": "What recipes synergize with Crystion for attacker builds?",
+        "answer": "Recipes that boost Crystal/Fairy spawn rates or attacker effectiveness pair best with Crystion. Check the recipe page for buffs matching Crystion's role. Save rare attraction bait for confirmed spawn encounters, not scout runs."
+      },
+      {
+        "question": "How does Crystion compare to other Crystal/Fairy Pokemon?",
+        "answer": "Crystion is a rare Crystal/Fairy Attacker. As a rare, it is worth prioritizing over common Crystal/Fairy options for long-term build planning. Compare it on the wiki page before committing to a farming schedule."
+      },
+      {
+        "question": "What mistakes happen most often when catching Crystion?",
+        "answer": "The most common mistakes are: entering Gemstone Canyon outside Clear weather, using the wrong bait for Crystion, and spending attraction items on scout runs instead of confirmed encounters. Set a weather check before every run and have a clear exit rule."
       }
     ],
     "published_at": 1778544000,
@@ -2579,6 +3103,10 @@
     ],
     "faqs": [
       {
+        "question": "What is Bronzorm used for?",
+        "answer": "Bronzorm is a Support Steel/Psychic Pokemon."
+      },
+      {
         "question": "Where does Bronzorm spawn?",
         "answer": "Bronzorm spawns in Ancient Ruins during Day in Cloudy weather."
       },
@@ -2587,8 +3115,24 @@
         "answer": "Bronzorm is attracted by Coin."
       },
       {
-        "question": "What is Bronzorm used for?",
-        "answer": "Bronzorm is a Support Steel/Psychic Pokemon."
+        "question": "What team partners work best with Bronzorm?",
+        "answer": "Bronzorm is a rare Steel/Psychic Support. It pairs best with Pokemon that cover its type weaknesses. Check the Ancient Ruins habitat page to see which Pokemon spawn alongside it and can fill complementary roles in your team."
+      },
+      {
+        "question": "When is the best time to farm Bronzorm?",
+        "answer": "Commit to farming Bronzorm only after reaching Ancient Ruins reliably with a full team. Use scout runs to learn the spawn location before spending Coin."
+      },
+      {
+        "question": "What recipes synergize with Bronzorm for support builds?",
+        "answer": "Recipes that boost Steel/Psychic spawn rates or support effectiveness pair best with Bronzorm. Check the recipe page for buffs matching Bronzorm's role. Save rare attraction bait for confirmed spawn encounters, not scout runs."
+      },
+      {
+        "question": "How does Bronzorm compare to other Steel/Psychic Pokemon?",
+        "answer": "Bronzorm is a rare Steel/Psychic Support. As a rare, it is worth prioritizing over common Steel/Psychic options for long-term build planning. Compare it on the wiki page before committing to a farming schedule."
+      },
+      {
+        "question": "What mistakes happen most often when catching Bronzorm?",
+        "answer": "The most common mistakes are: entering Ancient Ruins outside Cloudy weather, using the wrong bait for Bronzorm, and spending attraction items on scout runs instead of confirmed encounters. Set a weather check before every run and have a clear exit rule."
       }
     ],
     "published_at": 1778544000,
@@ -2634,6 +3178,10 @@
     ],
     "faqs": [
       {
+        "question": "What is Stealthfin used for?",
+        "answer": "Stealthfin is a Assassin Water/Dark Pokemon."
+      },
+      {
         "question": "Where does Stealthfin spawn?",
         "answer": "Stealthfin spawns in Muddy River during Night in Rain weather."
       },
@@ -2642,8 +3190,24 @@
         "answer": "Stealthfin is attracted by Fish."
       },
       {
-        "question": "What is Stealthfin used for?",
-        "answer": "Stealthfin is a Assassin Water/Dark Pokemon."
+        "question": "What team partners work best with Stealthfin?",
+        "answer": "Stealthfin is a rare Water/Dark Assassin. It pairs best with Pokemon that cover its type weaknesses. Check the Muddy River habitat page to see which Pokemon spawn alongside it and can fill complementary roles in your team."
+      },
+      {
+        "question": "When is the best time to farm Stealthfin?",
+        "answer": "Commit to farming Stealthfin only after reaching Muddy River reliably with a full team. Use scout runs to learn the spawn location before spending Fish."
+      },
+      {
+        "question": "What recipes synergize with Stealthfin for assassin builds?",
+        "answer": "Recipes that boost Water/Dark spawn rates or assassin effectiveness pair best with Stealthfin. Check the recipe page for buffs matching Stealthfin's role. Save rare attraction bait for confirmed spawn encounters, not scout runs."
+      },
+      {
+        "question": "How does Stealthfin compare to other Water/Dark Pokemon?",
+        "answer": "Stealthfin is a rare Water/Dark Assassin. As a rare, it is worth prioritizing over common Water/Dark options for long-term build planning. Compare it on the wiki page before committing to a farming schedule."
+      },
+      {
+        "question": "What mistakes happen most often when catching Stealthfin?",
+        "answer": "The most common mistakes are: entering Muddy River outside Rain weather, using the wrong bait for Stealthfin, and spending attraction items on scout runs instead of confirmed encounters. Set a weather check before every run and have a clear exit rule."
       }
     ],
     "published_at": 1778544000,
@@ -2689,6 +3253,10 @@
     ],
     "faqs": [
       {
+        "question": "What is Frostbite used for?",
+        "answer": "Frostbite is a Assassin Ice/Ghost Pokemon."
+      },
+      {
         "question": "Where does Frostbite spawn?",
         "answer": "Frostbite spawns in Frost Peak during Night in Snow weather."
       },
@@ -2697,8 +3265,24 @@
         "answer": "Frostbite is attracted by Frozen Soul."
       },
       {
-        "question": "What is Frostbite used for?",
-        "answer": "Frostbite is a Assassin Ice/Ghost Pokemon."
+        "question": "What team partners work best with Frostbite?",
+        "answer": "Frostbite is a rare Ice/Ghost Assassin. It pairs best with Pokemon that cover its type weaknesses. Check the Frost Peak habitat page to see which Pokemon spawn alongside it and can fill complementary roles in your team."
+      },
+      {
+        "question": "When is the best time to farm Frostbite?",
+        "answer": "Commit to farming Frostbite only after reaching Frost Peak reliably with a full team. Use scout runs to learn the spawn location before spending Frozen Soul."
+      },
+      {
+        "question": "What recipes synergize with Frostbite for assassin builds?",
+        "answer": "Recipes that boost Ice/Ghost spawn rates or assassin effectiveness pair best with Frostbite. Check the recipe page for buffs matching Frostbite's role. Save rare attraction bait for confirmed spawn encounters, not scout runs."
+      },
+      {
+        "question": "How does Frostbite compare to other Ice/Ghost Pokemon?",
+        "answer": "Frostbite is a rare Ice/Ghost Assassin. As a rare, it is worth prioritizing over common Ice/Ghost options for long-term build planning. Compare it on the wiki page before committing to a farming schedule."
+      },
+      {
+        "question": "What mistakes happen most often when catching Frostbite?",
+        "answer": "The most common mistakes are: entering Frost Peak outside Snow weather, using the wrong bait for Frostbite, and spending attraction items on scout runs instead of confirmed encounters. Set a weather check before every run and have a clear exit rule."
       }
     ],
     "published_at": 1778544000,
@@ -2744,6 +3328,10 @@
     ],
     "faqs": [
       {
+        "question": "What is Snorizard used for?",
+        "answer": "Snorizard is a Attacker Dragon/Ice Pokemon."
+      },
+      {
         "question": "Where does Snorizard spawn?",
         "answer": "Snorizard spawns in Frost Peak during Any in Snow weather."
       },
@@ -2752,8 +3340,24 @@
         "answer": "Snorizard is attracted by Frost Meat."
       },
       {
-        "question": "What is Snorizard used for?",
-        "answer": "Snorizard is a Attacker Dragon/Ice Pokemon."
+        "question": "What team partners work best with Snorizard?",
+        "answer": "Snorizard is a rare Dragon/Ice Attacker. It pairs best with Pokemon that cover its type weaknesses. Check the Frost Peak habitat page to see which Pokemon spawn alongside it and can fill complementary roles in your team."
+      },
+      {
+        "question": "When is the best time to farm Snorizard?",
+        "answer": "Commit to farming Snorizard only after reaching Frost Peak reliably with a full team. Use scout runs to learn the spawn location before spending Frost Meat."
+      },
+      {
+        "question": "What recipes synergize with Snorizard for attacker builds?",
+        "answer": "Recipes that boost Dragon/Ice spawn rates or attacker effectiveness pair best with Snorizard. Check the recipe page for buffs matching Snorizard's role. Save rare attraction bait for confirmed spawn encounters, not scout runs."
+      },
+      {
+        "question": "How does Snorizard compare to other Dragon/Ice Pokemon?",
+        "answer": "Snorizard is a rare Dragon/Ice Attacker. As a rare, it is worth prioritizing over common Dragon/Ice options for long-term build planning. Compare it on the wiki page before committing to a farming schedule."
+      },
+      {
+        "question": "What mistakes happen most often when catching Snorizard?",
+        "answer": "The most common mistakes are: entering Frost Peak outside Snow weather, using the wrong bait for Snorizard, and spending attraction items on scout runs instead of confirmed encounters. Set a weather check before every run and have a clear exit rule."
       }
     ],
     "published_at": 1778544000,
@@ -2799,6 +3403,10 @@
     ],
     "faqs": [
       {
+        "question": "What is Mysticat used for?",
+        "answer": "Mysticat is a Support Psychic/Fairy Pokemon."
+      },
+      {
         "question": "Where does Mysticat spawn?",
         "answer": "Mysticat spawns in Ancient Ruins during Night in Clear weather."
       },
@@ -2807,8 +3415,24 @@
         "answer": "Mysticat is attracted by Star Sweet."
       },
       {
-        "question": "What is Mysticat used for?",
-        "answer": "Mysticat is a Support Psychic/Fairy Pokemon."
+        "question": "What team partners work best with Mysticat?",
+        "answer": "Mysticat is a rare Psychic/Fairy Support. It pairs best with Pokemon that cover its type weaknesses. Check the Ancient Ruins habitat page to see which Pokemon spawn alongside it and can fill complementary roles in your team."
+      },
+      {
+        "question": "When is the best time to farm Mysticat?",
+        "answer": "Commit to farming Mysticat only after reaching Ancient Ruins reliably with a full team. Use scout runs to learn the spawn location before spending Star Sweet."
+      },
+      {
+        "question": "What recipes synergize with Mysticat for support builds?",
+        "answer": "Recipes that boost Psychic/Fairy spawn rates or support effectiveness pair best with Mysticat. Check the recipe page for buffs matching Mysticat's role. Save rare attraction bait for confirmed spawn encounters, not scout runs."
+      },
+      {
+        "question": "How does Mysticat compare to other Psychic/Fairy Pokemon?",
+        "answer": "Mysticat is a rare Psychic/Fairy Support. As a rare, it is worth prioritizing over common Psychic/Fairy options for long-term build planning. Compare it on the wiki page before committing to a farming schedule."
+      },
+      {
+        "question": "What mistakes happen most often when catching Mysticat?",
+        "answer": "The most common mistakes are: entering Ancient Ruins outside Cloudy weather, using the wrong bait for Mysticat, and spending attraction items on scout runs instead of confirmed encounters. Set a weather check before every run and have a clear exit rule."
       }
     ],
     "published_at": 1778544000,
@@ -2864,6 +3488,22 @@
       {
         "question": "What weather is best for Frost Peak?",
         "answer": "Best conditions: Snow."
+      },
+      {
+        "question": "What is the fastest way to clear Frost Peak?",
+        "answer": "Frost Peak is medium difficulty. Speed comes from knowing the route layout, matching weather to spawn conditions, and having a team built for the moderate-length branching paths. Run the habitat 2-3 times to learn the layout before optimizing."
+      },
+      {
+        "question": "What Pokemon should I prioritize after unlocking Frost Peak?",
+        "answer": "Focus first on the Pokemon that appear most consistently in the early spawn section of Frost Peak. Check the habitat page for the full spawn list and prioritize Pokemon that fill gaps in your current team. The resource bonus (+35% Ice drops) also makes specific farming runs more efficient — factor that into your priority list."
+      },
+      {
+        "question": "What is the biggest risk when first entering Frost Peak?",
+        "answer": "Underestimating route length and running out of healing items before completing the clear. Always confirm weather, bring appropriate supplies, and set an exit rule before entering."
+      },
+      {
+        "question": "How does Frost Peak compare to nearby habitats?",
+        "answer": "Frost Peak is a medium habitat with Snow weather and +35% Ice drops. Easier habitats offer less rarity but higher consistency. Harder habitats give better rewards but require more preparation. Use the habitat comparison on the wiki to decide which to prioritize based on your current goals."
       }
     ],
     "published_at": 1778544000,
@@ -2921,6 +3561,22 @@
       {
         "question": "What weather is best for Shadow Marsh?",
         "answer": "Best conditions: Stormy/Night."
+      },
+      {
+        "question": "What is the fastest way to clear Shadow Marsh?",
+        "answer": "Shadow Marsh is hard difficulty. Speed comes from knowing the route layout, matching weather to spawn conditions, and having a team built for the long demanding encounters. Run the habitat 2-3 times to learn the layout before optimizing."
+      },
+      {
+        "question": "What Pokemon should I prioritize after unlocking Shadow Marsh?",
+        "answer": "Focus first on the Pokemon that appear most consistently in the early spawn section of Shadow Marsh. Check the habitat page for the full spawn list and prioritize Pokemon that fill gaps in your current team. The resource bonus (+60% Ghost drops) also makes specific farming runs more efficient — factor that into your priority list."
+      },
+      {
+        "question": "What is the biggest risk when first entering Shadow Marsh?",
+        "answer": "Entering without a full team and proper preparation — hard habitats punish incomplete teams severely. Always confirm weather, bring appropriate supplies, and set an exit rule before entering."
+      },
+      {
+        "question": "How does Shadow Marsh compare to nearby habitats?",
+        "answer": "Shadow Marsh is a hard habitat with Stormy/Night weather and +60% Ghost drops. Easier habitats offer less rarity but higher consistency. Harder habitats give better rewards but require more preparation. Use the habitat comparison on the wiki to decide which to prioritize based on your current goals."
       }
     ],
     "published_at": 1778544000,
@@ -2977,6 +3633,22 @@
       {
         "question": "What weather is best for Thunder Arena?",
         "answer": "Best conditions: Thunderstorm."
+      },
+      {
+        "question": "What is the fastest way to clear Thunder Arena?",
+        "answer": "Thunder Arena is hard difficulty. Speed comes from knowing the route layout, matching weather to spawn conditions, and having a team built for the long demanding encounters. Run the habitat 2-3 times to learn the layout before optimizing."
+      },
+      {
+        "question": "What Pokemon should I prioritize after unlocking Thunder Arena?",
+        "answer": "Focus first on the Pokemon that appear most consistently in the early spawn section of Thunder Arena. Check the habitat page for the full spawn list and prioritize Pokemon that fill gaps in your current team. The resource bonus (+55% Electric drops) also makes specific farming runs more efficient — factor that into your priority list."
+      },
+      {
+        "question": "What is the biggest risk when first entering Thunder Arena?",
+        "answer": "Entering without a full team and proper preparation — hard habitats punish incomplete teams severely. Always confirm weather, bring appropriate supplies, and set an exit rule before entering."
+      },
+      {
+        "question": "How does Thunder Arena compare to nearby habitats?",
+        "answer": "Thunder Arena is a hard habitat with Thunderstorm weather and +55% Electric drops. Easier habitats offer less rarity but higher consistency. Harder habitats give better rewards but require more preparation. Use the habitat comparison on the wiki to decide which to prioritize based on your current goals."
       }
     ],
     "published_at": 1778544000,
@@ -3033,6 +3705,22 @@
       {
         "question": "What weather is best for Crystal Cave?",
         "answer": "Best conditions: Foggy."
+      },
+      {
+        "question": "What is the fastest way to clear Crystal Cave?",
+        "answer": "Crystal Cave is medium difficulty. Speed comes from knowing the route layout, matching weather to spawn conditions, and having a team built for the moderate-length branching paths. Run the habitat 2-3 times to learn the layout before optimizing."
+      },
+      {
+        "question": "What Pokemon should I prioritize after unlocking Crystal Cave?",
+        "answer": "Focus first on the Pokemon that appear most consistently in the early spawn section of Crystal Cave. Check the habitat page for the full spawn list and prioritize Pokemon that fill gaps in your current team. The resource bonus (+60% Crystal drops) also makes specific farming runs more efficient — factor that into your priority list."
+      },
+      {
+        "question": "What is the biggest risk when first entering Crystal Cave?",
+        "answer": "Underestimating route length and running out of healing items before completing the clear. Always confirm weather, bring appropriate supplies, and set an exit rule before entering."
+      },
+      {
+        "question": "How does Crystal Cave compare to nearby habitats?",
+        "answer": "Crystal Cave is a medium habitat with Foggy weather and +60% Crystal drops. Easier habitats offer less rarity but higher consistency. Harder habitats give better rewards but require more preparation. Use the habitat comparison on the wiki to decide which to prioritize based on your current goals."
       }
     ],
     "published_at": 1778544000,
@@ -3089,6 +3777,22 @@
       {
         "question": "What weather is best for Sky Isles?",
         "answer": "Best conditions: Windy."
+      },
+      {
+        "question": "What is the fastest way to clear Sky Isles?",
+        "answer": "Sky Isles is medium difficulty. Speed comes from knowing the route layout, matching weather to spawn conditions, and having a team built for the moderate-length branching paths. Run the habitat 2-3 times to learn the layout before optimizing."
+      },
+      {
+        "question": "What Pokemon should I prioritize after unlocking Sky Isles?",
+        "answer": "Focus first on the Pokemon that appear most consistently in the early spawn section of Sky Isles. Check the habitat page for the full spawn list and prioritize Pokemon that fill gaps in your current team. The resource bonus (+40% Feather drops) also makes specific farming runs more efficient — factor that into your priority list."
+      },
+      {
+        "question": "What is the biggest risk when first entering Sky Isles?",
+        "answer": "Underestimating route length and running out of healing items before completing the clear. Always confirm weather, bring appropriate supplies, and set an exit rule before entering."
+      },
+      {
+        "question": "How does Sky Isles compare to nearby habitats?",
+        "answer": "Sky Isles is a medium habitat with Windy weather and +40% Feather drops. Easier habitats offer less rarity but higher consistency. Harder habitats give better rewards but require more preparation. Use the habitat comparison on the wiki to decide which to prioritize based on your current goals."
       }
     ],
     "published_at": 1778544000,
