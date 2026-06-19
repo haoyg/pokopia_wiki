@@ -34,6 +34,12 @@ export const metadata: Metadata = {
     description: 'Browse Pokopia recipes with ingredients, buff effects, durations, and route notes.',
     images: ['/og-image.svg'],
   },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Recipe Cookbook and Buff Notes',
+    description: 'Browse Pokopia recipes with ingredients, buff effects, durations, and route notes.',
+    images: ['/og-image.svg'],
+  },
   alternates: {
     canonical: canonicalUrl('/wiki/recipe'),
   },

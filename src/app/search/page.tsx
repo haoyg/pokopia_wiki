@@ -6,6 +6,17 @@ import { canonicalUrl } from '@/lib/site'
 export const metadata: Metadata = {
   title: 'Search',
   description: 'Search Pokopia news, guides, Pokemon, habitats, recipes, and tools.',
+  openGraph: {
+    title: 'Search Pokopia Portal',
+    description: 'Search Pokopia news, guides, Pokemon, habitats, recipes, and tools.',
+    images: ['/og-image.svg'],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Search Pokopia Portal',
+    description: 'Search Pokopia news, guides, Pokemon, habitats, recipes, and tools.',
+    images: ['/og-image.svg'],
+  },
   alternates: {
     canonical: canonicalUrl('/search'),
   },

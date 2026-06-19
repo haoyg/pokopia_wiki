@@ -30,6 +30,12 @@ export const metadata: Metadata = {
     description: 'Browse Pokopia Pokemon entries with types, rarity, habitats, food, and drops.',
     images: ['/og-image.svg'],
   },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Pokemon Database',
+    description: 'Browse Pokopia Pokemon entries with types, rarity, habitats, food, and drops.',
+    images: ['/og-image.svg'],
+  },
   alternates: {
     canonical: canonicalUrl('/wiki/pokemon'),
   },

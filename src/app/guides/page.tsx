@@ -53,6 +53,12 @@ export const metadata: Metadata = {
     description: 'Source-aware Pokopia guides for routes, farming, recipes, and team planning.',
     images: ['/og-image.svg'],
   },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Pokopia Guides and Route Notes',
+    description: 'Source-aware Pokopia guides for routes, farming, recipes, and team planning.',
+    images: ['/og-image.svg'],
+  },
   alternates: {
     canonical: canonicalUrl('/guides'),
   },

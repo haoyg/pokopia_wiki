@@ -75,6 +75,12 @@ export const metadata: Metadata = {
     description: 'Source-aware features and editorial explainers for Pokémon Pokopia.',
     images: ['/og-image.svg'],
   },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Features and Official Context',
+    description: 'Source-aware features and editorial explainers for Pokémon Pokopia.',
+    images: ['/og-image.svg'],
+  },
   alternates: {
     canonical: canonicalUrl('/features'),
   },

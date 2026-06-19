@@ -19,6 +19,12 @@ export const metadata: Metadata = {
     description: 'Use Pokopia planning tools for recipes, habitats, teams, spawn checks, Pokemon pages, and guide routes.',
     images: ['/og-image.svg'],
   },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Pokopia Tools and Route Planners',
+    description: 'Use Pokopia planning tools for recipes, habitats, teams, spawn checks, Pokemon pages, and guide routes.',
+    images: ['/og-image.svg'],
+  },
   alternates: {
     canonical: canonicalUrl('/tools'),
   },

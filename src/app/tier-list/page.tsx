@@ -103,6 +103,12 @@ export const metadata: Metadata = {
     description: 'Browse an editorial Pokemon priority index based on rarity and role data.',
     images: ['/og-image.svg'],
   },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Pokemon Priority Index',
+    description: 'Browse an editorial Pokemon priority index based on rarity and role data.',
+    images: ['/og-image.svg'],
+  },
   alternates: {
     canonical: canonicalUrl('/tier-list'),
   },

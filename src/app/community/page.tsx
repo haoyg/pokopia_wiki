@@ -14,6 +14,17 @@ export const metadata: Metadata = {
     'Pokopia screenshot guidelines',
     'Pokopia source rules',
   ],
+  openGraph: {
+    title: 'Community Guidelines',
+    description: 'Read Pokopia Portal community contribution guidelines, source rules, and future submission standards.',
+    images: ['/og-image.svg'],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Community Guidelines',
+    description: 'Read Pokopia Portal community contribution guidelines, source rules, and future submission standards.',
+    images: ['/og-image.svg'],
+  },
   alternates: {
     canonical: canonicalUrl('/community'),
   },

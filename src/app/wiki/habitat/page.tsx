@@ -26,6 +26,12 @@ export const metadata: Metadata = {
     description: 'Explore Pokopia habitats with unlocks, weather, difficulty, resources, and spawns.',
     images: ['/og-image.svg'],
   },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Habitat Maps and Route Notes',
+    description: 'Explore Pokopia habitats with unlocks, weather, difficulty, resources, and spawns.',
+    images: ['/og-image.svg'],
+  },
   alternates: {
     canonical: canonicalUrl('/wiki/habitat'),
   },
