@@ -12,7 +12,8 @@
       "Bash(npm list *)",
       "Read(//Users/gavin/.wrangler/config/**)",
       "Read(//Users/gavin/.cloudflare/**)",
-      "Bash(env)"
+      "Bash(env)",
+      "Bash(node *)"
     ]
   }
 }

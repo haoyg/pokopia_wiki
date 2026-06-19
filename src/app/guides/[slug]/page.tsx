@@ -30,6 +30,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title,
     description,
+    keywords: guide.seo_keyword ? [guide.seo_keyword] : undefined,
     openGraph: {
       title,
       description,

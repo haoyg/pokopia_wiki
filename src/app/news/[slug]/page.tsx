@@ -1,6 +1,8 @@
 import { Metadata } from 'next'
 import newsData from '@/data/news.json'
 import guidesData from '@/data/guides.json'
+import pokemonData from '@/data/pokemon.json'
+import habitatsData from '@/data/habitats.json'
 import { ArticleJsonLd, BreadcrumbJsonLd } from '@/components/seo/JsonLd'
 import { canonicalUrl } from '@/lib/site'
 import { cleanDescription, cleanTitle } from '@/lib/seoText'
@@ -63,8 +65,16 @@ export default async function NewsDetailPage({ params }: Props) {
   }
 
   const date = new Date(news.published_at * 1000).toLocaleDateString()
+  const guideSlugs = (news.related_guides || '').split(',').filter(Boolean)
+  const relatedGuides = guidesData.filter((g) => guideSlugs.includes(g.slug))
+
+  const pokemonIds = (news.related_pokemon || '').split(',').filter(Boolean)
+  const relatedPokemon = pokemonData.filter((p) => pokemonIds.includes(p.id))
+
+  const habitatIds = (news.related_habitats || '').split(',').filter(Boolean)
+  const relatedHabitats = habitatsData.filter((h) => habitatIds.includes(h.id))
+
   const relatedNews = newsData.filter((n) => n.id !== news.id).slice(0, 3)
-  const relatedGuides = guidesData.slice(0, 3)
   const contentParagraphs = news.content.split('\n\n').filter(Boolean)
   const isExternalSource = news.source_url?.startsWith('http')
 
@@ -152,14 +162,44 @@ export default async function NewsDetailPage({ params }: Props) {
             ))}
           </ul>
 
-          <div>
-            <span className="panel-kicker">Next Reads</span>
-            <h2>Related Guides</h2>
-          </div>
+          {relatedGuides.length > 0 && (
+            <div>
+              <span className="panel-kicker">Route Planning</span>
+              <h2>Related Guides</h2>
+            </div>
+          )}
           <ul>
             {relatedGuides.map((g) => (
               <li key={g.id}>
                 <a href={`/guides/${g.slug}`}>{g.title}</a>
+              </li>
+            ))}
+          </ul>
+
+          {relatedPokemon.length > 0 && (
+            <div>
+              <span className="panel-kicker">Field Notes</span>
+              <h2>Related Pokemon</h2>
+            </div>
+          )}
+          <ul>
+            {relatedPokemon.map((p) => (
+              <li key={p.id}>
+                <a href={`/wiki/pokemon/${p.id}`}>{p.name}</a>
+              </li>
+            ))}
+          </ul>
+
+          {relatedHabitats.length > 0 && (
+            <div>
+              <span className="panel-kicker">Route Planning</span>
+              <h2>Related Habitats</h2>
+            </div>
+          )}
+          <ul>
+            {relatedHabitats.map((h) => (
+              <li key={h.id}>
+                <a href={`/wiki/habitat/${h.id}`}>{h.name}</a>
               </li>
             ))}
           </ul>

@@ -31,12 +31,14 @@ export function WebsiteJsonLd() {
     publisher: {
       '@type': 'Organization',
       name: 'Pokopia Portal',
+      url: BASE_URL,
       logo: {
         '@type': 'ImageObject',
         url: `${BASE_URL}/logo.png`,
         width: 512,
         height: 512,
       },
+      sameAs: [],
     },
   }
 
