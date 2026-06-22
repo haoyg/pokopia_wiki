@@ -8,7 +8,7 @@ function readJson(file) {
   return JSON.parse(fs.readFileSync(path.join(root, file), 'utf8').replace(/^\uFEFF/, ''))
 }
 
-function cleanTitle(title, maxLength = 58) {
+function cleanTitle(title, maxLength = 40) {
   const normalized = String(title || '')
     .replace(/\s+\|\s+Pokopia Portal$/i, '')
     .replace(/\bUltimate\b/gi, 'Complete')
@@ -17,7 +17,11 @@ function cleanTitle(title, maxLength = 58) {
     .replace(/\s+/g, ' ')
     .trim()
 
-  return normalized.length <= maxLength ? normalized : normalized.slice(0, maxLength - 1).trim()
+  if (normalized.length <= maxLength) return normalized
+  const candidate = normalized.slice(0, maxLength + 1)
+  const lastSpace = candidate.lastIndexOf(' ')
+  const boundary = lastSpace >= Math.floor(maxLength * 0.65) ? lastSpace : maxLength
+  return candidate.slice(0, boundary).replace(/[,:;|\-]+$/g, '').trim()
 }
 
 function cleanDescription(description, maxLength = 155) {

@@ -4,6 +4,7 @@ import habitatsData from '@/data/habitats.json'
 import { canonicalUrl } from '@/lib/site'
 import { CreditedImage } from '@/components/media/CreditedImage'
 import { BreadcrumbJsonLd, ItemListJsonLd } from '@/components/seo/JsonLd'
+import { noIndexMetadata } from '@/lib/indexing'
 
 const featuredPokemon = ['pkm001', 'pkm002', 'pkm007', 'pkm030']
 const habitatNames = Object.fromEntries(habitatsData.map((habitat) => [habitat.id, habitat.name]))
@@ -16,6 +17,7 @@ function shortText(text: string, length = 150) {
 export const metadata: Metadata = {
   title: 'Pokemon Database',
   description: 'Browse Pokopia Pokemon entries with types, rarity, habitats, food, drops, and editorial route notes.',
+  robots: noIndexMetadata,
   keywords: [
     'Pokopia Pokemon database',
     'Pokopia Pokedex',

@@ -8,6 +8,8 @@ import { CreditedImage } from '@/components/media/CreditedImage'
 import { OfficialContext } from '@/components/content/OfficialContext'
 
 export const metadata: Metadata = {
+  title: 'Pokemon Pokopia Wiki, Guides & Tools',
+  description: 'Find official Pokemon Pokopia information, beginner guides, multiplayer details, creative ideas, and planning tools in one place.',
   alternates: {
     canonical: canonicalUrl('/'),
   },

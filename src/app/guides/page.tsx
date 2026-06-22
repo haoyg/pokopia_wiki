@@ -4,6 +4,7 @@ import { canonicalUrl } from '@/lib/site'
 import { CreditedImage } from '@/components/media/CreditedImage'
 import { OfficialContext } from '@/components/content/OfficialContext'
 import { BreadcrumbJsonLd, ItemListJsonLd } from '@/components/seo/JsonLd'
+import { noIndexMetadata } from '@/lib/indexing'
 
 const categoryLabels: Record<string, string> = {
   tier: 'Tier',
@@ -38,6 +39,7 @@ function shortText(text: string, length = 145) {
 export const metadata: Metadata = {
   title: 'Pokopia Guides and Route Notes',
   description: 'Read source-aware Pokopia guides for starter choices, habitat routes, farming plans, recipes, and editorial team planning.',
+  robots: noIndexMetadata,
   keywords: [
     'Pokopia guides',
     'Pokopia route guide',

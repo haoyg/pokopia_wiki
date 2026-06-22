@@ -3,6 +3,7 @@ import recipesData from '@/data/recipes.json'
 import { canonicalUrl } from '@/lib/site'
 import { CreditedImage } from '@/components/media/CreditedImage'
 import { BreadcrumbJsonLd, ItemListJsonLd } from '@/components/seo/JsonLd'
+import { noIndexMetadata } from '@/lib/indexing'
 
 const rarityLabels: Record<string, string> = {
   'common': 'Common', 'uncommon': 'Uncommon', 'rare': 'Rare', 'legendary': 'Legendary',
@@ -20,6 +21,7 @@ function textValue(value: string | string[]) {
 export const metadata: Metadata = {
   title: 'Recipe Cookbook and Buff Notes',
   description: 'Browse Pokopia recipes with ingredients, buff effects, durations, rarity, timing notes, and related route planning links.',
+  robots: noIndexMetadata,
   keywords: [
     'Pokopia recipes',
     'Pokopia recipe list',

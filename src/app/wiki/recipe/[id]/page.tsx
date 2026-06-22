@@ -9,6 +9,7 @@ import { CreditedImage } from '@/components/media/CreditedImage'
 import { BreadcrumbJsonLd, FAQJsonLd, WikiPageJsonLd } from '@/components/seo/JsonLd'
 import { DataStatus } from '@/components/content/DataStatus'
 import { OfficialContext } from '@/components/content/OfficialContext'
+import { isEditorialContent, noIndexMetadata } from '@/lib/indexing'
 
 interface Props {
   params: Promise<{ id: string }>
@@ -28,6 +29,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title,
     description,
+    robots: recipe && isEditorialContent(recipe.data_status) ? noIndexMetadata : undefined,
     keywords: recipe
       ? ([
           `${recipe.name} recipe Pokopia`,

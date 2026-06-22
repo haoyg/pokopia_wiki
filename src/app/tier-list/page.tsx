@@ -6,6 +6,7 @@ import { canonicalUrl } from '@/lib/site'
 import { DataStatus } from '@/components/content/DataStatus'
 import { OfficialContext } from '@/components/content/OfficialContext'
 import { BreadcrumbJsonLd, ItemListJsonLd } from '@/components/seo/JsonLd'
+import { noIndexMetadata } from '@/lib/indexing'
 
 const typeIcons: Record<string, string> = {
   'Fire': '/icons/fire.svg', 'Water': '/icons/water.svg', 'Grass': '/icons/grass.svg',
@@ -89,6 +90,7 @@ const rarityHeadings = [
 export const metadata: Metadata = {
   title: 'Pokemon Priority Index',
   description: 'Browse an editorial Pokemon priority index based on current site database fields such as rarity and role.',
+  robots: noIndexMetadata,
   keywords: [
     'Pokopia tier list',
     'Pokopia best Pokemon',

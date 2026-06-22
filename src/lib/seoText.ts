@@ -1,6 +1,7 @@
 const SITE_SUFFIX = ' | Pokopia Portal'
 
-export function cleanTitle(title: string, maxLength = 58) {
+// Leave room for the global " | Pokopia Portal" suffix in search results.
+export function cleanTitle(title: string, maxLength = 40) {
   const normalized = title
     .replace(/\s+\|\s+Pokopia Portal$/i, '')
     .replace(/\bUltimate\b/gi, 'Complete')
@@ -10,7 +11,10 @@ export function cleanTitle(title: string, maxLength = 58) {
     .trim()
 
   if (normalized.length <= maxLength) return normalized
-  return normalized.slice(0, maxLength - 1).trim()
+  const candidate = normalized.slice(0, maxLength + 1)
+  const lastSpace = candidate.lastIndexOf(' ')
+  const boundary = lastSpace >= Math.floor(maxLength * 0.65) ? lastSpace : maxLength
+  return candidate.slice(0, boundary).replace(/[,:;|\-]+$/g, '').trim()
 }
 
 export function cleanDescription(description: string, maxLength = 155) {

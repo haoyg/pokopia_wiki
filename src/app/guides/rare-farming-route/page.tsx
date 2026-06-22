@@ -8,6 +8,7 @@ import { ArticleJsonLd, BreadcrumbJsonLd, FAQJsonLd, ItemListJsonLd } from '@/co
 import { DataStatus } from '@/components/content/DataStatus'
 import { OfficialContext } from '@/components/content/OfficialContext'
 import { canonicalUrl } from '@/lib/site'
+import { noIndexMetadata } from '@/lib/indexing'
 
 const updatedAt = '2026-05-27'
 
@@ -92,6 +93,7 @@ function bySlug<T extends { slug: string }>(items: T[], slugs: string[]) {
 export const metadata: Metadata = {
   title: 'Pokopia Rare Farming Route - Lucky Charm, Habitats, and Rare Pokemon',
   description: 'Plan a Pokopia rare farming route with Lucky Charm timing, rare Pokemon targets, high-value habitats, recipe support, and tool workflows.',
+  robots: noIndexMetadata,
   openGraph: {
     title: 'Pokopia Rare Farming Route - Lucky Charm, Habitats, and Rare Pokemon',
     description: 'Plan a Pokopia rare farming route with Lucky Charm timing, rare Pokemon targets, habitats, recipe support, and tools.',
