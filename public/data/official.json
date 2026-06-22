@@ -86,11 +86,14 @@
   },
   {
     "id": "official003",
-    "title": "Pokémon Pokopia Multiplayer, GameShare, Palette Town, and Cloud Island",
+    "title": "Pokémon Pokopia Multiplayer: Online, Local Wireless, GameShare, and Co-building",
     "slug": "multiplayer-gameshare-cloud-island",
     "category": "Official Info",
-    "summary": "Nintendo confirms several multiplayer options for Pokémon Pokopia, including local wireless, online play, GameShare, Palette Town co-building, Cloud Island, and Virtual Mode.",
-    "updated_at": "2026-05-23",
+    "summary": "Pokémon Pokopia supports online and local wireless multiplayer for up to four players, plus GameShare, Palette Town co-building, Cloud Island, and read-only Virtual Mode.",
+    "seo_title": "Pokémon Pokopia Multiplayer & GameShare",
+    "seo_description": "Pokémon Pokopia supports online and local wireless for up to four players. Compare town visits, GameShare, Palette Town, Cloud Island, and Virtual Mode.",
+    "quick_answer": "Yes. Pokémon Pokopia supports online and local wireless multiplayer, with a host inviting up to three other players. Normal town visits use Spectator Mode, while Palette Town supports shared building. GameShare can give people without the game access to Palette Town, and Cloud Island provides a persistent online shared area.",
+    "updated_at": "2026-06-22",
     "facts": [
       "Nintendo says Pokémon Pokopia supports online and local wireless ways to play with friends.",
       "Nintendo's launch article says players can invite up to three other players to visit.",
@@ -105,6 +108,21 @@
       "This page is useful because multiplayer rules are easy to misunderstand. It separates town visiting, Palette Town building, GameShare, Cloud Island, and Virtual Mode into distinct concepts.",
       "When writing future multiplayer guides, avoid implying that every visitor can edit every town. Nintendo specifically describes Spectator Mode for normal town visits.",
       "GameShare details depend on Nintendo Switch 2, GameChat, Nintendo Switch Online, and session limits, so link to Nintendo rather than paraphrasing all restrictions in every article."
+    ],
+    "mode_comparison": [
+      { "mode": "Town Visit", "connection": "Online or local wireless", "players": "Host plus up to 3 visitors", "editing": "Spectator Mode limits moves and changes", "best_for": "Visiting, photos, Pokédex and habitat discovery" },
+      { "mode": "Palette Town", "connection": "Online or local wireless", "players": "Friends invited through Link Play", "editing": "Spectator Mode can be turned off", "best_for": "Building, crafting, discovering Pokémon, and making habitats together" },
+      { "mode": "GameShare", "connection": "Local wireless or online", "players": "People can join Palette Town without owning the game", "editing": "Shared Palette Town access", "best_for": "Playing with someone who does not own Pokémon Pokopia" },
+      { "mode": "Cloud Island", "connection": "Online", "players": "Persistent shared area accessed by address", "editing": "Spectator Mode can be turned off", "best_for": "Ongoing co-building, shared Pokédex, rewards, and challenges" },
+      { "mode": "Virtual Mode", "connection": "Online", "players": "Visitors explore a virtual Cloud Island", "editing": "Visitors cannot change the island", "best_for": "Sharing a creation publicly without edit risk" }
+    ],
+    "faqs": [
+      { "question": "How many players can play Pokémon Pokopia multiplayer?", "answer": "Nintendo says a host can invite up to three other players, for up to four players in a session." },
+      { "question": "Does Pokémon Pokopia support local multiplayer?", "answer": "Yes. Nintendo describes local wireless play when players are together with their own systems and games. GameShare can also share Palette Town locally with a compatible Nintendo Switch 2 or Nintendo Switch system." },
+      { "question": "Does Pokémon Pokopia have same-system couch co-op?", "answer": "Nintendo's official multiplayer guide describes online play and local wireless across systems. It does not describe traditional same-system split-screen or couch co-op." },
+      { "question": "Can visitors change my town?", "answer": "Normal town visitors use Spectator Mode, which limits actions and protects the host's creations. Palette Town and Cloud Island can allow collaborative editing when Spectator Mode is turned off." },
+      { "question": "Can someone play Pokémon Pokopia through GameShare without owning the game?", "answer": "Yes. Nintendo says GameShare can share the Palette Town area with people who do not own the game. Local and online compatibility requirements differ, so check Nintendo's current guide before starting." },
+      { "question": "What is the difference between Palette Town and Cloud Island?", "answer": "Palette Town is a large sandbox area hosted through normal multiplayer. Cloud Island is a persistent online area with its own Pokédex, rewards, challenges, and address, and it can remain available when the original host is away." }
     ],
     "related_links": [
       { "label": "Official gameplay overview", "href": "/official/gameplay-overview" },

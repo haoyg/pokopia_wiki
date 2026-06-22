@@ -11,6 +11,10 @@ import { BASE_URL } from '@/lib/site'
 import { isEditorialContent } from '@/lib/indexing'
 
 const SITE_REVIEWED_AT = new Date('2026-05-23')
+const REDIRECTED_NEWS_SLUGS = new Set([
+  'pokemon-pokopia-multiplayer-gameshare-details',
+  'pokemon-pokopia-switch-2-online-local-gameshare',
+])
 
 const staticPages = [
   { url: '/', priority: 1.0, changefreq: 'daily' },
@@ -54,7 +58,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }))
 
   // News articles
-  newsData.forEach((news) => {
+  newsData.filter((news) => !REDIRECTED_NEWS_SLUGS.has(news.slug)).forEach((news) => {
     entries.push({
       url: `${BASE_URL}/news/${news.slug}/`,
       lastModified: reviewedDate(news.published_at),

@@ -4,7 +4,7 @@ import officialData from '@/data/official.json'
 import { canonicalUrl } from '@/lib/site'
 import { cleanDescription, cleanTitle } from '@/lib/seoText'
 import { DataStatus } from '@/components/content/DataStatus'
-import { BreadcrumbJsonLd } from '@/components/seo/JsonLd'
+import { ArticleJsonLd, BreadcrumbJsonLd, FAQJsonLd } from '@/components/seo/JsonLd'
 
 interface Props {
   params: Promise<{ slug: string }>
@@ -21,12 +21,22 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const page = officialData.find((item) => item.slug === slug)
 
   if (!page) return { title: 'Official Info Not Found' }
-  const title = cleanTitle(page.title)
-  const description = cleanDescription(page.summary)
+  const title = cleanTitle(page.seo_title || page.title)
+  const description = cleanDescription(page.seo_description || page.summary)
 
   return {
     title,
     description,
+    keywords: page.slug === 'multiplayer-gameshare-cloud-island'
+      ? [
+          'Pokemon Pokopia multiplayer',
+          'Pokemon Pokopia local multiplayer',
+          'Pokemon Pokopia GameShare',
+          'Pokemon Pokopia co-op',
+          'Pokemon Pokopia Palette Town',
+          'Pokemon Pokopia Cloud Island',
+        ]
+      : undefined,
     openGraph: {
       title,
       description,
@@ -58,9 +68,19 @@ export default async function OfficialInfoDetailPage({ params }: Props) {
     month: 'long',
     day: 'numeric',
   })
+  const faqs = page.faqs || []
+  const modeComparison = page.mode_comparison || []
 
   return (
     <>
+      <ArticleJsonLd
+        title={page.title}
+        description={page.seo_description || page.summary}
+        url={`/official/${page.slug}`}
+        publishedAt={new Date(page.updated_at).toISOString()}
+        modifiedAt={new Date(page.updated_at).toISOString()}
+        type="Article"
+      />
       <BreadcrumbJsonLd
         items={[
           { name: 'Home', url: '/' },
@@ -68,6 +88,7 @@ export default async function OfficialInfoDetailPage({ params }: Props) {
           { name: page.title, url: `/official/${page.slug}` },
         ]}
       />
+      {faqs.length > 0 && <FAQJsonLd title={page.title} faqs={faqs} />}
       <main>
       <article className="official-detail-page">
         <div className="official-detail-hero">
@@ -90,6 +111,34 @@ export default async function OfficialInfoDetailPage({ params }: Props) {
           updatedAt={updatedAt}
         />
 
+        {page.quick_answer && (
+          <section className="official-quick-answer">
+            <span className="panel-kicker">Quick Answer</span>
+            <h2>Is Pokémon Pokopia Multiplayer?</h2>
+            <p>{page.quick_answer}</p>
+          </section>
+        )}
+
+        {modeComparison.length > 0 && (
+          <section className="official-mode-section">
+            <span className="panel-kicker">Mode Comparison</span>
+            <h2>Online, Local Wireless, GameShare, and Shared Building</h2>
+            <div className="official-mode-grid">
+              {modeComparison.map((mode) => (
+                <article key={mode.mode} className="official-mode-card">
+                  <h3>{mode.mode}</h3>
+                  <dl>
+                    <div><dt>Connection</dt><dd>{mode.connection}</dd></div>
+                    <div><dt>Players</dt><dd>{mode.players}</dd></div>
+                    <div><dt>Editing</dt><dd>{mode.editing}</dd></div>
+                    <div><dt>Best For</dt><dd>{mode.best_for}</dd></div>
+                  </dl>
+                </article>
+              ))}
+            </div>
+          </section>
+        )}
+
         <section className="official-facts-section">
           <h2>Confirmed Facts</h2>
           <ol>
@@ -110,6 +159,21 @@ export default async function OfficialInfoDetailPage({ params }: Props) {
             ))}
           </ul>
         </section>
+
+        {faqs.length > 0 && (
+          <section className="official-faq-section">
+            <span className="panel-kicker">Common Questions</span>
+            <h2>Pokémon Pokopia Multiplayer FAQ</h2>
+            <div>
+              {faqs.map((faq) => (
+                <article key={faq.question}>
+                  <h3>{faq.question}</h3>
+                  <p>{faq.answer}</p>
+                </article>
+              ))}
+            </div>
+          </section>
+        )}
 
         <section className="official-sources-section">
           <h2>Official Sources</h2>

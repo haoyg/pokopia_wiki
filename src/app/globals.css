@@ -2542,6 +2542,100 @@ section h2::before {
   font-weight: 900;
 }
 
+.official-quick-answer,
+.official-mode-section,
+.official-faq-section {
+  max-width: 960px;
+  margin: var(--space-5) auto 0;
+  padding: var(--space-5);
+  border: 2px solid rgba(220, 232, 220, 0.82);
+  border-radius: var(--radius-md);
+  background: rgba(255, 253, 247, 0.9);
+  box-shadow: 0 3px 0 rgba(47, 76, 113, 0.06);
+}
+
+.official-quick-answer {
+  border-color: rgba(98, 182, 243, 0.44);
+  background: linear-gradient(135deg, rgba(235, 248, 255, 0.96), rgba(255, 253, 247, 0.94));
+}
+
+.official-quick-answer h2,
+.official-mode-section h2,
+.official-faq-section h2 {
+  margin-top: var(--space-2);
+  font-size: var(--font-size-2xl);
+}
+
+.official-quick-answer p {
+  margin-top: var(--space-3);
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-lg);
+  line-height: 1.75;
+}
+
+.official-mode-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: var(--space-4);
+  margin-top: var(--space-5);
+}
+
+.official-mode-card {
+  padding: var(--space-4);
+  border: 1px solid rgba(123, 31, 162, 0.2);
+  border-radius: var(--radius-md);
+  background: rgba(255, 255, 255, 0.82);
+}
+
+.official-mode-card h3 {
+  color: var(--color-secondary);
+  font-size: var(--font-size-xl);
+}
+
+.official-mode-card dl {
+  display: grid;
+  gap: var(--space-3);
+  margin-top: var(--space-4);
+}
+
+.official-mode-card dt {
+  color: var(--color-text-muted);
+  font-size: var(--font-size-xs);
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.official-mode-card dd {
+  margin-top: var(--space-1);
+  color: var(--color-text-secondary);
+  line-height: 1.55;
+}
+
+.official-faq-section > div {
+  display: grid;
+  gap: var(--space-3);
+  margin-top: var(--space-5);
+}
+
+.official-faq-section article {
+  padding: var(--space-4) 0;
+  border-top: 1px solid var(--color-border);
+}
+
+.official-faq-section article:first-child {
+  border-top: 0;
+}
+
+.official-faq-section h3 {
+  font-size: var(--font-size-lg);
+}
+
+.official-faq-section p {
+  margin-top: var(--space-2);
+  color: var(--color-text-secondary);
+  line-height: 1.7;
+}
+
 .features-hub-hero {
   max-width: 900px;
   padding-top: var(--space-8);

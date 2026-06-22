@@ -44,6 +44,10 @@ const news = readJson('src/data/news.json')
 const pokemon = readJson('src/data/pokemon.json')
 const recipes = readJson('src/data/recipes.json')
 const official = readJson('src/data/official.json')
+const redirectedNewsSlugs = new Set([
+  'pokemon-pokopia-multiplayer-gameshare-details',
+  'pokemon-pokopia-switch-2-online-local-gameshare',
+])
 
 const habitatById = new Map(habitats.map((item) => [item.id, item]))
 
@@ -371,7 +375,7 @@ const index = [
       item.keywords,
     ].join(' '),
   })),
-  ...news.map((item) => ({
+  ...news.filter((item) => !redirectedNewsSlugs.has(item.slug)).map((item) => ({
     id: item.id,
     type: 'News',
     title: item.title,

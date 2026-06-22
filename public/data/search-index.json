@@ -312,19 +312,6 @@
     "keywords": "Pokémon Pokopia Gameplay Overview: Confirmed Building and Life Sim Features official Official Nintendo and Pokémon pages describe Pokémon Pokopia as a cozy life simulation about rebuilding a world, crafting, growing crops, learning moves, and befriending Pokémon. Official source roundup Official Pokémon Pokopia Website Official"
   },
   {
-    "id": "news003",
-    "type": "News",
-    "title": "Pokémon Pokopia Multiplayer and GameShare Details Explained",
-    "href": "/news/pokemon-pokopia-multiplayer-gameshare-details",
-    "description": "Nintendo explains town visits, Spectator Mode, Palette Town, GameShare, Cloud Island, and Virtual Mode for Pokémon Pokopia multiplayer.",
-    "meta": "Official source roundup",
-    "status": "Official source roundup",
-    "source": "Nintendo News - How Multiplayer Works in Pokémon Pokopia",
-    "updatedAt": "2026-05-21",
-    "priority": 95,
-    "keywords": "Pokémon Pokopia Multiplayer and GameShare Details Explained source-roundup Nintendo explains town visits, Spectator Mode, Palette Town, GameShare, Cloud Island, and Virtual Mode for Pokémon Pokopia multiplayer. Official source roundup Nintendo News - How Multiplayer Works in Pokémon Pokopia Official"
-  },
-  {
     "id": "news004",
     "type": "News",
     "title": "Pokémon Pokopia Beginner Tips from Nintendo’s Official Guide",
@@ -362,19 +349,6 @@
     "updatedAt": "2026-05-18",
     "priority": 95,
     "keywords": "What Is Pokémon Pokopia? Official Premise and Gameplay Summary official Pokémon Pokopia follows a human-like Ditto rebuilding a world for Pokémon through crafting, moves, materials, habitats, and cozy life-sim activities. Official source roundup Nintendo News - Shape the World in Pokémon Pokopia Official"
-  },
-  {
-    "id": "news007",
-    "type": "News",
-    "title": "Pokémon Pokopia Switch 2 Features: Online, Local Wireless, and GameShare",
-    "href": "/news/pokemon-pokopia-switch-2-online-local-gameshare",
-    "description": "Nintendo’s product page lists Pokémon Pokopia support for online play, local wireless, GameShare, save data cloud, and Nintendo Switch 2 play modes.",
-    "meta": "Official source roundup",
-    "status": "Official source roundup",
-    "source": "Nintendo Store - Pokémon Pokopia",
-    "updatedAt": "2026-05-17",
-    "priority": 95,
-    "keywords": "Pokémon Pokopia Switch 2 Features: Online, Local Wireless, and GameShare source-roundup Nintendo’s product page lists Pokémon Pokopia support for online play, local wireless, GameShare, save data cloud, and Nintendo Switch 2 play modes. Official source roundup Nintendo Store - Pokémon Pokopia Official"
   },
   {
     "id": "news008",
@@ -1094,15 +1068,15 @@
   {
     "id": "official003",
     "type": "Official",
-    "title": "Pokémon Pokopia Multiplayer, GameShare, Palette Town, and Cloud Island",
+    "title": "Pokémon Pokopia Multiplayer: Online, Local Wireless, GameShare, and Co-building",
     "href": "/official/multiplayer-gameshare-cloud-island",
-    "description": "Nintendo confirms several multiplayer options for Pokémon Pokopia, including local wireless, online play, GameShare, Palette Town co-building, Cloud Island, and Virtual Mode.",
+    "description": "Pokémon Pokopia supports online and local wireless multiplayer for up to four players, plus GameShare, Palette Town co-building, Cloud Island, and read-only Virtual Mode.",
     "meta": "Official Info",
     "status": "Official source roundup",
     "source": "Nintendo News - How multiplayer works",
-    "updatedAt": "2026-05-23",
+    "updatedAt": "2026-06-22",
     "priority": 100,
-    "keywords": "Pokémon Pokopia Multiplayer, GameShare, Palette Town, and Cloud Island Official Info Nintendo confirms several multiplayer options for Pokémon Pokopia, including local wireless, online play, GameShare, Palette Town co-building, Cloud Island, and Virtual Mode. Nintendo says Pokémon Pokopia supports online and local wireless ways to play with friends.,Nintendo's launch article says players can invite up to three other players to visit.,Nintendo says town visits start through the Pokémon Center PC's Link Play menu, which unlocks after roughly 30 minutes of play.,Visitors to a town are in Spectator Mode, so their actions are limited and they cannot freely alter the host's creations.,Palette Town is described as a large sandbox area where Spectator Mode can be turned off so players can build, craft, discover Pokémon, and make habitats together.,Nintendo says GameShare can let people without the game access a shared area, with Nintendo Switch 2 required to initiate the session.,Cloud Island is described as a persistent online area with its own Pokédex, rewards, and challenges.,Virtual Mode lets players share a Cloud Island online while preventing visitors from changing it. This page is useful because multiplayer rules are easy to misunderstand. It separates town visiting, Palette Town building, GameShare, Cloud Island, and Virtual Mode into distinct concepts.,When writing future multiplayer guides, avoid implying that every visitor can edit every town. Nintendo specifically describes Spectator Mode for normal town visits.,GameShare details depend on Nintendo Switch 2, GameChat, Nintendo Switch Online, and session limits, so link to Nintendo rather than paraphrasing all restrictions in every article. Nintendo News - How multiplayer works Nintendo Store - Pokémon Pokopia"
+    "keywords": "Pokémon Pokopia Multiplayer: Online, Local Wireless, GameShare, and Co-building Official Info Pokémon Pokopia supports online and local wireless multiplayer for up to four players, plus GameShare, Palette Town co-building, Cloud Island, and read-only Virtual Mode. Nintendo says Pokémon Pokopia supports online and local wireless ways to play with friends.,Nintendo's launch article says players can invite up to three other players to visit.,Nintendo says town visits start through the Pokémon Center PC's Link Play menu, which unlocks after roughly 30 minutes of play.,Visitors to a town are in Spectator Mode, so their actions are limited and they cannot freely alter the host's creations.,Palette Town is described as a large sandbox area where Spectator Mode can be turned off so players can build, craft, discover Pokémon, and make habitats together.,Nintendo says GameShare can let people without the game access a shared area, with Nintendo Switch 2 required to initiate the session.,Cloud Island is described as a persistent online area with its own Pokédex, rewards, and challenges.,Virtual Mode lets players share a Cloud Island online while preventing visitors from changing it. This page is useful because multiplayer rules are easy to misunderstand. It separates town visiting, Palette Town building, GameShare, Cloud Island, and Virtual Mode into distinct concepts.,When writing future multiplayer guides, avoid implying that every visitor can edit every town. Nintendo specifically describes Spectator Mode for normal town visits.,GameShare details depend on Nintendo Switch 2, GameChat, Nintendo Switch Online, and session limits, so link to Nintendo rather than paraphrasing all restrictions in every article. Nintendo News - How multiplayer works Nintendo Store - Pokémon Pokopia"
   },
   {
     "id": "official004",
