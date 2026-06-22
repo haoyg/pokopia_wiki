@@ -40,7 +40,7 @@ export function WebsiteJsonLd() {
       url: BASE_URL,
       logo: {
         '@type': 'ImageObject',
-        url: `${BASE_URL}/logo.png`,
+        url: `${BASE_URL}/logo-mark.png`,
         width: 512,
         height: 512,
       },
@@ -88,7 +88,7 @@ export function ArticleJsonLd({
       name: 'Pokopia Portal',
       logo: {
         '@type': 'ImageObject',
-        url: `${BASE_URL}/logo.png`,
+        url: `${BASE_URL}/logo-mark.png`,
         width: 512,
         height: 512,
       },
@@ -179,7 +179,7 @@ export function ToolJsonLd({
       name: 'Pokopia Portal',
       logo: {
         '@type': 'ImageObject',
-        url: `${BASE_URL}/logo.png`,
+        url: `${BASE_URL}/logo-mark.png`,
         width: 512,
         height: 512,
       },

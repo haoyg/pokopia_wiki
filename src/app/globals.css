@@ -195,12 +195,9 @@ a:hover {
 }
 
 .site-brand-logo {
-  width: 40px;
-  height: 40px;
-  border: 2px solid rgba(255, 255, 255, 0.75);
-  border-radius: var(--radius-lg);
-  box-shadow: 0 6px 0 rgba(217, 63, 94, 0.22);
-  object-fit: cover;
+  width: 180px;
+  height: 90px;
+  object-fit: contain;
 }
 
 .site-brand strong,

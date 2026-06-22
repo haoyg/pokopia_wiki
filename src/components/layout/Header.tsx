@@ -22,15 +22,11 @@ export function Header() {
         <Link href="/" className="site-brand" aria-label="Pokopia Portal home">
           <img
             className="site-brand-logo"
-            src="/logo.svg"
+            src="/logo.png"
             alt="Pokopia Portal logo"
-            width={40}
-            height={40}
+            width={180}
+            height={90}
           />
-          <span>
-            <strong>Pokopia Portal</strong>
-            <small>Guides, news, wiki, tools</small>
-          </span>
         </Link>
 
         <form className="site-search" action="/search" role="search">
