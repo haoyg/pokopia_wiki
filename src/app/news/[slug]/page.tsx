@@ -11,6 +11,7 @@ import { DataStatus } from '@/components/content/DataStatus'
 
 const categoryLabels: Record<string, string> = {
   official: 'Official',
+  event: 'Event',
   trailer: 'Trailer',
   'source-roundup': 'Source Roundup',
   'site-update': 'Site Update',
@@ -30,8 +31,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params
   const news = newsData.find((n) => n.slug === slug)
   if (!news) return { title: 'News Not Found' }
-  const title = cleanTitle(news.title)
-  const description = cleanDescription(news.excerpt)
+  const title = cleanTitle(news.seo_title || news.title)
+  const description = cleanDescription(news.seo_description || news.excerpt)
 
   return {
     title,
@@ -39,6 +40,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     keywords: (
       [
         news.category === 'official' ? 'official Pokopia news' : null,
+        news.category === 'event' ? 'Pokopia event' : null,
         news.category === 'trailer' ? 'Pokopia trailer' : null,
         news.category === 'source-roundup' ? 'Pokopia source roundup' : null,
         'Pokopia news',

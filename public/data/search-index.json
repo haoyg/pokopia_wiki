@@ -286,6 +286,32 @@
     "keywords": "Pokopia Spawn Tracker Track Pokemon spawn conditions by habitat, weather, time, rarity, food, drops, type, and related route pages. Spawn lookup tool spawn tracker pokemon habitat weather time rarity food drops type search farming route"
   },
   {
+    "id": "news013",
+    "type": "News",
+    "title": "Pokémon Pokopia Wish Upon a Jirachi Event: Dates, Requirements, and Rewards",
+    "href": "/news/pokemon-pokopia-wish-upon-a-jirachi-event",
+    "description": "The official Wish Upon a Jirachi event runs from June 23 through July 8, 2026, with Jirachi, shining wish notes, and starry furniture rewards.",
+    "meta": "Official event announcement",
+    "status": "Official event announcement",
+    "source": "Nintendo Australia - Wish Upon a Jirachi Event",
+    "updatedAt": "2026-06-24",
+    "priority": 95,
+    "keywords": "Pokémon Pokopia Wish Upon a Jirachi Event: Dates, Requirements, and Rewards event The official Wish Upon a Jirachi event runs from June 23 through July 8, 2026, with Jirachi, shining wish notes, and starry furniture rewards. Official event announcement Nintendo Australia - Wish Upon a Jirachi Event Official"
+  },
+  {
+    "id": "news014",
+    "type": "News",
+    "title": "Nintendo Switch 2 + Pokémon Pokopia Bundle Launches July 23 in Singapore",
+    "href": "/news/nintendo-switch-2-pokemon-pokopia-bundle-singapore",
+    "description": "Nintendo Singapore has announced a regional Nintendo Switch 2 + Pokémon Pokopia bundle for July 23, 2026, including a full-game download.",
+    "meta": "Official regional announcement",
+    "status": "Official regional announcement",
+    "source": "Nintendo Singapore - Switch 2 + Pokémon Pokopia Bundle",
+    "updatedAt": "2026-06-24",
+    "priority": 95,
+    "keywords": "Nintendo Switch 2 + Pokémon Pokopia Bundle Launches July 23 in Singapore official Nintendo Singapore has announced a regional Nintendo Switch 2 + Pokémon Pokopia bundle for July 23, 2026, including a full-game download. Official regional announcement Nintendo Singapore - Switch 2 + Pokémon Pokopia Bundle Official"
+  },
+  {
     "id": "news001",
     "type": "News",
     "title": "Pokémon Pokopia Release Date and Platform Confirmed by Nintendo",

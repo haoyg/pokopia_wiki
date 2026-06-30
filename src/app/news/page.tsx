@@ -6,6 +6,7 @@ import { BreadcrumbJsonLd, ItemListJsonLd } from '@/components/seo/JsonLd'
 
 const categoryLabels: Record<string, string> = {
   official: 'Official',
+  event: 'Event',
   trailer: 'Trailer',
   'source-roundup': 'Source Roundup',
   'site-update': 'Site Update',
