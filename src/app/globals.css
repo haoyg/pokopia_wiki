@@ -1155,10 +1155,16 @@ section h2::before {
 }
 
 .news-lead-image {
-  min-height: 100%;
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  align-self: start;
+  border-radius: var(--radius-lg);
 }
 
 .news-lead-image img {
+  display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -1348,10 +1354,15 @@ section h2::before {
 }
 
 .card-cover img {
+  display: block;
   width: 100%;
   height: 100%;
   padding: var(--space-2);
   object-fit: cover;
+}
+
+.news-grid .card-cover img {
+  padding: 0;
 }
 
 .pokemon-cover {

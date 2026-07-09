@@ -1,5 +1,3 @@
-import Image from 'next/image'
-
 type CreditedImageProps = {
   src?: string
   alt?: string
@@ -20,20 +18,24 @@ export function CreditedImage({
   originalMedia,
   className = 'card-cover',
   priority = false,
-  sizes = '(max-width: 768px) 100vw, 300px',
 }: CreditedImageProps) {
   if (!src || !source) return null
 
   const isRemote = src.startsWith('http://') || src.startsWith('https://')
+  const loading = priority ? 'eager' : 'lazy'
+  const fetchPriority = priority ? 'high' : 'auto'
 
   return (
     <figure style={{ margin: 0 }}>
       <div className={className}>
-        {isRemote ? (
-          <img src={src} alt={alt || source} loading={priority ? 'eager' : 'lazy'} referrerPolicy="no-referrer" />
-        ) : (
-          <Image src={src} alt={alt || source} fill sizes={sizes} priority={priority} />
-        )}
+        <img
+          src={src}
+          alt={alt || source}
+          loading={loading}
+          decoding="async"
+          fetchPriority={fetchPriority}
+          referrerPolicy={isRemote ? 'no-referrer' : undefined}
+        />
       </div>
       <figcaption style={{ color: '#777', fontSize: '0.75rem', lineHeight: 1.5, marginTop: '0.35rem' }}>
         <span>
