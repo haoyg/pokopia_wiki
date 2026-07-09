@@ -666,6 +666,8 @@
   {
     "id": "guid009",
     "title": "Thunder Arena Unlock and Strategy",
+    "seo_title": "Pokopia Thunder Arena Guide",
+    "seo_description": "Unlock and clear Thunder Arena in Pokopia with route timing, team roles, Speed Potion use, Voltscale prep, and common mistakes.",
     "slug": "thunder-arena-guide",
     "category": "guides",
     "seo_keyword": "thunder arena pokopia",
@@ -740,14 +742,16 @@
     "updated_at": "2026-05-24",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "data_status": "Editorial guide",
-    "data_status_note": "This guide combines public Pokopia materials, site database entries, and editorial route recommendations. Recheck details after major game updates.",
+    "data_status": "Source-backed guide",
+    "data_status_note": "This guide combines public Pokopia materials, site database entries, and route recommendations. Recheck details after major game updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
     "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture"
   },
   {
     "id": "guid010",
     "title": "Frost Peak Exploration Guide",
+    "seo_title": "Pokopia Frost Peak Guide",
+    "seo_description": "Clear Frost Peak in Pokopia with route planning, Ice Armor timing, stable Pokemon choices, farming loops, and common mistakes.",
     "slug": "frost-peak-guide",
     "category": "guides",
     "seo_keyword": "frost peak pokopia",
@@ -822,8 +826,8 @@
     "updated_at": "2026-05-24",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "data_status": "Editorial guide",
-    "data_status_note": "This guide combines public Pokopia materials, site database entries, and editorial route recommendations. Recheck details after major game updates.",
+    "data_status": "Source-backed guide",
+    "data_status_note": "This guide combines public Pokopia materials, site database entries, and route recommendations. Recheck details after major game updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
     "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture"
   },
@@ -1896,6 +1900,8 @@
   {
     "id": "guid024",
     "title": "All 4 Legendary Pokemon Locations",
+    "seo_title": "Pokopia Legendary Locations Guide",
+    "seo_description": "Find legendary Pokemon locations in Pokopia, including Flamexor, Voltscale, Shadowclaw, Primordion, route prep, and Lucky Charm timing.",
     "slug": "legendary-locations-guide",
     "category": "guides",
     "seo_keyword": "legendary locations pokopia",
@@ -1970,8 +1976,8 @@
     "updated_at": "2026-05-25",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
-    "data_status": "Editorial guide",
-    "data_status_note": "This guide combines public Pokopia materials, site database entries, and editorial route recommendations. Recheck details after major game updates.",
+    "data_status": "Source-backed guide",
+    "data_status_note": "This guide combines public Pokopia materials, site database entries, and route recommendations. Recheck details after major game updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
     "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture"
   },

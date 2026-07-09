@@ -25,8 +25,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params
   const guide = guidesData.find((g) => g.slug === slug)
   if (!guide) return { title: 'Guide Not Found' }
-  const title = cleanTitle(guide.title)
-  const description = cleanDescription(guide.answer || guide.seo_keyword)
+  const seoGuide = guide as typeof guide & { seo_title?: string; seo_description?: string }
+  const title = cleanTitle(seoGuide.seo_title || guide.title)
+  const description = cleanDescription(seoGuide.seo_description || guide.answer || guide.seo_keyword)
 
   return {
     title,

@@ -2,12 +2,10 @@ import { Metadata } from 'next'
 import { SpawnTracker } from '@/components/tools/SpawnTracker'
 import { BreadcrumbJsonLd, FAQJsonLd, ToolJsonLd } from '@/components/seo/JsonLd'
 import { canonicalUrl } from '@/lib/site'
-import { noIndexMetadata } from '@/lib/indexing'
 
 export const metadata: Metadata = {
-  title: 'Pokopia Spawn Tracker: Locations & Conditions',
-  description: 'Track Pokopia Pokemon spawn conditions by habitat, weather, time, rarity, food, drops, type, and related route pages.',
-  robots: noIndexMetadata,
+  title: 'Pokopia Spawn Tracker: Locations and Weather',
+  description: 'Find Pokopia Pokemon spawns by habitat, weather, time, rarity, type, food, drops, and related route pages.',
   keywords: [
     'Pokopia spawn tracker',
     'Pokopia spawn time',
@@ -19,14 +17,14 @@ export const metadata: Metadata = {
     'Pokopia Pokemon drops',
   ],
   openGraph: {
-    title: 'Pokopia Spawn Tracker: Locations & Conditions',
-    description: 'Track Pokopia Pokemon spawn conditions by habitat, weather, time, rarity, food, drops, type, and related route pages.',
+    title: 'Pokopia Spawn Tracker: Locations and Weather',
+    description: 'Find Pokemon spawns by habitat, weather, time, rarity, type, food, drops, and related route pages.',
     images: ['/og-image.svg'],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Pokopia Spawn Tracker: Locations & Conditions',
-    description: 'Track Pokopia Pokemon spawn conditions by habitat, weather, time, rarity, food, drops, type, and related route pages.',
+    title: 'Pokopia Spawn Tracker: Locations and Weather',
+    description: 'Find Pokemon spawns by habitat, weather, time, rarity, type, food, drops, and related route pages.',
     images: ['/og-image.svg'],
   },
   alternates: {

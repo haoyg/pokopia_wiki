@@ -3,8 +3,8 @@ import { canonicalUrl } from '@/lib/site'
 import { BreadcrumbJsonLd, ItemListJsonLd } from '@/components/seo/JsonLd'
 
 export const metadata: Metadata = {
-  title: 'Pokopia Tools and Route Planners',
-  description: 'Use Pokopia planning tools for recipes, habitats, teams, spawn checks, Pokemon pages, and guide routes.',
+  title: 'Pokopia Tools: Planner, Tracker, Builder',
+  description: 'Use Pokopia tools for team building, spawn tracking, habitat planning, recipe checks, Pokemon pages, and guide routes.',
   keywords: [
     'Pokopia tools',
     'Pokopia route planner',
@@ -15,14 +15,14 @@ export const metadata: Metadata = {
     'Pokopia game tools',
   ],
   openGraph: {
-    title: 'Pokopia Tools and Route Planners',
-    description: 'Use Pokopia planning tools for recipes, habitats, teams, spawn checks, Pokemon pages, and guide routes.',
+    title: 'Pokopia Tools: Planner, Tracker, Builder',
+    description: 'Team builder, spawn tracker, habitat planner, recipe checks, Pokemon pages, and guide routes for Pokopia.',
     images: ['/og-image.svg'],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Pokopia Tools and Route Planners',
-    description: 'Use Pokopia planning tools for recipes, habitats, teams, spawn checks, Pokemon pages, and guide routes.',
+    title: 'Pokopia Tools: Planner, Tracker, Builder',
+    description: 'Team builder, spawn tracker, habitat planner, recipe checks, Pokemon pages, and guide routes for Pokopia.',
     images: ['/og-image.svg'],
   },
   alternates: {

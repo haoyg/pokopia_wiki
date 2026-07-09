@@ -4,7 +4,6 @@ import { canonicalUrl } from '@/lib/site'
 import { CreditedImage } from '@/components/media/CreditedImage'
 import { OfficialContext } from '@/components/content/OfficialContext'
 import { BreadcrumbJsonLd, ItemListJsonLd } from '@/components/seo/JsonLd'
-import { noIndexMetadata } from '@/lib/indexing'
 
 const categoryLabels: Record<string, string> = {
   tier: 'Tier',
@@ -37,9 +36,8 @@ function shortText(text: string, length = 145) {
 }
 
 export const metadata: Metadata = {
-  title: 'Pokopia Guides and Route Notes',
-  description: 'Read source-aware Pokopia guides for starter choices, habitat routes, farming plans, recipes, and editorial team planning.',
-  robots: noIndexMetadata,
+  title: 'Pokopia Guides: Walkthroughs and Routes',
+  description: 'Find Pokopia walkthroughs, starter picks, habitat routes, farming plans, recipes, tools, and team planning guides.',
   keywords: [
     'Pokopia guides',
     'Pokopia route guide',
@@ -51,14 +49,14 @@ export const metadata: Metadata = {
     'Pokopia recipe guide',
   ],
   openGraph: {
-    title: 'Pokopia Guides and Route Notes',
-    description: 'Source-aware Pokopia guides for routes, farming, recipes, and team planning.',
+    title: 'Pokopia Guides: Walkthroughs and Routes',
+    description: 'Walkthroughs, starter picks, habitat routes, farming plans, recipes, tools, and team guides for Pokopia.',
     images: ['/og-image.svg'],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Pokopia Guides and Route Notes',
-    description: 'Source-aware Pokopia guides for routes, farming, recipes, and team planning.',
+    title: 'Pokopia Guides: Walkthroughs and Routes',
+    description: 'Walkthroughs, starter picks, habitat routes, farming plans, recipes, tools, and team guides for Pokopia.',
     images: ['/og-image.svg'],
   },
   alternates: {

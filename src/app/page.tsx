@@ -8,8 +8,8 @@ import { CreditedImage } from '@/components/media/CreditedImage'
 import { OfficialContext } from '@/components/content/OfficialContext'
 
 export const metadata: Metadata = {
-  title: 'Pokemon Pokopia Wiki, Guides & Tools',
-  description: 'Find official Pokemon Pokopia information, beginner guides, multiplayer details, creative ideas, and planning tools in one place.',
+  title: 'Pokopia Wiki: Guides, Map, Tools',
+  description: 'Use Pokopia guides, map-style habitat routes, Pokemon wiki pages, walkthroughs, spawn tracker, team builder, and planning tools.',
   alternates: {
     canonical: canonicalUrl('/'),
   },
@@ -154,12 +154,12 @@ export default function Home() {
       <section className="hero">
         <div className="hero-inner">
           <p className="hero-kicker">Explorer Field Guide</p>
-          <h1>Pokopia Portal</h1>
-          <p>Your cozy guide to habitats, Pokemon, recipes, and build routes across the Pokopia world.</p>
+          <h1>Pokopia Wiki, Guides, and Tools</h1>
+          <p>Find walkthrough routes, habitat map notes, Pokemon pages, recipes, spawn tracking, and team planning tools.</p>
           <div className="hero-actions" aria-label="Pokopia quick sections">
-            <a href="/guides">Start Guides</a>
+            <a href="/guides">Walkthrough Guides</a>
             <a href="/wiki/pokemon">Open Pokedex</a>
-            <a href="/tools">Use Tools</a>
+            <a href="/tools">Map and Tools</a>
           </div>
         </div>
       </section>

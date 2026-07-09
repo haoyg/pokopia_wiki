@@ -61,21 +61,21 @@ const faqs = [
 ]
 
 export const metadata: Metadata = {
-  title: 'Pokopia Creative Play Ideas',
-  description: 'Safe Pokopia creative play ideas for building challenges, recipe workshops, habitat themes, and community-friendly routes without mod downloads.',
+  title: 'Pokopia Creative Play Ideas and Builds',
+  description: 'Try Pokopia creative play ideas for home builds, habitat themes, recipe workshops, route challenges, and community showcases.',
   alternates: {
     canonical: canonicalUrl(pageUrl),
   },
   openGraph: {
-    title: 'Pokopia Creative Play Ideas',
-    description: 'Creative Pokopia challenge ideas that avoid unauthorized mods, downloads, and unsupported claims.',
+    title: 'Pokopia Creative Play Ideas and Builds',
+    description: 'Home builds, habitat themes, recipe workshops, route challenges, and community showcase ideas for Pokopia.',
     images: ['/og-image.svg'],
     type: 'article',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Pokopia Creative Play Ideas',
-    description: 'Safe creative play ideas for Pokopia building, routes, recipes, and community showcases.',
+    title: 'Pokopia Creative Play Ideas and Builds',
+    description: 'Home builds, habitat themes, recipe workshops, route challenges, and community showcase ideas for Pokopia.',
     images: ['/og-image.svg'],
   },
 }

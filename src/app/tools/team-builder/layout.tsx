@@ -2,8 +2,8 @@ import type { Metadata } from 'next'
 import { canonicalUrl } from '@/lib/site'
 
 export const metadata: Metadata = {
-  title: 'Pokopia Team Builder - Roles, Type Coverage, Recipes, and Routes',
-  description: 'Build Pokopia team drafts by goal, role, type coverage, recipe support, habitat routes, Pokemon links, and related guides.',
+  title: 'Pokopia Team Builder: Best Team Planner',
+  description: 'Build Pokopia teams by goal, role, type coverage, recipes, habitat routes, Pokemon links, and related guides.',
   keywords: [
     'Pokopia team builder',
     'Pokopia best team',
@@ -15,14 +15,14 @@ export const metadata: Metadata = {
     'Pokopia boss team',
   ],
   openGraph: {
-    title: 'Pokopia Team Builder - Roles, Type Coverage, Recipes, and Routes',
-    description: 'Build Pokopia team drafts by goal, role, type coverage, recipe support, habitat routes, Pokemon links, and related guides.',
+    title: 'Pokopia Team Builder: Best Team Planner',
+    description: 'Build Pokopia teams by goal, role, type coverage, recipes, habitat routes, Pokemon links, and related guides.',
     images: ['/og-image.svg'],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Pokopia Team Builder - Roles, Type Coverage, Recipes, and Routes',
-    description: 'Build Pokopia team drafts by goal, role, type coverage, recipe support, habitat routes, Pokemon links, and related guides.',
+    title: 'Pokopia Team Builder: Best Team Planner',
+    description: 'Build Pokopia teams by goal, role, type coverage, recipes, habitat routes, Pokemon links, and related guides.',
     images: ['/og-image.svg'],
   },
   alternates: {
