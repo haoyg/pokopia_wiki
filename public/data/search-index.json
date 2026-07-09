@@ -286,6 +286,32 @@
     "keywords": "Pokopia Spawn Tracker Track Pokemon spawn conditions by habitat, weather, time, rarity, food, drops, type, and related route pages. Spawn lookup tool spawn tracker pokemon habitat weather time rarity food drops type search farming route"
   },
   {
+    "id": "news016",
+    "type": "News",
+    "title": "Pokopia Dive Update: How to Unlock Dive and Explore Underwater",
+    "href": "/news/pokopia-dive-update-how-to-unlock-dive",
+    "description": "The free Pokopia Dive update is scheduled for August 2026 and lets Ditto explore underwater after clearing specific Bleak Beach and Surf requirements.",
+    "meta": "Official update page",
+    "status": "Official update page",
+    "source": "Official Pokemon Pokopia Update Page",
+    "updatedAt": "2026-07-09",
+    "priority": 95,
+    "keywords": "Pokopia Dive Update: How to Unlock Dive and Explore Underwater official The free Pokopia Dive update is scheduled for August 2026 and lets Ditto explore underwater after clearing specific Bleak Beach and Surf requirements. Official update page Official Pokemon Pokopia Update Page Official"
+  },
+  {
+    "id": "news015",
+    "type": "News",
+    "title": "Pokopia Expansion Pass Bubbly Basin: Release Window, Bonuses, and Requirements",
+    "href": "/news/pokopia-expansion-pass-bubbly-basin-bonuses",
+    "description": "Pokopia's Expansion Pass Part 1, Bubbly Basin, is planned for August 2026 with an underwater town, new items, new Pokemon friends, and early purchase bonuses.",
+    "meta": "Official DLC page",
+    "status": "Official DLC page",
+    "source": "Official Pokemon Pokopia Expansion Pass Page",
+    "updatedAt": "2026-07-09",
+    "priority": 95,
+    "keywords": "Pokopia Expansion Pass Bubbly Basin: Release Window, Bonuses, and Requirements official Pokopia's Expansion Pass Part 1, Bubbly Basin, is planned for August 2026 with an underwater town, new items, new Pokemon friends, and early purchase bonuses. Official DLC page Official Pokemon Pokopia Expansion Pass Page Official"
+  },
+  {
     "id": "news013",
     "type": "News",
     "title": "Pokémon Pokopia Wish Upon a Jirachi Event: Dates, Requirements, and Rewards",
