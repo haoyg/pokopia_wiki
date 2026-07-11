@@ -3,8 +3,9 @@ import Link from 'next/link'
 import guidesData from '@/data/guides.json'
 import { canonicalUrl } from '@/lib/site'
 import { OfficialContext } from '@/components/content/OfficialContext'
+import { isEditorialContent } from '@/lib/indexing'
 
-const featuredGuides = guidesData.filter((g) => ['tier', 'guides'].includes(g.category)).slice(0, 6)
+const featuredGuides = guidesData.filter((guide) => !isEditorialContent(guide.data_status)).slice(0, 6)
 
 const featuredTopics = [
   {

@@ -28,8 +28,6 @@ const staticPages = [
   { url: '/features/friendship-requests-tracker/', priority: 0.7, changefreq: 'monthly' },
   { url: '/features/creative-play-ideas/', priority: 0.68, changefreq: 'monthly' },
   { url: '/features/meta-analysis/', priority: 0.7, changefreq: 'monthly' },
-  { url: '/builds/home-design-ideas/', priority: 0.66, changefreq: 'monthly' },
-  { url: '/community/showcase/', priority: 0.62, changefreq: 'monthly' },
   { url: '/about/', priority: 0.35, changefreq: 'yearly' },
   { url: '/contact/', priority: 0.35, changefreq: 'yearly' },
   { url: '/disclaimer/', priority: 0.3, changefreq: 'yearly' },

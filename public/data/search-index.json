@@ -65,19 +65,6 @@
     "keywords": "Pokopia Creative Play Ideas Safe Pokopia creative play ideas for building challenges, recipe workshops, habitat themes, and community-friendly routes without mod downloads. Creative play creative play ideas mod alternatives building challenge habitat theme recipe workshop community challenge no downloads safe gameplay"
   },
   {
-    "id": "community-showcase",
-    "type": "Feature",
-    "title": "Pokopia Community Showcase Index",
-    "href": "/community/showcase",
-    "description": "Future Pokopia community showcase index with submission standards for verified screenshots, home designs, route notes, and player-tested reports.",
-    "meta": "Community index",
-    "status": "Future showcase standard",
-    "source": null,
-    "updatedAt": "2026-05-27",
-    "priority": 82,
-    "keywords": "Pokopia Community Showcase Index Future Pokopia community showcase index with submission standards for verified screenshots, home designs, route notes, and player-tested reports. Community index community showcase index player screenshots home design route notes verified submissions source credit permission community content aggregation"
-  },
-  {
     "id": "friendship-requests-tracker",
     "type": "Feature",
     "title": "Pokopia Friendship and Requests Tracker",
@@ -102,19 +89,6 @@
     "updatedAt": "2026-05-27",
     "priority": 88,
     "keywords": "Pokopia Weekly Event Tracker A source-aware Pokopia weekly event tracker that separates confirmed official updates, topics to recheck, and archived event information. Event tracker weekly event tracker confirmed updates official source roundup active events archived events daily challenges early purchase bonus rewards schedule"
-  },
-  {
-    "id": "home-design-ideas",
-    "type": "Feature",
-    "title": "Pokopia Home Design Ideas and Building Showcase",
-    "href": "/builds/home-design-ideas",
-    "description": "Text-based Pokopia home design ideas for cozy bases, recipe workshops, visitor courtyards, and future community showcases.",
-    "meta": "Building showcase",
-    "status": "Editorial feature",
-    "source": null,
-    "updatedAt": "2026-05-27",
-    "priority": 84,
-    "keywords": "Pokopia Home Design Ideas and Building Showcase Text-based Pokopia home design ideas for cozy bases, recipe workshops, visitor courtyards, and future community showcases. Building showcase home design ideas building showcase cozy base recipe workshop visitor courtyard habitat research camp decoration layout screenshots community"
   },
   {
     "id": "pokopia-animal-crossing",
