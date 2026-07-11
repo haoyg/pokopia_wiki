@@ -73,6 +73,11 @@ export default async function GuideDetailPage({ params }: Props) {
   const contentParagraphs = (guide.content || '').split('\n\n').filter(Boolean)
   const publishedAt = guide.published_at || guide.updated_at || new Date().toISOString()
   const updatedAt = guide.updated_at || guide.published_at || publishedAt
+  const enrichedGuide = guide as typeof guide & {
+    source_notes?: string[]
+    confirmed_context?: string[]
+    editorial_limits?: string[]
+  }
 
   return (
     <>
@@ -124,6 +129,42 @@ export default async function GuideDetailPage({ params }: Props) {
             <span className="panel-kicker">Quick Answer</span>
             <p>{guide.answer}</p>
           </section>
+
+          {(enrichedGuide.source_notes?.length || enrichedGuide.confirmed_context?.length || enrichedGuide.editorial_limits?.length) && (
+            <section className="guide-content-section">
+              <h2>Source and Review Notes</h2>
+              {enrichedGuide.source_notes?.length ? (
+                <>
+                  <h3>Source basis</h3>
+                  <ul>
+                    {enrichedGuide.source_notes.map((note) => (
+                      <li key={note}>{note}</li>
+                    ))}
+                  </ul>
+                </>
+              ) : null}
+              {enrichedGuide.confirmed_context?.length ? (
+                <>
+                  <h3>Confirmed context</h3>
+                  <ul>
+                    {enrichedGuide.confirmed_context.map((note) => (
+                      <li key={note}>{note}</li>
+                    ))}
+                  </ul>
+                </>
+              ) : null}
+              {enrichedGuide.editorial_limits?.length ? (
+                <>
+                  <h3>Editorial limits</h3>
+                  <ul>
+                    {enrichedGuide.editorial_limits.map((note) => (
+                      <li key={note}>{note}</li>
+                    ))}
+                  </ul>
+                </>
+              ) : null}
+            </section>
+          )}
 
           <section className="guide-content-section">
             <h2>Guide Overview</h2>

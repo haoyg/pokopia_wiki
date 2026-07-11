@@ -739,13 +739,28 @@
       }
     ],
     "published_at": "2026-05-09",
-    "updated_at": "2026-05-24",
+    "updated_at": "2026-07-11",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
     "data_status": "Source-backed guide",
-    "data_status_note": "This guide combines public Pokopia materials, site database entries, and route recommendations. Recheck details after major game updates.",
+    "data_status_note": "Source-backed guide with route advice layered on top of official context, credited screenshot sourcing, related site data, and manual review notes. Recheck after major official updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
-    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture"
+    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture",
+    "source_notes": [
+      "Uses the official-source pages as the baseline for confirmed Pokopia systems before adding route advice.",
+      "Uses the credited Gematsu media page only as a screenshot attribution source, not as a replacement for official publisher context.",
+      "Uses related site entries for Pikafire, Stormwing, Voltscale, Speed Potion, and Thunder Arena to keep the route advice internally connected."
+    ],
+    "confirmed_context": [
+      "This page treats Thunder Arena as a site route guide, not an official rules page.",
+      "The guide separates confirmed source context from recommendations about tempo, scouting, and recipe timing.",
+      "Related official pages should be checked again after publisher updates, trailers, or product-page changes."
+    ],
+    "editorial_limits": [
+      "Exact spawn rates, encounter tables, and balance values should not be treated as final unless they are added from a confirmed source.",
+      "The lead and backup suggestions are planning advice for route testing, not mandatory team requirements.",
+      "If official information changes, this page should be reviewed before remaining in the sitemap."
+    ]
   },
   {
     "id": "guid010",
@@ -823,13 +838,28 @@
       }
     ],
     "published_at": "2026-05-10",
-    "updated_at": "2026-05-24",
+    "updated_at": "2026-07-11",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
     "data_status": "Source-backed guide",
-    "data_status_note": "This guide combines public Pokopia materials, site database entries, and route recommendations. Recheck details after major game updates.",
+    "data_status_note": "Source-backed guide with midgame route advice layered on top of official context, credited screenshot sourcing, related site data, and manual review notes. Recheck after major official updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
-    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture"
+    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture",
+    "source_notes": [
+      "Uses official-source pages as the baseline before adding midgame route advice.",
+      "Uses the credited Gematsu media page for screenshot attribution only.",
+      "Uses related site entries for Tidlet, Glacior, Snorizard, Ice Armor, and Frost Peak to connect the guide to supporting route data."
+    ],
+    "confirmed_context": [
+      "This page frames Frost Peak as a controlled exploration route based on current site data and source-aware review.",
+      "The guide separates route-learning advice from confirmed gameplay claims.",
+      "Official pages should be checked when release, gameplay, or system details change."
+    ],
+    "editorial_limits": [
+      "Exact enemy pressure, drop rates, and route length can change and should be verified when confirmed data becomes available.",
+      "The Pokemon and recipe suggestions are practical route planning notes, not official requirements.",
+      "If the supporting database entries remain unverified, they should stay outside the sitemap until reviewed."
+    ]
   },
   {
     "id": "guid011",
@@ -1973,13 +2003,28 @@
       }
     ],
     "published_at": "2026-05-22",
-    "updated_at": "2026-05-25",
+    "updated_at": "2026-07-11",
     "image_source": "Gematsu media page - official Pokopia screenshot repost",
     "image_source_url": "https://www.gematsu.com/2025/11/pokemon-pokopia-extended-trailer-new-details-and-screenshots",
     "data_status": "Source-backed guide",
-    "data_status_note": "This guide combines public Pokopia materials, site database entries, and route recommendations. Recheck details after major game updates.",
+    "data_status_note": "Source-backed guide with legendary route advice layered on top of official context, credited screenshot sourcing, related site data, and manual review notes. Recheck before treating any location or rate as final.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
-    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture"
+    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture",
+    "source_notes": [
+      "Uses official-source pages as the baseline before organizing legendary route planning advice.",
+      "Uses the credited Gematsu media page for screenshot attribution only.",
+      "Uses related site entries for Flamexor, Voltscale, Shadowclaw, Primordion, Lucky Charm, and their linked habitats to keep the guide internally connected."
+    ],
+    "confirmed_context": [
+      "This page treats legendary hunting as a route-planning topic, not a final official location table.",
+      "The guide separates current site route assumptions from confirmed source context.",
+      "Official pages should be checked before the page claims any final location, rate, or event rule."
+    ],
+    "editorial_limits": [
+      "Exact legendary locations, encounter rates, and unlock rules should be revised when confirmed source data is available.",
+      "Lucky Charm timing is editorial advice for repeatable route checks, not an official mechanic claim.",
+      "If the page cannot support a claim with source context or reviewed site data, that claim should be removed or labeled uncertain."
+    ]
   },
   {
     "id": "guid025",
