@@ -1,0 +1,161 @@
+const fs = require('fs')
+const path = require('path')
+
+const root = path.join(__dirname, '..')
+const issues = []
+
+function read(file) {
+  return fs.readFileSync(path.join(root, file), 'utf8').replace(/^\uFEFF/, '')
+}
+
+function readJson(file) {
+  return JSON.parse(read(file))
+}
+
+function assert(condition, message) {
+  if (!condition) issues.push(message)
+}
+
+function withTrailingSlash(value) {
+  if (!value || value === '/') return '/'
+  const pathname = value.split('?')[0].split('#')[0]
+  return pathname.endsWith('/') ? pathname : `${pathname}/`
+}
+
+function normalizedPath(value) {
+  try {
+    return withTrailingSlash(new URL(value, 'https://pokopia.cloud').pathname)
+  } catch {
+    return withTrailingSlash(value)
+  }
+}
+
+function htmlPathForRoute(routePath) {
+  const normalized = withTrailingSlash(routePath)
+  if (normalized === '/') return path.join(root, 'out', 'index.html')
+  return path.join(root, 'out', normalized.replace(/^\/|\/$/g, ''), 'index.html')
+}
+
+function stripHtml(html) {
+  return html
+    .replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, ' ')
+    .replace(/<style\b[^>]*>[\s\S]*?<\/style>/gi, ' ')
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim()
+}
+
+function routeLabel(routePath) {
+  return routePath === '/' ? 'home' : routePath.replace(/^\/|\/$/g, '')
+}
+
+function countInternalLinks(html) {
+  const links = [...html.matchAll(/<a\b[^>]*\bhref=["']([^"']+)["']/gi)]
+    .map((match) => match[1])
+    .filter((href) => href.startsWith('/') && !href.startsWith('//'))
+
+  return new Set(links.map((href) => normalizedPath(href))).size
+}
+
+function hasReviewSignal(text) {
+  return /\b(last reviewed|updated|source|sources|source-backed|source-aware|official|confirmed|correction|review process|content status)\b/i.test(text)
+}
+
+function isEditorialContent(status) {
+  return Boolean(status && /^editorial\b/i.test(String(status).trim()))
+}
+
+function hasNoindex(html) {
+  return /<meta\s+name=["']robots["'][^>]*content=["'][^"']*\bnoindex\b/i.test(html) ||
+    /<meta\s+name=["']googlebot["'][^>]*content=["'][^"']*\bnoindex\b/i.test(html)
+}
+
+const forbiddenVisibleLinkPatterns = [
+  /^\/search\/?$/,
+  /^\/tier-list\/?$/,
+  /^\/builds\/home-design-ideas\/?$/,
+  /^\/community\/showcase\/?$/,
+  /^\/guides\/beginner-route\/?$/,
+  /^\/guides\/rare-farming-route\/?$/,
+  /^\/guides\/recipe-planning-route\/?$/,
+]
+
+const sitemapFile = path.join(root, 'out', 'sitemap.xml')
+assert(fs.existsSync(sitemapFile), 'out/sitemap.xml does not exist. Run next build before content quality checks.')
+
+const sitemapPaths = fs.existsSync(sitemapFile)
+  ? [...fs.readFileSync(sitemapFile, 'utf8').matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => normalizedPath(match[1]))
+  : []
+
+for (const pagePath of sitemapPaths) {
+  const htmlFile = htmlPathForRoute(pagePath)
+  if (!fs.existsSync(htmlFile)) continue
+
+  const html = fs.readFileSync(htmlFile, 'utf8')
+  const text = stripHtml(html)
+  const label = routeLabel(pagePath)
+  const wordCount = text.split(/\s+/).filter(Boolean).length
+  const h2Count = (html.match(/<h2\b/gi) || []).length
+  const internalLinkCount = countInternalLinks(html)
+
+  assert(!hasNoindex(html), `${label} is in sitemap but exports noindex HTML`)
+  assert(wordCount >= 120, `${label} has thin rendered text (${wordCount} words)`)
+  assert(h2Count >= 1 || pagePath === '/', `${label} has no h2 section heading`)
+  assert(internalLinkCount >= 3 || pagePath === '/', `${label} has too few internal links (${internalLinkCount})`)
+  assert(hasReviewSignal(text), `${label} lacks visible source, review, status, updated, or confirmed signal`)
+
+  const visibleLinks = [...html.matchAll(/<a\b[^>]*\bhref=["']([^"']+)["']/gi)]
+    .map((match) => match[1])
+    .filter((href) => href.startsWith('/') && !href.startsWith('//'))
+    .map((href) => normalizedPath(href))
+
+  for (const href of visibleLinks) {
+    for (const pattern of forbiddenVisibleLinkPatterns) {
+      assert(!pattern.test(href), `${label} links to noindex or low-confidence page: ${href}`)
+    }
+  }
+}
+
+const guides = readJson('src/data/guides.json')
+const official = readJson('src/data/official.json')
+const searchIndex = readJson('src/data/search-index.json')
+
+const sourceBackedGuides = guides.filter((guide) => !isEditorialContent(guide.data_status))
+for (const guide of sourceBackedGuides) {
+  assert(guide.data_status === 'Source-backed guide', `guide ${guide.slug} is indexable but not marked Source-backed guide`)
+  assert(Array.isArray(guide.source_notes) && guide.source_notes.length >= 2, `guide ${guide.slug} is missing source_notes`)
+  assert(Array.isArray(guide.confirmed_context) && guide.confirmed_context.length >= 2, `guide ${guide.slug} is missing confirmed_context`)
+  assert(Array.isArray(guide.editorial_limits) && guide.editorial_limits.length >= 2, `guide ${guide.slug} is missing editorial_limits`)
+  assert(Array.isArray(guide.faqs) && guide.faqs.length >= 3, `guide ${guide.slug} needs at least 3 FAQs`)
+  assert(String(guide.data_status_note || '').length >= 80, `guide ${guide.slug} has a weak data_status_note`)
+}
+
+for (const page of official) {
+  assert(Array.isArray(page.facts) && page.facts.length >= 4, `official ${page.slug} needs confirmed facts`)
+  assert(Array.isArray(page.sources) && page.sources.length >= 1, `official ${page.slug} needs official sources`)
+  assert(Array.isArray(page.source_review_notes) && page.source_review_notes.length >= 2, `official ${page.slug} is missing source_review_notes`)
+  assert(Array.isArray(page.claim_limits) && page.claim_limits.length >= 2, `official ${page.slug} is missing claim_limits`)
+  assert(Array.isArray(page.recheck_triggers) && page.recheck_triggers.length >= 2, `official ${page.slug} is missing recheck_triggers`)
+  assert(Array.isArray(page.related_links) && page.related_links.length >= 2, `official ${page.slug} needs related links`)
+}
+
+const indexedPaths = new Set(searchIndex.map((item) => normalizedPath(item.href)))
+for (const pagePath of sitemapPaths) {
+  if (pagePath === '/') continue
+  const topLevelUtility = /^\/(about|privacy-policy|terms|copyright|disclaimer|contact)\/?$/.test(pagePath)
+  if (topLevelUtility) continue
+  assert(indexedPaths.has(pagePath), `sitemap page is missing from search index: ${pagePath}`)
+}
+
+for (const item of searchIndex) {
+  const combined = `${item.title || ''} ${item.description || ''} ${item.status || ''} ${item.meta || ''}`
+  assert(!/\b(placeholder|future draft|coming soon|thin content|lorem ipsum)\b/i.test(combined), `search index item has low-value wording: ${item.href}`)
+}
+
+if (issues.length > 0) {
+  console.error('Content quality check failed:')
+  for (const issue of issues) console.error(`- ${issue}`)
+  process.exit(1)
+}
+
+console.log(`Content quality check passed for ${sitemapPaths.length} sitemap pages and ${searchIndex.length} search entries.`)
