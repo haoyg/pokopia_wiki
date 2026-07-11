@@ -164,7 +164,7 @@
     "meta": "Planning hub",
     "status": "Interactive planning tool",
     "source": null,
-    "updatedAt": "2026-05-27",
+    "updatedAt": "2026-07-11",
     "priority": 82,
     "keywords": "Pokopia Tools and Route Planners Planning hub for Pokopia recipe comparison, habitat routes, team drafts, and spawn tracking. Planning hub tools planner route recipes habitats teams spawns calculator tracker builder"
   },
@@ -177,7 +177,7 @@
     "meta": "Recipe planner",
     "status": "Interactive planning tool",
     "source": null,
-    "updatedAt": "2026-05-27",
+    "updatedAt": "2026-07-11",
     "priority": 88,
     "keywords": "Pokopia Recipe Calculator Compare recipes by route goal, rarity, buff timing, common mistakes, related Pokemon, and habitat support. Recipe planner recipe calculator recipes buffs timing ingredients rare farming boss survival daily habitat pokemon"
   },
@@ -190,7 +190,7 @@
     "meta": "Habitat route planner",
     "status": "Interactive planning tool",
     "source": null,
-    "updatedAt": "2026-05-27",
+    "updatedAt": "2026-07-11",
     "priority": 88,
     "keywords": "Pokopia Habitat Planner Plan habitat routes by goal, player level, difficulty, weather, recipe support, Pokemon spawns, and guide links. Habitat route planner habitat planner route unlock level difficulty weather spawns recipe pokemon guide farming"
   },
@@ -203,7 +203,7 @@
     "meta": "Team planner",
     "status": "Interactive planning tool",
     "source": null,
-    "updatedAt": "2026-05-27",
+    "updatedAt": "2026-07-11",
     "priority": 86,
     "keywords": "Pokopia Team Builder Build team drafts by goal, role, type coverage, recipe support, habitat routes, Pokemon links, and related guides. Team planner team builder pokemon roles type coverage recipe habitat guide boss rare farming speed route"
   },
@@ -216,7 +216,7 @@
     "meta": "Spawn lookup tool",
     "status": "Interactive planning tool",
     "source": null,
-    "updatedAt": "2026-05-27",
+    "updatedAt": "2026-07-11",
     "priority": 84,
     "keywords": "Pokopia Spawn Tracker Track Pokemon spawn conditions by habitat, weather, time, rarity, food, drops, type, and related route pages. Spawn lookup tool spawn tracker pokemon habitat weather time rarity food drops type search farming route"
   },

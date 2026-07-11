@@ -58,6 +58,18 @@ const recipeCalculatorFaqs = [
   },
 ]
 
+const sourceReviewNotes = [
+  'Uses Pokopia Portal recipe, Pokemon, and habitat datasets as planning inputs.',
+  'Scores recipes by goal keywords, rarity, buff text, timing notes, best-use text, and related route links.',
+  'Links recipe results to supporting Pokemon and habitat pages so the recommendation can be checked before spending materials.',
+]
+
+const toolLimits = [
+  'Do not treat recipe scores as official balance values, final buff math, or guaranteed best-in-slot results.',
+  'Rare recipes should be checked against route timing and ingredient availability before crafting.',
+  'Recipe recommendations should be reviewed after official updates, source-backed guide changes, or database corrections.',
+]
+
 function splitIds(value?: string) {
   return (value || '').split(',').map((item) => item.trim()).filter(Boolean)
 }
@@ -169,8 +181,37 @@ export default function RecipeCalculator() {
       <DataStatus
         status="Interactive recipe planning tool"
         note="Recommendations are based on Pokopia Portal recipe, Pokemon, and habitat entries. Use this as a planning aid and recheck recipe pages after balance updates."
-        updatedAt="2026-05-26"
+        updatedAt="July 11, 2026"
       />
+
+      <section
+        style={{
+          marginTop: '1.5rem',
+          padding: '1.25rem',
+          borderRadius: '12px',
+          border: '1px solid #dce8dc',
+          background: 'rgba(255, 255, 255, 0.94)',
+        }}
+      >
+        <span style={{ color: '#637083', fontSize: '0.78rem', fontWeight: 800, textTransform: 'uppercase' }}>
+          Source Review
+        </span>
+        <h2 style={{ fontSize: '1rem', marginTop: '0.35rem', marginBottom: '0.85rem' }}>How Recipe Scores Are Bounded</h2>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '1rem' }}>
+          <div>
+            <h3 style={{ fontSize: '0.92rem', marginBottom: '0.5rem' }}>Data basis</h3>
+            <ul style={{ paddingLeft: '1.1rem', color: '#3d475c', fontSize: '0.9rem' }}>
+              {sourceReviewNotes.map((note) => <li key={note}>{note}</li>)}
+            </ul>
+          </div>
+          <div>
+            <h3 style={{ fontSize: '0.92rem', marginBottom: '0.5rem' }}>Use limits</h3>
+            <ul style={{ paddingLeft: '1.1rem', color: '#3d475c', fontSize: '0.9rem' }}>
+              {toolLimits.map((limit) => <li key={limit}>{limit}</li>)}
+            </ul>
+          </div>
+        </div>
+      </section>
 
       <section style={{ marginTop: '1.5rem' }}>
         <h2 style={{ fontSize: '1rem', marginBottom: '0.75rem' }}>Route Goal</h2>
@@ -432,7 +473,7 @@ export default function RecipeCalculator() {
           A high goal match means the recipe text, buff, best-use note, or route guidance lines up with the selected objective. Use the result as a short list, then open the linked Recipe, Pokemon, and Habitat pages before spending rare ingredients.
         </p>
         <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.65rem', marginTop: '1rem' }}>
-          <Link href="/wiki/recipe" style={{ fontSize: '0.85rem', fontWeight: 800 }}>Browse all recipes</Link>
+          <Link href="/official/official-beginner-tips" style={{ fontSize: '0.85rem', fontWeight: 800 }}>Check official tips</Link>
           <Link href="/tools/habitat-planner" style={{ fontSize: '0.85rem', fontWeight: 800 }}>Plan a habitat route</Link>
           <Link href="/tools/team-builder" style={{ fontSize: '0.85rem', fontWeight: 800 }}>Match a team</Link>
         </div>

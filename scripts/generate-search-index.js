@@ -348,7 +348,7 @@ const index = [
     meta: item.meta,
     status: 'Interactive planning tool',
     source: null,
-    updatedAt: '2026-05-27',
+    updatedAt: '2026-07-11',
     priority: item.priority,
     keywords: [
       item.title,

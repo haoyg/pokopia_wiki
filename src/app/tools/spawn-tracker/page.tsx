@@ -2,6 +2,7 @@ import { Metadata } from 'next'
 import { SpawnTracker } from '@/components/tools/SpawnTracker'
 import { BreadcrumbJsonLd, FAQJsonLd, ToolJsonLd } from '@/components/seo/JsonLd'
 import { canonicalUrl } from '@/lib/site'
+import { DataStatus } from '@/components/content/DataStatus'
 
 export const metadata: Metadata = {
   title: 'Pokopia Spawn Tracker: Locations and Weather',
@@ -62,6 +63,18 @@ const spawnTrackerFaqs = [
   },
 ]
 
+const sourceReviewNotes = [
+  'Uses Pokopia Portal Pokemon and habitat datasets as spawn lookup inputs.',
+  'Filters records by text fields such as habitat, weather, time, rarity, food, drops, type, and role notes.',
+  'Links results to supporting Pokemon and habitat pages so route context can be checked before farming.',
+]
+
+const toolLimits = [
+  'Do not treat tracker results as live official spawn rates, guaranteed encounter tables, or event-specific availability.',
+  'Broad results are shortlists; add weather, time, habitat, or rarity filters before planning a farming route.',
+  'Spawn records should be reviewed after official updates, source-backed guide changes, or database corrections.',
+]
+
 export default function SpawnTrackerPage() {
   return (
     <main className="page-shell">
@@ -89,7 +102,31 @@ export default function SpawnTrackerPage() {
         <p>Filter current database entries by habitat, weather, time, rarity, food, drops, and type.</p>
       </section>
 
+      <DataStatus
+        status="Interactive spawn lookup tool"
+        note="Spawn results are based on Pokopia Portal Pokemon and habitat datasets. Use them as a planning shortlist and recheck source-backed pages after official updates."
+        updatedAt="July 11, 2026"
+      />
+
       <SpawnTracker />
+
+      <section className="tool-next-steps">
+        <h2>Source Review Notes</h2>
+        <div className="tool-guide-grid" aria-label="Spawn tracker source review">
+          <div className="tool-guide-card">
+            <strong>Data basis</strong>
+            <ul>
+              {sourceReviewNotes.map((note) => <li key={note}>{note}</li>)}
+            </ul>
+          </div>
+          <div className="tool-guide-card">
+            <strong>Use limits</strong>
+            <ul>
+              {toolLimits.map((limit) => <li key={limit}>{limit}</li>)}
+            </ul>
+          </div>
+        </div>
+      </section>
 
       <section className="tool-guide-grid" aria-label="Spawn tracker use cases">
         {spawnUseCases.map((item) => (
@@ -119,8 +156,8 @@ export default function SpawnTrackerPage() {
           then open the habitat page to confirm whether the route fits your team and recipe timing.
         </p>
         <div>
-          <a href="/wiki/pokemon">Browse Pokemon</a>
-          <a href="/wiki/habitat">Browse habitats</a>
+          <a href="/official/gameplay-overview">Check gameplay context</a>
+          <a href="/official/official-beginner-tips">Read official tips</a>
           <a href="/tools/habitat-planner">Plan habitat route</a>
           <a href="/tools/recipe-calculator">Compare recipe support</a>
         </div>

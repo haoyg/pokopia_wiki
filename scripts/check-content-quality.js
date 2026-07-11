@@ -103,6 +103,10 @@ for (const pagePath of sitemapPaths) {
   assert(h2Count >= 1 || pagePath === '/', `${label} has no h2 section heading`)
   assert(internalLinkCount >= 3 || pagePath === '/', `${label} has too few internal links (${internalLinkCount})`)
   assert(hasReviewSignal(text), `${label} lacks visible source, review, status, updated, or confirmed signal`)
+  if (/^\/tools\/.+/.test(pagePath)) {
+    assert(/Source Review/i.test(text), `${label} is a tool page without visible Source Review notes`)
+    assert(/WebApplication/i.test(html), `${label} is a tool page without WebApplication structured data`)
+  }
 
   const visibleLinks = [...html.matchAll(/<a\b[^>]*\bhref=["']([^"']+)["']/gi)]
     .map((match) => match[1])

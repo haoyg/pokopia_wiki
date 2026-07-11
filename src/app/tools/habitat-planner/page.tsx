@@ -71,6 +71,18 @@ const habitatPlannerFaqs = [
   },
 ]
 
+const sourceReviewNotes = [
+  'Uses Pokopia Portal habitat, recipe, Pokemon, and guide datasets as route-planning inputs.',
+  'Links to database detail pages for context, while source-backed official and guide pages remain the safer basis for confirmed claims.',
+  'Ranks routes by goal fit, level access, weather, difficulty, rare-spawn notes, and resource text rather than live game telemetry.',
+]
+
+const toolLimits = [
+  'Do not treat planner scores as official route rankings, final spawn rates, or guaranteed farming results.',
+  'Locked habitats are preparation targets, not recommendations to enter before level access is met.',
+  'Weather and route text should be rechecked when official updates or reviewed database changes affect habitat behavior.',
+]
+
 function getUnlockLevel(condition: string) {
   const match = condition.match(/Reach Level (\d+)/)
   return match ? Number.parseInt(match[1], 10) : 1
@@ -236,8 +248,37 @@ export default function HabitatPlanner() {
       <DataStatus
         status="Interactive habitat planning tool"
         note="Recommendations are based on Pokopia Portal habitat, recipe, Pokemon, and guide entries. Use this as route planning support and recheck pages after balance updates."
-        updatedAt="2026-05-26"
+        updatedAt="July 11, 2026"
       />
+
+      <section
+        style={{
+          marginTop: '1.5rem',
+          padding: '1.25rem',
+          borderRadius: '12px',
+          border: '1px solid #dce8dc',
+          background: 'rgba(255, 255, 255, 0.94)',
+        }}
+      >
+        <span style={{ color: '#637083', fontSize: '0.78rem', fontWeight: 800, textTransform: 'uppercase' }}>
+          Source Review
+        </span>
+        <h2 style={{ fontSize: '1rem', marginTop: '0.35rem', marginBottom: '0.85rem' }}>How Habitat Recommendations Are Bounded</h2>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '1rem' }}>
+          <div>
+            <h3 style={{ fontSize: '0.92rem', marginBottom: '0.5rem' }}>Data basis</h3>
+            <ul style={{ paddingLeft: '1.1rem', color: '#3d475c', fontSize: '0.9rem' }}>
+              {sourceReviewNotes.map((note) => <li key={note}>{note}</li>)}
+            </ul>
+          </div>
+          <div>
+            <h3 style={{ fontSize: '0.92rem', marginBottom: '0.5rem' }}>Use limits</h3>
+            <ul style={{ paddingLeft: '1.1rem', color: '#3d475c', fontSize: '0.9rem' }}>
+              {toolLimits.map((limit) => <li key={limit}>{limit}</li>)}
+            </ul>
+          </div>
+        </div>
+      </section>
 
       <section style={{ marginTop: '1.5rem' }}>
         <h2 style={{ fontSize: '1rem', marginBottom: '0.75rem' }}>Route Goal</h2>
@@ -595,7 +636,7 @@ export default function HabitatPlanner() {
           Start with the goal, then narrow by level, difficulty, or weather. Open the habitat page before spending rare recipes, and use the linked Pokemon and guide pages to confirm food, drops, spawn timing, and route risks.
         </p>
         <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.65rem', marginTop: '1rem' }}>
-          <Link href="/wiki/habitat" style={{ fontSize: '0.85rem', fontWeight: 800 }}>Browse all habitats</Link>
+          <Link href="/official/gameplay-overview" style={{ fontSize: '0.85rem', fontWeight: 800 }}>Check gameplay context</Link>
           <Link href="/tools/recipe-calculator" style={{ fontSize: '0.85rem', fontWeight: 800 }}>Compare recipes</Link>
           <Link href="/tools/team-builder" style={{ fontSize: '0.85rem', fontWeight: 800 }}>Build a team draft</Link>
         </div>

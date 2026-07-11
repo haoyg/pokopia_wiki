@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 import { canonicalUrl } from '@/lib/site'
 import { BreadcrumbJsonLd, ItemListJsonLd } from '@/components/seo/JsonLd'
+import { DataStatus } from '@/components/content/DataStatus'
 
 export const metadata: Metadata = {
   title: 'Pokopia Tools: Planner, Tracker, Builder',
@@ -106,6 +107,12 @@ export default function ToolsPage() {
         </div>
       </section>
 
+      <DataStatus
+        status="Interactive planning tools"
+        note="Tools use Pokopia Portal guide, official, habitat, recipe, and Pokemon data. Treat recommendations as planning support, then confirm source-backed pages before making route or resource decisions."
+        updatedAt="July 11, 2026"
+      />
+
       <section className="tools-hub-section">
         <div className="tools-section-heading">
           <span>Core Tools</span>
@@ -179,6 +186,27 @@ export default function ToolsPage() {
           <div>
             <strong>Farming rare targets</strong>
             <p>Start with Recipe Calculator, then verify the habitat and Pokemon spawn conditions.</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="tools-hub-section tools-workflow">
+        <div className="tools-section-heading">
+          <span>Source Review</span>
+          <h2>How Tool Results Should Be Read</h2>
+        </div>
+        <div className="tools-workflow-grid">
+          <div>
+            <strong>Data basis</strong>
+            <p>Tool outputs are generated from site datasets and reviewed source-backed pages, not live official game APIs.</p>
+          </div>
+          <div>
+            <strong>Use limits</strong>
+            <p>Scores and drafts are editorial planning aids. They should not be treated as official rankings, final spawn rates, or balance data.</p>
+          </div>
+          <div>
+            <strong>Recheck trigger</strong>
+            <p>Recheck tools after official updates, new source pages, or database changes that affect routes, recipes, habitats, or team roles.</p>
           </div>
         </div>
       </section>
