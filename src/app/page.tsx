@@ -4,6 +4,8 @@ import guidesData from '@/data/guides.json'
 import { canonicalUrl } from '@/lib/site'
 import { CreditedImage } from '@/components/media/CreditedImage'
 import { OfficialContext } from '@/components/content/OfficialContext'
+import { DataStatus } from '@/components/content/DataStatus'
+import { ItemListJsonLd, WebPageJsonLd } from '@/components/seo/JsonLd'
 import { isEditorialContent } from '@/lib/indexing'
 
 export const metadata: Metadata = {
@@ -105,9 +107,29 @@ export default function Home() {
   const news = newsData.slice(1, 5)
   const sourceBackedGuides = guidesData.filter((guide) => !isEditorialContent(guide.data_status))
   const guides = sourceBackedGuides.slice(0, 6)
+  const homepageItems = [
+    { name: 'Official Info', url: '/official' },
+    { name: 'Source-Backed Guides', url: '/guides' },
+    { name: 'Planning Tools', url: '/tools' },
+    { name: 'News Updates', url: '/news' },
+    { name: 'Editorial Policy', url: '/editorial-policy' },
+  ]
 
   return (
     <main>
+      <WebPageJsonLd
+        type="CollectionPage"
+        name="Pokopia Wiki, Guides, and Tools"
+        description="Independent Pokopia homepage for official source notes, source-backed guides, planning tools, news updates, and trust policies."
+        url="/"
+        dateModified="2026-07-11"
+      />
+      <ItemListJsonLd
+        name="Pokopia Portal primary sections"
+        description="Primary source-aware sections on Pokopia Portal."
+        url="/"
+        items={homepageItems}
+      />
       <section className="hero">
         <div className="hero-inner">
           <p className="hero-kicker">Explorer Field Guide</p>
@@ -119,6 +141,14 @@ export default function Home() {
             <a href="/tools">Planning Tools</a>
           </div>
         </div>
+      </section>
+
+      <section style={{ maxWidth: '1120px', margin: '1.5rem auto 0', padding: '0 1rem' }}>
+        <DataStatus
+          status="Source-aware homepage"
+          note="This homepage prioritizes official source roundups, reviewed guides, planning tools, and trust policies. Draft database pages remain outside the sitemap until reviewed."
+          updatedAt="July 11, 2026"
+        />
       </section>
 
       <section className="home-dashboard" aria-label="Pokopia homepage highlights">

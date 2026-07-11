@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import './globals.css'
-import { WebsiteJsonLd } from '@/components/seo/JsonLd'
+import { OrganizationJsonLd, WebsiteJsonLd } from '@/components/seo/JsonLd'
 import { Header } from '@/components/layout/Header'
 import { Footer } from '@/components/layout/Footer'
 import { BASE_URL } from '@/lib/site'
@@ -78,6 +78,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <WebsiteJsonLd />
+        <OrganizationJsonLd />
       </head>
       <body>
         <Header />

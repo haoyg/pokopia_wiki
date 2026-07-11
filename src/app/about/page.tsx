@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { DataStatus } from '@/components/content/DataStatus'
 import { canonicalUrl, BASE_URL } from '@/lib/site'
-import { BreadcrumbJsonLd, JsonLd } from '@/components/seo/JsonLd'
+import { BreadcrumbJsonLd, JsonLd, WebPageJsonLd } from '@/components/seo/JsonLd'
 
 export const metadata: Metadata = {
   title: 'About Pokopia Portal',
@@ -27,6 +27,13 @@ export default function AboutPage() {
     <>
       <JsonLd data={orgJsonLd} />
       <main className="topic-page page-shell">
+        <WebPageJsonLd
+          type="AboutPage"
+          name="About Pokopia Portal"
+          description="About Pokopia Portal, an independent source-aware guide site with editorial policies, source standards, and correction process."
+          url="/about"
+          dateModified="2026-07-11"
+        />
         <BreadcrumbJsonLd
           items={[
             { name: 'Home', url: '/' },

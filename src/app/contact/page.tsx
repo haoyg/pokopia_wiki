@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { canonicalUrl } from '@/lib/site'
+import { BreadcrumbJsonLd, WebPageJsonLd } from '@/components/seo/JsonLd'
 
 export const metadata: Metadata = {
   title: 'Contact Pokopia Portal',
@@ -12,6 +13,19 @@ export const metadata: Metadata = {
 export default function ContactPage() {
   return (
     <main style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto', lineHeight: 1.8 }}>
+      <WebPageJsonLd
+        type="ContactPage"
+        name="Contact Pokopia Portal"
+        description="Contact Pokopia Portal for corrections, source issues, guide suggestions, rights requests, and editorial feedback."
+        url="/contact"
+        dateModified="2026-07-11"
+      />
+      <BreadcrumbJsonLd
+        items={[
+          { name: 'Home', url: '/' },
+          { name: 'Contact', url: '/contact' },
+        ]}
+      />
       <article>
         <h1>Contact Pokopia Portal</h1>
         <p style={{ marginTop: '1rem' }}>
