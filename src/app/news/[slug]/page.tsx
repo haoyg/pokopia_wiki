@@ -88,6 +88,11 @@ export default async function NewsDetailPage({ params }: Props) {
   const relatedNews = newsData.filter((n) => n.id !== news.id).slice(0, 3)
   const contentParagraphs = news.content.split('\n\n').filter(Boolean)
   const isExternalSource = news.source_url?.startsWith('http')
+  const enrichedNews = news as typeof news & {
+    source_review_notes?: string[]
+    claim_limits?: string[]
+    recheck_triggers?: string[]
+  }
 
   return (
     <>
@@ -96,6 +101,7 @@ export default async function NewsDetailPage({ params }: Props) {
         description={news.excerpt}
         url={`/news/${news.slug}`}
         publishedAt={new Date(news.published_at * 1000).toISOString()}
+        modifiedAt={new Date(news.published_at * 1000).toISOString()}
         image={news.image_source ? news.image_url : undefined}
         type="NewsArticle"
       />
@@ -151,6 +157,42 @@ export default async function NewsDetailPage({ params }: Props) {
             <span className="panel-kicker">What Changed</span>
             <p>{news.excerpt}</p>
           </section>
+
+          {(enrichedNews.source_review_notes?.length || enrichedNews.claim_limits?.length || enrichedNews.recheck_triggers?.length) && (
+            <section className="news-content-section">
+              <h2>Source Review Notes</h2>
+              {enrichedNews.source_review_notes?.length ? (
+                <>
+                  <h3>Source basis</h3>
+                  <ul>
+                    {enrichedNews.source_review_notes.map((note) => (
+                      <li key={note}>{note}</li>
+                    ))}
+                  </ul>
+                </>
+              ) : null}
+              {enrichedNews.claim_limits?.length ? (
+                <>
+                  <h3>Claim limits</h3>
+                  <ul>
+                    {enrichedNews.claim_limits.map((note) => (
+                      <li key={note}>{note}</li>
+                    ))}
+                  </ul>
+                </>
+              ) : null}
+              {enrichedNews.recheck_triggers?.length ? (
+                <>
+                  <h3>Recheck when</h3>
+                  <ul>
+                    {enrichedNews.recheck_triggers.map((note) => (
+                      <li key={note}>{note}</li>
+                    ))}
+                  </ul>
+                </>
+              ) : null}
+            </section>
+          )}
 
           <section className="news-content-section">
             <h2>Source Update</h2>

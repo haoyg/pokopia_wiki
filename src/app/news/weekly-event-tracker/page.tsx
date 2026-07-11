@@ -7,7 +7,7 @@ import { ArticleJsonLd, BreadcrumbJsonLd, FAQJsonLd, ItemListJsonLd } from '@/co
 import { BASE_URL, canonicalUrl } from '@/lib/site'
 
 const pageUrl = '/news/weekly-event-tracker'
-const reviewedAt = '2026-05-27'
+const reviewedAt = '2026-07-11'
 
 const officialUpdates = newsData
   .filter((item) => item.verified_status === 'Official source roundup')
@@ -36,6 +36,18 @@ const recheckTopics = [
   'Early purchase bonus availability and redemption wording',
   'Daily challenges, PC requests, and beginner-tip terminology',
   'Multiplayer, GameShare, Cloud Island, and Palette Town permissions',
+]
+
+const sourceReviewNotes = [
+  'Uses official Nintendo, Pokemon, store, trailer, support, or clearly identified primary sources for confirmed event-related updates.',
+  'Keeps monitoring topics separate from active events so readers can see what is confirmed and what only needs rechecking.',
+  'Links recent source-backed pages instead of creating unsupported event schedules, reward lists, or countdown pages.',
+]
+
+const claimLimits = [
+  'Do not publish an active event unless the source confirms timing, reward, eligibility, and participation rules.',
+  'Do not add event names, dates, reward quantities, or reset schedules from guesses or genre expectations.',
+  'Do not treat archived or regional information as globally current unless the source supports that wording.',
 ]
 
 const faqs = [
@@ -117,7 +129,7 @@ export default function WeeklyEventTrackerPage() {
       <DataStatus
         status="No unverified weekly event schedule is published"
         note="This tracker does not invent limited-time events, rewards, countdowns, or dates. It records what should be checked and links readers to source-backed updates."
-        updatedAt="May 27, 2026"
+        updatedAt="July 11, 2026"
       />
 
       <OfficialContext
@@ -139,6 +151,23 @@ export default function WeeklyEventTrackerPage() {
         <p>
           Until confirmed weekly events exist, this page works as a transparent monitoring hub. It tells readers what is confirmed, what should be rechecked, and where source-backed updates will be linked.
         </p>
+      </section>
+
+      <section className="topic-section">
+        <span className="panel-kicker">Source Review</span>
+        <h2>Event Claims Need Primary Sources</h2>
+        <h3>Source basis</h3>
+        <ul>
+          {sourceReviewNotes.map((note) => (
+            <li key={note}>{note}</li>
+          ))}
+        </ul>
+        <h3>Claim limits</h3>
+        <ul>
+          {claimLimits.map((limit) => (
+            <li key={limit}>{limit}</li>
+          ))}
+        </ul>
       </section>
 
       <section className="topic-section">

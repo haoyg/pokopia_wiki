@@ -118,6 +118,7 @@ for (const pagePath of sitemapPaths) {
 
 const guides = readJson('src/data/guides.json')
 const official = readJson('src/data/official.json')
+const news = readJson('src/data/news.json')
 const searchIndex = readJson('src/data/search-index.json')
 
 const sourceBackedGuides = guides.filter((guide) => !isEditorialContent(guide.data_status))
@@ -137,6 +138,16 @@ for (const page of official) {
   assert(Array.isArray(page.claim_limits) && page.claim_limits.length >= 2, `official ${page.slug} is missing claim_limits`)
   assert(Array.isArray(page.recheck_triggers) && page.recheck_triggers.length >= 2, `official ${page.slug} is missing recheck_triggers`)
   assert(Array.isArray(page.related_links) && page.related_links.length >= 2, `official ${page.slug} needs related links`)
+}
+
+for (const item of news) {
+  assert(item.source_label && item.source_url, `news ${item.slug} is missing primary source label or URL`)
+  assert(item.verified_status, `news ${item.slug} is missing verified_status`)
+  assert(Array.isArray(item.source_review_notes) && item.source_review_notes.length >= 2, `news ${item.slug} is missing source_review_notes`)
+  assert(Array.isArray(item.claim_limits) && item.claim_limits.length >= 2, `news ${item.slug} is missing claim_limits`)
+  assert(Array.isArray(item.recheck_triggers) && item.recheck_triggers.length >= 2, `news ${item.slug} is missing recheck_triggers`)
+  assert(String(item.content || '').split(/\s+/).filter(Boolean).length >= 70, `news ${item.slug} has thin source-update content`)
+  assert(!/\b(rumor|leak|unconfirmed|maybe|probably)\b/i.test(`${item.title} ${item.excerpt} ${item.verified_status}`), `news ${item.slug} uses weak confirmation wording in index-facing fields`)
 }
 
 const indexedPaths = new Set(searchIndex.map((item) => normalizedPath(item.href)))
