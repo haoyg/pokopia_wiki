@@ -101,12 +101,12 @@ const exploreClusters = [
     ],
   },
   {
-    href: '/builds/home-design-ideas',
-    label: 'Build and Community',
-    summary: 'Home design concepts, future community showcase standards, and safe contribution rules.',
+    href: '/wiki/pokemon',
+    label: 'Wiki and Route Data',
+    summary: 'Pokemon, habitat, and recipe reference pages connected to route planning and tools.',
     links: [
-      { href: '/community/showcase', label: 'Showcase' },
-      { href: '/community', label: 'Guidelines' },
+      { href: '/wiki/habitat', label: 'Habitats' },
+      { href: '/wiki/recipe', label: 'Recipes' },
     ],
   },
   {
@@ -116,15 +116,6 @@ const exploreClusters = [
     links: [
       { href: '/news', label: 'News' },
       { href: '/news/pokemon-pokopia-pc-requests-daily-challenges', label: 'Daily context' },
-    ],
-  },
-  {
-    href: '/wiki/pokemon',
-    label: 'Wiki Database',
-    summary: 'Pokemon, habitat, and recipe reference pages connected to route planning and tools.',
-    links: [
-      { href: '/wiki/habitat', label: 'Habitats' },
-      { href: '/wiki/recipe', label: 'Recipes' },
     ],
   },
 ]

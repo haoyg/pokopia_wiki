@@ -16,7 +16,7 @@ export default function AboutPage() {
     '@type': 'Organization',
     name: 'Pokopia Portal',
     url: BASE_URL,
-    description: 'Independent gaming content site for Pokopia players — guides, wiki data, tools, news, tier lists, and build recommendations.',
+    description: 'Independent gaming content site for Pokopia players with source notes, guides, wiki data, news, and planning tools.',
     email: 'hello@pokopia.cloud',
     sameAs: [],
   }
@@ -28,17 +28,27 @@ export default function AboutPage() {
         <article>
           <h1>About Pokopia Portal</h1>
           <p style={{ marginTop: '1rem' }}>
-            Pokopia Portal is an independent gaming content site built to help players understand Pokopia through structured guides, wiki data, tools, news, tier lists, and build recommendations.
+            Pokopia Portal is an independent gaming content site built to help players understand Pokopia through source notes, practical guides, wiki-style data, news updates, and planning tools.
           </p>
 
           <h2 style={{ marginTop: '2rem' }}>Our Goal</h2>
           <p>
-            The goal is to make every important player question easy to answer: where to farm a Pokemon, how to unlock a habitat, which recipe to use, how to build a team, and what content to prioritize next.
+            The goal is to answer practical player questions clearly: where to farm a Pokemon, how to unlock a habitat, which recipe to use, how to plan a team, and which route to check next.
           </p>
 
           <h2 style={{ marginTop: '2rem' }}>Editorial Approach</h2>
           <p>
-            We organize content around structured data first. Pokemon, habitats, recipes, guides, news, and tools are connected through internal links so players can move from one answer to the next without losing context.
+            We separate confirmed source information from route advice. Official announcements and product information are linked from source-backed pages, while guides and tools explain how a player can use that information in a route, recipe, or team plan.
+          </p>
+
+          <h2 style={{ marginTop: '2rem' }}>Review Process</h2>
+          <p>
+            Pages are reviewed for source clarity, internal links, image attribution, and update dates. When information is uncertain or based on site data, the page labels that context instead of presenting it as an official claim.
+          </p>
+
+          <h2 style={{ marginTop: '2rem' }}>Corrections</h2>
+          <p>
+            If a page has an outdated source, incorrect route note, missing image credit, or unclear wording, readers can request a correction by email. Corrections that affect official facts, copyright, or image attribution are handled first.
           </p>
 
           <h2 style={{ marginTop: '2rem' }}>Independence</h2>
@@ -53,7 +63,7 @@ export default function AboutPage() {
 
           <h2 style={{ marginTop: '2rem' }}>Image and Source Policy</h2>
           <p>
-            We try to label images with their source near the image or on the related page. If a source needs correction or a rights holder requests removal, please contact us through the copyright removal process.
+            We label images with their source near the image or on the related page. If a source needs correction or a rights holder requests removal, please contact us through the copyright removal process.
           </p>
 
           <h2 style={{ marginTop: '2rem' }}>Contact</h2>

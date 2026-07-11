@@ -13,12 +13,12 @@ const footerGroups = [
     ],
   },
   {
-    title: 'Wiki',
+    title: 'Guides',
     links: [
-      { href: '/wiki/pokemon', label: 'Pokemon Database' },
-      { href: '/wiki/habitat', label: 'Habitats' },
-      { href: '/wiki/recipe', label: 'Recipes' },
       { href: '/guides', label: 'Guides Hub' },
+      { href: '/guides/legendary-locations-guide', label: 'Legendary Locations' },
+      { href: '/guides/frost-peak-guide', label: 'Frost Peak Guide' },
+      { href: '/guides/thunder-arena-guide', label: 'Thunder Arena Guide' },
       { href: '/guides/rare-farming-route', label: 'Rare Farming' },
       { href: '/guides/recipe-planning-route', label: 'Recipe Planning' },
     ],
@@ -31,15 +31,6 @@ const footerGroups = [
       { href: '/features/creative-play-ideas', label: 'Creative Play' },
       { href: '/features/friendship-requests-tracker', label: 'Friendship Requests' },
       { href: '/features/meta-analysis', label: 'Systems Analysis' },
-    ],
-  },
-  {
-    title: 'Community',
-    links: [
-      { href: '/builds/home-design-ideas', label: 'Home Design Ideas' },
-      { href: '/community/showcase', label: 'Showcase Index' },
-      { href: '/community', label: 'Guidelines' },
-      { href: '/builds', label: 'Build Standards' },
     ],
   },
   {

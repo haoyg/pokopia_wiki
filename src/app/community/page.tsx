@@ -2,10 +2,12 @@ import type { Metadata } from 'next'
 import { canonicalUrl } from '@/lib/site'
 import { DataStatus } from '@/components/content/DataStatus'
 import { OfficialContext } from '@/components/content/OfficialContext'
+import { noIndexMetadata } from '@/lib/indexing'
 
 export const metadata: Metadata = {
-  title: 'Community Guidelines',
-  description: 'Read Pokopia Portal community contribution guidelines, source rules, and future submission standards.',
+  title: 'Pokopia Contribution Guidelines',
+  description: 'Read Pokopia Portal contribution guidelines for corrections, screenshots, route observations, source rules, and review standards.',
+  robots: noIndexMetadata,
   keywords: [
     'Pokopia community',
     'Pokopia community guidelines',
@@ -15,14 +17,14 @@ export const metadata: Metadata = {
     'Pokopia source rules',
   ],
   openGraph: {
-    title: 'Community Guidelines',
-    description: 'Read Pokopia Portal community contribution guidelines, source rules, and future submission standards.',
+    title: 'Pokopia Contribution Guidelines',
+    description: 'Correction, screenshot, route observation, source, and review standards for Pokopia Portal.',
     images: ['/og-image.svg'],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Community Guidelines',
-    description: 'Read Pokopia Portal community contribution guidelines, source rules, and future submission standards.',
+    title: 'Pokopia Contribution Guidelines',
+    description: 'Correction, screenshot, route observation, source, and review standards for Pokopia Portal.',
     images: ['/og-image.svg'],
   },
   alternates: {
@@ -34,13 +36,13 @@ export default function CommunityPage() {
   return (
     <main className="page-shell">
       <section className="page-hero">
-        <h1>Community Guidelines</h1>
-        <p>Submission rules for future screenshots, build notes, route testing, and source-backed corrections.</p>
+        <h1>Pokopia Contribution Guidelines</h1>
+        <p>Rules for corrections, screenshots, route observations, source notes, and reviewed planning feedback.</p>
       </section>
 
       <DataStatus
-        status="Guidelines page"
-        note="Pokopia Portal is not currently hosting a public forum or live player-submission feed. This page defines the verification standard for future community content."
+        status="Reviewed contribution standards"
+        note="This page defines the evidence and review standards used for corrections, screenshots, route notes, and build feedback before they affect published guides."
         updatedAt="2026-05-23"
       />
 
@@ -65,7 +67,7 @@ export default function CommunityPage() {
         <div className="index-guide-grid">
           <div className="index-guide-card">
             <strong>Community showcase</strong>
-            <p>Future showcase entries need permission, source credit, review dates, and links to related site pages.</p>
+            <p>Showcase-style entries need permission, source credit, review dates, and links to related site pages.</p>
             <div>
               <a href="/community/showcase">Showcase index</a>
               <a href="/builds/home-design-ideas">Home designs</a>

@@ -5,14 +5,9 @@ const navItems = [
   { href: '/official', label: 'Official' },
   { href: '/news', label: 'News' },
   { href: '/guides', label: 'Guides' },
-  { href: '/wiki/pokemon', label: 'Pokemon' },
-  { href: '/wiki/habitat', label: 'Habitats' },
-  { href: '/wiki/recipe', label: 'Recipes' },
-  { href: '/tier-list', label: 'Tier List' },
   { href: '/tools', label: 'Tools' },
   { href: '/features', label: 'Features' },
-  { href: '/builds', label: 'Builds' },
-  { href: '/community', label: 'Community' },
+  { href: '/about', label: 'About' },
 ]
 
 export function Header() {

@@ -33,7 +33,7 @@ const quickPaths = [
   {
     href: '/builds/home-design-ideas',
     title: 'Home Design Ideas',
-    description: 'Use text-based building concepts before verified screenshots exist.',
+    description: 'Use text-based building concepts for cozy layouts and route-friendly spaces.',
     label: 'Build',
   },
   {
@@ -49,10 +49,10 @@ const quickPaths = [
     label: 'News',
   },
   {
-    href: '/community/showcase',
-    title: 'Community Showcase Index',
-    description: 'Future submission standards for verified community content.',
-    label: 'Community',
+    href: '/tools/team-builder',
+    title: 'Team Builder',
+    description: 'Draft a balanced team by role, type coverage, route goal, and supporting recipes.',
+    label: 'Tool',
   },
 ]
 

@@ -2,10 +2,12 @@ import type { Metadata } from 'next'
 import { canonicalUrl } from '@/lib/site'
 import { DataStatus } from '@/components/content/DataStatus'
 import { OfficialContext } from '@/components/content/OfficialContext'
+import { noIndexMetadata } from '@/lib/indexing'
 
 export const metadata: Metadata = {
-  title: 'Build Planning Notes',
-  description: 'Read Pokopia build planning notes and submission standards for future verified community builds.',
+  title: 'Pokopia Build Planning Standards',
+  description: 'Read Pokopia build planning standards for team roles, habitat routes, recipe timing, evidence notes, and internal links.',
+  robots: noIndexMetadata,
   keywords: [
     'Pokopia builds',
     'Pokopia build planning',
@@ -16,14 +18,14 @@ export const metadata: Metadata = {
     'Pokopia build guide',
   ],
   openGraph: {
-    title: 'Build Planning Notes',
-    description: 'Read Pokopia build planning notes and submission standards for future verified community builds.',
+    title: 'Pokopia Build Planning Standards',
+    description: 'Team roles, habitat routes, recipe timing, evidence notes, and internal links for Pokopia build planning.',
     images: ['/og-image.svg'],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Build Planning Notes',
-    description: 'Read Pokopia build planning notes and submission standards for future verified community builds.',
+    title: 'Pokopia Build Planning Standards',
+    description: 'Team roles, habitat routes, recipe timing, evidence notes, and internal links for Pokopia build planning.',
     images: ['/og-image.svg'],
   },
   alternates: {
@@ -35,13 +37,13 @@ export default function BuildsPage() {
   return (
     <main className="page-shell">
       <section className="page-hero">
-        <h1>Build Planning Notes</h1>
-        <p>Editorial build framework for Pokemon roles, habitats, recipes, and future verified submissions.</p>
+        <h1>Pokopia Build Planning Standards</h1>
+        <p>A practical framework for team roles, habitats, recipes, route evidence, and internal links.</p>
       </section>
 
       <DataStatus
-        status="Editorial planning page"
-        note="Pokopia Portal is not currently publishing user-submitted build rankings. Future community builds should include source notes, tested conditions, and the game version or review date."
+        status="Reviewed planning standards"
+        note="This page explains the standards used before a build note is linked from guides or tools: route purpose, Pokemon roles, recipe timing, source context, and a review date."
         updatedAt="2026-05-23"
       />
 
@@ -66,7 +68,7 @@ export default function BuildsPage() {
         <div className="index-guide-grid">
           <div className="index-guide-card">
             <strong>Home design ideas</strong>
-            <p>Use text-based layout concepts for cozy bases, visitor courtyards, recipe workshops, and future verified showcase entries.</p>
+            <p>Use text-based layout concepts for cozy bases, visitor courtyards, recipe workshops, and showcase-ready route notes.</p>
             <div>
               <a href="/builds/home-design-ideas">Open ideas</a>
               <a href="/features/pokopia-animal-crossing">Cozy comparison</a>

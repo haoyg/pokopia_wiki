@@ -38,6 +38,10 @@ function unixDate(value) {
   return date.toISOString().slice(0, 10)
 }
 
+function isEditorialContent(status) {
+  return Boolean(status && /^editorial\b/i.test(String(status).trim()))
+}
+
 const guides = readJson('src/data/guides.json')
 const habitats = readJson('src/data/habitats.json')
 const news = readJson('src/data/news.json')
@@ -135,42 +139,6 @@ const hubPages = [
     updatedAt: '2026-05-28',
     priority: 84,
     keywords: 'features official context animal crossing creative play friendship requests system analysis',
-  },
-  {
-    id: 'pokemon-wiki-hub',
-    type: 'Pokemon',
-    title: 'Pokopia Pokemon Database',
-    href: '/wiki/pokemon',
-    description: 'Pokemon database index with types, rarity, habitats, favorite food, spawn notes, drops, and related planning pages.',
-    meta: 'Pokemon wiki hub',
-    status: 'Editorial database hub',
-    updatedAt: '2026-05-28',
-    priority: 78,
-    keywords: 'pokemon database pokedex types rarity habitats favorite food spawns drops',
-  },
-  {
-    id: 'habitat-wiki-hub',
-    type: 'Habitat',
-    title: 'Pokopia Habitat Database',
-    href: '/wiki/habitat',
-    description: 'Habitat database index with unlock notes, weather, difficulty, spawn lists, recipes, and route planning context.',
-    meta: 'Habitat wiki hub',
-    status: 'Editorial database hub',
-    updatedAt: '2026-05-28',
-    priority: 76,
-    keywords: 'habitat database unlock weather difficulty spawn list route planner pokemon recipe',
-  },
-  {
-    id: 'recipe-wiki-hub',
-    type: 'Recipe',
-    title: 'Pokopia Recipe Database',
-    href: '/wiki/recipe',
-    description: 'Recipe database index with ingredients, buffs, duration, rarity, best-use notes, and route planning links.',
-    meta: 'Recipe wiki hub',
-    status: 'Editorial database hub',
-    updatedAt: '2026-05-28',
-    priority: 74,
-    keywords: 'recipe database ingredients buffs duration rarity best use route planning',
   },
 ]
 
@@ -339,24 +307,6 @@ const index = [
       item.keywords,
     ].join(' '),
   })),
-  ...topicPages.map((item) => ({
-    id: item.id,
-    type: 'Guide',
-    title: item.title,
-    href: item.href,
-    description: item.description,
-    meta: item.meta,
-    status: item.status,
-    source: null,
-    updatedAt: item.updatedAt,
-    priority: item.priority,
-    keywords: [
-      item.title,
-      item.description,
-      item.meta,
-      item.keywords,
-    ].join(' '),
-  })),
   ...tools.map((item) => ({
     id: item.id,
     type: 'Tool',
@@ -395,7 +345,7 @@ const index = [
       item.source_type,
     ].join(' '),
   })),
-  ...guides.map((item) => ({
+  ...guides.filter((item) => !isEditorialContent(item.data_status)).map((item) => ({
     id: item.id,
     type: 'Guide',
     title: item.title,
@@ -435,7 +385,7 @@ const index = [
       item.sources?.map((source) => source.label).join(' '),
     ].join(' '),
   })),
-  ...pokemon.map((item) => ({
+  ...pokemon.filter((item) => !isEditorialContent(item.data_status)).map((item) => ({
     id: item.id,
     type: 'Pokemon',
     title: item.name,
@@ -460,7 +410,7 @@ const index = [
       item.skills,
     ].join(' '),
   })),
-  ...habitats.map((item) => ({
+  ...habitats.filter((item) => !isEditorialContent(item.data_status)).map((item) => ({
     id: item.id,
     type: 'Habitat',
     title: item.name,
@@ -482,7 +432,7 @@ const index = [
       item.recommended_recipe,
     ].join(' '),
   })),
-  ...recipes.map((item) => ({
+  ...recipes.filter((item) => !isEditorialContent(item.data_status)).map((item) => ({
     id: item.id,
     type: 'Recipe',
     title: item.name,

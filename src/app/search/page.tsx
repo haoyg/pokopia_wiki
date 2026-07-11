@@ -2,10 +2,12 @@ import { Suspense } from 'react'
 import { Metadata } from 'next'
 import { SearchClient } from '@/components/search/SearchClient'
 import { canonicalUrl } from '@/lib/site'
+import { noIndexMetadata } from '@/lib/indexing'
 
 export const metadata: Metadata = {
   title: 'Search',
   description: 'Search Pokopia news, guides, Pokemon, habitats, recipes, and tools.',
+  robots: noIndexMetadata,
   openGraph: {
     title: 'Search Pokopia Portal',
     description: 'Search Pokopia news, guides, Pokemon, habitats, recipes, and tools.',
