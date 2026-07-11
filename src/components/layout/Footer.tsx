@@ -47,6 +47,9 @@ const footerGroups = [
     links: [
       { href: '/about', label: 'About' },
       { href: '/contact', label: 'Contact' },
+      { href: '/editorial-policy', label: 'Editorial Policy' },
+      { href: '/source-policy', label: 'Source Policy' },
+      { href: '/corrections', label: 'Corrections' },
       { href: '/copyright', label: 'Copyright' },
       { href: '/disclaimer', label: 'Disclaimer' },
       { href: '/privacy-policy', label: 'Privacy Policy' },

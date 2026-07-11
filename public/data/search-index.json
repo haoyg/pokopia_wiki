@@ -52,6 +52,45 @@
     "keywords": "Pokopia Features and Official Context Source-aware features for cozy players, creative play, friendship requests, and confirmed system analysis. Feature hub features official context animal crossing creative play friendship requests system analysis"
   },
   {
+    "id": "editorial-policy",
+    "type": "Trust",
+    "title": "Editorial Policy",
+    "href": "/editorial-policy",
+    "description": "How Pokopia Portal reviews source-backed pages, guide advice, future content, AI drafts, and corrections.",
+    "meta": "Trust policy",
+    "status": "Review process page",
+    "source": null,
+    "updatedAt": "2026-07-11",
+    "priority": 58,
+    "keywords": "Editorial Policy How Pokopia Portal reviews source-backed pages, guide advice, future content, AI drafts, and corrections. Trust policy editorial policy review process noindex sitemap source backed guide advice ai drafts corrections low value content quality"
+  },
+  {
+    "id": "source-policy",
+    "type": "Trust",
+    "title": "Source Policy",
+    "href": "/source-policy",
+    "description": "How Pokopia Portal ranks official sources, third-party references, screenshots, submissions, and unsupported claims.",
+    "meta": "Trust policy",
+    "status": "Source standards page",
+    "source": null,
+    "updatedAt": "2026-07-11",
+    "priority": 58,
+    "keywords": "Source Policy How Pokopia Portal ranks official sources, third-party references, screenshots, submissions, and unsupported claims. Trust policy source policy official sources primary source screenshots attribution submissions unsupported claims trust standards"
+  },
+  {
+    "id": "corrections",
+    "type": "Trust",
+    "title": "Corrections",
+    "href": "/corrections",
+    "description": "How to report outdated Pokopia Portal information, source issues, image attribution problems, and unclear guide advice.",
+    "meta": "Trust policy",
+    "status": "Correction process page",
+    "source": null,
+    "updatedAt": "2026-07-11",
+    "priority": 58,
+    "keywords": "Corrections How to report outdated Pokopia Portal information, source issues, image attribution problems, and unclear guide advice. Trust policy corrections report issue outdated information source issue image attribution guide advice copyright contact"
+  },
+  {
     "id": "creative-play-ideas",
     "type": "Feature",
     "title": "Pokopia Creative Play Ideas",

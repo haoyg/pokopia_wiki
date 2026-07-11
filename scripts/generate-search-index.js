@@ -142,6 +142,42 @@ const hubPages = [
   },
 ]
 
+const trustPages = [
+  {
+    id: 'editorial-policy',
+    title: 'Editorial Policy',
+    href: '/editorial-policy',
+    description: 'How Pokopia Portal reviews source-backed pages, guide advice, future content, AI drafts, and corrections.',
+    meta: 'Trust policy',
+    status: 'Review process page',
+    updatedAt: '2026-07-11',
+    priority: 58,
+    keywords: 'editorial policy review process noindex sitemap source backed guide advice ai drafts corrections low value content quality',
+  },
+  {
+    id: 'source-policy',
+    title: 'Source Policy',
+    href: '/source-policy',
+    description: 'How Pokopia Portal ranks official sources, third-party references, screenshots, submissions, and unsupported claims.',
+    meta: 'Trust policy',
+    status: 'Source standards page',
+    updatedAt: '2026-07-11',
+    priority: 58,
+    keywords: 'source policy official sources primary source screenshots attribution submissions unsupported claims trust standards',
+  },
+  {
+    id: 'corrections',
+    title: 'Corrections',
+    href: '/corrections',
+    description: 'How to report outdated Pokopia Portal information, source issues, image attribution problems, and unclear guide advice.',
+    meta: 'Trust policy',
+    status: 'Correction process page',
+    updatedAt: '2026-07-11',
+    priority: 58,
+    keywords: 'corrections report issue outdated information source issue image attribution guide advice copyright contact',
+  },
+]
+
 const featurePages = [
   {
     id: 'creative-play-ideas',
@@ -252,6 +288,24 @@ const index = [
   ...hubPages.map((item) => ({
     id: item.id,
     type: item.type,
+    title: item.title,
+    href: item.href,
+    description: item.description,
+    meta: item.meta,
+    status: item.status,
+    source: null,
+    updatedAt: item.updatedAt,
+    priority: item.priority,
+    keywords: [
+      item.title,
+      item.description,
+      item.meta,
+      item.keywords,
+    ].join(' '),
+  })),
+  ...trustPages.map((item) => ({
+    id: item.id,
+    type: 'Trust',
     title: item.title,
     href: item.href,
     description: item.description,
