@@ -6,7 +6,7 @@ import { ArticleJsonLd, BreadcrumbJsonLd, FAQJsonLd, ItemListJsonLd } from '@/co
 import { BASE_URL, canonicalUrl } from '@/lib/site'
 
 const pageUrl = '/features/pokopia-animal-crossing'
-const reviewedAt = '2026-05-27'
+const reviewedAt = '2026-07-11'
 
 const comparisonPoints = [
   {
@@ -25,9 +25,21 @@ const comparisonPoints = [
 
 const readerPaths = [
   { name: 'Official Gameplay Overview', url: '/official/gameplay-overview' },
-  { name: 'Pokopia Beginner Route', url: '/guides/beginner-route' },
+  { name: 'Official Beginner Tips', url: '/official/official-beginner-tips' },
   { name: 'Habitat Planner', url: '/tools/habitat-planner' },
-  { name: 'Recipe Planning Route', url: '/guides/recipe-planning-route' },
+  { name: 'Recipe Calculator', url: '/tools/recipe-calculator' },
+]
+
+const sourceReviewNotes = [
+  'Uses official Pokopia gameplay and beginner pages for confirmed Pokopia systems before making genre comparisons.',
+  'Uses Animal Crossing only as a reader expectation frame, not as evidence for Pokopia mechanics.',
+  'Keeps purchase and multiplayer advice pointed back to official source pages instead of relying on comparison language.',
+]
+
+const comparisonLimits = [
+  'Do not infer villager schedules, museum loops, holiday cadence, or social mechanics unless official Pokopia sources confirm them.',
+  'Do not describe Pokopia as an Animal Crossing clone; the page should explain overlap and differences.',
+  'Do not use genre comparison terms as confirmed system names.',
 ]
 
 const faqs = [
@@ -109,7 +121,7 @@ export default function PokopiaAnimalCrossingFeaturePage() {
       <DataStatus
         status="Source-aware comparison based on official Pokopia context"
         note="This page compares confirmed Pokopia framing with broad cozy life-sim expectations. It does not claim unconfirmed Animal Crossing-style NPC systems, event schedules, or villager mechanics."
-        updatedAt="May 27, 2026"
+        updatedAt="July 11, 2026"
       />
 
       <OfficialContext
@@ -131,6 +143,23 @@ export default function PokopiaAnimalCrossingFeaturePage() {
         <p>
           For SEO and reader usefulness, this distinction matters. Pokopia Portal should not describe Pokopia as a direct Animal Crossing clone. A better framing is: Pokopia may appeal to Animal Crossing players because it offers cozy routines and creative world-building, while adding Pokemon-specific systems that shape routes, habitats, and collection goals.
         </p>
+      </section>
+
+      <section className="topic-section">
+        <span className="panel-kicker">Source Review</span>
+        <h2>How This Comparison Is Bounded</h2>
+        <h3>Source basis</h3>
+        <ul>
+          {sourceReviewNotes.map((note) => (
+            <li key={note}>{note}</li>
+          ))}
+        </ul>
+        <h3>Claim limits</h3>
+        <ul>
+          {comparisonLimits.map((limit) => (
+            <li key={limit}>{limit}</li>
+          ))}
+        </ul>
       </section>
 
       <section className="topic-section">

@@ -1,14 +1,30 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import { canonicalUrl } from '@/lib/site'
+import { BASE_URL, canonicalUrl } from '@/lib/site'
 import { DataStatus } from '@/components/content/DataStatus'
 import { OfficialContext } from '@/components/content/OfficialContext'
+import { ArticleJsonLd, BreadcrumbJsonLd } from '@/components/seo/JsonLd'
+
+const pageUrl = '/features/meta-analysis'
+const reviewedAt = '2026-07-11'
+
+const sourceReviewNotes = [
+  'Uses official gameplay, multiplayer, and beginner-tip pages as the source baseline before making site content recommendations.',
+  'Treats database, guide, recipe, and habitat notes as editorial unless a specific official source supports the detail.',
+  'Uses this page to define site content standards, not to publish final mechanics, rankings, or event rules.',
+]
+
+const recheckTriggers = [
+  'Official pages add new gameplay systems, multiplayer rules, beginner guidance, or support details.',
+  'A guide or database page cites this analysis to support a more specific claim.',
+  'The site changes which pages are eligible for sitemap or search-index inclusion.',
+]
 
 export const metadata: Metadata = {
   title: 'Pokémon Pokopia Confirmed Systems Analysis',
   description: 'Editorial analysis of officially confirmed Pokémon Pokopia systems, including Ditto, moves, crafting, food, multiplayer, and beginner routines.',
   alternates: {
-    canonical: canonicalUrl('/features/meta-analysis'),
+    canonical: canonicalUrl(pageUrl),
   },
   openGraph: {
     title: 'Pokémon Pokopia Confirmed Systems Analysis',
@@ -19,10 +35,23 @@ export const metadata: Metadata = {
 }
 
 export default function MetaAnalysisPage() {
-  const reviewedAt = 'May 23, 2026'
-
   return (
     <main style={{ maxWidth: '820px', margin: '0 auto', padding: '2rem 1rem' }}>
+      <ArticleJsonLd
+        title="Pokemon Pokopia Confirmed Systems Analysis"
+        description="A source-aware editorial explainer based on official Nintendo and Pokemon information."
+        url={pageUrl}
+        publishedAt={reviewedAt}
+        modifiedAt={reviewedAt}
+        image={`${BASE_URL}/og-image.svg`}
+      />
+      <BreadcrumbJsonLd
+        items={[
+          { name: 'Home', url: '/' },
+          { name: 'Features', url: '/features' },
+          { name: 'Confirmed Systems Analysis', url: pageUrl },
+        ]}
+      />
       <header style={{ marginBottom: '2rem' }}>
         <Link href="/features" style={{ fontSize: '0.875rem', color: '#666' }}>
           Back to Features
@@ -39,7 +68,7 @@ export default function MetaAnalysisPage() {
         <DataStatus
           status="Editorial analysis based on official sources"
           note="This feature does not use competitive match data, player interviews, or unsourced rankings. It interprets confirmed information from official pages and links to the relevant source roundups."
-          updatedAt={reviewedAt}
+          updatedAt="July 11, 2026"
         />
         <OfficialContext
           title="Official Sources Behind This Analysis"
@@ -60,6 +89,20 @@ export default function MetaAnalysisPage() {
         <p>
           For Pokopia Portal, that means the safest content model is clear: official pages should document confirmed systems, while guides should be labeled as editorial route planning. Database pages can help readers plan, but they should not imply that every spawn, drop, or tier claim is official.
         </p>
+
+        <h2>Source Review Notes</h2>
+        <h3>Source basis</h3>
+        <ul>
+          {sourceReviewNotes.map((note) => (
+            <li key={note}>{note}</li>
+          ))}
+        </ul>
+        <h3>Recheck when</h3>
+        <ul>
+          {recheckTriggers.map((trigger) => (
+            <li key={trigger}>{trigger}</li>
+          ))}
+        </ul>
 
         <h2>1. Ditto Is the Core Framing Device</h2>
         <p>

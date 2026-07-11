@@ -6,23 +6,23 @@ import { ArticleJsonLd, BreadcrumbJsonLd, FAQJsonLd, ItemListJsonLd } from '@/co
 import { BASE_URL, canonicalUrl } from '@/lib/site'
 
 const pageUrl = '/features/creative-play-ideas'
-const reviewedAt = '2026-05-28'
+const reviewedAt = '2026-07-11'
 
 const playIdeas = [
   {
     title: 'One-Habitat Home Challenge',
     summary: 'Build a home or camp whose furniture, recipe planning, and Pokemon choices all come from one habitat theme.',
-    route: '/wiki/habitat',
+    route: '/tools/habitat-planner',
   },
   {
     title: 'Recipe Workshop Run',
     summary: 'Plan a session around cooking, storage placement, and route timing instead of only chasing rare spawns.',
-    route: '/guides/recipe-planning-route',
+    route: '/tools/recipe-calculator',
   },
   {
     title: 'Visitor Courtyard Build',
     summary: 'Create a readable social space for Pokemon visits, screenshots, and future community showcase entries.',
-    route: '/builds/home-design-ideas',
+    route: '/official/multiplayer-gameshare-cloud-island',
   },
   {
     title: 'Low-Rarity Route Draft',
@@ -39,10 +39,22 @@ const unsafeBoundaries = [
 ]
 
 const relatedPages = [
-  { name: 'Home Design Ideas', url: '/builds/home-design-ideas' },
-  { name: 'Community Showcase Index', url: '/community/showcase' },
-  { name: 'Recipe Planning Route', url: '/guides/recipe-planning-route' },
+  { name: 'Official Gameplay Overview', url: '/official/gameplay-overview' },
+  { name: 'Multiplayer Rules', url: '/official/multiplayer-gameshare-cloud-island' },
+  { name: 'Recipe Calculator', url: '/tools/recipe-calculator' },
   { name: 'Habitat Planner', url: '/tools/habitat-planner' },
+]
+
+const sourceReviewNotes = [
+  'Uses official gameplay and multiplayer pages for baseline rules before suggesting optional creative challenges.',
+  'Links challenge ideas to indexed tools and official context pages instead of thin future showcase pages.',
+  'Keeps user submissions, screenshots, and community events separate until permission, source credit, and review dates are available.',
+]
+
+const recheckTriggers = [
+  'Official sources add or change multiplayer, building, screenshot, or event rules.',
+  'The site opens player submissions or community showcases with reviewed source and permission standards.',
+  'A creative challenge starts to make reward, event, mod, or download claims.',
 ]
 
 const faqs = [
@@ -116,15 +128,15 @@ export default function CreativePlayIdeasPage() {
           Safe challenge ideas for players who want fresh ways to enjoy Pokopia without relying on unauthorized mods, downloads, patches, or fake community events.
         </p>
         <div className="topic-hero-actions">
-          <a href="/builds/home-design-ideas">Home design ideas</a>
-          <a href="/community/showcase">Showcase standards</a>
+          <a href="/official/gameplay-overview">Gameplay context</a>
+          <a href="/official/multiplayer-gameshare-cloud-island">Multiplayer rules</a>
         </div>
       </header>
 
       <DataStatus
         status="Creative ideas only, no mod downloads"
         note="This page does not provide game modifications, files, patches, or bypass instructions. It covers safe editorial play ideas that can be used with normal site guides and tools."
-        updatedAt="May 28, 2026"
+        updatedAt="July 11, 2026"
       />
 
       <OfficialContext
@@ -146,6 +158,23 @@ export default function CreativePlayIdeasPage() {
         <p>
           This keeps the page useful without creating security, copyright, platform-policy, or AdSense quality issues.
         </p>
+      </section>
+
+      <section className="topic-section">
+        <span className="panel-kicker">Source Review</span>
+        <h2>How Creative Ideas Stay Safe</h2>
+        <h3>Source basis</h3>
+        <ul>
+          {sourceReviewNotes.map((note) => (
+            <li key={note}>{note}</li>
+          ))}
+        </ul>
+        <h3>Recheck when</h3>
+        <ul>
+          {recheckTriggers.map((trigger) => (
+            <li key={trigger}>{trigger}</li>
+          ))}
+        </ul>
       </section>
 
       <section className="topic-section">
