@@ -7,9 +7,8 @@ const footerGroups = [
       { href: '/', label: 'Home' },
       { href: '/official', label: 'Official Info' },
       { href: '/news', label: 'News Hub' },
-      { href: '/guides/beginner-route', label: 'Beginner Route' },
+      { href: '/official/gameplay-overview', label: 'Gameplay Overview' },
       { href: '/news/weekly-event-tracker', label: 'Event Tracker' },
-      { href: '/search', label: 'Search' },
     ],
   },
   {
@@ -19,8 +18,8 @@ const footerGroups = [
       { href: '/guides/legendary-locations-guide', label: 'Legendary Locations' },
       { href: '/guides/frost-peak-guide', label: 'Frost Peak Guide' },
       { href: '/guides/thunder-arena-guide', label: 'Thunder Arena Guide' },
-      { href: '/guides/rare-farming-route', label: 'Rare Farming' },
-      { href: '/guides/recipe-planning-route', label: 'Recipe Planning' },
+      { href: '/official/official-beginner-tips', label: 'Official Beginner Tips' },
+      { href: '/official/multiplayer-gameshare-cloud-island', label: 'Multiplayer Rules' },
     ],
   },
   {

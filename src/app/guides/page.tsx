@@ -38,7 +38,7 @@ function shortText(text: string, length = 145) {
 
 export const metadata: Metadata = {
   title: 'Pokopia Guides: Walkthroughs and Routes',
-  description: 'Find Pokopia walkthroughs, starter picks, habitat routes, farming plans, recipes, tools, and team planning guides.',
+  description: 'Find source-backed Pokopia route guides, official context, and planning tools separated from broader editorial guide drafts.',
   keywords: [
     'Pokopia guides',
     'Pokopia route guide',
@@ -51,13 +51,13 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'Pokopia Guides: Walkthroughs and Routes',
-    description: 'Walkthroughs, starter picks, habitat routes, farming plans, recipes, tools, and team guides for Pokopia.',
+    description: 'Source-backed route guides, official context, and planning tools for Pokopia.',
     images: ['/og-image.svg'],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Pokopia Guides: Walkthroughs and Routes',
-    description: 'Walkthroughs, starter picks, habitat routes, farming plans, recipes, tools, and team guides for Pokopia.',
+    description: 'Source-backed route guides, official context, and planning tools for Pokopia.',
     images: ['/og-image.svg'],
   },
   alternates: {
@@ -98,33 +98,16 @@ export default function GuidesPage() {
 
       <section className="features-lead-section">
         <div className="features-topic-grid">
-          <a href="/guides/beginner-route" className="feature-hero">
-            <span>Topic Route</span>
-            <h2>Pokopia Beginner Route</h2>
+          {sourceBackedGuides.map((guide) => (
+          <a key={guide.id} href={`/guides/${guide.slug}`} className="feature-hero">
+            <span>{guide.data_status}</span>
+            <h2>{guide.title}</h2>
             <p>
-              A practical first path that connects starter choices, easy habitats, recipe timing,
-              Pokemon pages, and planning tools before harder routes.
+              {guide.answer}
             </p>
-            <div className="feature-read-time">Start here before choosing a long farming route</div>
+            <div className="feature-read-time">{guide.steps.length} reviewed route checks</div>
           </a>
-          <a href="/guides/rare-farming-route" className="feature-hero">
-            <span>Topic Route</span>
-            <h2>Pokopia Rare Farming Route</h2>
-            <p>
-              A focused route for rare and legendary checks, Lucky Charm timing, target habitats,
-              recipe support, and tool workflow.
-            </p>
-            <div className="feature-read-time">Use this after the route is already mapped</div>
-          </a>
-          <a href="/guides/recipe-planning-route" className="feature-hero">
-            <span>Topic Route</span>
-            <h2>Pokopia Recipe Planning Route</h2>
-            <p>
-              A recipe workflow for choosing buffs by route objective, rarity cost, habitat risk,
-              Pokemon targets, and tool checks.
-            </p>
-            <div className="feature-read-time">Use this before spending rare ingredients</div>
-          </a>
+          ))}
         </div>
       </section>
 

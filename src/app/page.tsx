@@ -175,7 +175,7 @@ export default function Home() {
             <span className="panel-kicker">Explore Pokopia</span>
             <h2>Choose a Content Path</h2>
           </div>
-          <a href="/search">Search all pages</a>
+          <a href="/official">Open official hub</a>
         </div>
         <div className="home-explore-grid">
           {exploreClusters.map((cluster) => (
