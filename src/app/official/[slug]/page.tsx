@@ -68,6 +68,11 @@ export default async function OfficialInfoDetailPage({ params }: Props) {
     month: 'long',
     day: 'numeric',
   })
+  const enrichedPage = page as typeof page & {
+    source_review_notes?: string[]
+    claim_limits?: string[]
+    recheck_triggers?: string[]
+  }
   const faqs = page.faqs || []
   const modeComparison = page.mode_comparison || []
 
@@ -150,6 +155,42 @@ export default async function OfficialInfoDetailPage({ params }: Props) {
             ))}
           </ol>
         </section>
+
+        {(enrichedPage.source_review_notes?.length || enrichedPage.claim_limits?.length || enrichedPage.recheck_triggers?.length) && (
+          <section className="official-notes-section">
+            <h2>Source Review Notes</h2>
+            {enrichedPage.source_review_notes?.length ? (
+              <>
+                <h3>Source basis</h3>
+                <ul>
+                  {enrichedPage.source_review_notes.map((note) => (
+                    <li key={note}>{note}</li>
+                  ))}
+                </ul>
+              </>
+            ) : null}
+            {enrichedPage.claim_limits?.length ? (
+              <>
+                <h3>Claim limits</h3>
+                <ul>
+                  {enrichedPage.claim_limits.map((note) => (
+                    <li key={note}>{note}</li>
+                  ))}
+                </ul>
+              </>
+            ) : null}
+            {enrichedPage.recheck_triggers?.length ? (
+              <>
+                <h3>Recheck when</h3>
+                <ul>
+                  {enrichedPage.recheck_triggers.map((note) => (
+                    <li key={note}>{note}</li>
+                  ))}
+                </ul>
+              </>
+            ) : null}
+          </section>
+        )}
 
         <section className="official-notes-section">
           <h2>Editorial Notes</h2>
