@@ -208,7 +208,7 @@ function main() {
   for (const folder of datasets) {
     for (const file of ['news.json', 'guides.json', 'pokemon.json', 'habitats.json', 'recipes.json']) {
       const full = path.join(ROOT, folder, file)
-      const text = fs.readFileSync(full, 'utf8').replace(/Pok茅mon/g, 'Pokemon')
+      const text = fs.readFileSync(full, 'utf8').replace(/Pok\u8305mon/g, 'Pokémon')
       fs.writeFileSync(full, text, 'utf8')
     }
   }

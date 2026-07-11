@@ -94,7 +94,7 @@ export default function PokopiaAnimalCrossingFeaturePage() {
       <header className="topic-hero">
         <Link href="/features" className="back-link">Back to Features</Link>
         <div style={{ marginTop: '1rem' }}>
-          <span className="badge source-roundup">Editorial Comparison</span>
+          <span className="badge source-roundup">Source-Aware Comparison</span>
         </div>
         <h1>Pokopia vs Animal Crossing: What Cozy Game Players Should Expect</h1>
         <p>
@@ -102,12 +102,12 @@ export default function PokopiaAnimalCrossingFeaturePage() {
         </p>
         <div className="topic-hero-actions">
           <a href="/official/gameplay-overview">Check official Pokopia info</a>
-          <a href="/guides/beginner-route">Start beginner route</a>
+          <a href="/official/official-beginner-tips">Read official beginner tips</a>
         </div>
       </header>
 
       <DataStatus
-        status="Editorial comparison based on official Pokopia context"
+        status="Source-aware comparison based on official Pokopia context"
         note="This page compares confirmed Pokopia framing with broad cozy life-sim expectations. It does not claim unconfirmed Animal Crossing-style NPC systems, event schedules, or villager mechanics."
         updatedAt="May 27, 2026"
       />

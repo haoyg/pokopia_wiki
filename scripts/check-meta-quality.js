@@ -73,14 +73,21 @@ for (const item of meta) {
 }
 
 const sourceFiles = []
+const textFiles = []
 function walk(dir) {
   for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
     const full = path.join(dir, entry.name)
     if (entry.isDirectory()) walk(full)
-    else if (entry.name.endsWith('.tsx') || entry.name.endsWith('.ts')) sourceFiles.push(full)
+    else if (entry.name.endsWith('.tsx') || entry.name.endsWith('.ts')) {
+      sourceFiles.push(full)
+      textFiles.push(full)
+    } else if (entry.name.endsWith('.js') || entry.name.endsWith('.json')) {
+      textFiles.push(full)
+    }
   }
 }
-walk(path.join(root, 'src/app'))
+walk(path.join(root, 'src'))
+walk(path.join(root, 'scripts'))
 
 for (const file of sourceFiles) {
   const rel = path.relative(root, file)
@@ -90,6 +97,15 @@ for (const file of sourceFiles) {
 
   const riskyDescription = source.match(/description:\s*['"`][^'"`]*(ultimate|comprehensive|definitive|best builds?)/i)
   if (riskyDescription) issues.push(`${rel} has a risky static metadata description phrase`)
+}
+
+const mojibakePatterns = ['Pok\u8305mon', '\u9225', '\u6a9a', '\ue6c6', '\u6f0f']
+for (const file of textFiles) {
+  const rel = path.relative(root, file)
+  const source = fs.readFileSync(file, 'utf8')
+  for (const pattern of mojibakePatterns) {
+    if (source.includes(pattern)) issues.push(`${rel} contains mojibake text: ${pattern}`)
+  }
 }
 
 if (issues.length > 0) {
