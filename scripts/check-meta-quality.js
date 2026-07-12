@@ -118,9 +118,21 @@ if (!Array.isArray(manifest.icons) || manifest.icons.length < 2) {
   issues.push('site.webmanifest must include at least two icons')
 } else {
   for (const icon of manifest.icons) {
-    if (!icon.src || !fs.existsSync(path.join(root, 'public', icon.src.replace(/^\//, '')))) {
+    const iconPath = icon.src ? path.join(root, 'public', icon.src.replace(/^\//, '')) : ''
+    if (!icon.src || !fs.existsSync(iconPath)) {
       issues.push(`site.webmanifest icon is missing on disk: ${icon.src || '(empty)'}`)
+    } else if (fs.statSync(iconPath).size > 100 * 1024) {
+      issues.push(`site.webmanifest icon is too large: ${icon.src}`)
     }
+  }
+}
+
+const layoutSource = fs.readFileSync(path.join(root, 'src', 'app', 'layout.tsx'), 'utf8')
+const headerSource = fs.readFileSync(path.join(root, 'src', 'components', 'layout', 'Header.tsx'), 'utf8')
+for (const assetPath of [...layoutSource.matchAll(/url:\s*['"`](\/[^'"`]+)['"`]/g), ...headerSource.matchAll(/src=['"`](\/[^'"`]+)['"`]/g)]) {
+  const publicAsset = path.join(root, 'public', assetPath[1].replace(/^\//, ''))
+  if (fs.existsSync(publicAsset) && fs.statSync(publicAsset).size > 100 * 1024) {
+    issues.push(`site identity asset is too large: ${assetPath[1]}`)
   }
 }
 for (const file of textFiles) {

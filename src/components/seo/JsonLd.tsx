@@ -32,9 +32,9 @@ export function WebsiteJsonLd() {
       url: BASE_URL,
       logo: {
         '@type': 'ImageObject',
-        url: `${BASE_URL}/logo-mark.png`,
-        width: 512,
-        height: 512,
+        url: `${BASE_URL}/apple-touch-icon.png`,
+        width: 180,
+        height: 180,
       },
       sameAs: [],
     },
@@ -53,9 +53,9 @@ export function OrganizationJsonLd() {
     description: 'Independent gaming guide site with official source roundups, source-backed guides, planning tools, and editorial policy pages.',
     logo: {
       '@type': 'ImageObject',
-      url: `${BASE_URL}/logo-mark.png`,
-      width: 512,
-      height: 512,
+      url: `${BASE_URL}/apple-touch-icon.png`,
+      width: 180,
+      height: 180,
     },
     contactPoint: {
       '@type': 'ContactPoint',
@@ -142,9 +142,9 @@ export function ArticleJsonLd({
       name: 'Pokopia Portal',
       logo: {
         '@type': 'ImageObject',
-        url: `${BASE_URL}/logo-mark.png`,
-        width: 512,
-        height: 512,
+        url: `${BASE_URL}/apple-touch-icon.png`,
+        width: 180,
+        height: 180,
       },
     },
     mainEntityOfPage: {
@@ -233,9 +233,9 @@ export function ToolJsonLd({
       name: 'Pokopia Portal',
       logo: {
         '@type': 'ImageObject',
-        url: `${BASE_URL}/logo-mark.png`,
-        width: 512,
-        height: 512,
+        url: `${BASE_URL}/apple-touch-icon.png`,
+        width: 180,
+        height: 180,
       },
     },
     isPartOf: {
