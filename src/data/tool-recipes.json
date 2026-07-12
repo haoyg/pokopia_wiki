@@ -1,0 +1,407 @@
+[
+  {
+    "id": "rec001",
+    "name": "Honey Cake",
+    "best_use": "Rare Pokemon farming",
+    "buff": "+20% attraction rate",
+    "overview": "Honey Cake is the recipe to craft when the goal is not raw combat power, but cleaner rare Pokemon attempts. Its value comes from making short farming loops feel less random: enter the habitat, check the spawn points that matter, collect the nearby ingredients, and leave before the run turns into a full clear. It is strongest on routes where grass, meadow, or lakeside Pokemon are already part of the plan, because the ingredients and target spawns overlap naturally. Do not treat Honey Cake as a universal luck button. If the habitat is still unfamiliar, scout the map first; if the rare spawn only appears under a specific weather or time condition, save the cake until that condition is active.",
+    "recommended_for": [
+      "Players farming Bulbin, Thornvine, Aquap, Sunflora, or other nature-route Pokemon with repeated short checks.",
+      "Rare-material farming where the same gathering nodes are revisited several times in one session.",
+      "Early and mid-game players who need a low-risk recipe that helps progression without forcing boss combat."
+    ],
+    "best_timing": [
+      "Use it after the route is mapped and the next run has a specific rare Pokemon target.",
+      "Save it for weather, time, or event windows that improve the target spawn instead of spending it during a casual sweep.",
+      "Craft one before a repeated farming session, not before a first visit to a new habitat."
+    ],
+    "rarity": "uncommon",
+    "common_mistakes": [
+      "Using Honey Cake because a route feels lucky, without first checking whether the target spawn is active.",
+      "Turning a short farming loop into a full clear and wasting most of the recipe duration.",
+      "Crafting several cakes at once before one test session proves the route is worth repeating."
+    ],
+    "ingredients": "Honey x3, Flour x2, Egg x1",
+    "effect_duration": "30 min",
+    "related_pokemon": "pkm002,pkm004,pkm017,pkm023,pkm026,pkm032",
+    "related_habitats": "hab002,hab003,hab015,hab020"
+  },
+  {
+    "id": "rec002",
+    "name": "Fire Boost",
+    "best_use": "Boss battles",
+    "buff": "+30% Fire damage",
+    "overview": "Fire Boost is a focused damage recipe for routes where fire-type pressure solves the actual problem. It is most useful when a boss room, elite encounter, or tough habitat section can be shortened by burst damage. In Volcanic Cave and similar fire-heavy routes, it also fits naturally with Pokemon that already benefit from aggressive play. The mistake is using it as a comfort buff on routes where survival, pathing, or resource loss is the real issue. If a run fails before reaching the fight, defensive food will do more. Craft Fire Boost when the path to the target is stable, your team is ready to attack immediately, and the goal is to finish a dangerous encounter before it snowballs.",
+    "recommended_for": [
+      "Boss attempts in Volcanic Cave and other routes where fire damage has clear value.",
+      "Players running Flamexor, Emberal, or other fire-leaning Pokemon in an aggressive setup.",
+      "Short combat checks where ending the encounter quickly matters more than long-duration utility."
+    ],
+    "best_timing": [
+      "Use it just before entering the dangerous fight or final room, not at the start of a long walk-in.",
+      "Best after your team already survives the route and only needs more damage to finish cleanly.",
+      "Avoid using it during gathering runs where combat is not the main objective."
+    ],
+    "rarity": "rare",
+    "common_mistakes": [
+      "Activating Fire Boost at the habitat entrance and spending the best part of the buff walking to the fight.",
+      "Using it to fix a route that is failing because of defense or healing problems.",
+      "Crafting it for every fire habitat visit instead of saving it for boss rooms, elite checks, or short damage tests."
+    ],
+    "ingredients": "Flame Fruit x5, Magma Stone x1",
+    "effect_duration": "1 hour",
+    "related_pokemon": "pkm001,pkm003,pkm007,pkm013,pkm028,pkm043",
+    "related_habitats": "hab001"
+  },
+  {
+    "id": "rec003",
+    "name": "Speed Potion",
+    "best_use": "Speed runs",
+    "buff": "+25% movement speed",
+    "overview": "Speed Potion is a route-efficiency recipe. It is not about winning harder; it is about reducing dead time between spawn checks, material nodes, and repeat objectives. This makes it excellent for routes that are already understood, especially electric or open-area paths where the distance between useful points is the main cost. It performs poorly in cramped habitats where enemies, puzzles, or survival checks slow the run more than movement. Before crafting it, walk the route once and mark the points that matter. If you cannot describe the loop in a few steps, the potion will probably be spent while you are still deciding where to go.",
+    "recommended_for": [
+      "Players repeating electric, flying, or meadow routes for spawns and materials.",
+      "Short sessions where faster routing matters more than combat buffs.",
+      "Mid-game farming once the map layout is familiar enough to run without hesitation."
+    ],
+    "best_timing": [
+      "Activate it at the start of a known farming loop, not during first-time exploration.",
+      "Best when the next objective is several quick checks rather than one long boss fight.",
+      "Use it after inventory space is cleared so you do not interrupt the route early."
+    ],
+    "rarity": "uncommon",
+    "common_mistakes": [
+      "Using Speed Potion before learning the route and losing most of the benefit while deciding where to go.",
+      "Stopping for side materials that were never part of the planned loop.",
+      "Crafting it for boss fights where damage or defense would matter more."
+    ],
+    "ingredients": "Windy Herb x4, Zap Berry x2",
+    "effect_duration": "45 min",
+    "related_pokemon": "pkm005,pkm010,pkm015,pkm024,pkm035",
+    "related_habitats": "hab004,hab012,hab020"
+  },
+  {
+    "id": "rec004",
+    "name": "Guardian Stew",
+    "best_use": "Hard habitats",
+    "buff": "+40% defense",
+    "overview": "Guardian Stew is the recipe to use when a route is almost working but the team keeps running out of health or stability before the objective is complete. It is especially useful in hard habitats with long approach paths, repeated enemy pressure, or late-room mistakes. The recipe does not make slow teams suddenly fast, and it does not replace a better damage plan. Its job is to buy enough margin for a serious attempt. Use it when you already understand the route and can point to the exact section that causes failures. If the problem is only one heavy hit, Steel Shell may be cleaner; if the problem is chip damage over time, Guardian Stew is usually the steadier choice.",
+    "recommended_for": [
+      "Players pushing hard habitats for the first clean completion.",
+      "Defensive teams that need more time to stabilize before the objective room.",
+      "Routes with steady incoming damage rather than one short burst fight."
+    ],
+    "best_timing": [
+      "Use it before entering the first dangerous stretch of a long route.",
+      "Best after a failed attempt shows that survival, not damage, is the limiting factor.",
+      "Avoid using it for casual gathering if the route can already be cleared safely."
+    ],
+    "rarity": "rare",
+    "common_mistakes": [
+      "Using Guardian Stew when the team actually lacks damage and the fight is only dangerous because it lasts too long.",
+      "Saving it until the run is already unstable instead of using it before the section that usually causes the failure.",
+      "Spending rare ingredients on easy habitats that do not need defensive support."
+    ],
+    "ingredients": "Iron Root x3, Big Root x2, Mystery Meat x2",
+    "effect_duration": "2 hours",
+    "related_pokemon": "pkm002,pkm008,pkm010,pkm019,pkm037",
+    "related_habitats": "hab005,hab010,hab016,hab017"
+  },
+  {
+    "id": "rec005",
+    "name": "Lucky Charm",
+    "best_use": "Legendary hunting",
+    "buff": "+50% rare spawn chance",
+    "overview": "Lucky Charm is for high-value attempts where each run is built around a rare result. It is stronger than a casual farming buff, but only when the route is already tight. Legendary hunting, event spawn checks, and rare material sessions all benefit from it if you can reach the important checks quickly and repeat them without detours. The recipe is easy to waste because the ingredients feel special and the reward is still chance-based. Treat Lucky Charm as a multiplier on a good process, not as a fix for a messy one. If you cannot repeat the same target route consistently, improve the route before spending the charm.",
+    "recommended_for": [
+      "Legendary hunting and rare-event Pokemon attempts.",
+      "Players repeating the same high-value route several times in one session.",
+      "Late-game farming where the scarce ingredient cost is justified by the target reward."
+    ],
+    "best_timing": [
+      "Use it only after confirming the target spawn condition, event window, or route state is active.",
+      "Best at the beginning of a short repeated check route.",
+      "Avoid using it during first-time map exploration or long completion runs."
+    ],
+    "rarity": "legendary",
+    "common_mistakes": [
+      "Using Lucky Charm on a route that has not been practiced just because the target is rare.",
+      "Chasing several unrelated targets during one buff window and reducing serious attempts on the main target.",
+      "Assuming the charm guarantees a result and burning all rare ingredients in one session."
+    ],
+    "ingredients": "Golden Fish x1, Four Leaf x3, Star Dust x2",
+    "effect_duration": "1 hour",
+    "related_pokemon": "pkm007,pkm015,pkm030,pkm050,pkm012,pkm031",
+    "related_habitats": "hab001,hab006,hab012,hab014,hab018,hab019"
+  },
+  {
+    "id": "rec006",
+    "name": "Water Shield",
+    "best_use": "Water habitats",
+    "buff": "+35% water resistance",
+    "overview": "Water Shield is a specialist defensive recipe for water-heavy habitats. It is worth crafting when the dangerous part of the route is clearly tied to water damage, wet terrain pressure, or repeated aquatic encounters. Crystal Lake, Sunny Beach, and Muddy River routes can all justify it if the team loses momentum to water threats before reaching the target. It is not a general defensive recipe. If enemies from several types are causing trouble, Guardian Stew is more flexible. The best Water Shield runs are planned around one watery section: enter prepared, clear the hazard cleanly, and leave with the objective instead of extending the route beyond the recipe’s purpose.",
+    "recommended_for": [
+      "Players farming water habitats for materials, aquatic Pokemon, or route unlocks.",
+      "Teams that can finish the objective if they survive the water section with enough health.",
+      "Mid-game attempts where Pearl is valuable but the route reward is worth protecting."
+    ],
+    "best_timing": [
+      "Activate it before the first water-heavy fight or terrain section.",
+      "Best when the route is known but one watery stretch keeps draining resources.",
+      "Skip it for dry side routes inside the same habitat."
+    ],
+    "rarity": "uncommon",
+    "common_mistakes": [
+      "Using Water Shield as a generic tank buff outside water-heavy sections.",
+      "Crafting it before confirming Pearl is not needed for a higher-priority recipe.",
+      "Staying in the habitat after the water objective is complete and wasting the remaining duration."
+    ],
+    "ingredients": "Crystal Dew x3, Shell x2, Pearl x1",
+    "effect_duration": "1.5 hours",
+    "related_pokemon": "pkm004,pkm014,pkm018,pkm021,pkm027,pkm034",
+    "related_habitats": "hab003,hab009,hab011"
+  },
+  {
+    "id": "rec007",
+    "name": "Thunder Strike",
+    "best_use": "Electric battles",
+    "buff": "+40% electric damage",
+    "overview": "Thunder Strike is an offensive recipe for electric battles and fast tempo checks. It shines when the next target can be decided quickly with electric burst, especially in Thunder Arena or routes where Voltscale, Zaprat, Mechabit, and similar Pokemon already fit the plan. The recipe is weaker when a route is slow because of travel, resource management, or unclear objectives. It should be used close to the fight, not at the start of a long habitat run. Think of Thunder Strike as a way to compress a dangerous encounter into a short controlled window. If the team cannot survive long enough to attack, fix defense first.",
+    "recommended_for": [
+      "Electric battle routes in Thunder Arena and Windmill Plains.",
+      "Players building around Voltscale, Zaprat, Mechabit, or other electric attackers.",
+      "Mid-game damage checks where a short burst matters more than long sustain."
+    ],
+    "best_timing": [
+      "Best right before a compact chain of electric fights.",
+      "Use it when faster damage will prevent the fight from becoming messy.",
+      "Avoid it during open exploration where most of the buff would be spent walking."
+    ],
+    "rarity": "rare",
+    "common_mistakes": [
+      "Using Thunder Strike for a full route clear instead of a specific battle window.",
+      "Crafting it when the team lacks survivability and cannot make use of the extra damage.",
+      "Spending Magnet on low-value fights that could be handled without a recipe."
+    ],
+    "ingredients": "Lightning Bug x5, Battery x3, Magnet x1",
+    "effect_duration": "45 min",
+    "related_pokemon": "pkm005,pkm010,pkm015,pkm024,pkm035",
+    "related_habitats": "hab004,hab012"
+  },
+  {
+    "id": "rec008",
+    "name": "Ice Armor",
+    "best_use": "Frost Peak",
+    "buff": "+50% ice resistance",
+    "overview": "Ice Armor is a targeted survival recipe for Frost Peak and other cold routes where the dangerous section is predictable. Its value is highest when frost pressure slowly breaks the run before the final objective. Unlike Guardian Stew, Ice Armor is narrower but more efficient when the route’s main threat is exactly what it protects against. Use it after scouting the climb, cave section, or frozen encounter chain that causes losses. Do not activate it at the entrance if the first half of the route is safe. The best use is to carry the recipe into the hardest frozen stretch with enough time left to finish the objective.",
+    "recommended_for": [
+      "Frost Peak clears, ice-material farming, and cold-route Pokemon attempts.",
+      "Teams that can handle the objective once the frost damage is controlled.",
+      "Players who need a specific defensive answer rather than a broad tank recipe."
+    ],
+    "best_timing": [
+      "Use it just before the climb, cave, or encounter chain that creates frost pressure.",
+      "Best after one scouting run has identified the danger point.",
+      "Avoid using it early if the route has a long safe approach."
+    ],
+    "rarity": "rare",
+    "common_mistakes": [
+      "Using Ice Armor too early and reaching the dangerous section after the best duration is gone.",
+      "Crafting it for routes where cold damage is only a minor part of the problem.",
+      "Ignoring route cleanup and expecting the recipe to cover avoidable mistakes."
+    ],
+    "ingredients": "Frost Crystal x4, Ice Stone x2, Snowball x3",
+    "effect_duration": "2 hours",
+    "related_pokemon": "pkm008,pkm014,pkm022,pkm029",
+    "related_habitats": "hab005,hab014"
+  },
+  {
+    "id": "rec009",
+    "name": "Grass Heal",
+    "best_use": "Daily farming",
+    "buff": "+30 HP restore",
+    "overview": "Grass Heal is the practical daily recipe: cheap enough to use often, useful enough to prevent small mistakes from ending a farming loop. It is not designed for boss pushing or legendary attempts. Its best role is keeping early and mid-game nature routes comfortable while you collect ingredients, check friendly spawns, and learn efficient paths. Because the materials are common, Grass Heal is also a good training recipe for players who are still learning when food matters. The limit is power. If a route is genuinely hard, Grass Heal will only delay the failure. Use it for low-pressure farming, not for forcing progress through a habitat that needs a stronger defensive plan.",
+    "recommended_for": [
+      "Daily farming, beginner-friendly routes, and low-risk material collection.",
+      "Players learning route layouts who want room for small mistakes.",
+      "Nature-route Pokemon farming where long sustain is more useful than burst power."
+    ],
+    "best_timing": [
+      "Use it at the start of a relaxed gathering loop or before entering a light combat section.",
+      "Best when the objective is steady resource collection rather than a single rare fight.",
+      "Skip it if the route is safe enough without healing or hard enough to require stronger food."
+    ],
+    "rarity": "common",
+    "common_mistakes": [
+      "Expecting Grass Heal to carry a route that needs real defense or damage.",
+      "Using it when the route is already safe and the ingredients would be better saved.",
+      "Ignoring stronger recipes for late-game attempts because Grass Heal is easy to craft."
+    ],
+    "ingredients": "Leaf x5, Berry x3, Sunleaf x2",
+    "effect_duration": "20 min",
+    "related_pokemon": "pkm002,pkm006,pkm017,pkm023,pkm026,pkm032",
+    "related_habitats": "hab002,hab015,hab020"
+  },
+  {
+    "id": "rec010",
+    "name": "Ghost Veil",
+    "best_use": "Shadow Marsh",
+    "buff": "+45% ghost damage",
+    "overview": "Ghost Veil is a route-control recipe for Shadow Marsh, Nightmare Forest, and other areas where ghost or shadow pressure defines the run. It is most valuable when the objective sits behind a dangerous encounter chain or when ghost-type Pokemon farming requires repeated checks in unsafe terrain. The recipe should be used after the route is understood, because shadow routes often punish wandering. Ghost Veil is not a general luck or stealth solution. If the route is failing because the team gets worn down slowly, a defensive recipe may help more. Use Ghost Veil when the next few minutes involve the specific shadow section that matters.",
+    "recommended_for": [
+      "Shadow Marsh farming, Nightmare Forest pushes, and ghost-type Pokemon checks.",
+      "Players who know the route but need cleaner control through the dangerous middle section.",
+      "Focused late-mid-game attempts where Void Fruit is worth spending."
+    ],
+    "best_timing": [
+      "Activate it near the shadow section, not at the first safe camp or entrance.",
+      "Best when the route target is a ghost Pokemon, shadow material, or known dangerous room.",
+      "Avoid it during broad exploration where several non-shadow objectives compete for time."
+    ],
+    "rarity": "legendary",
+    "common_mistakes": [
+      "Using Ghost Veil before reaching the part of the route that actually contains ghost pressure.",
+      "Crafting it for mixed habitats where shadow threats are only a small portion of the run.",
+      "Trying to combine too many objectives into one buff window."
+    ],
+    "ingredients": "Soul Dust x4, Shadow Stone x2, Void Fruit x1",
+    "effect_duration": "1 hour",
+    "related_pokemon": "pkm009,pkm030,pkm044,pkm049",
+    "related_habitats": "hab006,hab017,hab013"
+  },
+  {
+    "id": "rec011",
+    "name": "Dragon's Fury",
+    "best_use": "Boss fights",
+    "buff": "+35% dragon damage",
+    "overview": "Dragon's Fury is a premium damage recipe for serious late-game fights. Its ingredients are expensive, so it should not be used to make routine battles faster. Craft it when a boss, dragon route, or high-value combat check is important enough that ending the fight quickly is worth the cost. The recipe works best with a team that already survives the approach and can immediately convert the burst into pressure. If the team is underleveled or the fight mechanics are unknown, scout first with cheaper food. Dragon's Fury is strongest when it turns a known difficult fight from risky into controlled.",
+    "recommended_for": [
+      "Late-game boss fights and dragon-route damage checks.",
+      "Players running strong attackers who can take advantage of the burst window.",
+      "High-value attempts where saving time and reducing fight length lowers overall risk."
+    ],
+    "best_timing": [
+      "Use it immediately before the boss or elite encounter.",
+      "Best after learning the fight pattern and confirming that damage is the missing piece.",
+      "Avoid using it for casual farming or first-time scouting."
+    ],
+    "rarity": "rare",
+    "common_mistakes": [
+      "Crafting Dragon's Fury before the fight has been scouted.",
+      "Using it on enemies that could be handled with cheaper damage food.",
+      "Activating it too early and spending the burst window on travel or setup."
+    ],
+    "ingredients": "Dragon Scale x3, Magma Core x2, Fire Stone x1",
+    "effect_duration": "90 min",
+    "related_pokemon": "pkm015,pkm029,pkm050",
+    "related_habitats": "hab012,hab018"
+  },
+  {
+    "id": "rec012",
+    "name": "Steel Shell",
+    "best_use": "Tank builds",
+    "buff": "+60% defense",
+    "overview": "Steel Shell is a compact defensive recipe for heavy incoming hits. It is best when one room, boss pattern, or mining route has a short dangerous window that must be survived cleanly. Unlike Guardian Stew, it is not meant to cover an entire long route. Use Steel Shell when the failure point is obvious and intense: a hard-hitting encounter, a narrow industrial path, or a late-game objective where taking one bad hit ruins the attempt. It pairs well with tank builds and steel-friendly Pokemon, but it should not be used as a default exploration buff. If the damage is spread across the whole route, choose a longer sustain recipe instead.",
+    "recommended_for": [
+      "Tank builds, mining routes, factory clears, and boss phases with heavy damage.",
+      "Players using sturdy Pokemon that benefit from extra defensive margin.",
+      "Late-mid-game attempts where one mistake can cost the run."
+    ],
+    "best_timing": [
+      "Activate it just before the heavy-hit section.",
+      "Best for short defensive windows rather than long mixed-damage routes.",
+      "Use it after the route is known enough that you can reach the danger point reliably."
+    ],
+    "rarity": "rare",
+    "common_mistakes": [
+      "Using Steel Shell at the start of a route with a long safe approach.",
+      "Choosing it for chip-damage routes that need sustain instead of a short shield.",
+      "Spending Metal Coat on a routine clear that does not need extra defense."
+    ],
+    "ingredients": "Metal Coat x4, Bronze Medal x2, Iron Ore x3",
+    "effect_duration": "2 hours",
+    "related_pokemon": "pkm007,pkm010,pkm019,pkm037,pkm045",
+    "related_habitats": "hab016,hab010,hab018,hab001"
+  },
+  {
+    "id": "rec013",
+    "name": "Flying High",
+    "best_use": "Sky Isles",
+    "buff": "+30% flying damage",
+    "overview": "Flying High supports Sky Isles and other vertical or mobility-heavy routes where aerial pressure matters. It is not just a damage buff; its value comes from making open, elevated routes smoother once the path is already understood. Use it when the objective requires moving between distant platforms, checking flying Pokemon, or clearing a short airborne encounter chain. It is a poor choice for routes where the main issue is survival on the ground. Before crafting, make sure the route has enough flying-value moments to justify the ingredients. A good Flying High run feels fast and direct, with very little time spent fighting unrelated enemies.",
+    "recommended_for": [
+      "Sky Isles farming, flying Pokemon checks, and platform-heavy objective routes.",
+      "Players using Breezel, Flamingo, Tropius, or other flying-route Pokemon.",
+      "Route optimization after the layout has already been scouted."
+    ],
+    "best_timing": [
+      "Activate it right before entering the vertical or open-air section.",
+      "Best when the route includes several flying checks close together.",
+      "Avoid it if the main threat is heavy damage and not movement or aerial combat."
+    ],
+    "rarity": "uncommon",
+    "common_mistakes": [
+      "Using Flying High before learning the Sky Isles platform order.",
+      "Spending the recipe on ground-side farming where the flying bonus does little.",
+      "Crafting it for every Sky Isles visit instead of saving it for compact aerial objectives."
+    ],
+    "ingredients": "Feather x5, Wind Essence x2, Cloudy Wool x3",
+    "effect_duration": "1 hour",
+    "related_pokemon": "pkm016,pkm020,pkm025,pkm040",
+    "related_habitats": "hab008"
+  },
+  {
+    "id": "rec014",
+    "name": "Muddy Swirl",
+    "best_use": "Muddy River",
+    "buff": "+25% ground damage",
+    "overview": "Muddy Swirl is a ground-route recipe for Muddy River, Gemstone Canyon, and other paths where earth or mud coverage solves the main obstacle. It is useful when the target route has clustered ground encounters, riverbank materials, or enemies that can be handled faster with ground pressure. The recipe is not a general water-route buff despite the river ingredients. If the problem is water damage, Water Shield is more appropriate. Use Muddy Swirl when the plan is to push through a muddy or mineral-heavy section, collect the target materials, and leave before the route turns into a broader clear.",
+    "recommended_for": [
+      "Muddy River farming, Gemstone Canyon support, and ground-type Pokemon checks.",
+      "Players using Mudkipz, Toxifin, Primordion, or other ground/water route Pokemon.",
+      "Mid-game resource routes where faster ground pressure improves consistency."
+    ],
+    "best_timing": [
+      "Activate it before the muddy encounter chain or mineral route begins.",
+      "Best when the next objective is ground-favored combat or material collection.",
+      "Avoid it if the route mostly contains water hazards and only a few ground enemies."
+    ],
+    "rarity": "uncommon",
+    "common_mistakes": [
+      "Choosing Muddy Swirl for water defense when Water Shield is the correct answer.",
+      "Using it on scattered routes with too few ground-value targets.",
+      "Spending Water Stone before confirming the route reward is worth the ingredient."
+    ],
+    "ingredients": "Mud Ball x4, River Clay x3, Water Stone x1",
+    "effect_duration": "45 min",
+    "related_pokemon": "pkm011,pkm018,pkm021,pkm039",
+    "related_habitats": "hab007,hab009"
+  },
+  {
+    "id": "rec015",
+    "name": "Mega Restore",
+    "best_use": "Emergency healing",
+    "buff": "Full HP restore",
+    "overview": "Mega Restore is emergency insurance for long or high-value attempts. It is powerful, but that power is exactly why it should not become routine healing. Craft it when losing a run would cost rare materials, a legendary attempt, or a long late-game route. The best Mega Restore use is planned before the run: you know the objective is valuable, you know where failure usually happens, and you carry the recipe to protect that moment. If a route needs constant healing, the team or strategy probably needs adjustment. Mega Restore should save an attempt from one serious mistake, not cover a route that is fundamentally unstable.",
+    "recommended_for": [
+      "Legendary hunts, long boss routes, late-game progression, and high-value resource attempts.",
+      "Players who already know the route but want protection against one major mistake.",
+      "Final attempts after cheaper scouting has confirmed the objective is worth the ingredients."
+    ],
+    "best_timing": [
+      "Keep it for the dangerous middle or final section of a serious attempt.",
+      "Best when the route is long, the objective is rare, and one recovery can prevent a reset.",
+      "Avoid using it as routine sustain during daily farming."
+    ],
+    "rarity": "legendary",
+    "common_mistakes": [
+      "Using Mega Restore on routine farming routes where cheap healing would be enough.",
+      "Waiting so long to use it that the run is already unrecoverable.",
+      "Crafting it before scouting the route and discovering the attempt does not need emergency insurance."
+    ],
+    "ingredients": "Star Piece x3, Gold Leaf x2, Rainbow Shell x1",
+    "effect_duration": "Instant",
+    "related_pokemon": "pkm007,pkm015,pkm030,pkm050,pkm019",
+    "related_habitats": "hab001,hab006,hab010,hab018"
+  }
+]

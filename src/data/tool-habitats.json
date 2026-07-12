@@ -1,0 +1,709 @@
+[
+  {
+    "id": "hab001",
+    "name": "Volcanic Cave",
+    "unlock_condition": "Reach Level 15",
+    "difficulty": "hard",
+    "resource_bonus": "+50% Fire drops",
+    "recommended_build": "Tank Build",
+    "weather": "Clear/Sunny",
+    "overview": "Volcanic Cave is a hard fire-damage route with real commitment costs. Clear/Sunny weather, Fire Boost, and targets such as Pikafire, Flamexor, and Sunreep make it a boss-prep habitat rather than a casual Fire Stone loop. Use the cave when fire materials and damage testing matter at the same time.",
+    "farming_route": [
+      "Open with a safe fire branch and identify whether the run is a material loop or a rare check.",
+      "Stay short for Fire Stone volume; branch deeper only for Flamexor, Sunreep, or Magmar materials.",
+      "Add Fire Boost after the team knows where the hard fight happens.",
+      "Exit after the chosen fire material is checked, especially if the route begins costing recovery items.",
+      "Compare cave results with recipe needs before repeating."
+    ],
+    "rare_spawns": [
+      "Pikafire in Volcanic Cave: rare Fire/Electric, best checked during Day / Sunny.",
+      "Flamexor in Volcanic Cave: legendary Fire/Steel, best checked during Night / Clear.",
+      "Sunreep in Volcanic Cave: rare Fire/Steel, best checked during Day / Sunny."
+    ],
+    "resource_notes": [
+      "Volcanic Cave is strongest when Fire Stone and another material matter together.",
+      "Thunder Stone points to Pikafire, Metal Coat points to Flamexor or Sunreep, and Magma Core points to Magmar.",
+      "Fire Boost creates value only when the target fight repeats cleanly.",
+      "This habitat should support boss preparation, not unfocused fire collecting."
+    ],
+    "common_mistakes": [
+      "Entering Volcanic Cave without deciding between material farming and boss-prep testing.",
+      "Using Fire Boost on the first scouting pass.",
+      "Chasing every fire target in one expensive run.",
+      "Ignoring Clear/Sunny weather before spending rare food.",
+      "Repeating the cave after the build no longer needs its fire-side materials."
+    ],
+    "spawn_list": "pkm001,pkm003,pkm007,pkm013,pkm028,pkm043",
+    "recommended_recipe": "rec002"
+  },
+  {
+    "id": "hab002",
+    "name": "Forest Valley",
+    "unlock_condition": "Starting Habitat",
+    "difficulty": "easy",
+    "resource_bonus": "+30% Leaf drops",
+    "recommended_build": "Balanced",
+    "weather": "Cloudy/Foggy",
+    "overview": "Forest Valley is the flexible early grass route, but it is not the same job as Meadow Garden. Cloudy/Foggy weather, Leafon, Thornvine, Mossling, Sunflora, and Magicalure make it a denser route for grass, poison, and support decisions. Use it when the team is ready to manage mixed status pressure rather than simple daily herb farming.",
+    "farming_route": [
+      "Start with the basic grass branch and decide whether Leaf or Grass Fiber is still the goal.",
+      "Branch toward Leafon when poison overlap is useful; branch toward Magicalure only when Fairy Dust or Poison Stone matters.",
+      "Use Honey Cake after the path is mapped and the rare check is worth repeating.",
+      "Exit once the chosen status or grass material is checked, because Forest Valley can sprawl into unfocused clearing.",
+      "Compare results with Meadow Garden after two runs if the session is only about Leaf."
+    ],
+    "rare_spawns": [
+      "Leafon in Forest Valley: rare Grass/Poison, best checked during Night / Foggy.",
+      "Magicalure in Forest Valley: rare Fairy/Poison, best checked during Night / Foggy."
+    ],
+    "resource_notes": [
+      "Forest Valley is strongest for mixed Grass / Poison / Fairy support materials.",
+      "Leaf and Grass Fiber are available here, but Meadow Garden handles simpler daily loops with less decision pressure.",
+      "Magicalure gives the route a rare support-material angle that Meadow Garden does not have.",
+      "The route works best when the player chooses either safe grass farming or foggy rare checks before entering."
+    ],
+    "common_mistakes": [
+      "Treating Forest Valley like a simple Meadow Garden daily route.",
+      "Using Honey Cake before the foggy rare branch is mapped.",
+      "Chasing Bulbin, Leafon, Mossling, Sunflora, and Magicalure in one session without a material priority.",
+      "Ignoring Cloudy/Foggy and then judging rare support targets unfairly.",
+      "Continuing after the chosen grass or poison material is finished."
+    ],
+    "spawn_list": "pkm002,pkm006,pkm017,pkm023,pkm026,pkm032,pkm036,pkm048",
+    "recommended_recipe": "rec001"
+  },
+  {
+    "id": "hab003",
+    "name": "Crystal Lake",
+    "unlock_condition": "Reach Level 5",
+    "difficulty": "easy",
+    "resource_bonus": "+40% Water drops",
+    "recommended_build": "Farming",
+    "weather": "Rain",
+    "overview": "Crystal Lake is the early water-learning route. Rain weather, Aquap support, Dewdrop utility, and Aquashell durability make it a safe place to learn resource loops before harder habitats. It is not a rare-hunt map first; it is a consistency and water-material map.",
+    "farming_route": [
+      "Start with the safest Rain path and measure how many items the team spends before the first target.",
+      "Run Aquap checks when support stability is the goal.",
+      "Branch to Dewdrop when Star Piece or mixed Fairy utility is needed.",
+      "Use Aquashell when the route needs defensive practice or Shell / Pearl value.",
+      "Leave after the planned water-material check instead of turning the lake into a full map clear."
+    ],
+    "rare_spawns": [],
+    "resource_notes": [
+      "Crystal Lake is best for early Water Stone, Star Piece, Shell, and Pearl planning.",
+      "It teaches Rain timing without the mud-route complexity of Muddy River.",
+      "Dewdrop gives this route a support angle that later connects to Fairy Glen.",
+      "Aquashell is the slower durability option, not the default farming target."
+    ],
+    "common_mistakes": [
+      "Treating Crystal Lake like a rare-hunt page instead of an early consistency route.",
+      "Using Water Shield before the team actually needs water resistance.",
+      "Mixing Aquap, Dewdrop, and Aquashell goals without choosing the target material.",
+      "Staying after the basic water material is already finished.",
+      "Skipping this route too early and entering harder water areas without a stable plan."
+    ],
+    "spawn_list": "pkm004,pkm027,pkm034",
+    "recommended_recipe": "rec006"
+  },
+  {
+    "id": "hab004",
+    "name": "Windmill Plains",
+    "unlock_condition": "Reach Level 10",
+    "difficulty": "medium",
+    "resource_bonus": "+25% Electric drops",
+    "recommended_build": "Speed Build",
+    "weather": "Windy",
+    "overview": "Windmill Plains is the first serious speed-routing habitat: Windy weather, light electric enemies, and repeated short checks matter more than one long full clear. The page is built around Zaprat, Zapbug, and the Voltscale lottery, with Mechabit and Magnedex acting as metal-side detours. Use Thunder Strike only when the route is already fast enough to benefit from extra electric damage.",
+    "farming_route": [
+      "Run the opening field path first and record how quickly the route reaches Zaprat or Zapbug.",
+      "If Voltscale is the target, skip metal detours unless Thunder Stone and Dragon Scale both matter.",
+      "If Mechabit or Magnedex is the target, slow down and treat the run as a metal-material pass instead of a speed pass.",
+      "Exit after the first failed rare check when the session is about Voltscale; full clears dilute the purpose of Windmill Plains.",
+      "Compare three repeat runs by time-to-check, not by total enemies defeated."
+    ],
+    "rare_spawns": [
+      "Voltscale in Windmill Plains: legendary Electric/Dragon, best checked during Night / Thunderstorm."
+    ],
+    "resource_notes": [
+      "Windmill Plains is best for Thunder Stone and Lightning Rod when short electric loops are more valuable than heavy metal farming.",
+      "Dragon Scale is the reason to stay for Voltscale; without that target, the route should stay short.",
+      "Metal Coat, Metal Coil, Piston, and Magnet are secondary here. Move to Industrial Zone if those are the main goal.",
+      "The strongest Windmill Plains sessions end early and repeat often."
+    ],
+    "common_mistakes": [
+      "Treating Windmill Plains like Industrial Zone just because both contain electric or steel Pokemon.",
+      "Using Thunder Strike before the speed loop is mapped.",
+      "Chasing Voltscale while also clearing every Mechabit and Magnedex branch.",
+      "Ignoring Windy weather and then judging the route by a slow scouting run.",
+      "Farming metal materials here when Industrial Zone is the cleaner target."
+    ],
+    "spawn_list": "pkm005,pkm010,pkm015,pkm024,pkm035",
+    "recommended_recipe": "rec007"
+  },
+  {
+    "id": "hab005",
+    "name": "Frost Peak",
+    "unlock_condition": "Reach Level 20",
+    "difficulty": "medium",
+    "resource_bonus": "+35% Ice drops",
+    "recommended_build": "Defense Build",
+    "weather": "Snow",
+    "overview": "Frost Peak is the snow survival route. Snow weather, Ice Armor, Frostbite, Snorizard, Tidlet, and Glacieron make it a defensive pacing habitat where the main question is whether the team can survive long enough to make Ice Stone, Frost Crystal, or Dragon Scale worth the climb.",
+    "farming_route": [
+      "Start with the safest snow branch and measure item spend before the first target.",
+      "Branch to Frostbite when Ghost Stone or Ice Crystal is useful.",
+      "Commit to Snorizard only when Dragon Scale or Ice Stone justifies the longer climb.",
+      "Use Ice Armor on repeat routes where incoming snow damage is the actual bottleneck.",
+      "Exit after the chosen ice material is checked; full clears are rarely efficient here."
+    ],
+    "rare_spawns": [
+      "Frostbite in Frost Peak: rare Ice/Ghost, best checked during Night / Snow.",
+      "Snorizard in Frost Peak: rare Dragon/Ice, best checked during Any / Snow."
+    ],
+    "resource_notes": [
+      "Frost Peak is strongest for Ice Stone, Frost Crystal, Ice Crystal, Fur, and Dragon Scale.",
+      "Snorizard turns the route into a Dragon / Ice material check, while Tidlet keeps it low-cost.",
+      "Ice Armor is valuable when survival, not damage, is limiting the route.",
+      "The best Frost Peak sessions have a strict target and a planned exit."
+    ],
+    "common_mistakes": [
+      "Treating Frost Peak like a normal material loop instead of a survival route.",
+      "Using Ice Armor before identifying where the team takes too much damage.",
+      "Chasing every snow target when only Ice Stone or Fur is needed.",
+      "Ignoring Snow weather before spending rare food.",
+      "Repeating the climb after the target ice material is finished."
+    ],
+    "spawn_list": "pkm008,pkm014,pkm022,pkm029",
+    "recommended_recipe": "rec008"
+  },
+  {
+    "id": "hab006",
+    "name": "Shadow Marsh",
+    "unlock_condition": "Reach Level 25",
+    "difficulty": "hard",
+    "resource_bonus": "+60% Ghost drops",
+    "recommended_build": "Stealth Build",
+    "weather": "Stormy/Night",
+    "overview": "Shadow Marsh is the broad ghost-night route. Stormy/Night conditions, Shados, Shadowclaw, Lunaflare, and Nightfall create a wider farm than Dark Cavern, with Ghost Stone, Soul Dust, Shadow Stone, and Legendary Ember all competing for attention. Enter with a written target or the marsh becomes an expensive full-clear trap.",
+    "farming_route": [
+      "Start with Shados when Ghost Stone or Soul Dust is the main goal.",
+      "Branch toward Shadowclaw or Lunaflare only when legendary materials justify the extra risk.",
+      "Use Nightfall as the exit-side dark check, not as a reason to clear the entire marsh.",
+      "Add Ghost Veil after the team has a repeatable night route.",
+      "Leave after the chosen ghost or dark material is checked."
+    ],
+    "rare_spawns": [
+      "Shados in Shadow Marsh: rare Ghost, best checked during Night / Stormy.",
+      "Shadowclaw in Shadow Marsh: legendary Dark/Ghost, best checked during Night / Stormy.",
+      "Lunaflare in Shadow Marsh: legendary Ghost/Fire, best checked during Night / Stormy."
+    ],
+    "resource_notes": [
+      "Shadow Marsh is strongest for broad ghost-night farming: Ghost Stone, Soul Dust, Shadow Stone, and Legendary Ember.",
+      "Nightfall gives Dark Gem overlap, but Dark Cavern handles focused dark farming better.",
+      "Shados is the efficient ghost check; Shadowclaw and Lunaflare are premium attempts.",
+      "The marsh needs stricter exit rules than most habitats."
+    ],
+    "common_mistakes": [
+      "Entering Shadow Marsh without a written target.",
+      "Treating every night branch as mandatory after Ghost Veil is active.",
+      "Using the marsh for focused Dark Gem farming when Dark Cavern is cleaner.",
+      "Spending Soul Dust and Void Fruit in the same run without enough time for both targets.",
+      "Ignoring Stormy/Night and then blaming the spawn list."
+    ],
+    "spawn_list": "pkm009,pkm030,pkm044,pkm049",
+    "recommended_recipe": "rec010"
+  },
+  {
+    "id": "hab007",
+    "name": "Gemstone Canyon",
+    "unlock_condition": "Reach Level 12",
+    "difficulty": "medium",
+    "resource_bonus": "+50% Stone drops",
+    "recommended_build": "Mining Build",
+    "weather": "Clear",
+    "overview": "Gemstone Canyon is the mining route: Clear weather, stone drops, and a split between cheap Rockler loops and higher-value Crystion / Galebender checks. It is slower than Fairy Glen but cleaner for raw stone and gem planning. Muddy Swirl belongs here only when Galebender or ground damage is the reason for the repeat.",
+    "farming_route": [
+      "Start with the Rockler branch if the goal is Stone or Rock Fragment.",
+      "Branch deeper only when Crystal Shard, Diamond, Earth Gem, or Fighting Ribbon is the named target.",
+      "Use Muddy Swirl on repeat Galebender runs after the canyon path is already stable.",
+      "Exit after the material target is checked; mining sessions lose value when they become rare-hunt sessions by accident.",
+      "Log drops by branch so Rockler loops and rare checks are not mixed together."
+    ],
+    "rare_spawns": [
+      "Crystion in Gemstone Canyon: rare Crystal/Fairy, best checked during Night / Snow.",
+      "Galebender in Gemstone Canyon: rare Ground/Fighting, best checked during Night / Foggy."
+    ],
+    "resource_notes": [
+      "Stone and Rock Fragment are the reason to do short Gemstone Canyon loops.",
+      "Crystal Shard and Diamond shift the route toward Crystion; Earth Gem and Fighting Ribbon shift it toward Galebender.",
+      "Gemstone Canyon is not the best Fairy Dust route even though Crystion appears here.",
+      "The canyon is strongest when the player chooses mining or rare checks before entering."
+    ],
+    "common_mistakes": [
+      "Using Fairy Glen logic in Gemstone Canyon because both contain Crystion.",
+      "Spending Muddy Swirl when Galebender is not part of the goal.",
+      "Turning a Rockler material run into a full rare-spawn hunt.",
+      "Ignoring the difference between stone drops and fairy-support drops.",
+      "Repeating the canyon after the current build no longer needs its mining materials."
+    ],
+    "spawn_list": "pkm011,pkm012,pkm042",
+    "recommended_recipe": "rec014"
+  },
+  {
+    "id": "hab008",
+    "name": "Sky Isles",
+    "unlock_condition": "Reach Level 18",
+    "difficulty": "medium",
+    "resource_bonus": "+40% Feather drops",
+    "recommended_build": "Flying Build",
+    "weather": "Windy",
+    "overview": "Sky Isles is a feather and reset-speed habitat. Windy weather, Flying Build planning, Breezel / Windlor loops, and Crystalwing rare checks make it a movement-focused area. Its best runs are short, repeated, and measured by time-to-target rather than by total clears.",
+    "farming_route": [
+      "Start with the shortest Breezel or Windlor check and record time-to-target.",
+      "Branch toward Crystalwing only when Crystal Shard or rare flying coverage is the goal.",
+      "Use Flying High after the first clean repeat, not on the mapping pass.",
+      "Reset after a missed rare branch unless Feather and Wind Essence still justify the loop.",
+      "Treat Stormbird as an electric-flying detour, not as the default route."
+    ],
+    "rare_spawns": [
+      "Crystalwing in Sky Isles: rare Flying/Crystal, best checked during Day / Windy."
+    ],
+    "resource_notes": [
+      "Feather and Wind Essence are the normal Sky Isles loop materials.",
+      "Crystal Shard turns the session toward Crystalwing, while Fire Stone points to Flamingo.",
+      "Thunder Stone appears through Stormbird, but Thunder Arena is cleaner for dedicated electric farming.",
+      "Sky Isles should feel fast; if it becomes a long clear, the goal is probably too broad."
+    ],
+    "common_mistakes": [
+      "Treating Sky Isles like Crystal Cave because both can involve Crystalwing.",
+      "Using Flying High before measuring the route without it.",
+      "Chasing Breezel, Windlor, Stormbird, and Crystalwing in one unfocused run.",
+      "Ignoring Windy weather on a movement-focused habitat.",
+      "Continuing a feather loop after Feather and Wind Essence are no longer useful."
+    ],
+    "spawn_list": "pkm016,pkm020,pkm025,pkm031,pkm040,pkm045",
+    "recommended_recipe": "rec013"
+  },
+  {
+    "id": "hab009",
+    "name": "Muddy River",
+    "unlock_condition": "Reach Level 8",
+    "difficulty": "easy",
+    "resource_bonus": "+35% Mud drops",
+    "recommended_build": "Farming Build",
+    "weather": "Rain",
+    "overview": "Muddy River is the rain-and-ground farming route. It overlaps with Crystal Lake through water materials, but the river adds mud pressure, Stealthfin, Toxifin, and Galebender-style decisions. Use it when the goal is Deep Sea Tooth, Poison Stone, Gill, or mud-side routing rather than simple early Water Stone practice.",
+    "farming_route": [
+      "Open with the closest Rain branch and decide whether the run is water, poison, or ground focused.",
+      "Branch to Stealthfin only when Deep Sea Tooth or Dark Gem is needed.",
+      "Use Toxifin checks for Poison Stone or Gill rather than forcing a rare-hunt plan.",
+      "Add Water Shield after the river path is mapped and damage intake is the issue.",
+      "Exit after the chosen mud or water material is checked."
+    ],
+    "rare_spawns": [
+      "Stealthfin in Muddy River: rare Water/Dark, best checked during Night / Rain.",
+      "Primordion in Muddy River: legendary Dragon/Ground, best checked during Any / Rain."
+    ],
+    "resource_notes": [
+      "Muddy River is strongest for Deep Sea Tooth, Poison Stone, Gill, Earth Gem, and Dark Gem overlap.",
+      "It is more specialized than Crystal Lake and less relaxed as a teaching route.",
+      "Toxifin gives the route its poison-water identity.",
+      "Galebender makes the route useful when ground materials are part of the plan."
+    ],
+    "common_mistakes": [
+      "Using Crystal Lake expectations in a route with mud and poison pressure.",
+      "Spending Water Shield before deciding whether damage intake is the real problem.",
+      "Mixing Stealthfin, Toxifin, and Galebender goals without enough food.",
+      "Ignoring Rain and then blaming the spawn list.",
+      "Continuing after the targeted river material is already done."
+    ],
+    "spawn_list": "pkm018,pkm021,pkm041,pkm050",
+    "recommended_recipe": "rec006"
+  },
+  {
+    "id": "hab010",
+    "name": "Ancient Ruins",
+    "unlock_condition": "Reach Level 30",
+    "difficulty": "hard",
+    "resource_bonus": "+45% Metal drops",
+    "recommended_build": "Treasure Build",
+    "weather": "Cloudy",
+    "overview": "Ancient Ruins is the treasure-and-metal control route. Cloudy weather, Steel Shell, Bronzorm, Mysticat, Ironclaw, and Primordion give it a slower, more deliberate identity than Industrial Zone. Farm it when relic-style materials, Psychic setup, or premium Steel / Dragon overlap matters.",
+    "farming_route": [
+      "Open with the relic branch tied to the current material goal.",
+      "Branch toward Mysticat when Psy Crystal or Star Piece matters.",
+      "Use Ironclaw for Fighting Ribbon and Piston pressure; save Primordion for Earth Gem or Legendary Pearl sessions.",
+      "Add Steel Shell after the team knows which branch needs protection.",
+      "Leave after the treasure material is checked, because ruin clears can become too slow."
+    ],
+    "rare_spawns": [
+      "Bronzorm in Ancient Ruins: rare Steel/Psychic, best checked during Day / Cloudy.",
+      "Mysticat in Ancient Ruins: rare Psychic/Fairy, best checked during Night / Clear."
+    ],
+    "resource_notes": [
+      "Ancient Ruins is strongest for mixed premium materials: Metal Coat, Psy Crystal, Fighting Ribbon, Earth Gem, and Legendary Pearl.",
+      "It is not the fastest pure metal farm despite its steel targets.",
+      "Mysticat and Primordion are the reasons to accept longer route time.",
+      "Steel Shell should protect value, not encourage full clears."
+    ],
+    "common_mistakes": [
+      "Using Industrial Zone material logic in a slower treasure route.",
+      "Spending Steel Shell before the dangerous branch is known.",
+      "Chasing Bronzorm, Mysticat, Ironclaw, and Primordion in one unfocused run.",
+      "Ignoring Cloudy weather before committing rare food.",
+      "Repeating the ruins for pure metal drops when a cleaner route exists."
+    ],
+    "spawn_list": "pkm019,pkm037,pkm038",
+    "recommended_recipe": "rec012"
+  },
+  {
+    "id": "hab011",
+    "name": "Sunny Beach",
+    "unlock_condition": "Starting Habitat",
+    "difficulty": "easy",
+    "resource_bonus": "+30% Shell drops",
+    "recommended_build": "Relaxed Build",
+    "weather": "Sunny",
+    "overview": "Sunny Beach is the relaxed shell and water-support route. Sunny weather, Aquap, Sunflora, Dewdrop, and Aquashell make it a low-stress material page for Shell, Pearl, Water Stone, and Sun Stone. It should feel lighter than Crystal Lake or Muddy River, with short loops and simple exits.",
+    "farming_route": [
+      "Open with the shoreline material branch and check whether Shell or Pearl is still useful.",
+      "Branch to Sunflora only when Sun Stone or Sunny grass support is the goal.",
+      "Use Dewdrop for Star Piece and support overlap.",
+      "Keep the loop short; Sunny Beach loses value when it becomes a full-clear route.",
+      "End the run once the simple material goal is complete."
+    ],
+    "rare_spawns": [],
+    "resource_notes": [
+      "Sunny Beach is strongest for Shell, Pearl, Water Stone, Star Piece, and Sun Stone in low-pressure loops.",
+      "It is more relaxed than Crystal Lake and less specialized than Muddy River.",
+      "Aquashell gives the route its shell identity.",
+      "Sunflora is the reason to treat Sunny weather as more than a cosmetic condition."
+    ],
+    "common_mistakes": [
+      "Overbuilding Sunny Beach with recipes and rare-food planning it does not need.",
+      "Farming it like a hard water habitat instead of a simple material loop.",
+      "Ignoring Sunflora when Sun Stone is the actual goal.",
+      "Continuing after Shell or Pearl is already finished.",
+      "Comparing Sunny Beach directly with Muddy River instead of using it as a lighter route."
+    ],
+    "spawn_list": "pkm004,pkm023,pkm027",
+    "recommended_recipe": "rec006"
+  },
+  {
+    "id": "hab012",
+    "name": "Thunder Arena",
+    "unlock_condition": "Reach Level 22",
+    "difficulty": "hard",
+    "resource_bonus": "+55% Electric drops",
+    "recommended_build": "Electric Build",
+    "weather": "Thunderstorm",
+    "overview": "Thunder Arena is the dedicated electric battle route. Thunderstorm weather, Thunder Strike, Zaprat, Voltscale, Magnedex, Zapbug, and Stormbird make it more combat-focused than Windmill Plains. Enter when the goal is electric damage testing, Thunder Stone volume, or high-pressure electric-flying / electric-dragon checks.",
+    "farming_route": [
+      "Open with the shortest Thunder Stone branch and decide whether the arena is a material run or a battle test.",
+      "Branch toward Voltscale only when Dragon Scale is the named target.",
+      "Use Stormbird checks when Feather and electric materials both matter.",
+      "Add Thunder Strike after the first mapped arena path, then compare fight time directly.",
+      "Exit when the chosen electric material is complete; arena clears can become expensive."
+    ],
+    "rare_spawns": [
+      "Voltscale in Thunder Arena: legendary Electric/Dragon, best checked during Night / Thunderstorm."
+    ],
+    "resource_notes": [
+      "Thunder Arena is strongest for Thunder Stone, Lightning Rod, Dragon Scale, Magnet, Feather, and Wind Essence under combat pressure.",
+      "It is the better Thunder Strike page; Windmill Plains is the faster scout page.",
+      "Stormbird makes this route useful when flying materials overlap with electric goals.",
+      "Voltscale turns the arena into a high-commitment Dragon Scale check."
+    ],
+    "common_mistakes": [
+      "Using Windmill Plains speed assumptions in a combat arena.",
+      "Skipping Thunder Strike even when electric fight time is the bottleneck.",
+      "Chasing Voltscale without needing Dragon Scale.",
+      "Ignoring Thunderstorm weather before judging arena value.",
+      "Continuing after the electric material goal is done."
+    ],
+    "spawn_list": "pkm005,pkm015,pkm024,pkm035,pkm045",
+    "recommended_recipe": "rec007"
+  },
+  {
+    "id": "hab013",
+    "name": "Dark Cavern",
+    "unlock_condition": "Reach Level 28",
+    "difficulty": "hard",
+    "resource_bonus": "+65% Dark drops",
+    "recommended_build": "Ghost Build",
+    "weather": "Dark",
+    "overview": "Dark Cavern is the focused dark-material route: fewer targets, higher commitment, and a cleaner Shadowclaw / Lunaflare / Nightfall decision than Shadow Marsh. It is not a broad ghost farm. Enter when +65% Dark drops, Void Fruit planning, or late-route assassin checks are the reason for the session.",
+    "farming_route": [
+      "Open with the shortest Nightfall or Shadowclaw branch and record whether Dark Gem or Shadow Stone appears.",
+      "Branch to Lunaflare only when Ghost Stone, Soul Dust, or Legendary Ember is also useful.",
+      "Use Ghost Veil once the target branch is known and repeated fights are taking too long.",
+      "Exit early if the route misses the dark target; Dark Cavern is valuable because it stays focused.",
+      "Move to Shadow Marsh when the session needs wider ghost coverage."
+    ],
+    "rare_spawns": [
+      "Shadowclaw in Dark Cavern: legendary Dark/Ghost, best checked during Night / Stormy.",
+      "Lunaflare in Dark Cavern: legendary Ghost/Fire, best checked during Night / Stormy."
+    ],
+    "resource_notes": [
+      "Dark Cavern is best for Shadow Stone, Dark Gem, and targeted dark-side farming.",
+      "Ghost Stone and Soul Dust are secondary here unless Lunaflare is the target.",
+      "Nightfall is the efficient material loop; Shadowclaw and Lunaflare are commitment checks.",
+      "The route should stay narrow or it loses its advantage over Shadow Marsh."
+    ],
+    "common_mistakes": [
+      "Treating Dark Cavern like Shadow Marsh with fewer spawns.",
+      "Using Ghost Veil before the dark branch is mapped.",
+      "Chasing Lunaflare when the session only needs Dark Gem or Shadow Stone.",
+      "Ignoring Dark weather before spending Void Fruit.",
+      "Continuing after the focused dark material check is already finished."
+    ],
+    "spawn_list": "pkm030,pkm044,pkm049",
+    "recommended_recipe": "rec010"
+  },
+  {
+    "id": "hab014",
+    "name": "Crystal Cave",
+    "unlock_condition": "Reach Level 16",
+    "difficulty": "medium",
+    "resource_bonus": "+60% Crystal drops",
+    "recommended_build": "Crystal Build",
+    "weather": "Foggy",
+    "overview": "Crystal Cave is a focused crystal-material habitat. It has fewer spawns than Sky Isles, but that is the advantage: Crystion and Crystalwing make the route cleaner for Crystal Shard, Diamond, and Feather checks. Use Flying High only when Crystalwing is the repeat target; otherwise the area is about controlled crystal farming.",
+    "farming_route": [
+      "Open with the nearest crystal branch and identify whether Crystion or Crystalwing appears first.",
+      "Continue only if the branch gives Crystal Shard, Diamond, or Feather progress.",
+      "Add Flying High when Crystalwing is the repeated target and fight time is the bottleneck.",
+      "Reset earlier than a normal cave clear; the small spawn list is useful only when the target is specific.",
+      "Compare Crystal Cave with Gemstone Canyon before farming Crystion for Diamond alone."
+    ],
+    "rare_spawns": [
+      "Crystion in Crystal Cave: rare Crystal/Fairy, best checked during Night / Snow.",
+      "Crystalwing in Crystal Cave: rare Flying/Crystal, best checked during Day / Windy."
+    ],
+    "resource_notes": [
+      "Crystal Cave is strongest for Crystal Shard, Diamond, and Feather in a compact route.",
+      "It is not a general flying route despite Crystalwing's presence.",
+      "Gem and Gem Shard should be used separately so Crystion and Crystalwing attempts do not compete.",
+      "The cave is valuable when the player wants fewer spawn distractions."
+    ],
+    "common_mistakes": [
+      "Using Sky Isles logic in Crystal Cave and expecting many flying targets.",
+      "Spending Flying High on a Crystion-only route.",
+      "Repeating the cave when the build no longer needs Crystal Shard, Diamond, or Feather.",
+      "Treating the small spawn list as thin content instead of a focused material advantage.",
+      "Ignoring Foggy weather before judging crystal drop value."
+    ],
+    "spawn_list": "pkm012,pkm031",
+    "recommended_recipe": "rec013"
+  },
+  {
+    "id": "hab015",
+    "name": "Meadow Garden",
+    "unlock_condition": "Starting Habitat",
+    "difficulty": "easy",
+    "resource_bonus": "+25% Herb drops",
+    "recommended_build": "Beginner Build",
+    "weather": "Sunny",
+    "overview": "Meadow Garden is the low-pressure herb and daily-farming habitat. Sunny weather, Grass Heal, and the Bulbin / Thornvine / Mossling / Treemendous group make it a recovery-focused route rather than a rare chase. It overlaps with Forest Valley, but Meadow Garden is simpler, sunnier, and better for relaxed material collection.",
+    "farming_route": [
+      "Open with the closest grass branch and check whether Leaf or Grass Fiber is still needed.",
+      "Branch toward Thornvine when Thorn is the material goal.",
+      "Use Mossling to practice support pacing before taking similar roles into harder habitats.",
+      "Commit to Treemendous only when Oak Log or Berry use justifies the longer path.",
+      "End the run after the daily material goal is reached."
+    ],
+    "rare_spawns": [],
+    "resource_notes": [
+      "Meadow Garden is strongest for low-risk Leaf, Grass Fiber, Thorn, and Oak Log collection.",
+      "It is a daily route, not the best place for advanced grass-poison planning.",
+      "Grass Heal helps stretch relaxed farming sessions but should not be required for the first clear.",
+      "Treemendous gives the route a late material target without changing its beginner identity."
+    ],
+    "common_mistakes": [
+      "Expecting Meadow Garden to carry the same rare-route value as Forest Valley.",
+      "Using Grass Heal on a short material check that does not need healing.",
+      "Farming every grass target when only Leaf or Thorn is needed.",
+      "Ignoring Sunny weather and then comparing the route unfairly with Forest Valley.",
+      "Continuing daily farming after the small upgrade material is finished."
+    ],
+    "spawn_list": "pkm002,pkm017,pkm036,pkm046",
+    "recommended_recipe": "rec009"
+  },
+  {
+    "id": "hab016",
+    "name": "Industrial Zone",
+    "unlock_condition": "Reach Level 14",
+    "difficulty": "medium",
+    "resource_bonus": "+40% Metal drops",
+    "recommended_build": "Tech Build",
+    "weather": "Cloudy",
+    "overview": "Industrial Zone is a compact metal-material route, not a speed route. Cloudy weather, Tech Build planning, and the Mechabit / Magnedex / Ironclaw triangle make it the better place for Metal Coat, Piston, Metal Coil, and Magnet. Thunder Strike is useful only as a support tool for the electric-steel fights; the real goal is controlled material output.",
+    "farming_route": [
+      "Open with the nearest metal branch and decide immediately whether the run is for Metal Coat, Piston, Metal Coil, or Magnet.",
+      "Stay on the defender path for Mechabit and Magnedex; branch toward Ironclaw only when the route still needs Piston pressure.",
+      "Do not reset as aggressively as Windmill Plains. Industrial Zone rewards complete material passes when the target drops overlap.",
+      "Use Thunder Strike on repeat runs where fight length, not navigation, is the problem.",
+      "End the session when the active metal material is finished, even if the route still feels efficient."
+    ],
+    "rare_spawns": [],
+    "resource_notes": [
+      "Industrial Zone should be the default target for Metal Coat, Piston, Metal Coil, and Magnet.",
+      "Battery and Magnet have better value here than in a pure speed loop because both connect to repeatable steel-side targets.",
+      "If Thunder Stone is the priority, move back to Windmill Plains instead of forcing this route.",
+      "Track material yield per full pass, not only time-to-first-spawn."
+    ],
+    "common_mistakes": [
+      "Using a Windmill Plains speed plan in a zone that wants controlled metal farming.",
+      "Leaving after the first spawn check when several metal drops still overlap.",
+      "Treating Ironclaw as mandatory when Mechabit and Magnedex already cover the material goal.",
+      "Spending Thunder Strike to fix a team that lacks durability.",
+      "Continuing the route after Metal Coat, Piston, Metal Coil, and Magnet are no longer needed."
+    ],
+    "spawn_list": "pkm010,pkm024,pkm037",
+    "recommended_recipe": "rec007"
+  },
+  {
+    "id": "hab017",
+    "name": "Nightmare Forest",
+    "unlock_condition": "Reach Level 26",
+    "difficulty": "hard",
+    "resource_bonus": "+55% Poison drops",
+    "recommended_build": "Poison Build",
+    "weather": "Foggy/Night",
+    "overview": "Nightmare Forest is the fog-night poison and fear-control route. Foggy/Night weather, Leafon, Shados, Frostbite, Toxifin, and Magicalure make it a status-heavy habitat where poison, ghost, ice, and fairy materials overlap. It is harder and darker than Forest Valley, and it should be entered only with a target branch.",
+    "farming_route": [
+      "Open with the status branch tied to the current material goal.",
+      "Take Leafon or Toxifin paths for Poison Stone, Shados for Ghost Stone, and Frostbite for Ice Crystal.",
+      "Use Magicalure only when Fairy Dust or Poison Stone support is the main reason to enter.",
+      "Add Ghost Veil after the ghost branch is mapped and repeated fights justify it.",
+      "Exit after the chosen status material is checked; Nightmare Forest is too risky for casual full clears."
+    ],
+    "rare_spawns": [
+      "Leafon in Nightmare Forest: rare Grass/Poison, best checked during Night / Foggy.",
+      "Frostbite in Nightmare Forest: rare Ice/Ghost, best checked during Night / Snow.",
+      "Magicalure in Nightmare Forest: rare Fairy/Poison, best checked during Night / Foggy."
+    ],
+    "resource_notes": [
+      "Nightmare Forest is strongest for Poison Stone, Ghost Stone, Ice Crystal, Fairy Dust, and mixed status materials.",
+      "It is the advanced version of several easier routes, not a replacement for them.",
+      "Magicalure gives support value, while Leafon and Toxifin define the poison angle.",
+      "The route needs strict food control because every branch asks for a different item."
+    ],
+    "common_mistakes": [
+      "Entering Nightmare Forest without a status-material target.",
+      "Using Ghost Veil on poison-focused runs that do not need ghost damage.",
+      "Trying to farm Leafon, Shados, Frostbite, Toxifin, and Magicalure in one pass.",
+      "Ignoring Foggy/Night before spending rare food.",
+      "Using this route for simple grass materials that easier habitats already cover."
+    ],
+    "spawn_list": "pkm006,pkm022,pkm048",
+    "recommended_recipe": "rec010"
+  },
+  {
+    "id": "hab018",
+    "name": "Dragon's Den",
+    "unlock_condition": "Reach Level 32",
+    "difficulty": "hard",
+    "resource_bonus": "+50% Dragon drops",
+    "recommended_build": "Dragon Build",
+    "weather": "Stormy",
+    "overview": "Dragon's Den is a late-game commitment route for Dragon Scale and legendary-level checks. Stormy weather, Voltscale, Snorizard, and Primordion make it expensive to repeat, so every run should have a single target. Dragon's Fury belongs here after the storm route is mapped and the team can survive the opening branch.",
+    "farming_route": [
+      "Open with the branch tied to the chosen food item: Lightning Bug, Frost Meat, or Golden Fish.",
+      "Continue only while Dragon Scale or the secondary material still supports the build.",
+      "Use Dragon's Fury on repeat attempts after the first clean storm route.",
+      "Reset when the selected dragon target is missed; the den is too expensive for accidental full clears.",
+      "Review material value after every two runs because late-game food costs are high."
+    ],
+    "rare_spawns": [
+      "Voltscale in Dragon's Den: legendary Electric/Dragon, best checked during Night / Thunderstorm.",
+      "Snorizard in Dragon's Den: rare Dragon/Ice, best checked during Any / Snow.",
+      "Primordion in Dragon's Den: legendary Dragon/Ground, best checked during Any / Rain."
+    ],
+    "resource_notes": [
+      "Dragon Scale is the shared reason to enter Dragon's Den.",
+      "Thunder Stone points to Voltscale, Ice Stone points to Snorizard, and Earth Gem / Legendary Pearl points to Primordion.",
+      "Dragon's Den is not a general XP route; it is a targeted late-game material route.",
+      "The best sessions spend one type of rare food, not all of them."
+    ],
+    "common_mistakes": [
+      "Entering Dragon's Den without choosing one dragon target.",
+      "Using Dragon's Fury before the storm path is mapped.",
+      "Packing Lightning Bug, Frost Meat, and Golden Fish for an unfocused run.",
+      "Farming Voltscale here when only Thunder Stone is needed.",
+      "Continuing after Dragon Scale stops being the bottleneck."
+    ],
+    "spawn_list": "pkm015,pkm029,pkm050",
+    "recommended_recipe": "rec011"
+  },
+  {
+    "id": "hab019",
+    "name": "Fairy Glen",
+    "unlock_condition": "Reach Level 18",
+    "difficulty": "medium",
+    "resource_bonus": "+45% Fairy dust drops",
+    "recommended_build": "Fairy Build",
+    "weather": "Clear",
+    "overview": "Fairy Glen is a support and utility habitat built around Fairy Dust, Star Piece, Psy Crystal, and status-friendly team planning. It overlaps with Gemstone Canyon through Crystion, but the reason to farm it is different: Fairy Glen is for support materials, mixed Fairy coverage, and Mysticat / Magicalure checks rather than raw mining.",
+    "farming_route": [
+      "Open with the Dewdrop branch only when Water Stone or Star Piece is useful.",
+      "For rare support checks, path toward Mysticat or Magicalure and skip mining-style detours.",
+      "Use Water Shield after the support branch is mapped and repeated fights are costing too much health.",
+      "Exit once Fairy Dust, Psy Crystal, or Poison Stone is checked; do not keep clearing just because the map has mixed coverage.",
+      "Compare support material yield against Gemstone Canyon before repeating Crystion-only runs."
+    ],
+    "rare_spawns": [
+      "Crystion in Fairy Glen: rare Crystal/Fairy, best checked during Night / Snow.",
+      "Mysticat in Fairy Glen: rare Psychic/Fairy, best checked during Night / Clear.",
+      "Magicalure in Fairy Glen: rare Fairy/Poison, best checked during Night / Foggy."
+    ],
+    "resource_notes": [
+      "Fairy Glen is strongest for Fairy Dust, Star Piece, Psy Crystal, and Poison Stone.",
+      "Crystal Shard and Diamond appear through Crystion, but they are not the identity of this route.",
+      "Dewdrop makes the area useful for cheaper water-support loops.",
+      "Mysticat and Magicalure are the main reasons to commit rare food."
+    ],
+    "common_mistakes": [
+      "Farming Fairy Glen as if it were another Gemstone Canyon mining route.",
+      "Using Water Shield before knowing whether the support branch actually needs it.",
+      "Chasing Crystion here when Crystal Shard and Diamond are the only materials needed.",
+      "Mixing Dewdrop farming with Magicalure hunting in the same run without enough food.",
+      "Ignoring the support-material identity of the habitat."
+    ],
+    "spawn_list": "pkm012,pkm027,pkm038,pkm048",
+    "recommended_recipe": "rec006"
+  },
+  {
+    "id": "hab020",
+    "name": "Training Grounds",
+    "unlock_condition": "Reach Level 10",
+    "difficulty": "easy",
+    "resource_bonus": "+30% XP bonus",
+    "recommended_build": "Starter Build",
+    "weather": "Clear",
+    "overview": "Training Grounds is the starter practice and XP route. Clear weather, Normal / Fighting / Grass basics, and low-pressure targets like Bulbin, Tidlet, Fisticub, and Playful make it a route for learning roles, testing team shape, and earning steady XP rather than chasing rare materials.",
+    "farming_route": [
+      "Run the shortest XP loop first and note which role causes slowdowns.",
+      "Branch to Fisticub when Fighting Ribbon or direct combat practice is needed.",
+      "Use Playful checks for Star Piece or support utility rather than rare hunting.",
+      "Keep the loop predictable; Training Grounds loses purpose when it becomes a broad farm.",
+      "Stop after the XP or role test is complete."
+    ],
+    "rare_spawns": [],
+    "resource_notes": [
+      "Training Grounds is strongest for XP, basic Leaf / Fur materials, Fighting Ribbon, and low-risk role testing.",
+      "It should feed confidence and team shape before harder habitats.",
+      "Playful adds utility value without turning the route into a rare support farm.",
+      "The route is successful when it teaches what to build next."
+    ],
+    "common_mistakes": [
+      "Expecting Training Grounds to compete with specialized farming habitats.",
+      "Using Grass Heal for a short XP loop that does not need it.",
+      "Ignoring role testing and judging the route only by materials.",
+      "Staying after the team question has already been answered.",
+      "Skipping the route before the player understands basic team roles."
+    ],
+    "spawn_list": "pkm002,pkm008,pkm017,pkm026,pkm046",
+    "recommended_recipe": "rec009"
+  }
+]

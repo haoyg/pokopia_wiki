@@ -2,7 +2,7 @@
 
 import { useMemo, useState } from 'react'
 import Link from 'next/link'
-import recipesData from '@/data/recipes.json'
+import recipesData from '@/data/tool-recipes.json'
 import pokemonLinksData from '@/data/pokemon-links.json'
 import habitatLinksData from '@/data/habitat-links.json'
 import { DataStatus } from '@/components/content/DataStatus'

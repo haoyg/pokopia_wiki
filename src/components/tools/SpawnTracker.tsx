@@ -2,15 +2,17 @@
 
 import { useMemo, useState } from 'react'
 import Link from 'next/link'
-import habitatsData from '@/data/habitats.json'
-import pokemonData from '@/data/pokemon.json'
+import habitatsData from '@/data/habitat-links.json'
+import pokemonData from '@/data/tool-spawn-pokemon.json'
+
+const habitatNames = new Map(habitatsData.map((habitat) => [habitat.id, habitat.name]))
 
 function uniqueValues(values: string[]) {
   return Array.from(new Set(values.filter(Boolean))).sort((a, b) => a.localeCompare(b))
 }
 
 function habitatName(id: string) {
-  return habitatsData.find((habitat) => habitat.id === id)?.name || id
+  return habitatNames.get(id) || id
 }
 
 function formatFilterValue(value: string) {
@@ -99,30 +101,37 @@ export function SpawnTracker() {
     []
   )
 
-  const filteredPokemon = pokemonData.filter((pokemon) => {
+  const filteredPokemon = useMemo(() => {
     const normalizedQuery = query.trim().toLowerCase()
-    if (
-      normalizedQuery &&
-      ![
-        pokemon.name,
-        pokemon.type,
-        pokemon.description,
-        pokemon.favorite_food,
-        pokemon.skills,
-        pokemon.drops,
-        habitatName(pokemon.habitat),
-      ].join(' ').toLowerCase().includes(normalizedQuery)
-    ) {
-      return false
-    }
+    const normalizedWeather = weather.toLowerCase()
 
-    if (habitat !== 'all' && pokemon.habitat !== habitat) return false
-    if (weather !== 'all' && !pokemon.weather.toLowerCase().includes(weather.toLowerCase())) return false
-    if (spawnTime !== 'all' && pokemon.spawn_time !== spawnTime) return false
-    if (rarity !== 'all' && pokemon.rarity !== rarity) return false
-    return true
-  })
-  const resultNotes = getSpawnResultNotes(filteredPokemon, { query, habitat, weather, spawnTime, rarity })
+    return pokemonData.filter((pokemon) => {
+      if (
+        normalizedQuery &&
+        ![
+          pokemon.name,
+          pokemon.type,
+          pokemon.description,
+          pokemon.favorite_food,
+          pokemon.skills,
+          pokemon.drops,
+          habitatName(pokemon.habitat),
+        ].join(' ').toLowerCase().includes(normalizedQuery)
+      ) {
+        return false
+      }
+
+      if (habitat !== 'all' && pokemon.habitat !== habitat) return false
+      if (weather !== 'all' && !pokemon.weather.toLowerCase().includes(normalizedWeather)) return false
+      if (spawnTime !== 'all' && pokemon.spawn_time !== spawnTime) return false
+      if (rarity !== 'all' && pokemon.rarity !== rarity) return false
+      return true
+    })
+  }, [habitat, query, rarity, spawnTime, weather])
+  const resultNotes = useMemo(
+    () => getSpawnResultNotes(filteredPokemon, { query, habitat, weather, spawnTime, rarity }),
+    [filteredPokemon, habitat, query, rarity, spawnTime, weather]
+  )
 
   return (
     <>
