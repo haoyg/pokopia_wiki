@@ -65,6 +65,15 @@ function isEditorialContent(status) {
   return Boolean(status && /^editorial\b/i.test(String(status).trim()))
 }
 
+function isIndexableDatabaseEntry(item) {
+  const reviewedAt = item.updated_at ? new Date(item.updated_at) : null
+  return item.data_status === 'Source-backed database entry' &&
+    Boolean(reviewedAt && !Number.isNaN(reviewedAt.getTime())) &&
+    Array.isArray(item.sources) && item.sources.some((source) => /^https?:\/\//i.test(String(source?.url || ''))) &&
+    Array.isArray(item.confirmed_facts) && item.confirmed_facts.length >= 2 &&
+    Array.isArray(item.editorial_limits) && item.editorial_limits.length >= 2
+}
+
 function hasNoindex(html) {
   return /<meta\s+name=["']robots["'][^>]*content=["'][^"']*\bnoindex\b/i.test(html) ||
     /<meta\s+name=["']googlebot["'][^>]*content=["'][^"']*\bnoindex\b/i.test(html)
@@ -123,6 +132,9 @@ for (const pagePath of sitemapPaths) {
 const guides = readJson('src/data/guides.json')
 const official = readJson('src/data/official.json')
 const news = readJson('src/data/news.json')
+const pokemon = readJson('src/data/pokemon.json')
+const habitats = readJson('src/data/habitats.json')
+const recipes = readJson('src/data/recipes.json')
 const searchIndex = readJson('src/data/search-index.json')
 
 const sourceBackedGuides = guides.filter((guide) => !isEditorialContent(guide.data_status))
@@ -133,6 +145,13 @@ for (const guide of sourceBackedGuides) {
   assert(Array.isArray(guide.editorial_limits) && guide.editorial_limits.length >= 2, `guide ${guide.slug} is missing editorial_limits`)
   assert(Array.isArray(guide.faqs) && guide.faqs.length >= 3, `guide ${guide.slug} needs at least 3 FAQs`)
   assert(String(guide.data_status_note || '').length >= 80, `guide ${guide.slug} has a weak data_status_note`)
+}
+
+for (const item of [...pokemon, ...habitats, ...recipes].filter(isIndexableDatabaseEntry)) {
+  assert(item.data_status === 'Source-backed database entry', `database ${item.id} has an invalid indexable status`)
+  assert(Array.isArray(item.sources) && item.sources.some((source) => /^https?:\/\//i.test(String(source?.url || ''))), `database ${item.id} needs a primary source URL`)
+  assert(Array.isArray(item.confirmed_facts) && item.confirmed_facts.length >= 2, `database ${item.id} needs confirmed facts`)
+  assert(Array.isArray(item.editorial_limits) && item.editorial_limits.length >= 2, `database ${item.id} needs editorial limits`)
 }
 
 for (const page of official) {

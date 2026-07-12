@@ -64,11 +64,23 @@ function isEditorialContent(status) {
   return Boolean(status && /^editorial\b/i.test(String(status).trim()))
 }
 
+function isIndexableDatabaseEntry(item) {
+  const reviewedAt = item.updated_at ? new Date(item.updated_at) : null
+  return item.data_status === 'Source-backed database entry' &&
+    Boolean(reviewedAt && !Number.isNaN(reviewedAt.getTime())) &&
+    Array.isArray(item.sources) && item.sources.some((source) => /^https?:\/\//i.test(String(source?.url || ''))) &&
+    Array.isArray(item.confirmed_facts) && item.confirmed_facts.length >= 2 &&
+    Array.isArray(item.editorial_limits) && item.editorial_limits.length >= 2
+}
+
+const indexableDatabasePaths = new Set([
+  ...pokemon.filter(isIndexableDatabaseEntry).map((item) => `/wiki/pokemon/${item.id}/`),
+  ...habitats.filter(isIndexableDatabaseEntry).map((item) => `/wiki/habitat/${item.id}/`),
+  ...recipes.filter(isIndexableDatabaseEntry).map((item) => `/wiki/recipe/${item.id}/`),
+])
+
 const forbiddenIndexPathPatterns = [
   /^\/search\/?$/,
-  /^\/wiki\/pokemon(?:\/|$)/,
-  /^\/wiki\/habitat(?:\/|$)/,
-  /^\/wiki\/recipe(?:\/|$)/,
   /^\/tier-list\/?$/,
   /^\/builds\/home-design-ideas\/?$/,
   /^\/community\/showcase\/?$/,
@@ -91,9 +103,9 @@ const expectedNoindexPaths = new Set([
   '/guides/rare-farming-route/',
   '/guides/recipe-planning-route/',
   ...guides.filter((item) => isEditorialContent(item.data_status)).map((item) => `/guides/${item.slug}/`),
-  ...pokemon.map((item) => `/wiki/pokemon/${item.id}/`),
-  ...habitats.map((item) => `/wiki/habitat/${item.id}/`),
-  ...recipes.map((item) => `/wiki/recipe/${item.id}/`),
+  ...pokemon.filter((item) => !isIndexableDatabaseEntry(item)).map((item) => `/wiki/pokemon/${item.id}/`),
+  ...habitats.filter((item) => !isIndexableDatabaseEntry(item)).map((item) => `/wiki/habitat/${item.id}/`),
+  ...recipes.filter((item) => !isIndexableDatabaseEntry(item)).map((item) => `/wiki/recipe/${item.id}/`),
 ])
 
 const sitemapPath = path.join(root, 'out', 'sitemap.xml')
@@ -114,6 +126,9 @@ if (fs.existsSync(sitemapPath)) {
 
     for (const pattern of forbiddenIndexPathPatterns) {
       assert(!pattern.test(pagePath), `sitemap includes noindex or low-confidence URL: ${pagePath}`)
+    }
+    if (/^\/wiki\/(pokemon|habitat|recipe)\//.test(pagePath)) {
+      assert(indexableDatabasePaths.has(pagePath), `sitemap includes database page without complete source-review data: ${pagePath}`)
     }
 
     const htmlFile = htmlPathForRoute(pagePath)
@@ -147,6 +162,10 @@ for (const item of searchIndex) {
   const pagePath = normalizedPath(item.href)
   for (const pattern of forbiddenIndexPathPatterns) {
     assert(!pattern.test(pagePath), `search index includes noindex or low-confidence URL: ${pagePath}`)
+  }
+
+  if (/^\/wiki\/(pokemon|habitat|recipe)\//.test(pagePath)) {
+    assert(indexableDatabasePaths.has(pagePath), `search index includes database page without complete source-review data: ${pagePath}`)
   }
 
   assert(

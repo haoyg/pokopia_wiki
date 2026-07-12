@@ -9,7 +9,14 @@ import { CreditedImage } from '@/components/media/CreditedImage'
 import { BreadcrumbJsonLd, FAQJsonLd, WikiPageJsonLd } from '@/components/seo/JsonLd'
 import { DataStatus } from '@/components/content/DataStatus'
 import { OfficialContext } from '@/components/content/OfficialContext'
-import { isEditorialContent, noIndexMetadata } from '@/lib/indexing'
+import { SourceReview } from '@/components/content/SourceReview'
+import { isIndexableDatabaseEntry, noIndexMetadata } from '@/lib/indexing'
+
+type SourceReviewFields = {
+  sources?: { label?: string; url?: string }[]
+  confirmed_facts?: string[]
+  editorial_limits?: string[]
+}
 
 interface Props {
   params: Promise<{ id: string }>
@@ -29,7 +36,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title,
     description,
-    robots: habitat && isEditorialContent(habitat.data_status) ? noIndexMetadata : undefined,
+    robots: habitat && !isIndexableDatabaseEntry(habitat) ? noIndexMetadata : undefined,
     keywords: habitat
       ? ([
           `${habitat.name} Pokopia habitat`,
@@ -57,6 +64,7 @@ export default async function HabitatDetailPage({ params }: Props) {
   if (!habitat) {
     return <p>Habitat not found</p>
   }
+  const sourceReview = habitat as typeof habitat & SourceReviewFields
 
   const spawns = (habitat.spawn_list || '').split(',')
   const relatedPokemon = pokemonData.filter((p) => spawns.includes(p.id))
@@ -218,6 +226,8 @@ export default async function HabitatDetailPage({ params }: Props) {
             </ul>
           </section>
         )}
+
+        <SourceReview className="habitat-guide-section" sources={sourceReview.sources} confirmedFacts={sourceReview.confirmed_facts} editorialLimits={sourceReview.editorial_limits} />
 
         {habitat.common_mistakes && (
           <section className="habitat-guide-section">

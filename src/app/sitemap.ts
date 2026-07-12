@@ -4,8 +4,11 @@ export const dynamic = 'force-static'
 import newsData from '@/data/news.json'
 import guidesData from '@/data/guides.json'
 import officialData from '@/data/official.json'
+import pokemonData from '@/data/pokemon.json'
+import habitatsData from '@/data/habitats.json'
+import recipesData from '@/data/recipes.json'
 import { BASE_URL } from '@/lib/site'
-import { isEditorialContent } from '@/lib/indexing'
+import { isEditorialContent, isIndexableDatabaseEntry } from '@/lib/indexing'
 
 const SITE_REVIEWED_AT = new Date('2026-05-23')
 const REDIRECTED_NEWS_SLUGS = new Set([
@@ -91,6 +94,23 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: reviewedDate(page.updated_at),
       changeFrequency: 'monthly',
       priority: 0.86,
+    })
+  })
+
+  const databaseCollections = [
+    { entries: pokemonData, path: '/wiki/pokemon', priority: 0.62 },
+    { entries: habitatsData, path: '/wiki/habitat', priority: 0.6 },
+    { entries: recipesData, path: '/wiki/recipe', priority: 0.58 },
+  ]
+
+  databaseCollections.forEach(({ entries: databaseEntries, path: basePath, priority }) => {
+    databaseEntries.filter(isIndexableDatabaseEntry).forEach((entry) => {
+      addEntry({
+        url: `${BASE_URL}${basePath}/${entry.id}/`,
+        lastModified: reviewedDate(entry.updated_at),
+        changeFrequency: 'monthly',
+        priority,
+      })
     })
   })
 

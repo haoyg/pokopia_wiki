@@ -9,7 +9,14 @@ import { CreditedImage } from '@/components/media/CreditedImage'
 import { BreadcrumbJsonLd, FAQJsonLd, WikiPageJsonLd } from '@/components/seo/JsonLd'
 import { DataStatus } from '@/components/content/DataStatus'
 import { OfficialContext } from '@/components/content/OfficialContext'
-import { isEditorialContent, noIndexMetadata } from '@/lib/indexing'
+import { SourceReview } from '@/components/content/SourceReview'
+import { isIndexableDatabaseEntry, noIndexMetadata } from '@/lib/indexing'
+
+type SourceReviewFields = {
+  sources?: { label?: string; url?: string }[]
+  confirmed_facts?: string[]
+  editorial_limits?: string[]
+}
 
 interface Props {
   params: Promise<{ id: string }>
@@ -29,7 +36,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title,
     description,
-    robots: pokemon && isEditorialContent(pokemon.data_status) ? noIndexMetadata : undefined,
+    robots: pokemon && !isIndexableDatabaseEntry(pokemon) ? noIndexMetadata : undefined,
     keywords: pokemon
       ? [
           `${pokemon.name} Pokopia`,
@@ -58,6 +65,7 @@ export default async function PokemonDetailPage({ params }: Props) {
   if (!pokemon) {
     return <p>Pokemon not found</p>
   }
+  const sourceReview = pokemon as typeof pokemon & SourceReviewFields
 
   const relatedGuides = guidesData.filter((g) =>
     (g.related_pokemon || '').split(',').includes(id)
@@ -191,6 +199,8 @@ export default async function PokemonDetailPage({ params }: Props) {
             </ul>
           </section>
         )}
+
+        <SourceReview className="pokemon-guide-section" sources={sourceReview.sources} confirmedFacts={sourceReview.confirmed_facts} editorialLimits={sourceReview.editorial_limits} />
 
         {pokemon.common_mistakes && pokemon.common_mistakes.length > 0 && (
           <section className="pokemon-guide-section">

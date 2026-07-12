@@ -9,7 +9,14 @@ import { CreditedImage } from '@/components/media/CreditedImage'
 import { BreadcrumbJsonLd, FAQJsonLd, WikiPageJsonLd } from '@/components/seo/JsonLd'
 import { DataStatus } from '@/components/content/DataStatus'
 import { OfficialContext } from '@/components/content/OfficialContext'
-import { isEditorialContent, noIndexMetadata } from '@/lib/indexing'
+import { SourceReview } from '@/components/content/SourceReview'
+import { isIndexableDatabaseEntry, noIndexMetadata } from '@/lib/indexing'
+
+type SourceReviewFields = {
+  sources?: { label?: string; url?: string }[]
+  confirmed_facts?: string[]
+  editorial_limits?: string[]
+}
 
 interface Props {
   params: Promise<{ id: string }>
@@ -29,7 +36,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title,
     description,
-    robots: recipe && isEditorialContent(recipe.data_status) ? noIndexMetadata : undefined,
+    robots: recipe && !isIndexableDatabaseEntry(recipe) ? noIndexMetadata : undefined,
     keywords: recipe
       ? ([
           `${recipe.name} recipe Pokopia`,
@@ -57,6 +64,7 @@ export default async function RecipeDetailPage({ params }: Props) {
   if (!recipe) {
     return <p>Recipe not found</p>
   }
+  const sourceReview = recipe as typeof recipe & SourceReviewFields
 
   const relatedGuides = guidesData.filter((g) =>
     (g.related_items || '').split(',').includes(id)
@@ -212,6 +220,8 @@ export default async function RecipeDetailPage({ params }: Props) {
             </ul>
           </section>
         )}
+
+        <SourceReview className="recipe-guide-section" sources={sourceReview.sources} confirmedFacts={sourceReview.confirmed_facts} editorialLimits={sourceReview.editorial_limits} />
 
         {recipe.common_mistakes && (
           <section className="recipe-guide-section">

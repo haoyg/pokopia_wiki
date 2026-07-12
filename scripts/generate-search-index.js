@@ -42,6 +42,15 @@ function isEditorialContent(status) {
   return Boolean(status && /^editorial\b/i.test(String(status).trim()))
 }
 
+function isIndexableDatabaseEntry(item) {
+  const reviewedAt = item.updated_at ? new Date(item.updated_at) : null
+  return item.data_status === 'Source-backed database entry' &&
+    Boolean(reviewedAt && !Number.isNaN(reviewedAt.getTime())) &&
+    Array.isArray(item.sources) && item.sources.some((source) => /^https?:\/\//i.test(String(source?.url || ''))) &&
+    Array.isArray(item.confirmed_facts) && item.confirmed_facts.length >= 2 &&
+    Array.isArray(item.editorial_limits) && item.editorial_limits.length >= 2
+}
+
 const guides = readJson('src/data/guides.json')
 const habitats = readJson('src/data/habitats.json')
 const news = readJson('src/data/news.json')
@@ -417,7 +426,7 @@ const index = [
       item.sources?.map((source) => source.label).join(' '),
     ].join(' '),
   })),
-  ...pokemon.filter((item) => !isEditorialContent(item.data_status)).map((item) => ({
+  ...pokemon.filter(isIndexableDatabaseEntry).map((item) => ({
     id: item.id,
     type: 'Pokemon',
     title: item.name,
@@ -442,7 +451,7 @@ const index = [
       item.skills,
     ].join(' '),
   })),
-  ...habitats.filter((item) => !isEditorialContent(item.data_status)).map((item) => ({
+  ...habitats.filter(isIndexableDatabaseEntry).map((item) => ({
     id: item.id,
     type: 'Habitat',
     title: item.name,
@@ -464,7 +473,7 @@ const index = [
       item.recommended_recipe,
     ].join(' '),
   })),
-  ...recipes.filter((item) => !isEditorialContent(item.data_status)).map((item) => ({
+  ...recipes.filter(isIndexableDatabaseEntry).map((item) => ({
     id: item.id,
     type: 'Recipe',
     title: item.name,

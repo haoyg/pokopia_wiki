@@ -34,7 +34,7 @@ function cleanDescription(description, maxLength = 155) {
     .replace(/\s+/g, ' ')
     .trim()
 
-  return normalized.length <= maxLength ? normalized : `${normalized.slice(0, maxLength - 1).trim()}…`
+  return normalized.length <= maxLength ? normalized : `${normalized.slice(0, maxLength - 3).trim()}...`
 }
 
 function addMeta(kind, id, title, description) {
@@ -99,12 +99,17 @@ for (const file of sourceFiles) {
   if (riskyDescription) issues.push(`${rel} has a risky static metadata description phrase`)
 }
 
-const mojibakePatterns = ['Pok\u8305mon', '\u9225', '\u6a9a', '\ue6c6', '\u6f0f']
+const mojibakePatterns = [
+  /\uFFFD/u,
+  /Pok\u8305mon/u,
+  /[\u00C2\u00C3][\u0080-\u00BF]/u,
+  /\u00E2\u0080[\u0080-\u00BF]/u,
+]
 for (const file of textFiles) {
   const rel = path.relative(root, file)
   const source = fs.readFileSync(file, 'utf8')
   for (const pattern of mojibakePatterns) {
-    if (source.includes(pattern)) issues.push(`${rel} contains mojibake text: ${pattern}`)
+    if (pattern.test(source)) issues.push(`${rel} contains mojibake text: ${pattern}`)
   }
 }
 
