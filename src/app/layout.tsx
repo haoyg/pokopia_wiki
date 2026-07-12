@@ -25,6 +25,10 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'Pokopia Portal' }],
   creator: 'Pokopia Portal',
+  publisher: 'Pokopia Portal',
+  applicationName: 'Pokopia Portal',
+  category: 'Gaming',
+  manifest: '/site.webmanifest',
   icons: {
     icon: [
       { url: '/favicon.ico', type: 'image/x-icon' },

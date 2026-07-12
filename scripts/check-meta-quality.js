@@ -55,6 +55,7 @@ const official = readJson('src/data/official.json')
 const pokemon = readJson('src/data/pokemon.json')
 const habitats = readJson('src/data/habitats.json')
 const recipes = readJson('src/data/recipes.json')
+const manifest = readJson('public/site.webmanifest')
 
 const meta = [
   ...guides.map((item) => addMeta('guide', item.slug, item.title, item.answer || item.seo_keyword)),
@@ -105,6 +106,23 @@ const mojibakePatterns = [
   /[\u00C2\u00C3][\u0080-\u00BF]/u,
   /\u00E2\u0080[\u0080-\u00BF]/u,
 ]
+
+if (manifest.name !== 'Pokopia Portal') issues.push('site.webmanifest name must be Pokopia Portal')
+if (!manifest.short_name) issues.push('site.webmanifest short_name is missing')
+if (manifest.start_url !== '/') issues.push('site.webmanifest start_url must be /')
+if (manifest.display !== 'standalone') issues.push('site.webmanifest display must be standalone')
+if (!/^#[0-9a-f]{6}$/i.test(manifest.theme_color || '')) {
+  issues.push('site.webmanifest theme_color must be a hex color')
+}
+if (!Array.isArray(manifest.icons) || manifest.icons.length < 2) {
+  issues.push('site.webmanifest must include at least two icons')
+} else {
+  for (const icon of manifest.icons) {
+    if (!icon.src || !fs.existsSync(path.join(root, 'public', icon.src.replace(/^\//, '')))) {
+      issues.push(`site.webmanifest icon is missing on disk: ${icon.src || '(empty)'}`)
+    }
+  }
+}
 for (const file of textFiles) {
   const rel = path.relative(root, file)
   const source = fs.readFileSync(file, 'utf8')
