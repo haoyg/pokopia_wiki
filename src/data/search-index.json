@@ -949,6 +949,45 @@
     "keywords": "How to Customize Items with Berries, Crush, and Smearguru in Pokemon Pokopia guides pokemon pokopia item customization berries crush smearguru   "
   },
   {
+    "id": "guid057",
+    "type": "Guide",
+    "title": "How to Invite Friends to Visit Your Town in Pokemon Pokopia",
+    "href": "/guides/town-visit-multiplayer-guide",
+    "description": "Use the Pokemon Center PC, choose Link Play, then Invite Others to Visit and select an online or local connection. Nintendo says up to three friends can join, and standard town vi…",
+    "meta": "guides",
+    "status": "Source-backed guide",
+    "source": null,
+    "updatedAt": "2026-07-16",
+    "priority": 85,
+    "keywords": "How to Invite Friends to Visit Your Town in Pokemon Pokopia guides pokemon pokopia invite friends town visit link play   "
+  },
+  {
+    "id": "guid058",
+    "type": "Guide",
+    "title": "Palette Town and GameShare Guide for Pokemon Pokopia",
+    "href": "/guides/palette-town-gameshare-guide",
+    "description": "Palette Town is Nintendo's shared building area: invite friends through Link Play and turn off Spectator Mode at the Palette Town PC to build, craft, discover Pokemon, and make ha…",
+    "meta": "guides",
+    "status": "Source-backed guide",
+    "source": null,
+    "updatedAt": "2026-07-16",
+    "priority": 85,
+    "keywords": "Palette Town and GameShare Guide for Pokemon Pokopia guides pokemon pokopia palette town gameshare multiplayer   "
+  },
+  {
+    "id": "guid059",
+    "type": "Guide",
+    "title": "Cloud Island and Virtual Mode Guide for Pokemon Pokopia",
+    "href": "/guides/cloud-island-virtual-mode-guide",
+    "description": "Cloud Island is Nintendo's persistent online shared area. Create or visit one from a Pokemon Center PC using its address; it has its own Pokedex, rewards, and challenges, and item…",
+    "meta": "guides",
+    "status": "Source-backed guide",
+    "source": null,
+    "updatedAt": "2026-07-16",
+    "priority": 85,
+    "keywords": "Cloud Island and Virtual Mode Guide for Pokemon Pokopia guides pokemon pokopia cloud island virtual mode   "
+  },
+  {
     "id": "official001",
     "type": "Official",
     "title": "Pokémon Pokopia Release Date, Platform, Price, and Editions",
