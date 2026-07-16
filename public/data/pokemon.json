@@ -56,13 +56,26 @@
       {
         "question": "Is Pikafire better than Emberal?",
         "answer": "Not for cheap farming. Pikafire is better when Electric reach matters; Emberal is better for low-cost Flame Ore loops."
+      },
+      {
+        "question": "What food attracts Pikafire?",
+        "answer": "Pikafire is attracted by Apple. Use it in hab001 during Day spawns in Sunny weather to improve catch rates."
+      },
+      {
+        "question": "What does Pikafire drop?",
+        "answer": "Pikafire drops Fire Stone,Thunder Stone. Farm hab001 during Day in Sunny weather for best results."
+      },
+      {
+        "question": "What mistakes do players make with Pikafire?",
+        "answer": "Common mistakes: Using Pikafire as a generic Fire attacker when Emberal would farm cheaper.; Opening with Quick Attack before checking whether Thunderbolt can control the first turn.; Continuing the run after the Thunder Stone target is already solved.. Check the hab001 route before farming Pikafire."
       }
     ],
     "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
-    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture"
+    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture",
+    "index_status": "indexable"
   },
   {
     "id": "pkm002",
@@ -121,13 +134,26 @@
       {
         "question": "When should Bulbin leave the team?",
         "answer": "Replace it once Forest Valley timing is stable or when you need rare plant materials instead of basic defense."
+      },
+      {
+        "question": "What food attracts Bulbin?",
+        "answer": "Bulbin is attracted by Leaf. Use it in hab002 during Any spawns in Cloudy weather to improve catch rates."
+      },
+      {
+        "question": "What does Bulbin drop?",
+        "answer": "Bulbin drops Leaf,Grass Fiber. Farm hab002 during Any in Cloudy weather for best results."
+      },
+      {
+        "question": "What mistakes do players make with Bulbin?",
+        "answer": "Common mistakes: Trying to turn Bulbin into a full Forest Valley clear plan.; Ignoring Protect timing and judging the page only by damage.; Farming Leaf after the starter upgrade is already complete.. Check the hab002 route before farming Bulbin."
       }
     ],
     "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
-    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture"
+    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture",
+    "index_status": "indexable"
   },
   {
     "id": "pkm003",
@@ -186,13 +212,26 @@
       {
         "question": "When should you skip Charmuddy?",
         "answer": "Skip it when the route needs tanking, Electric reach, or rare cave payoff."
+      },
+      {
+        "question": "What food attracts Charmuddy?",
+        "answer": "Charmuddy is attracted by Honey. Use it in hab001 during Night spawns in Clear weather to improve catch rates."
+      },
+      {
+        "question": "What does Charmuddy drop?",
+        "answer": "Charmuddy drops Fire Stone,Ash. Farm hab001 during Night in Clear weather for best results."
+      },
+      {
+        "question": "What mistakes do players make with Charmuddy?",
+        "answer": "Common mistakes: Using Charmuddy as a premium Fire carry.; Spending Honey before checking the opening angle.; Continuing the cave route after Ash is already stocked.. Check the hab001 route before farming Charmuddy."
       }
     ],
     "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
-    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture"
+    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture",
+    "index_status": "indexable"
   },
   {
     "id": "pkm004",
@@ -251,13 +290,26 @@
       {
         "question": "When should you use Aquashell instead?",
         "answer": "Use Aquashell when the lake route needs defense and Shell farming more than weather support."
+      },
+      {
+        "question": "What food attracts Aquap?",
+        "answer": "Aquap is attracted by Golden Fish. Use it in hab003 during Any spawns in Rain weather to improve catch rates."
+      },
+      {
+        "question": "What does Aquap drop?",
+        "answer": "Aquap drops Water Stone,Pearl. Farm hab003 during Any in Rain weather for best results."
+      },
+      {
+        "question": "What mistakes do players make with Aquap?",
+        "answer": "Common mistakes: Treating Aquap like Aquashell and expecting it to tank slow fights.; Spending Golden Fish before confirming the route needs rain support.; Continuing to farm Pearl after the starter water upgrade is done.. Check the hab003 route before farming Aquap."
       }
     ],
     "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
-    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture"
+    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture",
+    "index_status": "indexable"
   },
   {
     "id": "pkm005",
@@ -316,13 +368,26 @@
       {
         "question": "Is Zaprat durable?",
         "answer": "No. It is fast but fragile, so it needs a partner that can absorb pressure."
+      },
+      {
+        "question": "What food attracts Zaprat?",
+        "answer": "Zaprat is attracted by Cheese. Use it in hab004 during Morning spawns in Windy weather to improve catch rates."
+      },
+      {
+        "question": "What does Zaprat drop?",
+        "answer": "Zaprat drops Thunder Stone,Lightning Rod. Farm hab004 during Morning in Windy weather for best results."
+      },
+      {
+        "question": "What mistakes do players make with Zaprat?",
+        "answer": "Common mistakes: Expecting Zaprat to survive like a defender.; Using Cheese before confirming the Morning / Windy route.; Farming Thunder Stone here when a sturdier Electric option would be safer.. Check the hab004 route before farming Zaprat."
       }
     ],
     "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
-    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture"
+    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture",
+    "index_status": "indexable"
   },
   {
     "id": "pkm006",
@@ -381,13 +446,26 @@
       {
         "question": "When should you skip Leafon?",
         "answer": "Skip it when the route needs long sustain or when no enemy is worth poisoning early."
+      },
+      {
+        "question": "What food attracts Leafon?",
+        "answer": "Leafon is attracted by Mystery Mushroom. Use it in hab002 during Night spawns in Foggy weather to improve catch rates."
+      },
+      {
+        "question": "What does Leafon drop?",
+        "answer": "Leafon drops Poison Stone,Leaf Stone. Farm hab002 during Night in Foggy weather for best results."
+      },
+      {
+        "question": "What mistakes do players make with Leafon?",
+        "answer": "Common mistakes: Using Leafon as a generic Grass farmer.; Applying Poison Powder after the main threat is already handled.; Forcing Leafon into long control routes better suited to Magicalure.. Check the hab002 route before farming Leafon."
       }
     ],
     "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
-    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture"
+    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture",
+    "index_status": "indexable"
   },
   {
     "id": "pkm007",
@@ -446,13 +524,26 @@
       {
         "question": "When should you avoid Flamexor?",
         "answer": "Avoid it when you only need cheap Fire Stone or Flame Ore farming."
+      },
+      {
+        "question": "What food attracts Flamexor?",
+        "answer": "Flamexor is attracted by Iron Ore. Use it in hab001 during Night spawns in Clear weather to improve catch rates."
+      },
+      {
+        "question": "What does Flamexor drop?",
+        "answer": "Flamexor drops Fire Stone,Metal Coat,Legendary Scale. Farm hab001 during Night in Clear weather for best results."
+      },
+      {
+        "question": "What mistakes do players make with Flamexor?",
+        "answer": "Common mistakes: Using Flamexor for cheap Fire farming.; Saving Iron Defense until after the dangerous damage already lands.; Continuing to farm common drops after Legendary Scale is finished.. Check the hab001 route before farming Flamexor."
       }
     ],
     "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
-    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture"
+    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture",
+    "index_status": "indexable"
   },
   {
     "id": "pkm008",
@@ -511,13 +602,26 @@
       {
         "question": "Is Tidlet better than Skittlish?",
         "answer": "Only on snow routes. Skittlish is the better Forest Valley practice support."
+      },
+      {
+        "question": "What food attracts Tidlet?",
+        "answer": "Tidlet is attracted by Any Food. Use it in hab005 during Day spawns in Snow weather to improve catch rates."
+      },
+      {
+        "question": "What does Tidlet drop?",
+        "answer": "Tidlet drops Fur,Cloth. Farm hab005 during Day in Snow weather for best results."
+      },
+      {
+        "question": "What mistakes do players make with Tidlet?",
+        "answer": "Common mistakes: Using Tidlet as a damage carry.; Continuing after support gear no longer needs Fur or Cloth.; Ignoring whether Play Nice actually changes the fight.. Check the hab005 route before farming Tidlet."
       }
     ],
     "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
-    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture"
+    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture",
+    "index_status": "indexable"
   },
   {
     "id": "pkm009",
@@ -575,13 +679,26 @@
       {
         "question": "What does Shados drop?",
         "answer": "Shados drops Ghost Stone and Soul Dust. Leave early when the ghost material goal is done."
+      },
+      {
+        "question": "What food attracts Shados?",
+        "answer": "Shados is attracted by Soul Dust. Use it in hab006 during Night spawns in Stormy weather to improve catch rates."
+      },
+      {
+        "question": "What does Shados drop?",
+        "answer": "Shados drops Ghost Stone,Soul Dust. Farm hab006 during Night in Stormy weather for best results."
+      },
+      {
+        "question": "What mistakes do players make with Shados?",
+        "answer": "Common mistakes: Using Shados as a legendary hunt substitute.; Spending Soul Dust when Ghost Stone is already finished.; Full-clearing Shadow Marsh after a quick Shados miss.. Check the hab006 route before farming Shados."
       }
     ],
     "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
-    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture"
+    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture",
+    "index_status": "indexable"
   },
   {
     "id": "pkm010",
@@ -640,13 +757,26 @@
       {
         "question": "When is Magnedex better?",
         "answer": "Magnedex is better when the route needs a Magnet pivot rather than a steel wall."
+      },
+      {
+        "question": "What food attracts Mechabit?",
+        "answer": "Mechabit is attracted by Battery. Use it in hab004 during Any spawns in Thunderstorm weather to improve catch rates."
+      },
+      {
+        "question": "What does Mechabit drop?",
+        "answer": "Mechabit drops Metal Coat,Piston. Farm hab004 during Any in Thunderstorm weather for best results."
+      },
+      {
+        "question": "What mistakes do players make with Mechabit?",
+        "answer": "Common mistakes: Firing Zap Cannon without first creating a safe Lock-On turn.; Using Mechabit for generic Metal Coat farming when a cheaper route exists.; Ignoring Ground counters because the page looks defensively strong.. Check the hab004 route before farming Mechabit."
       }
     ],
     "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
-    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture"
+    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture",
+    "index_status": "indexable"
   },
   {
     "id": "pkm011",
@@ -705,13 +835,26 @@
       {
         "question": "Is Rockler a rare gem farmer?",
         "answer": "No. Use crystal-focused pages when rare gem payoff is the goal."
+      },
+      {
+        "question": "What food attracts Rockler?",
+        "answer": "Rockler is attracted by Stone. Use it in hab007 during Any spawns in Clear weather to improve catch rates."
+      },
+      {
+        "question": "What does Rockler drop?",
+        "answer": "Rockler drops Stone,Rock Fragment. Farm hab007 during Any in Clear weather for best results."
+      },
+      {
+        "question": "What mistakes do players make with Rockler?",
+        "answer": "Common mistakes: Expecting Rockler to produce rare gem value.; Using Stealth Rock in fights that end before setup matters.; Ignoring type counters because its defense looks high.. Check the hab007 route before farming Rockler."
       }
     ],
     "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
-    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture"
+    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture",
+    "index_status": "review"
   },
   {
     "id": "pkm012",
@@ -770,13 +913,26 @@
       {
         "question": "When should you skip Crystion?",
         "answer": "Skip it when the goal is common stone, Earth Gem, or passive canyon safety."
+      },
+      {
+        "question": "What food attracts Crystion?",
+        "answer": "Crystion is attracted by Gem. Use it in hab007 during Night spawns in Snow weather to improve catch rates."
+      },
+      {
+        "question": "What does Crystion drop?",
+        "answer": "Crystion drops Crystal Shard,Diamond. Farm hab007 during Night in Snow weather for best results."
+      },
+      {
+        "question": "What mistakes do players make with Crystion?",
+        "answer": "Common mistakes: Using Crystion as a general canyon attacker.; Spending Gem without Night / Snow value.; Continuing after Diamond is already solved.. Check the hab007 route before farming Crystion."
       }
     ],
     "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
-    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture"
+    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture",
+    "index_status": "review"
   },
   {
     "id": "pkm013",
@@ -835,13 +991,26 @@
       {
         "question": "When should you replace Emberal?",
         "answer": "Replace it when the route needs Electric reach, Steel durability, or a rarer cave payoff."
+      },
+      {
+        "question": "What food attracts Emberal?",
+        "answer": "Emberal is attracted by Hot Pepper. Use it in hab001 during Day spawns in Sunny weather to improve catch rates."
+      },
+      {
+        "question": "What does Emberal drop?",
+        "answer": "Emberal drops Fire Stone,Flame Ore. Farm hab001 during Day in Sunny weather for best results."
+      },
+      {
+        "question": "What mistakes do players make with Emberal?",
+        "answer": "Common mistakes: Treating Emberal like a premium attacker instead of a low-cost farming choice.; Staying in Volcanic Cave after Flame Ore is already stocked.; Comparing it to Pikafire without checking whether Electric reach is needed.. Check the hab001 route before farming Emberal."
       }
     ],
     "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
-    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture"
+    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture",
+    "index_status": "review"
   },
   {
     "id": "pkm014",
@@ -899,13 +1068,26 @@
       {
         "question": "What does Glacior drop?",
         "answer": "Glacior drops Ice Stone and Frost Crystal. Repeat only while one of those materials has an active use."
+      },
+      {
+        "question": "What food attracts Glacior?",
+        "answer": "Glacior is attracted by Snowball. Use it in hab005 during Any spawns in Snow weather to improve catch rates."
+      },
+      {
+        "question": "What does Glacior drop?",
+        "answer": "Glacior drops Ice Stone,Frost Crystal. Farm hab005 during Any in Snow weather for best results."
+      },
+      {
+        "question": "What mistakes do players make with Glacior?",
+        "answer": "Common mistakes: Using Glacior as a damage carry.; Spending Snowball before checking Aurora Veil value.; Farming it in place of a dedicated rare ice target.. Check the hab005 route before farming Glacior."
       }
     ],
     "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
-    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture"
+    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture",
+    "index_status": "review"
   },
   {
     "id": "pkm015",
@@ -963,13 +1145,26 @@
       {
         "question": "What does Voltscale drop?",
         "answer": "Voltscale drops Thunder Stone and Dragon Scale. Dragon Scale is the main reason to repeat."
+      },
+      {
+        "question": "What food attracts Voltscale?",
+        "answer": "Voltscale is attracted by Lightning Bug. Use it in hab004 during Night spawns in Thunderstorm weather to improve catch rates."
+      },
+      {
+        "question": "What does Voltscale drop?",
+        "answer": "Voltscale drops Thunder Stone,Dragon Scale. Farm hab004 during Night in Thunderstorm weather for best results."
+      },
+      {
+        "question": "What mistakes do players make with Voltscale?",
+        "answer": "Common mistakes: Farming Voltscale like Zaprat.; Spending Lightning Bug outside Thunderstorm timing.; Continuing into metal branches after the dragon check.. Check the hab004 route before farming Voltscale."
       }
     ],
     "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
-    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture"
+    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture",
+    "index_status": "review"
   },
   {
     "id": "pkm016",
@@ -1028,13 +1223,26 @@
       {
         "question": "What does Breezel drop?",
         "answer": "Breezel drops Feather and Wind Essence. Repeat only while the beginner flying loop still teaches or pays."
+      },
+      {
+        "question": "What food attracts Breezel?",
+        "answer": "Breezel is attracted by Feather. Use it in hab008 during Day spawns in Windy weather to improve catch rates."
+      },
+      {
+        "question": "What does Breezel drop?",
+        "answer": "Breezel drops Feather,Wind Essence. Farm hab008 during Day in Windy weather for best results."
+      },
+      {
+        "question": "What mistakes do players make with Breezel?",
+        "answer": "Common mistakes: Treating Breezel like a rare Sky Isles target.; Spending Feather before the first air branch is known.; Continuing after the beginner loop has answered its question.. Check the hab008 route before farming Breezel."
       }
     ],
     "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
-    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture"
+    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture",
+    "index_status": "review"
   },
   {
     "id": "pkm017",
@@ -1093,13 +1301,26 @@
       {
         "question": "When should you skip Thornvine?",
         "answer": "Skip it when the goal is a fast clear or when the team already has enough sustain."
+      },
+      {
+        "question": "What food attracts Thornvine?",
+        "answer": "Thornvine is attracted by Berry. Use it in hab002 during Any spawns in Rain weather to improve catch rates."
+      },
+      {
+        "question": "What does Thornvine drop?",
+        "answer": "Thornvine drops Leaf,Thorn. Farm hab002 during Any in Rain weather for best results."
+      },
+      {
+        "question": "What mistakes do players make with Thornvine?",
+        "answer": "Common mistakes: Using Thornvine for fast Grass farming when a lighter pick would do.; Waiting too long to apply Leech Seed.; Confusing its ground attrition role with Tropius-style air support.. Check the hab002 route before farming Thornvine."
       }
     ],
     "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
-    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture"
+    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture",
+    "index_status": "review"
   },
   {
     "id": "pkm018",
@@ -1158,13 +1379,26 @@
       {
         "question": "When should you choose another river Pokémon?",
         "answer": "Choose another option when the goal is poison, stealth, or a rare river-specific material."
+      },
+      {
+        "question": "What food attracts Mudkipz?",
+        "answer": "Mudkipz is attracted by Mud Ball. Use it in hab009 during Any spawns in Rain weather to improve catch rates."
+      },
+      {
+        "question": "What does Mudkipz drop?",
+        "answer": "Mudkipz drops Mud Stone,Water Stone. Farm hab009 during Any in Rain weather for best results."
+      },
+      {
+        "question": "What mistakes do players make with Mudkipz?",
+        "answer": "Common mistakes: Forcing Mudkipz into specialized poison or stealth routes.; Ignoring the rain requirement and blaming the Pokémon for weak pacing.; Continuing after only one of the two stone drops is still relevant.. Check the hab009 route before farming Mudkipz."
       }
     ],
     "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
-    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture"
+    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture",
+    "index_status": "review"
   },
   {
     "id": "pkm019",
@@ -1223,13 +1457,26 @@
       {
         "question": "When is Ironclaw better?",
         "answer": "Ironclaw is better when the route needs a Steel/Fighting finisher instead of support."
+      },
+      {
+        "question": "What food attracts Bronzorm?",
+        "answer": "Bronzorm is attracted by Coin. Use it in hab010 during Day spawns in Cloudy weather to improve catch rates."
+      },
+      {
+        "question": "What does Bronzorm drop?",
+        "answer": "Bronzorm drops Metal Coat,Bronze Medal. Farm hab010 during Day in Cloudy weather for best results."
+      },
+      {
+        "question": "What mistakes do players make with Bronzorm?",
+        "answer": "Common mistakes: Treating Bronzorm as a damage carry.; Farming Metal Coat here without needing Bronze Medal.; Using Recover too late to change the fight.. Check the hab010 route before farming Bronzorm."
       }
     ],
     "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
-    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture"
+    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture",
+    "index_status": "review"
   },
   {
     "id": "pkm020",
@@ -1287,13 +1534,26 @@
       {
         "question": "What does Flamingo drop?",
         "answer": "Flamingo drops Fire Stone and Feather. Repeat when both sides still help the build."
+      },
+      {
+        "question": "What food attracts Flamingo?",
+        "answer": "Flamingo is attracted by Hot Seed. Use it in hab008 during Day spawns in Sunny weather to improve catch rates."
+      },
+      {
+        "question": "What does Flamingo drop?",
+        "answer": "Flamingo drops Fire Stone,Feather. Farm hab008 during Day in Sunny weather for best results."
+      },
+      {
+        "question": "What mistakes do players make with Flamingo?",
+        "answer": "Common mistakes: Using Flamingo like Breezel.; Spending Hot Seed for generic feather farming.; Ignoring Day / Sunny before testing fire value.. Check the hab008 route before farming Flamingo."
       }
     ],
     "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
-    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture"
+    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture",
+    "index_status": "review"
   },
   {
     "id": "pkm021",
@@ -1353,13 +1613,26 @@
       {
         "question": "What does Stealthfin drop?",
         "answer": "Stealthfin differs from Toxifin because it is the rare night hunt, while Toxifin is the repeatable poison loop."
+      },
+      {
+        "question": "What food attracts Stealthfin?",
+        "answer": "Stealthfin is attracted by Fish. Use it in hab009 during Night spawns in Rain weather to improve catch rates."
+      },
+      {
+        "question": "What does Stealthfin drop?",
+        "answer": "Stealthfin drops Deep Sea Tooth,Dark Gem. Farm hab009 during Night in Rain weather for best results."
+      },
+      {
+        "question": "What mistakes do players make with Stealthfin?",
+        "answer": "Common mistakes: Using Stealthfin for Gill or Poison Stone goals.; Spending Fish before the night branch is mapped.; Letting the run continue after the rare dark-water check fails.; Judging Stealthfin by normal water farming efficiency.. Check the hab009 route before farming Stealthfin."
       }
     ],
     "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
-    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture"
+    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture",
+    "index_status": "review"
   },
   {
     "id": "pkm022",
@@ -1417,13 +1690,26 @@
       {
         "question": "What does Frostbite drop?",
         "answer": "Frostbite drops Ghost Stone and Ice Crystal. Repeat when both the night window and material goal line up."
+      },
+      {
+        "question": "What food attracts Frostbite?",
+        "answer": "Frostbite is attracted by Frozen Soul. Use it in hab005 during Night spawns in Snow weather to improve catch rates."
+      },
+      {
+        "question": "What does Frostbite drop?",
+        "answer": "Frostbite drops Ghost Stone,Ice Crystal. Farm hab005 during Night in Snow weather for best results."
+      },
+      {
+        "question": "What mistakes do players make with Frostbite?",
+        "answer": "Common mistakes: Using Frostbite like a support page.; Spending Frozen Soul before the branch is safe.; Ignoring Ice Crystal value after Ghost Stone is finished.. Check the hab005 route before farming Frostbite."
       }
     ],
     "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
-    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture"
+    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture",
+    "index_status": "review"
   },
   {
     "id": "pkm023",
@@ -1482,13 +1768,26 @@
       {
         "question": "When should you skip Sunflora?",
         "answer": "Skip it when the route is rainy, defensive, or only needs cheap Fire material."
+      },
+      {
+        "question": "What food attracts Sunflora?",
+        "answer": "Sunflora is attracted by Sunstone. Use it in hab002 during Day spawns in Sunny weather to improve catch rates."
+      },
+      {
+        "question": "What does Sunflora drop?",
+        "answer": "Sunflora drops Sun Stone,Flame Ore. Farm hab002 during Day in Sunny weather for best results."
+      },
+      {
+        "question": "What mistakes do players make with Sunflora?",
+        "answer": "Common mistakes: Using Sunflora without enough time for Sunny Day.; Farming Flame Ore here when a cave route would be cheaper.; Ignoring weather synergy and judging only the base moves.. Check the hab002 route before farming Sunflora."
       }
     ],
     "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
-    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture"
+    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture",
+    "index_status": "review"
   },
   {
     "id": "pkm024",
@@ -1547,13 +1846,26 @@
       {
         "question": "When is Mechabit better?",
         "answer": "Mechabit is better when the route needs a wall and Piston progress."
+      },
+      {
+        "question": "What food attracts Magnedex?",
+        "answer": "Magnedex is attracted by Magnet. Use it in hab004 during Any spawns in Thunderstorm weather to improve catch rates."
+      },
+      {
+        "question": "What does Magnedex drop?",
+        "answer": "Magnedex drops Metal Coil,Magnet. Farm hab004 during Any in Thunderstorm weather for best results."
+      },
+      {
+        "question": "What mistakes do players make with Magnedex?",
+        "answer": "Common mistakes: Using Magnedex as a pure tank when Mechabit fits better.; Spending Magnet without a planned Volt Switch target.; Ignoring Ground counters on Thunderstorm routes.. Check the hab004 route before farming Magnedex."
       }
     ],
     "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
-    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture"
+    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture",
+    "index_status": "review"
   },
   {
     "id": "pkm025",
@@ -1612,13 +1924,26 @@
       {
         "question": "Is Tropius a speed pick?",
         "answer": "No. It is a sustain support, not a speed benchmark Pokémon."
+      },
+      {
+        "question": "What food attracts Tropius?",
+        "answer": "Tropius is attracted by Tropical Fruit. Use it in hab008 during Day spawns in Clear weather to improve catch rates."
+      },
+      {
+        "question": "What does Tropius drop?",
+        "answer": "Tropius drops Leaf,Dragon Scale. Farm hab008 during Day in Clear weather for best results."
+      },
+      {
+        "question": "What mistakes do players make with Tropius?",
+        "answer": "Common mistakes: Using Tropius for short Sky Isles clears where Roost never matters.; Chasing Dragon Scale without a build that uses it.; Comparing it to faster flyers without considering route length.. Check the hab008 route before farming Tropius."
       }
     ],
     "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
-    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture"
+    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture",
+    "index_status": "review"
   },
   {
     "id": "pkm026",
@@ -1677,13 +2002,26 @@
       {
         "question": "Is Skittlish a farming carry?",
         "answer": "No. It is a support pick that makes another Pokémon safer."
+      },
+      {
+        "question": "What food attracts Skittlish?",
+        "answer": "Skittlish is attracted by Cookie. Use it in hab002 during Day spawns in Cloudy weather to improve catch rates."
+      },
+      {
+        "question": "What does Skittlish drop?",
+        "answer": "Skittlish drops Fur,Cloth. Farm hab002 during Day in Cloudy weather for best results."
+      },
+      {
+        "question": "What mistakes do players make with Skittlish?",
+        "answer": "Common mistakes: Expecting Skittlish to carry damage like an attacker.; Running it for materials after Fur and Cloth are already stocked.; Using Cookie before checking whether Body Slam has a real target.. Check the hab002 route before farming Skittlish."
       }
     ],
     "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
-    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture"
+    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture",
+    "index_status": "review"
   },
   {
     "id": "pkm027",
@@ -1741,13 +2079,26 @@
       {
         "question": "What does Dewdrop drop?",
         "answer": "Dewdrop drops Water Stone and Star Piece. Stop when the support material is complete."
+      },
+      {
+        "question": "What food attracts Dewdrop?",
+        "answer": "Dewdrop is attracted by Crystal Dew. Use it in hab003 during Morning spawns in Rain weather to improve catch rates."
+      },
+      {
+        "question": "What does Dewdrop drop?",
+        "answer": "Dewdrop drops Water Stone,Star Piece. Farm hab003 during Morning in Rain weather for best results."
+      },
+      {
+        "question": "What mistakes do players make with Dewdrop?",
+        "answer": "Common mistakes: Treating Dewdrop like a rare Fairy Glen target.; Spending Crystal Dew for basic Water Stone only.; Ignoring Morning timing.. Check the hab003 route before farming Dewdrop."
       }
     ],
     "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
-    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture"
+    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture",
+    "index_status": "review"
   },
   {
     "id": "pkm028",
@@ -1805,13 +2156,26 @@
       {
         "question": "What does Magmar drop?",
         "answer": "Magmar drops Fire Stone and Magma Core. Magma Core is the main reason to repeat."
+      },
+      {
+        "question": "What food attracts Magmar?",
+        "answer": "Magmar is attracted by Magma Stone. Use it in hab001 during Night spawns in Clear weather to improve catch rates."
+      },
+      {
+        "question": "What does Magmar drop?",
+        "answer": "Magmar drops Fire Stone,Magma Core. Farm hab001 during Night in Clear weather for best results."
+      },
+      {
+        "question": "What mistakes do players make with Magmar?",
+        "answer": "Common mistakes: Using Magmar as a generic fire page.; Spending Magma Stone before the branch is mapped.; Ignoring Magma Core after Fire Stone is done.. Check the hab001 route before farming Magmar."
       }
     ],
     "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
-    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture"
+    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture",
+    "index_status": "review"
   },
   {
     "id": "pkm029",
@@ -1869,13 +2233,26 @@
       {
         "question": "What does Snorizard drop?",
         "answer": "Snorizard drops Dragon Scale and Ice Stone. Repeat only while dragon material value is active."
+      },
+      {
+        "question": "What food attracts Snorizard?",
+        "answer": "Snorizard is attracted by Frost Meat. Use it in hab005 during Any spawns in Snow weather to improve catch rates."
+      },
+      {
+        "question": "What does Snorizard drop?",
+        "answer": "Snorizard drops Dragon Scale,Ice Stone. Farm hab005 during Any in Snow weather for best results."
+      },
+      {
+        "question": "What mistakes do players make with Snorizard?",
+        "answer": "Common mistakes: Treating Snorizard like Tidlet or Glacior.; Using Frost Meat on a scout.; Continuing after Dragon Scale is no longer needed.. Check the hab005 route before farming Snorizard."
       }
     ],
     "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
-    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture"
+    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture",
+    "index_status": "review"
   },
   {
     "id": "pkm030",
@@ -1933,13 +2310,26 @@
       {
         "question": "What does Shadowclaw drop?",
         "answer": "Shadowclaw drops Shadow Stone and King's Rock. Stop after the premium shadow check is answered."
+      },
+      {
+        "question": "What food attracts Shadowclaw?",
+        "answer": "Shadowclaw is attracted by Void Fruit. Use it in hab006 during Night spawns in Stormy weather to improve catch rates."
+      },
+      {
+        "question": "What does Shadowclaw drop?",
+        "answer": "Shadowclaw drops Shadow Stone,King's Rock. Farm hab006 during Night in Stormy weather for best results."
+      },
+      {
+        "question": "What mistakes do players make with Shadowclaw?",
+        "answer": "Common mistakes: Treating Shadowclaw like a cheap ghost farm.; Spending Void Fruit without an exit rule.; Ignoring the Dark side when comparing it to Shados.. Check the hab006 route before farming Shadowclaw."
       }
     ],
     "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
-    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture"
+    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture",
+    "index_status": "review"
   },
   {
     "id": "pkm031",
@@ -1998,13 +2388,26 @@
       {
         "question": "When should you skip Crystalwing?",
         "answer": "Skip it when you only need ordinary Feather or long-route sustain."
+      },
+      {
+        "question": "What food attracts Crystalwing?",
+        "answer": "Crystalwing is attracted by Gem Shard. Use it in hab008 during Day spawns in Windy weather to improve catch rates."
+      },
+      {
+        "question": "What does Crystalwing drop?",
+        "answer": "Crystalwing drops Crystal Shard,Feather. Farm hab008 during Day in Windy weather for best results."
+      },
+      {
+        "question": "What mistakes do players make with Crystalwing?",
+        "answer": "Common mistakes: Using Crystalwing as a generic Flying attacker.; Spending Gem Shard before confirming Day / Windy value.; Continuing the route after only Feather remains relevant.. Check the hab008 route before farming Crystalwing."
       }
     ],
     "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
-    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture"
+    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture",
+    "index_status": "review"
   },
   {
     "id": "pkm032",
@@ -2063,13 +2466,26 @@
       {
         "question": "When should you use Bulbin instead?",
         "answer": "Use Bulbin when the route needs beginner Grass safety rather than rock-bug materials."
+      },
+      {
+        "question": "What food attracts Thornback?",
+        "answer": "Thornback is attracted by Leaf. Use it in hab002 during Any spawns in Cloudy weather to improve catch rates."
+      },
+      {
+        "question": "What does Thornback drop?",
+        "answer": "Thornback drops Stone,Bug Shell. Farm hab002 during Any in Cloudy weather for best results."
+      },
+      {
+        "question": "What mistakes do players make with Thornback?",
+        "answer": "Common mistakes: Using Thornback for general Grass farming.; Setting Spikes in fights that end too quickly.; Comparing it to Bulbin without checking the material target.. Check the hab002 route before farming Thornback."
       }
     ],
     "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
-    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture"
+    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture",
+    "index_status": "review"
   },
   {
     "id": "pkm033",
@@ -2128,13 +2544,26 @@
       {
         "question": "Is Emberfox a farming upgrade over Emberal?",
         "answer": "Only when control or Psy Crystal matters. Emberal is still better for cheap Flame Ore volume."
+      },
+      {
+        "question": "What food attracts Emberfox?",
+        "answer": "Emberfox is attracted by Hot Pepper. Use it in hab001 during Night spawns in Clear weather to improve catch rates."
+      },
+      {
+        "question": "What does Emberfox drop?",
+        "answer": "Emberfox drops Fire Stone,Psy Crystal. Farm hab001 during Night in Clear weather for best results."
+      },
+      {
+        "question": "What mistakes do players make with Emberfox?",
+        "answer": "Common mistakes: Using Emberfox as a plain Fire attacker when Emberal is cheaper.; Ignoring Psy Crystal and farming only the common Fire drop.; Casting Will-O-Wisp after the dangerous part of the fight is already over.. Check the hab001 route before farming Emberfox."
       }
     ],
     "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
-    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture"
+    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture",
+    "index_status": "review"
   },
   {
     "id": "pkm034",
@@ -2193,13 +2622,26 @@
       {
         "question": "Is Aquashell faster than Aquap?",
         "answer": "No. Aquashell is the safer wall; Aquap is better for lighter rain support."
+      },
+      {
+        "question": "What food attracts Aquashell?",
+        "answer": "Aquashell is attracted by Pearl. Use it in hab003 during Any spawns in Rain weather to improve catch rates."
+      },
+      {
+        "question": "What does Aquashell drop?",
+        "answer": "Aquashell drops Shell,Pearl. Farm hab003 during Any in Rain weather for best results."
+      },
+      {
+        "question": "What mistakes do players make with Aquashell?",
+        "answer": "Common mistakes: Using Aquashell when the team actually needs Aquap’s support pacing.; Spending Pearl before Withdraw can protect the setup turn.; Judging the page by damage instead of damage prevented.. Check the hab003 route before farming Aquashell."
       }
     ],
     "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
-    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture"
+    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture",
+    "index_status": "review"
   },
   {
     "id": "pkm035",
@@ -2258,13 +2700,26 @@
       {
         "question": "When should you pick Zaprat instead?",
         "answer": "Pick Zaprat when you need a faster scout and do not need Bug Shell."
+      },
+      {
+        "question": "What food attracts Zapbug?",
+        "answer": "Zapbug is attracted by Mushroom. Use it in hab004 during Morning spawns in Cloudy weather to improve catch rates."
+      },
+      {
+        "question": "What does Zapbug drop?",
+        "answer": "Zapbug drops Thunder Stone,Bug Shell. Farm hab004 during Morning in Cloudy weather for best results."
+      },
+      {
+        "question": "What mistakes do players make with Zapbug?",
+        "answer": "Common mistakes: Using Zapbug as a raw damage speedster.; Casting Electroweb on targets that are already easy to control.; Farming Thunder Stone here when Bug Shell is no longer needed.. Check the hab004 route before farming Zapbug."
       }
     ],
     "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
-    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture"
+    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture",
+    "index_status": "review"
   },
   {
     "id": "pkm036",
@@ -2322,13 +2777,26 @@
       {
         "question": "What does Mossling drop?",
         "answer": "Mossling drops Leaf and Grass Fiber. Repeat while the route needs low-risk recovery value."
+      },
+      {
+        "question": "What food attracts Mossling?",
+        "answer": "Mossling is attracted by Leaf. Use it in hab002 during Any spawns in Rain weather to improve catch rates."
+      },
+      {
+        "question": "What does Mossling drop?",
+        "answer": "Mossling drops Leaf,Grass Fiber. Farm hab002 during Any in Rain weather for best results."
+      },
+      {
+        "question": "What mistakes do players make with Mossling?",
+        "answer": "Common mistakes: Using Mossling like a rare support target.; Spending Leaf when the route needs burst damage.; Ignoring its simple sustain identity.. Check the hab002 route before farming Mossling."
       }
     ],
     "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
-    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture"
+    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture",
+    "index_status": "review"
   },
   {
     "id": "pkm037",
@@ -2387,13 +2855,26 @@
       {
         "question": "When is Bronzorm better?",
         "answer": "Bronzorm is better when the route needs recovery, support, and Bronze Medal farming."
+      },
+      {
+        "question": "What food attracts Ironclaw?",
+        "answer": "Ironclaw is attracted by Iron Ore. Use it in hab010 during Any spawns in Cloudy weather to improve catch rates."
+      },
+      {
+        "question": "What does Ironclaw drop?",
+        "answer": "Ironclaw drops Metal Coat,Piston. Farm hab010 during Any in Cloudy weather for best results."
+      },
+      {
+        "question": "What mistakes do players make with Ironclaw?",
+        "answer": "Common mistakes: Using Ironclaw like a defensive support.; Setting up Swords Dance without protection.; Farming shared Metal Coat here after Piston is done.. Check the hab010 route before farming Ironclaw."
       }
     ],
     "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
-    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture"
+    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture",
+    "index_status": "review"
   },
   {
     "id": "pkm038",
@@ -2451,13 +2932,26 @@
       {
         "question": "What does Mysticat drop?",
         "answer": "Mysticat drops Psy Crystal and Star Piece. It is worth repeating when screens prevent item loss."
+      },
+      {
+        "question": "What food attracts Mysticat?",
+        "answer": "Mysticat is attracted by Star Sweet. Use it in hab010 during Night spawns in Clear weather to improve catch rates."
+      },
+      {
+        "question": "What does Mysticat drop?",
+        "answer": "Mysticat drops Psy Crystal,Star Piece. Farm hab010 during Night in Clear weather for best results."
+      },
+      {
+        "question": "What mistakes do players make with Mysticat?",
+        "answer": "Common mistakes: Treating Mysticat like a healer.; Spending Star Sweet on an unmapped ruin path.; Ignoring screen timing and judging only damage.. Check the hab010 route before farming Mysticat."
       }
     ],
     "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
-    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture"
+    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture",
+    "index_status": "review"
   },
   {
     "id": "pkm039",
@@ -2516,13 +3010,26 @@
       {
         "question": "When should you skip Boulderchin?",
         "answer": "Skip it when the route needs rare gems, high damage, or non-rock materials."
+      },
+      {
+        "question": "What food attracts Boulderchin?",
+        "answer": "Boulderchin is attracted by Stone. Use it in hab007 during Any spawns in Sunny weather to improve catch rates."
+      },
+      {
+        "question": "What does Boulderchin drop?",
+        "answer": "Boulderchin drops Stone,Rock Fragment. Farm hab007 during Any in Sunny weather for best results."
+      },
+      {
+        "question": "What mistakes do players make with Boulderchin?",
+        "answer": "Common mistakes: Turning Boulderchin into a rare gem hunt.; Using Stealth Rock in routes that should end quickly.; Ignoring type counters because the route feels low risk.. Check the hab007 route before farming Boulderchin."
       }
     ],
     "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
-    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture"
+    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture",
+    "index_status": "review"
   },
   {
     "id": "pkm040",
@@ -2581,13 +3088,26 @@
       {
         "question": "What does Windlor drop?",
         "answer": "Windlor drops Feather and Wind Essence. It should outperform Breezel on control before repeated farming."
+      },
+      {
+        "question": "What food attracts Windlor?",
+        "answer": "Windlor is attracted by Feather. Use it in hab008 during Day spawns in Windy weather to improve catch rates."
+      },
+      {
+        "question": "What does Windlor drop?",
+        "answer": "Windlor drops Feather,Wind Essence. Farm hab008 during Day in Windy weather for best results."
+      },
+      {
+        "question": "What mistakes do players make with Windlor?",
+        "answer": "Common mistakes: Farming Windlor only because it shares Breezel drops.; Using Feather Dance after the dangerous moment has passed.; Expecting Windlor to teach the route from scratch.. Check the hab008 route before farming Windlor."
       }
     ],
     "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
-    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture"
+    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture",
+    "index_status": "review"
   },
   {
     "id": "pkm041",
@@ -2647,13 +3167,26 @@
       {
         "question": "What does Toxifin drop?",
         "answer": "Toxifin differs from Stealthfin because it is repeatable and poison-focused rather than rare and dark-focused."
+      },
+      {
+        "question": "What food attracts Toxifin?",
+        "answer": "Toxifin is attracted by Fish. Use it in hab009 during Any spawns in Rain weather to improve catch rates."
+      },
+      {
+        "question": "What does Toxifin drop?",
+        "answer": "Toxifin drops Poison Stone,Gill. Farm hab009 during Any in Rain weather for best results."
+      },
+      {
+        "question": "What mistakes do players make with Toxifin?",
+        "answer": "Common mistakes: Treating Toxifin like a rare night assassin.; Farming it when Deep Sea Tooth is the real goal.; Letting Toxic turn a short material pass into a long clear.; Ignoring Gill value after Poison Stone is finished.. Check the hab009 route before farming Toxifin."
       }
     ],
     "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
-    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture"
+    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture",
+    "index_status": "review"
   },
   {
     "id": "pkm042",
@@ -2712,13 +3245,26 @@
       {
         "question": "When is Galebender the wrong pick?",
         "answer": "Skip it when the route is mainly about Diamond farming or passive mining safety."
+      },
+      {
+        "question": "What food attracts Galebender?",
+        "answer": "Galebender is attracted by Mystic Root. Use it in hab007 during Night spawns in Foggy weather to improve catch rates."
+      },
+      {
+        "question": "What does Galebender drop?",
+        "answer": "Galebender drops Earth Gem,Fighting Ribbon. Farm hab007 during Night in Foggy weather for best results."
+      },
+      {
+        "question": "What mistakes do players make with Galebender?",
+        "answer": "Common mistakes: Running Galebender like a passive mining defender.; Spending Mystic Root before checking the Earthquake target.; Choosing it for Diamond goals that belong to Crystal-focused pages.. Check the hab007 route before farming Galebender."
       }
     ],
     "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
-    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture"
+    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture",
+    "index_status": "review"
   },
   {
     "id": "pkm043",
@@ -2777,13 +3323,26 @@
       {
         "question": "When is Emberal better?",
         "answer": "Emberal is better when you only need cheap common Fire material."
+      },
+      {
+        "question": "What food attracts Sunreep?",
+        "answer": "Sunreep is attracted by Iron Ore. Use it in hab001 during Day spawns in Sunny weather to improve catch rates."
+      },
+      {
+        "question": "What does Sunreep drop?",
+        "answer": "Sunreep drops Fire Stone,Metal Coat. Farm hab001 during Day in Sunny weather for best results."
+      },
+      {
+        "question": "What mistakes do players make with Sunreep?",
+        "answer": "Common mistakes: Using Sunreep for basic Flame Ore farming.; Ignoring Morning Sun and playing it like a pure glass cannon.; Choosing it when Pikafire’s Electric reach is the actual missing tool.. Check the hab001 route before farming Sunreep."
       }
     ],
     "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
-    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture"
+    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture",
+    "index_status": "review"
   },
   {
     "id": "pkm044",
@@ -2841,13 +3400,26 @@
       {
         "question": "What does Lunaflare drop?",
         "answer": "Lunaflare drops Ghost Stone, Soul Dust, and Legendary Ember. Stop if the rare material is no longer relevant."
+      },
+      {
+        "question": "What food attracts Lunaflare?",
+        "answer": "Lunaflare is attracted by Soul Dust. Use it in hab006 during Night spawns in Stormy weather to improve catch rates."
+      },
+      {
+        "question": "What does Lunaflare drop?",
+        "answer": "Lunaflare drops Ghost Stone,Soul Dust,Legendary Ember. Farm hab006 during Night in Stormy weather for best results."
+      },
+      {
+        "question": "What mistakes do players make with Lunaflare?",
+        "answer": "Common mistakes: Treating Lunaflare like a normal ghost farm.; Spending Soul Dust without a clear exit rule.; Ignoring the Fire side when comparing it with Shadowclaw.. Check the hab006 route before farming Lunaflare."
       }
     ],
     "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
-    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture"
+    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture",
+    "index_status": "review"
   },
   {
     "id": "pkm045",
@@ -2905,13 +3477,26 @@
       {
         "question": "What does Stormbird drop?",
         "answer": "Stormbird drops Thunder Stone, Feather, and Wind Essence. Move to Thunder Arena for pure electric farming."
+      },
+      {
+        "question": "What food attracts Stormbird?",
+        "answer": "Stormbird is attracted by Feather. Use it in hab008 during Any spawns in Thunderstorm weather to improve catch rates."
+      },
+      {
+        "question": "What does Stormbird drop?",
+        "answer": "Stormbird drops Thunder Stone,Feather,Wind Essence. Farm hab008 during Any in Thunderstorm weather for best results."
+      },
+      {
+        "question": "What mistakes do players make with Stormbird?",
+        "answer": "Common mistakes: Treating Stormbird like Windlor.; Ignoring Thunderstorm as the main identity.; Farming it when only Feather is needed.. Check the hab008 route before farming Stormbird."
       }
     ],
     "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
-    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture"
+    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture",
+    "index_status": "review"
   },
   {
     "id": "pkm046",
@@ -2970,13 +3555,26 @@
       {
         "question": "Is Treemendous better than Bulbin?",
         "answer": "For long endurance routes, yes. For simple starter safety, Bulbin is cheaper."
+      },
+      {
+        "question": "What food attracts Treemendous?",
+        "answer": "Treemendous is attracted by Berry. Use it in hab002 during Any spawns in Sunny weather to improve catch rates."
+      },
+      {
+        "question": "What does Treemendous drop?",
+        "answer": "Treemendous drops Leaf,Grass Fiber,Oak Log. Farm hab002 during Any in Sunny weather for best results."
+      },
+      {
+        "question": "What mistakes do players make with Treemendous?",
+        "answer": "Common mistakes: Using Treemendous on short farming passes where its healing never matters.; Spamming Wood Hammer and losing the sustain advantage.; Treating Oak Log as a bonus instead of the reason to choose this page.. Check the hab002 route before farming Treemendous."
       }
     ],
     "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
-    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture"
+    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture",
+    "index_status": "review"
   },
   {
     "id": "pkm047",
@@ -3035,13 +3633,26 @@
       {
         "question": "Is Lightspeed good for general farming?",
         "answer": "No. It is expensive and should be used when speed itself is the goal."
+      },
+      {
+        "question": "What food attracts Lightspeed?",
+        "answer": "Lightspeed is attracted by Star Sweet. Use it in hab008 during Morning spawns in Clear weather to improve catch rates."
+      },
+      {
+        "question": "What does Lightspeed drop?",
+        "answer": "Lightspeed drops Feather,Speed Gem. Farm hab008 during Morning in Clear weather for best results."
+      },
+      {
+        "question": "What mistakes do players make with Lightspeed?",
+        "answer": "Common mistakes: Running Lightspeed for basic Feather farming.; Spending Star Sweet without a planned Baton Pass or timing test.; Adding slow teammates that make the speed benchmark meaningless.. Check the hab008 route before farming Lightspeed."
       }
     ],
     "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
-    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture"
+    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture",
+    "index_status": "review"
   },
   {
     "id": "pkm048",
@@ -3100,13 +3711,26 @@
       {
         "question": "When is Leafon better?",
         "answer": "Leafon is better when one fast poison application solves the fight."
+      },
+      {
+        "question": "What food attracts Magicalure?",
+        "answer": "Magicalure is attracted by Mystery Mushroom. Use it in hab002 during Night spawns in Foggy weather to improve catch rates."
+      },
+      {
+        "question": "What does Magicalure drop?",
+        "answer": "Magicalure drops Fairy Dust,Poison Stone. Farm hab002 during Night in Foggy weather for best results."
+      },
+      {
+        "question": "What mistakes do players make with Magicalure?",
+        "answer": "Common mistakes: Using Magicalure as a simple attacker.; Setting Toxic Spikes in short fights.; Choosing it when Leafon would remove the target faster.. Check the hab002 route before farming Magicalure."
       }
     ],
     "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
-    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture"
+    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture",
+    "index_status": "review"
   },
   {
     "id": "pkm049",
@@ -3171,13 +3795,26 @@
       {
         "question": "How is Nightfall different from Shados?",
         "answer": "Nightfall is the dark-side material check; Shados is the faster Ghost Stone and Soul Dust check."
+      },
+      {
+        "question": "What food attracts Nightfall?",
+        "answer": "Nightfall is attracted by Void Fruit. Use it in hab006 during Night spawns in Stormy weather to improve catch rates."
+      },
+      {
+        "question": "What does Nightfall drop?",
+        "answer": "Nightfall drops Dark Gem,Shadow Stone. Farm hab006 during Night in Stormy weather for best results."
+      },
+      {
+        "question": "What mistakes do players make with Nightfall?",
+        "answer": "Common mistakes: Comparing Nightfall to Shados only by rarity and ignoring assassin value, food cost, and route timing.; Keeping Nightfall in the party after it stops shortening the target branch.; Letting Knock Off decide the build before Night Slash and Foul Play prove the core route plan.; Full-clearing Shadow Marsh when the actual goal is a short Nightfall check.; Building Nightfall because it is uncommon before confirming that Shadow Marsh actually needs fast target removal before the route becomes expensive.. Check the hab006 route before farming Nightfall."
       }
     ],
     "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
-    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture"
+    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture",
+    "index_status": "review"
   },
   {
     "id": "pkm050",
@@ -3235,12 +3872,25 @@
       {
         "question": "What does Primordion drop?",
         "answer": "Primordion drops Dragon Scale, Earth Gem, and Legendary Pearl. Repeat only for premium material value."
+      },
+      {
+        "question": "What food attracts Primordion?",
+        "answer": "Primordion is attracted by Golden Fish. Use it in hab009 during Any spawns in Rain weather to improve catch rates."
+      },
+      {
+        "question": "What does Primordion drop?",
+        "answer": "Primordion drops Dragon Scale,Earth Gem,Legendary Pearl. Farm hab009 during Any in Rain weather for best results."
+      },
+      {
+        "question": "What mistakes do players make with Primordion?",
+        "answer": "Common mistakes: Using Primordion as a basic water-ground farmer.; Packing Golden Fish for a scouting pass.; Letting tank pacing hide bad material efficiency.. Check the hab009 route before farming Primordion."
       }
     ],
     "updated_at": "2026-05-26",
     "data_status": "Editorial database entry",
     "data_status_note": "This Pokemon page is maintained as an editorial reference using site data and public materials. Spawn, drop, and route advice may change after updates.",
     "image_license_note": "Image is hosted on the credited Gematsu media page and appears to be an official Pokémon Pokopia promotional screenshot or trailer capture. Used here for editorial identification, news, guide, and wiki context with attribution; replace with official-hosted media, press-kit assets, or licensed player screenshots when available.",
-    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture"
+    "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture",
+    "index_status": "review"
   }
 ]

@@ -8,7 +8,6 @@ import { ArticleJsonLd, BreadcrumbJsonLd, ItemListJsonLd, FAQJsonLd } from '@/co
 import { OfficialContext } from '@/components/content/OfficialContext'
 import { DataStatus } from '@/components/content/DataStatus'
 import { canonicalUrl } from '@/lib/site'
-import { noIndexMetadata } from '@/lib/indexing'
 
 const updatedAt = '2026-05-27'
 
@@ -93,7 +92,6 @@ function bySlug<T extends { slug: string }>(items: T[], slugs: string[]) {
 export const metadata: Metadata = {
   title: 'Pokopia Beginner Route - Starter, Habitat, Recipe, and Tool Path',
   description: 'A beginner Pokopia route that connects starter choices, easy habitats, recipe timing, Pokemon pages, and planning tools into one practical path.',
-  robots: noIndexMetadata,
   openGraph: {
     title: 'Pokopia Beginner Route - Starter, Habitat, Recipe, and Tool Path',
     description: 'A beginner Pokopia route that connects starter choices, easy habitats, recipe timing, Pokemon pages, and planning tools.',

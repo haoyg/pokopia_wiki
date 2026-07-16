@@ -8,7 +8,6 @@ import { ArticleJsonLd, BreadcrumbJsonLd, FAQJsonLd, ItemListJsonLd } from '@/co
 import { DataStatus } from '@/components/content/DataStatus'
 import { OfficialContext } from '@/components/content/OfficialContext'
 import { canonicalUrl } from '@/lib/site'
-import { noIndexMetadata } from '@/lib/indexing'
 
 const updatedAt = '2026-05-27'
 
@@ -93,7 +92,6 @@ function bySlug<T extends { slug: string }>(items: T[], slugs: string[]) {
 export const metadata: Metadata = {
   title: 'Pokopia Recipe Planning Route - Buff Timing, Habitats, and Tools',
   description: 'Plan Pokopia recipes by route objective, buff timing, rarity cost, habitat risk, Pokemon targets, and tool workflow.',
-  robots: noIndexMetadata,
   openGraph: {
     title: 'Pokopia Recipe Planning Route - Buff Timing, Habitats, and Tools',
     description: 'Plan Pokopia recipes by route objective, buff timing, rarity cost, habitat risk, Pokemon targets, and tools.',

@@ -8,7 +8,7 @@ import habitatsData from '@/data/habitats.json'
 import recipesData from '@/data/recipes.json'
 import officialData from '@/data/official.json'
 import { BASE_URL } from '@/lib/site'
-import { isEditorialContent } from '@/lib/indexing'
+import { shouldNoIndex } from '@/lib/indexing'
 
 const SITE_REVIEWED_AT = new Date('2026-05-23')
 const REDIRECTED_NEWS_SLUGS = new Set([
@@ -68,7 +68,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   })
 
   // Guides
-  guidesData.filter((guide) => !isEditorialContent(guide.data_status)).forEach((guide) => {
+  guidesData.filter((guide) => !shouldNoIndex(guide.data_status, guide.index_status)).forEach((guide) => {
     entries.push({
       url: `${BASE_URL}/guides/${guide.slug}/`,
       lastModified: reviewedDate(guide.updated_at || guide.published_at),
@@ -88,7 +88,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   })
 
   // Pokemon
-  pokemonData.filter((pokemon) => !isEditorialContent(pokemon.data_status)).forEach((pokemon) => {
+  pokemonData.filter((pokemon) => !shouldNoIndex(pokemon.data_status, pokemon.index_status)).forEach((pokemon) => {
     entries.push({
       url: `${BASE_URL}/wiki/pokemon/${pokemon.id}/`,
       lastModified: reviewedDate(pokemon.updated_at),
@@ -98,7 +98,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   })
 
   // Habitats
-  habitatsData.filter((habitat) => !isEditorialContent(habitat.data_status)).forEach((habitat) => {
+  habitatsData.filter((habitat) => !shouldNoIndex(habitat.data_status, habitat.index_status)).forEach((habitat) => {
     entries.push({
       url: `${BASE_URL}/wiki/habitat/${habitat.id}/`,
       lastModified: reviewedDate(habitat.updated_at),
@@ -108,7 +108,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   })
 
   // Recipes
-  recipesData.filter((recipe) => !isEditorialContent(recipe.data_status)).forEach((recipe) => {
+  recipesData.filter((recipe) => !shouldNoIndex(recipe.data_status, recipe.index_status)).forEach((recipe) => {
     entries.push({
       url: `${BASE_URL}/wiki/recipe/${recipe.id}/`,
       lastModified: reviewedDate(recipe.updated_at),

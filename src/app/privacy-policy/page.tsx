@@ -29,6 +29,9 @@ export default function PrivacyPolicyPage() {
         <p>
           Pokopia Portal may use cookies or similar technologies for analytics, site functionality, and advertising. If Google AdSense or other Google advertising services are enabled, Google may use cookies to serve ads based on visits to this site and other sites. You can manage ad personalization through your Google account settings and browser cookie controls.
         </p>
+        <p>
+          Third-party vendors, including Google, may use cookies, web beacons, IP addresses, and other identifiers to serve, measure, and personalize ads based on a user's prior visits to this website or other websites.
+        </p>
 
         <h2 style={{ marginTop: '2rem' }}>Third-Party Services</h2>
         <p>

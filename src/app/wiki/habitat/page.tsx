@@ -3,7 +3,6 @@ import habitatsData from '@/data/habitats.json'
 import { canonicalUrl } from '@/lib/site'
 import { CreditedImage } from '@/components/media/CreditedImage'
 import { BreadcrumbJsonLd, ItemListJsonLd } from '@/components/seo/JsonLd'
-import { noIndexMetadata } from '@/lib/indexing'
 
 function shortText(text: string, length = 160) {
   if (text.length <= length) return text
@@ -13,7 +12,6 @@ function shortText(text: string, length = 160) {
 export const metadata: Metadata = {
   title: 'Habitat Maps and Route Notes',
   description: 'Explore Pokopia habitats with unlock conditions, weather, difficulty, resource bonuses, spawn lists, and editorial route notes.',
-  robots: noIndexMetadata,
   keywords: [
     'Pokopia habitats',
     'Pokopia habitat map',

@@ -9,7 +9,7 @@ import { CreditedImage } from '@/components/media/CreditedImage'
 import { BreadcrumbJsonLd, FAQJsonLd, WikiPageJsonLd } from '@/components/seo/JsonLd'
 import { DataStatus } from '@/components/content/DataStatus'
 import { OfficialContext } from '@/components/content/OfficialContext'
-import { isEditorialContent, noIndexMetadata } from '@/lib/indexing'
+import { noIndexMetadata, shouldNoIndex } from '@/lib/indexing'
 
 interface Props {
   params: Promise<{ id: string }>
@@ -29,7 +29,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title,
     description,
-    robots: pokemon && isEditorialContent(pokemon.data_status) ? noIndexMetadata : undefined,
+    robots: pokemon && shouldNoIndex(pokemon.data_status, pokemon.index_status) ? noIndexMetadata : undefined,
     keywords: pokemon
       ? [
           `${pokemon.name} Pokopia`,
