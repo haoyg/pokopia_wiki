@@ -3,6 +3,7 @@ import Link from 'next/link'
 import guidesData from '@/data/guides.json'
 import { canonicalUrl } from '@/lib/site'
 import { OfficialContext } from '@/components/content/OfficialContext'
+import { BreadcrumbJsonLd, ItemListJsonLd } from '@/components/seo/JsonLd'
 import { shouldNoIndex } from '@/lib/indexing'
 
 const featuredGuides = guidesData.filter((guide) => !shouldNoIndex(guide.data_status, guide.index_status)).slice(0, 6)
@@ -90,6 +91,21 @@ export const metadata: Metadata = {
 export default function FeaturesPage() {
   return (
     <main className="features-hub page-shell">
+      <BreadcrumbJsonLd
+        items={[
+          { name: 'Home', url: '/' },
+          { name: 'Features', url: '/features' },
+        ]}
+      />
+      <ItemListJsonLd
+        name="Pokopia Features and Official Context"
+        description="Source-aware feature articles and official-context explainers for Pokémon Pokopia."
+        url="/features"
+        items={featuredTopics.map((topic) => ({
+          name: topic.title,
+          url: topic.href,
+        }))}
+      />
       <header className="features-hub-hero">
         <span className="badge source-roundup">Features</span>
         <h1>Features & Official Context</h1>

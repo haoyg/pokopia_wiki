@@ -79,6 +79,24 @@ const indexNotes = [
   },
 ]
 
+const routePriorityGroups = [
+  {
+    title: 'Progression planning',
+    text: 'Start here when the goal is safer unlocks, stable roles, and fewer failed early routes.',
+    ids: ['pkm002', 'pkm004', 'pkm010'],
+  },
+  {
+    title: 'Rare target scouting',
+    text: 'Use these entries when the route is about spawn windows, favorite food, and repeat checks.',
+    ids: ['pkm001', 'pkm006', 'pkm009'],
+  },
+  {
+    title: 'Hard route support',
+    text: 'Use these pages when a route needs durability, burst damage, or a clearer survival plan.',
+    ids: ['pkm007', 'pkm012', 'pkm030'],
+  },
+]
+
 const rarityHeadings = [
   { label: 'Legendary', pokemon: legendary, className: 'legendary' },
   { label: 'Rare', pokemon: rare, className: 'rare' },
@@ -115,6 +133,8 @@ export const metadata: Metadata = {
 }
 
 export default function TierListPage() {
+  const findPokemon = (id: string) => pokemonData.find((pokemon) => pokemon.id === id)
+
   return (
     <main className="page-shell">
       <BreadcrumbJsonLd
@@ -197,6 +217,35 @@ export default function TierListPage() {
               </div>
               <span className={`rarity ${pokemon.rarity}`}>{pokemon.rarity}</span>
             </Link>
+          ))}
+        </div>
+      </section>
+
+      <section className="index-guide-panel">
+        <div className="section-title-row">
+          <div>
+            <span className="panel-kicker">Route-Based Reading</span>
+            <h2>Do Not Use One Ranking for Every Route</h2>
+          </div>
+          <Link href="/wiki/pokemon">Open Pokemon database</Link>
+        </div>
+        <div className="index-guide-grid">
+          {routePriorityGroups.map((group) => (
+            <div key={group.title} className="index-guide-card">
+              <strong>{group.title}</strong>
+              <p>{group.text}</p>
+              <div>
+                {group.ids.map((id) => {
+                  const pokemon = findPokemon(id)
+                  if (!pokemon) return null
+                  return (
+                    <Link key={id} href={`/wiki/pokemon/${pokemon.id}`}>
+                      {pokemon.name} · {pokemon.specialty}
+                    </Link>
+                  )
+                })}
+              </div>
+            </div>
           ))}
         </div>
       </section>
