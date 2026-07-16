@@ -34,7 +34,7 @@ function cleanDescription(description, maxLength = 155) {
     .replace(/\s+/g, ' ')
     .trim()
 
-  return normalized.length <= maxLength ? normalized : `${normalized.slice(0, maxLength - 1).trim()}…`
+  return normalized.length <= maxLength ? normalized : `${normalized.slice(0, maxLength - 3).trim()}...`
 }
 
 function addMeta(kind, id, title, description) {
@@ -55,6 +55,7 @@ const official = readJson('src/data/official.json')
 const pokemon = readJson('src/data/pokemon.json')
 const habitats = readJson('src/data/habitats.json')
 const recipes = readJson('src/data/recipes.json')
+const manifest = readJson('public/site.webmanifest')
 
 const meta = [
   ...guides.map((item) => addMeta('guide', item.slug, item.title, item.answer || item.seo_keyword)),
@@ -73,14 +74,21 @@ for (const item of meta) {
 }
 
 const sourceFiles = []
+const textFiles = []
 function walk(dir) {
   for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
     const full = path.join(dir, entry.name)
     if (entry.isDirectory()) walk(full)
-    else if (entry.name.endsWith('.tsx') || entry.name.endsWith('.ts')) sourceFiles.push(full)
+    else if (entry.name.endsWith('.tsx') || entry.name.endsWith('.ts')) {
+      sourceFiles.push(full)
+      textFiles.push(full)
+    } else if (entry.name.endsWith('.js') || entry.name.endsWith('.json')) {
+      textFiles.push(full)
+    }
   }
 }
-walk(path.join(root, 'src/app'))
+walk(path.join(root, 'src'))
+walk(path.join(root, 'scripts'))
 
 for (const file of sourceFiles) {
   const rel = path.relative(root, file)
@@ -90,6 +98,49 @@ for (const file of sourceFiles) {
 
   const riskyDescription = source.match(/description:\s*['"`][^'"`]*(ultimate|comprehensive|definitive|best builds?)/i)
   if (riskyDescription) issues.push(`${rel} has a risky static metadata description phrase`)
+}
+
+const mojibakePatterns = [
+  /\uFFFD/u,
+  /Pok\u8305mon/u,
+  /[\u00C2\u00C3][\u0080-\u00BF]/u,
+  /\u00E2\u0080[\u0080-\u00BF]/u,
+]
+
+if (manifest.name !== 'Pokopia Portal') issues.push('site.webmanifest name must be Pokopia Portal')
+if (!manifest.short_name) issues.push('site.webmanifest short_name is missing')
+if (manifest.start_url !== '/') issues.push('site.webmanifest start_url must be /')
+if (manifest.display !== 'standalone') issues.push('site.webmanifest display must be standalone')
+if (!/^#[0-9a-f]{6}$/i.test(manifest.theme_color || '')) {
+  issues.push('site.webmanifest theme_color must be a hex color')
+}
+if (!Array.isArray(manifest.icons) || manifest.icons.length < 2) {
+  issues.push('site.webmanifest must include at least two icons')
+} else {
+  for (const icon of manifest.icons) {
+    const iconPath = icon.src ? path.join(root, 'public', icon.src.replace(/^\//, '')) : ''
+    if (!icon.src || !fs.existsSync(iconPath)) {
+      issues.push(`site.webmanifest icon is missing on disk: ${icon.src || '(empty)'}`)
+    } else if (fs.statSync(iconPath).size > 100 * 1024) {
+      issues.push(`site.webmanifest icon is too large: ${icon.src}`)
+    }
+  }
+}
+
+const layoutSource = fs.readFileSync(path.join(root, 'src', 'app', 'layout.tsx'), 'utf8')
+const headerSource = fs.readFileSync(path.join(root, 'src', 'components', 'layout', 'Header.tsx'), 'utf8')
+for (const assetPath of [...layoutSource.matchAll(/url:\s*['"`](\/[^'"`]+)['"`]/g), ...headerSource.matchAll(/src=['"`](\/[^'"`]+)['"`]/g)]) {
+  const publicAsset = path.join(root, 'public', assetPath[1].replace(/^\//, ''))
+  if (fs.existsSync(publicAsset) && fs.statSync(publicAsset).size > 100 * 1024) {
+    issues.push(`site identity asset is too large: ${assetPath[1]}`)
+  }
+}
+for (const file of textFiles) {
+  const rel = path.relative(root, file)
+  const source = fs.readFileSync(file, 'utf8')
+  for (const pattern of mojibakePatterns) {
+    if (pattern.test(source)) issues.push(`${rel} contains mojibake text: ${pattern}`)
+  }
 }
 
 if (issues.length > 0) {

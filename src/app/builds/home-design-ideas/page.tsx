@@ -4,6 +4,7 @@ import { DataStatus } from '@/components/content/DataStatus'
 import { OfficialContext } from '@/components/content/OfficialContext'
 import { ArticleJsonLd, BreadcrumbJsonLd, FAQJsonLd, ItemListJsonLd } from '@/components/seo/JsonLd'
 import { BASE_URL, canonicalUrl } from '@/lib/site'
+import { noIndexMetadata } from '@/lib/indexing'
 
 const pageUrl = '/builds/home-design-ideas'
 const reviewedAt = '2026-05-27'
@@ -67,6 +68,7 @@ const faqs = [
 export const metadata: Metadata = {
   title: 'Pokopia Home Design Ideas and Building Showcase',
   description: 'Text-based Pokopia home design ideas for cozy bases, recipe workshops, visitor courtyards, and habitat research camps, with source rules for future screenshots.',
+  robots: noIndexMetadata,
   alternates: {
     canonical: canonicalUrl(pageUrl),
   },

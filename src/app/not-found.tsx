@@ -28,15 +28,15 @@ export default function NotFound() {
       <div className="not-found-links">
         <h2>You might be looking for</h2>
         <div className="not-found-grid">
-          <Link href="/guides/beginner-route">
+          <Link href="/official/official-beginner-tips">
             <span className="badge guides">Guide</span>
-            <strong>Beginner Route Guide</strong>
-            <span>Start here if you are new</span>
+            <strong>Official Beginner Tips</strong>
+            <span>Start with confirmed guidance</span>
           </Link>
-          <Link href="/wiki/pokemon">
-            <span className="badge tier">Wiki</span>
-            <strong>Pokemon Database</strong>
-            <span>Browse all Pokemon</span>
+          <Link href="/guides">
+            <span className="badge tier">Guides</span>
+            <strong>Source-Backed Guides</strong>
+            <span>Browse reviewed route pages</span>
           </Link>
           <Link href="/tools/habitat-planner">
             <span className="badge farming">Tool</span>

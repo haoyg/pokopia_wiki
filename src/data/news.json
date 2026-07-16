@@ -21,7 +21,22 @@
     "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture",
     "related_pokemon": "pkm023",
     "related_habitats": "hab011,hab003",
-    "related_guides": "water-type-team-build,best-habitat-type-pokopia,best-starter-pokemon"
+    "related_guides": "water-type-team-build,best-habitat-type-pokopia,best-starter-pokemon",
+    "source_review_notes": [
+      "Primary source: Official Pokemon Pokopia Update Page.",
+      "Source type is recorded as Official and should be checked before this article is treated as current.",
+      "This article summarizes the linked source and should link readers to official or clearly labeled context for exact wording."
+    ],
+    "claim_limits": [
+      "Do not treat the August 2026 update window as a precise launch date unless the official update page states one.",
+      "Do not merge the free Dive update with paid Bubbly Basin Expansion Pass content.",
+      "Do not add underwater spawn, reward, or route details until an official source or reviewed testing supports them."
+    ],
+    "recheck_triggers": [
+      "The official update page changes the release window, Dive unlock requirements, Surf requirement, or Bleak Beach request wording.",
+      "Nintendo or Pokemon publishes launch notes for the Dive update.",
+      "A guide cites this page for underwater route, spawn, or progression requirements."
+    ]
   },
   {
     "id": "news015",
@@ -45,7 +60,22 @@
     "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture",
     "related_pokemon": "pkm023",
     "related_habitats": "hab003,hab011",
-    "related_guides": "water-type-team-build,best-habitat-type-pokopia,complete-recipe-list"
+    "related_guides": "water-type-team-build,best-habitat-type-pokopia,complete-recipe-list",
+    "source_review_notes": [
+      "Primary source: Official Pokemon Pokopia Expansion Pass Page.",
+      "Source type is recorded as Official and should be checked before this article is treated as current.",
+      "This article summarizes the linked source and should link readers to official or clearly labeled context for exact wording."
+    ],
+    "claim_limits": [
+      "Do not describe paid DLC content as part of the free Dive update or base game.",
+      "Do not generalize purchase bonuses, code deadlines, or rare Pokemetal ingot availability across all regions without regional support.",
+      "Do not add item, Pokemon, or underwater town details beyond the official expansion page wording."
+    ],
+    "recheck_triggers": [
+      "The official Expansion Pass page changes release timing, bonus terms, eligibility, or regional availability.",
+      "Nintendo eShop pages add pricing, bundle, or purchase-condition details.",
+      "A guide cites this article for DLC requirements, bonuses, or included content."
+    ]
   },
   {
     "id": "news013",
@@ -69,7 +99,22 @@
     "image_original_media": "Nintendo official Pokémon Pokopia event artwork",
     "related_pokemon": "",
     "related_habitats": "",
-    "related_guides": ""
+    "related_guides": "",
+    "source_review_notes": [
+      "Primary source: Nintendo Australia - Wish Upon a Jirachi Event.",
+      "Source type is recorded as Official and should be checked before this article is treated as current.",
+      "This article summarizes the linked source and should link readers to official or clearly labeled context for exact wording."
+    ],
+    "claim_limits": [
+      "Do not extend the event beyond the official start and end times.",
+      "Do not claim Cloud Island support when the source says the event does not occur on Cloud Islands.",
+      "Do not add extra rewards, request rates, or multiplayer behavior beyond the event announcement."
+    ],
+    "recheck_triggers": [
+      "Nintendo updates the event announcement, version requirement, timing, rewards, or multiplayer rules.",
+      "Another region publishes different event wording.",
+      "The event ends and the page needs archived-event wording."
+    ]
   },
   {
     "id": "news014",
@@ -93,7 +138,22 @@
     "image_original_media": "Nintendo official Nintendo Switch 2 and Pokémon Pokopia bundle artwork",
     "related_pokemon": "",
     "related_habitats": "",
-    "related_guides": ""
+    "related_guides": "",
+    "source_review_notes": [
+      "Primary source: Nintendo Singapore - Switch 2 + Pokémon Pokopia Bundle.",
+      "Source type is recorded as Official and should be checked before this article is treated as current.",
+      "This article summarizes the linked source and should link readers to official or clearly labeled context for exact wording."
+    ],
+    "claim_limits": [
+      "Do not apply Singapore bundle timing, contents, price, or availability to other regions.",
+      "Do not imply that the Expansion Pass is included when the source separates it from the hardware bundle.",
+      "Do not treat regional stock or retail availability as global release information."
+    ],
+    "recheck_triggers": [
+      "Nintendo Singapore changes package contents, release timing, download requirements, or availability wording.",
+      "Another regional Nintendo site announces a different bundle.",
+      "A buying guide cites this article for bundle contents or DLC inclusion."
+    ]
   },
   {
     "id": "news001",
@@ -115,7 +175,22 @@
     "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture",
     "related_pokemon": "",
     "related_habitats": "",
-    "related_guides": "best-starter-pokemon,pokemon-pokopia-official-beginner-tips,pokopia-portal-official-editorial-labels"
+    "related_guides": "best-starter-pokemon,pokemon-pokopia-official-beginner-tips,pokopia-portal-official-editorial-labels",
+    "source_review_notes": [
+      "Primary source: Nintendo Store - Pokémon Pokopia.",
+      "Source type is recorded as Official and should be checked before this article is treated as current.",
+      "This article summarizes the linked source and should link readers to official or clearly labeled context for exact wording."
+    ],
+    "claim_limits": [
+      "Do not extend this article into unsupported spawn, recipe, balance, event, or reward claims.",
+      "Do not treat screenshots, examples, or editorial wording as proof of a complete mechanic list.",
+      "If the source wording changes, keep the article narrow or update it before it remains in sitemap."
+    ],
+    "recheck_triggers": [
+      "The linked primary source changes wording, date, eligibility, feature names, or regional details.",
+      "A newer official article, trailer, support page, store page, or event notice replaces this information.",
+      "A guide or tool cites this article for a more specific claim than the source currently supports."
+    ]
   },
   {
     "id": "news002",
@@ -137,7 +212,22 @@
     "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture",
     "related_pokemon": "",
     "related_habitats": "",
-    "related_guides": "best-starter-pokemon,training-grounds-beginners,pokemon-pokopia-gameplay-overview-confirmed-features"
+    "related_guides": "best-starter-pokemon,training-grounds-beginners,pokemon-pokopia-gameplay-overview-confirmed-features",
+    "source_review_notes": [
+      "Primary source: Official Pokémon Pokopia Website.",
+      "Source type is recorded as Official and should be checked before this article is treated as current.",
+      "This article summarizes the linked source and should link readers to official or clearly labeled context for exact wording."
+    ],
+    "claim_limits": [
+      "Do not extend this article into unsupported spawn, recipe, balance, event, or reward claims.",
+      "Do not treat screenshots, examples, or editorial wording as proof of a complete mechanic list.",
+      "If the source wording changes, keep the article narrow or update it before it remains in sitemap."
+    ],
+    "recheck_triggers": [
+      "The linked primary source changes wording, date, eligibility, feature names, or regional details.",
+      "A newer official article, trailer, support page, store page, or event notice replaces this information.",
+      "A guide or tool cites this article for a more specific claim than the source currently supports."
+    ]
   },
   {
     "id": "news003",
@@ -159,7 +249,22 @@
     "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture",
     "related_pokemon": "",
     "related_habitats": "",
-    "related_guides": "pokemon-pokopia-multiplayer-gameshare-details,pokemon-pokopia-cloud-island-palette-town-explained"
+    "related_guides": "pokemon-pokopia-multiplayer-gameshare-details,pokemon-pokopia-cloud-island-palette-town-explained",
+    "source_review_notes": [
+      "Primary source: Nintendo News - How Multiplayer Works in Pokémon Pokopia.",
+      "Source type is recorded as Official and should be checked before this article is treated as current.",
+      "This article summarizes the linked source and should link readers to official or clearly labeled context for exact wording."
+    ],
+    "claim_limits": [
+      "Do not extend this article into unsupported spawn, recipe, balance, event, or reward claims.",
+      "Do not treat screenshots, examples, or editorial wording as proof of a complete mechanic list.",
+      "If the source wording changes, keep the article narrow or update it before it remains in sitemap."
+    ],
+    "recheck_triggers": [
+      "The linked primary source changes wording, date, eligibility, feature names, or regional details.",
+      "A newer official article, trailer, support page, store page, or event notice replaces this information.",
+      "A guide or tool cites this article for a more specific claim than the source currently supports."
+    ]
   },
   {
     "id": "news004",
@@ -181,7 +286,22 @@
     "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture",
     "related_pokemon": "",
     "related_habitats": "hab020",
-    "related_guides": "best-starter-pokemon,training-grounds-beginners,pokemon-pokopia-official-beginner-tips"
+    "related_guides": "best-starter-pokemon,training-grounds-beginners,pokemon-pokopia-official-beginner-tips",
+    "source_review_notes": [
+      "Primary source: Nintendo News - Helpful Tips for Pokémon Pokopia.",
+      "Source type is recorded as Official and should be checked before this article is treated as current.",
+      "This article summarizes the linked source and should link readers to official or clearly labeled context for exact wording."
+    ],
+    "claim_limits": [
+      "Do not extend this article into unsupported spawn, recipe, balance, event, or reward claims.",
+      "Do not treat screenshots, examples, or editorial wording as proof of a complete mechanic list.",
+      "If the source wording changes, keep the article narrow or update it before it remains in sitemap."
+    ],
+    "recheck_triggers": [
+      "The linked primary source changes wording, date, eligibility, feature names, or regional details.",
+      "A newer official article, trailer, support page, store page, or event notice replaces this information.",
+      "A guide or tool cites this article for a more specific claim than the source currently supports."
+    ]
   },
   {
     "id": "news005",
@@ -203,7 +323,22 @@
     "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture",
     "related_pokemon": "",
     "related_habitats": "",
-    "related_guides": "pokemon-pokopia-gameplay-overview-confirmed-features,pokemon-pokopia-release-date-platform"
+    "related_guides": "pokemon-pokopia-gameplay-overview-confirmed-features,pokemon-pokopia-release-date-platform",
+    "source_review_notes": [
+      "Primary source: Official Pokémon Pokopia Website.",
+      "Source type is recorded as Official and should be checked before this article is treated as current.",
+      "This article summarizes the linked source and should link readers to official or clearly labeled context for exact wording."
+    ],
+    "claim_limits": [
+      "Do not extend this article into unsupported spawn, recipe, balance, event, or reward claims.",
+      "Do not treat screenshots, examples, or editorial wording as proof of a complete mechanic list.",
+      "If the source wording changes, keep the article narrow or update it before it remains in sitemap."
+    ],
+    "recheck_triggers": [
+      "The linked primary source changes wording, date, eligibility, feature names, or regional details.",
+      "A newer official article, trailer, support page, store page, or event notice replaces this information.",
+      "A guide or tool cites this article for a more specific claim than the source currently supports."
+    ]
   },
   {
     "id": "news006",
@@ -225,7 +360,22 @@
     "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture",
     "related_pokemon": "",
     "related_habitats": "",
-    "related_guides": "pokemon-pokopia-gameplay-overview-confirmed-features,pokemon-pokopia-release-date-platform,pokemon-pokopia-official-beginner-tips"
+    "related_guides": "pokemon-pokopia-gameplay-overview-confirmed-features,pokemon-pokopia-release-date-platform,pokemon-pokopia-official-beginner-tips",
+    "source_review_notes": [
+      "Primary source: Nintendo News - Shape the World in Pokémon Pokopia.",
+      "Source type is recorded as Official and should be checked before this article is treated as current.",
+      "This article summarizes the linked source and should link readers to official or clearly labeled context for exact wording."
+    ],
+    "claim_limits": [
+      "Do not extend this article into unsupported spawn, recipe, balance, event, or reward claims.",
+      "Do not treat screenshots, examples, or editorial wording as proof of a complete mechanic list.",
+      "If the source wording changes, keep the article narrow or update it before it remains in sitemap."
+    ],
+    "recheck_triggers": [
+      "The linked primary source changes wording, date, eligibility, feature names, or regional details.",
+      "A newer official article, trailer, support page, store page, or event notice replaces this information.",
+      "A guide or tool cites this article for a more specific claim than the source currently supports."
+    ]
   },
   {
     "id": "news007",
@@ -247,7 +397,22 @@
     "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture",
     "related_pokemon": "",
     "related_habitats": "",
-    "related_guides": "pokemon-pokopia-multiplayer-gameshare-details,pokemon-pokopia-cloud-island-palette-town-explained,pokemon-pokopia-switch-2-online-local-gameshare"
+    "related_guides": "pokemon-pokopia-multiplayer-gameshare-details,pokemon-pokopia-cloud-island-palette-town-explained,pokemon-pokopia-switch-2-online-local-gameshare",
+    "source_review_notes": [
+      "Primary source: Nintendo Store - Pokémon Pokopia.",
+      "Source type is recorded as Official and should be checked before this article is treated as current.",
+      "This article summarizes the linked source and should link readers to official or clearly labeled context for exact wording."
+    ],
+    "claim_limits": [
+      "Do not extend this article into unsupported spawn, recipe, balance, event, or reward claims.",
+      "Do not treat screenshots, examples, or editorial wording as proof of a complete mechanic list.",
+      "If the source wording changes, keep the article narrow or update it before it remains in sitemap."
+    ],
+    "recheck_triggers": [
+      "The linked primary source changes wording, date, eligibility, feature names, or regional details.",
+      "A newer official article, trailer, support page, store page, or event notice replaces this information.",
+      "A guide or tool cites this article for a more specific claim than the source currently supports."
+    ]
   },
   {
     "id": "news008",
@@ -269,7 +434,22 @@
     "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture",
     "related_pokemon": "",
     "related_habitats": "",
-    "related_guides": "pokemon-pokopia-release-date-platform,pokemon-pokopia-official-beginner-tips"
+    "related_guides": "pokemon-pokopia-release-date-platform,pokemon-pokopia-official-beginner-tips",
+    "source_review_notes": [
+      "Primary source: Nintendo Store - Pokémon Pokopia.",
+      "Source type is recorded as Official and should be checked before this article is treated as current.",
+      "This article summarizes the linked source and should link readers to official or clearly labeled context for exact wording."
+    ],
+    "claim_limits": [
+      "Do not extend this article into unsupported spawn, recipe, balance, event, or reward claims.",
+      "Do not treat screenshots, examples, or editorial wording as proof of a complete mechanic list.",
+      "If the source wording changes, keep the article narrow or update it before it remains in sitemap."
+    ],
+    "recheck_triggers": [
+      "The linked primary source changes wording, date, eligibility, feature names, or regional details.",
+      "A newer official article, trailer, support page, store page, or event notice replaces this information.",
+      "A guide or tool cites this article for a more specific claim than the source currently supports."
+    ]
   },
   {
     "id": "news009",
@@ -291,7 +471,22 @@
     "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture",
     "related_pokemon": "",
     "related_habitats": "",
-    "related_guides": "best-starter-pokemon,training-grounds-beginners,pokemon-pokopia-official-beginner-tips"
+    "related_guides": "best-starter-pokemon,training-grounds-beginners,pokemon-pokopia-official-beginner-tips",
+    "source_review_notes": [
+      "Primary source: Nintendo Store - Pokémon Pokopia.",
+      "Source type is recorded as Official and should be checked before this article is treated as current.",
+      "This article summarizes the linked source and should link readers to official or clearly labeled context for exact wording."
+    ],
+    "claim_limits": [
+      "Do not extend this article into unsupported spawn, recipe, balance, event, or reward claims.",
+      "Do not treat screenshots, examples, or editorial wording as proof of a complete mechanic list.",
+      "If the source wording changes, keep the article narrow or update it before it remains in sitemap."
+    ],
+    "recheck_triggers": [
+      "The linked primary source changes wording, date, eligibility, feature names, or regional details.",
+      "A newer official article, trailer, support page, store page, or event notice replaces this information.",
+      "A guide or tool cites this article for a more specific claim than the source currently supports."
+    ]
   },
   {
     "id": "news010",
@@ -313,7 +508,22 @@
     "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture",
     "related_pokemon": "",
     "related_habitats": "hab020",
-    "related_guides": "training-grounds-beginners,best-starter-pokemon,pokemon-pokopia-official-beginner-tips"
+    "related_guides": "training-grounds-beginners,best-starter-pokemon,pokemon-pokopia-official-beginner-tips",
+    "source_review_notes": [
+      "Primary source: Nintendo News - Helpful Tips for Pokémon Pokopia.",
+      "Source type is recorded as Official and should be checked before this article is treated as current.",
+      "This article summarizes the linked source and should link readers to official or clearly labeled context for exact wording."
+    ],
+    "claim_limits": [
+      "Do not extend this article into unsupported spawn, recipe, balance, event, or reward claims.",
+      "Do not treat screenshots, examples, or editorial wording as proof of a complete mechanic list.",
+      "If the source wording changes, keep the article narrow or update it before it remains in sitemap."
+    ],
+    "recheck_triggers": [
+      "The linked primary source changes wording, date, eligibility, feature names, or regional details.",
+      "A newer official article, trailer, support page, store page, or event notice replaces this information.",
+      "A guide or tool cites this article for a more specific claim than the source currently supports."
+    ]
   },
   {
     "id": "news011",
@@ -335,7 +545,22 @@
     "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture",
     "related_pokemon": "",
     "related_habitats": "",
-    "related_guides": "pokemon-pokopia-multiplayer-gameshare-details,sky-isles-guide,pokemon-pokopia-switch-2-online-local-gameshare"
+    "related_guides": "pokemon-pokopia-multiplayer-gameshare-details,sky-isles-guide,pokemon-pokopia-switch-2-online-local-gameshare",
+    "source_review_notes": [
+      "Primary source: Nintendo News - How Multiplayer Works in Pokémon Pokopia.",
+      "Source type is recorded as Official and should be checked before this article is treated as current.",
+      "This article summarizes the linked source and should link readers to official or clearly labeled context for exact wording."
+    ],
+    "claim_limits": [
+      "Do not extend this article into unsupported spawn, recipe, balance, event, or reward claims.",
+      "Do not treat screenshots, examples, or editorial wording as proof of a complete mechanic list.",
+      "If the source wording changes, keep the article narrow or update it before it remains in sitemap."
+    ],
+    "recheck_triggers": [
+      "The linked primary source changes wording, date, eligibility, feature names, or regional details.",
+      "A newer official article, trailer, support page, store page, or event notice replaces this information.",
+      "A guide or tool cites this article for a more specific claim than the source currently supports."
+    ]
   },
   {
     "id": "news012",
@@ -357,6 +582,21 @@
     "image_original_media": "Nintendo / The Pokemon Company official promotional screenshot or trailer capture",
     "related_pokemon": "",
     "related_habitats": "",
-    "related_guides": "pokopia-portal-official-editorial-labels"
+    "related_guides": "pokopia-portal-official-editorial-labels",
+    "source_review_notes": [
+      "Primary source: Pokopia Portal editorial policy and site transparency pages.",
+      "This is a site operations update, not a Nintendo or Pokemon announcement.",
+      "Use it to explain labeling standards, noindex policy, and source separation across Pokopia Portal."
+    ],
+    "claim_limits": [
+      "Do not present this article as official game news.",
+      "Do not use it to support gameplay, event, release, or mechanic claims.",
+      "If site policy changes, update this article and the trust pages together."
+    ],
+    "recheck_triggers": [
+      "Editorial policy, source policy, corrections policy, sitemap rules, or search-index rules change.",
+      "The build checks add or remove major content quality requirements.",
+      "A site page cites this article to justify a labeling or indexing decision."
+    ]
   }
 ]

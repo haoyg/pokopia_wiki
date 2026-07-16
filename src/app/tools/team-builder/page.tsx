@@ -81,6 +81,18 @@ const teamBuilderFaqs = [
   },
 ]
 
+const sourceReviewNotes = [
+  'Uses Pokopia Portal Pokemon, habitat, recipe, and guide link datasets as team-planning inputs.',
+  'Scores Pokemon by selected goal, preferred roles, preferred types, rarity fit, and route support.',
+  'Connects team drafts back to related habitats, recipes, and source-backed guides before the player commits resources.',
+]
+
+const toolLimits = [
+  'Do not treat automatic drafts as official rankings, competitive results, or final team requirements.',
+  'Manual picks should be checked against habitat difficulty, weather, food, recipe timing, and route risk.',
+  'Team recommendations should be reviewed after official updates, source-backed guide changes, or database corrections.',
+]
+
 function includesType(type: string, preferredTypes: string[]) {
   return preferredTypes.some((target) => type.toLowerCase().includes(target.toLowerCase()))
 }
@@ -253,8 +265,37 @@ export default function TeamBuilder() {
       <DataStatus
         status="Interactive team planning tool"
         note="Team recommendations are editorial planning drafts based on Pokopia Portal role, type, habitat, recipe, and guide data. They are not official rankings or verified competitive results."
-        updatedAt="2026-05-26"
+        updatedAt="July 11, 2026"
       />
+
+      <section
+        style={{
+          marginTop: '1.5rem',
+          padding: '1.25rem',
+          borderRadius: '12px',
+          border: '1px solid #dce8dc',
+          background: 'rgba(255, 255, 255, 0.94)',
+        }}
+      >
+        <span style={{ color: '#637083', fontSize: '0.78rem', fontWeight: 800, textTransform: 'uppercase' }}>
+          Source Review
+        </span>
+        <h2 style={{ fontSize: '1rem', marginTop: '0.35rem', marginBottom: '0.85rem' }}>How Team Drafts Are Bounded</h2>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '1rem' }}>
+          <div>
+            <h3 style={{ fontSize: '0.92rem', marginBottom: '0.5rem' }}>Data basis</h3>
+            <ul style={{ paddingLeft: '1.1rem', color: '#3d475c', fontSize: '0.9rem' }}>
+              {sourceReviewNotes.map((note) => <li key={note}>{note}</li>)}
+            </ul>
+          </div>
+          <div>
+            <h3 style={{ fontSize: '0.92rem', marginBottom: '0.5rem' }}>Use limits</h3>
+            <ul style={{ paddingLeft: '1.1rem', color: '#3d475c', fontSize: '0.9rem' }}>
+              {toolLimits.map((limit) => <li key={limit}>{limit}</li>)}
+            </ul>
+          </div>
+        </div>
+      </section>
 
       <section style={{ marginTop: '1.5rem' }}>
         <h2 style={{ fontSize: '1rem', marginBottom: '0.75rem' }}>Team Goal</h2>
@@ -550,7 +591,7 @@ export default function TeamBuilder() {
           Start from the automatic four-role draft, then swap Pokemon from the pool if your target habitat needs a different type or rarity. Open the linked pages before spending rare recipes so the team matches weather, food, drops, and route risk.
         </p>
         <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.65rem', marginTop: '1rem' }}>
-          <Link href="/wiki/pokemon" style={{ fontSize: '0.85rem', fontWeight: 800 }}>Browse Pokemon</Link>
+          <Link href="/official/gameplay-overview" style={{ fontSize: '0.85rem', fontWeight: 800 }}>Check gameplay context</Link>
           <Link href="/tools/habitat-planner" style={{ fontSize: '0.85rem', fontWeight: 800 }}>Plan route first</Link>
           <Link href="/tools/recipe-calculator" style={{ fontSize: '0.85rem', fontWeight: 800 }}>Choose recipe support</Link>
         </div>

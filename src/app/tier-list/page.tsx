@@ -267,7 +267,7 @@ export default function TierListPage() {
           <li><strong>Rarity</strong> raises a Pokemon in this index because rare entries usually need more planning.</li>
           <li><strong>Specialty</strong> is used as an editorial organizing field, not as proof of official strength.</li>
           <li><strong>Role groups</strong> help readers jump to Pokemon pages and compare habitats, drops, and recipes.</li>
-          <li><strong>Future updates</strong> should replace this simple index only when official data or verified player testing supports a stronger ranking model.</li>
+          <li><strong>Ranking changes</strong> should replace this simple index only when official data or verified player testing supports a stronger model.</li>
         </ul>
       </aside>
     </main>

@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import './globals.css'
-import { WebsiteJsonLd } from '@/components/seo/JsonLd'
+import { OrganizationJsonLd, WebsiteJsonLd } from '@/components/seo/JsonLd'
 import { Header } from '@/components/layout/Header'
 import { Footer } from '@/components/layout/Footer'
 import { BASE_URL } from '@/lib/site'
@@ -25,14 +25,17 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'Pokopia Portal' }],
   creator: 'Pokopia Portal',
+  publisher: 'Pokopia Portal',
+  applicationName: 'Pokopia Portal',
+  category: 'Gaming',
+  manifest: '/site.webmanifest',
   icons: {
     icon: [
-      { url: '/favicon.ico', type: 'image/x-icon' },
       { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
       { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
-      { url: '/logo-mark.png', sizes: '512x512', type: 'image/png' },
+      { url: '/logo.svg', type: 'image/svg+xml' },
     ],
-    shortcut: ['/favicon.ico'],
+    shortcut: ['/favicon-32x32.png'],
     apple: [{ url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' }],
   },
   openGraph: {
@@ -78,7 +81,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <WebsiteJsonLd />
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3274781156049995" crossOrigin="anonymous" />
+        <OrganizationJsonLd />
       </head>
       <body>
         <Header />

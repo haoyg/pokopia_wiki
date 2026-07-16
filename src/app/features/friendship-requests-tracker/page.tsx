@@ -6,7 +6,7 @@ import { ArticleJsonLd, BreadcrumbJsonLd, FAQJsonLd, ItemListJsonLd } from '@/co
 import { BASE_URL, canonicalUrl } from '@/lib/site'
 
 const pageUrl = '/features/friendship-requests-tracker'
-const reviewedAt = '2026-05-27'
+const reviewedAt = '2026-07-11'
 
 const confirmedSignals = [
   {
@@ -28,6 +28,18 @@ const unconfirmedBoundaries = [
   'A complete list of request rewards, cooldowns, request chains, or weekly reset rules.',
   'Hidden affection formulas, best gifts, or guaranteed request triggers.',
   'Any named NPC schedule unless it is directly supported by an official source.',
+]
+
+const sourceReviewNotes = [
+  'Uses official beginner tips as the primary basis for talking about befriended Pokemon and requests.',
+  'Uses official gameplay and multiplayer pages only for broad visit and social-context framing.',
+  'Keeps exact request rewards, cooldowns, and relationship values out of indexed content until they can be sourced or reviewed.',
+]
+
+const recheckTriggers = [
+  'Nintendo publishes new beginner tips, request examples, support notes, or launch guidance.',
+  'Official sources clarify request rewards, timing, friendship behavior, or NPC schedules.',
+  'A future database page needs this tracker to support a more specific claim.',
 ]
 
 const relatedPages = [
@@ -116,7 +128,7 @@ export default function FriendshipRequestsTrackerPage() {
       <DataStatus
         status="Confirmed signals only, no complete NPC database yet"
         note="This page should not be read as a confirmed NPC gift guide, relationship table, or request reward list. It tracks what official source pages currently support."
-        updatedAt="May 27, 2026"
+        updatedAt="July 11, 2026"
       />
 
       <OfficialContext
@@ -138,6 +150,23 @@ export default function FriendshipRequestsTrackerPage() {
         <p>
           The useful editorial direction is a tracker: collect confirmed language first, explain what players should watch for, and hold back any exact mechanics until they can be sourced.
         </p>
+      </section>
+
+      <section className="topic-section">
+        <span className="panel-kicker">Source Review</span>
+        <h2>What This Tracker Can Support</h2>
+        <h3>Source basis</h3>
+        <ul>
+          {sourceReviewNotes.map((note) => (
+            <li key={note}>{note}</li>
+          ))}
+        </ul>
+        <h3>Recheck when</h3>
+        <ul>
+          {recheckTriggers.map((trigger) => (
+            <li key={trigger}>{trigger}</li>
+          ))}
+        </ul>
       </section>
 
       <section className="topic-section">

@@ -1,0 +1,24 @@
+{
+  "name": "Pokopia Portal",
+  "short_name": "Pokopia",
+  "description": "Independent Pokopia wiki with official source roundups, guides, database pages, and planning tools.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f6fbff",
+  "theme_color": "#ff5c7a",
+  "icons": [
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

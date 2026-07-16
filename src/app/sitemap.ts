@@ -3,12 +3,12 @@ import { MetadataRoute } from 'next'
 export const dynamic = 'force-static'
 import newsData from '@/data/news.json'
 import guidesData from '@/data/guides.json'
+import officialData from '@/data/official.json'
 import pokemonData from '@/data/pokemon.json'
 import habitatsData from '@/data/habitats.json'
 import recipesData from '@/data/recipes.json'
-import officialData from '@/data/official.json'
 import { BASE_URL } from '@/lib/site'
-import { shouldNoIndex } from '@/lib/indexing'
+import { isIndexableDatabaseEntry, shouldNoIndex } from '@/lib/indexing'
 
 const SITE_REVIEWED_AT = new Date('2026-05-23')
 const REDIRECTED_NEWS_SLUGS = new Set([
@@ -22,21 +22,20 @@ const staticPages = [
   { url: '/news/', priority: 0.85, changefreq: 'weekly' },
   { url: '/news/weekly-event-tracker/', priority: 0.76, changefreq: 'weekly' },
   { url: '/features/', priority: 0.65, changefreq: 'monthly' },
-  { url: '/search/', priority: 0.45, changefreq: 'monthly' },
   { url: '/tools/', priority: 0.65, changefreq: 'monthly' },
   { url: '/tools/habitat-planner/', priority: 0.66, changefreq: 'monthly' },
   { url: '/tools/recipe-calculator/', priority: 0.66, changefreq: 'monthly' },
   { url: '/tools/team-builder/', priority: 0.62, changefreq: 'monthly' },
+  { url: '/tools/spawn-tracker/', priority: 0.62, changefreq: 'monthly' },
   { url: '/features/pokopia-animal-crossing/', priority: 0.72, changefreq: 'monthly' },
   { url: '/features/friendship-requests-tracker/', priority: 0.7, changefreq: 'monthly' },
   { url: '/features/creative-play-ideas/', priority: 0.68, changefreq: 'monthly' },
   { url: '/features/meta-analysis/', priority: 0.7, changefreq: 'monthly' },
-  { url: '/builds/', priority: 0.45, changefreq: 'monthly' },
-  { url: '/builds/home-design-ideas/', priority: 0.66, changefreq: 'monthly' },
-  { url: '/community/', priority: 0.4, changefreq: 'monthly' },
-  { url: '/community/showcase/', priority: 0.62, changefreq: 'monthly' },
   { url: '/about/', priority: 0.35, changefreq: 'yearly' },
   { url: '/contact/', priority: 0.35, changefreq: 'yearly' },
+  { url: '/editorial-policy/', priority: 0.42, changefreq: 'yearly' },
+  { url: '/source-policy/', priority: 0.42, changefreq: 'yearly' },
+  { url: '/corrections/', priority: 0.42, changefreq: 'yearly' },
   { url: '/disclaimer/', priority: 0.3, changefreq: 'yearly' },
   { url: '/copyright/', priority: 0.3, changefreq: 'yearly' },
   { url: '/privacy-policy/', priority: 0.3, changefreq: 'yearly' },
@@ -50,16 +49,27 @@ function reviewedDate(value?: string | number | null) {
 }
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const entries: MetadataRoute.Sitemap = staticPages.map((page) => ({
-    url: `${BASE_URL}${page.url}`,
-    lastModified: SITE_REVIEWED_AT,
-    changeFrequency: page.changefreq as any,
-    priority: page.priority,
-  }))
+  const entries: MetadataRoute.Sitemap = []
+  const seenUrls = new Set<string>()
+
+  function addEntry(entry: MetadataRoute.Sitemap[number]) {
+    if (seenUrls.has(entry.url)) return
+    seenUrls.add(entry.url)
+    entries.push(entry)
+  }
+
+  staticPages.forEach((page) => {
+    addEntry({
+      url: `${BASE_URL}${page.url}`,
+      lastModified: SITE_REVIEWED_AT,
+      changeFrequency: page.changefreq as any,
+      priority: page.priority,
+    })
+  })
 
   // News articles
   newsData.filter((news) => !REDIRECTED_NEWS_SLUGS.has(news.slug)).forEach((news) => {
-    entries.push({
+    addEntry({
       url: `${BASE_URL}/news/${news.slug}/`,
       lastModified: reviewedDate(news.published_at),
       changeFrequency: 'monthly',
@@ -67,9 +77,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })
   })
 
-  // Guides
   guidesData.filter((guide) => !shouldNoIndex(guide.data_status, guide.index_status)).forEach((guide) => {
-    entries.push({
+    addEntry({
       url: `${BASE_URL}/guides/${guide.slug}/`,
       lastModified: reviewedDate(guide.updated_at || guide.published_at),
       changeFrequency: 'monthly',
@@ -79,7 +88,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // Official info
   officialData.forEach((page) => {
-    entries.push({
+    addEntry({
       url: `${BASE_URL}/official/${page.slug}/`,
       lastModified: reviewedDate(page.updated_at),
       changeFrequency: 'monthly',
@@ -87,33 +96,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })
   })
 
-  // Pokemon
-  pokemonData.filter((pokemon) => !shouldNoIndex(pokemon.data_status, pokemon.index_status)).forEach((pokemon) => {
-    entries.push({
-      url: `${BASE_URL}/wiki/pokemon/${pokemon.id}/`,
-      lastModified: reviewedDate(pokemon.updated_at),
-      changeFrequency: 'monthly',
-      priority: 0.68,
-    })
-  })
+  const databaseCollections = [
+    { entries: pokemonData, path: '/wiki/pokemon', priority: 0.62 },
+    { entries: habitatsData, path: '/wiki/habitat', priority: 0.6 },
+    { entries: recipesData, path: '/wiki/recipe', priority: 0.58 },
+  ]
 
-  // Habitats
-  habitatsData.filter((habitat) => !shouldNoIndex(habitat.data_status, habitat.index_status)).forEach((habitat) => {
-    entries.push({
-      url: `${BASE_URL}/wiki/habitat/${habitat.id}/`,
-      lastModified: reviewedDate(habitat.updated_at),
-      changeFrequency: 'monthly',
-      priority: 0.64,
-    })
-  })
-
-  // Recipes
-  recipesData.filter((recipe) => !shouldNoIndex(recipe.data_status, recipe.index_status)).forEach((recipe) => {
-    entries.push({
-      url: `${BASE_URL}/wiki/recipe/${recipe.id}/`,
-      lastModified: reviewedDate(recipe.updated_at),
-      changeFrequency: 'monthly',
-      priority: 0.58,
+  databaseCollections.forEach(({ entries: databaseEntries, path: basePath, priority }) => {
+    databaseEntries.filter(isIndexableDatabaseEntry).forEach((entry) => {
+      addEntry({
+        url: `${BASE_URL}${basePath}/${entry.id}/`,
+        lastModified: reviewedDate(entry.updated_at),
+        changeFrequency: 'monthly',
+        priority,
+      })
     })
   })
 

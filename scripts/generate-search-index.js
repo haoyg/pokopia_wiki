@@ -38,6 +38,30 @@ function unixDate(value) {
   return date.toISOString().slice(0, 10)
 }
 
+const noIndexFlags = ['draft', 'placeholder', 'thin', 'unreviewed', 'ai draft', 'needs review', 'review', 'noindex']
+
+function shouldNoIndex(status, indexStatus) {
+  const indexValue = String(indexStatus || '').trim().toLowerCase()
+  if (indexValue === 'indexable' || indexValue === 'index') return false
+  if (indexValue) return noIndexFlags.some((flag) => indexValue.includes(flag))
+
+  const normalized = String(status || '').trim().toLowerCase()
+  return noIndexFlags.some((flag) => normalized.includes(flag))
+}
+
+function isIndexableDatabaseEntry(item) {
+  if (!item || shouldNoIndex(item.data_status, item.index_status)) return false
+  const indexValue = String(item.index_status || '').trim().toLowerCase()
+  if (indexValue === 'indexable' || indexValue === 'index') return true
+
+  const reviewedAt = item.updated_at ? new Date(item.updated_at) : null
+  return item.data_status === 'Source-backed database entry' &&
+    Boolean(reviewedAt && !Number.isNaN(reviewedAt.getTime())) &&
+    Array.isArray(item.sources) && item.sources.some((source) => /^https?:\/\//i.test(String(source?.url || ''))) &&
+    Array.isArray(item.confirmed_facts) && item.confirmed_facts.length >= 2 &&
+    Array.isArray(item.editorial_limits) && item.editorial_limits.length >= 2
+}
+
 const guides = readJson('src/data/guides.json')
 const habitats = readJson('src/data/habitats.json')
 const news = readJson('src/data/news.json')
@@ -117,12 +141,12 @@ const hubPages = [
     type: 'Guide',
     title: 'Pokopia Guides Hub',
     href: '/guides',
-    description: 'Route guides, beginner paths, rare farming routes, recipe planning, team advice, and habitat strategy pages.',
+    description: 'Source-backed route guides, official context, and planning tools separated from broader editorial guide drafts.',
     meta: 'Guide hub',
-    status: 'Editorial guide hub',
-    updatedAt: '2026-05-28',
+    status: 'Source-backed guide hub',
+    updatedAt: '2026-07-11',
     priority: 88,
-    keywords: 'guides route beginner rare farming recipe planning team habitat strategy',
+    keywords: 'guides source backed route official context planning tools thunder arena frost peak legendary locations',
   },
   {
     id: 'features-hub',
@@ -131,46 +155,46 @@ const hubPages = [
     href: '/features',
     description: 'Source-aware features for cozy players, creative play, friendship requests, and confirmed system analysis.',
     meta: 'Feature hub',
-    status: 'Editorial feature hub',
+    status: 'Source-aware feature hub',
     updatedAt: '2026-05-28',
     priority: 84,
     keywords: 'features official context animal crossing creative play friendship requests system analysis',
   },
+]
+
+const trustPages = [
   {
-    id: 'pokemon-wiki-hub',
-    type: 'Pokemon',
-    title: 'Pokopia Pokemon Database',
-    href: '/wiki/pokemon',
-    description: 'Pokemon database index with types, rarity, habitats, favorite food, spawn notes, drops, and related planning pages.',
-    meta: 'Pokemon wiki hub',
-    status: 'Editorial database hub',
-    updatedAt: '2026-05-28',
-    priority: 78,
-    keywords: 'pokemon database pokedex types rarity habitats favorite food spawns drops',
+    id: 'editorial-policy',
+    title: 'Editorial Policy',
+    href: '/editorial-policy',
+    description: 'How Pokopia Portal reviews source-backed pages, guide advice, future content, AI drafts, and corrections.',
+    meta: 'Trust policy',
+    status: 'Review process page',
+    updatedAt: '2026-07-11',
+    priority: 58,
+    keywords: 'editorial policy review process noindex sitemap source backed guide advice ai drafts corrections low value content quality',
   },
   {
-    id: 'habitat-wiki-hub',
-    type: 'Habitat',
-    title: 'Pokopia Habitat Database',
-    href: '/wiki/habitat',
-    description: 'Habitat database index with unlock notes, weather, difficulty, spawn lists, recipes, and route planning context.',
-    meta: 'Habitat wiki hub',
-    status: 'Editorial database hub',
-    updatedAt: '2026-05-28',
-    priority: 76,
-    keywords: 'habitat database unlock weather difficulty spawn list route planner pokemon recipe',
+    id: 'source-policy',
+    title: 'Source Policy',
+    href: '/source-policy',
+    description: 'How Pokopia Portal ranks official sources, third-party references, screenshots, submissions, and unsupported claims.',
+    meta: 'Trust policy',
+    status: 'Source standards page',
+    updatedAt: '2026-07-11',
+    priority: 58,
+    keywords: 'source policy official sources primary source screenshots attribution submissions unsupported claims trust standards',
   },
   {
-    id: 'recipe-wiki-hub',
-    type: 'Recipe',
-    title: 'Pokopia Recipe Database',
-    href: '/wiki/recipe',
-    description: 'Recipe database index with ingredients, buffs, duration, rarity, best-use notes, and route planning links.',
-    meta: 'Recipe wiki hub',
-    status: 'Editorial database hub',
-    updatedAt: '2026-05-28',
-    priority: 74,
-    keywords: 'recipe database ingredients buffs duration rarity best use route planning',
+    id: 'corrections',
+    title: 'Corrections',
+    href: '/corrections',
+    description: 'How to report outdated Pokopia Portal information, source issues, image attribution problems, and unclear guide advice.',
+    meta: 'Trust policy',
+    status: 'Correction process page',
+    updatedAt: '2026-07-11',
+    priority: 58,
+    keywords: 'corrections report issue outdated information source issue image attribution guide advice copyright contact',
   },
 ]
 
@@ -181,21 +205,10 @@ const featurePages = [
     href: '/features/creative-play-ideas',
     description: 'Safe Pokopia creative play ideas for building challenges, recipe workshops, habitat themes, and community-friendly routes without mod downloads.',
     meta: 'Creative play',
-    status: 'Editorial feature',
+    status: 'Source-aware feature',
     updatedAt: '2026-05-28',
     priority: 84,
     keywords: 'creative play ideas mod alternatives building challenge habitat theme recipe workshop community challenge no downloads safe gameplay',
-  },
-  {
-    id: 'community-showcase',
-    title: 'Pokopia Community Showcase Index',
-    href: '/community/showcase',
-    description: 'Future Pokopia community showcase index with submission standards for verified screenshots, home designs, route notes, and player-tested reports.',
-    meta: 'Community index',
-    status: 'Future showcase standard',
-    updatedAt: '2026-05-27',
-    priority: 82,
-    keywords: 'community showcase index player screenshots home design route notes verified submissions source credit permission community content aggregation',
   },
   {
     id: 'friendship-requests-tracker',
@@ -204,7 +217,7 @@ const featurePages = [
     description: 'A source-aware tracker for Pokopia befriended Pokemon, requests, visits, and unconfirmed NPC relationship mechanics.',
     meta: 'System tracker',
     status: 'Source-aware tracker',
-    updatedAt: '2026-05-27',
+    updatedAt: '2026-07-11',
     priority: 86,
     keywords: 'friendship requests tracker befriended pokemon npc relationship visits daily challenges pc requests social systems official tips',
   },
@@ -215,29 +228,18 @@ const featurePages = [
     description: 'A source-aware Pokopia weekly event tracker that separates confirmed official updates, topics to recheck, and archived event information.',
     meta: 'Event tracker',
     status: 'Source-aware tracker',
-    updatedAt: '2026-05-27',
+    updatedAt: '2026-07-11',
     priority: 88,
     keywords: 'weekly event tracker confirmed updates official source roundup active events archived events daily challenges early purchase bonus rewards schedule',
-  },
-  {
-    id: 'home-design-ideas',
-    title: 'Pokopia Home Design Ideas and Building Showcase',
-    href: '/builds/home-design-ideas',
-    description: 'Text-based Pokopia home design ideas for cozy bases, recipe workshops, visitor courtyards, and future community showcases.',
-    meta: 'Building showcase',
-    status: 'Editorial feature',
-    updatedAt: '2026-05-27',
-    priority: 84,
-    keywords: 'home design ideas building showcase cozy base recipe workshop visitor courtyard habitat research camp decoration layout screenshots community',
   },
   {
     id: 'pokopia-animal-crossing',
     title: 'Pokopia vs Animal Crossing: Cozy Life Sim Comparison',
     href: '/features/pokopia-animal-crossing',
     description: 'A source-aware comparison for cozy game players, separating confirmed Pokopia systems from broader life-sim expectations.',
-    meta: 'Editorial comparison',
-    status: 'Editorial feature',
-    updatedAt: '2026-05-27',
+    meta: 'Source-aware comparison',
+    status: 'Source-aware feature',
+    updatedAt: '2026-07-11',
     priority: 86,
     keywords: 'pokopia animal crossing comparison cozy life sim building decorating pokemon habitats recipes creative world rebuilding',
   },
@@ -247,8 +249,8 @@ const featurePages = [
     href: '/features/meta-analysis',
     description: 'Editorial analysis of officially confirmed Pokémon Pokopia systems, including Ditto, moves, crafting, food, multiplayer, and beginner routines.',
     meta: 'Official context',
-    status: 'Editorial feature',
-    updatedAt: '2026-05-23',
+    status: 'Source-aware feature',
+    updatedAt: '2026-07-11',
     priority: 84,
     keywords: 'confirmed systems analysis ditto moves crafting food multiplayer beginner routines official context',
   },
@@ -321,9 +323,9 @@ const index = [
       item.keywords,
     ].join(' '),
   })),
-  ...featurePages.map((item) => ({
+  ...trustPages.map((item) => ({
     id: item.id,
-    type: 'Feature',
+    type: 'Trust',
     title: item.title,
     href: item.href,
     description: item.description,
@@ -339,9 +341,9 @@ const index = [
       item.keywords,
     ].join(' '),
   })),
-  ...topicPages.map((item) => ({
+  ...featurePages.map((item) => ({
     id: item.id,
-    type: 'Guide',
+    type: 'Feature',
     title: item.title,
     href: item.href,
     description: item.description,
@@ -366,7 +368,7 @@ const index = [
     meta: item.meta,
     status: 'Interactive planning tool',
     source: null,
-    updatedAt: '2026-05-27',
+    updatedAt: '2026-07-11',
     priority: item.priority,
     keywords: [
       item.title,
@@ -395,14 +397,14 @@ const index = [
       item.source_type,
     ].join(' '),
   })),
-  ...guides.map((item) => ({
+  ...guides.filter((item) => !shouldNoIndex(item.data_status, item.index_status)).map((item) => ({
     id: item.id,
     type: 'Guide',
     title: item.title,
     href: `/guides/${item.slug}`,
     description: text(item.answer || item.content),
     meta: item.category,
-    status: item.data_status || 'Editorial guide',
+    status: item.data_status === 'Source-backed guide' ? 'Source-backed guide' : 'Reviewed guide',
     source: item.image_source || null,
     updatedAt: dateOnly(item.updated_at || item.published_at),
     priority: 85,
@@ -435,14 +437,14 @@ const index = [
       item.sources?.map((source) => source.label).join(' '),
     ].join(' '),
   })),
-  ...pokemon.map((item) => ({
+  ...pokemon.filter(isIndexableDatabaseEntry).map((item) => ({
     id: item.id,
     type: 'Pokemon',
     title: item.name,
     href: `/wiki/pokemon/${item.id}`,
     description: text(item.overview || item.description),
     meta: `${item.type} / ${item.rarity}`,
-    status: item.data_status || 'Editorial database entry',
+    status: item.data_status === 'Source-backed database entry' ? 'Source-backed database entry' : 'Reviewed database entry',
     source: item.image_source || null,
     updatedAt: dateOnly(item.updated_at),
     priority: 75,
@@ -460,14 +462,14 @@ const index = [
       item.skills,
     ].join(' '),
   })),
-  ...habitats.map((item) => ({
+  ...habitats.filter(isIndexableDatabaseEntry).map((item) => ({
     id: item.id,
     type: 'Habitat',
     title: item.name,
     href: `/wiki/habitat/${item.id}`,
     description: text(item.overview || `${item.unlock_condition}. ${item.resource_bonus}`),
     meta: `${item.weather} / ${item.difficulty}`,
-    status: item.data_status || 'Editorial habitat reference',
+    status: item.data_status === 'Source-backed database entry' ? 'Source-backed database entry' : 'Reviewed habitat guide',
     source: item.image_source || null,
     updatedAt: dateOnly(item.updated_at),
     priority: 70,
@@ -482,14 +484,14 @@ const index = [
       item.recommended_recipe,
     ].join(' '),
   })),
-  ...recipes.map((item) => ({
+  ...recipes.filter(isIndexableDatabaseEntry).map((item) => ({
     id: item.id,
     type: 'Recipe',
     title: item.name,
     href: `/wiki/recipe/${item.id}`,
     description: text(item.overview || item.buff),
     meta: `${item.rarity} / ${item.effect_duration}`,
-    status: item.data_status || 'Editorial recipe reference',
+    status: item.data_status === 'Source-backed database entry' ? 'Source-backed database entry' : 'Reviewed recipe reference',
     source: item.image_source || null,
     updatedAt: dateOnly(item.updated_at),
     priority: 65,

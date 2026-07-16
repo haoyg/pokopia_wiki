@@ -5,14 +5,9 @@ const navItems = [
   { href: '/official', label: 'Official' },
   { href: '/news', label: 'News' },
   { href: '/guides', label: 'Guides' },
-  { href: '/wiki/pokemon', label: 'Pokemon' },
-  { href: '/wiki/habitat', label: 'Habitats' },
-  { href: '/wiki/recipe', label: 'Recipes' },
-  { href: '/tier-list', label: 'Tier List' },
   { href: '/tools', label: 'Tools' },
   { href: '/features', label: 'Features' },
-  { href: '/builds', label: 'Builds' },
-  { href: '/community', label: 'Community' },
+  { href: '/about', label: 'About' },
 ]
 
 export function Header() {
@@ -22,11 +17,15 @@ export function Header() {
         <Link href="/" className="site-brand" aria-label="Pokopia Portal home">
           <img
             className="site-brand-logo"
-            src="/logo.png"
+            src="/logo.svg"
             alt="Pokopia Portal logo"
-            width={180}
-            height={90}
+            width={40}
+            height={40}
           />
+          <span>
+            <strong>Pokopia Portal</strong>
+            <small>Source-aware wiki and tools</small>
+          </span>
         </Link>
 
         <form className="site-search" action="/search" role="search">

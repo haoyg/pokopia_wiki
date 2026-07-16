@@ -4,6 +4,7 @@ import { canonicalUrl } from '@/lib/site'
 import { CreditedImage } from '@/components/media/CreditedImage'
 import { OfficialContext } from '@/components/content/OfficialContext'
 import { BreadcrumbJsonLd, ItemListJsonLd } from '@/components/seo/JsonLd'
+import { shouldNoIndex } from '@/lib/indexing'
 
 const categoryLabels: Record<string, string> = {
   tier: 'Tier',
@@ -14,19 +15,19 @@ const categoryLabels: Record<string, string> = {
 
 const guideTracks = [
   {
-    title: 'Start Here',
-    text: 'Use these guides for starter choice, early route planning, recipes, and basic habitat decisions.',
-    links: ['best-starter-pokemon', 'training-grounds-beginners', 'complete-recipe-list'],
+    title: 'Source-Backed Routes',
+    text: 'Start with pages that have been separated from the larger editorial guide set.',
+    links: ['thunder-arena-guide', 'frost-peak-guide', 'legendary-locations-guide'],
   },
   {
-    title: 'Route Planning',
-    text: 'Use these pages before entering harder habitats or spending rare recipes on repeated farming loops.',
-    links: ['how-to-unlock-volcanic-cave', 'fast-farming-rare-pokemon', 'best-habitat-type-pokopia'],
+    title: 'Confirmed Systems',
+    text: 'Use official context before applying any route planning advice.',
+    links: [],
   },
   {
-    title: 'Team Direction',
-    text: 'Use these guides when a route keeps failing and the issue is role balance rather than raw level.',
-    links: ['best-fire-type-team', 'best-defense-team', 'best-grass-type-team'],
+    title: 'Planning Tools',
+    text: 'Use tools for database-driven planning while editorial pages remain outside the index.',
+    links: [],
   },
 ]
 
@@ -37,7 +38,7 @@ function shortText(text: string, length = 145) {
 
 export const metadata: Metadata = {
   title: 'Pokopia Guides: Walkthroughs and Routes',
-  description: 'Find Pokopia walkthroughs, starter picks, habitat routes, farming plans, recipes, tools, and team planning guides.',
+  description: 'Find source-backed Pokopia route guides, official context, and planning tools separated from broader editorial guide drafts.',
   keywords: [
     'Pokopia guides',
     'Pokopia route guide',
@@ -50,13 +51,13 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'Pokopia Guides: Walkthroughs and Routes',
-    description: 'Walkthroughs, starter picks, habitat routes, farming plans, recipes, tools, and team guides for Pokopia.',
+    description: 'Source-backed route guides, official context, and planning tools for Pokopia.',
     images: ['/og-image.svg'],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Pokopia Guides: Walkthroughs and Routes',
-    description: 'Walkthroughs, starter picks, habitat routes, farming plans, recipes, tools, and team guides for Pokopia.',
+    description: 'Source-backed route guides, official context, and planning tools for Pokopia.',
     images: ['/og-image.svg'],
   },
   alternates: {
@@ -65,6 +66,7 @@ export const metadata: Metadata = {
 }
 
 export default function GuidesPage() {
+  const sourceBackedGuides = guidesData.filter((guide) => !shouldNoIndex(guide.data_status, guide.index_status))
   const findGuide = (slug: string) => guidesData.find((guide) => guide.slug === slug)
 
   return (
@@ -77,16 +79,16 @@ export default function GuidesPage() {
       />
       <ItemListJsonLd
         name="Pokopia Guides"
-        description="Route notes, farming advice, starter picks, team planning, and recipe decisions for Pokopia players."
+        description="Source-backed route guides and official-context planning pages for Pokopia players."
         url="/guides"
-        items={guidesData.map((guide) => ({
+        items={sourceBackedGuides.map((guide) => ({
           name: guide.title,
           url: `/guides/${guide.slug}`,
         }))}
       />
       <section className="page-hero">
         <h1>Pokopia Guides</h1>
-        <p>Route notes, farming advice, starter picks, team planning, and recipe decisions for Pokopia players.</p>
+        <p>Source-backed route guides are listed here first. Broader editorial planning pages stay separated until they have stronger verification.</p>
       </section>
 
       <OfficialContext
@@ -96,33 +98,16 @@ export default function GuidesPage() {
 
       <section className="features-lead-section">
         <div className="features-topic-grid">
-          <a href="/guides/beginner-route" className="feature-hero">
-            <span>Topic Route</span>
-            <h2>Pokopia Beginner Route</h2>
+          {sourceBackedGuides.map((guide) => (
+          <a key={guide.id} href={`/guides/${guide.slug}`} className="feature-hero">
+            <span>{guide.data_status}</span>
+            <h2>{guide.title}</h2>
             <p>
-              A practical first path that connects starter choices, easy habitats, recipe timing,
-              Pokemon pages, and planning tools before harder routes.
+              {guide.answer}
             </p>
-            <div className="feature-read-time">Start here before choosing a long farming route</div>
+            <div className="feature-read-time">{guide.steps.length} reviewed route checks</div>
           </a>
-          <a href="/guides/rare-farming-route" className="feature-hero">
-            <span>Topic Route</span>
-            <h2>Pokopia Rare Farming Route</h2>
-            <p>
-              A focused route for rare and legendary checks, Lucky Charm timing, target habitats,
-              recipe support, and tool workflow.
-            </p>
-            <div className="feature-read-time">Use this after the route is already mapped</div>
-          </a>
-          <a href="/guides/recipe-planning-route" className="feature-hero">
-            <span>Topic Route</span>
-            <h2>Pokopia Recipe Planning Route</h2>
-            <p>
-              A recipe workflow for choosing buffs by route objective, rarity cost, habitat risk,
-              Pokemon targets, and tool checks.
-            </p>
-            <div className="feature-read-time">Use this before spending rare ingredients</div>
-          </a>
+          ))}
         </div>
       </section>
 
@@ -140,7 +125,7 @@ export default function GuidesPage() {
               <strong>{track.title}</strong>
               <p>{track.text}</p>
               <div>
-                {track.links.map((slug) => {
+                {track.links.length > 0 ? track.links.map((slug) => {
                   const guide = findGuide(slug)
                   if (!guide) return null
                   return (
@@ -148,7 +133,22 @@ export default function GuidesPage() {
                       {guide.title}
                     </a>
                   )
-                })}
+                }) : (
+                  <>
+                    {track.title === 'Confirmed Systems' && (
+                      <>
+                        <a href="/official/gameplay-overview">Gameplay overview</a>
+                        <a href="/official/official-beginner-tips">Official beginner tips</a>
+                      </>
+                    )}
+                    {track.title === 'Planning Tools' && (
+                      <>
+                        <a href="/tools/habitat-planner">Habitat Planner</a>
+                        <a href="/tools/recipe-calculator">Recipe Calculator</a>
+                      </>
+                    )}
+                  </>
+                )}
               </div>
             </div>
           ))}
@@ -156,7 +156,7 @@ export default function GuidesPage() {
       </section>
 
       <div className="guides-grid">
-        {guidesData.map((guide) => (
+        {sourceBackedGuides.map((guide) => (
           <a key={guide.id} href={`/guides/${guide.slug}`} className="card">
             <CreditedImage src={guide.image_url} alt={guide.image_alt} source={guide.image_source} sourceUrl={guide.image_source_url} licenseNote={guide.image_license_note} originalMedia={guide.image_original_media} />
             <div className="index-card-badges">

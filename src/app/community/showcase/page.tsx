@@ -4,6 +4,7 @@ import { DataStatus } from '@/components/content/DataStatus'
 import { OfficialContext } from '@/components/content/OfficialContext'
 import { ArticleJsonLd, BreadcrumbJsonLd, FAQJsonLd, ItemListJsonLd } from '@/components/seo/JsonLd'
 import { BASE_URL, canonicalUrl } from '@/lib/site'
+import { noIndexMetadata } from '@/lib/indexing'
 
 const pageUrl = '/community/showcase'
 const reviewedAt = '2026-05-27'
@@ -64,6 +65,7 @@ const faqs = [
 export const metadata: Metadata = {
   title: 'Pokopia Community Showcase Index',
   description: 'Future Pokopia community showcase index with submission standards for verified screenshots, home designs, route notes, and player-tested reports.',
+  robots: noIndexMetadata,
   alternates: {
     canonical: canonicalUrl(pageUrl),
   },

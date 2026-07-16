@@ -7,20 +7,19 @@ const footerGroups = [
       { href: '/', label: 'Home' },
       { href: '/official', label: 'Official Info' },
       { href: '/news', label: 'News Hub' },
-      { href: '/guides/beginner-route', label: 'Beginner Route' },
+      { href: '/official/gameplay-overview', label: 'Gameplay Overview' },
       { href: '/news/weekly-event-tracker', label: 'Event Tracker' },
-      { href: '/search', label: 'Search' },
     ],
   },
   {
-    title: 'Wiki',
+    title: 'Guides',
     links: [
-      { href: '/wiki/pokemon', label: 'Pokemon Database' },
-      { href: '/wiki/habitat', label: 'Habitats' },
-      { href: '/wiki/recipe', label: 'Recipes' },
       { href: '/guides', label: 'Guides Hub' },
-      { href: '/guides/rare-farming-route', label: 'Rare Farming' },
-      { href: '/guides/recipe-planning-route', label: 'Recipe Planning' },
+      { href: '/guides/legendary-locations-guide', label: 'Legendary Locations' },
+      { href: '/guides/frost-peak-guide', label: 'Frost Peak Guide' },
+      { href: '/guides/thunder-arena-guide', label: 'Thunder Arena Guide' },
+      { href: '/official/official-beginner-tips', label: 'Official Beginner Tips' },
+      { href: '/official/multiplayer-gameshare-cloud-island', label: 'Multiplayer Rules' },
     ],
   },
   {
@@ -31,15 +30,6 @@ const footerGroups = [
       { href: '/features/creative-play-ideas', label: 'Creative Play' },
       { href: '/features/friendship-requests-tracker', label: 'Friendship Requests' },
       { href: '/features/meta-analysis', label: 'Systems Analysis' },
-    ],
-  },
-  {
-    title: 'Community',
-    links: [
-      { href: '/builds/home-design-ideas', label: 'Home Design Ideas' },
-      { href: '/community/showcase', label: 'Showcase Index' },
-      { href: '/community', label: 'Guidelines' },
-      { href: '/builds', label: 'Build Standards' },
     ],
   },
   {
@@ -57,6 +47,9 @@ const footerGroups = [
     links: [
       { href: '/about', label: 'About' },
       { href: '/contact', label: 'Contact' },
+      { href: '/editorial-policy', label: 'Editorial Policy' },
+      { href: '/source-policy', label: 'Source Policy' },
+      { href: '/corrections', label: 'Corrections' },
       { href: '/copyright', label: 'Copyright' },
       { href: '/disclaimer', label: 'Disclaimer' },
       { href: '/privacy-policy', label: 'Privacy Policy' },

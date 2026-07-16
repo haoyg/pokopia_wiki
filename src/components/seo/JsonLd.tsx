@@ -26,25 +26,79 @@ export function WebsiteJsonLd() {
       description: 'A gaming content platform covering Pokemon-style game guides, database, and community tools.',
     },
     license: 'https://creativecommons.org/licenses/by/4.0/',
-    potentialAction: {
-      '@type': 'SearchAction',
-      target: {
-        '@type': 'EntryPoint',
-        urlTemplate: `${BASE_URL}/search?q={search_term_string}`,
-      },
-      'query-input': 'required name=search_term_string',
-    },
     publisher: {
       '@type': 'Organization',
       name: 'Pokopia Portal',
       url: BASE_URL,
       logo: {
         '@type': 'ImageObject',
-        url: `${BASE_URL}/logo-mark.png`,
-        width: 512,
-        height: 512,
+        url: `${BASE_URL}/apple-touch-icon.png`,
+        width: 180,
+        height: 180,
       },
       sameAs: [],
+    },
+  }
+
+  return <JsonLd data={jsonLd} />
+}
+
+export function OrganizationJsonLd() {
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: 'Pokopia Portal',
+    url: BASE_URL,
+    email: 'hello@pokopia.cloud',
+    description: 'Independent gaming guide site with official source roundups, source-backed guides, planning tools, and editorial policy pages.',
+    logo: {
+      '@type': 'ImageObject',
+      url: `${BASE_URL}/apple-touch-icon.png`,
+      width: 180,
+      height: 180,
+    },
+    contactPoint: {
+      '@type': 'ContactPoint',
+      contactType: 'Editorial corrections and rights requests',
+      email: 'hello@pokopia.cloud',
+      availableLanguage: ['English'],
+    },
+    publishingPrinciples: `${BASE_URL}/editorial-policy`,
+    sameAs: [],
+  }
+
+  return <JsonLd data={jsonLd} />
+}
+
+export function WebPageJsonLd({
+  type = 'WebPage',
+  name,
+  description,
+  url,
+  dateModified,
+}: {
+  type?: 'WebPage' | 'AboutPage' | 'ContactPage' | 'CollectionPage'
+  name: string
+  description: string
+  url: string
+  dateModified?: string
+}) {
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': type,
+    name,
+    description,
+    url: `${BASE_URL}${url}`,
+    ...(dateModified ? { dateModified } : {}),
+    isPartOf: {
+      '@type': 'WebSite',
+      name: 'Pokopia Portal',
+      url: BASE_URL,
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'Pokopia Portal',
+      url: BASE_URL,
     },
   }
 
@@ -88,9 +142,9 @@ export function ArticleJsonLd({
       name: 'Pokopia Portal',
       logo: {
         '@type': 'ImageObject',
-        url: `${BASE_URL}/logo-mark.png`,
-        width: 512,
-        height: 512,
+        url: `${BASE_URL}/apple-touch-icon.png`,
+        width: 180,
+        height: 180,
       },
     },
     mainEntityOfPage: {
@@ -179,9 +233,9 @@ export function ToolJsonLd({
       name: 'Pokopia Portal',
       logo: {
         '@type': 'ImageObject',
-        url: `${BASE_URL}/logo-mark.png`,
-        width: 512,
-        height: 512,
+        url: `${BASE_URL}/apple-touch-icon.png`,
+        width: 180,
+        height: 180,
       },
     },
     isPartOf: {
