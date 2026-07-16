@@ -55,6 +55,14 @@ function hasNoindex(html) {
     /<meta\s+name=["']googlebot["'][^>]*content=["'][^"']*\bnoindex\b/i.test(html)
 }
 
+function hasArticleModifiedTime(html, value) {
+  const tags = [...html.matchAll(/<meta\b[^>]*>/gi)].map((match) => match[0])
+  return tags.some((tag) =>
+    /\bproperty=["']article:modified_time["']/i.test(tag) &&
+    new RegExp(`\\bcontent=["']${value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}["']`, 'i').test(tag)
+  )
+}
+
 const guides = readJson('src/data/guides.json')
 const news = readJson('src/data/news.json')
 const pokemon = readJson('src/data/pokemon.json')
@@ -144,6 +152,11 @@ for (const item of news.filter((entry) => entry.updated_at)) {
   const sitemapDate = sitemapLastModified.get(pagePath)
   const expectedDate = new Date(item.updated_at).toISOString()
   assert(sitemapDate === expectedDate, `news sitemap lastmod does not match updated_at for ${pagePath}: expected ${expectedDate}, received ${sitemapDate || 'missing'}`)
+
+  const htmlFile = htmlPathForRoute(pagePath)
+  if (fs.existsSync(htmlFile)) {
+    assert(hasArticleModifiedTime(readHtmlHead(htmlFile), expectedDate), `news page is missing matching article:modified_time metadata for ${pagePath}`)
+  }
 }
 
 for (const pagePath of expectedNoindexPaths) {

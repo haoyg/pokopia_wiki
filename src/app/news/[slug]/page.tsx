@@ -53,6 +53,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       images: news.image_source ? [news.image_url] : ['/og-image.svg'],
       type: 'article',
       publishedTime: new Date(news.published_at * 1000).toISOString(),
+      modifiedTime: news.updated_at ? new Date(news.updated_at).toISOString() : new Date(news.published_at * 1000).toISOString(),
       authors: ['Pokopia Portal'],
     },
     twitter: {

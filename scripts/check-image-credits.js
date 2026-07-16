@@ -25,6 +25,19 @@ for (const file of files) {
   for (const item of data) {
     if (!item.image_url) continue
 
+    if (!/^https:\/\//i.test(item.image_url) && !item.image_url.startsWith('/')) {
+      issues.push(`${file}: ${item.id || item.slug || item.title || 'unknown'} has an invalid image_url`)
+    }
+
+    if (!/^https:\/\//i.test(item.image_source_url || '')) {
+      issues.push(`${file}: ${item.id || item.slug || item.title || 'unknown'} needs an HTTPS image_source_url`)
+    }
+
+    const nintendoCdnWidth = item.image_url.match(/assets\.nintendo\.[^/]+\/image\/upload\/[^/]*\bw_(\d+)/i)
+    if (nintendoCdnWidth && Number(nintendoCdnWidth[1]) < 960) {
+      issues.push(`${file}: ${item.id || item.slug || item.title || 'unknown'} uses a Nintendo CDN image below 960px wide`)
+    }
+
     for (const field of requiredFields) {
       if (!item[field]) {
         issues.push(`${file}: ${item.id || item.slug || item.title || 'unknown'} is missing ${field}`)
