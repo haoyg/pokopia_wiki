@@ -177,6 +177,18 @@ for (const guide of indexableGuides) {
   assert(String(guide.data_status_note || '').length >= 80, `guide ${guide.slug} has a weak data_status_note`)
 }
 
+for (const guide of indexableGuides.filter((item) => item.data_status === 'Source-backed guide')) {
+  const htmlFile = htmlPathForRoute(`/guides/${guide.slug}`)
+  const html = fs.existsSync(htmlFile) ? fs.readFileSync(htmlFile, 'utf8') : ''
+  const officialSources = guide.sources?.filter((source) => isOfficialSourceUrl(source.url)) || []
+
+  assert(fs.existsSync(htmlFile), `source-backed guide ${guide.slug} has no exported HTML`)
+  assert(
+    officialSources.some((source) => html.includes(`href="${source.url}"`)),
+    `source-backed guide ${guide.slug} does not render a direct official source link`
+  )
+}
+
 for (const item of [...pokemon, ...habitats, ...recipes].filter(isIndexableDatabaseEntry)) {
   if (item.data_status === 'Source-backed database entry') {
     assert(Array.isArray(item.sources) && item.sources.some((source) => /^https?:\/\//i.test(String(source?.url || ''))), `database ${item.id} needs a primary source URL`)
