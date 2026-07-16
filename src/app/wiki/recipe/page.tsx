@@ -8,6 +8,24 @@ const rarityLabels: Record<string, string> = {
   'common': 'Common', 'uncommon': 'Uncommon', 'rare': 'Rare', 'legendary': 'Legendary',
 }
 
+const recipeDecisionGroups = [
+  {
+    title: 'Scout without wasting rares',
+    text: 'Start with cheap recipes when you are testing a route, spawn window, or new habitat layout.',
+    ids: ['rec009', 'rec003', 'rec006'],
+  },
+  {
+    title: 'Repeat rare farming',
+    text: 'Use these once the route is repeatable and the target is worth stronger attraction or luck support.',
+    ids: ['rec001', 'rec005', 'rec010'],
+  },
+  {
+    title: 'Survive hard checks',
+    text: 'Pick defensive or recovery recipes when the route fails from damage instead of route timing.',
+    ids: ['rec004', 'rec012', 'rec015'],
+  },
+]
+
 function shortText(text: string, length = 150) {
   if (text.length <= length) return text
   return `${text.slice(0, length).trim()}...`
@@ -56,6 +74,7 @@ export default function RecipePage() {
   const survivalRecipes = recipesData
     .filter((recipe) => ['defense', 'restore', 'heal', 'armor'].some((word) => `${recipe.buff} ${recipe.best_use}`.toLowerCase().includes(word)))
     .slice(0, 4)
+  const findRecipe = (id: string) => recipesData.find((recipe) => recipe.id === id)
 
   return (
     <main className="page-shell">
@@ -115,6 +134,35 @@ export default function RecipePage() {
               ))}
             </div>
           </div>
+        </div>
+      </section>
+
+      <section className="index-guide-panel">
+        <div className="section-title-row">
+          <div>
+            <span className="panel-kicker">Recipe Decisions</span>
+            <h2>Pick the Buff Before You Start the Run</h2>
+          </div>
+          <a href="/guides/recipe-planning-route">Open recipe route</a>
+        </div>
+        <div className="index-guide-grid">
+          {recipeDecisionGroups.map((group) => (
+            <div key={group.title} className="index-guide-card">
+              <strong>{group.title}</strong>
+              <p>{group.text}</p>
+              <div>
+                {group.ids.map((id) => {
+                  const recipe = findRecipe(id)
+                  if (!recipe) return null
+                  return (
+                    <a key={id} href={`/wiki/recipe/${recipe.id}`}>
+                      {recipe.name} · {recipe.rarity}
+                    </a>
+                  )
+                })}
+              </div>
+            </div>
+          ))}
         </div>
       </section>
 

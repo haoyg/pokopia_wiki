@@ -4,6 +4,24 @@ import { canonicalUrl } from '@/lib/site'
 import { CreditedImage } from '@/components/media/CreditedImage'
 import { BreadcrumbJsonLd, ItemListJsonLd } from '@/components/seo/JsonLd'
 
+const habitatRouteGroups = [
+  {
+    title: 'First farming loop',
+    text: 'Use these areas when you need lower failure cost, clear resource goals, and simple spawn checks.',
+    ids: ['hab002', 'hab003', 'hab020'],
+  },
+  {
+    title: 'Weather practice',
+    text: 'Use these routes to learn how weather changes route timing before moving into hard areas.',
+    ids: ['hab004', 'hab005', 'hab008'],
+  },
+  {
+    title: 'High-risk farming',
+    text: 'Scout these habitats once your team, recipe timing, and retreat plan are already stable.',
+    ids: ['hab001', 'hab006', 'hab012'],
+  },
+]
+
 function shortText(text: string, length = 160) {
   if (text.length <= length) return text
   return `${text.slice(0, length).trim()}...`
@@ -48,6 +66,7 @@ export default function HabitatPage() {
   const hardHabitats = habitatsData
     .filter((habitat) => habitat.difficulty === 'hard')
     .slice(0, 4)
+  const findHabitat = (id: string) => habitatsData.find((habitat) => habitat.id === id)
 
   return (
     <main className="page-shell">
@@ -107,6 +126,35 @@ export default function HabitatPage() {
               ))}
             </div>
           </div>
+        </div>
+      </section>
+
+      <section className="index-guide-panel">
+        <div className="section-title-row">
+          <div>
+            <span className="panel-kicker">Route Planner</span>
+            <h2>Choose a Habitat for This Session</h2>
+          </div>
+          <a href="/guides/beginner-route">Open beginner route</a>
+        </div>
+        <div className="index-guide-grid">
+          {habitatRouteGroups.map((group) => (
+            <div key={group.title} className="index-guide-card">
+              <strong>{group.title}</strong>
+              <p>{group.text}</p>
+              <div>
+                {group.ids.map((id) => {
+                  const habitat = findHabitat(id)
+                  if (!habitat) return null
+                  return (
+                    <a key={id} href={`/wiki/habitat/${habitat.id}`}>
+                      {habitat.name} · {habitat.difficulty}
+                    </a>
+                  )
+                })}
+              </div>
+            </div>
+          ))}
         </div>
       </section>
 

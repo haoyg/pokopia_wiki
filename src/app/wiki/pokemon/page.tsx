@@ -7,6 +7,23 @@ import { BreadcrumbJsonLd, ItemListJsonLd } from '@/components/seo/JsonLd'
 
 const featuredPokemon = ['pkm001', 'pkm002', 'pkm007', 'pkm030']
 const habitatNames = Object.fromEntries(habitatsData.map((habitat) => [habitat.id, habitat.name]))
+const pokemonPathways = [
+  {
+    title: 'Early team core',
+    text: 'Use these entries when you need stable roles before chasing rare spawns.',
+    ids: ['pkm002', 'pkm004', 'pkm008'],
+  },
+  {
+    title: 'Rare farming targets',
+    text: 'Check habitat windows, favorite food, and drops before spending attraction recipes.',
+    ids: ['pkm001', 'pkm006', 'pkm009'],
+  },
+  {
+    title: 'Late-route anchors',
+    text: 'Review these pages when a route needs a tank, burst carry, or high-risk matchup answer.',
+    ids: ['pkm007', 'pkm030', 'pkm012'],
+  },
+]
 
 function shortText(text: string, length = 150) {
   if (text.length <= length) return text
@@ -53,6 +70,7 @@ export default function PokemonPage() {
   const featured = featuredPokemon
     .map((id) => pokemonData.find((pokemon) => pokemon.id === id))
     .filter(Boolean) as typeof pokemonData
+  const findPokemon = (id: string) => pokemonData.find((pokemon) => pokemon.id === id)
 
   return (
     <main className="page-shell">
@@ -112,6 +130,35 @@ export default function PokemonPage() {
               ))}
             </div>
           </div>
+        </div>
+      </section>
+
+      <section className="index-guide-panel">
+        <div className="section-title-row">
+          <div>
+            <span className="panel-kicker">Editor Picks</span>
+            <h2>Pick Pokemon by What Your Route Is Missing</h2>
+          </div>
+          <a href="/guides/best-starter-pokemon">Read starter guide</a>
+        </div>
+        <div className="index-guide-grid">
+          {pokemonPathways.map((pathway) => (
+            <div key={pathway.title} className="index-guide-card">
+              <strong>{pathway.title}</strong>
+              <p>{pathway.text}</p>
+              <div>
+                {pathway.ids.map((id) => {
+                  const pokemon = findPokemon(id)
+                  if (!pokemon) return null
+                  return (
+                    <a key={id} href={`/wiki/pokemon/${pokemon.id}`}>
+                      {pokemon.name} · {pokemon.specialty}
+                    </a>
+                  )
+                })}
+              </div>
+            </div>
+          ))}
         </div>
       </section>
 

@@ -12,6 +12,43 @@ const categoryLabels: Record<string, string> = {
   'site-update': 'Site Update',
 }
 
+const newsReadingPaths = [
+  {
+    title: 'Official confirmation first',
+    text: 'Use these pages when you need confirmed release, platform, gameplay, or feature details before reading editorial advice.',
+    slugs: [
+      'pokemon-pokopia-release-date-platform',
+      'pokemon-pokopia-gameplay-overview-confirmed-features',
+      'pokemon-pokopia-multiplayer-gameshare-details',
+    ],
+  },
+  {
+    title: 'Feature and system context',
+    text: 'Read these when a guide mentions requests, moves, Cloud Island, multiplayer, or other confirmed systems.',
+    slugs: [
+      'pokemon-pokopia-confirmed-moves-leafage-surf-glide',
+      'pokemon-pokopia-pc-requests-daily-challenges',
+      'pokemon-pokopia-cloud-island-palette-town-explained',
+    ],
+  },
+  {
+    title: 'Events and update watch',
+    text: 'Use these pages for time-sensitive updates, then recheck source labels before treating details as current.',
+    slugs: [
+      'pokopia-dive-update-how-to-unlock-dive',
+      'pokemon-pokopia-wish-upon-a-jirachi-event',
+      'pokopia-expansion-pass-bubbly-basin-bonuses',
+    ],
+  },
+  {
+    title: 'Site transparency',
+    text: 'Check these when you want to understand how Pokopia Portal separates official facts from editorial planning notes.',
+    slugs: [
+      'pokopia-portal-official-editorial-labels',
+    ],
+  },
+]
+
 export const metadata: Metadata = {
   title: 'Official News & Source Updates',
   description: 'Official Pokémon Pokopia source roundups, trailer notes, Nintendo updates, and Pokopia Portal site transparency updates.',
@@ -37,6 +74,7 @@ export const metadata: Metadata = {
 
 export default function NewsPage() {
   const leadNews = newsData[0]
+  const findNews = (slug: string) => newsData.find((item) => item.slug === slug)
   const sourceCounts = newsData.reduce<Record<string, number>>((counts, item) => {
     counts[item.source_type] = (counts[item.source_type] || 0) + 1
     return counts
@@ -97,6 +135,35 @@ export default function NewsPage() {
               <span key={source}>{source}: {count}</span>
             ))}
           </div>
+        </div>
+      </section>
+
+      <section className="index-guide-panel">
+        <div className="section-title-row">
+          <div>
+            <span className="panel-kicker">News Reading Paths</span>
+            <h2>Start With the Right Source Track</h2>
+          </div>
+          <a href="/official">Open official info</a>
+        </div>
+        <div className="index-guide-grid">
+          {newsReadingPaths.map((path) => (
+            <div key={path.title} className="index-guide-card">
+              <strong>{path.title}</strong>
+              <p>{path.text}</p>
+              <div>
+                {path.slugs.map((slug) => {
+                  const item = findNews(slug)
+                  if (!item) return null
+                  return (
+                    <a key={slug} href={`/news/${item.slug}`}>
+                      {item.title}
+                    </a>
+                  )
+                })}
+              </div>
+            </div>
+          ))}
         </div>
       </section>
 
