@@ -68,6 +68,24 @@ const supportTools = [
   },
 ]
 
+const verificationLinks = [
+  {
+    href: '/official/gameplay-overview',
+    label: 'Gameplay Overview',
+    text: 'Check confirmed crafting, building, movement, weather, and town systems before planning a route.',
+  },
+  {
+    href: '/official/official-beginner-tips',
+    label: 'Official Beginner Tips',
+    text: 'Verify PC, storage, requests, Dex filters, and food-powered move context before using a tool result.',
+  },
+  {
+    href: '/official/multiplayer-gameshare-cloud-island',
+    label: 'Multiplayer and GameShare',
+    text: 'Confirm visitor, co-building, GameShare, and Cloud Island boundaries before planning a shared project.',
+  },
+]
+
 export default function ToolsPage() {
   const allTools = [...primaryTools, ...supportTools]
 
@@ -165,6 +183,22 @@ export default function ToolsPage() {
                 ))}
               </div>
             </a>
+          ))}
+        </div>
+      </section>
+
+      <section className="tools-hub-section tools-workflow">
+        <div className="tools-section-heading">
+          <span>Verify First</span>
+          <h2>Official Context for Tool Results</h2>
+        </div>
+        <div className="tools-workflow-grid">
+          {verificationLinks.map((item) => (
+            <div key={item.href}>
+              <strong>{item.label}</strong>
+              <p>{item.text}</p>
+              <a href={item.href}>Open official context</a>
+            </div>
           ))}
         </div>
       </section>
