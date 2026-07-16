@@ -59,15 +59,15 @@
       },
       {
         "question": "What food attracts Pikafire?",
-        "answer": "Pikafire is attracted by Apple. Use it in hab001 during Day spawns in Sunny weather to improve catch rates."
+        "answer": "Pikafire's current reference entry lists Apple as its preferred food. Use that detail to plan a Volcanic Cave visit, then confirm the page's time and weather notes before spending limited resources."
       },
       {
         "question": "What does Pikafire drop?",
-        "answer": "Pikafire drops Fire Stone,Thunder Stone. Farm hab001 during Day in Sunny weather for best results."
+        "answer": "The current reference entry lists Fire Stone and Thunder Stone as Pikafire's drops. Farm Volcanic Cave only when those materials support a named upgrade, recipe, or team goal."
       },
       {
         "question": "What mistakes do players make with Pikafire?",
-        "answer": "Common mistakes: Using Pikafire as a generic Fire attacker when Emberal would farm cheaper.; Opening with Quick Attack before checking whether Thunderbolt can control the first turn.; Continuing the run after the Thunder Stone target is already solved.. Check the hab001 route before farming Pikafire."
+        "answer": "Players most often lose value by using Pikafire as a generic Fire attacker when Emberal would farm cheaper, opening with Quick Attack before checking whether Thunderbolt can control the first turn, and continuing the run after the Thunder Stone target is already solved. Keep the Volcanic Cave run focused on one goal, then leave when that goal is met."
       }
     ],
     "updated_at": "2026-05-26",
@@ -137,15 +137,15 @@
       },
       {
         "question": "What food attracts Bulbin?",
-        "answer": "Bulbin is attracted by Leaf. Use it in hab002 during Any spawns in Cloudy weather to improve catch rates."
+        "answer": "This page records Leaf as Bulbin's preferred food. Treat it as a route-planning note rather than a guaranteed result, and recheck the habitat conditions after any game update."
       },
       {
         "question": "What does Bulbin drop?",
-        "answer": "Bulbin drops Leaf,Grass Fiber. Farm hab002 during Any in Cloudy weather for best results."
+        "answer": "Bulbin's listed drops are Leaf and Grass Fiber. It is usually more efficient to stop once the material you need is secured than to turn the run into an unfocused full clear."
       },
       {
         "question": "What mistakes do players make with Bulbin?",
-        "answer": "Common mistakes: Trying to turn Bulbin into a full Forest Valley clear plan.; Ignoring Protect timing and judging the page only by damage.; Farming Leaf after the starter upgrade is already complete.. Check the hab002 route before farming Bulbin."
+        "answer": "Players most often lose value by trying to turn Bulbin into a full Forest Valley clear plan, ignoring Protect timing and judging the page only by damage, and farming Leaf after the starter upgrade is already complete. A short route plan and a clear exit rule prevent most wasted resources."
       }
     ],
     "updated_at": "2026-05-26",
@@ -215,15 +215,15 @@
       },
       {
         "question": "What food attracts Charmuddy?",
-        "answer": "Charmuddy is attracted by Honey. Use it in hab001 during Night spawns in Clear weather to improve catch rates."
+        "answer": "For the route documented here, Honey is listed as Charmuddy's preferred food. Match it with the Volcanic Cave conditions shown above instead of committing items during a first scouting run."
       },
       {
         "question": "What does Charmuddy drop?",
-        "answer": "Charmuddy drops Fire Stone,Ash. Farm hab001 during Night in Clear weather for best results."
+        "answer": "This page records Fire Stone and Ash as the materials associated with Charmuddy. Check the route conditions before repeating a farm, because drop and spawn details can change after balance updates."
       },
       {
         "question": "What mistakes do players make with Charmuddy?",
-        "answer": "Common mistakes: Using Charmuddy as a premium Fire carry.; Spending Honey before checking the opening angle.; Continuing the cave route after Ash is already stocked.. Check the hab001 route before farming Charmuddy."
+        "answer": "Players most often lose value by using Charmuddy as a premium Fire carry, spending Honey before checking the opening angle, and continuing the cave route after Ash is already stocked. Before repeating the route, identify which of those decisions caused the previous run to fail."
       }
     ],
     "updated_at": "2026-05-26",
@@ -293,15 +293,15 @@
       },
       {
         "question": "What food attracts Aquap?",
-        "answer": "Aquap is attracted by Golden Fish. Use it in hab003 during Any spawns in Rain weather to improve catch rates."
+        "answer": "Aquap's current reference entry lists Golden Fish as its preferred food. Use that detail to plan a Crystal Lake visit, then confirm the page's time and weather notes before spending limited resources."
       },
       {
         "question": "What does Aquap drop?",
-        "answer": "Aquap drops Water Stone,Pearl. Farm hab003 during Any in Rain weather for best results."
+        "answer": "The current reference entry lists Water Stone and Pearl as Aquap's drops. Farm Crystal Lake only when those materials support a named upgrade, recipe, or team goal."
       },
       {
         "question": "What mistakes do players make with Aquap?",
-        "answer": "Common mistakes: Treating Aquap like Aquashell and expecting it to tank slow fights.; Spending Golden Fish before confirming the route needs rain support.; Continuing to farm Pearl after the starter water upgrade is done.. Check the hab003 route before farming Aquap."
+        "answer": "Players most often lose value by treating Aquap like Aquashell and expecting it to tank slow fights, spending Golden Fish before confirming the route needs rain support, and continuing to farm Pearl after the starter water upgrade is done. Keep the Crystal Lake run focused on one goal, then leave when that goal is met."
       }
     ],
     "updated_at": "2026-05-26",
@@ -371,15 +371,15 @@
       },
       {
         "question": "What food attracts Zaprat?",
-        "answer": "Zaprat is attracted by Cheese. Use it in hab004 during Morning spawns in Windy weather to improve catch rates."
+        "answer": "This page records Cheese as Zaprat's preferred food. Treat it as a route-planning note rather than a guaranteed result, and recheck the habitat conditions after any game update."
       },
       {
         "question": "What does Zaprat drop?",
-        "answer": "Zaprat drops Thunder Stone,Lightning Rod. Farm hab004 during Morning in Windy weather for best results."
+        "answer": "Zaprat's listed drops are Thunder Stone and Lightning Rod. It is usually more efficient to stop once the material you need is secured than to turn the run into an unfocused full clear."
       },
       {
         "question": "What mistakes do players make with Zaprat?",
-        "answer": "Common mistakes: Expecting Zaprat to survive like a defender.; Using Cheese before confirming the Morning / Windy route.; Farming Thunder Stone here when a sturdier Electric option would be safer.. Check the hab004 route before farming Zaprat."
+        "answer": "Players most often lose value by expecting Zaprat to survive like a defender, using Cheese before confirming the Morning / Windy route, and farming Thunder Stone here when a sturdier Electric option would be safer. A short route plan and a clear exit rule prevent most wasted resources."
       }
     ],
     "updated_at": "2026-05-26",
@@ -449,15 +449,15 @@
       },
       {
         "question": "What food attracts Leafon?",
-        "answer": "Leafon is attracted by Mystery Mushroom. Use it in hab002 during Night spawns in Foggy weather to improve catch rates."
+        "answer": "For the route documented here, Mystery Mushroom is listed as Leafon's preferred food. Match it with the Forest Valley conditions shown above instead of committing items during a first scouting run."
       },
       {
         "question": "What does Leafon drop?",
-        "answer": "Leafon drops Poison Stone,Leaf Stone. Farm hab002 during Night in Foggy weather for best results."
+        "answer": "This page records Poison Stone and Leaf Stone as the materials associated with Leafon. Check the route conditions before repeating a farm, because drop and spawn details can change after balance updates."
       },
       {
         "question": "What mistakes do players make with Leafon?",
-        "answer": "Common mistakes: Using Leafon as a generic Grass farmer.; Applying Poison Powder after the main threat is already handled.; Forcing Leafon into long control routes better suited to Magicalure.. Check the hab002 route before farming Leafon."
+        "answer": "Players most often lose value by using Leafon as a generic Grass farmer, applying Poison Powder after the main threat is already handled, and forcing Leafon into long control routes better suited to Magicalure. Before repeating the route, identify which of those decisions caused the previous run to fail."
       }
     ],
     "updated_at": "2026-05-26",
@@ -527,15 +527,15 @@
       },
       {
         "question": "What food attracts Flamexor?",
-        "answer": "Flamexor is attracted by Iron Ore. Use it in hab001 during Night spawns in Clear weather to improve catch rates."
+        "answer": "Flamexor's current reference entry lists Iron Ore as its preferred food. Use that detail to plan a Volcanic Cave visit, then confirm the page's time and weather notes before spending limited resources."
       },
       {
         "question": "What does Flamexor drop?",
-        "answer": "Flamexor drops Fire Stone,Metal Coat,Legendary Scale. Farm hab001 during Night in Clear weather for best results."
+        "answer": "The current reference entry lists Fire Stone, Metal Coat, and Legendary Scale as Flamexor's drops. Farm Volcanic Cave only when those materials support a named upgrade, recipe, or team goal."
       },
       {
         "question": "What mistakes do players make with Flamexor?",
-        "answer": "Common mistakes: Using Flamexor for cheap Fire farming.; Saving Iron Defense until after the dangerous damage already lands.; Continuing to farm common drops after Legendary Scale is finished.. Check the hab001 route before farming Flamexor."
+        "answer": "Players most often lose value by using Flamexor for cheap Fire farming, saving Iron Defense until after the dangerous damage already lands, and continuing to farm common drops after Legendary Scale is finished. Keep the Volcanic Cave run focused on one goal, then leave when that goal is met."
       }
     ],
     "updated_at": "2026-05-26",
@@ -605,15 +605,15 @@
       },
       {
         "question": "What food attracts Tidlet?",
-        "answer": "Tidlet is attracted by Any Food. Use it in hab005 during Day spawns in Snow weather to improve catch rates."
+        "answer": "This page records Any Food as Tidlet's preferred food. Treat it as a route-planning note rather than a guaranteed result, and recheck the habitat conditions after any game update."
       },
       {
         "question": "What does Tidlet drop?",
-        "answer": "Tidlet drops Fur,Cloth. Farm hab005 during Day in Snow weather for best results."
+        "answer": "Tidlet's listed drops are Fur and Cloth. It is usually more efficient to stop once the material you need is secured than to turn the run into an unfocused full clear."
       },
       {
         "question": "What mistakes do players make with Tidlet?",
-        "answer": "Common mistakes: Using Tidlet as a damage carry.; Continuing after support gear no longer needs Fur or Cloth.; Ignoring whether Play Nice actually changes the fight.. Check the hab005 route before farming Tidlet."
+        "answer": "Players most often lose value by using Tidlet as a damage carry, continuing after support gear no longer needs Fur or Cloth, and ignoring whether Play Nice actually changes the fight. A short route plan and a clear exit rule prevent most wasted resources."
       }
     ],
     "updated_at": "2026-05-26",
@@ -678,19 +678,19 @@
       },
       {
         "question": "What does Shados drop?",
-        "answer": "Shados drops Ghost Stone and Soul Dust. Leave early when the ghost material goal is done."
+        "answer": "This page records Ghost Stone and Soul Dust as the materials associated with Shados. Check the route conditions before repeating a farm, because drop and spawn details can change after balance updates."
       },
       {
         "question": "What food attracts Shados?",
-        "answer": "Shados is attracted by Soul Dust. Use it in hab006 during Night spawns in Stormy weather to improve catch rates."
+        "answer": "For the route documented here, Soul Dust is listed as Shados's preferred food. Match it with the Shadow Marsh conditions shown above instead of committing items during a first scouting run."
       },
       {
         "question": "What does Shados drop?",
-        "answer": "Shados drops Ghost Stone,Soul Dust. Farm hab006 during Night in Stormy weather for best results."
+        "answer": "This page records Ghost Stone and Soul Dust as the materials associated with Shados. Check the route conditions before repeating a farm, because drop and spawn details can change after balance updates."
       },
       {
         "question": "What mistakes do players make with Shados?",
-        "answer": "Common mistakes: Using Shados as a legendary hunt substitute.; Spending Soul Dust when Ghost Stone is already finished.; Full-clearing Shadow Marsh after a quick Shados miss.. Check the hab006 route before farming Shados."
+        "answer": "Players most often lose value by using Shados as a legendary hunt substitute, spending Soul Dust when Ghost Stone is already finished, and full-clearing Shadow Marsh after a quick Shados miss. Before repeating the route, identify which of those decisions caused the previous run to fail."
       }
     ],
     "updated_at": "2026-05-26",
@@ -760,15 +760,15 @@
       },
       {
         "question": "What food attracts Mechabit?",
-        "answer": "Mechabit is attracted by Battery. Use it in hab004 during Any spawns in Thunderstorm weather to improve catch rates."
+        "answer": "Mechabit's current reference entry lists Battery as its preferred food. Use that detail to plan a Windmill Plains visit, then confirm the page's time and weather notes before spending limited resources."
       },
       {
         "question": "What does Mechabit drop?",
-        "answer": "Mechabit drops Metal Coat,Piston. Farm hab004 during Any in Thunderstorm weather for best results."
+        "answer": "The current reference entry lists Metal Coat and Piston as Mechabit's drops. Farm Windmill Plains only when those materials support a named upgrade, recipe, or team goal."
       },
       {
         "question": "What mistakes do players make with Mechabit?",
-        "answer": "Common mistakes: Firing Zap Cannon without first creating a safe Lock-On turn.; Using Mechabit for generic Metal Coat farming when a cheaper route exists.; Ignoring Ground counters because the page looks defensively strong.. Check the hab004 route before farming Mechabit."
+        "answer": "Players most often lose value by firing Zap Cannon without first creating a safe Lock-On turn, using Mechabit for generic Metal Coat farming when a cheaper route exists, and ignoring Ground counters because the page looks defensively strong. Keep the Windmill Plains run focused on one goal, then leave when that goal is met."
       }
     ],
     "updated_at": "2026-05-26",
@@ -838,15 +838,15 @@
       },
       {
         "question": "What food attracts Rockler?",
-        "answer": "Rockler is attracted by Stone. Use it in hab007 during Any spawns in Clear weather to improve catch rates."
+        "answer": "This page records Stone as Rockler's preferred food. Treat it as a route-planning note rather than a guaranteed result, and recheck the habitat conditions after any game update."
       },
       {
         "question": "What does Rockler drop?",
-        "answer": "Rockler drops Stone,Rock Fragment. Farm hab007 during Any in Clear weather for best results."
+        "answer": "Rockler's listed drops are Stone and Rock Fragment. It is usually more efficient to stop once the material you need is secured than to turn the run into an unfocused full clear."
       },
       {
         "question": "What mistakes do players make with Rockler?",
-        "answer": "Common mistakes: Expecting Rockler to produce rare gem value.; Using Stealth Rock in fights that end before setup matters.; Ignoring type counters because its defense looks high.. Check the hab007 route before farming Rockler."
+        "answer": "Players most often lose value by expecting Rockler to produce rare gem value, using Stealth Rock in fights that end before setup matters, and ignoring type counters because its defense looks high. A short route plan and a clear exit rule prevent most wasted resources."
       }
     ],
     "updated_at": "2026-05-26",
@@ -916,15 +916,15 @@
       },
       {
         "question": "What food attracts Crystion?",
-        "answer": "Crystion is attracted by Gem. Use it in hab007 during Night spawns in Snow weather to improve catch rates."
+        "answer": "For the route documented here, Gem is listed as Crystion's preferred food. Match it with the Gemstone Canyon conditions shown above instead of committing items during a first scouting run."
       },
       {
         "question": "What does Crystion drop?",
-        "answer": "Crystion drops Crystal Shard,Diamond. Farm hab007 during Night in Snow weather for best results."
+        "answer": "This page records Crystal Shard and Diamond as the materials associated with Crystion. Check the route conditions before repeating a farm, because drop and spawn details can change after balance updates."
       },
       {
         "question": "What mistakes do players make with Crystion?",
-        "answer": "Common mistakes: Using Crystion as a general canyon attacker.; Spending Gem without Night / Snow value.; Continuing after Diamond is already solved.. Check the hab007 route before farming Crystion."
+        "answer": "Players most often lose value by using Crystion as a general canyon attacker, spending Gem without Night / Snow value, and continuing after Diamond is already solved. Before repeating the route, identify which of those decisions caused the previous run to fail."
       }
     ],
     "updated_at": "2026-05-26",
@@ -994,15 +994,15 @@
       },
       {
         "question": "What food attracts Emberal?",
-        "answer": "Emberal is attracted by Hot Pepper. Use it in hab001 during Day spawns in Sunny weather to improve catch rates."
+        "answer": "Emberal's current reference entry lists Hot Pepper as its preferred food. Use that detail to plan a Volcanic Cave visit, then confirm the page's time and weather notes before spending limited resources."
       },
       {
         "question": "What does Emberal drop?",
-        "answer": "Emberal drops Fire Stone,Flame Ore. Farm hab001 during Day in Sunny weather for best results."
+        "answer": "The current reference entry lists Fire Stone and Flame Ore as Emberal's drops. Farm Volcanic Cave only when those materials support a named upgrade, recipe, or team goal."
       },
       {
         "question": "What mistakes do players make with Emberal?",
-        "answer": "Common mistakes: Treating Emberal like a premium attacker instead of a low-cost farming choice.; Staying in Volcanic Cave after Flame Ore is already stocked.; Comparing it to Pikafire without checking whether Electric reach is needed.. Check the hab001 route before farming Emberal."
+        "answer": "Players most often lose value by treating Emberal like a premium attacker instead of a low-cost farming choice, staying in Volcanic Cave after Flame Ore is already stocked, and comparing it to Pikafire without checking whether Electric reach is needed. Keep the Volcanic Cave run focused on one goal, then leave when that goal is met."
       }
     ],
     "updated_at": "2026-05-26",
@@ -1067,19 +1067,19 @@
       },
       {
         "question": "What does Glacior drop?",
-        "answer": "Glacior drops Ice Stone and Frost Crystal. Repeat only while one of those materials has an active use."
+        "answer": "Glacior's listed drops are Ice Stone and Frost Crystal. It is usually more efficient to stop once the material you need is secured than to turn the run into an unfocused full clear."
       },
       {
         "question": "What food attracts Glacior?",
-        "answer": "Glacior is attracted by Snowball. Use it in hab005 during Any spawns in Snow weather to improve catch rates."
+        "answer": "This page records Snowball as Glacior's preferred food. Treat it as a route-planning note rather than a guaranteed result, and recheck the habitat conditions after any game update."
       },
       {
         "question": "What does Glacior drop?",
-        "answer": "Glacior drops Ice Stone,Frost Crystal. Farm hab005 during Any in Snow weather for best results."
+        "answer": "Glacior's listed drops are Ice Stone and Frost Crystal. It is usually more efficient to stop once the material you need is secured than to turn the run into an unfocused full clear."
       },
       {
         "question": "What mistakes do players make with Glacior?",
-        "answer": "Common mistakes: Using Glacior as a damage carry.; Spending Snowball before checking Aurora Veil value.; Farming it in place of a dedicated rare ice target.. Check the hab005 route before farming Glacior."
+        "answer": "Players most often lose value by using Glacior as a damage carry, spending Snowball before checking Aurora Veil value, and farming it in place of a dedicated rare ice target. A short route plan and a clear exit rule prevent most wasted resources."
       }
     ],
     "updated_at": "2026-05-26",
@@ -1144,19 +1144,19 @@
       },
       {
         "question": "What does Voltscale drop?",
-        "answer": "Voltscale drops Thunder Stone and Dragon Scale. Dragon Scale is the main reason to repeat."
+        "answer": "This page records Thunder Stone and Dragon Scale as the materials associated with Voltscale. Check the route conditions before repeating a farm, because drop and spawn details can change after balance updates."
       },
       {
         "question": "What food attracts Voltscale?",
-        "answer": "Voltscale is attracted by Lightning Bug. Use it in hab004 during Night spawns in Thunderstorm weather to improve catch rates."
+        "answer": "For the route documented here, Lightning Bug is listed as Voltscale's preferred food. Match it with the Windmill Plains conditions shown above instead of committing items during a first scouting run."
       },
       {
         "question": "What does Voltscale drop?",
-        "answer": "Voltscale drops Thunder Stone,Dragon Scale. Farm hab004 during Night in Thunderstorm weather for best results."
+        "answer": "This page records Thunder Stone and Dragon Scale as the materials associated with Voltscale. Check the route conditions before repeating a farm, because drop and spawn details can change after balance updates."
       },
       {
         "question": "What mistakes do players make with Voltscale?",
-        "answer": "Common mistakes: Farming Voltscale like Zaprat.; Spending Lightning Bug outside Thunderstorm timing.; Continuing into metal branches after the dragon check.. Check the hab004 route before farming Voltscale."
+        "answer": "Players most often lose value by farming Voltscale like Zaprat, spending Lightning Bug outside Thunderstorm timing, and continuing into metal branches after the dragon check. Before repeating the route, identify which of those decisions caused the previous run to fail."
       }
     ],
     "updated_at": "2026-05-26",
@@ -1222,19 +1222,19 @@
       },
       {
         "question": "What does Breezel drop?",
-        "answer": "Breezel drops Feather and Wind Essence. Repeat only while the beginner flying loop still teaches or pays."
+        "answer": "The current reference entry lists Feather and Wind Essence as Breezel's drops. Farm Sky Isles only when those materials support a named upgrade, recipe, or team goal."
       },
       {
         "question": "What food attracts Breezel?",
-        "answer": "Breezel is attracted by Feather. Use it in hab008 during Day spawns in Windy weather to improve catch rates."
+        "answer": "Breezel's current reference entry lists Feather as its preferred food. Use that detail to plan a Sky Isles visit, then confirm the page's time and weather notes before spending limited resources."
       },
       {
         "question": "What does Breezel drop?",
-        "answer": "Breezel drops Feather,Wind Essence. Farm hab008 during Day in Windy weather for best results."
+        "answer": "The current reference entry lists Feather and Wind Essence as Breezel's drops. Farm Sky Isles only when those materials support a named upgrade, recipe, or team goal."
       },
       {
         "question": "What mistakes do players make with Breezel?",
-        "answer": "Common mistakes: Treating Breezel like a rare Sky Isles target.; Spending Feather before the first air branch is known.; Continuing after the beginner loop has answered its question.. Check the hab008 route before farming Breezel."
+        "answer": "Players most often lose value by treating Breezel like a rare Sky Isles target, spending Feather before the first air branch is known, and continuing after the beginner loop has answered its question. Keep the Sky Isles run focused on one goal, then leave when that goal is met."
       }
     ],
     "updated_at": "2026-05-26",
@@ -1304,15 +1304,15 @@
       },
       {
         "question": "What food attracts Thornvine?",
-        "answer": "Thornvine is attracted by Berry. Use it in hab002 during Any spawns in Rain weather to improve catch rates."
+        "answer": "This page records Berry as Thornvine's preferred food. Treat it as a route-planning note rather than a guaranteed result, and recheck the habitat conditions after any game update."
       },
       {
         "question": "What does Thornvine drop?",
-        "answer": "Thornvine drops Leaf,Thorn. Farm hab002 during Any in Rain weather for best results."
+        "answer": "Thornvine's listed drops are Leaf and Thorn. It is usually more efficient to stop once the material you need is secured than to turn the run into an unfocused full clear."
       },
       {
         "question": "What mistakes do players make with Thornvine?",
-        "answer": "Common mistakes: Using Thornvine for fast Grass farming when a lighter pick would do.; Waiting too long to apply Leech Seed.; Confusing its ground attrition role with Tropius-style air support.. Check the hab002 route before farming Thornvine."
+        "answer": "Players most often lose value by using Thornvine for fast Grass farming when a lighter pick would do, waiting too long to apply Leech Seed, and confusing its ground attrition role with Tropius-style air support. A short route plan and a clear exit rule prevent most wasted resources."
       }
     ],
     "updated_at": "2026-05-26",
@@ -1382,15 +1382,15 @@
       },
       {
         "question": "What food attracts Mudkipz?",
-        "answer": "Mudkipz is attracted by Mud Ball. Use it in hab009 during Any spawns in Rain weather to improve catch rates."
+        "answer": "For the route documented here, Mud Ball is listed as Mudkipz's preferred food. Match it with the Muddy River conditions shown above instead of committing items during a first scouting run."
       },
       {
         "question": "What does Mudkipz drop?",
-        "answer": "Mudkipz drops Mud Stone,Water Stone. Farm hab009 during Any in Rain weather for best results."
+        "answer": "This page records Mud Stone and Water Stone as the materials associated with Mudkipz. Check the route conditions before repeating a farm, because drop and spawn details can change after balance updates."
       },
       {
         "question": "What mistakes do players make with Mudkipz?",
-        "answer": "Common mistakes: Forcing Mudkipz into specialized poison or stealth routes.; Ignoring the rain requirement and blaming the Pokémon for weak pacing.; Continuing after only one of the two stone drops is still relevant.. Check the hab009 route before farming Mudkipz."
+        "answer": "Players most often lose value by forcing Mudkipz into specialized poison or stealth routes, ignoring the rain requirement and blaming the Pokémon for weak pacing, and continuing after only one of the two stone drops is still relevant. Before repeating the route, identify which of those decisions caused the previous run to fail."
       }
     ],
     "updated_at": "2026-05-26",
@@ -1460,15 +1460,15 @@
       },
       {
         "question": "What food attracts Bronzorm?",
-        "answer": "Bronzorm is attracted by Coin. Use it in hab010 during Day spawns in Cloudy weather to improve catch rates."
+        "answer": "Bronzorm's current reference entry lists Coin as its preferred food. Use that detail to plan a Ancient Ruins visit, then confirm the page's time and weather notes before spending limited resources."
       },
       {
         "question": "What does Bronzorm drop?",
-        "answer": "Bronzorm drops Metal Coat,Bronze Medal. Farm hab010 during Day in Cloudy weather for best results."
+        "answer": "The current reference entry lists Metal Coat and Bronze Medal as Bronzorm's drops. Farm Ancient Ruins only when those materials support a named upgrade, recipe, or team goal."
       },
       {
         "question": "What mistakes do players make with Bronzorm?",
-        "answer": "Common mistakes: Treating Bronzorm as a damage carry.; Farming Metal Coat here without needing Bronze Medal.; Using Recover too late to change the fight.. Check the hab010 route before farming Bronzorm."
+        "answer": "Players most often lose value by treating Bronzorm as a damage carry, farming Metal Coat here without needing Bronze Medal, and using Recover too late to change the fight. Keep the Ancient Ruins run focused on one goal, then leave when that goal is met."
       }
     ],
     "updated_at": "2026-05-26",
@@ -1533,19 +1533,19 @@
       },
       {
         "question": "What does Flamingo drop?",
-        "answer": "Flamingo drops Fire Stone and Feather. Repeat when both sides still help the build."
+        "answer": "Flamingo's listed drops are Fire Stone and Feather. It is usually more efficient to stop once the material you need is secured than to turn the run into an unfocused full clear."
       },
       {
         "question": "What food attracts Flamingo?",
-        "answer": "Flamingo is attracted by Hot Seed. Use it in hab008 during Day spawns in Sunny weather to improve catch rates."
+        "answer": "This page records Hot Seed as Flamingo's preferred food. Treat it as a route-planning note rather than a guaranteed result, and recheck the habitat conditions after any game update."
       },
       {
         "question": "What does Flamingo drop?",
-        "answer": "Flamingo drops Fire Stone,Feather. Farm hab008 during Day in Sunny weather for best results."
+        "answer": "Flamingo's listed drops are Fire Stone and Feather. It is usually more efficient to stop once the material you need is secured than to turn the run into an unfocused full clear."
       },
       {
         "question": "What mistakes do players make with Flamingo?",
-        "answer": "Common mistakes: Using Flamingo like Breezel.; Spending Hot Seed for generic feather farming.; Ignoring Day / Sunny before testing fire value.. Check the hab008 route before farming Flamingo."
+        "answer": "Players most often lose value by using Flamingo like Breezel, spending Hot Seed for generic feather farming, and ignoring Day / Sunny before testing fire value. A short route plan and a clear exit rule prevent most wasted resources."
       }
     ],
     "updated_at": "2026-05-26",
@@ -1612,19 +1612,19 @@
       },
       {
         "question": "What does Stealthfin drop?",
-        "answer": "Stealthfin differs from Toxifin because it is the rare night hunt, while Toxifin is the repeatable poison loop."
+        "answer": "This page records Deep Sea Tooth and Dark Gem as the materials associated with Stealthfin. Check the route conditions before repeating a farm, because drop and spawn details can change after balance updates."
       },
       {
         "question": "What food attracts Stealthfin?",
-        "answer": "Stealthfin is attracted by Fish. Use it in hab009 during Night spawns in Rain weather to improve catch rates."
+        "answer": "For the route documented here, Fish is listed as Stealthfin's preferred food. Match it with the Muddy River conditions shown above instead of committing items during a first scouting run."
       },
       {
         "question": "What does Stealthfin drop?",
-        "answer": "Stealthfin drops Deep Sea Tooth,Dark Gem. Farm hab009 during Night in Rain weather for best results."
+        "answer": "This page records Deep Sea Tooth and Dark Gem as the materials associated with Stealthfin. Check the route conditions before repeating a farm, because drop and spawn details can change after balance updates."
       },
       {
         "question": "What mistakes do players make with Stealthfin?",
-        "answer": "Common mistakes: Using Stealthfin for Gill or Poison Stone goals.; Spending Fish before the night branch is mapped.; Letting the run continue after the rare dark-water check fails.; Judging Stealthfin by normal water farming efficiency.. Check the hab009 route before farming Stealthfin."
+        "answer": "Players most often lose value by using Stealthfin for Gill or Poison Stone goals, spending Fish before the night branch is mapped, and letting the run continue after the rare dark-water check fails. Before repeating the route, identify which of those decisions caused the previous run to fail."
       }
     ],
     "updated_at": "2026-05-26",
@@ -1689,19 +1689,19 @@
       },
       {
         "question": "What does Frostbite drop?",
-        "answer": "Frostbite drops Ghost Stone and Ice Crystal. Repeat when both the night window and material goal line up."
+        "answer": "The current reference entry lists Ghost Stone and Ice Crystal as Frostbite's drops. Farm Frost Peak only when those materials support a named upgrade, recipe, or team goal."
       },
       {
         "question": "What food attracts Frostbite?",
-        "answer": "Frostbite is attracted by Frozen Soul. Use it in hab005 during Night spawns in Snow weather to improve catch rates."
+        "answer": "Frostbite's current reference entry lists Frozen Soul as its preferred food. Use that detail to plan a Frost Peak visit, then confirm the page's time and weather notes before spending limited resources."
       },
       {
         "question": "What does Frostbite drop?",
-        "answer": "Frostbite drops Ghost Stone,Ice Crystal. Farm hab005 during Night in Snow weather for best results."
+        "answer": "The current reference entry lists Ghost Stone and Ice Crystal as Frostbite's drops. Farm Frost Peak only when those materials support a named upgrade, recipe, or team goal."
       },
       {
         "question": "What mistakes do players make with Frostbite?",
-        "answer": "Common mistakes: Using Frostbite like a support page.; Spending Frozen Soul before the branch is safe.; Ignoring Ice Crystal value after Ghost Stone is finished.. Check the hab005 route before farming Frostbite."
+        "answer": "Players most often lose value by using Frostbite like a support page, spending Frozen Soul before the branch is safe, and ignoring Ice Crystal value after Ghost Stone is finished. Keep the Frost Peak run focused on one goal, then leave when that goal is met."
       }
     ],
     "updated_at": "2026-05-26",
@@ -1771,15 +1771,15 @@
       },
       {
         "question": "What food attracts Sunflora?",
-        "answer": "Sunflora is attracted by Sunstone. Use it in hab002 during Day spawns in Sunny weather to improve catch rates."
+        "answer": "This page records Sunstone as Sunflora's preferred food. Treat it as a route-planning note rather than a guaranteed result, and recheck the habitat conditions after any game update."
       },
       {
         "question": "What does Sunflora drop?",
-        "answer": "Sunflora drops Sun Stone,Flame Ore. Farm hab002 during Day in Sunny weather for best results."
+        "answer": "Sunflora's listed drops are Sun Stone and Flame Ore. It is usually more efficient to stop once the material you need is secured than to turn the run into an unfocused full clear."
       },
       {
         "question": "What mistakes do players make with Sunflora?",
-        "answer": "Common mistakes: Using Sunflora without enough time for Sunny Day.; Farming Flame Ore here when a cave route would be cheaper.; Ignoring weather synergy and judging only the base moves.. Check the hab002 route before farming Sunflora."
+        "answer": "Players most often lose value by using Sunflora without enough time for Sunny Day, farming Flame Ore here when a cave route would be cheaper, and ignoring weather synergy and judging only the base moves. A short route plan and a clear exit rule prevent most wasted resources."
       }
     ],
     "updated_at": "2026-05-26",
@@ -1849,15 +1849,15 @@
       },
       {
         "question": "What food attracts Magnedex?",
-        "answer": "Magnedex is attracted by Magnet. Use it in hab004 during Any spawns in Thunderstorm weather to improve catch rates."
+        "answer": "For the route documented here, Magnet is listed as Magnedex's preferred food. Match it with the Windmill Plains conditions shown above instead of committing items during a first scouting run."
       },
       {
         "question": "What does Magnedex drop?",
-        "answer": "Magnedex drops Metal Coil,Magnet. Farm hab004 during Any in Thunderstorm weather for best results."
+        "answer": "This page records Metal Coil and Magnet as the materials associated with Magnedex. Check the route conditions before repeating a farm, because drop and spawn details can change after balance updates."
       },
       {
         "question": "What mistakes do players make with Magnedex?",
-        "answer": "Common mistakes: Using Magnedex as a pure tank when Mechabit fits better.; Spending Magnet without a planned Volt Switch target.; Ignoring Ground counters on Thunderstorm routes.. Check the hab004 route before farming Magnedex."
+        "answer": "Players most often lose value by using Magnedex as a pure tank when Mechabit fits better, spending Magnet without a planned Volt Switch target, and ignoring Ground counters on Thunderstorm routes. Before repeating the route, identify which of those decisions caused the previous run to fail."
       }
     ],
     "updated_at": "2026-05-26",
@@ -1927,15 +1927,15 @@
       },
       {
         "question": "What food attracts Tropius?",
-        "answer": "Tropius is attracted by Tropical Fruit. Use it in hab008 during Day spawns in Clear weather to improve catch rates."
+        "answer": "Tropius's current reference entry lists Tropical Fruit as its preferred food. Use that detail to plan a Sky Isles visit, then confirm the page's time and weather notes before spending limited resources."
       },
       {
         "question": "What does Tropius drop?",
-        "answer": "Tropius drops Leaf,Dragon Scale. Farm hab008 during Day in Clear weather for best results."
+        "answer": "The current reference entry lists Leaf and Dragon Scale as Tropius's drops. Farm Sky Isles only when those materials support a named upgrade, recipe, or team goal."
       },
       {
         "question": "What mistakes do players make with Tropius?",
-        "answer": "Common mistakes: Using Tropius for short Sky Isles clears where Roost never matters.; Chasing Dragon Scale without a build that uses it.; Comparing it to faster flyers without considering route length.. Check the hab008 route before farming Tropius."
+        "answer": "Players most often lose value by using Tropius for short Sky Isles clears where Roost never matters, chasing Dragon Scale without a build that uses it, and comparing it to faster flyers without considering route length. Keep the Sky Isles run focused on one goal, then leave when that goal is met."
       }
     ],
     "updated_at": "2026-05-26",
@@ -2005,15 +2005,15 @@
       },
       {
         "question": "What food attracts Skittlish?",
-        "answer": "Skittlish is attracted by Cookie. Use it in hab002 during Day spawns in Cloudy weather to improve catch rates."
+        "answer": "This page records Cookie as Skittlish's preferred food. Treat it as a route-planning note rather than a guaranteed result, and recheck the habitat conditions after any game update."
       },
       {
         "question": "What does Skittlish drop?",
-        "answer": "Skittlish drops Fur,Cloth. Farm hab002 during Day in Cloudy weather for best results."
+        "answer": "Skittlish's listed drops are Fur and Cloth. It is usually more efficient to stop once the material you need is secured than to turn the run into an unfocused full clear."
       },
       {
         "question": "What mistakes do players make with Skittlish?",
-        "answer": "Common mistakes: Expecting Skittlish to carry damage like an attacker.; Running it for materials after Fur and Cloth are already stocked.; Using Cookie before checking whether Body Slam has a real target.. Check the hab002 route before farming Skittlish."
+        "answer": "Players most often lose value by expecting Skittlish to carry damage like an attacker, running it for materials after Fur and Cloth are already stocked, and using Cookie before checking whether Body Slam has a real target. A short route plan and a clear exit rule prevent most wasted resources."
       }
     ],
     "updated_at": "2026-05-26",
@@ -2078,19 +2078,19 @@
       },
       {
         "question": "What does Dewdrop drop?",
-        "answer": "Dewdrop drops Water Stone and Star Piece. Stop when the support material is complete."
+        "answer": "This page records Water Stone and Star Piece as the materials associated with Dewdrop. Check the route conditions before repeating a farm, because drop and spawn details can change after balance updates."
       },
       {
         "question": "What food attracts Dewdrop?",
-        "answer": "Dewdrop is attracted by Crystal Dew. Use it in hab003 during Morning spawns in Rain weather to improve catch rates."
+        "answer": "For the route documented here, Crystal Dew is listed as Dewdrop's preferred food. Match it with the Crystal Lake conditions shown above instead of committing items during a first scouting run."
       },
       {
         "question": "What does Dewdrop drop?",
-        "answer": "Dewdrop drops Water Stone,Star Piece. Farm hab003 during Morning in Rain weather for best results."
+        "answer": "This page records Water Stone and Star Piece as the materials associated with Dewdrop. Check the route conditions before repeating a farm, because drop and spawn details can change after balance updates."
       },
       {
         "question": "What mistakes do players make with Dewdrop?",
-        "answer": "Common mistakes: Treating Dewdrop like a rare Fairy Glen target.; Spending Crystal Dew for basic Water Stone only.; Ignoring Morning timing.. Check the hab003 route before farming Dewdrop."
+        "answer": "Players most often lose value by treating Dewdrop like a rare Fairy Glen target, spending Crystal Dew for basic Water Stone only, and ignoring Morning timing. Before repeating the route, identify which of those decisions caused the previous run to fail."
       }
     ],
     "updated_at": "2026-05-26",
@@ -2155,19 +2155,19 @@
       },
       {
         "question": "What does Magmar drop?",
-        "answer": "Magmar drops Fire Stone and Magma Core. Magma Core is the main reason to repeat."
+        "answer": "The current reference entry lists Fire Stone and Magma Core as Magmar's drops. Farm Volcanic Cave only when those materials support a named upgrade, recipe, or team goal."
       },
       {
         "question": "What food attracts Magmar?",
-        "answer": "Magmar is attracted by Magma Stone. Use it in hab001 during Night spawns in Clear weather to improve catch rates."
+        "answer": "Magmar's current reference entry lists Magma Stone as its preferred food. Use that detail to plan a Volcanic Cave visit, then confirm the page's time and weather notes before spending limited resources."
       },
       {
         "question": "What does Magmar drop?",
-        "answer": "Magmar drops Fire Stone,Magma Core. Farm hab001 during Night in Clear weather for best results."
+        "answer": "The current reference entry lists Fire Stone and Magma Core as Magmar's drops. Farm Volcanic Cave only when those materials support a named upgrade, recipe, or team goal."
       },
       {
         "question": "What mistakes do players make with Magmar?",
-        "answer": "Common mistakes: Using Magmar as a generic fire page.; Spending Magma Stone before the branch is mapped.; Ignoring Magma Core after Fire Stone is done.. Check the hab001 route before farming Magmar."
+        "answer": "Players most often lose value by using Magmar as a generic fire page, spending Magma Stone before the branch is mapped, and ignoring Magma Core after Fire Stone is done. Keep the Volcanic Cave run focused on one goal, then leave when that goal is met."
       }
     ],
     "updated_at": "2026-05-26",
@@ -2232,19 +2232,19 @@
       },
       {
         "question": "What does Snorizard drop?",
-        "answer": "Snorizard drops Dragon Scale and Ice Stone. Repeat only while dragon material value is active."
+        "answer": "Snorizard's listed drops are Dragon Scale and Ice Stone. It is usually more efficient to stop once the material you need is secured than to turn the run into an unfocused full clear."
       },
       {
         "question": "What food attracts Snorizard?",
-        "answer": "Snorizard is attracted by Frost Meat. Use it in hab005 during Any spawns in Snow weather to improve catch rates."
+        "answer": "This page records Frost Meat as Snorizard's preferred food. Treat it as a route-planning note rather than a guaranteed result, and recheck the habitat conditions after any game update."
       },
       {
         "question": "What does Snorizard drop?",
-        "answer": "Snorizard drops Dragon Scale,Ice Stone. Farm hab005 during Any in Snow weather for best results."
+        "answer": "Snorizard's listed drops are Dragon Scale and Ice Stone. It is usually more efficient to stop once the material you need is secured than to turn the run into an unfocused full clear."
       },
       {
         "question": "What mistakes do players make with Snorizard?",
-        "answer": "Common mistakes: Treating Snorizard like Tidlet or Glacior.; Using Frost Meat on a scout.; Continuing after Dragon Scale is no longer needed.. Check the hab005 route before farming Snorizard."
+        "answer": "Players most often lose value by treating Snorizard like Tidlet or Glacior, using Frost Meat on a scout, and continuing after Dragon Scale is no longer needed. A short route plan and a clear exit rule prevent most wasted resources."
       }
     ],
     "updated_at": "2026-05-26",
@@ -2309,19 +2309,19 @@
       },
       {
         "question": "What does Shadowclaw drop?",
-        "answer": "Shadowclaw drops Shadow Stone and King's Rock. Stop after the premium shadow check is answered."
+        "answer": "This page records Shadow Stone and King's Rock as the materials associated with Shadowclaw. Check the route conditions before repeating a farm, because drop and spawn details can change after balance updates."
       },
       {
         "question": "What food attracts Shadowclaw?",
-        "answer": "Shadowclaw is attracted by Void Fruit. Use it in hab006 during Night spawns in Stormy weather to improve catch rates."
+        "answer": "For the route documented here, Void Fruit is listed as Shadowclaw's preferred food. Match it with the Shadow Marsh conditions shown above instead of committing items during a first scouting run."
       },
       {
         "question": "What does Shadowclaw drop?",
-        "answer": "Shadowclaw drops Shadow Stone,King's Rock. Farm hab006 during Night in Stormy weather for best results."
+        "answer": "This page records Shadow Stone and King's Rock as the materials associated with Shadowclaw. Check the route conditions before repeating a farm, because drop and spawn details can change after balance updates."
       },
       {
         "question": "What mistakes do players make with Shadowclaw?",
-        "answer": "Common mistakes: Treating Shadowclaw like a cheap ghost farm.; Spending Void Fruit without an exit rule.; Ignoring the Dark side when comparing it to Shados.. Check the hab006 route before farming Shadowclaw."
+        "answer": "Players most often lose value by treating Shadowclaw like a cheap ghost farm, spending Void Fruit without an exit rule, and ignoring the Dark side when comparing it to Shados. Before repeating the route, identify which of those decisions caused the previous run to fail."
       }
     ],
     "updated_at": "2026-05-26",
@@ -2391,15 +2391,15 @@
       },
       {
         "question": "What food attracts Crystalwing?",
-        "answer": "Crystalwing is attracted by Gem Shard. Use it in hab008 during Day spawns in Windy weather to improve catch rates."
+        "answer": "Crystalwing's current reference entry lists Gem Shard as its preferred food. Use that detail to plan a Sky Isles visit, then confirm the page's time and weather notes before spending limited resources."
       },
       {
         "question": "What does Crystalwing drop?",
-        "answer": "Crystalwing drops Crystal Shard,Feather. Farm hab008 during Day in Windy weather for best results."
+        "answer": "The current reference entry lists Crystal Shard and Feather as Crystalwing's drops. Farm Sky Isles only when those materials support a named upgrade, recipe, or team goal."
       },
       {
         "question": "What mistakes do players make with Crystalwing?",
-        "answer": "Common mistakes: Using Crystalwing as a generic Flying attacker.; Spending Gem Shard before confirming Day / Windy value.; Continuing the route after only Feather remains relevant.. Check the hab008 route before farming Crystalwing."
+        "answer": "Players most often lose value by using Crystalwing as a generic Flying attacker, spending Gem Shard before confirming Day / Windy value, and continuing the route after only Feather remains relevant. Keep the Sky Isles run focused on one goal, then leave when that goal is met."
       }
     ],
     "updated_at": "2026-05-26",
@@ -2469,15 +2469,15 @@
       },
       {
         "question": "What food attracts Thornback?",
-        "answer": "Thornback is attracted by Leaf. Use it in hab002 during Any spawns in Cloudy weather to improve catch rates."
+        "answer": "This page records Leaf as Thornback's preferred food. Treat it as a route-planning note rather than a guaranteed result, and recheck the habitat conditions after any game update."
       },
       {
         "question": "What does Thornback drop?",
-        "answer": "Thornback drops Stone,Bug Shell. Farm hab002 during Any in Cloudy weather for best results."
+        "answer": "Thornback's listed drops are Stone and Bug Shell. It is usually more efficient to stop once the material you need is secured than to turn the run into an unfocused full clear."
       },
       {
         "question": "What mistakes do players make with Thornback?",
-        "answer": "Common mistakes: Using Thornback for general Grass farming.; Setting Spikes in fights that end too quickly.; Comparing it to Bulbin without checking the material target.. Check the hab002 route before farming Thornback."
+        "answer": "Players most often lose value by using Thornback for general Grass farming, setting Spikes in fights that end too quickly, and comparing it to Bulbin without checking the material target. A short route plan and a clear exit rule prevent most wasted resources."
       }
     ],
     "updated_at": "2026-05-26",
@@ -2547,15 +2547,15 @@
       },
       {
         "question": "What food attracts Emberfox?",
-        "answer": "Emberfox is attracted by Hot Pepper. Use it in hab001 during Night spawns in Clear weather to improve catch rates."
+        "answer": "For the route documented here, Hot Pepper is listed as Emberfox's preferred food. Match it with the Volcanic Cave conditions shown above instead of committing items during a first scouting run."
       },
       {
         "question": "What does Emberfox drop?",
-        "answer": "Emberfox drops Fire Stone,Psy Crystal. Farm hab001 during Night in Clear weather for best results."
+        "answer": "This page records Fire Stone and Psy Crystal as the materials associated with Emberfox. Check the route conditions before repeating a farm, because drop and spawn details can change after balance updates."
       },
       {
         "question": "What mistakes do players make with Emberfox?",
-        "answer": "Common mistakes: Using Emberfox as a plain Fire attacker when Emberal is cheaper.; Ignoring Psy Crystal and farming only the common Fire drop.; Casting Will-O-Wisp after the dangerous part of the fight is already over.. Check the hab001 route before farming Emberfox."
+        "answer": "Players most often lose value by using Emberfox as a plain Fire attacker when Emberal is cheaper, ignoring Psy Crystal and farming only the common Fire drop, and casting Will-O-Wisp after the dangerous part of the fight is already over. Before repeating the route, identify which of those decisions caused the previous run to fail."
       }
     ],
     "updated_at": "2026-05-26",
@@ -2625,15 +2625,15 @@
       },
       {
         "question": "What food attracts Aquashell?",
-        "answer": "Aquashell is attracted by Pearl. Use it in hab003 during Any spawns in Rain weather to improve catch rates."
+        "answer": "Aquashell's current reference entry lists Pearl as its preferred food. Use that detail to plan a Crystal Lake visit, then confirm the page's time and weather notes before spending limited resources."
       },
       {
         "question": "What does Aquashell drop?",
-        "answer": "Aquashell drops Shell,Pearl. Farm hab003 during Any in Rain weather for best results."
+        "answer": "The current reference entry lists Shell and Pearl as Aquashell's drops. Farm Crystal Lake only when those materials support a named upgrade, recipe, or team goal."
       },
       {
         "question": "What mistakes do players make with Aquashell?",
-        "answer": "Common mistakes: Using Aquashell when the team actually needs Aquap’s support pacing.; Spending Pearl before Withdraw can protect the setup turn.; Judging the page by damage instead of damage prevented.. Check the hab003 route before farming Aquashell."
+        "answer": "Players most often lose value by using Aquashell when the team actually needs Aquap’s support pacing, spending Pearl before Withdraw can protect the setup turn, and judging the page by damage instead of damage prevented. Keep the Crystal Lake run focused on one goal, then leave when that goal is met."
       }
     ],
     "updated_at": "2026-05-26",
@@ -2703,15 +2703,15 @@
       },
       {
         "question": "What food attracts Zapbug?",
-        "answer": "Zapbug is attracted by Mushroom. Use it in hab004 during Morning spawns in Cloudy weather to improve catch rates."
+        "answer": "This page records Mushroom as Zapbug's preferred food. Treat it as a route-planning note rather than a guaranteed result, and recheck the habitat conditions after any game update."
       },
       {
         "question": "What does Zapbug drop?",
-        "answer": "Zapbug drops Thunder Stone,Bug Shell. Farm hab004 during Morning in Cloudy weather for best results."
+        "answer": "Zapbug's listed drops are Thunder Stone and Bug Shell. It is usually more efficient to stop once the material you need is secured than to turn the run into an unfocused full clear."
       },
       {
         "question": "What mistakes do players make with Zapbug?",
-        "answer": "Common mistakes: Using Zapbug as a raw damage speedster.; Casting Electroweb on targets that are already easy to control.; Farming Thunder Stone here when Bug Shell is no longer needed.. Check the hab004 route before farming Zapbug."
+        "answer": "Players most often lose value by using Zapbug as a raw damage speedster, casting Electroweb on targets that are already easy to control, and farming Thunder Stone here when Bug Shell is no longer needed. A short route plan and a clear exit rule prevent most wasted resources."
       }
     ],
     "updated_at": "2026-05-26",
@@ -2776,19 +2776,19 @@
       },
       {
         "question": "What does Mossling drop?",
-        "answer": "Mossling drops Leaf and Grass Fiber. Repeat while the route needs low-risk recovery value."
+        "answer": "This page records Leaf and Grass Fiber as the materials associated with Mossling. Check the route conditions before repeating a farm, because drop and spawn details can change after balance updates."
       },
       {
         "question": "What food attracts Mossling?",
-        "answer": "Mossling is attracted by Leaf. Use it in hab002 during Any spawns in Rain weather to improve catch rates."
+        "answer": "For the route documented here, Leaf is listed as Mossling's preferred food. Match it with the Forest Valley conditions shown above instead of committing items during a first scouting run."
       },
       {
         "question": "What does Mossling drop?",
-        "answer": "Mossling drops Leaf,Grass Fiber. Farm hab002 during Any in Rain weather for best results."
+        "answer": "This page records Leaf and Grass Fiber as the materials associated with Mossling. Check the route conditions before repeating a farm, because drop and spawn details can change after balance updates."
       },
       {
         "question": "What mistakes do players make with Mossling?",
-        "answer": "Common mistakes: Using Mossling like a rare support target.; Spending Leaf when the route needs burst damage.; Ignoring its simple sustain identity.. Check the hab002 route before farming Mossling."
+        "answer": "Players most often lose value by using Mossling like a rare support target, spending Leaf when the route needs burst damage, and ignoring its simple sustain identity. Before repeating the route, identify which of those decisions caused the previous run to fail."
       }
     ],
     "updated_at": "2026-05-26",
@@ -2858,15 +2858,15 @@
       },
       {
         "question": "What food attracts Ironclaw?",
-        "answer": "Ironclaw is attracted by Iron Ore. Use it in hab010 during Any spawns in Cloudy weather to improve catch rates."
+        "answer": "Ironclaw's current reference entry lists Iron Ore as its preferred food. Use that detail to plan a Ancient Ruins visit, then confirm the page's time and weather notes before spending limited resources."
       },
       {
         "question": "What does Ironclaw drop?",
-        "answer": "Ironclaw drops Metal Coat,Piston. Farm hab010 during Any in Cloudy weather for best results."
+        "answer": "The current reference entry lists Metal Coat and Piston as Ironclaw's drops. Farm Ancient Ruins only when those materials support a named upgrade, recipe, or team goal."
       },
       {
         "question": "What mistakes do players make with Ironclaw?",
-        "answer": "Common mistakes: Using Ironclaw like a defensive support.; Setting up Swords Dance without protection.; Farming shared Metal Coat here after Piston is done.. Check the hab010 route before farming Ironclaw."
+        "answer": "Players most often lose value by using Ironclaw like a defensive support, setting up Swords Dance without protection, and farming shared Metal Coat here after Piston is done. Keep the Ancient Ruins run focused on one goal, then leave when that goal is met."
       }
     ],
     "updated_at": "2026-05-26",
@@ -2931,19 +2931,19 @@
       },
       {
         "question": "What does Mysticat drop?",
-        "answer": "Mysticat drops Psy Crystal and Star Piece. It is worth repeating when screens prevent item loss."
+        "answer": "Mysticat's listed drops are Psy Crystal and Star Piece. It is usually more efficient to stop once the material you need is secured than to turn the run into an unfocused full clear."
       },
       {
         "question": "What food attracts Mysticat?",
-        "answer": "Mysticat is attracted by Star Sweet. Use it in hab010 during Night spawns in Clear weather to improve catch rates."
+        "answer": "This page records Star Sweet as Mysticat's preferred food. Treat it as a route-planning note rather than a guaranteed result, and recheck the habitat conditions after any game update."
       },
       {
         "question": "What does Mysticat drop?",
-        "answer": "Mysticat drops Psy Crystal,Star Piece. Farm hab010 during Night in Clear weather for best results."
+        "answer": "Mysticat's listed drops are Psy Crystal and Star Piece. It is usually more efficient to stop once the material you need is secured than to turn the run into an unfocused full clear."
       },
       {
         "question": "What mistakes do players make with Mysticat?",
-        "answer": "Common mistakes: Treating Mysticat like a healer.; Spending Star Sweet on an unmapped ruin path.; Ignoring screen timing and judging only damage.. Check the hab010 route before farming Mysticat."
+        "answer": "Players most often lose value by treating Mysticat like a healer, spending Star Sweet on an unmapped ruin path, and ignoring screen timing and judging only damage. A short route plan and a clear exit rule prevent most wasted resources."
       }
     ],
     "updated_at": "2026-05-26",
@@ -3013,15 +3013,15 @@
       },
       {
         "question": "What food attracts Boulderchin?",
-        "answer": "Boulderchin is attracted by Stone. Use it in hab007 during Any spawns in Sunny weather to improve catch rates."
+        "answer": "For the route documented here, Stone is listed as Boulderchin's preferred food. Match it with the Gemstone Canyon conditions shown above instead of committing items during a first scouting run."
       },
       {
         "question": "What does Boulderchin drop?",
-        "answer": "Boulderchin drops Stone,Rock Fragment. Farm hab007 during Any in Sunny weather for best results."
+        "answer": "This page records Stone and Rock Fragment as the materials associated with Boulderchin. Check the route conditions before repeating a farm, because drop and spawn details can change after balance updates."
       },
       {
         "question": "What mistakes do players make with Boulderchin?",
-        "answer": "Common mistakes: Turning Boulderchin into a rare gem hunt.; Using Stealth Rock in routes that should end quickly.; Ignoring type counters because the route feels low risk.. Check the hab007 route before farming Boulderchin."
+        "answer": "Players most often lose value by turning Boulderchin into a rare gem hunt, using Stealth Rock in routes that should end quickly, and ignoring type counters because the route feels low risk. Before repeating the route, identify which of those decisions caused the previous run to fail."
       }
     ],
     "updated_at": "2026-05-26",
@@ -3087,19 +3087,19 @@
       },
       {
         "question": "What does Windlor drop?",
-        "answer": "Windlor drops Feather and Wind Essence. It should outperform Breezel on control before repeated farming."
+        "answer": "The current reference entry lists Feather and Wind Essence as Windlor's drops. Farm Sky Isles only when those materials support a named upgrade, recipe, or team goal."
       },
       {
         "question": "What food attracts Windlor?",
-        "answer": "Windlor is attracted by Feather. Use it in hab008 during Day spawns in Windy weather to improve catch rates."
+        "answer": "Windlor's current reference entry lists Feather as its preferred food. Use that detail to plan a Sky Isles visit, then confirm the page's time and weather notes before spending limited resources."
       },
       {
         "question": "What does Windlor drop?",
-        "answer": "Windlor drops Feather,Wind Essence. Farm hab008 during Day in Windy weather for best results."
+        "answer": "The current reference entry lists Feather and Wind Essence as Windlor's drops. Farm Sky Isles only when those materials support a named upgrade, recipe, or team goal."
       },
       {
         "question": "What mistakes do players make with Windlor?",
-        "answer": "Common mistakes: Farming Windlor only because it shares Breezel drops.; Using Feather Dance after the dangerous moment has passed.; Expecting Windlor to teach the route from scratch.. Check the hab008 route before farming Windlor."
+        "answer": "Players most often lose value by farming Windlor only because it shares Breezel drops, using Feather Dance after the dangerous moment has passed, and expecting Windlor to teach the route from scratch. Keep the Sky Isles run focused on one goal, then leave when that goal is met."
       }
     ],
     "updated_at": "2026-05-26",
@@ -3166,19 +3166,19 @@
       },
       {
         "question": "What does Toxifin drop?",
-        "answer": "Toxifin differs from Stealthfin because it is repeatable and poison-focused rather than rare and dark-focused."
+        "answer": "Toxifin's listed drops are Poison Stone and Gill. It is usually more efficient to stop once the material you need is secured than to turn the run into an unfocused full clear."
       },
       {
         "question": "What food attracts Toxifin?",
-        "answer": "Toxifin is attracted by Fish. Use it in hab009 during Any spawns in Rain weather to improve catch rates."
+        "answer": "This page records Fish as Toxifin's preferred food. Treat it as a route-planning note rather than a guaranteed result, and recheck the habitat conditions after any game update."
       },
       {
         "question": "What does Toxifin drop?",
-        "answer": "Toxifin drops Poison Stone,Gill. Farm hab009 during Any in Rain weather for best results."
+        "answer": "Toxifin's listed drops are Poison Stone and Gill. It is usually more efficient to stop once the material you need is secured than to turn the run into an unfocused full clear."
       },
       {
         "question": "What mistakes do players make with Toxifin?",
-        "answer": "Common mistakes: Treating Toxifin like a rare night assassin.; Farming it when Deep Sea Tooth is the real goal.; Letting Toxic turn a short material pass into a long clear.; Ignoring Gill value after Poison Stone is finished.. Check the hab009 route before farming Toxifin."
+        "answer": "Players most often lose value by treating Toxifin like a rare night assassin, farming it when Deep Sea Tooth is the real goal, and letting Toxic turn a short material pass into a long clear. A short route plan and a clear exit rule prevent most wasted resources."
       }
     ],
     "updated_at": "2026-05-26",
@@ -3248,15 +3248,15 @@
       },
       {
         "question": "What food attracts Galebender?",
-        "answer": "Galebender is attracted by Mystic Root. Use it in hab007 during Night spawns in Foggy weather to improve catch rates."
+        "answer": "For the route documented here, Mystic Root is listed as Galebender's preferred food. Match it with the Gemstone Canyon conditions shown above instead of committing items during a first scouting run."
       },
       {
         "question": "What does Galebender drop?",
-        "answer": "Galebender drops Earth Gem,Fighting Ribbon. Farm hab007 during Night in Foggy weather for best results."
+        "answer": "This page records Earth Gem and Fighting Ribbon as the materials associated with Galebender. Check the route conditions before repeating a farm, because drop and spawn details can change after balance updates."
       },
       {
         "question": "What mistakes do players make with Galebender?",
-        "answer": "Common mistakes: Running Galebender like a passive mining defender.; Spending Mystic Root before checking the Earthquake target.; Choosing it for Diamond goals that belong to Crystal-focused pages.. Check the hab007 route before farming Galebender."
+        "answer": "Players most often lose value by running Galebender like a passive mining defender, spending Mystic Root before checking the Earthquake target, and choosing it for Diamond goals that belong to Crystal-focused pages. Before repeating the route, identify which of those decisions caused the previous run to fail."
       }
     ],
     "updated_at": "2026-05-26",
@@ -3326,15 +3326,15 @@
       },
       {
         "question": "What food attracts Sunreep?",
-        "answer": "Sunreep is attracted by Iron Ore. Use it in hab001 during Day spawns in Sunny weather to improve catch rates."
+        "answer": "Sunreep's current reference entry lists Iron Ore as its preferred food. Use that detail to plan a Volcanic Cave visit, then confirm the page's time and weather notes before spending limited resources."
       },
       {
         "question": "What does Sunreep drop?",
-        "answer": "Sunreep drops Fire Stone,Metal Coat. Farm hab001 during Day in Sunny weather for best results."
+        "answer": "The current reference entry lists Fire Stone and Metal Coat as Sunreep's drops. Farm Volcanic Cave only when those materials support a named upgrade, recipe, or team goal."
       },
       {
         "question": "What mistakes do players make with Sunreep?",
-        "answer": "Common mistakes: Using Sunreep for basic Flame Ore farming.; Ignoring Morning Sun and playing it like a pure glass cannon.; Choosing it when Pikafire’s Electric reach is the actual missing tool.. Check the hab001 route before farming Sunreep."
+        "answer": "Players most often lose value by using Sunreep for basic Flame Ore farming, ignoring Morning Sun and playing it like a pure glass cannon, and choosing it when Pikafire’s Electric reach is the actual missing tool. Keep the Volcanic Cave run focused on one goal, then leave when that goal is met."
       }
     ],
     "updated_at": "2026-05-26",
@@ -3399,19 +3399,19 @@
       },
       {
         "question": "What does Lunaflare drop?",
-        "answer": "Lunaflare drops Ghost Stone, Soul Dust, and Legendary Ember. Stop if the rare material is no longer relevant."
+        "answer": "Lunaflare's listed drops are Ghost Stone, Soul Dust, and Legendary Ember. It is usually more efficient to stop once the material you need is secured than to turn the run into an unfocused full clear."
       },
       {
         "question": "What food attracts Lunaflare?",
-        "answer": "Lunaflare is attracted by Soul Dust. Use it in hab006 during Night spawns in Stormy weather to improve catch rates."
+        "answer": "This page records Soul Dust as Lunaflare's preferred food. Treat it as a route-planning note rather than a guaranteed result, and recheck the habitat conditions after any game update."
       },
       {
         "question": "What does Lunaflare drop?",
-        "answer": "Lunaflare drops Ghost Stone,Soul Dust,Legendary Ember. Farm hab006 during Night in Stormy weather for best results."
+        "answer": "Lunaflare's listed drops are Ghost Stone, Soul Dust, and Legendary Ember. It is usually more efficient to stop once the material you need is secured than to turn the run into an unfocused full clear."
       },
       {
         "question": "What mistakes do players make with Lunaflare?",
-        "answer": "Common mistakes: Treating Lunaflare like a normal ghost farm.; Spending Soul Dust without a clear exit rule.; Ignoring the Fire side when comparing it with Shadowclaw.. Check the hab006 route before farming Lunaflare."
+        "answer": "Players most often lose value by treating Lunaflare like a normal ghost farm, spending Soul Dust without a clear exit rule, and ignoring the Fire side when comparing it with Shadowclaw. A short route plan and a clear exit rule prevent most wasted resources."
       }
     ],
     "updated_at": "2026-05-26",
@@ -3476,19 +3476,19 @@
       },
       {
         "question": "What does Stormbird drop?",
-        "answer": "Stormbird drops Thunder Stone, Feather, and Wind Essence. Move to Thunder Arena for pure electric farming."
+        "answer": "This page records Thunder Stone, Feather, and Wind Essence as the materials associated with Stormbird. Check the route conditions before repeating a farm, because drop and spawn details can change after balance updates."
       },
       {
         "question": "What food attracts Stormbird?",
-        "answer": "Stormbird is attracted by Feather. Use it in hab008 during Any spawns in Thunderstorm weather to improve catch rates."
+        "answer": "For the route documented here, Feather is listed as Stormbird's preferred food. Match it with the Sky Isles conditions shown above instead of committing items during a first scouting run."
       },
       {
         "question": "What does Stormbird drop?",
-        "answer": "Stormbird drops Thunder Stone,Feather,Wind Essence. Farm hab008 during Any in Thunderstorm weather for best results."
+        "answer": "This page records Thunder Stone, Feather, and Wind Essence as the materials associated with Stormbird. Check the route conditions before repeating a farm, because drop and spawn details can change after balance updates."
       },
       {
         "question": "What mistakes do players make with Stormbird?",
-        "answer": "Common mistakes: Treating Stormbird like Windlor.; Ignoring Thunderstorm as the main identity.; Farming it when only Feather is needed.. Check the hab008 route before farming Stormbird."
+        "answer": "Players most often lose value by treating Stormbird like Windlor, ignoring Thunderstorm as the main identity, and farming it when only Feather is needed. Before repeating the route, identify which of those decisions caused the previous run to fail."
       }
     ],
     "updated_at": "2026-05-26",
@@ -3558,15 +3558,15 @@
       },
       {
         "question": "What food attracts Treemendous?",
-        "answer": "Treemendous is attracted by Berry. Use it in hab002 during Any spawns in Sunny weather to improve catch rates."
+        "answer": "Treemendous's current reference entry lists Berry as its preferred food. Use that detail to plan a Forest Valley visit, then confirm the page's time and weather notes before spending limited resources."
       },
       {
         "question": "What does Treemendous drop?",
-        "answer": "Treemendous drops Leaf,Grass Fiber,Oak Log. Farm hab002 during Any in Sunny weather for best results."
+        "answer": "The current reference entry lists Leaf, Grass Fiber, and Oak Log as Treemendous's drops. Farm Forest Valley only when those materials support a named upgrade, recipe, or team goal."
       },
       {
         "question": "What mistakes do players make with Treemendous?",
-        "answer": "Common mistakes: Using Treemendous on short farming passes where its healing never matters.; Spamming Wood Hammer and losing the sustain advantage.; Treating Oak Log as a bonus instead of the reason to choose this page.. Check the hab002 route before farming Treemendous."
+        "answer": "Players most often lose value by using Treemendous on short farming passes where its healing never matters, spamming Wood Hammer and losing the sustain advantage, and treating Oak Log as a bonus instead of the reason to choose this page. Keep the Forest Valley run focused on one goal, then leave when that goal is met."
       }
     ],
     "updated_at": "2026-05-26",
@@ -3636,15 +3636,15 @@
       },
       {
         "question": "What food attracts Lightspeed?",
-        "answer": "Lightspeed is attracted by Star Sweet. Use it in hab008 during Morning spawns in Clear weather to improve catch rates."
+        "answer": "This page records Star Sweet as Lightspeed's preferred food. Treat it as a route-planning note rather than a guaranteed result, and recheck the habitat conditions after any game update."
       },
       {
         "question": "What does Lightspeed drop?",
-        "answer": "Lightspeed drops Feather,Speed Gem. Farm hab008 during Morning in Clear weather for best results."
+        "answer": "Lightspeed's listed drops are Feather and Speed Gem. It is usually more efficient to stop once the material you need is secured than to turn the run into an unfocused full clear."
       },
       {
         "question": "What mistakes do players make with Lightspeed?",
-        "answer": "Common mistakes: Running Lightspeed for basic Feather farming.; Spending Star Sweet without a planned Baton Pass or timing test.; Adding slow teammates that make the speed benchmark meaningless.. Check the hab008 route before farming Lightspeed."
+        "answer": "Players most often lose value by running Lightspeed for basic Feather farming, spending Star Sweet without a planned Baton Pass or timing test, and adding slow teammates that make the speed benchmark meaningless. A short route plan and a clear exit rule prevent most wasted resources."
       }
     ],
     "updated_at": "2026-05-26",
@@ -3714,15 +3714,15 @@
       },
       {
         "question": "What food attracts Magicalure?",
-        "answer": "Magicalure is attracted by Mystery Mushroom. Use it in hab002 during Night spawns in Foggy weather to improve catch rates."
+        "answer": "For the route documented here, Mystery Mushroom is listed as Magicalure's preferred food. Match it with the Forest Valley conditions shown above instead of committing items during a first scouting run."
       },
       {
         "question": "What does Magicalure drop?",
-        "answer": "Magicalure drops Fairy Dust,Poison Stone. Farm hab002 during Night in Foggy weather for best results."
+        "answer": "This page records Fairy Dust and Poison Stone as the materials associated with Magicalure. Check the route conditions before repeating a farm, because drop and spawn details can change after balance updates."
       },
       {
         "question": "What mistakes do players make with Magicalure?",
-        "answer": "Common mistakes: Using Magicalure as a simple attacker.; Setting Toxic Spikes in short fights.; Choosing it when Leafon would remove the target faster.. Check the hab002 route before farming Magicalure."
+        "answer": "Players most often lose value by using Magicalure as a simple attacker, setting Toxic Spikes in short fights, and choosing it when Leafon would remove the target faster. Before repeating the route, identify which of those decisions caused the previous run to fail."
       }
     ],
     "updated_at": "2026-05-26",
@@ -3798,15 +3798,15 @@
       },
       {
         "question": "What food attracts Nightfall?",
-        "answer": "Nightfall is attracted by Void Fruit. Use it in hab006 during Night spawns in Stormy weather to improve catch rates."
+        "answer": "Nightfall's current reference entry lists Void Fruit as its preferred food. Use that detail to plan a Shadow Marsh visit, then confirm the page's time and weather notes before spending limited resources."
       },
       {
         "question": "What does Nightfall drop?",
-        "answer": "Nightfall drops Dark Gem,Shadow Stone. Farm hab006 during Night in Stormy weather for best results."
+        "answer": "The current reference entry lists Dark Gem and Shadow Stone as Nightfall's drops. Farm Shadow Marsh only when those materials support a named upgrade, recipe, or team goal."
       },
       {
         "question": "What mistakes do players make with Nightfall?",
-        "answer": "Common mistakes: Comparing Nightfall to Shados only by rarity and ignoring assassin value, food cost, and route timing.; Keeping Nightfall in the party after it stops shortening the target branch.; Letting Knock Off decide the build before Night Slash and Foul Play prove the core route plan.; Full-clearing Shadow Marsh when the actual goal is a short Nightfall check.; Building Nightfall because it is uncommon before confirming that Shadow Marsh actually needs fast target removal before the route becomes expensive.. Check the hab006 route before farming Nightfall."
+        "answer": "Players most often lose value by comparing Nightfall to Shados only by rarity and ignoring assassin value, food cost, and and route timing. Keep the Shadow Marsh run focused on one goal, then leave when that goal is met."
       }
     ],
     "updated_at": "2026-05-26",
@@ -3871,19 +3871,19 @@
       },
       {
         "question": "What does Primordion drop?",
-        "answer": "Primordion drops Dragon Scale, Earth Gem, and Legendary Pearl. Repeat only for premium material value."
+        "answer": "Primordion's listed drops are Dragon Scale, Earth Gem, and Legendary Pearl. It is usually more efficient to stop once the material you need is secured than to turn the run into an unfocused full clear."
       },
       {
         "question": "What food attracts Primordion?",
-        "answer": "Primordion is attracted by Golden Fish. Use it in hab009 during Any spawns in Rain weather to improve catch rates."
+        "answer": "This page records Golden Fish as Primordion's preferred food. Treat it as a route-planning note rather than a guaranteed result, and recheck the habitat conditions after any game update."
       },
       {
         "question": "What does Primordion drop?",
-        "answer": "Primordion drops Dragon Scale,Earth Gem,Legendary Pearl. Farm hab009 during Any in Rain weather for best results."
+        "answer": "Primordion's listed drops are Dragon Scale, Earth Gem, and Legendary Pearl. It is usually more efficient to stop once the material you need is secured than to turn the run into an unfocused full clear."
       },
       {
         "question": "What mistakes do players make with Primordion?",
-        "answer": "Common mistakes: Using Primordion as a basic water-ground farmer.; Packing Golden Fish for a scouting pass.; Letting tank pacing hide bad material efficiency.. Check the hab009 route before farming Primordion."
+        "answer": "Players most often lose value by using Primordion as a basic water-ground farmer, packing Golden Fish for a scouting pass, and letting tank pacing hide bad material efficiency. A short route plan and a clear exit rule prevent most wasted resources."
       }
     ],
     "updated_at": "2026-05-26",
