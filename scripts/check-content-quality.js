@@ -154,6 +154,13 @@ const habitats = readJson('src/data/habitats.json')
 const recipes = readJson('src/data/recipes.json')
 const searchIndex = readJson('src/data/search-index.json')
 
+for (const file of ['guides', 'official', 'news', 'pokemon', 'habitats', 'recipes', 'search-index']) {
+  assert(
+    JSON.stringify(readJson(`src/data/${file}.json`)) === JSON.stringify(readJson(`public/data/${file}.json`)),
+    `src/data/${file}.json and public/data/${file}.json are out of sync`
+  )
+}
+
 const indexableGuides = guides.filter((guide) => !shouldNoIndex(guide.data_status, guide.index_status))
 for (const guide of indexableGuides) {
   if (guide.data_status === 'Source-backed guide') {
