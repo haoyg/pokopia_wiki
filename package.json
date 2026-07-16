@@ -7,6 +7,8 @@
     "check:prebuild": "node scripts/check-image-credits.js && node scripts/check-meta-quality.js && node scripts/generate-tool-data.js && node scripts/generate-search-index.js",
     "check:postbuild": "node scripts/check-indexing-quality.js && node scripts/check-content-quality.js && node scripts/check-html-structure.js && node scripts/check-rendered-seo.js",
     "check:site": "npm run check:prebuild && npm run check:postbuild",
+    "check:external-media": "node scripts/check-external-media.js",
+    "migrate:gematsu-images": "node scripts/migrate-gematsu-images.js",
     "build": "npm run check:prebuild && next build && npm run check:postbuild",
     "build:fast": "node scripts/generate-tool-data.js && node scripts/generate-search-index.js && next build",
     "deploy": "echo \"Cloudflare Pages deploys the out directory automatically after npm run build.\"",
