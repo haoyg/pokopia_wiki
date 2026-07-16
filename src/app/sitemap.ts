@@ -76,7 +76,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   newsData.filter((news) => !REDIRECTED_NEWS_SLUGS.has(news.slug)).forEach((news) => {
     addEntry({
       url: `${BASE_URL}/news/${news.slug}/`,
-      lastModified: reviewedDate(news.published_at),
+      lastModified: reviewedDate(news.updated_at || news.published_at),
       changeFrequency: 'monthly',
       priority: 0.8,
     })

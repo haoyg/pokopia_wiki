@@ -56,6 +56,7 @@ function hasNoindex(html) {
 }
 
 const guides = readJson('src/data/guides.json')
+const news = readJson('src/data/news.json')
 const pokemon = readJson('src/data/pokemon.json')
 const habitats = readJson('src/data/habitats.json')
 const recipes = readJson('src/data/recipes.json')
@@ -106,15 +107,18 @@ const sitemapPath = path.join(root, 'out', 'sitemap.xml')
 assert(fs.existsSync(sitemapPath), 'out/sitemap.xml does not exist. Run next build before indexing checks.')
 
 let sitemapPagePaths = []
+const sitemapLastModified = new Map()
 
 if (fs.existsSync(sitemapPath)) {
   const sitemap = fs.readFileSync(sitemapPath, 'utf8')
-  const urls = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1])
+  const sitemapEntries = [...sitemap.matchAll(/<url>\s*<loc>([^<]+)<\/loc>\s*<lastmod>([^<]+)<\/lastmod>/g)]
+  const urls = sitemapEntries.map((match) => match[1])
   const seen = new Set()
 
-  for (const url of urls) {
+  for (const [, url, lastModified] of sitemapEntries) {
     const pagePath = normalizedPath(url)
     sitemapPagePaths.push(pagePath)
+    sitemapLastModified.set(pagePath, lastModified)
     assert(!seen.has(url), `sitemap contains duplicate URL: ${url}`)
     seen.add(url)
 
@@ -133,6 +137,13 @@ if (fs.existsSync(sitemapPath)) {
       assert(!hasNoindex(html), `sitemap URL exports noindex HTML: ${pagePath}`)
     }
   }
+}
+
+for (const item of news.filter((entry) => entry.updated_at)) {
+  const pagePath = `/news/${item.slug}/`
+  const sitemapDate = sitemapLastModified.get(pagePath)
+  const expectedDate = new Date(item.updated_at).toISOString()
+  assert(sitemapDate === expectedDate, `news sitemap lastmod does not match updated_at for ${pagePath}: expected ${expectedDate}, received ${sitemapDate || 'missing'}`)
 }
 
 for (const pagePath of expectedNoindexPaths) {

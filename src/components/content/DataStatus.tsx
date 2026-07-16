@@ -2,9 +2,10 @@ interface DataStatusProps {
   status?: string
   note?: string
   updatedAt?: string | null
+  showPolicyLink?: boolean
 }
 
-export function DataStatus({ status, note, updatedAt }: DataStatusProps) {
+export function DataStatus({ status, note, updatedAt, showPolicyLink = false }: DataStatusProps) {
   if (!status && !note && !updatedAt) return null
 
   return (
@@ -15,6 +16,7 @@ export function DataStatus({ status, note, updatedAt }: DataStatusProps) {
       </div>
       {note && <p>{note}</p>}
       {updatedAt && <small>Last reviewed: {updatedAt}</small>}
+      {showPolicyLink && <a className="data-status-link" href="/editorial-policy">How we review content</a>}
     </aside>
   )
 }

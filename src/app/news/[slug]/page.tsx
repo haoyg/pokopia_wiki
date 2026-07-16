@@ -141,6 +141,7 @@ export default async function NewsDetailPage({ params }: Props) {
             status={news.verified_status}
             note={enrichedNews.data_status_note || 'This article is a source-based roundup or site update. It is not a patch note, live event announcement, or balance update unless the linked official source says so.'}
             updatedAt={reviewedDate}
+            showPolicyLink
           />
           {news.source_label && news.source_url && (
             <aside className="data-status" aria-label="News source">

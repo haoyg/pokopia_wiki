@@ -117,6 +117,7 @@ export default async function GuideDetailPage({ params }: Props) {
                 status={guide.data_status}
                 note={guide.data_status_note}
                 updatedAt={new Date(updatedAt).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+                showPolicyLink
               />
               <OfficialContext
                 title="Official Baseline for This Guide"
