@@ -16,8 +16,10 @@ export function CreditedImage({
   source,
   sourceUrl,
   originalMedia,
+  licenseNote,
   className = 'card-cover',
   priority = false,
+  sizes,
 }: CreditedImageProps) {
   if (!src || !source) return null
 
@@ -35,6 +37,7 @@ export function CreditedImage({
           decoding="async"
           fetchPriority={fetchPriority}
           referrerPolicy={isRemote ? 'no-referrer' : undefined}
+          sizes={sizes}
         />
       </div>
       <figcaption style={{ color: '#777', fontSize: '0.75rem', lineHeight: 1.5, marginTop: '0.35rem' }}>
@@ -45,6 +48,12 @@ export function CreditedImage({
           <>
             <br />
             <span>Original media: {originalMedia}</span>
+          </>
+        )}
+        {priority && licenseNote && (
+          <>
+            <br />
+            <span>Use note: {licenseNote}</span>
           </>
         )}
       </figcaption>

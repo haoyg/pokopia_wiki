@@ -76,6 +76,9 @@ export default function SourcePolicyPage() {
         <p>
           Images should include nearby source labels or page-level attribution. Screenshots, official art, store assets, and user-submitted media must be used with clear context. Removal or attribution requests are handled through the copyright process.
         </p>
+        <p>
+          When an image is hosted by an official publisher or platform page, it should be labeled as official media. When an image is hosted by a third-party article that reposts official screenshots, the label should identify it as a reposted official promotional screenshot rather than original site artwork. Player screenshots require permission and should be labeled as player-submitted media. AI-generated images are not used as official news screenshots or official gameplay images.
+        </p>
       </section>
 
       <section className="guide-content-section">
