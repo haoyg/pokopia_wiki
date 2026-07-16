@@ -455,6 +455,32 @@
     "keywords": "Pokopia Portal Site Update: How We Label Official and Editorial Content site-update Pokopia Portal now separates official source roundups from editorial guides, database entries, habitat routes, and recipe recommendations. Site transparency update Pokopia Portal Editorial Policy Site Update"
   },
   {
+    "id": "news014",
+    "type": "News",
+    "title": "Pokemon Pokopia Sableye Gem Hunt: Archived Official Details",
+    "href": "/news/pokemon-pokopia-sableye-gem-hunt-archived",
+    "description": "Sableye’s Gem Hunt ran from April 29 through May 14, 2026 in local time. This archived page preserves Nintendo’s confirmed event route, town requirement, and Cloud Island limitati…",
+    "meta": "Archived official event announcement",
+    "status": "Archived official event announcement",
+    "source": "Nintendo: Join Sableye’s Gem Hunt in Pokemon Pokopia",
+    "updatedAt": "2026-04-29",
+    "priority": 95,
+    "keywords": "Pokemon Pokopia Sableye Gem Hunt: Archived Official Details event Sableye’s Gem Hunt ran from April 29 through May 14, 2026 in local time. This archived page preserves Nintendo’s confirmed event route, town requirement, and Cloud Island limitation. Archived official event announcement Nintendo: Join Sableye’s Gem Hunt in Pokemon Pokopia Official"
+  },
+  {
+    "id": "news015",
+    "type": "News",
+    "title": "Pokemon Pokopia More Spores for Hoppip: Archived Official Details",
+    "href": "/news/pokemon-pokopia-more-spores-for-hoppip-archived",
+    "description": "More Spores for Hoppip ran from March 9 through March 24, 2026. This archived record preserves Nintendo’s confirmed cotton spore objective, repaired Pokemon Center requirement, an…",
+    "meta": "Archived official event announcement",
+    "status": "Archived official event announcement",
+    "source": "Nintendo: Pokemon Pokopia available now launch article",
+    "updatedAt": "2026-03-08",
+    "priority": 95,
+    "keywords": "Pokemon Pokopia More Spores for Hoppip: Archived Official Details event More Spores for Hoppip ran from March 9 through March 24, 2026. This archived record preserves Nintendo’s confirmed cotton spore objective, repaired Pokemon Center requirement, and Cloud Island limitation. Archived official event announcement Nintendo: Pokemon Pokopia available now launch article Official"
+  },
+  {
     "id": "guid001",
     "type": "Guide",
     "title": "Best Starter Pokemon in Pokopia",
