@@ -2455,6 +2455,30 @@ section h2::before {
   line-height: 1.8;
 }
 
+.news-confirmed-facts {
+  border-color: rgba(98, 182, 243, 0.46);
+  background: rgba(245, 252, 255, 0.9);
+}
+
+.news-confirmed-facts ol,
+.news-reader-takeaways ul {
+  display: grid;
+  gap: var(--space-3);
+  margin-top: var(--space-4);
+  padding-left: var(--space-5);
+}
+
+.news-confirmed-facts li,
+.news-reader-takeaways li {
+  color: var(--color-text-secondary);
+  line-height: 1.7;
+}
+
+.news-reader-takeaways {
+  border-color: rgba(133, 174, 99, 0.46);
+  background: rgba(248, 253, 244, 0.92);
+}
+
 .news-card-status {
   margin-top: var(--space-2) !important;
   color: var(--color-text-secondary) !important;

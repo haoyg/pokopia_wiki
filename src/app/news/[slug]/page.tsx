@@ -89,10 +89,17 @@ export default async function NewsDetailPage({ params }: Props) {
   const contentParagraphs = news.content.split('\n\n').filter(Boolean)
   const isExternalSource = news.source_url?.startsWith('http')
   const enrichedNews = news as typeof news & {
+    confirmed_facts?: string[]
+    reader_takeaways?: string[]
+    data_status_note?: string
+    updated_at?: string
     source_review_notes?: string[]
     claim_limits?: string[]
     recheck_triggers?: string[]
   }
+  const reviewedDate = enrichedNews.updated_at
+    ? new Date(enrichedNews.updated_at).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })
+    : date
 
   return (
     <>
@@ -101,7 +108,7 @@ export default async function NewsDetailPage({ params }: Props) {
         description={news.excerpt}
         url={`/news/${news.slug}`}
         publishedAt={new Date(news.published_at * 1000).toISOString()}
-        modifiedAt={new Date(news.published_at * 1000).toISOString()}
+        modifiedAt={enrichedNews.updated_at ? new Date(enrichedNews.updated_at).toISOString() : new Date(news.published_at * 1000).toISOString()}
         image={news.image_source ? news.image_url : undefined}
         type="NewsArticle"
       />
@@ -132,8 +139,8 @@ export default async function NewsDetailPage({ params }: Props) {
 
           <DataStatus
             status={news.verified_status}
-            note="This article is a source-based roundup or site update. It is not a patch note, live event announcement, or balance update unless the linked official source says so."
-            updatedAt={date}
+            note={enrichedNews.data_status_note || 'This article is a source-based roundup or site update. It is not a patch note, live event announcement, or balance update unless the linked official source says so.'}
+            updatedAt={reviewedDate}
           />
           {news.source_label && news.source_url && (
             <aside className="data-status" aria-label="News source">
@@ -157,6 +164,30 @@ export default async function NewsDetailPage({ params }: Props) {
             <span className="panel-kicker">What Changed</span>
             <p>{news.excerpt}</p>
           </section>
+
+          {enrichedNews.confirmed_facts?.length ? (
+            <section className="news-content-section news-confirmed-facts">
+              <span className="panel-kicker">Official Baseline</span>
+              <h2>Confirmed Facts</h2>
+              <ol>
+                {enrichedNews.confirmed_facts.map((fact) => (
+                  <li key={fact}>{fact}</li>
+                ))}
+              </ol>
+            </section>
+          ) : null}
+
+          {enrichedNews.reader_takeaways?.length ? (
+            <section className="news-content-section news-reader-takeaways">
+              <span className="panel-kicker">Reader Context</span>
+              <h2>What This Means</h2>
+              <ul>
+                {enrichedNews.reader_takeaways.map((takeaway) => (
+                  <li key={takeaway}>{takeaway}</li>
+                ))}
+              </ul>
+            </section>
+          ) : null}
 
           {(enrichedNews.source_review_notes?.length || enrichedNews.claim_limits?.length || enrichedNews.recheck_triggers?.length) && (
             <section className="news-content-section">
