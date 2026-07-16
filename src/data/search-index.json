@@ -1027,6 +1027,45 @@
     "keywords": "Pokemon Pokopia Expansion Pass Bonus Claim Guide guides pokemon pokopia expansion pass bonus claim recipe pokemetal   "
   },
   {
+    "id": "guid063",
+    "type": "Guide",
+    "title": "Pokemon Request Planning Guide for Pokemon Pokopia",
+    "href": "/guides/pokemon-request-planning-guide",
+    "description": "Nintendo says that as the town develops, Pokemon may bring requests to solve problems or make the town more comfortable. Treat each request as a focused project: identify the need…",
+    "meta": "guides",
+    "status": "Source-backed guide",
+    "source": null,
+    "updatedAt": "2026-07-16",
+    "priority": 85,
+    "keywords": "Pokemon Request Planning Guide for Pokemon Pokopia guides pokemon pokopia requests guide   "
+  },
+  {
+    "id": "guid064",
+    "type": "Guide",
+    "title": "Materials, Crops, and Cooking Loop Guide for Pokemon Pokopia",
+    "href": "/guides/materials-crops-cooking-guide",
+    "description": "Nintendo confirms that you can gather materials to craft items and furniture, till fields to grow crops, and cook those crops into meals. Use a simple loop: collect for one projec…",
+    "meta": "guides",
+    "status": "Source-backed guide",
+    "source": null,
+    "updatedAt": "2026-07-16",
+    "priority": 85,
+    "keywords": "Materials, Crops, and Cooking Loop Guide for Pokemon Pokopia guides pokemon pokopia gather materials grow crops cook   "
+  },
+  {
+    "id": "guid065",
+    "type": "Guide",
+    "title": "How to Build Comfortable Pokemon Spaces in Pokemon Pokopia",
+    "href": "/guides/comfortable-pokemon-spaces-guide",
+    "description": "Nintendo confirms that players can create cozy habitats, craft furniture, rebuild the town, and invite Pokemon to visit a personal home. Start with one practical space, then impro…",
+    "meta": "guides",
+    "status": "Source-backed guide",
+    "source": null,
+    "updatedAt": "2026-07-16",
+    "priority": 85,
+    "keywords": "How to Build Comfortable Pokemon Spaces in Pokemon Pokopia guides pokemon pokopia build comfortable spaces habitats   "
+  },
+  {
     "id": "official001",
     "type": "Official",
     "title": "Pokémon Pokopia Release Date, Platform, Price, and Editions",
