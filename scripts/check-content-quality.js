@@ -85,6 +85,18 @@ function isIndexableDatabaseEntry(item) {
     Array.isArray(item.editorial_limits) && item.editorial_limits.length >= 2
 }
 
+function isOfficialSourceUrl(value) {
+  try {
+    const hostname = new URL(String(value || '')).hostname.toLowerCase()
+    return hostname === 'nintendo.com' ||
+      hostname.endsWith('.nintendo.com') ||
+      hostname === 'pokemon.com' ||
+      hostname.endsWith('.pokemon.com')
+  } catch {
+    return false
+  }
+}
+
 function hasNoindex(html) {
   return /<meta\s+name=["']robots["'][^>]*content=["'][^"']*\bnoindex\b/i.test(html) ||
     /<meta\s+name=["']googlebot["'][^>]*content=["'][^"']*\bnoindex\b/i.test(html)
@@ -148,6 +160,11 @@ for (const guide of indexableGuides) {
     assert(Array.isArray(guide.source_notes) && guide.source_notes.length >= 2, `guide ${guide.slug} is missing source_notes`)
     assert(Array.isArray(guide.confirmed_context) && guide.confirmed_context.length >= 2, `guide ${guide.slug} is missing confirmed_context`)
     assert(Array.isArray(guide.editorial_limits) && guide.editorial_limits.length >= 2, `guide ${guide.slug} is missing editorial_limits`)
+    assert(Array.isArray(guide.sources) && guide.sources.length >= 1, `guide ${guide.slug} is missing an official source`)
+    assert(
+      Array.isArray(guide.sources) && guide.sources.some((source) => source?.label && isOfficialSourceUrl(source.url)),
+      `guide ${guide.slug} needs an official Nintendo or Pokemon source URL`
+    )
   }
   assert(Array.isArray(guide.faqs) && guide.faqs.length >= 3, `guide ${guide.slug} needs at least 3 FAQs`)
   assert(String(guide.data_status_note || '').length >= 80, `guide ${guide.slug} has a weak data_status_note`)
