@@ -1092,6 +1092,45 @@
     "keywords": "How to Build Comfortable Pokemon Spaces in Pokemon Pokopia guides pokemon pokopia build comfortable spaces habitats   "
   },
   {
+    "id": "guid066",
+    "type": "Guide",
+    "title": "Pokemon Pokopia Movement and Terrain Moves Guide",
+    "href": "/guides/movement-and-terrain-moves-guide",
+    "description": "The official Create page identifies four useful move examples: Leafage grows plants, Rock Smash breaks walls, Surf crosses open seas, and Glide travels between mountains. Use each…",
+    "meta": "guides",
+    "status": "Source-backed guide",
+    "source": null,
+    "updatedAt": "2026-07-16",
+    "priority": 85,
+    "keywords": "Pokemon Pokopia Movement and Terrain Moves Guide guides pokemon pokopia leafage rock smash surf glide   "
+  },
+  {
+    "id": "guid067",
+    "type": "Guide",
+    "title": "DJ Rotom Music Guide for Pokemon Pokopia",
+    "href": "/guides/dj-rotom-music-guide",
+    "description": "The official Discover page says DJ Rotom inhabits a mini stereo and can liven things up with a variety of music when you give it CDs. Use it as a music-focused town feature, while…",
+    "meta": "guides",
+    "status": "Source-backed guide",
+    "source": null,
+    "updatedAt": "2026-07-16",
+    "priority": 85,
+    "keywords": "DJ Rotom Music Guide for Pokemon Pokopia guides pokemon pokopia dj rotom cds music   "
+  },
+  {
+    "id": "guid068",
+    "type": "Guide",
+    "title": "Official Pokemon Pokopia Characters Guide",
+    "href": "/guides/official-pokopia-characters-guide",
+    "description": "The official Discover page identifies Professor Tangrowth as a guide, and introduces Peakychu, Mosslax, Smearguru, DJ Rotom, and Chef Dente. This page collects those confirmed rol…",
+    "meta": "guides",
+    "status": "Source-backed guide",
+    "source": null,
+    "updatedAt": "2026-07-16",
+    "priority": 85,
+    "keywords": "Official Pokemon Pokopia Characters Guide guides pokemon pokopia characters professor tangrowth peakychu mosslax   "
+  },
+  {
     "id": "official001",
     "type": "Official",
     "title": "Pokémon Pokopia Release Date, Platform, Price, and Editions",
