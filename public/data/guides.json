@@ -62,16 +62,16 @@
         "answer": "Not really. It decides your opening comfort. Your second and third slots should fix the problems your starter cannot solve."
       },
       {
-        "question": "Does ranking change as new Pokemon or updates release?",
-        "answer": "Tier rankings reflect the current meta based on confirmed stats, spawn rates, and build viability. As new Pokemon, habitats, or balance updates release, rankings can shift. Check the last updated date on this page and cross-reference with the latest news for confirmed meta changes."
+        "question": "Can starter rankings change after updates?",
+        "answer": "Yes. Starter value can shift when early habitats, food costs, or route pressure change. Use this page as an opening-route recommendation, not a permanent account rule."
       },
       {
-        "question": "Should I always pick the top-ranked option?",
-        "answer": "No. Top rankings reflect overall strength in the current meta, but the best choice for your account depends on your team composition, available habitats, and progression stage. Use tier rankings as a guide for long-term investment, not a replacement for situational judgment."
+        "question": "Should every new player pick Bulbin?",
+        "answer": "Bulbin is the safest default, but Aquap and Pikafire make sense when your first route is Crystal Lake comfort or faster cave preparation."
       },
       {
-        "question": "How do tier rankings relate to farming difficulty?",
-        "answer": "Higher-ranked Pokemon are not always harder to farm — some of the strongest Pokemon appear in easy habitats with common spawn rates. Check each Pokemon's habitat page for actual spawn conditions. A legendary in an easy habitat may be faster to farm than a rare in a hard one."
+        "question": "Does the safest starter also farm fastest?",
+        "answer": "Not always. The safest starter reduces early mistakes; the fastest farming path depends on habitat choice, recipe timing, and backup coverage."
       }
     ],
     "published_at": "2026-05-01",
@@ -212,8 +212,8 @@
     ],
     "faqs": [
       {
-        "question": "What is the correct exit rule for farming runs?",
-        "answer": "Set a specific exit condition before entering: a number of runs, a material quantity, or a weather change. Never continue past your exit condition chasing a drop. Fatigue and sunk-cost thinking are the biggest farming traps — a clear rule prevents both."
+        "question": "When should a rare farming run end?",
+        "answer": "End after the rare check and the planned material pickup. A full clear usually reduces attempts per hour."
       },
       {
         "question": "What matters most for rare farming?",
@@ -236,12 +236,12 @@
         "answer": "If most of the clear happens after the rare check, or if resets take too long, shorten the route or change habitats."
       },
       {
-        "question": "How many runs before judging if a farming route is efficient?",
-        "answer": "Judge a route over 5-10 runs minimum. Spawn variance and weather windows affect individual runs significantly. Track drops per hour across sessions — if it still feels inefficient after 10 runs with correct conditions, check whether a better habitat or weather window exists on the related habitat page."
+        "question": "How many rare farming attempts should I measure?",
+        "answer": "Measure at least 5-10 comparable attempts with the same weather, food, and team before judging the route."
       },
       {
-        "question": "Should I use rare attraction bait on every run?",
-        "answer": "No. Use rare bait only on confirmed spawn encounters. Run the habitat 1-2 times without bait first to verify the Pokemon is actually present in the current weather. Wasting rare bait on wrong branches or empty windows is the most common farming efficiency mistake."
+        "question": "Should every rare run use attraction bait?",
+        "answer": "No. Use attraction bait only after the target route is repeatable and the target actually appears in the current conditions."
       }
     ],
     "published_at": "2026-05-03",
@@ -469,8 +469,8 @@
         "answer": "Target the one tied to the route your account can repeat most consistently. A slightly weaker target with a clean route is better than a famous target you cannot reach."
       },
       {
-        "question": "When should I use Lucky Charm?",
-        "answer": "Use Lucky Charm when you can fit several legendary checks into the buff window, not when you are still learning the path."
+        "question": "When should Lucky Charm be used for legendary attempts?",
+        "answer": "Use Lucky Charm only after the legendary route can repeat the target check without wasting recovery items."
       },
       {
         "question": "Do legendary attempts need special teams?",
@@ -637,8 +637,8 @@
         "answer": "Use Volcanic Cave only after normal encounters are stable. If it causes downtime, it is not faster yet."
       },
       {
-        "question": "When should I use Speed Potion?",
-        "answer": "Use it after the route is already short and repeatable. It should multiply a good loop, not compensate for a bad one."
+        "question": "When does Speed Potion help leveling routes?",
+        "answer": "Use Speed Potion after the leveling loop is already mapped. It should reduce travel time between useful checks, not compensate for a confusing path."
       },
       {
         "question": "How do I know a leveling route is good?",
@@ -649,16 +649,16 @@
         "answer": "No. The best leveling lead is the one that keeps the loop fast and stable, not always the highest damage option."
       },
       {
-        "question": "How many runs before judging if a farming route is efficient?",
-        "answer": "Judge a route over 5-10 runs minimum. Spawn variance and weather windows affect individual runs significantly. Track drops per hour across sessions — if it still feels inefficient after 10 runs with correct conditions, check whether a better habitat or weather window exists on the related habitat page."
+        "question": "How many leveling loops should I compare?",
+        "answer": "Compare at least three clean loops with the same path and team before deciding whether the route is actually faster."
       },
       {
-        "question": "Should I use rare attraction bait on every run?",
-        "answer": "No. Use rare bait only on confirmed spawn encounters. Run the habitat 1-2 times without bait first to verify the Pokemon is actually present in the current weather. Wasting rare bait on wrong branches or empty windows is the most common farming efficiency mistake."
+        "question": "Should leveling routes use rare attraction bait?",
+        "answer": "No. Leveling routes need repeatability first. Save attraction bait for routes where capture checks are the main objective."
       },
       {
-        "question": "What is the correct exit rule for farming runs?",
-        "answer": "Set a specific exit condition before entering: a number of runs, a material quantity, or a weather change. Never continue past your exit condition chasing a drop. Fatigue and sunk-cost thinking are the biggest farming traps — a clear rule prevents both."
+        "question": "When should a speed-leveling run end?",
+        "answer": "End the run when the planned experience or material checks are complete. Extra rooms lower the value of a speed route."
       }
     ],
     "published_at": "2026-05-08",
@@ -726,8 +726,8 @@
         "answer": "No. Voltscale is the target, but the team first has to reach the check consistently."
       },
       {
-        "question": "When should I use Speed Potion?",
-        "answer": "Use it after scouting, when you know which section of Thunder Arena will benefit from the speed window."
+        "question": "When does Speed Potion fit Thunder Arena?",
+        "answer": "Use it when the arena path is stable and the main cost is moving between electric checks. Do not use it while still learning room order."
       },
       {
         "question": "Which Pokemon should lead?",
@@ -920,8 +920,8 @@
         "answer": "It lowers failed runs while keeping the route repeatable. A good defense team is stable, not passive."
       },
       {
-        "question": "When should I use Steel Shell?",
-        "answer": "Use Steel Shell for the section that actually threatens the route, not automatically at the start."
+        "question": "When does Steel Shell fit a defense team?",
+        "answer": "Use Steel Shell when the route fails at a known damage spike. Do not use it just to make an already slow team slower."
       },
       {
         "question": "Is Bulbin enough as a defensive lead?",
@@ -1082,8 +1082,8 @@
         "answer": "There is no single best recipe. The best choice depends on whether the next run needs capture help, rare checks, damage, survival, speed, or recovery."
       },
       {
-        "question": "When should I use Lucky Charm?",
-        "answer": "Use Lucky Charm only when the route can produce multiple meaningful rare checks inside the buff window."
+        "question": "Which recipe role does Lucky Charm fill?",
+        "answer": "Lucky Charm is for repeated rare or legendary checks. It is not a scouting recipe and should not be spent before the route is known."
       },
       {
         "question": "Should I save all rare recipes?",
@@ -1173,8 +1173,8 @@
         "answer": "Breezel is the safest route learner. Flamingo is better when you need stronger pressure."
       },
       {
-        "question": "When should I use Speed Potion?",
-        "answer": "Use it after the route is mapped and the speed window covers a useful repeat path."
+        "question": "Should Sky Isles use Speed Potion or Flying High?",
+        "answer": "Use Speed Potion for ground-to-check travel and Flying High when aerial movement is the actual bottleneck. Do not stack both before the route is mapped."
       },
       {
         "question": "Is Flying High required?",
@@ -1347,16 +1347,16 @@
         "answer": "It is being used in the wrong route when the team cannot reach its power window or support its matchup."
       },
       {
-        "question": "Does ranking change as new Pokemon or updates release?",
-        "answer": "Tier rankings reflect the current meta based on confirmed stats, spawn rates, and build viability. As new Pokemon, habitats, or balance updates release, rankings can shift. Check the last updated date on this page and cross-reference with the latest news for confirmed meta changes."
+        "question": "Can the power list change later?",
+        "answer": "Yes. Power rankings should move when new Pokemon, habitats, confirmed mechanics, or balance updates change route value."
       },
       {
-        "question": "Should I always pick the top-ranked option?",
-        "answer": "No. Top rankings reflect overall strength in the current meta, but the best choice for your account depends on your team composition, available habitats, and progression stage. Use tier rankings as a guide for long-term investment, not a replacement for situational judgment."
+        "question": "Should I build only around the strongest Pokemon?",
+        "answer": "No. A high-power Pokemon still needs the right habitat, support slot, and recipe window. Route fit matters more than the headline rank."
       },
       {
-        "question": "How do tier rankings relate to farming difficulty?",
-        "answer": "Higher-ranked Pokemon are not always harder to farm — some of the strongest Pokemon appear in easy habitats with common spawn rates. Check each Pokemon's habitat page for actual spawn conditions. A legendary in an easy habitat may be faster to farm than a rare in a hard one."
+        "question": "Are powerful Pokemon always harder to farm?",
+        "answer": "No. Some strong picks are easy to test, while some lower-ranked picks need awkward weather or route timing. Check the linked habitat before investing."
       }
     ],
     "published_at": "2026-05-16",
@@ -1418,8 +1418,8 @@
         "answer": "Use Rockler for stable early mining. Use Crystion when crystal value or coverage matters more."
       },
       {
-        "question": "When should I use Steel Shell?",
-        "answer": "Use it only when a damage-heavy room threatens a valuable mining loop."
+        "question": "When is Steel Shell worth using in Gemstone Canyon?",
+        "answer": "Use it when the best mining loop passes through heavy damage rooms and the material return justifies the recipe cost."
       },
       {
         "question": "Should I full clear the canyon?",
@@ -1584,8 +1584,8 @@
         "answer": "Start with Shados to learn the route. Farm Shadowclaw once the route is stable."
       },
       {
-        "question": "When should I use Ghost Veil?",
-        "answer": "Use it for the dangerous section or repeated check window, not for blind scouting."
+        "question": "When does Ghost Veil help ghost hunting?",
+        "answer": "Use Ghost Veil when ghost pressure is the route problem and the target section is already mapped."
       },
       {
         "question": "Why does ghost farming feel slow?",
@@ -1596,16 +1596,16 @@
         "answer": "Usually yes. Status and survival support can matter more than another attacker in Shadow Marsh."
       },
       {
-        "question": "How many runs before judging if a farming route is efficient?",
-        "answer": "Judge a route over 5-10 runs minimum. Spawn variance and weather windows affect individual runs significantly. Track drops per hour across sessions — if it still feels inefficient after 10 runs with correct conditions, check whether a better habitat or weather window exists on the related habitat page."
+        "question": "How many ghost runs should I compare?",
+        "answer": "Compare several runs with the same night or weather condition before changing the team. Ghost routes vary heavily by timing."
       },
       {
-        "question": "Should I use rare attraction bait on every run?",
-        "answer": "No. Use rare bait only on confirmed spawn encounters. Run the habitat 1-2 times without bait first to verify the Pokemon is actually present in the current weather. Wasting rare bait on wrong branches or empty windows is the most common farming efficiency mistake."
+        "question": "Should Ghost Veil and bait be used together?",
+        "answer": "Only when the ghost route is stable. If the team struggles to reach the target section, fix survival before adding bait."
       },
       {
-        "question": "What is the correct exit rule for farming runs?",
-        "answer": "Set a specific exit condition before entering: a number of runs, a material quantity, or a weather change. Never continue past your exit condition chasing a drop. Fatigue and sunk-cost thinking are the biggest farming traps — a clear rule prevents both."
+        "question": "When should a ghost hunt end?",
+        "answer": "End after the ghost check and any planned dark-side pickup. Long side rooms weaken ghost farming value."
       }
     ],
     "published_at": "2026-05-19",
@@ -1671,8 +1671,8 @@
         "answer": "Zaprat is the simple early lead. Voltscale is better once the route can support a stronger carry."
       },
       {
-        "question": "When should I use Speed Potion?",
-        "answer": "Use it on clean repeatable routes where speed increases checks, clears, or farming value."
+        "question": "When does Speed Potion support an electric build?",
+        "answer": "Use Speed Potion when the electric team already clears safely and needs more attempts per session, especially in open routes."
       },
       {
         "question": "Is Mechabit too slow for this build?",
@@ -1916,8 +1916,8 @@
         "answer": "Venomleaf is the core pressure pick, while Leafon supports longer grass-poison routes."
       },
       {
-        "question": "When should I use Ghost Veil?",
-        "answer": "Use it when the route has a dangerous control or survival window, not automatically at the start."
+        "question": "Does a poison team need Ghost Veil?",
+        "answer": "Use Ghost Veil only when the route also has ghost pressure. Poison teams usually need status control before ghost-specific support."
       },
       {
         "question": "Why is my poison team slow?",
@@ -2001,8 +2001,8 @@
         "answer": "Target the one tied to the route you can repeat most cleanly, not necessarily the flashiest name."
       },
       {
-        "question": "When should I use Lucky Charm?",
-        "answer": "Use it only when the legendary check is reachable several times inside the buff window."
+        "question": "Should Lucky Charm be saved for one legendary?",
+        "answer": "Yes. Pick one target and one route first. Lucky Charm performs best when it supports a repeatable legendary window."
       },
       {
         "question": "Are all legendary routes similar?",
@@ -2194,16 +2194,16 @@
         "answer": "Use Grass Heal when survival is the bottleneck, not as a default button."
       },
       {
-        "question": "Does ranking change as new Pokemon or updates release?",
-        "answer": "Tier rankings reflect the current meta based on confirmed stats, spawn rates, and build viability. As new Pokemon, habitats, or balance updates release, rankings can shift. Check the last updated date on this page and cross-reference with the latest news for confirmed meta changes."
+        "question": "Can Grass rankings change?",
+        "answer": "Yes. Grass value changes when Forest Valley routes, healing needs, or poison-side matchups become more or less important."
       },
       {
-        "question": "Should I always pick the top-ranked option?",
-        "answer": "No. Top rankings reflect overall strength in the current meta, but the best choice for your account depends on your team composition, available habitats, and progression stage. Use tier rankings as a guide for long-term investment, not a replacement for situational judgment."
+        "question": "Should I always choose the strongest Grass pick?",
+        "answer": "Choose the Grass Pokemon that fixes your route. A defensive or healing pick can outperform a stronger attacker when the run fails through survival."
       },
       {
-        "question": "How do tier rankings relate to farming difficulty?",
-        "answer": "Higher-ranked Pokemon are not always harder to farm — some of the strongest Pokemon appear in easy habitats with common spawn rates. Check each Pokemon's habitat page for actual spawn conditions. A legendary in an easy habitat may be faster to farm than a rare in a hard one."
+        "question": "Are Grass picks easy to farm?",
+        "answer": "Many Grass routes are beginner-friendly, but rare Grass targets still need weather, food, and route timing checks."
       }
     ],
     "published_at": "2026-05-22",
@@ -2261,8 +2261,8 @@
         "answer": "Mechabit, Bronzorm, and Ironclaw cover utility, bulk, and pressure."
       },
       {
-        "question": "When should I use Steel Shell?",
-        "answer": "Use it when a known hard section would otherwise break the route."
+        "question": "When does Steel Shell support steel teams?",
+        "answer": "Use Steel Shell when the steel team needs to survive one dangerous section while keeping enough damage to finish the route."
       },
       {
         "question": "Are steel teams slow?",
@@ -2435,8 +2435,8 @@
         "answer": "Leafon is useful for grass-poison control, while Frostbite or Magicalure can support harder sections."
       },
       {
-        "question": "When should I use Ghost Veil?",
-        "answer": "Use it when ghost or darkness pressure is the section breaking the run."
+        "question": "When is Ghost Veil best in Nightmare Forest?",
+        "answer": "Use Ghost Veil when the team can already reach the dark section and needs protection for the key ghost-heavy room."
       },
       {
         "question": "When is Steel Shell better?",
@@ -2528,16 +2528,16 @@
         "answer": "No. Legendary carries still need support, coverage, and route-specific recipe timing."
       },
       {
-        "question": "Does ranking change as new Pokemon or updates release?",
-        "answer": "Tier rankings reflect the current meta based on confirmed stats, spawn rates, and build viability. As new Pokemon, habitats, or balance updates release, rankings can shift. Check the last updated date on this page and cross-reference with the latest news for confirmed meta changes."
+        "question": "Can endgame priorities change?",
+        "answer": "Yes. Endgame priorities should be reviewed after major patches, new habitats, or confirmed changes to rare routes and recipes."
       },
       {
-        "question": "Should I always pick the top-ranked option?",
-        "answer": "No. Top rankings reflect overall strength in the current meta, but the best choice for your account depends on your team composition, available habitats, and progression stage. Use tier rankings as a guide for long-term investment, not a replacement for situational judgment."
+        "question": "Should endgame teams follow one fixed ranking?",
+        "answer": "No. Endgame teams should be built around the route objective: boss pressure, rare farming, survival, speed, or resource efficiency."
       },
       {
-        "question": "How do tier rankings relate to farming difficulty?",
-        "answer": "Higher-ranked Pokemon are not always harder to farm — some of the strongest Pokemon appear in easy habitats with common spawn rates. Check each Pokemon's habitat page for actual spawn conditions. A legendary in an easy habitat may be faster to farm than a rare in a hard one."
+        "question": "Does endgame strength justify harder farming?",
+        "answer": "Only when the target solves a real bottleneck. If farming cost exceeds the route value, invest in a more accessible support option first."
       }
     ],
     "published_at": "2026-05-22",
