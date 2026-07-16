@@ -119,7 +119,7 @@ export default async function OfficialInfoDetailPage({ params }: Props) {
         {page.quick_answer && (
           <section className="official-quick-answer">
             <span className="panel-kicker">Quick Answer</span>
-            <h2>Is Pokémon Pokopia Multiplayer?</h2>
+            <h2>At a Glance</h2>
             <p>{page.quick_answer}</p>
           </section>
         )}
@@ -127,7 +127,7 @@ export default async function OfficialInfoDetailPage({ params }: Props) {
         {modeComparison.length > 0 && (
           <section className="official-mode-section">
             <span className="panel-kicker">Mode Comparison</span>
-            <h2>Online, Local Wireless, GameShare, and Shared Building</h2>
+            <h2>Compare the Official Options</h2>
             <div className="official-mode-grid">
               {modeComparison.map((mode) => (
                 <article key={mode.mode} className="official-mode-card">
@@ -204,7 +204,7 @@ export default async function OfficialInfoDetailPage({ params }: Props) {
         {faqs.length > 0 && (
           <section className="official-faq-section">
             <span className="panel-kicker">Common Questions</span>
-            <h2>Pokémon Pokopia Multiplayer FAQ</h2>
+            <h2>{page.title} FAQ</h2>
             <div>
               {faqs.map((faq) => (
                 <article key={faq.question}>

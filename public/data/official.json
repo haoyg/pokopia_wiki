@@ -5,7 +5,7 @@
     "slug": "release-date-platform-price",
     "category": "Official Info",
     "summary": "Pokémon Pokopia is available for Nintendo Switch 2, with the Nintendo Store listing March 5, 2026 as the release date. This page summarizes platform, file size, language, online, and early purchase bonus details from official sources.",
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-07-11",
     "facts": [
       "Nintendo lists Pokémon Pokopia as a Nintendo Switch 2 title.",
       "The Nintendo Store release date is March 5, 2026.",
@@ -22,9 +22,18 @@
       "Because the official Pokémon site and Nintendo Store are current product pages, they should be treated as higher-priority sources than third-party summaries."
     ],
     "related_links": [
-      { "label": "Official gameplay overview", "href": "/official/gameplay-overview" },
-      { "label": "Multiplayer and GameShare", "href": "/official/multiplayer-gameshare-cloud-island" },
-      { "label": "Copyright and source policy", "href": "/copyright" }
+      {
+        "label": "Official gameplay overview",
+        "href": "/official/gameplay-overview"
+      },
+      {
+        "label": "Multiplayer and GameShare",
+        "href": "/official/multiplayer-gameshare-cloud-island"
+      },
+      {
+        "label": "Copyright and source policy",
+        "href": "/copyright"
+      }
     ],
     "sources": [
       {
@@ -37,6 +46,21 @@
         "url": "https://pokopia.pokemon.com/en-us/",
         "note": "Official product overview and rights-holder information."
       }
+    ],
+    "source_review_notes": [
+      "Primary references are official Nintendo, Pokemon, product, support, or launch pages listed in the source section.",
+      "Facts should be copied only when the official page supports the wording or a clearly narrower summary.",
+      "Third-party summaries may help with context, but they should not replace official sources for release, platform, feature, or multiplayer claims."
+    ],
+    "claim_limits": [
+      "Do not generalize the US price, file size, language list, or bonus deadline to every region unless a regional source is added.",
+      "Do not infer physical editions, bundle details, or discount timing unless official store pages list them.",
+      "Do not use this page as proof of gameplay mechanics beyond product-page feature wording."
+    ],
+    "recheck_triggers": [
+      "Regional Nintendo Store pages show different price, language, release, file-size, or bonus wording.",
+      "Nintendo changes the product page, preorder page, early purchase bonus, or supported-mode listing.",
+      "A new edition, bundle, or post-launch purchase option is announced by an official source."
     ]
   },
   {
@@ -45,7 +69,7 @@
     "slug": "gameplay-overview",
     "category": "Official Info",
     "summary": "A concise overview of confirmed Pokémon Pokopia gameplay based on official Nintendo and Pokémon pages: play as a human-like Ditto, rebuild a desolate world, learn Pokémon moves, craft, decorate, grow crops, and befriend Pokémon.",
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-07-11",
     "facts": [
       "The player character is a Ditto that has transformed to look like a human.",
       "The core premise is rebuilding a desolate world into a Pokémon utopia.",
@@ -62,9 +86,18 @@
       "The safest editorial interpretation is that Pokémon Pokopia is a relaxing life simulation and building game, not a traditional battle-first Pokémon RPG."
     ],
     "related_links": [
-      { "label": "Release date and platform", "href": "/official/release-date-platform-price" },
-      { "label": "Official beginner tips", "href": "/official/official-beginner-tips" },
-      { "label": "Habitat guide index", "href": "/wiki/habitat" }
+      {
+        "label": "Release date and platform",
+        "href": "/official/release-date-platform-price"
+      },
+      {
+        "label": "Official beginner tips",
+        "href": "/official/official-beginner-tips"
+      },
+      {
+        "label": "Habitat guide index",
+        "href": "/wiki/habitat"
+      }
     ],
     "sources": [
       {
@@ -82,6 +115,21 @@
         "url": "https://www.nintendo.com/us/whatsnew/shape-the-world-and-build-a-cozy-new-life-in-pokemon-pokopia-available-now/",
         "note": "Official launch article summarizing exploration, crafting, Pokémon requests, real-time cycle, weather, and multiplayer."
       }
+    ],
+    "source_review_notes": [
+      "Primary references are official Nintendo, Pokemon, product, support, or launch pages listed in the source section.",
+      "Facts should be copied only when the official page supports the wording or a clearly narrower summary.",
+      "Third-party summaries may help with context, but they should not replace official sources for release, platform, feature, or multiplayer claims."
+    ],
+    "claim_limits": [
+      "Do not turn examples of moves, crafting, food, weather, or requests into a complete mechanic list unless official sources provide that list.",
+      "Do not infer competitive battle structure or traditional RPG progression when the source framing is life simulation and world rebuilding.",
+      "Do not treat development screenshots as final UI, balance, or location evidence."
+    ],
+    "recheck_triggers": [
+      "Official gameplay articles, trailers, or store pages add or remove system details.",
+      "Launch or patch notes clarify crafting, food, weather, requests, or movement mechanics.",
+      "Any guide cites this page for a mechanic that is more specific than the current source wording."
     ]
   },
   {
@@ -93,7 +141,7 @@
     "seo_title": "Pokémon Pokopia Multiplayer & GameShare",
     "seo_description": "Pokémon Pokopia supports online and local wireless for up to four players. Compare town visits, GameShare, Palette Town, Cloud Island, and Virtual Mode.",
     "quick_answer": "Yes. Pokémon Pokopia supports online and local wireless multiplayer, with a host inviting up to three other players. Normal town visits use Spectator Mode, while Palette Town supports shared building. GameShare can give people without the game access to Palette Town, and Cloud Island provides a persistent online shared area.",
-    "updated_at": "2026-06-22",
+    "updated_at": "2026-07-11",
     "facts": [
       "Nintendo says Pokémon Pokopia supports online and local wireless ways to play with friends.",
       "Nintendo's launch article says players can invite up to three other players to visit.",
@@ -110,24 +158,81 @@
       "GameShare details depend on Nintendo Switch 2, GameChat, Nintendo Switch Online, and session limits, so link to Nintendo rather than paraphrasing all restrictions in every article."
     ],
     "mode_comparison": [
-      { "mode": "Town Visit", "connection": "Online or local wireless", "players": "Host plus up to 3 visitors", "editing": "Spectator Mode limits moves and changes", "best_for": "Visiting, photos, Pokédex and habitat discovery" },
-      { "mode": "Palette Town", "connection": "Online or local wireless", "players": "Friends invited through Link Play", "editing": "Spectator Mode can be turned off", "best_for": "Building, crafting, discovering Pokémon, and making habitats together" },
-      { "mode": "GameShare", "connection": "Local wireless or online", "players": "People can join Palette Town without owning the game", "editing": "Shared Palette Town access", "best_for": "Playing with someone who does not own Pokémon Pokopia" },
-      { "mode": "Cloud Island", "connection": "Online", "players": "Persistent shared area accessed by address", "editing": "Spectator Mode can be turned off", "best_for": "Ongoing co-building, shared Pokédex, rewards, and challenges" },
-      { "mode": "Virtual Mode", "connection": "Online", "players": "Visitors explore a virtual Cloud Island", "editing": "Visitors cannot change the island", "best_for": "Sharing a creation publicly without edit risk" }
+      {
+        "mode": "Town Visit",
+        "connection": "Online or local wireless",
+        "players": "Host plus up to 3 visitors",
+        "editing": "Spectator Mode limits moves and changes",
+        "best_for": "Visiting, photos, Pokédex and habitat discovery"
+      },
+      {
+        "mode": "Palette Town",
+        "connection": "Online or local wireless",
+        "players": "Friends invited through Link Play",
+        "editing": "Spectator Mode can be turned off",
+        "best_for": "Building, crafting, discovering Pokémon, and making habitats together"
+      },
+      {
+        "mode": "GameShare",
+        "connection": "Local wireless or online",
+        "players": "People can join Palette Town without owning the game",
+        "editing": "Shared Palette Town access",
+        "best_for": "Playing with someone who does not own Pokémon Pokopia"
+      },
+      {
+        "mode": "Cloud Island",
+        "connection": "Online",
+        "players": "Persistent shared area accessed by address",
+        "editing": "Spectator Mode can be turned off",
+        "best_for": "Ongoing co-building, shared Pokédex, rewards, and challenges"
+      },
+      {
+        "mode": "Virtual Mode",
+        "connection": "Online",
+        "players": "Visitors explore a virtual Cloud Island",
+        "editing": "Visitors cannot change the island",
+        "best_for": "Sharing a creation publicly without edit risk"
+      }
     ],
     "faqs": [
-      { "question": "How many players can play Pokémon Pokopia multiplayer?", "answer": "Nintendo says a host can invite up to three other players, for up to four players in a session." },
-      { "question": "Does Pokémon Pokopia support local multiplayer?", "answer": "Yes. Nintendo describes local wireless play when players are together with their own systems and games. GameShare can also share Palette Town locally with a compatible Nintendo Switch 2 or Nintendo Switch system." },
-      { "question": "Does Pokémon Pokopia have same-system couch co-op?", "answer": "Nintendo's official multiplayer guide describes online play and local wireless across systems. It does not describe traditional same-system split-screen or couch co-op." },
-      { "question": "Can visitors change my town?", "answer": "Normal town visitors use Spectator Mode, which limits actions and protects the host's creations. Palette Town and Cloud Island can allow collaborative editing when Spectator Mode is turned off." },
-      { "question": "Can someone play Pokémon Pokopia through GameShare without owning the game?", "answer": "Yes. Nintendo says GameShare can share the Palette Town area with people who do not own the game. Local and online compatibility requirements differ, so check Nintendo's current guide before starting." },
-      { "question": "What is the difference between Palette Town and Cloud Island?", "answer": "Palette Town is a large sandbox area hosted through normal multiplayer. Cloud Island is a persistent online area with its own Pokédex, rewards, challenges, and address, and it can remain available when the original host is away." }
+      {
+        "question": "How many players can play Pokémon Pokopia multiplayer?",
+        "answer": "Nintendo says a host can invite up to three other players, for up to four players in a session."
+      },
+      {
+        "question": "Does Pokémon Pokopia support local multiplayer?",
+        "answer": "Yes. Nintendo describes local wireless play when players are together with their own systems and games. GameShare can also share Palette Town locally with a compatible Nintendo Switch 2 or Nintendo Switch system."
+      },
+      {
+        "question": "Does Pokémon Pokopia have same-system couch co-op?",
+        "answer": "Nintendo's official multiplayer guide describes online play and local wireless across systems. It does not describe traditional same-system split-screen or couch co-op."
+      },
+      {
+        "question": "Can visitors change my town?",
+        "answer": "Normal town visitors use Spectator Mode, which limits actions and protects the host's creations. Palette Town and Cloud Island can allow collaborative editing when Spectator Mode is turned off."
+      },
+      {
+        "question": "Can someone play Pokémon Pokopia through GameShare without owning the game?",
+        "answer": "Yes. Nintendo says GameShare can share the Palette Town area with people who do not own the game. Local and online compatibility requirements differ, so check Nintendo's current guide before starting."
+      },
+      {
+        "question": "What is the difference between Palette Town and Cloud Island?",
+        "answer": "Palette Town is a large sandbox area hosted through normal multiplayer. Cloud Island is a persistent online area with its own Pokédex, rewards, challenges, and address, and it can remain available when the original host is away."
+      }
     ],
     "related_links": [
-      { "label": "Official gameplay overview", "href": "/official/gameplay-overview" },
-      { "label": "Official beginner tips", "href": "/official/official-beginner-tips" },
-      { "label": "Community hub", "href": "/community" }
+      {
+        "label": "Official gameplay overview",
+        "href": "/official/gameplay-overview"
+      },
+      {
+        "label": "Official beginner tips",
+        "href": "/official/official-beginner-tips"
+      },
+      {
+        "label": "Community hub",
+        "href": "/community"
+      }
     ],
     "sources": [
       {
@@ -140,6 +245,21 @@
         "url": "https://www.nintendo.com/us/store/products/pokemon-pokopia-switch-2/",
         "note": "Product-page multiplayer, GameShare, online, and local details."
       }
+    ],
+    "source_review_notes": [
+      "Primary references are official Nintendo, Pokemon, product, support, or launch pages listed in the source section.",
+      "Facts should be copied only when the official page supports the wording or a clearly narrower summary.",
+      "Third-party summaries may help with context, but they should not replace official sources for release, platform, feature, or multiplayer claims."
+    ],
+    "claim_limits": [
+      "Do not imply that every visitor can freely edit every town; normal town visits are described with Spectator Mode limits.",
+      "Do not simplify GameShare requirements into one rule because local and online compatibility can differ.",
+      "Do not claim persistent Cloud Island editing behavior beyond the official wording."
+    ],
+    "recheck_triggers": [
+      "Nintendo updates multiplayer, GameShare, GameChat, Nintendo Switch Online, or Cloud Island requirements.",
+      "Support pages clarify session limits, ownership requirements, or compatibility rules.",
+      "Future guides add multiplayer advice that depends on editing permissions or visitor restrictions."
     ]
   },
   {
@@ -148,7 +268,7 @@
     "slug": "official-beginner-tips",
     "category": "Official Info",
     "summary": "Nintendo's official tips emphasize playing at your own pace, checking Pokémon Center PC features, improving storage, talking to Pokémon, organizing materials, using the Pokédex and Habitat Dex, and powering up moves with food.",
-    "updated_at": "2026-05-23",
+    "updated_at": "2026-07-11",
     "facts": [
       "Nintendo's official tips article frames Pokémon Pokopia as a game about doing what is fun at your own pace.",
       "Nintendo recommends checking the Pokémon Center PC for daily challenges, PC shop items and recipes, and stamps that can be exchanged for Life Coins.",
@@ -165,9 +285,18 @@
       "Future guides should distinguish official tips from editorial route recommendations, especially when recommending specific farming loops or item priorities."
     ],
     "related_links": [
-      { "label": "Gameplay overview", "href": "/official/gameplay-overview" },
-      { "label": "Pokopia guides", "href": "/guides" },
-      { "label": "Recipe calculator", "href": "/tools/recipe-calculator" }
+      {
+        "label": "Gameplay overview",
+        "href": "/official/gameplay-overview"
+      },
+      {
+        "label": "Pokopia guides",
+        "href": "/guides"
+      },
+      {
+        "label": "Recipe calculator",
+        "href": "/tools/recipe-calculator"
+      }
     ],
     "sources": [
       {
@@ -179,6 +308,108 @@
         "label": "Nintendo Store - Pokémon Pokopia",
         "url": "https://www.nintendo.com/us/store/products/pokemon-pokopia-switch-2/",
         "note": "Official product context for PC, gameplay, multiplayer, and supported features."
+      }
+    ],
+    "source_review_notes": [
+      "Primary references are official Nintendo, Pokemon, product, support, or launch pages listed in the source section.",
+      "Facts should be copied only when the official page supports the wording or a clearly narrower summary.",
+      "Third-party summaries may help with context, but they should not replace official sources for release, platform, feature, or multiplayer claims."
+    ],
+    "claim_limits": [
+      "Do not convert official tips into a strict required route or ranked checklist.",
+      "Do not infer full request tables, reward charts, or friendship mechanics from a general beginner tip.",
+      "Do not treat examples of food-powered moves as a complete list of all move effects."
+    ],
+    "recheck_triggers": [
+      "Nintendo publishes new beginner tips, support notes, launch guidance, or patch-related advice.",
+      "Official sources clarify requests, PC features, bag upgrades, food effects, or Habitat Dex behavior.",
+      "A beginner guide cites this page to justify a specific farming route or item priority."
+    ]
+  },
+  {
+    "id": "official005",
+    "title": "Pokemon Pokopia Official Characters and Moves",
+    "slug": "official-characters-and-moves",
+    "category": "Official Info",
+    "summary": "A source-backed reference for Pokemon Pokopia characters and movement examples officially introduced by Pokemon: Professor Tangrowth, Peakychu, Mosslax, Smearguru, DJ Rotom, Chef Dente, Leafage, Rock Smash, Surf, and Glide.",
+    "seo_title": "Pokemon Pokopia Official Characters and Moves",
+    "seo_description": "Official Pokemon Pokopia character and move reference: Professor Tangrowth, Peakychu, Mosslax, Smearguru, DJ Rotom, Chef Dente, Leafage, Rock Smash, Surf, and Glide.",
+    "quick_answer": "Pokemon’s official pages introduce Professor Tangrowth as a guide, name several distinctive town characters, and show movement or terrain examples including Leafage, Rock Smash, Surf, and Glide. They do not publish complete quest, item, or unlock tables for these characters and moves.",
+    "updated_at": "2026-07-16",
+    "facts": [
+      "Pokemon’s official Discover page describes Professor Tangrowth as a vital guide to the player and the Pokemon they meet.",
+      "The official page introduces Peakychu as an unusually pale Pikachu and Mosslax as a moss-covered Snorlax with a flower on its head.",
+      "The official page describes Smearguru as a prolific painter, DJ Rotom as a mini-stereo-dwelling Rotom that can play music from CDs, and Chef Dente as a Greedent associated with kitchen tools and dishes.",
+      "The official Create page says Leafage grows plants, Rock Smash breaks walls, Surf travels on open seas, and Glide moves between mountains.",
+      "Pokemon’s official Create page says Pokemon neighbors can join adventures and help build houses to welcome more friends.",
+      "The official page says that making the world greener leads to encounters with more Pokemon."
+    ],
+    "analysis": [
+      "Use this page as the source-backed starting point for named-character and move queries, rather than mixing official names with speculative database entries.",
+      "The official descriptions are deliberately brief. A useful guide must separate those facts from community observations about quests, rewards, move costs, or exact locations.",
+      "When a new Nintendo or Pokemon source adds a direct character or move detail, update this reference first and then link relevant guides to it."
+    ],
+    "related_links": [
+      {
+        "label": "Official gameplay overview",
+        "href": "/official/gameplay-overview"
+      },
+      {
+        "label": "Official beginner tips",
+        "href": "/official/official-beginner-tips"
+      },
+      {
+        "label": "Official characters guide",
+        "href": "/guides/official-pokopia-characters-guide"
+      },
+      {
+        "label": "Movement and terrain moves guide",
+        "href": "/guides/movement-and-terrain-moves-guide"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Pokemon Pokopia: Create - Life in Town",
+        "url": "https://pokopia.pokemon.com/en-us/create/",
+        "note": "Official move examples, Pokemon neighbor context, building, and exploration information."
+      },
+      {
+        "label": "Pokemon Pokopia: Discover - A Few Friendly Faces",
+        "url": "https://pokopia.pokemon.com/en-us/discover/",
+        "note": "Official named-character introductions and descriptions."
+      }
+    ],
+    "source_review_notes": [
+      "Primary references are the official Pokemon Pokopia Create and Discover pages listed in the source section.",
+      "Each fact is limited to a direct statement or a narrower paraphrase of the linked official pages.",
+      "Character and move information should be updated from official Nintendo or Pokemon sources before being expanded into database-style claims."
+    ],
+    "claim_limits": [
+      "Do not infer exact character quests, friendship requirements, item rewards, or story outcomes from the short official introductions.",
+      "Do not treat the listed moves as a complete catalog or assign exact unlock order, resource cost, or every terrain interaction without a source.",
+      "Do not use development screenshots as final proof of interface, balance, availability, or location details."
+    ],
+    "recheck_triggers": [
+      "Nintendo or Pokemon publishes a character profile, trailer, support page, or update with more detailed move or quest information.",
+      "Official pages add, remove, or rename named characters, CDs, moves, or movement examples.",
+      "A guide needs to make a claim more specific than the current official wording."
+    ],
+    "faqs": [
+      {
+        "question": "Who is Professor Tangrowth in Pokemon Pokopia?",
+        "answer": "Pokemon’s official Discover page describes Professor Tangrowth as a vital guide to the player and the Pokemon they meet."
+      },
+      {
+        "question": "Which Pokemon Pokopia moves are officially confirmed?",
+        "answer": "The official Create page gives Leafage, Rock Smash, Surf, and Glide as examples, with uses for plants, walls, open seas, and mountains respectively."
+      },
+      {
+        "question": "What does DJ Rotom do?",
+        "answer": "The official Discover page says DJ Rotom inhabits a mini stereo and can play a variety of music when given CDs."
+      },
+      {
+        "question": "Are character quest rewards officially listed?",
+        "answer": "Not on the cited Create and Discover pages. This reference does not invent quest chains, rewards, or unlock conditions."
       }
     ]
   }
