@@ -988,6 +988,45 @@
     "keywords": "Cloud Island and Virtual Mode Guide for Pokemon Pokopia guides pokemon pokopia cloud island virtual mode   "
   },
   {
+    "id": "guid060",
+    "type": "Guide",
+    "title": "How to Prepare to Unlock Dive in Pokemon Pokopia",
+    "href": "/guides/dive-unlock-requirements-guide",
+    "description": "The official update page says Dive requires completing the “Raise the environment level!” request in Bleak Beach, plus the ability to jump and the move Surf. The page lists the fr…",
+    "meta": "guides",
+    "status": "Source-backed guide",
+    "source": null,
+    "updatedAt": "2026-07-16",
+    "priority": 85,
+    "keywords": "How to Prepare to Unlock Dive in Pokemon Pokopia guides pokemon pokopia how to unlock dive bleak beach   "
+  },
+  {
+    "id": "guid061",
+    "type": "Guide",
+    "title": "Bubbly Basin Expansion Pass Access Guide for Pokemon Pokopia",
+    "href": "/guides/bubbly-basin-expansion-access-guide",
+    "description": "Bubbly Basin is part 1 of the paid Pokemon Pokopia Expansion Pass, listed for August 2026. The official Expansion Pass page says you need to complete “Raise the environment level!…",
+    "meta": "guides",
+    "status": "Source-backed guide",
+    "source": null,
+    "updatedAt": "2026-07-16",
+    "priority": 85,
+    "keywords": "Bubbly Basin Expansion Pass Access Guide for Pokemon Pokopia guides pokemon pokopia bubbly basin expansion pass requirements   "
+  },
+  {
+    "id": "guid062",
+    "type": "Guide",
+    "title": "Pokemon Pokopia Expansion Pass Bonus Claim Guide",
+    "href": "/guides/expansion-pass-bonus-claim-guide",
+    "description": "The official Expansion Pass page says purchasers can claim a dynamic Ditto print blocks and wallpaper recipe through Main Menu > Downloadable Content > Check Items > Receive. It a…",
+    "meta": "guides",
+    "status": "Source-backed guide",
+    "source": null,
+    "updatedAt": "2026-07-16",
+    "priority": 85,
+    "keywords": "Pokemon Pokopia Expansion Pass Bonus Claim Guide guides pokemon pokopia expansion pass bonus claim recipe pokemetal   "
+  },
+  {
     "id": "official001",
     "type": "Official",
     "title": "Pokémon Pokopia Release Date, Platform, Price, and Editions",
