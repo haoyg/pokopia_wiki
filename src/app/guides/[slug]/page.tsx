@@ -77,6 +77,7 @@ export default async function GuideDetailPage({ params }: Props) {
     source_notes?: string[]
     confirmed_context?: string[]
     editorial_limits?: string[]
+    sources?: Array<{ label: string; url: string }>
   }
 
   return (
@@ -139,6 +140,18 @@ export default async function GuideDetailPage({ params }: Props) {
                   <ul>
                     {enrichedGuide.source_notes.map((note) => (
                       <li key={note}>{note}</li>
+                    ))}
+                  </ul>
+                </>
+              ) : null}
+              {enrichedGuide.sources?.length ? (
+                <>
+                  <h3>Official sources</h3>
+                  <ul>
+                    {enrichedGuide.sources.map((source) => (
+                      <li key={source.url}>
+                        <a href={source.url} target="_blank" rel="noreferrer">{source.label}</a>
+                      </li>
                     ))}
                   </ul>
                 </>
