@@ -58,7 +58,7 @@
     "name": "Speed Potion",
     "best_use": "Speed runs",
     "buff": "+25% movement speed",
-    "overview": "Speed Potion is a route-efficiency recipe. It is not about winning harder; it is about reducing dead time between spawn checks, material nodes, and repeat objectives. This makes it excellent for routes that are already understood, especially electric or open-area paths where the distance between useful points is the main cost. It performs poorly in cramped habitats where enemies, puzzles, or survival checks slow the run more than movement. Before crafting it, walk the route once and mark the points that matter. If you cannot describe the loop in a few steps, the potion will probably be spent while you are still deciding where to go.",
+    "overview": "Speed Potion is a route-efficiency recipe. It is not about winning harder; it is about reducing dead time between spawn checks, material nodes, and repeat objectives. This makes it excellent for routes that are already understood, especially electric or open-area paths where the distance between useful points is the main cost. It performs poorly in cramped habitats where enemies, puzzles, or survival checks slow the run more than movement. Before crafting it, walk the route once and mark the points that matter. If you cannot describe the loop in a few steps, scout once more before spending the potion.",
     "recommended_for": [
       "Players repeating electric, flying, or meadow routes for spawns and materials.",
       "Short sessions where faster routing matters more than combat buffs.",
@@ -382,7 +382,7 @@
     "name": "Mega Restore",
     "best_use": "Emergency healing",
     "buff": "Full HP restore",
-    "overview": "Mega Restore is emergency insurance for long or high-value attempts. It is powerful, but that power is exactly why it should not become routine healing. Craft it when losing a run would cost rare materials, a legendary attempt, or a long late-game route. The best Mega Restore use is planned before the run: you know the objective is valuable, you know where failure usually happens, and you carry the recipe to protect that moment. If a route needs constant healing, the team or strategy probably needs adjustment. Mega Restore should save an attempt from one serious mistake, not cover a route that is fundamentally unstable.",
+    "overview": "Mega Restore is emergency insurance for long or high-value attempts. It is powerful, but that power is exactly why it should not become routine healing. Craft it when losing a run would cost rare materials, a legendary attempt, or a long late-game route. The best Mega Restore use is planned before the run: you know the objective is valuable, you know where failure usually happens, and you carry the recipe to protect that moment. If a route needs constant healing, adjust the team or shorten the route before using Mega Restore again. Mega Restore should save an attempt from one serious mistake, not cover a route that is fundamentally unstable.",
     "recommended_for": [
       "Legendary hunts, long boss routes, late-game progression, and high-value resource attempts.",
       "Players who already know the route but want protection against one major mistake.",

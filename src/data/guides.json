@@ -378,8 +378,8 @@
     ],
     "faqs": [
       {
-        "question": "What is the biggest trap in this guide's approach?",
-        "answer": "Treating the advice as a rigid formula instead of a starting framework. Real progress requires adjusting based on your team strength, current level, and available resources. Use the related Pokemon and habitat links to fill in specifics that this guide can only generalize about."
+        "question": "What usually ruins a Shadow Marsh run?",
+        "answer": "The run usually fails when status pressure is ignored. Bring poison control or a durable backup before spending Lucky Charm on Shadowclaw checks."
       },
       {
         "question": "Is Shadow Marsh good for rare farming?",
@@ -402,12 +402,12 @@
         "answer": "Most inconsistency comes from treating scouting, clearing, and rare farming as the same route. Split those goals."
       },
       {
-        "question": "How long before this strategy shows results?",
-        "answer": "Most strategies show measurable results within 5-10 runs when conditions are met (correct weather, appropriate team, right recipe timing). If results feel slow after 10 attempts, a key condition is usually being missed — recheck the related habitat pages for spawn window, bait timing, or team matchup details."
+        "question": "How many Shadow Marsh runs should I test?",
+        "answer": "Run two or three cheap scouting loops first. After the path is stable, judge the route by Shadowclaw checks and status failures, not by full clears."
       },
       {
-        "question": "What if this strategy stops working?",
-        "answer": "Re-examine: weather pattern shifts, team level mismatch, or progression to harder content before mastering the current habitat. Revisit the related habitat and Pokemon data to find what changed. Do not force a broken strategy — reset the approach and rebuild from confirmed conditions."
+        "question": "When should I rebuild my Shadow Marsh team?",
+        "answer": "Rebuild when the team reaches the rare window inconsistently or spends too many items before the final marsh section."
       }
     ],
     "published_at": "2026-05-05",
@@ -481,16 +481,16 @@
         "answer": "Usually because scouting, unlocking, and capture attempts are being mixed together. Separate those runs."
       },
       {
-        "question": "What is the biggest trap in this guide's approach?",
-        "answer": "Treating the advice as a rigid formula instead of a starting framework. Real progress requires adjusting based on your team strength, current level, and available resources. Use the related Pokemon and habitat links to fill in specifics that this guide can only generalize about."
+        "question": "What wastes the most legendary attempts?",
+        "answer": "Starting with Lucky Charm before the route is repeatable wastes the most attempts. Confirm the habitat, timing, and backup slot before using rare support."
       },
       {
-        "question": "How long before this strategy shows results?",
-        "answer": "Most strategies show measurable results within 5-10 runs when conditions are met (correct weather, appropriate team, right recipe timing). If results feel slow after 10 attempts, a key condition is usually being missed — recheck the related habitat pages for spawn window, bait timing, or team matchup details."
+        "question": "How many legendary attempts should I plan?",
+        "answer": "Plan a short batch of focused attempts after scouting. If the route cannot repeat the target check, stop and fix the path before using more rare items."
       },
       {
-        "question": "What if this strategy stops working?",
-        "answer": "Re-examine: weather pattern shifts, team level mismatch, or progression to harder content before mastering the current habitat. Revisit the related habitat and Pokemon data to find what changed. Do not force a broken strategy — reset the approach and rebuild from confirmed conditions."
+        "question": "When should I change legendary targets?",
+        "answer": "Change targets when the current route costs too many resources or your team cannot reach the target window cleanly."
       }
     ],
     "published_at": "2026-05-06",
@@ -545,8 +545,8 @@
     ],
     "faqs": [
       {
-        "question": "What is the biggest trap in this guide's approach?",
-        "answer": "Treating the advice as a rigid formula instead of a starting framework. Real progress requires adjusting based on your team strength, current level, and available resources. Use the related Pokemon and habitat links to fill in specifics that this guide can only generalize about."
+        "question": "What is the biggest habitat comparison mistake?",
+        "answer": "The biggest mistake is choosing by type label alone. Weather, route length, spawn density, and resource bonus matter as much as the headline type."
       },
       {
         "question": "What makes a habitat the best for a type?",
@@ -569,12 +569,12 @@
         "answer": "Yes. As your team improves, a route that was too expensive can become the better farming choice."
       },
       {
-        "question": "How long before this strategy shows results?",
-        "answer": "Most strategies show measurable results within 5-10 runs when conditions are met (correct weather, appropriate team, right recipe timing). If results feel slow after 10 attempts, a key condition is usually being missed — recheck the related habitat pages for spawn window, bait timing, or team matchup details."
+        "question": "How should I test a type habitat?",
+        "answer": "Test one short loop without rare items, then compare useful encounters and materials per run before committing a farming setup."
       },
       {
-        "question": "What if this strategy stops working?",
-        "answer": "Re-examine: weather pattern shifts, team level mismatch, or progression to harder content before mastering the current habitat. Revisit the related habitat and Pokemon data to find what changed. Do not force a broken strategy — reset the approach and rebuild from confirmed conditions."
+        "question": "When should I switch habitats?",
+        "answer": "Switch habitats when another route gives the same type value with fewer failed rooms, better weather, or a cleaner exit point."
       }
     ],
     "published_at": "2026-05-07",
@@ -714,8 +714,8 @@
     ],
     "faqs": [
       {
-        "question": "What is the biggest trap in this guide's approach?",
-        "answer": "Treating the advice as a rigid formula instead of a starting framework. Real progress requires adjusting based on your team strength, current level, and available resources. Use the related Pokemon and habitat links to fill in specifics that this guide can only generalize about."
+        "question": "What causes most Thunder Arena failures?",
+        "answer": "Most failures come from chasing Voltscale before the arena route is stable. Build speed and survival first, then add rare-check support."
       },
       {
         "question": "What kind of route is Thunder Arena?",
@@ -738,12 +738,12 @@
         "answer": "Usually because the team is built for the reward instead of the route. Fix the unstable section first."
       },
       {
-        "question": "How long before this strategy shows results?",
-        "answer": "Most strategies show measurable results within 5-10 runs when conditions are met (correct weather, appropriate team, right recipe timing). If results feel slow after 10 attempts, a key condition is usually being missed — recheck the related habitat pages for spawn window, bait timing, or team matchup details."
+        "question": "How should I measure Thunder Arena progress?",
+        "answer": "Track whether each run reaches the electric check faster and with fewer recovery costs. Speed Potion only matters after that path is consistent."
       },
       {
-        "question": "What if this strategy stops working?",
-        "answer": "Re-examine: weather pattern shifts, team level mismatch, or progression to harder content before mastering the current habitat. Revisit the related habitat and Pokemon data to find what changed. Do not force a broken strategy — reset the approach and rebuild from confirmed conditions."
+        "question": "When should I change my Thunder Arena lead?",
+        "answer": "Change the lead when the opening rooms slow the run or force early recovery before the important electric section."
       }
     ],
     "published_at": "2026-05-09",
@@ -814,8 +814,8 @@
     ],
     "faqs": [
       {
-        "question": "What is the biggest trap in this guide's approach?",
-        "answer": "Treating the advice as a rigid formula instead of a starting framework. Real progress requires adjusting based on your team strength, current level, and available resources. Use the related Pokemon and habitat links to fill in specifics that this guide can only generalize about."
+        "question": "What makes Frost Peak runs collapse?",
+        "answer": "Frost Peak punishes long fragile routes. If the team loses stability halfway up, shorten the climb and save Ice Armor for the dangerous section."
       },
       {
         "question": "Is Frost Peak good for midgame farming?",
@@ -838,12 +838,12 @@
         "answer": "Only when full clears are stable. For farming, a shorter loop is often better."
       },
       {
-        "question": "How long before this strategy shows results?",
-        "answer": "Most strategies show measurable results within 5-10 runs when conditions are met (correct weather, appropriate team, right recipe timing). If results feel slow after 10 attempts, a key condition is usually being missed — recheck the related habitat pages for spawn window, bait timing, or team matchup details."
+        "question": "How should I test Frost Peak safely?",
+        "answer": "Run a shorter mid-route loop first, then expand only when Tidlet, Glacior, or Snorizard can reach the key rooms without heavy recovery."
       },
       {
-        "question": "What if this strategy stops working?",
-        "answer": "Re-examine: weather pattern shifts, team level mismatch, or progression to harder content before mastering the current habitat. Revisit the related habitat and Pokemon data to find what changed. Do not force a broken strategy — reset the approach and rebuild from confirmed conditions."
+        "question": "When should I stop full-clearing Frost Peak?",
+        "answer": "Stop full-clearing when the final rooms add risk without improving the material or Pokemon target you came for."
       }
     ],
     "published_at": "2026-05-10",
@@ -929,7 +929,7 @@
       },
       {
         "question": "Why does my defense team feel too slow?",
-        "answer": "It probably has too much survival and not enough finishing power. Replace one redundant defensive slot before rebuilding everything."
+        "answer": "The team has too much survival and not enough finishing power when clears drag past the reward window. Replace one redundant defensive slot before rebuilding everything."
       },
       {
         "question": "Where is this build most useful?",
@@ -995,8 +995,8 @@
     ],
     "faqs": [
       {
-        "question": "What is the biggest trap in this guide's approach?",
-        "answer": "Treating the advice as a rigid formula instead of a starting framework. Real progress requires adjusting based on your team strength, current level, and available resources. Use the related Pokemon and habitat links to fill in specifics that this guide can only generalize about."
+        "question": "What makes dragon teams feel too costly?",
+        "answer": "Dragon teams become costly when they enter hard routes before the support slots are ready. Stabilize travel and survival before using Dragon's Fury."
       },
       {
         "question": "When should I start building dragon teams?",
@@ -1016,15 +1016,15 @@
       },
       {
         "question": "Why does my dragon team feel expensive?",
-        "answer": "The route is probably not stable enough yet. Fix travel, backup support, and survival before spending rare recipes."
+        "answer": "The route is not stable enough yet if rare recipes are being used to rescue basic travel, backup support, or survival problems. Fix those pieces first."
       },
       {
-        "question": "How long before this strategy shows results?",
-        "answer": "Most strategies show measurable results within 5-10 runs when conditions are met (correct weather, appropriate team, right recipe timing). If results feel slow after 10 attempts, a key condition is usually being missed — recheck the related habitat pages for spawn window, bait timing, or team matchup details."
+        "question": "How should I test a dragon build?",
+        "answer": "Test whether the team reaches the target room with enough resources left for the dragon carry to matter. Damage alone is not enough."
       },
       {
-        "question": "What if this strategy stops working?",
-        "answer": "Re-examine: weather pattern shifts, team level mismatch, or progression to harder content before mastering the current habitat. Revisit the related habitat and Pokemon data to find what changed. Do not force a broken strategy — reset the approach and rebuild from confirmed conditions."
+        "question": "When should I delay dragon farming?",
+        "answer": "Delay it when every attempt depends on rare recipes or emergency recovery. That means the route is ahead of the current team."
       }
     ],
     "published_at": "2026-05-12",
@@ -1043,7 +1043,7 @@
     "slug": "complete-recipe-list",
     "category": "guides",
     "seo_keyword": "recipes pokopia",
-    "content": "Recipes are not collectibles to spend whenever they look strong. They are route tools. Honey Cake supports capture-focused runs, Lucky Charm belongs to repeated rare checks, Fire Boost and similar damage recipes push hard rooms, and Steel Shell or Mega Restore protect routes that fail through survival rather than damage.\n\nThe best recipe is usually the one that solves the next problem, not the rarest one in your bag. If a route is still being scouted, save expensive buffs. If the route is short and repeatable, a targeted buff can multiply several useful attempts.\n\nBefore crafting or using a recipe, name the objective: catch, rare check, boss clear, survival, speed, or recovery. If you cannot name the objective, the route is probably not ready for that recipe yet.",
+    "content": "Recipes are not collectibles to spend whenever they look strong. They are route tools. Honey Cake supports capture-focused runs, Lucky Charm belongs to repeated rare checks, Fire Boost and similar damage recipes push hard rooms, and Steel Shell or Mega Restore protect routes that fail through survival rather than damage.\n\nThe best recipe is usually the one that solves the next problem, not the rarest one in your bag. If a route is still being scouted, save expensive buffs. If the route is short and repeatable, a targeted buff can multiply several useful attempts.\n\nBefore crafting or using a recipe, name the objective: catch, rare check, boss clear, survival, speed, or recovery. If you cannot name the objective, hold the recipe until the route has a clear job.",
     "related_pokemon": "pkm001,pkm007",
     "related_items": "rec005,rec015,rec002",
     "related_habitats": "hab001",
@@ -1098,16 +1098,16 @@
         "answer": "Name the bottleneck before using the recipe, then check whether the recipe actually improved that bottleneck."
       },
       {
-        "question": "What is the biggest trap in this guide's approach?",
-        "answer": "Treating the advice as a rigid formula instead of a starting framework. Real progress requires adjusting based on your team strength, current level, and available resources. Use the related Pokemon and habitat links to fill in specifics that this guide can only generalize about."
+        "question": "What is the easiest way to waste recipes?",
+        "answer": "The easiest waste is using a recipe before the route has a named job. Decide whether the run is for capture, speed, survival, rare checks, or recovery."
       },
       {
-        "question": "How long before this strategy shows results?",
-        "answer": "Most strategies show measurable results within 5-10 runs when conditions are met (correct weather, appropriate team, right recipe timing). If results feel slow after 10 attempts, a key condition is usually being missed — recheck the related habitat pages for spawn window, bait timing, or team matchup details."
+        "question": "How should I test a new recipe?",
+        "answer": "Run the route once without the recipe, mark the failure point, then use the recipe only if it solves that specific point."
       },
       {
-        "question": "What if this strategy stops working?",
-        "answer": "Re-examine: weather pattern shifts, team level mismatch, or progression to harder content before mastering the current habitat. Revisit the related habitat and Pokemon data to find what changed. Do not force a broken strategy — reset the approach and rebuild from confirmed conditions."
+        "question": "When should I change recipes?",
+        "answer": "Change recipes when the failure condition changes. A route that stops failing through damage may need speed, attraction, or recovery instead."
       }
     ],
     "published_at": "2026-05-13",
@@ -1126,7 +1126,7 @@
     "slug": "sky-isles-guide",
     "category": "guides",
     "seo_keyword": "sky isles pokopia",
-    "content": "Sky Isles is a movement route first and a combat route second. Flying High helps, but it cannot fix a player who is taking slow paths, missing reset points, or bringing a team that cannot handle awkward aerial encounters. The value of the area comes from clean movement and quick repeat attempts.\n\nBreezel is the practical entry point because it keeps the route readable. Flamingo adds stronger Fire/Flying pressure, while Tropius is better when you want a more rounded flying-style setup. Use Speed Potion only after the route path is known; otherwise you are just moving faster through inefficient decisions.\n\nA good Sky Isles run should feel light. Reach the important section, take the useful check, and reset before the route becomes a long tour. If the run keeps turning into a full clear, you are probably farming the area too broadly.",
+    "content": "Sky Isles is a movement route first and a combat route second. Flying High helps, but it cannot fix a player who is taking slow paths, missing reset points, or bringing a team that cannot handle awkward aerial encounters. The value of the area comes from clean movement and quick repeat attempts.\n\nBreezel is the practical entry point because it keeps the route readable. Flamingo adds stronger Fire/Flying pressure, while Tropius is better when you want a more rounded flying-style setup. Use Speed Potion only after the route path is known; otherwise you are just moving faster through inefficient decisions.\n\nA good Sky Isles run should feel light. Reach the important section, take the useful check, and reset before the route becomes a long tour. If the run keeps turning into a full clear, narrow the route before using more movement or speed support.",
     "related_pokemon": "pkm016,pkm020,pkm025,pkm040,pkm045,pkm047",
     "related_items": "rec013",
     "related_habitats": "hab008",
@@ -1161,8 +1161,8 @@
     ],
     "faqs": [
       {
-        "question": "What is the biggest trap in this guide's approach?",
-        "answer": "Treating the advice as a rigid formula instead of a starting framework. Real progress requires adjusting based on your team strength, current level, and available resources. Use the related Pokemon and habitat links to fill in specifics that this guide can only generalize about."
+        "question": "What slows down Sky Isles the most?",
+        "answer": "Sky Isles slows down when the route becomes a sightseeing loop. Pick the target section first, then use movement support to repeat it cleanly."
       },
       {
         "question": "What matters most in Sky Isles?",
@@ -1185,12 +1185,12 @@
         "answer": "Usually no for farming. Repeat the shortest loop that reaches the useful check."
       },
       {
-        "question": "How long before this strategy shows results?",
-        "answer": "Most strategies show measurable results within 5-10 runs when conditions are met (correct weather, appropriate team, right recipe timing). If results feel slow after 10 attempts, a key condition is usually being missed — recheck the related habitat pages for spawn window, bait timing, or team matchup details."
+        "question": "How should I judge a Sky Isles route?",
+        "answer": "Judge it by time to the useful aerial check and clean exit, not by how many optional branches the team can clear."
       },
       {
-        "question": "What if this strategy stops working?",
-        "answer": "Re-examine: weather pattern shifts, team level mismatch, or progression to harder content before mastering the current habitat. Revisit the related habitat and Pokemon data to find what changed. Do not force a broken strategy — reset the approach and rebuild from confirmed conditions."
+        "question": "When should I change the Sky Isles team?",
+        "answer": "Change the team when movement is clean but aerial encounters still interrupt the route or force unnecessary recovery."
       }
     ],
     "published_at": "2026-05-14",
@@ -1244,8 +1244,8 @@
     ],
     "faqs": [
       {
-        "question": "What is the biggest trap in this guide's approach?",
-        "answer": "Treating the advice as a rigid formula instead of a starting framework. Real progress requires adjusting based on your team strength, current level, and available resources. Use the related Pokemon and habitat links to fill in specifics that this guide can only generalize about."
+        "question": "What makes Muddy River inefficient?",
+        "answer": "Muddy River becomes inefficient when the team fights the current instead of planning around it. Use Water Shield only after the route path is known."
       },
       {
         "question": "Is Muddy River good for farming?",
@@ -1268,12 +1268,12 @@
         "answer": "It is more of a stable midgame route, especially for players building water-team consistency."
       },
       {
-        "question": "How long before this strategy shows results?",
-        "answer": "Most strategies show measurable results within 5-10 runs when conditions are met (correct weather, appropriate team, right recipe timing). If results feel slow after 10 attempts, a key condition is usually being missed — recheck the related habitat pages for spawn window, bait timing, or team matchup details."
+        "question": "How should I test Muddy River?",
+        "answer": "Run the river once for pathing and once for material value. If both runs drag, shorten the loop before adding recipes."
       },
       {
-        "question": "What if this strategy stops working?",
-        "answer": "Re-examine: weather pattern shifts, team level mismatch, or progression to harder content before mastering the current habitat. Revisit the related habitat and Pokemon data to find what changed. Do not force a broken strategy — reset the approach and rebuild from confirmed conditions."
+        "question": "When should I leave Muddy River for another habitat?",
+        "answer": "Leave when the water route no longer adds useful drops, Pokemon checks, or progression value compared with Crystal Lake or Sunny Beach."
       }
     ],
     "published_at": "2026-05-15",
@@ -1292,7 +1292,7 @@
     "slug": "top-10-powerful-pokemon",
     "category": "tier",
     "seo_keyword": "strongest pokemon pokopia",
-    "content": "Powerful Pokemon are only powerful when the route lets them do their job. Flamexor, Shadowclaw, and Voltscale can carry serious content, but they are not automatic answers to every habitat. A weaker Pokemon with the right matchup and recipe timing can outperform a legendary that enters the wrong route.\n\nRank these picks by role, not hype. Flamexor is a finisher for fire pressure and boss rooms. Shadowclaw is valuable in ghost-heavy rare routes. Voltscale brings speed and electric-dragon pressure. Snorizard and other durable options matter because some hard routes need survival more than damage.\n\nUse a power list as a planning tool. Pick the Pokemon that solves the next route problem, then support it with the right backup and recipe. If a top pick keeps failing, the issue is probably route fit, not the ranking.",
+    "content": "Powerful Pokemon are only powerful when the route lets them do their job. Flamexor, Shadowclaw, and Voltscale can carry serious content, but they are not automatic answers to every habitat. A weaker Pokemon with the right matchup and recipe timing can outperform a legendary that enters the wrong route.\n\nRank these picks by role, not hype. Flamexor is a finisher for fire pressure and boss rooms. Shadowclaw is valuable in ghost-heavy rare routes. Voltscale brings speed and electric-dragon pressure. Snorizard and other durable options matter because some hard routes need survival more than damage.\n\nUse a power list as a planning tool. Pick the Pokemon that solves the next route problem, then support it with the right backup and recipe. If a top pick keeps failing, check route fit before changing the ranking assumption.",
     "related_pokemon": "pkm007,pkm030,pkm015",
     "related_items": "rec005",
     "related_habitats": "hab001,hab006,hab012",
@@ -1344,7 +1344,7 @@
       },
       {
         "question": "Why does my strongest Pokemon keep failing?",
-        "answer": "It is probably being used in the wrong route or without the support needed to reach its power window."
+        "answer": "It is being used in the wrong route when the team cannot reach its power window or support its matchup."
       },
       {
         "question": "Does ranking change as new Pokemon or updates release?",
@@ -1375,7 +1375,7 @@
     "slug": "gemstone-canyon-guide",
     "category": "guides",
     "seo_keyword": "gemstone canyon pokopia",
-    "content": "Gemstone Canyon is a resource route before it is a combat route. The best runs are short mining loops that collect valuable materials, avoid unnecessary branches, and leave before the route becomes inefficient. If you are clearing every path, you are probably mining too slowly.\n\nRockler is the practical early pick for consistent canyon runs. Crystion becomes more valuable when crystal routes and Fairy/Crystal coverage matter. Steel Shell helps if the mining loop includes heavy damage rooms, but it should not be spent on a casual scouting pass.\n\nInventory space matters here more than most players expect. Enter with a clear material goal, repeat the shortest useful loop, and stop when the route starts turning into random combat instead of planned mining.",
+    "content": "Gemstone Canyon is a resource route before it is a combat route. The best runs are short mining loops that collect valuable materials, avoid unnecessary branches, and leave before the route becomes inefficient. If you are clearing every path, shorten the mining loop and leave optional combat for a separate run.\n\nRockler is the practical early pick for consistent canyon runs. Crystion becomes more valuable when crystal routes and Fairy/Crystal coverage matter. Steel Shell helps if the mining loop includes heavy damage rooms, but it should not be spent on a casual scouting pass.\n\nInventory space matters here more than most players expect. Enter with a clear material goal, repeat the shortest useful loop, and stop when the route starts turning into random combat instead of planned mining.",
     "related_pokemon": "pkm011,pkm012",
     "related_items": "rec012",
     "related_habitats": "hab007",
@@ -1427,19 +1427,19 @@
       },
       {
         "question": "Why are my canyon runs inefficient?",
-        "answer": "You are probably clearing too many branches or entering without a specific material goal."
+        "answer": "You are clearing too many branches or entering without a specific material goal."
       },
       {
-        "question": "What is the biggest trap in this guide's approach?",
-        "answer": "Treating the advice as a rigid formula instead of a starting framework. Real progress requires adjusting based on your team strength, current level, and available resources. Use the related Pokemon and habitat links to fill in specifics that this guide can only generalize about."
+        "question": "What makes canyon mining slow?",
+        "answer": "Canyon mining slows down when optional combat replaces the material loop. Enter with one material goal and skip branches that do not support it."
       },
       {
-        "question": "How long before this strategy shows results?",
-        "answer": "Most strategies show measurable results within 5-10 runs when conditions are met (correct weather, appropriate team, right recipe timing). If results feel slow after 10 attempts, a key condition is usually being missed — recheck the related habitat pages for spawn window, bait timing, or team matchup details."
+        "question": "How many canyon loops should I compare?",
+        "answer": "Compare two short loops: one safe path and one deeper branch. Keep the loop that returns better materials without draining recovery."
       },
       {
-        "question": "What if this strategy stops working?",
-        "answer": "Re-examine: weather pattern shifts, team level mismatch, or progression to harder content before mastering the current habitat. Revisit the related habitat and Pokemon data to find what changed. Do not force a broken strategy — reset the approach and rebuild from confirmed conditions."
+        "question": "When should I bring Steel Shell?",
+        "answer": "Bring Steel Shell when the best mining loop passes through heavy damage rooms. Do not spend it on casual scouting."
       }
     ],
     "published_at": "2026-05-17",
@@ -1589,7 +1589,7 @@
       },
       {
         "question": "Why does ghost farming feel slow?",
-        "answer": "The route is probably too long. Cut side rooms and measure useful checks per hour."
+        "answer": "The route is too long when side rooms lower useful checks per hour. Cut optional rooms first."
       },
       {
         "question": "Do I need a support Pokemon?",
@@ -1742,8 +1742,8 @@
     ],
     "faqs": [
       {
-        "question": "What is the biggest trap in this guide's approach?",
-        "answer": "Treating the advice as a rigid formula instead of a starting framework. Real progress requires adjusting based on your team strength, current level, and available resources. Use the related Pokemon and habitat links to fill in specifics that this guide can only generalize about."
+        "question": "What blocks Dragon's Den attempts?",
+        "answer": "Dragon's Den attempts fail when the unlock route is treated like a normal farming loop. Prepare the team for the gate section first."
       },
       {
         "question": "When should I attempt Dragon's Den?",
@@ -1759,19 +1759,19 @@
       },
       {
         "question": "Why does Dragon's Den feel too expensive?",
-        "answer": "The team probably cannot reach the important section consistently. Improve support before spending more recipes."
+        "answer": "The team cannot reach the important section consistently yet. Improve support before spending more recipes."
       },
       {
         "question": "Is this a farming route?",
         "answer": "Not at first. Treat it as an unlock and scouting route before turning it into a repeatable farm."
       },
       {
-        "question": "How long before this strategy shows results?",
-        "answer": "Most strategies show measurable results within 5-10 runs when conditions are met (correct weather, appropriate team, right recipe timing). If results feel slow after 10 attempts, a key condition is usually being missed — recheck the related habitat pages for spawn window, bait timing, or team matchup details."
+        "question": "How should I prepare for Dragon's Den?",
+        "answer": "Confirm the route entry, support slot, and Dragon's Fury timing before committing rare materials to repeated attempts."
       },
       {
-        "question": "What if this strategy stops working?",
-        "answer": "Re-examine: weather pattern shifts, team level mismatch, or progression to harder content before mastering the current habitat. Revisit the related habitat and Pokemon data to find what changed. Do not force a broken strategy — reset the approach and rebuild from confirmed conditions."
+        "question": "When should I postpone Dragon's Den?",
+        "answer": "Postpone it when the team cannot reach the important section consistently. More recipes will not fix an unstable entry route."
       }
     ],
     "published_at": "2026-05-21",
@@ -1825,8 +1825,8 @@
     ],
     "faqs": [
       {
-        "question": "What is the biggest trap in this guide's approach?",
-        "answer": "Treating the advice as a rigid formula instead of a starting framework. Real progress requires adjusting based on your team strength, current level, and available resources. Use the related Pokemon and habitat links to fill in specifics that this guide can only generalize about."
+        "question": "What should beginners avoid in Training Grounds?",
+        "answer": "Beginners should avoid treating Training Grounds like a permanent farm. Use it to test roles, then move to real habitats once the basics are stable."
       },
       {
         "question": "Why should I use Training Grounds?",
@@ -1849,12 +1849,12 @@
         "answer": "No. It is also useful when testing a new team shape before taking it into expensive routes."
       },
       {
-        "question": "How long before this strategy shows results?",
-        "answer": "Most strategies show measurable results within 5-10 runs when conditions are met (correct weather, appropriate team, right recipe timing). If results feel slow after 10 attempts, a key condition is usually being missed — recheck the related habitat pages for spawn window, bait timing, or team matchup details."
+        "question": "How long should I stay in Training Grounds?",
+        "answer": "Stay until starter role, backup support, and recipe timing feel predictable. After that, Forest Valley or Crystal Lake gives better route practice."
       },
       {
-        "question": "What if this strategy stops working?",
-        "answer": "Re-examine: weather pattern shifts, team level mismatch, or progression to harder content before mastering the current habitat. Revisit the related habitat and Pokemon data to find what changed. Do not force a broken strategy — reset the approach and rebuild from confirmed conditions."
+        "question": "When is Training Grounds still useful later?",
+        "answer": "Return later when testing a new team shape or recipe timing without risking a harder habitat run."
       }
     ],
     "published_at": "2026-05-22",
@@ -1993,8 +1993,8 @@
     ],
     "faqs": [
       {
-        "question": "What is the biggest trap in this guide's approach?",
-        "answer": "Treating the advice as a rigid formula instead of a starting framework. Real progress requires adjusting based on your team strength, current level, and available resources. Use the related Pokemon and habitat links to fill in specifics that this guide can only generalize about."
+        "question": "What makes legendary location checks expensive?",
+        "answer": "They become expensive when the target changes every run. Pick one legendary, one habitat, and one support plan before spending Lucky Charm."
       },
       {
         "question": "Which legendary should I target first?",
@@ -2017,12 +2017,12 @@
         "answer": "No. Pick one target and build enough attempts to learn the route properly."
       },
       {
-        "question": "How long before this strategy shows results?",
-        "answer": "Most strategies show measurable results within 5-10 runs when conditions are met (correct weather, appropriate team, right recipe timing). If results feel slow after 10 attempts, a key condition is usually being missed — recheck the related habitat pages for spawn window, bait timing, or team matchup details."
+        "question": "How should I compare legendary routes?",
+        "answer": "Compare routes by access cost, repeatability, and support pressure. The best target is the one your team can check cleanly."
       },
       {
-        "question": "What if this strategy stops working?",
-        "answer": "Re-examine: weather pattern shifts, team level mismatch, or progression to harder content before mastering the current habitat. Revisit the related habitat and Pokemon data to find what changed. Do not force a broken strategy — reset the approach and rebuild from confirmed conditions."
+        "question": "When should I stop rotating legendary targets?",
+        "answer": "Stop rotating when you have not learned any single route well enough to repeat the target window."
       }
     ],
     "published_at": "2026-05-22",
@@ -2111,16 +2111,16 @@
         "answer": "Not for farming. Find the valuable branch and repeat that loop."
       },
       {
-        "question": "What is the biggest trap in this guide's approach?",
-        "answer": "Treating the advice as a rigid formula instead of a starting framework. Real progress requires adjusting based on your team strength, current level, and available resources. Use the related Pokemon and habitat links to fill in specifics that this guide can only generalize about."
+        "question": "What makes Crystal Cave confusing?",
+        "answer": "Crystal Cave becomes confusing when every branch is treated as equal. Scout first, then repeat the branch with the best crystal or rare-check value."
       },
       {
-        "question": "How long before this strategy shows results?",
-        "answer": "Most strategies show measurable results within 5-10 runs when conditions are met (correct weather, appropriate team, right recipe timing). If results feel slow after 10 attempts, a key condition is usually being missed — recheck the related habitat pages for spawn window, bait timing, or team matchup details."
+        "question": "How should I scout Crystal Cave?",
+        "answer": "Use one low-cost visit to mark branches, hidden checks, and exit points before spending Lucky Charm or Mega Restore."
       },
       {
-        "question": "What if this strategy stops working?",
-        "answer": "Re-examine: weather pattern shifts, team level mismatch, or progression to harder content before mastering the current habitat. Revisit the related habitat and Pokemon data to find what changed. Do not force a broken strategy — reset the approach and rebuild from confirmed conditions."
+        "question": "When should I stop exploring and start farming?",
+        "answer": "Start farming when one branch clearly produces the target material or Pokemon check more reliably than the full cave."
       }
     ],
     "published_at": "2026-05-22",
@@ -2360,16 +2360,16 @@
         "answer": "Only while scouting. For farming, repeat the shortest route that reaches the valuable hidden checks."
       },
       {
-        "question": "What is the biggest trap in this guide's approach?",
-        "answer": "Treating the advice as a rigid formula instead of a starting framework. Real progress requires adjusting based on your team strength, current level, and available resources. Use the related Pokemon and habitat links to fill in specifics that this guide can only generalize about."
+        "question": "What makes Fairy Glen attempts messy?",
+        "answer": "Fairy Glen gets messy when hidden checks are chased before the team can handle the route safely. Stabilize the path before using Lucky Charm."
       },
       {
-        "question": "How long before this strategy shows results?",
-        "answer": "Most strategies show measurable results within 5-10 runs when conditions are met (correct weather, appropriate team, right recipe timing). If results feel slow after 10 attempts, a key condition is usually being missed — recheck the related habitat pages for spawn window, bait timing, or team matchup details."
+        "question": "How should I approach Fairy Glen first?",
+        "answer": "Treat the first visit as mapping. Identify the hidden section, then return with a recipe only when the path is repeatable."
       },
       {
-        "question": "What if this strategy stops working?",
-        "answer": "Re-examine: weather pattern shifts, team level mismatch, or progression to harder content before mastering the current habitat. Revisit the related habitat and Pokemon data to find what changed. Do not force a broken strategy — reset the approach and rebuild from confirmed conditions."
+        "question": "When should I use a shorter Fairy Glen loop?",
+        "answer": "Use a shorter loop when full clears add more risk than hidden-check value."
       }
     ],
     "published_at": "2026-05-22",
@@ -2423,8 +2423,8 @@
     ],
     "faqs": [
       {
-        "question": "What is the biggest trap in this guide's approach?",
-        "answer": "Treating the advice as a rigid formula instead of a starting framework. Real progress requires adjusting based on your team strength, current level, and available resources. Use the related Pokemon and habitat links to fill in specifics that this guide can only generalize about."
+        "question": "What makes Nightmare Forest dangerous?",
+        "answer": "Nightmare Forest punishes teams that enter for rare checks before they can handle darkness pressure. Build survival before rare farming."
       },
       {
         "question": "Is Nightmare Forest hard?",
@@ -2447,12 +2447,12 @@
         "answer": "No. Make normal clears stable first, then shorten the route around the valuable check."
       },
       {
-        "question": "How long before this strategy shows results?",
-        "answer": "Most strategies show measurable results within 5-10 runs when conditions are met (correct weather, appropriate team, right recipe timing). If results feel slow after 10 attempts, a key condition is usually being missed — recheck the related habitat pages for spawn window, bait timing, or team matchup details."
+        "question": "How should I test Nightmare Forest?",
+        "answer": "Run a short survival check first. If the team reaches the dark section cleanly, then test Ghost Veil or Steel Shell timing."
       },
       {
-        "question": "What if this strategy stops working?",
-        "answer": "Re-examine: weather pattern shifts, team level mismatch, or progression to harder content before mastering the current habitat. Revisit the related habitat and Pokemon data to find what changed. Do not force a broken strategy — reset the approach and rebuild from confirmed conditions."
+        "question": "When should I stop rare farming there?",
+        "answer": "Stop when every rare attempt depends on emergency recovery. The route needs a stronger support plan before more farming."
       }
     ],
     "published_at": "2026-05-22",
