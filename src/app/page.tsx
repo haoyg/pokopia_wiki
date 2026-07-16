@@ -154,7 +154,7 @@ export default function Home() {
       <section className="home-dashboard" aria-label="Pokopia homepage highlights">
         <div className="lead-story">
           <a href={`/news/${leadNews.slug}`} className="lead-story-link">
-            <CreditedImage src={leadNews.image_url} alt={leadNews.image_alt} source={leadNews.image_source} sourceUrl={leadNews.image_source_url} licenseNote={leadNews.image_license_note} originalMedia={leadNews.image_original_media} className="lead-cover" sizes="(max-width: 768px) 100vw, 620px" priority />
+            <CreditedImage src={leadNews.image_url} alt={leadNews.image_alt} source={leadNews.image_source} sourceUrl={leadNews.image_source_url} licenseNote={leadNews.image_license_note} originalMedia={leadNews.image_original_media} className="lead-cover" sizes="(max-width: 768px) 100vw, 620px" priority creditLink={false} />
             <span className={`badge ${leadNews.category}`}>
               {categoryLabels[leadNews.category] || leadNews.category}
             </span>
@@ -258,7 +258,7 @@ export default function Home() {
         <div className="guide-lane-grid">
           {guides.map((item) => (
             <a key={item.id} href={`/guides/${item.slug}`} className="card">
-              <CreditedImage src={item.image_url} alt={item.image_alt} source={item.image_source} sourceUrl={item.image_source_url} licenseNote={item.image_license_note} originalMedia={item.image_original_media} />
+              <CreditedImage src={item.image_url} alt={item.image_alt} source={item.image_source} sourceUrl={item.image_source_url} licenseNote={item.image_license_note} originalMedia={item.image_original_media} creditLink={false} />
               <span className="badge">{categoryLabels[item.category] || item.category}</span>
               <h3>{item.title}</h3>
               <p>{item.answer}</p>
@@ -297,7 +297,7 @@ export default function Home() {
         <div className="news-grid">
           {news.map((item) => (
             <a key={item.id} href={`/news/${item.slug}`} className="card">
-              <CreditedImage src={item.image_url} alt={item.image_alt} source={item.image_source} sourceUrl={item.image_source_url} licenseNote={item.image_license_note} originalMedia={item.image_original_media} />
+              <CreditedImage src={item.image_url} alt={item.image_alt} source={item.image_source} sourceUrl={item.image_source_url} licenseNote={item.image_license_note} originalMedia={item.image_original_media} creditLink={false} />
               <span className={`badge ${item.category}`}>
                 {categoryLabels[item.category] || item.category}
               </span>

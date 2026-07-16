@@ -8,6 +8,7 @@ type CreditedImageProps = {
   className?: string
   priority?: boolean
   sizes?: string
+  creditLink?: boolean
 }
 
 export function CreditedImage({
@@ -20,6 +21,7 @@ export function CreditedImage({
   className = 'card-cover',
   priority = false,
   sizes,
+  creditLink = true,
 }: CreditedImageProps) {
   if (!src || !source) return null
 
@@ -42,7 +44,7 @@ export function CreditedImage({
       </div>
       <figcaption style={{ color: '#777', fontSize: '0.75rem', lineHeight: 1.5, marginTop: '0.35rem' }}>
         <span>
-          Image source: {sourceUrl ? <a href={sourceUrl} rel="nofollow noopener noreferrer" target="_blank">{source}</a> : source}
+          Image source: {sourceUrl && creditLink ? <a href={sourceUrl} rel="nofollow noopener noreferrer" target="_blank">{source}</a> : source}
         </span>
         {originalMedia && (
           <>

@@ -169,7 +169,7 @@ export default function RecipePage() {
       <div className="pokemon-grid">
         {recipesData.map((r) => (
           <a key={r.id} href={`/wiki/recipe/${r.id}`} className="card">
-            <CreditedImage src={r.image_url} alt={r.image_alt || r.name} source={r.image_source} sourceUrl={r.image_source_url} licenseNote={r.image_license_note} originalMedia={r.image_original_media} />
+            <CreditedImage src={r.image_url} alt={r.image_alt || r.name} source={r.image_source} sourceUrl={r.image_source_url} licenseNote={r.image_license_note} originalMedia={r.image_original_media} creditLink={false} />
             <h3 className="index-card-title index-card-title-center">{r.name}</h3>
             <p className="index-card-meta">{r.buff}</p>
             <p className="index-card-submeta">{r.effect_duration} · {r.best_use}</p>
