@@ -16,8 +16,8 @@ const categoryLabels: Record<string, string> = {
 const guideTracks = [
   {
     title: 'Source-Backed Routes',
-    text: 'Start with pages that have been separated from the larger editorial guide set.',
-    links: ['thunder-arena-guide', 'frost-peak-guide', 'legendary-locations-guide'],
+    text: 'Start with practical guides that link directly to official Nintendo or Pokemon source pages.',
+    links: ['how-to-build-first-house', 'pokemon-center-pc-daily-routine', 'town-visit-multiplayer-guide'],
   },
   {
     title: 'Confirmed Systems',
@@ -66,7 +66,8 @@ export const metadata: Metadata = {
 }
 
 export default function GuidesPage() {
-  const sourceBackedGuides = guidesData.filter((guide) => !shouldNoIndex(guide.data_status, guide.index_status))
+  const publishedGuides = guidesData.filter((guide) => !shouldNoIndex(guide.data_status, guide.index_status))
+  const sourceBackedGuides = publishedGuides.filter((guide) => guide.data_status === 'Source-backed guide')
   const findGuide = (slug: string) => guidesData.find((guide) => guide.slug === slug)
 
   return (
@@ -81,14 +82,14 @@ export default function GuidesPage() {
         name="Pokopia Guides"
         description="Source-backed route guides and official-context planning pages for Pokopia players."
         url="/guides"
-        items={sourceBackedGuides.map((guide) => ({
+        items={publishedGuides.map((guide) => ({
           name: guide.title,
           url: `/guides/${guide.slug}`,
         }))}
       />
       <section className="page-hero">
         <h1>Pokopia Guides</h1>
-        <p>Source-backed route guides are listed here first. Broader editorial planning pages stay separated until they have stronger verification.</p>
+        <p>Official-source guides and editorial planning pages are labeled separately, so you can see what is confirmed before using route advice.</p>
       </section>
 
       <OfficialContext
@@ -97,6 +98,13 @@ export default function GuidesPage() {
       />
 
       <section className="features-lead-section">
+        <div className="section-title-row">
+          <div>
+            <span className="panel-kicker">Official-Source Guides</span>
+            <h2>Start With Confirmed Systems</h2>
+          </div>
+          <span>{sourceBackedGuides.length} source-backed guides</span>
+        </div>
         <div className="features-topic-grid">
           {sourceBackedGuides.map((guide) => (
           <a key={guide.id} href={`/guides/${guide.slug}`} className="feature-hero">
@@ -156,11 +164,12 @@ export default function GuidesPage() {
       </section>
 
       <div className="guides-grid">
-        {sourceBackedGuides.map((guide) => (
+        {publishedGuides.map((guide) => (
           <a key={guide.id} href={`/guides/${guide.slug}`} className="card">
             <CreditedImage src={guide.image_url} alt={guide.image_alt} source={guide.image_source} sourceUrl={guide.image_source_url} licenseNote={guide.image_license_note} originalMedia={guide.image_original_media} />
             <div className="index-card-badges">
               <span className="badge">{categoryLabels[guide.category] || guide.category}</span>
+              <span className="badge announcement">{guide.data_status}</span>
             </div>
             <h3 className="index-card-title">{guide.title}</h3>
             <p className="index-card-summary">{shortText(guide.answer || guide.seo_keyword, 135)}</p>
