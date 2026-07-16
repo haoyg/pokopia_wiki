@@ -121,7 +121,7 @@ if (fs.existsSync(sitemapPath)) {
     for (const pattern of forbiddenIndexPathPatterns) {
       assert(!pattern.test(pagePath), `sitemap includes noindex or low-confidence URL: ${pagePath}`)
     }
-    if (/^\/wiki\/(pokemon|habitat|recipe)\//.test(pagePath)) {
+    if (/^\/wiki\/(pokemon|habitat|recipe)\/[^/]+\/$/.test(pagePath)) {
       assert(indexableDatabasePaths.has(pagePath), `sitemap includes database page without complete source-review data: ${pagePath}`)
     }
 
@@ -158,7 +158,7 @@ for (const item of searchIndex) {
     assert(!pattern.test(pagePath), `search index includes noindex or low-confidence URL: ${pagePath}`)
   }
 
-  if (/^\/wiki\/(pokemon|habitat|recipe)\//.test(pagePath)) {
+  if (/^\/wiki\/(pokemon|habitat|recipe)\/[^/]+\/$/.test(pagePath)) {
     assert(indexableDatabasePaths.has(pagePath), `search index includes database page without complete source-review data: ${pagePath}`)
   }
 

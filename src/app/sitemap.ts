@@ -10,7 +10,7 @@ import recipesData from '@/data/recipes.json'
 import { BASE_URL } from '@/lib/site'
 import { isIndexableDatabaseEntry, shouldNoIndex } from '@/lib/indexing'
 
-const SITE_REVIEWED_AT = new Date('2026-05-23')
+const SITE_REVIEWED_AT = new Date('2026-07-16')
 const REDIRECTED_NEWS_SLUGS = new Set([
   'pokemon-pokopia-multiplayer-gameshare-details',
   'pokemon-pokopia-switch-2-online-local-gameshare',
@@ -21,6 +21,11 @@ const staticPages = [
   { url: '/official/', priority: 0.9, changefreq: 'weekly' },
   { url: '/news/', priority: 0.85, changefreq: 'weekly' },
   { url: '/news/weekly-event-tracker/', priority: 0.76, changefreq: 'weekly' },
+  { url: '/guides/', priority: 0.84, changefreq: 'weekly' },
+  { url: '/wiki/pokemon/', priority: 0.78, changefreq: 'weekly' },
+  { url: '/wiki/habitat/', priority: 0.76, changefreq: 'weekly' },
+  { url: '/wiki/recipe/', priority: 0.74, changefreq: 'weekly' },
+  { url: '/tier-list/', priority: 0.7, changefreq: 'monthly' },
   { url: '/features/', priority: 0.65, changefreq: 'monthly' },
   { url: '/tools/', priority: 0.65, changefreq: 'monthly' },
   { url: '/tools/habitat-planner/', priority: 0.66, changefreq: 'monthly' },
