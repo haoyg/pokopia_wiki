@@ -29,6 +29,13 @@ for (const file of files) {
       issues.push(`${file}: ${item.id || item.slug || item.title || 'unknown'} has an invalid image_url`)
     }
 
+    if (item.image_url.startsWith('/')) {
+      const localFile = path.join(process.cwd(), 'public', item.image_url)
+      if (!fs.existsSync(localFile)) {
+        issues.push(`${file}: ${item.id || item.slug || item.title || 'unknown'} references missing local image ${item.image_url}`)
+      }
+    }
+
     if (!/^https:\/\//i.test(item.image_source_url || '')) {
       issues.push(`${file}: ${item.id || item.slug || item.title || 'unknown'} needs an HTTPS image_source_url`)
     }
