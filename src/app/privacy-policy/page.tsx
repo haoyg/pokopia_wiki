@@ -18,7 +18,7 @@ export default function PrivacyPolicyPage() {
         name="Privacy Policy"
         description="Pokopia Portal privacy policy covering analytics, advertising, cookies, Google ad services, user consent, and contact options."
         url="/privacy-policy"
-        dateModified="2026-07-16"
+        dateModified="2026-07-18"
       />
       <BreadcrumbJsonLd
         items={[
@@ -27,7 +27,7 @@ export default function PrivacyPolicyPage() {
         ]}
       />
       <article>
-        <p style={{ color: '#666', fontSize: '0.875rem' }}>Last updated: July 16, 2026</p>
+        <p style={{ color: '#666', fontSize: '0.875rem' }}>Last updated: July 18, 2026</p>
         <h1 style={{ marginTop: '0.5rem' }}>Privacy Policy</h1>
 
         <p style={{ marginTop: '1.5rem' }}>
@@ -55,7 +55,7 @@ export default function PrivacyPolicyPage() {
           Where required by law, including for users in the European Economic Area, the United Kingdom, or Switzerland, we will request consent before using cookies or identifiers for personalized advertising. If consent is not provided, ads may be non-personalized or limited depending on the available advertising settings and legal requirements.
         </p>
         <p>
-          You can manage interest-based advertising through Google's ad settings, browser cookie controls, and industry opt-out tools where available. Disabling cookies may affect analytics, advertising, and some site functionality.
+          You can manage or turn off personalized advertising through <a href="https://adssettings.google.com/" rel="noreferrer">Google Ads Settings</a>, browser cookie controls, and industry opt-out tools where available. Disabling cookies may affect analytics, advertising, and some site functionality.
         </p>
 
         <h2 style={{ marginTop: '2rem' }}>Personal Information and Google Services</h2>
