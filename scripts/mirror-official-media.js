@@ -7,13 +7,22 @@ const officialMediaBase = 'https://www.nintendo.com/eu/media/images/assets/ninte
 const localMediaPath = '/media/nintendo'
 const outputDirectory = path.join(root, 'public', 'media', 'nintendo')
 const userAgent = 'PokopiaPortal-MediaMirror/1.0 (+https://pokopia.cloud/source-policy/)'
+const specialMedia = new Map([
+  [
+    'https://assets.nintendo.com.au/image/upload/f_auto/q_auto/c_scale,w_1200/v1782260785/NAL/Articles/2026/06-June/pokopia-wish-upon-a-jiraichi-article/pokopia_wish_upon_a_jiraichi_hero_image',
+    'pokopia-jirachi-event.jpg',
+  ],
+  [
+    'https://images.ctfassets.net/pkeegl0voupm/7AdSb2ARwBQEwzSvpXk4WR/b89cbde58e0dc7b3659d9e8aa1cbd951/topics-banner.png',
+    'pokopia-switch2-banner.png',
+  ],
+])
 
 function localUrl(number) {
   return `${localMediaPath}/pokopia-${number}.jpg`
 }
 
-async function download(number) {
-  const sourceUrl = `${officialMediaBase}/PkmnPokopia_${number}.jpg`
+async function download(sourceUrl, filename) {
   const response = await fetch(sourceUrl, { headers: { 'user-agent': userAgent } })
   const contentType = response.headers.get('content-type') || ''
 
@@ -23,7 +32,7 @@ async function download(number) {
 
   const bytes = Buffer.from(await response.arrayBuffer())
   if (bytes.length < 10_000) throw new Error(`Downloaded file is unexpectedly small: ${sourceUrl}`)
-  fs.writeFileSync(path.join(outputDirectory, `pokopia-${number}.jpg`), bytes)
+  fs.writeFileSync(path.join(outputDirectory, filename), bytes)
 }
 
 async function main() {
@@ -31,8 +40,13 @@ async function main() {
 
   for (let index = 1; index <= 25; index += 1) {
     const number = String(index).padStart(2, '0')
-    await download(number)
+    await download(`${officialMediaBase}/PkmnPokopia_${number}.jpg`, `pokopia-${number}.jpg`)
     console.log(`Mirrored ${number}`)
+  }
+
+  for (const [sourceUrl, filename] of specialMedia) {
+    await download(sourceUrl, filename)
+    console.log(`Mirrored ${filename}`)
   }
 
   let updated = 0
@@ -45,16 +59,24 @@ async function main() {
 
       for (const item of items) {
         const match = String(item.image_url || '').match(sourcePattern)
-        if (!match) continue
-        item.image_url = localUrl(match[1])
-        updated += 1
+        if (match) {
+          item.image_url = localUrl(match[1])
+          updated += 1
+          continue
+        }
+
+        const specialFilename = specialMedia.get(item.image_url)
+        if (specialFilename) {
+          item.image_url = `${localMediaPath}/${specialFilename}`
+          updated += 1
+        }
       }
 
       fs.writeFileSync(filePath, `${JSON.stringify(items, null, 2)}\n`)
     }
   }
 
-  console.log(`Mirrored 25 Nintendo screenshots and updated ${updated} data references.`)
+  console.log(`Mirrored 27 official images and updated ${updated} data references.`)
 }
 
 main().catch((error) => {
