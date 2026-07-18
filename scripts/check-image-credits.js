@@ -34,6 +34,16 @@ for (const file of files) {
       if (!fs.existsSync(localFile)) {
         issues.push(`${file}: ${item.id || item.slug || item.title || 'unknown'} references missing local image ${item.image_url}`)
       }
+
+      const nintendoMedia = item.image_url.match(/^(\/media\/nintendo\/.+)\.(jpe?g|png)$/i)
+      if (nintendoMedia) {
+        for (const width of [640, 1280]) {
+          const responsiveFile = path.join(process.cwd(), 'public', `${nintendoMedia[1]}-${width}.webp`)
+          if (!fs.existsSync(responsiveFile)) {
+            issues.push(`${file}: ${item.id || item.slug || item.title || 'unknown'} is missing ${width}px WebP media variant`)
+          }
+        }
+      }
     }
 
     if (!/^https:\/\//i.test(item.image_source_url || '')) {

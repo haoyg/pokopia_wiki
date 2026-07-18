@@ -104,7 +104,7 @@ export default function NewsPage() {
 
       <section className="news-lead-panel">
         <a href={`/news/${leadNews.slug}`} className="news-lead-card">
-          <CreditedImage src={leadNews.image_url} alt={leadNews.image_alt} source={leadNews.image_source} sourceUrl={leadNews.image_source_url} licenseNote={leadNews.image_license_note} originalMedia={leadNews.image_original_media} className="news-lead-image" priority creditLink={false} />
+          <CreditedImage src={leadNews.image_url} alt={leadNews.image_alt} source={leadNews.image_source} sourceUrl={leadNews.image_source_url} licenseNote={leadNews.image_license_note} originalMedia={leadNews.image_original_media} className="news-lead-image" sizes="(max-width: 768px) 100vw, 620px" priority creditLink={false} />
           <div>
             <span className={`badge ${leadNews.category}`}>{categoryLabels[leadNews.category] || leadNews.category}</span>
             <h2>{leadNews.title}</h2>

@@ -10,6 +10,7 @@
     "check:external-media": "node scripts/check-external-media.js",
     "diversify:official-images": "node scripts/diversify-official-images.js",
     "mirror:official-media": "node scripts/mirror-official-media.js",
+    "generate:responsive-media": "node scripts/generate-responsive-media.js",
     "migrate:gematsu-images": "node scripts/migrate-gematsu-images.js",
     "build": "npm run check:prebuild && next build && npm run check:postbuild",
     "build:fast": "node scripts/generate-tool-data.js && node scripts/generate-search-index.js && next build",

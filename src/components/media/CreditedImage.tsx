@@ -26,21 +26,29 @@ export function CreditedImage({
   if (!src || !source) return null
 
   const isRemote = src.startsWith('http://') || src.startsWith('https://')
+  const localNintendoMedia = src.match(/^(\/media\/nintendo\/.+)\.(jpe?g|png)$/i)
+  const responsiveSrcSet = localNintendoMedia
+    ? `${localNintendoMedia[1]}-640.webp 640w, ${localNintendoMedia[1]}-1280.webp 1280w`
+    : undefined
+  const responsiveSizes = sizes || '(max-width: 768px) 100vw, 360px'
   const loading = priority ? 'eager' : 'lazy'
   const fetchPriority = priority ? 'high' : 'auto'
 
   return (
     <figure style={{ margin: 0 }}>
       <div className={className}>
-        <img
-          src={src}
-          alt={alt || source}
-          loading={loading}
-          decoding="async"
-          fetchPriority={fetchPriority}
-          referrerPolicy={isRemote ? 'no-referrer' : undefined}
-          sizes={sizes}
-        />
+        <picture>
+          {responsiveSrcSet && <source type="image/webp" srcSet={responsiveSrcSet} sizes={responsiveSizes} />}
+          <img
+            src={src}
+            alt={alt || source}
+            loading={loading}
+            decoding="async"
+            fetchPriority={fetchPriority}
+            referrerPolicy={isRemote ? 'no-referrer' : undefined}
+            sizes={responsiveSrcSet ? responsiveSizes : sizes}
+          />
+        </picture>
       </div>
       <figcaption style={{ color: '#777', fontSize: '0.75rem', lineHeight: 1.5, marginTop: '0.35rem' }}>
         <span>
