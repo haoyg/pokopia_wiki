@@ -35,7 +35,7 @@ export default function DisclaimerPage() {
 
         <h2 style={{ marginTop: '2rem' }}>Images and Media</h2>
         <p>
-          Images and media are used for identification, commentary, news, guide, or reference purposes where applicable. We try to show source attribution near images or on relevant pages.
+          Source attribution does not grant permission to republish media. Pokopia Portal displays media only when its usage basis is documented as site-owned, licensed, openly licensed, or public domain. Assets awaiting rights review remain hidden.
         </p>
       </article>
     </main>

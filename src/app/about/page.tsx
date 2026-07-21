@@ -32,7 +32,7 @@ export default function AboutPage() {
           name="About Pokopia Portal"
           description="About Pokopia Portal, an independent source-aware guide site with editorial policies, source standards, and correction process."
           url="/about"
-          dateModified="2026-07-11"
+          dateModified="2026-07-21"
         />
         <BreadcrumbJsonLd
           items={[
@@ -55,7 +55,7 @@ export default function AboutPage() {
           <DataStatus
             status="Independent fan resource"
             note="The site separates official source roundups, reviewed guide pages, tools, and future drafts so readers can see how each page should be used."
-            updatedAt="July 11, 2026"
+            updatedAt="July 21, 2026"
           />
 
           <section className="guide-content-section">
@@ -99,6 +99,13 @@ export default function AboutPage() {
           </section>
 
           <section className="guide-content-section">
+            <h2>Publisher Identity</h2>
+            <p>
+              Pokopia Portal is the publisher and operator of this independent website. Editorial, correction, privacy, and rights questions can be sent to <a href="mailto:hello@pokopia.cloud">hello@pokopia.cloud</a>.
+            </p>
+          </section>
+
+          <section className="guide-content-section">
             <h2>Unofficial Fan Resource</h2>
             <p>
               This site is not an official Nintendo, The Pokemon Company, Game Freak, or Creatures Inc. website. We publish source summaries, guide notes, and planning tools to help players research routes, teams, recipes, and habitats.
@@ -108,7 +115,7 @@ export default function AboutPage() {
           <section className="guide-content-section">
             <h2>Image and Source Policy</h2>
             <p>
-              We label images with their source near the image or on the related page. If a source needs correction or a rights holder requests removal, please contact us through the copyright removal process.
+              Source attribution does not establish reuse permission. Media remains hidden unless its usage basis is documented as site-owned, licensed, openly licensed, or public domain. If a source needs correction or a rights holder requests removal, please contact us through the copyright removal process.
             </p>
           </section>
 

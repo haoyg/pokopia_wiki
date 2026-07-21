@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 const navItems = [
   { href: '/', label: 'Home' },
-  { href: '/official', label: 'Official' },
+  { href: '/official', label: 'Official Sources' },
   { href: '/news', label: 'News' },
   { href: '/guides', label: 'Guides' },
   { href: '/tools', label: 'Tools' },

@@ -108,7 +108,7 @@ export default function Home() {
   const sourceBackedGuides = guidesData.filter(isIndexableGuide)
   const guides = sourceBackedGuides.slice(0, 6)
   const homepageItems = [
-    { name: 'Official Info', url: '/official' },
+    { name: 'Official Source Roundups', url: '/official' },
     { name: 'Source-Backed Guides', url: '/guides' },
     { name: 'Planning Tools', url: '/tools' },
     { name: 'News Updates', url: '/news' },
@@ -136,7 +136,7 @@ export default function Home() {
           <h1>Pokopia Wiki, Guides, and Tools</h1>
           <p>Start with official source notes, source-backed route guides, and planning tools before using editorial database pages.</p>
           <div className="hero-actions" aria-label="Pokopia quick sections">
-            <a href="/official">Official Info</a>
+            <a href="/official">Official Source Roundups</a>
             <a href="/guides">Source-Backed Guides</a>
             <a href="/tools">Planning Tools</a>
           </div>
@@ -182,7 +182,7 @@ export default function Home() {
             <span className="panel-kicker">Official Sources</span>
             <h2>Confirmed Info</h2>
             <p>Check source-backed release, gameplay, multiplayer, and beginner notes before reading editorial route advice.</p>
-            <a className="panel-link" href="/official">Open official hub</a>
+            <a className="panel-link" href="/official">Open source roundup hub</a>
           </div>
         </div>
       </section>
@@ -205,7 +205,7 @@ export default function Home() {
             <span className="panel-kicker">Explore Pokopia</span>
             <h2>Choose a Content Path</h2>
           </div>
-          <a href="/official">Open official hub</a>
+          <a href="/official">Open source roundup hub</a>
         </div>
         <div className="home-explore-grid">
           {exploreClusters.map((cluster) => (

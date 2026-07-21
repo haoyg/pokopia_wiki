@@ -5,8 +5,8 @@ import { canonicalUrl } from '@/lib/site'
 import { BreadcrumbJsonLd, ItemListJsonLd } from '@/components/seo/JsonLd'
 
 export const metadata: Metadata = {
-  title: 'Official Pokémon Pokopia Info',
-  description: 'Official Pokémon Pokopia release, platform, gameplay, multiplayer, GameShare, and beginner information collected from Nintendo and Pokémon sources.',
+  title: 'Pokémon Pokopia Official Source Roundups',
+  description: 'Independent roundups of Pokémon Pokopia release, platform, gameplay, multiplayer, GameShare, and beginner information from Nintendo and Pokémon sources.',
   keywords: [
     'official Pokopia information',
     'Pokopia release date',
@@ -18,8 +18,8 @@ export const metadata: Metadata = {
     'Nintendo Pokopia',
   ],
   openGraph: {
-    title: 'Official Pokémon Pokopia Info',
-    description: 'Verified official information for Pokémon Pokopia from Nintendo and Pokémon sources.',
+    title: 'Pokémon Pokopia Official Source Roundups',
+    description: 'Independent source-backed summaries of Pokémon Pokopia information published by Nintendo and Pokémon sources.',
     images: ['/og-image.svg'],
   },
   alternates: {
@@ -33,11 +33,11 @@ export default function OfficialInfoPage() {
       <BreadcrumbJsonLd
         items={[
           { name: 'Home', url: '/' },
-          { name: 'Official Info', url: '/official' },
+          { name: 'Official Source Roundups', url: '/official' },
         ]}
       />
       <ItemListJsonLd
-        name="Official Pokémon Pokopia Info"
+        name="Pokémon Pokopia Official Source Roundups"
         description="Confirmed Pokémon Pokopia release, gameplay, multiplayer, and beginner information from Nintendo and Pokémon sources."
         url="/official"
         items={officialData.map((page) => ({
@@ -46,9 +46,9 @@ export default function OfficialInfoPage() {
         }))}
       />
       <section className="page-hero official-info-hero">
-        <span className="badge announcement">Official Info</span>
-        <h1>Official Pokémon Pokopia Info</h1>
-        <p>Confirmed release, platform, gameplay, multiplayer, and beginner details from Nintendo and Pokémon sources. These pages stay separate from editorial guide and wiki pages so readers can tell what is confirmed.</p>
+        <span className="badge announcement">Independent Source Roundups</span>
+        <h1>Pokémon Pokopia Official Source Roundups</h1>
+        <p>Independent summaries of confirmed release, platform, gameplay, multiplayer, and beginner details from Nintendo and Pokémon sources. Pokopia Portal is not the official publisher or rights holder.</p>
       </section>
 
       <section className="official-index-panel">

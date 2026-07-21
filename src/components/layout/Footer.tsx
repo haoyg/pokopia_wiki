@@ -5,7 +5,7 @@ const footerGroups = [
     title: 'Start',
     links: [
       { href: '/', label: 'Home' },
-      { href: '/official', label: 'Official Info' },
+      { href: '/official', label: 'Official Source Roundups' },
       { href: '/news', label: 'News Hub' },
       { href: '/official/gameplay-overview', label: 'Gameplay Overview' },
       { href: '/news/weekly-event-tracker', label: 'Event Tracker' },
@@ -65,6 +65,7 @@ export function Footer() {
         <div className="site-footer-brand">
           <strong>Pokopia Portal</strong>
           <p>&copy; 2026 Pokopia Portal. Independent source-aware guides, wiki pages, planning tools, and editorial features.</p>
+          <p>Unofficial fan resource. Not affiliated with, endorsed by, or sponsored by Nintendo, The Pokémon Company, Game Freak, Creatures Inc., or other rights holders.</p>
         </div>
         <nav className="site-footer-nav" aria-label="Footer navigation">
           {footerGroups.map((group) => (

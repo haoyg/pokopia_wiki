@@ -20,7 +20,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params
   const page = officialData.find((item) => item.slug === slug)
 
-  if (!page) return { title: 'Official Info Not Found' }
+  if (!page) return { title: 'Source Roundup Not Found' }
   const title = cleanTitle(page.seo_title || page.title)
   const description = cleanDescription(page.seo_description || page.summary)
 
@@ -89,7 +89,7 @@ export default async function OfficialInfoDetailPage({ params }: Props) {
       <BreadcrumbJsonLd
         items={[
           { name: 'Home', url: '/' },
-          { name: 'Official Info', url: '/official' },
+          { name: 'Official Source Roundups', url: '/official' },
           { name: page.title, url: `/official/${page.slug}` },
         ]}
       />
@@ -111,8 +111,8 @@ export default async function OfficialInfoDetailPage({ params }: Props) {
           </div>
         </div>
         <DataStatus
-          status="Official source roundup"
-          note="This page summarizes information from Nintendo and Pokémon source pages. Editorial interpretation is separated from the confirmed facts section below."
+          status="Independent official-source roundup"
+          note="Pokopia Portal is an unofficial fan resource. This page independently summarizes Nintendo and Pokémon source pages; it is not published or endorsed by those rights holders. Editorial interpretation is separated from the confirmed facts section below."
           updatedAt={updatedAt}
         />
 

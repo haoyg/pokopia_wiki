@@ -121,7 +121,7 @@ export default function WeeklyEventTrackerPage() {
           A source-aware tracker for Pokopia event-related updates. This page is designed to avoid fake event schedules by separating confirmed official information, topics that need rechecking, and archived notes.
         </p>
         <div className="topic-hero-actions">
-          <a href="/official">Open official hub</a>
+          <a href="/official">Open official source roundups</a>
           <a href="/news">Read source updates</a>
         </div>
       </header>
