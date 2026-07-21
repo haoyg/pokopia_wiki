@@ -1,11 +1,16 @@
 {
-  "status": "not-configured",
+  "status": "configured",
   "ads_enabled": false,
   "analytics_enabled": false,
-  "provider": null,
-  "tcf_version": null,
-  "certification_evidence_url": null,
-  "privacy_message_enabled": false,
+  "provider": "Google AdSense Privacy & messaging",
+  "tcf_version": "2.3",
+  "certification_evidence_url": "https://support.google.com/adsense/answer/13554116?hl=en",
+  "privacy_message_enabled": true,
+  "regions": ["EEA", "United Kingdom", "Switzerland"],
+  "user_choices": ["consent", "decline", "manage", "withdraw"],
+  "fresh_session_tested": true,
+  "decline_cookie_tested": true,
+  "owner_confirmation_at": "2026-07-21",
   "last_reviewed_at": "2026-07-21",
-  "review_note": "No advertising or analytics tags may be deployed until a Google-certified CMP is configured and documented."
+  "review_note": "The owner confirmed the built-in Google AdSense CMP is published for the EEA, United Kingdom, and Switzerland, supports IAB TCF v2.3, provides consent, decline, manage, and withdrawal controls, and passed fresh-session and decline-cookie tests. Advertising and analytics remain disabled."
 }

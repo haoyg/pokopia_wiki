@@ -1,17 +1,24 @@
 # AdSense CMP activation checklist
 
-Current repository status: advertising and analytics are disabled. The build fails if known Google advertising or analytics tags are added before CMP configuration is documented.
+Current repository status: the built-in Google AdSense Privacy & messaging CMP is configured and owner-tested; advertising and analytics remain disabled.
 
-Before enabling AdSense:
+Evidence recorded on 2026-07-21:
 
-1. In AdSense, open **Privacy & messaging** and create a European regulations message, or select another Google-certified CMP from Google's current certified CMP list.
+- Coverage: EEA, United Kingdom, and Switzerland.
+- Framework: IAB TCF v2.3.
+- Controls: consent, decline, manage options, and later withdrawal.
+- Tests: fresh-session display and decline-cookie behavior confirmed by the owner.
+
+Before enabling AdSense code:
+
+1. Keep the configured European regulations message published in AdSense **Privacy & messaging**, or document any replacement Google-certified CMP.
 2. Configure the message for the EEA, the United Kingdom, and Switzerland. It must support IAB TCF v2.3.
 3. Give users clear choices to consent, decline, manage options, and later withdraw or change consent.
 4. Record the CMP provider and the current Google certification evidence URL in `config/consent-management.json`.
 5. Change `status` to `configured`, set `privacy_message_enabled` to `true`, and enable only the advertising or analytics products actually deployed.
 6. Add the exact CMP and AdSense code supplied by the selected provider and the AdSense account. Do not reconstruct account-specific tags from examples.
 7. Test a fresh browser session for an EEA/UK/Switzerland location. Confirm the CMP appears before advertising storage or personalized-data processing and that declining does not create advertising cookies requiring consent.
-8. Test consent withdrawal and save screenshots plus the CMP configuration URL as audit evidence.
+8. Repeat consent withdrawal and cookie tests after deploying the exact AdSense code, and retain screenshots plus the account configuration evidence privately.
 
 Official references:
 

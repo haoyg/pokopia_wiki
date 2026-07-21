@@ -17,7 +17,7 @@ Official basis refreshed on 2026-07-21:
 
 **Not ready**
 
-The deployed site passes the repository, content, navigation, crawler, privacy-disclosure, prohibited-content, restricted-inventory, traffic-integrity, and audience-classification checks. It must not serve ads yet because AdSense still reports the site as `Getting ready`. Pre-ad consent management remains unresolved. AdSense approval cannot be guaranteed by this audit.
+The deployed site passes the repository, content, navigation, crawler, privacy-disclosure, consent-management, prohibited-content, restricted-inventory, traffic-integrity, and audience-classification checks. It must not serve ads yet because AdSense still reports the site as `Getting ready`. AdSense approval cannot be guaranteed by this audit.
 
 ## Blockers
 
@@ -25,7 +25,7 @@ The deployed site passes the repository, content, navigation, crawler, privacy-d
 
 ## High Risks
 
-- `ADS-PRIV-04` is `Unknown`: no Google-certified CMP is configured. Ads are disabled, so there is no current consent violation; configure and test the CMP before enabling advertising for EEA, UK, or Swiss users.
+No unresolved High-severity checklist item remains. Repeat the CMP and cookie tests after deploying the exact AdSense code.
 
 ## Medium Risks
 
@@ -101,7 +101,7 @@ No unresolved Medium-severity checklist item was found. Trust pages, navigation,
 | ADS-PRIV-01 | Pass | The live Privacy Policy discloses hosting data and future Google product data collection and use. | Update it to match every product actually enabled. |
 | ADS-PRIV-02 | Pass | The policy discloses third-party cookies, web beacons, IP addresses, and other identifiers. | Preserve the disclosure when enabling ads. |
 | ADS-PRIV-03 | Pass | No ad or analytics code sends PII to Google, and the policy prohibits intentional PII transmission. | Review URLs and data layers before activation. |
-| ADS-PRIV-04 | Unknown | Advertising is disabled, but no Google-certified CMP is configured or tested for EEA, UK, and Swiss traffic. | Configure and test a certified CMP before enabling ads. |
+| ADS-PRIV-04 | Pass | Owner confirmed the built-in Google AdSense CMP covers the EEA, UK, and Switzerland, supports IAB TCF v2.3, provides consent, decline, manage, and withdrawal controls, and passed fresh-session and decline-cookie tests. | Repeat and retain evidence after deploying the exact AdSense code. |
 | ADS-PRIV-05 | N/A | No precise GPS, Wi-Fi, or cell-tower location data is collected. | Re-audit before adding precise location. |
 | ADS-PRIV-06 | Pass | Owner classified the site as general-audience and confirmed it is not specifically directed to children under 13 on 2026-07-21. | Reassess if intended or actual audience, content design, or data collection changes. |
 | ADS-PRIV-07 | Pass | No application code sets, modifies, intercepts, or deletes cookies on Google domains. | Re-run the source check after adding ad code. |
