@@ -1,0 +1,24 @@
+{
+  "site_type": "gaming-information-and-tools",
+  "user_generated_content_enabled": false,
+  "account_registration_enabled": false,
+  "commerce_enabled": false,
+  "software_downloads_enabled": false,
+  "permitted_external_hosts": [
+    "pokopia.pokemon.com",
+    "www.nintendo.com",
+    "policies.google.com",
+    "adssettings.google.com"
+  ],
+  "legal_context_routes": [
+    "/copyright",
+    "/privacy-policy",
+    "/terms",
+    "/disclaimer",
+    "/editorial-policy",
+    "/source-policy",
+    "/corrections"
+  ],
+  "last_reviewed_at": "2026-07-21",
+  "review_note": "The rendered site is limited to gaming information and browser-side planning tools. It does not offer user accounts, public submissions, commerce, software downloads, or advertising. Publisher content policy checks must pass before deployment."
+}
