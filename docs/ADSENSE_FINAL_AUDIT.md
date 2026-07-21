@@ -17,7 +17,7 @@ Official basis refreshed on 2026-07-21:
 
 **Not ready**
 
-The deployed site passes the repository, content, navigation, crawler, privacy-disclosure, prohibited-content, restricted-inventory, and traffic-integrity checks. It must not serve ads yet because AdSense still reports the site as `Getting ready`. Audience classification and pre-ad consent management remain unresolved. AdSense approval cannot be guaranteed by this audit.
+The deployed site passes the repository, content, navigation, crawler, privacy-disclosure, prohibited-content, restricted-inventory, traffic-integrity, and audience-classification checks. It must not serve ads yet because AdSense still reports the site as `Getting ready`. Pre-ad consent management remains unresolved. AdSense approval cannot be guaranteed by this audit.
 
 ## Blockers
 
@@ -26,7 +26,6 @@ The deployed site passes the repository, content, navigation, crawler, privacy-d
 ## High Risks
 
 - `ADS-PRIV-04` is `Unknown`: no Google-certified CMP is configured. Ads are disabled, so there is no current consent violation; configure and test the CMP before enabling advertising for EEA, UK, or Swiss users.
-- `ADS-PRIV-06` is `Unknown`: the owner has not classified the site as general, teen, child-directed, or mixed audience. Complete the audience review before enabling ads or personalization.
 
 ## Medium Risks
 
@@ -104,7 +103,7 @@ No unresolved Medium-severity checklist item was found. Trust pages, navigation,
 | ADS-PRIV-03 | Pass | No ad or analytics code sends PII to Google, and the policy prohibits intentional PII transmission. | Review URLs and data layers before activation. |
 | ADS-PRIV-04 | Unknown | Advertising is disabled, but no Google-certified CMP is configured or tested for EEA, UK, and Swiss traffic. | Configure and test a certified CMP before enabling ads. |
 | ADS-PRIV-05 | N/A | No precise GPS, Wi-Fi, or cell-tower location data is collected. | Re-audit before adding precise location. |
-| ADS-PRIV-06 | Unknown | Audience classification remains owner-confirmation-required. | Classify the site and apply child or teen treatment where required. |
+| ADS-PRIV-06 | Pass | Owner classified the site as general-audience and confirmed it is not specifically directed to children under 13 on 2026-07-21. | Reassess if intended or actual audience, content design, or data collection changes. |
 | ADS-PRIV-07 | Pass | No application code sets, modifies, intercepts, or deletes cookies on Google domains. | Re-run the source check after adding ad code. |
 | ADS-PRIV-08 | N/A | Personalized ads, remarketing, and sensitive audience lists are disabled. | Keep them disabled for restricted audiences and data. |
 | ADS-PRIV-09 | N/A | The site does not advertise or retarget housing, employment, or credit products. | Re-audit before entering those categories. |

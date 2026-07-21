@@ -5,9 +5,9 @@
   "remarketing_enabled": false,
   "sensitive_audience_lists_enabled": false,
   "housing_employment_credit_targeting_enabled": false,
-  "audience_classification": "owner-confirmation-required",
+  "audience_classification": "general-audience",
   "child_directed_sections": [],
   "age_treatment": "not-applicable-while-ads-disabled",
-  "owner_classification_confirmed_at": null,
-  "review_note": "Code evidence shows no precise-location collection, audience lists, remarketing, or ad targeting. The owner must confirm whether the site is general-audience, teen-directed, child-directed, or mixed-audience before ads can be enabled."
+  "owner_classification_confirmed_at": "2026-07-21",
+  "review_note": "Code evidence shows no precise-location collection, audience lists, remarketing, or ad targeting. The owner confirmed the site is general-audience and is not specifically directed to children under 13."
 }

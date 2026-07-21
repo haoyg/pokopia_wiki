@@ -7,7 +7,9 @@ Current code evidence:
 - No personalized ads, remarketing, sensitive audience list, or housing/employment/credit targeting is enabled.
 - Advertising and analytics tags are disabled.
 
-Before enabling advertising, the owner must classify the site as one of:
+Owner classification recorded on 2026-07-21: `general-audience`; the site is not specifically directed to children under 13.
+
+The supported classifications are:
 
 - `general-audience`
 - `teen-directed`
