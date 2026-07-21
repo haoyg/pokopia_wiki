@@ -103,9 +103,10 @@ export default function SpawnTrackerPage() {
       </section>
 
       <DataStatus
-        status="Interactive spawn lookup tool"
-        note="Spawn results are based on Pokopia Portal Pokemon and habitat datasets. Use them as a planning shortlist and recheck source-backed pages after official updates."
-        updatedAt="July 11, 2026"
+        status="Tool using unverified editorial spawn data"
+        note="Results are generated from Pokopia Portal planning records, not official or confirmed game data. They do not verify Pokémon names, habitats, weather, time, food, drops, rarity, or spawn conditions."
+        updatedAt="July 21, 2026"
+        showPolicyLink
       />
 
       <SpawnTracker />

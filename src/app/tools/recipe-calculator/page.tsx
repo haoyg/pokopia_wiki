@@ -179,9 +179,10 @@ export default function RecipeCalculator() {
       </header>
 
       <DataStatus
-        status="Interactive recipe planning tool"
-        note="Recommendations are based on Pokopia Portal recipe, Pokemon, and habitat entries. Use this as a planning aid and recheck recipe pages after balance updates."
-        updatedAt="July 11, 2026"
+        status="Tool using unverified editorial recipe data"
+        note="Scores are generated from Pokopia Portal planning records, not official or confirmed game data. Results do not verify recipe names, ingredients, buffs, durations, Pokémon, or habitats."
+        updatedAt="July 21, 2026"
+        showPolicyLink
       />
 
       <section

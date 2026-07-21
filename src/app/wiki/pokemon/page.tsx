@@ -4,6 +4,7 @@ import habitatsData from '@/data/habitats.json'
 import { canonicalUrl } from '@/lib/site'
 import { noIndexMetadata } from '@/lib/indexing'
 import { CreditedImage } from '@/components/media/CreditedImage'
+import { DataStatus } from '@/components/content/DataStatus'
 import { BreadcrumbJsonLd, ItemListJsonLd } from '@/components/seo/JsonLd'
 
 const featuredPokemon = ['pkm001', 'pkm002', 'pkm007', 'pkm030']
@@ -95,6 +96,13 @@ export default function PokemonPage() {
         <h1>Pokemon Database</h1>
         <p>Browse Pokopia Pokemon by type, rarity, habitat, favorite food, drops, and route role.</p>
       </section>
+
+      <DataStatus
+        status="Unverified editorial database"
+        note="These entries are editorial planning data, not official or confirmed Pokémon records. Credited promotional images identify their media sources only and do not depict or verify the named entries or their gameplay claims."
+        updatedAt="July 21, 2026"
+        showPolicyLink
+      />
 
       <section className="index-guide-panel">
         <div className="section-title-row">

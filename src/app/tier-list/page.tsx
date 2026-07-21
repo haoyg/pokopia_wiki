@@ -160,9 +160,10 @@ export default function TierListPage() {
       </section>
 
       <DataStatus
-        status="Editorial database index"
-        note="This page sorts Pokemon by current site fields such as rarity and specialty. It is not an official tier list, live ranking, numeric strength table, or verified results claim."
-        updatedAt="2026-05-23"
+        status="Unverified editorial database index"
+        note="This page sorts unverified Pokopia Portal planning data. It is not an official tier list, live ranking, confirmed Pokémon roster, numeric strength table, or verified results claim."
+        updatedAt="2026-07-21"
+        showPolicyLink
       />
 
       <OfficialContext

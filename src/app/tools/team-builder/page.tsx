@@ -263,9 +263,10 @@ export default function TeamBuilder() {
       </header>
 
       <DataStatus
-        status="Interactive team planning tool"
-        note="Team recommendations are editorial planning drafts based on Pokopia Portal role, type, habitat, recipe, and guide data. They are not official rankings or verified competitive results."
-        updatedAt="July 11, 2026"
+        status="Tool using unverified editorial team data"
+        note="Team drafts use Pokopia Portal planning records, not official or confirmed game data. Results do not verify Pokémon names, roles, types, rankings, matchups, habitats, recipes, or competitive performance."
+        updatedAt="July 21, 2026"
+        showPolicyLink
       />
 
       <section

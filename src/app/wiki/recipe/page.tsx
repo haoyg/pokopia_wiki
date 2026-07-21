@@ -3,6 +3,7 @@ import recipesData from '@/data/recipes.json'
 import { canonicalUrl } from '@/lib/site'
 import { noIndexMetadata } from '@/lib/indexing'
 import { CreditedImage } from '@/components/media/CreditedImage'
+import { DataStatus } from '@/components/content/DataStatus'
 import { BreadcrumbJsonLd, ItemListJsonLd } from '@/components/seo/JsonLd'
 
 const rarityLabels: Record<string, string> = {
@@ -99,6 +100,13 @@ export default function RecipePage() {
         <h1>Recipe Cookbook and Buff Notes</h1>
         <p>Compare Pokopia recipes by ingredients, buff effect, duration, rarity, timing, and route fit.</p>
       </section>
+
+      <DataStatus
+        status="Unverified editorial recipe data"
+        note="These recipe records are editorial planning data, not official or confirmed Pokopia recipes. Credited promotional images identify their media sources only and do not depict or verify the named recipes or their gameplay claims."
+        updatedAt="July 21, 2026"
+        showPolicyLink
+      />
 
       <section className="index-guide-panel">
         <div className="section-title-row">

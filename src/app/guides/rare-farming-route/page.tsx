@@ -161,9 +161,10 @@ export default function RareFarmingRoutePage() {
       </section>
 
       <DataStatus
-        status="Editorial rare farming route"
-        note="This topic page organizes site guides, rare Pokemon entries, habitats, recipes, and planning tools into a route framework. Recheck details after launch or balance updates."
+        status="Unverified editorial rare farming route"
+        note="This page organizes unverified Pokopia Portal planning data. It is not an official or confirmed farming route, and its Pokémon, habitat, recipe, rarity, spawn, and reward claims require independent verification."
         updatedAt={updatedAt}
+        showPolicyLink
       />
 
       <OfficialContext

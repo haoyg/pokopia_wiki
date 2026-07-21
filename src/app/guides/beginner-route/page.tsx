@@ -161,9 +161,10 @@ export default function BeginnerRoutePage() {
       </section>
 
       <DataStatus
-        status="Editorial beginner route"
-        note="This topic page organizes site guides, Pokemon entries, habitats, recipes, and tools into a beginner planning path. Recheck pages after launch or balance updates."
+        status="Unverified editorial beginner route"
+        note="This page organizes unverified Pokopia Portal planning data. It is not an official or confirmed game route, and its Pokémon, habitat, recipe, progression, and resource claims require independent verification."
         updatedAt={updatedAt}
+        showPolicyLink
       />
 
       <OfficialContext

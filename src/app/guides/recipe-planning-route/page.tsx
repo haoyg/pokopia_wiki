@@ -161,9 +161,10 @@ export default function RecipePlanningRoutePage() {
       </section>
 
       <DataStatus
-        status="Editorial recipe planning route"
-        note="This topic page organizes site recipe entries, guide pages, habitats, Pokemon, and tools into a planning workflow. Recheck details after launch or balance updates."
+        status="Unverified editorial recipe planning route"
+        note="This page organizes unverified Pokopia Portal planning data. It is not an official or confirmed recipe workflow, and its ingredient, buff, duration, rarity, habitat, and Pokémon claims require independent verification."
         updatedAt={updatedAt}
+        showPolicyLink
       />
 
       <OfficialContext

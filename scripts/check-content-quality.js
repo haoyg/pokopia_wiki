@@ -112,6 +112,7 @@ for (const pagePath of sitemapPaths) {
   if (/^\/tools\/.+/.test(pagePath)) {
     assert(/Source Review/i.test(text), `${label} is a tool page without visible Source Review notes`)
     assert(/WebApplication/i.test(html), `${label} is a tool page without WebApplication structured data`)
+    assert(/unverified editorial/i.test(text), `${label} must disclose that its planning dataset is unverified editorial data`)
   }
 
   const visibleLinks = [...html.matchAll(/<a\b[^>]*\bhref=["']([^"']+)["']/gi)]
@@ -133,6 +134,33 @@ const pokemon = readJson('src/data/pokemon.json')
 const habitats = readJson('src/data/habitats.json')
 const recipes = readJson('src/data/recipes.json')
 const searchIndex = readJson('src/data/search-index.json')
+
+const editorialItems = [...guides, ...pokemon, ...habitats, ...recipes]
+  .filter((item) => String(item.index_status || '').toLowerCase().includes('review'))
+
+for (const item of editorialItems) {
+  const label = item.slug || item.id || item.name || item.title
+  assert(
+    /^Unverified editorial\b/i.test(String(item.data_status || '')),
+    `editorial item ${label} must identify its status as unverified editorial content`
+  )
+  assert(
+    /\bunverified\b/i.test(String(item.data_status_note || '')) &&
+      /\bnot (?:an? )?(?:official|confirmed)\b/i.test(String(item.data_status_note || '')) &&
+      /\bdoes not (?:depict or )?verify\b/i.test(String(item.data_status_note || '')),
+    `editorial item ${label} must explain that its media source does not verify its claims`
+  )
+  assert(
+    /unverified editorial/i.test(String(item.image_alt || '')) &&
+      !/official.*(?:used for|guide|entry)/i.test(String(item.image_alt || '')),
+    `editorial item ${label} has a misleading image alt description`
+  )
+  assert(
+    /does not verify/i.test(String(item.image_license_note || '')),
+    `editorial item ${label} must separate promotional media credit from claim verification`
+  )
+  assert(!isIndexableGuide(item) && !isIndexableDatabaseEntry(item), `editorial item ${label} must remain outside the index`)
+}
 
 for (const file of ['guides', 'official', 'news', 'pokemon', 'habitats', 'recipes', 'search-index']) {
   assert(

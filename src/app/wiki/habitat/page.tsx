@@ -3,6 +3,7 @@ import habitatsData from '@/data/habitats.json'
 import { canonicalUrl } from '@/lib/site'
 import { noIndexMetadata } from '@/lib/indexing'
 import { CreditedImage } from '@/components/media/CreditedImage'
+import { DataStatus } from '@/components/content/DataStatus'
 import { BreadcrumbJsonLd, ItemListJsonLd } from '@/components/seo/JsonLd'
 
 const habitatRouteGroups = [
@@ -91,6 +92,13 @@ export default function HabitatPage() {
         <h1>Habitat Maps and Route Notes</h1>
         <p>Explore Pokopia habitats by unlock condition, weather, difficulty, resource bonus, and spawn route.</p>
       </section>
+
+      <DataStatus
+        status="Unverified editorial habitat data"
+        note="These habitat records are editorial planning data, not official or confirmed Pokopia locations. Credited promotional images identify their media sources only and do not depict or verify the named habitats or their gameplay claims."
+        updatedAt="July 21, 2026"
+        showPolicyLink
+      />
 
       <section className="index-guide-panel">
         <div className="section-title-row">

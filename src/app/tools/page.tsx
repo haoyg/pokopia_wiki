@@ -126,9 +126,10 @@ export default function ToolsPage() {
       </section>
 
       <DataStatus
-        status="Interactive planning tools"
-        note="Tools use Pokopia Portal guide, official, habitat, recipe, and Pokemon data. Treat recommendations as planning support, then confirm source-backed pages before making route or resource decisions."
-        updatedAt="July 11, 2026"
+        status="Tools using unverified editorial datasets"
+        note="These tools process Pokopia Portal planning data that is not official or confirmed game data. Results do not verify Pokémon, habitat, recipe, spawn, drop, ranking, or route claims."
+        updatedAt="July 21, 2026"
+        showPolicyLink
       />
 
       <section className="tools-hub-section">

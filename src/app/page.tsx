@@ -31,25 +31,25 @@ const planningTools = [
   {
     href: '/tools/habitat-planner',
     label: 'Habitat Planner',
-    summary: 'Match a goal, level, difficulty, and weather window to practical habitat routes.',
+    summary: 'Explore unverified editorial habitat records by goal, level, difficulty, and weather.',
     tags: ['Routes', 'Weather', 'Recipes'],
   },
   {
     href: '/tools/recipe-calculator',
     label: 'Recipe Calculator',
-    summary: 'Compare recipe value before spending rare ingredients on a farming or boss route.',
+    summary: 'Compare unverified editorial recipe records by goal, timing, and ingredients.',
     tags: ['Buffs', 'Timing', 'Ingredients'],
   },
   {
     href: '/tools/team-builder',
     label: 'Team Builder',
-    summary: 'Draft a four-role team for progression, rare farming, hard fights, or speed routing.',
+    summary: 'Draft planning combinations from an unverified editorial Pokémon dataset.',
     tags: ['Roles', 'Matchups', 'Routes'],
   },
   {
     href: '/tools/spawn-tracker',
     label: 'Spawn Tracker',
-    summary: 'Filter spawn records by habitat, weather, time, rarity, and Pokemon type.',
+    summary: 'Filter unverified editorial spawn records by habitat, weather, time, and rarity.',
     tags: ['Spawns', 'Habitats', 'Rarity'],
   },
 ]
@@ -85,7 +85,7 @@ const exploreClusters = [
   {
     href: '/tools',
     label: 'Planning Tools',
-    summary: 'Use calculators and trackers for database-driven planning while editorial pages stay outside the index.',
+    summary: 'Explore tools built from unverified editorial datasets while those claims remain outside the verified content index.',
     links: [
       { href: '/tools/habitat-planner', label: 'Habitats' },
       { href: '/tools/recipe-calculator', label: 'Recipes' },

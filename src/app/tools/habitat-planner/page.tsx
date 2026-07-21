@@ -246,9 +246,10 @@ export default function HabitatPlanner() {
       </header>
 
       <DataStatus
-        status="Interactive habitat planning tool"
-        note="Recommendations are based on Pokopia Portal habitat, recipe, Pokemon, and guide entries. Use this as route planning support and recheck pages after balance updates."
-        updatedAt="July 11, 2026"
+        status="Tool using unverified editorial habitat data"
+        note="Recommendations are generated from Pokopia Portal planning records, not official or confirmed game data. Results do not verify habitat names, unlocks, weather, spawns, recipes, or routes."
+        updatedAt="July 21, 2026"
+        showPolicyLink
       />
 
       <section
