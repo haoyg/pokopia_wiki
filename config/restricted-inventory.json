@@ -1,0 +1,14 @@
+{
+  "sexual_content_enabled": false,
+  "graphic_or_shocking_content_enabled": false,
+  "weapons_or_explosives_content_enabled": false,
+  "tobacco_or_recreational_drug_content_enabled": false,
+  "alcohol_sales_or_irresponsible_promotion_enabled": false,
+  "gambling_content_enabled": false,
+  "prescription_or_unapproved_drug_content_enabled": false,
+  "video_content_enabled": false,
+  "video_ads_enabled": false,
+  "ad_layout_review_status": "not-applicable-ads-disabled",
+  "last_reviewed_at": "2026-07-21",
+  "review_note": "The site publishes gaming information and browser-side tools. Fictional Pokemon move names are gameplay terminology, not real-world weapon, explosive, drug, or sales instructions. Any future restricted topic, video implementation, or advertising layout requires a new review before deployment."
+}
