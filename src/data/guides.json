@@ -9,7 +9,7 @@
     "related_pokemon": "pkm002,pkm004,pkm001",
     "related_items": "rec001",
     "related_habitats": "hab002,hab003,hab001",
-    "image_url": "/media/nintendo/pokopia-22.jpg",
+    "image_url": "",
     "image_alt": "Pokémon Pokopia promotional gameplay screenshot accompanying an unverified editorial guide",
     "answer": "Bulbin is still the safest first pick because it stabilizes early routes with the fewest resource mistakes. Aquap is the comfort option for slower Crystal Lake farming, while Pikafire is best for players who already want to push faster cave preparation. Pick for your next route, not for the flashiest damage number.",
     "steps": [
@@ -83,9 +83,10 @@
     "image_license_note": "Promotional image source is credited for identification only and does not verify this page’s editorial claims.",
     "image_original_media": "Nintendo official Pokémon Pokopia screenshot",
     "index_status": "review",
-    "image_rights_status": "rights-review-required",
-    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
-    "image_rights_reviewed_at": "2026-07-21"
+    "image_rights_status": "retired-no-publication",
+    "image_usage_basis": "Retired from the public site on 2026-07-21 because commercial ad-supported reuse rights were not verified.",
+    "image_rights_reviewed_at": "2026-07-21",
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-22.jpg"
   },
   {
     "id": "guid002",
@@ -97,7 +98,7 @@
     "related_pokemon": "pkm001,pkm007",
     "related_items": "rec002",
     "related_habitats": "hab001",
-    "image_url": "/media/nintendo/pokopia-23.jpg",
+    "image_url": "",
     "image_alt": "Pokémon Pokopia promotional gameplay screenshot accompanying an unverified editorial guide",
     "answer": "Unlock Volcanic Cave after Level 15, but treat the first entry as a scouting run. Use Pikafire for tempo, bring a safer backup if your team is fragile, and save Fire Boost for the first serious clear or Flamexor farming window.",
     "steps": [
@@ -173,9 +174,10 @@
     "image_license_note": "Promotional image source is credited for identification only and does not verify this page’s editorial claims.",
     "image_original_media": "Nintendo official Pokémon Pokopia screenshot",
     "index_status": "review",
-    "image_rights_status": "rights-review-required",
-    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
-    "image_rights_reviewed_at": "2026-07-21"
+    "image_rights_status": "retired-no-publication",
+    "image_usage_basis": "Retired from the public site on 2026-07-21 because commercial ad-supported reuse rights were not verified.",
+    "image_rights_reviewed_at": "2026-07-21",
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-23.jpg"
   },
   {
     "id": "guid003",
@@ -187,7 +189,7 @@
     "related_pokemon": "pkm009,pkm030,pkm029",
     "related_items": "rec005",
     "related_habitats": "hab006,hab005",
-    "image_url": "/media/nintendo/pokopia-24.jpg",
+    "image_url": "",
     "image_alt": "Pokémon Pokopia promotional gameplay screenshot accompanying an unverified editorial guide",
     "answer": "The fastest rare farming route is the shortest reliable loop that reaches a rare check, resets cleanly, and lets Lucky Charm cover several attempts. Shadow Marsh is stronger for ghost-focused targets; Frost Peak is safer when your midgame team still needs consistency.",
     "steps": [
@@ -259,9 +261,10 @@
     "image_license_note": "Promotional image source is credited for identification only and does not verify this page’s editorial claims.",
     "image_original_media": "Nintendo official Pokémon Pokopia screenshot",
     "index_status": "review",
-    "image_rights_status": "rights-review-required",
-    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
-    "image_rights_reviewed_at": "2026-07-21"
+    "image_rights_status": "retired-no-publication",
+    "image_usage_basis": "Retired from the public site on 2026-07-21 because commercial ad-supported reuse rights were not verified.",
+    "image_rights_reviewed_at": "2026-07-21",
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-24.jpg"
   },
   {
     "id": "guid004",
@@ -273,7 +276,7 @@
     "related_pokemon": "pkm001,pkm003,pkm007,pkm013,pkm028,pkm033,pkm043",
     "related_items": "rec002",
     "related_habitats": "hab001",
-    "image_url": "/media/nintendo/pokopia-25.jpg",
+    "image_url": "",
     "image_alt": "Pokémon Pokopia promotional gameplay screenshot accompanying an unverified editorial guide",
     "answer": "The best fire team uses Pikafire for tempo, Charmuddy for stable fire pressure, and Flamexor as the finisher. Keep one slot or backup plan for survival; Fire Boost should amplify a stable route, not rescue a messy one.",
     "steps": [
@@ -345,9 +348,10 @@
     "image_license_note": "Promotional image source is credited for identification only and does not verify this page’s editorial claims.",
     "image_original_media": "Nintendo official Pokémon Pokopia screenshot",
     "index_status": "review",
-    "image_rights_status": "rights-review-required",
-    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
-    "image_rights_reviewed_at": "2026-07-21"
+    "image_rights_status": "retired-no-publication",
+    "image_usage_basis": "Retired from the public site on 2026-07-21 because commercial ad-supported reuse rights were not verified.",
+    "image_rights_reviewed_at": "2026-07-21",
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-25.jpg"
   },
   {
     "id": "guid005",
@@ -359,7 +363,7 @@
     "related_pokemon": "pkm009,pkm030",
     "related_items": "rec010",
     "related_habitats": "hab006",
-    "image_url": "/media/nintendo/pokopia-01.jpg",
+    "image_url": "",
     "image_alt": "Pokémon Pokopia promotional gameplay screenshot accompanying an unverified editorial guide",
     "answer": "Shadow Marsh should be scouted slowly before it becomes a farming route. Use Shados to learn the path, add poison or durability support when status pressure becomes a problem, and save Lucky Charm for focused Shadowclaw or rare-check loops.",
     "steps": [
@@ -431,9 +435,10 @@
     "image_license_note": "Promotional image source is credited for identification only and does not verify this page’s editorial claims.",
     "image_original_media": "Nintendo official Pokémon Pokopia screenshot",
     "index_status": "review",
-    "image_rights_status": "rights-review-required",
-    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
-    "image_rights_reviewed_at": "2026-07-21"
+    "image_rights_status": "retired-no-publication",
+    "image_usage_basis": "Retired from the public site on 2026-07-21 because commercial ad-supported reuse rights were not verified.",
+    "image_rights_reviewed_at": "2026-07-21",
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-01.jpg"
   },
   {
     "id": "guid006",
@@ -445,7 +450,7 @@
     "related_pokemon": "pkm007,pkm030,pkm015",
     "related_items": "rec005",
     "related_habitats": "hab001,hab006",
-    "image_url": "/media/nintendo/pokopia-02.jpg",
+    "image_url": "",
     "image_alt": "Pokémon Pokopia promotional gameplay screenshot accompanying an unverified editorial guide",
     "answer": "To get legendary Pokemon, prepare the habitat route first. Scout cheaply, stabilize the repeatable check, then use Lucky Charm or the matching recipe only when Flamexor, Voltscale, Shadowclaw, or Primordion attempts can be repeated reliably.",
     "steps": [
@@ -517,9 +522,10 @@
     "image_license_note": "Promotional image source is credited for identification only and does not verify this page’s editorial claims.",
     "image_original_media": "Nintendo official Pokémon Pokopia screenshot",
     "index_status": "review",
-    "image_rights_status": "rights-review-required",
-    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
-    "image_rights_reviewed_at": "2026-07-21"
+    "image_rights_status": "retired-no-publication",
+    "image_usage_basis": "Retired from the public site on 2026-07-21 because commercial ad-supported reuse rights were not verified.",
+    "image_rights_reviewed_at": "2026-07-21",
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-02.jpg"
   },
   {
     "id": "guid007",
@@ -531,7 +537,7 @@
     "related_pokemon": "pkm001,pkm014,pkm005,pkm009",
     "related_items": "rec002,rec008,rec007,rec010",
     "related_habitats": "hab001,hab005,hab012,hab006",
-    "image_url": "/media/nintendo/pokopia-03.jpg",
+    "image_url": "",
     "image_alt": "Pokémon Pokopia promotional gameplay screenshot accompanying an unverified editorial guide",
     "answer": "The best habitat depends on the type goal and your current consistency. Forest Valley, Crystal Lake, Volcanic Cave, Frost Peak, and Shadow Marsh are strong anchors, but the right choice is the one you can repeat cleanly for the Pokemon, resources, or rare checks you need.",
     "steps": [
@@ -604,9 +610,10 @@
     "image_license_note": "Promotional image source is credited for identification only and does not verify this page’s editorial claims.",
     "image_original_media": "Nintendo official Pokémon Pokopia screenshot",
     "index_status": "review",
-    "image_rights_status": "rights-review-required",
-    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
-    "image_rights_reviewed_at": "2026-07-21"
+    "image_rights_status": "retired-no-publication",
+    "image_usage_basis": "Retired from the public site on 2026-07-21 because commercial ad-supported reuse rights were not verified.",
+    "image_rights_reviewed_at": "2026-07-21",
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-03.jpg"
   },
   {
     "id": "guid008",
@@ -618,7 +625,7 @@
     "related_pokemon": "pkm004,pkm002,pkm005",
     "related_items": "rec003",
     "related_habitats": "hab003,hab002,hab004",
-    "image_url": "/media/nintendo/pokopia-04.jpg",
+    "image_url": "",
     "image_alt": "Pokémon Pokopia promotional gameplay screenshot accompanying an unverified editorial guide",
     "answer": "The fastest leveling route is a short repeatable loop with low downtime. Start with Training Grounds or Forest Valley, move toward Volcanic Cave only when clears are stable, and save Speed Potion for routes that are already efficient.",
     "steps": [
@@ -691,9 +698,10 @@
     "image_license_note": "Promotional image source is credited for identification only and does not verify this page’s editorial claims.",
     "image_original_media": "Nintendo official Pokémon Pokopia screenshot",
     "index_status": "review",
-    "image_rights_status": "rights-review-required",
-    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
-    "image_rights_reviewed_at": "2026-07-21"
+    "image_rights_status": "retired-no-publication",
+    "image_usage_basis": "Retired from the public site on 2026-07-21 because commercial ad-supported reuse rights were not verified.",
+    "image_rights_reviewed_at": "2026-07-21",
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-04.jpg"
   },
   {
     "id": "guid009",
@@ -707,7 +715,7 @@
     "related_pokemon": "pkm005,pkm015,pkm024",
     "related_items": "rec007",
     "related_habitats": "hab012",
-    "image_url": "/media/nintendo/pokopia-05.jpg",
+    "image_url": "",
     "image_alt": "Pokémon Pokopia promotional gameplay screenshot accompanying an unverified editorial guide",
     "answer": "Thunder Arena is best approached as a tempo route. Use Pikafire or Stormwing to keep fights moving, prepare for Voltscale only after the path is stable, and save Speed Potion for a known clear or repeated check window.",
     "steps": [
@@ -791,9 +799,10 @@
       "This page should not be used to establish facts on other source-backed pages."
     ],
     "index_status": "review",
-    "image_rights_status": "rights-review-required",
-    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
-    "image_rights_reviewed_at": "2026-07-21"
+    "image_rights_status": "retired-no-publication",
+    "image_usage_basis": "Retired from the public site on 2026-07-21 because commercial ad-supported reuse rights were not verified.",
+    "image_rights_reviewed_at": "2026-07-21",
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-05.jpg"
   },
   {
     "id": "guid010",
@@ -807,7 +816,7 @@
     "related_pokemon": "pkm008,pkm014,pkm029",
     "related_items": "rec008",
     "related_habitats": "hab005",
-    "image_url": "/media/nintendo/pokopia-02.jpg",
+    "image_url": "",
     "image_alt": "Pokémon Pokopia promotional gameplay screenshot accompanying an unverified editorial guide",
     "answer": "Frost Peak is a controlled midgame route, not a brute-force climb. Use Tidlet for stability, Glacior when you want stronger Ice/Water value, and save Ice Armor for the dangerous section or a repeatable farming loop.",
     "steps": [
@@ -891,9 +900,10 @@
       "This page should not be used to establish facts on other source-backed pages."
     ],
     "index_status": "review",
-    "image_rights_status": "rights-review-required",
-    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
-    "image_rights_reviewed_at": "2026-07-21"
+    "image_rights_status": "retired-no-publication",
+    "image_usage_basis": "Retired from the public site on 2026-07-21 because commercial ad-supported reuse rights were not verified.",
+    "image_rights_reviewed_at": "2026-07-21",
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-02.jpg"
   },
   {
     "id": "guid011",
@@ -905,7 +915,7 @@
     "related_pokemon": "pkm002,pkm008,pkm010,pkm026,pkm032,pkm039,pkm042",
     "related_items": "rec012",
     "related_habitats": "hab002,hab005,hab004",
-    "image_url": "/media/nintendo/pokopia-03.jpg",
+    "image_url": "",
     "image_alt": "Pokémon Pokopia promotional gameplay screenshot accompanying an unverified editorial guide",
     "answer": "A strong defense team uses Bulbin for early stability, Tidlet as a low-risk stabilizer, and Mechabit when route pressure needs electric or steel utility. The goal is fewer failed runs, not a team that simply survives slowly.",
     "steps": [
@@ -977,9 +987,10 @@
     "image_license_note": "Promotional image source is credited for identification only and does not verify this page’s editorial claims.",
     "image_original_media": "Nintendo official Pokémon Pokopia screenshot",
     "index_status": "review",
-    "image_rights_status": "rights-review-required",
-    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
-    "image_rights_reviewed_at": "2026-07-21"
+    "image_rights_status": "retired-no-publication",
+    "image_usage_basis": "Retired from the public site on 2026-07-21 because commercial ad-supported reuse rights were not verified.",
+    "image_rights_reviewed_at": "2026-07-21",
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-03.jpg"
   },
   {
     "id": "guid012",
@@ -991,7 +1002,7 @@
     "related_pokemon": "pkm015,pkm029",
     "related_items": "rec011",
     "related_habitats": "hab005,hab012",
-    "image_url": "/media/nintendo/pokopia-04.jpg",
+    "image_url": "",
     "image_alt": "Pokémon Pokopia promotional gameplay screenshot accompanying an unverified editorial guide",
     "answer": "Dragon teams are late-game investments. Build around Voltscale for tempo or Snorizard for durable route value, then save Dragon's Fury for a serious Thunder Arena, Frost Peak, or Dragon's Den attempt.",
     "steps": [
@@ -1063,9 +1074,10 @@
     "image_license_note": "Promotional image source is credited for identification only and does not verify this page’s editorial claims.",
     "image_original_media": "Nintendo official Pokémon Pokopia screenshot",
     "index_status": "review",
-    "image_rights_status": "rights-review-required",
-    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
-    "image_rights_reviewed_at": "2026-07-21"
+    "image_rights_status": "retired-no-publication",
+    "image_usage_basis": "Retired from the public site on 2026-07-21 because commercial ad-supported reuse rights were not verified.",
+    "image_rights_reviewed_at": "2026-07-21",
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-04.jpg"
   },
   {
     "id": "guid013",
@@ -1077,7 +1089,7 @@
     "related_pokemon": "pkm001,pkm007",
     "related_items": "rec005,rec015,rec002",
     "related_habitats": "hab001",
-    "image_url": "/media/nintendo/pokopia-05.jpg",
+    "image_url": "",
     "image_alt": "Pokémon Pokopia promotional gameplay screenshot accompanying an unverified editorial guide",
     "answer": "Choose recipes by objective: Honey Cake for captures, Lucky Charm for repeated rare checks, damage recipes for boss windows, Steel Shell for survival, and Mega Restore for long routes where one mistake can end the attempt.",
     "steps": [
@@ -1149,9 +1161,10 @@
     "image_license_note": "Promotional image source is credited for identification only and does not verify this page’s editorial claims.",
     "image_original_media": "Nintendo official Pokémon Pokopia screenshot",
     "index_status": "review",
-    "image_rights_status": "rights-review-required",
-    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
-    "image_rights_reviewed_at": "2026-07-21"
+    "image_rights_status": "retired-no-publication",
+    "image_usage_basis": "Retired from the public site on 2026-07-21 because commercial ad-supported reuse rights were not verified.",
+    "image_rights_reviewed_at": "2026-07-21",
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-05.jpg"
   },
   {
     "id": "guid014",
@@ -1163,7 +1176,7 @@
     "related_pokemon": "pkm016,pkm020,pkm025,pkm040,pkm045,pkm047",
     "related_items": "rec013",
     "related_habitats": "hab008",
-    "image_url": "/media/nintendo/pokopia-06.jpg",
+    "image_url": "",
     "image_alt": "Pokémon Pokopia promotional gameplay screenshot accompanying an unverified editorial guide",
     "answer": "Sky Isles is about clean movement and repeatable flying-route checks. Use Breezel to learn the route, Flamingo for stronger pressure, and Speed Potion only after the path is already efficient.",
     "steps": [
@@ -1235,9 +1248,10 @@
     "image_license_note": "Promotional image source is credited for identification only and does not verify this page’s editorial claims.",
     "image_original_media": "Nintendo official Pokémon Pokopia screenshot",
     "index_status": "review",
-    "image_rights_status": "rights-review-required",
-    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
-    "image_rights_reviewed_at": "2026-07-21"
+    "image_rights_status": "retired-no-publication",
+    "image_usage_basis": "Retired from the public site on 2026-07-21 because commercial ad-supported reuse rights were not verified.",
+    "image_rights_reviewed_at": "2026-07-21",
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-06.jpg"
   },
   {
     "id": "guid015",
@@ -1249,7 +1263,7 @@
     "related_pokemon": "pkm018,pkm021",
     "related_items": "rec006",
     "related_habitats": "hab009",
-    "image_url": "/media/nintendo/pokopia-07.jpg",
+    "image_url": "",
     "image_alt": "Pokémon Pokopia promotional gameplay screenshot accompanying an unverified editorial guide",
     "answer": "Muddy River is best farmed as a short water-ground loop. Use Mudkipz for stability, Stealthfin for cleaner water pressure, and Water Shield only where the route repeatedly causes damage.",
     "steps": [
@@ -1321,9 +1335,10 @@
     "image_license_note": "Promotional image source is credited for identification only and does not verify this page’s editorial claims.",
     "image_original_media": "Nintendo official Pokémon Pokopia screenshot",
     "index_status": "review",
-    "image_rights_status": "rights-review-required",
-    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
-    "image_rights_reviewed_at": "2026-07-21"
+    "image_rights_status": "retired-no-publication",
+    "image_usage_basis": "Retired from the public site on 2026-07-21 because commercial ad-supported reuse rights were not verified.",
+    "image_rights_reviewed_at": "2026-07-21",
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-07.jpg"
   },
   {
     "id": "guid016",
@@ -1335,7 +1350,7 @@
     "related_pokemon": "pkm007,pkm030,pkm015",
     "related_items": "rec005",
     "related_habitats": "hab001,hab006,hab012",
-    "image_url": "/media/nintendo/pokopia-08.jpg",
+    "image_url": "",
     "image_alt": "Pokémon Pokopia promotional gameplay screenshot accompanying an unverified editorial guide",
     "answer": "The strongest Pokemon are route-dependent. Flamexor, Shadowclaw, and Voltscale are top carries, but they need the right habitat, backup support, and recipe timing to outperform safer picks.",
     "steps": [
@@ -1407,9 +1422,10 @@
     "image_license_note": "Promotional image source is credited for identification only and does not verify this page’s editorial claims.",
     "image_original_media": "Nintendo official Pokémon Pokopia screenshot",
     "index_status": "review",
-    "image_rights_status": "rights-review-required",
-    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
-    "image_rights_reviewed_at": "2026-07-21"
+    "image_rights_status": "retired-no-publication",
+    "image_usage_basis": "Retired from the public site on 2026-07-21 because commercial ad-supported reuse rights were not verified.",
+    "image_rights_reviewed_at": "2026-07-21",
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-08.jpg"
   },
   {
     "id": "guid017",
@@ -1421,7 +1437,7 @@
     "related_pokemon": "pkm011,pkm012",
     "related_items": "rec012",
     "related_habitats": "hab007",
-    "image_url": "/media/nintendo/pokopia-09.jpg",
+    "image_url": "",
     "image_alt": "Pokémon Pokopia promotional gameplay screenshot accompanying an unverified editorial guide",
     "answer": "Gemstone Canyon is best handled as a short mining loop. Use Rockler for consistent early runs, Crystion for higher-value crystal routes, and Steel Shell only if the mining path includes real damage pressure.",
     "steps": [
@@ -1493,9 +1509,10 @@
     "image_license_note": "Promotional image source is credited for identification only and does not verify this page’s editorial claims.",
     "image_original_media": "Nintendo official Pokémon Pokopia screenshot",
     "index_status": "review",
-    "image_rights_status": "rights-review-required",
-    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
-    "image_rights_reviewed_at": "2026-07-21"
+    "image_rights_status": "retired-no-publication",
+    "image_usage_basis": "Retired from the public site on 2026-07-21 because commercial ad-supported reuse rights were not verified.",
+    "image_rights_reviewed_at": "2026-07-21",
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-09.jpg"
   },
   {
     "id": "guid018",
@@ -1507,7 +1524,7 @@
     "related_pokemon": "pkm004,pkm018,pkm021,pkm027,pkm034",
     "related_items": "rec006",
     "related_habitats": "hab003,hab009",
-    "image_url": "/media/nintendo/pokopia-10.jpg",
+    "image_url": "",
     "image_alt": "Pokémon Pokopia promotional gameplay screenshot accompanying an unverified editorial guide",
     "answer": "A good water team uses Aquap for safe early structure, Mudkipz for stable water-ground loops, and Stealthfin when the route needs more pressure. Water Shield should protect known danger sections, not every run by default.",
     "steps": [
@@ -1579,9 +1596,10 @@
     "image_license_note": "Promotional image source is credited for identification only and does not verify this page’s editorial claims.",
     "image_original_media": "Nintendo official Pokémon Pokopia screenshot",
     "index_status": "review",
-    "image_rights_status": "rights-review-required",
-    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
-    "image_rights_reviewed_at": "2026-07-21"
+    "image_rights_status": "retired-no-publication",
+    "image_usage_basis": "Retired from the public site on 2026-07-21 because commercial ad-supported reuse rights were not verified.",
+    "image_rights_reviewed_at": "2026-07-21",
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-10.jpg"
   },
   {
     "id": "guid019",
@@ -1593,7 +1611,7 @@
     "related_pokemon": "pkm009,pkm030,pkm044,pkm049",
     "related_items": "rec010",
     "related_habitats": "hab006",
-    "image_url": "/media/nintendo/pokopia-11.jpg",
+    "image_url": "",
     "image_alt": "Pokémon Pokopia promotional gameplay screenshot accompanying an unverified editorial guide",
     "answer": "Ghost hunting works best when Shadow Marsh is reduced to a short repeatable loop. Use Shados to learn the route, target Shadowclaw once the path is stable, and save Ghost Veil for the dangerous or repeated check window.",
     "steps": [
@@ -1665,9 +1683,10 @@
     "image_license_note": "Promotional image source is credited for identification only and does not verify this page’s editorial claims.",
     "image_original_media": "Nintendo official Pokémon Pokopia screenshot",
     "index_status": "review",
-    "image_rights_status": "rights-review-required",
-    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
-    "image_rights_reviewed_at": "2026-07-21"
+    "image_rights_status": "retired-no-publication",
+    "image_usage_basis": "Retired from the public site on 2026-07-21 because commercial ad-supported reuse rights were not verified.",
+    "image_rights_reviewed_at": "2026-07-21",
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-11.jpg"
   },
   {
     "id": "guid020",
@@ -1679,7 +1698,7 @@
     "related_pokemon": "pkm005,pkm010,pkm015,pkm035,pkm040,pkm045,pkm047",
     "related_items": "rec003,rec007",
     "related_habitats": "hab004,hab012",
-    "image_url": "/media/nintendo/pokopia-08.jpg",
+    "image_url": "",
     "image_alt": "Pokémon Pokopia promotional gameplay screenshot accompanying an unverified editorial guide",
     "answer": "Electric speed builds work when speed reduces downtime. Use Zaprat for early pressure, Mechabit for utility, Voltscale as the high-value carry, and Speed Potion only on clean repeatable routes.",
     "steps": [
@@ -1751,9 +1770,10 @@
     "image_license_note": "Promotional image source is credited for identification only and does not verify this page’s editorial claims.",
     "image_original_media": "Nintendo official Pokémon Pokopia screenshot",
     "index_status": "review",
-    "image_rights_status": "rights-review-required",
-    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
-    "image_rights_reviewed_at": "2026-07-21"
+    "image_rights_status": "retired-no-publication",
+    "image_usage_basis": "Retired from the public site on 2026-07-21 because commercial ad-supported reuse rights were not verified.",
+    "image_rights_reviewed_at": "2026-07-21",
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-08.jpg"
   },
   {
     "id": "guid021",
@@ -1765,7 +1785,7 @@
     "related_pokemon": "pkm015,pkm029,pkm050",
     "related_items": "rec011",
     "related_habitats": "hab018",
-    "image_url": "/media/nintendo/pokopia-09.jpg",
+    "image_url": "",
     "image_alt": "Pokémon Pokopia promotional gameplay screenshot accompanying an unverified editorial guide",
     "answer": "Unlock Dragon's Den only after supporting routes are stable. Build around Voltscale, Snorizard, or Primordion depending on progress, and save Dragon's Fury for the section that actually decides the run.",
     "steps": [
@@ -1837,9 +1857,10 @@
     "image_license_note": "Promotional image source is credited for identification only and does not verify this page’s editorial claims.",
     "image_original_media": "Nintendo official Pokémon Pokopia screenshot",
     "index_status": "review",
-    "image_rights_status": "rights-review-required",
-    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
-    "image_rights_reviewed_at": "2026-07-21"
+    "image_rights_status": "retired-no-publication",
+    "image_usage_basis": "Retired from the public site on 2026-07-21 because commercial ad-supported reuse rights were not verified.",
+    "image_rights_reviewed_at": "2026-07-21",
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-09.jpg"
   },
   {
     "id": "guid022",
@@ -1851,7 +1872,7 @@
     "related_pokemon": "pkm002,pkm008,pkm017",
     "related_items": "rec009",
     "related_habitats": "hab020",
-    "image_url": "/media/nintendo/pokopia-10.jpg",
+    "image_url": "",
     "image_alt": "Pokémon Pokopia promotional gameplay screenshot accompanying an unverified editorial guide",
     "answer": "Training Grounds is the best place to learn team roles, not just gain early wins. Use Bulbin, Tidlet, and Thornvine to practice stable routing before spending rare recipes in harder habitats.",
     "steps": [
@@ -1923,9 +1944,10 @@
     "image_license_note": "Promotional image source is credited for identification only and does not verify this page’s editorial claims.",
     "image_original_media": "Nintendo official Pokémon Pokopia screenshot",
     "index_status": "review",
-    "image_rights_status": "rights-review-required",
-    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
-    "image_rights_reviewed_at": "2026-07-21"
+    "image_rights_status": "retired-no-publication",
+    "image_usage_basis": "Retired from the public site on 2026-07-21 because commercial ad-supported reuse rights were not verified.",
+    "image_rights_reviewed_at": "2026-07-21",
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-10.jpg"
   },
   {
     "id": "guid023",
@@ -1937,7 +1959,7 @@
     "related_pokemon": "pkm006,pkm041",
     "related_items": "rec010",
     "related_habitats": "hab017",
-    "image_url": "/media/nintendo/pokopia-11.jpg",
+    "image_url": "",
     "image_alt": "Pokémon Pokopia promotional gameplay screenshot accompanying an unverified editorial guide",
     "answer": "Poison teams are control teams. Use Venomleaf for core pressure, Leafon for longer grass-poison routes, and Ghost Veil only when the route has a dangerous control or survival window.",
     "steps": [
@@ -2009,9 +2031,10 @@
     "image_license_note": "Promotional image source is credited for identification only and does not verify this page’s editorial claims.",
     "image_original_media": "Nintendo official Pokémon Pokopia screenshot",
     "index_status": "review",
-    "image_rights_status": "rights-review-required",
-    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
-    "image_rights_reviewed_at": "2026-07-21"
+    "image_rights_status": "retired-no-publication",
+    "image_usage_basis": "Retired from the public site on 2026-07-21 because commercial ad-supported reuse rights were not verified.",
+    "image_rights_reviewed_at": "2026-07-21",
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-11.jpg"
   },
   {
     "id": "guid024",
@@ -2025,7 +2048,7 @@
     "related_pokemon": "pkm007,pkm015,pkm030,pkm050",
     "related_items": "rec005",
     "related_habitats": "hab001,hab004,hab006,hab009",
-    "image_url": "/media/nintendo/pokopia-12.jpg",
+    "image_url": "",
     "image_alt": "Pokémon Pokopia promotional gameplay screenshot accompanying an unverified editorial guide",
     "answer": "The four legendary targets need different route plans: Flamexor in fire-route preparation, Voltscale through tempo routes, Shadowclaw through ghost loops, and Primordion as a late-game target. Scout first, then spend Lucky Charm only on repeatable checks.",
     "steps": [
@@ -2109,9 +2132,10 @@
       "This page should not be used to establish facts on other source-backed pages."
     ],
     "index_status": "review",
-    "image_rights_status": "rights-review-required",
-    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
-    "image_rights_reviewed_at": "2026-07-21"
+    "image_rights_status": "retired-no-publication",
+    "image_usage_basis": "Retired from the public site on 2026-07-21 because commercial ad-supported reuse rights were not verified.",
+    "image_rights_reviewed_at": "2026-07-21",
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-12.jpg"
   },
   {
     "id": "guid025",
@@ -2123,7 +2147,7 @@
     "related_pokemon": "pkm012,pkm031",
     "related_items": "rec005",
     "related_habitats": "hab014",
-    "image_url": "/media/nintendo/pokopia-13.jpg",
+    "image_url": "",
     "image_alt": "Pokémon Pokopia promotional gameplay screenshot accompanying an unverified editorial guide",
     "answer": "Crystal Cave should be scouted as a discovery route, then farmed as a focused loop. Use Crystion for crystal value, Crystalwing for later pressure, and Lucky Charm only on repeated hidden or rare checks.",
     "steps": [
@@ -2195,9 +2219,10 @@
     "image_license_note": "Promotional image source is credited for identification only and does not verify this page’s editorial claims.",
     "image_original_media": "Nintendo official Pokémon Pokopia screenshot",
     "index_status": "review",
-    "image_rights_status": "rights-review-required",
-    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
-    "image_rights_reviewed_at": "2026-07-21"
+    "image_rights_status": "retired-no-publication",
+    "image_usage_basis": "Retired from the public site on 2026-07-21 because commercial ad-supported reuse rights were not verified.",
+    "image_rights_reviewed_at": "2026-07-21",
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-13.jpg"
   },
   {
     "id": "guid026",
@@ -2209,7 +2234,7 @@
     "related_pokemon": "pkm017,pkm023,pkm025,pkm036,pkm046",
     "related_items": "rec009",
     "related_habitats": "hab002",
-    "image_url": "/media/nintendo/pokopia-14.jpg",
+    "image_url": "",
     "image_alt": "Pokémon Pokopia promotional gameplay screenshot accompanying an unverified editorial guide",
     "answer": "The best grass pick depends on the route: Thornvine for simple pressure, Leafon for longer control routes, and Tropius when broader support or flying-style value matters. Choose the one that makes the next route easier.",
     "steps": [
@@ -2281,9 +2306,10 @@
     "image_license_note": "Promotional image source is credited for identification only and does not verify this page’s editorial claims.",
     "image_original_media": "Nintendo official Pokémon Pokopia screenshot",
     "index_status": "review",
-    "image_rights_status": "rights-review-required",
-    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
-    "image_rights_reviewed_at": "2026-07-21"
+    "image_rights_status": "retired-no-publication",
+    "image_usage_basis": "Retired from the public site on 2026-07-21 because commercial ad-supported reuse rights were not verified.",
+    "image_rights_reviewed_at": "2026-07-21",
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-14.jpg"
   },
   {
     "id": "guid027",
@@ -2295,7 +2321,7 @@
     "related_pokemon": "pkm010,pkm019,pkm037",
     "related_items": "rec012",
     "related_habitats": "hab016",
-    "image_url": "/media/nintendo/pokopia-15.jpg",
+    "image_url": "",
     "image_alt": "Pokémon Pokopia promotional gameplay screenshot accompanying an unverified editorial guide",
     "answer": "A good steel build uses Mechabit for utility, Bronzorm for bulk, and Ironclaw for pressure. Steel Shell should protect a specific hard section, not turn every route into a slow defensive clear.",
     "steps": [
@@ -2367,9 +2393,10 @@
     "image_license_note": "Promotional image source is credited for identification only and does not verify this page’s editorial claims.",
     "image_original_media": "Nintendo official Pokémon Pokopia screenshot",
     "index_status": "review",
-    "image_rights_status": "rights-review-required",
-    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
-    "image_rights_reviewed_at": "2026-07-21"
+    "image_rights_status": "retired-no-publication",
+    "image_usage_basis": "Retired from the public site on 2026-07-21 because commercial ad-supported reuse rights were not verified.",
+    "image_rights_reviewed_at": "2026-07-21",
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-15.jpg"
   },
   {
     "id": "guid028",
@@ -2381,7 +2408,7 @@
     "related_pokemon": "pkm012,pkm038,pkm048",
     "related_items": "rec005",
     "related_habitats": "hab019",
-    "image_url": "/media/nintendo/pokopia-16.jpg",
+    "image_url": "",
     "image_alt": "Pokémon Pokopia promotional gameplay screenshot accompanying an unverified editorial guide",
     "answer": "Fairy Glen rewards careful exploration and hidden-check routing. Use Crystion as the anchor, add Mysticat or Magicalure for fairy pressure, and save Lucky Charm until the hidden route is repeatable.",
     "steps": [
@@ -2453,9 +2480,10 @@
     "image_license_note": "Promotional image source is credited for identification only and does not verify this page’s editorial claims.",
     "image_original_media": "Nintendo official Pokémon Pokopia screenshot",
     "index_status": "review",
-    "image_rights_status": "rights-review-required",
-    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
-    "image_rights_reviewed_at": "2026-07-21"
+    "image_rights_status": "retired-no-publication",
+    "image_usage_basis": "Retired from the public site on 2026-07-21 because commercial ad-supported reuse rights were not verified.",
+    "image_rights_reviewed_at": "2026-07-21",
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-16.jpg"
   },
   {
     "id": "guid029",
@@ -2467,7 +2495,7 @@
     "related_pokemon": "pkm006,pkm022,pkm048",
     "related_items": "rec010",
     "related_habitats": "hab017",
-    "image_url": "/media/nintendo/pokopia-17.jpg",
+    "image_url": "",
     "image_alt": "Pokémon Pokopia promotional gameplay screenshot accompanying an unverified editorial guide",
     "answer": "Nightmare Forest is a hard control route. Use Leafon for grass-poison pressure, Frostbite or Magicalure for support, and save Ghost Veil or Steel Shell for the section that actually breaks the run.",
     "steps": [
@@ -2539,9 +2567,10 @@
     "image_license_note": "Promotional image source is credited for identification only and does not verify this page’s editorial claims.",
     "image_original_media": "Nintendo official Pokémon Pokopia screenshot",
     "index_status": "review",
-    "image_rights_status": "rights-review-required",
-    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
-    "image_rights_reviewed_at": "2026-07-21"
+    "image_rights_status": "retired-no-publication",
+    "image_usage_basis": "Retired from the public site on 2026-07-21 because commercial ad-supported reuse rights were not verified.",
+    "image_rights_reviewed_at": "2026-07-21",
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-17.jpg"
   },
   {
     "id": "guid030",
@@ -2553,7 +2582,7 @@
     "related_pokemon": "pkm007,pkm030,pkm015,pkm050",
     "related_items": "rec005,rec012,rec003",
     "related_habitats": "hab001,hab006,hab012,hab018",
-    "image_url": "/media/nintendo/pokopia-14.jpg",
+    "image_url": "",
     "image_alt": "Pokémon Pokopia promotional gameplay screenshot accompanying an unverified editorial guide",
     "answer": "The best late-game build is a framework: one route-specific carry, one defensive or sustain anchor, and one speed, coverage, or utility slot. Flamexor, Shadowclaw, Voltscale, and Primordion all need different support.",
     "steps": [
@@ -2627,9 +2656,10 @@
     "image_license_note": "Promotional image source is credited for identification only and does not verify this page’s editorial claims.",
     "image_original_media": "Nintendo official Pokémon Pokopia screenshot",
     "index_status": "review",
-    "image_rights_status": "rights-review-required",
-    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
-    "image_rights_reviewed_at": "2026-07-21"
+    "image_rights_status": "retired-no-publication",
+    "image_usage_basis": "Retired from the public site on 2026-07-21 because commercial ad-supported reuse rights were not verified.",
+    "image_rights_reviewed_at": "2026-07-21",
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-14.jpg"
   },
   {
     "id": "guid031",
@@ -2641,7 +2671,7 @@
     "related_pokemon": "pkm015",
     "related_items": "rec007",
     "related_habitats": "hab004",
-    "image_url": "/media/nintendo/pokopia-15.jpg",
+    "image_url": "",
     "image_alt": "Pokémon Pokopia promotional gameplay screenshot accompanying an unverified editorial guide",
     "answer": "Voltscale is a legendary Electric/Dragon Attacker that spawns during Night in Thunderstorm weather at Windmill Plains. Bring Lightning Bug and wait for Thunderstorm before entering. It rewards players who plan around weather windows over quick-grab runs.",
     "steps": [
@@ -2706,9 +2736,10 @@
     "image_license_note": "Promotional image source is credited for identification only and does not verify this page’s editorial claims.",
     "image_original_media": "Nintendo official Pokémon Pokopia screenshot",
     "index_status": "review",
-    "image_rights_status": "rights-review-required",
-    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
-    "image_rights_reviewed_at": "2026-07-21"
+    "image_rights_status": "retired-no-publication",
+    "image_usage_basis": "Retired from the public site on 2026-07-21 because commercial ad-supported reuse rights were not verified.",
+    "image_rights_reviewed_at": "2026-07-21",
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-15.jpg"
   },
   {
     "id": "guid032",
@@ -2720,7 +2751,7 @@
     "related_pokemon": "pkm030",
     "related_items": "rec010",
     "related_habitats": "hab006",
-    "image_url": "/media/nintendo/pokopia-16.jpg",
+    "image_url": "",
     "image_alt": "Pokémon Pokopia promotional gameplay screenshot accompanying an unverified editorial guide",
     "answer": "Shadowclaw is a legendary Dark/Ghost Assassin that spawns during Night in Stormy weather at Shadow Marsh. Enter only during Night and Stormy, spend Void Fruit only at the Shadowclaw branch, and have a clear exit condition before committing.",
     "steps": [
@@ -2785,9 +2816,10 @@
     "image_license_note": "Promotional image source is credited for identification only and does not verify this page’s editorial claims.",
     "image_original_media": "Nintendo official Pokémon Pokopia screenshot",
     "index_status": "review",
-    "image_rights_status": "rights-review-required",
-    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
-    "image_rights_reviewed_at": "2026-07-21"
+    "image_rights_status": "retired-no-publication",
+    "image_usage_basis": "Retired from the public site on 2026-07-21 because commercial ad-supported reuse rights were not verified.",
+    "image_rights_reviewed_at": "2026-07-21",
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-16.jpg"
   },
   {
     "id": "guid033",
@@ -2799,7 +2831,7 @@
     "related_pokemon": "pkm050",
     "related_items": "rec011",
     "related_habitats": "hab009",
-    "image_url": "/media/nintendo/pokopia-17.jpg",
+    "image_url": "",
     "image_alt": "Pokémon Pokopia promotional gameplay screenshot accompanying an unverified editorial guide",
     "answer": "Primordion is a legendary Dragon/Ground Tank that spawns during Any time in Rain weather at Muddy River. Rain is common — check the forecast and enter whenever Rain is active. It is the easiest legendary to plan around.",
     "steps": [
@@ -2864,9 +2896,10 @@
     "image_license_note": "Promotional image source is credited for identification only and does not verify this page’s editorial claims.",
     "image_original_media": "Nintendo official Pokémon Pokopia screenshot",
     "index_status": "review",
-    "image_rights_status": "rights-review-required",
-    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
-    "image_rights_reviewed_at": "2026-07-21"
+    "image_rights_status": "retired-no-publication",
+    "image_usage_basis": "Retired from the public site on 2026-07-21 because commercial ad-supported reuse rights were not verified.",
+    "image_rights_reviewed_at": "2026-07-21",
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-17.jpg"
   },
   {
     "id": "guid034",
@@ -2878,7 +2911,7 @@
     "related_pokemon": "pkm007",
     "related_items": "rec002",
     "related_habitats": "hab001",
-    "image_url": "/media/nintendo/pokopia-18.jpg",
+    "image_url": "",
     "image_alt": "Pokémon Pokopia promotional gameplay screenshot accompanying an unverified editorial guide",
     "answer": "Flamexor is a legendary Fire/Steel Tank that spawns during Night in Clear weather at Volcanic Cave. It is the hardest legendary to plan around due to habitat difficulty and strict weather requirements, but Legendary Scale makes it essential for endgame builds.",
     "steps": [
@@ -2943,9 +2976,10 @@
     "image_license_note": "Promotional image source is credited for identification only and does not verify this page’s editorial claims.",
     "image_original_media": "Nintendo official Pokémon Pokopia screenshot",
     "index_status": "review",
-    "image_rights_status": "rights-review-required",
-    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
-    "image_rights_reviewed_at": "2026-07-21"
+    "image_rights_status": "retired-no-publication",
+    "image_usage_basis": "Retired from the public site on 2026-07-21 because commercial ad-supported reuse rights were not verified.",
+    "image_rights_reviewed_at": "2026-07-21",
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-18.jpg"
   },
   {
     "id": "guid035",
@@ -2957,7 +2991,7 @@
     "related_pokemon": "pkm044",
     "related_items": "rec010",
     "related_habitats": "hab006",
-    "image_url": "/media/nintendo/pokopia-19.jpg",
+    "image_url": "",
     "image_alt": "Pokémon Pokopia promotional gameplay screenshot accompanying an unverified editorial guide",
     "answer": "Lunaflare is a legendary Ghost/Fire Attacker that spawns during Night in Stormy weather at Shadow Marsh, sharing habitat and weather with Shadowclaw. Use Soul Dust for attraction and plan around its deeper route position.",
     "steps": [
@@ -3022,9 +3056,10 @@
     "image_license_note": "Promotional image source is credited for identification only and does not verify this page’s editorial claims.",
     "image_original_media": "Nintendo official Pokémon Pokopia screenshot",
     "index_status": "review",
-    "image_rights_status": "rights-review-required",
-    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
-    "image_rights_reviewed_at": "2026-07-21"
+    "image_rights_status": "retired-no-publication",
+    "image_usage_basis": "Retired from the public site on 2026-07-21 because commercial ad-supported reuse rights were not verified.",
+    "image_rights_reviewed_at": "2026-07-21",
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-19.jpg"
   },
   {
     "id": "guid036",
@@ -3036,7 +3071,7 @@
     "related_pokemon": "pkm006",
     "related_items": "rec009",
     "related_habitats": "hab002",
-    "image_url": "/media/nintendo/pokopia-20.jpg",
+    "image_url": "",
     "image_alt": "Pokémon Pokopia promotional gameplay screenshot accompanying an unverified editorial guide",
     "answer": "Leafon is a rare Grass/Poison Assassin that spawns during Night in Foggy weather at Forest Valley. Forest Valley is easy — focus on weather timing rather than survival. Leafon is the most accessible rare Pokemon in the game.",
     "steps": [
@@ -3101,9 +3136,10 @@
     "image_license_note": "Promotional image source is credited for identification only and does not verify this page’s editorial claims.",
     "image_original_media": "Nintendo official Pokémon Pokopia screenshot",
     "index_status": "review",
-    "image_rights_status": "rights-review-required",
-    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
-    "image_rights_reviewed_at": "2026-07-21"
+    "image_rights_status": "retired-no-publication",
+    "image_usage_basis": "Retired from the public site on 2026-07-21 because commercial ad-supported reuse rights were not verified.",
+    "image_rights_reviewed_at": "2026-07-21",
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-20.jpg"
   },
   {
     "id": "guid037",
@@ -3115,7 +3151,7 @@
     "related_pokemon": "pkm009",
     "related_items": "rec010",
     "related_habitats": "hab006",
-    "image_url": "/media/nintendo/pokopia-21.jpg",
+    "image_url": "",
     "image_alt": "Pokémon Pokopia promotional gameplay screenshot accompanying an unverified editorial guide",
     "answer": "Shados is a rare Ghost Assassin that spawns during Night in Stormy weather at Shadow Marsh. It appears earlier in the route than Shadowclaw and is the practical entry point for Ghost type builds.",
     "steps": [
@@ -3180,9 +3216,10 @@
     "image_license_note": "Promotional image source is credited for identification only and does not verify this page’s editorial claims.",
     "image_original_media": "Nintendo official Pokémon Pokopia screenshot",
     "index_status": "review",
-    "image_rights_status": "rights-review-required",
-    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
-    "image_rights_reviewed_at": "2026-07-21"
+    "image_rights_status": "retired-no-publication",
+    "image_usage_basis": "Retired from the public site on 2026-07-21 because commercial ad-supported reuse rights were not verified.",
+    "image_rights_reviewed_at": "2026-07-21",
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-21.jpg"
   },
   {
     "id": "guid038",
@@ -3194,7 +3231,7 @@
     "related_pokemon": "pkm012",
     "related_items": "rec012",
     "related_habitats": "hab007",
-    "image_url": "/media/nintendo/pokopia-22.jpg",
+    "image_url": "",
     "image_alt": "Pokémon Pokopia promotional gameplay screenshot accompanying an unverified editorial guide",
     "answer": "Crystion is a rare Crystal/Fairy Attacker that spawns during Night in Clear weather at Gemstone Canyon. Clear weather is common — plan around the Night window for best results.",
     "steps": [
@@ -3259,9 +3296,10 @@
     "image_license_note": "Promotional image source is credited for identification only and does not verify this page’s editorial claims.",
     "image_original_media": "Nintendo official Pokémon Pokopia screenshot",
     "index_status": "review",
-    "image_rights_status": "rights-review-required",
-    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
-    "image_rights_reviewed_at": "2026-07-21"
+    "image_rights_status": "retired-no-publication",
+    "image_usage_basis": "Retired from the public site on 2026-07-21 because commercial ad-supported reuse rights were not verified.",
+    "image_rights_reviewed_at": "2026-07-21",
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-22.jpg"
   },
   {
     "id": "guid039",
@@ -3273,7 +3311,7 @@
     "related_pokemon": "pkm019",
     "related_items": "rec012",
     "related_habitats": "hab010",
-    "image_url": "/media/nintendo/pokopia-23.jpg",
+    "image_url": "",
     "image_alt": "Pokémon Pokopia promotional gameplay screenshot accompanying an unverified editorial guide",
     "answer": "Bronzorm is a rare Steel/Psychic Support that spawns during Day in Cloudy weather at Ancient Ruins. Ancient Ruins is hard and unlocked at level 30 — plan this catch as a late-game milestone.",
     "steps": [
@@ -3338,9 +3376,10 @@
     "image_license_note": "Promotional image source is credited for identification only and does not verify this page’s editorial claims.",
     "image_original_media": "Nintendo official Pokémon Pokopia screenshot",
     "index_status": "review",
-    "image_rights_status": "rights-review-required",
-    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
-    "image_rights_reviewed_at": "2026-07-21"
+    "image_rights_status": "retired-no-publication",
+    "image_usage_basis": "Retired from the public site on 2026-07-21 because commercial ad-supported reuse rights were not verified.",
+    "image_rights_reviewed_at": "2026-07-21",
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-23.jpg"
   },
   {
     "id": "guid040",
@@ -3352,7 +3391,7 @@
     "related_pokemon": "pkm021",
     "related_items": "rec006",
     "related_habitats": "hab009",
-    "image_url": "/media/nintendo/pokopia-20.jpg",
+    "image_url": "",
     "image_alt": "Pokémon Pokopia promotional gameplay screenshot accompanying an unverified editorial guide",
     "answer": "Stealthfin is a rare Water/Dark Assassin that spawns during Night in Rain weather at Muddy River. Rain is common — plan around the Night window for best Stealthfin encounters.",
     "steps": [
@@ -3417,9 +3456,10 @@
     "image_license_note": "Promotional image source is credited for identification only and does not verify this page’s editorial claims.",
     "image_original_media": "Nintendo official Pokémon Pokopia screenshot",
     "index_status": "review",
-    "image_rights_status": "rights-review-required",
-    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
-    "image_rights_reviewed_at": "2026-07-21"
+    "image_rights_status": "retired-no-publication",
+    "image_usage_basis": "Retired from the public site on 2026-07-21 because commercial ad-supported reuse rights were not verified.",
+    "image_rights_reviewed_at": "2026-07-21",
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-20.jpg"
   },
   {
     "id": "guid041",
@@ -3431,7 +3471,7 @@
     "related_pokemon": "pkm022",
     "related_items": "rec008",
     "related_habitats": "hab005",
-    "image_url": "/media/nintendo/pokopia-21.jpg",
+    "image_url": "",
     "image_alt": "Pokémon Pokopia promotional gameplay screenshot accompanying an unverified editorial guide",
     "answer": "Frostbite is a rare Ice/Ghost Assassin that spawns during Night in Snow weather at Frost Peak. Snow weather is less common — monitor the forecast actively and plan Frost Peak sessions around confirmed Snow windows.",
     "steps": [
@@ -3496,9 +3536,10 @@
     "image_license_note": "Promotional image source is credited for identification only and does not verify this page’s editorial claims.",
     "image_original_media": "Nintendo official Pokémon Pokopia screenshot",
     "index_status": "review",
-    "image_rights_status": "rights-review-required",
-    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
-    "image_rights_reviewed_at": "2026-07-21"
+    "image_rights_status": "retired-no-publication",
+    "image_usage_basis": "Retired from the public site on 2026-07-21 because commercial ad-supported reuse rights were not verified.",
+    "image_rights_reviewed_at": "2026-07-21",
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-21.jpg"
   },
   {
     "id": "guid042",
@@ -3510,7 +3551,7 @@
     "related_pokemon": "pkm029",
     "related_items": "rec008",
     "related_habitats": "hab005",
-    "image_url": "/media/nintendo/pokopia-22.jpg",
+    "image_url": "",
     "image_alt": "Pokémon Pokopia promotional gameplay screenshot accompanying an unverified editorial guide",
     "answer": "Snorizard is a rare Dragon/Ice Attacker that spawns during Any time in Snow weather at Frost Peak. Snow weather is the gate — enter whenever Snow is active. Dragon/Ice coverage makes it worth the cold route commitment.",
     "steps": [
@@ -3575,9 +3616,10 @@
     "image_license_note": "Promotional image source is credited for identification only and does not verify this page’s editorial claims.",
     "image_original_media": "Nintendo official Pokémon Pokopia screenshot",
     "index_status": "review",
-    "image_rights_status": "rights-review-required",
-    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
-    "image_rights_reviewed_at": "2026-07-21"
+    "image_rights_status": "retired-no-publication",
+    "image_usage_basis": "Retired from the public site on 2026-07-21 because commercial ad-supported reuse rights were not verified.",
+    "image_rights_reviewed_at": "2026-07-21",
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-22.jpg"
   },
   {
     "id": "guid043",
@@ -3589,7 +3631,7 @@
     "related_pokemon": "pkm038",
     "related_items": "rec004",
     "related_habitats": "hab010",
-    "image_url": "/media/nintendo/pokopia-23.jpg",
+    "image_url": "",
     "image_alt": "Pokémon Pokopia promotional gameplay screenshot accompanying an unverified editorial guide",
     "answer": "Mysticat is a rare Psychic/Fairy Support that spawns during Night in Clear weather at Fairy Glen. Clear weather is common — monitor the Night window. Fairy Glen is medium difficulty and relatively compact.",
     "steps": [
@@ -3654,9 +3696,10 @@
     "image_license_note": "Promotional image source is credited for identification only and does not verify this page’s editorial claims.",
     "image_original_media": "Nintendo official Pokémon Pokopia screenshot",
     "index_status": "review",
-    "image_rights_status": "rights-review-required",
-    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
-    "image_rights_reviewed_at": "2026-07-21"
+    "image_rights_status": "retired-no-publication",
+    "image_usage_basis": "Retired from the public site on 2026-07-21 because commercial ad-supported reuse rights were not verified.",
+    "image_rights_reviewed_at": "2026-07-21",
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-23.jpg"
   },
   {
     "id": "guid044",
@@ -3668,7 +3711,7 @@
     "related_pokemon": "pkm008,pkm014,pkm022,pkm029",
     "related_items": "rec001",
     "related_habitats": "hab005",
-    "image_url": "/media/nintendo/pokopia-24.jpg",
+    "image_url": "",
     "image_alt": "Pokémon Pokopia promotional gameplay screenshot accompanying an unverified editorial guide",
     "answer": "Frost Peak unlocks at level 20 and is the primary Ice type habitat. Enter during Snow weather for best results. Recommended for players who have completed Forest Valley and Crystal Lake routes and are ready for medium difficulty content.",
     "steps": [
@@ -3729,9 +3772,10 @@
     "image_license_note": "Promotional image source is credited for identification only and does not verify this page’s editorial claims.",
     "image_original_media": "Nintendo official Pokémon Pokopia screenshot",
     "index_status": "review",
-    "image_rights_status": "rights-review-required",
-    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
-    "image_rights_reviewed_at": "2026-07-21"
+    "image_rights_status": "retired-no-publication",
+    "image_usage_basis": "Retired from the public site on 2026-07-21 because commercial ad-supported reuse rights were not verified.",
+    "image_rights_reviewed_at": "2026-07-21",
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-24.jpg"
   },
   {
     "id": "guid045",
@@ -3743,7 +3787,7 @@
     "related_pokemon": "pkm009,pkm030,pkm044,pkm049",
     "related_items": "rec001",
     "related_habitats": "hab006",
-    "image_url": "/media/nintendo/pokopia-25.jpg",
+    "image_url": "",
     "image_alt": "Pokémon Pokopia promotional gameplay screenshot accompanying an unverified editorial guide",
     "answer": "Shadow Marsh unlocks at level 25 and is the primary Ghost and Dark type habitat. It requires Night and Stormy weather — both non-negotiable. This is a late-game commitment. Come with a full team, healing items, and a clear exit plan.",
     "steps": [
@@ -3806,9 +3850,10 @@
     "image_license_note": "Promotional image source is credited for identification only and does not verify this page’s editorial claims.",
     "image_original_media": "Nintendo official Pokémon Pokopia screenshot",
     "index_status": "review",
-    "image_rights_status": "rights-review-required",
-    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
-    "image_rights_reviewed_at": "2026-07-21"
+    "image_rights_status": "retired-no-publication",
+    "image_usage_basis": "Retired from the public site on 2026-07-21 because commercial ad-supported reuse rights were not verified.",
+    "image_rights_reviewed_at": "2026-07-21",
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-25.jpg"
   },
   {
     "id": "guid046",
@@ -3820,7 +3865,7 @@
     "related_pokemon": "",
     "related_items": "rec001",
     "related_habitats": "hab012",
-    "image_url": "/media/nintendo/pokopia-01.jpg",
+    "image_url": "",
     "image_alt": "Pokémon Pokopia promotional gameplay screenshot accompanying an unverified editorial guide",
     "answer": "Thunder Arena unlocks at level 22 and is the primary Electric type combat habitat. Enter during Thunderstorm weather for best results. Hard difficulty — come prepared with healing items and team coverage for Electric matchups.",
     "steps": [
@@ -3882,9 +3927,10 @@
     "image_license_note": "Promotional image source is credited for identification only and does not verify this page’s editorial claims.",
     "image_original_media": "Nintendo official Pokémon Pokopia screenshot",
     "index_status": "review",
-    "image_rights_status": "rights-review-required",
-    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
-    "image_rights_reviewed_at": "2026-07-21"
+    "image_rights_status": "retired-no-publication",
+    "image_usage_basis": "Retired from the public site on 2026-07-21 because commercial ad-supported reuse rights were not verified.",
+    "image_rights_reviewed_at": "2026-07-21",
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-01.jpg"
   },
   {
     "id": "guid047",
@@ -3896,7 +3942,7 @@
     "related_pokemon": "",
     "related_items": "rec001",
     "related_habitats": "hab014",
-    "image_url": "/media/nintendo/pokopia-02.jpg",
+    "image_url": "",
     "image_alt": "Pokémon Pokopia promotional gameplay screenshot accompanying an unverified editorial guide",
     "answer": "Crystal Cave unlocks at level 16 and is the primary Crystal type habitat. Enter during Foggy weather. Medium difficulty — bring healing items and plan around Crystal and Psychic type spawns.",
     "steps": [
@@ -3958,9 +4004,10 @@
     "image_license_note": "Promotional image source is credited for identification only and does not verify this page’s editorial claims.",
     "image_original_media": "Nintendo official Pokémon Pokopia screenshot",
     "index_status": "review",
-    "image_rights_status": "rights-review-required",
-    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
-    "image_rights_reviewed_at": "2026-07-21"
+    "image_rights_status": "retired-no-publication",
+    "image_usage_basis": "Retired from the public site on 2026-07-21 because commercial ad-supported reuse rights were not verified.",
+    "image_rights_reviewed_at": "2026-07-21",
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-02.jpg"
   },
   {
     "id": "guid048",
@@ -3972,7 +4019,7 @@
     "related_pokemon": "pkm016,pkm020,pkm025,pkm031",
     "related_items": "rec001",
     "related_habitats": "hab008",
-    "image_url": "/media/nintendo/pokopia-03.jpg",
+    "image_url": "",
     "image_alt": "Pokémon Pokopia promotional gameplay screenshot accompanying an unverified editorial guide",
     "answer": "Sky Isles unlocks at level 18 and is the primary Flying type habitat. Enter during Windy weather. Medium difficulty with moderate weather requirements — one of the more accessible medium habitats for Flying type builds.",
     "steps": [
@@ -4034,9 +4081,10 @@
     "image_license_note": "Promotional image source is credited for identification only and does not verify this page’s editorial claims.",
     "image_original_media": "Nintendo official Pokémon Pokopia screenshot",
     "index_status": "review",
-    "image_rights_status": "rights-review-required",
-    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
-    "image_rights_reviewed_at": "2026-07-21"
+    "image_rights_status": "retired-no-publication",
+    "image_usage_basis": "Retired from the public site on 2026-07-21 because commercial ad-supported reuse rights were not verified.",
+    "image_rights_reviewed_at": "2026-07-21",
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-03.jpg"
   },
   {
     "id": "guid049",

@@ -48,6 +48,7 @@ const account = JSON.parse(fs.readFileSync(path.join(root, 'config/adsense-accou
 const traffic = JSON.parse(fs.readFileSync(path.join(root, 'config/adsense-traffic-integrity.json'), 'utf8'))
 const consent = JSON.parse(fs.readFileSync(path.join(root, 'config/consent-management.json'), 'utf8'))
 const audience = JSON.parse(fs.readFileSync(path.join(root, 'config/privacy-audience.json'), 'utf8'))
+const mediaRetirement = JSON.parse(fs.readFileSync(path.join(root, 'config/media-rights-retirement.json'), 'utf8'))
 
 const expectStatus = (id, expected, reason) => {
   if (statuses.get(id) !== expected) issues.push(`${id} must be ${expected}: ${reason}`)
@@ -80,9 +81,10 @@ expectStatus(
 const rightsFiles = ['news.json', 'guides.json', 'pokemon.json', 'habitats.json', 'recipes.json']
 const unresolvedRights = rightsFiles.flatMap((file) =>
   JSON.parse(fs.readFileSync(path.join(root, 'src/data', file), 'utf8'))
-    .filter((item) => item.image_rights_status === 'rights-review-required'),
+    .filter((item) => item.image_rights_status === 'rights-review-required' && item.image_url),
 )
-expectStatus('ADS-PUB-02', unresolvedRights.length ? 'Unknown' : 'Pass', 'media-rights inventory changed')
+const mediaRightsStatus = unresolvedRights.length || !mediaRetirement.live_removal_verified ? 'Unknown' : 'Pass'
+expectStatus('ADS-PUB-02', mediaRightsStatus, 'media-rights inventory or live removal evidence changed')
 
 const unresolvedCriticalIds = ['ADS-SITE-01', 'ADS-PROG-01', 'ADS-PROG-04', 'ADS-PUB-02', 'ADS-PRIV-04', 'ADS-PRIV-06']
 const expectedDecision = unresolvedCriticalIds.some((id) => statuses.get(id) === 'Fail' || statuses.get(id) === 'Unknown')

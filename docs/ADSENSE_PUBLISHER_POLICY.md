@@ -15,7 +15,7 @@ The permitted rendered external hosts are limited to official Nintendo, Pokémon
 | ID | Status | Evidence or limitation |
 | --- | --- | --- |
 | ADS-PUB-01 | Pass | No illegal-activity promotion, commerce, downloads, or rendered unresolved-rights media was found. |
-| ADS-PUB-02 | Unknown | Unresolved media-rights evidence remains outstanding even though those media paths are suppressed from exported HTML. |
+| ADS-PUB-02 | Unknown | 149 media records and 27 public paths are retired from the local deployable tree. Live URL removal still requires deployment and verification. |
 | ADS-PUB-03 | Pass | No dangerous or derogatory content signals were found. Fictional game combat terms are not treated as promotion of real-world harm. |
 | ADS-PUB-04 | Pass | No animal-cruelty promotion or endangered-species commerce was found. |
 | ADS-PUB-05 | Pass | Publisher identity, unofficial status, source labels, and non-affiliation disclosures are rendered sitewide. |
@@ -31,4 +31,4 @@ The permitted rendered external hosts are limited to official Nintendo, Pokémon
 | ADS-PUB-15 | Pass | No child-endangerment or sexual-exploitation content signals, upload paths, comments, or public submissions were found. |
 | ADS-PUB-16 | N/A | The site does not publish crisis or sensitive-event coverage and advertising is disabled. |
 
-This checkpoint cannot resolve `ADS-PUB-02`; source licences, permissions, or other rights evidence are still required for the quarantined media inventory.
+The quarantined files remain available only inside the repository for recovery or future rights review. `ADS-PUB-02` can change to Pass after deployment removes the old public files and all 27 original URLs are verified unavailable on the live domain.

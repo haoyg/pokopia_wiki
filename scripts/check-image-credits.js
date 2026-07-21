@@ -26,6 +26,7 @@ const allowedRightsStatuses = new Set([
   'open-license',
   'public-domain',
   'rights-review-required',
+  'retired-no-publication',
 ])
 const clearedRightsStatuses = new Set(['owned-original', 'licensed', 'open-license', 'public-domain'])
 
@@ -35,6 +36,21 @@ for (const file of files) {
   const data = JSON.parse(fs.readFileSync(path.join(process.cwd(), file), 'utf8'))
 
   for (const item of data) {
+    if (item.image_rights_status === 'retired-no-publication') {
+      if (item.image_url) {
+        issues.push(`${file}: ${item.id || item.slug || item.title || 'unknown'} retains image_url after media retirement`)
+      }
+      if (!item.image_retired_path || path.isAbsolute(item.image_retired_path)) {
+        issues.push(`${file}: ${item.id || item.slug || item.title || 'unknown'} needs a repository-relative image_retired_path`)
+      } else if (!fs.existsSync(path.join(process.cwd(), item.image_retired_path))) {
+        issues.push(`${file}: ${item.id || item.slug || item.title || 'unknown'} references missing quarantined media ${item.image_retired_path}`)
+      }
+      if (!/retired from the public site/i.test(item.image_usage_basis || '')) {
+        issues.push(`${file}: ${item.id || item.slug || item.title || 'unknown'} needs a media-retirement usage note`)
+      }
+      continue
+    }
+
     if (!item.image_url) continue
 
     if (!/^https:\/\//i.test(item.image_url) && !item.image_url.startsWith('/')) {

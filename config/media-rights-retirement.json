@@ -1,0 +1,10 @@
+{
+  "retired_records": 149,
+  "unique_public_paths": 27,
+  "retired_public_files": 81,
+  "local_status": "retired-from-public-tree",
+  "live_removal_verified": false,
+  "live_removal_verified_at": null,
+  "last_reviewed_at": "2026-07-21",
+  "review_note": "The unverified Nintendo media set is outside the deployable public tree. ADS-PUB-02 remains Unknown until a deployment removes the old public URLs and all 27 original paths are verified unavailable on pokopia.cloud."
+}

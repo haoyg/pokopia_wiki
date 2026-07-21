@@ -17,14 +17,14 @@ Official basis refreshed on 2026-07-21:
 
 **Not ready**
 
-The deployed site passes the repository, content, navigation, crawler, privacy-disclosure, prohibited-content, and restricted-inventory checks. It must not serve ads yet because AdSense still reports the site as `Getting ready`. Copyright evidence, owner traffic confirmations, audience classification, and pre-ad consent management also remain unresolved. AdSense approval cannot be guaranteed by this audit.
+The deployed site passes the repository, content, navigation, crawler, privacy-disclosure, prohibited-content, and restricted-inventory checks. It must not serve ads yet because AdSense still reports the site as `Getting ready`. Media retirement still needs deployment verification; owner traffic confirmations, audience classification, and pre-ad consent management also remain unresolved. AdSense approval cannot be guaranteed by this audit.
 
 ## Blockers
 
 - `ADS-SITE-01` is `Fail`: the owner reported the AdSense site status as `Getting ready`, not `Ready`. Keep advertising disabled and change the recorded status only after Google marks the site Ready.
-- `ADS-ELIG-03` is `Unknown`: the full policy-compliance conclusion cannot pass while invalid-traffic conduct and media-rights evidence remain unresolved.
+- `ADS-ELIG-03` is `Unknown`: the full policy-compliance conclusion cannot pass while invalid-traffic conduct and live media-removal evidence remain unresolved.
 - `ADS-PROG-01` is `Unknown`: repository code cannot prove that the owner and all collaborators will avoid own-ad clicks, repeated impressions, bots, or automated traffic. Record the required owner confirmations.
-- `ADS-PUB-02` is `Unknown`: `149` records reference `27` unique media paths whose usage rights are not verified. They are absent from exported HTML, but they must remain suppressed unless licence, permission, or other usage-basis evidence is recorded.
+- `ADS-PUB-02` is `Unknown`: `149` records and `27` unique paths are retired from the local public tree, but deployment and live URL removal have not yet been verified. Deploy the retirement, confirm all original URLs are unavailable, and keep the files quarantined unless rights evidence is recorded.
 
 ## High Risks
 
@@ -42,7 +42,7 @@ No unresolved Medium-severity checklist item was found. Trust pages, navigation,
 | --- | --- | --- | --- |
 | ADS-ELIG-01 | Pass | Owner confirmed that the account holder meets the age requirement. | Keep private age evidence with the account owner. |
 | ADS-ELIG-02 | Pass | Owner confirmed an existing AdSense account is used instead of creating a duplicate. | Continue using the existing account. |
-| ADS-ELIG-03 | Unknown | Content and code checks pass, but invalid-traffic conduct and media-rights evidence remain unresolved. | Close ADS-PROG-01, ADS-PROG-04, and ADS-PUB-02. |
+| ADS-ELIG-03 | Unknown | Content and code checks pass, but invalid-traffic conduct and live media-removal evidence remain unresolved. | Close ADS-PROG-01, ADS-PROG-04, and ADS-PUB-02. |
 | ADS-ELIG-04 | N/A | This is an independent Cloudflare-hosted website, not Blogger, YouTube, or another hosted partner. | None. |
 | ADS-OWN-01 | Pass | Repository access includes the global Next.js head and deployment output. | Keep the verification path under version control. |
 | ADS-OWN-02 | Pass | Owner confirmed control of pokopia.cloud and its Cloudflare configuration. | Retain private domain-control evidence. |
@@ -52,7 +52,7 @@ No unresolved Medium-severity checklist item was found. Trust pages, navigation,
 | ADS-TXT-01 | Pass | Live ads.txt authorizes pub-3274781156049995 as DIRECT. | Keep the publisher ID synchronized with the account. |
 | ADS-TXT-02 | Pass | ads.txt is published at the domain root with HTTP 200 and text/plain content. | Monitor it after deployments. |
 | ADS-CONTENT-01 | Pass | The indexed surface contains original source-aware guides, databases, editorial pages, and tools; unverified entries are quarantined. | Keep unverified entries outside searchable and monetizable surfaces. |
-| ADS-CONTENT-02 | Pass | Source-backed pages add commentary, limits, structured data, and tools; unresolved media is not rendered. | Preserve source and rights checks. |
+| ADS-CONTENT-02 | Pass | Source-backed pages add commentary, limits, structured data, and tools; unverified media is retired from the deployable public tree. | Preserve source and rights checks. |
 | ADS-CONTENT-03 | Pass | All 65 sitemap pages meet rendered depth, headings, review signals, and internal-link thresholds. | Keep the content-quality gate enabled. |
 | ADS-CONTENT-04 | Pass | The live homepage and representative sections are complete and reachable; no coming-soon or ad-only surface was found. | Remove unfinished routes from public indexes. |
 | ADS-CONTENT-05 | N/A | Advertising, affiliate blocks, sponsored listings, and paid promotion are disabled. | Re-audit content-to-ad ratio before enabling ads. |
@@ -80,7 +80,7 @@ No unresolved Medium-severity checklist item was found. Trust pages, navigation,
 | ADS-PROG-06 | N/A | No ad placement exists in software, email, private screens, popups, frames, or non-content pages. | Limit any future placement to reviewed content pages. |
 | ADS-PROG-07 | N/A | The audited target is a normal website, not an app WebView. | Run a WebView-specific audit if embedded in an app. |
 | ADS-PUB-01 | Pass | No illegal content, illegal-activity promotion, commerce, or published unresolved-rights media was found. | Keep prohibited-content and media gates enabled. |
-| ADS-PUB-02 | Unknown | 27 unique quarantined media paths lack verified rights evidence although they are absent from exported HTML. | Keep them suppressed or record licence, permission, or usage-basis evidence. |
+| ADS-PUB-02 | Unknown | 149 records and 27 paths are locally retired, but live removal is not yet deployment-verified. | Deploy, verify every old URL is unavailable, and keep files quarantined without rights evidence. |
 | ADS-PUB-03 | Pass | No hate, harassment, threat, self-harm, terrorism, cartel, or extortion content signal was found. | Re-run policy review for new topic areas or UGC. |
 | ADS-PUB-04 | Pass | No animal-cruelty promotion or endangered-species commerce was found. | Re-audit if commerce or UGC is introduced. |
 | ADS-PUB-05 | Pass | Sitewide publisher identity, unofficial status, non-affiliation, source labels, and purpose disclosures are live. | Preserve visible disclosures. |

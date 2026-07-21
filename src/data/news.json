@@ -13,7 +13,7 @@
     "source_type": "Official",
     "verified_status": "Official update page",
     "published_at": 1783555200,
-    "image_url": "/media/nintendo/pokopia-01.jpg",
+    "image_url": "",
     "image_alt": "Official Pokémon Pokopia gameplay screenshot used for Pokopia Dive Update: How to Unlock Dive and Explore Underwater",
     "image_source": "Nintendo UK official Pokémon Pokopia game page",
     "image_source_url": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-2-games/Pokemon-Pokopia-2915161.html",
@@ -50,9 +50,10 @@
     ],
     "data_status_note": "This is a reviewed official-source update. Confirmed facts are limited to the linked Pokémon page; route advice and future underwater details remain outside its scope.",
     "updated_at": "2026-07-16",
-    "image_rights_status": "rights-review-required",
-    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
-    "image_rights_reviewed_at": "2026-07-21"
+    "image_rights_status": "retired-no-publication",
+    "image_usage_basis": "Retired from the public site on 2026-07-21 because commercial ad-supported reuse rights were not verified.",
+    "image_rights_reviewed_at": "2026-07-21",
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-01.jpg"
   },
   {
     "id": "news015",
@@ -68,7 +69,7 @@
     "source_type": "Official",
     "verified_status": "Official DLC page",
     "published_at": 1783555200,
-    "image_url": "/media/nintendo/pokopia-25.jpg",
+    "image_url": "",
     "image_alt": "Official Pokémon Pokopia gameplay screenshot used for Pokopia Expansion Pass Bubbly Basin: Release Window, Bonuses, and Requirements",
     "image_source": "Nintendo UK official Pokémon Pokopia game page",
     "image_source_url": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-2-games/Pokemon-Pokopia-2915161.html",
@@ -106,9 +107,10 @@
     ],
     "data_status_note": "This is a reviewed official-source DLC summary. Dates, purchase bonuses, claim steps, and regional availability must be rechecked against Nintendo before purchase.",
     "updated_at": "2026-07-16",
-    "image_rights_status": "rights-review-required",
-    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
-    "image_rights_reviewed_at": "2026-07-21"
+    "image_rights_status": "retired-no-publication",
+    "image_usage_basis": "Retired from the public site on 2026-07-21 because commercial ad-supported reuse rights were not verified.",
+    "image_rights_reviewed_at": "2026-07-21",
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-25.jpg"
   },
   {
     "id": "news013",
@@ -124,7 +126,7 @@
     "source_type": "Official",
     "verified_status": "Archived official event announcement",
     "published_at": 1782259200,
-    "image_url": "/media/nintendo/pokopia-jirachi-event.jpg",
+    "image_url": "",
     "image_alt": "Jirachi and star-themed rewards featured in the Pokémon Pokopia Wish Upon a Jirachi event",
     "image_source": "Nintendo Australia official event announcement",
     "image_source_url": "https://www.nintendo.com/au/news-and-articles/the-wish-upon-a-jirachi-event-is-underway-in-pokemon-pokopia/",
@@ -161,9 +163,10 @@
     ],
     "data_status_note": "Archived after the official July 8, 2026 end time. The article preserves source-backed historical details and does not claim that the event is currently available.",
     "updated_at": "2026-07-16",
-    "image_rights_status": "rights-review-required",
-    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
-    "image_rights_reviewed_at": "2026-07-21"
+    "image_rights_status": "retired-no-publication",
+    "image_usage_basis": "Retired from the public site on 2026-07-21 because commercial ad-supported reuse rights were not verified.",
+    "image_rights_reviewed_at": "2026-07-21",
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-jirachi-event.jpg"
   },
   {
     "id": "news014",
@@ -179,7 +182,7 @@
     "source_type": "Official",
     "verified_status": "Official regional announcement",
     "published_at": 1782259200,
-    "image_url": "/media/nintendo/pokopia-switch2-banner.png",
+    "image_url": "",
     "image_alt": "Nintendo Switch 2 and Pokémon Pokopia bundle announced for Singapore",
     "image_source": "Nintendo Singapore official bundle announcement",
     "image_source_url": "https://www.nintendo.com/sg/news/article/3iAHngoHzJp38IB6ifisrD",
@@ -216,9 +219,10 @@
     ],
     "data_status_note": "This is a reviewed regional product announcement. It is not a global availability page and must not be used to infer another territory’s bundle, price, or stock.",
     "updated_at": "2026-07-16",
-    "image_rights_status": "rights-review-required",
-    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
-    "image_rights_reviewed_at": "2026-07-21"
+    "image_rights_status": "retired-no-publication",
+    "image_usage_basis": "Retired from the public site on 2026-07-21 because commercial ad-supported reuse rights were not verified.",
+    "image_rights_reviewed_at": "2026-07-21",
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-switch2-banner.png"
   },
   {
     "id": "news001",
@@ -232,7 +236,7 @@
     "source_type": "Official",
     "verified_status": "Official source roundup",
     "published_at": 1779494400,
-    "image_url": "/media/nintendo/pokopia-15.jpg",
+    "image_url": "",
     "image_alt": "Official Pokémon Pokopia gameplay screenshot used for Pokémon Pokopia Release Date and Platform Confirmed by Nintendo",
     "image_source": "Nintendo UK official Pokémon Pokopia game page",
     "image_source_url": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-2-games/Pokemon-Pokopia-2915161.html",
@@ -256,9 +260,10 @@
       "A newer official article, trailer, support page, store page, or event notice replaces this information.",
       "A guide or tool cites this article for a more specific claim than the source currently supports."
     ],
-    "image_rights_status": "rights-review-required",
-    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
-    "image_rights_reviewed_at": "2026-07-21"
+    "image_rights_status": "retired-no-publication",
+    "image_usage_basis": "Retired from the public site on 2026-07-21 because commercial ad-supported reuse rights were not verified.",
+    "image_rights_reviewed_at": "2026-07-21",
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-15.jpg"
   },
   {
     "id": "news002",
@@ -272,7 +277,7 @@
     "source_type": "Official",
     "verified_status": "Official source roundup",
     "published_at": 1779408000,
-    "image_url": "/media/nintendo/pokopia-16.jpg",
+    "image_url": "",
     "image_alt": "Official Pokémon Pokopia gameplay screenshot used for Pokémon Pokopia Gameplay Overview: Confirmed Building and Life Sim Features",
     "image_source": "Nintendo UK official Pokémon Pokopia game page",
     "image_source_url": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-2-games/Pokemon-Pokopia-2915161.html",
@@ -296,9 +301,10 @@
       "A newer official article, trailer, support page, store page, or event notice replaces this information.",
       "A guide or tool cites this article for a more specific claim than the source currently supports."
     ],
-    "image_rights_status": "rights-review-required",
-    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
-    "image_rights_reviewed_at": "2026-07-21"
+    "image_rights_status": "retired-no-publication",
+    "image_usage_basis": "Retired from the public site on 2026-07-21 because commercial ad-supported reuse rights were not verified.",
+    "image_rights_reviewed_at": "2026-07-21",
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-16.jpg"
   },
   {
     "id": "news003",
@@ -312,7 +318,7 @@
     "source_type": "Official",
     "verified_status": "Official source roundup",
     "published_at": 1779321600,
-    "image_url": "/media/nintendo/pokopia-17.jpg",
+    "image_url": "",
     "image_alt": "Official Pokémon Pokopia gameplay screenshot used for Pokémon Pokopia Multiplayer and GameShare Details Explained",
     "image_source": "Nintendo UK official Pokémon Pokopia game page",
     "image_source_url": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-2-games/Pokemon-Pokopia-2915161.html",
@@ -336,9 +342,10 @@
       "A newer official article, trailer, support page, store page, or event notice replaces this information.",
       "A guide or tool cites this article for a more specific claim than the source currently supports."
     ],
-    "image_rights_status": "rights-review-required",
-    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
-    "image_rights_reviewed_at": "2026-07-21"
+    "image_rights_status": "retired-no-publication",
+    "image_usage_basis": "Retired from the public site on 2026-07-21 because commercial ad-supported reuse rights were not verified.",
+    "image_rights_reviewed_at": "2026-07-21",
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-17.jpg"
   },
   {
     "id": "news004",
@@ -352,7 +359,7 @@
     "source_type": "Official",
     "verified_status": "Official source roundup",
     "published_at": 1779235200,
-    "image_url": "/media/nintendo/pokopia-18.jpg",
+    "image_url": "",
     "image_alt": "Official Pokémon Pokopia gameplay screenshot used for Pokémon Pokopia Beginner Tips from Nintendo’s Official Guide",
     "image_source": "Nintendo UK official Pokémon Pokopia game page",
     "image_source_url": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-2-games/Pokemon-Pokopia-2915161.html",
@@ -376,9 +383,10 @@
       "A newer official article, trailer, support page, store page, or event notice replaces this information.",
       "A guide or tool cites this article for a more specific claim than the source currently supports."
     ],
-    "image_rights_status": "rights-review-required",
-    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
-    "image_rights_reviewed_at": "2026-07-21"
+    "image_rights_status": "retired-no-publication",
+    "image_usage_basis": "Retired from the public site on 2026-07-21 because commercial ad-supported reuse rights were not verified.",
+    "image_rights_reviewed_at": "2026-07-21",
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-18.jpg"
   },
   {
     "id": "news005",
@@ -392,7 +400,7 @@
     "source_type": "Official",
     "verified_status": "Official source roundup",
     "published_at": 1779148800,
-    "image_url": "/media/nintendo/pokopia-19.jpg",
+    "image_url": "",
     "image_alt": "Official Pokémon Pokopia gameplay screenshot used for Pokémon Pokopia Official Screenshots and Trailer Source Roundup",
     "image_source": "Nintendo UK official Pokémon Pokopia game page",
     "image_source_url": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-2-games/Pokemon-Pokopia-2915161.html",
@@ -416,9 +424,10 @@
       "A newer official article, trailer, support page, store page, or event notice replaces this information.",
       "A guide or tool cites this article for a more specific claim than the source currently supports."
     ],
-    "image_rights_status": "rights-review-required",
-    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
-    "image_rights_reviewed_at": "2026-07-21"
+    "image_rights_status": "retired-no-publication",
+    "image_usage_basis": "Retired from the public site on 2026-07-21 because commercial ad-supported reuse rights were not verified.",
+    "image_rights_reviewed_at": "2026-07-21",
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-19.jpg"
   },
   {
     "id": "news006",
@@ -432,7 +441,7 @@
     "source_type": "Official",
     "verified_status": "Official source roundup",
     "published_at": 1779062400,
-    "image_url": "/media/nintendo/pokopia-20.jpg",
+    "image_url": "",
     "image_alt": "Official Pokémon Pokopia gameplay screenshot used for What Is Pokémon Pokopia? Official Premise and Gameplay Summary",
     "image_source": "Nintendo UK official Pokémon Pokopia game page",
     "image_source_url": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-2-games/Pokemon-Pokopia-2915161.html",
@@ -456,9 +465,10 @@
       "A newer official article, trailer, support page, store page, or event notice replaces this information.",
       "A guide or tool cites this article for a more specific claim than the source currently supports."
     ],
-    "image_rights_status": "rights-review-required",
-    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
-    "image_rights_reviewed_at": "2026-07-21"
+    "image_rights_status": "retired-no-publication",
+    "image_usage_basis": "Retired from the public site on 2026-07-21 because commercial ad-supported reuse rights were not verified.",
+    "image_rights_reviewed_at": "2026-07-21",
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-20.jpg"
   },
   {
     "id": "news007",
@@ -472,7 +482,7 @@
     "source_type": "Official",
     "verified_status": "Official source roundup",
     "published_at": 1778976000,
-    "image_url": "/media/nintendo/pokopia-21.jpg",
+    "image_url": "",
     "image_alt": "Official Pokémon Pokopia gameplay screenshot used for Pokémon Pokopia Switch 2 Features: Online, Local Wireless, and GameShare",
     "image_source": "Nintendo UK official Pokémon Pokopia game page",
     "image_source_url": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-2-games/Pokemon-Pokopia-2915161.html",
@@ -496,9 +506,10 @@
       "A newer official article, trailer, support page, store page, or event notice replaces this information.",
       "A guide or tool cites this article for a more specific claim than the source currently supports."
     ],
-    "image_rights_status": "rights-review-required",
-    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
-    "image_rights_reviewed_at": "2026-07-21"
+    "image_rights_status": "retired-no-publication",
+    "image_usage_basis": "Retired from the public site on 2026-07-21 because commercial ad-supported reuse rights were not verified.",
+    "image_rights_reviewed_at": "2026-07-21",
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-21.jpg"
   },
   {
     "id": "news008",
@@ -512,7 +523,7 @@
     "source_type": "Official",
     "verified_status": "Official source roundup",
     "published_at": 1778889600,
-    "image_url": "/media/nintendo/pokopia-22.jpg",
+    "image_url": "",
     "image_alt": "Official Pokémon Pokopia gameplay screenshot used for Pokémon Pokopia Early Purchase Bonus: Ditto Rug Details",
     "image_source": "Nintendo UK official Pokémon Pokopia game page",
     "image_source_url": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-2-games/Pokemon-Pokopia-2915161.html",
@@ -536,9 +547,10 @@
       "A newer official article, trailer, support page, store page, or event notice replaces this information.",
       "A guide or tool cites this article for a more specific claim than the source currently supports."
     ],
-    "image_rights_status": "rights-review-required",
-    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
-    "image_rights_reviewed_at": "2026-07-21"
+    "image_rights_status": "retired-no-publication",
+    "image_usage_basis": "Retired from the public site on 2026-07-21 because commercial ad-supported reuse rights were not verified.",
+    "image_rights_reviewed_at": "2026-07-21",
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-22.jpg"
   },
   {
     "id": "news009",
@@ -552,7 +564,7 @@
     "source_type": "Official",
     "verified_status": "Official source roundup",
     "published_at": 1778803200,
-    "image_url": "/media/nintendo/pokopia-23.jpg",
+    "image_url": "",
     "image_alt": "Official Pokémon Pokopia gameplay screenshot used for Pokémon Pokopia Confirmed Moves: Leafage, Surf, and Glide",
     "image_source": "Nintendo UK official Pokémon Pokopia game page",
     "image_source_url": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-2-games/Pokemon-Pokopia-2915161.html",
@@ -588,9 +600,10 @@
     ],
     "data_status_note": "This is a reviewed official-source system summary. It intentionally stays narrow: confirmed move examples are separated from unverified move lists, balance claims, and route advice.",
     "updated_at": "2026-07-16",
-    "image_rights_status": "rights-review-required",
-    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
-    "image_rights_reviewed_at": "2026-07-21"
+    "image_rights_status": "retired-no-publication",
+    "image_usage_basis": "Retired from the public site on 2026-07-21 because commercial ad-supported reuse rights were not verified.",
+    "image_rights_reviewed_at": "2026-07-21",
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-23.jpg"
   },
   {
     "id": "news010",
@@ -604,7 +617,7 @@
     "source_type": "Official",
     "verified_status": "Official source roundup",
     "published_at": 1778716800,
-    "image_url": "/media/nintendo/pokopia-20.jpg",
+    "image_url": "",
     "image_alt": "Official Pokémon Pokopia gameplay screenshot used for Pokémon Pokopia PC, Requests, and Daily Challenges Explained",
     "image_source": "Nintendo UK official Pokémon Pokopia game page",
     "image_source_url": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-2-games/Pokemon-Pokopia-2915161.html",
@@ -641,9 +654,10 @@
     ],
     "data_status_note": "This is a reviewed official-source tips summary. It distinguishes Nintendo’s stated systems from player-specific route and resource recommendations.",
     "updated_at": "2026-07-16",
-    "image_rights_status": "rights-review-required",
-    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
-    "image_rights_reviewed_at": "2026-07-21"
+    "image_rights_status": "retired-no-publication",
+    "image_usage_basis": "Retired from the public site on 2026-07-21 because commercial ad-supported reuse rights were not verified.",
+    "image_rights_reviewed_at": "2026-07-21",
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-20.jpg"
   },
   {
     "id": "news011",
@@ -657,7 +671,7 @@
     "source_type": "Official",
     "verified_status": "Official source roundup",
     "published_at": 1778630400,
-    "image_url": "/media/nintendo/pokopia-21.jpg",
+    "image_url": "",
     "image_alt": "Official Pokémon Pokopia gameplay screenshot used for Pokémon Pokopia Cloud Island and Palette Town Explained",
     "image_source": "Nintendo UK official Pokémon Pokopia game page",
     "image_source_url": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-2-games/Pokemon-Pokopia-2915161.html",
@@ -681,9 +695,10 @@
       "A newer official article, trailer, support page, store page, or event notice replaces this information.",
       "A guide or tool cites this article for a more specific claim than the source currently supports."
     ],
-    "image_rights_status": "rights-review-required",
-    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
-    "image_rights_reviewed_at": "2026-07-21"
+    "image_rights_status": "retired-no-publication",
+    "image_usage_basis": "Retired from the public site on 2026-07-21 because commercial ad-supported reuse rights were not verified.",
+    "image_rights_reviewed_at": "2026-07-21",
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-21.jpg"
   },
   {
     "id": "news012",
@@ -697,7 +712,7 @@
     "source_type": "Site Update",
     "verified_status": "Site transparency update",
     "published_at": 1778544000,
-    "image_url": "/media/nintendo/pokopia-22.jpg",
+    "image_url": "",
     "image_alt": "Official Pokémon Pokopia gameplay screenshot used for Pokopia Portal Site Update: How We Label Official and Editorial Content",
     "image_source": "Nintendo UK official Pokémon Pokopia game page",
     "image_source_url": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-2-games/Pokemon-Pokopia-2915161.html",
@@ -721,9 +736,10 @@
       "The build checks add or remove major content quality requirements.",
       "A site page cites this article to justify a labeling or indexing decision."
     ],
-    "image_rights_status": "rights-review-required",
-    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
-    "image_rights_reviewed_at": "2026-07-21"
+    "image_rights_status": "retired-no-publication",
+    "image_usage_basis": "Retired from the public site on 2026-07-21 because commercial ad-supported reuse rights were not verified.",
+    "image_rights_reviewed_at": "2026-07-21",
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-22.jpg"
   },
   {
     "id": "news014",
