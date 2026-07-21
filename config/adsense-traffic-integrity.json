@@ -1,0 +1,13 @@
+{
+  "ad_code_enabled": false,
+  "owner_will_not_click_own_ads": null,
+  "owner_will_not_request_ad_clicks": null,
+  "artificial_traffic_prohibited": null,
+  "paid_to_click_or_traffic_exchange_prohibited": null,
+  "spam_promotion_prohibited": null,
+  "traffic_partners_reviewed": null,
+  "adsense_code_modified": false,
+  "placement_scope": "none",
+  "last_owner_confirmation_at": null,
+  "review_note": "Repository evidence shows no active ad code or prohibited placement. Owner confirmation is still required for off-site traffic acquisition and invalid-click behavior."
+}
