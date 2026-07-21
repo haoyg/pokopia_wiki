@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 import recipesData from '@/data/recipes.json'
 import { canonicalUrl } from '@/lib/site'
+import { noIndexMetadata } from '@/lib/indexing'
 import { CreditedImage } from '@/components/media/CreditedImage'
 import { BreadcrumbJsonLd, ItemListJsonLd } from '@/components/seo/JsonLd'
 
@@ -61,6 +62,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: canonicalUrl('/wiki/recipe'),
   },
+  robots: noIndexMetadata,
 }
 
 export default function RecipePage() {

@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import pokemonData from '@/data/pokemon.json'
 import { canonicalUrl } from '@/lib/site'
+import { noIndexMetadata } from '@/lib/indexing'
 import { DataStatus } from '@/components/content/DataStatus'
 import { OfficialContext } from '@/components/content/OfficialContext'
 import { BreadcrumbJsonLd, ItemListJsonLd } from '@/components/seo/JsonLd'
@@ -130,6 +131,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: canonicalUrl('/tier-list'),
   },
+  robots: noIndexMetadata,
 }
 
 export default function TierListPage() {

@@ -59,7 +59,7 @@
     "data_status_note": "This recipe page is maintained as an editorial reference. Ingredient routes, buff timing, and recommendations may need review after balance changes.",
     "image_license_note": "Image is hosted by Nintendo and used for editorial identification with source attribution.",
     "image_original_media": "Nintendo official Pokémon Pokopia screenshot",
-    "index_status": "indexable"
+    "index_status": "review"
   },
   {
     "id": "rec002",
@@ -121,7 +121,7 @@
     "data_status_note": "This recipe page is maintained as an editorial reference. Ingredient routes, buff timing, and recommendations may need review after balance changes.",
     "image_license_note": "Image is hosted by Nintendo and used for editorial identification with source attribution.",
     "image_original_media": "Nintendo official Pokémon Pokopia screenshot",
-    "index_status": "indexable"
+    "index_status": "review"
   },
   {
     "id": "rec003",
@@ -183,7 +183,7 @@
     "data_status_note": "This recipe page is maintained as an editorial reference. Ingredient routes, buff timing, and recommendations may need review after balance changes.",
     "image_license_note": "Image is hosted by Nintendo and used for editorial identification with source attribution.",
     "image_original_media": "Nintendo official Pokémon Pokopia screenshot",
-    "index_status": "indexable"
+    "index_status": "review"
   },
   {
     "id": "rec004",
@@ -245,7 +245,7 @@
     "data_status_note": "This recipe page is maintained as an editorial reference. Ingredient routes, buff timing, and recommendations may need review after balance changes.",
     "image_license_note": "Image is hosted by Nintendo and used for editorial identification with source attribution.",
     "image_original_media": "Nintendo official Pokémon Pokopia screenshot",
-    "index_status": "indexable"
+    "index_status": "review"
   },
   {
     "id": "rec005",
@@ -307,7 +307,7 @@
     "data_status_note": "This recipe page is maintained as an editorial reference. Ingredient routes, buff timing, and recommendations may need review after balance changes.",
     "image_license_note": "Image is hosted by Nintendo and used for editorial identification with source attribution.",
     "image_original_media": "Nintendo official Pokémon Pokopia screenshot",
-    "index_status": "indexable"
+    "index_status": "review"
   },
   {
     "id": "rec006",
@@ -369,7 +369,7 @@
     "data_status_note": "This recipe page is maintained as an editorial reference. Ingredient routes, buff timing, and recommendations may need review after balance changes.",
     "image_license_note": "Image is hosted by Nintendo and used for editorial identification with source attribution.",
     "image_original_media": "Nintendo official Pokémon Pokopia screenshot",
-    "index_status": "indexable"
+    "index_status": "review"
   },
   {
     "id": "rec007",
@@ -431,7 +431,7 @@
     "data_status_note": "This recipe page is maintained as an editorial reference. Ingredient routes, buff timing, and recommendations may need review after balance changes.",
     "image_license_note": "Image is hosted by Nintendo and used for editorial identification with source attribution.",
     "image_original_media": "Nintendo official Pokémon Pokopia screenshot",
-    "index_status": "indexable"
+    "index_status": "review"
   },
   {
     "id": "rec008",
@@ -493,7 +493,7 @@
     "data_status_note": "This recipe page is maintained as an editorial reference. Ingredient routes, buff timing, and recommendations may need review after balance changes.",
     "image_license_note": "Image is hosted by Nintendo and used for editorial identification with source attribution.",
     "image_original_media": "Nintendo official Pokémon Pokopia screenshot",
-    "index_status": "indexable"
+    "index_status": "review"
   },
   {
     "id": "rec009",
@@ -555,7 +555,7 @@
     "data_status_note": "This recipe page is maintained as an editorial reference. Ingredient routes, buff timing, and recommendations may need review after balance changes.",
     "image_license_note": "Image is hosted by Nintendo and used for editorial identification with source attribution.",
     "image_original_media": "Nintendo official Pokémon Pokopia screenshot",
-    "index_status": "indexable"
+    "index_status": "review"
   },
   {
     "id": "rec010",
@@ -617,7 +617,7 @@
     "data_status_note": "This recipe page is maintained as an editorial reference. Ingredient routes, buff timing, and recommendations may need review after balance changes.",
     "image_license_note": "Image is hosted by Nintendo and used for editorial identification with source attribution.",
     "image_original_media": "Nintendo official Pokémon Pokopia screenshot",
-    "index_status": "indexable"
+    "index_status": "review"
   },
   {
     "id": "rec011",
@@ -679,7 +679,7 @@
     "data_status_note": "This recipe page is maintained as an editorial reference. Ingredient routes, buff timing, and recommendations may need review after balance changes.",
     "image_license_note": "Image is hosted by Nintendo and used for editorial identification with source attribution.",
     "image_original_media": "Nintendo official Pokémon Pokopia screenshot",
-    "index_status": "indexable"
+    "index_status": "review"
   },
   {
     "id": "rec012",
@@ -741,7 +741,7 @@
     "data_status_note": "This recipe page is maintained as an editorial reference. Ingredient routes, buff timing, and recommendations may need review after balance changes.",
     "image_license_note": "Image is hosted by Nintendo and used for editorial identification with source attribution.",
     "image_original_media": "Nintendo official Pokémon Pokopia screenshot",
-    "index_status": "indexable"
+    "index_status": "review"
   },
   {
     "id": "rec013",
@@ -803,7 +803,7 @@
     "data_status_note": "This recipe page is maintained as an editorial reference. Ingredient routes, buff timing, and recommendations may need review after balance changes.",
     "image_license_note": "Image is hosted by Nintendo and used for editorial identification with source attribution.",
     "image_original_media": "Nintendo official Pokémon Pokopia screenshot",
-    "index_status": "indexable"
+    "index_status": "review"
   },
   {
     "id": "rec014",
@@ -865,7 +865,7 @@
     "data_status_note": "This recipe page is maintained as an editorial reference. Ingredient routes, buff timing, and recommendations may need review after balance changes.",
     "image_license_note": "Image is hosted by Nintendo and used for editorial identification with source attribution.",
     "image_original_media": "Nintendo official Pokémon Pokopia screenshot",
-    "index_status": "indexable"
+    "index_status": "review"
   },
   {
     "id": "rec015",
@@ -927,6 +927,6 @@
     "data_status_note": "This recipe page is maintained as an editorial reference. Ingredient routes, buff timing, and recommendations may need review after balance changes.",
     "image_license_note": "Image is hosted by Nintendo and used for editorial identification with source attribution.",
     "image_original_media": "Nintendo official Pokémon Pokopia screenshot",
-    "index_status": "indexable"
+    "index_status": "review"
   }
 ]

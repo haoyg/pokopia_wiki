@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 import habitatsData from '@/data/habitats.json'
 import { canonicalUrl } from '@/lib/site'
+import { noIndexMetadata } from '@/lib/indexing'
 import { CreditedImage } from '@/components/media/CreditedImage'
 import { BreadcrumbJsonLd, ItemListJsonLd } from '@/components/seo/JsonLd'
 
@@ -53,6 +54,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: canonicalUrl('/wiki/habitat'),
   },
+  robots: noIndexMetadata,
 }
 
 export default function HabitatPage() {

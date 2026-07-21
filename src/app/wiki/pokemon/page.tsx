@@ -2,6 +2,7 @@ import { Metadata } from 'next'
 import pokemonData from '@/data/pokemon.json'
 import habitatsData from '@/data/habitats.json'
 import { canonicalUrl } from '@/lib/site'
+import { noIndexMetadata } from '@/lib/indexing'
 import { CreditedImage } from '@/components/media/CreditedImage'
 import { BreadcrumbJsonLd, ItemListJsonLd } from '@/components/seo/JsonLd'
 
@@ -56,6 +57,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: canonicalUrl('/wiki/pokemon'),
   },
+  robots: noIndexMetadata,
 }
 
 export default function PokemonPage() {

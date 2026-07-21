@@ -69,8 +69,8 @@ const exploreClusters = [
     label: 'Source-Backed Guides',
     summary: 'Route pages that have cleared the current source-backed content filter.',
     links: [
-      { href: '/guides/thunder-arena-guide', label: 'Thunder Arena' },
-      { href: '/guides/frost-peak-guide', label: 'Frost Peak' },
+      { href: '/guides/how-to-build-first-house', label: 'First House' },
+      { href: '/guides/food-powered-moves-guide', label: 'Food-Powered Moves' },
     ],
   },
   {
