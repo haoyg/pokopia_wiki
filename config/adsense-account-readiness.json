@@ -1,0 +1,15 @@
+{
+  "domain": "pokopia.cloud",
+  "publisher_id": "pub-3274781156049995",
+  "ads_txt_relationship": "DIRECT",
+  "ads_txt_certification_authority_id": "f08c47fec0942fa0",
+  "ads_txt_live_status": "verified-200",
+  "ads_txt_live_verified_at": "2026-07-21",
+  "applicant_age_eligible": true,
+  "duplicate_account_checked": true,
+  "publisher_id_ownership_confirmed": true,
+  "domain_control_confirmed_by_owner": true,
+  "adsense_site_status": "getting-ready",
+  "account_evidence_reviewed_at": "2026-07-21",
+  "review_note": "The owner confirmed age eligibility, an existing AdSense account, publisher ID ownership, and control of the domain and Cloudflare configuration. AdSense currently reports the site as Getting ready, so it must not be treated as Ready."
+}
