@@ -97,7 +97,7 @@ export default function BuildsPage() {
             <strong>Hard route build</strong>
             <p>Use this path when damage alone is not enough and the route needs survival, timing, and role coverage.</p>
             <div>
-              <a href="/guides/best-defense-team">Defense guide</a>
+              <a href="/guides/best-defense-team-pokopia">Defense guide</a>
               <a href="/wiki/habitat">Habitat index</a>
               <a href="/tier-list">Priority index</a>
             </div>
