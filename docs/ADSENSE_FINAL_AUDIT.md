@@ -17,17 +17,14 @@ Official basis refreshed on 2026-07-21:
 
 **Not ready**
 
-The deployed site passes the repository, content, navigation, crawler, privacy-disclosure, prohibited-content, and restricted-inventory checks. It must not serve ads yet because AdSense still reports the site as `Getting ready`. Owner traffic confirmations, audience classification, and pre-ad consent management remain unresolved. AdSense approval cannot be guaranteed by this audit.
+The deployed site passes the repository, content, navigation, crawler, privacy-disclosure, prohibited-content, restricted-inventory, and traffic-integrity checks. It must not serve ads yet because AdSense still reports the site as `Getting ready`. Audience classification and pre-ad consent management remain unresolved. AdSense approval cannot be guaranteed by this audit.
 
 ## Blockers
 
 - `ADS-SITE-01` is `Fail`: the owner reported the AdSense site status as `Getting ready`, not `Ready`. Keep advertising disabled and change the recorded status only after Google marks the site Ready.
-- `ADS-ELIG-03` is `Unknown`: the full policy-compliance conclusion cannot pass while invalid-traffic conduct remains unresolved.
-- `ADS-PROG-01` is `Unknown`: repository code cannot prove that the owner and all collaborators will avoid own-ad clicks, repeated impressions, bots, or automated traffic. Record the required owner confirmations.
 
 ## High Risks
 
-- `ADS-PROG-04` is `Unknown`: no owner evidence confirms that paid-to-click, traffic exchanges, spam promotion, software traffic, and unreviewed traffic partners are prohibited in actual acquisition activity. Record those confirmations and review every traffic partner.
 - `ADS-PRIV-04` is `Unknown`: no Google-certified CMP is configured. Ads are disabled, so there is no current consent violation; configure and test the CMP before enabling advertising for EEA, UK, or Swiss users.
 - `ADS-PRIV-06` is `Unknown`: the owner has not classified the site as general, teen, child-directed, or mixed audience. Complete the audience review before enabling ads or personalization.
 
@@ -41,7 +38,7 @@ No unresolved Medium-severity checklist item was found. Trust pages, navigation,
 | --- | --- | --- | --- |
 | ADS-ELIG-01 | Pass | Owner confirmed that the account holder meets the age requirement. | Keep private age evidence with the account owner. |
 | ADS-ELIG-02 | Pass | Owner confirmed an existing AdSense account is used instead of creating a duplicate. | Continue using the existing account. |
-| ADS-ELIG-03 | Unknown | Content, code, and media-rights checks pass, but invalid-traffic conduct remains unresolved. | Close ADS-PROG-01 and ADS-PROG-04. |
+| ADS-ELIG-03 | Pass | Content, code, media-rights, prohibited-content, restricted-inventory, and owner traffic-integrity checks pass. | Re-audit after enabling ads, UGC, commerce, or new topic areas. |
 | ADS-ELIG-04 | N/A | This is an independent Cloudflare-hosted website, not Blogger, YouTube, or another hosted partner. | None. |
 | ADS-OWN-01 | Pass | Repository access includes the global Next.js head and deployment output. | Keep the verification path under version control. |
 | ADS-OWN-02 | Pass | Owner confirmed control of pokopia.cloud and its Cloudflare configuration. | Retain private domain-control evidence. |
@@ -71,10 +68,10 @@ No unresolved Medium-severity checklist item was found. Trust pages, navigation,
 | ADS-CRAWL-05 | Pass | Canonical and sitemap URLs contain no session, user, email, token, query, or fragment state. | Keep URLs stable and canonical. |
 | ADS-CRAWL-06 | Pass | pokopia.cloud resolves with valid HTTPS and Cloudflare returns successful live responses. | Continue DNS, TLS, and uptime monitoring. |
 | ADS-CRAWL-07 | Pass | Live robots.txt advertises a sitemap containing 65 stable URLs with internal-link coverage. | Submit and monitor the canonical sitemap. |
-| ADS-PROG-01 | Unknown | Code contains no automation, but owner conduct and traffic-generation behavior cannot be proven from the repository. | Confirm no own-ad clicks, repeated impressions, bots, or artificial traffic. |
+| ADS-PROG-01 | Pass | Owner confirmed no own-ad clicks, click requests, repeated artificial impressions, bots, or automated traffic on 2026-07-21. | Enforce the policy for every collaborator and tester. |
 | ADS-PROG-02 | Pass | No copy encourages visitors to click, view, or refresh ads. | Keep click-encouragement checks enabled. |
 | ADS-PROG-03 | N/A | No ads or ad labels are rendered. | Use neutral labels and clear separation when ads are added. |
-| ADS-PROG-04 | Unknown | Paid, partner, spam, exchange, and software-driven traffic sources have not been owner-confirmed. | Record prohibited-source confirmations and review traffic partners. |
+| ADS-PROG-04 | Pass | Owner confirmed that paid-to-click, traffic exchanges, spam promotion, and software-driven traffic are prohibited and traffic partners are reviewed. | Review each future campaign and traffic partner before use. |
 | ADS-PROG-05 | N/A | No AdSense code is active or modified. | Re-audit exact account code before activation. |
 | ADS-PROG-06 | N/A | No ad placement exists in software, email, private screens, popups, frames, or non-content pages. | Limit any future placement to reviewed content pages. |
 | ADS-PROG-07 | N/A | The audited target is a normal website, not an app WebView. | Run a WebView-specific audit if embedded in an app. |

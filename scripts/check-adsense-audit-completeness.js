@@ -71,6 +71,7 @@ const prog04Confirmed = [
 ].every((field) => traffic[field] === true)
 expectStatus('ADS-PROG-01', prog01Confirmed ? 'Pass' : 'Unknown', 'owner invalid-traffic confirmations changed')
 expectStatus('ADS-PROG-04', prog04Confirmed ? 'Pass' : 'Unknown', 'owner traffic-source confirmations changed')
+expectStatus('ADS-ELIG-03', prog01Confirmed && prog04Confirmed ? 'Pass' : 'Unknown', 'program-policy evidence changed')
 expectStatus('ADS-PRIV-04', consent.status === 'configured' ? 'Pass' : 'Unknown', 'CMP configuration changed')
 expectStatus(
   'ADS-PRIV-06',

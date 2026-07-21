@@ -13,6 +13,8 @@ This policy applies before and after AdSense activation.
 
 The repository keeps advertising disabled until the AdSense site is Ready, consent management is configured, and all owner traffic confirmations are recorded.
 
+Owner confirmation recorded on 2026-07-21: all six invalid-click, click-encouragement, artificial-traffic, traffic-exchange, spam-promotion, and traffic-partner review controls were confirmed.
+
 Official references:
 
 - https://support.google.com/adsense/answer/48182?hl=zh-Hans
