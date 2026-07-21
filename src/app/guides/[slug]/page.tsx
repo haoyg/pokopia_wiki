@@ -9,7 +9,7 @@ import { cleanDescription, cleanTitle } from '@/lib/seoText'
 import { CreditedImage } from '@/components/media/CreditedImage'
 import { DataStatus } from '@/components/content/DataStatus'
 import { OfficialContext } from '@/components/content/OfficialContext'
-import { noIndexMetadata, shouldNoIndex } from '@/lib/indexing'
+import { isIndexableGuide, noIndexMetadata } from '@/lib/indexing'
 
 interface Props {
   params: Promise<{ slug: string }>
@@ -32,7 +32,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title,
     description,
-    robots: shouldNoIndex(guide.data_status, guide.index_status) ? noIndexMetadata : undefined,
+    robots: !isIndexableGuide(guide) ? noIndexMetadata : undefined,
     keywords: guide.seo_keyword ? [guide.seo_keyword] : undefined,
     openGraph: {
       title,

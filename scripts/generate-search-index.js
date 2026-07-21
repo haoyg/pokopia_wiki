@@ -1,5 +1,9 @@
 const fs = require('fs')
 const path = require('path')
+const {
+  isIndexableDatabaseEntry,
+  isIndexableGuide,
+} = require('./lib/indexing')
 
 const root = path.join(__dirname, '..')
 
@@ -38,30 +42,6 @@ function unixDate(value) {
   return date.toISOString().slice(0, 10)
 }
 
-const noIndexFlags = ['draft', 'placeholder', 'thin', 'unreviewed', 'ai draft', 'needs review', 'review', 'noindex']
-
-function shouldNoIndex(status, indexStatus) {
-  const indexValue = String(indexStatus || '').trim().toLowerCase()
-  if (indexValue === 'indexable' || indexValue === 'index') return false
-  if (indexValue) return noIndexFlags.some((flag) => indexValue.includes(flag))
-
-  const normalized = String(status || '').trim().toLowerCase()
-  return noIndexFlags.some((flag) => normalized.includes(flag))
-}
-
-function isIndexableDatabaseEntry(item) {
-  if (!item || shouldNoIndex(item.data_status, item.index_status)) return false
-  const indexValue = String(item.index_status || '').trim().toLowerCase()
-  if (indexValue === 'indexable' || indexValue === 'index') return true
-
-  const reviewedAt = item.updated_at ? new Date(item.updated_at) : null
-  return item.data_status === 'Source-backed database entry' &&
-    Boolean(reviewedAt && !Number.isNaN(reviewedAt.getTime())) &&
-    Array.isArray(item.sources) && item.sources.some((source) => /^https?:\/\//i.test(String(source?.url || ''))) &&
-    Array.isArray(item.confirmed_facts) && item.confirmed_facts.length >= 2 &&
-    Array.isArray(item.editorial_limits) && item.editorial_limits.length >= 2
-}
-
 const guides = readJson('src/data/guides.json')
 const habitats = readJson('src/data/habitats.json')
 const news = readJson('src/data/news.json')
@@ -74,42 +54,6 @@ const redirectedNewsSlugs = new Set([
 ])
 
 const habitatById = new Map(habitats.map((item) => [item.id, item]))
-
-const topicPages = [
-  {
-    id: 'beginner-route',
-    title: 'Pokopia Beginner Route',
-    href: '/guides/beginner-route',
-    description: 'A beginner route that connects starter choices, easy habitats, recipe timing, Pokemon pages, and planning tools.',
-    meta: 'Beginner topic route',
-    status: 'Editorial topic guide',
-    updatedAt: '2026-05-27',
-    priority: 90,
-    keywords: 'beginner route starter pokemon easy habitat recipe timing tools first path forest valley crystal lake training grounds',
-  },
-  {
-    id: 'rare-farming-route',
-    title: 'Pokopia Rare Farming Route',
-    href: '/guides/rare-farming-route',
-    description: 'A rare farming route that connects Lucky Charm timing, rare Pokemon targets, high-value habitats, recipes, and tools.',
-    meta: 'Rare farming topic route',
-    status: 'Editorial topic guide',
-    updatedAt: '2026-05-27',
-    priority: 90,
-    keywords: 'rare farming route lucky charm legendary pokemon shadow marsh frost peak volcanic cave spawn tracker recipe calculator habitat planner',
-  },
-  {
-    id: 'recipe-planning-route',
-    title: 'Pokopia Recipe Planning Route',
-    href: '/guides/recipe-planning-route',
-    description: 'A recipe planning route that connects buff timing, rarity cost, habitat risk, Pokemon targets, and tools.',
-    meta: 'Recipe topic route',
-    status: 'Editorial topic guide',
-    updatedAt: '2026-05-27',
-    priority: 88,
-    keywords: 'recipe planning route buff timing rarity ingredients habitat risk pokemon targets recipe calculator honey cake lucky charm fire boost grass heal',
-  },
-]
 
 const hubPages = [
   {
@@ -445,7 +389,7 @@ const index = [
       item.source_type,
     ].join(' '),
   })),
-  ...guides.filter((item) => !shouldNoIndex(item.data_status, item.index_status)).map((item) => ({
+  ...guides.filter(isIndexableGuide).map((item) => ({
     id: item.id,
     type: 'Guide',
     title: item.title,

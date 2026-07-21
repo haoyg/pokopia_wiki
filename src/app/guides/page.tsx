@@ -4,7 +4,7 @@ import { canonicalUrl } from '@/lib/site'
 import { CreditedImage } from '@/components/media/CreditedImage'
 import { OfficialContext } from '@/components/content/OfficialContext'
 import { BreadcrumbJsonLd, ItemListJsonLd } from '@/components/seo/JsonLd'
-import { shouldNoIndex } from '@/lib/indexing'
+import { isIndexableGuide } from '@/lib/indexing'
 
 const categoryLabels: Record<string, string> = {
   tier: 'Tier',
@@ -66,7 +66,7 @@ export const metadata: Metadata = {
 }
 
 export default function GuidesPage() {
-  const publishedGuides = guidesData.filter((guide) => !shouldNoIndex(guide.data_status, guide.index_status))
+  const publishedGuides = guidesData.filter(isIndexableGuide)
   const sourceBackedGuides = publishedGuides.filter((guide) => guide.data_status === 'Source-backed guide')
   const findGuide = (slug: string) => guidesData.find((guide) => guide.slug === slug)
 

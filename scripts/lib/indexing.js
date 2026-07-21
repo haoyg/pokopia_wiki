@@ -14,46 +14,31 @@ const sourceBackedStatuses = new Set([
   'source-backed database entry',
 ])
 
-function isExplicitlyIndexable(indexStatus?: string | null) {
-  const value = indexStatus?.trim().toLowerCase()
+function isExplicitlyIndexable(indexStatus) {
+  const value = String(indexStatus || '').trim().toLowerCase()
   return value === 'indexable' || value === 'index'
 }
 
-function hasValidReviewDate(value?: string | number | null) {
+function hasValidReviewDate(value) {
   if (!value) return false
   return !Number.isNaN(new Date(value).getTime())
 }
 
-function hasValidSource(sources?: DatabaseSource[] | null) {
+function hasValidSource(sources) {
   return Array.isArray(sources) &&
     sources.some((source) => /^https?:\/\//i.test(String(source?.url || '')))
 }
 
-export function shouldNoIndex(status?: string | null, indexStatus?: string | null) {
-  const indexValue = indexStatus?.trim().toLowerCase()
-  const normalizedStatus = status?.trim().toLowerCase() || ''
+function shouldNoIndex(status, indexStatus) {
+  const indexValue = String(indexStatus || '').trim().toLowerCase()
+  const normalizedStatus = String(status || '').trim().toLowerCase()
 
   if (indexValue && noIndexFlags.some((flag) => indexValue.includes(flag))) return true
   if (!isExplicitlyIndexable(indexStatus)) return true
   return !sourceBackedStatuses.has(normalizedStatus)
 }
 
-type DatabaseSource = {
-  url?: string | null
-}
-
-type GuideIndexingCandidate = {
-  data_status?: string | null
-  index_status?: string | null
-  updated_at?: string | number | null
-  published_at?: string | number | null
-  sources?: DatabaseSource[] | null
-  source_notes?: unknown[] | null
-  confirmed_context?: unknown[] | null
-  editorial_limits?: unknown[] | null
-}
-
-export function isIndexableGuide(entry: GuideIndexingCandidate) {
+function isIndexableGuide(entry) {
   return Boolean(entry) &&
     entry.data_status === 'Source-backed guide' &&
     isExplicitlyIndexable(entry.index_status) &&
@@ -64,17 +49,7 @@ export function isIndexableGuide(entry: GuideIndexingCandidate) {
     Array.isArray(entry.editorial_limits) && entry.editorial_limits.length >= 2
 }
 
-type DatabaseIndexingCandidate = {
-  data_status?: string | null
-  index_status?: string | null
-  updated_at?: string | number | null
-  sources?: DatabaseSource[] | null
-  confirmed_facts?: unknown[] | null
-  editorial_limits?: unknown[] | null
-}
-
-// Database records stay noindex until their game-specific claims are independently reviewable.
-export function isIndexableDatabaseEntry(entry: DatabaseIndexingCandidate) {
+function isIndexableDatabaseEntry(entry) {
   return Boolean(entry) &&
     entry.data_status === 'Source-backed database entry' &&
     isExplicitlyIndexable(entry.index_status) &&
@@ -84,11 +59,8 @@ export function isIndexableDatabaseEntry(entry: DatabaseIndexingCandidate) {
     Array.isArray(entry.editorial_limits) && entry.editorial_limits.length >= 2
 }
 
-export const noIndexMetadata = {
-  index: false,
-  follow: true,
-  googleBot: {
-    index: false,
-    follow: true,
-  },
-} as const
+module.exports = {
+  isIndexableDatabaseEntry,
+  isIndexableGuide,
+  shouldNoIndex,
+}

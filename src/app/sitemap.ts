@@ -8,7 +8,7 @@ import pokemonData from '@/data/pokemon.json'
 import habitatsData from '@/data/habitats.json'
 import recipesData from '@/data/recipes.json'
 import { BASE_URL } from '@/lib/site'
-import { isIndexableDatabaseEntry, shouldNoIndex } from '@/lib/indexing'
+import { isIndexableDatabaseEntry, isIndexableGuide } from '@/lib/indexing'
 
 const SITE_REVIEWED_AT = new Date('2026-07-16')
 const REDIRECTED_NEWS_SLUGS = new Set([
@@ -78,7 +78,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })
   })
 
-  guidesData.filter((guide) => !shouldNoIndex(guide.data_status, guide.index_status)).forEach((guide) => {
+  guidesData.filter(isIndexableGuide).forEach((guide) => {
     addEntry({
       url: `${BASE_URL}/guides/${guide.slug}/`,
       lastModified: reviewedDate(guide.updated_at || guide.published_at),

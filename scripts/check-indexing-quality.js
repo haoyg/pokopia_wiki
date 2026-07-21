@@ -1,5 +1,10 @@
 const fs = require('fs')
 const path = require('path')
+const {
+  isIndexableDatabaseEntry,
+  isIndexableGuide,
+  shouldNoIndex,
+} = require('./lib/indexing')
 
 const root = path.join(__dirname, '..')
 const issues = []
@@ -69,29 +74,32 @@ const pokemon = readJson('src/data/pokemon.json')
 const habitats = readJson('src/data/habitats.json')
 const recipes = readJson('src/data/recipes.json')
 
-const noIndexFlags = ['draft', 'placeholder', 'thin', 'unreviewed', 'ai draft', 'needs review', 'review', 'noindex']
-
-function shouldNoIndex(status, indexStatus) {
-  const indexValue = String(indexStatus || '').trim().toLowerCase()
-  if (indexValue === 'indexable' || indexValue === 'index') return false
-  if (indexValue) return noIndexFlags.some((flag) => indexValue.includes(flag))
-
-  const normalized = String(status || '').trim().toLowerCase()
-  return noIndexFlags.some((flag) => normalized.includes(flag))
+const sourceBackedGuide = guides.find((item) => item.data_status === 'Source-backed guide')
+assert(Boolean(sourceBackedGuide), 'content data must include at least one source-backed guide fixture')
+if (sourceBackedGuide) {
+  assert(isIndexableGuide(sourceBackedGuide), 'complete source-backed guide fixture should be indexable')
+  assert(
+    !isIndexableGuide({ ...sourceBackedGuide, sources: [] }),
+    'source-backed guide without a source URL must not be indexable'
+  )
+  assert(
+    !isIndexableGuide({ ...sourceBackedGuide, updated_at: null, published_at: null }),
+    'source-backed guide without a review date must not be indexable'
+  )
 }
 
-function isIndexableDatabaseEntry(item) {
-  if (!item || shouldNoIndex(item.data_status, item.index_status)) return false
-  const indexValue = String(item.index_status || '').trim().toLowerCase()
-  if (indexValue === 'indexable' || indexValue === 'index') return true
+assert(
+  shouldNoIndex('Editorial guide', 'indexable'),
+  'editorial guide must remain noindex even when index_status is indexable'
+)
+assert(
+  !isIndexableDatabaseEntry({ ...pokemon[0], index_status: 'indexable' }),
+  'editorial database entry must not become indexable through index_status alone'
+)
 
-  const reviewedAt = item.updated_at ? new Date(item.updated_at) : null
-  return item.data_status === 'Source-backed database entry' &&
-    Boolean(reviewedAt && !Number.isNaN(reviewedAt.getTime())) &&
-    Array.isArray(item.sources) && item.sources.some((source) => /^https?:\/\//i.test(String(source?.url || ''))) &&
-    Array.isArray(item.confirmed_facts) && item.confirmed_facts.length >= 2 &&
-    Array.isArray(item.editorial_limits) && item.editorial_limits.length >= 2
-}
+const indexableGuidePaths = new Set(
+  guides.filter(isIndexableGuide).map((item) => `/guides/${item.slug}/`)
+)
 
 const indexableDatabasePaths = new Set([
   ...pokemon.filter(isIndexableDatabaseEntry).map((item) => `/wiki/pokemon/${item.id}/`),
@@ -105,7 +113,14 @@ const forbiddenIndexPathPatterns = [
 
 const expectedNoindexPaths = new Set([
   '/search/',
-  ...guides.filter((item) => shouldNoIndex(item.data_status, item.index_status)).map((item) => `/guides/${item.slug}/`),
+  '/guides/beginner-route/',
+  '/guides/rare-farming-route/',
+  '/guides/recipe-planning-route/',
+  '/tier-list/',
+  '/wiki/pokemon/',
+  '/wiki/habitat/',
+  '/wiki/recipe/',
+  ...guides.filter((item) => !isIndexableGuide(item)).map((item) => `/guides/${item.slug}/`),
   ...pokemon.filter((item) => !isIndexableDatabaseEntry(item)).map((item) => `/wiki/pokemon/${item.id}/`),
   ...habitats.filter((item) => !isIndexableDatabaseEntry(item)).map((item) => `/wiki/habitat/${item.id}/`),
   ...recipes.filter((item) => !isIndexableDatabaseEntry(item)).map((item) => `/wiki/recipe/${item.id}/`),
@@ -135,6 +150,9 @@ if (fs.existsSync(sitemapPath)) {
     }
     if (/^\/wiki\/(pokemon|habitat|recipe)\/[^/]+\/$/.test(pagePath)) {
       assert(indexableDatabasePaths.has(pagePath), `sitemap includes database page without complete source-review data: ${pagePath}`)
+    }
+    if (/^\/guides\/[^/]+\/$/.test(pagePath)) {
+      assert(indexableGuidePaths.has(pagePath), `sitemap includes guide without complete source-review data: ${pagePath}`)
     }
 
     const htmlFile = htmlPathForRoute(pagePath)
@@ -185,6 +203,9 @@ for (const item of searchIndex) {
   if (/^\/wiki\/(pokemon|habitat|recipe)\/[^/]+\/$/.test(pagePath)) {
     assert(indexableDatabasePaths.has(pagePath), `search index includes database page without complete source-review data: ${pagePath}`)
   }
+  if (item.type === 'Guide' && pagePath !== '/guides/') {
+    assert(indexableGuidePaths.has(pagePath), `search index includes guide without complete source-review data: ${pagePath}`)
+  }
 
   assert(
     !/^editorial\b/i.test(String(item.status || '')),
@@ -195,8 +216,8 @@ for (const item of searchIndex) {
 const guideEntries = searchIndex.filter((item) => item.type === 'Guide')
 assert(guideEntries.length > 0, 'search index has no guide entries')
 assert(
-  guideEntries.every((item) => ['Source-backed guide', 'Reviewed guide', 'Source-backed guide hub'].includes(item.status)),
-  'search index guide entries must be reviewed guides, source-backed guides, or the source-backed guide hub'
+  guideEntries.every((item) => ['Source-backed guide', 'Source-backed guide hub'].includes(item.status)),
+  'search index guide entries must be source-backed guides or the source-backed guide hub'
 )
 
 if (issues.length > 0) {

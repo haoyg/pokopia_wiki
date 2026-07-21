@@ -4,9 +4,9 @@ import guidesData from '@/data/guides.json'
 import { canonicalUrl } from '@/lib/site'
 import { OfficialContext } from '@/components/content/OfficialContext'
 import { BreadcrumbJsonLd, ItemListJsonLd } from '@/components/seo/JsonLd'
-import { shouldNoIndex } from '@/lib/indexing'
+import { isIndexableGuide } from '@/lib/indexing'
 
-const featuredGuides = guidesData.filter((guide) => !shouldNoIndex(guide.data_status, guide.index_status)).slice(0, 6)
+const featuredGuides = guidesData.filter(isIndexableGuide).slice(0, 6)
 
 const featuredTopics = [
   {

@@ -8,6 +8,7 @@ import { ArticleJsonLd, BreadcrumbJsonLd, ItemListJsonLd, FAQJsonLd } from '@/co
 import { OfficialContext } from '@/components/content/OfficialContext'
 import { DataStatus } from '@/components/content/DataStatus'
 import { canonicalUrl } from '@/lib/site'
+import { noIndexMetadata } from '@/lib/indexing'
 
 const updatedAt = '2026-05-27'
 
@@ -106,6 +107,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: canonicalUrl('/guides/beginner-route'),
   },
+  robots: noIndexMetadata,
 }
 
 export default function BeginnerRoutePage() {

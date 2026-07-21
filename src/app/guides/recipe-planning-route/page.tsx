@@ -8,6 +8,7 @@ import { ArticleJsonLd, BreadcrumbJsonLd, FAQJsonLd, ItemListJsonLd } from '@/co
 import { DataStatus } from '@/components/content/DataStatus'
 import { OfficialContext } from '@/components/content/OfficialContext'
 import { canonicalUrl } from '@/lib/site'
+import { noIndexMetadata } from '@/lib/indexing'
 
 const updatedAt = '2026-05-27'
 
@@ -106,6 +107,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: canonicalUrl('/guides/recipe-planning-route'),
   },
+  robots: noIndexMetadata,
 }
 
 export default function RecipePlanningRoutePage() {

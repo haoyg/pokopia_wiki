@@ -1,5 +1,9 @@
 const fs = require('fs')
 const path = require('path')
+const {
+  isIndexableDatabaseEntry,
+  isIndexableGuide,
+} = require('./lib/indexing')
 
 const root = path.join(__dirname, '..')
 const issues = []
@@ -59,30 +63,6 @@ function countInternalLinks(html) {
 
 function hasReviewSignal(text) {
   return /\b(last reviewed|updated|source|sources|source-backed|source-aware|official|confirmed|correction|review process|content status)\b/i.test(text)
-}
-
-const noIndexFlags = ['draft', 'placeholder', 'thin', 'unreviewed', 'ai draft', 'needs review', 'review', 'noindex']
-
-function shouldNoIndex(status, indexStatus) {
-  const indexValue = String(indexStatus || '').trim().toLowerCase()
-  if (indexValue === 'indexable' || indexValue === 'index') return false
-  if (indexValue) return noIndexFlags.some((flag) => indexValue.includes(flag))
-
-  const normalized = String(status || '').trim().toLowerCase()
-  return noIndexFlags.some((flag) => normalized.includes(flag))
-}
-
-function isIndexableDatabaseEntry(item) {
-  if (!item || shouldNoIndex(item.data_status, item.index_status)) return false
-  const indexValue = String(item.index_status || '').trim().toLowerCase()
-  if (indexValue === 'indexable' || indexValue === 'index') return true
-
-  const reviewedAt = item.updated_at ? new Date(item.updated_at) : null
-  return item.data_status === 'Source-backed database entry' &&
-    Boolean(reviewedAt && !Number.isNaN(reviewedAt.getTime())) &&
-    Array.isArray(item.sources) && item.sources.some((source) => /^https?:\/\//i.test(String(source?.url || ''))) &&
-    Array.isArray(item.confirmed_facts) && item.confirmed_facts.length >= 2 &&
-    Array.isArray(item.editorial_limits) && item.editorial_limits.length >= 2
 }
 
 function isOfficialSourceUrl(value) {
@@ -161,7 +141,7 @@ for (const file of ['guides', 'official', 'news', 'pokemon', 'habitats', 'recipe
   )
 }
 
-const indexableGuides = guides.filter((guide) => !shouldNoIndex(guide.data_status, guide.index_status))
+const indexableGuides = guides.filter(isIndexableGuide)
 for (const guide of indexableGuides) {
   if (guide.data_status === 'Source-backed guide') {
     assert(Array.isArray(guide.source_notes) && guide.source_notes.length >= 2, `guide ${guide.slug} is missing source_notes`)

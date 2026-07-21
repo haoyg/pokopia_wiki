@@ -6,7 +6,7 @@ import { CreditedImage } from '@/components/media/CreditedImage'
 import { OfficialContext } from '@/components/content/OfficialContext'
 import { DataStatus } from '@/components/content/DataStatus'
 import { ItemListJsonLd, WebPageJsonLd } from '@/components/seo/JsonLd'
-import { shouldNoIndex } from '@/lib/indexing'
+import { isIndexableGuide } from '@/lib/indexing'
 
 export const metadata: Metadata = {
   title: 'Pokopia Wiki: Guides, Map, Tools',
@@ -105,7 +105,7 @@ const exploreClusters = [
 export default function Home() {
   const leadNews = newsData[0]
   const news = newsData.slice(1, 5)
-  const sourceBackedGuides = guidesData.filter((guide) => !shouldNoIndex(guide.data_status, guide.index_status))
+  const sourceBackedGuides = guidesData.filter(isIndexableGuide)
   const guides = sourceBackedGuides.slice(0, 6)
   const homepageItems = [
     { name: 'Official Info', url: '/official' },
