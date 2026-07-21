@@ -36,7 +36,7 @@ export default function PrivacyPolicyPage() {
 
         <h2 style={{ marginTop: '2rem' }}>Information We Collect</h2>
         <p>
-          We may collect basic technical information such as browser type, device type, pages visited, referral URLs, approximate location, and interaction data. This information helps us understand which guides are useful, fix errors, improve site performance, and plan future content.
+          Hosting infrastructure may process basic technical information such as browser type, device type, requested pages, referral URLs, IP-derived approximate region, and security or performance data. Pokopia Portal does not request GPS, Wi-Fi, cell-tower, or other precise-location permission through the website.
         </p>
 
         <h2 style={{ marginTop: '2rem' }}>Cookies and Advertising</h2>
