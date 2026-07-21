@@ -18,7 +18,7 @@ export default function PrivacyPolicyPage() {
         name="Privacy Policy"
         description="Pokopia Portal privacy policy covering analytics, advertising, cookies, Google ad services, user consent, and contact options."
         url="/privacy-policy"
-        dateModified="2026-07-18"
+        dateModified="2026-07-21"
       />
       <BreadcrumbJsonLd
         items={[
@@ -27,7 +27,7 @@ export default function PrivacyPolicyPage() {
         ]}
       />
       <article>
-        <p style={{ color: '#666', fontSize: '0.875rem' }}>Last updated: July 18, 2026</p>
+        <p style={{ color: '#666', fontSize: '0.875rem' }}>Last updated: July 21, 2026</p>
         <h1 style={{ marginTop: '0.5rem' }}>Privacy Policy</h1>
 
         <p style={{ marginTop: '1.5rem' }}>
@@ -41,10 +41,10 @@ export default function PrivacyPolicyPage() {
 
         <h2 style={{ marginTop: '2rem' }}>Cookies and Advertising</h2>
         <p>
-          Pokopia Portal may use cookies or similar technologies for analytics, site functionality, and advertising. If Google AdSense or other Google advertising services are enabled, Google may use cookies to serve ads based on visits to this site and other sites. You can manage ad personalization through your Google account settings and browser cookie controls.
+          Pokopia Portal does not currently load Google AdSense, Google Analytics, or other advertising and analytics tags from this website's application code. Advertising and analytics remain disabled until an appropriate consent management implementation is configured and verified.
         </p>
         <p>
-          Third-party vendors, including Google, may use cookies, web beacons, IP addresses, and other identifiers to serve, measure, and personalize ads based on a user's prior visits to this website or other websites.
+          If advertising is enabled later, third-party vendors, including Google, may use cookies, web beacons, IP addresses, and other identifiers to serve and measure ads. This policy will be updated to identify the products and providers actually enabled.
         </p>
         <p>
           Google and its advertising partners may use advertising cookies to enable ad serving, frequency capping, aggregated reporting, fraud prevention, and ad personalization where permitted. You can learn more about how Google uses information from sites and apps that use Google services at <a href="https://policies.google.com/technologies/partner-sites">Google's partner sites policy</a>.
@@ -52,7 +52,7 @@ export default function PrivacyPolicyPage() {
 
         <h2 style={{ marginTop: '2rem' }}>Ad Personalization and Consent</h2>
         <p>
-          Where required by law, including for users in the European Economic Area, the United Kingdom, or Switzerland, we will request consent before using cookies or identifiers for personalized advertising. If consent is not provided, ads may be non-personalized or limited depending on the available advertising settings and legal requirements.
+          Before serving personalized Google ads to users in the European Economic Area, the United Kingdom, or Switzerland, Pokopia Portal will configure a Google-certified consent management platform integrated with the IAB Transparency and Consent Framework. The consent message must allow users to consent, decline, manage choices, and later change or withdraw those choices. No such advertising is currently enabled.
         </p>
         <p>
           You can manage or turn off personalized advertising through <a href="https://adssettings.google.com/" rel="noreferrer">Google Ads Settings</a>, browser cookie controls, and industry opt-out tools where available. Disabling cookies may affect analytics, advertising, and some site functionality.

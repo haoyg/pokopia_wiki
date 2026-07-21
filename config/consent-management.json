@@ -1,0 +1,11 @@
+{
+  "status": "not-configured",
+  "ads_enabled": false,
+  "analytics_enabled": false,
+  "provider": null,
+  "tcf_version": null,
+  "certification_evidence_url": null,
+  "privacy_message_enabled": false,
+  "last_reviewed_at": "2026-07-21",
+  "review_note": "No advertising or analytics tags may be deployed until a Google-certified CMP is configured and documented."
+}

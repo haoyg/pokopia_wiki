@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "check:prebuild": "node scripts/check-image-credits.js && node scripts/check-meta-quality.js && node scripts/generate-tool-data.js && node scripts/generate-search-index.js",
-    "check:postbuild": "node scripts/check-indexing-quality.js && node scripts/check-content-quality.js && node scripts/check-html-structure.js && node scripts/check-rendered-seo.js && node scripts/check-rendered-media-rights.js",
+    "check:prebuild": "node scripts/check-consent-management.js source && node scripts/check-image-credits.js && node scripts/check-meta-quality.js && node scripts/generate-tool-data.js && node scripts/generate-search-index.js",
+    "check:postbuild": "node scripts/check-indexing-quality.js && node scripts/check-content-quality.js && node scripts/check-html-structure.js && node scripts/check-rendered-seo.js && node scripts/check-rendered-media-rights.js && node scripts/check-consent-management.js rendered",
     "check:site": "npm run check:prebuild && npm run check:postbuild",
     "check:external-media": "node scripts/check-external-media.js",
     "diversify:official-images": "node scripts/diversify-official-images.js",
