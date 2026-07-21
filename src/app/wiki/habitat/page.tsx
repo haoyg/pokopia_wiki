@@ -171,7 +171,7 @@ export default function HabitatPage() {
       <div className="pokemon-grid">
         {habitatsData.map((h) => (
           <a key={h.id} href={`/wiki/habitat/${h.id}`} className="card">
-            <CreditedImage src={h.image_url} alt={h.image_alt || h.name} source={h.image_source} sourceUrl={h.image_source_url} licenseNote={h.image_license_note} originalMedia={h.image_original_media} creditLink={false} />
+            <CreditedImage src={h.image_url} alt={h.image_alt || h.name} source={h.image_source} sourceUrl={h.image_source_url} licenseNote={h.image_license_note} originalMedia={h.image_original_media} rightsStatus={h.image_rights_status} creditLink={false} />
             <h3 className="index-card-title index-card-title-center">{h.name}</h3>
             <p className="index-card-meta">{h.unlock_condition}</p>
             <p className="index-card-submeta">{h.weather} · {h.resource_bonus}</p>

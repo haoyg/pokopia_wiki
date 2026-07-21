@@ -9,6 +9,7 @@ type CreditedImageProps = {
   priority?: boolean
   sizes?: string
   creditLink?: boolean
+  rightsStatus?: string
 }
 
 export function CreditedImage({
@@ -22,8 +23,10 @@ export function CreditedImage({
   priority = false,
   sizes,
   creditLink = true,
+  rightsStatus,
 }: CreditedImageProps) {
-  if (!src || !source) return null
+  const clearedRightsStatuses = new Set(['owned-original', 'licensed', 'open-license', 'public-domain'])
+  if (!src || !source || !rightsStatus || !clearedRightsStatuses.has(rightsStatus)) return null
 
   const isRemote = src.startsWith('http://') || src.startsWith('https://')
   const localNintendoMedia = src.match(/^(\/media\/nintendo\/.+)\.(jpe?g|png)$/i)

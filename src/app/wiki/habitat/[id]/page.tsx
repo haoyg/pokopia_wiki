@@ -6,6 +6,7 @@ import recipesData from '@/data/recipes.json'
 import { canonicalUrl } from '@/lib/site'
 import { habitatMetaDescription, habitatMetaTitle } from '@/lib/seoText'
 import { CreditedImage } from '@/components/media/CreditedImage'
+import { hasClearedMediaRights } from '@/lib/mediaRights'
 import { BreadcrumbJsonLd, FAQJsonLd, WikiPageJsonLd } from '@/components/seo/JsonLd'
 import { DataStatus } from '@/components/content/DataStatus'
 import { OfficialContext } from '@/components/content/OfficialContext'
@@ -49,7 +50,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     openGraph: {
       title,
       description,
-      images: habitat?.image_source ? [habitat.image_url] : ['/og-image.svg'],
+      images: hasClearedMediaRights(habitat) ? [habitat.image_url] : ['/og-image.svg'],
     },
     alternates: habitat ? {
       canonical: canonicalUrl(`/wiki/habitat/${habitat.id}`),
@@ -86,7 +87,7 @@ export default async function HabitatDetailPage({ params }: Props) {
         description={habitat.overview}
         url={`/wiki/habitat/${habitat.id}`}
         pageType="Habitat"
-        image={habitat.image_source ? habitat.image_url : undefined}
+        image={hasClearedMediaRights(habitat) ? habitat.image_url : undefined}
         dateModified={modifiedAt}
         properties={[
           { name: 'Unlock Condition', value: habitat.unlock_condition },
@@ -128,7 +129,7 @@ export default async function HabitatDetailPage({ params }: Props) {
               ]}
             />
           </div>
-          <CreditedImage src={habitat.image_url} alt={habitat.image_alt || habitat.name} source={habitat.image_source} sourceUrl={habitat.image_source_url} licenseNote={habitat.image_license_note} originalMedia={habitat.image_original_media} className="habitat-hero-cover" sizes="(max-width: 768px) 100vw, 420px" priority />
+          <CreditedImage src={habitat.image_url} alt={habitat.image_alt || habitat.name} source={habitat.image_source} sourceUrl={habitat.image_source_url} licenseNote={habitat.image_license_note} originalMedia={habitat.image_original_media} rightsStatus={habitat.image_rights_status} className="habitat-hero-cover" sizes="(max-width: 768px) 100vw, 420px" priority />
         </div>
 
         <div className="habitat-quick-facts" aria-label={`${habitat.name} quick facts`}>

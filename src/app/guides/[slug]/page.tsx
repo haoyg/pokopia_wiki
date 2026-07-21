@@ -10,6 +10,7 @@ import { CreditedImage } from '@/components/media/CreditedImage'
 import { DataStatus } from '@/components/content/DataStatus'
 import { OfficialContext } from '@/components/content/OfficialContext'
 import { isIndexableGuide, noIndexMetadata } from '@/lib/indexing'
+import { hasClearedMediaRights } from '@/lib/mediaRights'
 
 interface Props {
   params: Promise<{ slug: string }>
@@ -37,7 +38,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     openGraph: {
       title,
       description,
-      images: guide.image_source ? [guide.image_url] : ['/og-image.svg'],
+      images: hasClearedMediaRights(guide) ? [guide.image_url] : ['/og-image.svg'],
       type: 'article',
       publishedTime: guide.published_at ? new Date(guide.published_at).toISOString() : undefined,
       modifiedTime: guide.updated_at ? new Date(guide.updated_at).toISOString() : (guide.published_at ? new Date(guide.published_at).toISOString() : undefined),
@@ -46,7 +47,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       card: 'summary_large_image',
       title,
       description,
-      images: guide.image_source ? [guide.image_url] : ['/og-image.svg'],
+      images: hasClearedMediaRights(guide) ? [guide.image_url] : ['/og-image.svg'],
     },
     alternates: {
       canonical: canonicalUrl(`/guides/${guide.slug}`),
@@ -88,7 +89,7 @@ export default async function GuideDetailPage({ params }: Props) {
         url={`/guides/${guide.slug}`}
         publishedAt={new Date(publishedAt).toISOString()}
         modifiedAt={new Date(updatedAt).toISOString()}
-        image={guide.image_source ? guide.image_url : undefined}
+        image={hasClearedMediaRights(guide) ? guide.image_url : undefined}
         type="Article"
       />
       <BreadcrumbJsonLd
@@ -124,7 +125,7 @@ export default async function GuideDetailPage({ params }: Props) {
                 description="This page contains unverified editorial planning claims. Its credited promotional image does not verify those claims; use the official-source pages for confirmed Pokémon Pokopia systems."
               />
             </div>
-            <CreditedImage src={guide.image_url} alt={guide.image_alt} source={guide.image_source} sourceUrl={guide.image_source_url} licenseNote={guide.image_license_note} originalMedia={guide.image_original_media} className="guide-hero-cover" sizes="(max-width: 768px) 100vw, 420px" priority />
+            <CreditedImage src={guide.image_url} alt={guide.image_alt} source={guide.image_source} sourceUrl={guide.image_source_url} licenseNote={guide.image_license_note} originalMedia={guide.image_original_media} rightsStatus={guide.image_rights_status} className="guide-hero-cover" sizes="(max-width: 768px) 100vw, 420px" priority />
           </div>
 
           <section className="guide-answer-panel">

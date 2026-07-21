@@ -1,14 +1,15 @@
 # Pokopia Image Source Candidates
 
-Use this file to review image candidates before adding them to the site. Prefer official assets first. When an image is added to data JSON, also add `image_source` and `image_source_url` so the site can show attribution.
+Use this file only to discover and review image candidates. A source URL or attribution label is not permission to republish an asset on an ad-supported site. Do not make a candidate visible until commercial reuse rights are documented.
 
-Last checked: 2026-05-23
+Last checked: 2026-07-21
 
 ## Current Site Behavior
 
-- The site intentionally hides images when `image_source` is empty.
-- This prevents generated or uncredited placeholders from appearing during AdSense review.
-- To make an image appear, set both `image_url` and `image_source` in the matching data JSON entry.
+- The site hides images unless `image_rights_status` is one of `owned-original`, `licensed`, `open-license`, or `public-domain`.
+- `image_source` and `image_source_url` provide attribution but do not clear rights.
+- Cleared statuses require an HTTPS `image_rights_evidence_url`; the build rejects unsupported claims.
+- Use `rights-review-required` when permission for commercial, ad-supported reuse has not been verified.
 
 ## Preferred Attribution Labels
 
@@ -70,9 +71,12 @@ Suggested JSON pattern:
 ```json
 {
   "image_url": "/images/official/pokopia-official-01.jpg",
-  "image_alt": "Official Pokémon Pokopia gameplay screenshot",
+  "image_alt": "Pokémon Pokopia promotional gameplay scene",
   "image_source": "游戏官方",
-  "image_source_url": "https://pokopia.pokemon.com/en-us/"
+  "image_source_url": "https://pokopia.pokemon.com/en-us/",
+  "image_rights_status": "rights-review-required",
+  "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
+  "image_rights_reviewed_at": "2026-07-21"
 }
 ```
 

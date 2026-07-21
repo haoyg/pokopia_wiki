@@ -25,7 +25,10 @@ export default function CopyrightPage() {
 
         <h2 style={{ marginTop: '2rem' }}>Use of Images</h2>
         <p>
-          Some images may come from official news materials, press assets, game screenshots, player screenshots, or third-party sources that report on official media. We aim to label image sources clearly near the image or on the related page.
+          A source label identifies where media was found; it does not establish permission to republish it. Media is displayed only after its commercial, ad-supported reuse basis has been documented as site-owned, licensed, openly licensed, or public domain. Assets without that evidence remain withheld from rendered pages while their rights status is reviewed.
+        </p>
+        <p>
+          Official screenshots, artwork, logos, player submissions, and third-party reposts are not treated as licensed merely because their source is known or credited.
         </p>
 
         <h2 style={{ marginTop: '2rem' }}>Removal Requests</h2>

@@ -15,7 +15,19 @@ const requiredFields = [
   'image_source_url',
   'image_original_media',
   'image_license_note',
+  'image_rights_status',
+  'image_usage_basis',
+  'image_rights_reviewed_at',
 ]
+
+const allowedRightsStatuses = new Set([
+  'owned-original',
+  'licensed',
+  'open-license',
+  'public-domain',
+  'rights-review-required',
+])
+const clearedRightsStatuses = new Set(['owned-original', 'licensed', 'open-license', 'public-domain'])
 
 const issues = []
 
@@ -59,6 +71,18 @@ for (const file of files) {
       if (!item[field]) {
         issues.push(`${file}: ${item.id || item.slug || item.title || 'unknown'} is missing ${field}`)
       }
+    }
+
+    if (!allowedRightsStatuses.has(item.image_rights_status)) {
+      issues.push(`${file}: ${item.id || item.slug || item.title || 'unknown'} has an invalid image_rights_status`)
+    }
+
+    if (clearedRightsStatuses.has(item.image_rights_status) && !/^https:\/\//i.test(item.image_rights_evidence_url || '')) {
+      issues.push(`${file}: ${item.id || item.slug || item.title || 'unknown'} claims cleared media rights without an HTTPS evidence URL`)
+    }
+
+    if (item.image_rights_status === 'rights-review-required' && !/not been verified/i.test(item.image_usage_basis || '')) {
+      issues.push(`${file}: ${item.id || item.slug || item.title || 'unknown'} must state that media reuse rights have not been verified`)
     }
   }
 }

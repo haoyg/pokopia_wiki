@@ -6,6 +6,7 @@ import habitatsData from '@/data/habitats.json'
 import { canonicalUrl } from '@/lib/site'
 import { recipeMetaDescription, recipeMetaTitle } from '@/lib/seoText'
 import { CreditedImage } from '@/components/media/CreditedImage'
+import { hasClearedMediaRights } from '@/lib/mediaRights'
 import { BreadcrumbJsonLd, FAQJsonLd, WikiPageJsonLd } from '@/components/seo/JsonLd'
 import { DataStatus } from '@/components/content/DataStatus'
 import { OfficialContext } from '@/components/content/OfficialContext'
@@ -49,7 +50,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     openGraph: {
       title,
       description,
-      images: recipe?.image_source ? [recipe.image_url] : ['/og-image.svg'],
+      images: hasClearedMediaRights(recipe) ? [recipe.image_url] : ['/og-image.svg'],
     },
     alternates: recipe ? {
       canonical: canonicalUrl(`/wiki/recipe/${recipe.id}`),
@@ -87,7 +88,7 @@ export default async function RecipeDetailPage({ params }: Props) {
         description={recipe.overview || `${recipe.name} - ${recipe.buff}`}
         url={`/wiki/recipe/${recipe.id}`}
         pageType="Recipe"
-        image={recipe.image_source ? recipe.image_url : undefined}
+        image={hasClearedMediaRights(recipe) ? recipe.image_url : undefined}
         dateModified={modifiedAt}
         properties={[
           { name: 'Ingredients', value: Array.isArray(recipe.ingredients) ? recipe.ingredients.join(', ') : recipe.ingredients },
@@ -127,7 +128,7 @@ export default async function RecipeDetailPage({ params }: Props) {
               ]}
             />
           </div>
-          <CreditedImage src={recipe.image_url} alt={recipe.image_alt || recipe.name} source={recipe.image_source} sourceUrl={recipe.image_source_url} licenseNote={recipe.image_license_note} originalMedia={recipe.image_original_media} className="recipe-hero-cover" sizes="(max-width: 768px) 100vw, 420px" priority />
+          <CreditedImage src={recipe.image_url} alt={recipe.image_alt || recipe.name} source={recipe.image_source} sourceUrl={recipe.image_source_url} licenseNote={recipe.image_license_note} originalMedia={recipe.image_original_media} rightsStatus={recipe.image_rights_status} className="recipe-hero-cover" sizes="(max-width: 768px) 100vw, 420px" priority />
         </div>
 
         <div className="recipe-quick-facts" aria-label={`${recipe.name} quick facts`}>

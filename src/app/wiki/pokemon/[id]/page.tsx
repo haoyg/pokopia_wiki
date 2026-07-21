@@ -6,6 +6,7 @@ import habitatsData from '@/data/habitats.json'
 import { canonicalUrl } from '@/lib/site'
 import { pokemonMetaDescription, pokemonMetaTitle } from '@/lib/seoText'
 import { CreditedImage } from '@/components/media/CreditedImage'
+import { hasClearedMediaRights } from '@/lib/mediaRights'
 import { BreadcrumbJsonLd, FAQJsonLd, WikiPageJsonLd } from '@/components/seo/JsonLd'
 import { DataStatus } from '@/components/content/DataStatus'
 import { OfficialContext } from '@/components/content/OfficialContext'
@@ -50,7 +51,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     openGraph: {
       title,
       description,
-      images: pokemon?.image_source ? [pokemon.image_url] : ['/og-image.svg'],
+      images: hasClearedMediaRights(pokemon) ? [pokemon.image_url] : ['/og-image.svg'],
     },
     alternates: pokemon ? {
       canonical: canonicalUrl(`/wiki/pokemon/${pokemon.id}`),
@@ -86,7 +87,7 @@ export default async function PokemonDetailPage({ params }: Props) {
         description={pokemon.overview || pokemon.description}
         url={`/wiki/pokemon/${pokemon.id}`}
         pageType="Pokemon"
-        image={pokemon.image_source ? pokemon.image_url : undefined}
+        image={hasClearedMediaRights(pokemon) ? pokemon.image_url : undefined}
         dateModified={modifiedAt}
         properties={[
           { name: 'Type', value: pokemon.type },
@@ -109,7 +110,7 @@ export default async function PokemonDetailPage({ params }: Props) {
       {pokemon.faqs && pokemon.faqs.length > 0 && <FAQJsonLd faqs={pokemon.faqs} title={pokemon.name} />}
       <article className="pokemon-detail-page">
         <div className="pokemon-detail-hero">
-          <CreditedImage src={pokemon.image_url} alt={pokemon.image_alt} source={pokemon.image_source} sourceUrl={pokemon.image_source_url} licenseNote={pokemon.image_license_note} originalMedia={pokemon.image_original_media} className="pokemon-portrait" sizes="180px" priority />
+          <CreditedImage src={pokemon.image_url} alt={pokemon.image_alt} source={pokemon.image_source} sourceUrl={pokemon.image_source_url} licenseNote={pokemon.image_license_note} originalMedia={pokemon.image_original_media} rightsStatus={pokemon.image_rights_status} className="pokemon-portrait" sizes="180px" priority />
           <div className="pokemon-hero-copy">
             <span className="panel-kicker">Pokemon Database</span>
             <h1>{pokemon.name}</h1>

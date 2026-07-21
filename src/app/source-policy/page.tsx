@@ -5,7 +5,7 @@ import { ArticleJsonLd, BreadcrumbJsonLd } from '@/components/seo/JsonLd'
 import { BASE_URL, canonicalUrl } from '@/lib/site'
 
 const pageUrl = '/source-policy'
-const reviewedAt = '2026-07-11'
+const reviewedAt = '2026-07-21'
 
 export const metadata: Metadata = {
   title: 'Source Policy',
@@ -54,7 +54,7 @@ export default function SourcePolicyPage() {
       <DataStatus
         status="Source standards page"
         note="Source priority affects page labels, sitemap inclusion, search index inclusion, and how strongly a page can state a gameplay claim."
-        updatedAt="July 11, 2026"
+        updatedAt="July 21, 2026"
       />
 
       <section className="guide-content-section">
@@ -74,10 +74,10 @@ export default function SourcePolicyPage() {
       <section className="guide-content-section">
         <h2>Images and Media</h2>
         <p>
-          Images should include nearby source labels or page-level attribution. Screenshots, official art, store assets, and user-submitted media must be used with clear context. Removal or attribution requests are handled through the copyright process.
+          Source attribution and reuse permission are separate requirements. Every media record must identify its source and carry a reviewed rights status. A source URL alone is not evidence that an image may be republished on an ad-supported site.
         </p>
         <p>
-          When an image is hosted by an official publisher or platform page, it should be labeled as official media. When an image is hosted by a third-party article that reposts official screenshots, the label should identify it as a reposted official promotional screenshot rather than original site artwork. Player screenshots require permission and should be labeled as player-submitted media. AI-generated images are not used as official news screenshots or official gameplay images.
+          Media is rendered only when its usage basis is documented as site-owned original work, licensed use, an applicable open license, or public domain. Official publisher assets and third-party reposts remain withheld unless permission for this use is documented. Player screenshots require permission and should be labeled as player-submitted media. AI-generated images are not used as official news screenshots or official gameplay images.
         </p>
       </section>
 

@@ -8,6 +8,7 @@ import { canonicalUrl } from '@/lib/site'
 import { cleanDescription, cleanTitle } from '@/lib/seoText'
 import { CreditedImage } from '@/components/media/CreditedImage'
 import { DataStatus } from '@/components/content/DataStatus'
+import { hasClearedMediaRights } from '@/lib/mediaRights'
 
 const categoryLabels: Record<string, string> = {
   official: 'Official',
@@ -50,7 +51,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     openGraph: {
       title,
       description,
-      images: news.image_source ? [news.image_url] : ['/og-image.svg'],
+      images: hasClearedMediaRights(news) ? [news.image_url] : ['/og-image.svg'],
       type: 'article',
       publishedTime: new Date(news.published_at * 1000).toISOString(),
       modifiedTime: news.updated_at ? new Date(news.updated_at).toISOString() : new Date(news.published_at * 1000).toISOString(),
@@ -60,7 +61,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       card: 'summary_large_image',
       title,
       description,
-      images: news.image_source ? [news.image_url] : ['/og-image.svg'],
+      images: hasClearedMediaRights(news) ? [news.image_url] : ['/og-image.svg'],
     },
     alternates: {
       canonical: canonicalUrl(`/news/${news.slug}`),
@@ -110,7 +111,7 @@ export default async function NewsDetailPage({ params }: Props) {
         url={`/news/${news.slug}`}
         publishedAt={new Date(news.published_at * 1000).toISOString()}
         modifiedAt={enrichedNews.updated_at ? new Date(enrichedNews.updated_at).toISOString() : new Date(news.published_at * 1000).toISOString()}
-        image={news.image_source ? news.image_url : undefined}
+        image={hasClearedMediaRights(news) ? news.image_url : undefined}
         type="NewsArticle"
       />
       <BreadcrumbJsonLd
@@ -135,7 +136,7 @@ export default async function NewsDetailPage({ params }: Props) {
                 <span>{news.source_type || 'Source-backed'}</span>
               </div>
             </div>
-            <CreditedImage src={news.image_url} alt={news.image_alt} source={news.image_source} sourceUrl={news.image_source_url} licenseNote={news.image_license_note} originalMedia={news.image_original_media} className="news-detail-cover" sizes="(max-width: 768px) 100vw, 420px" priority />
+            <CreditedImage src={news.image_url} alt={news.image_alt} source={news.image_source} sourceUrl={news.image_source_url} licenseNote={news.image_license_note} originalMedia={news.image_original_media} rightsStatus={news.image_rights_status} className="news-detail-cover" sizes="(max-width: 768px) 100vw, 420px" priority />
           </div>
 
           <DataStatus

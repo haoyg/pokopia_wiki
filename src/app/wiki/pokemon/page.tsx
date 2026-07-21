@@ -175,7 +175,7 @@ export default function PokemonPage() {
       <div className="pokemon-grid">
         {pokemonData.map((p) => (
           <a key={p.id} href={`/wiki/pokemon/${p.id}`} className="card">
-            <CreditedImage src={p.image_url} alt={p.image_alt || p.type} source={p.image_source} sourceUrl={p.image_source_url} licenseNote={p.image_license_note} originalMedia={p.image_original_media} className="card-cover pokemon-cover" sizes="(max-width: 768px) 100px, 200px" creditLink={false} />
+            <CreditedImage src={p.image_url} alt={p.image_alt || p.type} source={p.image_source} sourceUrl={p.image_source_url} licenseNote={p.image_license_note} originalMedia={p.image_original_media} rightsStatus={p.image_rights_status} className="card-cover pokemon-cover" sizes="(max-width: 768px) 100px, 200px" creditLink={false} />
             <h3 className="index-card-title index-card-title-center">{p.name}</h3>
             <p className="index-card-meta">{p.type}</p>
             <p className="index-card-submeta">{p.specialty} · {habitatNames[p.habitat] || p.habitat}</p>

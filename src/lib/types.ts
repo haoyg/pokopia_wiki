@@ -27,6 +27,11 @@ export interface Pokemon {
   image_source?: string
   image_source_url?: string
   image_license_note?: string
+  image_original_media?: string
+  image_rights_status?: string
+  image_usage_basis?: string
+  image_rights_reviewed_at?: string
+  image_rights_evidence_url?: string
   data_status?: string
   data_status_note?: string
   index_status?: string
@@ -59,6 +64,11 @@ export interface Habitat {
   image_source?: string
   image_source_url?: string
   image_license_note?: string
+  image_original_media?: string
+  image_rights_status?: string
+  image_usage_basis?: string
+  image_rights_reviewed_at?: string
+  image_rights_evidence_url?: string
   data_status?: string
   data_status_note?: string
   index_status?: string
@@ -90,6 +100,11 @@ export interface Recipe {
   image_source?: string
   image_source_url?: string
   image_license_note?: string
+  image_original_media?: string
+  image_rights_status?: string
+  image_usage_basis?: string
+  image_rights_reviewed_at?: string
+  image_rights_evidence_url?: string
   data_status?: string
   data_status_note?: string
   index_status?: string
@@ -117,6 +132,11 @@ export interface Guide {
   image_source?: string
   image_source_url?: string
   image_license_note?: string
+  image_original_media?: string
+  image_rights_status?: string
+  image_usage_basis?: string
+  image_rights_reviewed_at?: string
+  image_rights_evidence_url?: string
   data_status?: string
   data_status_note?: string
   index_status?: string
@@ -137,6 +157,11 @@ export interface News {
   image_source?: string
   image_source_url?: string
   image_license_note?: string
+  image_original_media?: string
+  image_rights_status?: string
+  image_usage_basis?: string
+  image_rights_reviewed_at?: string
+  image_rights_evidence_url?: string
   verified_status?: string
   source_label?: string
   source_url?: string

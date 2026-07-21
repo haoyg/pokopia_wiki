@@ -49,7 +49,10 @@
       "Do not rely on this page for underwater spawn, reward, or route details until an official source or documented testing supports them."
     ],
     "data_status_note": "This is a reviewed official-source update. Confirmed facts are limited to the linked Pokémon page; route advice and future underwater details remain outside its scope.",
-    "updated_at": "2026-07-16"
+    "updated_at": "2026-07-16",
+    "image_rights_status": "rights-review-required",
+    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
+    "image_rights_reviewed_at": "2026-07-21"
   },
   {
     "id": "news015",
@@ -102,7 +105,10 @@
       "Use Nintendo’s claim instructions for bonus recipes and codes instead of relying on screenshots or reposts."
     ],
     "data_status_note": "This is a reviewed official-source DLC summary. Dates, purchase bonuses, claim steps, and regional availability must be rechecked against Nintendo before purchase.",
-    "updated_at": "2026-07-16"
+    "updated_at": "2026-07-16",
+    "image_rights_status": "rights-review-required",
+    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
+    "image_rights_reviewed_at": "2026-07-21"
   },
   {
     "id": "news013",
@@ -154,7 +160,10 @@
       "Future event pages should be updated to archived status as soon as their official end time has passed."
     ],
     "data_status_note": "Archived after the official July 8, 2026 end time. The article preserves source-backed historical details and does not claim that the event is currently available.",
-    "updated_at": "2026-07-16"
+    "updated_at": "2026-07-16",
+    "image_rights_status": "rights-review-required",
+    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
+    "image_rights_reviewed_at": "2026-07-21"
   },
   {
     "id": "news014",
@@ -206,7 +215,10 @@
       "Use the source link for the current package list because hardware offers can change without affecting game content."
     ],
     "data_status_note": "This is a reviewed regional product announcement. It is not a global availability page and must not be used to infer another territory’s bundle, price, or stock.",
-    "updated_at": "2026-07-16"
+    "updated_at": "2026-07-16",
+    "image_rights_status": "rights-review-required",
+    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
+    "image_rights_reviewed_at": "2026-07-21"
   },
   {
     "id": "news001",
@@ -243,7 +255,10 @@
       "The linked primary source changes wording, date, eligibility, feature names, or regional details.",
       "A newer official article, trailer, support page, store page, or event notice replaces this information.",
       "A guide or tool cites this article for a more specific claim than the source currently supports."
-    ]
+    ],
+    "image_rights_status": "rights-review-required",
+    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
+    "image_rights_reviewed_at": "2026-07-21"
   },
   {
     "id": "news002",
@@ -280,7 +295,10 @@
       "The linked primary source changes wording, date, eligibility, feature names, or regional details.",
       "A newer official article, trailer, support page, store page, or event notice replaces this information.",
       "A guide or tool cites this article for a more specific claim than the source currently supports."
-    ]
+    ],
+    "image_rights_status": "rights-review-required",
+    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
+    "image_rights_reviewed_at": "2026-07-21"
   },
   {
     "id": "news003",
@@ -317,7 +335,10 @@
       "The linked primary source changes wording, date, eligibility, feature names, or regional details.",
       "A newer official article, trailer, support page, store page, or event notice replaces this information.",
       "A guide or tool cites this article for a more specific claim than the source currently supports."
-    ]
+    ],
+    "image_rights_status": "rights-review-required",
+    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
+    "image_rights_reviewed_at": "2026-07-21"
   },
   {
     "id": "news004",
@@ -354,7 +375,10 @@
       "The linked primary source changes wording, date, eligibility, feature names, or regional details.",
       "A newer official article, trailer, support page, store page, or event notice replaces this information.",
       "A guide or tool cites this article for a more specific claim than the source currently supports."
-    ]
+    ],
+    "image_rights_status": "rights-review-required",
+    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
+    "image_rights_reviewed_at": "2026-07-21"
   },
   {
     "id": "news005",
@@ -391,7 +415,10 @@
       "The linked primary source changes wording, date, eligibility, feature names, or regional details.",
       "A newer official article, trailer, support page, store page, or event notice replaces this information.",
       "A guide or tool cites this article for a more specific claim than the source currently supports."
-    ]
+    ],
+    "image_rights_status": "rights-review-required",
+    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
+    "image_rights_reviewed_at": "2026-07-21"
   },
   {
     "id": "news006",
@@ -428,7 +455,10 @@
       "The linked primary source changes wording, date, eligibility, feature names, or regional details.",
       "A newer official article, trailer, support page, store page, or event notice replaces this information.",
       "A guide or tool cites this article for a more specific claim than the source currently supports."
-    ]
+    ],
+    "image_rights_status": "rights-review-required",
+    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
+    "image_rights_reviewed_at": "2026-07-21"
   },
   {
     "id": "news007",
@@ -465,7 +495,10 @@
       "The linked primary source changes wording, date, eligibility, feature names, or regional details.",
       "A newer official article, trailer, support page, store page, or event notice replaces this information.",
       "A guide or tool cites this article for a more specific claim than the source currently supports."
-    ]
+    ],
+    "image_rights_status": "rights-review-required",
+    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
+    "image_rights_reviewed_at": "2026-07-21"
   },
   {
     "id": "news008",
@@ -502,7 +535,10 @@
       "The linked primary source changes wording, date, eligibility, feature names, or regional details.",
       "A newer official article, trailer, support page, store page, or event notice replaces this information.",
       "A guide or tool cites this article for a more specific claim than the source currently supports."
-    ]
+    ],
+    "image_rights_status": "rights-review-required",
+    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
+    "image_rights_reviewed_at": "2026-07-21"
   },
   {
     "id": "news009",
@@ -551,7 +587,10 @@
       "Route pages should link to this update when they need confirmed move context, then separate any personal testing from official facts."
     ],
     "data_status_note": "This is a reviewed official-source system summary. It intentionally stays narrow: confirmed move examples are separated from unverified move lists, balance claims, and route advice.",
-    "updated_at": "2026-07-16"
+    "updated_at": "2026-07-16",
+    "image_rights_status": "rights-review-required",
+    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
+    "image_rights_reviewed_at": "2026-07-21"
   },
   {
     "id": "news010",
@@ -601,7 +640,10 @@
       "Check current in-game menus after updates because daily challenges, shop inventory, and requests can change."
     ],
     "data_status_note": "This is a reviewed official-source tips summary. It distinguishes Nintendo’s stated systems from player-specific route and resource recommendations.",
-    "updated_at": "2026-07-16"
+    "updated_at": "2026-07-16",
+    "image_rights_status": "rights-review-required",
+    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
+    "image_rights_reviewed_at": "2026-07-21"
   },
   {
     "id": "news011",
@@ -638,7 +680,10 @@
       "The linked primary source changes wording, date, eligibility, feature names, or regional details.",
       "A newer official article, trailer, support page, store page, or event notice replaces this information.",
       "A guide or tool cites this article for a more specific claim than the source currently supports."
-    ]
+    ],
+    "image_rights_status": "rights-review-required",
+    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
+    "image_rights_reviewed_at": "2026-07-21"
   },
   {
     "id": "news012",
@@ -675,7 +720,10 @@
       "Editorial policy, source policy, corrections policy, sitemap rules, or search-index rules change.",
       "The build checks add or remove major content quality requirements.",
       "A site page cites this article to justify a labeling or indexing decision."
-    ]
+    ],
+    "image_rights_status": "rights-review-required",
+    "image_usage_basis": "Source attribution only; permission for commercial ad-supported reuse has not been verified.",
+    "image_rights_reviewed_at": "2026-07-21"
   },
   {
     "id": "news014",

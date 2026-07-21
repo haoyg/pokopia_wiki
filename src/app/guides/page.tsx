@@ -166,7 +166,7 @@ export default function GuidesPage() {
       <div className="guides-grid">
         {publishedGuides.map((guide) => (
           <a key={guide.id} href={`/guides/${guide.slug}`} className="card">
-            <CreditedImage src={guide.image_url} alt={guide.image_alt} source={guide.image_source} sourceUrl={guide.image_source_url} licenseNote={guide.image_license_note} originalMedia={guide.image_original_media} creditLink={false} />
+            <CreditedImage src={guide.image_url} alt={guide.image_alt} source={guide.image_source} sourceUrl={guide.image_source_url} licenseNote={guide.image_license_note} originalMedia={guide.image_original_media} rightsStatus={guide.image_rights_status} creditLink={false} />
             <div className="index-card-badges">
               <span className="badge">{categoryLabels[guide.category] || guide.category}</span>
               <span className="badge announcement">{guide.data_status}</span>
