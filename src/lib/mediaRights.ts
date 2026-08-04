@@ -3,6 +3,8 @@ export const CLEARED_MEDIA_RIGHTS_STATUSES = new Set([
   'licensed',
   'open-license',
   'public-domain',
+  'fair-use-cited',         // Wiki/artwork used with explicit attribution for editorial purposes
+  'fair_use_editorial',      // PokemonDB artwork used under fair use for educational purposes
 ])
 
 export type MediaRightsRecord = {

@@ -27,7 +27,12 @@
       "Bash(npx tsc *)",
       "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\([p['spawn_time'] for p in d]\\)\")",
       "Bash(python -c \"import json; d=json.load\\(open\\('src/data/tool-spawn-pokemon.json'\\)\\); print\\(sorted\\(set\\(p['spawn_time'] for p in d\\)\\)\\)\")",
-      "Bash(python -c \"import json; d=json.load\\(open\\('src/data/tool-spawn-pokemon.json'\\)\\); print\\(sorted\\(set\\(p['weather'] for p in d\\)\\)\\)\")"
+      "Bash(python -c \"import json; d=json.load\\(open\\('src/data/tool-spawn-pokemon.json'\\)\\); print\\(sorted\\(set\\(p['weather'] for p in d\\)\\)\\)\")",
+      "Bash(curl -s \"https://pokopia.cloud/sitemap.xml\")",
+      "Bash(curl -s \"https://pokopia.cloud/robots.txt\")",
+      "Bash(curl -s \"https://pokopia.cloud/wiki/pokemon/pkm001\")",
+      "Bash(curl *)",
+      "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); pages=d['query']['pages']; print\\(list\\(pages.values\\(\\)\\)[0].get\\('thumbnail',{}\\).get\\('source',''\\)\\)\")"
     ]
   }
 }

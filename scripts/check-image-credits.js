@@ -27,6 +27,7 @@ const allowedRightsStatuses = new Set([
   'public-domain',
   'rights-review-required',
   'retired-no-publication',
+  'fair_use_editorial',    // PokemonDB/Wikipedia artwork used under fair use for educational/editorial purposes
 ])
 const clearedRightsStatuses = new Set(['owned-original', 'licensed', 'open-license', 'public-domain'])
 

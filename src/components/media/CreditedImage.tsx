@@ -1,3 +1,5 @@
+import { CLEARED_MEDIA_RIGHTS_STATUSES } from '@/lib/mediaRights'
+
 type CreditedImageProps = {
   src?: string
   alt?: string
@@ -31,8 +33,7 @@ export function CreditedImage({
   fallbackAlt,
   fallbackSource = 'Pokopia Portal original editorial illustration',
 }: CreditedImageProps) {
-  const clearedRightsStatuses = new Set(['owned-original', 'licensed', 'open-license', 'public-domain'])
-  const canUseCreditedImage = Boolean(src && source && rightsStatus && clearedRightsStatuses.has(rightsStatus))
+  const canUseCreditedImage = Boolean(src && source && rightsStatus && CLEARED_MEDIA_RIGHTS_STATUSES.has(rightsStatus))
   const imageSrc = canUseCreditedImage ? src : fallbackSrc
   const imageAlt = canUseCreditedImage ? (alt || source) : (fallbackAlt || alt || fallbackSource)
   const imageSource = canUseCreditedImage ? source : fallbackSource

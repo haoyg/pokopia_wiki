@@ -8,7 +8,9 @@
     "pokopia.pokemon.com",
     "www.nintendo.com",
     "policies.google.com",
-    "adssettings.google.com"
+    "adssettings.google.com",
+    "pokemondb.net",
+    "bulbapedia.bulbagarden.net"
   ],
   "legal_context_routes": [
     "/copyright",
