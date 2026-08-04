@@ -5,9 +5,9 @@ import pokemonData from '@/data/pokemon.json'
 import habitatsData from '@/data/habitats.json'
 import recipesData from '@/data/recipes.json'
 import { canonicalUrl } from '@/lib/site'
-import { CreditedImage } from '@/components/media/CreditedImage'
 import { ItemListJsonLd, WebPageJsonLd } from '@/components/seo/JsonLd'
 import { isIndexableGuide } from '@/lib/indexing'
+import { habitatImage, newsImage, pokemonImage, recipeImage } from '@/lib/localImages'
 
 export const metadata: Metadata = {
   title: 'Pokopia Wiki: Guides, Pokemon, Tools',
@@ -29,16 +29,16 @@ const categoryLabels: Record<string, string> = {
 }
 
 const wikiTiles = [
-  { href: '/wiki/pokemon', label: 'Pokemon', icon: 'PK', detail: 'Types, food, drops' },
-  { href: '/wiki/habitat', label: 'Habitats', icon: 'HB', detail: 'Routes and weather' },
-  { href: '/wiki/recipe', label: 'Recipes', icon: 'RC', detail: 'Buffs and timing' },
-  { href: '/guides', label: 'Guides', icon: 'GD', detail: 'Walkthroughs' },
-  { href: '/official', label: 'Official', icon: 'OF', detail: 'Confirmed info' },
-  { href: '/news', label: 'News', icon: 'NW', detail: 'Source updates' },
-  { href: '/tools/spawn-tracker', label: 'Spawns', icon: 'SP', detail: 'Lookup tool' },
-  { href: '/tools/team-builder', label: 'Teams', icon: 'TM', detail: 'Draft planner' },
-  { href: '/tools/habitat-planner', label: 'Planner', icon: 'PL', detail: 'Route planning' },
-  { href: '/tools/recipe-calculator', label: 'Calculator', icon: 'CA', detail: 'Recipe compare' },
+  { href: '/wiki/pokemon', label: 'Pokemon', image: '/images/pokemon/pikafire.svg', detail: 'Types, food, drops' },
+  { href: '/wiki/habitat', label: 'Habitats', image: '/images/habitats/hab002-forest-valley.svg', detail: 'Routes and weather' },
+  { href: '/wiki/recipe', label: 'Recipes', image: '/images/recipes/rec001-honey-cake.svg', detail: 'Buffs and timing' },
+  { href: '/guides', label: 'Guides', image: '/images/guides/best-starter-pokemon.svg', detail: 'Walkthroughs' },
+  { href: '/official', label: 'Official', image: '/logo-mark.png', detail: 'Confirmed info' },
+  { href: '/news', label: 'News', image: '/images/news/pokopia-dive-update-cover.png', detail: 'Source updates' },
+  { href: '/tools/spawn-tracker', label: 'Spawns', image: '/icons/grass.svg', detail: 'Lookup tool' },
+  { href: '/tools/team-builder', label: 'Teams', image: '/icons/fire.svg', detail: 'Draft planner' },
+  { href: '/tools/habitat-planner', label: 'Planner', image: '/icons/ground.svg', detail: 'Route planning' },
+  { href: '/tools/recipe-calculator', label: 'Calculator', image: '/icons/water.svg', detail: 'Recipe compare' },
 ]
 
 const sideGroups = [
@@ -150,18 +150,13 @@ export default function Home() {
           <section className="wiki-feature-grid" aria-label="Featured updates">
             {leadCards.map((item, index) => (
               <a key={item.id} href={`/news/${item.slug}`} className="wiki-feature-card">
-                <CreditedImage
-                  src={item.image_url}
-                  alt={item.image_alt}
-                  source={item.image_source}
-                  sourceUrl={item.image_source_url}
-                  licenseNote={item.image_license_note}
-                  originalMedia={item.image_original_media}
-                  rightsStatus={item.image_rights_status}
+                <img
                   className="wiki-feature-image"
-                  sizes="(max-width: 900px) 100vw, 430px"
-                  priority={index === 0}
-                  creditLink={false}
+                  src={newsImage(item.slug)}
+                  alt=""
+                  loading={index === 0 ? 'eager' : 'lazy'}
+                  decoding="async"
+                  fetchPriority={index === 0 ? 'high' : 'auto'}
                 />
                 <span>{index === 0 ? 'Latest' : 'Upcoming'}</span>
                 <h2>{item.title}</h2>
@@ -178,7 +173,7 @@ export default function Home() {
             <div className="wiki-tile-grid">
               {wikiTiles.map((tile) => (
                 <a key={tile.href} href={tile.href} className="wiki-tile">
-                  <span>{tile.icon}</span>
+                  <span><img src={tile.image} alt="" loading="lazy" decoding="async" /></span>
                   <strong>{tile.label}</strong>
                   <small>{tile.detail}</small>
                 </a>
@@ -231,6 +226,7 @@ export default function Home() {
                 <h3>Pokemon</h3>
                 {featuredPokemon.map((pokemon) => (
                   <a key={pokemon.id} href={`/wiki/pokemon/${pokemon.id}`}>
+                    <img className="wiki-list-thumb" src={pokemonImage(pokemon.name)} alt="" loading="lazy" decoding="async" />
                     <span>{pokemon.name}</span>
                     <small>{pokemon.type} / {pokemon.rarity}</small>
                   </a>
@@ -240,6 +236,7 @@ export default function Home() {
                 <h3>Habitats</h3>
                 {featuredHabitats.map((habitat) => (
                   <a key={habitat.id} href={`/wiki/habitat/${habitat.id}`}>
+                    <img className="wiki-list-thumb" src={habitatImage(habitat.id, habitat.name)} alt="" loading="lazy" decoding="async" />
                     <span>{habitat.name}</span>
                     <small>{habitat.weather} / {habitat.difficulty}</small>
                   </a>
@@ -249,6 +246,7 @@ export default function Home() {
                 <h3>Recipes</h3>
                 {featuredRecipes.map((recipe) => (
                   <a key={recipe.id} href={`/wiki/recipe/${recipe.id}`}>
+                    <img className="wiki-list-thumb" src={recipeImage(recipe.id, recipe.name)} alt="" loading="lazy" decoding="async" />
                     <span>{recipe.name}</span>
                     <small>{recipe.rarity} / {recipe.effect_duration}</small>
                   </a>

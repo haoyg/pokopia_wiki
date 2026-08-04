@@ -12,6 +12,7 @@ import { DataStatus } from '@/components/content/DataStatus'
 import { OfficialContext } from '@/components/content/OfficialContext'
 import { SourceReview } from '@/components/content/SourceReview'
 import { isIndexableDatabaseEntry, noIndexMetadata } from '@/lib/indexing'
+import { habitatImage } from '@/lib/localImages'
 
 type SourceReviewFields = {
   sources?: { label?: string; url?: string }[]
@@ -129,7 +130,7 @@ export default async function HabitatDetailPage({ params }: Props) {
               ]}
             />
           </div>
-          <CreditedImage src={habitat.image_url} alt={habitat.image_alt || habitat.name} source={habitat.image_source} sourceUrl={habitat.image_source_url} licenseNote={habitat.image_license_note} originalMedia={habitat.image_original_media} rightsStatus={habitat.image_rights_status} className="habitat-hero-cover" sizes="(max-width: 768px) 100vw, 420px" priority />
+          <CreditedImage src={habitat.image_url} alt={habitat.image_alt || habitat.name} source={habitat.image_source} sourceUrl={habitat.image_source_url} licenseNote={habitat.image_license_note} originalMedia={habitat.image_original_media} rightsStatus={habitat.image_rights_status} className="habitat-hero-cover" sizes="(max-width: 768px) 100vw, 420px" priority fallbackSrc={habitatImage(habitat.id, habitat.name)} fallbackAlt={`${habitat.name} habitat illustration`} />
         </div>
 
         <div className="habitat-quick-facts" aria-label={`${habitat.name} quick facts`}>

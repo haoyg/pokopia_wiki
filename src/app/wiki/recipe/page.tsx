@@ -5,6 +5,7 @@ import { noIndexMetadata } from '@/lib/indexing'
 import { CreditedImage } from '@/components/media/CreditedImage'
 import { DataStatus } from '@/components/content/DataStatus'
 import { BreadcrumbJsonLd, ItemListJsonLd } from '@/components/seo/JsonLd'
+import { recipeImage } from '@/lib/localImages'
 
 const rarityLabels: Record<string, string> = {
   'common': 'Common', 'uncommon': 'Uncommon', 'rare': 'Rare', 'legendary': 'Legendary',
@@ -179,7 +180,7 @@ export default function RecipePage() {
       <div className="pokemon-grid">
         {recipesData.map((r) => (
           <a key={r.id} href={`/wiki/recipe/${r.id}`} className="card">
-            <CreditedImage src={r.image_url} alt={r.image_alt || r.name} source={r.image_source} sourceUrl={r.image_source_url} licenseNote={r.image_license_note} originalMedia={r.image_original_media} rightsStatus={r.image_rights_status} creditLink={false} />
+            <CreditedImage src={r.image_url} alt={r.image_alt || r.name} source={r.image_source} sourceUrl={r.image_source_url} licenseNote={r.image_license_note} originalMedia={r.image_original_media} rightsStatus={r.image_rights_status} creditLink={false} fallbackSrc={recipeImage(r.id, r.name)} fallbackAlt={`${r.name} recipe illustration`} />
             <h3 className="index-card-title index-card-title-center">{r.name}</h3>
             <p className="index-card-meta">{r.buff}</p>
             <p className="index-card-submeta">{r.effect_duration} · {r.best_use}</p>

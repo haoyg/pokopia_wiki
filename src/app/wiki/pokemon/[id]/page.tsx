@@ -12,6 +12,7 @@ import { DataStatus } from '@/components/content/DataStatus'
 import { OfficialContext } from '@/components/content/OfficialContext'
 import { SourceReview } from '@/components/content/SourceReview'
 import { isIndexableDatabaseEntry, noIndexMetadata } from '@/lib/indexing'
+import { pokemonImage } from '@/lib/localImages'
 
 type SourceReviewFields = {
   sources?: { label?: string; url?: string }[]
@@ -110,7 +111,7 @@ export default async function PokemonDetailPage({ params }: Props) {
       {pokemon.faqs && pokemon.faqs.length > 0 && <FAQJsonLd faqs={pokemon.faqs} title={pokemon.name} />}
       <article className="pokemon-detail-page">
         <div className="pokemon-detail-hero">
-          <CreditedImage src={pokemon.image_url} alt={pokemon.image_alt} source={pokemon.image_source} sourceUrl={pokemon.image_source_url} licenseNote={pokemon.image_license_note} originalMedia={pokemon.image_original_media} rightsStatus={pokemon.image_rights_status} className="pokemon-portrait" sizes="180px" priority />
+          <CreditedImage src={pokemon.image_url} alt={pokemon.image_alt} source={pokemon.image_source} sourceUrl={pokemon.image_source_url} licenseNote={pokemon.image_license_note} originalMedia={pokemon.image_original_media} rightsStatus={pokemon.image_rights_status} className="pokemon-portrait" sizes="180px" priority fallbackSrc={pokemonImage(pokemon.name)} fallbackAlt={`${pokemon.name} Pokemon illustration`} />
           <div className="pokemon-hero-copy">
             <span className="panel-kicker">Pokemon Database</span>
             <h1>{pokemon.name}</h1>

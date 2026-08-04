@@ -9,6 +9,7 @@ import { cleanDescription, cleanTitle } from '@/lib/seoText'
 import { CreditedImage } from '@/components/media/CreditedImage'
 import { DataStatus } from '@/components/content/DataStatus'
 import { hasClearedMediaRights } from '@/lib/mediaRights'
+import { newsImage } from '@/lib/localImages'
 
 const categoryLabels: Record<string, string> = {
   official: 'Official',
@@ -136,7 +137,7 @@ export default async function NewsDetailPage({ params }: Props) {
                 <span>{news.source_type || 'Source-backed'}</span>
               </div>
             </div>
-            <CreditedImage src={news.image_url} alt={news.image_alt} source={news.image_source} sourceUrl={news.image_source_url} licenseNote={news.image_license_note} originalMedia={news.image_original_media} rightsStatus={news.image_rights_status} className="news-detail-cover" sizes="(max-width: 768px) 100vw, 420px" priority />
+            <CreditedImage src={news.image_url} alt={news.image_alt} source={news.image_source} sourceUrl={news.image_source_url} licenseNote={news.image_license_note} originalMedia={news.image_original_media} rightsStatus={news.image_rights_status} className="news-detail-cover" sizes="(max-width: 768px) 100vw, 420px" priority fallbackSrc={newsImage(news.slug)} fallbackAlt={`${news.title} news illustration`} />
           </div>
 
           <DataStatus

@@ -11,6 +11,7 @@ import { DataStatus } from '@/components/content/DataStatus'
 import { OfficialContext } from '@/components/content/OfficialContext'
 import { isIndexableGuide, noIndexMetadata } from '@/lib/indexing'
 import { hasClearedMediaRights } from '@/lib/mediaRights'
+import { guideImage } from '@/lib/localImages'
 
 interface Props {
   params: Promise<{ slug: string }>
@@ -125,7 +126,7 @@ export default async function GuideDetailPage({ params }: Props) {
                 description="This page contains unverified editorial planning claims. Its credited promotional image does not verify those claims; use the official-source pages for confirmed Pokémon Pokopia systems."
               />
             </div>
-            <CreditedImage src={guide.image_url} alt={guide.image_alt} source={guide.image_source} sourceUrl={guide.image_source_url} licenseNote={guide.image_license_note} originalMedia={guide.image_original_media} rightsStatus={guide.image_rights_status} className="guide-hero-cover" sizes="(max-width: 768px) 100vw, 420px" priority />
+            <CreditedImage src={guide.image_url} alt={guide.image_alt} source={guide.image_source} sourceUrl={guide.image_source_url} licenseNote={guide.image_license_note} originalMedia={guide.image_original_media} rightsStatus={guide.image_rights_status} className="guide-hero-cover" sizes="(max-width: 768px) 100vw, 420px" priority fallbackSrc={guideImage(guide.slug)} fallbackAlt={`${guide.title} guide illustration`} />
           </div>
 
           <section className="guide-answer-panel">

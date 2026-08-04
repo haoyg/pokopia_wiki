@@ -3,6 +3,7 @@ import newsData from '@/data/news.json'
 import { canonicalUrl } from '@/lib/site'
 import { CreditedImage } from '@/components/media/CreditedImage'
 import { BreadcrumbJsonLd, ItemListJsonLd } from '@/components/seo/JsonLd'
+import { newsImage } from '@/lib/localImages'
 
 const categoryLabels: Record<string, string> = {
   official: 'Official',
@@ -104,7 +105,7 @@ export default function NewsPage() {
 
       <section className="news-lead-panel">
         <a href={`/news/${leadNews.slug}`} className="news-lead-card">
-          <CreditedImage src={leadNews.image_url} alt={leadNews.image_alt} source={leadNews.image_source} sourceUrl={leadNews.image_source_url} licenseNote={leadNews.image_license_note} originalMedia={leadNews.image_original_media} rightsStatus={leadNews.image_rights_status} className="news-lead-image" sizes="(max-width: 768px) 100vw, 620px" priority creditLink={false} />
+          <CreditedImage src={leadNews.image_url} alt={leadNews.image_alt} source={leadNews.image_source} sourceUrl={leadNews.image_source_url} licenseNote={leadNews.image_license_note} originalMedia={leadNews.image_original_media} rightsStatus={leadNews.image_rights_status} className="news-lead-image" sizes="(max-width: 768px) 100vw, 620px" priority creditLink={false} fallbackSrc={newsImage(leadNews.slug)} fallbackAlt={`${leadNews.title} news illustration`} />
           <div>
             <span className={`badge ${leadNews.category}`}>{categoryLabels[leadNews.category] || leadNews.category}</span>
             <h2>{leadNews.title}</h2>
@@ -170,7 +171,7 @@ export default function NewsPage() {
       <div className="news-grid">
         {newsData.slice(1).map((item) => (
           <a key={item.id} href={`/news/${item.slug}`} className="card">
-            <CreditedImage src={item.image_url} alt={item.image_alt} source={item.image_source} sourceUrl={item.image_source_url} licenseNote={item.image_license_note} originalMedia={item.image_original_media} rightsStatus={item.image_rights_status} creditLink={false} />
+            <CreditedImage src={item.image_url} alt={item.image_alt} source={item.image_source} sourceUrl={item.image_source_url} licenseNote={item.image_license_note} originalMedia={item.image_original_media} rightsStatus={item.image_rights_status} creditLink={false} fallbackSrc={newsImage(item.slug)} fallbackAlt={`${item.title} news illustration`} />
             <span className={`badge ${item.category}`}>{categoryLabels[item.category] || item.category}</span>
             <h3>{item.title}</h3>
             <p>{item.excerpt}</p>

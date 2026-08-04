@@ -10,6 +10,9 @@ type CreditedImageProps = {
   sizes?: string
   creditLink?: boolean
   rightsStatus?: string
+  fallbackSrc?: string
+  fallbackAlt?: string
+  fallbackSource?: string
 }
 
 export function CreditedImage({
@@ -24,12 +27,20 @@ export function CreditedImage({
   sizes,
   creditLink = true,
   rightsStatus,
+  fallbackSrc,
+  fallbackAlt,
+  fallbackSource = 'Pokopia Portal original editorial illustration',
 }: CreditedImageProps) {
   const clearedRightsStatuses = new Set(['owned-original', 'licensed', 'open-license', 'public-domain'])
-  if (!src || !source || !rightsStatus || !clearedRightsStatuses.has(rightsStatus)) return null
+  const canUseCreditedImage = Boolean(src && source && rightsStatus && clearedRightsStatuses.has(rightsStatus))
+  const imageSrc = canUseCreditedImage ? src : fallbackSrc
+  const imageAlt = canUseCreditedImage ? (alt || source) : (fallbackAlt || alt || fallbackSource)
+  const imageSource = canUseCreditedImage ? source : fallbackSource
+  const showCredit = canUseCreditedImage || fallbackSrc
+  if (!imageSrc) return null
 
-  const isRemote = src.startsWith('http://') || src.startsWith('https://')
-  const localNintendoMedia = src.match(/^(\/media\/nintendo\/.+)\.(jpe?g|png)$/i)
+  const isRemote = imageSrc.startsWith('http://') || imageSrc.startsWith('https://')
+  const localNintendoMedia = imageSrc.match(/^(\/media\/nintendo\/.+)\.(jpe?g|png)$/i)
   const responsiveSrcSet = localNintendoMedia
     ? `${localNintendoMedia[1]}-640.webp 640w, ${localNintendoMedia[1]}-1280.webp 1280w`
     : undefined
@@ -43,8 +54,8 @@ export function CreditedImage({
         <picture>
           {responsiveSrcSet && <source type="image/webp" srcSet={responsiveSrcSet} sizes={responsiveSizes} />}
           <img
-            src={src}
-            alt={alt || source}
+            src={imageSrc}
+            alt={imageAlt}
             loading={loading}
             decoding="async"
             fetchPriority={fetchPriority}
@@ -54,16 +65,18 @@ export function CreditedImage({
         </picture>
       </div>
       <figcaption style={{ color: '#777', fontSize: '0.75rem', lineHeight: 1.5, marginTop: '0.35rem' }}>
-        <span>
-          Image source: {sourceUrl && creditLink ? <a href={sourceUrl} rel="nofollow noopener noreferrer" target="_blank">{source}</a> : source}
-        </span>
-        {originalMedia && (
+        {showCredit && (
+          <span>
+            Image source: {canUseCreditedImage && sourceUrl && creditLink ? <a href={sourceUrl} rel="nofollow noopener noreferrer" target="_blank">{imageSource}</a> : imageSource}
+          </span>
+        )}
+        {canUseCreditedImage && originalMedia && (
           <>
             <br />
             <span>Original media: {originalMedia}</span>
           </>
         )}
-        {priority && licenseNote && (
+        {canUseCreditedImage && priority && licenseNote && (
           <>
             <br />
             <span>Use note: {licenseNote}</span>

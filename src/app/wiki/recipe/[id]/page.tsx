@@ -12,6 +12,7 @@ import { DataStatus } from '@/components/content/DataStatus'
 import { OfficialContext } from '@/components/content/OfficialContext'
 import { SourceReview } from '@/components/content/SourceReview'
 import { isIndexableDatabaseEntry, noIndexMetadata } from '@/lib/indexing'
+import { recipeImage } from '@/lib/localImages'
 
 type SourceReviewFields = {
   sources?: { label?: string; url?: string }[]
@@ -128,7 +129,7 @@ export default async function RecipeDetailPage({ params }: Props) {
               ]}
             />
           </div>
-          <CreditedImage src={recipe.image_url} alt={recipe.image_alt || recipe.name} source={recipe.image_source} sourceUrl={recipe.image_source_url} licenseNote={recipe.image_license_note} originalMedia={recipe.image_original_media} rightsStatus={recipe.image_rights_status} className="recipe-hero-cover" sizes="(max-width: 768px) 100vw, 420px" priority />
+          <CreditedImage src={recipe.image_url} alt={recipe.image_alt || recipe.name} source={recipe.image_source} sourceUrl={recipe.image_source_url} licenseNote={recipe.image_license_note} originalMedia={recipe.image_original_media} rightsStatus={recipe.image_rights_status} className="recipe-hero-cover" sizes="(max-width: 768px) 100vw, 420px" priority fallbackSrc={recipeImage(recipe.id, recipe.name)} fallbackAlt={`${recipe.name} recipe illustration`} />
         </div>
 
         <div className="recipe-quick-facts" aria-label={`${recipe.name} quick facts`}>

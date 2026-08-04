@@ -4304,7 +4304,6 @@ body {
 }
 
 .wiki-feature-image,
-.wiki-feature-image picture,
 .wiki-feature-image img {
   display: block;
   width: 100%;
@@ -4314,14 +4313,11 @@ body {
 .wiki-feature-image {
   position: absolute;
   inset: 0;
-}
-
-.wiki-feature-image img {
   object-fit: cover;
 }
 
 .wiki-feature-card span,
-.wiki-feature-card h1,
+.wiki-feature-card h2,
 .wiki-feature-card p {
   position: relative;
   z-index: 1;
@@ -4337,7 +4333,7 @@ body {
   font-weight: 900;
 }
 
-.wiki-feature-card h1 {
+.wiki-feature-card h2 {
   margin: 4.6rem 1rem 0.35rem;
   color: #fff;
   font-size: 1.28rem;
@@ -4410,13 +4406,20 @@ body {
 .wiki-tile span {
   display: grid;
   place-items: center;
-  width: 46px;
-  height: 46px;
+  width: 54px;
+  height: 54px;
   margin: 0 auto;
   border: 3px solid #777;
   background: #8fc96f;
   color: #173100;
   font-weight: 900;
+}
+
+.wiki-tile span img {
+  display: block;
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
 }
 
 .wiki-tile strong {
@@ -4488,7 +4491,9 @@ body {
 
 .wiki-list-columns a {
   display: grid;
-  grid-template-columns: minmax(0, 1fr);
+  grid-template-columns: 42px minmax(0, 1fr);
+  grid-template-rows: auto auto;
+  column-gap: 0.55rem;
   padding: 0.5rem 0.65rem;
   border: 2px solid #c5c5c5;
   background: #fff;
@@ -4502,12 +4507,25 @@ body {
 }
 
 .wiki-list-columns span {
+  align-self: end;
   font-weight: 800;
 }
 
 .wiki-list-columns small {
+  grid-column: 2;
   color: #666;
   font-size: 0.78rem;
+}
+
+.wiki-list-thumb {
+  grid-row: 1 / span 2;
+  display: block;
+  width: 42px;
+  height: 42px;
+  padding: 3px;
+  border: 2px solid #c7c7c7;
+  background: #e7e7e7;
+  object-fit: contain;
 }
 
 .wiki-card {
