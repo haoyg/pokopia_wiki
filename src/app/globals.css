@@ -1854,6 +1854,54 @@ section h2::before {
   background: rgba(245, 252, 255, 0.88);
 }
 
+.pokemon-team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: var(--space-3);
+  margin-top: var(--space-3);
+}
+
+.pokemon-team-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  padding: var(--space-3);
+  border: 1px solid rgba(200, 210, 200, 0.9);
+  border-radius: 8px;
+  background: rgba(248, 252, 248, 0.95);
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+
+.pokemon-team-card:hover {
+  border-color: rgba(74, 158, 255, 0.5);
+  box-shadow: 0 2px 8px rgba(74, 130, 255, 0.12);
+}
+
+.pokemon-team-card .team-card-name {
+  font-weight: 600;
+  font-size: var(--font-size-base);
+  color: var(--color-heading, #1a2e1a);
+}
+
+.pokemon-team-card .team-card-type {
+  font-size: var(--font-size-sm);
+  color: var(--color-text, #3a4a3a);
+}
+
+.pokemon-team-card .team-card-role {
+  font-size: var(--font-size-xs);
+  color: var(--color-accent, #4a8a4a);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.pokemon-team-card .team-card-habitat {
+  font-size: var(--font-size-xs);
+  color: #888;
+}
+
 .pokemon-faq-list {
   display: grid;
   gap: var(--space-4);

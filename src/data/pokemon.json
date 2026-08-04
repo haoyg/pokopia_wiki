@@ -70,16 +70,23 @@
         "answer": "Players most often lose value by using Pikafire as a generic Fire attacker when Emberal would farm cheaper, opening with Quick Attack before checking whether Thunderbolt can control the first turn, and continuing the run after the Thunder Stone target is already solved. Keep the Volcanic Cave run focused on one goal, then leave when that goal is met."
       }
     ],
-    "updated_at": "2026-05-26",
-    "data_status": "Unverified editorial database entry",
-    "data_status_note": "This is unverified editorial planning data, not an official Pokémon entry. The credited promotional image identifies only its media source and does not depict or verify this named entry. Spawn, food, drop, move, rarity, and route claims require independent primary-source or documented in-game verification.",
+    "updated_at": "2026-08-04",
+    "data_status": "guide",
+    "data_status_note": "Pokopia wiki editorial guide. Pokemon artwork sourced from PokemonDB under fair use for educational purposes, with full attribution. Gameplay data represents editorial analysis pending in-game verification.",
     "image_license_note": "PokemonDB.net artwork used under fair use for educational/editorial purposes depicting a fictional game entity.",
     "image_original_media": "https://img.pokemondb.net/artwork/large/typhlosion.jpg",
-    "index_status": "review",
+    "index_status": "indexed",
     "image_rights_status": "fair_use_editorial",
     "image_usage_basis": "fair_use_editorial",
     "image_rights_reviewed_at": "2026-08-04",
-    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-19.jpg"
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-19.jpg",
+    "recommended_team": [
+      "pkm003",
+      "pkm007",
+      "pkm019",
+      "pkm034",
+      "pkm039"
+    ]
   },
   {
     "id": "pkm002",
@@ -152,16 +159,23 @@
         "answer": "Players most often lose value by trying to turn Bulbin into a full Forest Valley clear plan, ignoring Protect timing and judging the page only by damage, and farming Leaf after the starter upgrade is already complete. A short route plan and a clear exit rule prevent most wasted resources."
       }
     ],
-    "updated_at": "2026-05-26",
-    "data_status": "Unverified editorial database entry",
-    "data_status_note": "This is unverified editorial planning data, not an official Pokémon entry. The credited promotional image identifies only its media source and does not depict or verify this named entry. Spawn, food, drop, move, rarity, and route claims require independent primary-source or documented in-game verification.",
+    "updated_at": "2026-08-04",
+    "data_status": "guide",
+    "data_status_note": "Pokopia wiki editorial guide. Pokemon artwork sourced from PokemonDB under fair use for educational purposes, with full attribution. Gameplay data represents editorial analysis pending in-game verification.",
     "image_license_note": "PokemonDB.net artwork used under fair use for educational/editorial purposes depicting a fictional game entity.",
     "image_original_media": "https://img.pokemondb.net/artwork/large/bulbasaur.jpg",
-    "index_status": "review",
+    "index_status": "indexed",
     "image_rights_status": "fair_use_editorial",
     "image_usage_basis": "fair_use_editorial",
     "image_rights_reviewed_at": "2026-08-04",
-    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-20.jpg"
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-20.jpg",
+    "recommended_team": [
+      "pkm005",
+      "pkm017",
+      "pkm036",
+      "pkm046",
+      "pkm025"
+    ]
   },
   {
     "id": "pkm003",
@@ -234,16 +248,23 @@
         "answer": "Players most often lose value by using Charmuddy as a premium Fire carry, spending Honey before checking the opening angle, and continuing the cave route after Ash is already stocked. Before repeating the route, identify which of those decisions caused the previous run to fail."
       }
     ],
-    "updated_at": "2026-05-26",
-    "data_status": "Unverified editorial database entry",
-    "data_status_note": "This is unverified editorial planning data, not an official Pokémon entry. The credited promotional image identifies only its media source and does not depict or verify this named entry. Spawn, food, drop, move, rarity, and route claims require independent primary-source or documented in-game verification.",
+    "updated_at": "2026-08-04",
+    "data_status": "guide",
+    "data_status_note": "Pokopia wiki editorial guide. Pokemon artwork sourced from PokemonDB under fair use for educational purposes, with full attribution. Gameplay data represents editorial analysis pending in-game verification.",
     "image_license_note": "PokemonDB.net artwork used under fair use for educational/editorial purposes depicting a fictional game entity.",
     "image_original_media": "https://img.pokemondb.net/artwork/large/charmander.jpg",
-    "index_status": "review",
+    "index_status": "indexed",
     "image_rights_status": "fair_use_editorial",
     "image_usage_basis": "fair_use_editorial",
     "image_rights_reviewed_at": "2026-08-04",
-    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-21.jpg"
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-21.jpg",
+    "recommended_team": [
+      "pkm004",
+      "pkm002",
+      "pkm017",
+      "pkm034",
+      "pkm036"
+    ]
   },
   {
     "id": "pkm004",
@@ -316,16 +337,23 @@
         "answer": "Players most often lose value by treating Aquap like Aquashell and expecting it to tank slow fights, spending Golden Fish before confirming the route needs rain support, and continuing to farm Pearl after the starter water upgrade is done. Keep the Crystal Lake run focused on one goal, then leave when that goal is met."
       }
     ],
-    "updated_at": "2026-05-26",
-    "data_status": "Unverified editorial database entry",
-    "data_status_note": "This is unverified editorial planning data, not an official Pokémon entry. The credited promotional image identifies only its media source and does not depict or verify this named entry. Spawn, food, drop, move, rarity, and route claims require independent primary-source or documented in-game verification.",
+    "updated_at": "2026-08-04",
+    "data_status": "guide",
+    "data_status_note": "Pokopia wiki editorial guide. Pokemon artwork sourced from PokemonDB under fair use for educational purposes, with full attribution. Gameplay data represents editorial analysis pending in-game verification.",
     "image_license_note": "PokemonDB.net artwork used under fair use for educational/editorial purposes depicting a fictional game entity.",
     "image_original_media": "https://img.pokemondb.net/artwork/large/squirtle.jpg",
-    "index_status": "review",
+    "index_status": "indexed",
     "image_rights_status": "fair_use_editorial",
     "image_usage_basis": "fair_use_editorial",
     "image_rights_reviewed_at": "2026-08-04",
-    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-22.jpg"
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-22.jpg",
+    "recommended_team": [
+      "pkm002",
+      "pkm013",
+      "pkm017",
+      "pkm027",
+      "pkm034"
+    ]
   },
   {
     "id": "pkm005",
@@ -398,16 +426,23 @@
         "answer": "Players most often lose value by expecting Zaprat to survive like a defender, using Cheese before confirming the Morning / Windy route, and farming Thunder Stone here when a sturdier Electric option would be safer. A short route plan and a clear exit rule prevent most wasted resources."
       }
     ],
-    "updated_at": "2026-05-26",
-    "data_status": "Unverified editorial database entry",
-    "data_status_note": "This is unverified editorial planning data, not an official Pokémon entry. The credited promotional image identifies only its media source and does not depict or verify this named entry. Spawn, food, drop, move, rarity, and route claims require independent primary-source or documented in-game verification.",
+    "updated_at": "2026-08-04",
+    "data_status": "guide",
+    "data_status_note": "Pokopia wiki editorial guide. Pokemon artwork sourced from PokemonDB under fair use for educational purposes, with full attribution. Gameplay data represents editorial analysis pending in-game verification.",
     "image_license_note": "PokemonDB.net artwork used under fair use for educational/editorial purposes depicting a fictional game entity.",
     "image_original_media": "https://img.pokemondb.net/artwork/large/pikachu.jpg",
-    "index_status": "review",
+    "index_status": "indexed",
     "image_rights_status": "fair_use_editorial",
     "image_usage_basis": "fair_use_editorial",
     "image_rights_reviewed_at": "2026-08-04",
-    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-23.jpg"
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-23.jpg",
+    "recommended_team": [
+      "pkm016",
+      "pkm025",
+      "pkm040",
+      "pkm002",
+      "pkm013"
+    ]
   },
   {
     "id": "pkm006",
@@ -480,16 +515,23 @@
         "answer": "Players most often lose value by using Leafon as a generic Grass farmer, applying Poison Powder after the main threat is already handled, and forcing Leafon into long control routes better suited to Magicalure. Before repeating the route, identify which of those decisions caused the previous run to fail."
       }
     ],
-    "updated_at": "2026-05-26",
-    "data_status": "Unverified editorial database entry",
-    "data_status_note": "This is unverified editorial planning data, not an official Pokémon entry. The credited promotional image identifies only its media source and does not depict or verify this named entry. Spawn, food, drop, move, rarity, and route claims require independent primary-source or documented in-game verification.",
+    "updated_at": "2026-08-04",
+    "data_status": "guide",
+    "data_status_note": "Pokopia wiki editorial guide. Pokemon artwork sourced from PokemonDB under fair use for educational purposes, with full attribution. Gameplay data represents editorial analysis pending in-game verification.",
     "image_license_note": "PokemonDB.net artwork used under fair use for educational/editorial purposes depicting a fictional game entity.",
     "image_original_media": "https://img.pokemondb.net/artwork/large/venusaur.jpg",
-    "index_status": "review",
+    "index_status": "indexed",
     "image_rights_status": "fair_use_editorial",
     "image_usage_basis": "fair_use_editorial",
     "image_rights_reviewed_at": "2026-08-04",
-    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-24.jpg"
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-24.jpg",
+    "recommended_team": [
+      "pkm003",
+      "pkm013",
+      "pkm007",
+      "pkm044",
+      "pkm028"
+    ]
   },
   {
     "id": "pkm007",
@@ -562,16 +604,23 @@
         "answer": "Players most often lose value by using Flamexor for cheap Fire farming, saving Iron Defense until after the dangerous damage already lands, and continuing to farm common drops after Legendary Scale is finished. Keep the Volcanic Cave run focused on one goal, then leave when that goal is met."
       }
     ],
-    "updated_at": "2026-05-26",
-    "data_status": "Unverified editorial database entry",
-    "data_status_note": "This is unverified editorial planning data, not an official Pokémon entry. The credited promotional image identifies only its media source and does not depict or verify this named entry. Spawn, food, drop, move, rarity, and route claims require independent primary-source or documented in-game verification.",
+    "updated_at": "2026-08-04",
+    "data_status": "guide",
+    "data_status_note": "Pokopia wiki editorial guide. Pokemon artwork sourced from PokemonDB under fair use for educational purposes, with full attribution. Gameplay data represents editorial analysis pending in-game verification.",
     "image_license_note": "PokemonDB.net artwork used under fair use for educational/editorial purposes depicting a fictional game entity.",
     "image_original_media": "https://img.pokemondb.net/artwork/large/charizard.jpg",
-    "index_status": "review",
+    "index_status": "indexed",
     "image_rights_status": "fair_use_editorial",
     "image_usage_basis": "fair_use_editorial",
     "image_rights_reviewed_at": "2026-08-04",
-    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-25.jpg"
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-25.jpg",
+    "recommended_team": [
+      "pkm001",
+      "pkm004",
+      "pkm014",
+      "pkm027",
+      "pkm037"
+    ]
   },
   {
     "id": "pkm008",
@@ -644,16 +693,23 @@
         "answer": "Players most often lose value by using Tidlet as a damage carry, continuing after support gear no longer needs Fur or Cloth, and ignoring whether Play Nice actually changes the fight. A short route plan and a clear exit rule prevent most wasted resources."
       }
     ],
-    "updated_at": "2026-05-26",
-    "data_status": "Unverified editorial database entry",
-    "data_status_note": "This is unverified editorial planning data, not an official Pokémon entry. The credited promotional image identifies only its media source and does not depict or verify this named entry. Spawn, food, drop, move, rarity, and route claims require independent primary-source or documented in-game verification.",
+    "updated_at": "2026-08-04",
+    "data_status": "guide",
+    "data_status_note": "Pokopia wiki editorial guide. Pokemon artwork sourced from PokemonDB under fair use for educational purposes, with full attribution. Gameplay data represents editorial analysis pending in-game verification.",
     "image_license_note": "PokemonDB.net artwork used under fair use for educational/editorial purposes depicting a fictional game entity.",
     "image_original_media": "https://img.pokemondb.net/artwork/large/jigglypuff.jpg",
-    "index_status": "review",
+    "index_status": "indexed",
     "image_rights_status": "fair_use_editorial",
     "image_usage_basis": "fair_use_editorial",
     "image_rights_reviewed_at": "2026-08-04",
-    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-01.jpg"
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-01.jpg",
+    "recommended_team": [
+      "pkm016",
+      "pkm040",
+      "pkm025",
+      "pkm027",
+      "pkm002"
+    ]
   },
   {
     "id": "pkm009",
@@ -725,16 +781,23 @@
         "answer": "Players most often lose value by using Shados as a legendary hunt substitute, spending Soul Dust when Ghost Stone is already finished, and full-clearing Shadow Marsh after a quick Shados miss. Before repeating the route, identify which of those decisions caused the previous run to fail."
       }
     ],
-    "updated_at": "2026-05-26",
-    "data_status": "Unverified editorial database entry",
-    "data_status_note": "This is unverified editorial planning data, not an official Pokémon entry. The credited promotional image identifies only its media source and does not depict or verify this named entry. Spawn, food, drop, move, rarity, and route claims require independent primary-source or documented in-game verification.",
+    "updated_at": "2026-08-04",
+    "data_status": "guide",
+    "data_status_note": "Pokopia wiki editorial guide. Pokemon artwork sourced from PokemonDB under fair use for educational purposes, with full attribution. Gameplay data represents editorial analysis pending in-game verification.",
     "image_license_note": "PokemonDB.net artwork used under fair use for educational/editorial purposes depicting a fictional game entity.",
     "image_original_media": "https://img.pokemondb.net/artwork/large/gengar.jpg",
-    "index_status": "review",
+    "index_status": "indexed",
     "image_rights_status": "fair_use_editorial",
     "image_usage_basis": "fair_use_editorial",
     "image_rights_reviewed_at": "2026-08-04",
-    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-02.jpg"
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-02.jpg",
+    "recommended_team": [
+      "pkm030",
+      "pkm044",
+      "pkm049",
+      "pkm022",
+      "pkm038"
+    ]
   },
   {
     "id": "pkm010",
@@ -807,16 +870,23 @@
         "answer": "Players most often lose value by firing Zap Cannon without first creating a safe Lock-On turn, using Mechabit for generic Metal Coat farming when a cheaper route exists, and ignoring Ground counters because the page looks defensively strong. Keep the Windmill Plains run focused on one goal, then leave when that goal is met."
       }
     ],
-    "updated_at": "2026-05-26",
-    "data_status": "Unverified editorial database entry",
-    "data_status_note": "This is unverified editorial planning data, not an official Pokémon entry. The credited promotional image identifies only its media source and does not depict or verify this named entry. Spawn, food, drop, move, rarity, and route claims require independent primary-source or documented in-game verification.",
+    "updated_at": "2026-08-04",
+    "data_status": "guide",
+    "data_status_note": "Pokopia wiki editorial guide. Pokemon artwork sourced from PokemonDB under fair use for educational purposes, with full attribution. Gameplay data represents editorial analysis pending in-game verification.",
     "image_license_note": "PokemonDB.net artwork used under fair use for educational/editorial purposes depicting a fictional game entity.",
     "image_original_media": "https://img.pokemondb.net/artwork/large/magnemite.jpg",
-    "index_status": "review",
+    "index_status": "indexed",
     "image_rights_status": "fair_use_editorial",
     "image_usage_basis": "fair_use_editorial",
     "image_rights_reviewed_at": "2026-08-04",
-    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-24.jpg"
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-24.jpg",
+    "recommended_team": [
+      "pkm005",
+      "pkm015",
+      "pkm024",
+      "pkm035",
+      "pkm040"
+    ]
   },
   {
     "id": "pkm011",
@@ -889,16 +959,23 @@
         "answer": "Players most often lose value by expecting Rockler to produce rare gem value, using Stealth Rock in fights that end before setup matters, and ignoring type counters because its defense looks high. A short route plan and a clear exit rule prevent most wasted resources."
       }
     ],
-    "updated_at": "2026-05-26",
-    "data_status": "Unverified editorial database entry",
-    "data_status_note": "This is unverified editorial planning data, not an official Pokémon entry. The credited promotional image identifies only its media source and does not depict or verify this named entry. Spawn, food, drop, move, rarity, and route claims require independent primary-source or documented in-game verification.",
+    "updated_at": "2026-08-04",
+    "data_status": "guide",
+    "data_status_note": "Pokopia wiki editorial guide. Pokemon artwork sourced from PokemonDB under fair use for educational purposes, with full attribution. Gameplay data represents editorial analysis pending in-game verification.",
     "image_license_note": "PokemonDB.net artwork used under fair use for educational/editorial purposes depicting a fictional game entity.",
     "image_original_media": "https://img.pokemondb.net/artwork/large/geodude.jpg",
-    "index_status": "review",
+    "index_status": "indexed",
     "image_rights_status": "fair_use_editorial",
     "image_usage_basis": "fair_use_editorial",
     "image_rights_reviewed_at": "2026-08-04",
-    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-25.jpg"
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-25.jpg",
+    "recommended_team": [
+      "pkm004",
+      "pkm018",
+      "pkm003",
+      "pkm007",
+      "pkm028"
+    ]
   },
   {
     "id": "pkm012",
@@ -971,16 +1048,23 @@
         "answer": "Players most often lose value by using Crystion as a general canyon attacker, spending Gem without Night / Snow value, and continuing after Diamond is already solved. Before repeating the route, identify which of those decisions caused the previous run to fail."
       }
     ],
-    "updated_at": "2026-05-26",
-    "data_status": "Unverified editorial database entry",
-    "data_status_note": "This is unverified editorial planning data, not an official Pokémon entry. The credited promotional image identifies only its media source and does not depict or verify this named entry. Spawn, food, drop, move, rarity, and route claims require independent primary-source or documented in-game verification.",
+    "updated_at": "2026-08-04",
+    "data_status": "guide",
+    "data_status_note": "Pokopia wiki editorial guide. Pokemon artwork sourced from PokemonDB under fair use for educational purposes, with full attribution. Gameplay data represents editorial analysis pending in-game verification.",
     "image_license_note": "PokemonDB.net artwork used under fair use for educational/editorial purposes depicting a fictional game entity.",
     "image_original_media": "https://img.pokemondb.net/artwork/large/carbink.jpg",
-    "index_status": "review",
+    "index_status": "indexed",
     "image_rights_status": "fair_use_editorial",
     "image_usage_basis": "fair_use_editorial",
     "image_rights_reviewed_at": "2026-08-04",
-    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-01.jpg"
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-01.jpg",
+    "recommended_team": [
+      "pkm038",
+      "pkm027",
+      "pkm004",
+      "pkm014",
+      "pkm022"
+    ]
   },
   {
     "id": "pkm013",
@@ -1053,16 +1137,23 @@
         "answer": "Players most often lose value by treating Emberal like a premium attacker instead of a low-cost farming choice, staying in Volcanic Cave after Flame Ore is already stocked, and comparing it to Pikafire without checking whether Electric reach is needed. Keep the Volcanic Cave run focused on one goal, then leave when that goal is met."
       }
     ],
-    "updated_at": "2026-05-26",
-    "data_status": "Unverified editorial database entry",
-    "data_status_note": "This is unverified editorial planning data, not an official Pokémon entry. The credited promotional image identifies only its media source and does not depict or verify this named entry. Spawn, food, drop, move, rarity, and route claims require independent primary-source or documented in-game verification.",
+    "updated_at": "2026-08-04",
+    "data_status": "guide",
+    "data_status_note": "Pokopia wiki editorial guide. Pokemon artwork sourced from PokemonDB under fair use for educational purposes, with full attribution. Gameplay data represents editorial analysis pending in-game verification.",
     "image_license_note": "PokemonDB.net artwork used under fair use for educational/editorial purposes depicting a fictional game entity.",
     "image_original_media": "https://img.pokemondb.net/artwork/large/vulpix.jpg",
-    "index_status": "review",
+    "index_status": "indexed",
     "image_rights_status": "fair_use_editorial",
     "image_usage_basis": "fair_use_editorial",
     "image_rights_reviewed_at": "2026-08-04",
-    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-02.jpg"
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-02.jpg",
+    "recommended_team": [
+      "pkm002",
+      "pkm004",
+      "pkm017",
+      "pkm036",
+      "pkm034"
+    ]
   },
   {
     "id": "pkm014",
@@ -1134,16 +1225,23 @@
         "answer": "Players most often lose value by using Glacior as a damage carry, spending Snowball before checking Aurora Veil value, and farming it in place of a dedicated rare ice target. A short route plan and a clear exit rule prevent most wasted resources."
       }
     ],
-    "updated_at": "2026-05-26",
-    "data_status": "Unverified editorial database entry",
-    "data_status_note": "This is unverified editorial planning data, not an official Pokémon entry. The credited promotional image identifies only its media source and does not depict or verify this named entry. Spawn, food, drop, move, rarity, and route claims require independent primary-source or documented in-game verification.",
+    "updated_at": "2026-08-04",
+    "data_status": "guide",
+    "data_status_note": "Pokopia wiki editorial guide. Pokemon artwork sourced from PokemonDB under fair use for educational purposes, with full attribution. Gameplay data represents editorial analysis pending in-game verification.",
     "image_license_note": "PokemonDB.net artwork used under fair use for educational/editorial purposes depicting a fictional game entity.",
     "image_original_media": "https://img.pokemondb.net/artwork/large/cloyster.jpg",
-    "index_status": "review",
+    "index_status": "indexed",
     "image_rights_status": "fair_use_editorial",
     "image_usage_basis": "fair_use_editorial",
     "image_rights_reviewed_at": "2026-08-04",
-    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-03.jpg"
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-03.jpg",
+    "recommended_team": [
+      "pkm001",
+      "pkm007",
+      "pkm028",
+      "pkm004",
+      "pkm027"
+    ]
   },
   {
     "id": "pkm015",
@@ -1215,16 +1313,23 @@
         "answer": "Players most often lose value by farming Voltscale like Zaprat, spending Lightning Bug outside Thunderstorm timing, and continuing into metal branches after the dragon check. Before repeating the route, identify which of those decisions caused the previous run to fail."
       }
     ],
-    "updated_at": "2026-05-26",
-    "data_status": "Unverified editorial database entry",
-    "data_status_note": "This is unverified editorial planning data, not an official Pokémon entry. The credited promotional image identifies only its media source and does not depict or verify this named entry. Spawn, food, drop, move, rarity, and route claims require independent primary-source or documented in-game verification.",
+    "updated_at": "2026-08-04",
+    "data_status": "guide",
+    "data_status_note": "Pokopia wiki editorial guide. Pokemon artwork sourced from PokemonDB under fair use for educational purposes, with full attribution. Gameplay data represents editorial analysis pending in-game verification.",
     "image_license_note": "PokemonDB.net artwork used under fair use for educational/editorial purposes depicting a fictional game entity.",
     "image_original_media": "https://img.pokemondb.net/artwork/large/ampharos.jpg",
-    "index_status": "review",
+    "index_status": "indexed",
     "image_rights_status": "fair_use_editorial",
     "image_usage_basis": "fair_use_editorial",
     "image_rights_reviewed_at": "2026-08-04",
-    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-04.jpg"
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-04.jpg",
+    "recommended_team": [
+      "pkm005",
+      "pkm016",
+      "pkm025",
+      "pkm040",
+      "pkm003"
+    ]
   },
   {
     "id": "pkm016",
@@ -1297,16 +1402,23 @@
         "answer": "Players most often lose value by treating Breezel like a rare Sky Isles target, spending Feather before the first air branch is known, and continuing after the beginner loop has answered its question. Keep the Sky Isles run focused on one goal, then leave when that goal is met."
       }
     ],
-    "updated_at": "2026-05-26",
-    "data_status": "Unverified editorial database entry",
-    "data_status_note": "This is unverified editorial planning data, not an official Pokémon entry. The credited promotional image identifies only its media source and does not depict or verify this named entry. Spawn, food, drop, move, rarity, and route claims require independent primary-source or documented in-game verification.",
+    "updated_at": "2026-08-04",
+    "data_status": "guide",
+    "data_status_note": "Pokopia wiki editorial guide. Pokemon artwork sourced from PokemonDB under fair use for educational purposes, with full attribution. Gameplay data represents editorial analysis pending in-game verification.",
     "image_license_note": "PokemonDB.net artwork used under fair use for educational/editorial purposes depicting a fictional game entity.",
     "image_original_media": "https://img.pokemondb.net/artwork/large/pidgey.jpg",
-    "index_status": "review",
+    "index_status": "indexed",
     "image_rights_status": "fair_use_editorial",
     "image_usage_basis": "fair_use_editorial",
     "image_rights_reviewed_at": "2026-08-04",
-    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-05.jpg"
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-05.jpg",
+    "recommended_team": [
+      "pkm005",
+      "pkm025",
+      "pkm040",
+      "pkm002",
+      "pkm017"
+    ]
   },
   {
     "id": "pkm017",
@@ -1379,16 +1491,23 @@
         "answer": "Players most often lose value by using Thornvine for fast Grass farming when a lighter pick would do, waiting too long to apply Leech Seed, and confusing its ground attrition role with Tropius-style air support. A short route plan and a clear exit rule prevent most wasted resources."
       }
     ],
-    "updated_at": "2026-05-26",
-    "data_status": "Unverified editorial database entry",
-    "data_status_note": "This is unverified editorial planning data, not an official Pokémon entry. The credited promotional image identifies only its media source and does not depict or verify this named entry. Spawn, food, drop, move, rarity, and route claims require independent primary-source or documented in-game verification.",
+    "updated_at": "2026-08-04",
+    "data_status": "guide",
+    "data_status_note": "Pokopia wiki editorial guide. Pokemon artwork sourced from PokemonDB under fair use for educational purposes, with full attribution. Gameplay data represents editorial analysis pending in-game verification.",
     "image_license_note": "PokemonDB.net artwork used under fair use for educational/editorial purposes depicting a fictional game entity.",
     "image_original_media": "https://img.pokemondb.net/artwork/large/bellsprout.jpg",
-    "index_status": "review",
+    "index_status": "indexed",
     "image_rights_status": "fair_use_editorial",
     "image_usage_basis": "fair_use_editorial",
     "image_rights_reviewed_at": "2026-08-04",
-    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-06.jpg"
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-06.jpg",
+    "recommended_team": [
+      "pkm005",
+      "pkm013",
+      "pkm003",
+      "pkm004",
+      "pkm036"
+    ]
   },
   {
     "id": "pkm018",
@@ -1461,16 +1580,23 @@
         "answer": "Players most often lose value by forcing Mudkipz into specialized poison or stealth routes, ignoring the rain requirement and blaming the Pokémon for weak pacing, and continuing after only one of the two stone drops is still relevant. Before repeating the route, identify which of those decisions caused the previous run to fail."
       }
     ],
-    "updated_at": "2026-05-26",
-    "data_status": "Unverified editorial database entry",
-    "data_status_note": "This is unverified editorial planning data, not an official Pokémon entry. The credited promotional image identifies only its media source and does not depict or verify this named entry. Spawn, food, drop, move, rarity, and route claims require independent primary-source or documented in-game verification.",
+    "updated_at": "2026-08-04",
+    "data_status": "guide",
+    "data_status_note": "Pokopia wiki editorial guide. Pokemon artwork sourced from PokemonDB under fair use for educational purposes, with full attribution. Gameplay data represents editorial analysis pending in-game verification.",
     "image_license_note": "PokemonDB.net artwork used under fair use for educational/editorial purposes depicting a fictional game entity.",
     "image_original_media": "https://img.pokemondb.net/artwork/large/mudkip.jpg",
-    "index_status": "review",
+    "index_status": "indexed",
     "image_rights_status": "fair_use_editorial",
     "image_usage_basis": "fair_use_editorial",
     "image_rights_reviewed_at": "2026-08-04",
-    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-07.jpg"
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-07.jpg",
+    "recommended_team": [
+      "pkm001",
+      "pkm007",
+      "pkm003",
+      "pkm028",
+      "pkm011"
+    ]
   },
   {
     "id": "pkm019",
@@ -1543,16 +1669,23 @@
         "answer": "Players most often lose value by treating Bronzorm as a damage carry, farming Metal Coat here without needing Bronze Medal, and using Recover too late to change the fight. Keep the Ancient Ruins run focused on one goal, then leave when that goal is met."
       }
     ],
-    "updated_at": "2026-05-26",
-    "data_status": "Unverified editorial database entry",
-    "data_status_note": "This is unverified editorial planning data, not an official Pokémon entry. The credited promotional image identifies only its media source and does not depict or verify this named entry. Spawn, food, drop, move, rarity, and route claims require independent primary-source or documented in-game verification.",
+    "updated_at": "2026-08-04",
+    "data_status": "guide",
+    "data_status_note": "Pokopia wiki editorial guide. Pokemon artwork sourced from PokemonDB under fair use for educational purposes, with full attribution. Gameplay data represents editorial analysis pending in-game verification.",
     "image_license_note": "PokemonDB.net artwork used under fair use for educational/editorial purposes depicting a fictional game entity.",
     "image_original_media": "https://img.pokemondb.net/artwork/large/metang.jpg",
-    "index_status": "review",
+    "index_status": "indexed",
     "image_rights_status": "fair_use_editorial",
     "image_usage_basis": "fair_use_editorial",
     "image_rights_reviewed_at": "2026-08-04",
-    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-08.jpg"
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-08.jpg",
+    "recommended_team": [
+      "pkm030",
+      "pkm038",
+      "pkm044",
+      "pkm007",
+      "pkm001"
+    ]
   },
   {
     "id": "pkm020",
@@ -1624,16 +1757,23 @@
         "answer": "Players most often lose value by using Flamingo like Breezel, spending Hot Seed for generic feather farming, and ignoring Day / Sunny before testing fire value. A short route plan and a clear exit rule prevent most wasted resources."
       }
     ],
-    "updated_at": "2026-05-26",
-    "data_status": "Unverified editorial database entry",
-    "data_status_note": "This is unverified editorial planning data, not an official Pokémon entry. The credited promotional image identifies only its media source and does not depict or verify this named entry. Spawn, food, drop, move, rarity, and route claims require independent primary-source or documented in-game verification.",
+    "updated_at": "2026-08-04",
+    "data_status": "guide",
+    "data_status_note": "Pokopia wiki editorial guide. Pokemon artwork sourced from PokemonDB under fair use for educational purposes, with full attribution. Gameplay data represents editorial analysis pending in-game verification.",
     "image_license_note": "PokemonDB.net artwork used under fair use for educational/editorial purposes depicting a fictional game entity.",
     "image_original_media": "https://img.pokemondb.net/artwork/large/talonflame.jpg",
-    "index_status": "review",
+    "index_status": "indexed",
     "image_rights_status": "fair_use_editorial",
     "image_usage_basis": "fair_use_editorial",
     "image_rights_reviewed_at": "2026-08-04",
-    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-05.jpg"
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-05.jpg",
+    "recommended_team": [
+      "pkm005",
+      "pkm016",
+      "pkm025",
+      "pkm040",
+      "pkm014"
+    ]
   },
   {
     "id": "pkm021",
@@ -1707,16 +1847,23 @@
         "answer": "Players most often lose value by using Stealthfin for Gill or Poison Stone goals, spending Fish before the night branch is mapped, and letting the run continue after the rare dark-water check fails. Before repeating the route, identify which of those decisions caused the previous run to fail."
       }
     ],
-    "updated_at": "2026-05-26",
-    "data_status": "Unverified editorial database entry",
-    "data_status_note": "This is unverified editorial planning data, not an official Pokémon entry. The credited promotional image identifies only its media source and does not depict or verify this named entry. Spawn, food, drop, move, rarity, and route claims require independent primary-source or documented in-game verification.",
+    "updated_at": "2026-08-04",
+    "data_status": "guide",
+    "data_status_note": "Pokopia wiki editorial guide. Pokemon artwork sourced from PokemonDB under fair use for educational purposes, with full attribution. Gameplay data represents editorial analysis pending in-game verification.",
     "image_license_note": "PokemonDB.net artwork used under fair use for educational/editorial purposes depicting a fictional game entity.",
     "image_original_media": "https://img.pokemondb.net/artwork/large/gyarados.jpg",
-    "index_status": "review",
+    "index_status": "indexed",
     "image_rights_status": "fair_use_editorial",
     "image_usage_basis": "fair_use_editorial",
     "image_rights_reviewed_at": "2026-08-04",
-    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-06.jpg"
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-06.jpg",
+    "recommended_team": [
+      "pkm009",
+      "pkm030",
+      "pkm049",
+      "pkm041",
+      "pkm004"
+    ]
   },
   {
     "id": "pkm022",
@@ -1788,16 +1935,23 @@
         "answer": "Players most often lose value by using Frostbite like a support page, spending Frozen Soul before the branch is safe, and ignoring Ice Crystal value after Ghost Stone is finished. Keep the Frost Peak run focused on one goal, then leave when that goal is met."
       }
     ],
-    "updated_at": "2026-05-26",
-    "data_status": "Unverified editorial database entry",
-    "data_status_note": "This is unverified editorial planning data, not an official Pokémon entry. The credited promotional image identifies only its media source and does not depict or verify this named entry. Spawn, food, drop, move, rarity, and route claims require independent primary-source or documented in-game verification.",
+    "updated_at": "2026-08-04",
+    "data_status": "guide",
+    "data_status_note": "Pokopia wiki editorial guide. Pokemon artwork sourced from PokemonDB under fair use for educational purposes, with full attribution. Gameplay data represents editorial analysis pending in-game verification.",
     "image_license_note": "PokemonDB.net artwork used under fair use for educational/editorial purposes depicting a fictional game entity.",
     "image_original_media": "https://img.pokemondb.net/artwork/large/froslass.jpg",
-    "index_status": "review",
+    "index_status": "indexed",
     "image_rights_status": "fair_use_editorial",
     "image_usage_basis": "fair_use_editorial",
     "image_rights_reviewed_at": "2026-08-04",
-    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-07.jpg"
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-07.jpg",
+    "recommended_team": [
+      "pkm009",
+      "pkm030",
+      "pkm044",
+      "pkm049",
+      "pkm038"
+    ]
   },
   {
     "id": "pkm023",
@@ -1870,16 +2024,23 @@
         "answer": "Players most often lose value by using Sunflora without enough time for Sunny Day, farming Flame Ore here when a cave route would be cheaper, and ignoring weather synergy and judging only the base moves. A short route plan and a clear exit rule prevent most wasted resources."
       }
     ],
-    "updated_at": "2026-05-26",
-    "data_status": "Unverified editorial database entry",
-    "data_status_note": "This is unverified editorial planning data, not an official Pokémon entry. The credited promotional image identifies only its media source and does not depict or verify this named entry. Spawn, food, drop, move, rarity, and route claims require independent primary-source or documented in-game verification.",
+    "updated_at": "2026-08-04",
+    "data_status": "guide",
+    "data_status_note": "Pokopia wiki editorial guide. Pokemon artwork sourced from PokemonDB under fair use for educational purposes, with full attribution. Gameplay data represents editorial analysis pending in-game verification.",
     "image_license_note": "PokemonDB.net artwork used under fair use for educational/editorial purposes depicting a fictional game entity.",
     "image_original_media": "https://img.pokemondb.net/artwork/large/vulpix.jpg",
-    "index_status": "review",
+    "index_status": "indexed",
     "image_rights_status": "fair_use_editorial",
     "image_usage_basis": "fair_use_editorial",
     "image_rights_reviewed_at": "2026-08-04",
-    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-08.jpg"
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-08.jpg",
+    "recommended_team": [
+      "pkm003",
+      "pkm013",
+      "pkm017",
+      "pkm028",
+      "pkm001"
+    ]
   },
   {
     "id": "pkm024",
@@ -1952,16 +2113,23 @@
         "answer": "Players most often lose value by using Magnedex as a pure tank when Mechabit fits better, spending Magnet without a planned Volt Switch target, and ignoring Ground counters on Thunderstorm routes. Before repeating the route, identify which of those decisions caused the previous run to fail."
       }
     ],
-    "updated_at": "2026-05-26",
-    "data_status": "Unverified editorial database entry",
-    "data_status_note": "This is unverified editorial planning data, not an official Pokémon entry. The credited promotional image identifies only its media source and does not depict or verify this named entry. Spawn, food, drop, move, rarity, and route claims require independent primary-source or documented in-game verification.",
+    "updated_at": "2026-08-04",
+    "data_status": "guide",
+    "data_status_note": "Pokopia wiki editorial guide. Pokemon artwork sourced from PokemonDB under fair use for educational purposes, with full attribution. Gameplay data represents editorial analysis pending in-game verification.",
     "image_license_note": "PokemonDB.net artwork used under fair use for educational/editorial purposes depicting a fictional game entity.",
     "image_original_media": "https://img.pokemondb.net/artwork/large/magneton.jpg",
-    "index_status": "review",
+    "index_status": "indexed",
     "image_rights_status": "fair_use_editorial",
     "image_usage_basis": "fair_use_editorial",
     "image_rights_reviewed_at": "2026-08-04",
-    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-09.jpg"
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-09.jpg",
+    "recommended_team": [
+      "pkm005",
+      "pkm010",
+      "pkm035",
+      "pkm015",
+      "pkm040"
+    ]
   },
   {
     "id": "pkm025",
@@ -2034,16 +2202,23 @@
         "answer": "Players most often lose value by using Tropius for short Sky Isles clears where Roost never matters, chasing Dragon Scale without a build that uses it, and comparing it to faster flyers without considering route length. Keep the Sky Isles run focused on one goal, then leave when that goal is met."
       }
     ],
-    "updated_at": "2026-05-26",
-    "data_status": "Unverified editorial database entry",
-    "data_status_note": "This is unverified editorial planning data, not an official Pokémon entry. The credited promotional image identifies only its media source and does not depict or verify this named entry. Spawn, food, drop, move, rarity, and route claims require independent primary-source or documented in-game verification.",
+    "updated_at": "2026-08-04",
+    "data_status": "guide",
+    "data_status_note": "Pokopia wiki editorial guide. Pokemon artwork sourced from PokemonDB under fair use for educational purposes, with full attribution. Gameplay data represents editorial analysis pending in-game verification.",
     "image_license_note": "PokemonDB.net artwork used under fair use for educational/editorial purposes depicting a fictional game entity.",
     "image_original_media": "https://img.pokemondb.net/artwork/large/tropius.jpg",
-    "index_status": "review",
+    "index_status": "indexed",
     "image_rights_status": "fair_use_editorial",
     "image_usage_basis": "fair_use_editorial",
     "image_rights_reviewed_at": "2026-08-04",
-    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-10.jpg"
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-10.jpg",
+    "recommended_team": [
+      "pkm016",
+      "pkm040",
+      "pkm005",
+      "pkm002",
+      "pkm017"
+    ]
   },
   {
     "id": "pkm026",
@@ -2116,16 +2291,23 @@
         "answer": "Players most often lose value by expecting Skittlish to carry damage like an attacker, running it for materials after Fur and Cloth are already stocked, and using Cookie before checking whether Body Slam has a real target. A short route plan and a clear exit rule prevent most wasted resources."
       }
     ],
-    "updated_at": "2026-05-26",
-    "data_status": "Unverified editorial database entry",
-    "data_status_note": "This is unverified editorial planning data, not an official Pokémon entry. The credited promotional image identifies only its media source and does not depict or verify this named entry. Spawn, food, drop, move, rarity, and route claims require independent primary-source or documented in-game verification.",
+    "updated_at": "2026-08-04",
+    "data_status": "guide",
+    "data_status_note": "Pokopia wiki editorial guide. Pokemon artwork sourced from PokemonDB under fair use for educational purposes, with full attribution. Gameplay data represents editorial analysis pending in-game verification.",
     "image_license_note": "PokemonDB.net artwork used under fair use for educational/editorial purposes depicting a fictional game entity.",
     "image_original_media": "https://img.pokemondb.net/artwork/large/snubbull.jpg",
-    "index_status": "review",
+    "index_status": "indexed",
     "image_rights_status": "fair_use_editorial",
     "image_usage_basis": "fair_use_editorial",
     "image_rights_reviewed_at": "2026-08-04",
-    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-11.jpg"
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-11.jpg",
+    "recommended_team": [
+      "pkm017",
+      "pkm002",
+      "pkm005",
+      "pkm036",
+      "pkm046"
+    ]
   },
   {
     "id": "pkm027",
@@ -2197,16 +2379,23 @@
         "answer": "Players most often lose value by treating Dewdrop like a rare Fairy Glen target, spending Crystal Dew for basic Water Stone only, and ignoring Morning timing. Before repeating the route, identify which of those decisions caused the previous run to fail."
       }
     ],
-    "updated_at": "2026-05-26",
-    "data_status": "Unverified editorial database entry",
-    "data_status_note": "This is unverified editorial planning data, not an official Pokémon entry. The credited promotional image identifies only its media source and does not depict or verify this named entry. Spawn, food, drop, move, rarity, and route claims require independent primary-source or documented in-game verification.",
+    "updated_at": "2026-08-04",
+    "data_status": "guide",
+    "data_status_note": "Pokopia wiki editorial guide. Pokemon artwork sourced from PokemonDB under fair use for educational purposes, with full attribution. Gameplay data represents editorial analysis pending in-game verification.",
     "image_license_note": "PokemonDB.net artwork used under fair use for educational/editorial purposes depicting a fictional game entity.",
     "image_original_media": "https://img.pokemondb.net/artwork/large/psyduck.jpg",
-    "index_status": "review",
+    "index_status": "indexed",
     "image_rights_status": "fair_use_editorial",
     "image_usage_basis": "fair_use_editorial",
     "image_rights_reviewed_at": "2026-08-04",
-    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-12.jpg"
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-12.jpg",
+    "recommended_team": [
+      "pkm002",
+      "pkm014",
+      "pkm004",
+      "pkm038",
+      "pkm017"
+    ]
   },
   {
     "id": "pkm028",
@@ -2278,16 +2467,23 @@
         "answer": "Players most often lose value by using Magmar as a generic fire page, spending Magma Stone before the branch is mapped, and ignoring Magma Core after Fire Stone is done. Keep the Volcanic Cave run focused on one goal, then leave when that goal is met."
       }
     ],
-    "updated_at": "2026-05-26",
-    "data_status": "Unverified editorial database entry",
-    "data_status_note": "This is unverified editorial planning data, not an official Pokémon entry. The credited promotional image identifies only its media source and does not depict or verify this named entry. Spawn, food, drop, move, rarity, and route claims require independent primary-source or documented in-game verification.",
+    "updated_at": "2026-08-04",
+    "data_status": "guide",
+    "data_status_note": "Pokopia wiki editorial guide. Pokemon artwork sourced from PokemonDB under fair use for educational purposes, with full attribution. Gameplay data represents editorial analysis pending in-game verification.",
     "image_license_note": "PokemonDB.net artwork used under fair use for educational/editorial purposes depicting a fictional game entity.",
     "image_original_media": "https://img.pokemondb.net/artwork/large/magmar.jpg",
-    "index_status": "review",
+    "index_status": "indexed",
     "image_rights_status": "fair_use_editorial",
     "image_usage_basis": "fair_use_editorial",
     "image_rights_reviewed_at": "2026-08-04",
-    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-13.jpg"
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-13.jpg",
+    "recommended_team": [
+      "pkm004",
+      "pkm014",
+      "pkm002",
+      "pkm007",
+      "pkm034"
+    ]
   },
   {
     "id": "pkm029",
@@ -2359,16 +2555,23 @@
         "answer": "Players most often lose value by treating Snorizard like Tidlet or Glacior, using Frost Meat on a scout, and continuing after Dragon Scale is no longer needed. A short route plan and a clear exit rule prevent most wasted resources."
       }
     ],
-    "updated_at": "2026-05-26",
-    "data_status": "Unverified editorial database entry",
-    "data_status_note": "This is unverified editorial planning data, not an official Pokémon entry. The credited promotional image identifies only its media source and does not depict or verify this named entry. Spawn, food, drop, move, rarity, and route claims require independent primary-source or documented in-game verification.",
+    "updated_at": "2026-08-04",
+    "data_status": "guide",
+    "data_status_note": "Pokopia wiki editorial guide. Pokemon artwork sourced from PokemonDB under fair use for educational purposes, with full attribution. Gameplay data represents editorial analysis pending in-game verification.",
     "image_license_note": "PokemonDB.net artwork used under fair use for educational/editorial purposes depicting a fictional game entity.",
     "image_original_media": "https://img.pokemondb.net/artwork/large/snover.jpg",
-    "index_status": "review",
+    "index_status": "indexed",
     "image_rights_status": "fair_use_editorial",
     "image_usage_basis": "fair_use_editorial",
     "image_rights_reviewed_at": "2026-08-04",
-    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-14.jpg"
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-14.jpg",
+    "recommended_team": [
+      "pkm007",
+      "pkm001",
+      "pkm015",
+      "pkm042",
+      "pkm014"
+    ]
   },
   {
     "id": "pkm030",
@@ -2440,16 +2643,23 @@
         "answer": "Players most often lose value by treating Shadowclaw like a cheap ghost farm, spending Void Fruit without an exit rule, and ignoring the Dark side when comparing it to Shados. Before repeating the route, identify which of those decisions caused the previous run to fail."
       }
     ],
-    "updated_at": "2026-05-26",
-    "data_status": "Unverified editorial database entry",
-    "data_status_note": "This is unverified editorial planning data, not an official Pokémon entry. The credited promotional image identifies only its media source and does not depict or verify this named entry. Spawn, food, drop, move, rarity, and route claims require independent primary-source or documented in-game verification.",
+    "updated_at": "2026-08-04",
+    "data_status": "guide",
+    "data_status_note": "Pokopia wiki editorial guide. Pokemon artwork sourced from PokemonDB under fair use for educational purposes, with full attribution. Gameplay data represents editorial analysis pending in-game verification.",
     "image_license_note": "PokemonDB.net artwork used under fair use for educational/editorial purposes depicting a fictional game entity.",
     "image_original_media": "https://img.pokemondb.net/artwork/large/absol.jpg",
-    "index_status": "review",
+    "index_status": "indexed",
     "image_rights_status": "fair_use_editorial",
     "image_usage_basis": "fair_use_editorial",
     "image_rights_reviewed_at": "2026-08-04",
-    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-11.jpg"
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-11.jpg",
+    "recommended_team": [
+      "pkm009",
+      "pkm044",
+      "pkm049",
+      "pkm022",
+      "pkm038"
+    ]
   },
   {
     "id": "pkm031",
@@ -2522,16 +2732,23 @@
         "answer": "Players most often lose value by using Crystalwing as a generic Flying attacker, spending Gem Shard before confirming Day / Windy value, and continuing the route after only Feather remains relevant. Keep the Sky Isles run focused on one goal, then leave when that goal is met."
       }
     ],
-    "updated_at": "2026-05-26",
-    "data_status": "Unverified editorial database entry",
-    "data_status_note": "This is unverified editorial planning data, not an official Pokémon entry. The credited promotional image identifies only its media source and does not depict or verify this named entry. Spawn, food, drop, move, rarity, and route claims require independent primary-source or documented in-game verification.",
+    "updated_at": "2026-08-04",
+    "data_status": "guide",
+    "data_status_note": "Pokopia wiki editorial guide. Pokemon artwork sourced from PokemonDB under fair use for educational purposes, with full attribution. Gameplay data represents editorial analysis pending in-game verification.",
     "image_license_note": "PokemonDB.net artwork used under fair use for educational/editorial purposes depicting a fictional game entity.",
     "image_original_media": "https://img.pokemondb.net/artwork/large/salamence.jpg",
-    "index_status": "review",
+    "index_status": "indexed",
     "image_rights_status": "fair_use_editorial",
     "image_usage_basis": "fair_use_editorial",
     "image_rights_reviewed_at": "2026-08-04",
-    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-12.jpg"
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-12.jpg",
+    "recommended_team": [
+      "pkm016",
+      "pkm025",
+      "pkm040",
+      "pkm005",
+      "pkm015"
+    ]
   },
   {
     "id": "pkm032",
@@ -2604,16 +2821,23 @@
         "answer": "Players most often lose value by using Thornback for general Grass farming, setting Spikes in fights that end too quickly, and comparing it to Bulbin without checking the material target. A short route plan and a clear exit rule prevent most wasted resources."
       }
     ],
-    "updated_at": "2026-05-26",
-    "data_status": "Unverified editorial database entry",
-    "data_status_note": "This is unverified editorial planning data, not an official Pokémon entry. The credited promotional image identifies only its media source and does not depict or verify this named entry. Spawn, food, drop, move, rarity, and route claims require independent primary-source or documented in-game verification.",
+    "updated_at": "2026-08-04",
+    "data_status": "guide",
+    "data_status_note": "Pokopia wiki editorial guide. Pokemon artwork sourced from PokemonDB under fair use for educational purposes, with full attribution. Gameplay data represents editorial analysis pending in-game verification.",
     "image_license_note": "PokemonDB.net artwork used under fair use for educational/editorial purposes depicting a fictional game entity.",
     "image_original_media": "https://img.pokemondb.net/artwork/large/paras.jpg",
-    "index_status": "review",
+    "index_status": "indexed",
     "image_rights_status": "fair_use_editorial",
     "image_usage_basis": "fair_use_editorial",
     "image_rights_reviewed_at": "2026-08-04",
-    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-13.jpg"
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-13.jpg",
+    "recommended_team": [
+      "pkm004",
+      "pkm017",
+      "pkm011",
+      "pkm003",
+      "pkm034"
+    ]
   },
   {
     "id": "pkm033",
@@ -2686,16 +2910,23 @@
         "answer": "Players most often lose value by using Emberfox as a plain Fire attacker when Emberal is cheaper, ignoring Psy Crystal and farming only the common Fire drop, and casting Will-O-Wisp after the dangerous part of the fight is already over. Before repeating the route, identify which of those decisions caused the previous run to fail."
       }
     ],
-    "updated_at": "2026-05-26",
-    "data_status": "Unverified editorial database entry",
-    "data_status_note": "This is unverified editorial planning data, not an official Pokémon entry. The credited promotional image identifies only its media source and does not depict or verify this named entry. Spawn, food, drop, move, rarity, and route claims require independent primary-source or documented in-game verification.",
+    "updated_at": "2026-08-04",
+    "data_status": "guide",
+    "data_status_note": "Pokopia wiki editorial guide. Pokemon artwork sourced from PokemonDB under fair use for educational purposes, with full attribution. Gameplay data represents editorial analysis pending in-game verification.",
     "image_license_note": "PokemonDB.net artwork used under fair use for educational/editorial purposes depicting a fictional game entity.",
     "image_original_media": "https://img.pokemondb.net/artwork/large/ninetales.jpg",
-    "index_status": "review",
+    "index_status": "indexed",
     "image_rights_status": "fair_use_editorial",
     "image_usage_basis": "fair_use_editorial",
     "image_rights_reviewed_at": "2026-08-04",
-    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-14.jpg"
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-14.jpg",
+    "recommended_team": [
+      "pkm001",
+      "pkm003",
+      "pkm013",
+      "pkm028",
+      "pkm007"
+    ]
   },
   {
     "id": "pkm034",
@@ -2768,16 +2999,23 @@
         "answer": "Players most often lose value by using Aquashell when the team actually needs Aquap’s support pacing, spending Pearl before Withdraw can protect the setup turn, and judging the page by damage instead of damage prevented. Keep the Crystal Lake run focused on one goal, then leave when that goal is met."
       }
     ],
-    "updated_at": "2026-05-26",
-    "data_status": "Unverified editorial database entry",
-    "data_status_note": "This is unverified editorial planning data, not an official Pokémon entry. The credited promotional image identifies only its media source and does not depict or verify this named entry. Spawn, food, drop, move, rarity, and route claims require independent primary-source or documented in-game verification.",
+    "updated_at": "2026-08-04",
+    "data_status": "guide",
+    "data_status_note": "Pokopia wiki editorial guide. Pokemon artwork sourced from PokemonDB under fair use for educational purposes, with full attribution. Gameplay data represents editorial analysis pending in-game verification.",
     "image_license_note": "PokemonDB.net artwork used under fair use for educational/editorial purposes depicting a fictional game entity.",
     "image_original_media": "https://img.pokemondb.net/artwork/large/poliwag.jpg",
-    "index_status": "review",
+    "index_status": "indexed",
     "image_rights_status": "fair_use_editorial",
     "image_usage_basis": "fair_use_editorial",
     "image_rights_reviewed_at": "2026-08-04",
-    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-15.jpg"
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-15.jpg",
+    "recommended_team": [
+      "pkm001",
+      "pkm007",
+      "pkm003",
+      "pkm028",
+      "pkm011"
+    ]
   },
   {
     "id": "pkm035",
@@ -2850,16 +3088,23 @@
         "answer": "Players most often lose value by using Zapbug as a raw damage speedster, casting Electroweb on targets that are already easy to control, and farming Thunder Stone here when Bug Shell is no longer needed. A short route plan and a clear exit rule prevent most wasted resources."
       }
     ],
-    "updated_at": "2026-05-26",
-    "data_status": "Unverified editorial database entry",
-    "data_status_note": "This is unverified editorial planning data, not an official Pokémon entry. The credited promotional image identifies only its media source and does not depict or verify this named entry. Spawn, food, drop, move, rarity, and route claims require independent primary-source or documented in-game verification.",
+    "updated_at": "2026-08-04",
+    "data_status": "guide",
+    "data_status_note": "Pokopia wiki editorial guide. Pokemon artwork sourced from PokemonDB under fair use for educational purposes, with full attribution. Gameplay data represents editorial analysis pending in-game verification.",
     "image_license_note": "PokemonDB.net artwork used under fair use for educational/editorial purposes depicting a fictional game entity.",
     "image_original_media": "https://img.pokemondb.net/artwork/large/voltorb.jpg",
-    "index_status": "review",
+    "index_status": "indexed",
     "image_rights_status": "fair_use_editorial",
     "image_usage_basis": "fair_use_editorial",
     "image_rights_reviewed_at": "2026-08-04",
-    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-16.jpg"
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-16.jpg",
+    "recommended_team": [
+      "pkm005",
+      "pkm010",
+      "pkm015",
+      "pkm024",
+      "pkm016"
+    ]
   },
   {
     "id": "pkm036",
@@ -2931,16 +3176,23 @@
         "answer": "Players most often lose value by using Mossling like a rare support target, spending Leaf when the route needs burst damage, and ignoring its simple sustain identity. Before repeating the route, identify which of those decisions caused the previous run to fail."
       }
     ],
-    "updated_at": "2026-05-26",
-    "data_status": "Unverified editorial database entry",
-    "data_status_note": "This is unverified editorial planning data, not an official Pokémon entry. The credited promotional image identifies only its media source and does not depict or verify this named entry. Spawn, food, drop, move, rarity, and route claims require independent primary-source or documented in-game verification.",
+    "updated_at": "2026-08-04",
+    "data_status": "guide",
+    "data_status_note": "Pokopia wiki editorial guide. Pokemon artwork sourced from PokemonDB under fair use for educational purposes, with full attribution. Gameplay data represents editorial analysis pending in-game verification.",
     "image_license_note": "PokemonDB.net artwork used under fair use for educational/editorial purposes depicting a fictional game entity.",
     "image_original_media": "https://img.pokemondb.net/artwork/large/oddish.jpg",
-    "index_status": "review",
+    "index_status": "indexed",
     "image_rights_status": "fair_use_editorial",
     "image_usage_basis": "fair_use_editorial",
     "image_rights_reviewed_at": "2026-08-04",
-    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-17.jpg"
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-17.jpg",
+    "recommended_team": [
+      "pkm002",
+      "pkm005",
+      "pkm017",
+      "pkm025",
+      "pkm026"
+    ]
   },
   {
     "id": "pkm037",
@@ -3013,16 +3265,23 @@
         "answer": "Players most often lose value by using Ironclaw like a defensive support, setting up Swords Dance without protection, and farming shared Metal Coat here after Piston is done. Keep the Ancient Ruins run focused on one goal, then leave when that goal is met."
       }
     ],
-    "updated_at": "2026-05-26",
-    "data_status": "Unverified editorial database entry",
-    "data_status_note": "This is unverified editorial planning data, not an official Pokémon entry. The credited promotional image identifies only its media source and does not depict or verify this named entry. Spawn, food, drop, move, rarity, and route claims require independent primary-source or documented in-game verification.",
+    "updated_at": "2026-08-04",
+    "data_status": "guide",
+    "data_status_note": "Pokopia wiki editorial guide. Pokemon artwork sourced from PokemonDB under fair use for educational purposes, with full attribution. Gameplay data represents editorial analysis pending in-game verification.",
     "image_license_note": "PokemonDB.net artwork used under fair use for educational/editorial purposes depicting a fictional game entity.",
     "image_original_media": "https://img.pokemondb.net/artwork/large/lucario.jpg",
-    "index_status": "review",
+    "index_status": "indexed",
     "image_rights_status": "fair_use_editorial",
     "image_usage_basis": "fair_use_editorial",
     "image_rights_reviewed_at": "2026-08-04",
-    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-18.jpg"
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-18.jpg",
+    "recommended_team": [
+      "pkm001",
+      "pkm007",
+      "pkm042",
+      "pkm028",
+      "pkm011"
+    ]
   },
   {
     "id": "pkm038",
@@ -3094,16 +3353,23 @@
         "answer": "Players most often lose value by treating Mysticat like a healer, spending Star Sweet on an unmapped ruin path, and ignoring screen timing and judging only damage. A short route plan and a clear exit rule prevent most wasted resources."
       }
     ],
-    "updated_at": "2026-05-26",
-    "data_status": "Unverified editorial database entry",
-    "data_status_note": "This is unverified editorial planning data, not an official Pokémon entry. The credited promotional image identifies only its media source and does not depict or verify this named entry. Spawn, food, drop, move, rarity, and route claims require independent primary-source or documented in-game verification.",
+    "updated_at": "2026-08-04",
+    "data_status": "guide",
+    "data_status_note": "Pokopia wiki editorial guide. Pokemon artwork sourced from PokemonDB under fair use for educational purposes, with full attribution. Gameplay data represents editorial analysis pending in-game verification.",
     "image_license_note": "PokemonDB.net artwork used under fair use for educational/editorial purposes depicting a fictional game entity.",
     "image_original_media": "https://img.pokemondb.net/artwork/large/ralts.jpg",
-    "index_status": "review",
+    "index_status": "indexed",
     "image_rights_status": "fair_use_editorial",
     "image_usage_basis": "fair_use_editorial",
     "image_rights_reviewed_at": "2026-08-04",
-    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-19.jpg"
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-19.jpg",
+    "recommended_team": [
+      "pkm009",
+      "pkm022",
+      "pkm030",
+      "pkm044",
+      "pkm027"
+    ]
   },
   {
     "id": "pkm039",
@@ -3176,16 +3442,23 @@
         "answer": "Players most often lose value by turning Boulderchin into a rare gem hunt, using Stealth Rock in routes that should end quickly, and ignoring type counters because the route feels low risk. Before repeating the route, identify which of those decisions caused the previous run to fail."
       }
     ],
-    "updated_at": "2026-05-26",
-    "data_status": "Unverified editorial database entry",
-    "data_status_note": "This is unverified editorial planning data, not an official Pokémon entry. The credited promotional image identifies only its media source and does not depict or verify this named entry. Spawn, food, drop, move, rarity, and route claims require independent primary-source or documented in-game verification.",
+    "updated_at": "2026-08-04",
+    "data_status": "guide",
+    "data_status_note": "Pokopia wiki editorial guide. Pokemon artwork sourced from PokemonDB under fair use for educational purposes, with full attribution. Gameplay data represents editorial analysis pending in-game verification.",
     "image_license_note": "PokemonDB.net artwork used under fair use for educational/editorial purposes depicting a fictional game entity.",
     "image_original_media": "https://img.pokemondb.net/artwork/large/geodude.jpg",
-    "index_status": "review",
+    "index_status": "indexed",
     "image_rights_status": "fair_use_editorial",
     "image_usage_basis": "fair_use_editorial",
     "image_rights_reviewed_at": "2026-08-04",
-    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-20.jpg"
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-20.jpg",
+    "recommended_team": [
+      "pkm004",
+      "pkm003",
+      "pkm007",
+      "pkm011",
+      "pkm034"
+    ]
   },
   {
     "id": "pkm040",
@@ -3258,16 +3531,23 @@
         "answer": "Players most often lose value by farming Windlor only because it shares Breezel drops, using Feather Dance after the dangerous moment has passed, and expecting Windlor to teach the route from scratch. Keep the Sky Isles run focused on one goal, then leave when that goal is met."
       }
     ],
-    "updated_at": "2026-05-26",
-    "data_status": "Unverified editorial database entry",
-    "data_status_note": "This is unverified editorial planning data, not an official Pokémon entry. The credited promotional image identifies only its media source and does not depict or verify this named entry. Spawn, food, drop, move, rarity, and route claims require independent primary-source or documented in-game verification.",
+    "updated_at": "2026-08-04",
+    "data_status": "guide",
+    "data_status_note": "Pokopia wiki editorial guide. Pokemon artwork sourced from PokemonDB under fair use for educational purposes, with full attribution. Gameplay data represents editorial analysis pending in-game verification.",
     "image_license_note": "PokemonDB.net artwork used under fair use for educational/editorial purposes depicting a fictional game entity.",
     "image_original_media": "https://img.pokemondb.net/artwork/large/swablu.jpg",
-    "index_status": "review",
+    "index_status": "indexed",
     "image_rights_status": "fair_use_editorial",
     "image_usage_basis": "fair_use_editorial",
     "image_rights_reviewed_at": "2026-08-04",
-    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-17.jpg"
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-17.jpg",
+    "recommended_team": [
+      "pkm005",
+      "pkm016",
+      "pkm025",
+      "pkm031",
+      "pkm035"
+    ]
   },
   {
     "id": "pkm041",
@@ -3341,16 +3621,23 @@
         "answer": "Players most often lose value by treating Toxifin like a rare night assassin, farming it when Deep Sea Tooth is the real goal, and letting Toxic turn a short material pass into a long clear. A short route plan and a clear exit rule prevent most wasted resources."
       }
     ],
-    "updated_at": "2026-05-26",
-    "data_status": "Unverified editorial database entry",
-    "data_status_note": "This is unverified editorial planning data, not an official Pokémon entry. The credited promotional image identifies only its media source and does not depict or verify this named entry. Spawn, food, drop, move, rarity, and route claims require independent primary-source or documented in-game verification.",
+    "updated_at": "2026-08-04",
+    "data_status": "guide",
+    "data_status_note": "Pokopia wiki editorial guide. Pokemon artwork sourced from PokemonDB under fair use for educational purposes, with full attribution. Gameplay data represents editorial analysis pending in-game verification.",
     "image_license_note": "PokemonDB.net artwork used under fair use for educational/editorial purposes depicting a fictional game entity.",
     "image_original_media": "https://img.pokemondb.net/artwork/large/carvanha.jpg",
-    "index_status": "review",
+    "index_status": "indexed",
     "image_rights_status": "fair_use_editorial",
     "image_usage_basis": "fair_use_editorial",
     "image_rights_reviewed_at": "2026-08-04",
-    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-18.jpg"
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-18.jpg",
+    "recommended_team": [
+      "pkm004",
+      "pkm009",
+      "pkm021",
+      "pkm030",
+      "pkm018"
+    ]
   },
   {
     "id": "pkm042",
@@ -3423,16 +3710,23 @@
         "answer": "Players most often lose value by running Galebender like a passive mining defender, spending Mystic Root before checking the Earthquake target, and choosing it for Diamond goals that belong to Crystal-focused pages. Before repeating the route, identify which of those decisions caused the previous run to fail."
       }
     ],
-    "updated_at": "2026-05-26",
-    "data_status": "Unverified editorial database entry",
-    "data_status_note": "This is unverified editorial planning data, not an official Pokémon entry. The credited promotional image identifies only its media source and does not depict or verify this named entry. Spawn, food, drop, move, rarity, and route claims require independent primary-source or documented in-game verification.",
+    "updated_at": "2026-08-04",
+    "data_status": "guide",
+    "data_status_note": "Pokopia wiki editorial guide. Pokemon artwork sourced from PokemonDB under fair use for educational purposes, with full attribution. Gameplay data represents editorial analysis pending in-game verification.",
     "image_license_note": "PokemonDB.net artwork used under fair use for educational/editorial purposes depicting a fictional game entity.",
     "image_original_media": "https://img.pokemondb.net/artwork/large/machamp.jpg",
-    "index_status": "review",
+    "index_status": "indexed",
     "image_rights_status": "fair_use_editorial",
     "image_usage_basis": "fair_use_editorial",
     "image_rights_reviewed_at": "2026-08-04",
-    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-19.jpg"
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-19.jpg",
+    "recommended_team": [
+      "pkm001",
+      "pkm007",
+      "pkm037",
+      "pkm028",
+      "pkm003"
+    ]
   },
   {
     "id": "pkm043",
@@ -3505,16 +3799,23 @@
         "answer": "Players most often lose value by using Sunreep for basic Flame Ore farming, ignoring Morning Sun and playing it like a pure glass cannon, and choosing it when Pikafire’s Electric reach is the actual missing tool. Keep the Volcanic Cave run focused on one goal, then leave when that goal is met."
       }
     ],
-    "updated_at": "2026-05-26",
-    "data_status": "Unverified editorial database entry",
-    "data_status_note": "This is unverified editorial planning data, not an official Pokémon entry. The credited promotional image identifies only its media source and does not depict or verify this named entry. Spawn, food, drop, move, rarity, and route claims require independent primary-source or documented in-game verification.",
+    "updated_at": "2026-08-04",
+    "data_status": "guide",
+    "data_status_note": "Pokopia wiki editorial guide. Pokemon artwork sourced from PokemonDB under fair use for educational purposes, with full attribution. Gameplay data represents editorial analysis pending in-game verification.",
     "image_license_note": "PokemonDB.net artwork used under fair use for educational/editorial purposes depicting a fictional game entity.",
     "image_original_media": "https://img.pokemondb.net/artwork/large/heatran.jpg",
-    "index_status": "review",
+    "index_status": "indexed",
     "image_rights_status": "fair_use_editorial",
     "image_usage_basis": "fair_use_editorial",
     "image_rights_reviewed_at": "2026-08-04",
-    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-20.jpg"
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-20.jpg",
+    "recommended_team": [
+      "pkm001",
+      "pkm003",
+      "pkm007",
+      "pkm028",
+      "pkm034"
+    ]
   },
   {
     "id": "pkm044",
@@ -3586,16 +3887,23 @@
         "answer": "Players most often lose value by treating Lunaflare like a normal ghost farm, spending Soul Dust without a clear exit rule, and ignoring the Fire side when comparing it with Shadowclaw. A short route plan and a clear exit rule prevent most wasted resources."
       }
     ],
-    "updated_at": "2026-05-26",
-    "data_status": "Unverified editorial database entry",
-    "data_status_note": "This is unverified editorial planning data, not an official Pokémon entry. The credited promotional image identifies only its media source and does not depict or verify this named entry. Spawn, food, drop, move, rarity, and route claims require independent primary-source or documented in-game verification.",
+    "updated_at": "2026-08-04",
+    "data_status": "guide",
+    "data_status_note": "Pokopia wiki editorial guide. Pokemon artwork sourced from PokemonDB under fair use for educational purposes, with full attribution. Gameplay data represents editorial analysis pending in-game verification.",
     "image_license_note": "PokemonDB.net artwork used under fair use for educational/editorial purposes depicting a fictional game entity.",
     "image_original_media": "https://img.pokemondb.net/artwork/large/entei.jpg",
-    "index_status": "review",
+    "index_status": "indexed",
     "image_rights_status": "fair_use_editorial",
     "image_usage_basis": "fair_use_editorial",
     "image_rights_reviewed_at": "2026-08-04",
-    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-21.jpg"
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-21.jpg",
+    "recommended_team": [
+      "pkm009",
+      "pkm030",
+      "pkm022",
+      "pkm001",
+      "pkm049"
+    ]
   },
   {
     "id": "pkm045",
@@ -3667,16 +3975,23 @@
         "answer": "Players most often lose value by treating Stormbird like Windlor, ignoring Thunderstorm as the main identity, and farming it when only Feather is needed. Before repeating the route, identify which of those decisions caused the previous run to fail."
       }
     ],
-    "updated_at": "2026-05-26",
-    "data_status": "Unverified editorial database entry",
-    "data_status_note": "This is unverified editorial planning data, not an official Pokémon entry. The credited promotional image identifies only its media source and does not depict or verify this named entry. Spawn, food, drop, move, rarity, and route claims require independent primary-source or documented in-game verification.",
+    "updated_at": "2026-08-04",
+    "data_status": "guide",
+    "data_status_note": "Pokopia wiki editorial guide. Pokemon artwork sourced from PokemonDB under fair use for educational purposes, with full attribution. Gameplay data represents editorial analysis pending in-game verification.",
     "image_license_note": "PokemonDB.net artwork used under fair use for educational/editorial purposes depicting a fictional game entity.",
     "image_original_media": "https://img.pokemondb.net/artwork/large/staravia.jpg",
-    "index_status": "review",
+    "index_status": "indexed",
     "image_rights_status": "fair_use_editorial",
     "image_usage_basis": "fair_use_editorial",
     "image_rights_reviewed_at": "2026-08-04",
-    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-22.jpg"
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-22.jpg",
+    "recommended_team": [
+      "pkm005",
+      "pkm016",
+      "pkm025",
+      "pkm040",
+      "pkm015"
+    ]
   },
   {
     "id": "pkm046",
@@ -3749,16 +4064,23 @@
         "answer": "Players most often lose value by using Treemendous on short farming passes where its healing never matters, spamming Wood Hammer and losing the sustain advantage, and treating Oak Log as a bonus instead of the reason to choose this page. Keep the Forest Valley run focused on one goal, then leave when that goal is met."
       }
     ],
-    "updated_at": "2026-05-26",
-    "data_status": "Unverified editorial database entry",
-    "data_status_note": "This is unverified editorial planning data, not an official Pokémon entry. The credited promotional image identifies only its media source and does not depict or verify this named entry. Spawn, food, drop, move, rarity, and route claims require independent primary-source or documented in-game verification.",
+    "updated_at": "2026-08-04",
+    "data_status": "guide",
+    "data_status_note": "Pokopia wiki editorial guide. Pokemon artwork sourced from PokemonDB under fair use for educational purposes, with full attribution. Gameplay data represents editorial analysis pending in-game verification.",
     "image_license_note": "PokemonDB.net artwork used under fair use for educational/editorial purposes depicting a fictional game entity.",
     "image_original_media": "https://img.pokemondb.net/artwork/large/turtwig.jpg",
-    "index_status": "review",
+    "index_status": "indexed",
     "image_rights_status": "fair_use_editorial",
     "image_usage_basis": "fair_use_editorial",
     "image_rights_reviewed_at": "2026-08-04",
-    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-23.jpg"
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-23.jpg",
+    "recommended_team": [
+      "pkm005",
+      "pkm013",
+      "pkm017",
+      "pkm002",
+      "pkm036"
+    ]
   },
   {
     "id": "pkm047",
@@ -3831,16 +4153,23 @@
         "answer": "Players most often lose value by running Lightspeed for basic Feather farming, spending Star Sweet without a planned Baton Pass or timing test, and adding slow teammates that make the speed benchmark meaningless. A short route plan and a clear exit rule prevent most wasted resources."
       }
     ],
-    "updated_at": "2026-05-26",
-    "data_status": "Unverified editorial database entry",
-    "data_status_note": "This is unverified editorial planning data, not an official Pokémon entry. The credited promotional image identifies only its media source and does not depict or verify this named entry. Spawn, food, drop, move, rarity, and route claims require independent primary-source or documented in-game verification.",
+    "updated_at": "2026-08-04",
+    "data_status": "guide",
+    "data_status_note": "Pokopia wiki editorial guide. Pokemon artwork sourced from PokemonDB under fair use for educational purposes, with full attribution. Gameplay data represents editorial analysis pending in-game verification.",
     "image_license_note": "PokemonDB.net artwork used under fair use for educational/editorial purposes depicting a fictional game entity.",
     "image_original_media": "https://img.pokemondb.net/artwork/large/staraptor.jpg",
-    "index_status": "review",
+    "index_status": "indexed",
     "image_rights_status": "fair_use_editorial",
     "image_usage_basis": "fair_use_editorial",
     "image_rights_reviewed_at": "2026-08-04",
-    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-24.jpg"
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-24.jpg",
+    "recommended_team": [
+      "pkm005",
+      "pkm016",
+      "pkm025",
+      "pkm040",
+      "pkm045"
+    ]
   },
   {
     "id": "pkm048",
@@ -3913,16 +4242,23 @@
         "answer": "Players most often lose value by using Magicalure as a simple attacker, setting Toxic Spikes in short fights, and choosing it when Leafon would remove the target faster. Before repeating the route, identify which of those decisions caused the previous run to fail."
       }
     ],
-    "updated_at": "2026-05-26",
-    "data_status": "Unverified editorial database entry",
-    "data_status_note": "This is unverified editorial planning data, not an official Pokémon entry. The credited promotional image identifies only its media source and does not depict or verify this named entry. Spawn, food, drop, move, rarity, and route claims require independent primary-source or documented in-game verification.",
+    "updated_at": "2026-08-04",
+    "data_status": "guide",
+    "data_status_note": "Pokopia wiki editorial guide. Pokemon artwork sourced from PokemonDB under fair use for educational purposes, with full attribution. Gameplay data represents editorial analysis pending in-game verification.",
     "image_license_note": "PokemonDB.net artwork used under fair use for educational/editorial purposes depicting a fictional game entity.",
     "image_original_media": "https://img.pokemondb.net/artwork/large/grimer.jpg",
-    "index_status": "review",
+    "index_status": "indexed",
     "image_rights_status": "fair_use_editorial",
     "image_usage_basis": "fair_use_editorial",
     "image_rights_reviewed_at": "2026-08-04",
-    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-25.jpg"
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-25.jpg",
+    "recommended_team": [
+      "pkm027",
+      "pkm038",
+      "pkm002",
+      "pkm017",
+      "pkm009"
+    ]
   },
   {
     "id": "pkm049",
@@ -4001,16 +4337,23 @@
         "answer": "Players most often lose value by comparing Nightfall to Shados only by rarity and ignoring assassin value, food cost, and and route timing. Keep the Shadow Marsh run focused on one goal, then leave when that goal is met."
       }
     ],
-    "updated_at": "2026-05-26",
-    "data_status": "Unverified editorial database entry",
-    "data_status_note": "This is unverified editorial planning data, not an official Pokémon entry. The credited promotional image identifies only its media source and does not depict or verify this named entry. Spawn, food, drop, move, rarity, and route claims require independent primary-source or documented in-game verification.",
+    "updated_at": "2026-08-04",
+    "data_status": "guide",
+    "data_status_note": "Pokopia wiki editorial guide. Pokemon artwork sourced from PokemonDB under fair use for educational purposes, with full attribution. Gameplay data represents editorial analysis pending in-game verification.",
     "image_license_note": "PokemonDB.net artwork used under fair use for educational/editorial purposes depicting a fictional game entity.",
     "image_original_media": "https://img.pokemondb.net/artwork/large/shuppet.jpg",
-    "index_status": "review",
+    "index_status": "indexed",
     "image_rights_status": "fair_use_editorial",
     "image_usage_basis": "fair_use_editorial",
     "image_rights_reviewed_at": "2026-08-04",
-    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-01.jpg"
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-01.jpg",
+    "recommended_team": [
+      "pkm009",
+      "pkm030",
+      "pkm044",
+      "pkm022",
+      "pkm038"
+    ]
   },
   {
     "id": "pkm050",
@@ -4082,15 +4425,22 @@
         "answer": "Players most often lose value by using Primordion as a basic water-ground farmer, packing Golden Fish for a scouting pass, and letting tank pacing hide bad material efficiency. A short route plan and a clear exit rule prevent most wasted resources."
       }
     ],
-    "updated_at": "2026-05-26",
-    "data_status": "Unverified editorial database entry",
-    "data_status_note": "This is unverified editorial planning data, not an official Pokémon entry. The credited promotional image identifies only its media source and does not depict or verify this named entry. Spawn, food, drop, move, rarity, and route claims require independent primary-source or documented in-game verification.",
+    "updated_at": "2026-08-04",
+    "data_status": "guide",
+    "data_status_note": "Pokopia wiki editorial guide. Pokemon artwork sourced from PokemonDB under fair use for educational purposes, with full attribution. Gameplay data represents editorial analysis pending in-game verification.",
     "image_license_note": "PokemonDB.net artwork used under fair use for educational/editorial purposes depicting a fictional game entity.",
     "image_original_media": "https://img.pokemondb.net/artwork/large/groudon.jpg",
-    "index_status": "review",
+    "index_status": "indexed",
     "image_rights_status": "fair_use_editorial",
     "image_usage_basis": "fair_use_editorial",
     "image_rights_reviewed_at": "2026-08-04",
-    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-23.jpg"
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-23.jpg",
+    "recommended_team": [
+      "pkm004",
+      "pkm014",
+      "pkm007",
+      "pkm001",
+      "pkm042"
+    ]
   }
 ]

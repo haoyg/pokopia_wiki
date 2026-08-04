@@ -180,6 +180,28 @@ export default async function PokemonDetailPage({ params }: Props) {
           </section>
         )}
 
+        {pokemon.recommended_team && pokemon.recommended_team.length > 0 && (
+          <section className="pokemon-guide-section">
+            <h2>Recommended Team</h2>
+            <p className="section-intro">Synergizes well with these Pokemon for balanced coverage:</p>
+            <div className="pokemon-team-grid">
+              {pokemon.recommended_team.map((teamId) => {
+                const teammate = pokemonData.find((p) => p.id === teamId)
+                if (!teammate) return null
+                const teammateHabitat = habitatsData.find((h) => h.id === teammate.habitat)
+                return (
+                  <a key={teamId} href={`/wiki/pokemon/${teamId}`} className="pokemon-team-card">
+                    <span className="team-card-name">{teammate.name}</span>
+                    <span className="team-card-type">{teammate.type}</span>
+                    <span className="team-card-role">{teammate.specialty}</span>
+                    <span className="team-card-habitat">{teammateHabitat?.name || teammate.habitat}</span>
+                  </a>
+                )
+              })}
+            </div>
+          </section>
+        )}
+
         {pokemon.team_tips && pokemon.team_tips.length > 0 && (
           <section className="pokemon-guide-section">
             <h2>Team Tips</h2>
