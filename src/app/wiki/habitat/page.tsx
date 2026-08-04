@@ -184,7 +184,7 @@ export default function HabitatPage() {
               </div>
               <div>
                 <dt>Route</dt>
-                <dd>{shortText(h.farming_route[1], 72)}</dd>
+                <dd>{h.farming_route && h.farming_route[1] ? shortText(h.farming_route[1], 72) : 'N/A'}</dd>
               </div>
             </dl>
             <div className="index-card-badges index-card-badges-center">

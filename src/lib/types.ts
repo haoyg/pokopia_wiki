@@ -9,7 +9,7 @@ export interface Pokemon {
   weather: string
   specialty: string
   skills: string[]
-  drops: string[]
+  drops: string   // comma-separated string, e.g. "Fire Stone,Thunder Stone"
   description: string
   overview?: string
   how_to_get?: string[]
@@ -77,7 +77,7 @@ export interface Habitat {
 export interface Recipe {
   id: string
   name: string
-  ingredients: string[]
+  ingredients: string   // comma-separated string, e.g. "Honey x3, Flour x2, Egg x1"
   buff: string
   effect_duration: string
   rarity: 'common' | 'uncommon' | 'rare' | 'legendary'
