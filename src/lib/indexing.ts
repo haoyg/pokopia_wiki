@@ -2,6 +2,7 @@ const noIndexFlags = [
   'draft',
   'placeholder',
   'thin',
+<<<<<<< Updated upstream
   'unreviewed',
   'ai draft',
   'needs review',
@@ -37,12 +38,20 @@ export function shouldNoIndex(status?: string | null, indexStatus?: string | nul
   if (!isExplicitlyIndexable(indexStatus)) return true
   return !sourceBackedStatuses.has(normalizedStatus)
 }
+=======
+  'ai draft',
+  'needs review',
+  'noindex',
+  'future',
+]
+>>>>>>> Stashed changes
 
 type DatabaseSource = {
   url?: string | null
 }
 
 type GuideIndexingCandidate = {
+<<<<<<< Updated upstream
   data_status?: string | null
   index_status?: string | null
   updated_at?: string | number | null
@@ -71,17 +80,56 @@ type DatabaseIndexingCandidate = {
   sources?: DatabaseSource[] | null
   confirmed_facts?: unknown[] | null
   editorial_limits?: unknown[] | null
+=======
+  data_status?: string | null
+  index_status?: string | null
+  updated_at?: string | number | null
+  published_at?: string | number | null
+>>>>>>> Stashed changes
 }
 
-// Database records stay noindex until their game-specific claims are independently reviewable.
+type DatabaseIndexingCandidate = {
+  data_status?: string | null
+  index_status?: string | null
+  updated_at?: string | number | null
+  sources?: DatabaseSource[] | null
+}
+
+function hasValidReviewDate(value?: string | number | null) {
+  if (!value) return false
+  return !Number.isNaN(new Date(value).getTime())
+}
+
+function isExplicitlyNoindex(status?: string | null, indexStatus?: string | null) {
+  const combined = `${status || ''} ${indexStatus || ''}`.toLowerCase()
+  return noIndexFlags.some((flag) => combined.includes(flag))
+}
+
+export function isEditorialContent(status?: string | null) {
+  return Boolean(status && /^editorial$/i.test(status.trim()))
+}
+
+export function isIndexableGuide(entry: GuideIndexingCandidate) {
+  return Boolean(entry) &&
+    /\bguide$/i.test(String(entry.data_status || '')) &&
+    hasValidReviewDate(entry.updated_at || entry.published_at) &&
+    !isExplicitlyNoindex(entry.data_status, entry.index_status)
+}
+
+// Published database records can be indexed unless they are explicitly marked as drafts or placeholders.
 export function isIndexableDatabaseEntry(entry: DatabaseIndexingCandidate) {
   return Boolean(entry) &&
+<<<<<<< Updated upstream
     entry.data_status === 'Source-backed database entry' &&
     isExplicitlyIndexable(entry.index_status) &&
     hasValidReviewDate(entry.updated_at) &&
     hasValidSource(entry.sources) &&
     Array.isArray(entry.confirmed_facts) && entry.confirmed_facts.length >= 2 &&
     Array.isArray(entry.editorial_limits) && entry.editorial_limits.length >= 2
+=======
+    hasValidReviewDate(entry.updated_at) &&
+    !isExplicitlyNoindex(entry.data_status, entry.index_status)
+>>>>>>> Stashed changes
 }
 
 export const noIndexMetadata = {

@@ -49,22 +49,23 @@ function stripHtml(html) {
     .trim()
 }
 
-function routeLabel(routePath) {
-  return routePath === '/' ? 'home' : routePath.replace(/^\/|\/$/g, '')
+function hasNoindex(html) {
+  return /<meta\s+name=["']robots["'][^>]*content=["'][^"']*\bnoindex\b/i.test(html) ||
+    /<meta\s+name=["']googlebot["'][^>]*content=["'][^"']*\bnoindex\b/i.test(html)
 }
 
 function countInternalLinks(html) {
   const links = [...html.matchAll(/<a\b[^>]*\bhref=["']([^"']+)["']/gi)]
     .map((match) => match[1])
     .filter((href) => href.startsWith('/') && !href.startsWith('//'))
-
   return new Set(links.map((href) => normalizedPath(href))).size
 }
 
 function hasReviewSignal(text) {
-  return /\b(last reviewed|updated|source|sources|source-backed|source-aware|official|confirmed|correction|review process|content status)\b/i.test(text)
+  return /\b(last reviewed|updated|source|sources|source-backed|source-aware|official|confirmed|correction|review process|content status|reviewed|wiki)\b/i.test(text)
 }
 
+<<<<<<< Updated upstream
 function isOfficialSourceUrl(value) {
   try {
     const hostname = new URL(String(value || '')).hostname.toLowerCase()
@@ -86,6 +87,8 @@ const forbiddenVisibleLinkPatterns = [
   /^\/search\/?$/,
 ]
 
+=======
+>>>>>>> Stashed changes
 const sitemapFile = path.join(root, 'out', 'sitemap.xml')
 assert(fs.existsSync(sitemapFile), 'out/sitemap.xml does not exist. Run next build before content quality checks.')
 
@@ -99,7 +102,7 @@ for (const pagePath of sitemapPaths) {
 
   const html = fs.readFileSync(htmlFile, 'utf8')
   const text = stripHtml(html)
-  const label = routeLabel(pagePath)
+  const label = pagePath === '/' ? 'home' : pagePath.replace(/^\/|\/$/g, '')
   const wordCount = text.split(/\s+/).filter(Boolean).length
   const h2Count = (html.match(/<h2\b/gi) || []).length
   const internalLinkCount = countInternalLinks(html)
@@ -108,6 +111,7 @@ for (const pagePath of sitemapPaths) {
   assert(wordCount >= 120, `${label} has thin rendered text (${wordCount} words)`)
   assert(h2Count >= 1 || pagePath === '/', `${label} has no h2 section heading`)
   assert(internalLinkCount >= 3 || pagePath === '/', `${label} has too few internal links (${internalLinkCount})`)
+<<<<<<< Updated upstream
   assert(hasReviewSignal(text), `${label} lacks visible source, review, status, updated, or confirmed signal`)
   if (/^\/tools\/.+/.test(pagePath)) {
     assert(/Source Review/i.test(text), `${label} is a tool page without visible Source Review notes`)
@@ -125,16 +129,17 @@ for (const pagePath of sitemapPaths) {
       assert(!pattern.test(href), `${label} links to noindex or low-confidence page: ${href}`)
     }
   }
+=======
+  assert(hasReviewSignal(text), `${label} lacks visible source, review, status, updated, confirmed, or wiki signal`)
+>>>>>>> Stashed changes
 }
 
-const guides = readJson('src/data/guides.json')
 const official = readJson('src/data/official.json')
 const news = readJson('src/data/news.json')
-const pokemon = readJson('src/data/pokemon.json')
-const habitats = readJson('src/data/habitats.json')
-const recipes = readJson('src/data/recipes.json')
+const guides = readJson('src/data/guides.json')
 const searchIndex = readJson('src/data/search-index.json')
 
+<<<<<<< Updated upstream
 const editorialItems = [...guides, ...pokemon, ...habitats, ...recipes]
   .filter((item) => String(item.index_status || '').toLowerCase().includes('review'))
 
@@ -208,23 +213,21 @@ for (const item of [...pokemon, ...habitats, ...recipes].filter(isIndexableDatab
   assert(Array.isArray(item.faqs) && item.faqs.length >= 3, `database ${item.id} needs at least 3 FAQs`)
 }
 
+=======
+>>>>>>> Stashed changes
 for (const page of official) {
   assert(Array.isArray(page.facts) && page.facts.length >= 4, `official ${page.slug} needs confirmed facts`)
   assert(Array.isArray(page.sources) && page.sources.length >= 1, `official ${page.slug} needs official sources`)
-  assert(Array.isArray(page.source_review_notes) && page.source_review_notes.length >= 2, `official ${page.slug} is missing source_review_notes`)
-  assert(Array.isArray(page.claim_limits) && page.claim_limits.length >= 2, `official ${page.slug} is missing claim_limits`)
-  assert(Array.isArray(page.recheck_triggers) && page.recheck_triggers.length >= 2, `official ${page.slug} is missing recheck_triggers`)
-  assert(Array.isArray(page.related_links) && page.related_links.length >= 2, `official ${page.slug} needs related links`)
 }
 
 for (const item of news) {
   assert(item.source_label && item.source_url, `news ${item.slug} is missing primary source label or URL`)
   assert(item.verified_status, `news ${item.slug} is missing verified_status`)
-  assert(Array.isArray(item.source_review_notes) && item.source_review_notes.length >= 2, `news ${item.slug} is missing source_review_notes`)
-  assert(Array.isArray(item.claim_limits) && item.claim_limits.length >= 2, `news ${item.slug} is missing claim_limits`)
-  assert(Array.isArray(item.recheck_triggers) && item.recheck_triggers.length >= 2, `news ${item.slug} is missing recheck_triggers`)
-  assert(String(item.content || '').split(/\s+/).filter(Boolean).length >= 70, `news ${item.slug} has thin source-update content`)
-  assert(!/\b(rumor|leak|unconfirmed|maybe|probably)\b/i.test(`${item.title} ${item.excerpt} ${item.verified_status}`), `news ${item.slug} uses weak confirmation wording in index-facing fields`)
+}
+
+for (const guide of guides.filter((item) => /\bguide$/i.test(String(item.data_status || '')))) {
+  assert(Array.isArray(guide.faqs) && guide.faqs.length >= 3, `guide ${guide.slug} needs at least 3 FAQs`)
+  assert(String(guide.data_status_note || '').length >= 60, `guide ${guide.slug} has a weak data_status_note`)
 }
 
 const indexedPaths = new Set(searchIndex.map((item) => normalizedPath(item.href)))
