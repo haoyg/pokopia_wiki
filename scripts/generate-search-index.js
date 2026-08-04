@@ -42,8 +42,6 @@ function unixDate(value) {
   return date.toISOString().slice(0, 10)
 }
 
-<<<<<<< Updated upstream
-=======
 function entry({
   id,
   type,
@@ -72,7 +70,6 @@ function entry({
   }
 }
 
->>>>>>> Stashed changes
 const guides = readJson('src/data/guides.json')
 const habitats = readJson('src/data/habitats.json')
 const news = readJson('src/data/news.json')
@@ -86,15 +83,8 @@ const redirectedNewsSlugs = new Set([
   'pokemon-pokopia-switch-2-online-local-gameshare',
 ])
 
-<<<<<<< Updated upstream
-const habitatById = new Map(habitats.map((item) => [item.id, item]))
-
-const hubPages = [
-  {
-=======
 const staticEntries = [
   entry({
->>>>>>> Stashed changes
     id: 'official-hub',
     type: 'Official',
     title: 'Pokopia Official Info Hub',
@@ -136,15 +126,9 @@ const staticEntries = [
     meta: 'Feature hub',
     status: 'Source-aware feature hub',
     priority: 84,
-<<<<<<< Updated upstream
-    keywords: 'features official context animal crossing creative play friendship requests system analysis',
-  },
-  {
-=======
     keywords: 'features animal crossing creative play friendship requests',
   }),
   entry({
->>>>>>> Stashed changes
     id: 'pokemon-database-hub',
     type: 'Pokemon',
     title: 'Pokopia Pokemon Database',
@@ -152,17 +136,9 @@ const staticEntries = [
     description: 'Browse Pokopia Pokemon entries by type, rarity, habitat, favorite food, drops, specialty, and route role.',
     meta: 'Pokemon database hub',
     status: 'Reviewed database hub',
-<<<<<<< Updated upstream
-    updatedAt: '2026-07-16',
-    priority: 82,
-    keywords: 'pokemon database pokedex type rarity habitat favorite food drops specialty route role team builder',
-  },
-  {
-=======
     priority: 82,
   }),
   entry({
->>>>>>> Stashed changes
     id: 'habitat-database-hub',
     type: 'Habitat',
     title: 'Pokopia Habitat Maps and Route Notes',
@@ -170,17 +146,9 @@ const staticEntries = [
     description: 'Explore Pokopia habitats by unlock condition, weather, difficulty, resource bonus, spawn route, and route risk.',
     meta: 'Habitat database hub',
     status: 'Reviewed database hub',
-<<<<<<< Updated upstream
-    updatedAt: '2026-07-16',
-    priority: 80,
-    keywords: 'habitat map route notes unlock condition weather difficulty resource bonus spawn route habitat planner',
-  },
-  {
-=======
     priority: 80,
   }),
   entry({
->>>>>>> Stashed changes
     id: 'recipe-database-hub',
     type: 'Recipe',
     title: 'Pokopia Recipe Cookbook and Buff Notes',
@@ -188,126 +156,9 @@ const staticEntries = [
     description: 'Compare Pokopia recipes by ingredients, buff effect, duration, rarity, route timing, and best use.',
     meta: 'Recipe database hub',
     status: 'Reviewed database hub',
-<<<<<<< Updated upstream
-    updatedAt: '2026-07-16',
-    priority: 78,
-    keywords: 'recipe cookbook buff notes ingredients duration rarity route timing best use recipe calculator',
-  },
-  {
-    id: 'pokemon-priority-index',
-    type: 'Pokemon',
-    title: 'Pokopia Pokemon Priority Index',
-    href: '/tier-list',
-    description: 'Use the editorial Pokemon priority index as a route planning aid based on rarity, specialty, and route role.',
-    meta: 'Priority index',
-    status: 'Reviewed database index',
-    updatedAt: '2026-07-16',
-    priority: 76,
-    keywords: 'pokemon priority index tier list route planning rarity specialty role progression rare farming hard routes',
-  },
-]
-
-const trustPages = [
-  {
-    id: 'editorial-policy',
-    title: 'Editorial Policy',
-    href: '/editorial-policy',
-    description: 'How Pokopia Portal reviews source-backed pages, guide advice, future content, AI drafts, and corrections.',
-    meta: 'Trust policy',
-    status: 'Review process page',
-    updatedAt: '2026-07-11',
-    priority: 58,
-    keywords: 'editorial policy review process noindex sitemap source backed guide advice ai drafts corrections low value content quality',
-  },
-  {
-    id: 'source-policy',
-    title: 'Source Policy',
-    href: '/source-policy',
-    description: 'How Pokopia Portal ranks official sources, third-party references, screenshots, submissions, and unsupported claims.',
-    meta: 'Trust policy',
-    status: 'Source standards page',
-    updatedAt: '2026-07-11',
-    priority: 58,
-    keywords: 'source policy official sources primary source screenshots attribution submissions unsupported claims trust standards',
-  },
-  {
-    id: 'corrections',
-    title: 'Corrections',
-    href: '/corrections',
-    description: 'How to report outdated Pokopia Portal information, source issues, image attribution problems, and unclear guide advice.',
-    meta: 'Trust policy',
-    status: 'Correction process page',
-    updatedAt: '2026-07-11',
-    priority: 58,
-    keywords: 'corrections report issue outdated information source issue image attribution guide advice copyright contact',
-  },
-]
-
-const featurePages = [
-  {
-    id: 'creative-play-ideas',
-    title: 'Pokopia Creative Play Ideas',
-    href: '/features/creative-play-ideas',
-    description: 'Safe Pokopia creative play ideas for building challenges, recipe workshops, habitat themes, and community-friendly routes without mod downloads.',
-    meta: 'Creative play',
-    status: 'Source-aware feature',
-    updatedAt: '2026-05-28',
-    priority: 84,
-    keywords: 'creative play ideas mod alternatives building challenge habitat theme recipe workshop community challenge no downloads safe gameplay',
-  },
-  {
-    id: 'friendship-requests-tracker',
-    title: 'Pokopia Friendship and Requests Tracker',
-    href: '/features/friendship-requests-tracker',
-    description: 'A source-aware tracker for Pokopia befriended Pokemon, requests, visits, and unconfirmed NPC relationship mechanics.',
-    meta: 'System tracker',
-    status: 'Source-aware tracker',
-    updatedAt: '2026-07-11',
-    priority: 86,
-    keywords: 'friendship requests tracker befriended pokemon npc relationship visits daily challenges pc requests social systems official tips',
-  },
-  {
-    id: 'weekly-event-tracker',
-    title: 'Pokopia Weekly Event Tracker',
-    href: '/news/weekly-event-tracker',
-    description: 'A source-aware Pokopia weekly event tracker that separates confirmed official updates, topics to recheck, and archived event information.',
-    meta: 'Event tracker',
-    status: 'Source-aware tracker',
-    updatedAt: '2026-07-11',
-    priority: 88,
-    keywords: 'weekly event tracker confirmed updates official source roundup active events archived events daily challenges early purchase bonus rewards schedule',
-  },
-  {
-    id: 'pokopia-animal-crossing',
-    title: 'Pokopia vs Animal Crossing: Cozy Life Sim Comparison',
-    href: '/features/pokopia-animal-crossing',
-    description: 'A source-aware comparison for cozy game players, separating confirmed Pokopia systems from broader life-sim expectations.',
-    meta: 'Source-aware comparison',
-    status: 'Source-aware feature',
-    updatedAt: '2026-07-11',
-    priority: 86,
-    keywords: 'pokopia animal crossing comparison cozy life sim building decorating pokemon habitats recipes creative world rebuilding',
-  },
-  {
-    id: 'meta-analysis',
-    title: 'Pokémon Pokopia Confirmed Systems Analysis',
-    href: '/features/meta-analysis',
-    description: 'Editorial analysis of officially confirmed Pokémon Pokopia systems, including Ditto, moves, crafting, food, multiplayer, and beginner routines.',
-    meta: 'Official context',
-    status: 'Source-aware feature',
-    updatedAt: '2026-07-11',
-    priority: 84,
-    keywords: 'confirmed systems analysis ditto moves crafting food multiplayer beginner routines official context',
-  },
-]
-
-const tools = [
-  {
-=======
     priority: 78,
   }),
   entry({
->>>>>>> Stashed changes
     id: 'tools',
     type: 'Tool',
     title: 'Pokopia Tools and Route Planners',
@@ -379,11 +230,7 @@ const index = [
     priority: 95,
     keywords: [item.category, item.source_label, item.source_type].join(' '),
   })),
-<<<<<<< Updated upstream
-  ...guides.filter(isIndexableGuide).map((item) => ({
-=======
   ...guides.filter(isIndexableGuide).map((item) => entry({
->>>>>>> Stashed changes
     id: item.id,
     type: 'Guide',
     title: item.title,
@@ -421,11 +268,7 @@ const index = [
     href: `/wiki/pokemon/${item.id}`,
     description: item.overview || item.description,
     meta: `${item.type} / ${item.rarity}`,
-<<<<<<< Updated upstream
-    status: item.data_status === 'Source-backed database entry' ? 'Source-backed database entry' : 'Reviewed database entry',
-=======
     status: item.data_status || 'Reviewed database entry',
->>>>>>> Stashed changes
     source: item.image_source || null,
     updatedAt: dateOnly(item.updated_at),
     priority: 75,
@@ -448,11 +291,7 @@ const index = [
     href: `/wiki/habitat/${item.id}`,
     description: item.overview || `${item.unlock_condition}. ${item.resource_bonus}`,
     meta: `${item.weather} / ${item.difficulty}`,
-<<<<<<< Updated upstream
-    status: item.data_status === 'Source-backed database entry' ? 'Source-backed database entry' : 'Reviewed habitat guide',
-=======
     status: item.data_status || 'Reviewed habitat guide',
->>>>>>> Stashed changes
     source: item.image_source || null,
     updatedAt: dateOnly(item.updated_at),
     priority: 70,
@@ -465,11 +304,7 @@ const index = [
     href: `/wiki/recipe/${item.id}`,
     description: item.overview || item.buff,
     meta: `${item.rarity} / ${item.effect_duration}`,
-<<<<<<< Updated upstream
-    status: item.data_status === 'Source-backed database entry' ? 'Source-backed database entry' : 'Reviewed recipe reference',
-=======
     status: item.data_status || 'Reviewed recipe reference',
->>>>>>> Stashed changes
     source: item.image_source || null,
     updatedAt: dateOnly(item.updated_at),
     priority: 65,

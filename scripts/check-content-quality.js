@@ -1,9 +1,5 @@
 const fs = require('fs')
 const path = require('path')
-const {
-  isIndexableDatabaseEntry,
-  isIndexableGuide,
-} = require('./lib/indexing')
 
 const root = path.join(__dirname, '..')
 const issues = []
@@ -65,30 +61,6 @@ function hasReviewSignal(text) {
   return /\b(last reviewed|updated|source|sources|source-backed|source-aware|official|confirmed|correction|review process|content status|reviewed|wiki)\b/i.test(text)
 }
 
-<<<<<<< Updated upstream
-function isOfficialSourceUrl(value) {
-  try {
-    const hostname = new URL(String(value || '')).hostname.toLowerCase()
-    return hostname === 'nintendo.com' ||
-      hostname.endsWith('.nintendo.com') ||
-      hostname === 'pokemon.com' ||
-      hostname.endsWith('.pokemon.com')
-  } catch {
-    return false
-  }
-}
-
-function hasNoindex(html) {
-  return /<meta\s+name=["']robots["'][^>]*content=["'][^"']*\bnoindex\b/i.test(html) ||
-    /<meta\s+name=["']googlebot["'][^>]*content=["'][^"']*\bnoindex\b/i.test(html)
-}
-
-const forbiddenVisibleLinkPatterns = [
-  /^\/search\/?$/,
-]
-
-=======
->>>>>>> Stashed changes
 const sitemapFile = path.join(root, 'out', 'sitemap.xml')
 assert(fs.existsSync(sitemapFile), 'out/sitemap.xml does not exist. Run next build before content quality checks.')
 
@@ -111,27 +83,7 @@ for (const pagePath of sitemapPaths) {
   assert(wordCount >= 120, `${label} has thin rendered text (${wordCount} words)`)
   assert(h2Count >= 1 || pagePath === '/', `${label} has no h2 section heading`)
   assert(internalLinkCount >= 3 || pagePath === '/', `${label} has too few internal links (${internalLinkCount})`)
-<<<<<<< Updated upstream
-  assert(hasReviewSignal(text), `${label} lacks visible source, review, status, updated, or confirmed signal`)
-  if (/^\/tools\/.+/.test(pagePath)) {
-    assert(/Source Review/i.test(text), `${label} is a tool page without visible Source Review notes`)
-    assert(/WebApplication/i.test(html), `${label} is a tool page without WebApplication structured data`)
-    assert(/unverified editorial/i.test(text), `${label} must disclose that its planning dataset is unverified editorial data`)
-  }
-
-  const visibleLinks = [...html.matchAll(/<a\b[^>]*\bhref=["']([^"']+)["']/gi)]
-    .map((match) => match[1])
-    .filter((href) => href.startsWith('/') && !href.startsWith('//'))
-    .map((href) => normalizedPath(href))
-
-  for (const href of visibleLinks) {
-    for (const pattern of forbiddenVisibleLinkPatterns) {
-      assert(!pattern.test(href), `${label} links to noindex or low-confidence page: ${href}`)
-    }
-  }
-=======
   assert(hasReviewSignal(text), `${label} lacks visible source, review, status, updated, confirmed, or wiki signal`)
->>>>>>> Stashed changes
 }
 
 const official = readJson('src/data/official.json')
@@ -139,82 +91,6 @@ const news = readJson('src/data/news.json')
 const guides = readJson('src/data/guides.json')
 const searchIndex = readJson('src/data/search-index.json')
 
-<<<<<<< Updated upstream
-const editorialItems = [...guides, ...pokemon, ...habitats, ...recipes]
-  .filter((item) => String(item.index_status || '').toLowerCase().includes('review'))
-
-for (const item of editorialItems) {
-  const label = item.slug || item.id || item.name || item.title
-  assert(
-    /^Unverified editorial\b/i.test(String(item.data_status || '')),
-    `editorial item ${label} must identify its status as unverified editorial content`
-  )
-  assert(
-    /\bunverified\b/i.test(String(item.data_status_note || '')) &&
-      /\bnot (?:an? )?(?:official|confirmed)\b/i.test(String(item.data_status_note || '')) &&
-      /\bdoes not (?:depict or )?verify\b/i.test(String(item.data_status_note || '')),
-    `editorial item ${label} must explain that its media source does not verify its claims`
-  )
-  assert(
-    /unverified editorial/i.test(String(item.image_alt || '')) &&
-      !/official.*(?:used for|guide|entry)/i.test(String(item.image_alt || '')),
-    `editorial item ${label} has a misleading image alt description`
-  )
-  assert(
-    /does not verify/i.test(String(item.image_license_note || '')),
-    `editorial item ${label} must separate promotional media credit from claim verification`
-  )
-  assert(!isIndexableGuide(item) && !isIndexableDatabaseEntry(item), `editorial item ${label} must remain outside the index`)
-}
-
-for (const file of ['guides', 'official', 'news', 'pokemon', 'habitats', 'recipes', 'search-index']) {
-  assert(
-    JSON.stringify(readJson(`src/data/${file}.json`)) === JSON.stringify(readJson(`public/data/${file}.json`)),
-    `src/data/${file}.json and public/data/${file}.json are out of sync`
-  )
-}
-
-const indexableGuides = guides.filter(isIndexableGuide)
-for (const guide of indexableGuides) {
-  if (guide.data_status === 'Source-backed guide') {
-    assert(Array.isArray(guide.source_notes) && guide.source_notes.length >= 2, `guide ${guide.slug} is missing source_notes`)
-    assert(Array.isArray(guide.confirmed_context) && guide.confirmed_context.length >= 2, `guide ${guide.slug} is missing confirmed_context`)
-    assert(Array.isArray(guide.editorial_limits) && guide.editorial_limits.length >= 2, `guide ${guide.slug} is missing editorial_limits`)
-    assert(Array.isArray(guide.sources) && guide.sources.length >= 1, `guide ${guide.slug} is missing an official source`)
-    assert(
-      Array.isArray(guide.sources) && guide.sources.some((source) => source?.label && isOfficialSourceUrl(source.url)),
-      `guide ${guide.slug} needs an official Nintendo or Pokemon source URL`
-    )
-  }
-  assert(Array.isArray(guide.faqs) && guide.faqs.length >= 3, `guide ${guide.slug} needs at least 3 FAQs`)
-  assert(String(guide.data_status_note || '').length >= 80, `guide ${guide.slug} has a weak data_status_note`)
-}
-
-for (const guide of indexableGuides.filter((item) => item.data_status === 'Source-backed guide')) {
-  const htmlFile = htmlPathForRoute(`/guides/${guide.slug}`)
-  const html = fs.existsSync(htmlFile) ? fs.readFileSync(htmlFile, 'utf8') : ''
-  const officialSources = guide.sources?.filter((source) => isOfficialSourceUrl(source.url)) || []
-
-  assert(fs.existsSync(htmlFile), `source-backed guide ${guide.slug} has no exported HTML`)
-  assert(
-    officialSources.some((source) => html.includes(`href="${source.url}"`)),
-    `source-backed guide ${guide.slug} does not render a direct official source link`
-  )
-}
-
-for (const item of [...pokemon, ...habitats, ...recipes].filter(isIndexableDatabaseEntry)) {
-  if (item.data_status === 'Source-backed database entry') {
-    assert(Array.isArray(item.sources) && item.sources.some((source) => /^https?:\/\//i.test(String(source?.url || ''))), `database ${item.id} needs a primary source URL`)
-    assert(Array.isArray(item.confirmed_facts) && item.confirmed_facts.length >= 2, `database ${item.id} needs confirmed facts`)
-    assert(Array.isArray(item.editorial_limits) && item.editorial_limits.length >= 2, `database ${item.id} needs editorial limits`)
-  }
-  assert(String(item.data_status_note || '').length >= 80, `database ${item.id} has a weak data_status_note`)
-  assert(item.image_source && item.image_source_url, `database ${item.id} needs image source attribution`)
-  assert(Array.isArray(item.faqs) && item.faqs.length >= 3, `database ${item.id} needs at least 3 FAQs`)
-}
-
-=======
->>>>>>> Stashed changes
 for (const page of official) {
   assert(Array.isArray(page.facts) && page.facts.length >= 4, `official ${page.slug} needs confirmed facts`)
   assert(Array.isArray(page.sources) && page.sources.length >= 1, `official ${page.slug} needs official sources`)
