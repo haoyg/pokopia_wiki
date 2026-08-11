@@ -312,6 +312,7 @@ export default function PokemonClientPage() {
                   className="card-cover pokemon-cover"
                   sizes="(max-width: 768px) 100px, 200px"
                   creditLink={false}
+                  showCredit={false}
                   fallbackSrc={pokemonImage(p.name)}
                   fallbackAlt={`${p.name} Pokemon illustration`}
                 />
