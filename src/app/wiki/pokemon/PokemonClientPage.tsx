@@ -404,12 +404,9 @@ export default function PokemonClientPage() {
               to encounter that Pokemon in the wild.
             </p>
             <p>
-              Pokopia currently features {pokemonData.length} documented Pokemon entries spanning four rarity
-              tiers — common, uncommon, rare, and legendary — across {habitatsData.length} distinct habitat
-              environments. Each Pokemon appears only in specific habitats, during specific weather conditions,
-              and within specific time-of-day windows. Matching all three conditions maximizes your encounter
-              rate, but partial matches can still produce useful results when you are building toward a
-              specific material drop.
+              For a full reference guide covering collection strategy, rarity tier analysis, type distribution,
+              habitat overviews, legendary Pokemon spotlights, and a complete FAQ, see the{' '}
+              <a href="/wiki/collection">Pokopia Collection List reference page</a>.
             </p>
             <p>
               Tracking collection progress is especially important for legendary Pokemon, which require rare
