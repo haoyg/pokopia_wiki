@@ -1,7 +1,6 @@
 import type { Metadata } from 'next'
 import pokemonData from '@/data/pokemon.json'
 import { canonicalUrl } from '@/lib/site'
-import { noIndexMetadata } from '@/lib/indexing'
 import { BreadcrumbJsonLd, ItemListJsonLd } from '@/components/seo/JsonLd'
 import PokemonClientPage from './PokemonClientPage'
 
@@ -33,7 +32,6 @@ export const metadata: Metadata = {
   alternates: {
     canonical: canonicalUrl('/wiki/pokemon'),
   },
-  robots: noIndexMetadata,
 }
 
 export default function PokemonPage() {

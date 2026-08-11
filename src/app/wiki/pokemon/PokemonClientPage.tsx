@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useMemo } from 'react'
+import { useState, useMemo, useEffect } from 'react'
 import pokemonData from '@/data/pokemon.json'
 import habitatsData from '@/data/habitats.json'
 import { CreditedImage } from '@/components/media/CreditedImage'
@@ -30,9 +30,10 @@ interface FilterState {
 }
 
 const RARITY_ORDER: Record<string, number> = { common: 1, uncommon: 2, rare: 3, legendary: 4 }
+const STORAGE_KEY = 'pokopia-collection-checked'
 
 export default function PokemonClientPage() {
-  const [view, setView] = useState<ViewMode>('grid')
+  const [view, setView] = useState<ViewMode>('collection')
   const [filters, setFilters] = useState<FilterState>({
     search: '',
     type: '',
@@ -42,6 +43,20 @@ export default function PokemonClientPage() {
     sort: 'id',
   })
   const [checked, setChecked] = useState<Set<string>>(new Set())
+
+  // Persist checked state to localStorage
+  useEffect(() => {
+    try {
+      const stored = localStorage.getItem(STORAGE_KEY)
+      if (stored) setChecked(new Set(JSON.parse(stored)))
+    } catch {}
+  }, [])
+
+  useEffect(() => {
+    try {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify([...checked]))
+    } catch {}
+  }, [checked])
 
   const toggleCheck = (id: string) => {
     setChecked((prev) => {
@@ -103,10 +118,9 @@ export default function PokemonClientPage() {
   return (
     <>
       <section className="page-hero">
-        <h1>Pokemon Database</h1>
+        <h1>Pokopia Collection List: Complete Pokemon Checklist</h1>
         <p>
-          Browse all {pokemonData.length} Pokopia Pokemon — filter by type, rarity, or specialty,
-          and track your collection progress.
+          This page lists all {pokemonData.length} Pokemon available in Pokopia. Each entry shows type, rarity, role, habitat, and exactly how to find it — favorite food, spawn time window, and weather conditions. Use the checkboxes below to track which Pokemon you have collected; progress is saved in your browser. Filter by any attribute or sort the list to plan your next habitat session.
         </p>
       </section>
 
@@ -378,10 +392,13 @@ export default function PokemonClientPage() {
                 <span className="collection-type" role="cell">{p.type}</span>
                 <span className="collection-rarity" role="cell">{p.rarity}</span>
                 <span className="collection-specialty" role="cell">{p.specialty}</span>
-                <span className="collection-habitat" role="cell">{habitatNames[p.habitat] || p.habitat}</span>
+                <span className="collection-habitat" role="cell">
+                  <a href={`/wiki/habitat/${p.habitat}`}>{habitatNames[p.habitat] || p.habitat}</a>
+                </span>
                 <span className="collection-howto" role="cell">
                   <span className="howto-food">{p.favorite_food}</span>
                   <span className="howto-conditions">{p.spawn_time} / {p.weather}</span>
+                  <a href={`/wiki/habitat/${p.habitat}`} className="howto-link">→ Habitat guide</a>
                 </span>
               </div>
             ))}
@@ -397,31 +414,33 @@ export default function PokemonClientPage() {
 
           {/* SEO content block */}
           <div className="collection-seo-content">
-            <h2>Pokopia Collection List — Complete Pokemon Checklist</h2>
+            <h2>How to Use This Pokopia Collection List</h2>
             <p>
-              This Pokopia Collection List page serves as a complete Pokemon checklist for players working to
-              capture every entry in the game. Use the filters above to narrow down Pokemon by type, rarity,
-              specialty role, or habitat, then check them off as you add them to your collection. The how-to-get
-              column on each entry shows the favorite food, spawn time window, and weather conditions you need
-              to encounter that Pokemon in the wild.
+              This complete Pokopia Pokemon checklist covers all {pokemonData.length} entries across every habitat, rarity tier, and specialty role in the game. The checklist below is your primary tracking tool: check each Pokemon as you capture it and your browser will remember your progress automatically. Filter by type, rarity, specialty, or habitat to find exactly which Pokemon you still need and where to find them.
+            </p>
+
+            <h3>Complete Pokopia Pokemon Checklist by Rarity</h3>
+            <p>
+              Rarity tiers in Pokopia range from common to legendary. Common Pokemon appear frequently in their associated habitat, while legendary Pokemon require specific weather conditions, spawn time windows, and rare material drops. Use this collection checklist to mark off each rarity tier as you complete it — legendary entries are especially worth tracking since each one requires habitat-specific farming runs.
+            </p>
+
+            <h3>Where to Find Each Pokemon</h3>
+            <p>
+              Every entry in this Pokopia collection list includes the habitat name, favorite food, spawn time, and weather conditions needed to encounter that Pokemon. Clicking the habitat link in each row opens the full habitat guide page, which covers unlock conditions, recommended team builds, resource bonuses, and the complete spawn list for that location. Linking each Pokemon directly to its habitat page creates a natural navigation path from the collection checklist to detailed habitat strategy guides.
+            </p>
+
+            <h3>Pokopia Collection List FAQ</h3>
+            <p>
+              <strong>How many Pokemon are in Pokopia?</strong> There are currently {pokemonData.length} Pokemon across all habitats, types, and rarity tiers in the game.
             </p>
             <p>
-              For a full reference guide covering collection strategy, rarity tier analysis, type distribution,
-              habitat overviews, legendary Pokemon spotlights, and a complete FAQ, see the{' '}
-              <a href="/wiki/collection">Pokopia Collection List reference page</a>.
+              <strong>Does the checklist save my progress?</strong> Yes — checked entries are stored in your browser's localStorage and will persist between sessions. Clearing browser data will reset the checklist.
             </p>
             <p>
-              Tracking collection progress is especially important for legendary Pokemon, which require rare
-              materials that only drop from their specific habitat. Players who check off legendary entries as
-              they farm each one can avoid wasting sessions on duplicate material runs. Bookmark this page and
-              use the Collection List view to maintain an ongoing record of which Pokemon you have already
-              captured versus which ones still need targeted habitat sessions.
+              <strong>Can I filter the checklist?</strong> Yes. Use the filter row above the table to narrow down by type, rarity, specialty role, or habitat. You can also search by name or sort the list by any column.
             </p>
             <p>
-              For detailed route guidance on individual Pokemon — including which moves to open with, which
-              teammates to bring, and which mistakes to avoid — click any Pokemon name in the list to open
-              its full wiki page. Each individual page functions as a mini route guide with confirmed spawn
-              conditions, drop table data, and editorial farming recommendations.
+              <strong>How do I find legendary Pokemon?</strong> Legendary Pokemon are marked in the rarity column. Each legendary entry links to its habitat page, where you can find the specific spawn conditions, time windows, and weather requirements needed to encounter it.
             </p>
           </div>
         </div>

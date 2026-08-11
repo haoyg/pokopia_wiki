@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import { canonicalUrl } from '@/lib/site'
-import { noIndexMetadata } from '@/lib/indexing'
 import { BreadcrumbJsonLd, FAQJsonLd } from '@/components/seo/JsonLd'
 import CompatibilityClient from './CompatibilityClient'
 
@@ -32,7 +31,6 @@ export const metadata: Metadata = {
   alternates: {
     canonical: canonicalUrl('/wiki/pokemon/compatibility'),
   },
-  robots: noIndexMetadata,
 }
 
 export default function CompatibilityPage() {

@@ -7,9 +7,9 @@ import pokemonData from '@/data/pokemon.json'
 import habitatsData from '@/data/habitats.json'
 
 export const metadata: Metadata = {
-  title: 'Pokopia Best Pokemon – Top Picks for Every Role and Build | Pokopia Cloud',
+  title: 'Best Starter Pokemon in Pokopia (2026 Ranking) – All Picks Ranked | Pokopia Cloud',
   description:
-    'Find the best Pokemon in Pokopia for every role — attacker, support, tank, and speedster — plus the top starter picks, rarity tier rankings, and a team-building framework built around route fit over raw rarity.',
+    'Find the best starter Pokemon in Pokopia ranked by role fit, route conditions, and food cost. Plus the best Pokemon for every role — attacker, support, tank, speedster — and a team-building framework built around route fit over rarity.',
   keywords: [
     'pokopia best pokemon',
     'best pokemon in pokopia',
@@ -129,7 +129,7 @@ export default function BestPokemonPage() {
 
       <section className="guide-detail-hero topic-hero">
         <span className="panel-kicker">Best Pokemon</span>
-        <h1>Pokopia Best Pokemon – Top Picks for Every Role and Build</h1>
+        <h1>Best Starter Pokemon in Pokopia (2026 Ranking)</h1>
         <p>
           Rarity does not decide winners in Pokopia. Route fit does. This guide picks the best Pokemon for
           each role, rarity tier, and build path — grounded in habitat conditions, food costs, and the
@@ -170,7 +170,7 @@ export default function BestPokemonPage() {
             and cheap. That predictability is the actual value.
           </p>
           <p>
-            Read each section with your current route in mind. If you are running Forest Valley, Bulbin is
+            This best Pokemon guide is organized so you can read each section with your current route in mind. If you are running Forest Valley, Bulbin is
             probably the right fit. If you are building toward Volcanic Cave for Fire materials, Pikafire
             becomes the better attacker even though it costs Apple and demands a confirmed Thunderbolt
             opener. Route stage matters as much as role fit.
