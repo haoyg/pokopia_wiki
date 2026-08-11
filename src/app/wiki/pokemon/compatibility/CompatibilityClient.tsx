@@ -11,7 +11,7 @@ const ALL_TYPES = [...new Set(pokemonData.flatMap((p) => p.type.split('/')))].so
 const habitatNames = Object.fromEntries(habitatsData.map((h) => [h.id, h.name]))
 
 /* Type matchup matrix — effectiveness multiplier for target vs attacker type */
-const TYPE_CHART: Record<string, Record<string, number>> = {
+const TYPE_CHART: Record<string, Record<string, number> > = {
   Fire: { Grass: 2, Water: 0.5, Fire: 0.5, Ice: 2, Bug: 2, Rock: 0.5, Dragon: 0.5, Steel: 2 },
   Water: { Fire: 2, Grass: 0.5, Water: 0.5, Ground: 2, Rock: 2, Dragon: 0.5 },
   Grass: { Water: 2, Fire: 0.5, Grass: 0.5, Poison: 0.5, Ground: 2, Flying: 0.5, Bug: 0.5, Rock: 2, Dragon: 0.5, Steel: 0.5 },
@@ -173,27 +173,18 @@ export default function CompatibilityPage() {
       />
 
       {/* Selector */}
-      <section
-        style={{
-          marginTop: '1.5rem',
-          padding: '1.5rem',
-          border: '2px solid rgba(220, 232, 220, 0.95)',
-          borderRadius: '12px',
-          background: 'rgba(255, 253, 247, 0.96)',
-          boxShadow: '0 4px 0 rgba(47, 76, 113, 0.08)',
-        }}
-      >
-        <h2 style={{ fontSize: '1.1rem', marginBottom: '1rem' }}>Select a Pair to Check</h2>
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: '1rem', alignItems: 'end' }}>
+      <section className="tool-panel">
+        <h2 className="tool-section-heading">Select a Pair to Check</h2>
+        <div className="tool-form-grid">
           <div>
-            <label htmlFor="slot-a" style={{ display: 'block', marginBottom: '0.35rem', fontSize: '0.8rem', fontWeight: 900, color: '#637083', textTransform: 'uppercase' }}>
+            <label htmlFor="slot-a" className="tool-form-label">
               First Pokemon
             </label>
             <select
               id="slot-a"
               value={slotA}
               onChange={(e) => setSlotA(e.target.value)}
-              style={{ width: '100%', padding: '0.65rem 0.75rem', border: '2px solid #dce8dc', borderRadius: '8px', font: 'inherit', background: 'rgba(255,255,255,0.92)' }}
+              className="tool-form-input"
             >
               <option value="">Choose Pokemon...</option>
               {pokemonData.map((p) => (
@@ -205,14 +196,14 @@ export default function CompatibilityPage() {
             +
           </div>
           <div>
-            <label htmlFor="slot-b" style={{ display: 'block', marginBottom: '0.35rem', fontSize: '0.8rem', fontWeight: 900, color: '#637083', textTransform: 'uppercase' }}>
+            <label htmlFor="slot-b" className="tool-form-label">
               Second Pokemon
             </label>
             <select
               id="slot-b"
               value={slotB}
               onChange={(e) => setSlotB(e.target.value)}
-              style={{ width: '100%', padding: '0.65rem 0.75rem', border: '2px solid #dce8dc', borderRadius: '8px', font: 'inherit', background: 'rgba(255,255,255,0.92)' }}
+              className="tool-form-input"
             >
               <option value="">Choose Pokemon...</option>
               {pokemonData.map((p) => (
@@ -226,51 +217,42 @@ export default function CompatibilityPage() {
       {/* Synergy result */}
       {synergy && (
         <section
+          className="tool-panel"
           style={{
-            marginTop: '1.25rem',
-            padding: '1.5rem',
-            border: `2px solid ${synergy.pct >= 80 ? 'rgba(89, 201, 130, 0.62)' : synergy.pct >= 50 ? 'rgba(255, 209, 102, 0.62)' : 'rgba(220, 232, 220, 0.95)'}`,
-            borderRadius: '12px',
-            background: 'rgba(255, 253, 247, 0.96)',
-            boxShadow: '0 4px 0 rgba(47, 76, 113, 0.08)',
+            borderColor: synergy.pct >= 80 ? 'rgba(89, 201, 130, 0.62)' : synergy.pct >= 50 ? 'rgba(255, 209, 102, 0.62)' : 'rgba(220, 232, 220, 0.95)',
           }}
         >
-          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', flexWrap: 'wrap', gap: '1rem' }}>
+          <div className="tool-stat-row">
             <div>
-              <span style={{ color: '#637083', fontSize: '0.78rem', fontWeight: 800, textTransform: 'uppercase' }}>
+              <span className="check-label">
                 Synergy Score
               </span>
               <h2 style={{ fontSize: '2rem', marginTop: '0.2rem', color: synergy.pct >= 80 ? '#237044' : synergy.pct >= 50 ? '#7a5a00' : '#555' }}>
                 {synergy.label} — {synergy.score}/{synergy.max}
               </h2>
             </div>
-            <div style={{ display: 'grid', placeItems: 'center', width: '72px', height: '72px', borderRadius: '50%', border: `4px solid ${synergy.pct >= 80 ? '#59c982' : synergy.pct >= 50 ? '#ffd166' : '#ccc'}`, background: 'white' }}>
+            <div className={"tool-score-circle " + (synergy.pct >= 80 ? "tool-score-circle-strong" : synergy.pct >= 50 ? "tool-score-circle-moderate" : "")}>
               <span style={{ fontSize: '1.3rem', fontWeight: 900, color: '#20243a' }}>{synergy.pct}%</span>
             </div>
           </div>
 
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '0.65rem', marginTop: '1rem' }}>
+          <div className="check-grid">
             {synergy.checks.map((check) => (
               <div
                 key={check.label}
-                style={{
-                  padding: '0.75rem 0.9rem',
-                  borderRadius: '8px',
-                  border: `1px solid ${check.pass ? 'rgba(89, 201, 130, 0.55)' : 'rgba(220, 232, 220, 0.95)'}`,
-                  background: check.pass ? 'rgba(242, 251, 244, 0.88)' : 'rgba(255, 253, 247, 0.88)',
-                }}
+                className={"check-item " + (check.pass ? "check-item-pass" : "check-item-fail")}
               >
-                <span style={{ display: 'block', fontSize: '0.78rem', fontWeight: 900, color: check.pass ? '#237044' : '#aaa', textTransform: 'uppercase' }}>
+                <span className="check-label" style={{ color: check.pass ? '#237044' : '#aaa' }}>
                   {check.pass ? '✓' : '✗'} {check.label}
                 </span>
-                <p style={{ marginTop: '0.25rem', color: '#3d475c', fontSize: '0.85rem' }}>{check.detail}</p>
+                <p className="check-detail">{check.detail}</p>
               </div>
             ))}
           </div>
 
           {/* Weakness/resistance breakdown */}
           {pokemonA && pokemonB && (
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '1rem', marginTop: '1.25rem' }}>
+            <div className="tool-card-grid" style={{ marginTop: '1.25rem' }}>
               {[
                 { pokemon: pokemonA, other: pokemonB },
                 { pokemon: pokemonB, other: pokemonA },
@@ -285,13 +267,13 @@ export default function CompatibilityPage() {
                 return (
                   <div
                     key={pokemon.id}
-                    style={{ padding: '1rem', borderRadius: '8px', border: '1px solid rgba(220, 232, 220, 0.95)', background: 'rgba(255,255,255,0.88)' }}
+                    className="tool-card"
                   >
-                    <div style={{ display: 'flex', gap: '0.75rem', alignItems: 'center', marginBottom: '0.75rem' }}>
+                    <div className="tool-profile-row">
                       <img
                         src={pokemonImage(pokemon.name)}
                         alt={pokemon.name}
-                        style={{ width: '48px', height: '48px', objectFit: 'contain', border: '2px solid #dce8dc', borderRadius: '8px', background: '#f2f8f2' }}
+                        className="tool-profile-img"
                         loading="lazy"
                       />
                       <div>
@@ -303,20 +285,20 @@ export default function CompatibilityPage() {
                     </div>
                     {NOTcovered.length > 0 && (
                       <div style={{ marginBottom: '0.4rem' }}>
-                        <span style={{ fontSize: '0.72rem', fontWeight: 900, color: '#c62828', textTransform: 'uppercase' }}>Weak to (not covered by {other.name})</span>
+                        <span className="tool-badge tool-badge-weak">Weak to (not covered by {other.name})</span>
                         <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.3rem', marginTop: '0.25rem' }}>
                           {NOTcovered.map((w) => (
-                            <span key={w} style={{ padding: '0.2rem 0.45rem', borderRadius: '999px', background: '#ffebee', color: '#c62828', fontSize: '0.75rem', fontWeight: 800 }}>{w}</span>
+                            <span key={w} className="tool-badge tool-badge-weak">{w}</span>
                           ))}
                         </div>
                       </div>
                     )}
                     {covered.length > 0 && (
                       <div>
-                        <span style={{ fontSize: '0.72rem', fontWeight: 900, color: '#237044', textTransform: 'uppercase' }}>Weaknesses covered by {other.name}</span>
+                        <span className="tool-badge tool-badge-resist">Weaknesses covered by {other.name}</span>
                         <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.3rem', marginTop: '0.25rem' }}>
                           {covered.map((w) => (
-                            <span key={w} style={{ padding: '0.2rem 0.45rem', borderRadius: '999px', background: '#e8f5e9', color: '#237044', fontSize: '0.75rem', fontWeight: 800 }}>{w}</span>
+                            <span key={w} className="tool-badge tool-badge-resist">{w}</span>
                           ))}
                         </div>
                       </div>
@@ -330,14 +312,14 @@ export default function CompatibilityPage() {
             </div>
           )}
 
-          <div style={{ marginTop: '1.25rem', display: 'flex', flexWrap: 'wrap', gap: '0.65rem' }}>
-            <Link href={`/wiki/pokemon/${pokemonA?.id}`} style={{ padding: '0.5rem 0.85rem', border: '1px solid #dce8dc', borderRadius: '999px', background: 'white', fontSize: '0.85rem', fontWeight: 800 }}>
+          <div className="tool-link-row">
+            <Link href={`/wiki/pokemon/${pokemonA?.id}`} className="tool-pill">
               Open {pokemonA?.name} page
             </Link>
-            <Link href={`/wiki/pokemon/${pokemonB?.id}`} style={{ padding: '0.5rem 0.85rem', border: '1px solid #dce8dc', borderRadius: '999px', background: 'white', fontSize: '0.85rem', fontWeight: 800 }}>
+            <Link href={`/wiki/pokemon/${pokemonB?.id}`} className="tool-pill">
               Open {pokemonB?.name} page
             </Link>
-            <Link href={`/wiki/habitat/${pokemonA?.habitat}`} style={{ padding: '0.5rem 0.85rem', border: '1px solid #dce8dc', borderRadius: '999px', background: 'white', fontSize: '0.85rem', fontWeight: 800 }}>
+            <Link href={`/wiki/habitat/${pokemonA?.habitat}`} className="tool-pill">
               {pokemonA && habitatNames[pokemonA.habitat]} habitat
             </Link>
           </div>
@@ -346,28 +328,24 @@ export default function CompatibilityPage() {
 
       {/* Suggestions for slot A */}
       {teamSuggestions.length > 0 && slotA && (
-        <section style={{ marginTop: '1.5rem' }}>
-          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '0.75rem', marginBottom: '1rem' }}>
-            <h2 style={{ fontSize: '1.1rem' }}>
+        <section className="tool-panel" style={{ marginTop: '1.5rem' }}>
+          <div className="tool-panel-header">
+            <h2 className="tool-section-heading">
               Best Partners for {pokemonData.find((p) => p.id === slotA)?.name}
             </h2>
             <Link href="/tools/team-builder" style={{ fontSize: '0.85rem', fontWeight: 800, color: '#2f84d8' }}>
               Open full Team Builder →
             </Link>
           </div>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(240px, 1fr))', gap: '0.75rem' }}>
-            {teamSuggestions.map(({ pokemon, score, coversWeakA, coversWeakB, roleDiff, habitatDiff }) => (
+          <div className="tool-card-grid">
+            {teamSuggestions.map(({ pokemon, score, coversWeakA, coversWeakB, roleDiff, habitatDiff }) => {
+              const total = [coversWeakA, coversWeakB, roleDiff, habitatDiff].filter(Boolean).length
+              return (
               <div
                 key={pokemon.id}
-                style={{
-                  padding: '1rem',
-                  borderRadius: '10px',
-                  border: '1px solid rgba(220, 232, 220, 0.95)',
-                  background: 'rgba(255, 253, 247, 0.96)',
-                  boxShadow: '0 3px 0 rgba(47, 76, 113, 0.08)',
-                }}
+                className={"tool-card " + (total >= 6 ? "tool-card-strong" : total >= 4 ? "tool-card-moderate" : "")}
               >
-                <div style={{ display: 'flex', gap: '0.75rem', alignItems: 'center', marginBottom: '0.75rem' }}>
+                <div className="tool-profile-row">
                   <img
                     src={pokemonImage(pokemon.name)}
                     alt={pokemon.name}
@@ -383,60 +361,53 @@ export default function CompatibilityPage() {
                   </div>
                 </div>
                 <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.3rem' }}>
-                  {coversWeakA && <span style={{ padding: '0.2rem 0.4rem', borderRadius: '4px', background: '#e8f5e9', color: '#237044', fontSize: '0.72rem', fontWeight: 800 }}>Covers your weaknesses</span>}
-                  {coversWeakB && <span style={{ padding: '0.2rem 0.4rem', borderRadius: '4px', background: '#e8f5e9', color: '#237044', fontSize: '0.72rem', fontWeight: 800 }}>You cover their weaknesses</span>}
-                  {roleDiff && <span style={{ padding: '0.2rem 0.4rem', borderRadius: '4px', background: '#e3f2fd', color: '#1565c0', fontSize: '0.72rem', fontWeight: 800 }}>Different role</span>}
-                  {habitatDiff && <span style={{ padding: '0.2rem 0.4rem', borderRadius: '4px', background: '#fff3e0', color: '#e65100', fontSize: '0.72rem', fontWeight: 800 }}>Different habitat</span>}
+                  {coversWeakA && <span className="tool-badge tool-badge-resist">Covers your weaknesses</span>}
+                  {coversWeakB && <span className="tool-badge tool-badge-resist">You cover their weaknesses</span>}
+                  {roleDiff && <span className="tool-badge tool-badge-blue">Different role</span>}
+                  {habitatDiff && <span className="tool-badge tool-badge-orange">Different habitat</span>}
                 </div>
               </div>
-            ))}
+              )
+            })}
           </div>
         </section>
       )}
 
       {/* Type matchup reference */}
-      <section
-        style={{
-          marginTop: '2rem',
-          padding: '1.5rem',
-          borderRadius: '12px',
-          border: '2px solid rgba(220, 232, 220, 0.82)',
-          background: 'rgba(255, 253, 247, 0.88)',
-        }}
-      >
-        <h2 style={{ fontSize: '1.1rem', marginBottom: '0.85rem' }}>Type Matchup Reference</h2>
+      <section className="tool-panel" style={{ marginTop: '2rem', borderColor: 'rgba(220, 232, 220, 0.82)' }}>
+        <h2 className="tool-section-heading">Type Matchup Reference</h2>
         <p style={{ color: '#637083', fontSize: '0.9rem', marginBottom: '1rem' }}>
           Use this quick reference to understand type effectiveness. The compatibility tool uses
           these same relationships to compute defensive complement scores.
         </p>
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(160px, 1fr))', gap: '0.65rem' }}>
+        <div className="type-ref-grid">
           {ALL_TYPES.map((type) => {
             const strong = Object.entries(TYPE_CHART[type] || {}).filter(([, m]) => m >= 2).map(([t]) => t)
             const weak = Object.entries(TYPE_CHART[type] || {}).filter(([, m]) => m <= 0.5).map(([t]) => t)
             const immune = Object.entries(TYPE_CHART[type] || {}).filter(([, m]) => m === 0).map(([t]) => t)
             return (
-              <div key={type} style={{ padding: '0.85rem', borderRadius: '8px', border: '1px solid rgba(220, 232, 220, 0.95)', background: 'rgba(255,255,255,0.88)' }}>
-                <strong style={{ display: 'block', marginBottom: '0.45rem', fontSize: '0.88rem' }}>{type}</strong>
+              <div key={type} className="type-ref-card">
+                <strong>{type}</strong>
                 {strong.length > 0 && (
-                  <div style={{ marginBottom: '0.2rem' }}>
-                    <span style={{ fontSize: '0.68rem', color: '#c62828', fontWeight: 900 }}>Strong vs</span>
-                    <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.2rem', marginTop: '0.15rem' }}>
-                      {strong.map((t) => <span key={t} style={{ padding: '0.1rem 0.3rem', borderRadius: '3px', background: '#ffebee', color: '#c62828', fontSize: '0.7rem', fontWeight: 800 }}>{t}</span>)}
+                  <div className="type-ref-row">
+                    <span className="type-ref-label" style={{ color: '#c62828' }}>Strong vs</span>
+                    <div className="type-ref-tags">
+                      {strong.map((t) => <span key={t} className="tool-badge tool-badge-weak">{t}</span>)}
                     </div>
                   </div>
                 )}
                 {weak.length > 0 && (
-                  <div style={{ marginBottom: '0.2rem' }}>
-                    <span style={{ fontSize: '0.68rem', color: '#237044', fontWeight: 900 }}>Weak vs</span>
-                    <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.2rem', marginTop: '0.15rem' }}>
-                      {weak.map((t) => <span key={t} style={{ padding: '0.1rem 0.3rem', borderRadius: '3px', background: '#e8f5e9', color: '#237044', fontSize: '0.7rem', fontWeight: 800 }}>{t}</span>)}
+                  <div className="type-ref-row">
+                    <span className="type-ref-label" style={{ color: '#237044' }}>Weak vs</span>
+                    <div className="type-ref-tags">
+                      {weak.map((t) => <span key={t} className="tool-badge tool-badge-resist">{t}</span>)}
                     </div>
                   </div>
                 )}
                 {immune.length > 0 && (
-                  <div>
-                    <span style={{ fontSize: '0.68rem', color: '#555', fontWeight: 900 }}>Immune vs</span>
-                    <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.2rem', marginTop: '0.15rem' }}>
+                  <div className="type-ref-row">
+                    <span className="type-ref-label" style={{ color: '#555' }}>Immune vs</span>
+                    <div className="type-ref-tags">
                       {immune.map((t) => <span key={t} style={{ padding: '0.1rem 0.3rem', borderRadius: '3px', background: '#f5f5f5', color: '#555', fontSize: '0.7rem', fontWeight: 800 }}>{t}</span>)}
                     </div>
                   </div>

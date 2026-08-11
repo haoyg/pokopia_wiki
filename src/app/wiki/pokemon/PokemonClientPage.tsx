@@ -345,6 +345,7 @@ export default function PokemonClientPage() {
           </div>
 
           {/* Collection table */}
+          <div className="collection-table-scroll">
           <div className="collection-table" role="table" aria-label="Pokopia Pokemon collection checklist">
             <div className="collection-table-head" role="row">
               <span role="columnheader">&#x2713;</span>
@@ -384,6 +385,7 @@ export default function PokemonClientPage() {
                 </span>
               </div>
             ))}
+          </div>
           </div>
 
           {filtered.length === 0 && (

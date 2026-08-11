@@ -11,7 +11,7 @@ const habitatNames = Object.fromEntries(habitatsData.map((h) => [h.id, h.name]))
 const ALL_TYPES = [...new Set(pokemonData.flatMap((p) => p.type.split('/')))].sort()
 
 /* Type matchup chart — effectiveness of attacker type vs defender type */
-const TYPE_CHART: Record<string, Record<string, number>> = {
+const TYPE_CHART: Record<string, Record<string, number> > = {
   Fire:    { Grass: 2, Water: 0.5, Fire: 0.5, Ice: 2, Bug: 2, Rock: 0.5, Dragon: 0.5, Steel: 2 },
   Water:   { Fire: 2, Grass: 0.5, Water: 0.5, Ground: 2, Rock: 2, Dragon: 0.5 },
   Grass:   { Water: 2, Fire: 0.5, Grass: 0.5, Poison: 0.5, Ground: 2, Flying: 0.5, Bug: 0.5, Rock: 2, Dragon: 0.5, Steel: 0.5 },
@@ -179,24 +179,17 @@ export default function RoommateMatchmakerClient() {
         <span className="panel-kicker">Interactive Tool</span>
         <h2>Roommate Matchmaker</h2>
 
-        <div style={{
-          padding: '1.5rem',
-          border: '2px solid rgba(220, 232, 220, 0.95)',
-          borderRadius: '12px',
-          background: 'rgba(255, 253, 247, 0.96)',
-          boxShadow: '0 4px 0 rgba(47, 76, 113, 0.08)',
-          marginBottom: '1.25rem'
-        }}>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '1rem', alignItems: 'end' }}>
+        <div className="tool-panel" style={{ marginBottom: '1.25rem' }}>
+          <div className="tool-form-grid">
             <div>
-              <label htmlFor="picker-select" style={{ display: 'block', marginBottom: '0.35rem', fontSize: '0.8rem', fontWeight: 900, color: '#637083', textTransform: 'uppercase' }}>
+              <label htmlFor="picker-select" className="tool-form-label">
                 Find roommate for
               </label>
               <select
                 id="picker-select"
                 value={picker}
                 onChange={(e) => setPicker(e.target.value)}
-                style={{ width: '100%', padding: '0.65rem 0.75rem', border: '2px solid #dce8dc', borderRadius: '8px', font: 'inherit', background: 'rgba(255,255,255,0.92)' }}
+                className="tool-form-input"
               >
                 <option value="">Choose a Pokemon...</option>
                 {pokemonData.map((p) => (
@@ -205,42 +198,42 @@ export default function RoommateMatchmakerClient() {
               </select>
             </div>
             <div>
-              <label htmlFor="type-filter" style={{ display: 'block', marginBottom: '0.35rem', fontSize: '0.8rem', fontWeight: 900, color: '#637083', textTransform: 'uppercase' }}>
+              <label htmlFor="type-filter" className="tool-form-label">
                 Filter by type
               </label>
               <select
                 id="type-filter"
                 value={typeFilter}
                 onChange={(e) => setTypeFilter(e.target.value)}
-                style={{ width: '100%', padding: '0.65rem 0.75rem', border: '2px solid #dce8dc', borderRadius: '8px', font: 'inherit', background: 'rgba(255,255,255,0.92)' }}
+                className="tool-form-input"
               >
                 <option value="">Any type</option>
                 {ALL_TYPES.map((t) => <option key={t} value={t}>{t}</option>)}
               </select>
             </div>
             <div>
-              <label htmlFor="role-filter" style={{ display: 'block', marginBottom: '0.35rem', fontSize: '0.8rem', fontWeight: 900, color: '#637083', textTransform: 'uppercase' }}>
+              <label htmlFor="role-filter" className="tool-form-label">
                 Filter by role
               </label>
               <select
                 id="role-filter"
                 value={roleFilter}
                 onChange={(e) => setRoleFilter(e.target.value)}
-                style={{ width: '100%', padding: '0.65rem 0.75rem', border: '2px solid #dce8dc', borderRadius: '8px', font: 'inherit', background: 'rgba(255,255,255,0.92)' }}
+                className="tool-form-input"
               >
                 <option value="">Any role</option>
                 {ALL_ROLES.map((r) => <option key={r} value={r}>{r}</option>)}
               </select>
             </div>
             <div>
-              <label htmlFor="min-score" style={{ display: 'block', marginBottom: '0.35rem', fontSize: '0.8rem', fontWeight: 900, color: '#637083', textTransform: 'uppercase' }}>
+              <label htmlFor="min-score" className="tool-form-label">
                 Min score
               </label>
               <select
                 id="min-score"
                 value={minScore}
                 onChange={(e) => setMinScore(Number(e.target.value))}
-                style={{ width: '100%', padding: '0.65rem 0.75rem', border: '2px solid #dce8dc', borderRadius: '8px', font: 'inherit', background: 'rgba(255,255,255,0.92)' }}
+                className="tool-form-input"
               >
                 <option value={3}>3+ (Any useful)</option>
                 <option value={4}>4+ (Good pair)</option>
@@ -253,21 +246,11 @@ export default function RoommateMatchmakerClient() {
 
         {/* Selected Pokemon profile */}
         {selected && (
-          <div style={{
-            display: 'flex',
-            gap: '1rem',
-            alignItems: 'center',
-            padding: '1rem 1.25rem',
-            border: '2px solid rgba(255, 209, 102, 0.58)',
-            borderRadius: '10px',
-            background: 'rgba(255, 248, 225, 0.96)',
-            marginBottom: '1.25rem',
-            flexWrap: 'wrap'
-          }}>
+          <div className="matchmaker-selected-profile" style={{ marginBottom: '1.25rem' }}>
             <img
               src={pokemonImage(selected.name)}
               alt={selected.name}
-              style={{ width: '64px', height: '64px', objectFit: 'contain', border: '2px solid #dce8dc', borderRadius: '10px', background: '#f2f8f2', padding: '4px' }}
+              className="tool-profile-img tool-profile-img-lg"
               loading="lazy"
             />
             <div>
@@ -279,11 +262,11 @@ export default function RoommateMatchmakerClient() {
                 {selected.weather} · {selected.spawn_time} · Food: {selected.favorite_food}
               </p>
             </div>
-            <div style={{ marginLeft: 'auto', display: 'flex', gap: '0.5rem', flexWrap: 'wrap' }}>
-              <Link href={`/wiki/pokemon/${selected.id}`} style={{ padding: '0.45rem 0.75rem', border: '1px solid #dce8dc', borderRadius: '999px', background: 'white', fontSize: '0.82rem', fontWeight: 800 }}>
+            <div className="tool-link-row" style={{ marginLeft: 'auto' }}>
+              <Link href={`/wiki/pokemon/${selected.id}`} className="tool-pill">
                 Open page
               </Link>
-              <Link href={`/wiki/pokemon/compatibility?a=${selected.id}`} style={{ padding: '0.45rem 0.75rem', border: '1px solid #dce8dc', borderRadius: '999px', background: 'white', fontSize: '0.82rem', fontWeight: 800 }}>
+              <Link href={`/wiki/pokemon/compatibility?a=${selected.id}`} className="tool-pill">
                 Check compatibility
               </Link>
             </div>
@@ -292,14 +275,14 @@ export default function RoommateMatchmakerClient() {
 
         {/* Match results */}
         {!picker && (
-          <div style={{ textAlign: 'center', padding: '3rem 1rem', border: '2px dashed rgba(220,232,220,0.95)', borderRadius: '10px', color: '#637083' }}>
+          <div className="match-empty-state">
             <p style={{ fontSize: '1.05rem', fontWeight: 700 }}>Select a Pokemon above to find roommates</p>
             <p style={{ marginTop: '0.5rem', fontSize: '0.9rem' }}>The tool will score all other Pokemon by how well they complement your pick</p>
           </div>
         )}
 
         {picker && matches.length === 0 && (
-          <div style={{ textAlign: 'center', padding: '3rem 1rem', border: '2px dashed rgba(220,232,220,0.95)', borderRadius: '10px', color: '#637083' }}>
+          <div className="match-empty-state">
             <p>No roommates found with score {minScore}+ and the current filters.</p>
             <p style={{ marginTop: '0.5rem' }}>Try lowering the minimum score or removing type/role filters.</p>
           </div>
@@ -307,26 +290,20 @@ export default function RoommateMatchmakerClient() {
 
         {matches.length > 0 && (
           <div>
-            <p style={{ marginBottom: '1rem', color: '#637083', fontSize: '0.9rem', fontWeight: 700 }}>
+            <p className="match-results-header">
               {matches.length} roommate{matches.length !== 1 ? 's' : ''} found for {selected?.name}
             </p>
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))', gap: '0.85rem' }}>
+            <div className="tool-card-grid">
               {matches.map(({ pokemon, total, reasons }) => (
                 <div
                   key={pokemon.id}
-                  style={{
-                    padding: '1rem',
-                    borderRadius: '10px',
-                    border: `2px solid ${total >= 6 ? 'rgba(89, 201, 130, 0.65)' : total >= 4 ? 'rgba(255, 209, 102, 0.55)' : 'rgba(220,232,220,0.95)'}`,
-                    background: total >= 6 ? 'rgba(242, 251, 244, 0.96)' : 'rgba(255, 253, 247, 0.96)',
-                    boxShadow: '0 3px 0 rgba(47, 76, 113, 0.08)',
-                  }}
+                  className={"tool-card " + (total >= 6 ? "tool-card-strong" : total >= 4 ? "tool-card-moderate" : "")}
                 >
-                  <div style={{ display: 'flex', gap: '0.75rem', alignItems: 'center', marginBottom: '0.75rem' }}>
+                  <div className="tool-profile-row">
                     <img
                       src={pokemonImage(pokemon.name)}
                       alt={pokemon.name}
-                      style={{ width: '52px', height: '52px', objectFit: 'contain', border: '2px solid #dce8dc', borderRadius: '8px', background: '#f2f8f2', padding: '3px' }}
+                      className="tool-profile-img"
                       loading="lazy"
                     />
                     <div style={{ flex: 1 }}>
@@ -335,19 +312,7 @@ export default function RoommateMatchmakerClient() {
                       </Link>
                       <p style={{ color: '#637083', fontSize: '0.78rem' }}>{pokemon.type} · {pokemon.specialty}</p>
                     </div>
-                    <div style={{
-                      display: 'grid',
-                      placeItems: 'center',
-                      width: '44px',
-                      height: '44px',
-                      borderRadius: '50%',
-                      border: `3px solid ${total >= 6 ? '#59c982' : total >= 4 ? '#ffd166' : '#ccc'}`,
-                      background: 'white',
-                      fontSize: '0.95rem',
-                      fontWeight: 900,
-                      color: '#20243a',
-                      flexShrink: 0,
-                    }}>
+                    <div className={"tool-score-badge " + (total >= 6 ? "tool-score-badge-strong" : total >= 4 ? "tool-score-badge-moderate" : "")}>
                       {total}
                     </div>
                   </div>
@@ -356,11 +321,11 @@ export default function RoommateMatchmakerClient() {
                       <li key={r} style={{ color: '#3d475c', fontSize: '0.82rem', marginBottom: '0.2rem', lineHeight: 1.4 }}>{r}</li>
                     ))}
                   </ul>
-                  <div style={{ marginTop: '0.75rem', display: 'flex', gap: '0.4rem', flexWrap: 'wrap' }}>
-                    <Link href={`/wiki/pokemon/${pokemon.id}`} style={{ padding: '0.3rem 0.6rem', border: '1px solid #dce8dc', borderRadius: '999px', background: 'white', fontSize: '0.75rem', fontWeight: 800 }}>
+                  <div className="tool-link-row">
+                    <Link href={`/wiki/pokemon/${pokemon.id}`} className="tool-pill tool-pill-sm">
                       Wiki page
                     </Link>
-                    <Link href={`/wiki/habitat/${pokemon.habitat}`} style={{ padding: '0.3rem 0.6rem', border: '1px solid #dce8dc', borderRadius: '999px', background: 'white', fontSize: '0.75rem', fontWeight: 800 }}>
+                    <Link href={`/wiki/habitat/${pokemon.habitat}`} className="tool-pill tool-pill-sm">
                       {habitatNames[pokemon.habitat]}
                     </Link>
                   </div>
