@@ -5,12 +5,12 @@ import guidesData from '@/data/guides.json'
 import recipesData from '@/data/recipes.json'
 import { canonicalUrl } from '@/lib/site'
 import { habitatMetaDescription, habitatMetaTitle } from '@/lib/seoText'
-import { CreditedImage } from '@/components/media/CreditedImage'
 import { hasClearedMediaRights } from '@/lib/mediaRights'
 import { BreadcrumbJsonLd, FAQJsonLd, WikiPageJsonLd } from '@/components/seo/JsonLd'
 import { DataStatus } from '@/components/content/DataStatus'
 import { OfficialContext } from '@/components/content/OfficialContext'
 import { SourceReview } from '@/components/content/SourceReview'
+import { WikiInfobox } from '@/components/content/WikiInfobox'
 import { isIndexableDatabaseEntry, noIndexMetadata } from '@/lib/indexing'
 import { habitatImage } from '@/lib/localImages'
 
@@ -107,7 +107,7 @@ export default async function HabitatDetailPage({ params }: Props) {
         ]}
       />
       {habitat.faqs && habitat.faqs.length > 0 && <FAQJsonLd faqs={habitat.faqs} title={habitat.name} />}
-      <article className="habitat-detail-page">
+      <article className="habitat-detail-page wiki-entry-page">
         <div className="habitat-detail-hero">
           <div className="habitat-hero-copy">
             <span className="panel-kicker">Habitat Route</span>
@@ -130,7 +130,30 @@ export default async function HabitatDetailPage({ params }: Props) {
               ]}
             />
           </div>
-          <CreditedImage src={habitat.image_url} alt={habitat.image_alt || habitat.name} source={habitat.image_source} sourceUrl={habitat.image_source_url} licenseNote={habitat.image_license_note} originalMedia={habitat.image_original_media} rightsStatus={habitat.image_rights_status} className="habitat-hero-cover" sizes="(max-width: 768px) 100vw, 420px" priority fallbackSrc={habitatImage(habitat.id, habitat.name)} fallbackAlt={`${habitat.name} habitat illustration`} />
+          <WikiInfobox
+            title={habitat.name}
+            subtitle="Habitat entry"
+            image={{
+              src: habitat.image_url,
+              alt: habitat.image_alt || habitat.name,
+              source: habitat.image_source,
+              sourceUrl: habitat.image_source_url,
+              licenseNote: habitat.image_license_note,
+              originalMedia: habitat.image_original_media,
+              rightsStatus: habitat.image_rights_status,
+              fallbackSrc: habitatImage(habitat.id, habitat.name),
+              fallbackAlt: `${habitat.name} habitat illustration`,
+            }}
+            facts={[
+              { label: 'Difficulty', value: <span className={`badge ${habitat.difficulty}`}>{habitat.difficulty}</span> },
+              { label: 'Weather', value: habitat.weather },
+              { label: 'Unlock', value: habitat.unlock_condition },
+              { label: 'Resource bonus', value: habitat.resource_bonus },
+              { label: 'Spawns', value: `${relatedPokemon.length} Pokemon` },
+              ...(recommendedRecipe ? [{ label: 'Recipe', value: <a href={`/wiki/recipe/${recommendedRecipe.id}`}>{recommendedRecipe.name}</a> }] : []),
+            ]}
+            footer={updatedAt ? <>Last reviewed {updatedAt}</> : undefined}
+          />
         </div>
 
         <div className="habitat-quick-facts" aria-label={`${habitat.name} quick facts`}>

@@ -1,59 +1,33 @@
-import { Metadata } from 'next'
+import type { Metadata } from 'next'
 import pokemonData from '@/data/pokemon.json'
-import habitatsData from '@/data/habitats.json'
 import { canonicalUrl } from '@/lib/site'
 import { noIndexMetadata } from '@/lib/indexing'
-import { CreditedImage } from '@/components/media/CreditedImage'
-import { DataStatus } from '@/components/content/DataStatus'
 import { BreadcrumbJsonLd, ItemListJsonLd } from '@/components/seo/JsonLd'
-import { pokemonImage } from '@/lib/localImages'
-
-const featuredPokemon = ['pkm001', 'pkm002', 'pkm007', 'pkm030']
-const habitatNames = Object.fromEntries(habitatsData.map((habitat) => [habitat.id, habitat.name]))
-const pokemonPathways = [
-  {
-    title: 'Early team core',
-    text: 'Use these entries when you need stable roles before chasing rare spawns.',
-    ids: ['pkm002', 'pkm004', 'pkm008'],
-  },
-  {
-    title: 'Rare farming targets',
-    text: 'Check habitat windows, favorite food, and drops before spending attraction recipes.',
-    ids: ['pkm001', 'pkm006', 'pkm009'],
-  },
-  {
-    title: 'Late-route anchors',
-    text: 'Review these pages when a route needs a tank, burst carry, or high-risk matchup answer.',
-    ids: ['pkm007', 'pkm030', 'pkm012'],
-  },
-]
-
-function shortText(text: string, length = 150) {
-  if (text.length <= length) return text
-  return `${text.slice(0, length).trim()}...`
-}
+import PokemonClientPage from './PokemonClientPage'
 
 export const metadata: Metadata = {
-  title: 'Pokemon Database',
-  description: 'Browse Pokopia Pokemon entries with types, rarity, habitats, food, drops, and editorial route notes.',
+  title: 'Pokopia Collection List - Complete Pokémon Checklist | Pokopia Cloud',
+  description:
+    'Browse and filter the complete Pokopia Pokemon collection list. Track your progress, filter by type, rarity, habitat, and specialty. Every Pokemon with how-to-get instructions.',
   keywords: [
-    'Pokopia Pokemon database',
-    'Pokopia Pokedex',
-    'Pokopia Pokemon list',
-    'Pokopia all Pokemon',
-    'Pokopia Pokemon types',
-    'Pokopia rare Pokemon',
-    'Pokopia legendary Pokemon',
+    'pokopia collection list',
+    'pokopia collection checklist',
+    'pokopia all pokemon',
+    'pokopia complete pokemon list',
+    'pokopia pokemon database',
   ],
   openGraph: {
-    title: 'Pokemon Database',
-    description: 'Browse Pokopia Pokemon entries with types, rarity, habitats, food, and drops.',
+    title: 'Pokopia Collection List - Complete Pokémon Checklist',
+    description:
+      'Browse and filter the complete Pokopia Pokemon collection list. Track your progress with filters by type, rarity, and habitat.',
     images: ['/og-image.svg'],
+    type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Pokemon Database',
-    description: 'Browse Pokopia Pokemon entries with types, rarity, habitats, food, and drops.',
+    title: 'Pokopia Collection List - Complete Pokémon Checklist',
+    description:
+      'Browse and filter the complete Pokopia Pokemon collection list. Track your progress with filters by type, rarity, and habitat.',
     images: ['/og-image.svg'],
   },
   alternates: {
@@ -63,19 +37,6 @@ export const metadata: Metadata = {
 }
 
 export default function PokemonPage() {
-  const rarityCounts = pokemonData.reduce<Record<string, number>>((counts, pokemon) => {
-    counts[pokemon.rarity] = (counts[pokemon.rarity] || 0) + 1
-    return counts
-  }, {})
-  const roleCounts = pokemonData.reduce<Record<string, number>>((counts, pokemon) => {
-    counts[pokemon.specialty] = (counts[pokemon.specialty] || 0) + 1
-    return counts
-  }, {})
-  const featured = featuredPokemon
-    .map((id) => pokemonData.find((pokemon) => pokemon.id === id))
-    .filter(Boolean) as typeof pokemonData
-  const findPokemon = (id: string) => pokemonData.find((pokemon) => pokemon.id === id)
-
   return (
     <main className="page-shell">
       <BreadcrumbJsonLd
@@ -93,114 +54,7 @@ export default function PokemonPage() {
           url: `/wiki/pokemon/${pokemon.id}`,
         }))}
       />
-      <section className="page-hero">
-        <h1>Pokemon Database</h1>
-        <p>Browse Pokopia Pokemon by type, rarity, habitat, favorite food, drops, and route role.</p>
-      </section>
-
-      <DataStatus
-        status="Unverified editorial database"
-        note="These entries are editorial planning data, not official or confirmed Pokémon records. Credited promotional images identify their media sources only and do not depict or verify the named entries or their gameplay claims."
-        updatedAt="July 21, 2026"
-        showPolicyLink
-      />
-
-      <section className="index-guide-panel">
-        <div className="section-title-row">
-          <div>
-            <span className="panel-kicker">Pokedex Routes</span>
-            <h2>Use Pokemon Pages as Small Route Guides</h2>
-          </div>
-          <a href="/tools/team-builder">Open Team Builder</a>
-        </div>
-        <div className="index-guide-grid">
-          <div className="index-guide-card">
-            <strong>Best first checks</strong>
-            <p>Start with flexible Pokemon that explain early route roles, then move into rare or legendary targets after the habitat is stable.</p>
-            <div>
-              {featured.map((pokemon) => (
-                <a key={pokemon.id} href={`/wiki/pokemon/${pokemon.id}`}>{pokemon.name}</a>
-              ))}
-            </div>
-          </div>
-          <div className="index-guide-card">
-            <strong>Rarity spread</strong>
-            <p>Rarity is useful for farming priority, but route fit matters more than chasing the highest label.</p>
-            <div>
-              {Object.entries(rarityCounts).map(([rarity, count]) => (
-                <span key={rarity}>{rarity}: {count}</span>
-              ))}
-            </div>
-          </div>
-          <div className="index-guide-card">
-            <strong>Role planning</strong>
-            <p>Use specialty roles to avoid building teams with too many attackers and not enough support or survival coverage.</p>
-            <div>
-              {Object.entries(roleCounts).slice(0, 6).map(([role, count]) => (
-                <span key={role}>{role}: {count}</span>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="index-guide-panel">
-        <div className="section-title-row">
-          <div>
-            <span className="panel-kicker">Editor Picks</span>
-            <h2>Pick Pokemon by What Your Route Is Missing</h2>
-          </div>
-          <a href="/guides/best-starter-pokemon">Read starter guide</a>
-        </div>
-        <div className="index-guide-grid">
-          {pokemonPathways.map((pathway) => (
-            <div key={pathway.title} className="index-guide-card">
-              <strong>{pathway.title}</strong>
-              <p>{pathway.text}</p>
-              <div>
-                {pathway.ids.map((id) => {
-                  const pokemon = findPokemon(id)
-                  if (!pokemon) return null
-                  return (
-                    <a key={id} href={`/wiki/pokemon/${pokemon.id}`}>
-                      {pokemon.name} · {pokemon.specialty}
-                    </a>
-                  )
-                })}
-              </div>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      <div className="pokemon-grid">
-        {pokemonData.map((p) => (
-          <a key={p.id} href={`/wiki/pokemon/${p.id}`} className="card">
-            <CreditedImage src={p.image_url} alt={p.image_alt || p.type} source={p.image_source} sourceUrl={p.image_source_url} licenseNote={p.image_license_note} originalMedia={p.image_original_media} rightsStatus={p.image_rights_status} className="card-cover pokemon-cover" sizes="(max-width: 768px) 100px, 200px" creditLink={false} fallbackSrc={pokemonImage(p.name)} fallbackAlt={`${p.name} Pokemon illustration`} />
-            <h3 className="index-card-title index-card-title-center">{p.name}</h3>
-            <p className="index-card-meta">{p.type}</p>
-            <p className="index-card-submeta">{p.specialty} · {habitatNames[p.habitat] || p.habitat}</p>
-            <p className="index-card-summary">{shortText(p.overview, 135)}</p>
-            <dl className="index-card-facts">
-              <div>
-                <dt>Food</dt>
-                <dd>{p.favorite_food}</dd>
-              </div>
-              <div>
-                <dt>Window</dt>
-                <dd>{p.spawn_time} / {p.weather}</dd>
-              </div>
-              <div>
-                <dt>Drops</dt>
-                <dd>{p.drops}</dd>
-              </div>
-            </dl>
-            <div className="index-card-badges index-card-badges-center">
-              <span className={`rarity ${p.rarity}`}>{p.rarity}</span>
-            </div>
-          </a>
-        ))}
-      </div>
+      <PokemonClientPage />
     </main>
   )
 }

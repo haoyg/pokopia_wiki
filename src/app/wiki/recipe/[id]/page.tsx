@@ -5,12 +5,12 @@ import pokemonData from '@/data/pokemon.json'
 import habitatsData from '@/data/habitats.json'
 import { canonicalUrl } from '@/lib/site'
 import { recipeMetaDescription, recipeMetaTitle } from '@/lib/seoText'
-import { CreditedImage } from '@/components/media/CreditedImage'
 import { hasClearedMediaRights } from '@/lib/mediaRights'
 import { BreadcrumbJsonLd, FAQJsonLd, WikiPageJsonLd } from '@/components/seo/JsonLd'
 import { DataStatus } from '@/components/content/DataStatus'
 import { OfficialContext } from '@/components/content/OfficialContext'
 import { SourceReview } from '@/components/content/SourceReview'
+import { WikiInfobox } from '@/components/content/WikiInfobox'
 import { isIndexableDatabaseEntry, noIndexMetadata } from '@/lib/indexing'
 import { recipeImage } from '@/lib/localImages'
 
@@ -107,7 +107,7 @@ export default async function RecipeDetailPage({ params }: Props) {
         ]}
       />
       {recipe.faqs && recipe.faqs.length > 0 && <FAQJsonLd faqs={recipe.faqs} title={recipe.name} />}
-      <article className="recipe-detail-page">
+      <article className="recipe-detail-page wiki-entry-page">
         <div className="recipe-detail-hero">
           <div className="recipe-hero-copy">
             <span className="panel-kicker">Recipe Guide</span>
@@ -129,7 +129,31 @@ export default async function RecipeDetailPage({ params }: Props) {
               ]}
             />
           </div>
-          <CreditedImage src={recipe.image_url} alt={recipe.image_alt || recipe.name} source={recipe.image_source} sourceUrl={recipe.image_source_url} licenseNote={recipe.image_license_note} originalMedia={recipe.image_original_media} rightsStatus={recipe.image_rights_status} className="recipe-hero-cover" sizes="(max-width: 768px) 100vw, 420px" priority fallbackSrc={recipeImage(recipe.id, recipe.name)} fallbackAlt={`${recipe.name} recipe illustration`} />
+          <WikiInfobox
+            title={recipe.name}
+            subtitle="Recipe entry"
+            image={{
+              src: recipe.image_url,
+              alt: recipe.image_alt || recipe.name,
+              source: recipe.image_source,
+              sourceUrl: recipe.image_source_url,
+              licenseNote: recipe.image_license_note,
+              originalMedia: recipe.image_original_media,
+              rightsStatus: recipe.image_rights_status,
+              fallbackSrc: recipeImage(recipe.id, recipe.name),
+              fallbackAlt: `${recipe.name} recipe illustration`,
+            }}
+            facts={[
+              { label: 'Rarity', value: <span className={`rarity ${recipe.rarity}`}>{recipe.rarity}</span> },
+              { label: 'Buff', value: recipe.buff },
+              { label: 'Duration', value: recipe.effect_duration },
+              { label: 'Best use', value: recipe.best_use },
+              { label: 'Ingredients', value: recipe.ingredients },
+              { label: 'Pokemon links', value: `${relatedPokemon.length} entries` },
+              { label: 'Habitat links', value: `${relatedHabitats.length} entries` },
+            ]}
+            footer={updatedAt ? <>Last reviewed {updatedAt}</> : undefined}
+          />
         </div>
 
         <div className="recipe-quick-facts" aria-label={`${recipe.name} quick facts`}>

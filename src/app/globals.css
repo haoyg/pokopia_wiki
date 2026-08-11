@@ -1027,6 +1027,297 @@ section h2::before {
 }
 
 /* ============================================
+   Pokemon List / Collection View
+   ============================================ */
+
+.pokemon-list-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  padding: 0.85rem 1rem;
+  border: 2px solid rgba(220, 232, 220, 0.95);
+  border-radius: var(--radius-md);
+  background: rgba(255, 253, 247, 0.92);
+  box-shadow: 0 3px 0 rgba(47, 76, 113, 0.08);
+  margin-bottom: 0.75rem;
+}
+
+.pokemon-list-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-sm);
+}
+
+.collection-progress {
+  font-weight: 800;
+  color: var(--color-leaf);
+}
+
+.pokemon-view-toggle {
+  display: flex;
+  border: 2px solid rgba(220, 232, 220, 0.95);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+
+.pokemon-view-toggle button {
+  padding: 0.45rem 0.9rem;
+  border: none;
+  background: rgba(255, 255, 255, 0.8);
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-sm);
+  font-weight: 700;
+  cursor: pointer;
+  transition: background var(--transition-fast), color var(--transition-fast);
+}
+
+.pokemon-view-toggle button:hover {
+  background: rgba(242, 251, 244, 0.9);
+  color: var(--color-text);
+}
+
+.pokemon-view-toggle button.is-active {
+  background: var(--color-leaf);
+  color: white;
+}
+
+.pokemon-filters {
+  padding: 0.85rem 1rem;
+  border: 2px solid rgba(220, 232, 220, 0.82);
+  border-radius: var(--radius-md);
+  background: rgba(255, 253, 247, 0.88);
+  margin-bottom: 1.25rem;
+}
+
+.filter-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: flex-end;
+}
+
+.filter-group {
+  display: grid;
+  gap: 0.25rem;
+}
+
+.filter-group-search {
+  flex: 1 1 220px;
+}
+
+.filter-group label {
+  font-size: var(--font-size-xs);
+  font-weight: 900;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+}
+
+.filter-group input,
+.filter-group select {
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  padding: 0.45rem 0.6rem;
+  font: inherit;
+  font-size: var(--font-size-sm);
+  background: rgba(255, 255, 255, 0.92);
+  min-width: 130px;
+}
+
+.filter-reset {
+  padding: 0.45rem 0.85rem;
+  border: 2px solid rgba(220, 232, 220, 0.95);
+  border-radius: var(--radius-sm);
+  background: rgba(255, 255, 255, 0.9);
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-sm);
+  font-weight: 700;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.filter-reset:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}
+
+/* Collection list view */
+.collection-view {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.collection-progress-bar-wrap {
+  display: grid;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.collection-progress-bar {
+  height: 1.1rem;
+  border: 2px solid rgba(220, 232, 220, 0.95);
+  border-radius: var(--radius-full);
+  background: rgba(255, 255, 255, 0.88);
+  overflow: hidden;
+}
+
+.collection-progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--color-leaf), #8ee8a0);
+  border-radius: var(--radius-full);
+  transition: width 0.3s ease;
+}
+
+.collection-progress-label {
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-sm);
+  font-weight: 800;
+  text-align: center;
+}
+
+.collection-table {
+  border: 2px solid rgba(220, 232, 220, 0.95);
+  border-radius: var(--radius-md);
+  background: rgba(255, 253, 247, 0.96);
+  overflow: hidden;
+}
+
+.collection-table-head {
+  display: grid;
+  grid-template-columns: 44px minmax(160px, 1.5fr) 120px 100px 110px 140px minmax(160px, 1.8fr);
+  gap: 0;
+  padding: 0.65rem 0.85rem;
+  border-bottom: 3px solid rgba(220, 232, 220, 0.95);
+  background: rgba(242, 251, 244, 0.88);
+}
+
+.collection-table-head span {
+  font-size: var(--font-size-xs);
+  font-weight: 900;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+}
+
+.collection-row {
+  display: grid;
+  grid-template-columns: 44px minmax(160px, 1.5fr) 120px 100px 110px 140px minmax(160px, 1.8fr);
+  gap: 0;
+  padding: 0.65rem 0.85rem;
+  border-bottom: 1px solid rgba(220, 232, 220, 0.72);
+  align-items: center;
+  transition: background var(--transition-fast);
+}
+
+.collection-row:last-child {
+  border-bottom: none;
+}
+
+.collection-row:hover {
+  background: rgba(242, 251, 244, 0.68);
+}
+
+.collection-row.is-collected {
+  background: rgba(89, 201, 130, 0.08);
+}
+
+.collection-row.is-collected .collection-name a {
+  color: var(--color-leaf);
+  text-decoration: line-through;
+}
+
+.collection-check input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  accent-color: var(--color-leaf);
+}
+
+.collection-name {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.collection-name a {
+  font-weight: 800;
+  font-size: var(--font-size-sm);
+  color: var(--color-text);
+}
+
+.collection-type,
+.collection-rarity,
+.collection-specialty,
+.collection-habitat {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+}
+
+.collection-howto {
+  display: grid;
+  gap: 0.15rem;
+}
+
+.howto-food {
+  font-size: var(--font-size-xs);
+  font-weight: 800;
+  color: var(--color-text);
+}
+
+.howto-conditions {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-muted);
+}
+
+.collection-empty {
+  text-align: center;
+  padding: 3rem 1rem;
+  border: 2px dashed rgba(220, 232, 220, 0.95);
+  border-radius: var(--radius-md);
+  color: var(--color-text-secondary);
+}
+
+.collection-empty button {
+  margin-top: 1rem;
+  padding: 0.55rem 1.2rem;
+  border: 2px solid var(--color-primary);
+  border-radius: var(--radius-full);
+  background: var(--color-primary);
+  color: white;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.collection-seo-content {
+  margin-top: 1.5rem;
+  padding: 1.5rem;
+  border: 2px solid rgba(220, 232, 220, 0.82);
+  border-radius: var(--radius-md);
+  background: rgba(255, 253, 247, 0.88);
+}
+
+.collection-seo-content h2 {
+  display: block;
+  margin-bottom: 0.85rem;
+  font-size: var(--font-size-xl);
+}
+
+.collection-seo-content h2::before {
+  display: none;
+}
+
+.collection-seo-content p {
+  margin: 0.65rem 0;
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-sm);
+  line-height: 1.75;
+}
+
+/* ============================================
    Cards
    ============================================ */
 
@@ -1704,7 +1995,7 @@ section h2::before {
 
 .pokemon-detail-hero {
   display: grid;
-  grid-template-columns: 220px minmax(0, 1fr);
+  grid-template-columns: minmax(0, 1fr) 310px;
   gap: var(--space-6);
   align-items: start;
   margin-bottom: var(--space-6);
@@ -1715,6 +2006,108 @@ section h2::before {
     linear-gradient(135deg, rgba(255, 248, 225, 0.95), rgba(217, 242, 255, 0.9)),
     var(--color-bg);
   box-shadow: 0 8px 0 rgba(255, 191, 73, 0.18);
+}
+
+.wiki-entry-page {
+  color: #202020;
+}
+
+.wiki-infobox {
+  align-self: start;
+  border: 3px solid #8f8f8f;
+  background: #f7f7f7;
+  box-shadow: inset 0 0 0 1px #fff;
+}
+
+.wiki-infobox-title {
+  display: grid;
+  gap: 0.15rem;
+  padding: 0.65rem 0.75rem;
+  border-bottom: 3px solid #8f8f8f;
+  background: #dfe9d7;
+  text-align: center;
+}
+
+.wiki-infobox-title strong {
+  color: #202020;
+  font-size: 1.08rem;
+  line-height: 1.2;
+}
+
+.wiki-infobox-title span {
+  color: #4e4e4e;
+  font-size: 0.78rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.wiki-infobox-image {
+  display: grid;
+  place-items: center;
+  margin: 0;
+  padding: 0.85rem;
+  border-bottom: 3px solid #b8b8b8;
+  background: #ececec;
+}
+
+.wiki-infobox-image picture,
+.wiki-infobox-image img {
+  display: block;
+  width: 100%;
+}
+
+.wiki-infobox-image img {
+  max-height: 235px;
+  object-fit: contain;
+}
+
+.wiki-infobox figure figcaption,
+.wiki-infobox figcaption {
+  padding: 0 0.85rem 0.75rem;
+  color: #666 !important;
+  font-size: 0.68rem !important;
+  line-height: 1.35 !important;
+}
+
+.wiki-infobox-facts {
+  display: grid;
+  margin: 0;
+}
+
+.wiki-infobox-facts div {
+  display: grid;
+  grid-template-columns: 104px minmax(0, 1fr);
+  min-height: 38px;
+  border-top: 1px solid #c8c8c8;
+}
+
+.wiki-infobox-facts dt,
+.wiki-infobox-facts dd {
+  min-width: 0;
+  margin: 0;
+  padding: 0.5rem 0.6rem;
+  overflow-wrap: anywhere;
+  font-size: 0.82rem;
+  line-height: 1.35;
+}
+
+.wiki-infobox-facts dt {
+  border-right: 1px solid #c8c8c8;
+  background: #e7e7e7;
+  font-weight: 900;
+}
+
+.wiki-infobox-facts dd {
+  background: #fff;
+}
+
+.wiki-infobox-footer {
+  padding: 0.55rem 0.75rem;
+  border-top: 3px solid #b8b8b8;
+  color: #555;
+  font-size: 0.75rem;
+  font-weight: 800;
+  text-align: center;
 }
 
 .pokemon-portrait {
@@ -4662,6 +5055,164 @@ body {
 .wiki-news-line span {
   color: #075ec0;
   font-size: 0.88rem;
+}
+
+/* Wiki home search box */
+.wiki-search-box {
+  padding: 1.25rem 1rem;
+  border: 3px solid #b8b8b8;
+  border-top: 0;
+  background: #f8f8f8;
+  text-align: center;
+}
+
+.wiki-search-box h1 {
+  margin: 0 0 0.35rem;
+  font-size: 2.1rem;
+  color: #1a1a1a;
+}
+
+.wiki-search-subtitle {
+  margin: 0 0 1rem;
+  color: #444;
+  font-size: 0.95rem;
+}
+
+.wiki-search-box .site-search {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.wiki-search-hints {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.4rem;
+  margin-top: 0.75rem;
+  color: #555;
+  font-size: 0.84rem;
+}
+
+.wiki-search-hints span {
+  font-weight: 800;
+}
+
+.wiki-search-hints a {
+  color: #075ec0;
+  font-weight: 700;
+}
+
+/* Wiki overview article */
+.wiki-overview-section {
+  /* uses .wiki-panel styles */
+}
+
+.wiki-overview-section .wiki-overview-lead {
+  margin: 0 0 1.2rem;
+  color: #202020;
+  font-size: 1.05rem;
+  line-height: 1.75;
+}
+
+.wiki-overview-section h3 {
+  margin: 1.6rem 0 0.5rem;
+  font-size: 1.1rem;
+  color: #1a1a1a;
+}
+
+.wiki-overview-section p {
+  margin: 0.5rem 0;
+  color: #303030;
+  font-size: 0.92rem;
+  line-height: 1.75;
+}
+
+.wiki-overview-section ul,
+.wiki-overview-section ol {
+  margin: 0.5rem 0;
+  padding-left: 1.4rem;
+  color: #303030;
+  font-size: 0.92rem;
+  line-height: 1.75;
+}
+
+.wiki-overview-section li {
+  margin: 0.35rem 0;
+}
+
+.wiki-overview-section li a {
+  color: #075ec0;
+  font-weight: 700;
+}
+
+/* CTA panel */
+.wiki-cta-panel {
+  margin-top: 0;
+}
+
+.wiki-cta-panel .wiki-panel {
+  padding: 1rem;
+}
+
+.wiki-cta-panel h2 {
+  margin: 0 0 0.75rem;
+  font-size: 1.05rem;
+}
+
+.wiki-cta-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.wiki-cta-card {
+  display: grid;
+  gap: 0.25rem;
+  padding: 0.85rem 0.65rem;
+  border: 3px solid #999;
+  background: #e9e9e9;
+  color: #202020 !important;
+  text-decoration: none;
+  text-align: center;
+}
+
+.wiki-cta-card:hover {
+  border-color: #2d8a1f;
+  background: #f0f8f0;
+  text-decoration: none;
+}
+
+.wiki-cta-card strong {
+  font-size: 0.92rem;
+  color: #1a1a1a;
+}
+
+.wiki-cta-card span {
+  color: #555;
+  font-size: 0.78rem;
+}
+
+/* Popular pages list */
+.wiki-popular-list {
+  display: grid;
+  gap: 0.35rem;
+}
+
+.wiki-popular-list a {
+  display: block;
+  padding: 0.4rem 0.5rem;
+  border: 2px solid #d0d0d0;
+  background: #f2f2f2;
+  color: #075ec0;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.wiki-popular-list a:hover {
+  border-color: #2d8a1f;
+  background: #f0f8f0;
+  text-decoration: none;
 }
 
 @media (max-width: 1180px) {

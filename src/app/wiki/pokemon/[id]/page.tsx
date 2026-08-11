@@ -5,12 +5,12 @@ import newsData from '@/data/news.json'
 import habitatsData from '@/data/habitats.json'
 import { canonicalUrl } from '@/lib/site'
 import { pokemonMetaDescription, pokemonMetaTitle } from '@/lib/seoText'
-import { CreditedImage } from '@/components/media/CreditedImage'
 import { hasClearedMediaRights } from '@/lib/mediaRights'
 import { BreadcrumbJsonLd, FAQJsonLd, WikiPageJsonLd } from '@/components/seo/JsonLd'
 import { DataStatus } from '@/components/content/DataStatus'
 import { OfficialContext } from '@/components/content/OfficialContext'
 import { SourceReview } from '@/components/content/SourceReview'
+import { WikiInfobox } from '@/components/content/WikiInfobox'
 import { isIndexableDatabaseEntry, noIndexMetadata } from '@/lib/indexing'
 import { pokemonImage } from '@/lib/localImages'
 
@@ -109,9 +109,8 @@ export default async function PokemonDetailPage({ params }: Props) {
         ]}
       />
       {pokemon.faqs && pokemon.faqs.length > 0 && <FAQJsonLd faqs={pokemon.faqs} title={pokemon.name} />}
-      <article className="pokemon-detail-page">
+      <article className="pokemon-detail-page wiki-entry-page">
         <div className="pokemon-detail-hero">
-          <CreditedImage src={pokemon.image_url} alt={pokemon.image_alt} source={pokemon.image_source} sourceUrl={pokemon.image_source_url} licenseNote={pokemon.image_license_note} originalMedia={pokemon.image_original_media} rightsStatus={pokemon.image_rights_status} className="pokemon-portrait" sizes="180px" priority fallbackSrc={pokemonImage(pokemon.name)} fallbackAlt={`${pokemon.name} Pokemon illustration`} />
           <div className="pokemon-hero-copy">
             <span className="panel-kicker">Pokemon Database</span>
             <h1>{pokemon.name}</h1>
@@ -132,6 +131,31 @@ export default async function PokemonDetailPage({ params }: Props) {
               ]}
             />
           </div>
+          <WikiInfobox
+            title={pokemon.name}
+            subtitle="Pokemon entry"
+            image={{
+              src: pokemon.image_url,
+              alt: pokemon.image_alt,
+              source: pokemon.image_source,
+              sourceUrl: pokemon.image_source_url,
+              licenseNote: pokemon.image_license_note,
+              originalMedia: pokemon.image_original_media,
+              rightsStatus: pokemon.image_rights_status,
+              fallbackSrc: pokemonImage(pokemon.name),
+              fallbackAlt: `${pokemon.name} Pokemon illustration`,
+            }}
+            facts={[
+              { label: 'Type', value: pokemon.type },
+              { label: 'Rarity', value: <span className={`rarity ${pokemon.rarity}`}>{pokemon.rarity}</span> },
+              { label: 'Specialty', value: pokemon.specialty },
+              { label: 'Habitat', value: <a href={`/wiki/habitat/${pokemon.habitat}`}>{habitat?.name || pokemon.habitat}</a> },
+              { label: 'Favorite food', value: pokemon.favorite_food },
+              { label: 'Spawn', value: `${pokemon.spawn_time} / ${pokemon.weather}` },
+              { label: 'Drops', value: pokemon.drops },
+            ]}
+            footer={updatedAt ? <>Last reviewed {updatedAt}</> : undefined}
+          />
         </div>
 
         <div className="pokemon-quick-facts" aria-label={`${pokemon.name} quick facts`}>
