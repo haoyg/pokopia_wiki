@@ -12,6 +12,7 @@ import { OfficialContext } from '@/components/content/OfficialContext'
 import { isIndexableGuide, noIndexMetadata } from '@/lib/indexing'
 import { hasClearedMediaRights } from '@/lib/mediaRights'
 import { guideImage } from '@/lib/localImages'
+import { guideVerification } from '@/lib/guideVerification'
 
 interface Props {
   params: Promise<{ slug: string }>
@@ -81,6 +82,7 @@ export default async function GuideDetailPage({ params }: Props) {
     editorial_limits?: string[]
     sources?: Array<{ label: string; url: string }>
   }
+  const verification = guideVerification(guide.slug)
 
   return (
     <>
@@ -179,6 +181,18 @@ export default async function GuideDetailPage({ params }: Props) {
                   </ul>
                 </>
               ) : null}
+            </section>
+          )}
+
+          {verification && (
+            <section className="guide-content-section">
+              <h2>Verification Plan</h2>
+              <p><strong>Status:</strong> {verification.status}</p>
+              <p><strong>Method:</strong> {verification.method}</p>
+              <h3>Checks to capture</h3>
+              <ul>
+                {verification.checks.map((check) => <li key={check}>{check}</li>)}
+              </ul>
             </section>
           )}
 
