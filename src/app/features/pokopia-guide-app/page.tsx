@@ -62,7 +62,7 @@ const relatedPages = [
 
 export const metadata: Metadata = {
   title: 'Pokopia Guide App – The Best Pokopia Wiki and Planning Tools | Pokopia Cloud',
-  description: 'Pokopia Cloud is the most comprehensive free guide app for Pokopia players. Browse the Pokemon database, habitat routes, recipes, and planning tools — no download required, works in any browser on phone or desktop.',
+  description: 'Pokopia Cloud is a structured free guide app for Pokopia players. Browse the Pokemon database, habitat routes, recipes, and planning tools in any browser on phone or desktop.',
   keywords: [
     'pokopia guide app',
     'pokopia wiki app',
@@ -80,14 +80,14 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Pokopia Guide App – The Best Pokopia Wiki and Planning Tools',
-    description: 'Pokopia Cloud is the most comprehensive free guide app for Pokopia players. No download, no install — just open the browser.',
+    description: 'Pokopia Cloud is a structured free guide app for Pokopia players. No download or install is required.',
     images: ['/og-image.svg'],
     type: 'article',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Pokopia Guide App – The Best Pokopia Wiki and Planning Tools',
-    description: 'Pokopia Cloud is the most comprehensive free guide app for Pokopia players. No download, no install — just open the browser.',
+    description: 'Pokopia Cloud is a structured free guide app for Pokopia players. No download or install is required.',
     images: ['/og-image.svg'],
   },
 }
@@ -97,7 +97,7 @@ export default function PokopiaGuideAppPage() {
     <main className="topic-page page-shell">
       <ArticleJsonLd
         title="Pokopia Guide App – The Best Pokopia Wiki and Planning Tools"
-        description="Pokopia Cloud is the most comprehensive free guide app for Pokopia players. Browse the Pokemon database, habitat routes, recipes, and planning tools — no download required."
+        description="Pokopia Cloud is a structured free guide app for Pokopia players. Browse the Pokemon database, habitat routes, recipes, and planning tools with no download required."
         url={pageUrl}
         publishedAt={reviewedAt}
         modifiedAt={reviewedAt}
@@ -119,7 +119,7 @@ export default function PokopiaGuideAppPage() {
         </div>
         <h1>The Pokopia Guide App — Your All-in-One Pokopia Wiki in the Browser</h1>
         <p>
-          Pokopia Cloud is the most comprehensive free guide app for Pokopia players. It brings together a Pokemon database, habitat routes, recipes, and planning tools in one place — no download, no install, no account. Open the browser and start using it.
+          Pokopia Cloud is a structured free guide app for Pokopia players. It brings together a Pokemon database, habitat routes, recipes, and planning tools in one place — no download, no install, no account. Open the browser and start using it.
         </p>
         <div className="topic-hero-actions">
           <a href="/wiki/pokemon">Browse Pokemon database</a>

@@ -6,6 +6,8 @@ const noIndexFlags = [
   'needs review',
   'noindex',
   'future',
+  'unverified',
+  'editorial',
 ]
 
 function hasValidReviewDate(value) {

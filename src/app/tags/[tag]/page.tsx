@@ -23,7 +23,7 @@ function shortText(text: string, length = 135) {
 }
 
 type PageProps = {
-  params: { tag: string }
+  params: Promise<{ tag: string }>
 }
 
 export async function generateStaticParams() {
@@ -31,7 +31,7 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
-  const { tag } = params
+  const { tag } = await params
   const title = `Pokopia ${tag} Pokemon – Complete ${tag} Type/Rarity/Role List | Pokopia Cloud`
   const description = `Browse all Pokopia ${tag} Pokemon with this complete reference. Filter by habitat, rarity, and specialty role.`
   const keywords = [tag, `pokopia ${tag}`, `pokopia ${tag.toLowerCase()} pokemon`]
@@ -81,8 +81,8 @@ function getRelatedTags(tag: string) {
   return related.slice(0, 12)
 }
 
-export default function TagPage({ params }: PageProps) {
-  const { tag } = params
+export default async function TagPage({ params }: PageProps) {
+  const { tag } = await params
   const filtered = filterPokemonByTag(tag)
   const category = getTagCategory(tag)
   const relatedTags = getRelatedTags(tag)

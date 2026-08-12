@@ -5,7 +5,7 @@ import { WebPageJsonLd } from '@/components/seo/JsonLd'
 export const metadata: Metadata = {
   title: 'Pokopia Wiki – Complete Game Guide, Pokemon Database & Tools | Pokopia Cloud',
   description:
-    'The independent Pokopia Wiki covers every Pokemon entry, habitat route, recipe, and planning tool. Use this complete game reference to find spawn windows, best builds, and step-by-step guides for Pokopia.',
+    'The independent Pokopia Wiki covers every Pokemon entry, habitat route, recipe, and planning tool. Use this structured game reference to find spawn windows, build notes, and step-by-step guides for Pokopia.',
   keywords: [
     'pokopia wiki',
     'pokopia guide',
@@ -340,7 +340,7 @@ export default function HomePage() {
                 <li>
                   <strong>Want to optimize crafting?</strong> Open the{' '}
                   <a href="/tools/recipe-calculator">Recipe Calculator</a>, input your
-                  current ingredients, and comparebuff efficiency across rarity tiers.
+                  current ingredients, and compare buff efficiency across rarity tiers.
                 </li>
               </ul>
             </div>

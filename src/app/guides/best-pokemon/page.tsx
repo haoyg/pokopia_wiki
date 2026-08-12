@@ -61,12 +61,12 @@ const bestPokemonFaqs = [
   {
     question: 'How do I know if my Pokemon is good?',
     answer:
-      'Check whether the Pokemon's specialty, skills, and preferred food match the habitat you plan to run. A good Pokemon for your route will have at least two of three things: a relevant specialty role, skills that control or clear the habitat's dominant enemy pattern, and a food cost you can sustain across repeated runs. If all three align, the Pokemon is worth investing in.',
+      "Check whether the Pokemon's specialty, skills, and preferred food match the habitat you plan to run. A good Pokemon for your route will have at least two of three things: a relevant specialty role, skills that control or clear the habitat's dominant enemy pattern, and a food cost you can sustain across repeated runs. If all three align, the Pokemon is worth investing in.",
   },
   {
     question: 'Can I use common Pokemon in late-game routes?',
     answer:
-      'Yes, if the route conditions align with the Pokemon's strengths. Zaprat (common Electric/Speedster) remains a strong Windmill Plains scout at any stage because speed and interrupt timing do not scale with rarity. Check whether a common Pokemon fills a specific role (interrupts, weather setup, material drops) better than a rarer alternative before committing the habitat slot.',
+      "Yes, if the route conditions align with the Pokemon's strengths. Zaprat (common Electric/Speedster) remains a strong Windmill Plains scout at any stage because speed and interrupt timing do not scale with rarity. Check whether a common Pokemon fills a specific role (interrupts, weather setup, material drops) better than a rarer alternative before committing the habitat slot.",
   },
 ]
 

@@ -12,6 +12,7 @@ type CreditedImageProps = {
   sizes?: string
   creditLink?: boolean
   rightsStatus?: string
+  showCredit?: boolean
   fallbackSrc?: string
   fallbackAlt?: string
   fallbackSource?: string
@@ -29,6 +30,7 @@ export function CreditedImage({
   sizes,
   creditLink = true,
   rightsStatus,
+  showCredit: showCreditOverride,
   fallbackSrc,
   fallbackAlt,
   fallbackSource = 'Pokopia Portal original editorial illustration',
@@ -37,7 +39,7 @@ export function CreditedImage({
   const imageSrc = canUseCreditedImage ? src : fallbackSrc
   const imageAlt = canUseCreditedImage ? (alt || source) : (fallbackAlt || alt || fallbackSource)
   const imageSource = canUseCreditedImage ? source : fallbackSource
-  const showCredit = canUseCreditedImage || fallbackSrc
+  const showCredit = showCreditOverride ?? (canUseCreditedImage || fallbackSrc)
   if (!imageSrc) return null
 
   const isRemote = imageSrc.startsWith('http://') || imageSrc.startsWith('https://')

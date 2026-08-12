@@ -227,7 +227,6 @@ textarea:focus-visible {
   outline: 3px solid var(--color-secondary-light);
   outline-offset: 1px;
 }
-}
 
 a:hover {
   color: var(--color-primary-dark);
