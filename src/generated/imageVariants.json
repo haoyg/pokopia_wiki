@@ -1,0 +1,532 @@
+{
+  "/apple-touch-icon.png": [
+    {
+      "src": "/apple-touch-icon-180.webp",
+      "width": 180
+    }
+  ],
+  "/favicon-16x16.png": [
+    {
+      "src": "/favicon-16x16-16.webp",
+      "width": 16
+    }
+  ],
+  "/favicon-32x32.png": [
+    {
+      "src": "/favicon-32x32-32.webp",
+      "width": 32
+    }
+  ],
+  "/images/news/pokopia-bubbly-basin-cover.png": [
+    {
+      "src": "/images/news/pokopia-bubbly-basin-cover-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/news/pokopia-bubbly-basin-cover-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/news/pokopia-bubbly-basin-cover-1440.webp",
+      "width": 1440
+    },
+    {
+      "src": "/images/news/pokopia-bubbly-basin-cover-1672.webp",
+      "width": 1672
+    }
+  ],
+  "/images/news/pokopia-dive-update-cover.png": [
+    {
+      "src": "/images/news/pokopia-dive-update-cover-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/news/pokopia-dive-update-cover-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/news/pokopia-dive-update-cover-1440.webp",
+      "width": 1440
+    },
+    {
+      "src": "/images/news/pokopia-dive-update-cover-1672.webp",
+      "width": 1672
+    }
+  ],
+  "/images/pokemon/absol.jpg": [
+    {
+      "src": "/images/pokemon/absol-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/absol-671.webp",
+      "width": 671
+    }
+  ],
+  "/images/pokemon/ampharos.jpg": [
+    {
+      "src": "/images/pokemon/ampharos-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/ampharos-739.webp",
+      "width": 739
+    }
+  ],
+  "/images/pokemon/bellsprout.jpg": [
+    {
+      "src": "/images/pokemon/bellsprout-456.webp",
+      "width": 456
+    }
+  ],
+  "/images/pokemon/bulbasaur.jpg": [
+    {
+      "src": "/images/pokemon/bulbasaur-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/bulbasaur-784.webp",
+      "width": 784
+    }
+  ],
+  "/images/pokemon/carbink.jpg": [
+    {
+      "src": "/images/pokemon/carbink-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/carbink-510.webp",
+      "width": 510
+    }
+  ],
+  "/images/pokemon/carvanha.jpg": [
+    {
+      "src": "/images/pokemon/carvanha-410.webp",
+      "width": 410
+    }
+  ],
+  "/images/pokemon/charizard.jpg": [
+    {
+      "src": "/images/pokemon/charizard-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/charizard-900.webp",
+      "width": 900
+    }
+  ],
+  "/images/pokemon/charmander.jpg": [
+    {
+      "src": "/images/pokemon/charmander-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/charmander-834.webp",
+      "width": 834
+    }
+  ],
+  "/images/pokemon/cloyster.jpg": [
+    {
+      "src": "/images/pokemon/cloyster-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/cloyster-558.webp",
+      "width": 558
+    }
+  ],
+  "/images/pokemon/entei.jpg": [
+    {
+      "src": "/images/pokemon/entei-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/entei-900.webp",
+      "width": 900
+    }
+  ],
+  "/images/pokemon/froslass.jpg": [
+    {
+      "src": "/images/pokemon/froslass-268.webp",
+      "width": 268
+    }
+  ],
+  "/images/pokemon/gengar.jpg": [
+    {
+      "src": "/images/pokemon/gengar-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/gengar-900.webp",
+      "width": 900
+    }
+  ],
+  "/images/pokemon/geodude.jpg": [
+    {
+      "src": "/images/pokemon/geodude-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/geodude-900.webp",
+      "width": 900
+    }
+  ],
+  "/images/pokemon/grimer.jpg": [
+    {
+      "src": "/images/pokemon/grimer-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/grimer-547.webp",
+      "width": 547
+    }
+  ],
+  "/images/pokemon/groudon.jpg": [
+    {
+      "src": "/images/pokemon/groudon-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/groudon-900.webp",
+      "width": 900
+    }
+  ],
+  "/images/pokemon/gyarados.jpg": [
+    {
+      "src": "/images/pokemon/gyarados-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/gyarados-824.webp",
+      "width": 824
+    }
+  ],
+  "/images/pokemon/heatran.jpg": [
+    {
+      "src": "/images/pokemon/heatran-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/heatran-900.webp",
+      "width": 900
+    }
+  ],
+  "/images/pokemon/jigglypuff.jpg": [
+    {
+      "src": "/images/pokemon/jigglypuff-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/jigglypuff-853.webp",
+      "width": 853
+    }
+  ],
+  "/images/pokemon/lucario.jpg": [
+    {
+      "src": "/images/pokemon/lucario-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/lucario-658.webp",
+      "width": 658
+    }
+  ],
+  "/images/pokemon/machamp.jpg": [
+    {
+      "src": "/images/pokemon/machamp-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/machamp-868.webp",
+      "width": 868
+    }
+  ],
+  "/images/pokemon/magmar.jpg": [
+    {
+      "src": "/images/pokemon/magmar-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/magmar-900.webp",
+      "width": 900
+    }
+  ],
+  "/images/pokemon/magnemite.jpg": [
+    {
+      "src": "/images/pokemon/magnemite-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/magnemite-894.webp",
+      "width": 894
+    }
+  ],
+  "/images/pokemon/magneton.jpg": [
+    {
+      "src": "/images/pokemon/magneton-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/magneton-900.webp",
+      "width": 900
+    }
+  ],
+  "/images/pokemon/metang.jpg": [
+    {
+      "src": "/images/pokemon/metang-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/metang-900.webp",
+      "width": 900
+    }
+  ],
+  "/images/pokemon/mudkip.jpg": [
+    {
+      "src": "/images/pokemon/mudkip-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/mudkip-867.webp",
+      "width": 867
+    }
+  ],
+  "/images/pokemon/ninetales.jpg": [
+    {
+      "src": "/images/pokemon/ninetales-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/ninetales-900.webp",
+      "width": 900
+    }
+  ],
+  "/images/pokemon/oddish.jpg": [
+    {
+      "src": "/images/pokemon/oddish-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/oddish-872.webp",
+      "width": 872
+    }
+  ],
+  "/images/pokemon/paras.jpg": [
+    {
+      "src": "/images/pokemon/paras-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/paras-534.webp",
+      "width": 534
+    }
+  ],
+  "/images/pokemon/pidgey.jpg": [
+    {
+      "src": "/images/pokemon/pidgey-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/pidgey-770.webp",
+      "width": 770
+    }
+  ],
+  "/images/pokemon/pikachu.jpg": [
+    {
+      "src": "/images/pokemon/pikachu-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/pikachu-900.webp",
+      "width": 900
+    }
+  ],
+  "/images/pokemon/poliwag.jpg": [
+    {
+      "src": "/images/pokemon/poliwag-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/poliwag-562.webp",
+      "width": 562
+    }
+  ],
+  "/images/pokemon/psyduck.jpg": [
+    {
+      "src": "/images/pokemon/psyduck-418.webp",
+      "width": 418
+    }
+  ],
+  "/images/pokemon/ralts.jpg": [
+    {
+      "src": "/images/pokemon/ralts-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/ralts-609.webp",
+      "width": 609
+    }
+  ],
+  "/images/pokemon/salamence.jpg": [
+    {
+      "src": "/images/pokemon/salamence-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/salamence-900.webp",
+      "width": 900
+    }
+  ],
+  "/images/pokemon/shuppet.jpg": [
+    {
+      "src": "/images/pokemon/shuppet-439.webp",
+      "width": 439
+    }
+  ],
+  "/images/pokemon/snover.jpg": [
+    {
+      "src": "/images/pokemon/snover-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/snover-543.webp",
+      "width": 543
+    }
+  ],
+  "/images/pokemon/snubbull.jpg": [
+    {
+      "src": "/images/pokemon/snubbull-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/snubbull-820.webp",
+      "width": 820
+    }
+  ],
+  "/images/pokemon/squirtle.jpg": [
+    {
+      "src": "/images/pokemon/squirtle-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/squirtle-886.webp",
+      "width": 886
+    }
+  ],
+  "/images/pokemon/staraptor.jpg": [
+    {
+      "src": "/images/pokemon/staraptor-442.webp",
+      "width": 442
+    }
+  ],
+  "/images/pokemon/staravia.jpg": [
+    {
+      "src": "/images/pokemon/staravia-360.webp",
+      "width": 360
+    }
+  ],
+  "/images/pokemon/swablu.jpg": [
+    {
+      "src": "/images/pokemon/swablu-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/swablu-547.webp",
+      "width": 547
+    }
+  ],
+  "/images/pokemon/talonflame.jpg": [
+    {
+      "src": "/images/pokemon/talonflame-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/talonflame-900.webp",
+      "width": 900
+    }
+  ],
+  "/images/pokemon/tropius.jpg": [
+    {
+      "src": "/images/pokemon/tropius-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/tropius-543.webp",
+      "width": 543
+    }
+  ],
+  "/images/pokemon/turtwig.jpg": [
+    {
+      "src": "/images/pokemon/turtwig-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/turtwig-714.webp",
+      "width": 714
+    }
+  ],
+  "/images/pokemon/typhlosion.jpg": [
+    {
+      "src": "/images/pokemon/typhlosion-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/typhlosion-674.webp",
+      "width": 674
+    }
+  ],
+  "/images/pokemon/venusaur.jpg": [
+    {
+      "src": "/images/pokemon/venusaur-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/venusaur-900.webp",
+      "width": 900
+    }
+  ],
+  "/images/pokemon/voltorb.jpg": [
+    {
+      "src": "/images/pokemon/voltorb-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/voltorb-799.webp",
+      "width": 799
+    }
+  ],
+  "/images/pokemon/vulpix.jpg": [
+    {
+      "src": "/images/pokemon/vulpix-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/vulpix-886.webp",
+      "width": 886
+    }
+  ],
+  "/logo-mark.png": [
+    {
+      "src": "/logo-mark-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/logo-mark-512.webp",
+      "width": 512
+    }
+  ],
+  "/logo.png": [
+    {
+      "src": "/logo-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/logo-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/logo-1200.webp",
+      "width": 1200
+    }
+  ]
+}

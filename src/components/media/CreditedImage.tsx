@@ -1,4 +1,5 @@
 import { CLEARED_MEDIA_RIGHTS_STATUSES } from '@/lib/mediaRights'
+import imageVariants from '@/generated/imageVariants.json'
 
 type CreditedImageProps = {
   src?: string
@@ -43,10 +44,8 @@ export function CreditedImage({
   if (!imageSrc) return null
 
   const isRemote = imageSrc.startsWith('http://') || imageSrc.startsWith('https://')
-  const localNintendoMedia = imageSrc.match(/^(\/media\/nintendo\/.+)\.(jpe?g|png)$/i)
-  const responsiveSrcSet = localNintendoMedia
-    ? `${localNintendoMedia[1]}-640.webp 640w, ${localNintendoMedia[1]}-1280.webp 1280w`
-    : undefined
+  const variants = imageVariants[imageSrc as keyof typeof imageVariants]
+  const responsiveSrcSet = variants?.map((variant) => `${variant.src} ${variant.width}w`).join(', ')
   const responsiveSizes = sizes || '(max-width: 768px) 100vw, 360px'
   const loading = priority ? 'eager' : 'lazy'
   const fetchPriority = priority ? 'high' : 'auto'

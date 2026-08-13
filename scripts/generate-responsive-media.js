@@ -1,29 +1,65 @@
 const fs = require('fs')
 const path = require('path')
-const { execFileSync } = require('child_process')
+const sharp = require('sharp')
 
 const root = path.join(__dirname, '..')
-const mediaDirectory = path.join(root, 'public', 'media', 'nintendo')
-const cwebp = process.env.CWEBP_BIN || 'cwebp'
-const sourceFiles = fs.readdirSync(mediaDirectory)
-  .filter((file) => /\.(jpe?g|png)$/i.test(file))
-  .sort()
+const publicDirectory = path.join(root, 'public')
+const manifestPath = path.join(root, 'src', 'generated', 'imageVariants.json')
+const widths = [480, 960, 1440]
 
-if (sourceFiles.length === 0) {
-  console.error('No Nintendo media files found. Run npm run mirror:official-media first.')
-  process.exit(1)
+function findRasterImages(directory) {
+  return fs.readdirSync(directory, { withFileTypes: true }).flatMap((entry) => {
+    const entryPath = path.join(directory, entry.name)
+    if (entry.isDirectory()) return findRasterImages(entryPath)
+    if (!/\.(jpe?g|png)$/i.test(entry.name) || /-\d+\.webp$/i.test(entry.name)) return []
+    return [entryPath]
+  })
 }
 
-for (const sourceFile of sourceFiles) {
-  const sourcePath = path.join(mediaDirectory, sourceFile)
-  const baseName = sourceFile.replace(/\.(jpe?g|png)$/i, '')
+async function generateVariants(sourcePath) {
+  const metadata = await sharp(sourcePath).metadata()
+  if (!metadata.width) return null
 
-  for (const width of [640, 1280]) {
-    const outputPath = path.join(mediaDirectory, `${baseName}-${width}.webp`)
-    execFileSync(cwebp, ['-quiet', '-q', '82', '-resize', String(width), '0', sourcePath, '-o', outputPath], {
-      stdio: 'inherit',
+  const outputWidths = widths.filter((width) => width < metadata.width)
+  if (!outputWidths.includes(metadata.width)) outputWidths.push(metadata.width)
+
+  const publicPath = `/${path.relative(publicDirectory, sourcePath).replaceAll('\\', '/')}`
+  const extension = path.extname(sourcePath)
+  const basePath = sourcePath.slice(0, -extension.length)
+  const variants = []
+
+  for (const width of outputWidths) {
+    const outputPath = `${basePath}-${width}.webp`
+    await sharp(sourcePath)
+      .resize({ width, withoutEnlargement: true })
+      .webp({ quality: 80, effort: 5 })
+      .toFile(outputPath)
+    variants.push({
+      src: `/${path.relative(publicDirectory, outputPath).replaceAll('\\', '/')}`,
+      width,
     })
   }
+
+  return [publicPath, variants]
 }
 
-console.log(`Generated responsive WebP variants for ${sourceFiles.length} local Nintendo images.`)
+async function main() {
+  const sourceFiles = findRasterImages(publicDirectory)
+  const entries = []
+  for (const sourceFile of sourceFiles) {
+    const entry = await generateVariants(sourceFile)
+    if (entry) entries.push(entry)
+  }
+  const manifest = Object.fromEntries(entries)
+
+  fs.mkdirSync(path.dirname(manifestPath), { recursive: true })
+  fs.writeFileSync(manifestPath, `${JSON.stringify(manifest, null, 2)}\n`)
+
+  const variantCount = entries.reduce((total, entry) => total + entry[1].length, 0)
+  console.log(`Generated ${variantCount} responsive WebP variants for ${entries.length} images.`)
+}
+
+main().catch((error) => {
+  console.error(error)
+  process.exit(1)
+})
