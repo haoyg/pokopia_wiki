@@ -249,6 +249,8 @@ export default function RecipeCalculator() {
           <div style={{ display: 'flex', justifyContent: 'space-between', gap: '1rem', alignItems: 'center', marginBottom: '0.75rem', flexWrap: 'wrap' }}>
             <h2 style={{ fontSize: '1rem' }}>Recommended Recipes</h2>
             <select
+              id="recipe-rarity-filter"
+              name="rarity"
               value={rarityFilter}
               onChange={(event) => {
                 setRarityFilter(event.target.value)
