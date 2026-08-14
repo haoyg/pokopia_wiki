@@ -20,6 +20,7 @@ async function generateVariants(sourcePath) {
   const metadata = await sharp(sourcePath).metadata()
   if (!metadata.width) return null
 
+  const sourceStat = fs.statSync(sourcePath)
   const outputWidths = widths.filter((width) => width < metadata.width)
   if (!outputWidths.includes(metadata.width)) outputWidths.push(metadata.width)
 
@@ -30,6 +31,17 @@ async function generateVariants(sourcePath) {
 
   for (const width of outputWidths) {
     const outputPath = `${basePath}-${width}.webp`
+    if (fs.existsSync(outputPath)) {
+      const outputStat = fs.statSync(outputPath)
+      if (outputStat.mtimeMs >= sourceStat.mtimeMs) {
+        variants.push({
+          src: `/${path.relative(publicDirectory, outputPath).replaceAll('\\', '/')}`,
+          width,
+        })
+        continue
+      }
+    }
+
     await sharp(sourcePath)
       .resize({ width, withoutEnlargement: true })
       .webp({ quality: 80, effort: 5 })

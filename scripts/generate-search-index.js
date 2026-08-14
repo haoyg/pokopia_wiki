@@ -12,7 +12,10 @@ function readJson(file) {
 }
 
 function writeJson(file, data) {
-  fs.writeFileSync(path.join(root, file), `${JSON.stringify(data, null, 2)}\n`)
+  const filePath = path.join(root, file)
+  const nextContent = `${JSON.stringify(data, null, 2)}\n`
+  if (fs.existsSync(filePath) && fs.readFileSync(filePath, 'utf8') === nextContent) return
+  fs.writeFileSync(filePath, nextContent)
 }
 
 function csv(value) {

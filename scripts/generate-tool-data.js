@@ -8,7 +8,10 @@ function readJson(fileName) {
 }
 
 function writeJson(fileName, data) {
-  fs.writeFileSync(path.join(dataDir, fileName), `${JSON.stringify(data, null, 2)}\n`)
+  const filePath = path.join(dataDir, fileName)
+  const nextContent = `${JSON.stringify(data, null, 2)}\n`
+  if (fs.existsSync(filePath) && fs.readFileSync(filePath, 'utf8') === nextContent) return
+  fs.writeFileSync(filePath, nextContent)
 }
 
 function pick(record, keys) {
