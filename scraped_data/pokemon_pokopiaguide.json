@@ -1,0 +1,640 @@
+[
+  {
+    "source": "pokopiaguide",
+    "slug": "bulbasaur",
+    "url": "https://pokopiaguide.com/pokedex/bulbasaur",
+    "no": 1,
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "specialty": "Pok",
+    "activeTime": [
+      "Morning",
+      "Day",
+      "Evening",
+      "Night"
+    ],
+    "favorites": [
+      "Soft Stuff",
+      "Cute Stuff",
+      "Lots of Water",
+      "Group Activities",
+      "Sweet Flavors",
+      "Spicy Flavors"
+    ]
+  },
+  {
+    "source": "pokopiaguide",
+    "slug": "ivysaur",
+    "url": "https://pokopiaguide.com/pokedex/ivysaur",
+    "no": 2,
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "specialty": "Pok",
+    "activeTime": [
+      "Morning",
+      "Day",
+      "Evening",
+      "Night"
+    ],
+    "favorites": [
+      "Soft Stuff",
+      "Cute Stuff",
+      "Lots of Water",
+      "Group Activities",
+      "Sweet Flavors",
+      "Spicy Flavors"
+    ]
+  },
+  {
+    "source": "pokopiaguide",
+    "slug": "venusaur",
+    "url": "https://pokopiaguide.com/pokedex/venusaur",
+    "no": 3,
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "specialty": "Pok",
+    "activeTime": [
+      "Morning",
+      "Day",
+      "Evening",
+      "Night"
+    ],
+    "favorites": [
+      "Soft Stuff",
+      "Cute Stuff",
+      "Lots of Water",
+      "Group Activities",
+      "Sweet Flavors",
+      "Spicy Flavors"
+    ]
+  },
+  {
+    "source": "pokopiaguide",
+    "slug": "charmander",
+    "url": "https://pokopiaguide.com/pokedex/charmander",
+    "no": 4,
+    "types": [
+      "Fire"
+    ],
+    "specialty": "Pok",
+    "activeTime": [
+      "Morning",
+      "Day",
+      "Evening",
+      "Night"
+    ],
+    "favorites": [
+      "Soft Stuff",
+      "Cute Stuff",
+      "Lots of Water",
+      "Group Activities",
+      "Sweet Flavors",
+      "Spicy Flavors"
+    ]
+  },
+  {
+    "source": "pokopiaguide",
+    "slug": "charmeleon",
+    "url": "https://pokopiaguide.com/pokedex/charmeleon",
+    "no": 5,
+    "types": [
+      "Fire"
+    ],
+    "specialty": "Pok",
+    "activeTime": [
+      "Morning",
+      "Day",
+      "Evening",
+      "Night"
+    ],
+    "favorites": [
+      "Soft Stuff",
+      "Cute Stuff",
+      "Lots of Water",
+      "Group Activities",
+      "Sweet Flavors",
+      "Spicy Flavors"
+    ]
+  },
+  {
+    "source": "pokopiaguide",
+    "slug": "charizard",
+    "url": "https://pokopiaguide.com/pokedex/charizard",
+    "no": 6,
+    "types": [
+      "Fire"
+    ],
+    "specialty": "Pok",
+    "activeTime": [
+      "Morning",
+      "Day",
+      "Evening",
+      "Night"
+    ],
+    "favorites": [
+      "Soft Stuff",
+      "Cute Stuff",
+      "Lots of Water",
+      "Group Activities",
+      "Sweet Flavors",
+      "Spicy Flavors"
+    ]
+  },
+  {
+    "source": "pokopiaguide",
+    "slug": "squirtle",
+    "url": "https://pokopiaguide.com/pokedex/squirtle",
+    "no": 7,
+    "types": [
+      "Water"
+    ],
+    "specialty": "Pok",
+    "activeTime": [
+      "Morning",
+      "Day",
+      "Evening",
+      "Night"
+    ],
+    "favorites": [
+      "Soft Stuff",
+      "Cute Stuff",
+      "Lots of Water",
+      "Group Activities",
+      "Sweet Flavors",
+      "Spicy Flavors"
+    ]
+  },
+  {
+    "source": "pokopiaguide",
+    "slug": "wartortle",
+    "url": "https://pokopiaguide.com/pokedex/wartortle",
+    "no": 8,
+    "types": [
+      "Water"
+    ],
+    "specialty": "Pok",
+    "activeTime": [
+      "Morning",
+      "Day",
+      "Evening",
+      "Night"
+    ],
+    "favorites": [
+      "Soft Stuff",
+      "Cute Stuff",
+      "Lots of Water",
+      "Group Activities",
+      "Sweet Flavors",
+      "Spicy Flavors"
+    ]
+  },
+  {
+    "source": "pokopiaguide",
+    "slug": "blastoise",
+    "url": "https://pokopiaguide.com/pokedex/blastoise",
+    "no": 9,
+    "types": [
+      "Water"
+    ],
+    "specialty": "Pok",
+    "activeTime": [
+      "Morning",
+      "Day",
+      "Evening",
+      "Night"
+    ],
+    "favorites": [
+      "Soft Stuff",
+      "Cute Stuff",
+      "Lots of Water",
+      "Group Activities",
+      "Sweet Flavors",
+      "Spicy Flavors"
+    ]
+  },
+  {
+    "source": "pokopiaguide",
+    "slug": "pidgey",
+    "url": "https://pokopiaguide.com/pokedex/pidgey",
+    "no": 10,
+    "types": [
+      "Normal"
+    ],
+    "specialty": "Pok",
+    "activeTime": [
+      "Morning",
+      "Day",
+      "Evening",
+      "Night"
+    ],
+    "favorites": [
+      "Soft Stuff",
+      "Cute Stuff",
+      "Lots of Water",
+      "Group Activities",
+      "Sweet Flavors",
+      "Spicy Flavors"
+    ]
+  },
+  {
+    "source": "pokopiaguide",
+    "slug": "pidgeotto",
+    "url": "https://pokopiaguide.com/pokedex/pidgeotto",
+    "no": 11,
+    "types": [
+      "Normal"
+    ],
+    "specialty": "Pok",
+    "activeTime": [
+      "Morning",
+      "Day",
+      "Evening",
+      "Night"
+    ],
+    "favorites": [
+      "Soft Stuff",
+      "Cute Stuff",
+      "Lots of Water",
+      "Group Activities",
+      "Sweet Flavors",
+      "Spicy Flavors"
+    ]
+  },
+  {
+    "source": "pokopiaguide",
+    "slug": "pidgeot",
+    "url": "https://pokopiaguide.com/pokedex/pidgeot",
+    "no": 12,
+    "types": [
+      "Normal"
+    ],
+    "specialty": "Pok",
+    "activeTime": [
+      "Morning",
+      "Day",
+      "Evening",
+      "Night"
+    ],
+    "favorites": [
+      "Soft Stuff",
+      "Cute Stuff",
+      "Lots of Water",
+      "Group Activities",
+      "Sweet Flavors",
+      "Spicy Flavors"
+    ]
+  },
+  {
+    "source": "pokopiaguide",
+    "slug": "oddish",
+    "url": "https://pokopiaguide.com/pokedex/oddish",
+    "no": 13,
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "specialty": "Pok",
+    "activeTime": [
+      "Morning",
+      "Day",
+      "Evening",
+      "Night"
+    ],
+    "favorites": [
+      "Soft Stuff",
+      "Cute Stuff",
+      "Lots of Water",
+      "Group Activities",
+      "Sweet Flavors",
+      "Spicy Flavors"
+    ]
+  },
+  {
+    "source": "pokopiaguide",
+    "slug": "gloom",
+    "url": "https://pokopiaguide.com/pokedex/gloom",
+    "no": 14,
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "specialty": "Pok",
+    "activeTime": [
+      "Morning",
+      "Day",
+      "Evening",
+      "Night"
+    ],
+    "favorites": [
+      "Soft Stuff",
+      "Cute Stuff",
+      "Lots of Water",
+      "Group Activities",
+      "Sweet Flavors",
+      "Spicy Flavors"
+    ]
+  },
+  {
+    "source": "pokopiaguide",
+    "slug": "vileplume",
+    "url": "https://pokopiaguide.com/pokedex/vileplume",
+    "no": 15,
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "specialty": "Pok",
+    "activeTime": [
+      "Morning",
+      "Day",
+      "Evening",
+      "Night"
+    ],
+    "favorites": [
+      "Soft Stuff",
+      "Cute Stuff",
+      "Lots of Water",
+      "Group Activities",
+      "Sweet Flavors",
+      "Spicy Flavors"
+    ]
+  },
+  {
+    "source": "pokopiaguide",
+    "slug": "bellossom",
+    "url": "https://pokopiaguide.com/pokedex/bellossom",
+    "no": 16,
+    "types": [
+      "Grass"
+    ],
+    "specialty": "Pok",
+    "activeTime": [
+      "Morning",
+      "Day",
+      "Evening",
+      "Night"
+    ],
+    "favorites": [
+      "Soft Stuff",
+      "Cute Stuff",
+      "Lots of Water",
+      "Group Activities",
+      "Sweet Flavors",
+      "Spicy Flavors"
+    ]
+  },
+  {
+    "source": "pokopiaguide",
+    "slug": "venusaur",
+    "url": "https://pokopiaguide.com/pokedex/venusaur",
+    "no": 3,
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "specialty": "Pok",
+    "activeTime": [
+      "Morning",
+      "Day",
+      "Evening",
+      "Night"
+    ],
+    "favorites": [
+      "Soft Stuff",
+      "Cute Stuff",
+      "Lots of Water",
+      "Group Activities",
+      "Sweet Flavors",
+      "Spicy Flavors"
+    ]
+  },
+  {
+    "source": "pokopiaguide",
+    "slug": "bellsprout",
+    "url": "https://pokopiaguide.com/pokedex/bellsprout",
+    "no": 21,
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "specialty": "Pok",
+    "activeTime": [
+      "Morning",
+      "Day",
+      "Evening",
+      "Night"
+    ],
+    "favorites": [
+      "Soft Stuff",
+      "Cute Stuff",
+      "Lots of Water",
+      "Group Activities",
+      "Sweet Flavors",
+      "Spicy Flavors"
+    ]
+  },
+  {
+    "source": "pokopiaguide",
+    "slug": "weepinbell",
+    "url": "https://pokopiaguide.com/pokedex/weepinbell",
+    "no": 22,
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "specialty": "Pok",
+    "activeTime": [
+      "Morning",
+      "Day",
+      "Evening",
+      "Night"
+    ],
+    "favorites": [
+      "Soft Stuff",
+      "Cute Stuff",
+      "Lots of Water",
+      "Group Activities",
+      "Sweet Flavors",
+      "Spicy Flavors"
+    ]
+  },
+  {
+    "source": "pokopiaguide",
+    "slug": "victreebel",
+    "url": "https://pokopiaguide.com/pokedex/victreebel",
+    "no": 23,
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "specialty": "Pok",
+    "activeTime": [
+      "Morning",
+      "Day",
+      "Evening",
+      "Night"
+    ],
+    "favorites": [
+      "Soft Stuff",
+      "Cute Stuff",
+      "Lots of Water",
+      "Group Activities",
+      "Sweet Flavors",
+      "Spicy Flavors"
+    ]
+  },
+  {
+    "source": "pokopiaguide",
+    "slug": "paras",
+    "url": "https://pokopiaguide.com/pokedex/paras",
+    "no": 17,
+    "types": [
+      "Bug",
+      "Grass"
+    ],
+    "specialty": "Pok",
+    "activeTime": [
+      "Morning",
+      "Day",
+      "Evening",
+      "Night"
+    ],
+    "favorites": [
+      "Soft Stuff",
+      "Cute Stuff",
+      "Lots of Water",
+      "Group Activities",
+      "Sweet Flavors",
+      "Spicy Flavors"
+    ]
+  },
+  {
+    "source": "pokopiaguide",
+    "slug": "parasect",
+    "url": "https://pokopiaguide.com/pokedex/parasect",
+    "no": 18,
+    "types": [
+      "Bug",
+      "Grass"
+    ],
+    "specialty": "Pok",
+    "activeTime": [
+      "Morning",
+      "Day",
+      "Evening",
+      "Night"
+    ],
+    "favorites": [
+      "Soft Stuff",
+      "Cute Stuff",
+      "Lots of Water",
+      "Group Activities",
+      "Sweet Flavors",
+      "Spicy Flavors"
+    ]
+  },
+  {
+    "source": "pokopiaguide",
+    "slug": "venonat",
+    "url": "https://pokopiaguide.com/pokedex/venonat",
+    "no": 19,
+    "types": [
+      "Bug",
+      "Poison"
+    ],
+    "specialty": "Pok",
+    "activeTime": [
+      "Morning",
+      "Day",
+      "Evening",
+      "Night"
+    ],
+    "favorites": [
+      "Soft Stuff",
+      "Cute Stuff",
+      "Lots of Water",
+      "Group Activities",
+      "Sweet Flavors",
+      "Spicy Flavors"
+    ]
+  },
+  {
+    "source": "pokopiaguide",
+    "slug": "venomoth",
+    "url": "https://pokopiaguide.com/pokedex/venomoth",
+    "no": 20,
+    "types": [
+      "Bug",
+      "Poison"
+    ],
+    "specialty": "Pok",
+    "activeTime": [
+      "Morning",
+      "Day",
+      "Evening",
+      "Night"
+    ],
+    "favorites": [
+      "Soft Stuff",
+      "Cute Stuff",
+      "Lots of Water",
+      "Group Activities",
+      "Sweet Flavors",
+      "Spicy Flavors"
+    ]
+  },
+  {
+    "source": "pokopiaguide",
+    "slug": "slowpoke",
+    "url": "https://pokopiaguide.com/pokedex/slowpoke",
+    "no": 24,
+    "types": [
+      "Water",
+      "Psychic"
+    ],
+    "specialty": "Pok",
+    "activeTime": [
+      "Morning",
+      "Day",
+      "Evening",
+      "Night"
+    ],
+    "favorites": [
+      "Soft Stuff",
+      "Cute Stuff",
+      "Lots of Water",
+      "Group Activities",
+      "Sweet Flavors",
+      "Spicy Flavors"
+    ]
+  },
+  {
+    "source": "pokopiaguide",
+    "slug": "dlc",
+    "url": "https://pokopiaguide.com/pokedex/dlc",
+    "types": [
+      "Normal"
+    ],
+    "specialty": "Pok",
+    "activeTime": [
+      "Morning",
+      "Day",
+      "Evening",
+      "Night"
+    ],
+    "favorites": [
+      "Soft Stuff",
+      "Cute Stuff",
+      "Lots of Water",
+      "Group Activities",
+      "Sweet Flavors",
+      "Spicy Flavors"
+    ]
+  }
+]

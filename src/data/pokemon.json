@@ -4442,5 +4442,167 @@
       "pkm001",
       "pkm042"
     ]
+  },
+  {
+    "id": "pkm051",
+    "name": "Paras",
+    "type": "Bug/Grass",
+    "rarity": "common",
+    "habitat": "",
+    "favorite_food": "Soft Stuff",
+    "spawn_time": "Morning,Day,Evening,Night",
+    "weather": "Any",
+    "specialty": "Pok",
+    "skills": "",
+    "drops": "",
+    "description": "A Bug/Grass-type Pokemon found in Pokopia.",
+    "image_url": "/images/pokemon/paras.svg",
+    "image_alt": "paras Pokemon artwork",
+    "image_source": "Scraped",
+    "image_source_url": "https://pokopiaguide.com/pokedex/paras",
+    "overview": "This Pokemon appears during Morning, Day, Evening, Night in various weather.",
+    "how_to_get": [
+      "Found in various habitats.",
+      "Preferred environment: Unknown."
+    ],
+    "best_use": [
+      "Specialty: Pok.",
+      "Can be found during Morning, Day, Evening, Night."
+    ]
+  },
+  {
+    "id": "pkm052",
+    "name": "Parasect",
+    "type": "Bug/Grass",
+    "rarity": "common",
+    "habitat": "",
+    "favorite_food": "Soft Stuff",
+    "spawn_time": "Morning,Day,Evening,Night",
+    "weather": "Any",
+    "specialty": "Pok",
+    "skills": "",
+    "drops": "",
+    "description": "A Bug/Grass-type Pokemon found in Pokopia.",
+    "image_url": "/images/pokemon/parasect.svg",
+    "image_alt": "parasect Pokemon artwork",
+    "image_source": "Scraped",
+    "image_source_url": "https://pokopiaguide.com/pokedex/parasect",
+    "overview": "This Pokemon appears during Morning, Day, Evening, Night in various weather.",
+    "how_to_get": [
+      "Found in various habitats.",
+      "Preferred environment: Unknown."
+    ],
+    "best_use": [
+      "Specialty: Pok.",
+      "Can be found during Morning, Day, Evening, Night."
+    ]
+  },
+  {
+    "id": "pkm053",
+    "name": "Venonat",
+    "type": "Bug/Poison",
+    "rarity": "common",
+    "habitat": "",
+    "favorite_food": "Soft Stuff",
+    "spawn_time": "Morning,Day,Evening,Night",
+    "weather": "Any",
+    "specialty": "Pok",
+    "skills": "",
+    "drops": "",
+    "description": "A Bug/Poison-type Pokemon found in Pokopia.",
+    "image_url": "/images/pokemon/venonat.svg",
+    "image_alt": "venonat Pokemon artwork",
+    "image_source": "Scraped",
+    "image_source_url": "https://pokopiaguide.com/pokedex/venonat",
+    "overview": "This Pokemon appears during Morning, Day, Evening, Night in various weather.",
+    "how_to_get": [
+      "Found in various habitats.",
+      "Preferred environment: Unknown."
+    ],
+    "best_use": [
+      "Specialty: Pok.",
+      "Can be found during Morning, Day, Evening, Night."
+    ]
+  },
+  {
+    "id": "pkm054",
+    "name": "Venomoth",
+    "type": "Bug/Poison",
+    "rarity": "common",
+    "habitat": "",
+    "favorite_food": "Soft Stuff",
+    "spawn_time": "Morning,Day,Evening,Night",
+    "weather": "Any",
+    "specialty": "Pok",
+    "skills": "",
+    "drops": "",
+    "description": "A Bug/Poison-type Pokemon found in Pokopia.",
+    "image_url": "/images/pokemon/venomoth.svg",
+    "image_alt": "venomoth Pokemon artwork",
+    "image_source": "Scraped",
+    "image_source_url": "https://pokopiaguide.com/pokedex/venomoth",
+    "overview": "This Pokemon appears during Morning, Day, Evening, Night in various weather.",
+    "how_to_get": [
+      "Found in various habitats.",
+      "Preferred environment: Unknown."
+    ],
+    "best_use": [
+      "Specialty: Pok.",
+      "Can be found during Morning, Day, Evening, Night."
+    ]
+  },
+  {
+    "id": "pkm055",
+    "name": "Slowpoke",
+    "type": "Water/Psychic",
+    "rarity": "common",
+    "habitat": "",
+    "favorite_food": "Soft Stuff",
+    "spawn_time": "Morning,Day,Evening,Night",
+    "weather": "Any",
+    "specialty": "Pok",
+    "skills": "",
+    "drops": "",
+    "description": "A Water/Psychic-type Pokemon found in Pokopia.",
+    "image_url": "/images/pokemon/slowpoke.svg",
+    "image_alt": "slowpoke Pokemon artwork",
+    "image_source": "Scraped",
+    "image_source_url": "https://pokopiaguide.com/pokedex/slowpoke",
+    "overview": "This Pokemon appears during Morning, Day, Evening, Night in various weather.",
+    "how_to_get": [
+      "Found in various habitats.",
+      "Preferred environment: Unknown."
+    ],
+    "best_use": [
+      "Specialty: Pok.",
+      "Can be found during Morning, Day, Evening, Night."
+    ]
+  },
+  {
+    "id": "pkm056",
+    "name": "Dlc",
+    "type": "Normal",
+    "rarity": "common",
+    "habitat": "",
+    "favorite_food": "Soft Stuff",
+    "spawn_time": "Morning,Day,Evening,Night",
+    "weather": "Any",
+    "specialty": "Pok",
+    "skills": "",
+    "drops": "",
+    "description": "A Normal-type Pokemon found in Pokopia.",
+    "image_url": "/images/pokemon/dlc.svg",
+    "image_alt": "dlc Pokemon artwork",
+    "image_source": "Scraped",
+    "image_source_url": "https://pokopiaguide.com/pokedex/dlc",
+    "overview": "This Pokemon appears during Morning, Day, Evening, Night in various weather.",
+    "how_to_get": [
+      "Found in various habitats.",
+      "Preferred environment: Unknown."
+    ],
+    "best_use": [
+      "Specialty: Pok.",
+      "Can be found during Morning, Day, Evening, Night."
+    ]
   }
 ]

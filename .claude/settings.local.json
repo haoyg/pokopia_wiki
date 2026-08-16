@@ -41,7 +41,18 @@
       "WebFetch(domain:pokopia.pro)",
       "WebFetch(domain:pokopiaworld.org)",
       "WebFetch(domain:pokopiamap.com)",
-      "WebFetch(domain:www.wikipokopia.com)"
+      "WebFetch(domain:www.wikipokopia.com)",
+      "WebFetch(domain:pokopiawiki.com)",
+      "Bash(python3 -c \"import sys,re; html=sys.stdin.read\\(\\); matches=re.findall\\(r'<[^>]+>', html\\); print\\('\\\\n'.join\\(matches[:50]\\)\\)\")",
+      "Bash(python3 -c ' *)",
+      "Bash(curl -s -L --max-time 15 \"https://pokopiaguide.com/pokedex\")",
+      "Bash(python3)",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(f'Total: {len\\(d\\)} pokemon'\\); print\\('Sample:', json.dumps\\(d[0], indent=2\\)\\)\")",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(f'Total: {len\\(d\\)} guides'\\); print\\('Sample:', json.dumps\\(d[0], indent=2\\)\\)\")",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(f'Total: {len\\(d\\)} items'\\); print\\('Sample:', json.dumps\\(d[0], indent=2\\)\\)\")",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(f'Total: {len\\(d\\)} habitats'\\); print\\('Sample:', json.dumps\\(d[0], indent=2\\)\\)\")",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(f'Total guides: {len\\(d\\)}'\\); print\\('Latest 3:', json.dumps\\(d[-3:], indent=2\\)\\)\")",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(f'Total: {len\\(d\\)}'\\); [print\\(f'{p[\\\\\"id\\\\\"]}: {p[\\\\\"name\\\\\"]}'\\) for p in d[-10:]]\")"
     ]
   }
 }
