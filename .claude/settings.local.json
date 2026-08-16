@@ -52,7 +52,8 @@
       "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(f'Total: {len\\(d\\)} items'\\); print\\('Sample:', json.dumps\\(d[0], indent=2\\)\\)\")",
       "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(f'Total: {len\\(d\\)} habitats'\\); print\\('Sample:', json.dumps\\(d[0], indent=2\\)\\)\")",
       "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(f'Total guides: {len\\(d\\)}'\\); print\\('Latest 3:', json.dumps\\(d[-3:], indent=2\\)\\)\")",
-      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(f'Total: {len\\(d\\)}'\\); [print\\(f'{p[\\\\\"id\\\\\"]}: {p[\\\\\"name\\\\\"]}'\\) for p in d[-10:]]\")"
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(f'Total: {len\\(d\\)}'\\); [print\\(f'{p[\\\\\"id\\\\\"]}: {p[\\\\\"name\\\\\"]}'\\) for p in d[-10:]]\")",
+      "Bash(pkill -f \"next dev\")"
     ]
   }
 }
