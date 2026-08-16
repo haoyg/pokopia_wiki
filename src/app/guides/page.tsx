@@ -185,7 +185,7 @@ export default function GuidesPage() {
               </div>
               <div>
                 <dt>Watch For</dt>
-                <dd>{shortText(guide.common_mistakes[0], 76)}</dd>
+                <dd>{shortText(guide.common_mistakes?.[0] ?? '', 76)}</dd>
               </div>
             </dl>
           </a>

@@ -102,7 +102,7 @@ export default async function GuideDetailPage({ params }: Props) {
           { name: guide.title, url: `/guides/${guide.slug}` },
         ]}
       />
-      {guide.faqs?.length > 0 && <FAQJsonLd title={guide.title} faqs={guide.faqs} />}
+      {guide.faqs && guide.faqs.length > 0 && <FAQJsonLd title={guide.title} faqs={guide.faqs} />}
       <main>
         <article className="guide-detail-page">
           <div className="guide-detail-hero">
@@ -238,7 +238,7 @@ export default async function GuideDetailPage({ params }: Props) {
             </ul>
           </section>
 
-          {guide.faqs?.length > 0 && (
+          {guide.faqs && guide.faqs.length > 0 && (
             <section className="guide-content-section pokemon-faq-list">
               <h2>FAQ</h2>
               {guide.faqs.map((faq) => (

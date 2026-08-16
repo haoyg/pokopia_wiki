@@ -4456,10 +4456,10 @@
     "skills": "",
     "drops": "",
     "description": "A Bug/Grass-type Pokemon found in Pokopia.",
-    "image_url": "/images/pokemon/paras.svg",
+    "image_url": "https://img.pokemondb.net/artwork/large/paras.jpg",
     "image_alt": "paras Pokemon artwork",
-    "image_source": "Scraped",
-    "image_source_url": "https://pokopiaguide.com/pokedex/paras",
+    "image_source": "PokemonDB",
+    "image_source_url": "https://img.pokemondb.net/artwork/large/paras.jpg",
     "overview": "This Pokemon appears during Morning, Day, Evening, Night in various weather.",
     "how_to_get": [
       "Found in various habitats.",
@@ -4469,11 +4469,11 @@
       "Specialty: Pok.",
       "Can be found during Morning, Day, Evening, Night."
     ],
-    "image_original_media": "",
-    "image_license_note": "Image pending verification",
-    "image_rights_status": "unknown",
-    "image_usage_basis": "unknown",
-    "image_rights_reviewed_at": ""
+    "image_original_media": "https://img.pokemondb.net/artwork/large/paras.jpg",
+    "image_license_note": "PokemonDB.net artwork used under fair use for educational/editorial purposes.",
+    "image_rights_status": "fair_use_editorial",
+    "image_usage_basis": "",
+    "image_rights_reviewed_at": "2026-08-16"
   },
   {
     "id": "pkm052",
@@ -4488,10 +4488,10 @@
     "skills": "",
     "drops": "",
     "description": "A Bug/Grass-type Pokemon found in Pokopia.",
-    "image_url": "/images/pokemon/parasect.svg",
+    "image_url": "https://img.pokemondb.net/artwork/large/parasect.jpg",
     "image_alt": "parasect Pokemon artwork",
-    "image_source": "Scraped",
-    "image_source_url": "https://pokopiaguide.com/pokedex/parasect",
+    "image_source": "PokemonDB",
+    "image_source_url": "https://img.pokemondb.net/artwork/large/parasect.jpg",
     "overview": "This Pokemon appears during Morning, Day, Evening, Night in various weather.",
     "how_to_get": [
       "Found in various habitats.",
@@ -4501,11 +4501,11 @@
       "Specialty: Pok.",
       "Can be found during Morning, Day, Evening, Night."
     ],
-    "image_original_media": "",
-    "image_license_note": "Image pending verification",
-    "image_rights_status": "unknown",
-    "image_usage_basis": "unknown",
-    "image_rights_reviewed_at": ""
+    "image_original_media": "https://img.pokemondb.net/artwork/large/parasect.jpg",
+    "image_license_note": "PokemonDB.net artwork used under fair use for educational/editorial purposes.",
+    "image_rights_status": "fair_use_editorial",
+    "image_usage_basis": "",
+    "image_rights_reviewed_at": "2026-08-16"
   },
   {
     "id": "pkm053",
@@ -4520,10 +4520,10 @@
     "skills": "",
     "drops": "",
     "description": "A Bug/Poison-type Pokemon found in Pokopia.",
-    "image_url": "/images/pokemon/venonat.svg",
+    "image_url": "https://img.pokemondb.net/artwork/large/venonat.jpg",
     "image_alt": "venonat Pokemon artwork",
-    "image_source": "Scraped",
-    "image_source_url": "https://pokopiaguide.com/pokedex/venonat",
+    "image_source": "PokemonDB",
+    "image_source_url": "https://img.pokemondb.net/artwork/large/venonat.jpg",
     "overview": "This Pokemon appears during Morning, Day, Evening, Night in various weather.",
     "how_to_get": [
       "Found in various habitats.",
@@ -4533,11 +4533,11 @@
       "Specialty: Pok.",
       "Can be found during Morning, Day, Evening, Night."
     ],
-    "image_original_media": "",
-    "image_license_note": "Image pending verification",
-    "image_rights_status": "unknown",
-    "image_usage_basis": "unknown",
-    "image_rights_reviewed_at": ""
+    "image_original_media": "https://img.pokemondb.net/artwork/large/venonat.jpg",
+    "image_license_note": "PokemonDB.net artwork used under fair use for educational/editorial purposes.",
+    "image_rights_status": "fair_use_editorial",
+    "image_usage_basis": "",
+    "image_rights_reviewed_at": "2026-08-16"
   },
   {
     "id": "pkm054",
@@ -4552,10 +4552,10 @@
     "skills": "",
     "drops": "",
     "description": "A Bug/Poison-type Pokemon found in Pokopia.",
-    "image_url": "/images/pokemon/venomoth.svg",
+    "image_url": "https://img.pokemondb.net/artwork/large/venomoth.jpg",
     "image_alt": "venomoth Pokemon artwork",
-    "image_source": "Scraped",
-    "image_source_url": "https://pokopiaguide.com/pokedex/venomoth",
+    "image_source": "PokemonDB",
+    "image_source_url": "https://img.pokemondb.net/artwork/large/venomoth.jpg",
     "overview": "This Pokemon appears during Morning, Day, Evening, Night in various weather.",
     "how_to_get": [
       "Found in various habitats.",
@@ -4565,11 +4565,11 @@
       "Specialty: Pok.",
       "Can be found during Morning, Day, Evening, Night."
     ],
-    "image_original_media": "",
-    "image_license_note": "Image pending verification",
-    "image_rights_status": "unknown",
-    "image_usage_basis": "unknown",
-    "image_rights_reviewed_at": ""
+    "image_original_media": "https://img.pokemondb.net/artwork/large/venomoth.jpg",
+    "image_license_note": "PokemonDB.net artwork used under fair use for educational/editorial purposes.",
+    "image_rights_status": "fair_use_editorial",
+    "image_usage_basis": "",
+    "image_rights_reviewed_at": "2026-08-16"
   },
   {
     "id": "pkm055",
@@ -4584,10 +4584,10 @@
     "skills": "",
     "drops": "",
     "description": "A Water/Psychic-type Pokemon found in Pokopia.",
-    "image_url": "/images/pokemon/slowpoke.svg",
+    "image_url": "https://img.pokemondb.net/artwork/large/slowpoke.jpg",
     "image_alt": "slowpoke Pokemon artwork",
-    "image_source": "Scraped",
-    "image_source_url": "https://pokopiaguide.com/pokedex/slowpoke",
+    "image_source": "PokemonDB",
+    "image_source_url": "https://img.pokemondb.net/artwork/large/slowpoke.jpg",
     "overview": "This Pokemon appears during Morning, Day, Evening, Night in various weather.",
     "how_to_get": [
       "Found in various habitats.",
@@ -4597,11 +4597,11 @@
       "Specialty: Pok.",
       "Can be found during Morning, Day, Evening, Night."
     ],
-    "image_original_media": "",
-    "image_license_note": "Image pending verification",
-    "image_rights_status": "unknown",
-    "image_usage_basis": "unknown",
-    "image_rights_reviewed_at": ""
+    "image_original_media": "https://img.pokemondb.net/artwork/large/slowpoke.jpg",
+    "image_license_note": "PokemonDB.net artwork used under fair use for educational/editorial purposes.",
+    "image_rights_status": "fair_use_editorial",
+    "image_usage_basis": "",
+    "image_rights_reviewed_at": "2026-08-16"
   },
   {
     "id": "pkm056",
@@ -4616,10 +4616,10 @@
     "skills": "",
     "drops": "",
     "description": "A Normal-type Pokemon found in Pokopia.",
-    "image_url": "/images/pokemon/dlc.svg",
+    "image_url": "",
     "image_alt": "dlc Pokemon artwork",
     "image_source": "Scraped",
-    "image_source_url": "https://pokopiaguide.com/pokedex/dlc",
+    "image_source_url": "",
     "overview": "This Pokemon appears during Morning, Day, Evening, Night in various weather.",
     "how_to_get": [
       "Found in various habitats.",
@@ -4630,9 +4630,9 @@
       "Can be found during Morning, Day, Evening, Night."
     ],
     "image_original_media": "",
-    "image_license_note": "Image pending verification",
-    "image_rights_status": "unknown",
-    "image_usage_basis": "unknown",
+    "image_license_note": "",
+    "image_rights_status": "rights-review-required",
+    "image_usage_basis": "",
     "image_rights_reviewed_at": ""
   }
 ]
