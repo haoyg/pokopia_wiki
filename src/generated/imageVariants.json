@@ -349,6 +349,20 @@
       "width": 1600
     }
   ],
+  "/images/guides/story-pasapasa.png": [
+    {
+      "src": "/images/guides/story-pasapasa-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/story-pasapasa-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/guides/story-pasapasa-1280.webp",
+      "width": 1280
+    }
+  ],
   "/images/guides/team-initiation-guide.jpg": [
     {
       "src": "/images/guides/team-initiation-guide-480.webp",

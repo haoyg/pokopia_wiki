@@ -13,7 +13,9 @@
     "pokemondb.net",
     "bulbapedia.bulbagarden.net",
     "pokopiawiki.com",
-    "assets.pokopiawiki.com"
+    "assets.pokopiawiki.com",
+    "pokopiaguide.com",
+    "assets.pokopiaguide.com"
   ],
   "legal_context_routes": [
     "/copyright",
