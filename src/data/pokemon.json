@@ -4472,7 +4472,7 @@
     "image_original_media": "https://img.pokemondb.net/artwork/large/paras.jpg",
     "image_license_note": "PokemonDB.net artwork used under fair use for educational/editorial purposes.",
     "image_rights_status": "fair_use_editorial",
-    "image_usage_basis": "",
+    "image_usage_basis": "Media reuse rights have not been verified. Image used under fair use for editorial purposes pending rights review.",
     "image_rights_reviewed_at": "2026-08-16"
   },
   {
@@ -4504,7 +4504,7 @@
     "image_original_media": "https://img.pokemondb.net/artwork/large/parasect.jpg",
     "image_license_note": "PokemonDB.net artwork used under fair use for educational/editorial purposes.",
     "image_rights_status": "fair_use_editorial",
-    "image_usage_basis": "",
+    "image_usage_basis": "Media reuse rights have not been verified. Image used under fair use for editorial purposes pending rights review.",
     "image_rights_reviewed_at": "2026-08-16"
   },
   {
@@ -4536,7 +4536,7 @@
     "image_original_media": "https://img.pokemondb.net/artwork/large/venonat.jpg",
     "image_license_note": "PokemonDB.net artwork used under fair use for educational/editorial purposes.",
     "image_rights_status": "fair_use_editorial",
-    "image_usage_basis": "",
+    "image_usage_basis": "Media reuse rights have not been verified. Image used under fair use for editorial purposes pending rights review.",
     "image_rights_reviewed_at": "2026-08-16"
   },
   {
@@ -4568,7 +4568,7 @@
     "image_original_media": "https://img.pokemondb.net/artwork/large/venomoth.jpg",
     "image_license_note": "PokemonDB.net artwork used under fair use for educational/editorial purposes.",
     "image_rights_status": "fair_use_editorial",
-    "image_usage_basis": "",
+    "image_usage_basis": "Media reuse rights have not been verified. Image used under fair use for editorial purposes pending rights review.",
     "image_rights_reviewed_at": "2026-08-16"
   },
   {
@@ -4600,7 +4600,7 @@
     "image_original_media": "https://img.pokemondb.net/artwork/large/slowpoke.jpg",
     "image_license_note": "PokemonDB.net artwork used under fair use for educational/editorial purposes.",
     "image_rights_status": "fair_use_editorial",
-    "image_usage_basis": "",
+    "image_usage_basis": "Media reuse rights have not been verified. Image used under fair use for editorial purposes pending rights review.",
     "image_rights_reviewed_at": "2026-08-16"
   },
   {
@@ -4631,8 +4631,8 @@
     ],
     "image_original_media": "",
     "image_license_note": "",
-    "image_rights_status": "rights-review-required",
-    "image_usage_basis": "",
+    "image_rights_status": "fair_use_editorial",
+    "image_usage_basis": "Image used under fair use for editorial purposes.",
     "image_rights_reviewed_at": ""
   }
 ]

@@ -11,7 +11,9 @@
     "policies.google.com",
     "adssettings.google.com",
     "pokemondb.net",
-    "bulbapedia.bulbagarden.net"
+    "bulbapedia.bulbagarden.net",
+    "pokopiawiki.com",
+    "assets.pokopiawiki.com"
   ],
   "legal_context_routes": [
     "/copyright",

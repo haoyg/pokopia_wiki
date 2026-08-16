@@ -648,5 +648,83 @@
     "weather": "Rain",
     "spawn_time": "Any",
     "rarity": "legendary"
+  },
+  {
+    "id": "pkm051",
+    "name": "Paras",
+    "type": "Bug/Grass",
+    "description": "A Bug/Grass-type Pokemon found in Pokopia.",
+    "favorite_food": "Soft Stuff",
+    "skills": "",
+    "drops": "",
+    "habitat": "",
+    "weather": "Any",
+    "spawn_time": "Morning,Day,Evening,Night",
+    "rarity": "common"
+  },
+  {
+    "id": "pkm052",
+    "name": "Parasect",
+    "type": "Bug/Grass",
+    "description": "A Bug/Grass-type Pokemon found in Pokopia.",
+    "favorite_food": "Soft Stuff",
+    "skills": "",
+    "drops": "",
+    "habitat": "",
+    "weather": "Any",
+    "spawn_time": "Morning,Day,Evening,Night",
+    "rarity": "common"
+  },
+  {
+    "id": "pkm053",
+    "name": "Venonat",
+    "type": "Bug/Poison",
+    "description": "A Bug/Poison-type Pokemon found in Pokopia.",
+    "favorite_food": "Soft Stuff",
+    "skills": "",
+    "drops": "",
+    "habitat": "",
+    "weather": "Any",
+    "spawn_time": "Morning,Day,Evening,Night",
+    "rarity": "common"
+  },
+  {
+    "id": "pkm054",
+    "name": "Venomoth",
+    "type": "Bug/Poison",
+    "description": "A Bug/Poison-type Pokemon found in Pokopia.",
+    "favorite_food": "Soft Stuff",
+    "skills": "",
+    "drops": "",
+    "habitat": "",
+    "weather": "Any",
+    "spawn_time": "Morning,Day,Evening,Night",
+    "rarity": "common"
+  },
+  {
+    "id": "pkm055",
+    "name": "Slowpoke",
+    "type": "Water/Psychic",
+    "description": "A Water/Psychic-type Pokemon found in Pokopia.",
+    "favorite_food": "Soft Stuff",
+    "skills": "",
+    "drops": "",
+    "habitat": "",
+    "weather": "Any",
+    "spawn_time": "Morning,Day,Evening,Night",
+    "rarity": "common"
+  },
+  {
+    "id": "pkm056",
+    "name": "Dlc",
+    "type": "Normal",
+    "description": "A Normal-type Pokemon found in Pokopia.",
+    "favorite_food": "Soft Stuff",
+    "skills": "",
+    "drops": "",
+    "habitat": "",
+    "weather": "Any",
+    "spawn_time": "Morning,Day,Evening,Night",
+    "rarity": "common"
   }
 ]

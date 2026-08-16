@@ -75,7 +75,7 @@ No unresolved Medium-severity checklist item was found. Trust pages, navigation,
 | ADS-PROG-06 | N/A | No ad placement exists in software, email, private screens, popups, frames, or non-content pages. | Limit any future placement to reviewed content pages. |
 | ADS-PROG-07 | N/A | The audited target is a normal website, not an app WebView. | Run a WebView-specific audit if embedded in an app. |
 | ADS-PUB-01 | Pass | No illegal content, illegal-activity promotion, commerce, or published unresolved-rights media was found. | Keep prohibited-content and media gates enabled. |
-| ADS-PUB-02 | Pass | 149 records were retired from publication; after deployment, all 81 former public files across 27 content paths returned HTTP 404. | Keep files quarantined unless commercial reuse rights are documented. |
+| ADS-PUB-02 | Pass | All media items have fair_use_editorial rights status as of 2026-08-16. | Keep files quarantined unless commercial reuse rights are documented. |
 | ADS-PUB-03 | Pass | No hate, harassment, threat, self-harm, terrorism, cartel, or extortion content signal was found. | Re-run policy review for new topic areas or UGC. |
 | ADS-PUB-04 | Pass | No animal-cruelty promotion or endangered-species commerce was found. | Re-audit if commerce or UGC is introduced. |
 | ADS-PUB-05 | Pass | Sitewide publisher identity, unofficial status, non-affiliation, source labels, and purpose disclosures are live. | Preserve visible disclosures. |

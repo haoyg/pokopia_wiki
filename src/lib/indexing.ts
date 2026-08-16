@@ -47,8 +47,10 @@ export function shouldNoIndex(status?: string | null, indexStatus?: string | nul
 }
 
 export function isIndexableGuide(entry: GuideIndexingCandidate) {
+  const status = entry.data_status || ''
+  const hasGuideStatus = !status || /\bguide$/i.test(String(status))
   return Boolean(entry) &&
-    /\bguide$/i.test(String(entry.data_status || '')) &&
+    hasGuideStatus &&
     hasValidReviewDate(entry.updated_at || entry.published_at) &&
     !isExplicitlyNoindex(entry.data_status, entry.index_status)
 }

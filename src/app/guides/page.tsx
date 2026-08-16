@@ -32,7 +32,8 @@ const guideTracks = [
   },
 ]
 
-function shortText(text: string, length = 145) {
+function shortText(text: string | undefined, length = 145) {
+  if (!text) return ''
   if (text.length <= length) return text
   return `${text.slice(0, length).trim()}...`
 }
