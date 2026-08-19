@@ -298,10 +298,9 @@ export function WikiPageJsonLd({
 
 export function FAQJsonLd({
   faqs,
-  title,
 }: {
   faqs: { question: string; answer: string }[]
-  title: string
+  title?: string
 }) {
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -314,6 +313,39 @@ export function FAQJsonLd({
         text: faq.answer,
       },
     })),
+  }
+
+  return <JsonLd data={jsonLd} />
+}
+
+export function HowToJsonLd({
+  name,
+  description,
+  steps,
+  url,
+}: {
+  name: string
+  description: string
+  steps: string[]
+  url: string
+}) {
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'HowTo',
+    name,
+    description,
+    url: `${BASE_URL}${url}`,
+    step: steps.map((step, index) => ({
+      '@type': 'HowToStep',
+      position: index + 1,
+      name: `Step ${index + 1}`,
+      text: step,
+    })),
+    publisher: {
+      '@type': 'Organization',
+      name: 'Pokopia Portal',
+      url: BASE_URL,
+    },
   }
 
   return <JsonLd data={jsonLd} />
