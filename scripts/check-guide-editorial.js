@@ -51,7 +51,10 @@ const materials = readJson('src/data/materials.json')
 
 const pokemonIds = new Set(pokemon.map((entry) => entry.id))
 const habitatIds = new Set(habitats.map((entry) => entry.id))
-const itemLikeIds = new Set([...recipes, ...items, ...materials].map((entry) => entry.id))
+// src/app/guides/[slug]/page.tsx resolves related_items against recipes only.
+// item/material ids would silently render nothing, so they are treated as dangling.
+const recipeIds = new Set(recipes.map((entry) => entry.id))
+const otherEntityIds = new Set([...items, ...materials].map((entry) => entry.id))
 
 const officialFactText = official
   .flatMap((page) => [page.summary || '', ...(page.facts || []), ...(page.analysis || [])])
@@ -110,63 +113,114 @@ function guideProse(guide) {
 
 // ------------------------------------------------------ provenance and honesty
 
-const SOURCE_BACKED = 'source-backed guide'
-const UNVERIFIED = 'unverified editorial guide'
+// Mirrors src/lib/indexing.ts. Kept in sync deliberately: the auditor must judge
+// pages by the indexability the site actually ships, not by index_status alone.
+const NO_INDEX_FLAGS = ['draft', 'placeholder', 'thin', 'ai draft', 'needs review', 'noindex', 'future', 'unverified', 'editorial']
+
+function isExplicitlyNoindex(guide) {
+  const combined = `${guide.data_status || ''} ${guide.index_status || ''}`.toLowerCase()
+  return NO_INDEX_FLAGS.some((flag) => combined.includes(flag))
+}
+
+function isIndexable(guide) {
+  const status = String(guide.data_status || '')
+  const hasGuideStatus = !status || /\bguide$/i.test(status)
+  const reviewDate = guide.updated_at || guide.published_at
+  const hasValidDate = Boolean(reviewDate) && !Number.isNaN(new Date(reviewDate).getTime())
+  return hasGuideStatus && hasValidDate && !isExplicitlyNoindex(guide)
+}
+
+const KNOWN_STATUSES = ['source-backed guide', 'reference guide', 'unverified editorial guide']
 
 function auditProvenance(guide) {
   const status = String(guide.data_status || '').trim().toLowerCase()
+  const sources = list(guide.sources)
+  const indexable = isIndexable(guide)
 
   if (!status) {
     report('critical', 'Provenance', guide, 'data_status is missing',
-      'Every guide must declare whether its claims are source-backed or editorial. Missing status lets speculation reach an ad-supported indexable page.',
-      `Set data_status to "Source-backed guide" or "Unverified editorial guide".`)
+      'The page renders no DataStatus badge, and an empty status still passes isIndexableGuide — so an unlabeled page ships as indexable.',
+      'Set data_status to "Source-backed guide", "Reference guide", or a status containing a noindex flag word.')
     return
   }
 
-  if (status !== SOURCE_BACKED && status !== UNVERIFIED) {
+  if (!KNOWN_STATUSES.includes(status)) {
     report('high', 'Provenance', guide, `unrecognized data_status: "${guide.data_status}"`,
-      'Downstream checks and page templates branch on the two known values; a third value silently skips those gates.',
-      'Use one of the two established data_status values, or update the templates and checkers together.')
+      'isIndexableGuide only holds a page back when the status contains a flag word from src/lib/indexing.ts. An unplanned status silently inherits indexable.',
+      'Use an established status, or add its flag word to noIndexFlags if it is meant to stay out of the index.')
   }
 
-  const sources = list(guide.sources)
-  const indexable = String(guide.index_status || '').trim().toLowerCase() === 'indexable'
-
-  if (status === SOURCE_BACKED) {
-    if (sources.length === 0) {
-      report('critical', 'Provenance', guide, 'data_status is "Source-backed guide" but sources is empty',
-        'A source-backed label with no sources is a false trust signal to both readers and reviewers.',
-        'Add the primary sources the guide rests on, or relabel it as an unverified editorial guide.')
-    }
-    if (!String(guide.confirmed_context || '').trim()) {
-      report('medium', 'Provenance', guide, 'confirmed_context is missing on a source-backed guide',
-        'Readers cannot tell which parts are confirmed by the source and which are inference.',
-        'Summarize what the sources actually confirm, separately from the guide’s own recommendations.')
-    }
+  if (status === 'source-backed guide' && sources.length === 0) {
+    report('critical', 'Provenance', guide, 'data_status claims "Source-backed guide" but sources is empty',
+      'The page prints a source-backed badge with nothing to back it. On an ad-supported site this is the exact claim a manual reviewer checks first, and there is no citation to show them.',
+      'Add the sources it actually rests on. If the source was a third-party wiki rather than an official page, relabel to "Reference guide" and record the real origin in data_status_note.')
   }
 
-  if (status === UNVERIFIED) {
-    if (indexable) {
-      report('critical', 'Provenance', guide, 'index_status is "indexable" on an unverified editorial guide',
-        'Indexing unverified game facts is the exact pattern that triggers thin/low-value content and ad-policy problems for this site.',
-        'Set index_status to "review" until the claims are source-backed, or promote the guide by adding sources.')
-    }
-    if (!String(guide.editorial_limits || '').trim()) {
-      report('high', 'Provenance', guide, 'editorial_limits is missing on an unverified editorial guide',
-        'Without a stated limit, speculative mechanics read as confirmed fact.',
-        'State plainly what is not yet confirmed and what the reader should verify in game.')
-    }
-    if (String(guide.data_status_note || '').trim().length < 60) {
-      report('high', 'Provenance', guide, `data_status_note is ${String(guide.data_status_note || '').trim().length} chars (checkers require 60+)`,
-        'check-content-quality.js fails the build on this; a short note also fails to explain the limitation to readers.',
-        'Explain what is unverified, why, and what the reader should do about it.')
-    }
+  if (status === 'reference guide' && sources.length === 0) {
+    report('medium', 'Provenance', guide, '"Reference guide" with no sources',
+      'Reference pages state mechanics as fact. Without a source the reader has no way to tell a confirmed mechanic from an inferred one.',
+      'Cite the official page for the mechanic, or record in editorial_limits which parts are unconfirmed.')
   }
 
   if (indexable && sources.length === 0) {
-    report('critical', 'Provenance', guide, 'indexable page with no sources',
-      'An indexable page with no sourcing cannot survive a manual quality review.',
-      'Add sources before flipping index_status to indexable.')
+    report('high', 'Provenance', guide, 'page is indexable (per isIndexableGuide) with no sources',
+      'Indexable unsourced pages are what drove this site to build the review/quarantine workflow in the first place.',
+      'Add sources, or move the page out of the index by using a data_status/index_status value containing a noIndexFlags word.')
+  }
+
+  if (sources.length > 0 && list(guide.confirmed_context).length === 0) {
+    report('medium', 'Provenance', guide, 'sources present but confirmed_context is empty',
+      'Readers cannot separate what the source actually confirms from what the guide infers around it.',
+      'List the specific statements the sources confirm, in the source’s own scope.')
+  }
+
+  if (sources.length > 0 && list(guide.editorial_limits).length === 0) {
+    report('medium', 'Provenance', guide, 'sources present but editorial_limits is empty',
+      'Every sourced guide in this corpus adds practical advice beyond the source. Unmarked, that advice reads as officially confirmed.',
+      'State what the page deliberately does not claim, as the existing sourced guides do.')
+  }
+
+  const note = String(guide.data_status_note || '').trim()
+  if (/\bguide$/i.test(String(guide.data_status || '')) && note.length < 60) {
+    report('high', 'Provenance', guide, `data_status_note is ${note.length} chars; check-content-quality.js requires 60+`,
+      'This fails npm run build, and a one-line note does not actually explain the limitation to a reader.',
+      'Explain what is and is not confirmed, and what the reader should verify in game.')
+  }
+}
+
+// ------------------------------------------------------------- text hygiene
+
+function auditTextHygiene(guide) {
+  const title = String(guide.title || '')
+  const prose = guideProse(guide)
+
+  const entityFields = [['title', title], ['content', String(guide.content || '')], ['answer', String(guide.answer || '')]]
+  for (const [field, value] of entityFields) {
+    const entities = [...new Set(value.match(/&(?:amp|lt|gt|quot|apos|nbsp|#\d+);/g) || [])]
+    if (entities.length > 0) {
+      report('high', 'Text hygiene', guide, `raw HTML entities in ${field}: ${entities.join(', ')}`,
+        'React escapes these, so the reader sees the literal "&amp;" in the headline and the search snippet.',
+        'Decode the entities to real characters in the source data.')
+    }
+  }
+
+  if (/�/.test(prose + title)) {
+    report('high', 'Text hygiene', guide, 'contains the U+FFFD replacement character',
+      'A replacement character is a decoding failure that reached the page — usually a mangled é, —, or quote.',
+      'Restore the intended character and re-save the JSON as UTF-8.')
+  }
+
+  const repeatedWord = title.match(/\b(\w{3,})\s+\1\b/i)
+  if (repeatedWord) {
+    report('medium', 'Text hygiene', guide, `title repeats a word: "…${repeatedWord[0]}…"`,
+      'Usually a generation or concatenation artifact ("… CDs Guide Guide"), and it is the first thing a reader sees in results.',
+      'Rewrite the title without the duplication.')
+  }
+
+  if (/\s{2,}|\s+[.,;:]/.test(title)) {
+    report('low', 'Text hygiene', guide, 'title has doubled spaces or space-before-punctuation',
+      'Small artifacts in a headline read as unedited output.',
+      'Normalize the whitespace.')
   }
 }
 
@@ -195,8 +249,10 @@ function auditClaimRisk(guide) {
 // --------------------------------------------------------------- SEO mechanics
 
 function auditMetadata(guide) {
+  // Match the fallbacks in src/app/guides/[slug]/page.tsx generateMetadata.
   const seoTitle = String(guide.seo_title || guide.title || '').trim()
-  const seoDescription = String(guide.seo_description || '').trim()
+  const seoDescription = String(guide.seo_description || guide.answer || guide.seo_keyword || '').trim()
+  const descriptionIsFallback = !String(guide.seo_description || '').trim()
   const keyword = String(guide.seo_keyword || '').trim()
 
   if (!String(guide.title || '').trim()) {
@@ -228,13 +284,17 @@ function auditMetadata(guide) {
   }
 
   if (!seoDescription) {
-    report('medium', 'Metadata', guide, 'seo_description is missing',
-      'The search snippet falls back to scraped body text, losing control of the click decision.',
+    report('medium', 'Metadata', guide, 'no seo_description, and the answer/seo_keyword fallbacks are empty too',
+      'The page ships with no meta description at all, so the snippet is whatever Google scrapes.',
       'Write a 55-160 char description naming the value of the page.')
-  } else if (seoDescription.length < 55 || seoDescription.length > 160) {
-    report('low', 'Metadata', guide, `seo_description is ${seoDescription.length} chars (target 55-160)`,
-      'Out-of-range descriptions get truncated or padded by the search engine.',
-      'Rewrite to 55-160 chars.')
+  } else if (seoDescription.length > 160) {
+    report('low', 'Metadata', guide, `effective meta description is ${seoDescription.length} chars${descriptionIsFallback ? ' (falling back to answer)' : ''}`,
+      'Past ~160 chars the snippet is cut mid-sentence, often before the part that earns the click.',
+      descriptionIsFallback ? 'Add an explicit seo_description instead of relying on the answer block.' : 'Trim to 55-160 chars.')
+  } else if (seoDescription.length < 55) {
+    report('low', 'Metadata', guide, `effective meta description is ${seoDescription.length} chars (target 55-160)`,
+      'Very short descriptions waste snippet space and usually omit the qualifier that matches intent.',
+      'Expand to 55-160 chars.')
   }
 
   if (keyword) {
@@ -284,10 +344,14 @@ function auditAnswerAndDepth(guide) {
   }
 
   const contentWords = words(guide.content).length
-  if (contentWords < 250) {
+  if (contentWords < 150) {
     report('high', 'Depth', guide, `content is ${contentWords} words`,
-      'Thin pages are the main risk at scale: they dilute the site quality signal and struggle to rank for anything.',
+      'Below ~150 words the page cannot answer anything specific. Thin pages are the main risk at scale: they dilute the site-wide quality signal and rank for nothing.',
       'Add the concrete detail a player needs: prerequisites, the actual route, what varies, and what to do when it fails.')
+  } else if (contentWords < 250) {
+    report('medium', 'Depth', guide, `content is ${contentWords} words (corpus median is ~350)`,
+      'Short of the depth needed to cover prerequisites, the route, and failure cases.',
+      'Expand the section that currently only asserts the recommendation without showing it.')
   }
 
   const steps = list(guide.steps)
@@ -319,7 +383,7 @@ function auditAnswerAndDepth(guide) {
   }
   faqs.forEach((faq, index) => {
     const answer = String(faq.answer || '')
-    if (words(answer).length < 15) {
+    if (words(answer).length < 10) {
       report('low', 'FAQ', guide, `FAQ ${index + 1} answer is ${words(answer).length} words`,
         'One-line FAQ answers add page length without adding usable information.',
         'Answer in 2-3 sentences: the answer, the condition, the consequence.')
@@ -338,7 +402,7 @@ function auditInternalLinks(guide) {
   const related = {
     related_pokemon: { values: ids(guide.related_pokemon), known: pokemonIds, label: 'pokemon' },
     related_habitats: { values: ids(guide.related_habitats), known: habitatIds, label: 'habitat' },
-    related_items: { values: ids(guide.related_items), known: itemLikeIds, label: 'item/recipe/material' },
+    related_items: { values: ids(guide.related_items), known: recipeIds, label: 'recipe' },
   }
 
   const populated = Object.values(related).filter((entry) => entry.values.length > 0).length
@@ -354,9 +418,17 @@ function auditInternalLinks(guide) {
 
   for (const [field, entry] of Object.entries(related)) {
     const dangling = entry.values.filter((id) => !entry.known.has(id))
-    if (dangling.length > 0) {
-      report('high', 'Internal links', guide, `${field} references unknown ${entry.label} id(s): ${dangling.join(', ')}`,
-        'Dangling ids render as broken or empty related-content links.',
+    if (dangling.length === 0) continue
+    const wrongCollection = dangling.filter((id) => otherEntityIds.has(id))
+    if (wrongCollection.length > 0) {
+      report('high', 'Internal links', guide, `${field} references item/material id(s) the template cannot render: ${wrongCollection.join(', ')}`,
+        'The guide template resolves related_items against recipes.json only, so these ids are dropped silently — the link block just comes out short.',
+        'Move them to a recipe id, or extend the template to resolve items and materials.')
+    }
+    const unknown = dangling.filter((id) => !otherEntityIds.has(id))
+    if (unknown.length > 0) {
+      report('high', 'Internal links', guide, `${field} references unknown ${entry.label} id(s): ${unknown.join(', ')}`,
+        'Dangling ids render as missing related-content links, breaking the internal-linking rule for this page.',
         `Fix the id or remove it from ${field}.`)
     }
   }
@@ -403,14 +475,26 @@ function auditProse(guide) {
       'Run the humanization pass in references/humanization.md: state the concrete fact, drop the ceremony, keep every verified claim.')
   }
 
-  const openings = sentences(prose).map((sentence) => words(sentence).slice(0, 2).join(' ').toLowerCase()).filter(Boolean)
+  // Rhythm checks only make sense on prose. Collectible/table dumps are legitimately
+  // repetitive, so skip them rather than generate guaranteed false positives.
+  const proseSentences = sentences(prose)
+  const lengths = proseSentences.map((sentence) => words(sentence).length).sort((a, b) => a - b)
+  const medianSentence = lengths.length > 0 ? lengths[Math.floor(lengths.length / 2)] : 0
+  const isListingPage = proseSentences.length > 80 && medianSentence < 10
+  if (isListingPage) return
+
+  const openings = proseSentences.map((sentence) => words(sentence).slice(0, 2).join(' ').toLowerCase()).filter(Boolean)
   const openingCounts = openings.reduce((accumulator, opening) => {
     accumulator[opening] = (accumulator[opening] || 0) + 1
     return accumulator
   }, {})
-  const repeated = Object.entries(openingCounts).filter(([, count]) => count >= 4)
+  const repeated = Object.entries(openingCounts)
+    .filter(([, count]) => count >= 4)
+    .sort((a, b) => b[1] - a[1])
   if (repeated.length > 0) {
-    report('low', 'Prose', guide, `repeated sentence openings: ${repeated.map(([opening, count]) => `"${opening}" x${count}`).join(', ')}`,
+    const shown = repeated.slice(0, 5).map(([opening, count]) => `"${opening}" x${count}`).join(', ')
+    const extra = repeated.length > 5 ? ` (+${repeated.length - 5} more)` : ''
+    report('low', 'Prose', guide, `repeated sentence openings: ${shown}${extra}`,
       'Uniform sentence openings flatten the rhythm and signal templated generation.',
       'Vary the openings; lead some sentences with the concrete noun or the condition.')
   }
@@ -437,6 +521,18 @@ function auditCorpus(scoped) {
   const scopedSlugs = new Set(scoped.map((guide) => guide.slug))
   for (const [keyword, group] of byKeyword) {
     if (group.length < 2) continue
+
+    // A head term shared by dozens of pages is one strategic problem, not N page problems.
+    if (group.length > 5) {
+      const first = group.find((guide) => scopedSlugs.has(guide.slug))
+      if (first) {
+        report('critical', 'Cannibalization', first, `seo_keyword "${keyword}" is the target of ${group.length} guides (e.g. ${group.slice(0, 4).map((guide) => guide.slug).join(', ')}…)`,
+          'CLAUDE.md sets long-tail-first as the SEO strategy for exactly this reason. Dozens of pages aimed at one head term compete with each other and none of them ranks.',
+          'Assign each guide its own long-tail query derived from its actual question, e.g. "pokopia best habitat for berries" rather than "pokopia".')
+      }
+      continue
+    }
+
     for (const guide of group) {
       if (!scopedSlugs.has(guide.slug)) continue
       report('high', 'Cannibalization', guide, `seo_keyword "${keyword}" is shared with: ${group.filter((other) => other.slug !== guide.slug).map((other) => other.slug).join(', ')}`,
@@ -474,6 +570,7 @@ if (options.slug && scoped.length === 0) {
 
 for (const guide of scoped) {
   auditProvenance(guide)
+  auditTextHygiene(guide)
   auditClaimRisk(guide)
   auditMetadata(guide)
   auditAnswerAndDepth(guide)
