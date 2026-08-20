@@ -3,7 +3,7 @@ import guidesData from '@/data/guides.json'
 import habitatsData from '@/data/habitats.json'
 import pokemonData from '@/data/pokemon.json'
 import recipesData from '@/data/recipes.json'
-import { ArticleJsonLd, BreadcrumbJsonLd, FAQJsonLd } from '@/components/seo/JsonLd'
+import { ArticleJsonLd, BreadcrumbJsonLd, FAQJsonLd, HowToJsonLd } from '@/components/seo/JsonLd'
 import { canonicalUrl } from '@/lib/site'
 import { cleanDescription, cleanTitle } from '@/lib/seoText'
 import { CreditedImage } from '@/components/media/CreditedImage'
@@ -102,7 +102,8 @@ export default async function GuideDetailPage({ params }: Props) {
           { name: guide.title, url: `/guides/${guide.slug}` },
         ]}
       />
-      {guide.faqs && guide.faqs.length > 0 && <FAQJsonLd title={guide.title} faqs={guide.faqs} />}
+      {guide.faqs && guide.faqs.length > 0 && <FAQJsonLd faqs={guide.faqs} />}
+      {guide.steps && guide.steps.length > 0 && <HowToJsonLd name={guide.title} description={guide.answer || guide.seo_keyword} steps={guide.steps} url={`/guides/${guide.slug}`} />}
       <main>
         <article className="guide-detail-page">
           <div className="guide-detail-hero">

@@ -86,7 +86,17 @@
     "image_rights_status": "fair_use_editorial",
     "image_usage_basis": "Image used under fair use for editorial purposes, sourced from pokopiawiki.com.",
     "image_rights_reviewed_at": "2026-08-16",
-    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-22.jpg"
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-22.jpg",
+    "sources": [
+      {
+        "url": "https://www.nintendo.com/us/whatsnew/get-the-most-out-of-pokemon-pokopia-with-these-helpful-tips/",
+        "label": "Nintendo News - Helpful hints for Pokémon Pokopia"
+      },
+      {
+        "url": "https://pokopia.pokemon.com/en-us/discover/",
+        "label": "Pokemon Pokopia: Discover - A Few Friendly Faces"
+      }
+    ]
   },
   {
     "id": "guid002",
@@ -264,7 +274,13 @@
     "image_rights_status": "fair_use_editorial",
     "image_usage_basis": "Image used under fair use for editorial purposes, sourced from pokopiawiki.com.",
     "image_rights_reviewed_at": "2026-08-16",
-    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-24.jpg"
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-24.jpg",
+    "sources": [
+      {
+        "url": "https://pokopia.pokemon.com/en-us/discover/",
+        "label": "Pokemon Pokopia: Discover - A Few Friendly Faces"
+      }
+    ]
   },
   {
     "id": "guid004",
@@ -351,7 +367,13 @@
     "image_rights_status": "fair_use_editorial",
     "image_usage_basis": "Image used under fair use for editorial purposes, sourced from pokopiawiki.com.",
     "image_rights_reviewed_at": "2026-08-16",
-    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-25.jpg"
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-25.jpg",
+    "sources": [
+      {
+        "url": "https://pokopia.pokemon.com/en-us/create/",
+        "label": "Pokemon Pokopia: Create - Life in Town"
+      }
+    ]
   },
   {
     "id": "guid005",
@@ -525,7 +547,13 @@
     "image_rights_status": "fair_use_editorial",
     "image_usage_basis": "Image used under fair use for editorial purposes, sourced from pokopiawiki.com.",
     "image_rights_reviewed_at": "2026-08-16",
-    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-02.jpg"
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-02.jpg",
+    "sources": [
+      {
+        "url": "https://pokopia.pokemon.com/en-us/discover/",
+        "label": "Pokemon Pokopia: Discover - A Few Friendly Faces"
+      }
+    ]
   },
   {
     "id": "guid007",
@@ -613,7 +641,13 @@
     "image_rights_status": "fair_use_editorial",
     "image_usage_basis": "Image used under fair use for editorial purposes, sourced from pokopiawiki.com.",
     "image_rights_reviewed_at": "2026-08-16",
-    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-03.jpg"
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-03.jpg",
+    "sources": [
+      {
+        "url": "https://pokopia.pokemon.com/en-us/discover/",
+        "label": "Pokemon Pokopia: Discover - A Few Friendly Faces"
+      }
+    ]
   },
   {
     "id": "guid008",
@@ -903,7 +937,13 @@
     "image_rights_status": "fair_use_editorial",
     "image_usage_basis": "Image used under fair use for editorial purposes, sourced from pokopiawiki.com.",
     "image_rights_reviewed_at": "2026-08-16",
-    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-02.jpg"
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-02.jpg",
+    "sources": [
+      {
+        "url": "https://www.nintendo.com/us/whatsnew/shape-the-world-and-build-a-cozy-new-life-in-pokemon-pokopia-available-now/",
+        "label": "Nintendo News - Pokémon Pokopia available now"
+      }
+    ]
   },
   {
     "id": "guid011",
@@ -990,7 +1030,13 @@
     "image_rights_status": "fair_use_editorial",
     "image_usage_basis": "Image used under fair use for editorial purposes, sourced from pokopiawiki.com.",
     "image_rights_reviewed_at": "2026-08-16",
-    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-03.jpg"
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-03.jpg",
+    "sources": [
+      {
+        "url": "https://pokopia.pokemon.com/en-us/create/",
+        "label": "Pokemon Pokopia: Create - Life in Town"
+      }
+    ]
   },
   {
     "id": "guid012",
@@ -1425,7 +1471,13 @@
     "image_rights_status": "fair_use_editorial",
     "image_usage_basis": "Image used under fair use for editorial purposes, sourced from pokopiawiki.com.",
     "image_rights_reviewed_at": "2026-08-16",
-    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-08.jpg"
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-08.jpg",
+    "sources": [
+      {
+        "url": "https://pokopia.pokemon.com/en-us/discover/",
+        "label": "Pokemon Pokopia: Discover - A Few Friendly Faces"
+      }
+    ]
   },
   {
     "id": "guid017",
@@ -1686,7 +1738,13 @@
     "image_rights_status": "fair_use_editorial",
     "image_usage_basis": "Image used under fair use for editorial purposes, sourced from pokopiawiki.com.",
     "image_rights_reviewed_at": "2026-08-16",
-    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-11.jpg"
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-11.jpg",
+    "sources": [
+      {
+        "url": "https://pokopia.pokemon.com/en-us/discover/",
+        "label": "Pokemon Pokopia: Discover - A Few Friendly Faces"
+      }
+    ]
   },
   {
     "id": "guid020",
@@ -1773,7 +1831,13 @@
     "image_rights_status": "fair_use_editorial",
     "image_usage_basis": "Image used under fair use for editorial purposes, sourced from pokopiawiki.com.",
     "image_rights_reviewed_at": "2026-08-16",
-    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-08.jpg"
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-08.jpg",
+    "sources": [
+      {
+        "url": "https://pokopia.pokemon.com/en-us/create/",
+        "label": "Pokemon Pokopia: Create - Life in Town"
+      }
+    ]
   },
   {
     "id": "guid021",
@@ -1947,7 +2011,17 @@
     "image_rights_status": "fair_use_editorial",
     "image_usage_basis": "Image used under fair use for editorial purposes, sourced from pokopiawiki.com.",
     "image_rights_reviewed_at": "2026-08-16",
-    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-10.jpg"
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-10.jpg",
+    "sources": [
+      {
+        "url": "https://www.nintendo.com/us/whatsnew/shape-the-world-and-build-a-cozy-new-life-in-pokemon-pokopia-available-now/",
+        "label": "Nintendo News - Pokémon Pokopia available now"
+      },
+      {
+        "url": "https://www.nintendo.com/us/whatsnew/get-the-most-out-of-pokemon-pokopia-with-these-helpful-tips/",
+        "label": "Nintendo News - Helpful hints for Pokémon Pokopia"
+      }
+    ]
   },
   {
     "id": "guid023",
@@ -2135,7 +2209,13 @@
     "image_rights_status": "fair_use_editorial",
     "image_usage_basis": "Image used under fair use for editorial purposes, sourced from pokopiawiki.com.",
     "image_rights_reviewed_at": "2026-08-16",
-    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-12.jpg"
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-12.jpg",
+    "sources": [
+      {
+        "url": "https://pokopia.pokemon.com/en-us/discover/",
+        "label": "Pokemon Pokopia: Discover - A Few Friendly Faces"
+      }
+    ]
   },
   {
     "id": "guid025",
@@ -2222,7 +2302,13 @@
     "image_rights_status": "fair_use_editorial",
     "image_usage_basis": "Image used under fair use for editorial purposes, sourced from pokopiawiki.com.",
     "image_rights_reviewed_at": "2026-08-16",
-    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-13.jpg"
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-13.jpg",
+    "sources": [
+      {
+        "url": "https://pokopia.pokemon.com/en-us/discover/",
+        "label": "Pokemon Pokopia: Discover - A Few Friendly Faces"
+      }
+    ]
   },
   {
     "id": "guid026",
@@ -2309,7 +2395,13 @@
     "image_rights_status": "fair_use_editorial",
     "image_usage_basis": "Image used under fair use for editorial purposes, sourced from pokopiawiki.com.",
     "image_rights_reviewed_at": "2026-08-16",
-    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-14.jpg"
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-14.jpg",
+    "sources": [
+      {
+        "url": "https://pokopia.pokemon.com/en-us/discover/",
+        "label": "Pokemon Pokopia: Discover - A Few Friendly Faces"
+      }
+    ]
   },
   {
     "id": "guid027",
@@ -2396,7 +2488,13 @@
     "image_rights_status": "fair_use_editorial",
     "image_usage_basis": "Image used under fair use for editorial purposes, sourced from pokopiawiki.com.",
     "image_rights_reviewed_at": "2026-08-16",
-    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-15.jpg"
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-15.jpg",
+    "sources": [
+      {
+        "url": "https://pokopia.pokemon.com/en-us/create/",
+        "label": "Pokemon Pokopia: Create - Life in Town"
+      }
+    ]
   },
   {
     "id": "guid028",
@@ -2659,7 +2757,13 @@
     "image_rights_status": "fair_use_editorial",
     "image_usage_basis": "Image used under fair use for editorial purposes, sourced from pokopiawiki.com.",
     "image_rights_reviewed_at": "2026-08-16",
-    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-14.jpg"
+    "image_retired_path": "quarantine/media-rights/nintendo/pokopia-14.jpg",
+    "sources": [
+      {
+        "url": "https://pokopia.pokemon.com/en-us/create/",
+        "label": "Pokemon Pokopia: Create - Life in Town"
+      }
+    ]
   },
   {
     "id": "guid031",
@@ -4104,6 +4208,14 @@
       {
         "label": "Nintendo News: Helpful tips for Pokemon Pokopia",
         "url": "https://www.nintendo.com/us/whatsnew/get-the-most-out-of-pokemon-pokopia-with-these-helpful-tips/"
+      },
+      {
+        "url": "https://pokopia.pokemon.com/en-us/create/",
+        "label": "Pokemon Pokopia: Create - Life in Town"
+      },
+      {
+        "url": "https://pokopia.pokemon.com/en-us/discover/",
+        "label": "Pokemon Pokopia: Discover - A Few Friendly Faces"
       }
     ],
     "index_status": "indexable",
@@ -4182,6 +4294,10 @@
       {
         "label": "Nintendo News: Helpful tips for Pokemon Pokopia",
         "url": "https://www.nintendo.com/us/whatsnew/get-the-most-out-of-pokemon-pokopia-with-these-helpful-tips/"
+      },
+      {
+        "url": "https://pokopia.pokemon.com/en-us/discover/",
+        "label": "Pokemon Pokopia: Discover - A Few Friendly Faces"
       }
     ],
     "index_status": "indexable",
@@ -4259,6 +4375,10 @@
       {
         "label": "Nintendo News: Helpful tips for Pokemon Pokopia",
         "url": "https://www.nintendo.com/us/whatsnew/get-the-most-out-of-pokemon-pokopia-with-these-helpful-tips/"
+      },
+      {
+        "url": "https://pokopia.pokemon.com/en-us/discover/",
+        "label": "Pokemon Pokopia: Discover - A Few Friendly Faces"
       }
     ],
     "index_status": "indexable",
@@ -4336,6 +4456,18 @@
       {
         "label": "Nintendo News: Helpful tips for Pokemon Pokopia",
         "url": "https://www.nintendo.com/us/whatsnew/get-the-most-out-of-pokemon-pokopia-with-these-helpful-tips/"
+      },
+      {
+        "url": "https://www.nintendo.com/us/whatsnew/shape-the-world-and-build-a-cozy-new-life-in-pokemon-pokopia-available-now/",
+        "label": "Nintendo News - Pokémon Pokopia available now"
+      },
+      {
+        "url": "https://pokopia.pokemon.com/en-us/create/",
+        "label": "Pokemon Pokopia: Create - Life in Town"
+      },
+      {
+        "url": "https://pokopia.pokemon.com/en-us/discover/",
+        "label": "Pokemon Pokopia: Discover - A Few Friendly Faces"
       }
     ],
     "index_status": "indexable",
@@ -4414,6 +4546,10 @@
       {
         "label": "Nintendo News: Helpful tips for Pokemon Pokopia",
         "url": "https://www.nintendo.com/us/whatsnew/get-the-most-out-of-pokemon-pokopia-with-these-helpful-tips/"
+      },
+      {
+        "url": "https://pokopia.pokemon.com/en-us/discover/",
+        "label": "Pokemon Pokopia: Discover - A Few Friendly Faces"
       }
     ],
     "index_status": "indexable",
@@ -4492,6 +4628,14 @@
       {
         "label": "Nintendo News: Helpful tips for Pokemon Pokopia",
         "url": "https://www.nintendo.com/us/whatsnew/get-the-most-out-of-pokemon-pokopia-with-these-helpful-tips/"
+      },
+      {
+        "url": "https://pokopia.pokemon.com/en-us/create/",
+        "label": "Pokemon Pokopia: Create - Life in Town"
+      },
+      {
+        "url": "https://pokopia.pokemon.com/en-us/discover/",
+        "label": "Pokemon Pokopia: Discover - A Few Friendly Faces"
       }
     ],
     "index_status": "indexable",
@@ -4570,6 +4714,10 @@
       {
         "label": "Nintendo News: Helpful tips for Pokemon Pokopia",
         "url": "https://www.nintendo.com/us/whatsnew/get-the-most-out-of-pokemon-pokopia-with-these-helpful-tips/"
+      },
+      {
+        "url": "https://pokopia.pokemon.com/en-us/discover/",
+        "label": "Pokemon Pokopia: Discover - A Few Friendly Faces"
       }
     ],
     "index_status": "indexable",
@@ -4647,6 +4795,10 @@
       {
         "label": "Nintendo News: Helpful tips for Pokemon Pokopia",
         "url": "https://www.nintendo.com/us/whatsnew/get-the-most-out-of-pokemon-pokopia-with-these-helpful-tips/"
+      },
+      {
+        "url": "https://pokopia.pokemon.com/en-us/discover/",
+        "label": "Pokemon Pokopia: Discover - A Few Friendly Faces"
       }
     ],
     "index_status": "indexable",
@@ -4733,6 +4885,10 @@
       {
         "label": "Nintendo Support: How to Start a Multiplayer Game",
         "url": "https://en-americas-support.nintendo.com/app/answers/detail/a_id/71349/~/how-to-start-a-multiplayer-game-%28pok%C3%A9mon-pokopia%29"
+      },
+      {
+        "url": "https://pokopia.pokemon.com/en-us/discover/",
+        "label": "Pokemon Pokopia: Discover - A Few Friendly Faces"
       }
     ],
     "index_status": "indexable",
@@ -4821,6 +4977,14 @@
       {
         "label": "Nintendo Support: How to Start a Multiplayer Game",
         "url": "https://en-americas-support.nintendo.com/app/answers/detail/a_id/71349/~/how-to-start-a-multiplayer-game-%28pok%C3%A9mon-pokopia%29"
+      },
+      {
+        "url": "https://www.nintendo.com/us/whatsnew/shape-the-world-and-build-a-cozy-new-life-in-pokemon-pokopia-available-now/",
+        "label": "Nintendo News - Pokémon Pokopia available now"
+      },
+      {
+        "url": "https://pokopia.pokemon.com/en-us/discover/",
+        "label": "Pokemon Pokopia: Discover - A Few Friendly Faces"
       }
     ],
     "index_status": "indexable",
@@ -4909,6 +5073,10 @@
       {
         "label": "Nintendo Support: Cloud Island Guide",
         "url": "https://en-americas-support.nintendo.com/app/answers/detail/a_id/71373/~/cloud-island-guide-%28pok%C3%A9mon-pokopia%29"
+      },
+      {
+        "url": "https://pokopia.pokemon.com/en-us/discover/",
+        "label": "Pokemon Pokopia: Discover - A Few Friendly Faces"
       }
     ],
     "index_status": "indexable",
@@ -4992,6 +5160,10 @@
       {
         "label": "Pokemon Pokopia: Expansion Pass and Bubbly Basin",
         "url": "https://pokopia.pokemon.com/en-us/expansion/"
+      },
+      {
+        "url": "https://pokopia.pokemon.com/en-us/discover/",
+        "label": "Pokemon Pokopia: Discover - A Few Friendly Faces"
       }
     ],
     "index_status": "indexable",
@@ -5075,6 +5247,10 @@
       {
         "label": "Pokemon Pokopia: Expansion Pass and Bubbly Basin",
         "url": "https://pokopia.pokemon.com/en-us/expansion/"
+      },
+      {
+        "url": "https://pokopia.pokemon.com/en-us/discover/",
+        "label": "Pokemon Pokopia: Discover - A Few Friendly Faces"
       }
     ],
     "index_status": "indexable",
@@ -5158,6 +5334,14 @@
       {
         "label": "Pokemon Pokopia: Expansion Pass and Bubbly Basin",
         "url": "https://pokopia.pokemon.com/en-us/expansion/"
+      },
+      {
+        "url": "https://www.nintendo.com/us/store/products/pokemon-pokopia-switch-2/",
+        "label": "Nintendo Store - Pokémon Pokopia"
+      },
+      {
+        "url": "https://pokopia.pokemon.com/en-us/discover/",
+        "label": "Pokemon Pokopia: Discover - A Few Friendly Faces"
       }
     ],
     "index_status": "indexable",
@@ -5241,6 +5425,10 @@
       {
         "label": "Pokemon Pokopia official site",
         "url": "https://pokopia.pokemon.com/en-us/"
+      },
+      {
+        "url": "https://pokopia.pokemon.com/en-us/discover/",
+        "label": "Pokemon Pokopia: Discover - A Few Friendly Faces"
       }
     ],
     "index_status": "indexable",
@@ -5324,6 +5512,10 @@
       {
         "label": "Pokemon Pokopia official site",
         "url": "https://pokopia.pokemon.com/en-us/"
+      },
+      {
+        "url": "https://pokopia.pokemon.com/en-us/discover/",
+        "label": "Pokemon Pokopia: Discover - A Few Friendly Faces"
       }
     ],
     "index_status": "indexable",
@@ -5407,6 +5599,14 @@
       {
         "label": "Pokemon Pokopia official site",
         "url": "https://pokopia.pokemon.com/en-us/"
+      },
+      {
+        "url": "https://pokopia.pokemon.com/en-us/create/",
+        "label": "Pokemon Pokopia: Create - Life in Town"
+      },
+      {
+        "url": "https://pokopia.pokemon.com/en-us/discover/",
+        "label": "Pokemon Pokopia: Discover - A Few Friendly Faces"
       }
     ],
     "index_status": "indexable",
@@ -5490,6 +5690,10 @@
       {
         "label": "Pokemon Pokopia: Discover - A Few Friendly Faces",
         "url": "https://pokopia.pokemon.com/en-us/discover/"
+      },
+      {
+        "url": "https://www.nintendo.com/us/whatsnew/get-the-most-out-of-pokemon-pokopia-with-these-helpful-tips/",
+        "label": "Nintendo News - Helpful hints for Pokémon Pokopia"
       }
     ],
     "index_status": "indexable",
@@ -5653,6 +5857,10 @@
       {
         "label": "Pokemon Pokopia: Discover - A Few Friendly Faces",
         "url": "https://pokopia.pokemon.com/en-us/discover/"
+      },
+      {
+        "url": "https://pokopia.pokemon.com/en-us/",
+        "label": "Official Pokémon Pokopia website"
       }
     ],
     "index_status": "indexable",
@@ -5812,7 +6020,13 @@
         "answer": "Consult the detailed steps and recommended setups in this guide for optimal outcomes."
       }
     ],
-    "data_status_note": "Guide content sourced from pokopiawiki.com and rewritten for Pokopia portal users."
+    "data_status_note": "Guide content sourced from pokopiawiki.com and rewritten for Pokopia portal users.",
+    "sources": [
+      {
+        "url": "https://pokopia.pokemon.com/en-us/create/",
+        "label": "Pokemon Pokopia: Create - Life in Town"
+      }
+    ]
   },
   {
     "id": "guid102",
@@ -6741,7 +6955,17 @@
         "answer": "Consult the detailed steps and recommended setups in this guide for optimal outcomes."
       }
     ],
-    "data_status_note": "Guide content sourced from pokopiawiki.com and rewritten for Pokopia portal users."
+    "data_status_note": "Guide content sourced from pokopiawiki.com and rewritten for Pokopia portal users.",
+    "sources": [
+      {
+        "url": "https://pokopia.pokemon.com/en-us/create/",
+        "label": "Pokemon Pokopia: Create - Life in Town"
+      },
+      {
+        "url": "https://pokopia.pokemon.com/en-us/discover/",
+        "label": "Pokemon Pokopia: Discover - A Few Friendly Faces"
+      }
+    ]
   },
   {
     "id": "guid103",
@@ -6785,7 +7009,13 @@
         "answer": "Consult the detailed steps and recommended setups in this guide for optimal outcomes."
       }
     ],
-    "data_status_note": "Guide content sourced from pokopiawiki.com and rewritten for Pokopia portal users."
+    "data_status_note": "Guide content sourced from pokopiawiki.com and rewritten for Pokopia portal users.",
+    "sources": [
+      {
+        "url": "https://pokopia.pokemon.com/en-us/discover/",
+        "label": "Pokemon Pokopia: Discover - A Few Friendly Faces"
+      }
+    ]
   },
   {
     "id": "guid104",
@@ -6840,7 +7070,17 @@
         "answer": "Consult the detailed steps and recommended setups in this guide for optimal outcomes."
       }
     ],
-    "data_status_note": "Guide content sourced from pokopiawiki.com and rewritten for Pokopia portal users."
+    "data_status_note": "Guide content sourced from pokopiawiki.com and rewritten for Pokopia portal users.",
+    "sources": [
+      {
+        "url": "https://www.nintendo.com/us/whatsnew/shape-the-world-and-build-a-cozy-new-life-in-pokemon-pokopia-available-now/",
+        "label": "Nintendo News - Pokémon Pokopia available now"
+      },
+      {
+        "url": "https://www.nintendo.com/us/whatsnew/heres-how-multiplayer-works-in-pokemon-pokopia/",
+        "label": "Nintendo News - How multiplayer works"
+      }
+    ]
   },
   {
     "id": "guid105",
@@ -7745,7 +7985,17 @@
         "answer": "Consult the detailed steps and recommended setups in this guide for optimal outcomes."
       }
     ],
-    "data_status_note": "Guide content sourced from pokopiawiki.com and rewritten for Pokopia portal users."
+    "data_status_note": "Guide content sourced from pokopiawiki.com and rewritten for Pokopia portal users.",
+    "sources": [
+      {
+        "url": "https://www.nintendo.com/us/whatsnew/shape-the-world-and-build-a-cozy-new-life-in-pokemon-pokopia-available-now/",
+        "label": "Nintendo News - Pokémon Pokopia available now"
+      },
+      {
+        "url": "https://www.nintendo.com/us/whatsnew/heres-how-multiplayer-works-in-pokemon-pokopia/",
+        "label": "Nintendo News - How multiplayer works"
+      }
+    ]
   },
   {
     "id": "guid120",
@@ -7786,7 +8036,13 @@
         "answer": "Consult the detailed steps and recommended setups in this guide for optimal outcomes."
       }
     ],
-    "data_status_note": "Guide content sourced from pokopiawiki.com and rewritten for Pokopia portal users."
+    "data_status_note": "Guide content sourced from pokopiawiki.com and rewritten for Pokopia portal users.",
+    "sources": [
+      {
+        "url": "https://www.nintendo.com/us/whatsnew/heres-how-multiplayer-works-in-pokemon-pokopia/",
+        "label": "Nintendo News - How multiplayer works"
+      }
+    ]
   },
   {
     "id": "guid121",
@@ -7909,7 +8165,13 @@
         "answer": "Consult the detailed steps and recommended setups in this guide for optimal outcomes."
       }
     ],
-    "data_status_note": "Guide content sourced from pokopiawiki.com and rewritten for Pokopia portal users."
+    "data_status_note": "Guide content sourced from pokopiawiki.com and rewritten for Pokopia portal users.",
+    "sources": [
+      {
+        "url": "https://www.nintendo.com/us/store/products/pokemon-pokopia-switch-2/",
+        "label": "Nintendo Store - Pokémon Pokopia"
+      }
+    ]
   },
   {
     "id": "guid124",
@@ -7991,7 +8253,13 @@
         "answer": "Consult the detailed steps and recommended setups in this guide for optimal outcomes."
       }
     ],
-    "data_status_note": "Guide content sourced from pokopiawiki.com and rewritten for Pokopia portal users."
+    "data_status_note": "Guide content sourced from pokopiawiki.com and rewritten for Pokopia portal users.",
+    "sources": [
+      {
+        "url": "https://pokopia.pokemon.com/en-us/discover/",
+        "label": "Pokemon Pokopia: Discover - A Few Friendly Faces"
+      }
+    ]
   },
   {
     "id": "guid126",
@@ -8032,7 +8300,13 @@
         "answer": "Consult the detailed steps and recommended setups in this guide for optimal outcomes."
       }
     ],
-    "data_status_note": "Guide content sourced from pokopiawiki.com and rewritten for Pokopia portal users."
+    "data_status_note": "Guide content sourced from pokopiawiki.com and rewritten for Pokopia portal users.",
+    "sources": [
+      {
+        "url": "https://www.nintendo.com/us/store/products/pokemon-pokopia-switch-2/",
+        "label": "Nintendo Store - Pokémon Pokopia"
+      }
+    ]
   },
   {
     "id": "guid127",
@@ -8196,7 +8470,13 @@
         "answer": "Consult the detailed steps and recommended setups in this guide for optimal outcomes."
       }
     ],
-    "data_status_note": "Guide content sourced from pokopiawiki.com and rewritten for Pokopia portal users."
+    "data_status_note": "Guide content sourced from pokopiawiki.com and rewritten for Pokopia portal users.",
+    "sources": [
+      {
+        "url": "https://pokopia.pokemon.com/en-us/create/",
+        "label": "Pokemon Pokopia: Create - Life in Town"
+      }
+    ]
   },
   {
     "id": "guid131",
@@ -8237,7 +8517,17 @@
         "answer": "Consult the detailed steps and recommended setups in this guide for optimal outcomes."
       }
     ],
-    "data_status_note": "Guide content sourced from pokopiawiki.com and rewritten for Pokopia portal users."
+    "data_status_note": "Guide content sourced from pokopiawiki.com and rewritten for Pokopia portal users.",
+    "sources": [
+      {
+        "url": "https://www.nintendo.com/us/whatsnew/get-the-most-out-of-pokemon-pokopia-with-these-helpful-tips/",
+        "label": "Nintendo News - Helpful hints for Pokémon Pokopia"
+      },
+      {
+        "url": "https://pokopia.pokemon.com/en-us/create/",
+        "label": "Pokemon Pokopia: Create - Life in Town"
+      }
+    ]
   },
   {
     "id": "guid132",
@@ -8319,7 +8609,13 @@
         "answer": "Consult the detailed steps and recommended setups in this guide for optimal outcomes."
       }
     ],
-    "data_status_note": "Guide content sourced from pokopiawiki.com and rewritten for Pokopia portal users."
+    "data_status_note": "Guide content sourced from pokopiawiki.com and rewritten for Pokopia portal users.",
+    "sources": [
+      {
+        "url": "https://pokopia.pokemon.com/en-us/discover/",
+        "label": "Pokemon Pokopia: Discover - A Few Friendly Faces"
+      }
+    ]
   },
   {
     "id": "guid134",
@@ -8360,7 +8656,13 @@
         "answer": "Consult the detailed steps and recommended setups in this guide for optimal outcomes."
       }
     ],
-    "data_status_note": "Guide content sourced from pokopiawiki.com and rewritten for Pokopia portal users."
+    "data_status_note": "Guide content sourced from pokopiawiki.com and rewritten for Pokopia portal users.",
+    "sources": [
+      {
+        "url": "https://pokopia.pokemon.com/en-us/discover/",
+        "label": "Pokemon Pokopia: Discover - A Few Friendly Faces"
+      }
+    ]
   },
   {
     "id": "guid135",
@@ -8401,7 +8703,13 @@
         "answer": "Consult the detailed steps and recommended setups in this guide for optimal outcomes."
       }
     ],
-    "data_status_note": "Guide content sourced from pokopiawiki.com and rewritten for Pokopia portal users."
+    "data_status_note": "Guide content sourced from pokopiawiki.com and rewritten for Pokopia portal users.",
+    "sources": [
+      {
+        "url": "https://pokopia.pokemon.com/en-us/discover/",
+        "label": "Pokemon Pokopia: Discover - A Few Friendly Faces"
+      }
+    ]
   },
   {
     "id": "guid136",
@@ -8442,7 +8750,13 @@
         "answer": "Consult the detailed steps and recommended setups in this guide for optimal outcomes."
       }
     ],
-    "data_status_note": "Guide content sourced from pokopiawiki.com and rewritten for Pokopia portal users."
+    "data_status_note": "Guide content sourced from pokopiawiki.com and rewritten for Pokopia portal users.",
+    "sources": [
+      {
+        "url": "https://pokopia.pokemon.com/en-us/discover/",
+        "label": "Pokemon Pokopia: Discover - A Few Friendly Faces"
+      }
+    ]
   },
   {
     "id": "guid137",
@@ -8483,7 +8797,17 @@
         "answer": "Consult the detailed steps and recommended setups in this guide for optimal outcomes."
       }
     ],
-    "data_status_note": "Guide content sourced from pokopiawiki.com and rewritten for Pokopia portal users."
+    "data_status_note": "Guide content sourced from pokopiawiki.com and rewritten for Pokopia portal users.",
+    "sources": [
+      {
+        "url": "https://www.nintendo.com/us/whatsnew/get-the-most-out-of-pokemon-pokopia-with-these-helpful-tips/",
+        "label": "Nintendo News - Helpful hints for Pokémon Pokopia"
+      },
+      {
+        "url": "https://pokopia.pokemon.com/en-us/create/",
+        "label": "Pokemon Pokopia: Create - Life in Town"
+      }
+    ]
   },
   {
     "id": "guid138",
@@ -9180,7 +9504,17 @@
         "answer": "Consult the detailed steps and recommended setups in this guide for optimal outcomes."
       }
     ],
-    "data_status_note": "Guide content sourced from pokopiawiki.com and rewritten for Pokopia portal users."
+    "data_status_note": "Guide content sourced from pokopiawiki.com and rewritten for Pokopia portal users.",
+    "sources": [
+      {
+        "url": "https://www.nintendo.com/us/whatsnew/get-the-most-out-of-pokemon-pokopia-with-these-helpful-tips/",
+        "label": "Nintendo News - Helpful hints for Pokémon Pokopia"
+      },
+      {
+        "url": "https://pokopia.pokemon.com/en-us/create/",
+        "label": "Pokemon Pokopia: Create - Life in Town"
+      }
+    ]
   },
   {
     "id": "guid156",
@@ -9549,7 +9883,13 @@
         "answer": "Consult the detailed steps and recommended setups in this guide for optimal outcomes."
       }
     ],
-    "data_status_note": "Guide content sourced from pokopiawiki.com and rewritten for Pokopia portal users."
+    "data_status_note": "Guide content sourced from pokopiawiki.com and rewritten for Pokopia portal users.",
+    "sources": [
+      {
+        "url": "https://pokopia.pokemon.com/en-us/discover/",
+        "label": "Pokemon Pokopia: Discover - A Few Friendly Faces"
+      }
+    ]
   },
   {
     "id": "guid165",
@@ -9713,7 +10053,13 @@
         "answer": "Consult the detailed steps and recommended setups in this guide for optimal outcomes."
       }
     ],
-    "data_status_note": "Guide content sourced from pokopiawiki.com and rewritten for Pokopia portal users."
+    "data_status_note": "Guide content sourced from pokopiawiki.com and rewritten for Pokopia portal users.",
+    "sources": [
+      {
+        "url": "https://pokopia.pokemon.com/en-us/discover/",
+        "label": "Pokemon Pokopia: Discover - A Few Friendly Faces"
+      }
+    ]
   },
   {
     "id": "guid169",
@@ -9754,7 +10100,13 @@
         "answer": "Consult the detailed steps and recommended setups in this guide for optimal outcomes."
       }
     ],
-    "data_status_note": "Guide content sourced from pokopiawiki.com and rewritten for Pokopia portal users."
+    "data_status_note": "Guide content sourced from pokopiawiki.com and rewritten for Pokopia portal users.",
+    "sources": [
+      {
+        "url": "https://pokopia.pokemon.com/en-us/discover/",
+        "label": "Pokemon Pokopia: Discover - A Few Friendly Faces"
+      }
+    ]
   },
   {
     "id": "guid170",
@@ -9877,7 +10229,13 @@
         "answer": "Consult the detailed steps and recommended setups in this guide for optimal outcomes."
       }
     ],
-    "data_status_note": "Guide content sourced from pokopiawiki.com and rewritten for Pokopia portal users."
+    "data_status_note": "Guide content sourced from pokopiawiki.com and rewritten for Pokopia portal users.",
+    "sources": [
+      {
+        "url": "https://pokopia.pokemon.com/en-us/create/",
+        "label": "Pokemon Pokopia: Create - Life in Town"
+      }
+    ]
   },
   {
     "id": "guid173",
@@ -10000,7 +10358,13 @@
         "answer": "Consult the detailed steps and recommended setups in this guide for optimal outcomes."
       }
     ],
-    "data_status_note": "Guide content sourced from pokopiawiki.com and rewritten for Pokopia portal users."
+    "data_status_note": "Guide content sourced from pokopiawiki.com and rewritten for Pokopia portal users.",
+    "sources": [
+      {
+        "url": "https://pokopia.pokemon.com/en-us/create/",
+        "label": "Pokemon Pokopia: Create - Life in Town"
+      }
+    ]
   },
   {
     "id": "guid176",
