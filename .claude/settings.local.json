@@ -56,7 +56,12 @@
       "Bash(pkill -f \"next dev\")",
       "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(f'  Total: {len\\(d\\)}, With images: {len\\([h for h in d if h.get\\(\\\\\"image_url\\\\\"\\)]\\)}'\\)\")",
       "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(f'  Total: {len\\(d\\)}, With images: {len\\([i for i in d if i.get\\(\\\\\"image_url\\\\\"\\)]\\)}'\\)\")",
-      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(f'  Total: {len\\(d\\)}, With images: {len\\([g for g in d if g.get\\(\\\\\"image_url\\\\\"\\)]\\)}'\\)\")"
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(f'  Total: {len\\(d\\)}, With images: {len\\([g for g in d if g.get\\(\\\\\"image_url\\\\\"\\)]\\)}'\\)\")",
+      "WebFetch(domain:github.com)",
+      "Bash(gh repo *)",
+      "Bash(cd *)",
+      "Bash(python -c ' *)",
+      "Bash(python *)"
     ]
   }
 }
