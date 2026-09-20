@@ -144,9 +144,6 @@ export default function HomePage() {
             <a href="/tools">Use Tools</a>
           </div>
         </div>
-        <div className="hero-visual" aria-hidden="true">
-          <img src="/images/homepage-hero.svg" alt="" width="1200" height="400" loading="eager" decoding="async" />
-        </div>
       </section>
 
       {/* Portal main sections */}

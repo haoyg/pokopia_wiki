@@ -20,8 +20,4 @@
     <circle cx="462" cy="575" r="18" fill="#f97316" opacity=".72"/>
     <circle cx="522" cy="512" r="24" fill="#f97316" opacity=".68"/>
   </g>
-  <text x="70" y="92" fill="#fff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="30" font-weight="900" letter-spacing="3">RECIPE</text>
-  <text x="70" y="152" fill="#fff" opacity=".88" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="26" font-weight="800">rare recipe</text>
-  <text x="70" y="790" fill="#fff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="54" font-weight="900">Dragon's Fury</text>
-  <text x="70" y="840" fill="#fff" opacity=".84" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="24">+35% dragon damage</text>
 </svg>

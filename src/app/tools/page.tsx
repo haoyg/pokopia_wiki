@@ -125,10 +125,6 @@ export default function ToolsPage() {
         </div>
       </section>
 
-      <div className="tools-hero-visual" aria-hidden="true">
-        <img src="/images/tools-hero.svg" alt="" width="1200" height="320" loading="eager" decoding="async" />
-      </div>
-
       <DataStatus
         status="Tools using unverified editorial datasets"
         note="These tools process Pokopia Portal planning data that is not official or confirmed game data. Results do not verify Pokémon, habitat, recipe, spawn, drop, ranking, or route claims."

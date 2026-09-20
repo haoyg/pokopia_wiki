@@ -22,6 +22,4 @@
     <path d="M258 524 C178 555 144 616 152 688" fill="none" stroke="#fff" stroke-width="32" stroke-linecap="round" opacity=".78"/>
     <path d="M548 522 C642 556 675 614 664 688" fill="none" stroke="#fff" stroke-width="32" stroke-linecap="round" opacity=".78"/>
   </g>
-  <text x="48" y="74" fill="#fff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="34" font-weight="900">Primordion</text>
-  <text x="48" y="122" fill="#fff" opacity=".85" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="24" font-weight="700">Dragon/Ground / legendary / Tank</text>
 </svg>

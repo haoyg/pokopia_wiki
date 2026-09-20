@@ -21,13 +21,11 @@
       <feDropShadow dx="0" dy="8" stdDeviation="16" flood-color="#000" flood-opacity="0.4"/>
     </filter>
   </defs>
-
   <!-- Background -->
   <rect width="800" height="450" fill="url(#bg)"/>
   <rect width="800" height="450" fill="url(#glow1)"/>
   <rect width="800" height="450" fill="url(#glow2)"/>
   <rect width="800" height="450" fill="url(#glow3)"/>
-
   <!-- Subtle grid -->
   <line x1="0" y1="112" x2="800" y2="112" stroke="#ffffff" stroke-opacity="0.03" stroke-width="1"/>
   <line x1="0" y1="225" x2="800" y2="225" stroke="#ffffff" stroke-opacity="0.03" stroke-width="1"/>
@@ -35,43 +33,26 @@
   <line x1="200" y1="0" x2="200" y2="450" stroke="#ffffff" stroke-opacity="0.03" stroke-width="1"/>
   <line x1="400" y1="0" x2="400" y2="450" stroke="#ffffff" stroke-opacity="0.03" stroke-width="1"/>
   <line x1="600" y1="0" x2="600" y2="450" stroke="#ffffff" stroke-opacity="0.03" stroke-width="1"/>
-
   <!-- Decorative orbs -->
   <circle cx="100" cy="80" r="60" fill="none" stroke="#ff5c7a" stroke-width="1.5" opacity="0.3"/>
   <circle cx="100" cy="80" r="35" fill="#ff5c7a" opacity="0.08"/>
   <circle cx="700" cy="370" r="80" fill="none" stroke="#2f84d8" stroke-width="1.5" opacity="0.25"/>
   <circle cx="700" cy="370" r="50" fill="#2f84d8" opacity="0.07"/>
   <circle cx="680" cy="80" r="40" fill="none" stroke="#ffd166" stroke-width="1" opacity="0.3"/>
-
   <!-- Left accent bar -->
   <rect x="60" y="140" width="5" height="160" rx="2.5" fill="#ff5c7a" opacity="0.7"/>
-
   <!-- Category badge -->
   <rect x="88" y="116" width="120" height="30" rx="15" fill="#ff5c7a" opacity="0.15"/>
-  <text x="148" y="137" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="800" fill="#ff5c7a" letter-spacing="3">POKOPIA GUIDE</text>
-
   <!-- Main title -->
-  <text x="88" y="208" font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="52" font-weight="900" fill="#ffffff" letter-spacing="1">Best Starter</text>
-  <text x="88" y="270" font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="52" font-weight="900" fill="#ffffff" letter-spacing="1">Pokemon</text>
-
   <!-- Subtitle -->
-  <text x="88" y="320" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="500" fill="#8b97a8" letter-spacing="0.5">in Pokopia — types, roles, and how to pick your first team</text>
-
   <!-- Divider line -->
   <rect x="88" y="346" width="200" height="3" rx="1.5" fill="#ffd166" opacity="0.6"/>
-
   <!-- Three feature pills -->
   <g transform="translate(88, 370)">
     <rect width="160" height="28" rx="14" fill="#ffd166" opacity="0.12"/>
-    <text x="80" y="19" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700" fill="#ffd166" letter-spacing="1">TYPE COVERAGE GUIDE</text>
-
     <rect x="176" width="130" height="28" rx="14" fill="#59c982" opacity="0.12" transform="translate(0, 0)"/>
-    <text x="241" y="19" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700" fill="#59c982" letter-spacing="1">BUILDS &amp; DROPS</text>
-
     <rect x="322" width="120" height="28" rx="14" fill="#2f84d8" opacity="0.12"/>
-    <text x="382" y="19" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700" fill="#2f84d8" letter-spacing="1">SPAWN WINDOWS</text>
-  </g>
-
+      </g>
   <!-- Bottom bar -->
   <rect x="0" y="432" width="800" height="18" fill="#ff5c7a" opacity="0.4"/>
   <rect x="0" y="432" width="800" height="3" fill="#ff5c7a" opacity="0.6"/>
