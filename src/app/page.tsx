@@ -60,22 +60,22 @@ const portalSections = [
 
 const featuredGuides = [
   {
-    href: '/guides/beginner-route',
+    href: '/guides/training-grounds-beginners',
     label: 'Beginner Route Guide',
     description: 'Step-by-step path through the first 20 hours — habitat order, team building, and resource priorities.',
-    image: '/images/guides/best-starter-pokemon.svg',
+    image: '/images/guides/training-grounds-beginners.svg',
   },
   {
-    href: '/guides/rare-farming-route',
+    href: '/guides/fast-farming-rare-pokemon',
     label: 'Rare Farming Route',
     description: 'Maximize rare material drops by chaining optimal habitat sequences and weather windows.',
-    image: '/images/guides/best-starter-pokemon.svg',
+    image: '/images/guides/fast-farming-rare-pokemon.svg',
   },
   {
-    href: '/guides/recipe-planning-route',
+    href: '/guides/complete-recipe-list',
     label: 'Recipe Planning Route',
     description: 'Which recipes to craft first, how to accumulate ingredients efficiently, and when to save for legendaries.',
-    image: '/images/guides/best-starter-pokemon.svg',
+    image: '/images/guides/complete-recipe-list.svg',
   },
   {
     href: '/guides',
@@ -143,6 +143,9 @@ export default function HomePage() {
             <a href="/guides">Read Guides</a>
             <a href="/tools">Use Tools</a>
           </div>
+        </div>
+        <div className="hero-visual" aria-hidden="true">
+          <img src="/images/homepage-hero.svg" alt="" width="1200" height="400" loading="eager" decoding="async" />
         </div>
       </section>
 

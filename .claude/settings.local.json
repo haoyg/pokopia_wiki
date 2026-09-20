@@ -67,7 +67,8 @@
       "Bash(git show *)",
       "Read(//tmp/**)",
       "Skill(gsd-ui-review)",
-      "Bash(echo \"EXIT:$?\")"
+      "Bash(echo \"EXIT:$?\")",
+      "WebFetch(domain:minecraft.wiki)"
     ]
   }
 }
