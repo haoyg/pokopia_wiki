@@ -65,7 +65,8 @@
       "Bash(PYTHONIOENCODING=utf-8 python *)",
       "Bash(echo \"exit=$?\")",
       "Bash(git show *)",
-      "Read(//tmp/**)"
+      "Read(//tmp/**)",
+      "Skill(gsd-ui-review)"
     ]
   }
 }
