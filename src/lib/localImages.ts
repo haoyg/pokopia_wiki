@@ -14,7 +14,7 @@ export function newsImage(slug: string) {
     'pokopia-dive-update-how-to-unlock-dive': '/images/news/pokopia-dive-update-cover.png',
     'pokopia-expansion-pass-bubbly-basin-bonuses': '/images/news/pokopia-bubbly-basin-cover.png',
   }
-  return newsImages[slug] || '/images/news/pokopia-dive-update-cover.png'
+  return newsImages[slug]
 }
 
 export function pokemonImage(name: string) {
