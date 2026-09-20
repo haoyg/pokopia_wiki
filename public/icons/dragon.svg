@@ -1,12 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="dragon-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#7b1fa2"/>
-      <stop offset="100%" stop-color="#4a148c"/>
+    <linearGradient id="drg" x1="20%" y1="0%" x2="80%" y2="100%">
+      <stop offset="0%" stop-color="#fb923c"/>
+      <stop offset="100%" stop-color="#c2410c"/>
     </linearGradient>
+    <linearGradient id="drg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fed7aa"/>
+      <stop offset="100%" stop-color="#fb923c"/>
+    </linearGradient>
+    <filter id="drsh" x="-25%" y="-25%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#c2410c" flood-opacity="0.4"/>
+    </filter>
   </defs>
-  <circle cx="50" cy="50" r="45" fill="url(#dragon-grad)"/>
-  <path d="M30 50 L50 20 L70 50 L50 40 Z" fill="#e1bee7"/>
-  <path d="M30 50 L50 80 L70 50 L50 60 Z" fill="#ce93d8"/>
-  <circle cx="50" cy="50" r="10" fill="#fff"/>
+  <g filter="url(#drsh)">
+    <!-- Dragon head -->
+    <path d="M32 8 C42 8 52 16 52 30 C52 42 44 52 32 56 C20 52 12 42 12 30 C12 16 22 8 32 8Z" fill="url(#drg)"/>
+    <!-- Snout -->
+    <path d="M20 36 C20 36 14 42 14 48 C14 52 20 54 26 52 L32 50 L38 52 C44 54 50 52 50 48 C50 42 44 36 44 36 Z" fill="url(#drg)"/>
+    <!-- Inner face -->
+    <path d="M32 14 C40 14 46 20 46 30 C46 38 40 46 32 50 C24 46 18 38 18 30 C18 20 24 14 32 14Z" fill="url(#drg2)" opacity="0.4"/>
+    <!-- Horns -->
+    <path d="M22 14 L16 4 L24 12Z" fill="url(#drg)"/>
+    <path d="M42 14 L48 4 L40 12Z" fill="url(#drg)"/>
+    <!-- Eyes -->
+    <ellipse cx="26" cy="28" rx="4" ry="5" fill="#1c0a00" opacity="0.8"/>
+    <ellipse cx="38" cy="28" rx="4" ry="5" fill="#1c0a00" opacity="0.8"/>
+    <!-- Eye shine -->
+    <circle cx="27" cy="26" r="1.5" fill="#fff" opacity="0.7"/>
+    <circle cx="39" cy="26" r="1.5" fill="#fff" opacity="0.7"/>
+    <!-- Nostrils -->
+    <circle cx="28" cy="44" r="2" fill="#7c2d12" opacity="0.6"/>
+    <circle cx="36" cy="44" r="2" fill="#7c2d12" opacity="0.6"/>
+    <!-- Top scale highlight -->
+    <path d="M32 8 C38 10 44 16 44 24 L32 20 L20 24 C20 16 26 10 32 8Z" fill="#fff" opacity="0.15"/>
+  </g>
 </svg>

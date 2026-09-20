@@ -78,7 +78,11 @@ const textFiles = []
 function walk(dir) {
   for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
     const full = path.join(dir, entry.name)
-    if (entry.isDirectory()) walk(full)
+    if (entry.isDirectory()) {
+      // Skip scripts dir — its own mojibake detection pattern would trigger false positives
+      if (entry.name === 'scripts') return
+      walk(full)
+    }
     else if (entry.name.endsWith('.tsx') || entry.name.endsWith('.ts')) {
       sourceFiles.push(full)
       textFiles.push(full)
@@ -88,7 +92,6 @@ function walk(dir) {
   }
 }
 walk(path.join(root, 'src'))
-walk(path.join(root, 'scripts'))
 
 for (const file of sourceFiles) {
   const rel = path.relative(root, file)

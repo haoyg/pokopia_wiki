@@ -1,10 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-  <rect width="100" height="100" fill="#c8e6c9"/>
-  <rect y="60" width="100" height="40" fill="#81c784"/>
-  <circle cx="30" cy="30" r="20" fill="#a5d6a7" opacity="0.5"/>
-  <circle cx="70" cy="25" r="25" fill="#a5d6a7" opacity="0.5"/>
-  <circle cx="50" cy="40" r="15" fill="#a5d6a7" opacity="0.5"/>
-  <path d="M40 70 Q50 50 60 70 Q50 55 40 70" fill="#4caf50"/>
-  <path d="M25 75 Q35 55 45 75" fill="#66bb6a"/>
-  <path d="M55 75 Q65 55 75 75" fill="#66bb6a"/>
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ftg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#86efac"/>
+      <stop offset="100%" stop-color="#15803d"/>
+    </linearGradient>
+    <linearGradient id="ftg2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#dcfce7"/>
+      <stop offset="100%" stop-color="#4ade80"/>
+    </linearGradient>
+    <filter id="ftsh" x="-25%" y="-25%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#15803d" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <g filter="url(#ftsh)">
+    <!-- Ground -->
+    <rect x="4" y="50" width="56" height="12" rx="4" fill="url(#ftg)" opacity="0.8"/>
+    <!-- Tree 1 (left) -->
+    <path d="M20 50 L20 38 M14 42 L20 34 L26 42" stroke="url(#ftg2)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <path d="M20 50 L20 26 C20 20 28 18 30 24 C30 18 20 16 20 26 L20 20" stroke="url(#ftg)" stroke-width="3" stroke-linecap="round" fill="none"/>
+    <!-- Tree 2 (right) -->
+    <path d="M44 50 L44 36 M38 40 L44 32 L50 40" stroke="url(#ftg2)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <path d="M44 50 L44 24 C44 18 52 16 54 22 C54 16 44 14 44 24 L44 18" stroke="url(#ftg)" stroke-width="3" stroke-linecap="round" fill="none"/>
+    <!-- Small bush -->
+    <ellipse cx="32" cy="52" rx="8" ry="6" fill="url(#ftg)" opacity="0.6"/>
+    <!-- Sun/light -->
+    <circle cx="52" cy="14" r="6" fill="#fef9c3" opacity="0.7"/>
+  </g>
 </svg>

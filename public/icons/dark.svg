@@ -1,14 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="dark-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#37474f"/>
-      <stop offset="100%" stop-color="#1a1a2e"/>
+    <linearGradient id="dg" x1="20%" y1="0%" x2="80%" y2="100%">
+      <stop offset="0%" stop-color="#64748b"/>
+      <stop offset="100%" stop-color="#1e293b"/>
     </linearGradient>
+    <radialGradient id="dgm" cx="40%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#475569"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </radialGradient>
+    <filter id="dsh" x="-25%" y="-25%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#0f172a" flood-opacity="0.5"/>
+    </filter>
   </defs>
-  <circle cx="50" cy="50" r="45" fill="url(#dark-grad)"/>
-  <circle cx="40" cy="45" r="10" fill="#ff5722"/>
-  <circle cx="60" cy="45" r="10" fill="#ff5722"/>
-  <circle cx="40" cy="45" r="5" fill="#1a1a2e"/>
-  <circle cx="60" cy="45" r="5" fill="#1a1a2e"/>
-  <path d="M35 65 L45 60 L55 65 L65 60 L65 70 L35 70 Z" fill="#ff5722"/>
+  <g filter="url(#dsh)">
+    <!-- Crescent moon -->
+    <path d="M40 12 C28 12 18 22 18 36 C18 50 28 58 40 58 C30 54 24 46 24 36 C24 26 30 18 40 12Z" fill="url(#dg)"/>
+    <!-- Inner glow -->
+    <path d="M38 16 C28 16 20 24 20 36 C20 48 28 54 38 54 C30 51 25 44 25 36 C25 28 30 21 38 16Z" fill="url(#dgm)"/>
+    <!-- Highlight -->
+    <ellipse cx="34" cy="28" rx="4" ry="6" fill="#fff" opacity="0.12"/>
+    <!-- Stars -->
+    <circle cx="50" cy="18" r="2" fill="#fef3c7" opacity="0.7"/>
+    <circle cx="54" cy="28" r="1.5" fill="#fef3c7" opacity="0.5"/>
+    <circle cx="48" cy="38" r="1" fill="#fef3c7" opacity="0.4"/>
+  </g>
 </svg>

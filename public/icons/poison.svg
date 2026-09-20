@@ -1,15 +1,32 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="poison-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#ab47bc"/>
-      <stop offset="100%" stop-color="#7b1fa2"/>
+    <linearGradient id="pog" x1="20%" y1="0%" x2="80%" y2="100%">
+      <stop offset="0%" stop-color="#c084fc"/>
+      <stop offset="100%" stop-color="#7e22ce"/>
     </linearGradient>
+    <linearGradient id="pog2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ede9fe"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+    <filter id="posh" x="-25%" y="-25%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#7e22ce" flood-opacity="0.4"/>
+    </filter>
   </defs>
-  <circle cx="50" cy="50" r="45" fill="url(#poison-grad)"/>
-  <circle cx="40" cy="40" r="10" fill="#e1bee7"/>
-  <circle cx="60" cy="40" r="10" fill="#e1bee7"/>
-  <circle cx="40" cy="40" r="5" fill="#4a148c"/>
-  <circle cx="60" cy="40" r="5" fill="#4a148c"/>
-  <path d="M35 60 Q50 55 65 60" stroke="#e1bee7" stroke-width="4" fill="none"/>
-  <path d="M40 65 L45 75 M50 63 L50 73 M55 65 L60 75" stroke="#e1bee7" stroke-width="2"/>
+  <g filter="url(#posh)">
+    <!-- Skull shape -->
+    <ellipse cx="32" cy="28" rx="18" ry="20" fill="url(#pog)"/>
+    <!-- Jaw -->
+    <path d="M20 40 L20 50 C20 54 25 58 32 58 C39 58 44 54 44 50 L44 40 Z" fill="url(#pog)"/>
+    <!-- Eye sockets -->
+    <ellipse cx="25" cy="28" rx="5" ry="6" fill="#1e1b4b" opacity="0.7"/>
+    <ellipse cx="39" cy="28" rx="5" ry="6" fill="#1e1b4b" opacity="0.7"/>
+    <!-- Nose -->
+    <path d="M30 36 L32 39 L34 36" fill="none" stroke="#1e1b4b" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+    <!-- Teeth -->
+    <rect x="24" y="48" width="4" height="6" rx="1" fill="#f3e8ff" opacity="0.6"/>
+    <rect x="30" y="48" width="4" height="8" rx="1" fill="#f3e8ff" opacity="0.6"/>
+    <rect x="36" y="48" width="4" height="6" rx="1" fill="#f3e8ff" opacity="0.6"/>
+    <!-- Highlight -->
+    <ellipse cx="24" cy="20" rx="5" ry="4" fill="#fff" opacity="0.2" transform="rotate(-20, 24, 20)"/>
+  </g>
 </svg>

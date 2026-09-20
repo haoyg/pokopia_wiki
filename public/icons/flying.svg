@@ -1,11 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="flying-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#b3e5fc"/>
-      <stop offset="100%" stop-color="#4fc3f7"/>
+    <linearGradient id="flg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7dd3fc"/>
+      <stop offset="100%" stop-color="#0369a1"/>
     </linearGradient>
+    <linearGradient id="flg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e0f2fe"/>
+      <stop offset="100%" stop-color="#7dd3fc"/>
+    </linearGradient>
+    <filter id="flsh" x="-25%" y="-25%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#0369a1" flood-opacity="0.4"/>
+    </filter>
   </defs>
-  <circle cx="50" cy="50" r="45" fill="url(#flying-grad)"/>
-  <path d="M20 50 Q35 30 50 50 Q65 30 80 50 Q65 70 50 50 Q35 70 20 50" fill="#fff" opacity="0.6"/>
-  <circle cx="50" cy="50" r="10" fill="#0288d1"/>
+  <g filter="url(#flsh)">
+    <!-- Wing shape left -->
+    <path d="M32 32 C20 22 6 18 4 10 C8 18 18 26 32 32Z" fill="url(#flg)"/>
+    <!-- Wing shape right -->
+    <path d="M32 32 C44 22 58 18 60 10 C56 18 46 26 32 32Z" fill="url(#flg2)" opacity="0.85"/>
+    <!-- Center body -->
+    <ellipse cx="32" cy="34" rx="8" ry="14" fill="url(#flg)" opacity="0.9"/>
+    <!-- Feather detail lines -->
+    <path d="M32 22 L32 48" stroke="#fff" stroke-width="1.5" stroke-linecap="round" opacity="0.35"/>
+    <path d="M26 28 L32 34" stroke="#fff" stroke-width="1" stroke-linecap="round" opacity="0.25"/>
+    <path d="M38 28 L32 34" stroke="#fff" stroke-width="1" stroke-linecap="round" opacity="0.25"/>
+  </g>
 </svg>

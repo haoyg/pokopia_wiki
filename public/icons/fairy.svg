@@ -1,11 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="fairy-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#f8bbd9"/>
-      <stop offset="100%" stop-color="#ec407a"/>
+    <linearGradient id="fag" x1="20%" y1="0%" x2="80%" y2="100%">
+      <stop offset="0%" stop-color="#f9a8d4"/>
+      <stop offset="100%" stop-color="#be185d"/>
     </linearGradient>
+    <linearGradient id="fag2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fdf2f8"/>
+      <stop offset="100%" stop-color="#f9a8d4"/>
+    </linearGradient>
+    <filter id="fash" x="-25%" y="-25%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#be185d" flood-opacity="0.4"/>
+    </filter>
   </defs>
-  <circle cx="50" cy="50" r="45" fill="url(#fairy-grad)"/>
-  <polygon points="50,25 55,45 75,45 60,55 65,75 50,62 35,75 40,55 25,45 45,45" fill="#fff" opacity="0.6"/>
-  <circle cx="50" cy="50" r="8" fill="#fff"/>
+  <g filter="url(#fash)">
+    <!-- 6-pointed star -->
+    <path d="M32 6 L35 24 L54 20 L39 30 L48 48 L32 38 L16 48 L25 30 L10 20 L29 24 Z" fill="url(#fag)"/>
+    <!-- Inner star -->
+    <path d="M32 18 L34 28 L44 26 L36 32 L40 42 L32 36 L24 42 L28 32 L20 26 L30 28 Z" fill="url(#fag2)" opacity="0.5"/>
+    <!-- Center gem -->
+    <circle cx="32" cy="30" r="6" fill="#fdf2f8" opacity="0.6"/>
+    <!-- Sparkle highlights -->
+    <circle cx="32" cy="14" r="2" fill="#fff" opacity="0.6"/>
+  </g>
 </svg>

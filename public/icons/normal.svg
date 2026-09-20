@@ -1,14 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="normal-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#e0e0e0"/>
-      <stop offset="100%" stop-color="#9e9e9e"/>
+    <linearGradient id="ng" x1="20%" y1="0%" x2="80%" y2="100%">
+      <stop offset="0%" stop-color="#cbd5e1"/>
+      <stop offset="100%" stop-color="#64748b"/>
     </linearGradient>
+    <filter id="nsh" x="-25%" y="-25%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#475569" flood-opacity="0.4"/>
+    </filter>
   </defs>
-  <circle cx="50" cy="50" r="45" fill="url(#normal-grad)"/>
-  <circle cx="35" cy="45" r="8" fill="#616161"/>
-  <circle cx="65" cy="45" r="8" fill="#616161"/>
-  <circle cx="35" cy="45" r="4" fill="#1a1a2e"/>
-  <circle cx="65" cy="45" r="4" fill="#1a1a2e"/>
-  <ellipse cx="50" cy="65" rx="15" ry="8" fill="#757575"/>
+  <g filter="url(#nsh)">
+    <!-- Circle base -->
+    <circle cx="32" cy="32" r="24" fill="url(#ng)"/>
+    <!-- Inner ring -->
+    <circle cx="32" cy="32" r="16" fill="none" stroke="#fff" stroke-width="2.5" opacity="0.35"/>
+    <!-- Center dot -->
+    <circle cx="32" cy="32" r="6" fill="#fff" opacity="0.4"/>
+    <!-- Highlight -->
+    <ellipse cx="24" cy="24" rx="6" ry="5" fill="#fff" opacity="0.25" transform="rotate(-30, 24, 24)"/>
+  </g>
 </svg>

@@ -1,11 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="fire-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="fg" x1="20%" y1="0%" x2="80%" y2="100%">
       <stop offset="0%" stop-color="#ff6b35"/>
-      <stop offset="100%" stop-color="#ff4500"/>
+      <stop offset="100%" stop-color="#dc2626"/>
     </linearGradient>
+    <linearGradient id="fg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <filter id="sh" x="-25%" y="-25%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#dc2626" flood-opacity="0.4"/>
+    </filter>
   </defs>
-  <circle cx="50" cy="50" r="45" fill="url(#fire-grad)"/>
-  <path d="M50 20 L60 45 L85 45 L65 60 L75 85 L50 70 L25 85 L35 60 L15 45 L40 45 Z" fill="#fff" opacity="0.3"/>
-  <path d="M50 30 C55 35 60 40 55 50 C50 60 45 55 40 50 C35 45 45 35 50 30" fill="#fff" opacity="0.8"/>
+  <g filter="url(#sh)">
+    <!-- Main flame body -->
+    <path d="M32 8 C38 18 48 24 46 38 C44 50 38 56 32 56 C26 56 20 50 18 38 C16 24 26 18 32 8Z" fill="url(#fg)"/>
+    <!-- Inner bright core -->
+    <path d="M32 26 C35 32 40 35 39 43 C38 50 35 53 32 53 C29 53 26 50 25 43 C24 35 29 32 32 26Z" fill="url(#fg2)"/>
+    <!-- Top tip highlight -->
+    <ellipse cx="32" cy="18" rx="5" ry="7" fill="#fff" opacity="0.3"/>
+  </g>
 </svg>

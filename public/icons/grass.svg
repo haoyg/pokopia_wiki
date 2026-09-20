@@ -1,12 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="grass-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#66bb6a"/>
-      <stop offset="100%" stop-color="#2e7d32"/>
+    <linearGradient id="gg" x1="20%" y1="0%" x2="80%" y2="100%">
+      <stop offset="0%" stop-color="#4ade80"/>
+      <stop offset="100%" stop-color="#15803d"/>
     </linearGradient>
+    <linearGradient id="gg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#bbf7d0"/>
+      <stop offset="100%" stop-color="#4ade80"/>
+    </linearGradient>
+    <filter id="gsh" x="-25%" y="-25%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#15803d" flood-opacity="0.4"/>
+    </filter>
   </defs>
-  <circle cx="50" cy="50" r="45" fill="url(#grass-grad)"/>
-  <path d="M30 65 Q50 20 70 65" stroke="#1b5e20" stroke-width="8" fill="none"/>
-  <path d="M35 60 Q50 30 65 60" stroke="#4caf50" stroke-width="6" fill="none"/>
-  <circle cx="50" cy="25" r="8" fill="#81c784"/>
+  <g filter="url(#gsh)">
+    <!-- Leaf blade left -->
+    <path d="M32 56 L32 28 C32 28 16 32 16 18 C16 8 28 6 32 16Z" fill="url(#gg)"/>
+    <!-- Leaf blade right -->
+    <path d="M32 56 L32 24 C32 24 48 28 48 14 C48 4 36 2 32 12Z" fill="url(#gg2)" opacity="0.85"/>
+    <!-- Center vein -->
+    <path d="M32 56 L32 20" stroke="#fff" stroke-width="2.5" stroke-linecap="round" opacity="0.4"/>
+    <!-- Tip highlight -->
+    <ellipse cx="32" cy="14" rx="4" ry="6" fill="#fff" opacity="0.3"/>
+  </g>
 </svg>

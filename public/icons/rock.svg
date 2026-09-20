@@ -1,13 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="rock-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#8d6e63"/>
-      <stop offset="100%" stop-color="#5d4037"/>
+    <linearGradient id="rog" x1="20%" y1="0%" x2="80%" y2="100%">
+      <stop offset="0%" stop-color="#a8a29e"/>
+      <stop offset="100%" stop-color="#57534e"/>
     </linearGradient>
+    <filter id="rosh" x="-25%" y="-25%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#44403c" flood-opacity="0.4"/>
+    </filter>
   </defs>
-  <circle cx="50" cy="50" r="45" fill="url(#rock-grad)"/>
-  <polygon points="50,20 75,40 70,75 30,75 25,40" fill="#a1887f" stroke="#4e342e" stroke-width="2"/>
-  <line x1="35" y1="45" x2="65" y2="45" stroke="#4e342e" stroke-width="3"/>
-  <line x1="40" y1="55" x2="60" y2="55" stroke="#4e342e" stroke-width="3"/>
-  <line x1="45" y1="65" x2="55" y2="65" stroke="#4e342e" stroke-width="3"/>
+  <g filter="url(#rosh)">
+    <!-- Main rock body -->
+    <path d="M32 10 L54 24 L58 48 L42 58 L18 56 L10 38 L18 18 Z" fill="url(#rog)"/>
+    <!-- Top facet highlight -->
+    <path d="M32 10 L54 24 L48 22 L32 14 L16 20 L18 18 Z" fill="#d6d3d1" opacity="0.45"/>
+    <!-- Crack details -->
+    <path d="M32 14 L30 30 L36 36" fill="none" stroke="#44403c" stroke-width="1.5" stroke-linecap="round" opacity="0.3"/>
+    <path d="M48 22 L42 36 L50 44" fill="none" stroke="#44403c" stroke-width="1.5" stroke-linecap="round" opacity="0.25"/>
+    <!-- Small highlight -->
+    <ellipse cx="24" cy="26" rx="6" ry="5" fill="#fff" opacity="0.18" transform="rotate(-15, 24, 26)"/>
+  </g>
 </svg>

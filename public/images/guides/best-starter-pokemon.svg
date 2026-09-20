@@ -1,55 +1,78 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="800" height="450" xmlns="http://www.w3.org/2000/svg">
+<svg width="800" height="450" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:hsl(220,75%,50%);stop-opacity:1" />
-      <stop offset="50%" style="stop-color:hsl(250,65%,40%);stop-opacity:1" />
-      <stop offset="100%" style="stop-color:hsl(280,55%,35%);stop-opacity:1" />
+      <stop offset="0%" stop-color="#1a1e2e"/>
+      <stop offset="50%" stop-color="#16213e"/>
+      <stop offset="100%" stop-color="#0f3460"/>
     </linearGradient>
-    <pattern id="dots" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
-      <circle cx="20" cy="20" r="2" fill="rgba(255,255,255,0.15)"/>
-    </pattern>
-    <pattern id="lines" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-      <line x1="0" y1="0" x2="20" y2="20" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
-    </pattern>
+    <radialGradient id="glow1" cx="20%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#ff5c7a" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#ff5c7a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="80%" cy="70%" r="45%">
+      <stop offset="0%" stop-color="#2f84d8" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#2f84d8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow3" cx="60%" cy="20%" r="35%">
+      <stop offset="0%" stop-color="#ffd166" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#ffd166" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="16" flood-color="#000" flood-opacity="0.4"/>
+    </filter>
   </defs>
 
   <!-- Background -->
   <rect width="800" height="450" fill="url(#bg)"/>
+  <rect width="800" height="450" fill="url(#glow1)"/>
+  <rect width="800" height="450" fill="url(#glow2)"/>
+  <rect width="800" height="450" fill="url(#glow3)"/>
 
-  <!-- Patterns for texture -->
-  <rect width="800" height="450" fill="url(#dots)"/>
-  <rect width="800" height="450" fill="url(#lines)"/>
+  <!-- Subtle grid -->
+  <line x1="0" y1="112" x2="800" y2="112" stroke="#ffffff" stroke-opacity="0.03" stroke-width="1"/>
+  <line x1="0" y1="225" x2="800" y2="225" stroke="#ffffff" stroke-opacity="0.03" stroke-width="1"/>
+  <line x1="0" y1="338" x2="800" y2="338" stroke="#ffffff" stroke-opacity="0.03" stroke-width="1"/>
+  <line x1="200" y1="0" x2="200" y2="450" stroke="#ffffff" stroke-opacity="0.03" stroke-width="1"/>
+  <line x1="400" y1="0" x2="400" y2="450" stroke="#ffffff" stroke-opacity="0.03" stroke-width="1"/>
+  <line x1="600" y1="0" x2="600" y2="450" stroke="#ffffff" stroke-opacity="0.03" stroke-width="1"/>
 
-  <!-- Decorative shapes -->
-  <circle cx="50" cy="50" r="100" fill="rgba(255,255,255,0.05)"/>
-  <circle cx="750" cy="400" r="150" fill="rgba(255,255,255,0.05)"/>
-  <circle cx="700" cy="50" r="80" fill="rgba(255,255,255,0.03)"/>
+  <!-- Decorative orbs -->
+  <circle cx="100" cy="80" r="60" fill="none" stroke="#ff5c7a" stroke-width="1.5" opacity="0.3"/>
+  <circle cx="100" cy="80" r="35" fill="#ff5c7a" opacity="0.08"/>
+  <circle cx="700" cy="370" r="80" fill="none" stroke="#2f84d8" stroke-width="1.5" opacity="0.25"/>
+  <circle cx="700" cy="370" r="50" fill="#2f84d8" opacity="0.07"/>
+  <circle cx="680" cy="80" r="40" fill="none" stroke="#ffd166" stroke-width="1" opacity="0.3"/>
 
-  <!-- Category icon -->
-  <g transform="translate(0, 30)">
-    <circle cx="200" cy="200" r="100" fill="rgba(255,255,255,0.1)"/><circle cx="200" cy="200" r="70" fill="rgba(255,255,255,0.15)"/><circle cx="200" cy="200" r="40" fill="rgba(255,255,255,0.2)"/>
+  <!-- Left accent bar -->
+  <rect x="60" y="140" width="5" height="160" rx="2.5" fill="#ff5c7a" opacity="0.7"/>
+
+  <!-- Category badge -->
+  <rect x="88" y="116" width="120" height="30" rx="15" fill="#ff5c7a" opacity="0.15"/>
+  <text x="148" y="137" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="800" fill="#ff5c7a" letter-spacing="3">POKOPIA GUIDE</text>
+
+  <!-- Main title -->
+  <text x="88" y="208" font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="52" font-weight="900" fill="#ffffff" letter-spacing="1">Best Starter</text>
+  <text x="88" y="270" font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="52" font-weight="900" fill="#ffffff" letter-spacing="1">Pokemon</text>
+
+  <!-- Subtitle -->
+  <text x="88" y="320" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="500" fill="#8b97a8" letter-spacing="0.5">in Pokopia — types, roles, and how to pick your first team</text>
+
+  <!-- Divider line -->
+  <rect x="88" y="346" width="200" height="3" rx="1.5" fill="#ffd166" opacity="0.6"/>
+
+  <!-- Three feature pills -->
+  <g transform="translate(88, 370)">
+    <rect width="160" height="28" rx="14" fill="#ffd166" opacity="0.12"/>
+    <text x="80" y="19" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700" fill="#ffd166" letter-spacing="1">TYPE COVERAGE GUIDE</text>
+
+    <rect x="176" width="130" height="28" rx="14" fill="#59c982" opacity="0.12" transform="translate(0, 0)"/>
+    <text x="241" y="19" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700" fill="#59c982" letter-spacing="1">BUILDS &amp; DROPS</text>
+
+    <rect x="322" width="120" height="28" rx="14" fill="#2f84d8" opacity="0.12"/>
+    <text x="382" y="19" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700" fill="#2f84d8" letter-spacing="1">SPAWN WINDOWS</text>
   </g>
 
-  <!-- Title text -->
-  <text x="400" y="165" font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="32" font-weight="bold" fill="white" text-anchor="middle" dominant-baseline="middle" style="text-shadow: 0 2px 8px rgba(0,0,0,0.3)">
-    Best Starter Pokemon
-  </text>
-  <text x="400" y="210" font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="28" font-weight="bold" fill="white" text-anchor="middle" dominant-baseline="middle" style="text-shadow: 0 2px 8px rgba(0,0,0,0.3)" opacity="0.9">
-    in Pokopia
-  </text>
-  
-
-  <!-- Bottom decoration -->
-  <rect x="300" y="290" width="200" height="3" rx="1.5" fill="rgba(255,255,255,0.4)"/>
-
-  <!-- Pokopia badge -->
-  <rect x="340" y="330" width="120" height="36" rx="18" fill="rgba(255,255,255,0.2)"/>
-  <text x="400" y="353" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600" fill="white" text-anchor="middle" dominant-baseline="middle" letter-spacing="1">
-    POKOPIA GUIDE
-  </text>
-
-  <!-- Corner accents -->
-  <path d="M0 0 L60 0 L0 60 Z" fill="rgba(255,255,255,0.1)"/>
-  <path d="M800 450 L740 450 L800 390 Z" fill="rgba(255,255,255,0.1)"/>
+  <!-- Bottom bar -->
+  <rect x="0" y="432" width="800" height="18" fill="#ff5c7a" opacity="0.4"/>
+  <rect x="0" y="432" width="800" height="3" fill="#ff5c7a" opacity="0.6"/>
 </svg>

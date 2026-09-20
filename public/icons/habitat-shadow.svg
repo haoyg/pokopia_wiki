@@ -1,16 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="marsh-grad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#4a148c"/>
-      <stop offset="100%" stop-color="#1a1a2e"/>
+    <radialGradient id="shg" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#374151"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </radialGradient>
+    <linearGradient id="shg2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4ade80"/>
+      <stop offset="100%" stop-color="#14532d"/>
     </linearGradient>
+    <filter id="shsh" x="-25%" y="-25%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
   </defs>
-  <rect width="100" height="100" fill="url(#marsh-grad)"/>
-  <ellipse cx="50" cy="80" rx="45" ry="15" fill="#2e7d32" opacity="0.6"/>
-  <path d="M25 80 Q30 60 35 80 Q40 65 45 80" fill="#4caf50" opacity="0.5"/>
-  <path d="M55 80 Q60 55 65 80 Q70 60 75 80" fill="#4caf50" opacity="0.5"/>
-  <circle cx="35" cy="40" r="3" fill="#7b1fa2" opacity="0.5"/>
-  <circle cx="65" cy="35" r="4" fill="#7b1fa2" opacity="0.5"/>
-  <circle cx="50" cy="50" r="5" fill="#7b1fa2" opacity="0.4"/>
-  <path d="M45 30 Q50 20 55 30 Q50 25 45 30" fill="#4caf50"/>
+  <g filter="url(#shsh)">
+    <!-- Dark background -->
+    <rect width="64" height="64" fill="url(#shg)"/>
+    <!-- Swamp/marsh ground -->
+    <ellipse cx="32" cy="50" rx="28" ry="10" fill="url(#shg2)" opacity="0.7"/>
+    <!-- Dead trees -->
+    <path d="M20 54 L20 34 L14 28 M20 40 L12 34" stroke="#374151" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+    <path d="M44 54 L44 32 L50 26 M44 40 L52 34" stroke="#374151" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+    <!-- Mist wisps -->
+    <path d="M4 44 Q12 40 20 44 Q28 48 36 44" fill="none" stroke="#6b7280" stroke-width="2" opacity="0.4"/>
+    <path d="M28 38 Q36 34 44 38 Q52 42 60 38" fill="none" stroke="#6b7280" stroke-width="1.5" opacity="0.3"/>
+    <!-- Glowing eyes -->
+    <circle cx="16" cy="38" r="2" fill="#a855f7" opacity="0.8"/>
+    <circle cx="22" cy="38" r="2" fill="#a855f7" opacity="0.8"/>
+    <circle cx="42" cy="34" r="2" fill="#a855f7" opacity="0.7"/>
+    <circle cx="48" cy="34" r="2" fill="#a855f7" opacity="0.7"/>
+    <!-- Fireflies -->
+    <circle cx="30" cy="28" r="1.5" fill="#fef9c3" opacity="0.7"/>
+    <circle cx="50" cy="24" r="1" fill="#fef9c3" opacity="0.6"/>
+    <circle cx="36" cy="20" r="1" fill="#fef9c3" opacity="0.5"/>
+  </g>
 </svg>
