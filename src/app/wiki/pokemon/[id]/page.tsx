@@ -12,7 +12,7 @@ import { OfficialContext } from '@/components/content/OfficialContext'
 import { SourceReview } from '@/components/content/SourceReview'
 import { WikiInfobox } from '@/components/content/WikiInfobox'
 import { isIndexableDatabaseEntry, noIndexMetadata } from '@/lib/indexing'
-import { pokemonImage } from '@/lib/localImages'
+import { pokemonImage, habitatImage, guideImage, newsImage } from '@/lib/localImages'
 
 type SourceReviewFields = {
   sources?: { label?: string; url?: string }[]
@@ -285,26 +285,38 @@ export default async function PokemonDetailPage({ params }: Props) {
         <div className="related-content-grid">
           {habitat && (
             <a href={`/wiki/habitat/${habitat.id}`} className="related-content-card">
-              <span>Habitat</span>
-              <strong>{habitat.name}</strong>
-              <p>{habitat.weather} · {habitat.resource_bonus}</p>
-              <small>Use this route page before farming {pokemon.name}.</small>
+              <div style={{ width: 48, height: 48, borderRadius: 'var(--radius-md)', overflow: 'hidden', flexShrink: 0, background: 'var(--color-bg-alt)' }}>
+                <img src={habitat.image_url && !habitat.image_url.startsWith('http') ? habitat.image_url : habitatImage(habitat.id, habitat.name)} alt={habitat.name} loading="lazy" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+              </div>
+              <div>
+                <span style={{ fontSize: 'var(--font-size-xs)', color: 'var(--color-secondary)', fontWeight: 800, textTransform: 'uppercase' }}>Habitat</span>
+                <strong>{habitat.name}</strong>
+                <p>{habitat.weather}</p>
+              </div>
             </a>
           )}
           {relatedGuides.map((g) => (
             <a key={g.id} href={`/guides/${g.slug}`} className="related-content-card">
-              <span>Guide</span>
-              <strong>{g.title}</strong>
-              <p>{g.answer}</p>
-              <small>{g.steps.length} route checks</small>
+              <div style={{ width: 48, height: 48, borderRadius: 'var(--radius-md)', overflow: 'hidden', flexShrink: 0, background: 'var(--color-bg-alt)' }}>
+                <img src={g.image_url && !g.image_url.startsWith('http') ? g.image_url : guideImage(g.slug)} alt={g.title} loading="lazy" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+              </div>
+              <div>
+                <span style={{ fontSize: 'var(--font-size-xs)', color: 'var(--color-secondary)', fontWeight: 800, textTransform: 'uppercase' }}>Guide</span>
+                <strong>{g.title}</strong>
+                <p>{g.answer}</p>
+              </div>
             </a>
           ))}
           {recentNews.map((n) => (
             <a key={n.id} href={`/news/${n.slug}`} className="related-content-card">
-              <span>News</span>
-              <strong>{n.title}</strong>
-              <p>{n.excerpt}</p>
-              <small>{n.verified_status}</small>
+              <div style={{ width: 48, height: 48, borderRadius: 'var(--radius-md)', overflow: 'hidden', flexShrink: 0, background: 'var(--color-bg-alt)' }}>
+                <img src={newsImage(n.slug, n.category) || '/images/news/official.svg'} alt={n.title} loading="lazy" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+              </div>
+              <div>
+                <span style={{ fontSize: 'var(--font-size-xs)', color: 'var(--color-secondary)', fontWeight: 800, textTransform: 'uppercase' }}>News</span>
+                <strong>{n.title}</strong>
+                <p>{n.excerpt}</p>
+              </div>
             </a>
           ))}
         </div>
