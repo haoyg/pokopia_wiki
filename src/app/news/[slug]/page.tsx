@@ -137,7 +137,9 @@ export default async function NewsDetailPage({ params }: Props) {
                 <span>{news.source_type || 'Source-backed'}</span>
               </div>
             </div>
-            <CreditedImage src={news.image_url} alt={news.image_alt} source={news.image_source} sourceUrl={news.image_source_url} licenseNote={news.image_license_note} originalMedia={news.image_original_media} rightsStatus={news.image_rights_status} className="news-detail-cover" sizes="(max-width: 768px) 100vw, 420px" priority fallbackSrc={newsImage(news.slug)} fallbackAlt={`${news.title} news illustration`} />
+            <div className="news-detail-cover-wrapper">
+              <CreditedImage src={news.image_url} alt={news.image_alt} source={news.image_source} sourceUrl={news.image_source_url} licenseNote={news.image_license_note} originalMedia={news.image_original_media} rightsStatus={news.image_rights_status} className="news-detail-cover" sizes="(max-width: 768px) 100vw, 1200px" priority fallbackSrc={newsImage(news.slug)} fallbackAlt={`${news.title} news illustration`} />
+            </div>
           </div>
 
           <DataStatus

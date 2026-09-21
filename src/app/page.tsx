@@ -6,6 +6,7 @@ import { canonicalUrl } from '@/lib/site'
 import { WebPageJsonLd } from '@/components/seo/JsonLd'
 import { CreditedImage } from '@/components/media/CreditedImage'
 import { pokemonImage, habitatImage, recipeImage } from '@/lib/localImages'
+import { HeroBackground } from '@/components/HeroBackground'
 
 export const metadata: Metadata = {
   title: 'Pokopia Wiki – Complete Game Guide, Pokemon Database & Tools | Pokopia Cloud',
@@ -68,19 +69,19 @@ const featuredGuides = [
     href: '/guides/training-grounds-beginners',
     label: 'Beginner Route Guide',
     description: 'Step-by-step path through the first 20 hours — habitat order, team building, and resource priorities.',
-    image: '/images/guides/training-grounds-beginners.svg',
+    image: '/images/guides/pokopia-official-2.png',
   },
   {
     href: '/guides/fast-farming-rare-pokemon',
     label: 'Rare Farming Route',
     description: 'Maximize rare material drops by chaining optimal habitat sequences and weather windows.',
-    image: '/images/guides/fast-farming-rare-pokemon.svg',
+    image: '/images/guides/pokopia-official-5.png',
   },
   {
     href: '/guides/complete-recipe-list',
     label: 'Recipe Planning Route',
     description: 'Which recipes to craft first, how to accumulate ingredients efficiently, and when to save for legendaries.',
-    image: '/images/guides/complete-recipe-list.svg',
+    image: '/images/guides/pokopia-game-artwork.png',
   },
   {
     href: '/guides',
@@ -139,6 +140,7 @@ export default function HomePage() {
 
       {/* Portal hero */}
       <section className="hero">
+        <HeroBackground />
         <div className="hero-inner">
           <span className="hero-kicker">Independent Pokopia Reference</span>
           <h1>Your Complete Pokopia Guide</h1>

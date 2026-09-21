@@ -67,6 +67,26 @@
       "width": 1440
     }
   ],
+  "/images/guides/ancient-items-guide.png": [
+    {
+      "src": "/images/guides/ancient-items-guide-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/ancient-items-guide-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/best-defense-team-pokopia.png": [
+    {
+      "src": "/images/guides/best-defense-team-pokopia-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/best-defense-team-pokopia-800.webp",
+      "width": 800
+    }
+  ],
   "/images/guides/best-dolls-dream-islands.jpg": [
     {
       "src": "/images/guides/best-dolls-dream-islands-480.webp",
@@ -83,6 +103,56 @@
     {
       "src": "/images/guides/best-dolls-dream-islands-1600.webp",
       "width": 1600
+    }
+  ],
+  "/images/guides/best-fire-type-team.png": [
+    {
+      "src": "/images/guides/best-fire-type-team-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/best-fire-type-team-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/best-grass-types.png": [
+    {
+      "src": "/images/guides/best-grass-types-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/best-grass-types-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/best-habitat-type-pokopia.png": [
+    {
+      "src": "/images/guides/best-habitat-type-pokopia-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/best-habitat-type-pokopia-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/best-starter-pokemon.png": [
+    {
+      "src": "/images/guides/best-starter-pokemon-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/best-starter-pokemon-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/bleak-beach-complete-guide.png": [
+    {
+      "src": "/images/guides/bleak-beach-complete-guide-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/bleak-beach-complete-guide-800.webp",
+      "width": 800
     }
   ],
   "/images/guides/bleak-beach-guide.jpg": [
@@ -103,6 +173,36 @@
       "width": 1920
     }
   ],
+  "/images/guides/block-float-underwater-building-guide.png": [
+    {
+      "src": "/images/guides/block-float-underwater-building-guide-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/block-float-underwater-building-guide-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/bronzorm-catch-guide.png": [
+    {
+      "src": "/images/guides/bronzorm-catch-guide-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/bronzorm-catch-guide-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/bubbly-basin-how-to-get-ocean-doors.png": [
+    {
+      "src": "/images/guides/bubbly-basin-how-to-get-ocean-doors-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/bubbly-basin-how-to-get-ocean-doors-800.webp",
+      "width": 800
+    }
+  ],
   "/images/guides/bulldoze-pokemon.jpg": [
     {
       "src": "/images/guides/bulldoze-pokemon-480.webp",
@@ -111,6 +211,16 @@
     {
       "src": "/images/guides/bulldoze-pokemon-814.webp",
       "width": 814
+    }
+  ],
+  "/images/guides/bulldoze-pokemon.png": [
+    {
+      "src": "/images/guides/bulldoze-pokemon-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/bulldoze-pokemon-800.webp",
+      "width": 800
     }
   ],
   "/images/guides/camera-placement-afk-monitoring-harvest-timing.jpg": [
@@ -163,6 +273,106 @@
       "width": 1920
     }
   ],
+  "/images/guides/co-op-palette-town-trading.png": [
+    {
+      "src": "/images/guides/co-op-palette-town-trading-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/co-op-palette-town-trading-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/comfortable-pokemon-spaces-guide.png": [
+    {
+      "src": "/images/guides/comfortable-pokemon-spaces-guide-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/comfortable-pokemon-spaces-guide-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/complete-recipe-list.png": [
+    {
+      "src": "/images/guides/complete-recipe-list-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/complete-recipe-list-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/cooking-guide.png": [
+    {
+      "src": "/images/guides/cooking-guide-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/cooking-guide-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/daily-activities-guide.png": [
+    {
+      "src": "/images/guides/daily-activities-guide-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/daily-activities-guide-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/ditto-home-fast-travel-guide.png": [
+    {
+      "src": "/images/guides/ditto-home-fast-travel-guide-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/ditto-home-fast-travel-guide-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/dive-unlock-requirements-guide.png": [
+    {
+      "src": "/images/guides/dive-unlock-requirements-guide-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/dive-unlock-requirements-guide-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/dj-rotom-music-guide.png": [
+    {
+      "src": "/images/guides/dj-rotom-music-guide-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/dj-rotom-music-guide-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/dragon-type-guide.png": [
+    {
+      "src": "/images/guides/dragon-type-guide-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/dragon-type-guide-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/dragons-den-guide.png": [
+    {
+      "src": "/images/guides/dragons-den-guide-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/dragons-den-guide-800.webp",
+      "width": 800
+    }
+  ],
   "/images/guides/dream-islands-guide.jpg": [
     {
       "src": "/images/guides/dream-islands-guide-480.webp",
@@ -171,6 +381,126 @@
     {
       "src": "/images/guides/dream-islands-guide-814.webp",
       "width": 814
+    }
+  ],
+  "/images/guides/dry-flavors-guide.png": [
+    {
+      "src": "/images/guides/dry-flavors-guide-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/dry-flavors-guide-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/endgame-build-guide.png": [
+    {
+      "src": "/images/guides/endgame-build-guide-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/endgame-build-guide-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/fairy-glen-exploration.png": [
+    {
+      "src": "/images/guides/fairy-glen-exploration-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/fairy-glen-exploration-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/fast-farming-rare-pokemon.png": [
+    {
+      "src": "/images/guides/fast-farming-rare-pokemon-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/fast-farming-rare-pokemon-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/flamexor-catch-guide.png": [
+    {
+      "src": "/images/guides/flamexor-catch-guide-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/flamexor-catch-guide-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/food-powered-moves-guide.png": [
+    {
+      "src": "/images/guides/food-powered-moves-guide-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/food-powered-moves-guide-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/forest-valley-complete-walkthrough.png": [
+    {
+      "src": "/images/guides/forest-valley-complete-walkthrough-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/forest-valley-complete-walkthrough-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/frost-peak-guide.png": [
+    {
+      "src": "/images/guides/frost-peak-guide-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/frost-peak-guide-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/frostbite-catch-guide.png": [
+    {
+      "src": "/images/guides/frostbite-catch-guide-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/frostbite-catch-guide-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/game-length-estimate.png": [
+    {
+      "src": "/images/guides/game-length-estimate-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/game-length-estimate-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/game-length.png": [
+    {
+      "src": "/images/guides/game-length-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/game-length-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/ghost-type-hunting.png": [
+    {
+      "src": "/images/guides/ghost-type-hunting-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/ghost-type-hunting-800.webp",
+      "width": 800
     }
   ],
   "/images/guides/gimmighoul-trading-framed-items-rare-rewards.jpg": [
@@ -187,6 +517,16 @@
       "width": 1280
     }
   ],
+  "/images/guides/gimmighoul-trading-framed-items-rare-rewards.png": [
+    {
+      "src": "/images/guides/gimmighoul-trading-framed-items-rare-rewards-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/gimmighoul-trading-framed-items-rare-rewards-800.webp",
+      "width": 800
+    }
+  ],
   "/images/guides/habitats-building.png": [
     {
       "src": "/images/guides/habitats-building-480.webp",
@@ -194,6 +534,66 @@
     },
     {
       "src": "/images/guides/habitats-building-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/habitats-dex-list.png": [
+    {
+      "src": "/images/guides/habitats-dex-list-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/habitats-dex-list-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/hoppip-event.png": [
+    {
+      "src": "/images/guides/hoppip-event-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/hoppip-event-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/how-to-befriend-mew-and-mewtwo.png": [
+    {
+      "src": "/images/guides/how-to-befriend-mew-and-mewtwo-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/how-to-befriend-mew-and-mewtwo-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/how-to-befriend-the-kanto-legendary-birds.png": [
+    {
+      "src": "/images/guides/how-to-befriend-the-kanto-legendary-birds-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/how-to-befriend-the-kanto-legendary-birds-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/how-to-befriend-with-ho-oh-and-lugia.png": [
+    {
+      "src": "/images/guides/how-to-befriend-with-ho-oh-and-lugia-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/how-to-befriend-with-ho-oh-and-lugia-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/how-to-befriend-with-raikou-entei-and-suicune.png": [
+    {
+      "src": "/images/guides/how-to-befriend-with-raikou-entei-and-suicune-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/how-to-befriend-with-raikou-entei-and-suicune-800.webp",
       "width": 800
     }
   ],
@@ -215,6 +615,76 @@
       "width": 1920
     }
   ],
+  "/images/guides/how-to-build-first-house.png": [
+    {
+      "src": "/images/guides/how-to-build-first-house-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/how-to-build-first-house-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/how-to-craft-all-recipes.png": [
+    {
+      "src": "/images/guides/how-to-craft-all-recipes-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/how-to-craft-all-recipes-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/how-to-find-the-windup-inkay.png": [
+    {
+      "src": "/images/guides/how-to-find-the-windup-inkay-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/how-to-find-the-windup-inkay-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/how-to-fix-the-water-wheels.png": [
+    {
+      "src": "/images/guides/how-to-fix-the-water-wheels-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/how-to-fix-the-water-wheels-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/how-to-get-all-pokemon.png": [
+    {
+      "src": "/images/guides/how-to-get-all-pokemon-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/how-to-get-all-pokemon-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/how-to-get-gold-teeth.png": [
+    {
+      "src": "/images/guides/how-to-get-gold-teeth-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/how-to-get-gold-teeth-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/how-to-get-gyarados.png": [
+    {
+      "src": "/images/guides/how-to-get-gyarados-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/how-to-get-gyarados-800.webp",
+      "width": 800
+    }
+  ],
   "/images/guides/how-to-get-hoppip-skiploom-and-jumpluff.png": [
     {
       "src": "/images/guides/how-to-get-hoppip-skiploom-and-jumpluff-480.webp",
@@ -231,6 +701,36 @@
     {
       "src": "/images/guides/how-to-get-hoppip-skiploom-and-jumpluff-1650.webp",
       "width": 1650
+    }
+  ],
+  "/images/guides/how-to-get-ice.png": [
+    {
+      "src": "/images/guides/how-to-get-ice-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/how-to-get-ice-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/how-to-get-inflatable-sudowoodo.png": [
+    {
+      "src": "/images/guides/how-to-get-inflatable-sudowoodo-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/how-to-get-inflatable-sudowoodo-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/how-to-get-legendary-pokemon.png": [
+    {
+      "src": "/images/guides/how-to-get-legendary-pokemon-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/how-to-get-legendary-pokemon-800.webp",
+      "width": 800
     }
   ],
   "/images/guides/how-to-get-lumber.png": [
@@ -265,6 +765,26 @@
       "width": 1440
     }
   ],
+  "/images/guides/how-to-get-paper.png": [
+    {
+      "src": "/images/guides/how-to-get-paper-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/how-to-get-paper-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/how-to-get-phione.png": [
+    {
+      "src": "/images/guides/how-to-get-phione-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/how-to-get-phione-800.webp",
+      "width": 800
+    }
+  ],
   "/images/guides/how-to-get-pokemetal.png": [
     {
       "src": "/images/guides/how-to-get-pokemetal-480.webp",
@@ -279,6 +799,36 @@
       "width": 1390
     }
   ],
+  "/images/guides/how-to-get-porygon.png": [
+    {
+      "src": "/images/guides/how-to-get-porygon-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/how-to-get-porygon-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/how-to-get-shiny-pearls-in-bubbly-basin.png": [
+    {
+      "src": "/images/guides/how-to-get-shiny-pearls-in-bubbly-basin-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/how-to-get-shiny-pearls-in-bubbly-basin-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/how-to-learn-suck-and-move-water.png": [
+    {
+      "src": "/images/guides/how-to-learn-suck-and-move-water-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/how-to-learn-suck-and-move-water-800.webp",
+      "width": 800
+    }
+  ],
   "/images/guides/how-to-make-a-hot-spring-shower-and-get-psyduck.png": [
     {
       "src": "/images/guides/how-to-make-a-hot-spring-shower-and-get-psyduck-480.webp",
@@ -291,6 +841,16 @@
     {
       "src": "/images/guides/how-to-make-a-hot-spring-shower-and-get-psyduck-1024.webp",
       "width": 1024
+    }
+  ],
+  "/images/guides/how-to-make-a-pikachu-corner.png": [
+    {
+      "src": "/images/guides/how-to-make-a-pikachu-corner-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/how-to-make-a-pikachu-corner-800.webp",
+      "width": 800
     }
   ],
   "/images/guides/how-to-make-duckweed.png": [
@@ -311,6 +871,106 @@
       "width": 1920
     }
   ],
+  "/images/guides/how-to-unlock-dive-ability.png": [
+    {
+      "src": "/images/guides/how-to-unlock-dive-ability-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/how-to-unlock-dive-ability-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/how-to-unlock-frost-peak.png": [
+    {
+      "src": "/images/guides/how-to-unlock-frost-peak-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/how-to-unlock-frost-peak-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/how-to-unlock-shadow-marsh.png": [
+    {
+      "src": "/images/guides/how-to-unlock-shadow-marsh-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/how-to-unlock-shadow-marsh-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/how-to-unlock-volcanic-cave.png": [
+    {
+      "src": "/images/guides/how-to-unlock-volcanic-cave-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/how-to-unlock-volcanic-cave-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/how-to-use-security-cameras.png": [
+    {
+      "src": "/images/guides/how-to-use-security-cameras-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/how-to-use-security-cameras-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/how-to-win-hide-and-sneak.png": [
+    {
+      "src": "/images/guides/how-to-win-hide-and-sneak-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/how-to-win-hide-and-sneak-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/item-customization-guide.png": [
+    {
+      "src": "/images/guides/item-customization-guide-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/item-customization-guide-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/jumpluff-habitat.png": [
+    {
+      "src": "/images/guides/jumpluff-habitat-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/jumpluff-habitat-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/leafon-catch-guide.png": [
+    {
+      "src": "/images/guides/leafon-catch-guide-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/leafon-catch-guide-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/legendary-locations-guide.png": [
+    {
+      "src": "/images/guides/legendary-locations-guide-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/legendary-locations-guide-800.webp",
+      "width": 800
+    }
+  ],
   "/images/guides/lumber-farming.png": [
     {
       "src": "/images/guides/lumber-farming-480.webp",
@@ -318,6 +978,496 @@
     },
     {
       "src": "/images/guides/lumber-farming-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/lunaflare-catch-guide.png": [
+    {
+      "src": "/images/guides/lunaflare-catch-guide-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/lunaflare-catch-guide-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/materials-crops-cooking-guide.png": [
+    {
+      "src": "/images/guides/materials-crops-cooking-guide-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/materials-crops-cooking-guide-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/mosslax-location-wake-up-guide.png": [
+    {
+      "src": "/images/guides/mosslax-location-wake-up-guide-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/mosslax-location-wake-up-guide-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/movement-and-terrain-moves-guide.png": [
+    {
+      "src": "/images/guides/movement-and-terrain-moves-guide-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/movement-and-terrain-moves-guide-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/muddy-river-guide.png": [
+    {
+      "src": "/images/guides/muddy-river-guide-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/muddy-river-guide-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/multiplayer-guide.png": [
+    {
+      "src": "/images/guides/multiplayer-guide-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/multiplayer-guide-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/mystery-gift-codes.png": [
+    {
+      "src": "/images/guides/mystery-gift-codes-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/mystery-gift-codes-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/mysticat-catch-guide.png": [
+    {
+      "src": "/images/guides/mysticat-catch-guide-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/mysticat-catch-guide-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/nightmare-forest-guide.png": [
+    {
+      "src": "/images/guides/nightmare-forest-guide-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/nightmare-forest-guide-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/ocean-doors-how-to-get.png": [
+    {
+      "src": "/images/guides/ocean-doors-how-to-get-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/ocean-doors-how-to-get-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/official-pokopia-characters-guide.png": [
+    {
+      "src": "/images/guides/official-pokopia-characters-guide-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/official-pokopia-characters-guide-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/palette-town-gameshare-guide.png": [
+    {
+      "src": "/images/guides/palette-town-gameshare-guide-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/palette-town-gameshare-guide-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/photo-ops-guide.png": [
+    {
+      "src": "/images/guides/photo-ops-guide-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/photo-ops-guide-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/poison-type-team.png": [
+    {
+      "src": "/images/guides/poison-type-team-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/poison-type-team-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/pokedex-and-habitat-dex-guide.png": [
+    {
+      "src": "/images/guides/pokedex-and-habitat-dex-guide-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/pokedex-and-habitat-dex-guide-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/pokemon-center-pc-daily-routine.png": [
+    {
+      "src": "/images/guides/pokemon-center-pc-daily-routine-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/pokemon-center-pc-daily-routine-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/pokemon-request-planning-guide.png": [
+    {
+      "src": "/images/guides/pokemon-request-planning-guide-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/pokemon-request-planning-guide-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/pokopia-1.png": [
+    {
+      "src": "/images/guides/pokopia-1-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/pokopia-1-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/guides/pokopia-1-1388.webp",
+      "width": 1388
+    }
+  ],
+  "/images/guides/pokopia-2.png": [
+    {
+      "src": "/images/guides/pokopia-2-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/pokopia-2-690.webp",
+      "width": 690
+    }
+  ],
+  "/images/guides/pokopia-3.png": [
+    {
+      "src": "/images/guides/pokopia-3-256.webp",
+      "width": 256
+    }
+  ],
+  "/images/guides/pokopia-4.png": [
+    {
+      "src": "/images/guides/pokopia-4-300.webp",
+      "width": 300
+    }
+  ],
+  "/images/guides/pokopia-5.png": [
+    {
+      "src": "/images/guides/pokopia-5-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/pokopia-5-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/guides/pokopia-5-1080.webp",
+      "width": 1080
+    }
+  ],
+  "/images/guides/pokopia-6.png": [
+    {
+      "src": "/images/guides/pokopia-6-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/pokopia-6-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/guides/pokopia-6-1080.webp",
+      "width": 1080
+    }
+  ],
+  "/images/guides/pokopia-7.png": [
+    {
+      "src": "/images/guides/pokopia-7-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/pokopia-7-584.webp",
+      "width": 584
+    }
+  ],
+  "/images/guides/pokopia-8.png": [
+    {
+      "src": "/images/guides/pokopia-8-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/pokopia-8-600.webp",
+      "width": 600
+    }
+  ],
+  "/images/guides/pokopia-box-art.jpg": [
+    {
+      "src": "/images/guides/pokopia-box-art-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/pokopia-box-art-939.webp",
+      "width": 939
+    }
+  ],
+  "/images/guides/pokopia-character-female.png": [
+    {
+      "src": "/images/guides/pokopia-character-female-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/pokopia-character-female-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/guides/pokopia-character-female-1440.webp",
+      "width": 1440
+    },
+    {
+      "src": "/images/guides/pokopia-character-female-3500.webp",
+      "width": 3500
+    }
+  ],
+  "/images/guides/pokopia-character-male.png": [
+    {
+      "src": "/images/guides/pokopia-character-male-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/pokopia-character-male-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/guides/pokopia-character-male-1440.webp",
+      "width": 1440
+    },
+    {
+      "src": "/images/guides/pokopia-character-male-3500.webp",
+      "width": 3500
+    }
+  ],
+  "/images/guides/pokopia-ditto.png": [
+    {
+      "src": "/images/guides/pokopia-ditto-384.webp",
+      "width": 384
+    }
+  ],
+  "/images/guides/pokopia-game-artwork.png": [
+    {
+      "src": "/images/guides/pokopia-game-artwork-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/pokopia-game-artwork-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/guides/pokopia-game-artwork-1312.webp",
+      "width": 1312
+    }
+  ],
+  "/images/guides/pokopia-official-1.png": [
+    {
+      "src": "/images/guides/pokopia-official-1-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/pokopia-official-1-939.webp",
+      "width": 939
+    }
+  ],
+  "/images/guides/pokopia-official-2.png": [
+    {
+      "src": "/images/guides/pokopia-official-2-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/pokopia-official-2-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/guides/pokopia-official-2-1280.webp",
+      "width": 1280
+    }
+  ],
+  "/images/guides/pokopia-official-5.png": [
+    {
+      "src": "/images/guides/pokopia-official-5-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/pokopia-official-5-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/guides/pokopia-official-5-1280.webp",
+      "width": 1280
+    }
+  ],
+  "/images/guides/pokopia-official-6.png": [
+    {
+      "src": "/images/guides/pokopia-official-6-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/pokopia-official-6-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/guides/pokopia-official-6-1280.webp",
+      "width": 1280
+    }
+  ],
+  "/images/guides/pokopia-official-7.png": [
+    {
+      "src": "/images/guides/pokopia-official-7-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/pokopia-official-7-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/guides/pokopia-official-7-1280.webp",
+      "width": 1280
+    }
+  ],
+  "/images/guides/pokopia-official-8.jpg": [
+    {
+      "src": "/images/guides/pokopia-official-8-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/pokopia-official-8-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/guides/pokopia-official-8-1000.webp",
+      "width": 1000
+    }
+  ],
+  "/images/guides/pokopia-pikachu.png": [
+    {
+      "src": "/images/guides/pokopia-pikachu-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/pokopia-pikachu-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/guides/pokopia-pikachu-1258.webp",
+      "width": 1258
+    }
+  ],
+  "/images/guides/pokopia-protagonist-female.png": [
+    {
+      "src": "/images/guides/pokopia-protagonist-female-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/pokopia-protagonist-female-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/guides/pokopia-protagonist-female-1440.webp",
+      "width": 1440
+    },
+    {
+      "src": "/images/guides/pokopia-protagonist-female-3500.webp",
+      "width": 3500
+    }
+  ],
+  "/images/guides/pokopia-protagonist-male.png": [
+    {
+      "src": "/images/guides/pokopia-protagonist-male-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/pokopia-protagonist-male-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/guides/pokopia-protagonist-male-1440.webp",
+      "width": 1440
+    },
+    {
+      "src": "/images/guides/pokopia-protagonist-male-3500.webp",
+      "width": 3500
+    }
+  ],
+  "/images/guides/primordion-catch-guide.png": [
+    {
+      "src": "/images/guides/primordion-catch-guide-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/primordion-catch-guide-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/shados-catch-guide.png": [
+    {
+      "src": "/images/guides/shados-catch-guide-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/shados-catch-guide-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/shadow-marsh-guide.png": [
+    {
+      "src": "/images/guides/shadow-marsh-guide-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/shadow-marsh-guide-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/shadowclaw-catch-guide.png": [
+    {
+      "src": "/images/guides/shadowclaw-catch-guide-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/shadowclaw-catch-guide-800.webp",
       "width": 800
     }
   ],
@@ -349,6 +1499,96 @@
       "width": 1600
     }
   ],
+  "/images/guides/smoothie-guide.png": [
+    {
+      "src": "/images/guides/smoothie-guide-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/smoothie-guide-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/snorizard-catch-guide.png": [
+    {
+      "src": "/images/guides/snorizard-catch-guide-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/snorizard-catch-guide-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/speed-run-leveling-route.png": [
+    {
+      "src": "/images/guides/speed-run-leveling-route-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/speed-run-leveling-route-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/squishy-clay.png": [
+    {
+      "src": "/images/guides/squishy-clay-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/squishy-clay-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/stardust-guide.png": [
+    {
+      "src": "/images/guides/stardust-guide-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/stardust-guide-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/stealthfin-catch-guide.png": [
+    {
+      "src": "/images/guides/stealthfin-catch-guide-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/stealthfin-catch-guide-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/storage-and-crafting-guide.png": [
+    {
+      "src": "/images/guides/storage-and-crafting-guide-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/storage-and-crafting-guide-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/story-donyori.png": [
+    {
+      "src": "/images/guides/story-donyori-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/story-donyori-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/story-gotsugotsu.png": [
+    {
+      "src": "/images/guides/story-gotsugotsu-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/story-gotsugotsu-800.webp",
+      "width": 800
+    }
+  ],
   "/images/guides/story-pasapasa.png": [
     {
       "src": "/images/guides/story-pasapasa-480.webp",
@@ -363,6 +1603,26 @@
       "width": 1280
     }
   ],
+  "/images/guides/strength-decoration-guide.png": [
+    {
+      "src": "/images/guides/strength-decoration-guide-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/strength-decoration-guide-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/team-initiation-challenge.png": [
+    {
+      "src": "/images/guides/team-initiation-challenge-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/team-initiation-challenge-800.webp",
+      "width": 800
+    }
+  ],
   "/images/guides/team-initiation-guide.jpg": [
     {
       "src": "/images/guides/team-initiation-guide-480.webp",
@@ -373,6 +1633,86 @@
       "width": 900
     }
   ],
+  "/images/guides/team-initiation-guide.png": [
+    {
+      "src": "/images/guides/team-initiation-guide-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/team-initiation-guide-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/top-10-powerful-pokemon.png": [
+    {
+      "src": "/images/guides/top-10-powerful-pokemon-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/top-10-powerful-pokemon-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/town-visit-multiplayer-guide.png": [
+    {
+      "src": "/images/guides/town-visit-multiplayer-guide-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/town-visit-multiplayer-guide-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/training-grounds-beginners.png": [
+    {
+      "src": "/images/guides/training-grounds-beginners-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/training-grounds-beginners-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/underwater-farming-guide.png": [
+    {
+      "src": "/images/guides/underwater-farming-guide-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/underwater-farming-guide-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/update-history.png": [
+    {
+      "src": "/images/guides/update-history-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/update-history-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/version-2-0-0-patch-notes.png": [
+    {
+      "src": "/images/guides/version-2-0-0-patch-notes-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/version-2-0-0-patch-notes-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/guides/water-type-team-build.png": [
+    {
+      "src": "/images/guides/water-type-team-build-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/water-type-team-build-800.webp",
+      "width": 800
+    }
+  ],
   "/images/guides/where-to-find-cotton-spores.png": [
     {
       "src": "/images/guides/where-to-find-cotton-spores-480.webp",
@@ -381,6 +1721,16 @@
     {
       "src": "/images/guides/where-to-find-cotton-spores-690.webp",
       "width": 690
+    }
+  ],
+  "/images/guides/zorua-hide-and-sneak-contest-guide.png": [
+    {
+      "src": "/images/guides/zorua-hide-and-sneak-contest-guide-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/zorua-hide-and-sneak-contest-guide-800.webp",
+      "width": 800
     }
   ],
   "/images/habitats/001.png": [
@@ -1159,6 +2509,146 @@
       "width": 160
     }
   ],
+  "/images/news/nintendo-switch-2-pokemon-pokopia-bundle-singapore-cover.png": [
+    {
+      "src": "/images/news/nintendo-switch-2-pokemon-pokopia-bundle-singapore-cover-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/news/nintendo-switch-2-pokemon-pokopia-bundle-singapore-cover-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/news/nintendo-switch-2-pokemon-pokopia-bundle-singapore-cover-1440.webp",
+      "width": 1440
+    }
+  ],
+  "/images/news/pokemon-pokopia-cloud-island-palette-town-explained-cover.png": [
+    {
+      "src": "/images/news/pokemon-pokopia-cloud-island-palette-town-explained-cover-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/news/pokemon-pokopia-cloud-island-palette-town-explained-cover-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/news/pokemon-pokopia-cloud-island-palette-town-explained-cover-1440.webp",
+      "width": 1440
+    }
+  ],
+  "/images/news/pokemon-pokopia-confirmed-moves-leafage-surf-glide-cover.png": [
+    {
+      "src": "/images/news/pokemon-pokopia-confirmed-moves-leafage-surf-glide-cover-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/news/pokemon-pokopia-confirmed-moves-leafage-surf-glide-cover-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/news/pokemon-pokopia-confirmed-moves-leafage-surf-glide-cover-1440.webp",
+      "width": 1440
+    }
+  ],
+  "/images/news/pokemon-pokopia-early-purchase-bonus-ditto-rug-cover.png": [
+    {
+      "src": "/images/news/pokemon-pokopia-early-purchase-bonus-ditto-rug-cover-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/news/pokemon-pokopia-early-purchase-bonus-ditto-rug-cover-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/news/pokemon-pokopia-early-purchase-bonus-ditto-rug-cover-1440.webp",
+      "width": 1440
+    }
+  ],
+  "/images/news/pokemon-pokopia-gameplay-overview-confirmed-features-cover.png": [
+    {
+      "src": "/images/news/pokemon-pokopia-gameplay-overview-confirmed-features-cover-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/news/pokemon-pokopia-gameplay-overview-confirmed-features-cover-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/news/pokemon-pokopia-gameplay-overview-confirmed-features-cover-1440.webp",
+      "width": 1440
+    }
+  ],
+  "/images/news/pokemon-pokopia-multiplayer-gameshare-details-cover.png": [
+    {
+      "src": "/images/news/pokemon-pokopia-multiplayer-gameshare-details-cover-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/news/pokemon-pokopia-multiplayer-gameshare-details-cover-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/news/pokemon-pokopia-multiplayer-gameshare-details-cover-1440.webp",
+      "width": 1440
+    }
+  ],
+  "/images/news/pokemon-pokopia-official-beginner-tips-cover.png": [
+    {
+      "src": "/images/news/pokemon-pokopia-official-beginner-tips-cover-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/news/pokemon-pokopia-official-beginner-tips-cover-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/news/pokemon-pokopia-official-beginner-tips-cover-1440.webp",
+      "width": 1440
+    }
+  ],
+  "/images/news/pokemon-pokopia-pc-requests-daily-challenges-cover.png": [
+    {
+      "src": "/images/news/pokemon-pokopia-pc-requests-daily-challenges-cover-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/news/pokemon-pokopia-pc-requests-daily-challenges-cover-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/news/pokemon-pokopia-pc-requests-daily-challenges-cover-1440.webp",
+      "width": 1440
+    }
+  ],
+  "/images/news/pokemon-pokopia-release-date-platform-cover.png": [
+    {
+      "src": "/images/news/pokemon-pokopia-release-date-platform-cover-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/news/pokemon-pokopia-release-date-platform-cover-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/news/pokemon-pokopia-release-date-platform-cover-1440.webp",
+      "width": 1440
+    }
+  ],
+  "/images/news/pokemon-pokopia-wish-upon-a-jirachi-event-cover.png": [
+    {
+      "src": "/images/news/pokemon-pokopia-wish-upon-a-jirachi-event-cover-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/news/pokemon-pokopia-wish-upon-a-jirachi-event-cover-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/news/pokemon-pokopia-wish-upon-a-jirachi-event-cover-1440.webp",
+      "width": 1440
+    }
+  ],
   "/images/news/pokopia-bubbly-basin-cover.png": [
     {
       "src": "/images/news/pokopia-bubbly-basin-cover-480.webp",
@@ -1193,6 +2683,34 @@
     {
       "src": "/images/news/pokopia-dive-update-cover-1672.webp",
       "width": 1672
+    }
+  ],
+  "/images/news/pokopia-portal-official-editorial-labels-cover.png": [
+    {
+      "src": "/images/news/pokopia-portal-official-editorial-labels-cover-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/news/pokopia-portal-official-editorial-labels-cover-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/news/pokopia-portal-official-editorial-labels-cover-1440.webp",
+      "width": 1440
+    }
+  ],
+  "/images/news/what-is-pokemon-pokopia-official-summary-cover.png": [
+    {
+      "src": "/images/news/what-is-pokemon-pokopia-official-summary-cover-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/news/what-is-pokemon-pokopia-official-summary-cover-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/news/what-is-pokemon-pokopia-official-summary-cover-1440.webp",
+      "width": 1440
     }
   ],
   "/images/pokemon/absol.jpg": [

@@ -73,7 +73,14 @@
       "Bash(rm /tmp/test_pexels.jpg)",
       "Bash(python3 -c \"import sys,json; data=json.load\\(sys.stdin\\); [print\\(r['title']\\) for r in data['query']['search']]\")",
       "Bash(rm /tmp/test.jpg)",
-      "Bash(rm /tmp/test_wiki.jpg)"
+      "Bash(rm /tmp/test_wiki.jpg)",
+      "WebFetch(domain:www.pokopia-wiki.pages.dev)",
+      "WebFetch(domain:d916bdb1.pokopia-wiki.pages.dev)",
+      "WebFetch(domain:3a44743c.pokopia-wiki.pages.dev)",
+      "WebFetch(domain:pokopia.pokemon.com)",
+      "WebFetch(domain:www.reddit.com)",
+      "WebFetch(domain:bulbapedia.bulbagarden.net)",
+      "Bash(NODE_OPTIONS=\"--max-old-space-size=4096\" npm run build)"
     ]
   }
 }
