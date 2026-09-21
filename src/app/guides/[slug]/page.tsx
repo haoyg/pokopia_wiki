@@ -11,7 +11,7 @@ import { DataStatus } from '@/components/content/DataStatus'
 import { OfficialContext } from '@/components/content/OfficialContext'
 import { isIndexableGuide, noIndexMetadata } from '@/lib/indexing'
 import { hasClearedMediaRights } from '@/lib/mediaRights'
-import { guideImage } from '@/lib/localImages'
+import { guideImage, pokemonImage, habitatImage, recipeImage } from '@/lib/localImages'
 import { guideVerification } from '@/lib/guideVerification'
 
 interface Props {
@@ -263,26 +263,38 @@ export default async function GuideDetailPage({ params }: Props) {
           <div className="related-content-grid">
             {relatedPokemon.map((p) => (
               <a key={p.id} href={`/wiki/pokemon/${p.id}`} className="related-content-card">
-                <span>Pokemon</span>
-                <strong>{p.name}</strong>
-                <p>{p.type} · {p.specialty} · {p.rarity}</p>
-                <small>Food: {p.favorite_food}</small>
+                <div style={{ width: 48, height: 48, borderRadius: 'var(--radius-md)', overflow: 'hidden', flexShrink: 0, background: 'var(--color-bg-alt)' }}>
+                  <img src={pokemonImage(p.name)} alt={p.name} loading="lazy" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+                </div>
+                <div>
+                  <span style={{ fontSize: 'var(--font-size-xs)', color: 'var(--color-secondary)', fontWeight: 800, textTransform: 'uppercase' }}>Pokemon</span>
+                  <strong>{p.name}</strong>
+                  <p>{p.type} · {p.rarity}</p>
+                </div>
               </a>
             ))}
             {relatedHabitats.map((h) => (
               <a key={h.id} href={`/wiki/habitat/${h.id}`} className="related-content-card">
-                <span>Habitat</span>
-                <strong>{h.name}</strong>
-                <p>{h.weather} · {h.resource_bonus}</p>
-                <small>{h.difficulty} route</small>
+                <div style={{ width: 48, height: 48, borderRadius: 'var(--radius-md)', overflow: 'hidden', flexShrink: 0, background: 'var(--color-bg-alt)' }}>
+                  <img src={h.image_url && !h.image_url.startsWith('http') ? h.image_url : habitatImage(h.id, h.name)} alt={h.name} loading="lazy" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                </div>
+                <div>
+                  <span style={{ fontSize: 'var(--font-size-xs)', color: 'var(--color-secondary)', fontWeight: 800, textTransform: 'uppercase' }}>Habitat</span>
+                  <strong>{h.name}</strong>
+                  <p>{h.weather}</p>
+                </div>
               </a>
             ))}
             {relatedRecipes.map((recipe) => (
               <a key={recipe.id} href={`/wiki/recipe/${recipe.id}`} className="related-content-card">
-                <span>Recipe</span>
-                <strong>{recipe.name}</strong>
-                <p>{recipe.buff} · {recipe.effect_duration}</p>
-                <small>{recipe.best_use}</small>
+                <div style={{ width: 48, height: 48, borderRadius: 'var(--radius-md)', overflow: 'hidden', flexShrink: 0, background: 'var(--color-bg-alt)' }}>
+                  <img src={recipeImage(recipe.id, recipe.name)} alt={recipe.name} loading="lazy" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                </div>
+                <div>
+                  <span style={{ fontSize: 'var(--font-size-xs)', color: 'var(--color-secondary)', fontWeight: 800, textTransform: 'uppercase' }}>Recipe</span>
+                  <strong>{recipe.name}</strong>
+                  <p>{recipe.buff}</p>
+                </div>
               </a>
             ))}
           </div>
