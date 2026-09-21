@@ -12,7 +12,7 @@ import { OfficialContext } from '@/components/content/OfficialContext'
 import { SourceReview } from '@/components/content/SourceReview'
 import { WikiInfobox } from '@/components/content/WikiInfobox'
 import { isIndexableDatabaseEntry, noIndexMetadata } from '@/lib/indexing'
-import { habitatImage } from '@/lib/localImages'
+import { habitatImage, pokemonImage } from '@/lib/localImages'
 
 type SourceReviewFields = {
   sources?: { label?: string; url?: string }[]
@@ -187,10 +187,13 @@ export default async function HabitatDetailPage({ params }: Props) {
             </div>
             <div className="habitat-spawn-grid">
               {relatedPokemon.map((p) => (
-                <a key={p.id} href={`/wiki/pokemon/${p.id}`}>
-                  <strong>{p.name}</strong>
-                  <span>{p.type} · {p.specialty}</span>
-                  <small>{p.spawn_time} / {p.weather}</small>
+                <a key={p.id} href={`/wiki/pokemon/${p.id}`} style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-2)' }}>
+                  <img src={pokemonImage(p.name)} alt={p.name} loading="lazy" style={{ width: 40, height: 40, objectFit: 'contain', flexShrink: 0 }} />
+                  <div>
+                    <strong>{p.name}</strong>
+                    <span>{p.type} · {p.specialty}</span>
+                    <small>{p.spawn_time} / {p.weather}</small>
+                  </div>
                 </a>
               ))}
             </div>
