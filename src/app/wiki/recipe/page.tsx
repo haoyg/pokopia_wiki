@@ -109,6 +109,40 @@ export default function RecipePage() {
         showPolicyLink
       />
 
+      {/* Featured recipes strip */}
+      <section style={{ padding: 'var(--space-5) 0', background: 'var(--color-bg-alt)', borderBottom: '1px solid var(--color-border)' }}>
+        <div style={{ maxWidth: 1100, margin: '0 auto', padding: '0 var(--space-4)' }}>
+          <div style={{ marginBottom: 'var(--space-4)' }}>
+            <p style={{ color: 'var(--color-secondary)', fontWeight: 800, textTransform: 'uppercase', fontSize: 'var(--font-size-xs)', margin: 0 }}>Crafting</p>
+            <h2 style={{ margin: '4px 0 0', fontSize: 'var(--font-size-xl)', fontWeight: 900 }}>Featured Recipes</h2>
+          </div>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))', gap: 'var(--space-4)' }}>
+            {recipesData.slice(0, 6).map((rec) => (
+              <a key={rec.id} href={`/wiki/recipe/${rec.id}`} className="card" style={{ background: 'var(--color-bg-card)', borderRadius: 'var(--radius-lg)', overflow: 'hidden', textDecoration: 'none', boxShadow: 'var(--shadow-sm)', display: 'flex', alignItems: 'center', gap: 'var(--space-3)', padding: 'var(--space-3)' }}>
+                <div style={{ width: 60, height: 60, flexShrink: 0, background: 'var(--color-bg-alt)', borderRadius: 'var(--radius-md)', overflow: 'hidden', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                  <img
+                    src={recipeImage(rec.id, rec.name)}
+                    alt={rec.name}
+                    loading="lazy"
+                    decoding="async"
+                    style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                  />
+                </div>
+                <div>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-2)', marginBottom: '4px' }}>
+                    <span style={{ fontSize: 'var(--font-size-xs)', fontWeight: 800, color: 'var(--color-text-muted)', textTransform: 'capitalize' }}>{rec.rarity}</span>
+                    <span style={{ fontSize: 'var(--font-size-xs)', color: 'var(--color-text-muted)' }}>·</span>
+                    <span style={{ fontSize: 'var(--font-size-xs)', color: 'var(--color-text-muted)' }}>{rec.effect_duration}</span>
+                  </div>
+                  <p style={{ margin: 0, fontWeight: 800, fontSize: 'var(--font-size-base)', color: 'var(--color-text)' }}>{rec.name}</p>
+                  <p style={{ margin: '2px 0 0', fontSize: 'var(--font-size-xs)', color: 'var(--color-text-secondary)' }}>{rec.buff}</p>
+                </div>
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <section className="index-guide-panel">
         <div className="section-title-row">
           <div>

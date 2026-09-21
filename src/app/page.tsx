@@ -1,6 +1,11 @@
 import type { Metadata } from 'next'
+import pokemonData from '@/data/pokemon.json'
+import habitatData from '@/data/habitats.json'
+import recipeData from '@/data/recipes.json'
 import { canonicalUrl } from '@/lib/site'
 import { WebPageJsonLd } from '@/components/seo/JsonLd'
+import { CreditedImage } from '@/components/media/CreditedImage'
+import { pokemonImage, habitatImage, recipeImage } from '@/lib/localImages'
 
 export const metadata: Metadata = {
   title: 'Pokopia Wiki – Complete Game Guide, Pokemon Database & Tools | Pokopia Cloud',
@@ -177,6 +182,107 @@ export default function HomePage() {
               <p>{guide.description}</p>
             </a>
           ))}
+        </div>
+      </section>
+
+      {/* Featured Pokemon strip */}
+      <section style={{ padding: 'var(--space-6) 0', background: 'var(--color-bg-alt)', borderTop: '1px solid var(--color-border)', borderBottom: '1px solid var(--color-border)' }}>
+        <div style={{ maxWidth: 1100, margin: '0 auto', padding: '0 var(--space-4)' }}>
+          <div style={{ marginBottom: 'var(--space-4)', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+            <div>
+              <p style={{ color: 'var(--color-secondary)', fontWeight: 800, textTransform: 'uppercase', fontSize: 'var(--font-size-xs)', margin: 0 }}>Database</p>
+              <h2 style={{ margin: '4px 0 0', fontSize: 'var(--font-size-xl)', fontWeight: 900 }}>Featured Pokemon</h2>
+            </div>
+            <a href="/wiki/pokemon" style={{ color: 'var(--color-secondary)', fontWeight: 800, fontSize: 'var(--font-size-sm)' }}>View all {pokemonData.length} →</a>
+          </div>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(130px, 1fr))', gap: 'var(--space-3)' }}>
+            {pokemonData.slice(0, 8).map((p) => (
+              <a key={p.id} href={`/wiki/pokemon/${p.id}`} className="card" style={{ background: 'var(--color-bg-card)', borderRadius: 'var(--radius-lg)', overflow: 'hidden', textDecoration: 'none', boxShadow: 'var(--shadow-sm)', display: 'block' }}>
+                <div style={{ aspectRatio: '1', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: 'var(--space-2)' }}>
+                  <img
+                    src={p.image_url && !p.image_url.startsWith('http') ? p.image_url : pokemonImage(p.name)}
+                    alt={p.name}
+                    loading="lazy"
+                    decoding="async"
+                    style={{ width: '100%', height: '100%', objectFit: 'contain' }}
+                  />
+                </div>
+                <div style={{ padding: '0 var(--space-2) var(--space-2)' }}>
+                  <p style={{ margin: 0, fontWeight: 800, fontSize: 'var(--font-size-sm)', color: 'var(--color-text)', textAlign: 'center' }}>{p.name}</p>
+                  <p style={{ margin: '2px 0 0', fontSize: 'var(--font-size-xs)', color: 'var(--color-text-secondary)', textAlign: 'center' }}>{p.type}</p>
+                </div>
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Featured Habitats strip */}
+      <section style={{ padding: 'var(--space-6) 0' }}>
+        <div style={{ maxWidth: 1100, margin: '0 auto', padding: '0 var(--space-4)' }}>
+          <div style={{ marginBottom: 'var(--space-4)', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+            <div>
+              <p style={{ color: 'var(--color-secondary)', fontWeight: 800, textTransform: 'uppercase', fontSize: 'var(--font-size-xs)', margin: 0 }}>Routes</p>
+              <h2 style={{ margin: '4px 0 0', fontSize: 'var(--font-size-xl)', fontWeight: 900 }}>Featured Habitats</h2>
+            </div>
+            <a href="/wiki/habitat" style={{ color: 'var(--color-secondary)', fontWeight: 800, fontSize: 'var(--font-size-sm)' }}>View all {habitatData.length} →</a>
+          </div>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(240px, 1fr))', gap: 'var(--space-4)' }}>
+            {habitatData.slice(0, 6).map((hab) => (
+              <a key={hab.id} href={`/wiki/habitat/${hab.id}`} className="card" style={{ background: 'var(--color-bg-card)', borderRadius: 'var(--radius-lg)', overflow: 'hidden', textDecoration: 'none', boxShadow: 'var(--shadow-sm)', display: 'flex', flexDirection: 'column' }}>
+                <div style={{ height: 120, overflow: 'hidden', background: 'var(--color-bg-alt)' }}>
+                  <img
+                    src={hab.image_url && !hab.image_url.startsWith('http') ? hab.image_url : habitatImage(hab.id, hab.name)}
+                    alt={hab.name}
+                    loading="lazy"
+                    decoding="async"
+                    style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                  />
+                </div>
+                <div style={{ padding: 'var(--space-3)', flex: 1 }}>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-2)', marginBottom: '4px' }}>
+                    <span className={`badge ${hab.difficulty}`}>{hab.difficulty}</span>
+                    <span style={{ fontSize: 'var(--font-size-xs)', color: 'var(--color-text-secondary)' }}>{hab.weather}</span>
+                  </div>
+                  <p style={{ margin: 0, fontWeight: 800, fontSize: 'var(--font-size-base)', color: 'var(--color-text)' }}>{hab.name}</p>
+                  <p style={{ margin: '4px 0 0', fontSize: 'var(--font-size-xs)', color: 'var(--color-text-secondary)' }}>{hab.resource_bonus}</p>
+                </div>
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Featured Recipes strip */}
+      <section style={{ padding: 'var(--space-6) 0', background: 'var(--color-bg-alt)', borderTop: '1px solid var(--color-border)', borderBottom: '1px solid var(--color-border)' }}>
+        <div style={{ maxWidth: 1100, margin: '0 auto', padding: '0 var(--space-4)' }}>
+          <div style={{ marginBottom: 'var(--space-4)', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+            <div>
+              <p style={{ color: 'var(--color-secondary)', fontWeight: 800, textTransform: 'uppercase', fontSize: 'var(--font-size-xs)', margin: 0 }}>Crafting</p>
+              <h2 style={{ margin: '4px 0 0', fontSize: 'var(--font-size-xl)', fontWeight: 900 }}>Featured Recipes</h2>
+            </div>
+            <a href="/wiki/recipe" style={{ color: 'var(--color-secondary)', fontWeight: 800, fontSize: 'var(--font-size-sm)' }}>View all {recipeData.length} →</a>
+          </div>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))', gap: 'var(--space-4)' }}>
+            {recipeData.slice(0, 6).map((rec) => (
+              <a key={rec.id} href={`/wiki/recipe/${rec.id}`} className="card" style={{ background: 'var(--color-bg-card)', borderRadius: 'var(--radius-lg)', overflow: 'hidden', textDecoration: 'none', boxShadow: 'var(--shadow-sm)', display: 'flex', alignItems: 'center', gap: 'var(--space-3)', padding: 'var(--space-3)' }}>
+                <div style={{ width: 56, height: 56, flexShrink: 0, background: 'var(--color-bg-alt)', borderRadius: 'var(--radius-md)', display: 'flex', alignItems: 'center', justifyContent: 'center', overflow: 'hidden' }}>
+                  <img
+                    src={recipeImage(rec.id, rec.name)}
+                    alt={rec.name}
+                    loading="lazy"
+                    decoding="async"
+                    style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                  />
+                </div>
+                <div>
+                  <p style={{ margin: 0, fontWeight: 800, fontSize: 'var(--font-size-sm)', color: 'var(--color-text)' }}>{rec.name}</p>
+                  <p style={{ margin: '2px 0 0', fontSize: 'var(--font-size-xs)', color: 'var(--color-text-secondary)' }}>{rec.buff}</p>
+                  <span style={{ fontSize: 'var(--font-size-xs)', color: 'var(--color-text-muted)' }}>{rec.rarity}</span>
+                </div>
+              </a>
+            ))}
+          </div>
         </div>
       </section>
 

@@ -68,7 +68,12 @@
       "Read(//tmp/**)",
       "Skill(gsd-ui-review)",
       "Bash(echo \"EXIT:$?\")",
-      "WebFetch(domain:minecraft.wiki)"
+      "WebFetch(domain:minecraft.wiki)",
+      "WebFetch(domain:unsplash.com)",
+      "Bash(rm /tmp/test_pexels.jpg)",
+      "Bash(python3 -c \"import sys,json; data=json.load\\(sys.stdin\\); [print\\(r['title']\\) for r in data['query']['search']]\")",
+      "Bash(rm /tmp/test.jpg)",
+      "Bash(rm /tmp/test_wiki.jpg)"
     ]
   }
 }

@@ -101,6 +101,41 @@ export default function HabitatPage() {
         showPolicyLink
       />
 
+      {/* Featured habitats strip */}
+      <section style={{ padding: 'var(--space-5) 0', background: 'var(--color-bg-alt)', borderBottom: '1px solid var(--color-border)' }}>
+        <div style={{ maxWidth: 1100, margin: '0 auto', padding: '0 var(--space-4)' }}>
+          <div style={{ marginBottom: 'var(--space-4)', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+            <div>
+              <p style={{ color: 'var(--color-secondary)', fontWeight: 800, textTransform: 'uppercase', fontSize: 'var(--font-size-xs)', margin: 0 }}>Route Highlights</p>
+              <h2 style={{ margin: '4px 0 0', fontSize: 'var(--font-size-xl)', fontWeight: 900 }}>Featured Habitats</h2>
+            </div>
+          </div>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))', gap: 'var(--space-4)' }}>
+            {habitatsData.slice(0, 6).map((hab) => (
+              <a key={hab.id} href={`/wiki/habitat/${hab.id}`} className="card" style={{ background: 'var(--color-bg-card)', borderRadius: 'var(--radius-lg)', overflow: 'hidden', textDecoration: 'none', boxShadow: 'var(--shadow-sm)', display: 'flex', flexDirection: 'column' }}>
+                <div style={{ height: 110, overflow: 'hidden', background: 'var(--color-bg-alt)' }}>
+                  <img
+                    src={hab.image_url && !hab.image_url.startsWith('http') ? hab.image_url : habitatImage(hab.id, hab.name)}
+                    alt={hab.name}
+                    loading="lazy"
+                    decoding="async"
+                    style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                  />
+                </div>
+                <div style={{ padding: 'var(--space-2) var(--space-3)', flex: 1 }}>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-2)', marginBottom: '4px' }}>
+                    <span className={`badge ${hab.difficulty}`}>{hab.difficulty}</span>
+                    <span style={{ fontSize: 'var(--font-size-xs)', color: 'var(--color-text-muted)' }}>{hab.weather}</span>
+                  </div>
+                  <p style={{ margin: 0, fontWeight: 800, fontSize: 'var(--font-size-sm)', color: 'var(--color-text)' }}>{hab.name}</p>
+                  <p style={{ margin: '2px 0 0', fontSize: 'var(--font-size-xs)', color: 'var(--color-text-secondary)' }}>{hab.resource_bonus}</p>
+                </div>
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <section className="index-guide-panel">
         <div className="section-title-row">
           <div>

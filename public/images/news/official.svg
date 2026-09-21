@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="450" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:hsl(210,70%,25%);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:hsl(240,60%,15%);stop-opacity:1" />
+    </linearGradient>
+    <pattern id="dots" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <circle cx="20" cy="20" r="2" fill="rgba(255,255,255,0.1)"/>
+    </pattern>
+    <pattern id="lines" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="20" y2="20" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)"/>
+  <rect width="800" height="450" fill="url(#dots)"/>
+  <rect width="800" height="450" fill="url(#lines)"/>
+  <circle cx="650" cy="380" r="120" fill="rgba(255,255,255,0.05)"/>
+  <circle cx="100" cy="80" r="80" fill="rgba(255,255,255,0.04)"/>
+  <rect x="0" y="0" width="800" height="6" fill="#2f84d8" opacity="0.6"/>
+  <rect x="0" y="444" width="800" height="6" fill="#2f84d8" opacity="0.4"/>
+</svg>

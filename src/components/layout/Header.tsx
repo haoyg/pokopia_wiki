@@ -2,12 +2,14 @@ import Link from 'next/link'
 
 const navItems = [
   { href: '/', label: 'Home' },
-  { href: '/official', label: 'Official Sources' },
-  { href: '/news', label: 'News' },
+  { href: '/wiki/pokemon', label: 'Pokemon' },
+  { href: '/wiki/habitat', label: 'Habitats' },
+  { href: '/wiki/recipe', label: 'Recipes' },
   { href: '/guides', label: 'Guides' },
+  { href: '/tier-list', label: 'Tier List' },
+  { href: '/news', label: 'News' },
   { href: '/tools', label: 'Tools' },
-  { href: '/features', label: 'Features' },
-  { href: '/about', label: 'About' },
+  { href: '/builds', label: 'Builds' },
 ]
 
 export function Header() {

@@ -383,6 +383,16 @@
       "width": 690
     }
   ],
+  "/images/habitats/001.png": [
+    {
+      "src": "/images/habitats/001-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/habitats/001-800.webp",
+      "width": 800
+    }
+  ],
   "/images/habitats/002.png": [
     {
       "src": "/images/habitats/002-200.webp",
@@ -675,6 +685,196 @@
     {
       "src": "/images/habitats/050-200.webp",
       "width": 200
+    }
+  ],
+  "/images/habitats/051.png": [
+    {
+      "src": "/images/habitats/051-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/habitats/051-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/habitats/052.png": [
+    {
+      "src": "/images/habitats/052-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/habitats/052-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/habitats/053.png": [
+    {
+      "src": "/images/habitats/053-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/habitats/053-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/habitats/054.png": [
+    {
+      "src": "/images/habitats/054-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/habitats/054-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/habitats/055.png": [
+    {
+      "src": "/images/habitats/055-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/habitats/055-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/habitats/056.png": [
+    {
+      "src": "/images/habitats/056-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/habitats/056-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/habitats/057.png": [
+    {
+      "src": "/images/habitats/057-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/habitats/057-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/habitats/058.png": [
+    {
+      "src": "/images/habitats/058-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/habitats/058-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/habitats/059.png": [
+    {
+      "src": "/images/habitats/059-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/habitats/059-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/habitats/060.png": [
+    {
+      "src": "/images/habitats/060-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/habitats/060-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/habitats/061.png": [
+    {
+      "src": "/images/habitats/061-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/habitats/061-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/habitats/062.png": [
+    {
+      "src": "/images/habitats/062-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/habitats/062-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/habitats/063.png": [
+    {
+      "src": "/images/habitats/063-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/habitats/063-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/habitats/064.png": [
+    {
+      "src": "/images/habitats/064-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/habitats/064-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/habitats/065.png": [
+    {
+      "src": "/images/habitats/065-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/habitats/065-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/habitats/066.png": [
+    {
+      "src": "/images/habitats/066-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/habitats/066-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/habitats/067.png": [
+    {
+      "src": "/images/habitats/067-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/habitats/067-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/habitats/068.png": [
+    {
+      "src": "/images/habitats/068-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/habitats/068-800.webp",
+      "width": 800
+    }
+  ],
+  "/images/habitats/069.png": [
+    {
+      "src": "/images/habitats/069-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/habitats/069-800.webp",
+      "width": 800
     }
   ],
   "/images/items/abandoned-power-plant-kit.png": [

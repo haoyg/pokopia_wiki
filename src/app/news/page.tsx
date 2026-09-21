@@ -105,7 +105,7 @@ export default function NewsPage() {
 
       <section className="news-lead-panel">
         <a href={`/news/${leadNews.slug}`} className="news-lead-card">
-          <CreditedImage src={leadNews.image_url} alt={leadNews.image_alt} source={leadNews.image_source} sourceUrl={leadNews.image_source_url} licenseNote={leadNews.image_license_note} originalMedia={leadNews.image_original_media} rightsStatus={leadNews.image_rights_status} className="news-lead-image" sizes="(max-width: 768px) 100vw, 620px" priority creditLink={false} fallbackSrc={newsImage(leadNews.slug)} fallbackAlt={`${leadNews.title} news illustration`} />
+          <CreditedImage src={leadNews.image_url} alt={leadNews.image_alt} source={leadNews.image_source} sourceUrl={leadNews.image_source_url} licenseNote={leadNews.image_license_note} originalMedia={leadNews.image_original_media} rightsStatus={leadNews.image_rights_status} className="news-lead-image" sizes="(max-width: 768px) 100vw, 620px" priority creditLink={false} fallbackSrc={newsImage(leadNews.slug, leadNews.category)} fallbackAlt={`${leadNews.title} news illustration`} />
           <div>
             <span className={`badge ${leadNews.category}`}>{categoryLabels[leadNews.category] || leadNews.category}</span>
             <h2>{leadNews.title}</h2>
@@ -134,6 +134,41 @@ export default function NewsPage() {
           <div>
             {Object.entries(sourceCounts).map(([source, count]) => (
               <span key={source}>{source}: {count}</span>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Featured News strip */}
+      <section style={{ padding: 'var(--space-6) 0', background: 'var(--color-bg-alt)', borderTop: '1px solid var(--color-border)', borderBottom: '1px solid var(--color-border)' }}>
+        <div style={{ maxWidth: 1100, margin: '0 auto', padding: '0 var(--space-4)' }}>
+          <div style={{ marginBottom: 'var(--space-4)', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+            <div>
+              <p style={{ color: 'var(--color-secondary)', fontWeight: 800, textTransform: 'uppercase', fontSize: 'var(--font-size-xs)', margin: 0 }}>Latest</p>
+              <h2 style={{ margin: '4px 0 0', fontSize: 'var(--font-size-xl)', fontWeight: 900 }}>Recent Updates</h2>
+            </div>
+          </div>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))', gap: 'var(--space-4)' }}>
+            {newsData.slice(1, 5).map((item) => (
+              <a key={item.id} href={`/news/${item.slug}`} className="card" style={{ background: 'var(--color-bg-card)', borderRadius: 'var(--radius-lg)', overflow: 'hidden', textDecoration: 'none', boxShadow: 'var(--shadow-sm)', display: 'flex', flexDirection: 'column' }}>
+                <div style={{ height: 140, overflow: 'hidden', background: 'var(--color-bg-alt)' }}>
+                  <img
+                    src={item.image_url && !item.image_url.startsWith('http') ? item.image_url : newsImage(item.slug, item.category) || '/images/news/official.svg'}
+                    alt={item.title}
+                    loading="lazy"
+                    decoding="async"
+                    style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                  />
+                </div>
+                <div style={{ padding: 'var(--space-3)', flex: 1 }}>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-2)', marginBottom: '6px' }}>
+                    <span className={`badge ${item.category}`} style={{ fontSize: 'var(--font-size-xs)' }}>{categoryLabels[item.category] || item.category}</span>
+                    <span style={{ fontSize: 'var(--font-size-xs)', color: 'var(--color-text-muted)' }}>{new Date(item.published_at * 1000).toLocaleDateString()}</span>
+                  </div>
+                  <p style={{ margin: 0, fontWeight: 800, fontSize: 'var(--font-size-base)', color: 'var(--color-text)', lineHeight: 1.3 }}>{item.title}</p>
+                  <p style={{ margin: '6px 0 0', fontSize: 'var(--font-size-xs)', color: 'var(--color-text-secondary)', overflow: 'hidden', display: '-webkit-box', WebkitLineClamp: 2, WebkitBoxOrient: 'vertical' }}>{item.excerpt}</p>
+                </div>
+              </a>
             ))}
           </div>
         </div>
@@ -171,7 +206,7 @@ export default function NewsPage() {
       <div className="news-grid">
         {newsData.slice(1).map((item) => (
           <a key={item.id} href={`/news/${item.slug}`} className="card">
-            <CreditedImage src={item.image_url} alt={item.image_alt} source={item.image_source} sourceUrl={item.image_source_url} licenseNote={item.image_license_note} originalMedia={item.image_original_media} rightsStatus={item.image_rights_status} creditLink={false} fallbackSrc={newsImage(item.slug)} fallbackAlt={`${item.title} news illustration`} />
+            <CreditedImage src={item.image_url} alt={item.image_alt} source={item.image_source} sourceUrl={item.image_source_url} licenseNote={item.image_license_note} originalMedia={item.image_original_media} rightsStatus={item.image_rights_status} creditLink={false} fallbackSrc={newsImage(item.slug, item.category)} fallbackAlt={`${item.title} news illustration`} />
             <span className={`badge ${item.category}`}>{categoryLabels[item.category] || item.category}</span>
             <h3>{item.title}</h3>
             <p>{item.excerpt}</p>

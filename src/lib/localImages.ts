@@ -9,12 +9,12 @@ export function guideImage(slug: string) {
   return `/images/guides/${slug}.svg`
 }
 
-export function newsImage(slug: string) {
+export function newsImage(slug: string, category?: string) {
   const newsImages: Record<string, string> = {
     'pokopia-dive-update-how-to-unlock-dive': '/images/news/pokopia-dive-update-cover.png',
     'pokopia-expansion-pass-bubbly-basin-bonuses': '/images/news/pokopia-bubbly-basin-cover.png',
   }
-  return newsImages[slug]
+  return newsImages[slug] || (category ? `/images/news/${category}.svg` : undefined)
 }
 
 export function pokemonImage(name: string) {

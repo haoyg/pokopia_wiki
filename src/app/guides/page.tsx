@@ -99,6 +99,39 @@ export default function GuidesPage() {
         description="Use official source pages for confirmed gameplay, release, and beginner details. Individual guides add editorial route advice on top of that baseline."
       />
 
+      {/* Featured guides strip */}
+      <section style={{ padding: 'var(--space-5) 0', background: 'var(--color-bg-alt)', borderBottom: '1px solid var(--color-border)' }}>
+        <div style={{ maxWidth: 1100, margin: '0 auto', padding: '0 var(--space-4)' }}>
+          <div style={{ marginBottom: 'var(--space-4)' }}>
+            <p style={{ color: 'var(--color-secondary)', fontWeight: 800, textTransform: 'uppercase', fontSize: 'var(--font-size-xs)', margin: 0 }}>Popular</p>
+            <h2 style={{ margin: '4px 0 0', fontSize: 'var(--font-size-xl)', fontWeight: 900 }}>Featured Guides</h2>
+          </div>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(320px, 1fr))', gap: 'var(--space-4)' }}>
+            {publishedGuides.slice(0, 6).map((guide) => (
+              <a key={guide.id} href={`/guides/${guide.slug}`} className="card" style={{ background: 'var(--color-bg-card)', borderRadius: 'var(--radius-lg)', overflow: 'hidden', textDecoration: 'none', boxShadow: 'var(--shadow-sm)', display: 'flex', flexDirection: 'column' }}>
+                <div style={{ height: 120, overflow: 'hidden', background: 'var(--color-bg-alt)' }}>
+                  <img
+                    src={guide.image_url && !guide.image_url.startsWith('http') ? guide.image_url : guideImage(guide.slug)}
+                    alt={guide.title}
+                    loading="lazy"
+                    decoding="async"
+                    style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                  />
+                </div>
+                <div style={{ padding: 'var(--space-3)', flex: 1 }}>
+                  <div style={{ display: 'flex', gap: 'var(--space-2)', marginBottom: '6px' }}>
+                    <span className="badge" style={{ fontSize: 'var(--font-size-xs)' }}>{categoryLabels[guide.category] || guide.category}</span>
+                    <span style={{ fontSize: 'var(--font-size-xs)', color: 'var(--color-text-muted)' }}>{guide.steps.length} steps</span>
+                  </div>
+                  <p style={{ margin: 0, fontWeight: 800, fontSize: 'var(--font-size-base)', color: 'var(--color-text)' }}>{guide.title}</p>
+                  <p style={{ margin: '4px 0 0', fontSize: 'var(--font-size-xs)', color: 'var(--color-text-secondary)', overflow: 'hidden', display: '-webkit-box', WebkitLineClamp: 2, WebkitBoxOrient: 'vertical' }}>{shortText(guide.answer || guide.seo_keyword, 100)}</p>
+                </div>
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <section className="features-lead-section">
         <div className="section-title-row">
           <div>
