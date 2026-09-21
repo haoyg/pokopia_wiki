@@ -51,13 +51,13 @@ export function newsImage(slug: string, category?: string) {
 }
 
 export function pokemonImage(name: string) {
-  return `/images/pokemon/${assetSlug(name)}.svg`
+  return `/images/pokemon/${assetSlug(name)}.png`
 }
 
 export function habitatImage(id: string, name: string) {
-  return `/images/habitats/${id}-${assetSlug(name)}.svg`
+  return `/images/habitats/${id}-${assetSlug(name)}.png`
 }
 
 export function recipeImage(id: string, name: string) {
-  return `/images/recipes/${id}-${assetSlug(name)}.svg`
+  return `/images/recipes/${id}-${assetSlug(name)}.png`
 }
