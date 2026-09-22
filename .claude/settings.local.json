@@ -80,7 +80,8 @@
       "WebFetch(domain:pokopia.pokemon.com)",
       "WebFetch(domain:www.reddit.com)",
       "WebFetch(domain:bulbapedia.bulbagarden.net)",
-      "Bash(NODE_OPTIONS=\"--max-old-space-size=4096\" npm run build)"
+      "Bash(NODE_OPTIONS=\"--max-old-space-size=4096\" npm run build)",
+      "WebFetch(domain:48338357.pokopia-wiki.pages.dev)"
     ]
   }
 }
