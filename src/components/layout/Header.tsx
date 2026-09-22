@@ -6,14 +6,11 @@ import { useState } from 'react'
 
 const navItems = [
   { href: '/', label: 'Home' },
-  { href: '/wiki/pokemon', label: 'Pokemon' },
-  { href: '/wiki/habitat', label: 'Habitats' },
-  { href: '/wiki/recipe', label: 'Recipes' },
-  { href: '/guides', label: 'Guides' },
-  { href: '/tier-list', label: 'Tier List' },
+  { href: '/official', label: 'Official Info' },
   { href: '/news', label: 'News' },
-  { href: '/tools', label: 'Tools' },
-  { href: '/builds', label: 'Builds' },
+  { href: '/features', label: 'Features' },
+  { href: '/source-policy', label: 'Source Policy' },
+  { href: '/corrections', label: 'Corrections' },
 ]
 
 export function Header() {
@@ -33,7 +30,7 @@ export function Header() {
           />
           <span>
             <strong>Pokopia Portal</strong>
-            <small>Source-aware wiki and tools</small>
+            <small>Source-checked Pokopia reference</small>
           </span>
         </Link>
 
@@ -41,7 +38,7 @@ export function Header() {
           <input
             type="search"
             name="q"
-            placeholder="Search Pokemon, guides, habitats..."
+            placeholder="Search official info and updates..."
             aria-label="Search Pokopia Portal"
           />
           <button type="submit">Search</button>

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T07:04:54.202Z",
+  "generatedAt": "2026-09-22T07:25:02.872Z",
   "policy": "Do not issue a 301 without an evidence-backed equivalent. Use 410 only after manual review confirms no replacement.",
   "urls": [
     {

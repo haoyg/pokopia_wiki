@@ -19,22 +19,16 @@ const typeLabels: Record<SearchResult['type'], string> = {
 
 const quickPaths = [
   {
-    href: '/guides/beginner-route',
-    title: 'Beginner Route',
-    description: 'Start with starter choices, easy habitats, recipes, and tools.',
+    href: '/official/official-beginner-tips',
+    title: 'Official Beginner Tips',
+    description: 'Start with a cited roundup of officially published beginner information.',
     label: 'Start',
   },
   {
-    href: '/guides/rare-farming-route',
-    title: 'Rare Farming Route',
-    description: 'Plan Lucky Charm timing, rare targets, habitats, and recipes.',
-    label: 'Guide',
-  },
-  {
-    href: '/builds/home-design-ideas',
-    title: 'Home Design Ideas',
-    description: 'Use text-based building concepts for cozy layouts and route-friendly spaces.',
-    label: 'Build',
+    href: '/official/gameplay-overview',
+    title: 'Gameplay Overview',
+    description: 'Review confirmed systems and the sources behind them.',
+    label: 'Official',
   },
   {
     href: '/features/creative-play-ideas',
@@ -49,18 +43,18 @@ const quickPaths = [
     label: 'News',
   },
   {
-    href: '/tools/team-builder',
-    title: 'Team Builder',
-    description: 'Draft a balanced team by role, type coverage, route goal, and supporting recipes.',
-    label: 'Tool',
+    href: '/source-policy',
+    title: 'Source Policy',
+    description: 'See what evidence a page needs before it can enter search.',
+    label: 'Trust',
   },
 ]
 
 const topicSearches = [
   { href: '/search?q=official%20gameplay', label: 'Official gameplay' },
-  { href: '/search?q=recipe%20calculator', label: 'Recipe calculator' },
-  { href: '/search?q=habitat%20planner', label: 'Habitat planner' },
-  { href: '/search?q=pokemon%20database', label: 'Pokemon database' },
+  { href: '/search?q=release%20date', label: 'Release date' },
+  { href: '/search?q=multiplayer', label: 'Multiplayer' },
+  { href: '/search?q=official%20beginner', label: 'Beginner tips' },
   { href: '/search?q=animal%20crossing', label: 'Animal Crossing' },
   { href: '/search?q=friendship%20requests', label: 'Friendship requests' },
 ]

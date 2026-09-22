@@ -150,9 +150,9 @@ export default function HomePage() {
           <h1>Pokopia Wiki with Sources First</h1>
           <p>Official information and source-checked guides, with unverified database pages kept out of search.</p>
           <div className="hero-actions">
-            <a href="/wiki/pokemon">Browse Pokemon</a>
-            <a href="/guides">Read Guides</a>
-            <a href="/tools">Use Tools</a>
+            <a href="/official">Browse Official Info</a>
+            <a href="/news">Read Updates</a>
+            <a href="/source-policy">Review Sources</a>
           </div>
         </div>
       </section>

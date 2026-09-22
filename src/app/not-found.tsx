@@ -33,15 +33,15 @@ export default function NotFound() {
             <strong>Official Beginner Tips</strong>
             <span>Start with confirmed guidance</span>
           </Link>
-          <Link href="/guides">
-            <span className="badge tier">Guides</span>
-            <strong>Source-Backed Guides</strong>
-            <span>Browse reviewed route pages</span>
+          <Link href="/official/gameplay-overview">
+            <span className="badge tier">Official</span>
+            <strong>Gameplay Overview</strong>
+            <span>Review confirmed systems</span>
           </Link>
-          <Link href="/tools/habitat-planner">
-            <span className="badge farming">Tool</span>
-            <strong>Habitat Planner</strong>
-            <span>Plan your farming routes</span>
+          <Link href="/source-policy">
+            <span className="badge farming">Trust</span>
+            <strong>Source Policy</strong>
+            <span>See how claims are verified</span>
           </Link>
           <Link href="/news">
             <span className="badge update">News</span>
@@ -57,7 +57,7 @@ export default function NotFound() {
           <input
             type="search"
             name="q"
-            placeholder="Search Pokemon, guides, habitats..."
+            placeholder="Search official info and updates..."
             aria-label="Search Pokopia Portal"
           />
           <button type="submit">Search</button>

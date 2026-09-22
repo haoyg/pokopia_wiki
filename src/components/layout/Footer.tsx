@@ -12,12 +12,11 @@ const footerGroups = [
     ],
   },
   {
-    title: 'Guides',
+    title: 'Official Info',
     links: [
-      { href: '/guides', label: 'Guides Hub' },
-      { href: '/guides/legendary-locations-guide', label: 'Legendary Locations' },
-      { href: '/guides/frost-peak-guide', label: 'Frost Peak Guide' },
-      { href: '/guides/thunder-arena-guide', label: 'Thunder Arena Guide' },
+      { href: '/official', label: 'Official Info Hub' },
+      { href: '/official/release-date-platform-price', label: 'Release and Platform' },
+      { href: '/official/gameplay-overview', label: 'Gameplay Overview' },
       { href: '/official/official-beginner-tips', label: 'Official Beginner Tips' },
       { href: '/official/multiplayer-gameshare-cloud-island', label: 'Multiplayer Rules' },
     ],
@@ -30,16 +29,6 @@ const footerGroups = [
       { href: '/features/creative-play-ideas', label: 'Creative Play' },
       { href: '/features/friendship-requests-tracker', label: 'Friendship Requests' },
       { href: '/features/meta-analysis', label: 'Systems Analysis' },
-    ],
-  },
-  {
-    title: 'Tools',
-    links: [
-      { href: '/tools', label: 'Tools Hub' },
-      { href: '/tools/habitat-planner', label: 'Habitat Planner' },
-      { href: '/tools/recipe-calculator', label: 'Recipe Calculator' },
-      { href: '/tools/team-builder', label: 'Team Builder' },
-      { href: '/tools/spawn-tracker', label: 'Spawn Tracker' },
     ],
   },
   {
@@ -64,7 +53,7 @@ export function Footer() {
       <div className="site-footer-inner">
         <div className="site-footer-brand">
           <strong>Pokopia Portal</strong>
-          <p>&copy; 2026 Pokopia Portal. Independent source-aware guides, wiki pages, planning tools, and editorial features.</p>
+          <p>&copy; 2026 Pokopia Portal. Independent source-checked information, news roundups, and editorial features.</p>
           <p>Unofficial fan resource. Not affiliated with, endorsed by, or sponsored by Nintendo, The Pokémon Company, Game Freak, Creatures Inc., or other rights holders.</p>
         </div>
         <nav className="site-footer-nav" aria-label="Footer navigation">

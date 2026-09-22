@@ -28,6 +28,8 @@ Database pages are fail-closed. A Pokemon, habitat, or recipe record is publisha
 
 Community-confirmed claims should include more than one independent source where practical. Record exact field-level disagreements in the editorial review, and use `disputed` until resolved.
 
+Official facts that are not sufficient to populate a full database page belong in `src/data/verified-intake.json`. This intake file is evidence storage, not a publishable Pokédex: do not infer favorite food, spawn window, drops, rarity, habitat, or encounter availability from a trailer appearance or incidental official mention.
+
 ## Removal and migration rules
 
 1. Keep unsafe URLs available with `noindex,follow` during evidence review.
@@ -37,6 +39,8 @@ Community-confirmed claims should include more than one independent source where
 5. Never redirect unrelated removed pages to the homepage.
 
 Generate the working lists with `npm run audit:content`. Review `reports/content-inventory.json` and `reports/url-migration-manifest.json` before changing redirects or status codes.
+
+Run `npm run validate:evidence` before publishing. The validator rejects future or invalid dates, missing game versions, self-referential citations, untyped sources, and records that claim a publishable status without passing the shared indexing gate.
 
 ## Search Console dependency
 

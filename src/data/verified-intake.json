@@ -1,0 +1,28 @@
+{
+  "reviewed_at": "2026-09-22",
+  "status": "official-intake-not-yet-publishable",
+  "pokemon": [
+    { "name": "Ditto", "confirmed_facts": ["Player character", "Uses transformation and crafting abilities"], "source_ids": ["nintendo-game-page"] },
+    { "name": "Tangrowth", "confirmed_facts": ["Described as the remaining resident of the withered land"], "source_ids": ["nintendo-game-page"] },
+    { "name": "Bulbasaur", "confirmed_facts": ["Associated with teaching Leafage"], "source_ids": ["official-pokopia-site"] },
+    { "name": "Squirtle", "confirmed_facts": ["Associated with teaching Water Gun"], "source_ids": ["official-pokopia-site"] },
+    { "name": "Chinchou", "confirmed_facts": ["Appears in Bubbly Basin expansion material", "Generate specialty example"], "source_ids": ["nintendo-game-page"] },
+    { "name": "Sharpedo", "confirmed_facts": ["Sharpedo submarine furniture is documented for Bubbly Basin"], "source_ids": ["nintendo-game-page"] },
+    { "name": "Hitmonchan", "confirmed_facts": ["Required for the Palette Town access request", "Teaches Rock Smash through its request"], "source_ids": ["nintendo-multiplayer-support"] },
+    { "name": "Ho-Oh", "confirmed_facts": ["Referenced in official version 2.0.1 update notes"], "source_ids": ["nintendo-update-support"] },
+    { "name": "Lugia", "confirmed_facts": ["Referenced in official version 2.0.1 update notes"], "source_ids": ["nintendo-update-support"] },
+    { "name": "Smearguru", "confirmed_facts": ["Provides the dynamic Ditto print pattern after the diploma condition"], "source_ids": ["nintendo-update-support"] }
+  ],
+  "locations": [
+    { "name": "Bubbly Basin", "confirmed_facts": ["Part 1 expansion town", "Underwater building area"], "source_ids": ["nintendo-game-page", "nintendo-dlc-support"] },
+    { "name": "Bleak Beach", "confirmed_facts": ["Its environment-level request gates access to Bubbly Basin"], "source_ids": ["nintendo-game-page"] },
+    { "name": "Palette Town", "confirmed_facts": ["Supports visitor co-building", "First access requires the Hitmonchan request"], "source_ids": ["nintendo-multiplayer-support"] }
+  ],
+  "sources": [
+    { "id": "nintendo-game-page", "type": "official", "label": "Nintendo UK Pokémon Pokopia game page", "url": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-2-games/Pokemon-Pokopia-2915161.html" },
+    { "id": "official-pokopia-site", "type": "official", "label": "Official Pokémon Pokopia website", "url": "https://pokopia.pokemon.com/en-us" },
+    { "id": "nintendo-update-support", "type": "official", "label": "Nintendo Support update history", "url": "https://en-americas-support.nintendo.com/app/answers/detail/a_id/71348/p/1095/c/120" },
+    { "id": "nintendo-multiplayer-support", "type": "official", "label": "Nintendo Support multiplayer instructions", "url": "https://en-americas-support.nintendo.com/app/answers/detail/a_id/71349" },
+    { "id": "nintendo-dlc-support", "type": "official", "label": "Nintendo Support DLC information", "url": "https://en-americas-support.nintendo.com/app/answers/detail/a_id/71681/p/1095/c/120" }
+  ]
+}
