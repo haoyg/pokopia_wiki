@@ -4,14 +4,18 @@ import habitatData from '@/data/habitats.json'
 import recipeData from '@/data/recipes.json'
 import { canonicalUrl } from '@/lib/site'
 import { WebPageJsonLd } from '@/components/seo/JsonLd'
-import { CreditedImage } from '@/components/media/CreditedImage'
 import { pokemonImage, habitatImage, recipeImage } from '@/lib/localImages'
 import { HeroBackground } from '@/components/HeroBackground'
+import { isIndexableDatabaseEntry } from '@/lib/indexing'
+
+const verifiedPokemon = pokemonData.filter(isIndexableDatabaseEntry)
+const verifiedHabitats = habitatData.filter(isIndexableDatabaseEntry)
+const verifiedRecipes = recipeData.filter(isIndexableDatabaseEntry)
 
 export const metadata: Metadata = {
-  title: 'Pokopia Wiki – Complete Game Guide, Pokemon Database & Tools | Pokopia Cloud',
+  title: 'Pokopia Wiki — Official Info and Source-Checked Guides | Pokopia Cloud',
   description:
-    'The independent Pokopia Wiki covers every Pokemon entry, habitat route, recipe, and planning tool. Use this structured game reference to find spawn windows, build notes, and step-by-step guides for Pokopia.',
+    'An independent Pokopia wiki focused on official information, cited updates, and source-checked guides. Unverified database records are withheld from search.',
   keywords: [
     'pokopia wiki',
     'pokopia guide',
@@ -22,17 +26,17 @@ export const metadata: Metadata = {
     'pokopia tools',
   ],
   openGraph: {
-    title: 'Pokopia Wiki – Complete Game Guide, Pokemon Database & Tools',
+    title: 'Pokopia Wiki — Official Info and Source-Checked Guides',
     description:
-      'The independent Pokopia Wiki covers every Pokemon entry, habitat route, recipe, and planning tool.',
+      'Official information, cited updates, and source-checked Pokopia guides.',
     images: ['/og-image.svg'],
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Pokopia Wiki – Complete Game Guide, Pokemon Database & Tools',
+    title: 'Pokopia Wiki — Official Info and Source-Checked Guides',
     description:
-      'The independent Pokopia Wiki covers every Pokemon entry, habitat route, recipe, and planning tool.',
+      'Official information, cited updates, and source-checked Pokopia guides.',
     images: ['/og-image.svg'],
   },
   alternates: {
@@ -44,54 +48,54 @@ const portalSections = [
   {
     href: '/wiki/pokemon',
     label: 'Pokemon Database',
-    description: '50+ entries with types, drops, favorite food, spawn windows, and recommended habitats.',
-    tags: ['Collection list', 'Spawn tracker'],
-    tagHrefs: ['/wiki/pokemon?view=collection', '/tools/spawn-tracker'],
+    description: 'Database rebuild in progress. Entries return only after names and gameplay fields have cited evidence.',
+    tags: ['Verification status', 'Official info'],
+    tagHrefs: ['/wiki/pokemon', '/official'],
   },
   {
     href: '/wiki/habitat',
     label: 'Habitat Routes',
-    description: 'Route maps, weather dependencies, difficulty ratings, and recommended team builds.',
-    tags: ['Habitat planner', 'All habitats'],
-    tagHrefs: ['/tools/habitat-planner', '/wiki/habitat'],
+    description: 'Habitat records are quarantined until unlocks, encounters, weather, and route claims are verified.',
+    tags: ['Verification status', 'Source policy'],
+    tagHrefs: ['/wiki/habitat', '/source-policy'],
   },
   {
     href: '/wiki/recipe',
     label: 'Recipe Crafting',
-    description: 'Buff effects, ingredient costs, rarity comparisons, and best-use scenarios.',
-    tags: ['Recipe calculator', 'All recipes'],
-    tagHrefs: ['/tools/recipe-calculator', '/wiki/recipe'],
+    description: 'Recipe records are quarantined until ingredients, effects, duration, and availability are verified.',
+    tags: ['Verification status', 'Corrections'],
+    tagHrefs: ['/wiki/recipe', '/corrections'],
   },
 ]
 
 const featuredGuides = [
   {
-    href: '/guides/training-grounds-beginners',
-    label: 'Beginner Route Guide',
-    description: 'Step-by-step path through the first 20 hours — habitat order, team building, and resource priorities.',
+    href: '/official/official-beginner-tips',
+    label: 'Official Beginner Tips',
+    description: 'A cited roundup of beginner information published through official Pokopia channels.',
     image: '/images/guides/pokopia-official-2.png',
   },
   {
-    href: '/guides/fast-farming-rare-pokemon',
-    label: 'Rare Farming Route',
-    description: 'Maximize rare material drops by chaining optimal habitat sequences and weather windows.',
+    href: '/official/gameplay-overview',
+    label: 'Confirmed Gameplay Overview',
+    description: 'Review confirmed systems and follow each claim back to its published source.',
     image: '/images/guides/pokopia-official-5.png',
   },
   {
-    href: '/guides/complete-recipe-list',
-    label: 'Recipe Planning Route',
-    description: 'Which recipes to craft first, how to accumulate ingredients efficiently, and when to save for legendaries.',
+    href: '/official/release-date-platform-price',
+    label: 'Release and Platform Details',
+    description: 'Source-linked release, platform, and availability information.',
     image: '/images/guides/pokopia-game-artwork.png',
   },
   {
-    href: '/guides',
-    label: 'All Guides',
-    description: 'Browse the full guide library — one question answered per page, searchable by topic.',
-    image: '/images/guides/best-starter-pokemon.svg',
+    href: '/news',
+    label: 'News and Source Updates',
+    description: 'Follow official announcements, trailers, and dated source roundups.',
+    image: '/images/guides/best-starter-pokemon.png',
   },
 ]
 
-const tools = [
+const tools: Array<{ href: string; label: string; description: string; tags: string[] }> = [
   {
     href: '/tools/spawn-tracker',
     label: 'Spawn Tracker',
@@ -116,15 +120,15 @@ const tools = [
     description: 'Draft team compositions, evaluate role coverage, and score your roster against meta benchmarks.',
     tags: ['Role balance', 'Type coverage'],
   },
-]
+].filter(() => false)
 
 const quickLinks = [
-  { href: '/guides/beginner-route', label: 'New to Pokopia? Start here' },
-  { href: '/wiki/habitat', label: 'Find the right habitat' },
-  { href: '/tools/spawn-tracker', label: 'Track spawn windows' },
-  { href: '/tools/team-builder', label: 'Build a team' },
-  { href: '/tools/recipe-calculator', label: 'Optimize crafting' },
-  { href: '/news', label: 'Follow patch notes' },
+  { href: '/official/official-beginner-tips', label: 'New to Pokopia? Start here' },
+  { href: '/official/gameplay-overview', label: 'Review confirmed gameplay' },
+  { href: '/official/release-date-platform-price', label: 'Check release information' },
+  { href: '/official/multiplayer-gameshare-cloud-island', label: 'Understand multiplayer' },
+  { href: '/source-policy', label: 'How claims are verified' },
+  { href: '/news', label: 'Follow official updates' },
 ]
 
 export default function HomePage() {
@@ -132,8 +136,8 @@ export default function HomePage() {
     <main>
       <WebPageJsonLd
         type="WebPage"
-        name="Pokopia Wiki – Complete Game Guide, Pokemon Database & Tools"
-        description="The independent Pokopia Wiki covers every Pokemon entry, habitat route, recipe, and planning tool."
+        name="Pokopia Wiki — Official Info and Source-Checked Guides"
+        description="Official information, cited updates, and source-checked Pokopia guides."
         url="/"
         dateModified="2026-08-11"
       />
@@ -143,8 +147,8 @@ export default function HomePage() {
         <HeroBackground />
         <div className="hero-inner">
           <span className="hero-kicker">Independent Pokopia Reference</span>
-          <h1>Your Complete Pokopia Guide</h1>
-          <p>Every Pokemon, habitat, recipe, and planning tool — verified and organized.</p>
+          <h1>Pokopia Wiki with Sources First</h1>
+          <p>Official information and source-checked guides, with unverified database pages kept out of search.</p>
           <div className="hero-actions">
             <a href="/wiki/pokemon">Browse Pokemon</a>
             <a href="/guides">Read Guides</a>
@@ -195,10 +199,10 @@ export default function HomePage() {
               <p style={{ color: 'var(--color-secondary)', fontWeight: 800, textTransform: 'uppercase', fontSize: 'var(--font-size-xs)', margin: 0 }}>Database</p>
               <h2 style={{ margin: '4px 0 0', fontSize: 'var(--font-size-xl)', fontWeight: 900 }}>Featured Pokemon</h2>
             </div>
-            <a href="/wiki/pokemon" style={{ color: 'var(--color-secondary)', fontWeight: 800, fontSize: 'var(--font-size-sm)' }}>View all {pokemonData.length} →</a>
+            <a href="/wiki/pokemon" style={{ color: 'var(--color-secondary)', fontWeight: 800, fontSize: 'var(--font-size-sm)' }}>Verification status →</a>
           </div>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(130px, 1fr))', gap: 'var(--space-3)' }}>
-            {pokemonData.slice(0, 8).map((p) => (
+            {verifiedPokemon.slice(0, 8).map((p) => (
               <a key={p.id} href={`/wiki/pokemon/${p.id}`} className="card" style={{ background: 'var(--color-bg-card)', borderRadius: 'var(--radius-lg)', overflow: 'hidden', textDecoration: 'none', boxShadow: 'var(--shadow-sm)', display: 'block' }}>
                 <div style={{ aspectRatio: '1', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: 'var(--space-2)' }}>
                   <img
@@ -227,10 +231,10 @@ export default function HomePage() {
               <p style={{ color: 'var(--color-secondary)', fontWeight: 800, textTransform: 'uppercase', fontSize: 'var(--font-size-xs)', margin: 0 }}>Routes</p>
               <h2 style={{ margin: '4px 0 0', fontSize: 'var(--font-size-xl)', fontWeight: 900 }}>Featured Habitats</h2>
             </div>
-            <a href="/wiki/habitat" style={{ color: 'var(--color-secondary)', fontWeight: 800, fontSize: 'var(--font-size-sm)' }}>View all {habitatData.length} →</a>
+            <a href="/wiki/habitat" style={{ color: 'var(--color-secondary)', fontWeight: 800, fontSize: 'var(--font-size-sm)' }}>Verification status →</a>
           </div>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(240px, 1fr))', gap: 'var(--space-4)' }}>
-            {habitatData.slice(0, 6).map((hab) => (
+            {verifiedHabitats.slice(0, 6).map((hab) => (
               <a key={hab.id} href={`/wiki/habitat/${hab.id}`} className="card" style={{ background: 'var(--color-bg-card)', borderRadius: 'var(--radius-lg)', overflow: 'hidden', textDecoration: 'none', boxShadow: 'var(--shadow-sm)', display: 'flex', flexDirection: 'column' }}>
                 <div style={{ height: 120, overflow: 'hidden', background: 'var(--color-bg-alt)' }}>
                   <img
@@ -263,10 +267,10 @@ export default function HomePage() {
               <p style={{ color: 'var(--color-secondary)', fontWeight: 800, textTransform: 'uppercase', fontSize: 'var(--font-size-xs)', margin: 0 }}>Crafting</p>
               <h2 style={{ margin: '4px 0 0', fontSize: 'var(--font-size-xl)', fontWeight: 900 }}>Featured Recipes</h2>
             </div>
-            <a href="/wiki/recipe" style={{ color: 'var(--color-secondary)', fontWeight: 800, fontSize: 'var(--font-size-sm)' }}>View all {recipeData.length} →</a>
+            <a href="/wiki/recipe" style={{ color: 'var(--color-secondary)', fontWeight: 800, fontSize: 'var(--font-size-sm)' }}>Verification status →</a>
           </div>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))', gap: 'var(--space-4)' }}>
-            {recipeData.slice(0, 6).map((rec) => (
+            {verifiedRecipes.slice(0, 6).map((rec) => (
               <a key={rec.id} href={`/wiki/recipe/${rec.id}`} className="card" style={{ background: 'var(--color-bg-card)', borderRadius: 'var(--radius-lg)', overflow: 'hidden', textDecoration: 'none', boxShadow: 'var(--shadow-sm)', display: 'flex', alignItems: 'center', gap: 'var(--space-3)', padding: 'var(--space-3)' }}>
                 <div style={{ width: 56, height: 56, flexShrink: 0, background: 'var(--color-bg-alt)', borderRadius: 'var(--radius-md)', display: 'flex', alignItems: 'center', justifyContent: 'center', overflow: 'hidden' }}>
                   <img

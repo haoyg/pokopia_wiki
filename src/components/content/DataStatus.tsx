@@ -10,13 +10,18 @@ export function DataStatus({ status, note, updatedAt, showPolicyLink = false }: 
 
   return (
     <aside className="data-status" aria-label="Content data status">
-      <div>
+      <div className="data-status-summary">
         <span className="data-status-label">Content Status</span>
         {status && <strong>{status}</strong>}
+        {updatedAt && <small>Reviewed {updatedAt}</small>}
       </div>
-      {note && <p>{note}</p>}
-      {updatedAt && <small>Last reviewed: {updatedAt}</small>}
-      {showPolicyLink && <a className="data-status-link" href="/editorial-policy">How we review content</a>}
+      {(note || showPolicyLink) && (
+        <details className="data-status-details">
+          <summary>View data limitations</summary>
+          {note && <p>{note}</p>}
+          {showPolicyLink && <a className="data-status-link" href="/editorial-policy">How we review content</a>}
+        </details>
+      )}
     </aside>
   )
 }

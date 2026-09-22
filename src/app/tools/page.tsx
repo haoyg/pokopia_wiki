@@ -2,8 +2,10 @@ import { Metadata } from 'next'
 import { canonicalUrl } from '@/lib/site'
 import { BreadcrumbJsonLd, ItemListJsonLd } from '@/components/seo/JsonLd'
 import { DataStatus } from '@/components/content/DataStatus'
+import { noIndexMetadata } from '@/lib/indexing'
 
 export const metadata: Metadata = {
+  robots: noIndexMetadata,
   title: 'Pokopia Tools: Planner, Tracker, Builder',
   description: 'Use Pokopia tools for team building, spawn tracking, habitat planning, recipe checks, Pokemon pages, and guide routes.',
   keywords: [

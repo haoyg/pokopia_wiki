@@ -1,0 +1,2015 @@
+{
+  "generatedAt": "2026-09-22T07:04:54.202Z",
+  "policy": "Do not issue a 301 without an evidence-backed equivalent. Use 410 only after manual review confirms no replacement.",
+  "urls": [
+    {
+      "from": "/wiki/pokemon/pkm001",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/pokemon/pkm002",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/pokemon/pkm003",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/pokemon/pkm004",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/pokemon/pkm005",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/pokemon/pkm006",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/pokemon/pkm007",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/pokemon/pkm008",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/pokemon/pkm009",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/pokemon/pkm010",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/pokemon/pkm011",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/pokemon/pkm012",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/pokemon/pkm013",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/pokemon/pkm014",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/pokemon/pkm015",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/pokemon/pkm016",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/pokemon/pkm017",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/pokemon/pkm018",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/pokemon/pkm019",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/pokemon/pkm020",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/pokemon/pkm021",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/pokemon/pkm022",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/pokemon/pkm023",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/pokemon/pkm024",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/pokemon/pkm025",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/pokemon/pkm026",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/pokemon/pkm027",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/pokemon/pkm028",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/pokemon/pkm029",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/pokemon/pkm030",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/pokemon/pkm031",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/pokemon/pkm032",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/pokemon/pkm033",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/pokemon/pkm034",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/pokemon/pkm035",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/pokemon/pkm036",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/pokemon/pkm037",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/pokemon/pkm038",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/pokemon/pkm039",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/pokemon/pkm040",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/pokemon/pkm041",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/pokemon/pkm042",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/pokemon/pkm043",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/pokemon/pkm044",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/pokemon/pkm045",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/pokemon/pkm046",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/pokemon/pkm047",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/pokemon/pkm048",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/pokemon/pkm049",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/pokemon/pkm050",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/pokemon/pkm051",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/pokemon/pkm052",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/pokemon/pkm053",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/pokemon/pkm054",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/pokemon/pkm055",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/pokemon/pkm056",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/habitat/hab001",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/habitat/hab002",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/habitat/hab003",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/habitat/hab004",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/habitat/hab005",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/habitat/hab006",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/habitat/hab007",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/habitat/hab008",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/habitat/hab009",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/habitat/hab010",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/habitat/hab011",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/habitat/hab012",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/habitat/hab013",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/habitat/hab014",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/habitat/hab015",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/habitat/hab016",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/habitat/hab017",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/habitat/hab018",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/habitat/hab019",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/habitat/hab020",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/habitat/hab021",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/habitat/hab022",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/habitat/hab023",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/habitat/hab024",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/habitat/hab025",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/habitat/hab026",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/habitat/hab027",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/habitat/hab028",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/habitat/hab029",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/habitat/hab030",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/habitat/hab031",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/habitat/hab032",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/habitat/hab033",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/habitat/hab034",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/habitat/hab035",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/habitat/hab036",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/habitat/hab037",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/habitat/hab038",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/habitat/hab039",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/habitat/hab040",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/habitat/hab041",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/habitat/hab042",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/habitat/hab043",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/habitat/hab044",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/habitat/hab045",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/habitat/hab046",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/habitat/hab047",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/habitat/hab048",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/habitat/hab049",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/habitat/hab050",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/habitat/hab051",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/habitat/hab052",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/habitat/hab053",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/habitat/hab054",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/habitat/hab055",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/habitat/hab056",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/habitat/hab057",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/habitat/hab058",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/habitat/hab059",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/habitat/hab060",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/habitat/hab061",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/habitat/hab062",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/habitat/hab063",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/habitat/hab064",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/habitat/hab065",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/habitat/hab066",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/habitat/hab067",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/habitat/hab068",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/habitat/hab069",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/recipe/rec001",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/recipe/rec002",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/recipe/rec003",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/recipe/rec004",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/recipe/rec005",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/recipe/rec006",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/recipe/rec007",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/recipe/rec008",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/recipe/rec009",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/recipe/rec010",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/recipe/rec011",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/recipe/rec012",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/recipe/rec013",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/recipe/rec014",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/wiki/recipe/rec015",
+      "currentAction": "NOINDEX",
+      "proposedAction": "VERIFY_THEN_301_OR_410",
+      "redirectTo": null,
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "from": "/guides/best-starter-pokemon",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "from": "/guides/how-to-unlock-volcanic-cave",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "from": "/guides/fast-farming-rare-pokemon",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "from": "/guides/best-fire-type-team",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "from": "/guides/shadow-marsh-guide",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "from": "/guides/how-to-get-legendary-pokemon",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "from": "/guides/best-habitat-type-pokopia",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "from": "/guides/speed-run-leveling-route",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "from": "/guides/thunder-arena-guide",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "from": "/guides/frost-peak-guide",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "from": "/guides/best-defense-team-pokopia",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "from": "/guides/dragon-type-guide",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "from": "/guides/complete-recipe-list",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "from": "/guides/sky-isles-guide",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "from": "/guides/muddy-river-guide",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "from": "/guides/top-10-powerful-pokemon",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "from": "/guides/gemstone-canyon-guide",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "from": "/guides/water-type-team-build",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "from": "/guides/ghost-type-hunting",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "from": "/guides/electric-speed-build",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "from": "/guides/dragons-den-guide",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "from": "/guides/training-grounds-beginners",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "from": "/guides/poison-type-team",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "from": "/guides/legendary-locations-guide",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "from": "/guides/crystal-cave-guide",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "from": "/guides/best-grass-types",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "from": "/guides/steel-type-build",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "from": "/guides/fairy-glen-exploration",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "from": "/guides/nightmare-forest-guide",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "from": "/guides/endgame-build-guide",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "from": "/guides/voltscale-catch-guide",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "from": "/guides/shadowclaw-catch-guide",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "from": "/guides/primordion-catch-guide",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "from": "/guides/flamexor-catch-guide",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "from": "/guides/lunaflare-catch-guide",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "from": "/guides/leafon-catch-guide",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "from": "/guides/shados-catch-guide",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "from": "/guides/crystion-catch-guide",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "from": "/guides/bronzorm-catch-guide",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "from": "/guides/stealthfin-catch-guide",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "from": "/guides/frostbite-catch-guide",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "from": "/guides/snorizard-catch-guide",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "from": "/guides/mysticat-catch-guide",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "from": "/guides/how-to-unlock-frost-peak",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "from": "/guides/how-to-unlock-shadow-marsh",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "from": "/guides/how-to-unlock-thunder-arena",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "from": "/guides/how-to-unlock-crystal-cave",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "from": "/guides/how-to-unlock-sky-isles",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "from": "/guides/how-to-build-first-house",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "from": "/guides/ditto-home-fast-travel-guide",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "from": "/guides/pokemon-center-pc-daily-routine",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "from": "/guides/storage-and-crafting-guide",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "from": "/guides/pokedex-and-habitat-dex-guide",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "from": "/guides/food-powered-moves-guide",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "from": "/guides/strength-decoration-guide",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "from": "/guides/item-customization-guide",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "from": "/guides/town-visit-multiplayer-guide",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "from": "/guides/palette-town-gameshare-guide",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "from": "/guides/cloud-island-virtual-mode-guide",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "from": "/guides/dive-unlock-requirements-guide",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "from": "/guides/bubbly-basin-expansion-access-guide",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "from": "/guides/expansion-pass-bonus-claim-guide",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "from": "/guides/pokemon-request-planning-guide",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "from": "/guides/materials-crops-cooking-guide",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "from": "/guides/comfortable-pokemon-spaces-guide",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "from": "/guides/movement-and-terrain-moves-guide",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "from": "/guides/dj-rotom-music-guide",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "from": "/guides/official-pokopia-characters-guide",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "from": "/guides/ancient-items-guide",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "from": "/guides/block-float-underwater-building-guide",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "from": "/guides/how-to-craft-all-recipes",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "from": "/guides/how-to-get-all-pokemon",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "from": "/guides/multiplayer-guide",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "from": "/guides/mystery-gift-codes",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "from": "/guides/pokopia-dlc-faq",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "from": "/guides/smoothie-guide",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "from": "/guides/story-donyori",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "from": "/guides/story-gotsugotsu",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "from": "/guides/story-pasapasa",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "from": "/guides/underwater-farming-guide",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "from": "/guides/update-history",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "from": "/guides/how-to-get-copper-ore",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "from": "/guides/how-to-get-ice",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "from": "/guides/how-to-make-concrete",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "from": "/guides/bubbly-basin-how-to-get-ocean-doors",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "from": "/guides/bulldoze-pokemon",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "from": "/guides/camera-placement-afk-monitoring-harvest-timing",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "from": "/guides/cloud-islands-secret-developer-island-exploration",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "from": "/guides/co-op-palette-town-trading",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "from": "/guides/cooking-guide",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "from": "/guides/daily-activities-guide",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "from": "/guides/dlc-wave-1-bubbly-basin-release-date",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "from": "/guides/dream-islands-guide",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "from": "/guides/dry-flavors-guide",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "from": "/guides/expansion-pass-price",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "from": "/guides/game-length",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "from": "/guides/game-length-estimate",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "from": "/guides/gimmighoul-trading-framed-items-rare-rewards",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "from": "/guides/habitats-building",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "from": "/guides/habitats-dex-list",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "from": "/guides/hoppip-event",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "from": "/guides/how-to-befriend-mew-and-mewtwo",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "from": "/guides/how-to-befriend-the-kanto-legendary-birds",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "from": "/guides/how-to-befriend-with-ho-oh-and-lugia",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "from": "/guides/how-to-befriend-with-raikou-entei-and-suicune",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "from": "/guides/how-to-break-and-move-large-boulder-rocks",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "from": "/guides/how-to-find-the-windup-inkay",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "from": "/guides/how-to-fix-the-water-wheels",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "from": "/guides/how-to-get-concrete",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "from": "/guides/how-to-get-glass",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "from": "/guides/how-to-get-gold-teeth",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "from": "/guides/how-to-get-gyarados",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "from": "/guides/how-to-get-hoppip-skiploom-and-jumpluff",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "from": "/guides/how-to-get-inflatable-sudowoodo",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "from": "/guides/how-to-get-lumber",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "from": "/guides/how-to-get-paint",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "from": "/guides/how-to-get-paper",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "from": "/guides/how-to-get-phione",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "from": "/guides/how-to-get-pokemetal",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "from": "/guides/how-to-get-portal-pods",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "from": "/guides/how-to-get-porygon",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "from": "/guides/how-to-get-shiny-pearls-in-bubbly-basin",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "from": "/guides/how-to-learn-suck-and-move-water",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "from": "/guides/how-to-make-a-bubbly-basin-habitat-warmer",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "from": "/guides/how-to-make-a-hot-spring-shower-and-get-psyduck",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "from": "/guides/how-to-make-a-pikachu-corner",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "from": "/guides/how-to-make-duckweed",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "from": "/guides/how-to-make-lava-pools-and-streams",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "from": "/guides/how-to-unlock-bubbly-basin",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "from": "/guides/how-to-unlock-dive-ability",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "from": "/guides/how-to-unlock-magnet-rise",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "from": "/guides/how-to-use-security-cameras",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "from": "/guides/how-to-win-hide-and-sneak",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "from": "/guides/jumpluff-habitat",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "from": "/guides/lumber-farming",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "from": "/guides/mosslax-location-wake-up-guide",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "from": "/guides/photo-ops-guide",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "from": "/guides/rocky-ridges-guide",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "from": "/guides/shiny-hunting",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "from": "/guides/smooth-rock",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "from": "/guides/squishy-clay",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "from": "/guides/stardust-guide",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "from": "/guides/team-initiation-challenge",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "from": "/guides/team-initiation-guide",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "from": "/guides/version-2-0-0-patch-notes",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "from": "/guides/where-to-find-cotton-spores",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "from": "/guides/zorua-hide-and-sneak-contest-guide",
+      "currentAction": "NOINDEX",
+      "proposedAction": "MANUAL_REVIEW",
+      "redirectTo": null,
+      "reason": "Fails guide status or review-date gate."
+    }
+  ]
+}

@@ -35,6 +35,10 @@ export interface Pokemon {
   data_status?: string
   data_status_note?: string
   index_status?: string
+  verification_status?: 'official-confirmed' | 'community-confirmed' | 'unverified' | 'disputed'
+  verified_at?: string
+  game_version?: string
+  sources?: { label?: string; url: string; type?: 'official' | 'community' }[]
 }
 
 export interface Habitat {
@@ -72,6 +76,10 @@ export interface Habitat {
   data_status?: string
   data_status_note?: string
   index_status?: string
+  verification_status?: 'official-confirmed' | 'community-confirmed' | 'unverified' | 'disputed'
+  verified_at?: string
+  game_version?: string
+  sources?: { label?: string; url: string; type?: 'official' | 'community' }[]
 }
 
 export interface Recipe {
@@ -108,6 +116,10 @@ export interface Recipe {
   data_status?: string
   data_status_note?: string
   index_status?: string
+  verification_status?: 'official-confirmed' | 'community-confirmed' | 'unverified' | 'disputed'
+  verified_at?: string
+  game_version?: string
+  sources?: { label?: string; url: string; type?: 'official' | 'community' }[]
 }
 
 export interface Guide {
@@ -140,6 +152,10 @@ export interface Guide {
   data_status?: string
   data_status_note?: string
   index_status?: string
+  verification_status?: 'official-confirmed' | 'community-confirmed' | 'unverified' | 'disputed'
+  verified_at?: string
+  game_version?: string
+  sources?: { label?: string; url: string; type?: 'official' | 'community' }[]
   related_pokemon: string   // CSV string, e.g. "pkm001,pkm002"
   related_items: string     // CSV string
   related_habitats: string  // CSV string

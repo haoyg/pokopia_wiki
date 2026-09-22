@@ -4,7 +4,7 @@ import { canonicalUrl } from '@/lib/site'
 import { CreditedImage } from '@/components/media/CreditedImage'
 import { OfficialContext } from '@/components/content/OfficialContext'
 import { BreadcrumbJsonLd, ItemListJsonLd } from '@/components/seo/JsonLd'
-import { isIndexableGuide } from '@/lib/indexing'
+import { isIndexableGuide, noIndexMetadata } from '@/lib/indexing'
 import { guideImage } from '@/lib/localImages'
 
 const categoryLabels: Record<string, string> = {
@@ -39,6 +39,7 @@ function shortText(text: string | undefined, length = 145) {
 }
 
 export const metadata: Metadata = {
+  robots: noIndexMetadata,
   title: 'Pokopia Guides: Walkthroughs and Routes',
   description: 'Find source-backed Pokopia route guides, official context, and planning tools separated from broader editorial guide drafts.',
   keywords: [

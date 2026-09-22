@@ -3,8 +3,10 @@ import Link from 'next/link'
 import { BreadcrumbJsonLd, FAQJsonLd, ItemListJsonLd } from '@/components/seo/JsonLd'
 import { DataStatus } from '@/components/content/DataStatus'
 import { canonicalUrl, BASE_URL } from '@/lib/site'
+import { noIndexMetadata } from '@/lib/indexing'
 
 export const metadata: Metadata = {
+  robots: noIndexMetadata,
   title: 'How to Not Get Overwhelmed in Pokopia – New Player Guide | Pokopia Cloud',
   description: 'Pokopia throws a lot at you. This guide cuts through it: a simple 5-step method to stop feeling lost, build a stable core team, and approach the game as a farming loop rather than a race to catch everything.',
   keywords: [

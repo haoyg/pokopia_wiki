@@ -5,8 +5,10 @@ import { DataStatus } from '@/components/content/DataStatus'
 import { canonicalUrl, BASE_URL } from '@/lib/site'
 import pokemonData from '@/data/pokemon.json'
 import habitatsData from '@/data/habitats.json'
+import { noIndexMetadata } from '@/lib/indexing'
 
 export const metadata: Metadata = {
+  robots: noIndexMetadata,
   title: 'Best Starter Pokemon in Pokopia (2026 Ranking) – All Picks Ranked | Pokopia Cloud',
   description:
     'Find the best starter Pokemon in Pokopia ranked by role fit, route conditions, and food cost. Plus the best Pokemon for every role — attacker, support, tank, speedster — and a team-building framework built around route fit over rarity.',

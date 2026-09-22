@@ -1,5 +1,6 @@
 const fs = require('node:fs')
 const path = require('node:path')
+const { isIndexableDatabaseEntry } = require('./lib/indexing')
 
 const dataDir = path.join(process.cwd(), 'src', 'data')
 
@@ -68,8 +69,34 @@ const recipeCalculatorKeys = [
   'related_habitats',
 ]
 
-writeJson('tool-spawn-pokemon.json', readJson('pokemon.json').map((record) => pick(record, spawnPokemonKeys)))
-writeJson('tool-habitats.json', readJson('habitats.json').map((record) => pick(record, habitatPlannerKeys)))
-writeJson('tool-recipes.json', readJson('recipes.json').map((record) => pick(record, recipeCalculatorKeys)))
+const teamBuilderKeys = ['id', 'name', 'type', 'rarity', 'specialty', 'habitat']
+
+const spawnPokemon = readJson('pokemon.json')
+const incompleteSpawnRecords = spawnPokemon.filter((record) => (
+  !record.id ||
+  !record.name ||
+  !record.habitat ||
+  !record.weather ||
+  !record.spawn_time ||
+  !record.favorite_food ||
+  !record.drops
+))
+
+if (incompleteSpawnRecords.length > 0) {
+  console.warn(
+    `Excluded ${incompleteSpawnRecords.length} incomplete Pokemon record(s) from spawn tools: ${incompleteSpawnRecords.map((record) => record.id || record.name || 'unknown').join(', ')}`
+  )
+}
+
+writeJson(
+  'tool-spawn-pokemon.json',
+  spawnPokemon
+    .filter(isIndexableDatabaseEntry)
+    .filter((record) => !incompleteSpawnRecords.includes(record))
+    .map((record) => pick(record, spawnPokemonKeys))
+)
+writeJson('team-pokemon-links.json', spawnPokemon.filter(isIndexableDatabaseEntry).map((record) => pick(record, teamBuilderKeys)))
+writeJson('tool-habitats.json', readJson('habitats.json').filter(isIndexableDatabaseEntry).map((record) => pick(record, habitatPlannerKeys)))
+writeJson('tool-recipes.json', readJson('recipes.json').filter(isIndexableDatabaseEntry).map((record) => pick(record, recipeCalculatorKeys)))
 
 console.log('Generated compact tool datasets')

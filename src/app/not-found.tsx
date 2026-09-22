@@ -14,8 +14,8 @@ export default function NotFound() {
           <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" width="80" height="80">
             <circle cx="50" cy="50" r="45" fill="#ff5c7a"/>
             <rect x="5" y="47" width="90" height="6" fill="#1a1a2e"/>
-            <circle cx="50" cy="50" r="45" fill="none" stroke="#1a1a2e" stroke-width="4"/>
-            <circle cx="50" cy="50" r="15" fill="#ffffff" stroke="#1a1a2e" stroke-width="4"/>
+            <circle cx="50" cy="50" r="45" fill="none" stroke="#1a1a2e" strokeWidth="4"/>
+            <circle cx="50" cy="50" r="15" fill="#ffffff" stroke="#1a1a2e" strokeWidth="4"/>
           </svg>
         </div>
         <h1>404</h1>

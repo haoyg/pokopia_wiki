@@ -1,7 +1,9 @@
 import type { Metadata } from 'next'
 import { canonicalUrl } from '@/lib/site'
+import { noIndexMetadata } from '@/lib/indexing'
 
 export const metadata: Metadata = {
+  robots: noIndexMetadata,
   title: 'Pokopia Recipe Calculator - Recipe Buffs, Timing, and Route Planning',
   description: 'Compare Pokopia recipes by route goal, rarity, buff timing, common mistakes, related Pokemon, and habitat support before spending ingredients.',
   keywords: [

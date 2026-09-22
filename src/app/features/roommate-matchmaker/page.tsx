@@ -5,6 +5,7 @@ import { ArticleJsonLd, BreadcrumbJsonLd, FAQJsonLd } from '@/components/seo/Jso
 import { BASE_URL } from '@/lib/site'
 import { DataStatus } from '@/components/content/DataStatus'
 import RoommateMatchmakerClient from './RoommateMatchmakerClient'
+import { noIndexMetadata } from '@/lib/indexing'
 
 const PAGE_URL = '/features/roommate-matchmaker'
 const REVIEWED_AT = '2026-08-11'
@@ -37,6 +38,7 @@ const relatedPages = [
 ]
 
 export const metadata: Metadata = {
+  robots: noIndexMetadata,
   title: 'Pokopia Roommate Matchmaker – Best Roommate Pairs | Pokopia Cloud',
   description:
     'Use the Pokopia Roommate Matchmaker to find the best roommate Pokemon for any team member. Scores role coverage, type complement, defensive synergy, habitat variety, and time-of-day balance.',

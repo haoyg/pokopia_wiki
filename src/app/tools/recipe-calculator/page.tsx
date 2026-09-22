@@ -2,7 +2,10 @@
 
 import { useMemo, useState } from 'react'
 import Link from 'next/link'
-import recipesData from '@/data/tool-recipes.json'
+import rawRecipesData from '@/data/tool-recipes.json'
+import recipeSchema from '@/data/recipes.json'
+
+const recipesData = rawRecipesData as (typeof recipeSchema)[number][]
 import pokemonLinksData from '@/data/pokemon-links.json'
 import habitatLinksData from '@/data/habitat-links.json'
 import { DataStatus } from '@/components/content/DataStatus'

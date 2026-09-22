@@ -3,8 +3,10 @@ import { SpawnTracker } from '@/components/tools/SpawnTracker'
 import { BreadcrumbJsonLd, FAQJsonLd, ToolJsonLd } from '@/components/seo/JsonLd'
 import { canonicalUrl } from '@/lib/site'
 import { DataStatus } from '@/components/content/DataStatus'
+import { noIndexMetadata } from '@/lib/indexing'
 
 export const metadata: Metadata = {
+  robots: noIndexMetadata,
   title: 'Pokopia Spawn Tracker: Locations and Weather',
   description: 'Find Pokopia Pokemon spawns by habitat, weather, time, rarity, type, food, drops, and related route pages.',
   keywords: [

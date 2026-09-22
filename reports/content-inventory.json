@@ -1,0 +1,2598 @@
+{
+  "generatedAt": "2026-09-22T07:04:54.200Z",
+  "summary": {
+    "total": 287,
+    "byType": {
+      "pokemon": 56,
+      "habitat": 69,
+      "recipe": 15,
+      "guide": 147
+    },
+    "NOINDEX": 287
+  },
+  "rows": [
+    {
+      "url": "/wiki/pokemon/pkm001",
+      "type": "pokemon",
+      "id": "pkm001",
+      "title": "Pikafire",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/pokemon/pkm002",
+      "type": "pokemon",
+      "id": "pkm002",
+      "title": "Bulbin",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/pokemon/pkm003",
+      "type": "pokemon",
+      "id": "pkm003",
+      "title": "Charmuddy",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/pokemon/pkm004",
+      "type": "pokemon",
+      "id": "pkm004",
+      "title": "Aquap",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/pokemon/pkm005",
+      "type": "pokemon",
+      "id": "pkm005",
+      "title": "Zaprat",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/pokemon/pkm006",
+      "type": "pokemon",
+      "id": "pkm006",
+      "title": "Leafon",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/pokemon/pkm007",
+      "type": "pokemon",
+      "id": "pkm007",
+      "title": "Flamexor",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/pokemon/pkm008",
+      "type": "pokemon",
+      "id": "pkm008",
+      "title": "Tidlet",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/pokemon/pkm009",
+      "type": "pokemon",
+      "id": "pkm009",
+      "title": "Shados",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/pokemon/pkm010",
+      "type": "pokemon",
+      "id": "pkm010",
+      "title": "Mechabit",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/pokemon/pkm011",
+      "type": "pokemon",
+      "id": "pkm011",
+      "title": "Rockler",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/pokemon/pkm012",
+      "type": "pokemon",
+      "id": "pkm012",
+      "title": "Crystion",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/pokemon/pkm013",
+      "type": "pokemon",
+      "id": "pkm013",
+      "title": "Emberal",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/pokemon/pkm014",
+      "type": "pokemon",
+      "id": "pkm014",
+      "title": "Glacior",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/pokemon/pkm015",
+      "type": "pokemon",
+      "id": "pkm015",
+      "title": "Voltscale",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/pokemon/pkm016",
+      "type": "pokemon",
+      "id": "pkm016",
+      "title": "Breezel",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/pokemon/pkm017",
+      "type": "pokemon",
+      "id": "pkm017",
+      "title": "Thornvine",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/pokemon/pkm018",
+      "type": "pokemon",
+      "id": "pkm018",
+      "title": "Mudkipz",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/pokemon/pkm019",
+      "type": "pokemon",
+      "id": "pkm019",
+      "title": "Bronzorm",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/pokemon/pkm020",
+      "type": "pokemon",
+      "id": "pkm020",
+      "title": "Flamingo",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/pokemon/pkm021",
+      "type": "pokemon",
+      "id": "pkm021",
+      "title": "Stealthfin",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/pokemon/pkm022",
+      "type": "pokemon",
+      "id": "pkm022",
+      "title": "Frostbite",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/pokemon/pkm023",
+      "type": "pokemon",
+      "id": "pkm023",
+      "title": "Sunflora",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/pokemon/pkm024",
+      "type": "pokemon",
+      "id": "pkm024",
+      "title": "Magnedex",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/pokemon/pkm025",
+      "type": "pokemon",
+      "id": "pkm025",
+      "title": "Tropius",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/pokemon/pkm026",
+      "type": "pokemon",
+      "id": "pkm026",
+      "title": "Skittlish",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/pokemon/pkm027",
+      "type": "pokemon",
+      "id": "pkm027",
+      "title": "Dewdrop",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/pokemon/pkm028",
+      "type": "pokemon",
+      "id": "pkm028",
+      "title": "Magmar",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/pokemon/pkm029",
+      "type": "pokemon",
+      "id": "pkm029",
+      "title": "Snorizard",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/pokemon/pkm030",
+      "type": "pokemon",
+      "id": "pkm030",
+      "title": "Shadowclaw",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/pokemon/pkm031",
+      "type": "pokemon",
+      "id": "pkm031",
+      "title": "Crystalwing",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/pokemon/pkm032",
+      "type": "pokemon",
+      "id": "pkm032",
+      "title": "Thornback",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/pokemon/pkm033",
+      "type": "pokemon",
+      "id": "pkm033",
+      "title": "Emberfox",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/pokemon/pkm034",
+      "type": "pokemon",
+      "id": "pkm034",
+      "title": "Aquashell",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/pokemon/pkm035",
+      "type": "pokemon",
+      "id": "pkm035",
+      "title": "Zapbug",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/pokemon/pkm036",
+      "type": "pokemon",
+      "id": "pkm036",
+      "title": "Mossling",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/pokemon/pkm037",
+      "type": "pokemon",
+      "id": "pkm037",
+      "title": "Ironclaw",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/pokemon/pkm038",
+      "type": "pokemon",
+      "id": "pkm038",
+      "title": "Mysticat",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/pokemon/pkm039",
+      "type": "pokemon",
+      "id": "pkm039",
+      "title": "Boulderchin",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/pokemon/pkm040",
+      "type": "pokemon",
+      "id": "pkm040",
+      "title": "Windlor",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/pokemon/pkm041",
+      "type": "pokemon",
+      "id": "pkm041",
+      "title": "Toxifin",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/pokemon/pkm042",
+      "type": "pokemon",
+      "id": "pkm042",
+      "title": "Galebender",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/pokemon/pkm043",
+      "type": "pokemon",
+      "id": "pkm043",
+      "title": "Sunreep",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/pokemon/pkm044",
+      "type": "pokemon",
+      "id": "pkm044",
+      "title": "Lunaflare",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/pokemon/pkm045",
+      "type": "pokemon",
+      "id": "pkm045",
+      "title": "Stormbird",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/pokemon/pkm046",
+      "type": "pokemon",
+      "id": "pkm046",
+      "title": "Treemendous",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/pokemon/pkm047",
+      "type": "pokemon",
+      "id": "pkm047",
+      "title": "Lightspeed",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/pokemon/pkm048",
+      "type": "pokemon",
+      "id": "pkm048",
+      "title": "Magicalure",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/pokemon/pkm049",
+      "type": "pokemon",
+      "id": "pkm049",
+      "title": "Nightfall",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/pokemon/pkm050",
+      "type": "pokemon",
+      "id": "pkm050",
+      "title": "Primordion",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/pokemon/pkm051",
+      "type": "pokemon",
+      "id": "pkm051",
+      "title": "Paras",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/pokemon/pkm052",
+      "type": "pokemon",
+      "id": "pkm052",
+      "title": "Parasect",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/pokemon/pkm053",
+      "type": "pokemon",
+      "id": "pkm053",
+      "title": "Venonat",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/pokemon/pkm054",
+      "type": "pokemon",
+      "id": "pkm054",
+      "title": "Venomoth",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/pokemon/pkm055",
+      "type": "pokemon",
+      "id": "pkm055",
+      "title": "Slowpoke",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/pokemon/pkm056",
+      "type": "pokemon",
+      "id": "pkm056",
+      "title": "Dlc",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/habitat/hab001",
+      "type": "habitat",
+      "id": "hab001",
+      "title": "Volcanic Cave",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/habitat/hab002",
+      "type": "habitat",
+      "id": "hab002",
+      "title": "Forest Valley",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/habitat/hab003",
+      "type": "habitat",
+      "id": "hab003",
+      "title": "Crystal Lake",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/habitat/hab004",
+      "type": "habitat",
+      "id": "hab004",
+      "title": "Windmill Plains",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/habitat/hab005",
+      "type": "habitat",
+      "id": "hab005",
+      "title": "Frost Peak",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/habitat/hab006",
+      "type": "habitat",
+      "id": "hab006",
+      "title": "Shadow Marsh",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/habitat/hab007",
+      "type": "habitat",
+      "id": "hab007",
+      "title": "Gemstone Canyon",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/habitat/hab008",
+      "type": "habitat",
+      "id": "hab008",
+      "title": "Sky Isles",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/habitat/hab009",
+      "type": "habitat",
+      "id": "hab009",
+      "title": "Muddy River",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/habitat/hab010",
+      "type": "habitat",
+      "id": "hab010",
+      "title": "Ancient Ruins",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/habitat/hab011",
+      "type": "habitat",
+      "id": "hab011",
+      "title": "Sunny Beach",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/habitat/hab012",
+      "type": "habitat",
+      "id": "hab012",
+      "title": "Thunder Arena",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/habitat/hab013",
+      "type": "habitat",
+      "id": "hab013",
+      "title": "Dark Cavern",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/habitat/hab014",
+      "type": "habitat",
+      "id": "hab014",
+      "title": "Crystal Cave",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/habitat/hab015",
+      "type": "habitat",
+      "id": "hab015",
+      "title": "Meadow Garden",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/habitat/hab016",
+      "type": "habitat",
+      "id": "hab016",
+      "title": "Industrial Zone",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/habitat/hab017",
+      "type": "habitat",
+      "id": "hab017",
+      "title": "Nightmare Forest",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/habitat/hab018",
+      "type": "habitat",
+      "id": "hab018",
+      "title": "Dragon's Den",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/habitat/hab019",
+      "type": "habitat",
+      "id": "hab019",
+      "title": "Fairy Glen",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/habitat/hab020",
+      "type": "habitat",
+      "id": "hab020",
+      "title": "Training Grounds",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/habitat/hab021",
+      "type": "habitat",
+      "id": "hab021",
+      "title": "Tree-shaded tall grass",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/habitat/hab022",
+      "type": "habitat",
+      "id": "hab022",
+      "title": "Boulder-shaded tall grass",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/habitat/hab023",
+      "type": "habitat",
+      "id": "hab023",
+      "title": "Hydrated tall grass",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/habitat/hab024",
+      "type": "habitat",
+      "id": "hab024",
+      "title": "Seaside tall grass",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/habitat/hab025",
+      "type": "habitat",
+      "id": "hab025",
+      "title": "Elevated tall grass",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/habitat/hab026",
+      "type": "habitat",
+      "id": "hab026",
+      "title": "Illuminated tall grass",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/habitat/hab027",
+      "type": "habitat",
+      "id": "hab027",
+      "title": "Pretty flower bed",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/habitat/hab028",
+      "type": "habitat",
+      "id": "hab028",
+      "title": "Tree-shaded flower bed",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/habitat/hab029",
+      "type": "habitat",
+      "id": "hab029",
+      "title": "Hydrated flower bed",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/habitat/hab030",
+      "type": "habitat",
+      "id": "hab030",
+      "title": "Field of flowers",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/habitat/hab031",
+      "type": "habitat",
+      "id": "hab031",
+      "title": "Elevated flower bed",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/habitat/hab032",
+      "type": "habitat",
+      "id": "hab032",
+      "title": "Grave with flowers",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/habitat/hab033",
+      "type": "habitat",
+      "id": "hab033",
+      "title": "Flower garden",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/habitat/hab034",
+      "type": "habitat",
+      "id": "hab034",
+      "title": "Fresh veggie field",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/habitat/hab035",
+      "type": "habitat",
+      "id": "hab035",
+      "title": "Riding warm updrafts",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/habitat/hab036",
+      "type": "habitat",
+      "id": "hab036",
+      "title": "Campsite",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/habitat/hab037",
+      "type": "habitat",
+      "id": "hab037",
+      "title": "Training waterfall",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/habitat/hab038",
+      "type": "habitat",
+      "id": "hab038",
+      "title": "Tantalizing dining set",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/habitat/hab039",
+      "type": "habitat",
+      "id": "hab039",
+      "title": "Picnic set",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/habitat/hab040",
+      "type": "habitat",
+      "id": "hab040",
+      "title": "Flowery table",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/habitat/hab041",
+      "type": "habitat",
+      "id": "hab041",
+      "title": "Bench with greenery",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/habitat/hab042",
+      "type": "habitat",
+      "id": "hab042",
+      "title": "Illuminated bench",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/habitat/hab043",
+      "type": "habitat",
+      "id": "hab043",
+      "title": "Exercise resting spot",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/habitat/hab044",
+      "type": "habitat",
+      "id": "hab044",
+      "title": "Urgent Care",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/habitat/hab045",
+      "type": "habitat",
+      "id": "hab045",
+      "title": "Gym first aid",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/habitat/hab046",
+      "type": "habitat",
+      "id": "hab046",
+      "title": "Road Sign",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/habitat/hab047",
+      "type": "habitat",
+      "id": "hab047",
+      "title": "Large luggage carrier",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/habitat/hab048",
+      "type": "habitat",
+      "id": "hab048",
+      "title": "Lumberjack&#x27;s workplace",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/habitat/hab049",
+      "type": "habitat",
+      "id": "hab049",
+      "title": "Bed with a plush",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/habitat/hab050",
+      "type": "habitat",
+      "id": "hab050",
+      "title": "Gently lit bed",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/habitat/hab051",
+      "type": "habitat",
+      "id": "hab051",
+      "title": "Grave offering",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/habitat/hab052",
+      "type": "habitat",
+      "id": "hab052",
+      "title": "Creepy grave offering",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/habitat/hab053",
+      "type": "habitat",
+      "id": "hab053",
+      "title": "Chansey Resting area",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/habitat/hab054",
+      "type": "habitat",
+      "id": "hab054",
+      "title": "Irresistible scent and glow",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/habitat/hab055",
+      "type": "habitat",
+      "id": "hab055",
+      "title": "Floating in the shade",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/habitat/hab056",
+      "type": "habitat",
+      "id": "hab056",
+      "title": "Smooth tall grass",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/habitat/hab057",
+      "type": "habitat",
+      "id": "hab057",
+      "title": "Factory Storage",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/habitat/hab058",
+      "type": "habitat",
+      "id": "hab058",
+      "title": "Luxury chirp-chirp meal",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/habitat/hab059",
+      "type": "habitat",
+      "id": "hab059",
+      "title": "Berry-feast Campsite",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/habitat/hab060",
+      "type": "habitat",
+      "id": "hab060",
+      "title": "Rain Dance site",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/habitat/hab061",
+      "type": "habitat",
+      "id": "hab061",
+      "title": "Sunny Day site",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/habitat/hab062",
+      "type": "habitat",
+      "id": "hab062",
+      "title": "Professor&#x27;s treasure trove",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/habitat/hab063",
+      "type": "habitat",
+      "id": "hab063",
+      "title": "Crazy log handicrafts",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/habitat/hab064",
+      "type": "habitat",
+      "id": "hab064",
+      "title": "Very-berry space",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/habitat/hab065",
+      "type": "habitat",
+      "id": "hab065",
+      "title": "Garden Terrace",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/habitat/hab066",
+      "type": "habitat",
+      "id": "hab066",
+      "title": "Tree-shaded snoozing Snorlax",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/habitat/hab067",
+      "type": "habitat",
+      "id": "hab067",
+      "title": "Good old-fashioned antiques",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/habitat/hab068",
+      "type": "habitat",
+      "id": "hab068",
+      "title": "Nothin&#x27; but Poke Balls",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/habitat/hab069",
+      "type": "habitat",
+      "id": "hab069",
+      "title": "Yellow tall grass",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/recipe/rec001",
+      "type": "recipe",
+      "id": "rec001",
+      "title": "Honey Cake",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/recipe/rec002",
+      "type": "recipe",
+      "id": "rec002",
+      "title": "Fire Boost",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/recipe/rec003",
+      "type": "recipe",
+      "id": "rec003",
+      "title": "Speed Potion",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/recipe/rec004",
+      "type": "recipe",
+      "id": "rec004",
+      "title": "Guardian Stew",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/recipe/rec005",
+      "type": "recipe",
+      "id": "rec005",
+      "title": "Lucky Charm",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/recipe/rec006",
+      "type": "recipe",
+      "id": "rec006",
+      "title": "Water Shield",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/recipe/rec007",
+      "type": "recipe",
+      "id": "rec007",
+      "title": "Thunder Strike",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/recipe/rec008",
+      "type": "recipe",
+      "id": "rec008",
+      "title": "Ice Armor",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/recipe/rec009",
+      "type": "recipe",
+      "id": "rec009",
+      "title": "Grass Heal",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/recipe/rec010",
+      "type": "recipe",
+      "id": "rec010",
+      "title": "Ghost Veil",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/recipe/rec011",
+      "type": "recipe",
+      "id": "rec011",
+      "title": "Dragon's Fury",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/recipe/rec012",
+      "type": "recipe",
+      "id": "rec012",
+      "title": "Steel Shell",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/recipe/rec013",
+      "type": "recipe",
+      "id": "rec013",
+      "title": "Flying High",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/recipe/rec014",
+      "type": "recipe",
+      "id": "rec014",
+      "title": "Muddy Swirl",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/wiki/recipe/rec015",
+      "type": "recipe",
+      "id": "rec015",
+      "title": "Mega Restore",
+      "currentAction": "NOINDEX",
+      "nextAction": "VERIFY_THEN_301_OR_410",
+      "reason": "Missing publishable verification status, verification date, or accessible evidence URL."
+    },
+    {
+      "url": "/guides/best-starter-pokemon",
+      "type": "guide",
+      "id": "guid001",
+      "title": "Best Starter Pokemon in Pokopia",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "url": "/guides/how-to-unlock-volcanic-cave",
+      "type": "guide",
+      "id": "guid002",
+      "title": "How to Unlock Volcanic Cave",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "url": "/guides/fast-farming-rare-pokemon",
+      "type": "guide",
+      "id": "guid003",
+      "title": "Fast Farming Guide for Rare Pokemon",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "url": "/guides/best-fire-type-team",
+      "type": "guide",
+      "id": "guid004",
+      "title": "Best Fire-Type Team Build",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "url": "/guides/shadow-marsh-guide",
+      "type": "guide",
+      "id": "guid005",
+      "title": "Shadow Marsh Complete Guide",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "url": "/guides/how-to-get-legendary-pokemon",
+      "type": "guide",
+      "id": "guid006",
+      "title": "How to Get Legendary Pokemon",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "url": "/guides/best-habitat-type-pokopia",
+      "type": "guide",
+      "id": "guid007",
+      "title": "Best Habitat for Each Pokemon Type",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "url": "/guides/speed-run-leveling-route",
+      "type": "guide",
+      "id": "guid008",
+      "title": "Speed Run Route for Leveling",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "url": "/guides/thunder-arena-guide",
+      "type": "guide",
+      "id": "guid009",
+      "title": "Thunder Arena Unlock and Strategy",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "url": "/guides/frost-peak-guide",
+      "type": "guide",
+      "id": "guid010",
+      "title": "Frost Peak Exploration Guide",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "url": "/guides/best-defense-team-pokopia",
+      "type": "guide",
+      "id": "guid011",
+      "title": "Best Defense Team Build",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "url": "/guides/dragon-type-guide",
+      "type": "guide",
+      "id": "guid012",
+      "title": "Dragon-Type Mastery Guide",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "url": "/guides/complete-recipe-list",
+      "type": "guide",
+      "id": "guid013",
+      "title": "Complete Recipe List and Effects",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "url": "/guides/sky-isles-guide",
+      "type": "guide",
+      "id": "guid014",
+      "title": "Sky Isles and Flying-Type Guide",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "url": "/guides/muddy-river-guide",
+      "type": "guide",
+      "id": "guid015",
+      "title": "Muddy River Habitat Guide",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "url": "/guides/top-10-powerful-pokemon",
+      "type": "guide",
+      "id": "guid016",
+      "title": "Top 10 Most Powerful Pokemon",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "url": "/guides/gemstone-canyon-guide",
+      "type": "guide",
+      "id": "guid017",
+      "title": "Gemstone Canyon Mining Guide",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "url": "/guides/water-type-team-build",
+      "type": "guide",
+      "id": "guid018",
+      "title": "Water-Type Team Compilation",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "url": "/guides/ghost-type-hunting",
+      "type": "guide",
+      "id": "guid019",
+      "title": "Ghost-Type Hunting Secrets",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "url": "/guides/electric-speed-build",
+      "type": "guide",
+      "id": "guid020",
+      "title": "Electric-Type Speed Demon Build",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "url": "/guides/dragons-den-guide",
+      "type": "guide",
+      "id": "guid021",
+      "title": "How to Unlock Dragon's Den",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "url": "/guides/training-grounds-beginners",
+      "type": "guide",
+      "id": "guid022",
+      "title": "Beginner's Guide to Training Grounds",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "url": "/guides/poison-type-team",
+      "type": "guide",
+      "id": "guid023",
+      "title": "Poison-Type Team Analysis",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "url": "/guides/legendary-locations-guide",
+      "type": "guide",
+      "id": "guid024",
+      "title": "All 4 Legendary Pokemon Locations",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "url": "/guides/crystal-cave-guide",
+      "type": "guide",
+      "id": "guid025",
+      "title": "Crystal Cave Discovery Guide",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "url": "/guides/best-grass-types",
+      "type": "guide",
+      "id": "guid026",
+      "title": "Best Grass-Type Pick for Every Team",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "url": "/guides/steel-type-build",
+      "type": "guide",
+      "id": "guid027",
+      "title": "Steel-Type Hard-Core Build Guide",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "url": "/guides/fairy-glen-exploration",
+      "type": "guide",
+      "id": "guid028",
+      "title": "Fairy Glen Hidden Secrets",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "url": "/guides/nightmare-forest-guide",
+      "type": "guide",
+      "id": "guid029",
+      "title": "Nightmare Forest Horror Stories",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "url": "/guides/endgame-build-guide",
+      "type": "guide",
+      "id": "guid030",
+      "title": "Late-Game Team Planning Guide",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "url": "/guides/voltscale-catch-guide",
+      "type": "guide",
+      "id": "guid031",
+      "title": "How to Catch Voltscale in Pokopia",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "url": "/guides/shadowclaw-catch-guide",
+      "type": "guide",
+      "id": "guid032",
+      "title": "How to Catch Shadowclaw in Pokopia",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "url": "/guides/primordion-catch-guide",
+      "type": "guide",
+      "id": "guid033",
+      "title": "How to Catch Primordion in Pokopia",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "url": "/guides/flamexor-catch-guide",
+      "type": "guide",
+      "id": "guid034",
+      "title": "How to Catch Flamexor in Pokopia",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "url": "/guides/lunaflare-catch-guide",
+      "type": "guide",
+      "id": "guid035",
+      "title": "How to Catch Lunaflare in Pokopia",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "url": "/guides/leafon-catch-guide",
+      "type": "guide",
+      "id": "guid036",
+      "title": "How to Catch Leafon in Pokopia",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "url": "/guides/shados-catch-guide",
+      "type": "guide",
+      "id": "guid037",
+      "title": "How to Catch Shados in Pokopia",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "url": "/guides/crystion-catch-guide",
+      "type": "guide",
+      "id": "guid038",
+      "title": "How to Catch Crystion in Pokopia",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "url": "/guides/bronzorm-catch-guide",
+      "type": "guide",
+      "id": "guid039",
+      "title": "How to Catch Bronzorm in Pokopia",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "url": "/guides/stealthfin-catch-guide",
+      "type": "guide",
+      "id": "guid040",
+      "title": "How to Catch Stealthfin in Pokopia",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "url": "/guides/frostbite-catch-guide",
+      "type": "guide",
+      "id": "guid041",
+      "title": "How to Catch Frostbite in Pokopia",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "url": "/guides/snorizard-catch-guide",
+      "type": "guide",
+      "id": "guid042",
+      "title": "How to Catch Snorizard in Pokopia",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "url": "/guides/mysticat-catch-guide",
+      "type": "guide",
+      "id": "guid043",
+      "title": "How to Catch Mysticat in Pokopia",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "url": "/guides/how-to-unlock-frost-peak",
+      "type": "guide",
+      "id": "guid044",
+      "title": "How to Unlock Frost Peak in Pokopia",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "url": "/guides/how-to-unlock-shadow-marsh",
+      "type": "guide",
+      "id": "guid045",
+      "title": "How to Unlock Shadow Marsh in Pokopia",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "url": "/guides/how-to-unlock-thunder-arena",
+      "type": "guide",
+      "id": "guid046",
+      "title": "How to Unlock Thunder Arena in Pokopia",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "url": "/guides/how-to-unlock-crystal-cave",
+      "type": "guide",
+      "id": "guid047",
+      "title": "How to Unlock Crystal Cave in Pokopia",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "url": "/guides/how-to-unlock-sky-isles",
+      "type": "guide",
+      "id": "guid048",
+      "title": "How to Unlock Sky Isles in Pokopia",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "url": "/guides/how-to-build-first-house",
+      "type": "guide",
+      "id": "guid049",
+      "title": "How to Build Your First House in Pokemon Pokopia",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "url": "/guides/ditto-home-fast-travel-guide",
+      "type": "guide",
+      "id": "guid050",
+      "title": "How to Use Fast Travel with Your Ditto Home in Pokemon Pokopia",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "url": "/guides/pokemon-center-pc-daily-routine",
+      "type": "guide",
+      "id": "guid051",
+      "title": "Pokemon Center PC Daily Routine in Pokemon Pokopia",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "url": "/guides/storage-and-crafting-guide",
+      "type": "guide",
+      "id": "guid052",
+      "title": "How to Organize Storage and Craft Faster in Pokemon Pokopia",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "url": "/guides/pokedex-and-habitat-dex-guide",
+      "type": "guide",
+      "id": "guid053",
+      "title": "How to Find Pokemon with the Pokedex and Habitat Dex in Pokemon Pokopia",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "url": "/guides/food-powered-moves-guide",
+      "type": "guide",
+      "id": "guid054",
+      "title": "How to Power Up Ditto Moves with Food in Pokemon Pokopia",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "url": "/guides/strength-decoration-guide",
+      "type": "guide",
+      "id": "guid055",
+      "title": "How to Use Strength for Decoration in Pokemon Pokopia",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "url": "/guides/item-customization-guide",
+      "type": "guide",
+      "id": "guid056",
+      "title": "How to Customize Items with Berries, Crush, and Smearguru in Pokemon Pokopia",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "url": "/guides/town-visit-multiplayer-guide",
+      "type": "guide",
+      "id": "guid057",
+      "title": "How to Invite Friends to Visit Your Town in Pokemon Pokopia",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "url": "/guides/palette-town-gameshare-guide",
+      "type": "guide",
+      "id": "guid058",
+      "title": "Palette Town and GameShare Guide for Pokemon Pokopia",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "url": "/guides/cloud-island-virtual-mode-guide",
+      "type": "guide",
+      "id": "guid059",
+      "title": "Cloud Island and Virtual Mode Guide for Pokemon Pokopia",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "url": "/guides/dive-unlock-requirements-guide",
+      "type": "guide",
+      "id": "guid060",
+      "title": "How to Prepare to Unlock Dive in Pokemon Pokopia",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "url": "/guides/bubbly-basin-expansion-access-guide",
+      "type": "guide",
+      "id": "guid061",
+      "title": "Bubbly Basin Expansion Pass Access Guide for Pokemon Pokopia",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "url": "/guides/expansion-pass-bonus-claim-guide",
+      "type": "guide",
+      "id": "guid062",
+      "title": "Pokemon Pokopia Expansion Pass Bonus Claim Guide",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "url": "/guides/pokemon-request-planning-guide",
+      "type": "guide",
+      "id": "guid063",
+      "title": "Pokemon Request Planning Guide for Pokemon Pokopia",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "url": "/guides/materials-crops-cooking-guide",
+      "type": "guide",
+      "id": "guid064",
+      "title": "Materials, Crops, and Cooking Loop Guide for Pokemon Pokopia",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "url": "/guides/comfortable-pokemon-spaces-guide",
+      "type": "guide",
+      "id": "guid065",
+      "title": "How to Build Comfortable Pokemon Spaces in Pokemon Pokopia",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "url": "/guides/movement-and-terrain-moves-guide",
+      "type": "guide",
+      "id": "guid066",
+      "title": "Pokemon Pokopia Movement and Terrain Moves Guide",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "url": "/guides/dj-rotom-music-guide",
+      "type": "guide",
+      "id": "guid067",
+      "title": "DJ Rotom Music Guide for Pokemon Pokopia",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "url": "/guides/official-pokopia-characters-guide",
+      "type": "guide",
+      "id": "guid068",
+      "title": "Official Pokemon Pokopia Characters Guide",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "url": "/guides/ancient-items-guide",
+      "type": "guide",
+      "id": "guid100",
+      "title": "All 148 Excavation Collectibles — Fossils &amp; CDs Guide Guide",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "url": "/guides/block-float-underwater-building-guide",
+      "type": "guide",
+      "id": "guid101",
+      "title": "Pokémon Pokopia Guide: Block Float Underwater Building",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "url": "/guides/how-to-craft-all-recipes",
+      "type": "guide",
+      "id": "guid102",
+      "title": "Pokemon Pokopia Guide: How to Craft All Recipes",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "url": "/guides/how-to-get-all-pokemon",
+      "type": "guide",
+      "id": "guid103",
+      "title": "Pokémon Pokopia Complete Pokemon Collection Guide",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "url": "/guides/multiplayer-guide",
+      "type": "guide",
+      "id": "guid104",
+      "title": "Pokémon Pokopia Multiplayer Guide",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "url": "/guides/mystery-gift-codes",
+      "type": "guide",
+      "id": "guid105",
+      "title": "Pokémon Pokopia Mystery Gift Codes Guide",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "url": "/guides/pokopia-dlc-faq",
+      "type": "guide",
+      "id": "guid106",
+      "title": "Pokopia DLC FAQ: Bubbly Basin, Dive &amp; Expansion Pass Guide",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "url": "/guides/smoothie-guide",
+      "type": "guide",
+      "id": "guid107",
+      "title": "Pokémon Pokopia Smoothie Guide",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "url": "/guides/story-donyori",
+      "type": "guide",
+      "id": "guid108",
+      "title": "Pokémon Pokopia Donyori Walkthrough Guide",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "url": "/guides/story-gotsugotsu",
+      "type": "guide",
+      "id": "guid109",
+      "title": "Pokémon Pokopia Gotsugotsu Walkthrough Guide",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "url": "/guides/story-pasapasa",
+      "type": "guide",
+      "id": "guid110",
+      "title": "Pokémon Pokopia Pasapasa Walkthrough Guide",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "url": "/guides/underwater-farming-guide",
+      "type": "guide",
+      "id": "guid111",
+      "title": "Pokémon Pokopia Underwater Farming Guide",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "url": "/guides/update-history",
+      "type": "guide",
+      "id": "guid112",
+      "title": "Pokémon Pokopia Update History Guide",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "url": "/guides/how-to-get-copper-ore",
+      "type": "guide",
+      "id": "guid113",
+      "title": "Pokémon Pokopia Copper Ore Location Guide",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "url": "/guides/how-to-get-ice",
+      "type": "guide",
+      "id": "guid114",
+      "title": "Pokémon Pokopia Ice Location Guide",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "url": "/guides/how-to-make-concrete",
+      "type": "guide",
+      "id": "guid115",
+      "title": "Pokémon Pokopia Concrete Location Guide",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "url": "/guides/bubbly-basin-how-to-get-ocean-doors",
+      "type": "guide",
+      "id": "guid116",
+      "title": "Pokémon Pokopia Bubbly Basin How to Get Ocean Doors Guide",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "url": "/guides/bulldoze-pokemon",
+      "type": "guide",
+      "id": "guid117",
+      "title": "Pokémon Pokopia Windup Inkay Location Guide",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "url": "/guides/camera-placement-afk-monitoring-harvest-timing",
+      "type": "guide",
+      "id": "guid118",
+      "title": "Pokémon Pokopia Phione Location Guide",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "url": "/guides/cloud-islands-secret-developer-island-exploration",
+      "type": "guide",
+      "id": "guid119",
+      "title": "Pokémon Pokopia Guide: Cloud Islands Secret Developer Island Exploration",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "url": "/guides/co-op-palette-town-trading",
+      "type": "guide",
+      "id": "guid120",
+      "title": "Pokémon Pokopia Guide: Co-op Palette Town Trading",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "url": "/guides/cooking-guide",
+      "type": "guide",
+      "id": "guid121",
+      "title": "Pokémon Pokopia Cooking Guide: All Recipes and Buffs",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "url": "/guides/daily-activities-guide",
+      "type": "guide",
+      "id": "guid122",
+      "title": "Pokopia Daily Activities Guide: Your Morning Checklist",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "url": "/guides/dlc-wave-1-bubbly-basin-release-date",
+      "type": "guide",
+      "id": "guid123",
+      "title": "Pokémon Pokopia DLC Wave 1 Bubbly Basin Exact Release Date &amp; Start Times",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "url": "/guides/dream-islands-guide",
+      "type": "guide",
+      "id": "guid124",
+      "title": "Pokémon Pokopia Dream Islands Complete Guide",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "url": "/guides/dry-flavors-guide",
+      "type": "guide",
+      "id": "guid125",
+      "title": "Pokopia Dry Flavors Guide (2026): Flavor System, Pokemon Preferences, and Habitat Strategy",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "url": "/guides/expansion-pass-price",
+      "type": "guide",
+      "id": "guid126",
+      "title": "Pokémon Pokopia Expansion Pass Price and Content",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "url": "/guides/game-length",
+      "type": "guide",
+      "id": "guid127",
+      "title": "Game Length: How Long to Beat Pokopia?",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "url": "/guides/game-length-estimate",
+      "type": "guide",
+      "id": "guid128",
+      "title": "Pokopia Game Length (2026): Story Runtime, 100% Completion Time &amp; Hours to Platinum",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "url": "/guides/gimmighoul-trading-framed-items-rare-rewards",
+      "type": "guide",
+      "id": "guid129",
+      "title": "Pokémon Pokopia Gimmighoul Trading: Best Framed Items for Rare Rewards",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "url": "/guides/habitats-building",
+      "type": "guide",
+      "id": "guid130",
+      "title": "Pokémon Pokopia Habitat Guide: How to Build Every Habitat",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "url": "/guides/habitats-dex-list",
+      "type": "guide",
+      "id": "guid131",
+      "title": "Pokémon Pokopia Habitat Dex: Complete Build Recipes (All 209 Habitats)",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "url": "/guides/hoppip-event",
+      "type": "guide",
+      "id": "guid132",
+      "title": "More Spores for Hoppip Event Guide: Habitats &amp; Mechanics",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "url": "/guides/how-to-befriend-mew-and-mewtwo",
+      "type": "guide",
+      "id": "guid133",
+      "title": "Pokemon Pokopia Guide: Mew and Mewtwo Befriending Guide",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "url": "/guides/how-to-befriend-the-kanto-legendary-birds",
+      "type": "guide",
+      "id": "guid134",
+      "title": "Pokemon Pokopia Guide: Kanto Legendary Birds Befriending Guide",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "url": "/guides/how-to-befriend-with-ho-oh-and-lugia",
+      "type": "guide",
+      "id": "guid135",
+      "title": "Pokémon Pokopia Guide: How to Befriend with Ho-Oh &amp; Lugia",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "url": "/guides/how-to-befriend-with-raikou-entei-and-suicune",
+      "type": "guide",
+      "id": "guid136",
+      "title": "Pokemon Pokopia Guide: Raikou Entei Suicune Befriending Guide",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "url": "/guides/how-to-break-and-move-large-boulder-rocks",
+      "type": "guide",
+      "id": "guid137",
+      "title": "Pokémon Pokopia Guide: How to Break &amp; Move Large Boulder Rocks",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "url": "/guides/how-to-find-the-windup-inkay",
+      "type": "guide",
+      "id": "guid138",
+      "title": "Pokémon Pokopia Windup Inkay Bubbly Basin Guide",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "url": "/guides/how-to-fix-the-water-wheels",
+      "type": "guide",
+      "id": "guid139",
+      "title": "Pokémon Pokopia Guide: How to Fix the Withered Wasteland Water Wheels",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "url": "/guides/how-to-get-concrete",
+      "type": "guide",
+      "id": "guid140",
+      "title": "Pokémon Pokopia Concrete Farming Guide",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "url": "/guides/how-to-get-glass",
+      "type": "guide",
+      "id": "guid141",
+      "title": "Pokémon Pokopia Guide: How to Get Glass",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "url": "/guides/how-to-get-gold-teeth",
+      "type": "guide",
+      "id": "guid142",
+      "title": "Pokémon Pokopia Guide: How to Get Gold Teeth",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "url": "/guides/how-to-get-gyarados",
+      "type": "guide",
+      "id": "guid143",
+      "title": "Ultimate Pokémon Pokopia Guide: How to Get Gyarados",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "url": "/guides/how-to-get-hoppip-skiploom-and-jumpluff",
+      "type": "guide",
+      "id": "guid144",
+      "title": "Pokémon Pokopia Hoppip Skiploom Jumpluff Guide",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "url": "/guides/how-to-get-inflatable-sudowoodo",
+      "type": "guide",
+      "id": "guid146",
+      "title": "Pokémon Pokopia Inflatable Sudowoodo Guide",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "url": "/guides/how-to-get-lumber",
+      "type": "guide",
+      "id": "guid147",
+      "title": "Pokémon Pokopia Guide: How to Get Lumber",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "url": "/guides/how-to-get-paint",
+      "type": "guide",
+      "id": "guid148",
+      "title": "Pokémon Pokopia Paint Location Guide",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "url": "/guides/how-to-get-paper",
+      "type": "guide",
+      "id": "guid149",
+      "title": "Pokémon Pokopia Guide: How to Get Paper",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "url": "/guides/how-to-get-phione",
+      "type": "guide",
+      "id": "guid150",
+      "title": "Pokémon Pokopia Phione Bubbly Basin Guide",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "url": "/guides/how-to-get-pokemetal",
+      "type": "guide",
+      "id": "guid151",
+      "title": "Pokémon Pokopia Pokémetal Farming Guide",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "url": "/guides/how-to-get-portal-pods",
+      "type": "guide",
+      "id": "guid152",
+      "title": "Pokémon Pokopia Guide: How to Get Portal Pods",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "url": "/guides/how-to-get-porygon",
+      "type": "guide",
+      "id": "guid153",
+      "title": "Pokémon Pokopia Guide: How to Get Porygon",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "url": "/guides/how-to-get-shiny-pearls-in-bubbly-basin",
+      "type": "guide",
+      "id": "guid154",
+      "title": "Pokémon Pokopia Guide: How to Get Shiny Pearls in Bubbly Basin",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "url": "/guides/how-to-learn-suck-and-move-water",
+      "type": "guide",
+      "id": "guid155",
+      "title": "Pokémon Pokopia Guide: How to Learn Suck and Move Water",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "url": "/guides/how-to-make-a-bubbly-basin-habitat-warmer",
+      "type": "guide",
+      "id": "guid156",
+      "title": "Pokémon Pokopia Bubbly Basin Habitat Warmer Guide",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "url": "/guides/how-to-make-a-hot-spring-shower-and-get-psyduck",
+      "type": "guide",
+      "id": "guid157",
+      "title": "Pokémon Pokopia Hot Spring Shower Psyduck Guide",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "url": "/guides/how-to-make-a-pikachu-corner",
+      "type": "guide",
+      "id": "guid158",
+      "title": "Pokémon Pokopia Pikachu Corner Mimikyu Guide",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "url": "/guides/how-to-make-duckweed",
+      "type": "guide",
+      "id": "guid159",
+      "title": "Pokémon Pokopia Guide: How to Make Duckweed",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "url": "/guides/how-to-make-lava-pools-and-streams",
+      "type": "guide",
+      "id": "guid160",
+      "title": "Pokémon Pokopia: How to Make Lava Pools and Streams",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "url": "/guides/how-to-unlock-bubbly-basin",
+      "type": "guide",
+      "id": "guid161",
+      "title": "Pokémon Pokopia Bubbly Basin Unlock Guide",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "url": "/guides/how-to-unlock-dive-ability",
+      "type": "guide",
+      "id": "guid162",
+      "title": "Pokémon Pokopia Dive Ability Unlock Guide",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "url": "/guides/how-to-unlock-magnet-rise",
+      "type": "guide",
+      "id": "guid163",
+      "title": "Pokémon Pokopia Magnemite Skill Guide: How to Unlock Magnet Rise",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "url": "/guides/how-to-use-security-cameras",
+      "type": "guide",
+      "id": "guid164",
+      "title": "Pokemon Pokopia Guide: Hpw to Use Security Cameras",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "url": "/guides/how-to-win-hide-and-sneak",
+      "type": "guide",
+      "id": "guid165",
+      "title": "Pokémon Pokopia Guide: How to Win Hide-and-Sneak",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "url": "/guides/jumpluff-habitat",
+      "type": "guide",
+      "id": "guid166",
+      "title": "Dandelion Lunchtime: Jumpluff Habitat &amp; Recruitment Guide",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "url": "/guides/lumber-farming",
+      "type": "guide",
+      "id": "guid167",
+      "title": "How to Get Lumber Fast in Pokopia (Complete Guide)",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "url": "/guides/mosslax-location-wake-up-guide",
+      "type": "guide",
+      "id": "guid168",
+      "title": "Mosslax Guide: Location, Wake Up Quest &amp; Boosts List",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "url": "/guides/photo-ops-guide",
+      "type": "guide",
+      "id": "guid169",
+      "title": "Pokemon Pokopia Photo Ops Guide",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "url": "/guides/rocky-ridges-guide",
+      "type": "guide",
+      "id": "guid170",
+      "title": "Rocky Ridges Guide: Time To Party Walkthrough",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "url": "/guides/shiny-hunting",
+      "type": "guide",
+      "id": "guid171",
+      "title": "Pokopia Shiny Hunting Guide (2026): Are There Shinies or Unique Variants?",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "url": "/guides/smooth-rock",
+      "type": "guide",
+      "id": "guid172",
+      "title": "How to Get Smooth Rock and Create Onix Habitat in Pokopia",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "url": "/guides/squishy-clay",
+      "type": "guide",
+      "id": "guid173",
+      "title": "Squishy Clay Guide: How to Get and Use Bricks",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "url": "/guides/stardust-guide",
+      "type": "guide",
+      "id": "guid174",
+      "title": "Pokémon Pokopia Stardust Guide: How to Find and Use It",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "url": "/guides/team-initiation-challenge",
+      "type": "guide",
+      "id": "guid175",
+      "title": "Team Initiation Challenge Guide - All Beach Building Requests &amp; Deliveries",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "url": "/guides/team-initiation-guide",
+      "type": "guide",
+      "id": "guid176",
+      "title": "Pokémon Pokopia: Team Initiation Challenge Complete Walkthrough",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "url": "/guides/version-2-0-0-patch-notes",
+      "type": "guide",
+      "id": "guid177",
+      "title": "Pokémon Pokopia Version 2.0.0 Patch Notes: Every Change Explained",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "References quarantined Pokemon IDs."
+    },
+    {
+      "url": "/guides/where-to-find-cotton-spores",
+      "type": "guide",
+      "id": "guid178",
+      "title": "Pokémon Pokopia Guide: Where to Find Cotton Spores",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "Fails guide status or review-date gate."
+    },
+    {
+      "url": "/guides/zorua-hide-and-sneak-contest-guide",
+      "type": "guide",
+      "id": "guid180",
+      "title": "Pokémon Pokopia Zorua Hide-and-Sneak Contest Guide",
+      "currentAction": "NOINDEX",
+      "nextAction": "MANUAL_REVIEW",
+      "reason": "Fails guide status or review-date gate."
+    }
+  ]
+}

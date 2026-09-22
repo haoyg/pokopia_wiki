@@ -1,7 +1,9 @@
 import type { Metadata } from 'next'
 import { canonicalUrl } from '@/lib/site'
+import { noIndexMetadata } from '@/lib/indexing'
 
 export const metadata: Metadata = {
+  robots: noIndexMetadata,
   title: 'Pokopia Team Builder: Best Team Planner',
   description: 'Build Pokopia teams by goal, role, type coverage, recipes, habitat routes, Pokemon links, and related guides.',
   keywords: [

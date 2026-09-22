@@ -2,8 +2,10 @@ import type { Metadata } from 'next'
 import { canonicalUrl } from '@/lib/site'
 import { BreadcrumbJsonLd, FAQJsonLd } from '@/components/seo/JsonLd'
 import CompatibilityClient from './CompatibilityClient'
+import { noIndexMetadata } from '@/lib/indexing'
 
 export const metadata: Metadata = {
+  robots: noIndexMetadata,
   title: 'Pokopia Pokemon Compatibility - Team Synergy Checker | Pokopia Cloud',
   description:
     'Check Pokopia Pokemon compatibility and team synergy. Pick two Pokemon to see role coverage, type matchups, defensive complement, and partner suggestions.',

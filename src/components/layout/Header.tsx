@@ -1,4 +1,8 @@
+'use client'
+
 import Link from 'next/link'
+import { usePathname } from 'next/navigation'
+import { useState } from 'react'
 
 const navItems = [
   { href: '/', label: 'Home' },
@@ -13,10 +17,13 @@ const navItems = [
 ]
 
 export function Header() {
+  const pathname = usePathname()
+  const [menuOpen, setMenuOpen] = useState(false)
+
   return (
     <header className="site-header">
       <div className="site-header-inner">
-        <Link href="/" className="site-brand" aria-label="Pokopia Portal home">
+        <Link href="/" className="site-brand">
           <img
             className="site-brand-logo"
             src="/logo.svg"
@@ -39,11 +46,27 @@ export function Header() {
           />
           <button type="submit">Search</button>
         </form>
+
+        <button
+          className="site-menu-toggle"
+          type="button"
+          aria-expanded={menuOpen}
+          aria-controls="site-navigation"
+          onClick={() => setMenuOpen((open) => !open)}
+        >
+          <span aria-hidden="true">{menuOpen ? 'Close' : 'Menu'}</span>
+          <span className="sr-only">{menuOpen ? 'Close main navigation' : 'Open main navigation'}</span>
+        </button>
       </div>
 
-      <nav className="site-nav" aria-label="Main navigation">
+      <nav id="site-navigation" className="site-nav" aria-label="Main navigation" data-open={menuOpen}>
         {navItems.map((item) => (
-          <Link key={item.href} href={item.href}>
+          <Link
+            key={item.href}
+            href={item.href}
+            aria-current={pathname === item.href || (item.href !== '/' && pathname.startsWith(`${item.href}/`)) ? 'page' : undefined}
+            onClick={() => setMenuOpen(false)}
+          >
             {item.label}
           </Link>
         ))}

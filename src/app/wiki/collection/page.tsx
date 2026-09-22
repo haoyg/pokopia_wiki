@@ -5,6 +5,7 @@ import habitatsData from '@/data/habitats.json'
 import { canonicalUrl } from '@/lib/site'
 import { BreadcrumbJsonLd, FAQJsonLd, ItemListJsonLd } from '@/components/seo/JsonLd'
 import { DataStatus } from '@/components/content/DataStatus'
+import { noIndexMetadata } from '@/lib/indexing'
 
 const PAGE_URL = '/wiki/collection'
 const RARITY_ORDER: Record<string, number> = { common: 1, uncommon: 2, rare: 3, legendary: 4 }
@@ -70,6 +71,7 @@ const faqs = [
 ]
 
 export const metadata: Metadata = {
+  robots: noIndexMetadata,
   title: 'Pokopia Collection List - Complete Pokémon Checklist | Pokopia Cloud',
   description:
     `The complete Pokopia Collection List — a ${pokemonData.length}-Pokemon checklist organized by rarity, type, habitat, and role. Includes how-to-get conditions, spawn windows, and progress tracking for every entry.`,

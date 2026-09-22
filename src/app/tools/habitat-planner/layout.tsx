@@ -1,7 +1,9 @@
 import type { Metadata } from 'next'
 import { canonicalUrl } from '@/lib/site'
+import { noIndexMetadata } from '@/lib/indexing'
 
 export const metadata: Metadata = {
+  robots: noIndexMetadata,
   title: 'Pokopia Habitat Planner - Routes, Unlocks, Weather, and Spawns',
   description: 'Plan Pokopia habitat routes by goal, player level, difficulty, weather, recipe support, Pokemon spawns, and related guide links.',
   keywords: [

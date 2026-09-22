@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { ArticleJsonLd, BreadcrumbJsonLd, FAQJsonLd, ItemListJsonLd } from '@/components/seo/JsonLd'
 import { DataStatus } from '@/components/content/DataStatus'
 import { canonicalUrl, BASE_URL } from '@/lib/site'
+import { noIndexMetadata } from '@/lib/indexing'
 
 const updatedAt = '2026-08-11'
 
@@ -109,6 +110,7 @@ const faqs = [
 ]
 
 export const metadata: Metadata = {
+  robots: noIndexMetadata,
   title: 'Pokopia Tips and Tricks – Complete Guide for New and Intermediate Players | Pokopia Cloud',
   description: 'Practical Pokopia tips and tricks covering team building, material farming, weather matching, habitat planning, spawn tracking, and legendary Pokemon priorities for new and intermediate players.',
   keywords: [

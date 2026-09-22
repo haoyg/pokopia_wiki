@@ -3,7 +3,10 @@
 import { useMemo, useState } from 'react'
 import Link from 'next/link'
 import habitatsData from '@/data/habitat-links.json'
-import pokemonData from '@/data/tool-spawn-pokemon.json'
+import rawPokemonData from '@/data/tool-spawn-pokemon.json'
+import pokemonSchema from '@/data/pokemon.json'
+
+const pokemonData = rawPokemonData as (typeof pokemonSchema)[number][]
 
 const habitatNames = new Map(habitatsData.map((habitat) => [habitat.id, habitat.name]))
 
@@ -83,6 +86,7 @@ export function SpawnTracker() {
   const [weather, setWeather] = useState('all')
   const [spawnTime, setSpawnTime] = useState('all')
   const [rarity, setRarity] = useState('all')
+  const hasActiveFilters = Boolean(query.trim()) || habitat !== 'all' || weather !== 'all' || spawnTime !== 'all' || rarity !== 'all'
 
   const habitatOptions = useMemo(
     () => uniqueValues(pokemonData.map((pokemon) => pokemon.habitat)),
@@ -194,6 +198,22 @@ export function SpawnTracker() {
             ))}
           </select>
         </div>
+
+        {hasActiveFilters ? (
+          <button
+            type="button"
+            className="filter-reset"
+            onClick={() => {
+              setQuery('')
+              setHabitat('all')
+              setWeather('all')
+              setSpawnTime('all')
+              setRarity('all')
+            }}
+          >
+            Clear filters
+          </button>
+        ) : null}
       </div>
 
       <div className="content-section">
@@ -210,6 +230,7 @@ export function SpawnTracker() {
         {filteredPokemon.length > 0 ? (
           <div className="data-table-wrap">
             <table className="data-table">
+              <caption className="sr-only">Filtered Pokemon spawn results</caption>
               <thead>
                 <tr>
                   <th>Pokemon</th>

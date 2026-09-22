@@ -218,8 +218,19 @@ const staticEntries = [
   })),
 ]
 
+const quarantinedStaticHrefs = new Set([
+  '/wiki/pokemon',
+  '/wiki/habitat',
+  '/wiki/recipe',
+  '/tools',
+  '/tools/recipe-calculator',
+  '/tools/habitat-planner',
+  '/tools/team-builder',
+  '/tools/spawn-tracker',
+])
+
 const index = [
-  ...staticEntries,
+  ...staticEntries.filter((item) => !quarantinedStaticHrefs.has(item.href)),
   ...news.filter((item) => !redirectedNewsSlugs.has(item.slug)).map((item) => entry({
     id: item.id,
     type: 'News',
