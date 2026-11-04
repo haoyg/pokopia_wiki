@@ -6,7 +6,7 @@
     "base_game": 300,
     "bubbly_basin": 50,
     "event": 7,
-    "reviewed_here": 125
+    "reviewed_here": 150
   },
   "sources": [
     {
@@ -159,6 +159,31 @@
     { "number": 122, "national_dex": 257, "slug": "blaziken", "name": "Blaziken", "types": ["Fire", "Fighting"], "specialties": ["Burn", "Build"], "habitats": ["Furnace Spot", "Chirp-chirp Meal"] },
     { "number": 123, "national_dex": 278, "slug": "wingull", "name": "Wingull", "types": ["Water", "Flying"], "specialties": ["Water", "Fly"], "habitats": ["Elevated Yellow Tall Grass", "Windy Flower Bed"] },
     { "number": 124, "national_dex": 279, "slug": "pelipper", "name": "Pelipper", "types": ["Water", "Flying"], "specialties": ["Water", "Fly"], "habitats": ["Windy Flower Bed", "Elevated Yellow Tall Grass"], "field_notes": { "name": "Nintendo Life spells the name “Pelliper”; Bulbapedia, Serebii, and the National Pokédex spelling confirm Pelipper." } },
-    { "number": 125, "national_dex": 296, "slug": "makuhita", "name": "Makuhita", "types": ["Fighting"], "specialties": ["Build", "Bulldoze"], "habitats": ["Tree-shaded Yellow Tall Grass", "All Packed Up"] }
+    { "number": 125, "national_dex": 296, "slug": "makuhita", "name": "Makuhita", "types": ["Fighting"], "specialties": ["Build", "Bulldoze"], "habitats": ["Tree-shaded Yellow Tall Grass", "All Packed Up"] },
+    { "number": 126, "national_dex": 297, "slug": "hariyama", "name": "Hariyama", "types": ["Fighting"], "specialties": ["Build", "Bulldoze"], "habitats": ["Tree-shaded Yellow Tall Grass", "All Packed Up"] },
+    { "number": 127, "national_dex": 359, "slug": "absol", "name": "Absol", "types": ["Dark"], "specialties": ["Chop"], "habitats": ["Welcoming Resort"] },
+    { "number": 128, "national_dex": 393, "slug": "piplup", "name": "Piplup", "types": ["Water"], "specialties": ["Water"], "habitats": ["Hydrated Yellow Tall Grass"] },
+    { "number": 129, "national_dex": 394, "slug": "prinplup", "name": "Prinplup", "types": ["Water"], "specialties": ["Water", "Trade"], "habitats": ["Waterwheel Spot", "Hydrated Yellow Tall Grass"] },
+    { "number": 130, "national_dex": 395, "slug": "empoleon", "name": "Empoleon", "types": ["Water", "Steel"], "specialties": ["Water", "Trade"], "habitats": ["Tableside Delivery Cart", "Waterwheel Spot"], "field_notes": { "habitats": "Nintendo Life spells the first habitat “Tableside Deilvery Cart”; Pokopia Guide confirms the corrected spelling." } },
+    { "number": 131, "national_dex": 531, "slug": "audino", "name": "Audino", "types": ["Normal"], "specialties": ["Trade"], "habitats": ["Working the Register"] },
+    { "number": 132, "national_dex": 568, "slug": "trubbish", "name": "Trubbish", "types": ["Poison"], "specialties": ["Recycle"], "habitats": ["Trash Collection Site"] },
+    { "number": 133, "national_dex": 569, "slug": "garbodor", "name": "Garbodor", "types": ["Poison"], "specialties": ["Recycle", "Litter"], "habitats": ["Trash Collection Site"] },
+    { "number": 134, "national_dex": 570, "slug": "zorua", "name": "Zorua", "types": ["Dark"], "specialties": ["Trade"], "habitats": ["Breezy Flower Bed"] },
+    { "number": 135, "national_dex": 571, "slug": "zoroark", "name": "Zoroark", "types": ["Dark"], "specialties": ["Trade", "Chop"], "habitats": ["Surprise in Store", "Breezy Flower Bed"] },
+    { "number": 136, "national_dex": 572, "slug": "minccino", "name": "Minccino", "types": ["Normal"], "specialties": ["Gather"], "habitats": ["Changing Area", "Private Makeup Stand"] },
+    { "number": 137, "national_dex": 573, "slug": "cinccino", "name": "Cinccino", "types": ["Normal"], "specialties": ["Gather", "Recycle"], "habitats": ["Private Makeup Stand"] },
+    { "number": 138, "national_dex": 736, "slug": "grubbin", "name": "Grubbin", "types": ["Bug"], "specialties": ["Chop"], "habitats": ["Yellow Tall Grass", "Vending Machine Break Area"] },
+    { "number": 139, "national_dex": 737, "slug": "charjabug", "name": "Charjabug", "types": ["Bug", "Electric"], "specialties": ["Generate", "Chop"], "habitats": ["Vending Machine Break Area"] },
+    { "number": 140, "national_dex": 738, "slug": "vikavolt", "name": "Vikavolt", "types": ["Bug", "Electric"], "specialties": ["Generate", "Chop"], "habitats": ["Tree-shaded Flower Bed (Palette Town only)"] },
+    { "number": 141, "national_dex": 778, "slug": "mimikyu", "name": "Mimikyu", "types": ["Ghost", "Fairy"], "specialties": ["Trade"], "habitats": ["Pikachu Space"] },
+    { "number": 142, "national_dex": 921, "slug": "pawmi", "name": "Pawmi", "types": ["Electric"], "specialties": ["Generate"], "habitats": ["Breezy Flower Bed", "Tantalizing Restaurant"] },
+    { "number": 143, "national_dex": 922, "slug": "pawmo", "name": "Pawmo", "types": ["Electric", "Fighting"], "specialties": ["Generate", "Crush"], "habitats": ["Tantalizing Restaurant", "Café Space"] },
+    { "number": 144, "national_dex": 923, "slug": "pawmot", "name": "Pawmot", "types": ["Electric", "Fighting"], "specialties": ["Generate", "Crush"], "habitats": ["Café Space"] },
+    { "number": 145, "national_dex": 978, "slug": "tatsugiri", "name": "Tatsugiri", "forms": ["Curly Form", "Droopy Form", "Stretchy Form"], "types": ["Dragon", "Water"], "specialties": ["Trade"], "habitats": ["Beach Set"] },
+    { "number": 146, "national_dex": 23, "slug": "ekans", "name": "Ekans", "types": ["Poison"], "specialties": ["Search"], "habitats": ["Hydrated Graceful Flower Bed"] },
+    { "number": 147, "national_dex": 24, "slug": "arbok", "name": "Arbok", "types": ["Poison"], "specialties": ["Search"], "habitats": ["Hydrated Graceful Flower Bed"] },
+    { "number": 148, "national_dex": 173, "slug": "cleffa", "name": "Cleffa", "types": ["Fairy"], "specialties": ["Hype"], "habitats": ["Graceful Flower Bed"] },
+    { "number": 149, "national_dex": 35, "slug": "clefairy", "name": "Clefairy", "types": ["Fairy"], "specialties": ["Hype"], "habitats": ["Bronze Landmark", "Graceful Flower Bed"] },
+    { "number": 150, "national_dex": 36, "slug": "clefable", "name": "Clefable", "types": ["Fairy"], "specialties": ["Hype", "Trade"], "habitats": ["Bronze Landmark", "Graceful Flower Bed"] }
   ]
 }
