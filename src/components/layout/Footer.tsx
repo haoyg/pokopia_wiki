@@ -5,6 +5,7 @@ const footerGroups = [
     title: 'Start',
     links: [
       { href: '/', label: 'Home' },
+      { href: '/pokedex', label: 'Verified Pokédex' },
       { href: '/official', label: 'Official Source Roundups' },
       { href: '/news', label: 'News Hub' },
       { href: '/official/gameplay-overview', label: 'Gameplay Overview' },

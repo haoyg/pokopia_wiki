@@ -1,14 +1,13 @@
 import type { Metadata } from 'next'
-import pokemonData from '@/data/pokemon.json'
+import verifiedPokedex from '@/data/pokedex-verified.json'
 import habitatData from '@/data/habitats.json'
 import recipeData from '@/data/recipes.json'
 import { canonicalUrl } from '@/lib/site'
 import { WebPageJsonLd } from '@/components/seo/JsonLd'
-import { pokemonImage, habitatImage, recipeImage } from '@/lib/localImages'
+import { habitatImage, recipeImage } from '@/lib/localImages'
 import { HeroBackground } from '@/components/HeroBackground'
 import { isIndexableDatabaseEntry } from '@/lib/indexing'
 
-const verifiedPokemon = pokemonData.filter(isIndexableDatabaseEntry)
 const verifiedHabitats = habitatData.filter(isIndexableDatabaseEntry)
 const verifiedRecipes = recipeData.filter(isIndexableDatabaseEntry)
 
@@ -46,11 +45,11 @@ export const metadata: Metadata = {
 
 const portalSections = [
   {
-    href: '/wiki/pokemon',
-    label: 'Pokemon Database',
-    description: 'Database rebuild in progress. Entries return only after names and gameplay fields have cited evidence.',
-    tags: ['Verification status', 'Official info'],
-    tagHrefs: ['/wiki/pokemon', '/official'],
+    href: '/pokedex',
+    label: 'Verified Pokédex',
+    description: 'Browse the first 50 reviewed Pokémon with cross-checked types, specialties, and habitat requirements.',
+    tags: ['Reviewed entries', 'Source policy'],
+    tagHrefs: ['/pokedex', '/source-policy'],
   },
   {
     href: '/wiki/habitat',
@@ -150,7 +149,7 @@ export default function HomePage() {
           <h1>Pokopia Wiki with Sources First</h1>
           <p>Official information and source-checked guides, with unverified database pages kept out of search.</p>
           <div className="hero-actions">
-            <a href="/official">Browse Official Info</a>
+            <a href="/pokedex">Browse Verified Pokédex</a>
             <a href="/news">Read Updates</a>
             <a href="/source-policy">Review Sources</a>
           </div>
@@ -197,26 +196,16 @@ export default function HomePage() {
           <div style={{ marginBottom: 'var(--space-4)', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
             <div>
               <p style={{ color: 'var(--color-secondary)', fontWeight: 800, textTransform: 'uppercase', fontSize: 'var(--font-size-xs)', margin: 0 }}>Database</p>
-              <h2 style={{ margin: '4px 0 0', fontSize: 'var(--font-size-xl)', fontWeight: 900 }}>Featured Pokemon</h2>
+              <h2 style={{ margin: '4px 0 0', fontSize: 'var(--font-size-xl)', fontWeight: 900 }}>Verified Pokédex</h2>
             </div>
-            <a href="/wiki/pokemon" style={{ color: 'var(--color-secondary)', fontWeight: 800, fontSize: 'var(--font-size-sm)' }}>Verification status →</a>
+            <a href="/pokedex" style={{ color: 'var(--color-secondary)', fontWeight: 800, fontSize: 'var(--font-size-sm)' }}>Browse all reviewed entries →</a>
           </div>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(130px, 1fr))', gap: 'var(--space-3)' }}>
-            {verifiedPokemon.slice(0, 8).map((p) => (
-              <a key={p.id} href={`/wiki/pokemon/${p.id}`} className="card" style={{ background: 'var(--color-bg-card)', borderRadius: 'var(--radius-lg)', overflow: 'hidden', textDecoration: 'none', boxShadow: 'var(--shadow-sm)', display: 'block' }}>
-                <div style={{ aspectRatio: '1', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: 'var(--space-2)' }}>
-                  <img
-                    src={p.image_url && !p.image_url.startsWith('http') ? p.image_url : pokemonImage(p.name)}
-                    alt={p.name}
-                    loading="lazy"
-                    decoding="async"
-                    style={{ width: '100%', height: '100%', objectFit: 'contain' }}
-                  />
-                </div>
-                <div style={{ padding: '0 var(--space-2) var(--space-2)' }}>
-                  <p style={{ margin: 0, fontWeight: 800, fontSize: 'var(--font-size-sm)', color: 'var(--color-text)', textAlign: 'center' }}>{p.name}</p>
-                  <p style={{ margin: '2px 0 0', fontSize: 'var(--font-size-xs)', color: 'var(--color-text-secondary)', textAlign: 'center' }}>{p.type}</p>
-                </div>
+            {verifiedPokedex.pokemon.slice(0, 8).map((pokemon) => (
+              <a key={pokemon.slug} href={`/pokedex#${pokemon.slug}`} className="card" style={{ background: 'var(--color-bg-card)', borderRadius: 'var(--radius-lg)', padding: 'var(--space-3)', textDecoration: 'none', boxShadow: 'var(--shadow-sm)', display: 'block' }}>
+                <p style={{ margin: 0, color: 'var(--color-secondary)', fontWeight: 900, fontSize: 'var(--font-size-xs)' }}>#{String(pokemon.number).padStart(3, '0')}</p>
+                <p style={{ margin: '4px 0 0', fontWeight: 800, fontSize: 'var(--font-size-base)', color: 'var(--color-text)' }}>{pokemon.name}</p>
+                <p style={{ margin: '4px 0 0', fontSize: 'var(--font-size-xs)', color: 'var(--color-text-secondary)' }}>{pokemon.types.join(' / ')}</p>
               </a>
             ))}
           </div>

@@ -38,6 +38,33 @@ const errors = []
 let publishable = 0
 let quarantined = 0
 
+const verifiedPokedex = readJson('src/data/pokedex-verified.json')
+if (!validDate(verifiedPokedex.reviewed_at)) errors.push('pokedex-verified has a missing, invalid, or future reviewed_at date')
+if (!validSources(verifiedPokedex.sources)) errors.push('pokedex-verified contains an invalid, untyped, or self-referential source')
+if (!verifiedPokedex.current_game_version) errors.push('pokedex-verified is missing current_game_version')
+if (!verifiedPokedex.scope || verifiedPokedex.scope.reviewed_here !== verifiedPokedex.pokemon.length) {
+  errors.push('pokedex-verified reviewed_here count does not match its Pokémon rows')
+}
+const pokedexNumbers = new Set()
+const pokedexSlugs = new Set()
+for (const pokemon of verifiedPokedex.pokemon || []) {
+  if (!pokemon.name || !pokemon.slug || !Number.isInteger(pokemon.number) || !Number.isInteger(pokemon.national_dex)) {
+    errors.push('pokedex-verified contains a row without a valid name, slug, Pokopia number, or National Pokédex number')
+    continue
+  }
+  if (pokedexNumbers.has(pokemon.number)) errors.push(`pokedex-verified contains duplicate number ${pokemon.number}`)
+  if (pokedexSlugs.has(pokemon.slug)) errors.push(`pokedex-verified contains duplicate slug ${pokemon.slug}`)
+  pokedexNumbers.add(pokemon.number)
+  pokedexSlugs.add(pokemon.slug)
+  for (const field of ['types', 'specialties', 'habitats']) {
+    const hasReviewedException = Boolean(pokemon.field_notes?.[field] || pokemon.field_conflicts?.[field])
+    if (!Array.isArray(pokemon[field]) || (pokemon[field].length === 0 && !hasReviewedException)) {
+      errors.push(`pokedex-verified:${pokemon.slug} is missing ${field}`)
+    }
+  }
+  publishable += 1
+}
+
 const intake = readJson('src/data/verified-intake.json')
 const intakeSourceIds = new Set((intake.sources || []).map((source) => source.id))
 if (!validDate(intake.reviewed_at)) errors.push('verified-intake has a missing, invalid, or future reviewed_at date')

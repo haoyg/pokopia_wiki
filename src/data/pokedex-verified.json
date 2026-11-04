@@ -1,0 +1,89 @@
+{
+  "dataset_version": "2026-11-04",
+  "reviewed_at": "2026-11-04",
+  "current_game_version": "2.0.0",
+  "scope": {
+    "base_game": 300,
+    "bubbly_basin": 50,
+    "event": 7,
+    "reviewed_here": 50
+  },
+  "sources": [
+    {
+      "id": "bulbapedia-pokopia-pokedex",
+      "name": "Bulbapedia — Pokopia Pokédex",
+      "type": "community",
+      "url": "https://bulbapedia.bulbagarden.net/wiki/Pokopia_Pok%C3%A9dex"
+    },
+    {
+      "id": "serebii-available-pokemon",
+      "name": "Serebii — Available Pokémon",
+      "type": "community",
+      "url": "https://www.serebii.net/pokemonpokopia/availablepokemon.shtml"
+    },
+    {
+      "id": "nintendo-life-complete-pokedex",
+      "name": "Nintendo Life — Complete Pokédex and habitats",
+      "type": "community",
+      "url": "https://www.nintendolife.com/guides/pokemon-pokopia-complete-pokedex-all-pokemon-habitats"
+    },
+    {
+      "id": "pokopia-guide-pokedex",
+      "name": "Pokopia Guide — Pokédex",
+      "type": "community",
+      "url": "https://pokopiaguide.com/pokedex"
+    }
+  ],
+  "pokemon": [
+    { "number": 1, "national_dex": 1, "slug": "bulbasaur", "name": "Bulbasaur", "types": ["Grass", "Poison"], "specialties": ["Grow"], "habitats": ["Tall Grass", "Bench with greenery"] },
+    { "number": 2, "national_dex": 2, "slug": "ivysaur", "name": "Ivysaur", "types": ["Grass", "Poison"], "specialties": ["Grow"], "habitats": ["Field of Flowers", "Bench with greenery"] },
+    { "number": 3, "national_dex": 3, "slug": "venusaur", "name": "Venusaur", "types": ["Grass", "Poison"], "specialties": ["Grow", "Litter"], "habitats": ["Field of Flowers", "Garden Terrace"] },
+    { "number": 4, "national_dex": 4, "slug": "charmander", "name": "Charmander", "types": ["Fire"], "specialties": ["Burn"], "habitats": ["Tall Grass"] },
+    { "number": 5, "national_dex": 5, "slug": "charmeleon", "name": "Charmeleon", "types": ["Fire"], "specialties": ["Burn"], "habitats": ["Campsite"] },
+    { "number": 6, "national_dex": 6, "slug": "charizard", "name": "Charizard", "types": ["Fire", "Flying"], "specialties": ["Burn", "Fly"], "habitats": ["Tall Grass", "Berry-feast Campsite"] },
+    { "number": 7, "national_dex": 7, "slug": "squirtle", "name": "Squirtle", "types": ["Water"], "specialties": ["Water"], "habitats": ["Tall Grass", "Hydrated tall grass"] },
+    { "number": 8, "national_dex": 8, "slug": "wartortle", "name": "Wartortle", "types": ["Water"], "specialties": ["Water"], "habitats": ["Hydrated tall grass"] },
+    { "number": 9, "national_dex": 9, "slug": "blastoise", "name": "Blastoise", "types": ["Water"], "specialties": ["Water", "Trade"], "habitats": ["Hydrated tall grass", "Floating in the shade"] },
+    { "number": 10, "national_dex": 16, "slug": "pidgey", "name": "Pidgey", "types": ["Normal", "Flying"], "specialties": ["Search", "Fly"], "habitats": ["Elevated tall grass", "Pretty flower bed"] },
+    { "number": 11, "national_dex": 17, "slug": "pidgeotto", "name": "Pidgeotto", "types": ["Normal", "Flying"], "specialties": ["Fly", "Search"], "habitats": ["Elevated tall grass", "Pretty flower bed"] },
+    { "number": 12, "national_dex": 18, "slug": "pidgeot", "name": "Pidgeot", "types": ["Normal", "Flying"], "specialties": ["Fly"], "habitats": ["Luxury chirp-chirp meal"], "field_conflicts": { "specialties": "Serebii lists Chop; Nintendo Life lists Search. The second specialty is withheld pending further verification." } },
+    { "number": 13, "national_dex": 43, "slug": "oddish", "name": "Oddish", "types": ["Grass", "Poison"], "specialties": ["Grow"], "habitats": ["Tall Grass"] },
+    { "number": 14, "national_dex": 44, "slug": "gloom", "name": "Gloom", "types": ["Grass", "Poison"], "specialties": ["Grow"], "habitats": ["Tropical vibes"] },
+    { "number": 15, "national_dex": 45, "slug": "vileplume", "name": "Vileplume", "types": ["Grass", "Poison"], "specialties": ["Grow", "Litter"], "habitats": ["Chansey Resting area"] },
+    { "number": 16, "national_dex": 182, "slug": "bellossom", "name": "Bellossom", "types": ["Grass"], "specialties": ["Grow", "Hype"], "habitats": ["Chansey Resting area"] },
+    { "number": 17, "national_dex": 46, "slug": "paras", "name": "Paras", "types": ["Bug", "Grass"], "specialties": ["Search"], "habitats": ["Elevated flower bed", "Flower garden"] },
+    { "number": 18, "national_dex": 47, "slug": "parasect", "name": "Parasect", "types": ["Bug", "Grass"], "specialties": ["Search"], "habitats": ["Elevated flower bed", "Flower garden"] },
+    { "number": 19, "national_dex": 48, "slug": "venonat", "name": "Venonat", "types": ["Bug", "Poison"], "specialties": ["Search"], "habitats": ["Illuminated tall grass", "Illuminated bench"] },
+    { "number": 20, "national_dex": 49, "slug": "venomoth", "name": "Venomoth", "types": ["Bug", "Poison"], "specialties": ["Search"], "habitats": ["Illuminated tall grass", "Illuminated bench"] },
+    { "number": 21, "national_dex": 69, "slug": "bellsprout", "name": "Bellsprout", "types": ["Grass", "Poison"], "specialties": ["Grow", "Litter"], "habitats": ["Tree-shaded tall grass"] },
+    { "number": 22, "national_dex": 70, "slug": "weepinbell", "name": "Weepinbell", "types": ["Grass", "Poison"], "specialties": ["Grow", "Litter"], "habitats": ["Flowery table", "Irresistible scent and glow"] },
+    { "number": 23, "national_dex": 71, "slug": "victreebel", "name": "Victreebel", "types": ["Grass", "Poison"], "specialties": ["Chop", "Grow"], "habitats": ["Flowery table", "Irresistible scent and glow"] },
+    { "number": 24, "national_dex": 79, "slug": "slowpoke", "name": "Slowpoke", "types": ["Water", "Psychic"], "specialties": ["Water", "Yawn"], "habitats": ["Seaside Tall Grass"] },
+    { "number": 25, "national_dex": 80, "slug": "slowbro", "name": "Slowbro", "types": ["Water", "Psychic"], "specialties": ["Water", "Trade"], "habitats": ["Fishing Pond", "Bed With a Plush", "Seaside Tall Grass"] },
+    { "number": 26, "national_dex": 199, "slug": "slowking", "name": "Slowking", "types": ["Water", "Psychic"], "specialties": ["Water", "Teleport"], "habitats": ["Fishing Pond", "Bed With a Plush", "Seaside Tall Grass"] },
+    { "number": 27, "national_dex": 81, "slug": "magnemite", "name": "Magnemite", "types": ["Electric", "Steel"], "specialties": ["Generate"], "habitats": ["Factory Storage"] },
+    { "number": 28, "national_dex": 82, "slug": "magneton", "name": "Magneton", "types": ["Electric", "Steel"], "specialties": ["Generate"], "habitats": ["Mini Game Corner", "Trash Can Central"] },
+    { "number": 29, "national_dex": 462, "slug": "magnezone", "name": "Magnezone", "types": ["Electric", "Steel"], "specialties": ["Generate", "Recycle"], "habitats": ["Mini Game Corner", "Trash Can Central"] },
+    { "number": 30, "national_dex": 95, "slug": "onix", "name": "Onix", "types": ["Rock", "Ground"], "specialties": ["Crush", "Bulldoze"], "habitats": ["Smooth Tall Grass"] },
+    { "number": 31, "national_dex": 208, "slug": "steelix", "name": "Steelix", "types": ["Steel", "Ground"], "specialties": ["Crush", "Bulldoze"], "habitats": ["Clink-clang Iron Construction"] },
+    { "number": 32, "national_dex": 104, "slug": "cubone", "name": "Cubone", "types": ["Ground"], "specialties": ["Build"], "habitats": ["Grave with Flowers"] },
+    { "number": 33, "national_dex": 105, "slug": "marowak", "name": "Marowak", "types": ["Ground"], "specialties": ["Build"], "habitats": ["Grave with Flowers"] },
+    { "number": 34, "national_dex": 236, "slug": "tyrogue", "name": "Tyrogue", "types": ["Fighting"], "specialties": ["Trade"], "habitats": ["Training Waterfall"] },
+    { "number": 35, "national_dex": 106, "slug": "hitmonlee", "name": "Hitmonlee", "types": ["Fighting"], "specialties": ["Trade"], "habitats": ["Urgent Care"] },
+    { "number": 36, "national_dex": 107, "slug": "hitmonchan", "name": "Hitmonchan", "types": ["Fighting"], "specialties": ["Trade"], "habitats": ["Exercise Resting Spot"] },
+    { "number": 37, "national_dex": 237, "slug": "hitmontop", "name": "Hitmontop", "types": ["Fighting"], "specialties": ["Trade"], "habitats": ["Gym First Aid"] },
+    { "number": 38, "national_dex": 109, "slug": "koffing", "name": "Koffing", "types": ["Poison"], "specialties": ["Recycle"], "habitats": ["Trash Collection Site"] },
+    { "number": 39, "national_dex": 110, "slug": "weezing", "name": "Weezing", "types": ["Poison"], "specialties": ["Recycle"], "habitats": ["Good Old-fashioned Antiques", "Trash Collection Site"] },
+    { "number": 40, "national_dex": 114, "slug": "tangela", "name": "Tangela", "types": ["Grass"], "specialties": ["Grow", "Litter"], "habitats": ["Nothin' but Poké Balls"] },
+    { "number": 41, "national_dex": 465, "slug": "tangrowth", "name": "Tangrowth", "types": ["Grass"], "specialties": ["Grow", "Litter"], "habitats": ["Bench with Greenery"] },
+    { "number": 42, "national_dex": 123, "slug": "scyther", "name": "Scyther", "types": ["Bug", "Flying"], "specialties": ["Chop"], "habitats": ["Tree-shaded Tall Grass"] },
+    { "number": 43, "national_dex": 212, "slug": "scizor", "name": "Scizor", "types": ["Bug", "Steel"], "specialties": ["Chop"], "habitats": ["Tree-shaded Tall Grass"] },
+    { "number": 44, "national_dex": 127, "slug": "pinsir", "name": "Pinsir", "types": ["Bug"], "specialties": ["Chop", "Build"], "habitats": ["Tree-shaded Tall Grass"] },
+    { "number": 45, "national_dex": 129, "slug": "magikarp", "name": "Magikarp", "types": ["Water"], "specialties": [], "habitats": ["Ocean Fishing Spot"], "field_notes": { "specialties": "No specialty is listed by the reviewed references." } },
+    { "number": 46, "national_dex": 130, "slug": "gyarados", "name": "Gyarados", "types": ["Water", "Flying"], "specialties": ["Water"], "habitats": ["Illuminated Waterfall"] },
+    { "number": 47, "national_dex": 132, "slug": "ditto", "name": "Ditto", "types": ["Normal"], "specialties": ["Transform"], "habitats": ["Not applicable"], "field_notes": { "habitats": "The reviewed references do not list a habitat requirement for Ditto." } },
+    { "number": 48, "national_dex": 163, "slug": "hoothoot", "name": "Hoothoot", "types": ["Normal", "Flying"], "specialties": ["Trade", "Fly"], "habitats": ["Pretty Flower Bed", "Elevated Tall Grass", "Gently Lit Bed"] },
+    { "number": 49, "national_dex": 164, "slug": "noctowl", "name": "Noctowl", "types": ["Normal", "Flying"], "specialties": ["Trade", "Fly"], "habitats": ["Gently Lit Bed", "Elevated Tall Grass"] },
+    { "number": 50, "national_dex": 214, "slug": "heracross", "name": "Heracross", "types": ["Bug", "Fighting"], "specialties": ["Chop", "Build"], "habitats": ["Tree-shaded Tall Grass"] }
+  ]
+}

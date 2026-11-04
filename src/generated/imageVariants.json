@@ -1283,8 +1283,12 @@
   ],
   "/images/guides/pokopia-ditto.png": [
     {
-      "src": "/images/guides/pokopia-ditto-384.webp",
-      "width": 384
+      "src": "/images/guides/pokopia-ditto-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/guides/pokopia-ditto-800.webp",
+      "width": 800
     }
   ],
   "/images/guides/pokopia-game-artwork.png": [
@@ -1751,38 +1755,62 @@
   ],
   "/images/habitats/003.png": [
     {
-      "src": "/images/habitats/003-200.webp",
-      "width": 200
+      "src": "/images/habitats/003-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/habitats/003-640.webp",
+      "width": 640
     }
   ],
   "/images/habitats/004.png": [
     {
-      "src": "/images/habitats/004-200.webp",
-      "width": 200
+      "src": "/images/habitats/004-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/habitats/004-640.webp",
+      "width": 640
     }
   ],
   "/images/habitats/005.png": [
     {
-      "src": "/images/habitats/005-200.webp",
-      "width": 200
+      "src": "/images/habitats/005-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/habitats/005-640.webp",
+      "width": 640
     }
   ],
   "/images/habitats/006.png": [
     {
-      "src": "/images/habitats/006-200.webp",
-      "width": 200
+      "src": "/images/habitats/006-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/habitats/006-640.webp",
+      "width": 640
     }
   ],
   "/images/habitats/007.png": [
     {
-      "src": "/images/habitats/007-200.webp",
-      "width": 200
+      "src": "/images/habitats/007-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/habitats/007-640.webp",
+      "width": 640
     }
   ],
   "/images/habitats/008.png": [
     {
-      "src": "/images/habitats/008-200.webp",
-      "width": 200
+      "src": "/images/habitats/008-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/habitats/008-640.webp",
+      "width": 640
     }
   ],
   "/images/habitats/009.png": [
@@ -1793,20 +1821,32 @@
   ],
   "/images/habitats/010.png": [
     {
-      "src": "/images/habitats/010-200.webp",
-      "width": 200
+      "src": "/images/habitats/010-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/habitats/010-640.webp",
+      "width": 640
     }
   ],
   "/images/habitats/011.png": [
     {
-      "src": "/images/habitats/011-200.webp",
-      "width": 200
+      "src": "/images/habitats/011-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/habitats/011-640.webp",
+      "width": 640
     }
   ],
   "/images/habitats/012.png": [
     {
-      "src": "/images/habitats/012-200.webp",
-      "width": 200
+      "src": "/images/habitats/012-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/habitats/012-640.webp",
+      "width": 640
     }
   ],
   "/images/habitats/013.png": [
@@ -1829,14 +1869,22 @@
   ],
   "/images/habitats/016.png": [
     {
-      "src": "/images/habitats/016-200.webp",
-      "width": 200
+      "src": "/images/habitats/016-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/habitats/016-640.webp",
+      "width": 640
     }
   ],
   "/images/habitats/017.png": [
     {
-      "src": "/images/habitats/017-200.webp",
-      "width": 200
+      "src": "/images/habitats/017-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/habitats/017-640.webp",
+      "width": 640
     }
   ],
   "/images/habitats/018.png": [
@@ -1847,92 +1895,152 @@
   ],
   "/images/habitats/019.png": [
     {
-      "src": "/images/habitats/019-200.webp",
-      "width": 200
+      "src": "/images/habitats/019-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/habitats/019-640.webp",
+      "width": 640
     }
   ],
   "/images/habitats/020.png": [
     {
-      "src": "/images/habitats/020-200.webp",
-      "width": 200
+      "src": "/images/habitats/020-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/habitats/020-640.webp",
+      "width": 640
     }
   ],
   "/images/habitats/021.png": [
     {
-      "src": "/images/habitats/021-200.webp",
-      "width": 200
+      "src": "/images/habitats/021-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/habitats/021-640.webp",
+      "width": 640
     }
   ],
   "/images/habitats/022.png": [
     {
-      "src": "/images/habitats/022-200.webp",
-      "width": 200
+      "src": "/images/habitats/022-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/habitats/022-640.webp",
+      "width": 640
     }
   ],
   "/images/habitats/023.png": [
     {
-      "src": "/images/habitats/023-200.webp",
-      "width": 200
+      "src": "/images/habitats/023-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/habitats/023-640.webp",
+      "width": 640
     }
   ],
   "/images/habitats/024.png": [
     {
-      "src": "/images/habitats/024-200.webp",
-      "width": 200
+      "src": "/images/habitats/024-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/habitats/024-640.webp",
+      "width": 640
     }
   ],
   "/images/habitats/025.png": [
     {
-      "src": "/images/habitats/025-200.webp",
-      "width": 200
+      "src": "/images/habitats/025-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/habitats/025-640.webp",
+      "width": 640
     }
   ],
   "/images/habitats/026.png": [
     {
-      "src": "/images/habitats/026-200.webp",
-      "width": 200
+      "src": "/images/habitats/026-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/habitats/026-640.webp",
+      "width": 640
     }
   ],
   "/images/habitats/027.png": [
     {
-      "src": "/images/habitats/027-200.webp",
-      "width": 200
+      "src": "/images/habitats/027-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/habitats/027-640.webp",
+      "width": 640
     }
   ],
   "/images/habitats/028.png": [
     {
-      "src": "/images/habitats/028-200.webp",
-      "width": 200
+      "src": "/images/habitats/028-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/habitats/028-640.webp",
+      "width": 640
     }
   ],
   "/images/habitats/029.png": [
     {
-      "src": "/images/habitats/029-200.webp",
-      "width": 200
+      "src": "/images/habitats/029-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/habitats/029-640.webp",
+      "width": 640
     }
   ],
   "/images/habitats/030.png": [
     {
-      "src": "/images/habitats/030-200.webp",
-      "width": 200
+      "src": "/images/habitats/030-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/habitats/030-640.webp",
+      "width": 640
     }
   ],
   "/images/habitats/031.png": [
     {
-      "src": "/images/habitats/031-200.webp",
-      "width": 200
+      "src": "/images/habitats/031-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/habitats/031-640.webp",
+      "width": 640
     }
   ],
   "/images/habitats/032.png": [
     {
-      "src": "/images/habitats/032-200.webp",
-      "width": 200
+      "src": "/images/habitats/032-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/habitats/032-640.webp",
+      "width": 640
     }
   ],
   "/images/habitats/033.png": [
     {
-      "src": "/images/habitats/033-200.webp",
-      "width": 200
+      "src": "/images/habitats/033-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/habitats/033-640.webp",
+      "width": 640
     }
   ],
   "/images/habitats/034.png": [
@@ -1943,20 +2051,32 @@
   ],
   "/images/habitats/035.png": [
     {
-      "src": "/images/habitats/035-200.webp",
-      "width": 200
+      "src": "/images/habitats/035-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/habitats/035-640.webp",
+      "width": 640
     }
   ],
   "/images/habitats/036.png": [
     {
-      "src": "/images/habitats/036-200.webp",
-      "width": 200
+      "src": "/images/habitats/036-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/habitats/036-640.webp",
+      "width": 640
     }
   ],
   "/images/habitats/037.png": [
     {
-      "src": "/images/habitats/037-200.webp",
-      "width": 200
+      "src": "/images/habitats/037-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/habitats/037-640.webp",
+      "width": 640
     }
   ],
   "/images/habitats/038.png": [
@@ -1967,8 +2087,12 @@
   ],
   "/images/habitats/039.png": [
     {
-      "src": "/images/habitats/039-200.webp",
-      "width": 200
+      "src": "/images/habitats/039-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/habitats/039-640.webp",
+      "width": 640
     }
   ],
   "/images/habitats/040.png": [
@@ -1979,14 +2103,22 @@
   ],
   "/images/habitats/041.png": [
     {
-      "src": "/images/habitats/041-200.webp",
-      "width": 200
+      "src": "/images/habitats/041-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/habitats/041-640.webp",
+      "width": 640
     }
   ],
   "/images/habitats/042.png": [
     {
-      "src": "/images/habitats/042-200.webp",
-      "width": 200
+      "src": "/images/habitats/042-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/habitats/042-640.webp",
+      "width": 640
     }
   ],
   "/images/habitats/043.png": [
@@ -1997,20 +2129,32 @@
   ],
   "/images/habitats/044.png": [
     {
-      "src": "/images/habitats/044-200.webp",
-      "width": 200
+      "src": "/images/habitats/044-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/habitats/044-640.webp",
+      "width": 640
     }
   ],
   "/images/habitats/045.png": [
     {
-      "src": "/images/habitats/045-200.webp",
-      "width": 200
+      "src": "/images/habitats/045-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/habitats/045-640.webp",
+      "width": 640
     }
   ],
   "/images/habitats/046.png": [
     {
-      "src": "/images/habitats/046-200.webp",
-      "width": 200
+      "src": "/images/habitats/046-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/habitats/046-640.webp",
+      "width": 640
     }
   ],
   "/images/habitats/047.png": [
@@ -2027,14 +2171,22 @@
   ],
   "/images/habitats/049.png": [
     {
-      "src": "/images/habitats/049-200.webp",
-      "width": 200
+      "src": "/images/habitats/049-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/habitats/049-640.webp",
+      "width": 640
     }
   ],
   "/images/habitats/050.png": [
     {
-      "src": "/images/habitats/050-200.webp",
-      "width": 200
+      "src": "/images/habitats/050-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/habitats/050-640.webp",
+      "width": 640
     }
   ],
   "/images/habitats/051.png": [
@@ -2229,284 +2381,472 @@
   ],
   "/images/items/abandoned-power-plant-kit.png": [
     {
-      "src": "/images/items/abandoned-power-plant-kit-180.webp",
-      "width": 180
+      "src": "/images/items/abandoned-power-plant-kit-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/items/abandoned-power-plant-kit-600.webp",
+      "width": 600
     }
   ],
   "/images/items/ability-shield.png": [
     {
-      "src": "/images/items/ability-shield-160.webp",
-      "width": 160
+      "src": "/images/items/ability-shield-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/items/ability-shield-600.webp",
+      "width": 600
     }
   ],
   "/images/items/acrylic-poster.png": [
     {
-      "src": "/images/items/acrylic-poster-160.webp",
-      "width": 160
+      "src": "/images/items/acrylic-poster-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/items/acrylic-poster-600.webp",
+      "width": 600
     }
   ],
   "/images/items/adorable-hedge-blue.png": [
     {
-      "src": "/images/items/adorable-hedge-blue-160.webp",
-      "width": 160
+      "src": "/images/items/adorable-hedge-blue-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/items/adorable-hedge-blue-600.webp",
+      "width": 600
     }
   ],
   "/images/items/adorable-hedge-orange.png": [
     {
-      "src": "/images/items/adorable-hedge-orange-160.webp",
-      "width": 160
+      "src": "/images/items/adorable-hedge-orange-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/items/adorable-hedge-orange-600.webp",
+      "width": 600
     }
   ],
   "/images/items/adorable-hedge-purple.png": [
     {
-      "src": "/images/items/adorable-hedge-purple-160.webp",
-      "width": 160
+      "src": "/images/items/adorable-hedge-purple-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/items/adorable-hedge-purple-600.webp",
+      "width": 600
     }
   ],
   "/images/items/adorable-hedge-red.png": [
     {
-      "src": "/images/items/adorable-hedge-red-160.webp",
-      "width": 160
+      "src": "/images/items/adorable-hedge-red-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/items/adorable-hedge-red-600.webp",
+      "width": 600
     }
   ],
   "/images/items/adorable-hedge-sapling-grow.png": [
     {
-      "src": "/images/items/adorable-hedge-sapling-grow-200.webp",
-      "width": 200
+      "src": "/images/items/adorable-hedge-sapling-grow-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/items/adorable-hedge-sapling-grow-600.webp",
+      "width": 600
     }
   ],
   "/images/items/adorable-hedge-sapling.png": [
     {
-      "src": "/images/items/adorable-hedge-sapling-160.webp",
-      "width": 160
+      "src": "/images/items/adorable-hedge-sapling-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/items/adorable-hedge-sapling-600.webp",
+      "width": 600
     }
   ],
   "/images/items/adorable-hedge-seeds.png": [
     {
-      "src": "/images/items/adorable-hedge-seeds-160.webp",
-      "width": 160
+      "src": "/images/items/adorable-hedge-seeds-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/items/adorable-hedge-seeds-600.webp",
+      "width": 600
     }
   ],
   "/images/items/adorable-hedge.png": [
     {
-      "src": "/images/items/adorable-hedge-160.webp",
-      "width": 160
+      "src": "/images/items/adorable-hedge-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/items/adorable-hedge-600.webp",
+      "width": 600
     }
   ],
   "/images/items/adrenaline-orb.png": [
     {
-      "src": "/images/items/adrenaline-orb-160.webp",
-      "width": 160
+      "src": "/images/items/adrenaline-orb-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/items/adrenaline-orb-600.webp",
+      "width": 600
     }
   ],
   "/images/items/aether-paradise.png": [
     {
-      "src": "/images/items/aether-paradise-160.webp",
-      "width": 160
+      "src": "/images/items/aether-paradise-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/items/aether-paradise-600.webp",
+      "width": 600
     }
   ],
   "/images/items/afternoon-tea-set.png": [
     {
-      "src": "/images/items/afternoon-tea-set-160.webp",
-      "width": 160
+      "src": "/images/items/afternoon-tea-set-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/items/afternoon-tea-set-600.webp",
+      "width": 600
     }
   ],
   "/images/items/aged-stone-flooring-wallpaper.png": [
     {
-      "src": "/images/items/aged-stone-flooring-wallpaper-160.webp",
-      "width": 160
+      "src": "/images/items/aged-stone-flooring-wallpaper-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/items/aged-stone-flooring-wallpaper-600.webp",
+      "width": 600
     }
   ],
   "/images/items/aged-stone-flooring.png": [
     {
-      "src": "/images/items/aged-stone-flooring-160.webp",
-      "width": 160
+      "src": "/images/items/aged-stone-flooring-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/items/aged-stone-flooring-600.webp",
+      "width": 600
     }
   ],
   "/images/items/aged-stone-wall-wallpaper.png": [
     {
-      "src": "/images/items/aged-stone-wall-wallpaper-160.webp",
-      "width": 160
+      "src": "/images/items/aged-stone-wall-wallpaper-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/items/aged-stone-wall-wallpaper-600.webp",
+      "width": 600
     }
   ],
   "/images/items/aged-stone-wall.png": [
     {
-      "src": "/images/items/aged-stone-wall-160.webp",
-      "width": 160
+      "src": "/images/items/aged-stone-wall-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/items/aged-stone-wall-600.webp",
+      "width": 600
     }
   ],
   "/images/items/air-conditioner.png": [
     {
-      "src": "/images/items/air-conditioner-160.webp",
-      "width": 160
+      "src": "/images/items/air-conditioner-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/items/air-conditioner-600.webp",
+      "width": 600
     }
   ],
   "/images/items/alarm-clock.png": [
     {
-      "src": "/images/items/alarm-clock-160.webp",
-      "width": 160
+      "src": "/images/items/alarm-clock-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/items/alarm-clock-600.webp",
+      "width": 600
     }
   ],
   "/images/items/alpine-grass.png": [
     {
-      "src": "/images/items/alpine-grass-160.webp",
-      "width": 160
+      "src": "/images/items/alpine-grass-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/items/alpine-grass-600.webp",
+      "width": 600
     }
   ],
   "/images/items/altar-of-the-flame-kit.png": [
     {
-      "src": "/images/items/altar-of-the-flame-kit-180.webp",
-      "width": 180
+      "src": "/images/items/altar-of-the-flame-kit-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/items/altar-of-the-flame-kit-600.webp",
+      "width": 600
     }
   ],
   "/images/items/antique-bed.png": [
     {
-      "src": "/images/items/antique-bed-160.webp",
-      "width": 160
+      "src": "/images/items/antique-bed-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/items/antique-bed-600.webp",
+      "width": 600
     }
   ],
   "/images/items/antique-chair.png": [
     {
-      "src": "/images/items/antique-chair-160.webp",
-      "width": 160
+      "src": "/images/items/antique-chair-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/items/antique-chair-600.webp",
+      "width": 600
     }
   ],
   "/images/items/antique-chandelier.png": [
     {
-      "src": "/images/items/antique-chandelier-160.webp",
-      "width": 160
+      "src": "/images/items/antique-chandelier-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/items/antique-chandelier-600.webp",
+      "width": 600
     }
   ],
   "/images/items/antique-chest.png": [
     {
-      "src": "/images/items/antique-chest-160.webp",
-      "width": 160
+      "src": "/images/items/antique-chest-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/items/antique-chest-600.webp",
+      "width": 600
     }
   ],
   "/images/items/antique-clock.png": [
     {
-      "src": "/images/items/antique-clock-160.webp",
-      "width": 160
+      "src": "/images/items/antique-clock-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/items/antique-clock-600.webp",
+      "width": 600
     }
   ],
   "/images/items/antique-closet.png": [
     {
-      "src": "/images/items/antique-closet-160.webp",
-      "width": 160
+      "src": "/images/items/antique-closet-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/items/antique-closet-600.webp",
+      "width": 600
     }
   ],
   "/images/items/antique-dresser.png": [
     {
-      "src": "/images/items/antique-dresser-160.webp",
-      "width": 160
+      "src": "/images/items/antique-dresser-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/items/antique-dresser-600.webp",
+      "width": 600
     }
   ],
   "/images/items/antique-sofa.png": [
     {
-      "src": "/images/items/antique-sofa-160.webp",
-      "width": 160
+      "src": "/images/items/antique-sofa-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/items/antique-sofa-600.webp",
+      "width": 600
     }
   ],
   "/images/items/antique-table.png": [
     {
-      "src": "/images/items/antique-table-160.webp",
-      "width": 160
+      "src": "/images/items/antique-table-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/items/antique-table-600.webp",
+      "width": 600
     }
   ],
   "/images/items/antique-wall-lower.png": [
     {
-      "src": "/images/items/antique-wall-lower-160.webp",
-      "width": 160
+      "src": "/images/items/antique-wall-lower-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/items/antique-wall-lower-600.webp",
+      "width": 600
     }
   ],
   "/images/items/antique-wall-middle.png": [
     {
-      "src": "/images/items/antique-wall-middle-160.webp",
-      "width": 160
+      "src": "/images/items/antique-wall-middle-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/items/antique-wall-middle-600.webp",
+      "width": 600
     }
   ],
   "/images/items/antique-wall-upper.png": [
     {
-      "src": "/images/items/antique-wall-upper-160.webp",
-      "width": 160
+      "src": "/images/items/antique-wall-upper-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/items/antique-wall-upper-600.webp",
+      "width": 600
     }
   ],
   "/images/items/arcade-machine.png": [
     {
-      "src": "/images/items/arcade-machine-160.webp",
-      "width": 160
+      "src": "/images/items/arcade-machine-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/items/arcade-machine-600.webp",
+      "width": 600
     }
   ],
   "/images/items/arcanine-doll.png": [
     {
-      "src": "/images/items/arcanine-doll-160.webp",
-      "width": 160
+      "src": "/images/items/arcanine-doll-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/items/arcanine-doll-600.webp",
+      "width": 600
     }
   ],
   "/images/items/arch-bridge.png": [
     {
-      "src": "/images/items/arch-bridge-160.webp",
-      "width": 160
+      "src": "/images/items/arch-bridge-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/items/arch-bridge-600.webp",
+      "width": 600
     }
   ],
   "/images/items/arched-barrier-leaf-pattern.png": [
     {
-      "src": "/images/items/arched-barrier-leaf-pattern-160.webp",
-      "width": 160
+      "src": "/images/items/arched-barrier-leaf-pattern-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/items/arched-barrier-leaf-pattern-600.webp",
+      "width": 600
     }
   ],
   "/images/items/arched-barrier.png": [
     {
-      "src": "/images/items/arched-barrier-160.webp",
-      "width": 160
+      "src": "/images/items/arched-barrier-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/items/arched-barrier-600.webp",
+      "width": 600
     }
   ],
   "/images/items/arched-tiling-fragments.png": [
     {
-      "src": "/images/items/arched-tiling-fragments-160.webp",
-      "width": 160
+      "src": "/images/items/arched-tiling-fragments-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/items/arched-tiling-fragments-600.webp",
+      "width": 600
     }
   ],
   "/images/items/arched-tiling-wallpaper.png": [
     {
-      "src": "/images/items/arched-tiling-wallpaper-160.webp",
-      "width": 160
+      "src": "/images/items/arched-tiling-wallpaper-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/items/arched-tiling-wallpaper-600.webp",
+      "width": 600
     }
   ],
   "/images/items/arched-tiling.png": [
     {
-      "src": "/images/items/arched-tiling-160.webp",
-      "width": 160
+      "src": "/images/items/arched-tiling-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/items/arched-tiling-600.webp",
+      "width": 600
     }
   ],
   "/images/items/area-zero.png": [
     {
-      "src": "/images/items/area-zero-160.webp",
-      "width": 160
+      "src": "/images/items/area-zero-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/items/area-zero-600.webp",
+      "width": 600
     }
   ],
   "/images/items/argyle-print.png": [
     {
-      "src": "/images/items/argyle-print-160.webp",
-      "width": 160
+      "src": "/images/items/argyle-print-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/items/argyle-print-600.webp",
+      "width": 600
     }
   ],
   "/images/items/armor-fossil.png": [
     {
-      "src": "/images/items/armor-fossil-160.webp",
-      "width": 160
+      "src": "/images/items/armor-fossil-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/items/armor-fossil-600.webp",
+      "width": 600
     }
   ],
   "/images/items/armor-fragment.png": [
     {
-      "src": "/images/items/armor-fragment-160.webp",
-      "width": 160
+      "src": "/images/items/armor-fragment-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/items/armor-fragment-600.webp",
+      "width": 600
     }
   ],
   "/images/items/arrow-sign.png": [
     {
-      "src": "/images/items/arrow-sign-160.webp",
-      "width": 160
+      "src": "/images/items/arrow-sign-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/items/arrow-sign-600.webp",
+      "width": 600
     }
   ],
   "/images/news/nintendo-switch-2-pokemon-pokopia-bundle-singapore-cover.png": [
@@ -2733,10 +3073,52 @@
       "width": 739
     }
   ],
+  "/images/pokemon/aquap.png": [
+    {
+      "src": "/images/pokemon/aquap-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/aquap-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/pokemon/aquap-1024.webp",
+      "width": 1024
+    }
+  ],
   "/images/pokemon/bellsprout.jpg": [
     {
       "src": "/images/pokemon/bellsprout-456.webp",
       "width": 456
+    }
+  ],
+  "/images/pokemon/Breezel.png": [
+    {
+      "src": "/images/pokemon/Breezel-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/Breezel-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/pokemon/Breezel-1024.webp",
+      "width": 1024
+    }
+  ],
+  "/images/pokemon/Bronzorm.png": [
+    {
+      "src": "/images/pokemon/Bronzorm-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/Bronzorm-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/pokemon/Bronzorm-1024.webp",
+      "width": 1024
     }
   ],
   "/images/pokemon/bulbasaur.jpg": [
@@ -2747,6 +3129,20 @@
     {
       "src": "/images/pokemon/bulbasaur-784.webp",
       "width": 784
+    }
+  ],
+  "/images/pokemon/bulbin.png": [
+    {
+      "src": "/images/pokemon/bulbin-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/bulbin-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/pokemon/bulbin-1024.webp",
+      "width": 1024
     }
   ],
   "/images/pokemon/carbink.jpg": [
@@ -2785,6 +3181,20 @@
       "width": 834
     }
   ],
+  "/images/pokemon/charmuddy.png": [
+    {
+      "src": "/images/pokemon/charmuddy-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/charmuddy-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/pokemon/charmuddy-1024.webp",
+      "width": 1024
+    }
+  ],
   "/images/pokemon/cloyster.jpg": [
     {
       "src": "/images/pokemon/cloyster-480.webp",
@@ -2793,6 +3203,62 @@
     {
       "src": "/images/pokemon/cloyster-558.webp",
       "width": 558
+    }
+  ],
+  "/images/pokemon/Crystalwing.png": [
+    {
+      "src": "/images/pokemon/Crystalwing-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/Crystalwing-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/pokemon/Crystalwing-1024.webp",
+      "width": 1024
+    }
+  ],
+  "/images/pokemon/Crystion.png": [
+    {
+      "src": "/images/pokemon/Crystion-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/Crystion-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/pokemon/Crystion-1024.webp",
+      "width": 1024
+    }
+  ],
+  "/images/pokemon/Dewdrop.png": [
+    {
+      "src": "/images/pokemon/Dewdrop-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/Dewdrop-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/pokemon/Dewdrop-1024.webp",
+      "width": 1024
+    }
+  ],
+  "/images/pokemon/Emberal.png": [
+    {
+      "src": "/images/pokemon/Emberal-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/Emberal-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/pokemon/Emberal-1024.webp",
+      "width": 1024
     }
   ],
   "/images/pokemon/entei.jpg": [
@@ -2805,10 +3271,66 @@
       "width": 900
     }
   ],
+  "/images/pokemon/flamexor.png": [
+    {
+      "src": "/images/pokemon/flamexor-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/flamexor-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/pokemon/flamexor-1024.webp",
+      "width": 1024
+    }
+  ],
+  "/images/pokemon/Flamingo.png": [
+    {
+      "src": "/images/pokemon/Flamingo-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/Flamingo-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/pokemon/Flamingo-1024.webp",
+      "width": 1024
+    }
+  ],
   "/images/pokemon/froslass.jpg": [
     {
       "src": "/images/pokemon/froslass-268.webp",
       "width": 268
+    }
+  ],
+  "/images/pokemon/Frostbite.png": [
+    {
+      "src": "/images/pokemon/Frostbite-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/Frostbite-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/pokemon/Frostbite-1024.webp",
+      "width": 1024
+    }
+  ],
+  "/images/pokemon/Galebender.png": [
+    {
+      "src": "/images/pokemon/Galebender-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/Galebender-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/pokemon/Galebender-1024.webp",
+      "width": 1024
     }
   ],
   "/images/pokemon/gengar.jpg": [
@@ -2829,6 +3351,20 @@
     {
       "src": "/images/pokemon/geodude-900.webp",
       "width": 900
+    }
+  ],
+  "/images/pokemon/Glacior.png": [
+    {
+      "src": "/images/pokemon/Glacior-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/Glacior-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/pokemon/Glacior-1024.webp",
+      "width": 1024
     }
   ],
   "/images/pokemon/grimer.jpg": [
@@ -2871,6 +3407,34 @@
       "width": 900
     }
   ],
+  "/images/pokemon/Heatran.png": [
+    {
+      "src": "/images/pokemon/Heatran-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/Heatran-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/pokemon/Heatran-1024.webp",
+      "width": 1024
+    }
+  ],
+  "/images/pokemon/Ironclaw.png": [
+    {
+      "src": "/images/pokemon/Ironclaw-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/Ironclaw-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/pokemon/Ironclaw-1024.webp",
+      "width": 1024
+    }
+  ],
   "/images/pokemon/jigglypuff.jpg": [
     {
       "src": "/images/pokemon/jigglypuff-480.webp",
@@ -2879,6 +3443,34 @@
     {
       "src": "/images/pokemon/jigglypuff-853.webp",
       "width": 853
+    }
+  ],
+  "/images/pokemon/leafon.png": [
+    {
+      "src": "/images/pokemon/leafon-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/leafon-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/pokemon/leafon-1024.webp",
+      "width": 1024
+    }
+  ],
+  "/images/pokemon/Lightspeed.png": [
+    {
+      "src": "/images/pokemon/Lightspeed-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/Lightspeed-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/pokemon/Lightspeed-1024.webp",
+      "width": 1024
     }
   ],
   "/images/pokemon/lucario.jpg": [
@@ -2891,6 +3483,20 @@
       "width": 658
     }
   ],
+  "/images/pokemon/Lunaflare.png": [
+    {
+      "src": "/images/pokemon/Lunaflare-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/Lunaflare-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/pokemon/Lunaflare-1024.webp",
+      "width": 1024
+    }
+  ],
   "/images/pokemon/machamp.jpg": [
     {
       "src": "/images/pokemon/machamp-480.webp",
@@ -2899,6 +3505,20 @@
     {
       "src": "/images/pokemon/machamp-868.webp",
       "width": 868
+    }
+  ],
+  "/images/pokemon/Magicalure.png": [
+    {
+      "src": "/images/pokemon/Magicalure-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/Magicalure-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/pokemon/Magicalure-1024.webp",
+      "width": 1024
     }
   ],
   "/images/pokemon/magmar.jpg": [
@@ -2931,6 +3551,20 @@
       "width": 900
     }
   ],
+  "/images/pokemon/Mechabit.png": [
+    {
+      "src": "/images/pokemon/Mechabit-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/Mechabit-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/pokemon/Mechabit-1024.webp",
+      "width": 1024
+    }
+  ],
   "/images/pokemon/metang.jpg": [
     {
       "src": "/images/pokemon/metang-480.webp",
@@ -2941,6 +3575,20 @@
       "width": 900
     }
   ],
+  "/images/pokemon/Mossling.png": [
+    {
+      "src": "/images/pokemon/Mossling-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/Mossling-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/pokemon/Mossling-1024.webp",
+      "width": 1024
+    }
+  ],
   "/images/pokemon/mudkip.jpg": [
     {
       "src": "/images/pokemon/mudkip-480.webp",
@@ -2949,6 +3597,48 @@
     {
       "src": "/images/pokemon/mudkip-867.webp",
       "width": 867
+    }
+  ],
+  "/images/pokemon/Mudkipz.png": [
+    {
+      "src": "/images/pokemon/Mudkipz-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/Mudkipz-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/pokemon/Mudkipz-1024.webp",
+      "width": 1024
+    }
+  ],
+  "/images/pokemon/Mysticat.png": [
+    {
+      "src": "/images/pokemon/Mysticat-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/Mysticat-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/pokemon/Mysticat-1024.webp",
+      "width": 1024
+    }
+  ],
+  "/images/pokemon/Nightfall.png": [
+    {
+      "src": "/images/pokemon/Nightfall-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/Nightfall-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/pokemon/Nightfall-1024.webp",
+      "width": 1024
     }
   ],
   "/images/pokemon/ninetales.jpg": [
@@ -2981,6 +3671,34 @@
       "width": 534
     }
   ],
+  "/images/pokemon/Paras.png": [
+    {
+      "src": "/images/pokemon/Paras-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/Paras-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/pokemon/Paras-1024.webp",
+      "width": 1024
+    }
+  ],
+  "/images/pokemon/Parasect.png": [
+    {
+      "src": "/images/pokemon/Parasect-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/Parasect-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/pokemon/Parasect-1024.webp",
+      "width": 1024
+    }
+  ],
   "/images/pokemon/pidgey.jpg": [
     {
       "src": "/images/pokemon/pidgey-480.webp",
@@ -3001,6 +3719,20 @@
       "width": 900
     }
   ],
+  "/images/pokemon/pikafire.png": [
+    {
+      "src": "/images/pokemon/pikafire-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/pikafire-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/pokemon/pikafire-1024.webp",
+      "width": 1024
+    }
+  ],
   "/images/pokemon/poliwag.jpg": [
     {
       "src": "/images/pokemon/poliwag-480.webp",
@@ -3011,10 +3743,52 @@
       "width": 562
     }
   ],
+  "/images/pokemon/Poliwag.png": [
+    {
+      "src": "/images/pokemon/Poliwag-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/Poliwag-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/pokemon/Poliwag-1024.webp",
+      "width": 1024
+    }
+  ],
+  "/images/pokemon/Primordion.png": [
+    {
+      "src": "/images/pokemon/Primordion-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/Primordion-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/pokemon/Primordion-1024.webp",
+      "width": 1024
+    }
+  ],
   "/images/pokemon/psyduck.jpg": [
     {
       "src": "/images/pokemon/psyduck-418.webp",
       "width": 418
+    }
+  ],
+  "/images/pokemon/Psyduck.png": [
+    {
+      "src": "/images/pokemon/Psyduck-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/Psyduck-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/pokemon/Psyduck-1024.webp",
+      "width": 1024
     }
   ],
   "/images/pokemon/ralts.jpg": [
@@ -3027,6 +3801,20 @@
       "width": 609
     }
   ],
+  "/images/pokemon/Rockler.png": [
+    {
+      "src": "/images/pokemon/Rockler-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/Rockler-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/pokemon/Rockler-1024.webp",
+      "width": 1024
+    }
+  ],
   "/images/pokemon/salamence.jpg": [
     {
       "src": "/images/pokemon/salamence-480.webp",
@@ -3037,10 +3825,94 @@
       "width": 900
     }
   ],
+  "/images/pokemon/Salamence.png": [
+    {
+      "src": "/images/pokemon/Salamence-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/Salamence-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/pokemon/Salamence-1024.webp",
+      "width": 1024
+    }
+  ],
+  "/images/pokemon/Shados.png": [
+    {
+      "src": "/images/pokemon/Shados-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/Shados-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/pokemon/Shados-1024.webp",
+      "width": 1024
+    }
+  ],
+  "/images/pokemon/Shadowclaw.png": [
+    {
+      "src": "/images/pokemon/Shadowclaw-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/Shadowclaw-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/pokemon/Shadowclaw-1024.webp",
+      "width": 1024
+    }
+  ],
   "/images/pokemon/shuppet.jpg": [
     {
       "src": "/images/pokemon/shuppet-439.webp",
       "width": 439
+    }
+  ],
+  "/images/pokemon/Shuppet.png": [
+    {
+      "src": "/images/pokemon/Shuppet-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/Shuppet-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/pokemon/Shuppet-1024.webp",
+      "width": 1024
+    }
+  ],
+  "/images/pokemon/Slowpoke.png": [
+    {
+      "src": "/images/pokemon/Slowpoke-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/Slowpoke-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/pokemon/Slowpoke-1024.webp",
+      "width": 1024
+    }
+  ],
+  "/images/pokemon/Snorizard.png": [
+    {
+      "src": "/images/pokemon/Snorizard-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/Snorizard-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/pokemon/Snorizard-1024.webp",
+      "width": 1024
     }
   ],
   "/images/pokemon/snover.jpg": [
@@ -3085,6 +3957,48 @@
       "width": 360
     }
   ],
+  "/images/pokemon/Staravia.png": [
+    {
+      "src": "/images/pokemon/Staravia-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/Staravia-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/pokemon/Staravia-1024.webp",
+      "width": 1024
+    }
+  ],
+  "/images/pokemon/Stormbird.png": [
+    {
+      "src": "/images/pokemon/Stormbird-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/Stormbird-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/pokemon/Stormbird-1024.webp",
+      "width": 1024
+    }
+  ],
+  "/images/pokemon/Sunreep.png": [
+    {
+      "src": "/images/pokemon/Sunreep-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/Sunreep-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/pokemon/Sunreep-1024.webp",
+      "width": 1024
+    }
+  ],
   "/images/pokemon/swablu.jpg": [
     {
       "src": "/images/pokemon/swablu-480.webp",
@@ -3095,6 +4009,20 @@
       "width": 547
     }
   ],
+  "/images/pokemon/Swablu.png": [
+    {
+      "src": "/images/pokemon/Swablu-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/Swablu-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/pokemon/Swablu-1024.webp",
+      "width": 1024
+    }
+  ],
   "/images/pokemon/talonflame.jpg": [
     {
       "src": "/images/pokemon/talonflame-480.webp",
@@ -3103,6 +4031,76 @@
     {
       "src": "/images/pokemon/talonflame-900.webp",
       "width": 900
+    }
+  ],
+  "/images/pokemon/Thornback.png": [
+    {
+      "src": "/images/pokemon/Thornback-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/Thornback-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/pokemon/Thornback-1024.webp",
+      "width": 1024
+    }
+  ],
+  "/images/pokemon/Thornvine.png": [
+    {
+      "src": "/images/pokemon/Thornvine-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/Thornvine-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/pokemon/Thornvine-1024.webp",
+      "width": 1024
+    }
+  ],
+  "/images/pokemon/tidlet.png": [
+    {
+      "src": "/images/pokemon/tidlet-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/tidlet-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/pokemon/tidlet-1024.webp",
+      "width": 1024
+    }
+  ],
+  "/images/pokemon/Toxifin.png": [
+    {
+      "src": "/images/pokemon/Toxifin-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/Toxifin-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/pokemon/Toxifin-1024.webp",
+      "width": 1024
+    }
+  ],
+  "/images/pokemon/Treemendous.png": [
+    {
+      "src": "/images/pokemon/Treemendous-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/Treemendous-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/pokemon/Treemendous-1024.webp",
+      "width": 1024
     }
   ],
   "/images/pokemon/tropius.jpg": [
@@ -3135,6 +4133,34 @@
       "width": 674
     }
   ],
+  "/images/pokemon/Venomoth.png": [
+    {
+      "src": "/images/pokemon/Venomoth-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/Venomoth-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/pokemon/Venomoth-1024.webp",
+      "width": 1024
+    }
+  ],
+  "/images/pokemon/Venonat.png": [
+    {
+      "src": "/images/pokemon/Venonat-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/Venonat-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/pokemon/Venonat-1024.webp",
+      "width": 1024
+    }
+  ],
   "/images/pokemon/venusaur.jpg": [
     {
       "src": "/images/pokemon/venusaur-480.webp",
@@ -3155,6 +4181,20 @@
       "width": 799
     }
   ],
+  "/images/pokemon/Voltscale.png": [
+    {
+      "src": "/images/pokemon/Voltscale-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/Voltscale-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/pokemon/Voltscale-1024.webp",
+      "width": 1024
+    }
+  ],
   "/images/pokemon/vulpix.jpg": [
     {
       "src": "/images/pokemon/vulpix-480.webp",
@@ -3163,6 +4203,550 @@
     {
       "src": "/images/pokemon/vulpix-886.webp",
       "width": 886
+    }
+  ],
+  "/images/pokemon/zaprat.png": [
+    {
+      "src": "/images/pokemon/zaprat-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon/zaprat-960.webp",
+      "width": 960
+    },
+    {
+      "src": "/images/pokemon/zaprat-1024.webp",
+      "width": 1024
+    }
+  ],
+  "/images/pokemon_backup/Aquap.jpg": [
+    {
+      "src": "/images/pokemon_backup/Aquap-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon_backup/Aquap-886.webp",
+      "width": 886
+    }
+  ],
+  "/images/pokemon_backup/Breezel.jpg": [
+    {
+      "src": "/images/pokemon_backup/Breezel-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon_backup/Breezel-770.webp",
+      "width": 770
+    }
+  ],
+  "/images/pokemon_backup/Bronzorm.jpg": [
+    {
+      "src": "/images/pokemon_backup/Bronzorm-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon_backup/Bronzorm-526.webp",
+      "width": 526
+    }
+  ],
+  "/images/pokemon_backup/Bulbin.jpg": [
+    {
+      "src": "/images/pokemon_backup/Bulbin-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon_backup/Bulbin-784.webp",
+      "width": 784
+    }
+  ],
+  "/images/pokemon_backup/Charmuddy.jpg": [
+    {
+      "src": "/images/pokemon_backup/Charmuddy-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon_backup/Charmuddy-834.webp",
+      "width": 834
+    }
+  ],
+  "/images/pokemon_backup/Crystalwing.jpg": [
+    {
+      "src": "/images/pokemon_backup/Crystalwing-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon_backup/Crystalwing-900.webp",
+      "width": 900
+    }
+  ],
+  "/images/pokemon_backup/Crystion.jpg": [
+    {
+      "src": "/images/pokemon_backup/Crystion-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon_backup/Crystion-497.webp",
+      "width": 497
+    }
+  ],
+  "/images/pokemon_backup/Dewdrop.jpg": [
+    {
+      "src": "/images/pokemon_backup/Dewdrop-422.webp",
+      "width": 422
+    }
+  ],
+  "/images/pokemon_backup/Emberal.jpg": [
+    {
+      "src": "/images/pokemon_backup/Emberal-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon_backup/Emberal-900.webp",
+      "width": 900
+    }
+  ],
+  "/images/pokemon_backup/Flamexor.jpg": [
+    {
+      "src": "/images/pokemon_backup/Flamexor-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon_backup/Flamexor-900.webp",
+      "width": 900
+    }
+  ],
+  "/images/pokemon_backup/Flamingo.jpg": [
+    {
+      "src": "/images/pokemon_backup/Flamingo-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon_backup/Flamingo-536.webp",
+      "width": 536
+    }
+  ],
+  "/images/pokemon_backup/Frostbite.jpg": [
+    {
+      "src": "/images/pokemon_backup/Frostbite-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon_backup/Frostbite-551.webp",
+      "width": 551
+    }
+  ],
+  "/images/pokemon_backup/Galebender.jpg": [
+    {
+      "src": "/images/pokemon_backup/Galebender-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon_backup/Galebender-900.webp",
+      "width": 900
+    }
+  ],
+  "/images/pokemon_backup/Glacior.jpg": [
+    {
+      "src": "/images/pokemon_backup/Glacior-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon_backup/Glacior-543.webp",
+      "width": 543
+    }
+  ],
+  "/images/pokemon_backup/Heatran.jpg": [
+    {
+      "src": "/images/pokemon_backup/Heatran-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon_backup/Heatran-900.webp",
+      "width": 900
+    }
+  ],
+  "/images/pokemon_backup/Ironclaw.jpg": [
+    {
+      "src": "/images/pokemon_backup/Ironclaw-392.webp",
+      "width": 392
+    }
+  ],
+  "/images/pokemon_backup/Leafon.jpg": [
+    {
+      "src": "/images/pokemon_backup/Leafon-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon_backup/Leafon-900.webp",
+      "width": 900
+    }
+  ],
+  "/images/pokemon_backup/Lightspeed.jpg": [
+    {
+      "src": "/images/pokemon_backup/Lightspeed-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon_backup/Lightspeed-771.webp",
+      "width": 771
+    }
+  ],
+  "/images/pokemon_backup/Lunaflare.jpg": [
+    {
+      "src": "/images/pokemon_backup/Lunaflare-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon_backup/Lunaflare-900.webp",
+      "width": 900
+    }
+  ],
+  "/images/pokemon_backup/Magicalure.jpg": [
+    {
+      "src": "/images/pokemon_backup/Magicalure-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon_backup/Magicalure-900.webp",
+      "width": 900
+    }
+  ],
+  "/images/pokemon_backup/Mechabit.jpg": [
+    {
+      "src": "/images/pokemon_backup/Mechabit-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon_backup/Mechabit-894.webp",
+      "width": 894
+    }
+  ],
+  "/images/pokemon_backup/Mossling.jpg": [
+    {
+      "src": "/images/pokemon_backup/Mossling-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon_backup/Mossling-543.webp",
+      "width": 543
+    }
+  ],
+  "/images/pokemon_backup/Mudkipz.jpg": [
+    {
+      "src": "/images/pokemon_backup/Mudkipz-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon_backup/Mudkipz-867.webp",
+      "width": 867
+    }
+  ],
+  "/images/pokemon_backup/Mysticat.jpg": [
+    {
+      "src": "/images/pokemon_backup/Mysticat-431.webp",
+      "width": 431
+    }
+  ],
+  "/images/pokemon_backup/Nightfall.jpg": [
+    {
+      "src": "/images/pokemon_backup/Nightfall-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon_backup/Nightfall-671.webp",
+      "width": 671
+    }
+  ],
+  "/images/pokemon_backup/Paras.jpg": [
+    {
+      "src": "/images/pokemon_backup/Paras-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon_backup/Paras-534.webp",
+      "width": 534
+    }
+  ],
+  "/images/pokemon_backup/Parasect.jpg": [
+    {
+      "src": "/images/pokemon_backup/Parasect-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon_backup/Parasect-536.webp",
+      "width": 536
+    }
+  ],
+  "/images/pokemon_backup/Pikafire.jpg": [
+    {
+      "src": "/images/pokemon_backup/Pikafire-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon_backup/Pikafire-674.webp",
+      "width": 674
+    }
+  ],
+  "/images/pokemon_backup/Poliwag.jpg": [
+    {
+      "src": "/images/pokemon_backup/Poliwag-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon_backup/Poliwag-562.webp",
+      "width": 562
+    }
+  ],
+  "/images/pokemon_backup/Primordion.jpg": [
+    {
+      "src": "/images/pokemon_backup/Primordion-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon_backup/Primordion-900.webp",
+      "width": 900
+    }
+  ],
+  "/images/pokemon_backup/Psyduck.jpg": [
+    {
+      "src": "/images/pokemon_backup/Psyduck-418.webp",
+      "width": 418
+    }
+  ],
+  "/images/pokemon_backup/Rockler.jpg": [
+    {
+      "src": "/images/pokemon_backup/Rockler-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon_backup/Rockler-900.webp",
+      "width": 900
+    }
+  ],
+  "/images/pokemon_backup/Salamence.jpg": [
+    {
+      "src": "/images/pokemon_backup/Salamence-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon_backup/Salamence-900.webp",
+      "width": 900
+    }
+  ],
+  "/images/pokemon_backup/Shados.jpg": [
+    {
+      "src": "/images/pokemon_backup/Shados-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon_backup/Shados-900.webp",
+      "width": 900
+    }
+  ],
+  "/images/pokemon_backup/Shadowclaw.jpg": [
+    {
+      "src": "/images/pokemon_backup/Shadowclaw-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon_backup/Shadowclaw-539.webp",
+      "width": 539
+    }
+  ],
+  "/images/pokemon_backup/Shuppet.jpg": [
+    {
+      "src": "/images/pokemon_backup/Shuppet-439.webp",
+      "width": 439
+    }
+  ],
+  "/images/pokemon_backup/Slowpoke.jpg": [
+    {
+      "src": "/images/pokemon_backup/Slowpoke-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon_backup/Slowpoke-547.webp",
+      "width": 547
+    }
+  ],
+  "/images/pokemon_backup/Snorizard.jpg": [
+    {
+      "src": "/images/pokemon_backup/Snorizard-413.webp",
+      "width": 413
+    }
+  ],
+  "/images/pokemon_backup/Staravia.jpg": [
+    {
+      "src": "/images/pokemon_backup/Staravia-360.webp",
+      "width": 360
+    }
+  ],
+  "/images/pokemon_backup/Stormbird.jpg": [
+    {
+      "src": "/images/pokemon_backup/Stormbird-442.webp",
+      "width": 442
+    }
+  ],
+  "/images/pokemon_backup/Sunreep.jpg": [
+    {
+      "src": "/images/pokemon_backup/Sunreep-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon_backup/Sunreep-900.webp",
+      "width": 900
+    }
+  ],
+  "/images/pokemon_backup/Swablu.jpg": [
+    {
+      "src": "/images/pokemon_backup/Swablu-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon_backup/Swablu-547.webp",
+      "width": 547
+    }
+  ],
+  "/images/pokemon_backup/Thornback.jpg": [
+    {
+      "src": "/images/pokemon_backup/Thornback-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon_backup/Thornback-846.webp",
+      "width": 846
+    }
+  ],
+  "/images/pokemon_backup/Thornvine.jpg": [
+    {
+      "src": "/images/pokemon_backup/Thornvine-456.webp",
+      "width": 456
+    }
+  ],
+  "/images/pokemon_backup/Tidlet.jpg": [
+    {
+      "src": "/images/pokemon_backup/Tidlet-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon_backup/Tidlet-853.webp",
+      "width": 853
+    }
+  ],
+  "/images/pokemon_backup/Toxifin.jpg": [
+    {
+      "src": "/images/pokemon_backup/Toxifin-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon_backup/Toxifin-879.webp",
+      "width": 879
+    }
+  ],
+  "/images/pokemon_backup/Treemendous.jpg": [
+    {
+      "src": "/images/pokemon_backup/Treemendous-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon_backup/Treemendous-543.webp",
+      "width": 543
+    }
+  ],
+  "/images/pokemon_backup/Venomoth.jpg": [
+    {
+      "src": "/images/pokemon_backup/Venomoth-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon_backup/Venomoth-563.webp",
+      "width": 563
+    }
+  ],
+  "/images/pokemon_backup/Venonat.jpg": [
+    {
+      "src": "/images/pokemon_backup/Venonat-472.webp",
+      "width": 472
+    }
+  ],
+  "/images/pokemon_backup/Voltscale.jpg": [
+    {
+      "src": "/images/pokemon_backup/Voltscale-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon_backup/Voltscale-799.webp",
+      "width": 799
+    }
+  ],
+  "/images/pokemon_backup/Zaprat.jpg": [
+    {
+      "src": "/images/pokemon_backup/Zaprat-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/pokemon_backup/Zaprat-900.webp",
+      "width": 900
+    }
+  ],
+  "/images/recipes/rec001-honey-cake.png": [
+    {
+      "src": "/images/recipes/rec001-honey-cake-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/recipes/rec001-honey-cake-512.webp",
+      "width": 512
+    }
+  ],
+  "/images/recipes/rec002-fire-boost.png": [
+    {
+      "src": "/images/recipes/rec002-fire-boost-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/recipes/rec002-fire-boost-512.webp",
+      "width": 512
+    }
+  ],
+  "/images/recipes/rec003-speed-potion.png": [
+    {
+      "src": "/images/recipes/rec003-speed-potion-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/recipes/rec003-speed-potion-512.webp",
+      "width": 512
+    }
+  ],
+  "/images/recipes/rec004-guardian-stew.png": [
+    {
+      "src": "/images/recipes/rec004-guardian-stew-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/recipes/rec004-guardian-stew-512.webp",
+      "width": 512
+    }
+  ],
+  "/images/recipes/rec005-lucky-charm.png": [
+    {
+      "src": "/images/recipes/rec005-lucky-charm-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/recipes/rec005-lucky-charm-512.webp",
+      "width": 512
+    }
+  ],
+  "/images/recipes/rec006-water-shield.png": [
+    {
+      "src": "/images/recipes/rec006-water-shield-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/images/recipes/rec006-water-shield-512.webp",
+      "width": 512
     }
   ],
   "/logo-mark.png": [
