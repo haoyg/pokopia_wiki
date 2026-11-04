@@ -65,6 +65,17 @@ for (const pokemon of verifiedPokedex.pokemon || []) {
   if (pokemon.forms && (!Array.isArray(pokemon.forms) || pokemon.forms.length === 0)) {
     errors.push(`pokedex-verified:${pokemon.slug} has an invalid forms list`)
   }
+  if (pokemon.variants) {
+    if (!Array.isArray(pokemon.variants) || pokemon.variants.length === 0) {
+      errors.push(`pokedex-verified:${pokemon.slug} has an invalid variants list`)
+    } else {
+      for (const variant of pokemon.variants) {
+        if (!variant.name || !Array.isArray(variant.specialties) || !Array.isArray(variant.habitats)) {
+          errors.push(`pokedex-verified:${pokemon.slug} has an incomplete variant`)
+        }
+      }
+    }
+  }
   publishable += 1
 }
 for (let expectedNumber = 1; expectedNumber <= verifiedPokedex.pokemon.length; expectedNumber += 1) {

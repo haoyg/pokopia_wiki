@@ -7,7 +7,7 @@ import { canonicalUrl } from '@/lib/site'
 export const metadata: Metadata = {
   title: 'Pokopia Pokédex — Verified Pokémon, Habitats & Specialties',
   description:
-    'A source-checked Pokopia Pokédex. Browse the first 75 reviewed Pokémon with types, specialties, forms, and in-game habitat requirements.',
+    'A source-checked Pokopia Pokédex. Browse the first 125 reviewed Pokémon with types, specialties, forms, and in-game habitat requirements.',
   alternates: { canonical: canonicalUrl('/pokedex') },
   openGraph: {
     title: 'Pokopia Pokédex — Verified Pokémon, Habitats & Specialties',
@@ -46,7 +46,7 @@ export default function PokedexPage() {
           <h1>Pokopia Pokédex</h1>
           <p>
             Real Pokémon names, types, specialties, and habitat requirements—published only after cross-checking
-            multiple references. The reviewed database currently covers Pokédex #001–#075.
+            multiple references. The reviewed database currently covers Pokédex #001–#125.
           </p>
         </div>
         <aside className="pokedex-scope" aria-label="Pokédex coverage">
@@ -97,6 +97,17 @@ export default function PokedexPage() {
                 <dd>{pokemon.habitats.join('; ')}</dd>
               </div>
             </dl>
+            {'variants' in pokemon && pokemon.variants ? (
+              <div className="pokedex-variants">
+                {pokemon.variants.map((variant) => (
+                  <div key={variant.name}>
+                    <strong>{variant.name}</strong>
+                    <span>Specialty: {variant.specialties.join(', ')}</span>
+                    <span>Habitat: {variant.habitats.join('; ')}</span>
+                  </div>
+                ))}
+              </div>
+            ) : null}
             {'field_conflicts' in pokemon && pokemon.field_conflicts ? (
               <p className="pokedex-field-note"><strong>Under review:</strong> {Object.values(pokemon.field_conflicts).join(' ')}</p>
             ) : null}

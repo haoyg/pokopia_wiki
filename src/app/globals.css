@@ -5030,6 +5030,9 @@ aside ul li {
 .pokedex-card dt { color: var(--color-text-secondary); font-size: .76rem; font-weight: 900; text-transform: uppercase; }
 .pokedex-card dd { margin: 0; font-size: .9rem; }
 .pokedex-field-note { margin: .75rem 0 0; padding: .65rem .75rem; color: var(--color-text-secondary); font-size: .78rem; border-radius: var(--radius-md); background: var(--color-bg-alt); }
+.pokedex-variants { margin-top: .75rem; }
+.pokedex-variants > div { display: grid; gap: .2rem; padding: .7rem .75rem; border: 1px solid var(--color-border); border-radius: var(--radius-md); background: var(--color-bg-alt); font-size: .8rem; }
+.pokedex-variants span { color: var(--color-text-secondary); }
 
 .pokedex-sources { grid-template-columns: minmax(0, 1.4fr) minmax(260px, 1fr); margin-top: 2rem; }
 .pokedex-sources ul { margin: 0; padding-left: 1.2rem; }
