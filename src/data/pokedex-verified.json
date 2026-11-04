@@ -6,7 +6,7 @@
     "base_game": 300,
     "bubbly_basin": 50,
     "event": 7,
-    "reviewed_here": 150
+    "reviewed_here": 175
   },
   "sources": [
     {
@@ -184,6 +184,31 @@
     { "number": 147, "national_dex": 24, "slug": "arbok", "name": "Arbok", "types": ["Poison"], "specialties": ["Search"], "habitats": ["Hydrated Graceful Flower Bed"] },
     { "number": 148, "national_dex": 173, "slug": "cleffa", "name": "Cleffa", "types": ["Fairy"], "specialties": ["Hype"], "habitats": ["Graceful Flower Bed"] },
     { "number": 149, "national_dex": 35, "slug": "clefairy", "name": "Clefairy", "types": ["Fairy"], "specialties": ["Hype"], "habitats": ["Bronze Landmark", "Graceful Flower Bed"] },
-    { "number": 150, "national_dex": 36, "slug": "clefable", "name": "Clefable", "types": ["Fairy"], "specialties": ["Hype", "Trade"], "habitats": ["Bronze Landmark", "Graceful Flower Bed"] }
+    { "number": 150, "national_dex": 36, "slug": "clefable", "name": "Clefable", "types": ["Fairy"], "specialties": ["Hype", "Trade"], "habitats": ["Bronze Landmark", "Graceful Flower Bed"] },
+    { "number": 151, "national_dex": 174, "slug": "igglybuff", "name": "Igglybuff", "types": ["Normal", "Fairy"], "specialties": ["Hype"], "habitats": ["Flower Garden Stump Stage"] },
+    { "number": 152, "national_dex": 39, "slug": "jigglypuff", "name": "Jigglypuff", "types": ["Normal", "Fairy"], "specialties": ["Hype"], "habitats": ["Recital Stage", "Flower Garden Stump Stage"] },
+    { "number": 153, "national_dex": 40, "slug": "wigglytuff", "name": "Wigglytuff", "types": ["Normal", "Fairy"], "specialties": ["Hype", "Trade"], "habitats": ["Recital Stage"] },
+    { "number": 154, "national_dex": 50, "slug": "diglett", "name": "Diglett", "types": ["Ground"], "specialties": ["Hype"], "habitats": ["Container Snacking", "Tree-shaded Red Tall Grass"] },
+    { "number": 155, "national_dex": 51, "slug": "dugtrio", "name": "Dugtrio", "types": ["Ground"], "specialties": ["Hype", "Crush"], "habitats": ["House Party", "Tree-shaded Red Tall Grass"] },
+    { "number": 156, "national_dex": 66, "slug": "machop", "name": "Machop", "types": ["Fighting"], "specialties": ["Build", "Gather"], "habitats": ["Boulder-shaded Tall Grass (Palette Town only)"] },
+    { "number": 157, "national_dex": 67, "slug": "machoke", "name": "Machoke", "types": ["Fighting"], "specialties": ["Build", "Gather"], "habitats": ["Grassy Training Field", "Box to the Rhythm"] },
+    { "number": 158, "national_dex": 68, "slug": "machamp", "name": "Machamp", "types": ["Fighting"], "specialties": ["Build", "Gather"], "habitats": ["Clink-clang Iron Construction", "Grassy Training Field"] },
+    { "number": 159, "national_dex": 74, "slug": "geodude", "name": "Geodude", "types": ["Rock", "Ground"], "specialties": ["Crush"], "habitats": ["Tall Grass (Palette Town only)"] },
+    { "number": 160, "national_dex": 75, "slug": "graveler", "name": "Graveler", "types": ["Rock", "Ground"], "specialties": ["Crush"], "habitats": ["Mossy Boulder"], "field_notes": { "name": "Nintendo Life spells the name “Graveller”; Bulbapedia, Serebii, and the National Pokédex spelling confirm Graveler." } },
+    { "number": 161, "national_dex": 76, "slug": "golem", "name": "Golem", "types": ["Rock", "Ground"], "specialties": ["Crush", "Trade"], "habitats": ["Mossy Boulder"] },
+    { "number": 162, "national_dex": 240, "slug": "magby", "name": "Magby", "types": ["Fire"], "specialties": ["Burn"], "habitats": ["Pretty Flower Bed (Palette Town only)"] },
+    { "number": 163, "national_dex": 126, "slug": "magmar", "name": "Magmar", "types": ["Fire"], "specialties": ["Burn"], "habitats": ["Digging and Burning"] },
+    { "number": 164, "national_dex": 467, "slug": "magmortar", "name": "Magmortar", "types": ["Fire"], "specialties": ["Burn", "Crush"], "habitats": ["Mini Kitchen"] },
+    { "number": 165, "national_dex": 438, "slug": "bonsly", "name": "Bonsly", "types": ["Rock"], "specialties": ["Bulldoze"], "habitats": ["Tree-shaded Red Tall Grass"] },
+    { "number": 166, "national_dex": 185, "slug": "sudowoodo", "name": "Sudowoodo", "types": ["Rock"], "specialties": ["Trade"], "habitats": ["House Party", "Tree-shaded Red Tall Grass"] },
+    { "number": 167, "national_dex": 198, "slug": "murkrow", "name": "Murkrow", "types": ["Dark", "Flying"], "specialties": ["Trade", "Fly"], "habitats": ["Tree-shaded Graceful Flower Bed", "Elevated Red Tall Grass"] },
+    { "number": 168, "national_dex": 430, "slug": "honchkrow", "name": "Honchkrow", "types": ["Dark", "Flying"], "specialties": ["Trade", "Fly"], "habitats": ["Elevated Red Tall Grass", "Chirping Recital"] },
+    { "number": 169, "national_dex": 246, "slug": "larvitar", "name": "Larvitar", "types": ["Rock", "Ground"], "specialties": ["Crush", "Bulldoze"], "habitats": ["Mossy Rest Spot"] },
+    { "number": 170, "national_dex": 247, "slug": "pupitar", "name": "Pupitar", "types": ["Rock", "Ground"], "specialties": ["Crush", "Bulldoze"], "habitats": ["Tree-shaded Pink Tall Grass"] },
+    { "number": 171, "national_dex": 248, "slug": "tyranitar", "name": "Tyranitar", "types": ["Rock", "Dark"], "specialties": ["Crush", "Bulldoze"], "habitats": ["Toil in the Soil", "Mossy Rest Spot"] },
+    { "number": 172, "national_dex": 270, "slug": "lotad", "name": "Lotad", "types": ["Water", "Grass"], "specialties": ["Water"], "habitats": ["Hot-spring Fishing Spot", "Uplifting Duckweed", "Hydrated Red Tall Grass"] },
+    { "number": 173, "national_dex": 271, "slug": "lombre", "name": "Lombre", "types": ["Water", "Grass"], "specialties": ["Water"], "habitats": ["Hot-spring Fishing Spot", "Hydrated Red Tall Grass"] },
+    { "number": 174, "national_dex": 272, "slug": "ludicolo", "name": "Ludicolo", "types": ["Water", "Grass"], "specialties": ["Water", "Hype"], "habitats": ["Uplifting Duckweed"] },
+    { "number": 175, "national_dex": 303, "slug": "mawile", "name": "Mawile", "types": ["Steel", "Fairy"], "specialties": ["Trade", "Build"], "habitats": ["Working the Register (Palette Town only)"] }
   ]
 }

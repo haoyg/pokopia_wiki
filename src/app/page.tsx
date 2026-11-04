@@ -47,7 +47,7 @@ const portalSections = [
   {
     href: '/pokedex',
     label: 'Verified Pokédex',
-    description: 'Browse the first 150 reviewed Pokémon with cross-checked types, forms, specialties, and habitat requirements.',
+    description: 'Browse the first 175 reviewed Pokémon with cross-checked types, forms, specialties, and habitat requirements.',
     tags: ['Reviewed entries', 'Source policy'],
     tagHrefs: ['/pokedex', '/source-policy'],
   },
