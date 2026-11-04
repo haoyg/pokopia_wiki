@@ -6,7 +6,7 @@
     "base_game": 300,
     "bubbly_basin": 50,
     "event": 7,
-    "reviewed_here": 50
+    "reviewed_here": 75
   },
   "sources": [
     {
@@ -84,6 +84,31 @@
     { "number": 47, "national_dex": 132, "slug": "ditto", "name": "Ditto", "types": ["Normal"], "specialties": ["Transform"], "habitats": ["Not applicable"], "field_notes": { "habitats": "The reviewed references do not list a habitat requirement for Ditto." } },
     { "number": 48, "national_dex": 163, "slug": "hoothoot", "name": "Hoothoot", "types": ["Normal", "Flying"], "specialties": ["Trade", "Fly"], "habitats": ["Pretty Flower Bed", "Elevated Tall Grass", "Gently Lit Bed"] },
     { "number": 49, "national_dex": 164, "slug": "noctowl", "name": "Noctowl", "types": ["Normal", "Flying"], "specialties": ["Trade", "Fly"], "habitats": ["Gently Lit Bed", "Elevated Tall Grass"] },
-    { "number": 50, "national_dex": 214, "slug": "heracross", "name": "Heracross", "types": ["Bug", "Fighting"], "specialties": ["Chop", "Build"], "habitats": ["Tree-shaded Tall Grass"] }
+    { "number": 50, "national_dex": 214, "slug": "heracross", "name": "Heracross", "types": ["Bug", "Fighting"], "specialties": ["Chop", "Build"], "habitats": ["Tree-shaded Tall Grass"] },
+    { "number": 51, "national_dex": 313, "slug": "volbeat", "name": "Volbeat", "types": ["Bug"], "specialties": ["Hype"], "habitats": ["Hydrated Flower Bed"], "field_notes": { "specialties": "Serebii and Pokopia Guide list Hype. Nintendo Life displays “Volbeat” in the Specialty column, which appears to be a transcription error." } },
+    { "number": 52, "national_dex": 314, "slug": "illumise", "name": "Illumise", "types": ["Bug"], "specialties": ["Hype"], "habitats": ["Hydrated Flower Bed"] },
+    { "number": 53, "national_dex": 316, "slug": "gulpin", "name": "Gulpin", "types": ["Poison"], "specialties": ["Storage"], "habitats": ["Tantalizing Dining Set"] },
+    { "number": 54, "national_dex": 317, "slug": "swalot", "name": "Swalot", "types": ["Poison"], "specialties": ["Storage"], "habitats": ["Dinner Table Surprise"] },
+    { "number": 55, "national_dex": 331, "slug": "cacnea", "name": "Cacnea", "types": ["Grass"], "specialties": ["Grow"], "habitats": ["Sunny Day Site"] },
+    { "number": 56, "national_dex": 332, "slug": "cacturne", "name": "Cacturne", "types": ["Grass", "Dark"], "specialties": ["Grow", "Litter"], "habitats": ["Tree-shaded Flower Bed"] },
+    { "number": 57, "national_dex": 415, "slug": "combee", "name": "Combee", "types": ["Bug", "Flying"], "specialties": ["Litter"], "habitats": ["Pretty Flower Bed"] },
+    { "number": 58, "national_dex": 416, "slug": "vespiquen", "name": "Vespiquen", "types": ["Bug", "Flying"], "specialties": ["Gather Honey", "Search"], "habitats": ["Field of Flowers"] },
+    { "number": 59, "national_dex": 422, "slug": "shellos", "name": "Shellos", "forms": ["West Sea", "East Sea"], "types": ["Water"], "specialties": ["Water"], "habitats": ["Road Sign"] },
+    { "number": 60, "national_dex": 423, "slug": "gastrodon", "name": "Gastrodon", "forms": ["West Sea", "East Sea"], "types": ["Water", "Ground"], "specialties": ["Water", "Trade"], "habitats": ["Ocean Fishing Spot"] },
+    { "number": 61, "national_dex": 425, "slug": "drifloon", "name": "Drifloon", "types": ["Ghost", "Flying"], "specialties": ["Dream Island"], "habitats": ["Riding Warm Updrafts", "Plush Central", "Bed With a Plush"] },
+    { "number": 62, "national_dex": 426, "slug": "drifblim", "name": "Drifblim", "types": ["Ghost", "Flying"], "specialties": ["Fly", "Gather"], "habitats": ["Plush Central"] },
+    { "number": 63, "national_dex": 529, "slug": "drilbur", "name": "Drilbur", "types": ["Ground"], "specialties": ["Search"], "habitats": ["Fresh Veggie Field"] },
+    { "number": 64, "national_dex": 530, "slug": "excadrill", "name": "Excadrill", "types": ["Ground", "Steel"], "specialties": ["Search", "Chop"], "habitats": ["Fresh Veggie Field"] },
+    { "number": 65, "national_dex": 532, "slug": "timburr", "name": "Timburr", "types": ["Fighting"], "specialties": ["Build"], "habitats": ["Boulder-shaded Tall Grass"] },
+    { "number": 66, "national_dex": 533, "slug": "gurdurr", "name": "Gurdurr", "types": ["Fighting"], "specialties": ["Build"], "habitats": ["Large Luggage Carrier", "Boulder-shaded Tall Grass"] },
+    { "number": 67, "national_dex": 534, "slug": "conkeldurr", "name": "Conkeldurr", "types": ["Fighting"], "specialties": ["Build", "Crush"], "habitats": ["Construction Site Generator"] },
+    { "number": 68, "national_dex": 607, "slug": "litwick", "name": "Litwick", "types": ["Ghost", "Fire"], "specialties": ["Burn"], "habitats": ["Creepy Grave Offering", "Grave Offering"] },
+    { "number": 69, "national_dex": 608, "slug": "lampent", "name": "Lampent", "types": ["Ghost", "Fire"], "specialties": ["Burn"], "habitats": ["Creepy Grave Offering", "Grave Offering"] },
+    { "number": 70, "national_dex": 609, "slug": "chandelure", "name": "Chandelure", "types": ["Ghost", "Fire"], "specialties": ["Burn"], "habitats": ["Creepy Grave Offering"] },
+    { "number": 71, "national_dex": 610, "slug": "axew", "name": "Axew", "types": ["Dragon"], "specialties": ["Chop"], "habitats": ["Lumberjack's Workplace", "Cozy Log Handicrafts"] },
+    { "number": 72, "national_dex": 611, "slug": "fraxure", "name": "Fraxure", "types": ["Dragon"], "specialties": ["Chop"], "habitats": ["Lumberjack's Workplace", "Cozy Log Handicrafts"] },
+    { "number": 73, "national_dex": 612, "slug": "haxorus", "name": "Haxorus", "types": ["Dragon"], "specialties": ["Chop", "Litter"], "habitats": ["Lumberjack's Workplace", "Cozy Log Handicrafts"] },
+    { "number": 74, "national_dex": 704, "slug": "goomy", "name": "Goomy", "types": ["Dragon"], "specialties": ["Water"], "habitats": ["Rain Dance Site", "Tree-shaded Flower Bed"] },
+    { "number": 75, "national_dex": 705, "slug": "sliggoo", "name": "Sliggoo", "types": ["Dragon"], "specialties": ["Water"], "habitats": ["Hydrated Tall Grass"] }
   ]
 }

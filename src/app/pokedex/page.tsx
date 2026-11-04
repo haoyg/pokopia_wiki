@@ -7,7 +7,7 @@ import { canonicalUrl } from '@/lib/site'
 export const metadata: Metadata = {
   title: 'Pokopia Pokédex — Verified Pokémon, Habitats & Specialties',
   description:
-    'A source-checked Pokopia Pokédex. Browse the first 50 reviewed Pokémon with types, specialties, and in-game habitat requirements.',
+    'A source-checked Pokopia Pokédex. Browse the first 75 reviewed Pokémon with types, specialties, forms, and in-game habitat requirements.',
   alternates: { canonical: canonicalUrl('/pokedex') },
   openGraph: {
     title: 'Pokopia Pokédex — Verified Pokémon, Habitats & Specialties',
@@ -46,7 +46,7 @@ export default function PokedexPage() {
           <h1>Pokopia Pokédex</h1>
           <p>
             Real Pokémon names, types, specialties, and habitat requirements—published only after cross-checking
-            multiple references. The reviewed database currently covers Pokédex #001–#050.
+            multiple references. The reviewed database currently covers Pokédex #001–#075.
           </p>
         </div>
         <aside className="pokedex-scope" aria-label="Pokédex coverage">
@@ -78,6 +78,12 @@ export default function PokedexPage() {
               <small>National #{String(pokemon.national_dex).padStart(4, '0')}</small>
             </div>
             <dl>
+              {'forms' in pokemon && pokemon.forms ? (
+                <div>
+                  <dt>Forms</dt>
+                  <dd>{pokemon.forms.join(', ')}</dd>
+                </div>
+              ) : null}
               <div>
                 <dt>Type</dt>
                 <dd>{pokemon.types.join(' / ')}</dd>

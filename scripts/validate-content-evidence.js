@@ -62,7 +62,13 @@ for (const pokemon of verifiedPokedex.pokemon || []) {
       errors.push(`pokedex-verified:${pokemon.slug} is missing ${field}`)
     }
   }
+  if (pokemon.forms && (!Array.isArray(pokemon.forms) || pokemon.forms.length === 0)) {
+    errors.push(`pokedex-verified:${pokemon.slug} has an invalid forms list`)
+  }
   publishable += 1
+}
+for (let expectedNumber = 1; expectedNumber <= verifiedPokedex.pokemon.length; expectedNumber += 1) {
+  if (!pokedexNumbers.has(expectedNumber)) errors.push(`pokedex-verified is missing sequential number ${expectedNumber}`)
 }
 
 const intake = readJson('src/data/verified-intake.json')
