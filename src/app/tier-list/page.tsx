@@ -3,7 +3,6 @@ import Link from 'next/link'
 import Image from 'next/image'
 import pokemonData from '@/data/pokemon.json'
 import { canonicalUrl } from '@/lib/site'
-import { noIndexMetadata } from '@/lib/indexing'
 import { DataStatus } from '@/components/content/DataStatus'
 import { OfficialContext } from '@/components/content/OfficialContext'
 import { BreadcrumbJsonLd, ItemListJsonLd } from '@/components/seo/JsonLd'
@@ -106,8 +105,8 @@ const rarityHeadings = [
 ]
 
 export const metadata: Metadata = {
-  title: 'Pokemon Priority Index',
-  description: 'Browse an editorial Pokemon priority index based on current site database fields such as rarity and role.',
+  title: 'Pokopia Pokemon Tier List & Priority Index',
+  description: 'Browse the Pokopia Pokemon tier list and priority index. See which Pokemon are best for each role: Tank, Attacker, Assassin, Speedster, Support, and Defender.',
   keywords: [
     'Pokopia tier list',
     'Pokopia best Pokemon',
@@ -116,22 +115,22 @@ export const metadata: Metadata = {
     'Pokopia Pokemon ranking',
     'Pokopia meta Pokemon',
     'Pokopia top Pokemon',
+    'Pokopia Pokemon tier',
   ],
   openGraph: {
-    title: 'Pokemon Priority Index',
-    description: 'Browse an editorial Pokemon priority index based on rarity and role data.',
-    images: ['/og-image.svg'],
+    title: 'Pokopia Pokemon Tier List & Priority Index',
+    description: 'See which Pokopia Pokemon rank highest for each role. Priority index based on rarity and specialty.',
+    images: ['/og-tier-list.png'],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Pokemon Priority Index',
-    description: 'Browse an editorial Pokemon priority index based on rarity and role data.',
-    images: ['/og-image.svg'],
+    title: 'Pokopia Pokemon Tier List',
+    description: 'See which Pokopia Pokemon rank highest for each role. Priority index based on rarity and specialty.',
+    images: ['/og-tier-list.png'],
   },
   alternates: {
     canonical: canonicalUrl('/tier-list'),
   },
-  robots: noIndexMetadata,
 }
 
 export default function TierListPage() {
