@@ -79,6 +79,7 @@ const news = readJson('src/data/news.json')
 const pokemon = readJson('src/data/pokemon.json')
 const recipes = readJson('src/data/recipes.json')
 const official = readJson('src/data/official.json')
+const verifiedPokedex = readJson('src/data/pokedex-verified.json')
 
 const habitatById = new Map(habitats.map((item) => [item.id, item]))
 const redirectedNewsSlugs = new Set([
@@ -87,6 +88,18 @@ const redirectedNewsSlugs = new Set([
 ])
 
 const staticEntries = [
+  entry({
+    id: 'verified-pokedex',
+    type: 'Pokemon',
+    title: 'Pokopia Pokédex — Verified Pokémon, Habitats & Specialties',
+    href: '/pokedex',
+    description: `Browse ${verifiedPokedex.scope.reviewed_here} source-checked Pokopia Pokémon with types, specialties, and habitat requirements.`,
+    meta: 'Verified Pokédex',
+    status: 'Community-confirmed records',
+    updatedAt: verifiedPokedex.reviewed_at,
+    priority: 98,
+    keywords: verifiedPokedex.pokemon.map((pokemon) => pokemon.name).join(' '),
+  }),
   entry({
     id: 'official-hub',
     type: 'Official',

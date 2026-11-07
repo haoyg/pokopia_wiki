@@ -1,5 +1,6 @@
 const fs = require('fs')
 const path = require('path')
+const { isIndexableDatabaseEntry, isIndexableGuide } = require('./lib/indexing')
 
 const files = [
   'src/data/news.json',
@@ -37,6 +38,12 @@ for (const file of files) {
   const data = JSON.parse(fs.readFileSync(path.join(process.cwd(), file), 'utf8'))
 
   for (const item of data) {
+    const isGuide = file.endsWith('guides.json')
+    const isDatabase = /(?:pokemon|habitats|recipes)\.json$/.test(file)
+    if ((isGuide && !isIndexableGuide(item)) || (isDatabase && !isIndexableDatabaseEntry(item))) {
+      continue
+    }
+
     if (item.image_rights_status === 'retired-no-publication') {
       if (item.image_url) {
         issues.push(`${file}: ${item.id || item.slug || item.title || 'unknown'} retains image_url after media retirement`)

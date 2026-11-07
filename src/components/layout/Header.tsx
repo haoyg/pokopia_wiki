@@ -6,6 +6,7 @@ import { useState } from 'react'
 
 const navItems = [
   { href: '/', label: 'Home' },
+  { href: '/pokedex', label: 'Pokédex' },
   { href: '/official', label: 'Official Info' },
   { href: '/news', label: 'News' },
   { href: '/features', label: 'Features' },

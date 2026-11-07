@@ -18,6 +18,7 @@ const REDIRECTED_NEWS_SLUGS = new Set([
 
 const staticPages = [
   { url: '/', priority: 1.0, changefreq: 'daily' },
+  { url: '/pokedex/', priority: 0.92, changefreq: 'weekly' },
   { url: '/official/', priority: 0.9, changefreq: 'weekly' },
   { url: '/news/', priority: 0.85, changefreq: 'weekly' },
   { url: '/news/weekly-event-tracker/', priority: 0.76, changefreq: 'weekly' },

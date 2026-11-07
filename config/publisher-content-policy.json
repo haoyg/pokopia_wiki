@@ -12,6 +12,8 @@
     "adssettings.google.com",
     "pokemondb.net",
     "bulbapedia.bulbagarden.net",
+    "www.serebii.net",
+    "www.nintendolife.com",
     "pokopiawiki.com",
     "assets.pokopiawiki.com",
     "pokopiaguide.com",
@@ -26,6 +28,6 @@
     "/source-policy",
     "/corrections"
   ],
-  "last_reviewed_at": "2026-07-21",
-  "review_note": "The rendered site is limited to gaming information and browser-side planning tools. It does not offer user accounts, public submissions, commerce, software downloads, or advertising. Publisher content policy checks must pass before deployment."
+  "last_reviewed_at": "2026-11-04",
+  "review_note": "The rendered site is limited to gaming information and browser-side planning tools. Reviewed external hosts include the community references cited by the verified Pokédex. The site does not offer user accounts, public submissions, commerce, software downloads, or advertising. Publisher content policy checks must pass before deployment."
 }
