@@ -1,0 +1,54 @@
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
+    </linearGradient>
+    <linearGradient id="sTier" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ffd700"/>
+      <stop offset="100%" style="stop-color:#ffaa00"/>
+    </linearGradient>
+    <linearGradient id="aTier" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#c0c0c0"/>
+      <stop offset="100%" style="stop-color:#a8a8a8"/>
+    </linearGradient>
+    <linearGradient id="bTier" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#cd7f32"/>
+      <stop offset="100%" style="stop-color:#b8860b"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Title -->
+  <text x="600" y="80" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="bold" fill="white" text-anchor="middle">Pokopia Pokemon Tier List</text>
+  <text x="600" y="120" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="rgba(255,255,255,0.7)" text-anchor="middle">Priority Index based on Rarity and Role</text>
+
+  <!-- S Tier -->
+  <rect x="50" y="170" width="1100" height="90" rx="10" fill="url(#sTier)"/>
+  <text x="100" y="215" font-family="system-ui, -apple-system, sans-serif" font-size="36" font-weight="bold" fill="#1a1a2e">S TIER</text>
+  <text x="100" y="250" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#1a1a2e">Legendary Pokemon - Highest Priority</text>
+  <text x="750" y="230" font-family="system-ui, -apple-system, sans-serif" font-size="28" fill="#1a1a2e">Flamexor · Voltscale · Shadowclaw · Lunaflare · Primordion</text>
+
+  <!-- A Tier -->
+  <rect x="50" y="280" width="1100" height="90" rx="10" fill="url(#aTier)"/>
+  <text x="100" y="325" font-family="system-ui, -apple-system, sans-serif" font-size="36" font-weight="bold" fill="#1a1a2e">A TIER</text>
+  <text x="100" y="360" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#1a1a2e">Rare / Attacker Specialties</text>
+  <text x="750" y="340" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#1a1a2e">Pikafire · Crystion · Snorizard · Crystalwing · Sunreep +more</text>
+
+  <!-- B Tier -->
+  <rect x="50" y="390" width="1100" height="90" rx="10" fill="url(#bTier)"/>
+  <text x="100" y="435" font-family="system-ui, -apple-system, sans-serif" font-size="36" font-weight="bold" fill="white">B TIER</text>
+  <text x="100" y="470" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="rgba(255,255,255,0.8)">Assassin / Support Roles</text>
+  <text x="750" y="450" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="white">Leafon · Shados · Mysticat · Lightspeed +more</text>
+
+  <!-- C Tier -->
+  <rect x="50" y="500" width="1100" height="90" rx="10" fill="rgba(255,255,255,0.15)"/>
+  <text x="100" y="545" font-family="system-ui, -apple-system, sans-serif" font-size="36" font-weight="bold" fill="rgba(255,255,255,0.6)">C TIER</text>
+  <text x="100" y="580" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="rgba(255,255,255,0.5)">Common / Uncommon Pokemon</text>
+  <text x="750" y="560" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="rgba(255,255,255,0.6)">30+ Pokemon · Starter &amp; Common Builds</text>
+
+  <!-- Footer -->
+  <text x="600" y="615" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="rgba(255,255,255,0.5)" text-anchor="middle">pokopia.cloud/tier-list</text>
+</svg>
