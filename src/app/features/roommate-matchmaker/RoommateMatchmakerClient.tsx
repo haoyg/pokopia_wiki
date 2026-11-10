@@ -5,7 +5,7 @@ import Link from 'next/link'
 import pokemonData from '@/data/pokemon.json'
 import habitatsData from '@/data/habitats.json'
 import { DataStatus } from '@/components/content/DataStatus'
-import { pokemonImage } from '@/lib/localImages'
+import { MediaReviewPlaceholder } from '@/components/media/MediaReviewPlaceholder'
 
 const habitatNames = Object.fromEntries(habitatsData.map((h) => [h.id, h.name]))
 const ALL_TYPES = [...new Set(pokemonData.flatMap((p) => p.type.split('/')))].sort()
@@ -247,12 +247,9 @@ export default function RoommateMatchmakerClient() {
         {/* Selected Pokemon profile */}
         {selected && (
           <div className="matchmaker-selected-profile" style={{ marginBottom: '1.25rem' }}>
-            <img
-              src={pokemonImage(selected.name)}
-              alt={selected.name}
-              className="tool-profile-img tool-profile-img-lg"
-              loading="lazy"
-            />
+            <div className="tool-profile-img tool-profile-img-lg">
+              <MediaReviewPlaceholder compact label={`${selected.name} media pending review`} />
+            </div>
             <div>
               <strong style={{ fontSize: '1.1rem' }}>{selected.name}</strong>
               <p style={{ color: '#637083', fontSize: '0.85rem', marginTop: '0.2rem' }}>
@@ -300,12 +297,9 @@ export default function RoommateMatchmakerClient() {
                   className={"tool-card " + (total >= 6 ? "tool-card-strong" : total >= 4 ? "tool-card-moderate" : "")}
                 >
                   <div className="tool-profile-row">
-                    <img
-                      src={pokemonImage(pokemon.name)}
-                      alt={pokemon.name}
-                      className="tool-profile-img"
-                      loading="lazy"
-                    />
+                    <div className="tool-profile-img">
+                      <MediaReviewPlaceholder compact label={`${pokemon.name} media pending review`} />
+                    </div>
                     <div style={{ flex: 1 }}>
                       <Link href={`/wiki/pokemon/${pokemon.id}`} style={{ fontWeight: 900, fontSize: '0.95rem', display: 'block' }}>
                         {pokemon.name}

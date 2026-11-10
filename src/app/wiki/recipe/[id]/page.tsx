@@ -51,7 +51,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     openGraph: {
       title,
       description,
-      images: hasClearedMediaRights(recipe) ? [recipe.image_url] : ['/og-image.svg'],
+      images: recipe && isIndexableDatabaseEntry(recipe) && hasClearedMediaRights(recipe) ? [recipe.image_url] : ['/og-image.svg'],
     },
     alternates: recipe ? {
       canonical: canonicalUrl(`/wiki/recipe/${recipe.id}`),
@@ -67,6 +67,7 @@ export default async function RecipeDetailPage({ params }: Props) {
     return <p>Recipe not found</p>
   }
   const sourceReview = recipe as typeof recipe & SourceReviewFields
+  const recipeIsIndexable = isIndexableDatabaseEntry(recipe)
 
   const relatedGuides = guidesData.filter((g) =>
     (g.related_items || '').split(',').includes(id)
@@ -89,7 +90,7 @@ export default async function RecipeDetailPage({ params }: Props) {
         description={recipe.overview || `${recipe.name} - ${recipe.buff}`}
         url={`/wiki/recipe/${recipe.id}`}
         pageType="Recipe"
-        image={hasClearedMediaRights(recipe) ? recipe.image_url : undefined}
+        image={recipeIsIndexable && hasClearedMediaRights(recipe) ? recipe.image_url : undefined}
         dateModified={modifiedAt}
         properties={[
           { name: 'Ingredients', value: Array.isArray(recipe.ingredients) ? recipe.ingredients.join(', ') : recipe.ingredients },
@@ -133,6 +134,7 @@ export default async function RecipeDetailPage({ params }: Props) {
             title={recipe.name}
             subtitle="Recipe entry"
             image={{
+              withheld: !recipeIsIndexable,
               src: recipe.image_url,
               alt: recipe.image_alt || recipe.name,
               source: recipe.image_source,

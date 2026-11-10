@@ -54,7 +54,7 @@ function entry({
   meta,
   status,
   source = null,
-  updatedAt = '2026-08-04',
+  updatedAt = null,
   priority = 50,
   keywords = '',
 }) {
@@ -82,6 +82,7 @@ const official = readJson('src/data/official.json')
 const verifiedPokedex = readJson('src/data/pokedex-verified.json')
 
 const habitatById = new Map(habitats.map((item) => [item.id, item]))
+const publishedPokedexDetails = verifiedPokedex.pokemon.filter((item) => item.acquisition || item.variants?.length)
 const redirectedNewsSlugs = new Set([
   'pokemon-pokopia-multiplayer-gameshare-details',
   'pokemon-pokopia-switch-2-online-local-gameshare',
@@ -244,6 +245,28 @@ const quarantinedStaticHrefs = new Set([
 
 const index = [
   ...staticEntries.filter((item) => !quarantinedStaticHrefs.has(item.href)),
+  ...publishedPokedexDetails.map((item) => entry({
+    id: `verified-pokedex-${item.slug}`,
+    type: 'Pokemon',
+    title: `${item.name} in Pokopia — How to Get, Type & Specialty`,
+    href: `/pokedex/${item.slug}`,
+    description: item.acquisition
+      ? `How to get ${item.name} in Pokopia, with its Pokopia Pokédex number, type, specialty, acquisition method, and source notes.`
+      : `${item.name} in Pokopia: Pokédex number, type, specialty, habitat requirements, variants, and reviewed source notes.`,
+    meta: `Pokopia #${String(item.number).padStart(3, '0')} / National #${String(item.national_dex).padStart(4, '0')}`,
+    status: 'Source-checked Pokédex detail',
+    source: verifiedPokedex.sources.map((source) => source.name).join('; '),
+    updatedAt: verifiedPokedex.reviewed_at,
+    priority: 90,
+    keywords: [
+      item.name,
+      item.types,
+      item.specialties,
+      item.habitats,
+      item.acquisition,
+      item.variants?.map((variant) => `${variant.name} ${variant.specialties.join(' ')} ${variant.habitats.join(' ')}`).join(' '),
+    ].flat().filter(Boolean).join(' '),
+  })),
   ...news.filter((item) => !redirectedNewsSlugs.has(item.slug)).map((item) => entry({
     id: item.id,
     type: 'News',

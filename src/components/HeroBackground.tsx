@@ -1,13 +1,13 @@
 'use client'
 
 import { useEffect, useState } from 'react'
+import { ResponsiveImage } from '@/components/media/ResponsiveImage'
 
 const HERO_IMAGES = [
   '/images/guides/pokopia-official-2.png',
   '/images/guides/pokopia-official-5.png',
   '/images/guides/pokopia-official-6.png',
   '/images/guides/pokopia-official-7.png',
-  '/images/guides/pokopia-game-artwork.png',
 ]
 
 export function HeroBackground() {
@@ -26,8 +26,9 @@ export function HeroBackground() {
         <div
           key={src}
           className={`hero-bg-slide${i === index ? ' active' : ''}`}
-          style={{ backgroundImage: `url(${src})` }}
-        />
+        >
+          <ResponsiveImage src={src} alt="" sizes="100vw" priority={i === 0} />
+        </div>
       ))}
     </div>
   )

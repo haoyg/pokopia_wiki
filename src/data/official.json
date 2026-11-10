@@ -359,12 +359,12 @@
         "href": "/official/official-beginner-tips"
       },
       {
-        "label": "Official characters guide",
-        "href": "/guides/official-pokopia-characters-guide"
+        "label": "Verified Pokédex",
+        "href": "/pokedex"
       },
       {
-        "label": "Movement and terrain moves guide",
-        "href": "/guides/movement-and-terrain-moves-guide"
+        "label": "How claims are verified",
+        "href": "/source-policy"
       }
     ],
     "sources": [

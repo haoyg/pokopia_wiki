@@ -9,16 +9,17 @@ import habitatsData from '@/data/habitats.json'
 import recipesData from '@/data/recipes.json'
 import { BASE_URL } from '@/lib/site'
 import { isIndexableDatabaseEntry, isIndexableGuide } from '@/lib/indexing'
+import { publishedPokedexDetails } from '@/lib/pokedexPublishing'
 
-const SITE_REVIEWED_AT = new Date('2026-07-16')
+const POKEDEX_REVIEWED_AT = new Date('2026-11-05')
 const REDIRECTED_NEWS_SLUGS = new Set([
   'pokemon-pokopia-multiplayer-gameshare-details',
   'pokemon-pokopia-switch-2-online-local-gameshare',
 ])
 
 const staticPages = [
-  { url: '/', priority: 1.0, changefreq: 'daily' },
-  { url: '/pokedex/', priority: 0.92, changefreq: 'weekly' },
+  { url: '/', priority: 1.0, changefreq: 'daily', lastModified: POKEDEX_REVIEWED_AT },
+  { url: '/pokedex/', priority: 0.92, changefreq: 'weekly', lastModified: POKEDEX_REVIEWED_AT },
   { url: '/official/', priority: 0.9, changefreq: 'weekly' },
   { url: '/news/', priority: 0.85, changefreq: 'weekly' },
   { url: '/news/weekly-event-tracker/', priority: 0.76, changefreq: 'weekly' },
@@ -39,9 +40,9 @@ const staticPages = [
 ]
 
 function reviewedDate(value?: string | number | null) {
-  if (!value) return SITE_REVIEWED_AT
+  if (!value) return undefined
   const date = typeof value === 'number' ? new Date(value * 1000) : new Date(value)
-  return Number.isNaN(date.getTime()) ? SITE_REVIEWED_AT : date
+  return Number.isNaN(date.getTime()) ? undefined : date
 }
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -57,7 +58,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   staticPages.forEach((page) => {
     addEntry({
       url: `${BASE_URL}${page.url}`,
-      lastModified: SITE_REVIEWED_AT,
+      ...('lastModified' in page ? { lastModified: page.lastModified } : {}),
       changeFrequency: page.changefreq as any,
       priority: page.priority,
     })
@@ -89,6 +90,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: reviewedDate(page.updated_at),
       changeFrequency: 'monthly',
       priority: 0.86,
+    })
+  })
+
+  publishedPokedexDetails.forEach((pokemon) => {
+    addEntry({
+      url: `${BASE_URL}/pokedex/${pokemon.slug}/`,
+      lastModified: POKEDEX_REVIEWED_AT,
+      changeFrequency: 'monthly',
+      priority: 0.7,
     })
   })
 

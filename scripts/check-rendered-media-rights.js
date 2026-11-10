@@ -7,6 +7,9 @@ const dataFiles = ['news.json', 'guides.json', 'pokemon.json', 'habitats.json', 
 const unresolvedPaths = new Set()
 const retiredPublicPaths = new Set()
 const retiredQuarantinePaths = new Set()
+const qualityRetirement = JSON.parse(
+  fs.readFileSync(path.join(root, 'config/media-quality-retirement.json'), 'utf8'),
+)
 const issues = []
 let retiredRecords = 0
 
@@ -40,12 +43,42 @@ if (fs.existsSync(publicNintendoDirectory)) {
   issues.push('retired Nintendo media directory still exists inside public')
 }
 
+for (const item of qualityRetirement.retired_media) {
+  const publicPath = path.join(root, 'public', item.public_path.replace(/^\//, ''))
+  const quarantinePath = path.join(root, item.quarantine_path)
+  if (fs.existsSync(publicPath)) issues.push(`quality-retired media remains public: ${item.public_path}`)
+  if (!fs.existsSync(quarantinePath)) issues.push(`quality-retired media is missing from quarantine: ${item.quarantine_path}`)
+}
+
 function walk(directory) {
   for (const entry of fs.readdirSync(directory, { withFileTypes: true })) {
     const fullPath = path.join(directory, entry.name)
     if (entry.isDirectory()) walk(fullPath)
     else if (entry.isFile() && entry.name.endsWith('.html')) {
       const html = fs.readFileSync(fullPath, 'utf8')
+      const relativePath = path.relative(outDir, fullPath).replaceAll('\\', '/')
+      if (
+        relativePath.startsWith('guides/') &&
+        relativePath !== 'guides/index.html' &&
+        /<meta name="robots" content="noindex/.test(html) &&
+        /\/images\/(guides|pokemon|habitats|recipes)\//.test(html)
+      ) {
+        issues.push(`${path.relative(root, fullPath)} exposes legacy media on a quarantined guide`)
+      }
+      if (
+        (relativePath.startsWith('wiki/pokemon/') || relativePath.startsWith('wiki/habitat/') || relativePath.startsWith('wiki/recipe/')) &&
+        /<meta name="robots" content="noindex/.test(html) &&
+        /\/images\/(guides|pokemon|habitats|recipes)\//.test(html)
+      ) {
+        issues.push(`${path.relative(root, fullPath)} exposes legacy media on a quarantined database page`)
+      }
+      if (
+        (relativePath.startsWith('tags/') || relativePath === 'features/roommate-matchmaker/index.html') &&
+        /<meta name="robots" content="noindex/.test(html) &&
+        /\/images\/(guides|pokemon|habitats|recipes)\//.test(html)
+      ) {
+        issues.push(`${path.relative(root, fullPath)} exposes legacy media on a quarantined derived page`)
+      }
       for (const mediaPath of unresolvedPaths) {
         if (html.includes(mediaPath)) {
           issues.push(`${path.relative(root, fullPath)} exposes unresolved media ${mediaPath}`)
@@ -54,6 +87,11 @@ function walk(directory) {
       for (const mediaPath of retiredPublicPaths) {
         if (html.includes(mediaPath)) {
           issues.push(`${path.relative(root, fullPath)} exposes retired media ${mediaPath}`)
+        }
+      }
+      for (const item of qualityRetirement.retired_media) {
+        if (html.includes(item.public_path)) {
+          issues.push(`${path.relative(root, fullPath)} exposes quality-retired media ${item.public_path}`)
         }
       }
     }

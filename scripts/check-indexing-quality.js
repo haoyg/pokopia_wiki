@@ -107,13 +107,23 @@ const sitemapLastModified = new Map()
 
 if (fs.existsSync(sitemapPath)) {
   const sitemap = fs.readFileSync(sitemapPath, 'utf8')
-  const sitemapEntries = [...sitemap.matchAll(/<url>\s*<loc>([^<]+)<\/loc>\s*<lastmod>([^<]+)<\/lastmod>/g)]
+  const sitemapEntries = [...sitemap.matchAll(/<url>([\s\S]*?)<\/url>/g)].map(([, block]) => ({
+    url: block.match(/<loc>([^<]+)<\/loc>/)?.[1],
+    lastModified: block.match(/<lastmod>([^<]+)<\/lastmod>/)?.[1],
+  }))
   const seen = new Set()
 
-  for (const [, url, lastModified] of sitemapEntries) {
+  for (const { url, lastModified } of sitemapEntries) {
+    assert(Boolean(url), 'sitemap contains a URL entry without loc')
+    if (!url) continue
     const pagePath = normalizedPath(url)
     sitemapPagePaths.push(pagePath)
-    sitemapLastModified.set(pagePath, lastModified)
+    if (lastModified) {
+      sitemapLastModified.set(pagePath, lastModified)
+      const normalizedDate = new Date(lastModified)
+      assert(!Number.isNaN(normalizedDate.getTime()), `sitemap contains invalid lastmod for ${pagePath}: ${lastModified}`)
+      assert(normalizedDate <= new Date(), `sitemap contains future lastmod for ${pagePath}: ${lastModified}`)
+    }
     assert(!seen.has(url), `sitemap contains duplicate URL: ${url}`)
     seen.add(url)
 
@@ -135,6 +145,36 @@ if (fs.existsSync(sitemapPath)) {
       assert(!hasNoindex(head), `sitemap URL exports noindex HTML: ${pagePath}`)
     }
   }
+}
+
+const expectedUndatedSitemapPaths = new Set([
+  '/official/',
+  '/news/',
+  '/news/weekly-event-tracker/',
+  '/features/',
+  '/features/pokopia-animal-crossing/',
+  '/features/friendship-requests-tracker/',
+  '/features/creative-play-ideas/',
+  '/features/meta-analysis/',
+  '/about/',
+  '/contact/',
+  '/editorial-policy/',
+  '/source-policy/',
+  '/corrections/',
+  '/disclaimer/',
+  '/copyright/',
+  '/privacy-policy/',
+  '/terms/',
+])
+for (const pagePath of expectedUndatedSitemapPaths) {
+  assert(sitemapPagePaths.includes(pagePath), `expected static sitemap page is missing: ${pagePath}`)
+  assert(!sitemapLastModified.has(pagePath), `static sitemap page has lastmod without page-specific evidence: ${pagePath}`)
+}
+for (const pagePath of ['/', '/pokedex/']) {
+  assert(
+    sitemapLastModified.get(pagePath) === '2026-11-05T00:00:00.000Z',
+    `reviewed sitemap page has incorrect lastmod: ${pagePath}`
+  )
 }
 
 for (const item of news.filter((entry) => entry.updated_at)) {

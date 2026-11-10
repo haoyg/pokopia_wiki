@@ -29,27 +29,6 @@ export function guideImage(slug: string) {
   return GUIDE_COVER_IMAGES[slug] || `/images/guides/${slug}.svg`
 }
 
-export function newsImage(slug: string, category?: string) {
-  const newsImages: Record<string, string> = {
-    // Real editorial cover images
-    'pokopia-dive-update-how-to-unlock-dive': '/images/news/pokopia-dive-update-cover.png',
-    'pokopia-expansion-pass-bubbly-basin-bonuses': '/images/news/pokopia-bubbly-basin-cover.png',
-    'pokemon-pokopia-release-date-platform': '/images/news/pokemon-pokopia-release-date-platform-cover.png',
-    'pokemon-pokopia-gameplay-overview-confirmed-features': '/images/news/pokemon-pokopia-gameplay-overview-confirmed-features-cover.png',
-    'pokemon-pokopia-wish-upon-a-jirachi-event': '/images/news/pokemon-pokopia-wish-upon-a-jirachi-event-cover.png',
-    'nintendo-switch-2-pokemon-pokopia-bundle-singapore': '/images/news/nintendo-switch-2-pokemon-pokopia-bundle-singapore-cover.png',
-    'pokemon-pokopia-confirmed-moves-leafage-surf-glide': '/images/news/pokemon-pokopia-confirmed-moves-leafage-surf-glide-cover.png',
-    'pokemon-pokopia-pc-requests-daily-challenges': '/images/news/pokemon-pokopia-pc-requests-daily-challenges-cover.png',
-    'pokemon-pokopia-cloud-island-palette-town-explained': '/images/news/pokemon-pokopia-cloud-island-palette-town-explained-cover.png',
-    'pokemon-pokopia-multiplayer-gameshare-details': '/images/news/pokemon-pokopia-multiplayer-gameshare-details-cover.png',
-    'pokemon-pokopia-early-purchase-bonus-ditto-rug': '/images/news/pokemon-pokopia-early-purchase-bonus-ditto-rug-cover.png',
-    'what-is-pokemon-pokopia-official-summary': '/images/news/what-is-pokemon-pokopia-official-summary-cover.png',
-    'pokemon-pokopia-official-beginner-tips': '/images/news/pokemon-pokopia-official-beginner-tips-cover.png',
-    'pokopia-portal-official-editorial-labels': '/images/news/pokopia-portal-official-editorial-labels-cover.png',
-  }
-  return newsImages[slug] || (category ? `/images/news/${category}.svg` : undefined)
-}
-
 export function pokemonImage(name: string) {
   return `/images/pokemon/${assetSlug(name)}.png`
 }

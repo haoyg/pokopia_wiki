@@ -1,13 +1,16 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import pokedex from '@/data/pokedex-verified.json'
+import imageManifest from '@/data/pokedex-image-manifest.json'
 import { BreadcrumbJsonLd, ItemListJsonLd, WebPageJsonLd } from '@/components/seo/JsonLd'
 import { canonicalUrl } from '@/lib/site'
+import { PokedexFilterControls } from './PokedexFilterControls'
+import { publishedPokedexDetailSlugs } from '@/lib/pokedexPublishing'
 
 export const metadata: Metadata = {
   title: 'Pokopia Pokédex — Verified Pokémon, Habitats & Specialties',
   description:
-    'A source-checked Pokopia Pokédex. Browse the first 175 reviewed Pokémon with types, specialties, forms, and in-game habitat requirements.',
+    'A source-checked Pokopia Pokédex covering all 300 base-game Pokémon with types, specialties, forms, habitats, and unlock methods.',
   alternates: { canonical: canonicalUrl('/pokedex') },
   openGraph: {
     title: 'Pokopia Pokédex — Verified Pokémon, Habitats & Specialties',
@@ -19,8 +22,11 @@ export const metadata: Metadata = {
 
 const itemList = pokedex.pokemon.map((pokemon) => ({
   name: `#${String(pokemon.number).padStart(3, '0')} ${pokemon.name}`,
-  url: `/pokedex#${pokemon.slug}`,
+  url: publishedPokedexDetailSlugs.has(pokemon.slug) ? `/pokedex/${pokemon.slug}` : `/pokedex#${pokemon.slug}`,
 }))
+
+const imageBySlug = new Map(imageManifest.images.map((image) => [image.slug, image]))
+const pokemonTypes = [...new Set(pokedex.pokemon.flatMap((pokemon) => pokemon.types))].sort()
 
 export default function PokedexPage() {
   return (
@@ -46,7 +52,7 @@ export default function PokedexPage() {
           <h1>Pokopia Pokédex</h1>
           <p>
             Real Pokémon names, types, specialties, and habitat requirements—published only after cross-checking
-            multiple references. The reviewed database currently covers Pokédex #001–#175.
+            multiple references. The reviewed database now covers the complete base-game Pokédex, #001–#300.
           </p>
         </div>
         <aside className="pokedex-scope" aria-label="Pokédex coverage">
@@ -69,12 +75,45 @@ export default function PokedexPage() {
         <Link href="/source-policy">Read the source policy →</Link>
       </section>
 
-      <section className="pokedex-grid" aria-label="Reviewed Pokopia Pokédex entries">
-        {pokedex.pokemon.map((pokemon) => (
-          <article id={pokemon.slug} key={pokemon.slug} className="pokedex-card">
+      <PokedexFilterControls total={pokedex.pokemon.length} types={pokemonTypes} />
+
+      <section id="pokedex-results" className="pokedex-grid" aria-label="Reviewed Pokopia Pokédex entries">
+        {pokedex.pokemon.map((pokemon) => {
+          const image = imageBySlug.get(pokemon.slug)
+          const searchText = [
+            pokemon.name,
+            String(pokemon.number),
+            String(pokemon.number).padStart(3, '0'),
+            String(pokemon.national_dex),
+            String(pokemon.national_dex).padStart(4, '0'),
+            ...pokemon.types,
+            ...pokemon.specialties,
+            ...pokemon.habitats,
+          ].join(' ').toLocaleLowerCase()
+          return (
+          <article
+            id={pokemon.slug}
+            key={pokemon.slug}
+            className="pokedex-card"
+            data-search={searchText}
+            data-types={pokemon.types.map((type) => type.toLocaleLowerCase()).join('|')}
+          >
+            {image ? (
+              <div className="pokedex-card-media">
+                <img
+                  src={image.image_url}
+                  alt={image.image_alt}
+                  width={image.width}
+                  height={image.height}
+                  loading={pokemon.number <= 3 ? 'eager' : 'lazy'}
+                  fetchPriority={pokemon.number === 1 ? 'high' : 'auto'}
+                  decoding="async"
+                />
+              </div>
+            ) : null}
             <div className="pokedex-card-heading">
               <span>#{String(pokemon.number).padStart(3, '0')}</span>
-              <h2>{pokemon.name}</h2>
+              <h2>{publishedPokedexDetailSlugs.has(pokemon.slug) ? <Link href={`/pokedex/${pokemon.slug}`}>{pokemon.name}</Link> : pokemon.name}</h2>
               <small>National #{String(pokemon.national_dex).padStart(4, '0')}</small>
             </div>
             <dl>
@@ -94,8 +133,14 @@ export default function PokedexPage() {
               </div>
               <div>
                 <dt>Habitat requirements</dt>
-                <dd>{pokemon.habitats.join('; ')}</dd>
+                <dd>{pokemon.habitats.length > 0 ? pokemon.habitats.join('; ') : ('acquisition' in pokemon ? 'Not applicable' : 'Under review')}</dd>
               </div>
+              {'acquisition' in pokemon && pokemon.acquisition ? (
+                <div>
+                  <dt>Acquisition</dt>
+                  <dd>{pokemon.acquisition}</dd>
+                </div>
+              ) : null}
             </dl>
             {'variants' in pokemon && pokemon.variants ? (
               <div className="pokedex-variants">
@@ -115,7 +160,8 @@ export default function PokedexPage() {
               <p className="pokedex-field-note">{Object.values(pokemon.field_notes).join(' ')}</p>
             ) : null}
           </article>
-        ))}
+          )
+        })}
       </section>
 
       <section className="pokedex-sources" aria-labelledby="sources-heading">
@@ -134,6 +180,11 @@ export default function PokedexPage() {
             </li>
           ))}
         </ul>
+        <p className="pokedex-image-credit">
+          Pokémon identification artwork is served locally at reduced resolution from the {imageManifest.source.name}.
+          Pokémon characters and artwork belong to their respective rights holders. See our{' '}
+          <Link href="/source-policy">source policy</Link> for how media provenance is recorded.
+        </p>
         <Link href="/corrections">Report a correction →</Link>
       </section>
     </main>

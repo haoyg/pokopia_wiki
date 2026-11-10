@@ -2,10 +2,9 @@ import { Metadata } from 'next'
 import recipesData from '@/data/recipes.json'
 import { canonicalUrl } from '@/lib/site'
 import { noIndexMetadata } from '@/lib/indexing'
-import { CreditedImage } from '@/components/media/CreditedImage'
+import { MediaReviewPlaceholder } from '@/components/media/MediaReviewPlaceholder'
 import { DataStatus } from '@/components/content/DataStatus'
 import { BreadcrumbJsonLd, ItemListJsonLd } from '@/components/seo/JsonLd'
-import { recipeImage } from '@/lib/localImages'
 
 const rarityLabels: Record<string, string> = {
   'common': 'Common', 'uncommon': 'Uncommon', 'rare': 'Rare', 'legendary': 'Legendary',
@@ -120,13 +119,7 @@ export default function RecipePage() {
             {recipesData.slice(0, 6).map((rec) => (
               <a key={rec.id} href={`/wiki/recipe/${rec.id}`} className="card" style={{ background: 'var(--color-bg-card)', borderRadius: 'var(--radius-lg)', overflow: 'hidden', textDecoration: 'none', boxShadow: 'var(--shadow-sm)', display: 'flex', alignItems: 'center', gap: 'var(--space-3)', padding: 'var(--space-3)' }}>
                 <div style={{ width: 60, height: 60, flexShrink: 0, background: 'var(--color-bg-alt)', borderRadius: 'var(--radius-md)', overflow: 'hidden', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                  <img
-                    src={recipeImage(rec.id, rec.name)}
-                    alt={rec.name}
-                    loading="lazy"
-                    decoding="async"
-                    style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                  />
+                  <MediaReviewPlaceholder compact label={`${rec.name} media pending review`} />
                 </div>
                 <div>
                   <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-2)', marginBottom: '4px' }}>
@@ -214,7 +207,7 @@ export default function RecipePage() {
       <div className="pokemon-grid">
         {recipesData.map((r) => (
           <a key={r.id} href={`/wiki/recipe/${r.id}`} className="card">
-            <CreditedImage src={r.image_url} alt={r.image_alt || r.name} source={r.image_source} sourceUrl={r.image_source_url} licenseNote={r.image_license_note} originalMedia={r.image_original_media} rightsStatus={r.image_rights_status} creditLink={false} fallbackSrc={recipeImage(r.id, r.name)} fallbackAlt={`${r.name} recipe illustration`} />
+            <MediaReviewPlaceholder label="Recipe media pending review" />
             <h3 className="index-card-title index-card-title-center">{r.name}</h3>
             <p className="index-card-meta">{r.buff}</p>
             <p className="index-card-submeta">{r.effect_duration} · {r.best_use}</p>

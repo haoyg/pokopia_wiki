@@ -1,15 +1,45 @@
 import type { Metadata } from 'next'
 import verifiedPokedex from '@/data/pokedex-verified.json'
+import pokedexImageManifest from '@/data/pokedex-image-manifest.json'
 import habitatData from '@/data/habitats.json'
 import recipeData from '@/data/recipes.json'
 import { canonicalUrl } from '@/lib/site'
 import { WebPageJsonLd } from '@/components/seo/JsonLd'
 import { habitatImage, recipeImage } from '@/lib/localImages'
 import { HeroBackground } from '@/components/HeroBackground'
+import { ResponsiveImage } from '@/components/media/ResponsiveImage'
 import { isIndexableDatabaseEntry } from '@/lib/indexing'
+import { publishedPokedexDetailSlugs } from '@/lib/pokedexPublishing'
 
 const verifiedHabitats = habitatData.filter(isIndexableDatabaseEntry)
 const verifiedRecipes = recipeData.filter(isIndexableDatabaseEntry)
+
+const pokedexImageBySlug = new Map(
+  pokedexImageManifest.images.map((image) => [image.slug, image]),
+)
+
+const featuredPokemonSlugs = [
+  'pikachu',
+  'snorlax',
+  'toxtricity',
+  'kyogre',
+  'lugia',
+  'ho-oh',
+  'mewtwo',
+  'mew',
+]
+
+const featuredPokemon = featuredPokemonSlugs.flatMap((slug) => {
+  const pokemon = verifiedPokedex.pokemon.find((entry) => entry.slug === slug)
+  const image = pokedexImageBySlug.get(slug)
+  return pokemon && image ? [{ pokemon, image }] : []
+})
+
+function featuredPokemonHref(slug: string) {
+  return publishedPokedexDetailSlugs.has(slug)
+    ? `/pokedex/${slug}`
+    : `/pokedex#${slug}`
+}
 
 export const metadata: Metadata = {
   title: 'Pokopia Wiki — Official Info and Source-Checked Guides | Pokopia Cloud',
@@ -47,7 +77,7 @@ const portalSections = [
   {
     href: '/pokedex',
     label: 'Verified Pokédex',
-    description: 'Browse the first 175 reviewed Pokémon with cross-checked types, forms, specialties, and habitat requirements.',
+    description: 'Browse all 300 reviewed base-game Pokémon with cross-checked types, forms, specialties, habitats, and unlock methods.',
     tags: ['Reviewed entries', 'Source policy'],
     tagHrefs: ['/pokedex', '/source-policy'],
   },
@@ -84,13 +114,13 @@ const featuredGuides = [
     href: '/official/release-date-platform-price',
     label: 'Release and Platform Details',
     description: 'Source-linked release, platform, and availability information.',
-    image: '/images/guides/pokopia-game-artwork.png',
+    image: '/images/guides/pokopia-official-1.png',
   },
   {
     href: '/news',
     label: 'News and Source Updates',
     description: 'Follow official announcements, trailers, and dated source roundups.',
-    image: '/images/guides/best-starter-pokemon.png',
+    image: '/images/guides/pokopia-official-6.png',
   },
 ]
 
@@ -138,7 +168,7 @@ export default function HomePage() {
         name="Pokopia Wiki — Official Info and Source-Checked Guides"
         description="Official information, cited updates, and source-checked Pokopia guides."
         url="/"
-        dateModified="2026-08-11"
+        dateModified="2026-11-05"
       />
 
       {/* Portal hero */}
@@ -181,7 +211,7 @@ export default function HomePage() {
           {featuredGuides.map((guide) => (
             <a key={guide.href} href={guide.href} className="route-card">
               <div className="card-cover">
-                <img src={guide.image} alt="" loading="lazy" decoding="async" />
+                <ResponsiveImage src={guide.image} alt="" sizes="(max-width: 640px) 100vw, 275px" />
               </div>
               <h3>{guide.label}</h3>
               <p>{guide.description}</p>
@@ -191,21 +221,33 @@ export default function HomePage() {
       </section>
 
       {/* Featured Pokemon strip */}
-      <section style={{ padding: 'var(--space-6) 0', background: 'var(--color-bg-alt)', borderTop: '1px solid var(--color-border)', borderBottom: '1px solid var(--color-border)' }}>
-        <div style={{ maxWidth: 1100, margin: '0 auto', padding: '0 var(--space-4)' }}>
-          <div style={{ marginBottom: 'var(--space-4)', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+      <section className="home-pokedex-showcase">
+        <div className="home-section-inner">
+          <div className="home-section-heading">
             <div>
-              <p style={{ color: 'var(--color-secondary)', fontWeight: 800, textTransform: 'uppercase', fontSize: 'var(--font-size-xs)', margin: 0 }}>Database</p>
-              <h2 style={{ margin: '4px 0 0', fontSize: 'var(--font-size-xl)', fontWeight: 900 }}>Verified Pokédex</h2>
+              <p>Database</p>
+              <h2>Verified Pokédex</h2>
             </div>
-            <a href="/pokedex" style={{ color: 'var(--color-secondary)', fontWeight: 800, fontSize: 'var(--font-size-sm)' }}>Browse all reviewed entries →</a>
+            <a href="/pokedex">Browse all 300 entries →</a>
           </div>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(130px, 1fr))', gap: 'var(--space-3)' }}>
-            {verifiedPokedex.pokemon.slice(0, 8).map((pokemon) => (
-              <a key={pokemon.slug} href={`/pokedex#${pokemon.slug}`} className="card" style={{ background: 'var(--color-bg-card)', borderRadius: 'var(--radius-lg)', padding: 'var(--space-3)', textDecoration: 'none', boxShadow: 'var(--shadow-sm)', display: 'block' }}>
-                <p style={{ margin: 0, color: 'var(--color-secondary)', fontWeight: 900, fontSize: 'var(--font-size-xs)' }}>#{String(pokemon.number).padStart(3, '0')}</p>
-                <p style={{ margin: '4px 0 0', fontWeight: 800, fontSize: 'var(--font-size-base)', color: 'var(--color-text)' }}>{pokemon.name}</p>
-                <p style={{ margin: '4px 0 0', fontSize: 'var(--font-size-xs)', color: 'var(--color-text-secondary)' }}>{pokemon.types.join(' / ')}</p>
+          <div className="home-pokedex-grid">
+            {featuredPokemon.map(({ pokemon, image }) => (
+              <a key={pokemon.slug} href={featuredPokemonHref(pokemon.slug)} className="home-pokemon-card">
+                <span className="home-pokemon-art">
+                  <img
+                    src={image.image_url}
+                    alt={image.image_alt}
+                    width={image.width}
+                    height={image.height}
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </span>
+                <span className="home-pokemon-copy">
+                  <small>#{String(pokemon.number).padStart(3, '0')}</small>
+                  <strong>{pokemon.name}</strong>
+                  <span>{pokemon.types.join(' / ')}</span>
+                </span>
               </a>
             ))}
           </div>
@@ -213,7 +255,7 @@ export default function HomePage() {
       </section>
 
       {/* Featured Habitats strip */}
-      <section style={{ padding: 'var(--space-6) 0' }}>
+      {verifiedHabitats.length > 0 ? <section style={{ padding: 'var(--space-6) 0' }}>
         <div style={{ maxWidth: 1100, margin: '0 auto', padding: '0 var(--space-4)' }}>
           <div style={{ marginBottom: 'var(--space-4)', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
             <div>
@@ -246,10 +288,10 @@ export default function HomePage() {
             ))}
           </div>
         </div>
-      </section>
+      </section> : null}
 
       {/* Featured Recipes strip */}
-      <section style={{ padding: 'var(--space-6) 0', background: 'var(--color-bg-alt)', borderTop: '1px solid var(--color-border)', borderBottom: '1px solid var(--color-border)' }}>
+      {verifiedRecipes.length > 0 ? <section style={{ padding: 'var(--space-6) 0', background: 'var(--color-bg-alt)', borderTop: '1px solid var(--color-border)', borderBottom: '1px solid var(--color-border)' }}>
         <div style={{ maxWidth: 1100, margin: '0 auto', padding: '0 var(--space-4)' }}>
           <div style={{ marginBottom: 'var(--space-4)', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
             <div>
@@ -279,10 +321,10 @@ export default function HomePage() {
             ))}
           </div>
         </div>
-      </section>
+      </section> : null}
 
       {/* Tools strip */}
-      <section className="home-tools-strip">
+      {tools.length > 0 ? <section className="home-tools-strip">
         <div className="home-tools-grid">
           {tools.map((tool) => (
             <a key={tool.href} href={tool.href} className="home-tool-card">
@@ -296,7 +338,7 @@ export default function HomePage() {
             </a>
           ))}
         </div>
-      </section>
+      </section> : null}
 
       {/* Quick links by goal */}
       <section>

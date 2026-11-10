@@ -6,10 +6,10 @@ import habitatsData from '@/data/habitats.json'
 import { ArticleJsonLd, BreadcrumbJsonLd } from '@/components/seo/JsonLd'
 import { canonicalUrl } from '@/lib/site'
 import { cleanDescription, cleanTitle } from '@/lib/seoText'
-import { CreditedImage } from '@/components/media/CreditedImage'
 import { DataStatus } from '@/components/content/DataStatus'
 import { hasClearedMediaRights } from '@/lib/mediaRights'
-import { newsImage } from '@/lib/localImages'
+import { NewsEditorialCover } from '@/components/news/NewsEditorialCover'
+import { isIndexableDatabaseEntry, isIndexableGuide } from '@/lib/indexing'
 
 const categoryLabels: Record<string, string> = {
   official: 'Official',
@@ -80,13 +80,13 @@ export default async function NewsDetailPage({ params }: Props) {
 
   const date = new Date(news.published_at * 1000).toLocaleDateString()
   const guideSlugs = (news.related_guides || '').split(',').filter(Boolean)
-  const relatedGuides = guidesData.filter((g) => guideSlugs.includes(g.slug))
+  const relatedGuides = guidesData.filter((g) => guideSlugs.includes(g.slug) && isIndexableGuide(g))
 
   const pokemonIds = (news.related_pokemon || '').split(',').filter(Boolean)
-  const relatedPokemon = pokemonData.filter((p) => pokemonIds.includes(p.id))
+  const relatedPokemon = pokemonData.filter((p) => pokemonIds.includes(p.id) && isIndexableDatabaseEntry(p))
 
   const habitatIds = (news.related_habitats || '').split(',').filter(Boolean)
-  const relatedHabitats = habitatsData.filter((h) => habitatIds.includes(h.id))
+  const relatedHabitats = habitatsData.filter((h) => habitatIds.includes(h.id) && isIndexableDatabaseEntry(h))
 
   const relatedNews = newsData.filter((n) => n.id !== news.id).slice(0, 3)
   const contentParagraphs = news.content.split('\n\n').filter(Boolean)
@@ -138,7 +138,7 @@ export default async function NewsDetailPage({ params }: Props) {
               </div>
             </div>
             <div className="news-detail-cover-wrapper">
-              <CreditedImage src={news.image_url} alt={news.image_alt} source={news.image_source} sourceUrl={news.image_source_url} licenseNote={news.image_license_note} originalMedia={news.image_original_media} rightsStatus={news.image_rights_status} className="news-detail-cover" sizes="(max-width: 768px) 100vw, 1200px" priority fallbackSrc={newsImage(news.slug)} fallbackAlt={`${news.title} news illustration`} />
+              <NewsEditorialCover category={news.category} title={news.title} className="news-detail-cover" />
             </div>
           </div>
 

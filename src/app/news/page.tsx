@@ -1,9 +1,8 @@
 import { Metadata } from 'next'
 import newsData from '@/data/news.json'
 import { canonicalUrl } from '@/lib/site'
-import { CreditedImage } from '@/components/media/CreditedImage'
 import { BreadcrumbJsonLd, ItemListJsonLd } from '@/components/seo/JsonLd'
-import { newsImage } from '@/lib/localImages'
+import { NewsEditorialCover } from '@/components/news/NewsEditorialCover'
 
 const categoryLabels: Record<string, string> = {
   official: 'Official',
@@ -105,7 +104,7 @@ export default function NewsPage() {
 
       <section className="news-lead-panel">
         <a href={`/news/${leadNews.slug}`} className="news-lead-card">
-          <CreditedImage src={leadNews.image_url} alt={leadNews.image_alt} source={leadNews.image_source} sourceUrl={leadNews.image_source_url} licenseNote={leadNews.image_license_note} originalMedia={leadNews.image_original_media} rightsStatus={leadNews.image_rights_status} className="news-lead-image" sizes="(max-width: 768px) 100vw, 620px" priority creditLink={false} fallbackSrc={newsImage(leadNews.slug, leadNews.category)} fallbackAlt={`${leadNews.title} news illustration`} />
+          <NewsEditorialCover category={leadNews.category} title={leadNews.title} className="news-lead-image" />
           <div>
             <span className={`badge ${leadNews.category}`}>{categoryLabels[leadNews.category] || leadNews.category}</span>
             <h2>{leadNews.title}</h2>
@@ -151,15 +150,7 @@ export default function NewsPage() {
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))', gap: 'var(--space-4)' }}>
             {newsData.slice(1, 5).map((item) => (
               <a key={item.id} href={`/news/${item.slug}`} className="card" style={{ background: 'var(--color-bg-card)', borderRadius: 'var(--radius-lg)', overflow: 'hidden', textDecoration: 'none', boxShadow: 'var(--shadow-sm)', display: 'flex', flexDirection: 'column' }}>
-                <div style={{ height: 140, overflow: 'hidden', background: 'var(--color-bg-alt)' }}>
-                  <img
-                    src={item.image_url && !item.image_url.startsWith('http') ? item.image_url : newsImage(item.slug, item.category) || '/images/news/official.svg'}
-                    alt={item.title}
-                    loading="lazy"
-                    decoding="async"
-                    style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                  />
-                </div>
+                <NewsEditorialCover category={item.category} title={item.title} compact />
                 <div style={{ padding: 'var(--space-3)', flex: 1 }}>
                   <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-2)', marginBottom: '6px' }}>
                     <span className={`badge ${item.category}`} style={{ fontSize: 'var(--font-size-xs)' }}>{categoryLabels[item.category] || item.category}</span>
@@ -206,7 +197,7 @@ export default function NewsPage() {
       <div className="news-grid">
         {newsData.slice(1).map((item) => (
           <a key={item.id} href={`/news/${item.slug}`} className="card">
-            <CreditedImage src={item.image_url} alt={item.image_alt} source={item.image_source} sourceUrl={item.image_source_url} licenseNote={item.image_license_note} originalMedia={item.image_original_media} rightsStatus={item.image_rights_status} creditLink={false} fallbackSrc={newsImage(item.slug, item.category)} fallbackAlt={`${item.title} news illustration`} />
+            <NewsEditorialCover category={item.category} title={item.title} compact />
             <span className={`badge ${item.category}`}>{categoryLabels[item.category] || item.category}</span>
             <h3>{item.title}</h3>
             <p>{item.excerpt}</p>

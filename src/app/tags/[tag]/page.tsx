@@ -4,10 +4,9 @@ import pokemonData from '@/data/pokemon.json'
 import habitatsData from '@/data/habitats.json'
 import { canonicalUrl } from '@/lib/site'
 import { noIndexMetadata } from '@/lib/indexing'
-import { BreadcrumbJsonLd, ItemListJsonLd } from '@/components/seo/JsonLd'
-import { CreditedImage } from '@/components/media/CreditedImage'
+import { BreadcrumbJsonLd } from '@/components/seo/JsonLd'
+import { MediaReviewPlaceholder } from '@/components/media/MediaReviewPlaceholder'
 import { DataStatus } from '@/components/content/DataStatus'
-import { pokemonImage } from '@/lib/localImages'
 
 const ALL_TYPES = ['Bug', 'Crystal', 'Dark', 'Dragon', 'Electric', 'Fairy', 'Fighting', 'Fire', 'Flying', 'Ghost', 'Grass', 'Ground', 'Ice', 'Normal', 'Poison', 'Psychic', 'Rock', 'Steel', 'Water']
 const ALL_SPECIALTIES = ['Assassin', 'Attacker', 'Defender', 'Speedster', 'Support', 'Tank']
@@ -36,16 +35,12 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const description = `Browse all Pokopia ${tag} Pokemon with this complete reference. Filter by habitat, rarity, and specialty role.`
   const keywords = [tag, `pokopia ${tag}`, `pokopia ${tag.toLowerCase()} pokemon`]
 
-  const isType = ALL_TYPES.includes(tag)
-  const isSpecialty = ALL_SPECIALTIES.includes(tag)
-  const isRarity = ALL_RARITIES.includes(tag)
-
   return {
     title,
     description,
     keywords,
     alternates: { canonical: canonicalUrl(`/tags/${tag}`) },
-    ...(isType || isSpecialty || isRarity ? {} : noIndexMetadata),
+    robots: noIndexMetadata,
   }
 }
 
@@ -114,16 +109,6 @@ export default async function TagPage({ params }: PageProps) {
         ]}
       />
 
-      <ItemListJsonLd
-        name={`Pokopia ${tag} Pokemon`}
-        description={`All Pokopia Pokemon tagged with ${tag} (${category.toLowerCase()})`}
-        url={`/tags/${tag}`}
-        items={filtered.map((p) => ({
-          name: p.name,
-          url: `/wiki/pokemon/${p.id}`,
-        }))}
-      />
-
       <section className="page-hero">
         <h1>Pokopia {tag} Pokemon</h1>
         <p>
@@ -155,20 +140,7 @@ export default async function TagPage({ params }: PageProps) {
         <div className="pokemon-grid">
           {filtered.map((p) => (
             <Link key={p.id} href={`/wiki/pokemon/${p.id}`} className="card">
-              <CreditedImage
-                src={p.image_url}
-                alt={p.image_alt || p.type}
-                source={p.image_source}
-                sourceUrl={p.image_source_url}
-                licenseNote={p.image_license_note}
-                originalMedia={p.image_original_media}
-                rightsStatus={p.image_rights_status}
-                className="card-cover pokemon-cover"
-                sizes="(max-width: 768px) 100px, 200px"
-                creditLink={false}
-                fallbackSrc={pokemonImage(p.name)}
-                fallbackAlt={`${p.name} Pokemon illustration`}
-              />
+              <MediaReviewPlaceholder label="Pokémon media pending review" />
               <h3 className="index-card-title index-card-title-center">{p.name}</h3>
               <p className="index-card-meta">{p.type}</p>
               <p className="index-card-submeta">{p.specialty} · {habitatNames[p.habitat] || p.habitat}</p>

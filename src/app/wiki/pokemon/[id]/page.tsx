@@ -11,8 +11,9 @@ import { DataStatus } from '@/components/content/DataStatus'
 import { OfficialContext } from '@/components/content/OfficialContext'
 import { SourceReview } from '@/components/content/SourceReview'
 import { WikiInfobox } from '@/components/content/WikiInfobox'
+import { MediaReviewPlaceholder } from '@/components/media/MediaReviewPlaceholder'
 import { isIndexableDatabaseEntry, noIndexMetadata } from '@/lib/indexing'
-import { pokemonImage, habitatImage, guideImage, newsImage } from '@/lib/localImages'
+import { pokemonImage, habitatImage, guideImage } from '@/lib/localImages'
 
 type SourceReviewFields = {
   sources?: { label?: string; url?: string }[]
@@ -52,7 +53,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     openGraph: {
       title,
       description,
-      images: hasClearedMediaRights(pokemon) ? [pokemon.image_url] : ['/og-image.svg'],
+      images: pokemon && isIndexableDatabaseEntry(pokemon) && hasClearedMediaRights(pokemon) ? [pokemon.image_url] : ['/og-image.svg'],
     },
     alternates: pokemon ? {
       canonical: canonicalUrl(`/wiki/pokemon/${pokemon.id}`),
@@ -68,6 +69,7 @@ export default async function PokemonDetailPage({ params }: Props) {
     return <p>Pokemon not found</p>
   }
   const sourceReview = pokemon as typeof pokemon & SourceReviewFields
+  const pokemonIsIndexable = isIndexableDatabaseEntry(pokemon)
 
   const relatedGuides = guidesData.filter((g) =>
     (g.related_pokemon || '').split(',').includes(id)
@@ -88,7 +90,7 @@ export default async function PokemonDetailPage({ params }: Props) {
         description={pokemon.overview || pokemon.description}
         url={`/wiki/pokemon/${pokemon.id}`}
         pageType="Pokemon"
-        image={hasClearedMediaRights(pokemon) ? pokemon.image_url : undefined}
+        image={pokemonIsIndexable && hasClearedMediaRights(pokemon) ? pokemon.image_url : undefined}
         dateModified={modifiedAt}
         properties={[
           { name: 'Type', value: pokemon.type },
@@ -135,6 +137,7 @@ export default async function PokemonDetailPage({ params }: Props) {
             title={pokemon.name}
             subtitle="Pokemon entry"
             image={{
+              withheld: !pokemonIsIndexable,
               src: pokemon.image_url,
               alt: pokemon.image_alt,
               source: pokemon.image_source,
@@ -286,7 +289,7 @@ export default async function PokemonDetailPage({ params }: Props) {
           {habitat && (
             <a href={`/wiki/habitat/${habitat.id}`} className="related-content-card">
               <div style={{ width: 48, height: 48, borderRadius: 'var(--radius-md)', overflow: 'hidden', flexShrink: 0, background: 'var(--color-bg-alt)' }}>
-                <img src={habitat.image_url && !habitat.image_url.startsWith('http') ? habitat.image_url : habitatImage(habitat.id, habitat.name)} alt={habitat.name} loading="lazy" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                {pokemonIsIndexable ? <img src={habitat.image_url && !habitat.image_url.startsWith('http') ? habitat.image_url : habitatImage(habitat.id, habitat.name)} alt={habitat.name} loading="lazy" style={{ width: '100%', height: '100%', objectFit: 'cover' }} /> : <MediaReviewPlaceholder compact />}
               </div>
               <div>
                 <span style={{ fontSize: 'var(--font-size-xs)', color: 'var(--color-secondary)', fontWeight: 800, textTransform: 'uppercase' }}>Habitat</span>
@@ -298,7 +301,7 @@ export default async function PokemonDetailPage({ params }: Props) {
           {relatedGuides.map((g) => (
             <a key={g.id} href={`/guides/${g.slug}`} className="related-content-card">
               <div style={{ width: 48, height: 48, borderRadius: 'var(--radius-md)', overflow: 'hidden', flexShrink: 0, background: 'var(--color-bg-alt)' }}>
-                <img src={g.image_url && !g.image_url.startsWith('http') ? g.image_url : guideImage(g.slug)} alt={g.title} loading="lazy" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                {pokemonIsIndexable ? <img src={g.image_url && !g.image_url.startsWith('http') ? g.image_url : guideImage(g.slug)} alt={g.title} loading="lazy" style={{ width: '100%', height: '100%', objectFit: 'cover' }} /> : <MediaReviewPlaceholder compact />}
               </div>
               <div>
                 <span style={{ fontSize: 'var(--font-size-xs)', color: 'var(--color-secondary)', fontWeight: 800, textTransform: 'uppercase' }}>Guide</span>
@@ -310,7 +313,7 @@ export default async function PokemonDetailPage({ params }: Props) {
           {recentNews.map((n) => (
             <a key={n.id} href={`/news/${n.slug}`} className="related-content-card">
               <div style={{ width: 48, height: 48, borderRadius: 'var(--radius-md)', overflow: 'hidden', flexShrink: 0, background: 'var(--color-bg-alt)' }}>
-                <img src={newsImage(n.slug, n.category) || '/images/news/official.svg'} alt={n.title} loading="lazy" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                <span className="news-related-mark" data-category={n.category} aria-hidden="true">P</span>
               </div>
               <div>
                 <span style={{ fontSize: 'var(--font-size-xs)', color: 'var(--color-secondary)', fontWeight: 800, textTransform: 'uppercase' }}>News</span>

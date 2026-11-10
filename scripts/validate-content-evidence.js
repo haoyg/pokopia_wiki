@@ -39,6 +39,8 @@ let publishable = 0
 let quarantined = 0
 
 const verifiedPokedex = readJson('src/data/pokedex-verified.json')
+const pokedexImageManifest = readJson('src/data/pokedex-image-manifest.json')
+const pokedexImages = new Map((pokedexImageManifest.images || []).map((image) => [image.slug, image]))
 if (!validDate(verifiedPokedex.reviewed_at)) errors.push('pokedex-verified has a missing, invalid, or future reviewed_at date')
 if (!validSources(verifiedPokedex.sources)) errors.push('pokedex-verified contains an invalid, untyped, or self-referential source')
 if (!verifiedPokedex.current_game_version) errors.push('pokedex-verified is missing current_game_version')
@@ -56,6 +58,18 @@ for (const pokemon of verifiedPokedex.pokemon || []) {
   if (pokedexSlugs.has(pokemon.slug)) errors.push(`pokedex-verified contains duplicate slug ${pokemon.slug}`)
   pokedexNumbers.add(pokemon.number)
   pokedexSlugs.add(pokemon.slug)
+  const image = pokedexImages.get(pokemon.slug)
+  if (!image) {
+    errors.push(`pokedex-verified:${pokemon.slug} is missing a Pokédex image manifest entry`)
+  } else {
+    const localImage = String(image.image_url || '').replace(/^\//, '')
+    if (!localImage || !fs.existsSync(path.join(root, 'public', localImage))) {
+      errors.push(`pokedex-verified:${pokemon.slug} references a missing Pokédex image`)
+    }
+    for (const field of ['image_alt', 'image_source_url', 'image_original_media', 'image_rights_status', 'image_usage_basis', 'image_rights_reviewed_at']) {
+      if (!image[field]) errors.push(`pokedex-verified:${pokemon.slug} image is missing ${field}`)
+    }
+  }
   for (const field of ['types', 'specialties', 'habitats']) {
     const hasReviewedException = Boolean(pokemon.field_notes?.[field] || pokemon.field_conflicts?.[field])
     if (!Array.isArray(pokemon[field]) || (pokemon[field].length === 0 && !hasReviewedException)) {
@@ -80,6 +94,9 @@ for (const pokemon of verifiedPokedex.pokemon || []) {
 }
 for (let expectedNumber = 1; expectedNumber <= verifiedPokedex.pokemon.length; expectedNumber += 1) {
   if (!pokedexNumbers.has(expectedNumber)) errors.push(`pokedex-verified is missing sequential number ${expectedNumber}`)
+}
+for (const image of pokedexImageManifest.images || []) {
+  if (!pokedexSlugs.has(image.slug)) errors.push(`pokedex image manifest contains unknown slug ${image.slug}`)
 }
 
 const intake = readJson('src/data/verified-intake.json')

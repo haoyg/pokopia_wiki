@@ -1,0 +1,15 @@
+{
+  "last_reviewed_at": "2026-11-05",
+  "retired_media": [
+    {
+      "public_path": "/images/guides/best-starter-pokemon.png",
+      "quarantine_path": "quarantine/media-quality/best-starter-pokemon.png",
+      "reason": "Unrelated arcade photograph used on a Pokémon Pokopia guide card."
+    },
+    {
+      "public_path": "/images/guides/pokopia-game-artwork.png",
+      "quarantine_path": "quarantine/media-quality/pokopia-game-artwork.png",
+      "reason": "Unverified character illustration that does not represent the linked release and platform content."
+    }
+  ]
+}

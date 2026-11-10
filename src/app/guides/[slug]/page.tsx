@@ -7,6 +7,7 @@ import { ArticleJsonLd, BreadcrumbJsonLd, FAQJsonLd, HowToJsonLd } from '@/compo
 import { canonicalUrl } from '@/lib/site'
 import { cleanDescription, cleanTitle } from '@/lib/seoText'
 import { CreditedImage } from '@/components/media/CreditedImage'
+import { MediaReviewPlaceholder } from '@/components/media/MediaReviewPlaceholder'
 import { DataStatus } from '@/components/content/DataStatus'
 import { OfficialContext } from '@/components/content/OfficialContext'
 import { isIndexableGuide, noIndexMetadata } from '@/lib/indexing'
@@ -40,7 +41,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     openGraph: {
       title,
       description,
-      images: hasClearedMediaRights(guide) ? [guide.image_url] : ['/og-image.svg'],
+      images: isIndexableGuide(guide) && hasClearedMediaRights(guide) ? [guide.image_url] : ['/og-image.svg'],
       type: 'article',
       publishedTime: guide.published_at ? new Date(guide.published_at).toISOString() : undefined,
       modifiedTime: guide.updated_at ? new Date(guide.updated_at).toISOString() : (guide.published_at ? new Date(guide.published_at).toISOString() : undefined),
@@ -49,7 +50,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       card: 'summary_large_image',
       title,
       description,
-      images: hasClearedMediaRights(guide) ? [guide.image_url] : ['/og-image.svg'],
+      images: isIndexableGuide(guide) && hasClearedMediaRights(guide) ? [guide.image_url] : ['/og-image.svg'],
     },
     alternates: {
       canonical: canonicalUrl(`/guides/${guide.slug}`),
@@ -83,6 +84,7 @@ export default async function GuideDetailPage({ params }: Props) {
     sources?: Array<{ label: string; url: string }>
   }
   const verification = guideVerification(guide.slug)
+  const guideIsIndexable = isIndexableGuide(guide)
 
   return (
     <>
@@ -92,7 +94,7 @@ export default async function GuideDetailPage({ params }: Props) {
         url={`/guides/${guide.slug}`}
         publishedAt={new Date(publishedAt).toISOString()}
         modifiedAt={new Date(updatedAt).toISOString()}
-        image={hasClearedMediaRights(guide) ? guide.image_url : undefined}
+        image={guideIsIndexable && hasClearedMediaRights(guide) ? guide.image_url : undefined}
         type="Article"
       />
       <BreadcrumbJsonLd
@@ -129,7 +131,11 @@ export default async function GuideDetailPage({ params }: Props) {
                 description="This page contains unverified editorial planning claims. Its credited promotional image does not verify those claims; use the official-source pages for confirmed Pokémon Pokopia systems."
               />
             </div>
-            <CreditedImage src={guide.image_url} alt={guide.image_alt} source={guide.image_source} sourceUrl={guide.image_source_url} licenseNote={guide.image_license_note} originalMedia={guide.image_original_media} rightsStatus={guide.image_rights_status} className="guide-hero-cover" sizes="(max-width: 768px) 100vw, 420px" priority fallbackSrc={guideImage(guide.slug)} fallbackAlt={`${guide.title} guide illustration`} />
+            {guideIsIndexable ? (
+              <CreditedImage src={guide.image_url} alt={guide.image_alt} source={guide.image_source} sourceUrl={guide.image_source_url} licenseNote={guide.image_license_note} originalMedia={guide.image_original_media} rightsStatus={guide.image_rights_status} className="guide-hero-cover" sizes="(max-width: 768px) 100vw, 420px" priority fallbackSrc={guideImage(guide.slug)} fallbackAlt={`${guide.title} guide illustration`} />
+            ) : (
+              <MediaReviewPlaceholder />
+            )}
           </div>
 
           <section className="guide-answer-panel">
@@ -264,7 +270,7 @@ export default async function GuideDetailPage({ params }: Props) {
             {relatedPokemon.map((p) => (
               <a key={p.id} href={`/wiki/pokemon/${p.id}`} className="related-content-card">
                 <div style={{ width: 48, height: 48, borderRadius: 'var(--radius-md)', overflow: 'hidden', flexShrink: 0, background: 'var(--color-bg-alt)' }}>
-                  <img src={pokemonImage(p.name)} alt={p.name} loading="lazy" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+                  {guideIsIndexable ? <img src={pokemonImage(p.name)} alt={p.name} loading="lazy" style={{ width: '100%', height: '100%', objectFit: 'contain' }} /> : <MediaReviewPlaceholder compact />}
                 </div>
                 <div>
                   <span style={{ fontSize: 'var(--font-size-xs)', color: 'var(--color-secondary)', fontWeight: 800, textTransform: 'uppercase' }}>Pokemon</span>
@@ -276,7 +282,7 @@ export default async function GuideDetailPage({ params }: Props) {
             {relatedHabitats.map((h) => (
               <a key={h.id} href={`/wiki/habitat/${h.id}`} className="related-content-card">
                 <div style={{ width: 48, height: 48, borderRadius: 'var(--radius-md)', overflow: 'hidden', flexShrink: 0, background: 'var(--color-bg-alt)' }}>
-                  <img src={h.image_url && !h.image_url.startsWith('http') ? h.image_url : habitatImage(h.id, h.name)} alt={h.name} loading="lazy" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                  {guideIsIndexable ? <img src={h.image_url && !h.image_url.startsWith('http') ? h.image_url : habitatImage(h.id, h.name)} alt={h.name} loading="lazy" style={{ width: '100%', height: '100%', objectFit: 'cover' }} /> : <MediaReviewPlaceholder compact />}
                 </div>
                 <div>
                   <span style={{ fontSize: 'var(--font-size-xs)', color: 'var(--color-secondary)', fontWeight: 800, textTransform: 'uppercase' }}>Habitat</span>
@@ -288,7 +294,7 @@ export default async function GuideDetailPage({ params }: Props) {
             {relatedRecipes.map((recipe) => (
               <a key={recipe.id} href={`/wiki/recipe/${recipe.id}`} className="related-content-card">
                 <div style={{ width: 48, height: 48, borderRadius: 'var(--radius-md)', overflow: 'hidden', flexShrink: 0, background: 'var(--color-bg-alt)' }}>
-                  <img src={recipeImage(recipe.id, recipe.name)} alt={recipe.name} loading="lazy" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                  {guideIsIndexable ? <img src={recipeImage(recipe.id, recipe.name)} alt={recipe.name} loading="lazy" style={{ width: '100%', height: '100%', objectFit: 'cover' }} /> : <MediaReviewPlaceholder compact />}
                 </div>
                 <div>
                   <span style={{ fontSize: 'var(--font-size-xs)', color: 'var(--color-secondary)', fontWeight: 800, textTransform: 'uppercase' }}>Recipe</span>

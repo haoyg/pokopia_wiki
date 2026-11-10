@@ -11,6 +11,7 @@ import { DataStatus } from '@/components/content/DataStatus'
 import { OfficialContext } from '@/components/content/OfficialContext'
 import { SourceReview } from '@/components/content/SourceReview'
 import { WikiInfobox } from '@/components/content/WikiInfobox'
+import { MediaReviewPlaceholder } from '@/components/media/MediaReviewPlaceholder'
 import { isIndexableDatabaseEntry, noIndexMetadata } from '@/lib/indexing'
 import { habitatImage, pokemonImage, guideImage, recipeImage } from '@/lib/localImages'
 
@@ -51,7 +52,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     openGraph: {
       title,
       description,
-      images: hasClearedMediaRights(habitat) ? [habitat.image_url] : ['/og-image.svg'],
+      images: habitat && isIndexableDatabaseEntry(habitat) && hasClearedMediaRights(habitat) ? [habitat.image_url] : ['/og-image.svg'],
     },
     alternates: habitat ? {
       canonical: canonicalUrl(`/wiki/habitat/${habitat.id}`),
@@ -67,6 +68,7 @@ export default async function HabitatDetailPage({ params }: Props) {
     return <p>Habitat not found</p>
   }
   const sourceReview = habitat as typeof habitat & SourceReviewFields
+  const habitatIsIndexable = isIndexableDatabaseEntry(habitat)
 
   const spawns = (habitat.spawn_list || '').split(',')
   const relatedPokemon = pokemonData.filter((p) => spawns.includes(p.id))
@@ -88,7 +90,7 @@ export default async function HabitatDetailPage({ params }: Props) {
         description={habitat.overview}
         url={`/wiki/habitat/${habitat.id}`}
         pageType="Habitat"
-        image={hasClearedMediaRights(habitat) ? habitat.image_url : undefined}
+        image={habitatIsIndexable && hasClearedMediaRights(habitat) ? habitat.image_url : undefined}
         dateModified={modifiedAt}
         properties={[
           { name: 'Unlock Condition', value: habitat.unlock_condition },
@@ -134,6 +136,7 @@ export default async function HabitatDetailPage({ params }: Props) {
             title={habitat.name}
             subtitle="Habitat entry"
             image={{
+              withheld: !habitatIsIndexable,
               src: habitat.image_url,
               alt: habitat.image_alt || habitat.name,
               source: habitat.image_source,
@@ -188,7 +191,7 @@ export default async function HabitatDetailPage({ params }: Props) {
             <div className="habitat-spawn-grid">
               {relatedPokemon.map((p) => (
                 <a key={p.id} href={`/wiki/pokemon/${p.id}`} style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-2)' }}>
-                  <img src={pokemonImage(p.name)} alt={p.name} loading="lazy" style={{ width: 40, height: 40, objectFit: 'contain', flexShrink: 0 }} />
+                  {habitatIsIndexable ? <img src={pokemonImage(p.name)} alt={p.name} loading="lazy" style={{ width: 40, height: 40, objectFit: 'contain', flexShrink: 0 }} /> : <MediaReviewPlaceholder compact />}
                   <div>
                     <strong>{p.name}</strong>
                     <span>{p.type} · {p.specialty}</span>
@@ -293,7 +296,7 @@ export default async function HabitatDetailPage({ params }: Props) {
           {relatedPokemon.map((p) => (
             <a key={p.id} href={`/wiki/pokemon/${p.id}`} className="related-content-card">
               <div style={{ width: 48, height: 48, borderRadius: 'var(--radius-md)', overflow: 'hidden', flexShrink: 0, background: 'var(--color-bg-alt)' }}>
-                <img src={pokemonImage(p.name)} alt={p.name} loading="lazy" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+                {habitatIsIndexable ? <img src={pokemonImage(p.name)} alt={p.name} loading="lazy" style={{ width: '100%', height: '100%', objectFit: 'contain' }} /> : <MediaReviewPlaceholder compact />}
               </div>
               <div>
                 <span style={{ fontSize: 'var(--font-size-xs)', color: 'var(--color-secondary)', fontWeight: 800, textTransform: 'uppercase' }}>Pokemon</span>
@@ -305,7 +308,7 @@ export default async function HabitatDetailPage({ params }: Props) {
           {recommendedRecipe && (
             <a href={`/wiki/recipe/${recommendedRecipe.id}`} className="related-content-card">
               <div style={{ width: 48, height: 48, borderRadius: 'var(--radius-md)', overflow: 'hidden', flexShrink: 0, background: 'var(--color-bg-alt)' }}>
-                <img src={recipeImage(recommendedRecipe.id, recommendedRecipe.name)} alt={recommendedRecipe.name} loading="lazy" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                {habitatIsIndexable ? <img src={recipeImage(recommendedRecipe.id, recommendedRecipe.name)} alt={recommendedRecipe.name} loading="lazy" style={{ width: '100%', height: '100%', objectFit: 'cover' }} /> : <MediaReviewPlaceholder compact />}
               </div>
               <div>
                 <span style={{ fontSize: 'var(--font-size-xs)', color: 'var(--color-secondary)', fontWeight: 800, textTransform: 'uppercase' }}>Recipe</span>
@@ -317,7 +320,7 @@ export default async function HabitatDetailPage({ params }: Props) {
           {relatedGuides.map((g) => (
             <a key={g.id} href={`/guides/${g.slug}`} className="related-content-card">
               <div style={{ width: 48, height: 48, borderRadius: 'var(--radius-md)', overflow: 'hidden', flexShrink: 0, background: 'var(--color-bg-alt)' }}>
-                <img src={g.image_url && !g.image_url.startsWith('http') ? g.image_url : guideImage(g.slug)} alt={g.title} loading="lazy" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                {habitatIsIndexable ? <img src={g.image_url && !g.image_url.startsWith('http') ? g.image_url : guideImage(g.slug)} alt={g.title} loading="lazy" style={{ width: '100%', height: '100%', objectFit: 'cover' }} /> : <MediaReviewPlaceholder compact />}
               </div>
               <div>
                 <span style={{ fontSize: 'var(--font-size-xs)', color: 'var(--color-secondary)', fontWeight: 800, textTransform: 'uppercase' }}>Guide</span>

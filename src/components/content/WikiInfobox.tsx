@@ -1,7 +1,9 @@
 import type { ReactNode } from 'react'
 import { CreditedImage } from '@/components/media/CreditedImage'
+import { MediaReviewPlaceholder } from '@/components/media/MediaReviewPlaceholder'
 
 type InfoboxImage = {
+  withheld?: boolean
   src?: string
   alt?: string
   source?: string
@@ -33,21 +35,25 @@ export function WikiInfobox({ title, subtitle, image, facts, footer }: WikiInfob
         <strong>{title}</strong>
         <span>{subtitle}</span>
       </div>
-      <CreditedImage
-        src={image.src}
-        alt={image.alt}
-        source={image.source}
-        sourceUrl={image.sourceUrl}
-        licenseNote={image.licenseNote}
-        originalMedia={image.originalMedia}
-        rightsStatus={image.rightsStatus}
-        fallbackSrc={image.fallbackSrc}
-        fallbackAlt={image.fallbackAlt}
-        className="wiki-infobox-image"
-        sizes="260px"
-        priority
-        creditLink={false}
-      />
+      {image.withheld ? (
+        <MediaReviewPlaceholder />
+      ) : (
+        <CreditedImage
+          src={image.src}
+          alt={image.alt}
+          source={image.source}
+          sourceUrl={image.sourceUrl}
+          licenseNote={image.licenseNote}
+          originalMedia={image.originalMedia}
+          rightsStatus={image.rightsStatus}
+          fallbackSrc={image.fallbackSrc}
+          fallbackAlt={image.fallbackAlt}
+          className="wiki-infobox-image"
+          sizes="260px"
+          priority
+          creditLink={false}
+        />
+      )}
       <dl className="wiki-infobox-facts">
         {facts.map((fact) => (
           <div key={fact.label}>

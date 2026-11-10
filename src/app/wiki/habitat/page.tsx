@@ -2,10 +2,9 @@ import { Metadata } from 'next'
 import habitatsData from '@/data/habitats.json'
 import { canonicalUrl } from '@/lib/site'
 import { noIndexMetadata } from '@/lib/indexing'
-import { CreditedImage } from '@/components/media/CreditedImage'
+import { MediaReviewPlaceholder } from '@/components/media/MediaReviewPlaceholder'
 import { DataStatus } from '@/components/content/DataStatus'
 import { BreadcrumbJsonLd, ItemListJsonLd } from '@/components/seo/JsonLd'
-import { habitatImage } from '@/lib/localImages'
 
 const habitatRouteGroups = [
   {
@@ -114,13 +113,7 @@ export default function HabitatPage() {
             {habitatsData.slice(0, 6).map((hab) => (
               <a key={hab.id} href={`/wiki/habitat/${hab.id}`} className="card" style={{ background: 'var(--color-bg-card)', borderRadius: 'var(--radius-lg)', overflow: 'hidden', textDecoration: 'none', boxShadow: 'var(--shadow-sm)', display: 'flex', flexDirection: 'column' }}>
                 <div style={{ height: 110, overflow: 'hidden', background: 'var(--color-bg-alt)' }}>
-                  <img
-                    src={hab.image_url && !hab.image_url.startsWith('http') ? hab.image_url : habitatImage(hab.id, hab.name)}
-                    alt={hab.name}
-                    loading="lazy"
-                    decoding="async"
-                    style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                  />
+                  <MediaReviewPlaceholder compact label={`${hab.name} media pending review`} />
                 </div>
                 <div style={{ padding: 'var(--space-2) var(--space-3)', flex: 1 }}>
                   <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-2)', marginBottom: '4px' }}>
@@ -207,7 +200,7 @@ export default function HabitatPage() {
       <div className="pokemon-grid">
         {habitatsData.map((h) => (
           <a key={h.id} href={`/wiki/habitat/${h.id}`} className="card">
-            <CreditedImage src={h.image_url} alt={h.image_alt || h.name} source={h.image_source} sourceUrl={h.image_source_url} licenseNote={h.image_license_note} originalMedia={h.image_original_media} rightsStatus={h.image_rights_status} creditLink={false} fallbackSrc={habitatImage(h.id, h.name)} fallbackAlt={`${h.name} habitat illustration`} />
+            <MediaReviewPlaceholder label="Habitat media pending review" />
             <h3 className="index-card-title index-card-title-center">{h.name}</h3>
             <p className="index-card-meta">{h.unlock_condition}</p>
             <p className="index-card-submeta">{h.weather} · {h.resource_bonus}</p>

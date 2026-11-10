@@ -3,9 +3,8 @@
 import { useState, useMemo, useEffect } from 'react'
 import pokemonData from '@/data/pokemon.json'
 import habitatsData from '@/data/habitats.json'
-import { CreditedImage } from '@/components/media/CreditedImage'
+import { MediaReviewPlaceholder } from '@/components/media/MediaReviewPlaceholder'
 import { DataStatus } from '@/components/content/DataStatus'
-import { pokemonImage } from '@/lib/localImages'
 
 const habitatNames = Object.fromEntries(habitatsData.map((h) => [h.id, h.name]))
 const ALL_TYPES = [...new Set(pokemonData.flatMap((p) => p.type.split('/')))].sort()
@@ -301,21 +300,7 @@ export default function PokemonClientPage() {
           <div className="pokemon-grid">
             {filtered.map((p) => (
               <a key={p.id} href={`/wiki/pokemon/${p.id}`} className="card">
-                <CreditedImage
-                  src={p.image_url}
-                  alt={p.image_alt || p.type}
-                  source={p.image_source}
-                  sourceUrl={p.image_source_url}
-                  licenseNote={p.image_license_note}
-                  originalMedia={p.image_original_media}
-                  rightsStatus={p.image_rights_status}
-                  className="card-cover pokemon-cover"
-                  sizes="(max-width: 768px) 100px, 200px"
-                  creditLink={false}
-                  showCredit={false}
-                  fallbackSrc={pokemonImage(p.name)}
-                  fallbackAlt={`${p.name} Pokemon illustration`}
-                />
+                <MediaReviewPlaceholder label="Pokémon media pending review" />
                 <h3 className="index-card-title index-card-title-center">{p.name}</h3>
                 <p className="index-card-meta">{p.type}</p>
                 <p className="index-card-submeta">{p.specialty} · {habitatNames[p.habitat] || p.habitat}</p>
