@@ -17,6 +17,22 @@
       "width": 32
     }
   ],
+  "/icon-192.png": [
+    {
+      "src": "/icon-192-192.webp",
+      "width": 192
+    }
+  ],
+  "/icon-512.png": [
+    {
+      "src": "/icon-512-480.webp",
+      "width": 480
+    },
+    {
+      "src": "/icon-512-512.webp",
+      "width": 512
+    }
+  ],
   "/images/guides/pokopia-official-1.png": [
     {
       "src": "/images/guides/pokopia-official-1-480.webp",

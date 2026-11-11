@@ -35,6 +35,19 @@ export function Header() {
           </span>
         </Link>
 
+        <nav id="site-navigation" className="site-nav" aria-label="Main navigation" data-open={menuOpen}>
+          {navItems.map((item) => (
+            <Link
+              key={item.href}
+              href={item.href}
+              aria-current={pathname === item.href || (item.href !== '/' && pathname.startsWith(`${item.href}/`)) ? 'page' : undefined}
+              onClick={() => setMenuOpen(false)}
+            >
+              {item.label}
+            </Link>
+          ))}
+        </nav>
+
         <form className="site-search" action="/search" role="search">
           <input
             type="search"
@@ -56,19 +69,6 @@ export function Header() {
           <span className="sr-only">{menuOpen ? 'Close main navigation' : 'Open main navigation'}</span>
         </button>
       </div>
-
-      <nav id="site-navigation" className="site-nav" aria-label="Main navigation" data-open={menuOpen}>
-        {navItems.map((item) => (
-          <Link
-            key={item.href}
-            href={item.href}
-            aria-current={pathname === item.href || (item.href !== '/' && pathname.startsWith(`${item.href}/`)) ? 'page' : undefined}
-            onClick={() => setMenuOpen(false)}
-          >
-            {item.label}
-          </Link>
-        ))}
-      </nav>
     </header>
   )
 }

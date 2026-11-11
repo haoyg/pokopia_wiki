@@ -80,22 +80,16 @@ export default function PokedexPage() {
       <section id="pokedex-results" className="pokedex-grid" aria-label="Reviewed Pokopia Pokédex entries">
         {pokedex.pokemon.map((pokemon) => {
           const image = imageBySlug.get(pokemon.slug)
-          const searchText = [
-            pokemon.name,
-            String(pokemon.number),
-            String(pokemon.number).padStart(3, '0'),
-            String(pokemon.national_dex),
-            String(pokemon.national_dex).padStart(4, '0'),
-            ...pokemon.types,
-            ...pokemon.specialties,
-            ...pokemon.habitats,
-          ].join(' ').toLocaleLowerCase()
           return (
           <article
             id={pokemon.slug}
             key={pokemon.slug}
             className="pokedex-card"
-            data-search={searchText}
+            data-index={pokemon.number}
+            data-name={pokemon.name.toLocaleLowerCase()}
+            data-numbers={`${pokemon.number}|${String(pokemon.number).padStart(3, '0')}|${pokemon.national_dex}|${String(pokemon.national_dex).padStart(4, '0')}`}
+            data-specialties={pokemon.specialties.map((specialty) => specialty.toLocaleLowerCase()).join('|')}
+            data-habitats={pokemon.habitats.map((habitat) => habitat.toLocaleLowerCase()).join('|')}
             data-types={pokemon.types.map((type) => type.toLocaleLowerCase()).join('|')}
           >
             {image ? (
@@ -159,10 +153,16 @@ export default function PokedexPage() {
             {'field_notes' in pokemon && pokemon.field_notes ? (
               <p className="pokedex-field-note">{Object.values(pokemon.field_notes).join(' ')}</p>
             ) : null}
+            <p className="pokedex-match-reason" hidden />
           </article>
           )
         })}
       </section>
+
+      <div id="pokedex-load-more" className="pokedex-load-more">
+        <button type="button">Show 48 more Pokémon</button>
+        <span data-load-more-status aria-live="polite">48 of {pokedex.pokemon.length} Pokémon shown</span>
+      </div>
 
       <section className="pokedex-sources" aria-labelledby="sources-heading">
         <div>
